@@ -5,7 +5,7 @@ Make Neo-Latin texts from [CroALa](http://croala.ffzg.unizg.hr) conformant to th
 
 ## The team
 
-[Neven Jovanović](orcid.org/0000-0002-9119-399X), Department of Classical Philology, Faculty of Humanities and Social Sciences, University of Zagreb, Croatia
+[Neven Jovanović](http://orcid.org/0000-0002-9119-399X), Department of Classical Philology, Faculty of Humanities and Social Sciences, University of Zagreb, Croatia
 
 Alex Simrell, College of the Holy Cross, Worcester, Massachusetts and University of Zagreb, Croatia
 
