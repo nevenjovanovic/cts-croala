@@ -17,3 +17,7 @@ Of the 467 documents, [443](docs/notcroalactsmulti.list) were easy to describe a
 
 As we are following the [CapiTainS guidelines](http://capitains.github.io/pages/guidelines#directory-structure) (to an extent), it has been necessary to rename files in the collection. There is a [concordance file](docs/croalactsconcordance.xml).
 
+## License
+
+[CC-BY](LICENSE.md)
+
