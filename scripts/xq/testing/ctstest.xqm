@@ -46,6 +46,6 @@ declare %unit:test function test:retrieve-textgroups-urn() {
 
 (: given a URL, retrieve passage :)
 declare %unit:test function test:retrieve-passage-urn() {
-  let $ctsurn := "http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6.div2.div2.l6"
+  let $ctsurn := "urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6.div2.div2.l6"
   return unit:assert-equals(cts:getpassage($ctsurn)[name()="l"]/string(), "Vel Beronicei (58) verticis alma coma ,")
 };
