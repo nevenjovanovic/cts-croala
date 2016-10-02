@@ -44,10 +44,10 @@ declare
 <h1><span class="glyphicon glyphicon-th" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
 <div class="col-md-6">
-<p>Locus in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://cite-architecture.github.io/">architecturae CITE</a>, { current-date() }.</p>
+<p>Operum conglomerationes in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://cite-architecture.github.io/">architecturae CITE</a>, { current-date() }.</p>
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a></p>
 <p>Functio nominatur: {rest:uri()}.</p>
-<p>Redi ad <a href="http://croala.ffzg.unizg.hr/basex/cp/list">CTS URN indiculum</a>.</p>
+<p>Abi ad <a href="https://github.com/nevenjovanovic/cts-croala">Github apothecam</a>.</p>
 </div>
 <div class="col-md-6">
 {croala:infodb('croala-cts-1')}
