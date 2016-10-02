@@ -17,7 +17,7 @@ Of the 467 documents, [443](docs/notcroalactsmulti.list) were easy to describe s
 
 As we are following the [CapiTainS guidelines](http://capitains.github.io/pages/guidelines#directory-structure) (to an extent), it has been necessary to rename files in the collection. There is a [concordance file](docs/croalactsconcordance.xml).
 
-For the reasons to depart from the CapiTainS conventions, and to choose a specific solution among the possibilities offered by the CITE Architecture, see the [CroALa CTS explained](CroALa-CTS-explained).
+For the reasons to depart from the CapiTainS conventions, and to choose a specific solution among the possibilities offered by the CITE Architecture, see the [CroALa CTS explained](CroALa-CTS-explained.md).
 
 ## Contents
 
