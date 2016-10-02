@@ -75,8 +75,7 @@ declare function cts:gettextgroups(){
 
 (: from a CTS URN, retrieve a single passage :)
 declare function cts:getpassage($ctsurn) {
-  let $cts := substring-after($ctsurn, "http://croala.ffzg.unizg.hr/basex/cts/")
-  let $edition := functx:substring-before-last($cts, ":") || ":"
-  let $path := functx:substring-after-last($cts, ":")
+  let $edition := functx:substring-before-last($ctsurn, ":") || ":"
+  let $path := functx:substring-after-last($ctsurn, ":")
   return collection("croala-cts-1")//*:text[@xml:base=$edition]//*[@n=$path]
 };
