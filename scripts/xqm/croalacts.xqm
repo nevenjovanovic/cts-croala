@@ -1,5 +1,7 @@
 module namespace cts = "http://croala.ffzg.unizg.hr/cts";
+import module namespace functx = "http://www.functx.com" at "functx.xqm";
 declare namespace ti = "http://chs.harvard.edu/xmlns/cts";
+
 
 (: list all available CTS URNs of text elements :)
 declare function cts:getcapabilities(){
@@ -69,4 +71,12 @@ declare function cts:gettextgroups(){
     }
   }
   return $table
+};
+
+(: from a CTS URN, retrieve a single passage :)
+declare function cts:getpassage($ctsurn) {
+  let $cts := substring-after($ctsurn, "http://croala.ffzg.unizg.hr/basex/cts/")
+  let $edition := functx:substring-before-last($cts, ":") || ":"
+  let $path := functx:substring-after-last($cts, ":")
+  return collection("croala-cts-1")//*:text[@xml:base=$edition]//*[@n=$path]
 };
