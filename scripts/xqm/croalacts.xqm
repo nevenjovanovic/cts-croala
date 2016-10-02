@@ -37,7 +37,7 @@ declare function cts:listtextgroupurns () {
   let $groupcount := element a { 
   attribute href { $editionhref } ,
   count(collection("croala-cts-1")//ti:work[@groupUrn=$groupurn]) }
-  order by $grouplabel
+  order by $grouplabel collation "?lang=hr"
   return element tr { 
     element td {$grouplabel},
     element td {$groupurn},
