@@ -34,7 +34,19 @@ On our development server, the script is run by:
 
 ```bash
 
+./basex/bin/basex /home/croala/cts-croala/scripts/bxs/create-croalacts-db.bxs
+
+```
+
+Then we move the XQuery modules (`croalacts.xqm`, `functx.xqm`) and scripts to required places:
+
+```bash
+
+rsync -avzP scripts/restxq/cts-open-urn.xq ~/basex/webapp/restxq/
+
+rsync -avzP scripts/xqm/*.xqm ~/basex/repo/
 
 
 ```
 
+We test the setup by going to, for example, [croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6.div2.div2.l6](http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6.div2.div2.l6). Or, if we want, we open a CTS URN several levels up: [croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6](http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6).
