@@ -15,7 +15,7 @@ At the moment, [CroALa](https://github.com/nevenjovanovic/croatiae-auctores-lati
 
 Of the 467 documents, [443](docs/notcroalactsmulti.list) were easy to describe semi-automatically -- via [XQuery scripts](scripts/Scripts.md) -- according to CTS metadata requirements.  The rest (see [a list](docs/croalactsmulti.list)) have multiple authors or other issues.
 
-As we are following the [CapiTainS guidelines](http://capitains.github.io/pages/guidelines#directory-structure) (to an extent), it has been necessary to rename files in the collection. There is a [concordance file](docs/croalactsconcordance.xml).
+As we are following the [CapiTainS guidelines](http://capitains.github.io/pages/guidelines) (to an extent), it has been necessary to rename files in the collection. There is a [concordance file](docs/croalactsconcordance.xml).
 
 For the reasons to depart from the CapiTainS conventions, and to choose a specific solution among the possibilities offered by the CITE Architecture, see the [CroALa CTS explained](CroALa-CTS-explained.md).
 
