@@ -61,7 +61,7 @@ declare function cts:gettextgroups(){
   let $theadrow := element tr { $label, $ctsurnlabel, $count }
   let $textgroupurns := cts:listtextgroupurns()
   return element table {
-    attribute class {"table"},
+    attribute class {"table-striped table-hover table-centered"},
     element caption { $head },
     element thead {
    $theadrow
