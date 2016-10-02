@@ -2,6 +2,8 @@
 
 We are following the model in [capitains.github.io/pages/guidelines](http://capitains.github.io/pages/guidelines). For our database and XQuery processor we use [BaseX](http://basex.org/).
 
+## Making the XML CTS-conformant
+
 + First, we need to create workgroups, as directories and metadata descriptions; to achieve that in an uniform way, we call the [croalabib](https://bitbucket.org/nevenjovanovic/croalabiblio) XML db (for authors' names)
 + We need to create work directories inside each workgroup
 + The appropriate files have to be moved into the work directories
@@ -23,3 +25,16 @@ In the next phase, we use a helper index file [croalactstextgroups.xml](../docs/
 + Create works directories: [croalacts-create-dirs-works.xq](xq/croalacts-create-dirs-works.xq)
 + Put the XML documents into directories, rename the XML files: [croalacts-move-docs-to-works.xq](croalacts-move-docs-to-works.xq)
 + Create `__cts__.xml` metadata for works: [croalacts-works-create-metadata.xq](xq/croalacts-works-create-metadata.xq)
+
+## Create the database
+
+The (development) database which will be created from files in [data](../data) is called `croala-cts-1`. It can be created and replicated with the script [create-croalacts-db.bxs](bxs/create-croalacts-db.bxs), provided you correct the absolute path of the `data` directory.
+
+On our development server, the script is run by:
+
+```bash
+
+
+
+```
+
