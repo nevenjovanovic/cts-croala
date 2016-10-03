@@ -2,9 +2,11 @@
 
 ## The background
 
-Contrary to the so-called "classical" Greek and Latin literature, the corpus of works preserved from the twelve centuries between 750 BC and 500 AD, the works of Neo-Latin literature lack a standard, canonical, wide-spread citation schemes, in the same way as Neo-Latin literature lacks a canon. For a digital collection this is both a blessing and a curse. On the one hand, there are no complicated, sometimes even conflicting or competing systems to be reproduced; on the other hand, it is a task of the collection editors to develop and implement a citation scheme which will be understandable to humans and actionable for machines.
+Contrary to the so-called "classical" Greek and Latin literature (the corpus of works preserved from the twelve centuries between 750 BC and 500 AD), the works of Neo-Latin literature lack a standard, canonical, wide-spread citation schemes -- in the same way as Neo-Latin literature lacks a canon of "most important" or "representative" authors and works.
 
-Trying to solve this task for the Neo-Latin texts in the [Croatiae auctores Latini](http://croala.ffzg.unizg.hr), we propose the approach described below. We believe that, though somewhat novel and different from classical citation schemes, the approach nevertheless remains within the limits of the [CITE Architecture](http://cite-architecture.github.io/) specification.
+For a digital collection, this lack of established citation schemes is both a blessing and a curse. On the one hand, there are no complicated, sometimes even conflicting or competing citation systems to be reproduced.  On the other hand, the editors have to develop -- and implement! -- a citation scheme which will, ideally, be understandable to humans as well as actionable for machines.
+
+Trying to solve this task for the Neo-Latin texts in the [Croatiae auctores Latini](http://croala.ffzg.unizg.hr), we propose the approach described below. We believe that, though to a degree departing from classical citation schemes, our approach nevertheless remains within the limits of the [CITE Architecture](http://cite-architecture.github.io/) specification. Of course, we welcome suggestions and comments -- that is why we're on Github!
 
 ## CroALa CTS URNs
 
