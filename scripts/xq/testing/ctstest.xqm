@@ -15,7 +15,7 @@ declare %unit:test %unit:ignore function test:retrieve-ctsurn-as-link() {
 
 declare %unit:test function test:retrieve-textgroups-caption() {
   let $dbname := "croala-cts-1"
-  let $date := "2016-10-01T22:05:11.000Z"
+  let $date := "2016-10-03T14:43:08.000Z"
   let $head := "Textgroups available in CroALa db " || $dbname || ", updated on " || $date
   return unit:assert-equals(cts:gettextgroups()//caption/string(), $head)
 };
@@ -52,7 +52,7 @@ declare %unit:test %unit:ignore function test:retrieve-passage-urn() {
 
 declare %unit:test function test:retrieve-works-caption() {
   let $dbname := "croala-cts-1"
-  let $date := "2016-10-01T22:05:11.000Z"
+  let $date := "2016-10-03T14:43:08.000Z"
   let $head := "urn:cts:croala:sivri01: works available in CroALa db " || $dbname || ", updated on " || $date
   return unit:assert-equals(cts:getworks("urn:cts:croala:sivri01")//caption[parent::*:table[@class="table-striped table-hover table-centered"]]/string(), $head)
 };
@@ -97,7 +97,7 @@ unit:assert(
 
 declare %unit:test function test:retrieve-editions-caption() {
   let $dbname := "croala-cts-1"
-  let $date := "2016-10-01T22:05:11.000Z"
+  let $date := "2016-10-03T14:43:08.000Z"
   let $head := "urn:cts:croala:djurdjev02.croala866783, editions available in CroALa db " || $dbname || ", updated on " || $date
   return unit:assert-equals(cts:geteditions("urn:cts:croala:djurdjev02.croala866783")//caption[parent::*:table[@class="table-striped table-hover table-centered"]]/string(), $head)
 };
@@ -113,16 +113,16 @@ declare %unit:test function test:retrieve-editions-urn() {
   let $urn := element td {
     element a { 
     attribute href {
-      "http://croala.ffzg.unizg.hr/basex/ctsopus/urn:cts:croala:sivri01.croala853690"
-    } , "urn:cts:croala:sivri01.croala853690" } }
-  let $label := element td { "Traduzione latina delle Anacreontiche ... e dei sonetti" }
+      "http://croala.ffzg.unizg.hr/basex/ctsopus/urn:cts:croala:sivri01.croala853690.croala-lat1"
+    } , "urn:cts:croala:sivri01.croala853690.croala-lat1" } }
+  let $label := element td { "Traduzione latina delle Anacreontiche ... e dei sonetti, versione digitale" }
   let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $urn
   let $count := element td { element a { 
   attribute href { $editionhref } , 
-  "1" } }
+  "2014" } }
   let $href := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $urn
 return unit:assert-equals(
-    for $r in cts:getworks("urn:cts:croala:sivri01")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r, ($label , $urn, $count))
+    for $r in cts:geteditions("urn:cts:croala:sivri01.croala853690")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r, ($label , $urn, $count))
     (:
     return unit:assert(
     for $r in cts:getworks()//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r)

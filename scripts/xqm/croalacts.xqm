@@ -163,5 +163,62 @@ declare function cts:listworkurns ($groupurn1) {
 };
 
 declare function cts:geteditions($workcts){
-  
+  let $dbname := "croala-cts-1"
+  let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
+  let $head := if ($workcts="") then cts:tablecaption("Editions" , $dbname, $dateupdated) else let $frbr := $workcts || ", editions" return cts:tablecaption($frbr, $dbname, $dateupdated)
+  let $label := "Label"
+  let $ctsurn := "CTS URN"
+  let $count := "Nodes available"
+  let $theadrow := cts:returnheadrow($label, $ctsurn, $count)
+  let $urnlist := cts:listeditionurns ($workcts)
+  return cts:returntable($head, $theadrow, $urnlist )
+};
+
+declare function cts:listeditionurns ($workcts) {
+   if ($workcts="") then 
+  for $tg in collection("croala-cts-1")//ti:edition
+  let $editionurnstring := $tg/@urn/string()
+  let $editionurn := element a { 
+    attribute href { 
+    "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $editionurnstring } , 
+    $editionurnstring 
+  }
+  let $editionlabel := string-join(
+    for $a in $tg/ti:label
+    return normalize-space(data($a)), '; '
+  )
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $editionurnstring
+  let $editionurnstring1 := $editionurnstring || ":"
+  let $nodecount := element a { 
+  attribute href { $editionhref } ,
+  count(collection("croala-cts-1")//*:text[@xml:base=$editionurnstring1 ]//*) }
+  order by $editionlabel collation "?lang=hr"
+  return element tr { 
+    element td {$editionlabel},
+    element td { $editionurn },
+    element td { $nodecount }
+     }
+ else
+  for $tg in collection("croala-cts-1")//ti:edition[@workUrn=$workcts]
+  let $editionurnstring := $tg/@urn/string()
+  let $editionurn := element a { 
+    attribute href { 
+    "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $editionurnstring } , 
+    $editionurnstring 
+  }
+  let $editionlabel := string-join(
+    for $a in $tg/ti:label
+    return normalize-space(data($a)), '; '
+  )
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $editionurnstring
+  let $editionurnstring1 := $editionurnstring || ":"
+  let $nodecount := element a { 
+  attribute href { $editionhref } ,
+  count(collection("croala-cts-1")//*:text[@xml:base=$editionurnstring1 ]//*) }
+  order by $editionlabel collation "?lang=hr"
+  return element tr { 
+    element td {$editionlabel},
+    element td {$editionurn },
+    element td { $nodecount }
+     } 
 };
