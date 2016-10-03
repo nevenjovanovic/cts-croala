@@ -55,7 +55,7 @@ declare function cts:gettextgroups(){
   let $table := 
   let $dbname := "croala-cts-1"
   let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
-  let $head := cts:tablecaption($dbname, $dateupdated)
+  let $head := cts:tablecaption("Textgroups" , $dbname, $dateupdated)
   let $label := "Label"
   let $ctsurn := "CTS URN"
   let $count := "Available works"
@@ -77,7 +77,7 @@ declare function cts:getpassage($ctsurn) {
 declare function cts:getworks($workurn1){
   let $dbname := "croala-cts-1"
   let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
-  let $head := cts:tablecaption($dbname, $dateupdated)
+  let $head := if ($workurn1="") then cts:tablecaption("Works" , $dbname, $dateupdated) else let $frbr := $workurn1 || ": works" return cts:tablecaption($frbr, $dbname, $dateupdated)
   let $label := "Label"
   let $ctsurn := "CTS URN"
   let $count := "Editions available"
@@ -101,8 +101,8 @@ declare function cts:returntable($head, $theadrow, $urnlist ) {
   return $table
 };
 
-declare function cts:tablecaption($dbname, $date){
-  let $head := "Works available in CroALa db " || $dbname || ", updated on " || $date
+declare function cts:tablecaption($frbr, $dbname, $date){
+  let $head := $frbr || " available in CroALa db " || $dbname || ", updated on " || $date
   return $head
 };
 

@@ -13,7 +13,7 @@ declare %unit:test %unit:ignore function test:retrieve-ctsurn-as-link() {
   return unit:assert-equals(cts:getcapabilities()//tr/td/a[@href=$href]/string()[.=$urn], $urn)
 };
 
-declare %unit:test %unit:ignore function test:retrieve-textgroups-caption() {
+declare %unit:test function test:retrieve-textgroups-caption() {
   let $dbname := "croala-cts-1"
   let $date := "2016-10-01T22:05:11.000Z"
   let $head := "Textgroups available in CroALa db " || $dbname || ", updated on " || $date
@@ -53,7 +53,7 @@ declare %unit:test %unit:ignore function test:retrieve-passage-urn() {
 declare %unit:test function test:retrieve-works-caption() {
   let $dbname := "croala-cts-1"
   let $date := "2016-10-01T22:05:11.000Z"
-  let $head := "Works available in CroALa db " || $dbname || ", updated on " || $date
+  let $head := "urn:cts:croala:sivri01: works available in CroALa db " || $dbname || ", updated on " || $date
   return unit:assert-equals(cts:getworks("urn:cts:croala:sivri01")//caption[parent::*:table[@class="table-striped table-hover table-centered"]]/string(), $head)
 };
 
