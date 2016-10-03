@@ -86,7 +86,7 @@ return unit:assert-equals(
 
 declare %unit:test function test:retrieve-works-empty() {
 unit:assert(
-    cts:getworks("")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href]]/td)
+    cts:getworks("index")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href]]/td)
 };
 
 (: Given a URL such as http://croala.ffzg.unizg.hr/basex/ctseditiones/urn:cts:croala:djurdjev02.croala866783 :)

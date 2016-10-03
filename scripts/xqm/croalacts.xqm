@@ -77,7 +77,7 @@ declare function cts:getpassage($ctsurn) {
 declare function cts:getworks($workurn1){
   let $dbname := "croala-cts-1"
   let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
-  let $head := if ($workurn1="") then cts:tablecaption("Works" , $dbname, $dateupdated) else let $frbr := $workurn1 || ": works" return cts:tablecaption($frbr, $dbname, $dateupdated)
+  let $head := if ($workurn1="index") then cts:tablecaption("Works" , $dbname, $dateupdated) else let $frbr := $workurn1 || ": works" return cts:tablecaption($frbr, $dbname, $dateupdated)
   let $label := "Label"
   let $ctsurn := "CTS URN"
   let $count := "Editions available"
@@ -116,7 +116,7 @@ declare function cts:returnheadrow($label, $ctsurn, $count){
 
 (: list available works as rows and cells :)
 declare function cts:listworkurns ($groupurn1) {
-  if ($groupurn1="") then 
+  if ($groupurn1="index") then 
   for $tg in collection("croala-cts-1")//ti:work
   let $workurnstring := $tg/@urn/string()
   let $workurn := element a { 
@@ -165,7 +165,7 @@ declare function cts:listworkurns ($groupurn1) {
 declare function cts:geteditions($workcts){
   let $dbname := "croala-cts-1"
   let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
-  let $head := if ($workcts="") then cts:tablecaption("Editions" , $dbname, $dateupdated) else let $frbr := $workcts || ", editions" return cts:tablecaption($frbr, $dbname, $dateupdated)
+  let $head := if ($workcts="index") then cts:tablecaption("Editions" , $dbname, $dateupdated) else let $frbr := $workcts || ", editions" return cts:tablecaption($frbr, $dbname, $dateupdated)
   let $label := "Label"
   let $ctsurn := "CTS URN"
   let $count := "Nodes available"
@@ -175,7 +175,7 @@ declare function cts:geteditions($workcts){
 };
 
 declare function cts:listeditionurns ($workcts) {
-   if ($workcts="") then 
+   if ($workcts="index") then 
   for $tg in collection("croala-cts-1")//ti:edition
   let $editionurnstring := $tg/@urn/string()
   let $editionurn := element a { 
