@@ -45,7 +45,7 @@ declare
 <h1><span class="glyphicon glyphicon-th" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
 <div class="col-md-6">
-<p>Editiones operis { $url } in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://cite-architecture.github.io/">architecturae CITE</a>, { current-date() }.</p>
+<p>Editiones operis { $urn } in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://cite-architecture.github.io/">architecturae CITE</a>, { current-date() }.</p>
 <p>Elige numerum ut accedas ad indiculum nodorum.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
 <p>Abi ad <a href="https://github.com/nevenjovanovic/cts-croala">Github apothecam</a>.</p>
