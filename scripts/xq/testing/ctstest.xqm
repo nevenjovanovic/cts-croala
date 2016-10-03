@@ -32,14 +32,14 @@ declare %unit:test function test:retrieve-textgroups-urn() {
   let $urn := element td {
     element a { 
     attribute href {
-      "http://croala.ffzg.unizg.hr/basex/ctsopera/urn:cts:croala:sivri01"
+      "http://croala.ffzg.unizg.hr/basex/ctsconglomeratio/urn:cts:croala:sivri01"
     } , "urn:cts:croala:sivri01" } }
   let $label := element td { "Sivrić, Antun" }
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopera/" || $urn
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsconglomeratio/" || $urn
   let $count := element td { element a { 
   attribute href { $editionhref } , 
   "1" } }
-  let $href := "http://croala.ffzg.unizg.hr/basex/ctsopera/" || $urn
+  let $href := "http://croala.ffzg.unizg.hr/basex/ctsconglomeratio/" || $urn
   return unit:assert-equals(
     for $r in cts:gettextgroups()//tbody/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r, ($label , $urn, $count))
 };
@@ -68,14 +68,14 @@ declare %unit:test function test:retrieve-works-urn() {
   let $urn := element td {
     element a { 
     attribute href {
-      "http://croala.ffzg.unizg.hr/basex/ctseditiones/urn:cts:croala:sivri01.croala853690"
+      "http://croala.ffzg.unizg.hr/basex/ctsopus/urn:cts:croala:sivri01.croala853690"
     } , "urn:cts:croala:sivri01.croala853690" } }
   let $label := element td { "Traduzione latina delle Anacreontiche ... e dei sonetti" }
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctseditions/" || $urn
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $urn
   let $count := element td { element a { 
   attribute href { $editionhref } , 
   "1" } }
-  let $href := "http://croala.ffzg.unizg.hr/basex/ctseditiones/" || $urn
+  let $href := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $urn
 return unit:assert-equals(
     for $r in cts:getworks("urn:cts:croala:sivri01")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r, ($label , $urn, $count))
     (:
@@ -87,4 +87,44 @@ return unit:assert-equals(
 declare %unit:test function test:retrieve-works-empty() {
 unit:assert(
     cts:getworks("")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href]]/td)
+};
+
+(: Given a URL such as http://croala.ffzg.unizg.hr/basex/ctseditiones/urn:cts:croala:djurdjev02.croala866783 :)
+(: retrieve list of editions with number of available nodes :)
+(: edition links to a list of nodes :)
+(: in the form: http://croala.ffzg.unizg.hr/basex/ctsnodi/urn:cts:croala:djurdjev02.croala866783.edition :)
+(: TODO: for each edition, retrieve list of nodes :)
+
+declare %unit:test function test:retrieve-editions-caption() {
+  let $dbname := "croala-cts-1"
+  let $date := "2016-10-01T22:05:11.000Z"
+  let $head := "urn:cts:croala:djurdjev02.croala866783, editions available in CroALa db " || $dbname || ", updated on " || $date
+  return unit:assert-equals(cts:geteditions("urn:cts:croala:djurdjev02.croala866783")//caption[parent::*:table[@class="table-striped table-hover table-centered"]]/string(), $head)
+};
+
+declare %unit:test function test:retrieve-editions-headrow() {
+  let $label := "Label"
+  let $ctsurnlabel := "CTS URN"
+  let $count := "Nodes available"
+  return unit:assert-equals(for $ t in cts:geteditions("urn:cts:croala:djurdjev02.croala866783")//thead[parent::*:table[@class="table-striped table-hover table-centered"]]/tr/td return $t/string(), ($label, $ctsurnlabel, $count))
+};
+
+declare %unit:test function test:retrieve-editions-urn() {
+  let $urn := element td {
+    element a { 
+    attribute href {
+      "http://croala.ffzg.unizg.hr/basex/ctsopus/urn:cts:croala:sivri01.croala853690"
+    } , "urn:cts:croala:sivri01.croala853690" } }
+  let $label := element td { "Traduzione latina delle Anacreontiche ... e dei sonetti" }
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $urn
+  let $count := element td { element a { 
+  attribute href { $editionhref } , 
+  "1" } }
+  let $href := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $urn
+return unit:assert-equals(
+    for $r in cts:getworks("urn:cts:croala:sivri01")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r, ($label , $urn, $count))
+    (:
+    return unit:assert(
+    for $r in cts:getworks()//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r)
+    :)
 };

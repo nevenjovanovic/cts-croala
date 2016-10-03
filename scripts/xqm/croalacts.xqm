@@ -27,14 +27,14 @@ declare function cts:listtextgroupurns () {
   for $tg in collection("croala-cts-1")//ti:textgroup
   let $groupurn := element a { 
     attribute href { 
-    "http://croala.ffzg.unizg.hr/basex/ctsopera/" || $tg/@urn/string() } , 
+    "http://croala.ffzg.unizg.hr/basex/ctsconglomeratio/" || $tg/@urn/string() } , 
     $tg/@urn/string() 
   }
   let $grouplabel := string-join(
     for $a in $tg/ti:groupname/* 
     return normalize-space(data($a)), '; '
   )
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopera/" || $groupurn
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsconglomeratio/" || $groupurn
   let $groupcount := element a { 
   attribute href { $editionhref } ,
   count(collection("croala-cts-1")//ti:work[@groupUrn=$groupurn]) }
@@ -121,14 +121,14 @@ declare function cts:listworkurns ($groupurn1) {
   let $workurnstring := $tg/@urn/string()
   let $workurn := element a { 
     attribute href { 
-    "http://croala.ffzg.unizg.hr/basex/ctseditiones/" || $workurnstring } , 
+    "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $workurnstring } , 
     $workurnstring 
   }
   let $worklabel := string-join(
     for $a in $tg/ti:title
     return normalize-space(data($a)), '; '
   )
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctseditions/" || $workurn
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $workurn
   let $editioncount := element a { 
   attribute href { $editionhref } ,
   count(collection("croala-cts-1")//ti:edition[@workUrn=$workurn]) }
@@ -143,14 +143,14 @@ declare function cts:listworkurns ($groupurn1) {
   let $workurnstring := $tg/@urn/string()
   let $workurn := element a { 
     attribute href { 
-    "http://croala.ffzg.unizg.hr/basex/ctseditiones/" || $workurnstring } , 
+    "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $workurnstring } , 
     $workurnstring 
   }
   let $worklabel := string-join(
     for $a in $tg/ti:title
     return normalize-space(data($a)), '; '
   )
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctseditions/" || $workurn
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $workurn
   let $editioncount := element a { 
   attribute href { $editionhref } ,
   count(collection("croala-cts-1")//ti:edition[@workUrn=$workurn]) }
@@ -160,4 +160,8 @@ declare function cts:listworkurns ($groupurn1) {
     element td {$workurn},
     element td { $editioncount }
      }
+};
+
+declare function cts:geteditions($workcts){
+  
 };
