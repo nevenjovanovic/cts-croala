@@ -121,7 +121,7 @@ declare function cts:listworkurns ($groupurn1) {
   let $workurnstring := $tg/@urn/string()
   let $workurn := element a { 
     attribute href { 
-    "http://croala.ffzg.unizg.hr/basex/ctswork/" || $workurnstring } , 
+    "http://croala.ffzg.unizg.hr/basex/ctseditiones/" || $workurnstring } , 
     $workurnstring 
   }
   let $worklabel := string-join(
@@ -143,7 +143,7 @@ declare function cts:listworkurns ($groupurn1) {
   let $workurnstring := $tg/@urn/string()
   let $workurn := element a { 
     attribute href { 
-    "http://croala.ffzg.unizg.hr/basex/ctswork/" || $workurnstring } , 
+    "http://croala.ffzg.unizg.hr/basex/ctseditiones/" || $workurnstring } , 
     $workurnstring 
   }
   let $worklabel := string-join(

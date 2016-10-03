@@ -68,14 +68,14 @@ declare %unit:test function test:retrieve-works-urn() {
   let $urn := element td {
     element a { 
     attribute href {
-      "http://croala.ffzg.unizg.hr/basex/ctswork/urn:cts:croala:sivri01.croala853690"
+      "http://croala.ffzg.unizg.hr/basex/ctseditiones/urn:cts:croala:sivri01.croala853690"
     } , "urn:cts:croala:sivri01.croala853690" } }
   let $label := element td { "Traduzione latina delle Anacreontiche ... e dei sonetti" }
   let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctseditions/" || $urn
   let $count := element td { element a { 
   attribute href { $editionhref } , 
   "1" } }
-  let $href := "http://croala.ffzg.unizg.hr/basex/ctswork/" || $urn
+  let $href := "http://croala.ffzg.unizg.hr/basex/ctseditiones/" || $urn
 return unit:assert-equals(
     for $r in cts:getworks("urn:cts:croala:sivri01")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r, ($label , $urn, $count))
     (:
