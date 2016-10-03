@@ -50,3 +50,27 @@ rsync -avzP scripts/xqm/*.xqm ~/basex/repo/
 ```
 
 We test the setup by going to, for example, [croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6.div2.div2.l6](http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6.div2.div2.l6). Or, if we want, we open a CTS URN several levels up: [croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6](http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6).
+
+## Navigating the CTS URN system
+
+CTS URNs present texts at several levels:
+
++ textgroups (usually sharing the same author, or authors, or identity)
++ works (belonging to textgroups, instantiated in different editions)
++ editions (realizations of works, differing in textual readings, layout, language)
++ segments (all divisions of an edition we find necessary)
+
+There are XQuery functions to display, or access, everything CroALa has at each level.
+
+All functions are part of the [croalacts.xqm](xqm/croalacts.xqm) XQuery [library module](http://docs.basex.org/wiki/Repository#Accessing_Modules).
+
+The functions were developed using unit testing. The tests are in [ctstest.xqm](xq/testing/ctstest.xqm).
+
+Results of XQueries are displayed as web pages using the [BaseX RESTXQ API](http://docs.basex.org/wiki/RESTXQ). The RESTXQ scripts are in [restxq](restxq), as follows:
+
++ [cts-list-textgroups.xq](restxq/cts-list-textgroups.xq) displays a list of textgroup URNs available in CroALa; see it on the CroALa site: [croala.ffzg.unizg.hr/basex/conglomerationes](http://croala.ffzg.unizg.hr/basex/conglomerationes)
++ [cts-list-works.xq](restxq/cts-list-works.xq) lists all works belonging to a textgroup; on the CroALa site, for example: [croala.ffzg.unizg.hr/basex/ctsconglomeratio/urn:cts:croala:skrl01](http://croala.ffzg.unizg.hr/basex/ctsconglomeratio/urn:cts:croala:skrl01); note that the URL [croala.ffzg.unizg.hr/basex/ctsconglomeratio/index](http://croala.ffzg.unizg.hr/basex/ctsconglomeratio/index) lists all works available in CroALa, in alphabetical order
++ [cts-list-editions.xq](restxq/cts-list-editions.xq) lists all editions of a work available in CroALa -- currently only one per work; on the CroALa site, for example, [croala.ffzg.unizg.hr/basex/ctsopus/urn:cts:croala:anonymus_1066.croala842559](http://croala.ffzg.unizg.hr/basex/ctsopus/urn:cts:croala:anonymus_1066.croala842559); again, [croala.ffzg.unizg.hr/basex/ctsopus/index](http://croala.ffzg.unizg.hr/basex/ctsopus/index) lists all editions available
++ [cts-list-nodes.xq](restxq/cts-list-nodes.xq) lists CTS URNs of all textual nodes in an edition (in its original sequence), for example [croala.ffzg.unizg.hr/basex/ctseditio/urn:cts:croala:selimb01.croala1579857.croala-lat1](http://croala.ffzg.unizg.hr/basex/ctseditio/urn:cts:croala:selimb01.croala1579857.croala-lat1)
++ [cts-open-urn.xq](restxq/cts-open-urn.xq) displays text, or whatever else belongs to a CTS URN node; for example [croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:selimb01.croala1579857.croala-lat1:text.front.div](http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:selimb01.croala1579857.croala-lat1:text.front.div)
+

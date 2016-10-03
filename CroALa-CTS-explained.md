@@ -30,5 +30,14 @@ collection("croala-cts-1")//*:text[@xml:base="urn:cts:croala:sivri01.croala85369
 
 With BaseX on our local system, the `cts:getpassage()` takes 14.72 ms to execute over the `croala-cts-1` database (154 MB in size, 2,390,070 nodes, 1148 documents). We are confident that a professional solution -- for example, an SQL implementation of this CTS setup -- could be even faster and more reliable.
 
+## Navigating the CroALa CTS collection
+
+CTS URNs present texts at several levels, which in the case of CroALa are accessed by [RESTXQ pages](http://docs.basex.org/wiki/RESTXQ):
+
++ **textgroups**, usually sharing the same author, or authors, or identity: [croala.ffzg.unizg.hr/basex/conglomerationes](http://croala.ffzg.unizg.hr/basex/conglomerationes)
++ **works** belonging to textgroups, instantiated in different editions:  [croala.ffzg.unizg.hr/basex/ctsconglomeratio/index](http://croala.ffzg.unizg.hr/basex/ctsconglomeratio/index) (an index of all available works), [croala.ffzg.unizg.hr/basex/ctsconglomeratio/urn:cts:croala:skrl01](http://croala.ffzg.unizg.hr/basex/ctsconglomeratio/urn:cts:croala:skrl01) (works in a particular textgroup)
++ **editions** as realizations of works, which may differ in textual variants, layout, language, annotations; at the moment, CroALa has only one edition per work: [croala.ffzg.unizg.hr/basex/ctsopus/index](http://croala.ffzg.unizg.hr/basex/ctsopus/index), [croala.ffzg.unizg.hr/basex/ctsopus/urn:cts:croala:anonymus_1066.croala842559](http://croala.ffzg.unizg.hr/basex/ctsopus/urn:cts:croala:anonymus_1066.croala842559)
++ segments, which are all divisions of an edition the editor has found necessary or interesting: [croala.ffzg.unizg.hr/basex/ctseditio/urn:cts:croala:selimb01.croala1579857.croala-lat1](http://croala.ffzg.unizg.hr/basex/ctseditio/urn:cts:croala:selimb01.croala1579857.croala-lat1) lists all available nodes in an edition,  [croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:selimb01.croala1579857.croala-lat1:text.front.div](http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:selimb01.croala1579857.croala-lat1:text.front.div) accesses a specific node
+
 
 
