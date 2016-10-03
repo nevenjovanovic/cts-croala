@@ -128,3 +128,16 @@ return unit:assert-equals(
     for $r in cts:getworks()//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r)
     :)
 };
+
+declare %unit:test function test:retrieve-editions-index() {
+unit:assert(
+    cts:geteditions("index")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href]]/td)
+};
+
+declare %unit:test function test:retrieve-editions-other() {
+  let $string := random:uuid()
+  let $message := "URN deest in collectione."
+  return unit:assert-equals(
+    cts:geteditions($string)//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr/td/string(), $message)
+};
+

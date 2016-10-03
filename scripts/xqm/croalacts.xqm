@@ -198,7 +198,7 @@ declare function cts:listeditionurns ($workcts) {
     element td { $editionurn },
     element td { $nodecount }
      }
- else
+ else if (collection("croala-cts-1")//ti:edition[@workUrn=$workcts]) then
   for $tg in collection("croala-cts-1")//ti:edition[@workUrn=$workcts]
   let $editionurnstring := $tg/@urn/string()
   let $editionurn := element a { 
@@ -221,4 +221,9 @@ declare function cts:listeditionurns ($workcts) {
     element td {$editionurn },
     element td { $nodecount }
      } 
+     else
+     let $message := element tr { 
+    element td { "URN deest in collectione." }
+     } 
+     return $message
 };
