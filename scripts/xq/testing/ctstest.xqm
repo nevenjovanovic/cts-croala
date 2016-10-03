@@ -141,3 +141,37 @@ declare %unit:test function test:retrieve-editions-other() {
     cts:geteditions($string)//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr/td/string(), $message)
 };
 
+(: for an edition CTS URN, return list of available nodes :)
+declare %unit:test function test:retrieve-nodes-caption() {
+  let $dbname := "croala-cts-1"
+  let $date := "2016-10-03T14:43:08.000Z"
+  let $head := "Edition urn:cts:croala:djurdjev02.croala866783.croala-lat1; text nodes available in CroALa db " || $dbname || ", updated on " || $date
+  return unit:assert-equals(cts:getnodes("urn:cts:croala:djurdjev02.croala866783.croala-lat1")//caption[parent::*:table[@class="table-striped table-hover table-centered"]]/string(), $head)
+};
+
+declare %unit:test function test:retrieve-nodes-other() {
+  let $string := random:uuid()
+  let $message := "CTS URN deest in collectione."
+  return unit:assert-equals(
+    cts:getnodes($string)//caption[parent::*:table[@class="table-striped table-hover table-centered"]]/string(), $message)
+};
+
+declare %unit:test function test:retrieve-nodes-headrow() {
+  let $ctsurnlabel := "Nodus CTS URN"
+  return unit:assert-equals(for $ t in cts:getnodes("urn:cts:croala:djurdjev02.croala866783.croala-lat1")//thead[parent::*:table[@class="table-striped table-hover table-centered"]]/tr/td[1] return $t/string(), ($ctsurnlabel))
+};
+
+declare %unit:test function test:retrieve-nodes-urn() {
+  let $nodeurl := "http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:adamp01.croala1105795.croala-lat1:text.body.div2"
+  let $node := element td {
+    element a { 
+    attribute href {
+      $nodeurl
+    } , "urn:cts:croala:adamp01.croala1105795.croala-lat1:text.body.div2" } }
+return unit:assert-equals(
+    for $r in cts:getnodes("urn:cts:croala:adamp01.croala1105795.croala-lat1")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr/td[1][a/@href=$nodeurl]/string() return $r, $node/string())
+    (:
+    return unit:assert(
+    for $r in cts:getworks()//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r)
+    :)
+};

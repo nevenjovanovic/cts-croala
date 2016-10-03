@@ -227,3 +227,27 @@ declare function cts:listeditionurns ($workcts) {
      } 
      return $message
 };
+
+(: for a CTS edition URN, return list of nodes available :)
+declare function cts:getnodes ($urn){
+  let $dbname := "croala-cts-1"
+  let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
+  let $urn1 := $urn || ":"
+  let $head := if (collection($dbname)//*:text[matches(@xml:base, $urn1)]) then cts:tablecaption("Edition " || $urn || "; text nodes" , $dbname, $dateupdated) else element caption { "CTS URN deest in collectione." }
+  let $theadrow := cts:returnheadrow("Nodus CTS URN", (), ())
+  let $urnlist := cts:listnodesurns($urn1)
+  return cts:returntable($head, $theadrow, $urnlist )
+};
+
+declare function cts:listnodesurns($editionurn){
+  for $node in collection("croala-cts-1")//*:text[matches(@xml:base, $editionurn)]//*
+  let $ctsurn := $node/@n/string()
+  return element tr {
+    element td {
+      element a {
+        attribute href {"http://croala.ffzg.unizg.hr/basex/cts/" || $editionurn || $ctsurn },
+        $editionurn || $ctsurn
+      }
+    }
+  }
+};
