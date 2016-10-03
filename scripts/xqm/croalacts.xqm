@@ -128,10 +128,10 @@ declare function cts:listworkurns ($groupurn1) {
     for $a in $tg/ti:title
     return normalize-space(data($a)), '; '
   )
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $workurn
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $workurnstring
   let $editioncount := element a { 
   attribute href { $editionhref } ,
-  count(collection("croala-cts-1")//ti:edition[@workUrn=$workurn]) }
+  count(collection("croala-cts-1")//ti:edition[@workUrn=$workurnstring]) }
   order by $worklabel collation "?lang=hr"
   return element tr { 
     element td {$worklabel},
@@ -178,7 +178,7 @@ declare function cts:listeditionurns ($workcts) {
    if ($workcts="index") then 
   for $tg in collection("croala-cts-1")//ti:edition
   let $editionurnstring := $tg/@urn/string()
-  let $editionurn := element a { 
+  let $nodesurn := element a { 
     attribute href { 
     "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $editionurnstring } , 
     $editionurnstring 
@@ -187,38 +187,38 @@ declare function cts:listeditionurns ($workcts) {
     for $a in $tg/ti:label
     return normalize-space(data($a)), '; '
   )
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $editionurnstring
+  let $nodeshref := "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $editionurnstring
   let $editionurnstring1 := $editionurnstring || ":"
   let $nodecount := element a { 
-  attribute href { $editionhref } ,
+  attribute href { $nodeshref } ,
   count(collection("croala-cts-1")//*:text[@xml:base=$editionurnstring1 ]//*) }
   order by $editionlabel collation "?lang=hr"
   return element tr { 
     element td {$editionlabel},
-    element td { $editionurn },
+    element td { $nodesurn },
     element td { $nodecount }
      }
  else if (collection("croala-cts-1")//ti:edition[@workUrn=$workcts]) then
   for $tg in collection("croala-cts-1")//ti:edition[@workUrn=$workcts]
   let $editionurnstring := $tg/@urn/string()
-  let $editionurn := element a { 
+  let $nodesurn := element a { 
     attribute href { 
-    "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $editionurnstring } , 
+    "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $editionurnstring } , 
     $editionurnstring 
   }
   let $editionlabel := string-join(
     for $a in $tg/ti:label
     return normalize-space(data($a)), '; '
   )
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $editionurnstring
+  let $nodeshref := "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $editionurnstring
   let $editionurnstring1 := $editionurnstring || ":"
   let $nodecount := element a { 
-  attribute href { $editionhref } ,
+  attribute href { $nodeshref } ,
   count(collection("croala-cts-1")//*:text[@xml:base=$editionurnstring1 ]//*) }
   order by $editionlabel collation "?lang=hr"
   return element tr { 
     element td {$editionlabel},
-    element td {$editionurn },
+    element td {$nodesurn },
     element td { $nodecount }
      } 
      else

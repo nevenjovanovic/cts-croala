@@ -113,14 +113,14 @@ declare %unit:test function test:retrieve-editions-urn() {
   let $urn := element td {
     element a { 
     attribute href {
-      "http://croala.ffzg.unizg.hr/basex/ctsopus/urn:cts:croala:sivri01.croala853690.croala-lat1"
+      "http://croala.ffzg.unizg.hr/basex/ctseditio/urn:cts:croala:sivri01.croala853690.croala-lat1"
     } , "urn:cts:croala:sivri01.croala853690.croala-lat1" } }
   let $label := element td { "Traduzione latina delle Anacreontiche ... e dei sonetti, versione digitale" }
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $urn
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $urn
   let $count := element td { element a { 
   attribute href { $editionhref } , 
   "2014" } }
-  let $href := "http://croala.ffzg.unizg.hr/basex/ctsopus/" || $urn
+  let $href := "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $urn
 return unit:assert-equals(
     for $r in cts:geteditions("urn:cts:croala:sivri01.croala853690")//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r, ($label , $urn, $count))
     (:
