@@ -44,12 +44,6 @@ declare %unit:test function test:retrieve-textgroups-urn() {
     for $r in cts:gettextgroups()//tbody/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r, ($label , $urn, $count))
 };
 
-(: given a URL, retrieve passage :)
-declare %unit:test %unit:ignore function test:retrieve-passage-urn() {
-  let $ctsurn := "urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6.div2.div2.l6"
-  return unit:assert-equals(cts:getpassage($ctsurn)[name()="l"]/string(), "Vel Beronicei (58) verticis alma coma ,")
-};
-
 declare %unit:test function test:retrieve-works-caption() {
   let $dbname := "croala-cts-1"
   let $date := "2016-10-03T14:43:08.000Z"
@@ -174,4 +168,18 @@ return unit:assert-equals(
     return unit:assert(
     for $r in cts:getworks()//tbody[parent::*:table[@class="table-striped table-hover table-centered"]]/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r)
     :)
+};
+
+(: given a URL, retrieve passage :)
+declare %unit:test function test:retrieve-passage-urn() {
+  let $ctsurn := "urn:cts:croala:sivri01.croala853690.croala-lat1:text.body.div2.div6.div2.div2.l6"
+  return unit:assert-equals(cts:getpassage($ctsurn)[name()="l"]/string(), "Vel Beronicei (58) verticis alma coma ,")
+};
+
+(: what to do for a nonexisting URN :)
+(: display message :)
+declare %unit:test function test:nonexisting-urn() {
+  let $string := random:uuid()
+  let $message := "CTS URN deest in collectione."
+  return unit:assert-equals(cts:getpassage($string)//string(), $message )
 };
