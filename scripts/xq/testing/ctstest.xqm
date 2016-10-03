@@ -28,18 +28,18 @@ declare %unit:test %unit:ignore function test:retrieve-textgroups-heading() {
 };
 
 
-declare %unit:test %unit:ignore function test:retrieve-textgroups-urn() {
+declare %unit:test function test:retrieve-textgroups-urn() {
   let $urn := element td {
     element a { 
     attribute href {
-      "http://croala.ffzg.unizg.hr/basex/cts/work/urn:cts:croala:sivri01"
+      "http://croala.ffzg.unizg.hr/basex/ctsopera/urn:cts:croala:sivri01"
     } , "urn:cts:croala:sivri01" } }
   let $label := element td { "Sivrić, Antun" }
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/cts/editions/" || $urn
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopera/" || $urn
   let $count := element td { element a { 
   attribute href { $editionhref } , 
   "1" } }
-  let $href := "http://croala.ffzg.unizg.hr/basex/cts/work/" || $urn
+  let $href := "http://croala.ffzg.unizg.hr/basex/ctsopera/" || $urn
   return unit:assert-equals(
     for $r in cts:gettextgroups()//tbody/tr[td[2]/a[@href=$href]/string()[.=$urn]]/td return $r, ($label , $urn, $count))
 };

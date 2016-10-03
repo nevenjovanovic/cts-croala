@@ -27,14 +27,14 @@ declare function cts:listtextgroupurns () {
   for $tg in collection("croala-cts-1")//ti:textgroup
   let $groupurn := element a { 
     attribute href { 
-    "http://croala.ffzg.unizg.hr/basex/cts/work/" || $tg/@urn/string() } , 
+    "http://croala.ffzg.unizg.hr/basex/ctsopera/" || $tg/@urn/string() } , 
     $tg/@urn/string() 
   }
   let $grouplabel := string-join(
     for $a in $tg/ti:groupname/* 
     return normalize-space(data($a)), '; '
   )
-  let $editionhref := "http://croala.ffzg.unizg.hr/basex/cts/editions/" || $groupurn
+  let $editionhref := "http://croala.ffzg.unizg.hr/basex/ctsopera/" || $groupurn
   let $groupcount := element a { 
   attribute href { $editionhref } ,
   count(collection("croala-cts-1")//ti:work[@groupUrn=$groupurn]) }
@@ -47,10 +47,10 @@ declare function cts:listtextgroupurns () {
 };
 
 (: Make a table displaying available textgroups :)
-(: Label, CTS URN, count of available editions :)
-(: CTS URN of work links to a description of the work :)
+(: Label, CTS URN, count of available works :)
+(: CTS URN of textgroup links to a list of works :)
 (: and to the first edition available? :)
-(: count of editions links to edition page :)
+(: count of works links to available works :)
 declare function cts:gettextgroups(){
   let $table := 
   let $dbname := "croala-cts-1"

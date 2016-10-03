@@ -1,5 +1,6 @@
 (: CroALa CTS :)
-(: list textgroups available in the croala-cts-1 db :)
+(: list works available in the croala-cts-1 db :)
+(: for a supplied textgroup, or all of them :)
 import module namespace rest = "http://exquery.org/ns/restxq";
 import module namespace croala = "http://www.ffzg.unizg.hr/klafil/croala" at "../../repo/croala.xqm";
 import module namespace cts = "http://croala.ffzg.unizg.hr/cts" at "../../repo/croalacts.xqm";
@@ -9,8 +10,8 @@ import module namespace vit = "http://croala.ffzg.unizg.hr/vit" at "../../repo/v
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Conglomerationes textuum in CroALa';
-declare variable $content := "Display textgroups available in the CroALa collection identified by a CTS URN.";
+declare variable $title := 'Indiculus operum in CroALa';
+declare variable $content := "Display works available in the CroALa collection identified by a CTS URN.";
 declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Croatiae auctores Latini, CroALa, gazetteer, literary analysis, scholarly edition, analytical exemplar, citation, quotation, machine-actionable edition";
 
 
@@ -19,7 +20,7 @@ declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Cr
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("conglomerationes")
+  %rest:path("ctsopera/{urn}")
   %output:method(
   "xhtml"
 )
@@ -32,7 +33,7 @@ declare
   %output:doctype-system(
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
 )
-  function page:croalactstextgroups()
+  function page:croalactsworks($urn)
 {
   (: HTML template starts here :)
 
@@ -44,8 +45,8 @@ declare
 <h1><span class="glyphicon glyphicon-th" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
 <div class="col-md-6">
-<p>Operum conglomerationes in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://cite-architecture.github.io/">architecturae CITE</a>, { current-date() }.</p>
-<p>CTS URN elige ut ad opera accedas.</p>
+<p>Opera in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://cite-architecture.github.io/">architecturae CITE</a>, { current-date() }.</p>
+<p>Elige URN aut numerum ut accedas ad editiones et nodos earundem.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
 <p>Abi ad <a href="https://github.com/nevenjovanovic/cts-croala">Github apothecam</a>.</p>
 </div>
@@ -57,7 +58,7 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 	<div class="table-responsive">
-  { cts:gettextgroups() }
+  { cts:getworks($urn) }
   </div>
 </blockquote>
      <p/>
