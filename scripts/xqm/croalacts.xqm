@@ -56,9 +56,9 @@ declare function cts:gettextgroups(){
   let $dbname := "croala-cts-1"
   let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
   let $head := cts:tablecaption($dbname, $dateupdated)
-  let $label := element td { "Label" }
-  let $ctsurn := element td { "CTS URN" }
-  let $count := element td { "Available works" }
+  let $label := "Label"
+  let $ctsurn := "CTS URN"
+  let $count := "Available works"
   let $theadrow := cts:returnheadrow($label, $ctsurn, $count)
   let $textgroupurns := cts:listtextgroupurns()
   return cts:returntable($head, $theadrow, $textgroupurns )
@@ -78,9 +78,9 @@ declare function cts:getworks($workurn1){
   let $dbname := "croala-cts-1"
   let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
   let $head := cts:tablecaption($dbname, $dateupdated)
-  let $label := element td { "Label" }
-  let $ctsurn := element td { "CTS URN" }
-  let $count := element td { "Editions available" }
+  let $label := "Label"
+  let $ctsurn := "CTS URN"
+  let $count := "Editions available"
   let $theadrow := cts:returnheadrow($label, $ctsurn, $count)
   let $urnlist := cts:listworkurns ($workurn1)
   return cts:returntable($head, $theadrow, $urnlist )
