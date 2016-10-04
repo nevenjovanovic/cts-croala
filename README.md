@@ -17,7 +17,7 @@ Of the 467 documents, [443](docs/notcroalactsmulti.list) were easy to describe s
 
 As we are following the [CapiTainS guidelines](http://capitains.github.io/pages/guidelines) on metadata and directory structure, it has been necessary to rename files in the collection. There is a [concordance file](docs/croalactsconcordance.xml) listing old and new file names.
 
-To learn why we chose to depart from the CapiTainS conventions, and to provide a different interpretation of the CITE Architecture, see the [CroALa CTS explained](CroALa-CTS-explained.md).
+To learn why we chose to depart from the CapiTainS conventions, and to provide a different interpretation of the CITE Architecture, see the [CroALa CTS explained](CroALa-CTS-explained.md). For an analysis of XPaths in CroALa, see [CroALa-XPaths](CroALa-XPaths.md).
 
 ## Contents
 
