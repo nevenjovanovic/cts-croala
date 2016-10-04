@@ -15,7 +15,7 @@ declare function local:getdistinctpaths($file){
     for $p in $paths
     let $length := count(tokenize($p, "/"))
     order by $length descending
-    return element tei:cRefPattern {
+    return element cRefPattern {
     attribute n { "segment" },
     attribute matchPattern {"(\w+)"},
     attribute replacementPattern { "#xpath(/tei:" || $p || "[@n='$1'])" },
@@ -26,7 +26,7 @@ declare function local:getdistinctpaths($file){
 
 for $f in collection("refsDeclproba")//*:TEI/*:teiHeader
   let $filename := db:path($f)
-  let $node := element tei:refsDecl {
+  let $node := element refsDecl {
     attribute n { "CTS" },
     local:getdistinctpaths($filename)
   }
