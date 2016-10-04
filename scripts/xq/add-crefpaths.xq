@@ -8,7 +8,7 @@ $nodes/string-join(ancestor-or-self::*/name(.), '/tei:')
 
 declare function local:getdistinctpaths($file){
   let $paths :=
-  let $cr := db:open("refsDeclproba", $file)
+  let $cr := db:open("croala-cts-1", $file)
     let $els := for $e in $cr/*:TEI/*:text//*
     return functx:path-to-node($e)
     return distinct-values($els)
@@ -17,7 +17,7 @@ declare function local:getdistinctpaths($file){
     order by $length descending
     return element cRefPattern {
     attribute n { "segment" },
-    attribute matchPattern {"(\w+)"},
+    attribute matchPattern {"([a-z0-9.]+)"},
     attribute replacementPattern { "#xpath(/tei:" || $p || "[@n='$1'])" },
     element p { "This pointer pattern extracts @n value of segment."}
   }
