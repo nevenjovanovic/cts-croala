@@ -14,6 +14,8 @@ return "(.+)"
 return string-join($sequence, ".")
 };
 
+(: return changing part of sequence :)
+(: for xpath :)
 declare function local:nodecount($path){
 let $count := count(tokenize($path, "/"))
 let $sequence := element c {
@@ -28,7 +30,8 @@ return "*[@n='$" || $c2 || "']"
 return string-join($sequence2, "/")
 };
 
-
+(: get distinct paths in the collection :)
+(: below TEI/text :)
 declare function local:getdistinctpaths($file){
   let $paths :=
   let $cr := db:open("croala-cts-1", $file)
@@ -43,6 +46,8 @@ declare function local:getdistinctpaths($file){
   
 };
 
+(: create cRefPattern element and its children :)
+(: commonpath = common denominator of paths by levels :)
 
 declare function local:makecref ($commonpath){
   let $matchpattern := local:matchpattern(count(tokenize($commonpath,"/")))
@@ -55,7 +60,10 @@ declare function local:makecref ($commonpath){
   }
 };
 
-
+(: testing collection is refsDeclproba :)
+(: change as necessary :)
+(: insert the actual refsDecl node into encodingDesc :)
+(: make sure that the collection has no refsDecl/@n="CTS" already :)
 for $f in collection("refsDeclproba")//*:TEI/*:teiHeader
   let $filename := db:path($f)
   let $node := element refsDecl {
