@@ -12,6 +12,6 @@ declare function functx:substring-after-last
            '(\.|\[|\]|\\|\||\-|\^|\$|\?|\*|\+|\{|\}|\(|\))','\\$1')
  } ;
  
-for $n in collection("refsDeclproba")//*:text//*/@n
+for $n in collection("croala-cts-1")//*:text//*/@n
 let $newn := functx:substring-after-last($n, ".")
 return replace value of node $n with $newn
