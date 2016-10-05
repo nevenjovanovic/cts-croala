@@ -5,8 +5,8 @@ declare function functx:path-to-node
 $nodes/string-join(ancestor-or-self::*[not(name()="TEI" or name()="text")]/name(.), "/tei:")
  } ;
 
-(: create matchpattern based on number of elements :)
-(: below TEI/text (= count) :)
+(: create matchpattern based on number of elements below TEI/text (this number of nodes is passed as $count) :)
+(: called by local:makecref :)
 declare function local:matchpattern($count){
 let $sequence :=
 for $c in 1 to $count
@@ -14,17 +14,22 @@ return "(.+)"
 return string-join($sequence, ".")
 };
 
-(: return changing part of sequence :)
-(: for xpath :)
+(: for all existing xpath combinations in document, add an index number based on XML level count, in descending order -- each descendant is represented by a smaller number   :)
+(: called by local:getdistinctpaths :)
 declare function local:nodecount($path){
+(: $count is the maximum number of levels :)
 let $count := count(tokenize($path, "/"))
 let $sequence := element c {
-for $e at $pos in tokenize($path, "/")
-let $pp := element n { element node { $e } , element pos { $pos } }
-return $pp
+  for $e at $pos in tokenize($path, "/")
+  let $pp := element n { 
+    element node { $e } , 
+    element pos { $pos } }
+  return $pp
 }
+(: index node by level count in reverse order :)
 let $sequence2 :=
 for $s in $sequence//n
+(: we reverse the level count here :)
 let $c2 := $count - xs:integer($s/pos/string()) + 1
 return "*[@n='$" || $c2 || "']"
 return string-join($sequence2, "/")
@@ -34,21 +39,21 @@ return string-join($sequence2, "/")
 (: below TEI/text :)
 declare function local:getdistinctpaths($file){
   let $paths :=
-  let $cr := db:open("croala-cts-1", $file)
+    let $cr := db:open("croala-cts-1", $file)
     let $els := for $e in $cr/*:TEI/*:text//*
-    return functx:path-to-node($e)
+          return functx:path-to-node($e)
     return distinct-values($els)
-    for $p in $paths
-    let $length := count(tokenize($p, "/"))
-    let $newpath := local:nodecount($p)
-    order by $length descending
-    return $newpath
+  for $p in $paths
+  let $length := count(tokenize($p, "/"))
+  let $newpath := local:nodecount($p)
+  order by $length descending
+  return $newpath
   
 };
 
 (: create cRefPattern element and its children :)
-(: commonpath = common denominator of paths by levels :)
-
+(: commonpath = regex as common denominator of paths by levels :)
+(: called by the main XQuery :)
 declare function local:makecref ($commonpath){
   let $matchpattern := local:matchpattern(count(tokenize($commonpath,"/")))
   return
@@ -61,15 +66,16 @@ declare function local:makecref ($commonpath){
 };
 
 (: testing collection is refsDeclproba :)
-(: change as necessary :)
+(: change db name as necessary :)
 (: insert the actual refsDecl node into encodingDesc :)
 (: make sure that the collection has no refsDecl/@n="CTS" already :)
 for $f in collection("refsDeclproba")//*:TEI/*:teiHeader
-  let $filename := db:path($f)
-  let $node := element refsDecl {
+let $filename := db:path($f)
+let $node := element refsDecl {
     attribute n { "CTS" },
     for $ppaths in distinct-values ( local:getdistinctpaths($filename) )
     return local:makecref($ppaths)
   }
 return insert node $node into $f//tei:encodingDesc
+(: expression for testing :)
 (:return $node:)
