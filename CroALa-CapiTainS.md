@@ -16,7 +16,7 @@ To satisfy this, we had to eliminate most of our verbose, XPath-imitating `@n` v
 
 1. The CapiTainS Guidelines (and the HookTest, which follows them) rely on *levels* - the count of [ancestors](http://zvon.org/xxl/XPathTutorial/Output/example14.html) of a node
 2. The Guidelines also require the XPaths to nodes in a document to be sorted by the *descending* level count, to be distinguished *only* by level count; from that perspective, the path `A/B/C` is regarded to be equal to the path `A/C/D`
-3. Moreover, the nodes to be cited as CTS URNs have to have their `@n` attributes mentioned as a regular expression in the XPath, in *descending* order: `A/B[@n='$2']/C[@n='$1']`
+3. The nodes to be cited as CTS URNs have to have their `@n` attributes mentioned as a regular expression in the XPath: `A/B[@n='$1']/C[@n='$2']`
 4. The `cRefPattern` element in which all this information is supplied has to provide a `@matchpattern` attribute with the number of components *equal to the level count*; if the level count is 2 (as in the examples above), we need to have something like `@matchpattern='(\w+).(\w+)'`
 
 All these conditions required some complex hacking of the CroALa XML files, attributes, and paths. The final result is the [add-crefpaths.xq](scripts/xq/add-crefpaths.xq) XQuery. It is organized in a slightly perplexing and extremely unprofessional way -- but it does what it should; it inserts into our documents `refsDecl` nodes with the required children, and with information structured and expressed adequately enough to pass the relevant HookTest tests.
