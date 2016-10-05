@@ -60,13 +60,13 @@ declare function local:makecref ($commonpath){
 (: change db name as necessary :)
 (: insert the actual refsDecl node into encodingDesc :)
 (: make sure that the collection has no refsDecl/@n="CTS" already :)
-for $f in collection("refsDeclproba")//*:TEI/*:teiHeader
+for $f in collection("croala-cts-1")//*:TEI/*:teiHeader
 let $filename := db:path($f)
 let $node := element refsDecl {
     attribute n { "CTS" },
     for $ppaths in distinct-values ( local:getdistinctpaths($filename) )
     return local:makecref($ppaths)
   }
-(: return insert node $node into $f//tei:encodingDesc:)
+return insert node $node into $f//tei:encodingDesc
 (: expression for testing :)
-return $node
+(: return $node :)
