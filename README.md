@@ -1,6 +1,6 @@
 # CroALa, a CTS edition
 
-Make Neo-Latin texts from [CroALa](http://croala.ffzg.unizg.hr) conformant to the requirements of the [CITE Architecture](http://cite-architecture.github.io/).
+Make Neo-Latin texts from [CroALa](http://croala.ffzg.unizg.hr) conformant to the requirements of the [CITE Architecture](http://cite-architecture.github.io/) and the [CapiTainS guidelines](http://capitains.github.io/pages/guidelines).
 
 
 ## The team
