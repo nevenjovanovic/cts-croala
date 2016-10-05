@@ -84,6 +84,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -129,14 +146,14 @@
 
       </revisionDesc>
    </teiHeader>
-   <text xml:base="urn:cts:croala:vranc01.croala1918893.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <pb n="text.body.pb"/>
-            <div n="text.body.div" type="prosa-epistula">
-                <opener n="text.body.div.opener">Antonius Verantius Magdalenae Millaversiae</opener>
+   <text xml:base="urn:cts:croala:vranc01.croala1918893.croala-lat1" xml:lang="lat">
+        <body n="body">
+            <pb n="pb"/>
+            <div n="div" type="prosa-epistula">
+                <opener n="opener">Antonius Verantius Magdalenae Millaversiae</opener>
 
-                <p n="text.body.div.p">Quod a decennio nihil ad te de vitae ac status mei ratione vel semel nec
-                    scripserim nec nunciaverim, Magdalena, quemadmodum veteres auctores nostri, <pb n="text.body.div.p.pb1"/> illique jucundissimi postulabant, causa est, quod iam quum propter
+                <p n="p">Quod a decennio nihil ad te de vitae ac status mei ratione vel semel nec
+                    scripserim nec nunciaverim, Magdalena, quemadmodum veteres auctores nostri, <pb n="pb1"/> illique jucundissimi postulabant, causa est, quod iam quum propter
                     annos, qui mihi in dies VIII. lustro ad IX. properant, tum propter tristissimas
                     et graves difficultates, in quas horrendae et continuae Magni Turcae Zulimani
                     victoriae nos abiecerunt, factus sim semisenex, et ferme totus barbarus, quod
@@ -156,9 +173,9 @@
                     meum suavium, oblivisci ullo tempore posse existimes ; quamvis et pulchritudo
                     Tibi Tua praeterit, et ipse iam eo Cupidine, qui nos coniunxerat, destitui
                     videar. Maiora certe ego amabam et admirabar, delicium ! quam aut formae
-                    praestantiam, aut <sic n="text.body.div.p.sic">adaptissimae</sic> aetatis florem ; mores imprimis ab
+                    praestantiam, aut <sic n="sic">adaptissimae</sic> aetatis florem ; mores imprimis ab
                     omni avaritia Corynthiaca alienos, modestiam dein jucunditati, comitatemque
-                    affabilitati <pb n="text.body.div.p.pb2"/> copulatam ; musicae postea scientiam, in qua sic
+                    affabilitati <pb n="pb2"/> copulatam ; musicae postea scientiam, in qua sic
                     voce, sic pollebas fidibus, ut quum seu Lydios modos, seu Jovios addam, et
                     reliqua, quibus facile cedunt, Venetos movere maluisses, Ariona vincere et Argum
                     sopire posse haud dubie mihi videbaris ; ingenuitatem postremo ac elegantiam
@@ -180,11 +197,11 @@
                     absentem, redama, aevoque fugitivo fruere ! Nam autumnus, veris ac aestatis
                     bonorum spoliator, iam adest, et bruma instat, quae mihi, si reliquum ex eo
                     fecerit nihil, meos casus solabor ex alienis, tuisque saltem pascar virtutibus,
-                    quibus quum per omnes aetates fuisti hucusque <pb n="text.body.div.p.pb3"/> amabilis, tum in
+                    quibus quum per omnes aetates fuisti hucusque <pb n="pb3"/> amabilis, tum in
                     senectute, quod erit cumulatius, fies etiam honorabilis.</p>
-                <closer n="text.body.div.closer">
-                    <salute n="text.body.div.closer.salute">Vale. </salute>
-                    <dateline n="text.body.div.closer.dateline">Albae Juliae Transsylvanae <date n="text.body.div.closer.dateline.date" when="1543-07-20">XIII. kalendas
+                <closer n="closer">
+                    <salute n="salute">Vale. </salute>
+                    <dateline n="dateline">Albae Juliae Transsylvanae <date n="date" when="1543-07-20">XIII. kalendas
                             Augusti MDXLIII. </date>
                </dateline>
                 </closer>

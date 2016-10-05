@@ -83,6 +83,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -128,21 +145,21 @@
 
       </revisionDesc>
    </teiHeader>
-   <text xml:base="urn:cts:croala:vranc01.croala1585380.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <pb n="text.body.pb"/>
-            <div n="text.body.div" type="prosa-epistula">
-                <opener n="text.body.div.opener">Antonius Verancsics Paulo Murany S. P. D. </opener>
-                <p n="text.body.div.p">Cur gratulationis huius meae in nuptiis Sigismundi Augusti Poloniae Regis habitae tam pertinaciter exemplum ad te mitti contenderis, non video.  
+   <text xml:base="urn:cts:croala:vranc01.croala1585380.croala-lat1" xml:lang="lat">
+        <body n="body">
+            <pb n="pb"/>
+            <div n="div" type="prosa-epistula">
+                <opener n="opener">Antonius Verancsics Paulo Murany S. P. D. </opener>
+                <p n="p">Cur gratulationis huius meae in nuptiis Sigismundi Augusti Poloniae Regis habitae tam pertinaciter exemplum ad te mitti contenderis, non video.  
                     Nihil enim habet in se dignius, quam quod ex sententia Reginae meae habitam putem. Misi tamen, ut mutuae nostrae amicitiae, cui ambo nihil unquam negavimus, morem geram. Ceterum oro vehementer, ne 
                     cuipiam eius feceris copiam. Nam etsi fortasse aptius recitata piacuit : vereor tamen, ne pensitatius lecta 
                     displiceat. Porro judicia publica, quibus non omnes 
                     litterati scripta sua feliciter committunt, quam varia 
                     semper, quam saepe iniqua consueverunt esse, non 
                     ignoras.</p>
-                <closer n="text.body.div.closer">
-                    <salute n="text.body.div.closer.salute">Vale.</salute>
-                    <dateline n="text.body.div.closer.dateline">Cracoviae <date n="text.body.div.closer.dateline.date" when="1543-05-16">XVII. Kalendas Junii 1543.</date>
+                <closer n="closer">
+                    <salute n="salute">Vale.</salute>
+                    <dateline n="dateline">Cracoviae <date n="date" when="1543-05-16">XVII. Kalendas Junii 1543.</date>
                </dateline>
                 </closer>
             </div>

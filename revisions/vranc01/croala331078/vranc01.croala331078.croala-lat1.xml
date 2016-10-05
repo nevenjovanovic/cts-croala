@@ -95,6 +95,29 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -151,149 +174,149 @@
       </change>
       </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:croala:vranc01.croala331078.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div1" type="poesis">
-            <head n="text.body.div1.head">Carmina Antonii Verantii in codice Traguriensi Variorum Dalmaticorum</head>
-            <pb n="text.body.div1.pb1"/>
-            <div n="text.body.div1.div1" type="poesis-epigramma" xml:id="antvr-vd01" met="elegiacum">
-               <head n="text.body.div1.div1.head">Ad inclytum Bohemiae regem Maximilianum de Turcarum tyranno / Antonius Verantius</head>
-               <l n="text.body.div1.div1.l1">Fortunae illecebris nimium tumefactus et haustus</l>
-               <l n="text.body.div1.div1.l2"> Iam, quocumque trahunt, it, sua uota, furens.</l>
-               <l n="text.body.div1.div1.l3">Quaeque gerit, ui cuncta gerit, gerit omnia fraude,</l>
-               <l n="text.body.div1.div1.l4"> Perfidia uiolat faedera, pacta, fidem.</l>
-               <l n="text.body.div1.div1.l5">Quodque magis noscas ex omni parte tyrannum,</l>
-               <l n="text.body.div1.div1.l6"> Impius in proprium saeuit et ille genus</l>
-               <l n="text.body.div1.div1.l7">Nec minus insidiis fallax pessundat amicos,</l>
-               <l n="text.body.div1.div1.l8"> Deuorat et passim proxima quaeque ferus.</l>
-               <l n="text.body.div1.div1.l9">Sic non offitiis, non fuluo flectitur auro,</l>
-               <l n="text.body.div1.div1.l10"> Sic ius, fas, ęquum
-              <note place="foot" n="text.body.div1.div1.l10.note">
-                     <p n="text.body.div1.div1.l10.note.p">
-                        <emph n="text.body.div1.div1.l10.note.p.emph">Correxi ex </emph>ęqum. </p>
+  <text xml:base="urn:cts:croala:vranc01.croala331078.croala-lat1" xml:lang="lat">
+      <body n="body">
+         <div n="div1" type="poesis">
+            <head n="head">Carmina Antonii Verantii in codice Traguriensi Variorum Dalmaticorum</head>
+            <pb n="pb1"/>
+            <div n="div1" type="poesis-epigramma" xml:id="antvr-vd01" met="elegiacum">
+               <head n="head">Ad inclytum Bohemiae regem Maximilianum de Turcarum tyranno / Antonius Verantius</head>
+               <l n="l1">Fortunae illecebris nimium tumefactus et haustus</l>
+               <l n="l2"> Iam, quocumque trahunt, it, sua uota, furens.</l>
+               <l n="l3">Quaeque gerit, ui cuncta gerit, gerit omnia fraude,</l>
+               <l n="l4"> Perfidia uiolat faedera, pacta, fidem.</l>
+               <l n="l5">Quodque magis noscas ex omni parte tyrannum,</l>
+               <l n="l6"> Impius in proprium saeuit et ille genus</l>
+               <l n="l7">Nec minus insidiis fallax pessundat amicos,</l>
+               <l n="l8"> Deuorat et passim proxima quaeque ferus.</l>
+               <l n="l9">Sic non offitiis, non fuluo flectitur auro,</l>
+               <l n="l10"> Sic ius, fas, ęquum
+              <note place="foot" n="note">
+                     <p n="p">
+                        <emph n="emph">Correxi ex </emph>ęqum. </p>
                   </note>
             calcat et odit atrox.</l>
-               <l n="text.body.div1.div1.l11">Frustra igitur pacem, frustra omnia caetera tentas,</l>
-               <l n="text.body.div1.div1.l12"> Ense opus est, quoniam, quos timet, hos et amat.</l>
+               <l n="l11">Frustra igitur pacem, frustra omnia caetera tentas,</l>
+               <l n="l12"> Ense opus est, quoniam, quos timet, hos et amat.</l>
           
             </div>
-            <pb n="text.body.div1.pb2"/>
-            <div n="text.body.div1.div2" type="poesis-epigramma" xml:id="antvr-vd02" met="elegiacum">
-               <head n="text.body.div1.div2.head"> Reuerendo domino Paulo Iouio Antonius Werancius Sibenicensis</head>
-               <l n="text.body.div1.div2.l1">Vt bene Romanos reges clarumque senatum</l>
-               <l n="text.body.div1.div2.l2"> Descripsit Liuius doctus et ore grauis,</l>
-               <l n="text.body.div1.div2.l3">Sic aeui Iouius nostri bene secla notauit</l>
-               <l n="text.body.div1.div2.l4"> Romanosque patres pontificesque pios.</l>
-               <l n="text.body.div1.div2.l5">Quales ergo uetus Liuio tribuebat honores,</l>
-               <l n="text.body.div1.div2.l6"> Tales et Iouio Roma datura noua est.</l>
+            <pb n="pb2"/>
+            <div n="div2" type="poesis-epigramma" xml:id="antvr-vd02" met="elegiacum">
+               <head n="head"> Reuerendo domino Paulo Iouio Antonius Werancius Sibenicensis</head>
+               <l n="l1">Vt bene Romanos reges clarumque senatum</l>
+               <l n="l2"> Descripsit Liuius doctus et ore grauis,</l>
+               <l n="l3">Sic aeui Iouius nostri bene secla notauit</l>
+               <l n="l4"> Romanosque patres pontificesque pios.</l>
+               <l n="l5">Quales ergo uetus Liuio tribuebat honores,</l>
+               <l n="l6"> Tales et Iouio Roma datura noua est.</l>
           
             </div>
          </div>
-         <div n="text.body.div2">
-            <head n="text.body.div2.head">E libro Otiorum carminum dilectus</head>
-            <div n="text.body.div2.div1" type="poesis-carmen">
-               <head n="text.body.div2.div1.head">MADREGALE CONVERSUM IN LATINUM</head>
+         <div n="div2">
+            <head n="head">E libro Otiorum carminum dilectus</head>
+            <div n="div1" type="poesis-carmen">
+               <head n="head">MADREGALE CONVERSUM IN LATINUM</head>
           
           
-               <l n="text.body.div2.div1.l1">Sic spes sublata est mihi,</l>
-               <l n="text.body.div2.div1.l2">Sic desiderium et cupido crescit,</l>
-               <l n="text.body.div2.div1.l3">Ut vitae inveniam haud meae quietem.</l>
-               <l n="text.body.div2.div1.l4">O mors impia, vita et insuavis!</l>
-               <l n="text.body.div2.div1.l5">Quarum me altera pene dat sepulcro,</l>
-               <l n="text.body.div2.div1.l6">Ut vivam, vult altera.</l>
-               <l n="text.body.div2.div1.l7">Sic vita haec est pessima,</l>
-               <l n="text.body.div2.div1.l8">Sic certe et mors est pia.</l>
-               <l n="text.body.div2.div1.l9">Ast illius pietas</l>
-               <l n="text.body.div2.div1.l10">Ipsa, inquam, est crudelitas,</l>
-               <l n="text.body.div2.div1.l11">Quae me tot miserum malis reservat.</l>
-               <l n="text.body.div2.div1.l12">Quare qui poenas meas</l>
-               <l n="text.body.div2.div1.l13">Sentit, posset dicere</l>
-               <l n="text.body.div2.div1.l14">Maius morte malum, quod invenitur.</l>
+               <l n="l1">Sic spes sublata est mihi,</l>
+               <l n="l2">Sic desiderium et cupido crescit,</l>
+               <l n="l3">Ut vitae inveniam haud meae quietem.</l>
+               <l n="l4">O mors impia, vita et insuavis!</l>
+               <l n="l5">Quarum me altera pene dat sepulcro,</l>
+               <l n="l6">Ut vivam, vult altera.</l>
+               <l n="l7">Sic vita haec est pessima,</l>
+               <l n="l8">Sic certe et mors est pia.</l>
+               <l n="l9">Ast illius pietas</l>
+               <l n="l10">Ipsa, inquam, est crudelitas,</l>
+               <l n="l11">Quae me tot miserum malis reservat.</l>
+               <l n="l12">Quare qui poenas meas</l>
+               <l n="l13">Sentit, posset dicere</l>
+               <l n="l14">Maius morte malum, quod invenitur.</l>
             </div>
-            <gap n="text.body.div2.gap" reason="nonLatine"/>
-            <div n="text.body.div2.div2" type="poesis-epigramma" met="elegiacum">
-               <head n="text.body.div2.div2.head">AD JUSTUM DECIUM DE AMORE, NUMMO, NOCTE ET <sic n="text.body.div2.div2.head.sic">BACHO</sic>
+            <gap n="gap" reason="nonLatine"/>
+            <div n="div2" type="poesis-epigramma" met="elegiacum">
+               <head n="head">AD JUSTUM DECIUM DE AMORE, NUMMO, NOCTE ET <sic n="sic">BACHO</sic>
                </head>
           
           
-               <l n="text.body.div2.div2.l1">Urges, Juste, nimis, quod nil moderabile suadent</l>
-               <l n="text.body.div2.div2.l2">Quattuor haec: nummus, noxque, merumque, et amor.</l>
-               <l n="text.body.div2.div2.l3">Concedo immodicas depravat copia mentes;</l>
-               <l n="text.body.div2.div2.l4">Magna tamen non res, sed malus usus obest.</l>
-               <l n="text.body.div2.div2.l5">Improba, tolle igitur nummum, succedet egestas,</l>
-               <l n="text.body.div2.div2.l6">Saepe bonos etiam quae facit una malos.</l>
-               <l n="text.body.div2.div2.l7">Absit amor, nil dulce potest mortalibus esse,</l>
-               <l n="text.body.div2.div2.l8">Pax et sancta ruit, surgit et omne nefas.</l>
-               <l n="text.body.div2.div2.l9">Subtrahe done meri, moerebunt laeta, iocique</l>
-               <l n="text.body.div2.div2.l10">Corrumpet genas pallor et ora sitis.</l>
-               <l n="text.body.div2.div2.l11">Nox si non certos cursusque vicesque tenebit</l>
-               <l n="text.body.div2.div2.l12">Inquies occidet, continuusque dies.</l>
-               <l n="text.body.div2.div2.l13">Namque haec per somnum tenacem inibi sepultos</l>
-               <l n="text.body.div2.div2.l14">Restaurat sensus, restituitque sibi,</l>
-               <l n="text.body.div2.div2.l15">Et quos lassat opus longo sudore dierum</l>
-               <l n="text.body.div2.div2.l16">Nox omnes gratis sola labore levat.</l>
-               <l n="text.body.div2.div2.l17">Quare haec si vitam, si dant solatia, Juste,</l>
-               <l n="text.body.div2.div2.l18">Aes male damnatur, noxque, merumque et amor.</l>
-               <l n="text.body.div2.div2.l19">Quumque mari terraque simul per magna pericla</l>
-               <l n="text.body.div2.div2.l20">Pax, nummus, Bachus quaeritur atque Ceres.</l>
-               <l n="text.body.div2.div2.l21">Prorsus erit stulti tantorum nolle laborum</l>
-               <l n="text.body.div2.div2.l22">Fructibus optatis, redditibusque frui.</l>
-               <l n="text.body.div2.div2.l23">Si sapis ergo dies, dum possis, exige laetos,</l>
-               <l n="text.body.div2.div2.l24">Istaque cui sordent, sordidus ille homo est.</l>
+               <l n="l1">Urges, Juste, nimis, quod nil moderabile suadent</l>
+               <l n="l2">Quattuor haec: nummus, noxque, merumque, et amor.</l>
+               <l n="l3">Concedo immodicas depravat copia mentes;</l>
+               <l n="l4">Magna tamen non res, sed malus usus obest.</l>
+               <l n="l5">Improba, tolle igitur nummum, succedet egestas,</l>
+               <l n="l6">Saepe bonos etiam quae facit una malos.</l>
+               <l n="l7">Absit amor, nil dulce potest mortalibus esse,</l>
+               <l n="l8">Pax et sancta ruit, surgit et omne nefas.</l>
+               <l n="l9">Subtrahe done meri, moerebunt laeta, iocique</l>
+               <l n="l10">Corrumpet genas pallor et ora sitis.</l>
+               <l n="l11">Nox si non certos cursusque vicesque tenebit</l>
+               <l n="l12">Inquies occidet, continuusque dies.</l>
+               <l n="l13">Namque haec per somnum tenacem inibi sepultos</l>
+               <l n="l14">Restaurat sensus, restituitque sibi,</l>
+               <l n="l15">Et quos lassat opus longo sudore dierum</l>
+               <l n="l16">Nox omnes gratis sola labore levat.</l>
+               <l n="l17">Quare haec si vitam, si dant solatia, Juste,</l>
+               <l n="l18">Aes male damnatur, noxque, merumque et amor.</l>
+               <l n="l19">Quumque mari terraque simul per magna pericla</l>
+               <l n="l20">Pax, nummus, Bachus quaeritur atque Ceres.</l>
+               <l n="l21">Prorsus erit stulti tantorum nolle laborum</l>
+               <l n="l22">Fructibus optatis, redditibusque frui.</l>
+               <l n="l23">Si sapis ergo dies, dum possis, exige laetos,</l>
+               <l n="l24">Istaque cui sordent, sordidus ille homo est.</l>
             </div>
-            <div n="text.body.div2.div3" type="poesis-epigramma" met="elegiacum">
-               <head n="text.body.div2.div3.head">AD ANNULUM SCORTI</head>
+            <div n="div3" type="poesis-epigramma" met="elegiacum">
+               <head n="head">AD ANNULUM SCORTI</head>
           
           
-               <l n="text.body.div2.div3.l1">Annule dispereas, ferrum muteris in atrum,</l>
-               <l n="text.body.div2.div3.l2">Indignus gemma, nobiliumque manu.</l>
-               <l n="text.body.div2.div3.l3">Replesti digitos scabie mihi, luride, dum te</l>
-               <l n="text.body.div2.div3.l4">Pro domina amplector, pro dominaque fero.</l>
-               <l n="text.body.div2.div3.l5">Sanguine cum careas, cum sis sine carne metallum,</l>
-               <l n="text.body.div2.div3.l6">Credere quis possit, quod tibi morbus inest.</l>
-               <l n="text.body.div2.div3.l7">At bene successit, quod mi Dorothaea negavit,</l>
-               <l n="text.body.div2.div3.l8">Distulit et lusus nequitiasque suas.</l>
-               <l n="text.body.div2.div3.l9">Namque lues nostrum foedasset Gallica corpus,</l>
-               <l n="text.body.div2.div3.l10">Illi iunxisset si mea membra Venus.</l>
+               <l n="l1">Annule dispereas, ferrum muteris in atrum,</l>
+               <l n="l2">Indignus gemma, nobiliumque manu.</l>
+               <l n="l3">Replesti digitos scabie mihi, luride, dum te</l>
+               <l n="l4">Pro domina amplector, pro dominaque fero.</l>
+               <l n="l5">Sanguine cum careas, cum sis sine carne metallum,</l>
+               <l n="l6">Credere quis possit, quod tibi morbus inest.</l>
+               <l n="l7">At bene successit, quod mi Dorothaea negavit,</l>
+               <l n="l8">Distulit et lusus nequitiasque suas.</l>
+               <l n="l9">Namque lues nostrum foedasset Gallica corpus,</l>
+               <l n="l10">Illi iunxisset si mea membra Venus.</l>
             </div>
-            <div n="text.body.div2.div4" type="poesis-epigramma" met="elegiacum">
-               <head n="text.body.div2.div4.head">AD HUNGAROS</head>
+            <div n="div4" type="poesis-epigramma" met="elegiacum">
+               <head n="head">AD HUNGAROS</head>
           
           
-               <l n="text.body.div2.div4.l1">Per vim, Pannonii, vestrum dum quisque seorsum</l>
-               <l n="text.body.div2.div4.l2">In ditione sua regia sceptra gerit;</l>
-               <l n="text.body.div2.div4.l3">Intestina domi crudeles bella fovetis,</l>
-               <l n="text.body.div2.div4.l4">Et vestras frustra debilitatis opes.</l>
-               <l n="text.body.div2.div4.l5">Taurunum periit, servit Slavonia Turcae,</l>
-               <l n="text.body.div2.div4.l6">Cumque Istro missa est iuga Buda suo.</l>
-               <l n="text.body.div2.div4.l7">Nec vestros animos, nec fortia iungitis arma,</l>
-               <l n="text.body.div2.div4.l8">Tanquam Danubius, Budaque salva foret.</l>
-               <l n="text.body.div2.div4.l9">Quid dicam vobis, vestri Diadematis hostes</l>
-               <l n="text.body.div2.div4.l10">Pannonii, quondam gens bona, Marte potens?</l>
-               <l n="text.body.div2.div4.l11">In promptu ratio est. Exemplo <corr n="text.body.div2.div4.l11.corr">Graecia</corr> fiat.</l>
-               <l n="text.body.div2.div4.l12">Vultis vos omnes nempe perire simul.</l>
+               <l n="l1">Per vim, Pannonii, vestrum dum quisque seorsum</l>
+               <l n="l2">In ditione sua regia sceptra gerit;</l>
+               <l n="l3">Intestina domi crudeles bella fovetis,</l>
+               <l n="l4">Et vestras frustra debilitatis opes.</l>
+               <l n="l5">Taurunum periit, servit Slavonia Turcae,</l>
+               <l n="l6">Cumque Istro missa est iuga Buda suo.</l>
+               <l n="l7">Nec vestros animos, nec fortia iungitis arma,</l>
+               <l n="l8">Tanquam Danubius, Budaque salva foret.</l>
+               <l n="l9">Quid dicam vobis, vestri Diadematis hostes</l>
+               <l n="l10">Pannonii, quondam gens bona, Marte potens?</l>
+               <l n="l11">In promptu ratio est. Exemplo <corr n="corr">Graecia</corr> fiat.</l>
+               <l n="l12">Vultis vos omnes nempe perire simul.</l>
             </div>
-            <div n="text.body.div2.div5" type="poesis-epigramma" met="elegiacum">
-               <head n="text.body.div2.div5.head">VANITAS VANITATUM, ET OMNIA VANITAS</head>
+            <div n="div5" type="poesis-epigramma" met="elegiacum">
+               <head n="head">VANITAS VANITATUM, ET OMNIA VANITAS</head>
           
           
-               <l n="text.body.div2.div5.l1">Heu, male consulti, quid toto frangimur aevo,</l>
-               <l n="text.body.div2.div5.l2">Dum quaeruntur opes, gloria, laus et honos:</l>
-               <l n="text.body.div2.div5.l3">Si mors nec miseros audit, nec surda beatos;</l>
-               <l n="text.body.div2.div5.l4">Extinguitque prius, quam meliora videt,</l>
-               <l n="text.body.div2.div5.l5">Nec parcit plebi, nec Regum sceptra pavescit,</l>
-               <l n="text.body.div2.div5.l6">Et juvenes pariter corripit atque senes.</l>
-               <l n="text.body.div2.div5.l7">Frustra igitur tumidas spes nostrum quilibet urget,</l>
-               <l n="text.body.div2.div5.l8">Nostrae sub fato vitaque spesque iacet.</l>
+               <l n="l1">Heu, male consulti, quid toto frangimur aevo,</l>
+               <l n="l2">Dum quaeruntur opes, gloria, laus et honos:</l>
+               <l n="l3">Si mors nec miseros audit, nec surda beatos;</l>
+               <l n="l4">Extinguitque prius, quam meliora videt,</l>
+               <l n="l5">Nec parcit plebi, nec Regum sceptra pavescit,</l>
+               <l n="l6">Et juvenes pariter corripit atque senes.</l>
+               <l n="l7">Frustra igitur tumidas spes nostrum quilibet urget,</l>
+               <l n="l8">Nostrae sub fato vitaque spesque iacet.</l>
             </div>
-            <div n="text.body.div2.div6" type="poesis-epigramma" met="elegiacum">
-               <head n="text.body.div2.div6.head">AD SE</head>
+            <div n="div6" type="poesis-epigramma" met="elegiacum">
+               <head n="head">AD SE</head>
           
           
-               <l n="text.body.div2.div6.l1">Hic ubi sum, non sum, nec qui loquor ipsemet hic sum,</l>
-               <l n="text.body.div2.div6.l2">Atque ibi ubi esse velim, non licet esse mihi.</l>
-               <l n="text.body.div2.div6.l3">Sic mea fata volunt, nec mores ista merentur;</l>
-               <l n="text.body.div2.div6.l4">Impedit, o pereat, quae mea vota precor.</l>
+               <l n="l1">Hic ubi sum, non sum, nec qui loquor ipsemet hic sum,</l>
+               <l n="l2">Atque ibi ubi esse velim, non licet esse mihi.</l>
+               <l n="l3">Sic mea fata volunt, nec mores ista merentur;</l>
+               <l n="l4">Impedit, o pereat, quae mea vota precor.</l>
             </div>
          </div>
       </body>

@@ -84,6 +84,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -129,18 +146,18 @@
 
       </revisionDesc>
    </teiHeader>
-   <text xml:base="urn:cts:croala:vranc01.croala1486619.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-epistula">
-            <opener n="text.body.div.opener">Reverendissimo Domino Georgio Drascovicio 
+   <text xml:base="urn:cts:croala:vranc01.croala1486619.croala-lat1" xml:lang="lat">
+      <body n="body">
+         <pb n="pb"/>
+         <div n="div" type="prosa-epistula">
+            <opener n="opener">Reverendissimo Domino Georgio Drascovicio 
             Episcopo Quinqueecclesiensi. 
             
-            <salute n="text.body.div.opener.salute">Reverendissime Domine et frater mihi observandissime atque amantissime, salutem et servitiorum 
+            <salute n="salute">Reverendissime Domine et frater mihi observandissime atque amantissime, salutem et servitiorum 
             meorum commendationem.</salute>
             </opener>
         
-            <p n="text.body.div.p">
+            <p n="p">
              
             
             Quod attinet ad negotium 
@@ -149,7 +166,7 @@
             Dobo Vaywoda Transylvaniae, Reverendissimam 
             dominationem Vestram vehementer rogo, ut quum de 
             hac ipsa re mea apud Suam Maiestatem aget, velit 
-            non <sic n="text.body.div.p.sic">gravate</sic> Eidem Maiestati cum dexteritate suggerere, dignetur etiam ab hoc ipso domino Dobo de eo 
+            non <sic n="sic">gravate</sic> Eidem Maiestati cum dexteritate suggerere, dignetur etiam ab hoc ipso domino Dobo de eo 
             ipso negotio Agriensi informari ; quum quidam ex fratribus nostris parum, aut omnino nihil soleant curare 
             de fratrum et amicorum suorum incommodis, dum se 
             quibuscumque inventis suis, speciem tantummodo, non 
@@ -163,7 +180,7 @@
             
             
             
-            <pb n="text.body.div.p.pb1"/>
+            <pb n="pb1"/>
             
             Diego abitum post festa parat. Nostri fratres confirmandi et consecrandi, ad sua quique dilapsi sunt, 
             vel minima quidem tantae rei deliberatione instituta ; 
@@ -188,7 +205,7 @@
             ipsorum et rebellium violentias, quorum vicinia etiam 
             probos ne ad improbitatem cogat, timendum est, et 
             providendum, ne his necessitatibus obnoxii simus. Ad 
-            reliqua sua erga me officia, hoc etiam cumulatissimum <pb n="text.body.div.p.pb2"/> accedet. De rebus aliis nihil occurrit, nisi ut Magnificum dominum Stephanum Dobo habeat apud Suam 
+            reliqua sua erga me officia, hoc etiam cumulatissimum <pb n="pb2"/> accedet. De rebus aliis nihil occurrit, nisi ut Magnificum dominum Stephanum Dobo habeat apud Suam 
             Maiestatem commendatum. 
             
              
@@ -196,9 +213,9 @@
              
             
                 </p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">Bene feliciterque valeat.</salute> 
-               <dateline n="text.body.div.closer.dateline">Viennae <date n="text.body.div.closer.dateline.date" when="1557-12-24">24. Decembris 1557.</date>
+            <closer n="closer">
+               <salute n="salute">Bene feliciterque valeat.</salute> 
+               <dateline n="dateline">Viennae <date n="date" when="1557-12-24">24. Decembris 1557.</date>
                </dateline>
             </closer>
          </div>

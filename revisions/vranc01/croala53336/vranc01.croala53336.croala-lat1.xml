@@ -131,6 +131,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -172,29 +189,29 @@
       </change>
       </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:croala:vranc01.croala53336.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div type="poesis-epigramma" met="elegiacum" n="text.body.div1">
-            <head n="text.body.div1.head">Dalmatae <persName n="text.body.div1.head.persName" ref="vranc01" type="croala">
-                  <abbr n="text.body.div1.head.persName.abbr">Ant. Wranc.</abbr>
+  <text xml:base="urn:cts:croala:vranc01.croala53336.croala-lat1" xml:lang="lat">
+      <body n="body">
+         <div type="poesis-epigramma" met="elegiacum" n="div1">
+            <head n="head">Dalmatae <persName n="persName" ref="vranc01" type="croala">
+                  <abbr n="abbr">Ant. Wranc.</abbr>
                </persName>
             </head>
-            <l n="text.body.div1.l1">Quod vos heroes seros producit ad annos,</l>
-            <l n="text.body.div1.l2" met="pentameter"> Quod numerat vestras <persName n="text.body.div1.l2.persName" ref="47580075" type="viaf">Oppolitanus</persName> opes,</l>
-            <l n="text.body.div1.l3">Non hoc non illi debetis, at inclyta debet</l>
-            <l n="text.body.div1.l4" met="pentameter"> Posteritas vestro non caritura animo. </l>
+            <l n="l1">Quod vos heroes seros producit ad annos,</l>
+            <l n="l2" met="pentameter"> Quod numerat vestras <persName n="persName" ref="47580075" type="viaf">Oppolitanus</persName> opes,</l>
+            <l n="l3">Non hoc non illi debetis, at inclyta debet</l>
+            <l n="l4" met="pentameter"> Posteritas vestro non caritura animo. </l>
 
          </div>
-         <div type="poesis-epigramma" met="hendecasyllabus" n="text.body.div2">
-            <head n="text.body.div2.head">
-               <persName n="text.body.div2.head.persName" type="croala" ref="vranc03">
-                  <abbr n="text.body.div2.head.persName.abbr">Mich. Wranc.</abbr>
+         <div type="poesis-epigramma" met="hendecasyllabus" n="div2">
+            <head n="head">
+               <persName n="persName" type="croala" ref="vranc03">
+                  <abbr n="abbr">Mich. Wranc.</abbr>
                </persName>
             </head>
-            <l n="text.body.div2.l1">Nasutos fugias, libelle, amicos,</l>
-            <l n="text.body.div2.l2">Ne nasos subeas parum absolutos:</l>
-            <l n="text.body.div2.l3">Hoc est nec bene sordidos nec unctos;</l>
-            <l n="text.body.div2.l4">Nasutos fugias, libelle, amicos.</l>
+            <l n="l1">Nasutos fugias, libelle, amicos,</l>
+            <l n="l2">Ne nasos subeas parum absolutos:</l>
+            <l n="l3">Hoc est nec bene sordidos nec unctos;</l>
+            <l n="l4">Nasutos fugias, libelle, amicos.</l>
         
          </div>
       </body>
