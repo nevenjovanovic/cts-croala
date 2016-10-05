@@ -10,7 +10,7 @@ $nodes/string-join(ancestor-or-self::*[not(name()="TEI" or name()="text")]/name(
 declare function local:matchpattern($count){
 let $sequence :=
 for $c in 1 to $count
-return "(.+)"
+return "(\w+)"
 return string-join($sequence, ".")
 };
 
