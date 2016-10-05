@@ -19,20 +19,11 @@ return string-join($sequence, ".")
 declare function local:nodecount($path){
 (: $count is the maximum number of levels :)
 let $count := count(tokenize($path, "/"))
-let $sequence := element c {
+let $sequence := 
   for $e at $pos in tokenize($path, "/")
-  let $pp := element n { 
-    element node { $e } , 
-    element pos { $pos } }
+  let $pp := "*[@n='$" || $pos || "']"
   return $pp
-}
-(: index node by level count in reverse order :)
-let $sequence2 :=
-for $s in $sequence//n
-(: we reverse the level count here :)
-let $c2 := $count - xs:integer($s/pos/string()) + 1
-return "*[@n='$" || $c2 || "']"
-return string-join($sequence2, "/")
+return string-join($sequence, "/")
 };
 
 (: get distinct paths in the collection :)
@@ -76,6 +67,6 @@ let $node := element refsDecl {
     for $ppaths in distinct-values ( local:getdistinctpaths($filename) )
     return local:makecref($ppaths)
   }
-return insert node $node into $f//tei:encodingDesc
+(: return insert node $node into $f//tei:encodingDesc:)
 (: expression for testing :)
-(:return $node:)
+return $node
