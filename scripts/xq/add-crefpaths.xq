@@ -2,8 +2,31 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace functx = "http://www.functx.com";
 declare function functx:path-to-node
   ( $nodes ) {
-$nodes/string-join(ancestor-or-self::*/name(.), '/tei:')
+$nodes/string-join(ancestor-or-self::*[not(name()="TEI" or name()="text")]/name(.), "/tei:")
  } ;
+
+(: create matchpattern based on number of elements :)
+(: below TEI/text (= count) :)
+declare function local:matchpattern($count){
+let $sequence :=
+for $c in 1 to $count
+return "(.+)"
+return string-join($sequence, ".")
+};
+
+declare function local:nodecount($path){
+let $count := count(tokenize($path, "/"))
+let $sequence := element c {
+for $e at $pos in tokenize($path, "/")
+let $pp := element n { element node { $e } , element pos { $pos } }
+return $pp
+}
+let $sequence2 :=
+for $s in $sequence//n
+let $c2 := $count - xs:integer($s/pos/string()) + 1
+return "*[@n='$" || $c2 || "']"
+return string-join($sequence2, "/")
+};
 
 
 declare function local:getdistinctpaths($file){
@@ -14,11 +37,20 @@ declare function local:getdistinctpaths($file){
     return distinct-values($els)
     for $p in $paths
     let $length := count(tokenize($p, "/"))
+    let $newpath := local:nodecount($p)
     order by $length descending
-    return element cRefPattern {
+    return $newpath
+  
+};
+
+
+declare function local:makecref ($commonpath){
+  let $matchpattern := local:matchpattern(count(tokenize($commonpath,"/")))
+  return
+   element cRefPattern {
     attribute n { "segment" },
-    attribute matchPattern {"([a-z0-9.]+)"},
-    attribute replacementPattern { "#xpath(/tei:" || $p || "[@n='$1'])" },
+    attribute matchPattern { $matchpattern },
+    attribute replacementPattern { "#xpath(/tei:TEI/tei:text/" || $commonpath || ")" },
     element p { "This pointer pattern extracts @n value of segment."}
   }
 };
@@ -28,6 +60,8 @@ for $f in collection("refsDeclproba")//*:TEI/*:teiHeader
   let $filename := db:path($f)
   let $node := element refsDecl {
     attribute n { "CTS" },
-    local:getdistinctpaths($filename)
+    for $ppaths in distinct-values ( local:getdistinctpaths($filename) )
+    return local:makecref($ppaths)
   }
-  return insert node $node into $f//tei:encodingDesc
+return insert node $node into $f//tei:encodingDesc
+(:return $node:)
