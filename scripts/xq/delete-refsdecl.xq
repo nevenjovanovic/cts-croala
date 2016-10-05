@@ -1,3 +1,3 @@
-for $refsd in collection("refsDeclproba")//*:refsDecl[@n="CTS"]
+for $refsd in collection("croala-cts-1")//*:refsDecl[@n="CTS"]
 return delete node $refsd
 (: return $refsd :)

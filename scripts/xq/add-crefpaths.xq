@@ -10,7 +10,7 @@ $nodes/string-join(ancestor-or-self::*[not(name()="TEI" or name()="text")]/name(
 declare function local:matchpattern($count){
 let $sequence :=
 for $c in 1 to $count
-return "(.+)"
+return "(\w+)"
 return string-join($sequence, ".")
 };
 
@@ -64,7 +64,7 @@ declare function local:makecref ($commonpath){
 (: change as necessary :)
 (: insert the actual refsDecl node into encodingDesc :)
 (: make sure that the collection has no refsDecl/@n="CTS" already :)
-for $f in collection("refsDeclproba")//*:TEI/*:teiHeader
+for $f in collection("croala-cts-1")//*:TEI/*:teiHeader
   let $filename := db:path($f)
   let $node := element refsDecl {
     attribute n { "CTS" },
@@ -72,4 +72,4 @@ for $f in collection("refsDeclproba")//*:TEI/*:teiHeader
     return local:makecref($ppaths)
   }
 return insert node $node into $f//tei:encodingDesc
-(:return $node:)
+(: return $node :)
