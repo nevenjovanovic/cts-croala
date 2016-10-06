@@ -10,8 +10,29 @@ We will proceed from "manual" descriptions to those prepared by a script and rev
 
 ## Procedure
 
-1. Inside the textgroup directory, a new directory is prepared, named according to the model `croalaNUMBER`. The number can be random, but must be unique in the context of the textgroup.
-2. In the new directory, a `__cts__.xml` file is prepared, with the contents following this model:
+### Preparation
+
+From the Github repository, checkout the `rev-texts` branch:
+
+```bash
+
+git fetch
+git checkout rev-texts
+
+```
+
+After doing some work and committing it, push to Github:
+
+```bash
+
+git push origin rev-texts
+
+```
+
+### Work
+
+1. Inside the textgroup directory, a **new directory** is prepared, named according to the model `croalaNUMBER` (for example, `croala3422`). The number can be random, but must be unique in the context of the textgroup.
+2. In the new directory, **create a `__cts__.xml`** file, with the contents following this template:
 
 ```xml
 
@@ -25,6 +46,15 @@ We will proceed from "manual" descriptions to those prepared by a script and rev
 
 ```
 
-A translation of the title in a modern language should be added. Inside the `ti:description` there should be a brief, but informative text about the edition (more informative than the one shown above) - for example, a description that people would like to find in a bibliography or in a lexicon.
+A **translation of the title in a modern language** should be added. Inside the `ti:description` there should be a brief, but informative text about the edition (more informative than the one shown above) - for example, a description that people would like to find in a bibliography or in a lexicon.
 
-Finally, an XML file with the text of the edition should be added, named according to this model: `TEXTGROUP.WORK.croala-latNUMBER.xml`. As the document contains a single, non-aggregate work, the TEI XML should have the most economic structure: `TEI/text/body/l`, and not `TEI/text/body/div/l`.
+Finally, an **XML file with the text of the edition** should be created, named according to this model: `TEXTGROUP.WORK.croala-latNUMBER.xml`, for example:
+
+```
+zama01.croala192837.croala-lat1.xml
+
+```
+
+Because the document contains a single, non-aggregate work, the TEI XML should have the most economic structure: `TEI/text/body/l`, and not `TEI/text/body/div/l`.
+
+One possible approach is to "Save As" the original XML document (the one with many aggregated texts), change the necessary information in the `teiHeader`, and then delete all `div` nodes except the relevant one (oXygen's [Outline](https://www.oxygenxml.com/xml_editor/xml_outliner.html) view is helpful here). Then delete the main parent `div` too, transferring eventual `@type` attribute values to `body/@ana`, and `@met` values (for poetic metre) to `l/@met` (an XQuery script will help here).
