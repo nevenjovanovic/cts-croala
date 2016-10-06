@@ -1,0 +1,473 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="zamagna-b-epist">
+         <titleStmt>
+            <title>AD PETRUM FR. F. SORGIUM PATR. RHAC., versio electronica</title>
+            <author ref="zama01">
+               <persName xml:lang="hr">Zamanja, Bernard </persName>
+               <date>1735-1820</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Electronice descripsit</resp>
+               <persName>Martina Kolarec</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+
+         <editionStmt>
+            <edition>
+               <date>Mense Decembri, 2011.</date>
+            </edition>
+         </editionStmt>
+         <extent ana="D">Mg:D 1960 versus, verborum 13466</extent>
+         <publicationStmt>
+            <p>Izdanje priređeno u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Listopad
+                  2011</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl> Zamanja, Brno Epistolae Bernardi Zamagnae, patr. Rhac., scriptae an 1795. et 96.
+               Venetiis Antonius Curti, Iacobi f, s. a. 80 pag. ; 8o </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="abstract" occurs="1"/>
+               <tagUsage gi="author" occurs="1"/>
+               <tagUsage gi="bibl" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="change" occurs="2"/>
+               <tagUsage gi="creation" occurs="1"/>
+               <tagUsage gi="date" occurs="6"/>
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="docAuthor" occurs="1"/>
+               <tagUsage gi="docTitle" occurs="1"/>
+               <tagUsage gi="edition" occurs="1"/>
+               <tagUsage gi="editionStmt" occurs="1"/>
+               <tagUsage gi="editor" occurs="1"/>
+               <tagUsage gi="encodingDesc" occurs="1"/>
+               <tagUsage gi="extent" occurs="1"/>
+               <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+               <tagUsage gi="front" occurs="1"/>
+               <tagUsage gi="head" occurs="15"/>
+               <tagUsage gi="keywords" occurs="3"/>
+               <tagUsage gi="l" occurs="1960"/>
+               <tagUsage gi="langUsage" occurs="1"/>
+               <tagUsage gi="language" occurs="1"/>
+               <tagUsage gi="namespace" occurs="1"/>
+               <tagUsage gi="opener" occurs="1"/>
+               <tagUsage gi="orgName" occurs="1"/>
+               <tagUsage gi="p" occurs="5"/>
+               <tagUsage gi="particDesc" occurs="1"/>
+               <tagUsage gi="persName" occurs="7"/>
+               <tagUsage gi="placeName" occurs="1"/>
+               <tagUsage gi="profileDesc" occurs="1"/>
+               <tagUsage gi="publicationStmt" occurs="1"/>
+               <tagUsage gi="ref" occurs="5"/>
+               <tagUsage gi="resp" occurs="2"/>
+               <tagUsage gi="respStmt" occurs="2"/>
+               <tagUsage gi="revisionDesc" occurs="1"/>
+               <tagUsage gi="settingDesc" occurs="1"/>
+               <tagUsage gi="sic" occurs="1"/>
+               <tagUsage gi="sourceDesc" occurs="1"/>
+               <tagUsage gi="tagUsage" occurs="43"/>
+               <tagUsage gi="tagsDecl" occurs="1"/>
+               <tagUsage gi="teiHeader" occurs="1"/>
+               <tagUsage gi="term" occurs="5"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="textClass" occurs="1"/>
+               <tagUsage gi="title" occurs="1"/>
+               <tagUsage gi="titlePart" occurs="1"/>
+               <tagUsage gi="titleStmt" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+         <refsDecl n="CTS">
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date from="1795" to="1796" period="17xx_3_third">1795-1796</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-02-12</date> Novo, unificirano zaglavlje. </change>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2011-12-11</date> Prva TEI XML verzija </change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:zama01.croala1003.croala-lat1" xml:lang="lat" type="poesis">
+      <front n="front">
+         <docAuthor n="docAuthor">BERNARD ZAMAGNA</docAuthor>
+         <docTitle n="docTitle">
+            <titlePart n="titlePart">EPISTOLAE</titlePart>
+         </docTitle>
+         <div n="div" type="prologo" xml:lang="it">
+            <opener n="opener">A' SUOI AMICI LATINISTI ANDREA RUBBI.</opener>
+            <p n="p">I doni fra gli amici debbono esser comuni, come gli affetti e i soccorsi.
+               Questa è legislazione della natura, e della virtù. Bernardo Zamagna, gran letterato e
+               a voi noto, si ricorda di me dalla sua patria Ragusi. La letteratura ha i suoi punti
+               d' appoggio, sebben divisa dal mare. Greco e Latino sono i due perni maestri, su cui
+               s' aggira la macchina scientifica, che sparge le sue scintille elettriche a chi si
+               trova isolato. Io ne accolsi, cortesi amici, benefici effluvj; e per la catena
+               letteraria, che tutti ci unisce, benchè dispersi, a voi li comunico. L' autore ha
+               occupato la latinissima penna in alcune auree epistole agli amici e parenti. I suoi
+               ozj virtuosi lo tennero fisso sugli oggetti di patria, su cui verseggiò felicemente.
+               Egli le fece mie; ed io che bramai sempre la propagazione della buona lingua romana,
+               le partecipo a voi. Felici, se amate il genio de' nostri legislatori! Voi amerete
+               ancora il Zamagna, e le cure del vostro amico nell' offrirvi queste gemme preziose.
+               Son degne, o Latinisti, di ornare il vostro spirito, non mai abbattuto dall' urto
+               delle moderne poetiche prevaricazioni. Siatemi propizj, come solete; e mi vi
+               raccomando.</p>
+         </div>
+      </front>
+      <body n="body" ana="poesis-epistula">
+
+         
+            <head n="head">AD PETRUM FR. F. SORGIUM PATR. RHAC.</head>
+            <l n="l1">Jamdudum cupiens foecundae in Tauridos acta</l>
+
+            <l n="l2">Visere te, matremque tuam, carasque sorores,</l>
+
+            <l n="l3">Haud potui, mi Petre. Tulit nunc fama futurum</l>
+
+            <l n="l4">Huc reducem quamprimum, ubi saevus desinet auster,</l>
+
+            <l n="l5">Et mare se placidum sternet, pluviaeque recedent.</l>
+
+            <l n="l6">Consilium laudo dignum, laetorque: facis quod</l>
+
+            <l n="l7">Patricia de gente virum decet, et sapientem,</l>
+
+            <l n="l8">Atque probum; frustra Chrysippi rancida ni me</l>
+
+            <l n="l9">A curvo rectum secernere pagina quondam</l>
+
+            <l n="l10">Edocuit, quid enim? Tibi rerum publica cura</l>
+
+            <l n="l11">Commissa a populo est; tibi demandantur honores</l>
+
+            <l n="l12">Praecipui; judex etiam cognoscere causas</l>
+
+            <l n="l13">Diceris? At contra privis communia rebus</l>
+
+            <l n="l14">Postponis, tantumque animo contendis avaro</l>
+
+            <l n="l15">Noctes, atque dies, tua res ut crescat, et uni</l>
+
+            <l n="l16">Sit bene? Clamosam idcirco fugis improbus urbem,</l>
+
+            <l n="l17">Devitasque forum, ne quisquam commoda turbet</l>
+
+            <l n="l18">Pigra, togam cogens nigrantem, et pallia longa</l>
+
+            <l n="l19">Induere. An nihilum peccas, si debita spernis</l>
+
+            <l n="l20">Officia? Heu miseros vexat socordia prava</l>
+
+            <l n="l21">Tutorum, aut etiam fraus pupillos; tenet annos</l>
+
+            <l n="l22">Jam multos lis implicitos, finemque rogantes</l>
+
+            <l n="l23">Magna alios; foedo conclusus carcere squallet</l>
+
+            <l n="l24">Suspectus de furto, seu de crimine caedis</l>
+
+            <l n="l25">Indicta causa; et quis erit jam denique finis</l>
+
+            <l n="l26">Clamitat? Absolvar, sceleris si purus, et expers;</l>
+
+            <l n="l27">Si reus, haud renuo damnari legibus aequis,</l>
+
+            <l n="l28">Tantum haud quaesitor desit. Quid justa petenti</l>
+
+            <l n="l29">Non video, contra dices; nisi forte repones</l>
+
+            <l n="l30">Putidula et Davo digna haec. Sol igneus urit</l>
+
+            <l n="l31">Aestatem per longam, autumni tempore Bacchus</l>
+
+            <l n="l32">Rura vocat, campique obeundi, animusque severis</l>
+
+            <l n="l33">Laxandus studiis; gelidum brumare tribunal</l>
+
+            <l n="l34">Adscendam, nec tussim acrem, nec acuta pavebo</l>
+
+            <l n="l35">Millia tot morborum animae sic prodigus; ut te</l>
+
+            <l n="l36">Nempe juvem? Media satius de plebe fuit me</l>
+
+            <l n="l37">Nasci, quam tantos tibi me debere labores.</l>
+
+            <l n="l38">Mitius incipiet rursum splendescere coelum,</l>
+
+            <l n="l39">Advenient placidae luces, et lenior aura;</l>
+
+            <l n="l40">Tum labor excitum revocabit. Siccine tandem</l>
+
+            <l n="l41">In ver cura omnis recidet? Pars maxima longi</l>
+
+            <l n="l42">Anni elabetur, quin de me cogitet, ac mi</l>
+
+            <l n="l43">Consulat, uni omnis cui spes, et tradita primum</l>
+
+            <l n="l44">Cura mei? Te post Divos venerabor ego, tu</l>
+
+            <l n="l45">Me nihili facies rerum tutela mearum,</l>
+
+            <l n="l46">Et columen? Fasces jamjam mihi sponte resigna</l>
+
+            <l n="l47">Concessos: non vis? Cogam. Cur mutua cessant</l>
+
+            <l n="l48">Officia, alterno promissa et foedera nexu?</l>
+
+            <l n="l49">Hae patria a nostra, nostrisque a moenibus absunt,</l>
+
+            <l n="l50">Credo equidem, voces; namque heic et plurima virtus,</l>
+
+            <l n="l51">Et studiosus amor populi, juvenesque, senesque</l>
+
+            <l n="l52">Patricios semper tenuit, semperque tenebit.</l>
+
+            <l n="l53">Verum quanta olim turbarum incendia nosti</l>
+
+            <l n="l54">Seditio faeda his scintillis exciit, utque</l>
+
+            <l n="l55">In vulgus manavit atrox, nec tela, nec ignes</l>
+
+            <l n="l56">Cessarunt? Quae causa ante exagitavit Athenas,</l>
+
+            <l n="l57">Quae Megaram, Thebasque? An non secedere plebem</l>
+
+            <l n="l58">Iratam patribus primaevo vidit in ortu</l>
+
+            <l n="l59">Roma ab Aventino metuens immane periclum?</l>
+
+            <l n="l60">Nec volo, sit nulla ut populi querimonia: nullo</l>
+
+            <l n="l61">Quit fieri id pacto; natura quippe suapte</l>
+
+            <l n="l62">Servitii querulum genus est; at justa querelis</l>
+
+            <l n="l63">Absit causa, bonum cui sit commune parandum</l>
+
+            <l n="l64">Si ceres aut corrupta, aut terrea prostet in urbe</l>
+
+            <l n="l65">Venalis, si desit olus, si opsonia, pisces,</l>
+
+            <l n="l66">Si et carnes, si sal, vinumque, oleum graveolens et</l>
+
+            <l n="l67">Majori quam par pretio fortassis ematur,</l>
+
+            <l n="l68">Quin tu provideas, cum debes, cumque teneris;</l>
+
+            <l n="l69">Haec indignatur, furit his plebecula; sese</l>
+
+            <l n="l70">Neglectam et credit. Negat hinc se ad munia sueta,</l>
+
+            <l n="l71">Imperium detrectat, egeno et turbida fastu</l>
+
+            <l n="l72">Sic operam locat ipsa suam, quam plurima merces</l>
+
+            <l n="l73">Ut redeat. Rerum totus pervertitur ordo,</l>
+
+            <l n="l74">Et pretium: non ulla auri sat copia, certant</l>
+
+            <l n="l75">Usuris fructus, impensae censibus amplae,</l>
+
+            <l n="l76">Vix vitam, ut tolerare queas, licet annua foetus</l>
+
+            <l n="l77">Large terra ferat, licet ipsa industria lucrum</l>
+
+            <l n="l78">Nautica deportet convectis undique nummis:</l>
+
+            <l n="l79">Unde hoc? Nulla magistratus reverentia, nullus</l>
+
+            <l n="l80">Qui praesit, praetor bene idoneus; omnis abacta</l>
+
+            <l n="l81">Justitia, atque pudor, pollutis moribus atra</l>
+
+            <l n="l82">Nequitia; leges sine vi, quas pauper et aeque</l>
+
+            <l n="l83">Contemnit dives, nebulonum ut vivere vitam</l>
+
+            <l n="l84">Possit, et arbitrio ad libitum securus abuti.</l>
+
+            <l n="l85">Non ita barbati proavi sus deque sinebant</l>
+
+            <l n="l86">Ferri cuncta: malos aderat custodia contra,</l>
+
+            <l n="l87">Censorum et vigili cura servata vigebant</l>
+
+            <l n="l88">Juraque, et augusti fuerant rata jussa Senatus.</l>
+
+            <l n="l89">Nunc nova scita, novae leges conduntur in horas,</l>
+
+            <l n="l90">Mutanturque, caduntque. Manent quot denique? Nullae.</l>
+
+            <l n="l91">Crede hoc, si quidquam credis sapientibus: ingens</l>
+
+            <l n="l92">Haud legum numerus, verum observantia laude</l>
+
+            <l n="l93">Digna est; sola urbes facere, et servare beatas</l>
+
+            <l n="l94">Ipsa potest. Poenas noxis illa irroget aequas,</l>
+
+            <l n="l95">Queis timeant peccare homines; illa ampla rependat</l>
+
+            <l n="l96">Praemia virtuti non exorabilis unquam,</l>
+
+            <l n="l97">Quamquam in dona preces, fulvum et mutentur in aurum.</l>
+
+            <l n="l98">Curia ubi culpis connivet, quid nisi certum</l>
+
+            <l n="l99">Naufragium tandem metuendum, extremaque clades?</l>
+
+            <l n="l100">Excute vecordi serpentem pectore somnum,</l>
+
+            <l n="l101">Ignavumque animi torporem; quisquis habenas</l>
+
+            <l n="l102">Imperii rector moliris sorte, nec ortum</l>
+
+            <l n="l103">Esse puta tibi te solum, sed et omnibus una</l>
+
+            <l n="l104">Civibus, et patriae; quantoque es nomine et amplo</l>
+
+            <l n="l105">Nobilior censu, sic vive, ut lumina credas</l>
+
+            <l n="l106">In te versa unum, totus teres, atque rotundus.</l>
+
+            <l n="l107">Invidia absistet; tua per vestigia gressus</l>
+
+            <l n="l108">Turba feret, nec dura pati praecepta negabit</l>
+
+            <l n="l109">Exemplis edocta tuis. Non longius ibo,</l>
+
+            <l n="l110">Plurave verbosus jam pergam adnectere; pubi</l>
+
+            <l n="l111">Dat senium formam vivendi, exemplar et ipsi</l>
+
+            <l n="l112">Plebi sunt proceres. Si clarus forte senator</l>
+
+            <l n="l113">Otia discintus degat, sociisque remotis</l>
+
+            <l n="l114">In triviis nocturnus obambulet; ad mediam atque</l>
+
+            <l n="l115">Pantolabus ceu scurra, nepos aut perditus ille</l>
+
+            <l n="l116">Ridentis salse numeris famosus Horati,</l>
+
+            <l n="l117">In stratis lucem stertat, pietate fugata,</l>
+
+            <l n="l118">Omni et relligione licentius; haec eadem plebs</l>
+
+            <l n="l119">Natura ad vitium quando est proclivior, omnis</l>
+
+            <l n="l120">Urgebit, nec turpe sibi, illicitumque putabit,</l>
+
+            <l n="l121">Quod videat placuisse viris primoribus. Ergo</l>
+
+            <l n="l122">Perge modum vitae sectari, quem a puero orsus</l>
+
+            <l n="l123">Magna, Petre, tua, magna et cum laude parentum</l>
+
+            <l n="l124">Coepisti; nec facta aliorum, aut dicta sequare,</l>
+
+            <l n="l125">Pronus agat quamvis raptum in declivia torrens.</l>
+
+            <l n="l126">Tu tibi sis ratio vivendi, et regula, fastu</l>
+
+            <l n="l127">Amoto ludisque: tibi respublica qualem</l>
+
+            <l n="l128">Cumque dabit curam, sancte, integreque geratur.</l>
+
+            <l n="l129">Nec tamen interea patrias tu sperne Camoenas</l>
+
+            <l n="l130">Haud genitore minor; fuerisque accomoda nactus</l>
+
+            <l n="l131">Otia ubi, vel rure moras septembribus horis</l>
+
+            <l n="l132">Tranquillas, vel in urbe trahens, quod Gundula liquit</l>
+
+            <l n="l133">Imperfectum opus Osmani, tu perfice; quando </l>
+
+            <l n="l134">Versibus ante alios patriis excellere dicunt,</l>
+
+            <l n="l135">Primaque dant ultro tibi nostri serta poetae.</l>
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      </body>
+   </text>
+</TEI>
