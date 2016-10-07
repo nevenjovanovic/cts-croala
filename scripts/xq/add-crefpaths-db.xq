@@ -1,3 +1,4 @@
+declare default element namespace "http://www.tei-c.org/ns/1.0";
 (: add crefpaths to an individual TEI XML file :)
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace functx = "http://www.functx.com";
@@ -72,4 +73,5 @@ for $f in $target//*:TEI/*:teiHeader
     return local:makecref($ppaths)
   }
 return replace node $f//tei:encodingDesc/tei:refsDecl[@n="CTS"] with $node
+(: return insert node $node into $f//tei:encodingDesc :)
 (: return $node :)
