@@ -1,0 +1,276 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="zamagna-b-epist">
+         <titleStmt>
+            <title>AD PETRUM ALETIUM V.C., versio electronica</title>
+            <author ref="zama01">
+               <persName xml:lang="hr">Zamanja, Bernard </persName>
+               <date>1735-1820</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Electronice descripsit</resp>
+               <persName>Martina Kolarec</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+
+         <editionStmt>
+            <edition>
+               <date>Mense Decembri, 2011.</date>
+            </edition>
+         </editionStmt>
+         <extent ana="D">Mg:D 1960 versus, verborum 13466</extent>
+         <publicationStmt>
+            <p>Izdanje priređeno u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Listopad
+                  2011</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl> Zamanja, Brno Epistolae Bernardi Zamagnae, patr. Rhac., scriptae an 1795. et 96.
+               Venetiis Antonius Curti, Iacobi f, s. a. 80 pag. ; 8o </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="abstract" occurs="1"/>
+               <tagUsage gi="author" occurs="1"/>
+               <tagUsage gi="bibl" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="change" occurs="2"/>
+               <tagUsage gi="creation" occurs="1"/>
+               <tagUsage gi="date" occurs="6"/>
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="docAuthor" occurs="1"/>
+               <tagUsage gi="docTitle" occurs="1"/>
+               <tagUsage gi="edition" occurs="1"/>
+               <tagUsage gi="editionStmt" occurs="1"/>
+               <tagUsage gi="editor" occurs="1"/>
+               <tagUsage gi="encodingDesc" occurs="1"/>
+               <tagUsage gi="extent" occurs="1"/>
+               <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+               <tagUsage gi="front" occurs="1"/>
+               <tagUsage gi="head" occurs="15"/>
+               <tagUsage gi="keywords" occurs="3"/>
+               <tagUsage gi="l" occurs="1960"/>
+               <tagUsage gi="langUsage" occurs="1"/>
+               <tagUsage gi="language" occurs="1"/>
+               <tagUsage gi="namespace" occurs="1"/>
+               <tagUsage gi="opener" occurs="1"/>
+               <tagUsage gi="orgName" occurs="1"/>
+               <tagUsage gi="p" occurs="5"/>
+               <tagUsage gi="particDesc" occurs="1"/>
+               <tagUsage gi="persName" occurs="7"/>
+               <tagUsage gi="placeName" occurs="1"/>
+               <tagUsage gi="profileDesc" occurs="1"/>
+               <tagUsage gi="publicationStmt" occurs="1"/>
+               <tagUsage gi="ref" occurs="5"/>
+               <tagUsage gi="resp" occurs="2"/>
+               <tagUsage gi="respStmt" occurs="2"/>
+               <tagUsage gi="revisionDesc" occurs="1"/>
+               <tagUsage gi="settingDesc" occurs="1"/>
+               <tagUsage gi="sic" occurs="1"/>
+               <tagUsage gi="sourceDesc" occurs="1"/>
+               <tagUsage gi="tagUsage" occurs="43"/>
+               <tagUsage gi="tagsDecl" occurs="1"/>
+               <tagUsage gi="teiHeader" occurs="1"/>
+               <tagUsage gi="term" occurs="5"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="textClass" occurs="1"/>
+               <tagUsage gi="title" occurs="1"/>
+               <tagUsage gi="titlePart" occurs="1"/>
+               <tagUsage gi="titleStmt" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+         <refsDecl n="CTS">
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date from="1795" to="1796" period="17xx_3_third">1795-1796</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-02-12</date> Novo, unificirano zaglavlje. </change>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2011-12-11</date> Prva TEI XML verzija </change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:zama01.croala1006.croala-lat1" xml:lang="lat" type="poesis">
+      <front n="front">
+         <docAuthor n="docAuthor">BERNARD ZAMAGNA</docAuthor>
+         <docTitle n="docTitle">
+            <titlePart n="titlePart">EPISTOLAE</titlePart>
+         </docTitle>
+         <div n="div" type="prologo" xml:lang="it">
+            <opener n="opener">A' SUOI AMICI LATINISTI ANDREA RUBBI.</opener>
+            <p n="p">I doni fra gli amici debbono esser comuni, come gli affetti e i soccorsi.
+               Questa è legislazione della natura, e della virtù. Bernardo Zamagna, gran letterato e
+               a voi noto, si ricorda di me dalla sua patria Ragusi. La letteratura ha i suoi punti
+               d' appoggio, sebben divisa dal mare. Greco e Latino sono i due perni maestri, su cui
+               s' aggira la macchina scientifica, che sparge le sue scintille elettriche a chi si
+               trova isolato. Io ne accolsi, cortesi amici, benefici effluvj; e per la catena
+               letteraria, che tutti ci unisce, benchè dispersi, a voi li comunico. L' autore ha
+               occupato la latinissima penna in alcune auree epistole agli amici e parenti. I suoi
+               ozj virtuosi lo tennero fisso sugli oggetti di patria, su cui verseggiò felicemente.
+               Egli le fece mie; ed io che bramai sempre la propagazione della buona lingua romana,
+               le partecipo a voi. Felici, se amate il genio de' nostri legislatori! Voi amerete
+               ancora il Zamagna, e le cure del vostro amico nell' offrirvi queste gemme preziose.
+               Son degne, o Latinisti, di ornare il vostro spirito, non mai abbattuto dall' urto
+               delle moderne poetiche prevaricazioni. Siatemi propizj, come solete; e mi vi
+               raccomando.</p>
+         </div>
+      </front>
+      <body n="body" ana="poesis-epistula">
+
+         
+            <head n="head">AD PETRUM ALETIUM V.C.</head>
+            <l n="l1">Suave canit lepidi Cordarae, et candida Musa</l>
+
+            <l n="l2">Cunichii: gratum est proin munus; epistola, sed qua</l>
+
+            <l n="l3">Auxisti donum, multo quoque gratior: omnis</l>
+
+            <l n="l4">Nam a capite ad talos ita molli splendida cultu</l>
+
+            <l n="l5">Exornata nitet, nil ut concinnius ipse</l>
+
+            <l n="l6">A multo norim jam tempore, dulcis Alethi,</l>
+
+            <l n="l7">Et Phoebo dilecte. Quod autem impellis, ut ire</l>
+
+            <l n="l8">Docta per ora virum permittam carmina foetus</l>
+
+            <l n="l9">Nec culti ingenii, nec dignos pumice, recte</l>
+
+            <l n="l10">Fors facis, ignarus si credis posse placere</l>
+
+            <l n="l11">Versus, quos nec longa dies, nec lima polivit.</l>
+
+            <l n="l12">Sed contra sentisque putasque. An salsior ergo</l>
+
+            <l n="l13">Ludis, et irrisum gaudes sic prodere amicum?</l>
+
+            <l n="l14">Nil mihi plus aequo tribuas; nec quod tuus haud mos</l>
+
+            <l n="l15">Frontis ad urbanae subrepas dicta. Ego paucis</l>
+
+            <l n="l16">Et vixi notus, vivamque, ut fata volent me.</l>
+
+            <l n="l17">Multa quod emisi stultus, fors poenitet; aut hoc </l>
+
+            <l n="l18">Delectat solum, qoud tristes nempe labore</l>
+
+            <l n="l19">Haud injucundo quaesivi fallere curas.</l>
+
+            <l n="l20">Post obitum qiuid erit de rebus, quas male scripsi,</l>
+
+            <l n="l21">Vel fors recte etiam, prudens et quaerere omitto,</l>
+
+            <l n="l22">Et famam haud curo, quae non audita sonabit,</l>
+
+            <l n="l23">Ipse ubi non adero. Mea vel mittantur in ignes</l>
+
+            <l n="l24">Scripta, vel in vicum vendentem sal, piper, et thus,</l>
+
+            <l n="l25">Ignoscam haeredi facilis, culpamque remittam.</l>
+
+            <l n="l26">Cunichides meus ille et vixit magnus, et usque</l>
+
+            <l n="l27">Major florescet, sors quamquam indebita coeca</l>
+
+            <l n="l28">Nocte premat reliquos venae tam divitis haustus.</l>
+
+            <l n="l29">Illius exemplo tu, cui et vis et favet aetas</l>
+
+            <l n="l30">Haud studii impatiens, nisumque intende, novosque</l>
+
+            <l n="l31">Aude alacer fontes aperire, et promere vastae</l>
+
+            <l n="l32">Mentis opes, pleno jam nunc quas pectore condis</l>
+
+            <l n="l33">Argivis pariter doctus, Latiisque Camoenis,</l>
+
+            <l n="l34">Ad quas grandiloquus tibi calcar avunculus addit,</l>
+
+            <l n="l35">Gnavus uti curras. Ego radens littora in altum</l>
+
+            <l n="l36">Plaudam solventi tibi vela haud invidus, ac te</l>
+
+            <l n="l37">Suspiciens merita redimitum tempora lauro</l>
+
+            <l n="l38">Laetus io! dicam, patriae nova gloria surgit.</l>
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      </body>
+   </text>
+</TEI>

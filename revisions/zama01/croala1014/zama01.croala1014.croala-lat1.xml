@@ -1,0 +1,598 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="zamagna-b-epist">
+         <titleStmt>
+            <title>AD BENEDICTUM STAJUM VIRUM CL., ATQUE AMPLISS. PRAESULEM, versio electronica</title>
+            <author ref="zama01">
+               <persName xml:lang="hr">Zamanja, Bernard </persName>
+               <date>1735-1820</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Electronice descripsit</resp>
+               <persName>Martina Kolarec</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+
+         <editionStmt>
+            <edition>
+               <date>Mense Decembri, 2011.</date>
+            </edition>
+         </editionStmt>
+         <extent ana="D">Mg:D 1960 versus, verborum 13466</extent>
+         <publicationStmt>
+            <p>Izdanje priređeno u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Listopad
+                  2011</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl> Zamanja, Brno Epistolae Bernardi Zamagnae, patr. Rhac., scriptae an 1795. et 96.
+               Venetiis Antonius Curti, Iacobi f, s. a. 80 pag. ; 8o </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="abstract" occurs="1"/>
+               <tagUsage gi="author" occurs="1"/>
+               <tagUsage gi="bibl" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="change" occurs="2"/>
+               <tagUsage gi="creation" occurs="1"/>
+               <tagUsage gi="date" occurs="6"/>
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="docAuthor" occurs="1"/>
+               <tagUsage gi="docTitle" occurs="1"/>
+               <tagUsage gi="edition" occurs="1"/>
+               <tagUsage gi="editionStmt" occurs="1"/>
+               <tagUsage gi="editor" occurs="1"/>
+               <tagUsage gi="encodingDesc" occurs="1"/>
+               <tagUsage gi="extent" occurs="1"/>
+               <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+               <tagUsage gi="front" occurs="1"/>
+               <tagUsage gi="head" occurs="15"/>
+               <tagUsage gi="keywords" occurs="3"/>
+               <tagUsage gi="l" occurs="1960"/>
+               <tagUsage gi="langUsage" occurs="1"/>
+               <tagUsage gi="language" occurs="1"/>
+               <tagUsage gi="namespace" occurs="1"/>
+               <tagUsage gi="opener" occurs="1"/>
+               <tagUsage gi="orgName" occurs="1"/>
+               <tagUsage gi="p" occurs="5"/>
+               <tagUsage gi="particDesc" occurs="1"/>
+               <tagUsage gi="persName" occurs="7"/>
+               <tagUsage gi="placeName" occurs="1"/>
+               <tagUsage gi="profileDesc" occurs="1"/>
+               <tagUsage gi="publicationStmt" occurs="1"/>
+               <tagUsage gi="ref" occurs="5"/>
+               <tagUsage gi="resp" occurs="2"/>
+               <tagUsage gi="respStmt" occurs="2"/>
+               <tagUsage gi="revisionDesc" occurs="1"/>
+               <tagUsage gi="settingDesc" occurs="1"/>
+               <tagUsage gi="sic" occurs="1"/>
+               <tagUsage gi="sourceDesc" occurs="1"/>
+               <tagUsage gi="tagUsage" occurs="43"/>
+               <tagUsage gi="tagsDecl" occurs="1"/>
+               <tagUsage gi="teiHeader" occurs="1"/>
+               <tagUsage gi="term" occurs="5"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="textClass" occurs="1"/>
+               <tagUsage gi="title" occurs="1"/>
+               <tagUsage gi="titlePart" occurs="1"/>
+               <tagUsage gi="titleStmt" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+         <refsDecl n="CTS">
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date from="1795" to="1796" period="17xx_3_third">1795-1796</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-02-12</date> Novo, unificirano zaglavlje. </change>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2011-12-11</date> Prva TEI XML verzija </change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:zama01.croala1014.croala-lat1" xml:lang="lat" type="poesis">
+      <front n="front">
+         <docAuthor n="docAuthor">BERNARD ZAMAGNA</docAuthor>
+         <docTitle n="docTitle">
+            <titlePart n="titlePart">EPISTOLAE</titlePart>
+         </docTitle>
+         <div n="div" type="prologo" xml:lang="it">
+            <opener n="opener">A' SUOI AMICI LATINISTI ANDREA RUBBI.</opener>
+            <p n="p">I doni fra gli amici debbono esser comuni, come gli affetti e i soccorsi.
+               Questa è legislazione della natura, e della virtù. Bernardo Zamagna, gran letterato e
+               a voi noto, si ricorda di me dalla sua patria Ragusi. La letteratura ha i suoi punti
+               d' appoggio, sebben divisa dal mare. Greco e Latino sono i due perni maestri, su cui
+               s' aggira la macchina scientifica, che sparge le sue scintille elettriche a chi si
+               trova isolato. Io ne accolsi, cortesi amici, benefici effluvj; e per la catena
+               letteraria, che tutti ci unisce, benchè dispersi, a voi li comunico. L' autore ha
+               occupato la latinissima penna in alcune auree epistole agli amici e parenti. I suoi
+               ozj virtuosi lo tennero fisso sugli oggetti di patria, su cui verseggiò felicemente.
+               Egli le fece mie; ed io che bramai sempre la propagazione della buona lingua romana,
+               le partecipo a voi. Felici, se amate il genio de' nostri legislatori! Voi amerete
+               ancora il Zamagna, e le cure del vostro amico nell' offrirvi queste gemme preziose.
+               Son degne, o Latinisti, di ornare il vostro spirito, non mai abbattuto dall' urto
+               delle moderne poetiche prevaricazioni. Siatemi propizj, come solete; e mi vi
+               raccomando.</p>
+         </div>
+      </front>
+      <body n="body" ana="poesis-epistula">
+
+        
+            <head n="head">AD BENEDICTUM STAJUM VIRUM CL., ATQUE AMPLISS. PRAESULEM</head>
+            <l n="l1">O qui Nestoream non longa aetate senectam</l>
+
+            <l n="l2">Sed multa virtute ac mentis acumine, Staji,</l>
+
+            <l n="l3">Longe antecellis, num forte videbor ineptus,</l>
+
+            <l n="l4">De lingua tecum si fabor pauca Latina?</l>
+
+            <l n="l5">Hujus tu antistes cunctis praestantior; in quem,</l>
+
+            <l n="l6">Ni ridenda foret sententia Pithagoraeum,</l>
+
+            <l n="l7">Grandiloqui migrasse animamque ipsumque Lucreti</l>
+
+            <l n="l8">Credam animi ardorem. Namque ut quondam ille coronam,</l>
+
+            <l n="l9">Unde prius nulli velarant tempora Musae,</l>
+
+            <l n="l10">Detulit ex Helicone intactam, ingressus in hortos</l>
+
+            <l n="l11">Suave exhalantes Epicuri; ita victor et ipse</l>
+
+            <l n="l12">Cartesii placita et Neutoni dia reperta</l>
+
+            <l n="l13">Ausus es in resonas Parnassi extollere sedes,</l>
+
+            <l n="l14">Spargere Musaei sic dulci et nectaris haustu,</l>
+
+            <l n="l15">Nil ut lucidius, nil esse venustius, et nil</l>
+
+            <l n="l16">Grandius ut possit. Quare immortale manebit</l>
+
+            <l n="l17">Et decus et nomen semper, tui et inclyta facta</l>
+
+            <l n="l18">Ingenii volvenda omnis mirabitur aetas:</l>
+
+            <l n="l19">Cum tibi praesertim gemini plausere diserto</l>
+
+            <l n="l20">Clementes, atque ipse Pius, quo Roma superbit,</l>
+
+            <l n="l21">Per te transmitti sua scite oracula gaudet.</l>
+
+            <l n="l22">Sed quid ego certem multis te ornare, nitori et</l>
+
+            <l n="l23">Majus Apollineo jubar addere garrulus? Haec tu</l>
+
+            <l n="l24">Quae crasso intexam filo, nulloque lepore,</l>
+
+            <l n="l25">Ni melius quid habes, podagram quod mulceat, audi.</l>
+
+            <l n="l26">Ante quidem geminae per doctas undique terras</l>
+
+            <l n="l27">Sunt linguae imprimis dominatae, nempe Latina,</l>
+
+            <l n="l28">Graecaque. Majestas utrique est insita, utrique</l>
+
+            <l n="l29">Dignus honos; plenumque sonant, facileque per aures</l>
+
+            <l n="l30">Insinuant animis ludos, et seria, quoscumque</l>
+
+            <l n="l31">Ad numeros formamque aptae. Locupletior usu,</l>
+
+            <l n="l32">Mollior et cultu Graecorum lingua; Quiritum</l>
+
+            <l n="l33">Pauperior, graviorque, ut erat pollentius armis,</l>
+
+            <l n="l34">Ceu nosti, Latium quam Musis. Sed mala fata</l>
+
+            <l n="l35">Grajugenum mittamus, et in sermone moremur</l>
+
+            <l n="l36">Nunc Latio tantum, varia alternante revisit</l>
+
+            <l n="l37">Quem fortuna oculo. Nam cum superante duello</l>
+
+            <l n="l38">Barbarico jacuit Romani exangue cadaver</l>
+
+            <l n="l39">Imperii, et Scythicae diffusa examina gentis</l>
+
+            <l n="l40">Dira per Europam, nova regna exsurgere visa,</l>
+
+            <l n="l41">Inductique novi mores. Vetus omnis abacta</l>
+
+            <l n="l42">Mundities sermonis, et atrum virus obortum</l>
+
+            <l n="l43">Mixtis connubiis populorum ac lege superbi</l>
+
+            <l n="l44">Victoris: plusquam Saturnius inruit horror,</l>
+
+            <l n="l45">Totque fere enatae, quot regum nomina, linguae.</l>
+
+            <l n="l46">Pauca tamen mansere bonae ceu semina frugis,</l>
+
+            <l n="l47">Paulatim ingeniis quae culta sagacibus, altam</l>
+
+            <l n="l48">Crevere in messem. Rursum florescere visus</l>
+
+            <l n="l49">Est decor, et victrix Romanae gratia linguae</l>
+
+            <l n="l50">Auspicibus rediit Naugeris, et Sadoletis,</l>
+
+            <l n="l51">Cum Bembo, cum Manutiis, cum Perpiniano,</l>
+
+            <l n="l52">Flaminio, Vidaque, et Cotta, Sigonioque,</l>
+
+            <l n="l53">Et Fracastorio, et Mureto, aliisque sequutis</l>
+
+            <l n="l54">Sexcentis. Eadem nigro velut excita ab Orco</l>
+
+            <l n="l55">Splendida duravit nostri hanc ad temporis usque</l>
+
+            <l n="l56">Aetatem, quam nulli aevo par cedere, tantum</l>
+
+            <l n="l57">In te praesidium cum nacta est, cumque tueri</l>
+
+            <l n="l58">Vindice se tanto, jactari et gaudet alumno.</l>
+
+            <l n="l59">Quorsum haec tam longo repetita a tempore, dices?</l>
+
+            <l n="l60">Nimirum ut mirere, in tantum evecta Latinae</l>
+
+            <l n="l61">Vis linguae cum sit culmen, cur rursus eamdem</l>
+
+            <l n="l62">Maxima pars quorumdam hominum, queis non leve Pallas</l>
+
+            <l n="l63">Addidit ingenii munus, fastidit et odit?</l>
+
+            <l n="l64">Jamque relegare e terrae parat omnibus oris</l>
+
+            <l n="l65">Dulce sonaturam fortasse Catonibus atque</l>
+
+            <l n="l66">Fabriciis pigram trans Lethen, Cerberus umbras</l>
+
+            <l n="l67">Terret ubi exsangues, resonantque Acherusia stagna?</l>
+
+            <l n="l68">Quin major nunc spes abolendi est addita, et actam</l>
+
+            <l n="l69">Hinc procul exturbandi; ex quo ceu fulminis ictu</l>
+
+            <l n="l70">Ogniadum manus illa feris metuenda tyrannis</l>
+
+            <l n="l71">Scilicet, ac late totum bacchata per orbem,</l>
+
+            <l n="l72">Exiguae jactu chartae compressa quievit.</l>
+
+            <l n="l73">Unde odium improvisum, unde haec fastidia? Quaeris</l>
+
+            <l n="l74">Si causas, referam. Longum consumere tempus,</l>
+
+            <l n="l75">Clamant esse nefas in lingua tantopere illa</l>
+
+            <l n="l76">Discenda, nullo quae jam verancula floret</l>
+
+            <l n="l77">In populo: simul ipsa sua cum gente refrixit.</l>
+
+            <l n="l78">Esse autem satius complere recentibus aures</l>
+
+            <l n="l79">Divitiis vacuas puerorum, animosque severis</l>
+
+            <l n="l80">Artibus informare rudes, quam, pinacothecis</l>
+
+            <l n="l81">Quae melius starent servata ancilia juxta</l>
+
+            <l n="l82">Atque Numae lituum, semper resonare cathedras</l>
+
+            <l n="l83">Nil aliud, tumidi nisi sesquipedalia Tulli</l>
+
+            <l n="l84">Verba, et Plautini coenum salis. Omnia vivos,</l>
+
+            <l n="l85">Quae prisci scitu scriptores digna tulere,</l>
+
+            <l n="l86">Versa in sermones cessere ad commoda nostra;</l>
+
+            <l n="l87">Illae et opes celebratae in nostra venire coactae</l>
+
+            <l n="l88">Sunt jura, aeternum quin sit pallere necesse</l>
+
+            <l n="l89">Grammaticas inter tricas et inania monstra.</l>
+
+            <l n="l90">Si qua amissa Charis, facilis jactura leporum</l>
+
+            <l n="l91">Et venerum, quas nunc vix sentiat unus et alter,</l>
+
+            <l n="l92">Heu miserum trivere diu qui talibus aevum</l>
+
+            <l n="l93">Deliciis, Flaccum soliti et cantare Maronem,</l>
+
+            <l n="l94">Pascere non solidae doctrinae pectus amore.</l>
+
+            <l n="l95">Quod caput est, sua quisque colat: qua quilibet ortus</l>
+
+            <l n="l96">In regione, ejus curet cognoscere linguae</l>
+
+            <l n="l97">Naturam et formas et vim, si scribere recte,</l>
+
+            <l n="l98">Ac velut in proprio vestigia figere regno</l>
+
+            <l n="l99">Libera si cupiat. Tum se facundia promit,</l>
+
+            <l n="l100">Ardor et in verbis, pedicis sine vivida cum mens</l>
+
+            <l n="l101">Arbitrio versat nativa vocabula, agitque</l>
+
+            <l n="l102">Quo vult cumque suos, ceu sponte sequentia, nutus.</l>
+
+            <l n="l103">Haec clamant, haec saepe iterant, haec damna juventae</l>
+
+            <l n="l104">Objiciunt. Quae vera licet sint pleraque, non et</l>
+
+            <l n="l105">Cuncta probem: miscent fanda atque infanda, nec ad rem</l>
+
+            <l n="l106">Semper. Nam primum videant, num mollibus annis</l>
+
+            <l n="l107">Mobilium puerorum animus sit idoenus istis</l>
+
+            <l n="l108">Praeclaris sophies elementis; deinde referre</l>
+
+            <l n="l109">Ne renuant, cur sola vetant cognoscere scripta</l>
+
+            <l n="l110">Romulidum nativo in fonte, monentque vicissim</l>
+
+            <l n="l111">Discere complures et eodem in tempore linguas</l>
+
+            <l n="l112">Gallorumque, Italumque, ipsorum et forte Britannum,</l>
+
+            <l n="l113">Si dis et placeat, Thracum quoque? Nempe vigent, et</l>
+
+            <l n="l114">Usui erunt omnes, magnae quando modo gentes</l>
+
+            <l n="l115">His inter sese commissa negotia tractant,</l>
+
+            <l n="l116">Conficiuntque libros, et dulcia carmina pangunt.</l>
+
+            <l n="l117">Esto! Sed jungas si prisca recentibus, addes</l>
+
+            <l n="l118">Haud leve sic pretium: quae matrem adjungere natis</l>
+
+            <l n="l119">Invidia impediat? Vulgares inter honore</l>
+
+            <l n="l120">Fulgeat eximio, solidoque perennior aere</l>
+
+            <l n="l121">Lingua stet, Augusti sonuit quae in Caesaris aula.</l>
+
+            <l n="l122">Quid terrere juvat? Non hunc ediscere tantus</l>
+
+            <l n="l123">Sermonem labor est, ut credas profore multum,</l>
+
+            <l n="l124">Si intermittatur; quasi nobis tota trahenda</l>
+
+            <l n="l125">Vita sit in verbis discendis, parvaque contra</l>
+
+            <l n="l126">Particula ad rerum maneat data notitias et</l>
+
+            <l n="l127">Scrutandam ad sophiam. Quin cernimus acrius istis</l>
+
+            <l n="l128">E salebris veluti elapsos sublimia ferre</l>
+
+            <l n="l129">Ad studia ingenium pueros. Ita lingua nec aevum</l>
+
+            <l n="l130">Vindicat haec longum, via si directa docendi</l>
+
+            <l n="l131">Servetur, brevibusque adsit qui certa magister</l>
+
+            <l n="l132">Instillet praecepta notis; nec quotquot honorem</l>
+
+            <l n="l133">Hinc petiere sibi, doctrinae luce carentes</l>
+
+            <l n="l134">Vitam exegerunt stolidi, brutumque pecus ceu</l>
+
+            <l n="l135">Sunt resonos tantum balatus edere sueti.</l>
+
+            <l n="l136">Quid quod, uti fertur, non lingua haec mortua prorsus</l>
+
+            <l n="l137">Nec misera est adeo: monumenta tot aurea restant,</l>
+
+            <l n="l138">Doctorumque manu et cura vigilante teruntur,</l>
+
+            <l n="l139">Vivaque adhuc spirantque, atque intellecta loquuntur</l>
+
+            <l n="l140">Plena voluptatis? Capitoli immobile saxum</l>
+
+            <l n="l141">Dum bona relligio, pater et Romanus habebit,</l>
+
+            <l n="l142">Haec lingua haec vivet non turpi obnoxia letho,</l>
+
+            <l n="l143">Sacrorum fida interpres, ac digna Tonante.</l>
+
+            <l n="l144">At mitto haec, quae vana putant, quibus impia sedit</l>
+
+            <l n="l145">Nescio quae novitas. Non id contemnere, credo, </l>
+
+            <l n="l146">Nec parvi facere audebunt; namque utile, et almae</l>
+
+            <l n="l147">Multum frugis habet, quod dicam, omnesque juvabit.</l>
+
+            <l n="l148">Quaerendae nunc magnus amor naturae, hominesque</l>
+
+            <l n="l149">Secretas rerum causas et munera gaudent</l>
+
+            <l n="l150">Eruere e latebris; sed iidem saepe queruntur,</l>
+
+            <l n="l151">Signa sibi communia deesse videlicet; usus</l>
+
+            <l n="l152">Quorum sit constans, potiori et notus ubique</l>
+
+            <l n="l153">Parti hominum. Experiar, si convenientia justis</l>
+
+            <l n="l154">Dicta queam votis proferre. Ergo illa colenda</l>
+
+            <l n="l155">Lingua foret, quae sola inter se jungere saecla,</l>
+
+            <l n="l156">Inventasque in iis artes, doctosque labores</l>
+
+            <l n="l157">In commune bonum facile convertere possit?</l>
+
+            <l n="l158">At quae, si excipias Romanam, latius orbe</l>
+
+            <l n="l159">Lingua patet doctos inter, quaeve aemula laudem</l>
+
+            <l n="l160">Detrahat hanc illi stabili sic jure manentem?</l>
+
+            <l n="l161">O vere lymphata hominum, vesanaque turba,</l>
+
+            <l n="l162">Luxurie et nimia studiorum turgida, quid te</l>
+
+            <l n="l163">Nequidquam vanis agitas conatibus, atque</l>
+
+            <l n="l164">Ingenium torques? Aut nusquam est, fingere sollers</l>
+
+            <l n="l165">Quam cuperes, aut haec in lingua inventa Latina est.</l>
+
+            <l n="l166">Haud potiorem aliam excudes: licet omnia miscens</l>
+
+            <l n="l167">Rerum elementa sagax imitari Protea cures;</l>
+
+            <l n="l168">Tu prius in coelo classes innare jubebis</l>
+
+            <l n="l169">Successu meliore expilans scrinia Lanae,</l>
+
+            <l n="l170">Quam voti compos laetere hac dives in arte.</l>
+
+            <l n="l171">Lingua regat Romana illsutres una catervas,</l>
+
+            <l n="l172">Quae nunc Europen complent, suaque acta propagant</l>
+
+            <l n="l173">Nec sermone omnes nec iisdem vocibus usae;</l>
+
+            <l n="l174">Ipsaque sit, quam dia sibi sapientia jungat</l>
+
+            <l n="l175">Depositi custodem una, fidamque minstram;</l>
+
+            <l n="l176">Sola feret, naris quaecumque Britannus acutae</l>
+
+            <l n="l177">Extudit ingenii sollers intendere nisum</l>
+
+            <l n="l178">Ante alios; Italum clarabit sole decorem,</l>
+
+            <l n="l179">Sola acres Gallorum ausus, et mentis Hiberae,</l>
+
+            <l n="l180">Teutonicae et pariter tentamina lumine puro</l>
+
+            <l n="l181">Vestiet, atque dabit supposta trionibus ora</l>
+
+            <l n="l182">Solis uti a radiis, non Palladis avia luce,</l>
+
+            <l n="l183">Quae spectiosa tulit vitae melioris in usum.</l>
+
+            <l n="l184">Est ne hoc in votis? Europae hoc angulus omnis</l>
+
+            <l n="l185">Tam varia tandem fessus farragine vocum</l>
+
+            <l n="l186">Et petit et vestigat inaniter? Ecce repertum</l>
+
+            <l n="l187">Inque manu est: communis lingua habeatur</l>
+
+            <l n="l188">Romula, et ut victo quondam regnavit in orbe,</l>
+
+            <l n="l189">Sic nunc doctrinae atque annalibus una sophorum</l>
+
+            <l n="l190">Praesit, et alma sono gentes conjungat eodem</l>
+
+            <l n="l191">Inter se varias, monumentaque publica servet.</l>
+
+            <l n="l192">Heus! Tu me insanire putes solemnia, scribo</l>
+
+            <l n="l193">Talia dum natus trans et mare, et altus acutis</l>
+
+            <l n="l194">Illyriae in scopulis? Atqui me corrige sodes,</l>
+
+            <l n="l195">Vana movent captam si fors insomnia mentem;</l>
+
+            <l n="l196">Aut tua quae virtus, quae fama est nominis, adde</l>
+
+            <l n="l197">His aliquod pondus, quo possint lecta probari</l>
+
+            <l n="l198">Judicio firmata tuo, atque innoxia ferri.</l>
+
+            <l n="l199">Si vero videas defendi haud posse, relinque</l>
+
+            <l n="l200">Blattis scripta malis latebrosa in sede voranda,</l>
+
+            <l n="l201">Ne grex doctorum contra consurgat, et aures</l>
+
+            <l n="l202">Midae cognatas in apertum educere cogat,</l>
+
+            <l n="l203">Stultitiam ridere volet cum civis amici.</l>
+
+         
+      </body>
+   </text>
+</TEI>
