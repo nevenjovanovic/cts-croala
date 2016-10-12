@@ -1,0 +1,1 @@
+db:export("croala-cts-revisions", "/home/neven/rad/croalapelagiosxml/ctsrevisions")
