@@ -4,7 +4,7 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace functx = "http://www.functx.com";
 
 (: name of db here :)
-declare variable $doc := "cp-tokenize";
+declare variable $doc := "cp-2-texts";
 
 declare function functx:path-to-node
   ( $nodes ) {
@@ -66,7 +66,7 @@ declare function local:makecref ($commonpath){
 (: make sure that the collection has no refsDecl/@n="CTS" already :)
 let $target := collection($doc)
 for $f in $target//*:TEI/*:teiHeader
-  let $filename := db:path($target)
+  let $filename := db:path($f)
   let $node := element refsDecl {
     attribute n { "CTS" },
     for $ppaths in distinct-values ( local:getdistinctpaths($target) )

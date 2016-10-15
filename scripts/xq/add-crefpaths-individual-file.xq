@@ -2,7 +2,7 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace functx = "http://www.functx.com";
 
-declare variable $doc := "/home/neven/rad/croalacts/data/bunic02/croala1761880/bunic02.croala1761880.croala-lat1.xml";
+declare variable $doc := "/home/neven/rad/croala-pelagios/data/nikolamodr01/croala1394919/nikolamodr01.croala1394919.croala-lat2w.xml";
 
 declare function functx:path-to-node
   ( $nodes ) {
@@ -71,7 +71,8 @@ for $f in $target//*:TEI/*:teiHeader
     for $ppaths in distinct-values ( local:getdistinctpaths($target) )
     return local:makecref($ppaths)
   }
-return replace node $f//tei:encodingDesc/tei:refsDecl[@n="CTS"] with $node
+return if ($f//tei:encodingDesc/tei:refsDecl[@n="CTS"]) then replace node $f//tei:encodingDesc/tei:refsDecl[@n="CTS"] with $node
+else insert node $node into $f//tei:encodingDesc
 (: return $node :)
 )
 return file:write($doc, $target)
