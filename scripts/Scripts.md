@@ -23,7 +23,7 @@ In the next phase, we use a helper index file [croalactstextgroups.xml](../docs/
 + Create directories for each **textgroup** (in rad/croalacts/data): [croalacts-create-dirs.xq](xq/croalacts-create-dirs.xq)
 + Put a `__cts__.xml` file with **metadata** in each textgroup dir: [croalacts-create-textgroup-metadata.xq](xq/croalacts-create-textgroup-metadata.xq)
 + Create works directories: [croalacts-create-dirs-works.xq](xq/croalacts-create-dirs-works.xq)
-+ Put the XML documents into directories, rename the XML files: [croalacts-move-docs-to-works.xq](croalacts-move-docs-to-works.xq)
++ Put the XML documents into directories, rename the XML files: [croalacts-move-docs-to-works.xq](xq/croalacts-move-docs-to-works.xq)
 + Create `__cts__.xml` metadata for works: [croalacts-works-create-metadata.xq](xq/croalacts-works-create-metadata.xq)
 
 ## Create the database
