@@ -100,6 +100,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
        <profileDesc xml:id="brlicignjatbrlicandrija18371022">
          <abstract>
@@ -171,98 +188,98 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:brlic01.croala835791.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-epistula" corresp="#brlicignjatbrlicandrija18371022">
-            <head n="text.body.div.head">
-               <foreign n="text.body.div.head.foreign" xml:lang="hr">PISMO</foreign> 2.</head>
-            <opener n="text.body.div.opener">
-               <dateline n="text.body.div.opener.dateline">
-                  <foreign n="text.body.div.opener.dateline.foreign" xml:lang="hr">U Vinkovce.</foreign>
+      <body n="body1">
+         <div n="div1" type="prosa-epistula" corresp="#brlicignjatbrlicandrija18371022">
+            <head n="head1">
+               <foreign n="foreign1" xml:lang="hr">PISMO</foreign> 2.</head>
+            <opener n="opener2">
+               <dateline n="dateline1">
+                  <foreign n="foreign1" xml:lang="hr">U Vinkovce.</foreign>
         Brodii. 
         XI Calend. Novembris 1837.
-        <abbr n="text.body.div.opener.dateline.abbr">NB</abbr> idest 22a 8bris</dateline>
-               <salute n="text.body.div.opener.salute">Charissime filiole!</salute>
+        <abbr n="abbr2">NB</abbr> idest 22a 8bris</dateline>
+               <salute n="salute2">Charissime filiole!</salute>
             </opener>    
-            <p n="text.body.div.p1"> 
+            <p n="p3"> 
         Mihi quidem debeo gratulari quod latinas literas ad me
-        mittas, sed dolendum, quod eas tam <sic n="text.body.div.p1.sic1">eronee</sic> scribas. Itaque
+        mittas, sed dolendum, quod eas tam <sic n="sic1">eronee</sic> scribas. Itaque
         tibi plus attentionis commendo tum in ordinatione tuarum
-        literarum, tum in syntaxi <abbr n="text.body.div.p1.abbr">etc.</abbr> 
-               <sic n="text.body.div.p1.sic2">prosertim</sic> in significationibus
+        literarum, tum in syntaxi <abbr n="abbr2">etc.</abbr> 
+               <sic n="sic3">prosertim</sic> in significationibus
         verborum, eapropter grammaticam et lexicon pro manibus habes.</p>
         
-            <p n="text.body.div.p2">Inter caetera dicis, in prima mihi sine loco et dato missa
-        epistola, <q n="text.body.div.p2.q1">quemlibet vestrum in scholam scriptoriam ire debere</q>,
-        loco <mentioned n="text.body.div.p2.mentioned1">schola scriptoria</mentioned>; quaere quidnam in lexico
-        <mentioned n="text.body.div.p2.mentioned2">
-                  <foreign n="text.body.div.p2.mentioned2.foreign">Schönschreibe-Kunst</foreign>
+            <p n="p4">Inter caetera dicis, in prima mihi sine loco et dato missa
+        epistola, <q n="q1">quemlibet vestrum in scholam scriptoriam ire debere</q>,
+        loco <mentioned n="mentioned2">schola scriptoria</mentioned>; quaere quidnam in lexico
+        <mentioned n="mentioned3">
+                  <foreign n="foreign1">Schönschreibe-Kunst</foreign>
                </mentioned> 
-            significet. ― Porro dicis: <q n="text.body.div.p2.q2">In artem delineandi
+            significet. ― Porro dicis: <q n="q4">In artem delineandi
         musicamque quilibet ire potest</q>, quaere, qualis expressio hic
         adhibenda fuisset quia ista pessime sonat, et quidem infra
-        omnem pessimi hungarici studiosi. ― Ita postulas <q n="text.body.div.p2.q3">tuam horam</q>,
-        aspice in lexico quidnam <mentioned n="text.body.div.p2.mentioned3">hora</mentioned> significet, et quomodo
-        <mentioned n="text.body.div.p2.mentioned4">
-                  <foreign n="text.body.div.p2.mentioned4.foreign" xml:lang="de">die Uhr</foreign>
+        omnem pessimi hungarici studiosi. ― Ita postulas <q n="q5">tuam horam</q>,
+        aspice in lexico quidnam <mentioned n="mentioned6">hora</mentioned> significet, et quomodo
+        <mentioned n="mentioned7">
+                  <foreign n="foreign1" xml:lang="de">die Uhr</foreign>
                </mentioned> latine
-            vocetur. ― In ambis literis mihi scribis: <q n="text.body.div.p2.q4">salve
+            vocetur. ― In ambis literis mihi scribis: <q n="q8">salve
         Patrem Paschalem</q> 
-               <abbr n="text.body.div.p2.abbr">etc. etc</abbr>. Ex lexico edoceberis quidnam
-        <mentioned n="text.body.div.p2.mentioned5">salve</mentioned> significet. Quomodo latine dicatur <mentioned n="text.body.div.p2.mentioned6">
-                  <foreign n="text.body.div.p2.mentioned6.foreign" xml:lang="de">grüssen</foreign>
+               <abbr n="abbr9">etc. etc</abbr>. Ex lexico edoceberis quidnam
+        <mentioned n="mentioned10">salve</mentioned> significet. Quomodo latine dicatur <mentioned n="mentioned11">
+                  <foreign n="foreign1" xml:lang="de">grüssen</foreign>
                </mentioned> inspice
         lexicon.</p>
         
-            <milestone n="text.body.div.milestone" unit="page"/>
+            <milestone n="milestone5" unit="page"/>
         
-            <p n="text.body.div.p3">Scholam graphidis cum meo annutu non frequentabis,
+            <p n="p6">Scholam graphidis cum meo annutu non frequentabis,
         sed tamen si vis, liceat tibi, at cum modo pro ista arte 
         necessaria instrumenta non habeam, tardius tibi illa mittam.
         Satage ut quo saepissime ad scholam caligraphicam venias,
         nam pessimam scripturam habes.</p>
         
-            <p n="text.body.div.p4">Ut musicae studeas semper opto, et quidem ut vocalem
-        omnibus caeteris musicis <sic n="text.body.div.p4.sic1">praeferras</sic>; cupio, et ni fallor, 
+            <p n="p7">Ut musicae studeas semper opto, et quidem ut vocalem
+        omnibus caeteris musicis <sic n="sic1">praeferras</sic>; cupio, et ni fallor, 
         primum quod in publica schola es percepturus, erit musica 
-        vocalis, id est <foreign n="text.body.div.p4.foreign">Gesang</foreign>; hoc fundamentum est totius musices!
+        vocalis, id est <foreign n="foreign2">Gesang</foreign>; hoc fundamentum est totius musices!
         Percipe ergo et studeas hoc volo et amo; sed tamen nolo ut
-        grammaticam propter quam ibi existis, ― aliis <sic n="text.body.div.p4.sic2">proferras</sic>, et
+        grammaticam propter quam ibi existis, ― aliis <sic n="sic3">proferras</sic>, et
         negligas. Tuum primum et capitale negotium est frequentatio
         gymnasii, et studium praescriptarum in gymnasio materiarum.
         Si tempus et otium habes, studeas et caeteris omnibus,
         ego non ero contrarius. Sed ne praeferras alia dulcia,
         necessariis et officiosis.</p>
         
-            <p n="text.body.div.p5">Mihi plurimum salutabis admodum <abbr n="text.body.div.p5.abbr">rever-dos</abbr> dominos 
+            <p n="p8">Mihi plurimum salutabis admodum <abbr n="abbr1">rever-dos</abbr> dominos 
         Cathechetam et tuum Professorem, etiam tuum Patrem familias
         apud quem vesceris, et ejus dominam, mea et matris ex
         parte.</p>
         
-            <p n="text.body.div.p6">Scholam musices tibi mitto. Invenies etiam pro <persName n="text.body.div.p6.persName1">Müller</persName>
+            <p n="p9">Scholam musices tibi mitto. Invenies etiam pro <persName n="persName1">Müller</persName>
         ibidem duo folia Charto pro Cottis, trade eidem illa.
-        Responsum <abbr n="text.body.div.p6.abbr">Dno.</abbr> 
-               <persName n="text.body.div.p6.persName2">Popovich</persName> adjacens dabis.</p>
+        Responsum <abbr n="abbr2">Dno.</abbr> 
+               <persName n="persName3">Popovich</persName> adjacens dabis.</p>
         
-            <p n="text.body.div.p7">Quid pro instructione in Musica solvendum fuerit, <abbr n="text.body.div.p7.abbr">A. R.
+            <p n="p10">Quid pro instructione in Musica solvendum fuerit, <abbr n="abbr1">A. R.
         Dnus.</abbr> Cathecheta, meus singularis amicus pro me solvet, cui
         omnia restituam.</p>
         
-            <closer n="text.body.div.closer">Percipe tuas res bene, ut mihi studium gaudio sit, vale.</closer>
+            <closer n="closer11">Percipe tuas res bene, ut mihi studium gaudio sit, vale.</closer>
         
-            <signed n="text.body.div.signed">Tuus pater</signed>
+            <signed n="signed12">Tuus pater</signed>
         
-            <postscript n="text.body.div.postscript">
-               <p n="text.body.div.postscript.p1">
-                  <abbr n="text.body.div.postscript.p1.abbr1">P. S.</abbr> Unum kalendarium dabis <abbr n="text.body.div.postscript.p1.abbr2">a. r. Dno.</abbr>
-                  <sic n="text.body.div.postscript.p1.sic">Cathecheta</sic>, unum clarissimo <abbr n="text.body.div.postscript.p1.abbr3">Dno.</abbr> tuo Professori,
-        unum <abbr n="text.body.div.postscript.p1.abbr4">Dno.</abbr> Directori <persName n="text.body.div.postscript.p1.persName">Acxich</persName>, residuum pro te servare poteris.</p>
+            <postscript n="postscript13">
+               <p n="p1">
+                  <abbr n="abbr1">P. S.</abbr> Unum kalendarium dabis <abbr n="abbr2">a. r. Dno.</abbr>
+                  <sic n="sic3">Cathecheta</sic>, unum clarissimo <abbr n="abbr4">Dno.</abbr> tuo Professori,
+        unum <abbr n="abbr5">Dno.</abbr> Directori <persName n="persName6">Acxich</persName>, residuum pro te servare poteris.</p>
         
-               <milestone n="text.body.div.postscript.milestone" unit="page"/>
+               <milestone n="milestone2" unit="page"/>
         
-               <p n="text.body.div.postscript.p2">Plurimam salutem tibi dicit Mater, fratres cum sororibus.</p>
+               <p n="p3">Plurimam salutem tibi dicit Mater, fratres cum sororibus.</p>
         
-               <p n="text.body.div.postscript.p3">Horologium tibi destinatum necdum <placeName n="text.body.div.postscript.p3.placeName">Posega</placeName> venit, dum
-        autem venerit, si promeritus fueris, tibi mittam, sed <abbr n="text.body.div.postscript.p3.abbr">NB</abbr> si
+               <p n="p4">Horologium tibi destinatum necdum <placeName n="placeName1">Posega</placeName> venit, dum
+        autem venerit, si promeritus fueris, tibi mittam, sed <abbr n="abbr2">NB</abbr> si
         promeritus fueris, nam, si male te gesseris, non illud accipies,
         ergo praestolabimur primam classificationem.
         

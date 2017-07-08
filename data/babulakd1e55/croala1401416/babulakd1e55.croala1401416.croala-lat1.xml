@@ -101,6 +101,29 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -141,245 +164,245 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:babulakd1e55.croala1401416.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="poesis-elegia">
-            <head n="text.body.div.head">ELEGOS HONORIBUS A. R. P. IOSEPHI MATZEK VERE DIVI SACRA IOSEPHI VENIENTE TURBAE CAPISTRANAE PROVINCIALIS DIGNISSIMI, VERE NOVO LAETUS, LAETANTE EA, INFRA NUNCUPATUS NOMINE REGIAE PALAESTRAE ESSEKINENSIS 14° KAL. APRILIS PIE DEVOVET</head>
-            <epigraph n="text.body.div.epigraph">
-               <cit n="text.body.div.epigraph.cit1">
-                  <quote n="text.body.div.epigraph.cit1.quote">
-                     <l n="text.body.div.epigraph.cit1.quote.l1"> Di Tibi se tribuant .... Amicos </l>
+      <body n="body1">
+         <div n="div1" type="poesis-elegia">
+            <head n="head1">ELEGOS HONORIBUS A. R. P. IOSEPHI MATZEK VERE DIVI SACRA IOSEPHI VENIENTE TURBAE CAPISTRANAE PROVINCIALIS DIGNISSIMI, VERE NOVO LAETUS, LAETANTE EA, INFRA NUNCUPATUS NOMINE REGIAE PALAESTRAE ESSEKINENSIS 14° KAL. APRILIS PIE DEVOVET</head>
+            <epigraph n="epigraph2">
+               <cit n="cit1">
+                  <quote n="quote1">
+                     <l n="l1"> Di Tibi se tribuant .... Amicos </l>
              
-                     <l n="text.body.div.epigraph.cit1.quote.l2"> Non poterit Votum plenius esse meum </l>
+                     <l n="l2"> Non poterit Votum plenius esse meum </l>
              
                   </quote>
-                  <bibl n="text.body.div.epigraph.cit1.bibl"> Ovid Trist. l. 4<note n="text.body.div.epigraph.cit1.bibl.note" resp="IG">c. 9, V.21-22</note> 
+                  <bibl n="bibl2"> Ovid Trist. l. 4<note n="note1" resp="IG">c. 9, V.21-22</note> 
                   </bibl>
                </cit>
-               <cit n="text.body.div.epigraph.cit2">
-                  <quote n="text.body.div.epigraph.cit2.quote">
-                     <l n="text.body.div.epigraph.cit2.quote.l1"> Nominis ante mei veniant oblivia nobis, </l>
+               <cit n="cit2">
+                  <quote n="quote1">
+                     <l n="l1"> Nominis ante mei veniant oblivia nobis, </l>
              
-                     <l n="text.body.div.epigraph.cit2.quote.l2"> Pectore quam Pietas sit Tua pulsa meo. </l>
+                     <l n="l2"> Pectore quam Pietas sit Tua pulsa meo. </l>
              
                   </quote>
-                  <bibl n="text.body.div.epigraph.cit2.bibl"> Idem de Ponto.<note n="text.body.div.epigraph.cit2.bibl.note" resp="IG">1. <num n="text.body.div.epigraph.cit2.bibl.note.num" value="3">III</num>, XI, ver.5-6</note> 
+                  <bibl n="bibl2"> Idem de Ponto.<note n="note1" resp="IG">1. <num n="num1" value="3">III</num>, XI, ver.5-6</note> 
                   </bibl>
                </cit>
             </epigraph>
-            <div n="text.body.div.div1" type="poesis-elegia" met="elegiacum">
-               <l n="text.body.div.div1.l1">Quid, miror, turbat mea membra quiete sopita,</l>
+            <div n="div3" type="poesis-elegia" met="elegiacum">
+               <l n="l1">Quid, miror, turbat mea membra quiete sopita,</l>
 
-               <l n="text.body.div.div1.l2"> Nuper ut expertus nocte silente fui?</l>
+               <l n="l2"> Nuper ut expertus nocte silente fui?</l>
 
-               <l n="text.body.div.div1.l3">Lassus enim suavis spatians Heliconis ad Oras,</l>
+               <l n="l3">Lassus enim suavis spatians Heliconis ad Oras,</l>
 
-               <l n="text.body.div.div1.l4"> Arbore sub viridi Thespiadis cubui;</l>
+               <l n="l4"> Arbore sub viridi Thespiadis cubui;</l>
 
-               <l n="text.body.div.div1.l5">Tota fuit circum tellus data floribus almis </l>
+               <l n="l5">Tota fuit circum tellus data floribus almis </l>
 
-               <l n="text.body.div.div1.l6"> Quorum odor invitat dulce cubare loci,</l>
+               <l n="l6"> Quorum odor invitat dulce cubare loci,</l>
 
-               <l n="text.body.div.div1.l7">Umbra fuit, moerens etenim natura virere</l>
+               <l n="l7">Umbra fuit, moerens etenim natura virere</l>
 
-               <l n="text.body.div.div1.l8"> Incipiens, frondes Arboris accelerat, </l>
+               <l n="l8"> Incipiens, frondes Arboris accelerat, </l>
 
-               <l n="text.body.div.div1.l9">Et glacie pariter nostris oris abeunte, </l>
+               <l n="l9">Et glacie pariter nostris oris abeunte, </l>
 
-               <l n="text.body.div.div1.l10"> Somnifero strepitu lumina grata fluunt, </l>
+               <l n="l10"> Somnifero strepitu lumina grata fluunt, </l>
 
-               <l n="text.body.div.div1.l11">Herba fuit mollis, membris quae dulce levamen</l>
+               <l n="l11">Herba fuit mollis, membris quae dulce levamen</l>
 
-               <l n="text.body.div.div1.l12"> Fessis ferre queat, finibus Aoniae</l>
+               <l n="l12"> Fessis ferre queat, finibus Aoniae</l>
 
-               <l n="text.body.div.div1.l13">Hic inquam dulci repletus amore Camoenae</l>
+               <l n="l13">Hic inquam dulci repletus amore Camoenae</l>
 
-               <l n="text.body.div.div1.l14"> Fessa locans somno membra labore die:</l>
+               <l n="l14"> Fessa locans somno membra labore die:</l>
 
-               <l n="text.body.div.div1.l15">Ecce autem somni quadam dulcedine sensus </l>
+               <l n="l15">Ecce autem somni quadam dulcedine sensus </l>
 
-               <l n="text.body.div.div1.l16">Perculsos sensi, totus et obstupui;</l>
+               <l n="l16">Perculsos sensi, totus et obstupui;</l>
 
-               <l n="text.body.div.div1.l17">Undique dulcisoni rithmi mea somnia rumpunt,</l>
+               <l n="l17">Undique dulcisoni rithmi mea somnia rumpunt,</l>
 
-               <l n="text.body.div.div1.l18"> Castalides blandae dulce canunt etenim.</l>
+               <l n="l18"> Castalides blandae dulce canunt etenim.</l>
 
-               <l n="text.body.div.div1.l19">Sic vigilans tandem Musarum percitus Oestro,</l>
+               <l n="l19">Sic vigilans tandem Musarum percitus Oestro,</l>
 
-               <l n="text.body.div.div1.l20"> Ecce novem circa me sua Festa canunt </l>
+               <l n="l20"> Ecce novem circa me sua Festa canunt </l>
 
-               <l n="text.body.div.div1.l21">Obstupui laetus, placido vocisque, lyraeque</l>
+               <l n="l21">Obstupui laetus, placido vocisque, lyraeque</l>
 
-               <l n="text.body.div.div1.l22"> Audito sonitu, nilque loqui poteram.</l>
+               <l n="l22"> Audito sonitu, nilque loqui poteram.</l>
 
-               <l n="text.body.div.div1.l23">Languida sicque dein dulcis mea sensa levabat</l>
+               <l n="l23">Languida sicque dein dulcis mea sensa levabat</l>
 
-               <l n="text.body.div.div1.l24"> Concentus, mulcens anxia corda sibi;</l>
+               <l n="l24"> Concentus, mulcens anxia corda sibi;</l>
 
-               <l n="text.body.div.div1.l25">Dumque metu tandem penitus posito, mihi visa </l>
+               <l n="l25">Dumque metu tandem penitus posito, mihi visa </l>
 
-               <l n="text.body.div.div1.l26"> Plectra gerens Erato blanda fuit tremula,</l>
+               <l n="l26"> Plectra gerens Erato blanda fuit tremula,</l>
 
-               <l n="text.body.div.div1.l27">Altera doctiloquas praeceps inflabat avenas,</l>
+               <l n="l27">Altera doctiloquas praeceps inflabat avenas,</l>
 
-               <l n="text.body.div.div1.l28"> Gesta canunt Clio, Terpsichoreque Viri;</l>
+               <l n="l28"> Gesta canunt Clio, Terpsichoreque Viri;</l>
 
-               <l n="text.body.div.div1.l29">Auribus arrectis adsto, pia cantica signans,</l>
+               <l n="l29">Auribus arrectis adsto, pia cantica signans,</l>
 
-               <l n="text.body.div.div1.l30"> Plena etenim fuerant nectare <sic n="text.body.div.div1.l30.sic">millifluo</sic>: </l>
+               <l n="l30"> Plena etenim fuerant nectare <sic n="sic1">millifluo</sic>: </l>
 
-               <l n="text.body.div.div1.l31">Dumque noto cantus discrimina, sic ferit Echo</l>
+               <l n="l31">Dumque noto cantus discrimina, sic ferit Echo</l>
 
-               <l n="text.body.div.div1.l32"> Aures: „ah, JOSEPH! vive Dies vegetos.“</l>
+               <l n="l32"> Aures: „ah, JOSEPH! vive Dies vegetos.“</l>
 
-               <l n="text.body.div.div1.l33">Quid? raptus fueram, nec erat mihi mens mea praesens,</l>
+               <l n="l33">Quid? raptus fueram, nec erat mihi mens mea praesens,</l>
 
-               <l n="text.body.div.div1.l34"> Laetitia circum pectora vox dederat.</l>
+               <l n="l34"> Laetitia circum pectora vox dederat.</l>
 
-               <l n="text.body.div.div1.l35">Illico deîn Musas iussi sua sistere plectra, </l>
+               <l n="l35">Illico deîn Musas iussi sua sistere plectra, </l>
 
-               <l n="text.body.div.div1.l36"> Tantaque Festorum Sacra mihi referant.</l>
+               <l n="l36"> Tantaque Festorum Sacra mihi referant.</l>
 
-               <l n="text.body.div.div1.l37">Hasque mihi tandem suavi modulamine pleno</l>
+               <l n="l37">Hasque mihi tandem suavi modulamine pleno</l>
 
-               <l n="text.body.div.div1.l38"> Musa refert Voces, pectore votifero:</l>
+               <l n="l38"> Musa refert Voces, pectore votifero:</l>
 
-               <l n="text.body.div.div1.l39">Cur quaeso, tantus tua membra fatigat adusque</l>
+               <l n="l39">Cur quaeso, tantus tua membra fatigat adusque</l>
 
-               <l n="text.body.div.div1.l40"> Hicce sopor, miror, dulce sonante choro? </l>
+               <l n="l40"> Hicce sopor, miror, dulce sonante choro? </l>
 
-               <l n="text.body.div.div1.l41">An nescis, praesens poscat sibi qui pia Pompa?</l>
+               <l n="l41">An nescis, praesens poscat sibi qui pia Pompa?</l>
 
-               <l n="text.body.div.div1.l42"> Ignoras, Veris quae sacra principio?</l>
+               <l n="l42"> Ignoras, Veris quae sacra principio?</l>
 
-               <l n="text.body.div.div1.l43">VIR celebris colitur nostris in montibus ecce</l>
+               <l n="l43">VIR celebris colitur nostris in montibus ecce</l>
 
-               <l n="text.body.div.div1.l44"> Vere novo, postquam pigra recessit hyems</l>
+               <l n="l44"> Vere novo, postquam pigra recessit hyems</l>
 
-               <l n="text.body.div.div1.l45">Terraque rosarum svavi splendore nitere </l>
+               <l n="l45">Terraque rosarum svavi splendore nitere </l>
 
-               <l n="text.body.div.div1.l46"> Incipit, et Myrtus fronde virere nova,</l>
+               <l n="l46"> Incipit, et Myrtus fronde virere nova,</l>
 
-               <l n="text.body.div.div1.l47">Ver aperit nobis almae dum Viscera terrae</l>
+               <l n="l47">Ver aperit nobis almae dum Viscera terrae</l>
 
-               <l n="text.body.div.div1.l48"> Cuncta fluunt lacte, prosiliuntque foras.</l>
+               <l n="l48"> Cuncta fluunt lacte, prosiliuntque foras.</l>
 
-               <l n="text.body.div.div1.l49">Ipsa canora canit nostris in partibus ales,</l>
+               <l n="l49">Ipsa canora canit nostris in partibus ales,</l>
 
-               <l n="text.body.div.div1.l50"> Nuncia tam laeti temporis esse volens. </l>
+               <l n="l50"> Nuncia tam laeti temporis esse volens. </l>
 
-               <l n="text.body.div.div1.l51">Ergo quid dubitas? aut quidve stupes resonare </l>
+               <l n="l51">Ergo quid dubitas? aut quidve stupes resonare </l>
 
-               <l n="text.body.div.div1.l52"> Hicce lyras nostris vocibus accomodas.</l>
+               <l n="l52"> Hicce lyras nostris vocibus accomodas.</l>
 
-               <l n="text.body.div.div1.l53">Nonne iuvat celebrare Viros, quos Nominis alma</l>
+               <l n="l53">Nonne iuvat celebrare Viros, quos Nominis alma</l>
 
-               <l n="text.body.div.div1.l54"> Fama sacrat late, qui pietate nitent;</l>
+               <l n="l54"> Fama sacrat late, qui pietate nitent;</l>
 
-               <l n="text.body.div.div1.l55">Atque Hic talis adest, cuius virtus peramoena </l>
+               <l n="l55">Atque Hic talis adest, cuius virtus peramoena </l>
 
-               <l n="text.body.div.div1.l56"> Digna parat meritis proemia siderei,</l>
+               <l n="l56"> Digna parat meritis proemia siderei,</l>
 
-               <l n="text.body.div.div1.l57">Talis adest, meritis qui nat velut anser in undis,</l>
+               <l n="l57">Talis adest, meritis qui nat velut anser in undis,</l>
 
-               <l n="text.body.div.div1.l58"> Mature Dîvum quem sacrat alma cohors.</l>
+               <l n="l58"> Mature Dîvum quem sacrat alma cohors.</l>
 
-               <l n="text.body.div.div1.l59">Hoc similive modo blande mea recreat usque </l>
+               <l n="l59">Hoc similive modo blande mea recreat usque </l>
 
-               <l n="text.body.div.div1.l60"> Maeonides narrans corpora lassa loci, </l>
+               <l n="l60"> Maeonides narrans corpora lassa loci, </l>
 
-               <l n="text.body.div.div1.l61">Echo praeterea resonat Nomen celebrandum</l>
+               <l n="l61">Echo praeterea resonat Nomen celebrandum</l>
 
-               <l n="text.body.div.div1.l62"> JOSEPHI, veris nuncia laeta ferens</l>
+               <l n="l62"> JOSEPHI, veris nuncia laeta ferens</l>
 
-               <l n="text.body.div.div1.l63">Tunc subito praesens circumvolat umbra sacrorum,</l>
+               <l n="l63">Tunc subito praesens circumvolat umbra sacrorum,</l>
 
-               <l n="text.body.div.div1.l64"> Et mea sic penitus somnia vana cadunt;</l>
+               <l n="l64"> Et mea sic penitus somnia vana cadunt;</l>
 
-               <l n="text.body.div.div1.l65">Pierides etenim lyricis quem cantibus ornant </l>
+               <l n="l65">Pierides etenim lyricis quem cantibus ornant </l>
 
-               <l n="text.body.div.div1.l66"> JOSEPHUM, vernans Iste Minister erit, </l>
+               <l n="l66"> JOSEPHUM, vernans Iste Minister erit, </l>
 
-               <l n="text.body.div.div1.l67">Aeque etenim JOSEPH sacrat sua Nomina Divo</l>
+               <l n="l67">Aeque etenim JOSEPH sacrat sua Nomina Divo</l>
 
-               <l n="text.body.div.div1.l68"> Et verno pariter sub Jove Festa colit.</l>
+               <l n="l68"> Et verno pariter sub Jove Festa colit.</l>
 
-               <l n="text.body.div.div1.l69">Ergo metu posito, tandem mea Carmina iungo</l>
+               <l n="l69">Ergo metu posito, tandem mea Carmina iungo</l>
 
-               <l n="text.body.div.div1.l70"> Musarum lyricis cantibus eximiis. </l>
+               <l n="l70"> Musarum lyricis cantibus eximiis. </l>
 
-               <l n="text.body.div.div1.l71">Sed quaeso, Tantis Virtutibus amplificati</l>
+               <l n="l71">Sed quaeso, Tantis Virtutibus amplificati</l>
 
-               <l n="text.body.div.div1.l72"> Quis pleni meritis Acta referre queat?</l>
+               <l n="l72"> Quis pleni meritis Acta referre queat?</l>
 
-               <l n="text.body.div.div1.l73">Aut quis Pieridum sacro celebrare Ministrum</l>
+               <l n="l73">Aut quis Pieridum sacro celebrare Ministrum</l>
 
-               <l n="text.body.div.div1.l74"> Concentu valeat? Quae lyra facta canet?</l>
+               <l n="l74"> Concentu valeat? Quae lyra facta canet?</l>
 
-               <l n="text.body.div.div1.l75">Ingenium certe non sufficit incipientis </l>
+               <l n="l75">Ingenium certe non sufficit incipientis </l>
 
-               <l n="text.body.div.div1.l76"> Vatis, condigne Te celebrare PATER!</l>
+               <l n="l76"> Vatis, condigne Te celebrare PATER!</l>
 
-               <l n="text.body.div.div1.l77">Emicat ex oculis constans Clementia cunctis,</l>
+               <l n="l77">Emicat ex oculis constans Clementia cunctis,</l>
 
-               <l n="text.body.div.div1.l78"> Deque Tuis Labiis prodit amata salus;</l>
+               <l n="l78"> Deque Tuis Labiis prodit amata salus;</l>
 
-               <l n="text.body.div.div1.l79">Voce etenim, factoque mones cunctos, pietatem</l>
+               <l n="l79">Voce etenim, factoque mones cunctos, pietatem</l>
 
-               <l n="text.body.div.div1.l80"> Ut recolant semper, provenit unde salus </l>
+               <l n="l80"> Ut recolant semper, provenit unde salus </l>
 
-               <l n="text.body.div.div1.l81">Defendis miseros tendens Tua brachia larga,</l>
+               <l n="l81">Defendis miseros tendens Tua brachia larga,</l>
 
-               <l n="text.body.div.div1.l82">Sicque viam Coeli pandis ab ante Tibi.</l>
+               <l n="l82">Sicque viam Coeli pandis ab ante Tibi.</l>
 
-               <l n="text.body.div.div1.l83">Ecce Caput Fratrum fueras, Coetusque Minorum</l>
+               <l n="l83">Ecce Caput Fratrum fueras, Coetusque Minorum</l>
 
-               <l n="text.body.div.div1.l84"> Dignus adinventus, pro pietate Tua.</l>
+               <l n="l84"> Dignus adinventus, pro pietate Tua.</l>
 
-               <l n="text.body.div.div1.l85">Quanta etenim fuerat semper solertia? quantus </l>
+               <l n="l85">Quanta etenim fuerat semper solertia? quantus </l>
 
-               <l n="text.body.div.div1.l86"> In Studiis fervor? Facta loquantur idem. –</l>
+               <l n="l86"> In Studiis fervor? Facta loquantur idem. –</l>
 
-               <l n="text.body.div.div1.l87">Sed quid ego minimus TANTI volo facta referre?</l>
+               <l n="l87">Sed quid ego minimus TANTI volo facta referre?</l>
 
-               <l n="text.body.div.div1.l88"> Quem sua iam virtus tollit ad astra pium.</l>
+               <l n="l88"> Quem sua iam virtus tollit ad astra pium.</l>
 
-               <l n="text.body.div.div1.l89">Nil igitur superest aliud, quam pectore pleno </l>
+               <l n="l89">Nil igitur superest aliud, quam pectore pleno </l>
 
-               <l n="text.body.div.div1.l90"> vota referre Patri, quem pia RADNA<note xml:id="ftn1" place="foot" n="text.body.div.div1.l90.note"> Natus Radnae 1793. </note> dedit </l>
+               <l n="l90"> vota referre Patri, quem pia RADNA<note xml:id="ftn1" place="foot" n="note1"> Natus Radnae 1793. </note> dedit </l>
 
-               <l n="text.body.div.div1.l91">Hunc Laudes feriant nostris in partibus amplae,</l>
+               <l n="l91">Hunc Laudes feriant nostris in partibus amplae,</l>
 
-               <l n="text.body.div.div1.l92"> Hunc Rithmi deceant, quos canit alma Cohors,</l>
+               <l n="l92"> Hunc Rithmi deceant, quos canit alma Cohors,</l>
 
-               <l n="text.body.div.div1.l93">Huîc iunctim charo JOSEPHO vive canamus,</l>
+               <l n="l93">Huîc iunctim charo JOSEPHO vive canamus,</l>
 
-               <l n="text.body.div.div1.l94"> Ut vegetet laetus, sanus, et Incolumis;</l>
+               <l n="l94"> Ut vegetet laetus, sanus, et Incolumis;</l>
 
-               <l n="text.body.div.div1.l95">Dumque pius tandem tristem conspexerit Urnam, </l>
+               <l n="l95">Dumque pius tandem tristem conspexerit Urnam, </l>
 
-               <l n="text.body.div.div1.l96"> Ut referat meritis proemia digna Poli;</l>
+               <l n="l96"> Ut referat meritis proemia digna Poli;</l>
 
-               <l n="text.body.div.div1.l97">Hoc canat, hoc resonet Phallanx sincera Minorum;</l>
+               <l n="l97">Hoc canat, hoc resonet Phallanx sincera Minorum;</l>
 
-               <l n="text.body.div.div1.l98"> Effundatque suis Vota repens animis.</l>
+               <l n="l98"> Effundatque suis Vota repens animis.</l>
 
             </div>
-            <div n="text.body.div.div2" type="poesis-epigramma" met="elegiacum">
-               <l n="text.body.div.div2.l1">ParVa fero Magno, parVo TIBI qVaeqVe DeCenter</l>
-               <l n="text.body.div.div2.l2">	PeCtore saCrantVr Vota benIgne Pater!</l>
+            <div n="div4" type="poesis-epigramma" met="elegiacum">
+               <l n="l1">ParVa fero Magno, parVo TIBI qVaeqVe DeCenter</l>
+               <l n="l2">	PeCtore saCrantVr Vota benIgne Pater!</l>
             </div>
-            <closer n="text.body.div.closer">
-               <signed n="text.body.div.closer.signed">P. Otho Babulák
+            <closer n="closer5">
+               <signed n="signed1">P. Otho Babulák
                II. HUM. Profess.</signed>
             </closer>
             
             
          </div>
                </body>
-      <back n="text.back">
-         <closer n="text.back.closer">
-            <dateline n="text.back.closer.dateline">ESZEKINI,</dateline>
-            <signed n="text.back.closer.signed" ana="colophon">TYPIS MARTINI ALOYSII DIVALD, CAES. REG. TYPOGRAPHI</signed>
+      <back n="back2">
+         <closer n="closer1">
+            <dateline n="dateline1">ESZEKINI,</dateline>
+            <signed n="signed2" ana="colophon">TYPIS MARTINI ALOYSII DIVALD, CAES. REG. TYPOGRAPHI</signed>
          </closer>
       </back>
    </text>

@@ -132,6 +132,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -207,13 +224,13 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot01.croala750396.croala-lat1:" xml:lang="lat" type="prosa">
-        <body n="text.body">
-            <div n="text.body.div" xml:id="sob1455e" type="prosa-epistula">
-                <head n="text.body.div.head">
-               <date n="text.body.div.head.date" when="1454-12-24">1454-12-24</date>, Tragurio</head>
-                <opener n="text.body.div.opener">Clarissimo patricio Petro M. Joannes Sobote <abbr n="text.body.div.opener.abbr">S. P. D.</abbr>
+        <body n="body1">
+            <div n="div1" xml:id="sob1455e" type="prosa-epistula">
+                <head n="head1">
+               <date n="date1" when="1454-12-24">1454-12-24</date>, Tragurio</head>
+                <opener n="opener2">Clarissimo patricio Petro M. Joannes Sobote <abbr n="abbr1">S. P. D.</abbr>
             </opener>
-                <p n="text.body.div.p1">Rumore quodam nobis significatum est, (ut opinio mea feret, non vano) inter
+                <p n="p3">Rumore quodam nobis significatum est, (ut opinio mea feret, non vano) inter
                     Panoniae regem et Macometum Teucrorum principem fedus per trienium ictum esse.
                     Panones, et si optimo consilio hoc fedus se fecisse affirmant, preteritarum
                     credo magis cladium memoria exterriti, quam ullo salutari consilio adducti
@@ -228,7 +245,7 @@
                     consultissime! ne sub hoc nomine pacis bellum sit involutum, grave sane ac
                     difficile christiane reipublice. Auctore Georgio illustri despoto, hoc fedus
                     ictum esse sunt nonnulli, qui tradunt. Quedam necessitudo despoto cum Macometo
-                    est: filia Georgii Omorato, <milestone n="text.body.div.p1.milestone" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA155"/>
+                    est: filia Georgii Omorato, <milestone n="milestone1" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA155"/>
                     superiori principi Teucrorum, nuptui tradita erat; verum ea necessitudo apud
                     Barbaros levis ducitur; quia pro opibus quisque quam plurimas uxores, denas
                     alii, alii plures habent; sed reges eo amplius. Ita animus multitudine
@@ -244,23 +261,23 @@
                     principatu suo actum est; nec alium eventum speret, quam bizantinum principem
                     habuisse intelleximus. Hostis insolens magna in anima molitur; orbem spe
                     amplexus est. Utinam falsus vates essem! Hactenus de his.</p>
-                <p n="text.body.div.p2">Magnanimus Stephanus omni studio, cura, ac cogitatione contendit, ut uxor
+                <p n="p4">Magnanimus Stephanus omni studio, cura, ac cogitatione contendit, ut uxor
                     magnifici Petri bani sibi nubatur. Hoc coniugio in magna spe est, Crovatis
                     imperare posse receptis oppidis, quae bano Petro parebant. Rex et despotus
                     inviti et gementes imperata facturi sunt. Rex tanto periculo exterritus, ut
                     filio suo adolescenti splendidissimo nubat, enixissime contendit. Nihil adhuc
                     compertum habeo; si quid explorati habuero, continuo te certiorem faciam.
-                    Magnanimus Stephanus <sic n="text.body.div.p2.sic">simulate</sic> regis molitiones animadvertit;
+                    Magnanimus Stephanus <sic n="sic1">simulate</sic> regis molitiones animadvertit;
                     contractis copiis facto undique delectu ingens bellum se Crovatis illaturum
                     minatur. Hoc terrore regias nuptias se disturbare posse confidit. Illi, qui arci
                     Clisse presunt, tum regi Bosne nobile illud oppidum se daturos pollicentur,
                     omnes eludunt, nulli fidi. Dalmatiae illa arx multum accomodata. — Habes
                     epistolam verbosiorem fortasse quam velles. — Patricio domino Nicolao Canalio me
-                    comendatum facito. <abbr n="text.body.div.p2.abbr">M. A.</abbr> salutem dicito.</p>
-                <closer n="text.body.div.closer">
-                    <salute n="text.body.div.closer.salute">Vale, et me amare perservera.</salute>
-                    <dateline n="text.body.div.closer.dateline">Ex <placeName n="text.body.div.closer.dateline.placeName">Tragurio</placeName>
-                        <date n="text.body.div.closer.dateline.date" when="1454-12-24">Kal. VIIII. Januarii 1455.</date>
+                    comendatum facito. <abbr n="abbr2">M. A.</abbr> salutem dicito.</p>
+                <closer n="closer5">
+                    <salute n="salute1">Vale, et me amare perservera.</salute>
+                    <dateline n="dateline2">Ex <placeName n="placeName1">Tragurio</placeName>
+                        <date n="date2" when="1454-12-24">Kal. VIIII. Januarii 1455.</date>
                </dateline>
                 </closer>
             </div>

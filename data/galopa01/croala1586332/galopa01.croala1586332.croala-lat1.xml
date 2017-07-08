@@ -101,6 +101,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -156,48 +173,48 @@
   </teiHeader>
   <text xml:base="urn:cts:croala:galopa01.croala1586332.croala-lat1:" xml:lang="lat">
     
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-iuridica">
-            <head n="text.body.div.head">CONFIRMATIO ET AUGMENTATIO STATUTORUM
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-iuridica">
+            <head n="head1">CONFIRMATIO ET AUGMENTATIO STATUTORUM
           CIVITATIS AC INSULAE CURZULAE,
           TEMPORE MARSILIJ GEORGIJ COMITIS FACTA.</head>
                 
-            <div n="text.body.div.div" type="poesis-carmen" met="elegiacum">
-               <head n="text.body.div.div.head">SANCTI SPIRITUS ADSIT NOBIS GRATIA. ANNO DOMINI MCCLXV, INDICTIONE
+            <div n="div2" type="poesis-carmen" met="elegiacum">
+               <head n="head1">SANCTI SPIRITUS ADSIT NOBIS GRATIA. ANNO DOMINI MCCLXV, INDICTIONE
             VIII. DIE XIII. INTRANTE MENSIS APRILIS.</head>
           
-               <l n="text.body.div.div.l1">Annus millenus bis centum pentaque denus</l>
-               <l n="text.body.div.div.l2">Quatuor adiunctis dum petit yma <corr n="text.body.div.div.l2.corr" resp="NJ">Deus</corr>
+               <l n="l2">Annus millenus bis centum pentaque denus</l>
+               <l n="l3">Quatuor adiunctis dum petit yma <corr n="corr1" resp="NJ">Deus</corr>
                </l>
-               <l n="text.body.div.div.l3">Curzura legatos mittens affectat honores,</l>
-               <l n="text.body.div.div.l4">Ragusij comitem postulat ipsa sibi.</l>
-               <l n="text.body.div.div.l5">Tunc retinebat sibi comitatus sceptra sonora</l>
-               <l n="text.body.div.div.l6">Vindex et prudens iura dabat <gap n="text.body.div.div.l6.gap" resp="NJ" reason="ignoscitur"/>
+               <l n="l4">Curzura legatos mittens affectat honores,</l>
+               <l n="l5">Ragusij comitem postulat ipsa sibi.</l>
+               <l n="l6">Tunc retinebat sibi comitatus sceptra sonora</l>
+               <l n="l7">Vindex et prudens iura dabat <gap n="gap1" resp="NJ" reason="ignoscitur"/>
                </l>
-               <l n="text.body.div.div.l7">Nomine Marsilius Georgij Venetusque fatetur;</l>
-               <l n="text.body.div.div.l8">Colla sibi subdunt omnibus atque suis.</l>
-               <l n="text.body.div.div.l9">
-                  <sic n="text.body.div.div.l9.sic">Tempus elapso venit gemino probus anno</sic>
+               <l n="l8">Nomine Marsilius Georgij Venetusque fatetur;</l>
+               <l n="l9">Colla sibi subdunt omnibus atque suis.</l>
+               <l n="l10">
+                  <sic n="sic1">Tempus elapso venit gemino probus anno</sic>
                </l>
-               <l n="text.body.div.div.l10">Urbem <sic n="text.body.div.div.l10.sic">construxit</sic> plurima tela ferrens</l>
-               <l n="text.body.div.div.l11">Plurima tela ferrens tunc ostibus intus et extra;</l>
-               <l n="text.body.div.div.l12">Tandem pervenit ethere vera salus</l>
-               <l n="text.body.div.div.l13">Marsilius dictus post nonos condidit annos</l>
-               <l n="text.body.div.div.l14">Jura <sic n="text.body.div.div.l14.sic">salutifera quisque</sic> regatur eis.</l>
-               <l n="text.body.div.div.l15">Qui scelus atque nefas expellens intus ab urbe</l>
-               <l n="text.body.div.div.l16">Conservat populum, menia <sic n="text.body.div.div.l16.sic">lauda</sic> dei</l>
-               <l n="text.body.div.div.l17">Nobilis ex villi factus, de paupere dives</l>
-               <l n="text.body.div.div.l18">Hic populus sparsus pluribus inde locis</l>
-               <l n="text.body.div.div.l19">Congeritur quod loco <sic n="text.body.div.div.l19.sic">digne sit septus</sic> in ymo</l>
-               <l n="text.body.div.div.l20">Namque fides aberat per loca sparsa mala</l>
-               <l n="text.body.div.div.l21">Presbiter Antonius finxit nec plurima metra</l>
-               <l n="text.body.div.div.l22">Mandato domini posteritasque sciat.</l>
-               <l n="text.body.div.div.l23">Ragusij civis genus est galoppa vocatum</l>
-               <l n="text.body.div.div.l24">Fidus amicus erat, si quis amabat eum.</l>
+               <l n="l11">Urbem <sic n="sic1">construxit</sic> plurima tela ferrens</l>
+               <l n="l12">Plurima tela ferrens tunc ostibus intus et extra;</l>
+               <l n="l13">Tandem pervenit ethere vera salus</l>
+               <l n="l14">Marsilius dictus post nonos condidit annos</l>
+               <l n="l15">Jura <sic n="sic1">salutifera quisque</sic> regatur eis.</l>
+               <l n="l16">Qui scelus atque nefas expellens intus ab urbe</l>
+               <l n="l17">Conservat populum, menia <sic n="sic1">lauda</sic> dei</l>
+               <l n="l18">Nobilis ex villi factus, de paupere dives</l>
+               <l n="l19">Hic populus sparsus pluribus inde locis</l>
+               <l n="l20">Congeritur quod loco <sic n="sic1">digne sit septus</sic> in ymo</l>
+               <l n="l21">Namque fides aberat per loca sparsa mala</l>
+               <l n="l22">Presbiter Antonius finxit nec plurima metra</l>
+               <l n="l23">Mandato domini posteritasque sciat.</l>
+               <l n="l24">Ragusij civis genus est galoppa vocatum</l>
+               <l n="l25">Fidus amicus erat, si quis amabat eum.</l>
           
                   </div>
-            <gap n="text.body.div.gap" reason="nondum-paratum" resp="NJ"/>
+            <gap n="gap3" reason="nondum-paratum" resp="NJ"/>
          </div>
       </body>
   </text>

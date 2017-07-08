@@ -88,6 +88,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -142,39 +162,39 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:statilic_ivan01.croala2063409.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <pb n="text.body.pb"/>
-            <div n="text.body.div" type="prosa-epistula">
-                <opener n="text.body.div.opener">
-               <add n="text.body.div.opener.add">323.</add> Joannes Statilius, praepositus Budensis,
+        <body n="body1">
+            <pb n="pb1"/>
+            <div n="div2" type="prosa-epistula">
+                <opener n="opener1">
+               <add n="add1">323.</add> Joannes Statilius, praepositus Budensis,
                     Joanni de Tarnow, comiti, palatino Russiae, exercituum regni Poloniae
                     capitaneo generali.</opener>
-                <p n="text.body.div.p"> Post mei servitiorumque meorum commendationem salutem et felicitatem. <abbr n="text.body.div.p.abbr1">Mgce. dne.</abbr> et patrone observandissime. Licet superioribus diebus et regia <abbr n="text.body.div.p.abbr2">Mtas.</abbr>, <abbr n="text.body.div.p.abbr3">dnus.</abbr> meus gratiosissimus, et ego de mandato suae <abbr n="text.body.div.p.abbr4">Mtis.</abbr> satis abunde scripserit et significaverit mentem suam,
-                    nihilominus, quia cura haec in parte est commissa mihi et alioquin res ipsa indiget magna celeritate, volui denuo ad <abbr n="text.body.div.p.abbr5">mgcam. Dtionem. vram.</abbr> scribere. Nam regia <abbr n="text.body.div.p.abbr6">Mtas.</abbr> jam ex Transsilvania movit cum certa spe rehabendi Budam, sed indiget externo milite, qui
-                    nisi cito veniat, afferet magnam tarditatem rebus suae <abbr n="text.body.div.p.abbr7">Mtis</abbr>. Quare <abbr n="text.body.div.p.abbr8">Dtioni. vrae. mgcae.</abbr>
-                    ita agendum est, ut, si res <abbr n="text.body.div.p.abbr9">dni.</abbr> mei salvas esse vult, tunc urgeat illas copias, ut accelerent, quarum numerus debet esse, ut aliis literis meis scripsi, duo milia equites Poloni
-                    boni, quingenti pedites. Item per <abbr n="text.body.div.p.abbr10">dnum.</abbr> Lanczkoronski ducendi quingenti sagittarii Lithwani
-                    sicut sibi scripsit <abbr n="text.body.div.p.abbr11">dnus.</abbr> Jaroslaus Laski, et mille vel duo milia Tartari ducendi per
-                    <abbr n="text.body.div.p.abbr12">dnum.</abbr> Eustachium, qui de hoc scripserat regiae <abbr n="text.body.div.p.abbr13">Mti</abbr>. In his est insistendum <abbr n="text.body.div.p.abbr14">mgcae.
-                    Dtioni. vrae.</abbr>; nam regia <abbr n="text.body.div.p.abbr15">Mtas.</abbr> misit me huc, ut gentes ipsas exspectem vel veniant ad
-                    Munkacz vel ad Homona. nam datum est negotium hoc exsequendum <abbr n="text.body.div.p.abbr16">mgco. dno.</abbr> Francisco de Homona, si etiam per illam viam venerint. Ad quemcunque autem locum ex his
-                    gentes ipsae venerint, reperient ea, quae erunt necessaria, sicuti per <abbr n="text.body.div.p.abbr17">mgcam. Dtionem.
-                    vram.</abbr> fuerit cum eis concordatum; dummodo <abbr n="text.body.div.p.abbr18">mgca. Dtio. vra.</abbr> faciat eas gentes accelerare, nam mora multum obest. Regia <abbr n="text.body.div.p.abbr19">Mtas.</abbr>, <abbr n="text.body.div.p.abbr20">dnus.</abbr> meus clementissimus, sua gratia et
-                    liberalitate id rependet <abbr n="text.body.div.p.abbr21">mgcae. Dtioni. vrae</abbr>. Quad si gentes aliter non poterint venire,
-                    nisi ut <abbr n="text.body.div.p.abbr22">mgca. Dtio. vra.</abbr> aliquid in eas impendat, velit <abbr n="text.body.div.p.abbr23">mgca. Dtio. vra.</abbr> id exponere et
-                    mittat ad me suum nuntium, nam de omnibus faciam satis, dummodo, ut dixi, <abbr n="text.body.div.p.abbr24">mgca. Dtio.
-                    vra.</abbr> faciat gentes accelerare et non permittat regiam <abbr n="text.body.div.p.abbr25">Mtem.</abbr> incassum his terere tempus.
+                <p n="p2"> Post mei servitiorumque meorum commendationem salutem et felicitatem. <abbr n="abbr1">Mgce. dne.</abbr> et patrone observandissime. Licet superioribus diebus et regia <abbr n="abbr2">Mtas.</abbr>, <abbr n="abbr3">dnus.</abbr> meus gratiosissimus, et ego de mandato suae <abbr n="abbr4">Mtis.</abbr> satis abunde scripserit et significaverit mentem suam,
+                    nihilominus, quia cura haec in parte est commissa mihi et alioquin res ipsa indiget magna celeritate, volui denuo ad <abbr n="abbr5">mgcam. Dtionem. vram.</abbr> scribere. Nam regia <abbr n="abbr6">Mtas.</abbr> jam ex Transsilvania movit cum certa spe rehabendi Budam, sed indiget externo milite, qui
+                    nisi cito veniat, afferet magnam tarditatem rebus suae <abbr n="abbr7">Mtis</abbr>. Quare <abbr n="abbr8">Dtioni. vrae. mgcae.</abbr>
+                    ita agendum est, ut, si res <abbr n="abbr9">dni.</abbr> mei salvas esse vult, tunc urgeat illas copias, ut accelerent, quarum numerus debet esse, ut aliis literis meis scripsi, duo milia equites Poloni
+                    boni, quingenti pedites. Item per <abbr n="abbr10">dnum.</abbr> Lanczkoronski ducendi quingenti sagittarii Lithwani
+                    sicut sibi scripsit <abbr n="abbr11">dnus.</abbr> Jaroslaus Laski, et mille vel duo milia Tartari ducendi per
+                    <abbr n="abbr12">dnum.</abbr> Eustachium, qui de hoc scripserat regiae <abbr n="abbr13">Mti</abbr>. In his est insistendum <abbr n="abbr14">mgcae.
+                    Dtioni. vrae.</abbr>; nam regia <abbr n="abbr15">Mtas.</abbr> misit me huc, ut gentes ipsas exspectem vel veniant ad
+                    Munkacz vel ad Homona. nam datum est negotium hoc exsequendum <abbr n="abbr16">mgco. dno.</abbr> Francisco de Homona, si etiam per illam viam venerint. Ad quemcunque autem locum ex his
+                    gentes ipsae venerint, reperient ea, quae erunt necessaria, sicuti per <abbr n="abbr17">mgcam. Dtionem.
+                    vram.</abbr> fuerit cum eis concordatum; dummodo <abbr n="abbr18">mgca. Dtio. vra.</abbr> faciat eas gentes accelerare, nam mora multum obest. Regia <abbr n="abbr19">Mtas.</abbr>, <abbr n="abbr20">dnus.</abbr> meus clementissimus, sua gratia et
+                    liberalitate id rependet <abbr n="abbr21">mgcae. Dtioni. vrae</abbr>. Quad si gentes aliter non poterint venire,
+                    nisi ut <abbr n="abbr22">mgca. Dtio. vra.</abbr> aliquid in eas impendat, velit <abbr n="abbr23">mgca. Dtio. vra.</abbr> id exponere et
+                    mittat ad me suum nuntium, nam de omnibus faciam satis, dummodo, ut dixi, <abbr n="abbr24">mgca. Dtio.
+                    vra.</abbr> faciat gentes accelerare et non permittat regiam <abbr n="abbr25">Mtem.</abbr> incassum his terere tempus.
                      
                     
                     </p>
-                <closer n="text.body.div.closer">
-                    <salute n="text.body.div.closer.salute">
-                  <abbr n="text.body.div.closer.salute.abbr">Mgcam. Dtionem. vram.</abbr> diu feliciter valere opto.</salute>
-                    <dateline n="text.body.div.closer.dateline">Ex Homona <date n="text.body.div.closer.dateline.date" when="1527-11-08">in octava Sanctorum omnium 1527.<note n="text.body.div.closer.dateline.date.note">((8. 11. 1527.))</note>
+                <closer n="closer3">
+                    <salute n="salute1">
+                  <abbr n="abbr1">Mgcam. Dtionem. vram.</abbr> diu feliciter valere opto.</salute>
+                    <dateline n="dateline2">Ex Homona <date n="date1" when="1527-11-08">in octava Sanctorum omnium 1527.<note n="note1">((8. 11. 1527.))</note>
                   </date>
                </dateline>
-                    <signed n="text.body.div.closer.signed">
-                  <abbr n="text.body.div.closer.signed.abbr">Mgcae. Dtionis. vrae.</abbr> servitor
+                    <signed n="signed3">
+                  <abbr n="abbr1">Mgcae. Dtionis. vrae.</abbr> servitor
                         Joannes Statilius.</signed>
                 </closer>
             </div>

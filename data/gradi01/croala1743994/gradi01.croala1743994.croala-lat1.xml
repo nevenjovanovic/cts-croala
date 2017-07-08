@@ -95,6 +95,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -136,99 +147,99 @@
      </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:gradi01.croala1743994.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
+      <body n="body1">
          
-         <gap n="text.body.gap1" reason="alia"/>
-         <pb n="text.body.pb1"/>
-         <div n="text.body.div" met="alcaicum" type="poesis-ode">
-            <head n="text.body.div.head">AD JUNIUM PALMOTTAM, scriptorem egregii poematis, de rebus a Christo Domino inter homines gestis, Illyrico carmine compositi. ODE.</head>
+         <gap n="gap1" reason="alia"/>
+         <pb n="pb2"/>
+         <div n="div3" met="alcaicum" type="poesis-ode">
+            <head n="head1">AD JUNIUM PALMOTTAM, scriptorem egregii poematis, de rebus a Christo Domino inter homines gestis, Illyrico carmine compositi. ODE.</head>
 
-            <l n="text.body.div.l1">o plena tristi mortis imagine</l>
+            <l n="l2">o plena tristi mortis imagine</l>
              
-            <l n="text.body.div.l2">Humana, durum vita negotium,</l>
+            <l n="l3">Humana, durum vita negotium,</l>
              
-            <l n="text.body.div.l3">Assueta distinctos acerbis</l>
+            <l n="l4">Assueta distinctos acerbis</l>
              
-            <l n="text.body.div.l4">Ducere funeribus triumphos!</l>
+            <l n="l5">Ducere funeribus triumphos!</l>
              
-            <l n="text.body.div.l5">Tu laeta moestis gaudia luctibus,</l>
+            <l n="l6">Tu laeta moestis gaudia luctibus,</l>
              
-            <l n="text.body.div.l6">Maestosque ludus laetitiis fugas,</l>
+            <l n="l7">Maestosque ludus laetitiis fugas,</l>
              
-            <l n="text.body.div.l7">Passimque commisces amara</l>
+            <l n="l8">Passimque commisces amara</l>
              
-            <l n="text.body.div.l8">Cecropiis aconita succis.</l>
+            <l n="l9">Cecropiis aconita succis.</l>
              
-            <l n="text.body.div.l9">Quis turbo, qui te fulminis impetus</l>
+            <l n="l10">Quis turbo, qui te fulminis impetus</l>
              
-            <l n="text.body.div.l10">Aequet volantem? praecipitant dies, </l>
+            <l n="l11">Aequet volantem? praecipitant dies, </l>
              
-            <pb n="text.body.div.pb"/>
-            <l n="text.body.div.l11">Annique vertentes, nec ulla est </l>
+            <pb n="pb12"/>
+            <l n="l13">Annique vertentes, nec ulla est </l>
              
-            <l n="text.body.div.l12">Sat rigidis brevis hora Parcis. </l>
+            <l n="l14">Sat rigidis brevis hora Parcis. </l>
              
-            <l n="text.body.div.l13">Nil sceptra quidquam regia, nil decus </l>
+            <l n="l15">Nil sceptra quidquam regia, nil decus </l>
              
-            <l n="text.body.div.l14">Claro ebriarum murice vestium </l>
+            <l n="l16">Claro ebriarum murice vestium </l>
              
-            <l n="text.body.div.l15">Prosunt, nec eversis superbi </l>
+            <l n="l17">Prosunt, nec eversis superbi </l>
              
-            <l n="text.body.div.l16">De populis spoliorum acervi: </l>
+            <l n="l18">De populis spoliorum acervi: </l>
              
-            <l n="text.body.div.l17">Nihil secundus rumor, et inclytum </l>
+            <l n="l19">Nihil secundus rumor, et inclytum </l>
              
-            <l n="text.body.div.l18">Nomen, faventumque aura Quiritium, </l>
+            <l n="l20">Nomen, faventumque aura Quiritium, </l>
              
-            <l n="text.body.div.l19">Fascesque, lictoresque, et alta </l>
+            <l n="l21">Fascesque, lictoresque, et alta </l>
              
-            <l n="text.body.div.l20">Nobilium series avorum: </l>
+            <l n="l22">Nobilium series avorum: </l>
              
-            <l n="text.body.div.l21">Nec summus imo discrepat, omnium </l>
+            <l n="l23">Nec summus imo discrepat, omnium </l>
              
-            <l n="text.body.div.l22">Immitis aeque saeva necessitas </l>
+            <l n="l24">Immitis aeque saeva necessitas </l>
              
-            <l n="text.body.div.l23">Metit rapaci colla falce, </l>
+            <l n="l25">Metit rapaci colla falce, </l>
              
-            <l n="text.body.div.l24">Aggerat et miseros beatis. </l>
+            <l n="l26">Aggerat et miseros beatis. </l>
              
-            <l n="text.body.div.l25">Virtute sola fati adamantinas </l>
+            <l n="l27">Virtute sola fati adamantinas </l>
              
-            <l n="text.body.div.l26">Frangente leges. Illius in latus </l>
+            <l n="l28">Frangente leges. Illius in latus </l>
              
-            <l n="text.body.div.l27">Nil sortis adversae, licetve </l>
+            <l n="l29">Nil sortis adversae, licetve </l>
              
-            <l n="text.body.div.l28">Persephona jaculis malignae. </l>
+            <l n="l30">Persephona jaculis malignae. </l>
              
-            <l n="text.body.div.l29">Haec te erudito in pulvere splendida </l>
+            <l n="l31">Haec te erudito in pulvere splendida </l>
              
-            <l n="text.body.div.l30">Juni laborum exercuit indole, </l>
+            <l n="l32">Juni laborum exercuit indole, </l>
              
-            <l n="text.body.div.l31">Vulgi recusantem profani </l>
+            <l n="l33">Vulgi recusantem profani </l>
              
-            <l n="text.body.div.l32">Gaudia, degeneresque curas. </l>
+            <l n="l34">Gaudia, degeneresque curas. </l>
              
-            <l n="text.body.div.l33">Haec docta sacri pectora Numinis </l>
+            <l n="l35">Haec docta sacri pectora Numinis </l>
              
-            <l n="text.body.div.l34">Replevit haustu, non alii dato: </l>
+            <l n="l36">Replevit haustu, non alii dato: </l>
              
-            <l n="text.body.div.l35">Quo fretus audacem Deorum </l>
+            <l n="l37">Quo fretus audacem Deorum </l>
              
-            <l n="text.body.div.l36">Coetibus insereres Camoenam: </l>
+            <l n="l38">Coetibus insereres Camoenam: </l>
              
-            <l n="text.body.div.l37">Haec nomen atri funeris inscium </l>
+            <l n="l39">Haec nomen atri funeris inscium </l>
              
-            <l n="text.body.div.l38">Dedit, perennis cum strepitu lyras </l>
+            <l n="l40">Dedit, perennis cum strepitu lyras </l>
              
-            <l n="text.body.div.l39">Late volaturum per aures </l>
+            <l n="l41">Late volaturum per aures </l>
              
-            <l n="text.body.div.l40">Illyridum populorum amicas.</l>
+            <l n="l42">Illyridum populorum amicas.</l>
              
 
             
          </div>
-         <pb n="text.body.pb2"/>
-         <gap n="text.body.gap2" reason="alia"/>
+         <pb n="pb4"/>
+         <gap n="gap5" reason="alia"/>
       </body>
    </text>
 </TEI>

@@ -113,6 +113,29 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -164,404 +187,404 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:bosk02.croala1602080.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="poesis-ecloga">
-            <head n="text.body.div.head">P. ROGERII JOSEPHI BOSCOVICHII S. J. INTER ARCADES NUMENII ANIGRAEI 
+      <body n="body1">
+         <div n="div1" type="poesis-ecloga">
+            <head n="head1">P. ROGERII JOSEPHI BOSCOVICHII S. J. INTER ARCADES NUMENII ANIGRAEI 
       ECLOGA recitata in publico Arcadum consessu primo ludorum Olympicorum die quo die Mich. Joseph Moreius generalis Arcadiae custos illustrium poetarum Arcadum effigies formandas jaculorum ludo substituerat</head>
-            <list n="text.body.div.list" type="personae">
-               <item n="text.body.div.list.item1">Lycidas</item>
-               <item n="text.body.div.list.item2">Tytirus</item>
+            <list n="list2" type="personae">
+               <item n="item1">Lycidas</item>
+               <item n="item2">Tytirus</item>
             </list>
       
-            <sp n="text.body.div.sp1">
-               <speaker n="text.body.div.sp1.speaker">Lyc.</speaker>
-               <l n="text.body.div.sp1.l1">	Tytire, siste gradum, Lycidas vocat: o mihi sylvam,</l>
-               <l n="text.body.div.sp1.l2">		Tytire, jamdudum frustra quaesite per omnem.</l>
+            <sp n="sp3">
+               <speaker n="speaker1">Lyc.</speaker>
+               <l n="l2">	Tytire, siste gradum, Lycidas vocat: o mihi sylvam,</l>
+               <l n="l3">		Tytire, jamdudum frustra quaesite per omnem.</l>
             </sp>
-            <sp n="text.body.div.sp2">
-               <speaker n="text.body.div.sp2.speaker">Tyt.	</speaker>
-               <l n="text.body.div.sp2.l1">Tune etiam huc, Lycida? Nec te tam longa viarum</l>
-               <l n="text.body.div.sp2.l2">Taedia, nec genitrix tenuit dulcissima, nec te</l>
-               <l n="text.body.div.sp2.l3">Parva soror, nec solae, ingens tua cura, capellae;					</l>
-               <l n="text.body.div.sp2.l4">Quae nunc heu nullo sylvam custode per altam</l>
-               <l n="text.body.div.sp2.l5">Opportuna lupis jam praeda voracibus errant.</l>
+            <sp n="sp4">
+               <speaker n="speaker1">Tyt.	</speaker>
+               <l n="l2">Tune etiam huc, Lycida? Nec te tam longa viarum</l>
+               <l n="l3">Taedia, nec genitrix tenuit dulcissima, nec te</l>
+               <l n="l4">Parva soror, nec solae, ingens tua cura, capellae;					</l>
+               <l n="l5">Quae nunc heu nullo sylvam custode per altam</l>
+               <l n="l6">Opportuna lupis jam praeda voracibus errant.</l>
             </sp>
-            <sp n="text.body.div.sp3">
-               <speaker n="text.body.div.sp3.speaker">Lyc.</speaker>
-               <l n="text.body.div.sp3.l1">	Solus ego, Arcadiae extremis e finibus omnis</l>
-               <l n="text.body.div.sp3.l2">Ad sacrum dum turba nemus volat agmine denso,</l>
-               <l n="text.body.div.sp3.l3">Namque imo ciet inclamans<note place="foot" n="text.body.div.sp3.l3.note">Myrhaeus enim, nimirum doctissimus Abbas Michael Joseph Morejus, nunc est tertius Generalis Arcadiae Custos. </note> Myrhaeus ab antro,				</l>
-               <l n="text.body.div.sp3.l4">Tytire, solus, iners patria sub rupe manerem?</l>
-               <l n="text.body.div.sp3.l5">Non ita praerupti genitum sub vertice montis,</l>
-               <l n="text.body.div.sp3.l6">Heu puero, heu nimium raptus cito! durus Amyntas</l>
-               <l n="text.body.div.sp3.l7">Erudiit, dumosa manu per culmina raptans</l>
-               <l n="text.body.div.sp3.l8">Figentem dubia incerto vestigia gressu;						</l>
-               <l n="text.body.div.sp3.l9">Dum pavidos telo damas, cervosque fugaces,</l>
-               <l n="text.body.div.sp3.l10">Aut aprum, aut summis agitaret montibus ursum.</l>
-               <l n="text.body.div.sp3.l11">Non aestus, medio quamvis Sol ardeat Axe,</l>
-               <l n="text.body.div.sp3.l12">Assuetum, non hosce pedes via longa fatigat.</l>
-               <l n="text.body.div.sp3.l13">Impulit ipsa avidum genitrix quoque, perge, tuendam,		</l>
-               <l n="text.body.div.sp3.l14">	O Lycida, mihi linque domum: sat adulta capellas,</l>
-               <l n="text.body.div.sp3.l15">	Inquit, aget soror ad fontem, atque ad pascua tuta.</l>
-               <l n="text.body.div.sp3.l16">	I tu, namque potes, juvenum quo confluit omnis</l>
-               <l n="text.body.div.sp3.l17">	Turba frequens, longosque novans<note place="foot" n="text.body.div.sp3.l17.note">Nam ludorum olympicorum celebratio per hosce postremos 27. annos penitus inter Arcades intermissa.</note> desueta per annos</l>
-               <l n="text.body.div.sp3.l18">Festa agitat, variisque exercet corpora ludis.					</l>
-               <l n="text.body.div.sp3.l19">I, Lycida, et memori sub pectore singula conde</l>
-               <l n="text.body.div.sp3.l20">Observans, narrabis enim, quoque ordine, quique</l>
-               <l n="text.body.div.sp3.l21">Certarint juvenes, cui fors arriserit, et quae</l>
-               <l n="text.body.div.sp3.l22">Quisque domum tulerit meritae data praemia palmae.</l>
+            <sp n="sp5">
+               <speaker n="speaker1">Lyc.</speaker>
+               <l n="l2">	Solus ego, Arcadiae extremis e finibus omnis</l>
+               <l n="l3">Ad sacrum dum turba nemus volat agmine denso,</l>
+               <l n="l4">Namque imo ciet inclamans<note place="foot" n="note1">Myrhaeus enim, nimirum doctissimus Abbas Michael Joseph Morejus, nunc est tertius Generalis Arcadiae Custos. </note> Myrhaeus ab antro,				</l>
+               <l n="l5">Tytire, solus, iners patria sub rupe manerem?</l>
+               <l n="l6">Non ita praerupti genitum sub vertice montis,</l>
+               <l n="l7">Heu puero, heu nimium raptus cito! durus Amyntas</l>
+               <l n="l8">Erudiit, dumosa manu per culmina raptans</l>
+               <l n="l9">Figentem dubia incerto vestigia gressu;						</l>
+               <l n="l10">Dum pavidos telo damas, cervosque fugaces,</l>
+               <l n="l11">Aut aprum, aut summis agitaret montibus ursum.</l>
+               <l n="l12">Non aestus, medio quamvis Sol ardeat Axe,</l>
+               <l n="l13">Assuetum, non hosce pedes via longa fatigat.</l>
+               <l n="l14">Impulit ipsa avidum genitrix quoque, perge, tuendam,		</l>
+               <l n="l15">	O Lycida, mihi linque domum: sat adulta capellas,</l>
+               <l n="l16">	Inquit, aget soror ad fontem, atque ad pascua tuta.</l>
+               <l n="l17">	I tu, namque potes, juvenum quo confluit omnis</l>
+               <l n="l18">	Turba frequens, longosque novans<note place="foot" n="note1">Nam ludorum olympicorum celebratio per hosce postremos 27. annos penitus inter Arcades intermissa.</note> desueta per annos</l>
+               <l n="l19">Festa agitat, variisque exercet corpora ludis.					</l>
+               <l n="l20">I, Lycida, et memori sub pectore singula conde</l>
+               <l n="l21">Observans, narrabis enim, quoque ordine, quique</l>
+               <l n="l22">Certarint juvenes, cui fors arriserit, et quae</l>
+               <l n="l23">Quisque domum tulerit meritae data praemia palmae.</l>
             </sp>
-            <sp n="text.body.div.sp4">
-               <speaker n="text.body.div.sp4.speaker">Tyt.</speaker>
-               <l n="text.body.div.sp4.l1">	Scilicet hinc, Lycida, et jaculis oneratus acutis, 				</l>
-               <l n="text.body.div.sp4.l2">Circumfers arcumque humero, pharetramque sonantem,</l>
-               <l n="text.body.div.sp4.l3">Jamque animo annosae defixa in vertice pinus</l>
-               <l n="text.body.div.sp4.l4">Signa petis, palma gestis jam victor adepta.</l>
+            <sp n="sp6">
+               <speaker n="speaker1">Tyt.</speaker>
+               <l n="l2">	Scilicet hinc, Lycida, et jaculis oneratus acutis, 				</l>
+               <l n="l3">Circumfers arcumque humero, pharetramque sonantem,</l>
+               <l n="l4">Jamque animo annosae defixa in vertice pinus</l>
+               <l n="l5">Signa petis, palma gestis jam victor adepta.</l>
             </sp>
-            <sp n="text.body.div.sp5">
-               <speaker n="text.body.div.sp5.speaker">Lyc.</speaker>
-               <l n="text.body.div.sp5.l1">	Haud equidem abnuerim; stimulos namque ipsa volenti</l>
-               <l n="text.body.div.sp5.l2">	Addidit, et palmae genitrix incendit amore.					</l>
-               <l n="text.body.div.sp5.l3">	Sume, inquit, nam prima dies, si rite vetusti</l>
-               <l n="text.body.div.sp5.l4">	Servantur mores, jaculo, volucrique sagittae</l>
-               <l n="text.body.div.sp5.l5">	Debita, sume, puer, jaculum, volucremque sagittam,</l>
-               <l n="text.body.div.sp5.l6">	Arcumque, pharetramque olim victoris Amyntae.</l>
-               <l n="text.body.div.sp5.l7">	O! mihi si tantum tribuant bona numina, si te					</l>
-               <l n="text.body.div.sp5.l8">	Excipiam merita nectentem tempora lauro,</l>
-               <l n="text.body.div.sp5.l9">	Felix, ah nimium! et figentem ditia tecto</l>
-               <l n="text.body.div.sp5.l10">Dona rudi; quo, care puer, quo brachia nexu</l>
-               <l n="text.body.div.sp5.l11">Adstringens collo haererem! quae dulcia fronti</l>
-               <l n="text.body.div.sp5.l12">	Oscula mille darem! propera, puer, otia rumpe				</l>
-               <l n="text.body.div.sp5.l13">	Pigra celer, sacrumque vola pharetratus ad antrum.</l>
-               <l n="text.body.div.sp5.l14">Haec genitrix: imas agitat mihi flamma medullas,</l>
-               <l n="text.body.div.sp5.l15">Et jubet alipedes cursu praevertere ventos.</l>
-               <l n="text.body.div.sp5.l16">En ad sum; tu Myrhaeo, tu Tytire, siste:</l>
-               <l n="text.body.div.sp5.l17">En adsum, et jaculo certare paratus, et arcu.					</l>
+            <sp n="sp7">
+               <speaker n="speaker1">Lyc.</speaker>
+               <l n="l2">	Haud equidem abnuerim; stimulos namque ipsa volenti</l>
+               <l n="l3">	Addidit, et palmae genitrix incendit amore.					</l>
+               <l n="l4">	Sume, inquit, nam prima dies, si rite vetusti</l>
+               <l n="l5">	Servantur mores, jaculo, volucrique sagittae</l>
+               <l n="l6">	Debita, sume, puer, jaculum, volucremque sagittam,</l>
+               <l n="l7">	Arcumque, pharetramque olim victoris Amyntae.</l>
+               <l n="l8">	O! mihi si tantum tribuant bona numina, si te					</l>
+               <l n="l9">	Excipiam merita nectentem tempora lauro,</l>
+               <l n="l10">	Felix, ah nimium! et figentem ditia tecto</l>
+               <l n="l11">Dona rudi; quo, care puer, quo brachia nexu</l>
+               <l n="l12">Adstringens collo haererem! quae dulcia fronti</l>
+               <l n="l13">	Oscula mille darem! propera, puer, otia rumpe				</l>
+               <l n="l14">	Pigra celer, sacrumque vola pharetratus ad antrum.</l>
+               <l n="l15">Haec genitrix: imas agitat mihi flamma medullas,</l>
+               <l n="l16">Et jubet alipedes cursu praevertere ventos.</l>
+               <l n="l17">En ad sum; tu Myrhaeo, tu Tytire, siste:</l>
+               <l n="l18">En adsum, et jaculo certare paratus, et arcu.					</l>
             </sp>
-            <sp n="text.body.div.sp6">
-               <speaker n="text.body.div.sp6.speaker">Tyt.</speaker>
-               <l n="text.body.div.sp6.l1">Ante tamen, quam te jaculo certare paratum</l>
-               <l n="text.body.div.sp6.l2">Myrhaeo, Lycida, sistas; spectare juvabit</l>
-               <l n="text.body.div.sp6.l3">Et sedem, et tanti socios certaminis, atque</l>
-               <l n="text.body.div.sp6.l4">Jura tibi nondum bene cognita: concidet omnis</l>
-               <l n="text.body.div.sp6.l5">Fors et amor pugnae, et palmae spes irrita cedet.				</l>
-               <l n="text.body.div.sp6.l6">Ad laevam converte gradus, qua consita densis</l>
-               <l n="text.body.div.sp6.l7">Ordinibus viridi se pandit plurima fronde,</l>
-               <l n="text.body.div.sp6.l8">Vernantesque comas attollit in aera laurus.</l>
-               <l n="text.body.div.sp6.l9" xml:id="e59.1" next="#e59.2">Illa sacri sedes certaminis.</l>
+            <sp n="sp8">
+               <speaker n="speaker1">Tyt.</speaker>
+               <l n="l2">Ante tamen, quam te jaculo certare paratum</l>
+               <l n="l3">Myrhaeo, Lycida, sistas; spectare juvabit</l>
+               <l n="l4">Et sedem, et tanti socios certaminis, atque</l>
+               <l n="l5">Jura tibi nondum bene cognita: concidet omnis</l>
+               <l n="l6">Fors et amor pugnae, et palmae spes irrita cedet.				</l>
+               <l n="l7">Ad laevam converte gradus, qua consita densis</l>
+               <l n="l8">Ordinibus viridi se pandit plurima fronde,</l>
+               <l n="l9">Vernantesque comas attollit in aera laurus.</l>
+               <l n="l10" xml:id="e59.1" next="#e59.2">Illa sacri sedes certaminis.</l>
             </sp>
-            <sp n="text.body.div.sp7">
-               <speaker n="text.body.div.sp7.speaker">Lyc</speaker>
-               <l n="text.body.div.sp7.l1" xml:id="e59.2" prev="#e59.1">Haud moror. At quae,</l>
-               <l n="text.body.div.sp7.l2">Tytire, quae rerum facies nova? Pendula ramis				</l>
-               <l n="text.body.div.sp7.l3">Omnibus ora virum seu sculpto extantia buxo,</l>
-               <l n="text.body.div.sp7.l4">Sive coloratis fulgent depicta tabellis.</l>
-               <l n="text.body.div.sp7.l5">Pastorale pedum, et septem compacta cicutis</l>
-               <l n="text.body.div.sp7.l6">Fistula cuique sua, ac circum cava tempora laurus</l>
-               <l n="text.body.div.sp7.l7">Adstat, at innumeris variantur caetera signis.					</l>
-               <l n="text.body.div.sp7.l8">Quid juvenum manus illa struit? Sulcatur acuti</l>
-               <l n="text.body.div.sp7.l9">Huic acie teli summa cerata papyrus,</l>
-               <l n="text.body.div.sp7.l10">Hic ebore, hic viridi varias in cortice formas,</l>
-               <l n="text.body.div.sp7.l11">Alter in aequali pronus designat arena.</l>
-               <l n="text.body.div.sp7.l12">Ille autem et setas jaculo praefixit acuto,						</l>
-               <l n="text.body.div.sp7.l13">Et chonchis fucos infudit levibus, atque</l>
-               <l n="text.body.div.sp7.l14">Commiscet, versatque agitans, telamque colorat.</l>
-               <l n="text.body.div.sp7.l15">En alius parium ferrata cuspide marmor,</l>
-               <l n="text.body.div.sp7.l16">Flavum alius buxi ramum, teretisque cupressi,</l>
-               <l n="text.body.div.sp7.l17">Truncum alius telo formas tunditque, secatque.				</l>
-               <l n="text.body.div.sp7.l18">Quae subiit nova cura animos? Quae forma colendi</l>
-               <l n="text.body.div.sp7.l19">Arcadici nemoris? Veterum quo jura parentum,</l>
-               <l n="text.body.div.sp7.l20">Servati et longos mores abiere per annos?</l>
+            <sp n="sp9">
+               <speaker n="speaker1">Lyc</speaker>
+               <l n="l2" xml:id="e59.2" prev="#e59.1">Haud moror. At quae,</l>
+               <l n="l3">Tytire, quae rerum facies nova? Pendula ramis				</l>
+               <l n="l4">Omnibus ora virum seu sculpto extantia buxo,</l>
+               <l n="l5">Sive coloratis fulgent depicta tabellis.</l>
+               <l n="l6">Pastorale pedum, et septem compacta cicutis</l>
+               <l n="l7">Fistula cuique sua, ac circum cava tempora laurus</l>
+               <l n="l8">Adstat, at innumeris variantur caetera signis.					</l>
+               <l n="l9">Quid juvenum manus illa struit? Sulcatur acuti</l>
+               <l n="l10">Huic acie teli summa cerata papyrus,</l>
+               <l n="l11">Hic ebore, hic viridi varias in cortice formas,</l>
+               <l n="l12">Alter in aequali pronus designat arena.</l>
+               <l n="l13">Ille autem et setas jaculo praefixit acuto,						</l>
+               <l n="l14">Et chonchis fucos infudit levibus, atque</l>
+               <l n="l15">Commiscet, versatque agitans, telamque colorat.</l>
+               <l n="l16">En alius parium ferrata cuspide marmor,</l>
+               <l n="l17">Flavum alius buxi ramum, teretisque cupressi,</l>
+               <l n="l18">Truncum alius telo formas tunditque, secatque.				</l>
+               <l n="l19">Quae subiit nova cura animos? Quae forma colendi</l>
+               <l n="l20">Arcadici nemoris? Veterum quo jura parentum,</l>
+               <l n="l21">Servati et longos mores abiere per annos?</l>
             </sp>
-            <sp n="text.body.div.sp8">
-               <speaker n="text.body.div.sp8.speaker">Tyt.</speaker>
-               <l n="text.body.div.sp8.l1">Di dederunt meliora boni. Myrhaeus avitos,</l>
-               <l n="text.body.div.sp8.l2">	O Lycida, mores mitescere jussit, agresti<note place="foot" n="text.body.div.sp8.l2.note">Mutavit nimirum ludorum olympicorum genus, et jaculis substituit illustrium Arcadum, qui jam obierint, effigies.</note>
+            <sp n="sp10">
+               <speaker n="speaker1">Tyt.</speaker>
+               <l n="l2">Di dederunt meliora boni. Myrhaeus avitos,</l>
+               <l n="l3">	O Lycida, mores mitescere jussit, agresti<note place="foot" n="note1">Mutavit nimirum ludorum olympicorum genus, et jaculis substituit illustrium Arcadum, qui jam obierint, effigies.</note>
                </l>
-               <l n="text.body.div.sp8.l3">Arcadiae ingenuas et providus intulit artes.</l>
-               <l n="text.body.div.sp8.l4">Sic et qui steterat succis oleaster amaris</l>
-               <l n="text.body.div.sp8.l5">Improbus, et foliis alte pungentibus asper,</l>
-               <l n="text.body.div.sp8.l6">Idem jam pinguis frondes emittit olivae,</l>
-               <l n="text.body.div.sp8.l7">Ac dulces bacchas mitissima Palladis arbor					</l>
-               <l n="text.body.div.sp8.l8">Educat, et spinis qui quondam horrebat acutis,</l>
-               <l n="text.body.div.sp8.l9">Incisus ferro truncus mansuescit amico,</l>
-               <l n="text.body.div.sp8.l10">Educitque novas frondes, et cerea pruna.</l>
-               <l n="text.body.div.sp8.l11">Non jaculo, non ille vetat certare sagitta.</l>
-               <l n="text.body.div.sp8.l12">At teretis calami, meliorem et cuspidis usum					</l>
-               <l n="text.body.div.sp8.l13">Extudit aeratae, quo non oculusque, manusque</l>
-               <l n="text.body.div.sp8.l14">Se tantum, ast una et mentis vigor, atque feracis</l>
-               <l n="text.body.div.sp8.l15">Ingenii dives pariter se copia prodat.</l>
-               <l n="text.body.div.sp8.l16">	Fas, ait, egregias animas, quae carmine culto</l>
-               <l n="text.body.div.sp8.l17">Hoc decus, et famam solida virtute perennem					</l>
-               <l n="text.body.div.sp8.l18">Arcadico peperere solo, quos extulit ipse</l>
-               <l n="text.body.div.sp8.l19">Hinc pater aetherei stellatum ad culmen Olympi</l>
-               <l n="text.body.div.sp8.l20">Avectos curru Phaebus, coeloque locavit;</l>
-               <l n="text.body.div.sp8.l21">Fas merito, o pueri, memores celebremus honore:</l>
-               <l n="text.body.div.sp8.l22">Fas oculis redeant rapti licet, altaque ad imas					</l>
-               <l n="text.body.div.sp8.l23">Atque iterum, atque iterum mentes exempla recurrant.</l>
-               <l n="text.body.div.sp8.l24">Ite ergo, et notos jaculis effingite vultus.</l>
-               <l n="text.body.div.sp8.l25">Siquis amat duro extantes educere saxo, </l>
-               <l n="text.body.div.sp8.l26">Praefringat calamum, pro scalpro ferrea teli</l>
-               <l n="text.body.div.sp8.l27">Cuspis erit: buxus si mollior, atque cupressus					</l>
-               <l n="text.body.div.sp8.l28">Arridet magis; oblonga disjungere fibras,</l>
-               <l n="text.body.div.sp8.l29">Atque secare acie, et poterit perradere sectas.</l>
-               <l n="text.body.div.sp8.l30">Cerata in tabula, viridive in cortice si quis</l>
-               <l n="text.body.div.sp8.l31">Maluerit tenui formas incidere sulco;</l>
-               <l n="text.body.div.sp8.l32">Ille stylo tenuem, qua cuspis acuta, sagittam					</l>
-               <l n="text.body.div.sp8.l33">Substituat, tractetque agilis. Demum ora colore</l>
-               <l n="text.body.div.sp8.l34">Qui vario, et cultum mentiri malit agrestem,</l>
-               <l n="text.body.div.sp8.l35">		Is, calamo qua pluma levis defigier imo</l>
-               <l n="text.body.div.sp8.l36">Assolet, et tremulo zephyros agitare susurro,</l>
-               <l n="text.body.div.sp8.l37">Aut apri setas, aut crinem adstringat equinum:				</l>
-               <l n="text.body.div.sp8.l38">His poterit mixtos per telam ducere fucos.</l>
-               <l n="text.body.div.sp8.l39">Fistula, pastorale pedum, et Parnassia laurus</l>
-               <l n="text.body.div.sp8.l40">Prodant Arcadicos insignia nota colonos.</l>
-               <l n="text.body.div.sp8.l41">At variis, quae cuique petit laus debita, signis</l>
-               <l n="text.body.div.sp8.l42">Et decora, et mores, et grandia facta notentur.					</l>
-               <l n="text.body.div.sp8.l43">Haec animo sibi quisque suo confingat, et omnes</l>
-               <l n="text.body.div.sp8.l44">Exerat ingenii vires, mentisque vigorem</l>
-               <l n="text.body.div.sp8.l45">Extundens: tum deinde oculos, tum deinde labori</l>
-               <l n="text.body.div.sp8.l46">Adjungat dextram: Arcadicis haec cura colonis</l>
-               <l n="text.body.div.sp8.l47">Digna magis, longe et jaculorum dignior usus,				</l>
-               <l n="text.body.div.sp8.l48">Haec nostros meliora decent certamina ludos.</l>
-               <l n="text.body.div.sp8.l49">Praemia digna dabo victoribus. Alphesibaei<note place="foot" n="text.body.div.sp8.l49.note">Primi nimirum Arcadiae Custodis Jo. Marii Crescimbeni</note>
+               <l n="l4">Arcadiae ingenuas et providus intulit artes.</l>
+               <l n="l5">Sic et qui steterat succis oleaster amaris</l>
+               <l n="l6">Improbus, et foliis alte pungentibus asper,</l>
+               <l n="l7">Idem jam pinguis frondes emittit olivae,</l>
+               <l n="l8">Ac dulces bacchas mitissima Palladis arbor					</l>
+               <l n="l9">Educat, et spinis qui quondam horrebat acutis,</l>
+               <l n="l10">Incisus ferro truncus mansuescit amico,</l>
+               <l n="l11">Educitque novas frondes, et cerea pruna.</l>
+               <l n="l12">Non jaculo, non ille vetat certare sagitta.</l>
+               <l n="l13">At teretis calami, meliorem et cuspidis usum					</l>
+               <l n="l14">Extudit aeratae, quo non oculusque, manusque</l>
+               <l n="l15">Se tantum, ast una et mentis vigor, atque feracis</l>
+               <l n="l16">Ingenii dives pariter se copia prodat.</l>
+               <l n="l17">	Fas, ait, egregias animas, quae carmine culto</l>
+               <l n="l18">Hoc decus, et famam solida virtute perennem					</l>
+               <l n="l19">Arcadico peperere solo, quos extulit ipse</l>
+               <l n="l20">Hinc pater aetherei stellatum ad culmen Olympi</l>
+               <l n="l21">Avectos curru Phaebus, coeloque locavit;</l>
+               <l n="l22">Fas merito, o pueri, memores celebremus honore:</l>
+               <l n="l23">Fas oculis redeant rapti licet, altaque ad imas					</l>
+               <l n="l24">Atque iterum, atque iterum mentes exempla recurrant.</l>
+               <l n="l25">Ite ergo, et notos jaculis effingite vultus.</l>
+               <l n="l26">Siquis amat duro extantes educere saxo, </l>
+               <l n="l27">Praefringat calamum, pro scalpro ferrea teli</l>
+               <l n="l28">Cuspis erit: buxus si mollior, atque cupressus					</l>
+               <l n="l29">Arridet magis; oblonga disjungere fibras,</l>
+               <l n="l30">Atque secare acie, et poterit perradere sectas.</l>
+               <l n="l31">Cerata in tabula, viridive in cortice si quis</l>
+               <l n="l32">Maluerit tenui formas incidere sulco;</l>
+               <l n="l33">Ille stylo tenuem, qua cuspis acuta, sagittam					</l>
+               <l n="l34">Substituat, tractetque agilis. Demum ora colore</l>
+               <l n="l35">Qui vario, et cultum mentiri malit agrestem,</l>
+               <l n="l36">		Is, calamo qua pluma levis defigier imo</l>
+               <l n="l37">Assolet, et tremulo zephyros agitare susurro,</l>
+               <l n="l38">Aut apri setas, aut crinem adstringat equinum:				</l>
+               <l n="l39">His poterit mixtos per telam ducere fucos.</l>
+               <l n="l40">Fistula, pastorale pedum, et Parnassia laurus</l>
+               <l n="l41">Prodant Arcadicos insignia nota colonos.</l>
+               <l n="l42">At variis, quae cuique petit laus debita, signis</l>
+               <l n="l43">Et decora, et mores, et grandia facta notentur.					</l>
+               <l n="l44">Haec animo sibi quisque suo confingat, et omnes</l>
+               <l n="l45">Exerat ingenii vires, mentisque vigorem</l>
+               <l n="l46">Extundens: tum deinde oculos, tum deinde labori</l>
+               <l n="l47">Adjungat dextram: Arcadicis haec cura colonis</l>
+               <l n="l48">Digna magis, longe et jaculorum dignior usus,				</l>
+               <l n="l49">Haec nostros meliora decent certamina ludos.</l>
+               <l n="l50">Praemia digna dabo victoribus. Alphesibaei<note place="foot" n="note1">Primi nimirum Arcadiae Custodis Jo. Marii Crescimbeni</note>
                </l>
-               <l n="text.body.div.sp8.l50">Illa manu primum quae consita laurus in auras</l>
-               <l n="text.body.div.sp8.l51">Intonsum aerias tollit caput, illa virentes,</l>
-               <l n="text.body.div.sp8.l52">Ipse ego sublimi quas carpam in vertice frondes,				</l>
-               <l n="text.body.div.sp8.l53">Victuro aeternos serto praebebit in annos.</l>
-               <l n="text.body.div.sp8.l54">Praeterea aut pario sculptam de marmore, sive,</l>
-               <l n="text.body.div.sp8.l55">Ut libet, in tabula pictam, tenuive papyro</l>
-               <l n="text.body.div.sp8.l56">Ipse suam lauro effigiem suspendet eadem</l>
-               <l n="text.body.div.sp8.l57">Affigens tantae signum memorabile palmae.					</l>
-               <l n="text.body.div.sp8.l58">	Vix ea Myrhaeus: pastorum effunditur ingens</l>
-               <l n="text.body.div.sp8.l59">Per sylvam, atque novum molitur turba laborem.</l>
-               <l n="text.body.div.sp8.l60">Ergo vides, jam fervet opus. Conjungier illis</l>
-               <l n="text.body.div.sp8.l61">Tu quoque vis, Lycida, et jaculo, et certare sagitta?</l>
+               <l n="l51">Illa manu primum quae consita laurus in auras</l>
+               <l n="l52">Intonsum aerias tollit caput, illa virentes,</l>
+               <l n="l53">Ipse ego sublimi quas carpam in vertice frondes,				</l>
+               <l n="l54">Victuro aeternos serto praebebit in annos.</l>
+               <l n="l55">Praeterea aut pario sculptam de marmore, sive,</l>
+               <l n="l56">Ut libet, in tabula pictam, tenuive papyro</l>
+               <l n="l57">Ipse suam lauro effigiem suspendet eadem</l>
+               <l n="l58">Affigens tantae signum memorabile palmae.					</l>
+               <l n="l59">	Vix ea Myrhaeus: pastorum effunditur ingens</l>
+               <l n="l60">Per sylvam, atque novum molitur turba laborem.</l>
+               <l n="l61">Ergo vides, jam fervet opus. Conjungier illis</l>
+               <l n="l62">Tu quoque vis, Lycida, et jaculo, et certare sagitta?</l>
             </sp>
-            <sp n="text.body.div.sp9">
-               <speaker n="text.body.div.sp9.speaker">Lyc.</speaker>
-               <l n="text.body.div.sp9.l1">Haud equidem tantum tribuo mihi, Tytire, dextra</l>
-               <l n="text.body.div.sp9.l2">	Si jaculum vibrare gravi, si tendere nervos</l>
-               <l n="text.body.div.sp9.l3">Cornibus adductis, arcuque sonante sagittam</l>
-               <l n="text.body.div.sp9.l4">Mittere opus; certarem equidem; nec me Jovis ales,</l>
-               <l n="text.body.div.sp9.l5">	Nec pernix fugiat cervus, quamquam ille volatu,</l>
-               <l n="text.body.div.sp9.l6">Hic celeri ventos vincat pede. Figat in imo					</l>
-               <l n="text.body.div.sp9.l7">Se telum corde, et rapiat cum sanguine vitam.</l>
-               <l n="text.body.div.sp9.l8">At quoniam certare nefas, age, Tytire, pande</l>
-               <l n="text.body.div.sp9.l9">Singula, nosti etenim, qui se in certamina tanta</l>
-               <l n="text.body.div.sp9.l10">Hi dederunt juvenes, quorum haec aut pendula ramis</l>
-               <l n="text.body.div.sp9.l11">Ora, vel artifici nondum perfecta labore						</l>
-               <l n="text.body.div.sp9.l12">Pastorum in manibus tuimur, quid et addita cuique</l>
-               <l n="text.body.div.sp9.l13">Signa notant, mille arcanis variata figuris.</l>
+            <sp n="sp11">
+               <speaker n="speaker1">Lyc.</speaker>
+               <l n="l2">Haud equidem tantum tribuo mihi, Tytire, dextra</l>
+               <l n="l3">	Si jaculum vibrare gravi, si tendere nervos</l>
+               <l n="l4">Cornibus adductis, arcuque sonante sagittam</l>
+               <l n="l5">Mittere opus; certarem equidem; nec me Jovis ales,</l>
+               <l n="l6">	Nec pernix fugiat cervus, quamquam ille volatu,</l>
+               <l n="l7">Hic celeri ventos vincat pede. Figat in imo					</l>
+               <l n="l8">Se telum corde, et rapiat cum sanguine vitam.</l>
+               <l n="l9">At quoniam certare nefas, age, Tytire, pande</l>
+               <l n="l10">Singula, nosti etenim, qui se in certamina tanta</l>
+               <l n="l11">Hi dederunt juvenes, quorum haec aut pendula ramis</l>
+               <l n="l12">Ora, vel artifici nondum perfecta labore						</l>
+               <l n="l13">Pastorum in manibus tuimur, quid et addita cuique</l>
+               <l n="l14">Signa notant, mille arcanis variata figuris.</l>
             </sp>
-            <sp n="text.body.div.sp10">
-               <speaker n="text.body.div.sp10.speaker">Tyt.</speaker>
-               <l n="text.body.div.sp10.l1">	Ah! Lycida, ah demens! Quid enim petis? Ante jugales</l>
-               <l n="text.body.div.sp10.l2">Circumagat totum Phoebe variata per orbem</l>
-               <l n="text.body.div.sp10.l3">Ore tumens iterum, atque iterum nova cornua sumens		</l>
-               <l n="text.body.div.sp10.l4">Quam liceat tantam versando evolvere molem.</l>
-               <l n="text.body.div.sp10.l5">Pauca modo expediam, nam me quoque concitat idem</l>
-               <l n="text.body.div.sp10.l6">Palmae amor, et mea sunt, lauro pendentia ab illa</l>
-               <l n="text.body.div.sp10.l7">Quae perfecta vides; sed perficienda supersunt</l>
-               <l n="text.body.div.sp10.l8">Quaedam, alia, et longum poscunt abrupta laborem.			</l>
-               <l n="text.body.div.sp10.l9">Ille, vides? nostris Myrhaeo in caetibus ille</l>
-               <l n="text.body.div.sp10.l10">	Assidet usque comes, curasque exercet easdem</l>
-               <l n="text.body.div.sp10.l11">Immortale Achamas<note place="foot" n="text.body.div.sp10.l11.note">Joseph Brogius Arcadiae Procustos, qui 4. Summorum Pontificum effigies proponit, Alnani, sive Clementis XI., Aretalgi, sive Innocentii XIII., Lerimi, sive Clementis XII., et Theophili, sive Benedicti XIII., qui metri gratia, ob primam brevem hic nequaquam nominatur. Horum Pontificum stemmata nemo non novit, ea hic innuuntur.</note> nomen. Jam fixit in alto</l>
-               <l n="text.body.div.sp10.l12">Alnanum, ac Lerimum ramo, vultumque Aretalgi,</l>
-               <l n="text.body.div.sp10.l13">Quartum format adhuc fingens, et totus in illo est.			</l>
+            <sp n="sp12">
+               <speaker n="speaker1">Tyt.</speaker>
+               <l n="l2">	Ah! Lycida, ah demens! Quid enim petis? Ante jugales</l>
+               <l n="l3">Circumagat totum Phoebe variata per orbem</l>
+               <l n="l4">Ore tumens iterum, atque iterum nova cornua sumens		</l>
+               <l n="l5">Quam liceat tantam versando evolvere molem.</l>
+               <l n="l6">Pauca modo expediam, nam me quoque concitat idem</l>
+               <l n="l7">Palmae amor, et mea sunt, lauro pendentia ab illa</l>
+               <l n="l8">Quae perfecta vides; sed perficienda supersunt</l>
+               <l n="l9">Quaedam, alia, et longum poscunt abrupta laborem.			</l>
+               <l n="l10">Ille, vides? nostris Myrhaeo in caetibus ille</l>
+               <l n="l11">	Assidet usque comes, curasque exercet easdem</l>
+               <l n="l12">Immortale Achamas<note place="foot" n="note1">Joseph Brogius Arcadiae Procustos, qui 4. Summorum Pontificum effigies proponit, Alnani, sive Clementis XI., Aretalgi, sive Innocentii XIII., Lerimi, sive Clementis XII., et Theophili, sive Benedicti XIII., qui metri gratia, ob primam brevem hic nequaquam nominatur. Horum Pontificum stemmata nemo non novit, ea hic innuuntur.</note> nomen. Jam fixit in alto</l>
+               <l n="l13">Alnanum, ac Lerimum ramo, vultumque Aretalgi,</l>
+               <l n="l14">Quartum format adhuc fingens, et totus in illo est.			</l>
             </sp>
-            <sp n="text.body.div.sp11">
-               <speaker n="text.body.div.sp11.speaker">Lyc.</speaker>
-               <l n="text.body.div.sp11.l1">	Novi equidem: quis enim non nosceret? Extulit illos</l>
-               <l n="text.body.div.sp11.l2">	Eductos campis silvestribus, extulit ingens</l>
-               <l n="text.body.div.sp11.l3">		Divini aeternum virtus ad culmen honoris,</l>
-               <l n="text.body.div.sp11.l4">Atque suos curare greges, quacumque vagentur,</l>
-               <l n="text.body.div.sp11.l5">Relligio dedit, et totum imperitare per Orbem.				</l>
-               <l n="text.body.div.sp11.l6">Agnosco triplici fulgentia tempora serto,</l>
-               <l n="text.body.div.sp11.l7">Alnani et montes ternos, et montibus astrum</l>
-               <l n="text.body.div.sp11.l8">Impositum: triplex Lerimi se fascia prodit</l>
-               <l n="text.body.div.sp11.l9">Per medium secta, et gemino variata colore,</l>
-               <l n="text.body.div.sp11.l10">Quamque Aretalgus habet, spatiis distincta quadratis			</l>
-               <l n="text.body.div.sp11.l11">Ultro se prodit Jovis ales: squameus anguis,</l>
-               <l n="text.body.div.sp11.l12">Et rosa, et Ursinam signat quae fascia gentem,</l>
-               <l n="text.body.div.sp11.l13">Nota sat et nostris in montibus: omnia nota</l>
-               <l n="text.body.div.sp11.l14">Tantorum decora heroum, et tot grandia facta.</l>
-               <l n="text.body.div.sp11.l15">	Qui tamen hi, tela<note place="foot" n="text.body.div.sp11.l15.note">Tres hic exprimuntur sanctissimi et doctissimi viri, quos diu reluctantes e Coenobio ad purpuram vi pertraxit eodem omnes die Clemens XI. Sunt autem Alcidamus, sive Joseph Maria Tommasius, Filotheus, sive Jo. Baptista Ptolomaeus, Aretimus, sive Franciscus Maria Casinius, primus e Theatinorum familia, secundus e Soc. Jesu, tertius ex Ordine Cappuccinorum, omnes editis operibus et pietate celeberrimi. Eorum effigies proponit Riviscus, sive Antonius Gasparrius. Porro Aretimum et Filotheum a versu excludit metrum. </note> juvenis quos jungit in una,				</l>
-               <l n="text.body.div.sp11.l16">Pastores terni? Sacro distincta galero</l>
-               <l n="text.body.div.sp11.l17">Frons rubet, et vasta perarata volumina mole</l>
-               <l n="text.body.div.sp11.l18">Hinc atque hinc cumulata jacent. Proh quanta senili</l>
-               <l n="text.body.div.sp11.l19">Ore sedet pietas! Qui pectore promicat ignis?</l>
+            <sp n="sp13">
+               <speaker n="speaker1">Lyc.</speaker>
+               <l n="l2">	Novi equidem: quis enim non nosceret? Extulit illos</l>
+               <l n="l3">	Eductos campis silvestribus, extulit ingens</l>
+               <l n="l4">		Divini aeternum virtus ad culmen honoris,</l>
+               <l n="l5">Atque suos curare greges, quacumque vagentur,</l>
+               <l n="l6">Relligio dedit, et totum imperitare per Orbem.				</l>
+               <l n="l7">Agnosco triplici fulgentia tempora serto,</l>
+               <l n="l8">Alnani et montes ternos, et montibus astrum</l>
+               <l n="l9">Impositum: triplex Lerimi se fascia prodit</l>
+               <l n="l10">Per medium secta, et gemino variata colore,</l>
+               <l n="l11">Quamque Aretalgus habet, spatiis distincta quadratis			</l>
+               <l n="l12">Ultro se prodit Jovis ales: squameus anguis,</l>
+               <l n="l13">Et rosa, et Ursinam signat quae fascia gentem,</l>
+               <l n="l14">Nota sat et nostris in montibus: omnia nota</l>
+               <l n="l15">Tantorum decora heroum, et tot grandia facta.</l>
+               <l n="l16">	Qui tamen hi, tela<note place="foot" n="note1">Tres hic exprimuntur sanctissimi et doctissimi viri, quos diu reluctantes e Coenobio ad purpuram vi pertraxit eodem omnes die Clemens XI. Sunt autem Alcidamus, sive Joseph Maria Tommasius, Filotheus, sive Jo. Baptista Ptolomaeus, Aretimus, sive Franciscus Maria Casinius, primus e Theatinorum familia, secundus e Soc. Jesu, tertius ex Ordine Cappuccinorum, omnes editis operibus et pietate celeberrimi. Eorum effigies proponit Riviscus, sive Antonius Gasparrius. Porro Aretimum et Filotheum a versu excludit metrum. </note> juvenis quos jungit in una,				</l>
+               <l n="l17">Pastores terni? Sacro distincta galero</l>
+               <l n="l18">Frons rubet, et vasta perarata volumina mole</l>
+               <l n="l19">Hinc atque hinc cumulata jacent. Proh quanta senili</l>
+               <l n="l20">Ore sedet pietas! Qui pectore promicat ignis?</l>
             </sp>
-            <sp n="text.body.div.sp12">
-               <speaker n="text.body.div.sp12.speaker">Tyt.</speaker>
-               <l n="text.body.div.sp12.l1">O decus, o Latii numquam peritura senatus					</l>
-               <l n="text.body.div.sp12.l2">Gloria! Vi raptos Alnanus paupere tecto</l>
-               <l n="text.body.div.sp12.l3">Extulit hos, Lycida, simul, atque effulgere sacro</l>
-               <l n="text.body.div.sp12.l4">	Obstantes longum necquidquam jussit in ostro.</l>
-               <l n="text.body.div.sp12.l5">Alcidamum hunc dicunt, huic nomen mascula virtus,</l>
-               <l n="text.body.div.sp12.l6">Huic divinus amor merito dedit: exhibet illos					</l>
-               <l n="text.body.div.sp12.l7">Riviscus, dotesque animi, doctosque labores</l>
-               <l n="text.body.div.sp12.l8">Exprimit, ac telam o quanta levis arte colorat!</l>
-               <l n="text.body.div.sp12.l9">Benacum<note place="foot" n="text.body.div.sp12.l9.note">Hic enunciantur Benacus, sive Julius Caesar Grazzinus, Thyrsis, sive Jo. Baptista Zappius et Alaurus, sive Bernardinus Perfettius, versibus ex improviso recitatis celebres, quorum postremus in Capitolio solemni pompa et rarissimo exemplo coronatus est. Eorum et aliorum extemporalium poetarum effigies proponit Eurasius, sive Petrus Franciscus Versarius.</note> Eurasius, Thyrsimque, et format Alaurum.</l>
-               <l n="text.body.div.sp12.l10">Ollis Phoebus adest, promptamque in carmina venam</l>
-               <l n="text.body.div.sp12.l11">Sufficit, et subitos dat mille effundere versus.					</l>
-               <l n="text.body.div.sp12.l12">Ipsa sua, qua se Capitoli immobile saxum</l>
-               <l n="text.body.div.sp12.l13">Erigit, ipsa manu frontem praecingit Alauri</l>
-               <l n="text.body.div.sp12.l14">Roma potens: plausus septem de Collibus Echo</l>
-               <l n="text.body.div.sp12.l15">Congeminat, fluvioque fremit Tyberinus ab alto.</l>
-               <l n="text.body.div.sp12.l16">Navimbus<note place="foot" n="text.body.div.sp12.l16.note">Innuuntur jam alii nonnulli. Navimbus, sive Bonaventura Catranius effingit Uranium, sive Vincentium Leonium; Sisimber, sive Carolus de Sanctis, Polybum, sive Vincentium de Filicaja; Nevillus, sive Mutius Scevola, Eurindum, sive Franciscum Mariam Gasparrium; Carminius, sive P. Eduardus a S. Francisco Xav. Carmelit. Excalc., Amaranthum, sive Hieronymum Giglium.</note>, viden? Uranium, Polybumque Sisimber			</l>
-               <l n="text.body.div.sp12.l17">Sculpit, hic Eurindi vultum exprimit, ille Amaranthi.</l>
-               <l n="text.body.div.sp12.l18">	Sed quid ego longinqua sequor, propiora relinquo? </l>
-               <l n="text.body.div.sp12.l19">Huc geminas, huc flecte acies, hanc aspice telam,</l>
-               <l n="text.body.div.sp12.l20">		Qua magnum tanta pingens Locresius<note place="foot" n="text.body.div.sp12.l20.note">
-                     <p n="text.body.div.sp12.l20.note.p1">Hic jam Locresii, sive Flaminii Scarsellii celeberrimi et doctissimi viri Ode exponitur per summa capita, qua Acim sive Eustachium Manfredium proponit. Coeterorum argumenta tantummodo noveramus, hujus et carmen cultissimum nobis fuerat exhibitum; cujus ordinem retinuimus praecipuis breviter hic expressis. Porro ipse, ubi telae ideam effinxit, animi dotes coloribus nequaquam obnoxias versibus persequitur.</p>
-                     <p n="text.body.div.sp12.l20.note.p2">Eum autem proponit primo juris studia aversatum iratae Themide, tum subeuntem Coelum ad addiscendam Astronomiam computantem coelestes ephemerides sororibus adiuvantibus, observantem sydera, et eclipses, curantem Bononienses aquas, ac inter eas Rhenum, et Idigem usque adeo nunc quidem Bononiensibus funestos, ac demum innuit Britanniae et Galliae plausus tantum virum in suas Academias cooptantium.</p>
+            <sp n="sp14">
+               <speaker n="speaker1">Tyt.</speaker>
+               <l n="l2">O decus, o Latii numquam peritura senatus					</l>
+               <l n="l3">Gloria! Vi raptos Alnanus paupere tecto</l>
+               <l n="l4">Extulit hos, Lycida, simul, atque effulgere sacro</l>
+               <l n="l5">	Obstantes longum necquidquam jussit in ostro.</l>
+               <l n="l6">Alcidamum hunc dicunt, huic nomen mascula virtus,</l>
+               <l n="l7">Huic divinus amor merito dedit: exhibet illos					</l>
+               <l n="l8">Riviscus, dotesque animi, doctosque labores</l>
+               <l n="l9">Exprimit, ac telam o quanta levis arte colorat!</l>
+               <l n="l10">Benacum<note place="foot" n="note1">Hic enunciantur Benacus, sive Julius Caesar Grazzinus, Thyrsis, sive Jo. Baptista Zappius et Alaurus, sive Bernardinus Perfettius, versibus ex improviso recitatis celebres, quorum postremus in Capitolio solemni pompa et rarissimo exemplo coronatus est. Eorum et aliorum extemporalium poetarum effigies proponit Eurasius, sive Petrus Franciscus Versarius.</note> Eurasius, Thyrsimque, et format Alaurum.</l>
+               <l n="l11">Ollis Phoebus adest, promptamque in carmina venam</l>
+               <l n="l12">Sufficit, et subitos dat mille effundere versus.					</l>
+               <l n="l13">Ipsa sua, qua se Capitoli immobile saxum</l>
+               <l n="l14">Erigit, ipsa manu frontem praecingit Alauri</l>
+               <l n="l15">Roma potens: plausus septem de Collibus Echo</l>
+               <l n="l16">Congeminat, fluvioque fremit Tyberinus ab alto.</l>
+               <l n="l17">Navimbus<note place="foot" n="note1">Innuuntur jam alii nonnulli. Navimbus, sive Bonaventura Catranius effingit Uranium, sive Vincentium Leonium; Sisimber, sive Carolus de Sanctis, Polybum, sive Vincentium de Filicaja; Nevillus, sive Mutius Scevola, Eurindum, sive Franciscum Mariam Gasparrium; Carminius, sive P. Eduardus a S. Francisco Xav. Carmelit. Excalc., Amaranthum, sive Hieronymum Giglium.</note>, viden? Uranium, Polybumque Sisimber			</l>
+               <l n="l18">Sculpit, hic Eurindi vultum exprimit, ille Amaranthi.</l>
+               <l n="l19">	Sed quid ego longinqua sequor, propiora relinquo? </l>
+               <l n="l20">Huc geminas, huc flecte acies, hanc aspice telam,</l>
+               <l n="l21">		Qua magnum tanta pingens Locresius<note place="foot" n="note1">
+                     <p n="p1">Hic jam Locresii, sive Flaminii Scarsellii celeberrimi et doctissimi viri Ode exponitur per summa capita, qua Acim sive Eustachium Manfredium proponit. Coeterorum argumenta tantummodo noveramus, hujus et carmen cultissimum nobis fuerat exhibitum; cujus ordinem retinuimus praecipuis breviter hic expressis. Porro ipse, ubi telae ideam effinxit, animi dotes coloribus nequaquam obnoxias versibus persequitur.</p>
+                     <p n="p2">Eum autem proponit primo juris studia aversatum iratae Themide, tum subeuntem Coelum ad addiscendam Astronomiam computantem coelestes ephemerides sororibus adiuvantibus, observantem sydera, et eclipses, curantem Bononienses aquas, ac inter eas Rhenum, et Idigem usque adeo nunc quidem Bononiensibus funestos, ac demum innuit Britanniae et Galliae plausus tantum virum in suas Academias cooptantium.</p>
                   </note> Acin</l>
-               <l n="text.body.div.sp12.l21">		Arte refert, vultumque, oculosque coloribus, atque			</l>
-               <l n="text.body.div.sp12.l22">Officia, et vitae seriem, doctosque labores</l>
-               <l n="text.body.div.sp12.l23">Exprimit; ast animum, atque omnes vincentia fucos</l>
-               <l n="text.body.div.sp12.l24">Virtutum merita, et conclusas pectore dotes</l>
-               <l n="text.body.div.sp12.l25">Versibus adscriptis pandit, quos ipse sororum</l>
-               <l n="text.body.div.sp12.l26">Aonidum chorus, ac praesens miratur Apollo.					</l>
-               <l n="text.body.div.sp12.l27">	Aspicis? ingrati deserta volumina juris</l>
-               <l n="text.body.div.sp12.l28">Hic fugit: incassum fugientem, ac torva tuentem</l>
-               <l n="text.body.div.sp12.l29">Irato revocat vultu Themis. Aetheris arcem</l>
-               <l n="text.body.div.sp12.l30">Hic subit, et Coeli motus, ac sydera discit.</l>
-               <l n="text.body.div.sp12.l31">Hic eadem adstringit numeris, ac nunciat omnes 				</l>
-               <l n="text.body.div.sp12.l32">Astrorum adspectus varios, et tempora signat</l>
-               <l n="text.body.div.sp12.l33">Divinus Coeli vates: soror utraque fessum</l>
-               <l n="text.body.div.sp12.l34">Hinc atque hinc sexu major levat: aetheris ignes</l>
-               <l n="text.body.div.sp12.l35">Hac parte, hac varios Solis, Lunaeque labores</l>
-               <l n="text.body.div.sp12.l36">Oblongo per vitra tubo speculatur, at illa						</l>
-               <l n="text.body.div.sp12.l37">Ante pedes Rhenusque tumens, et turbidus Idex,</l>
-               <l n="text.body.div.sp12.l38">Heu modo Felsineos tam dirus uterque per agros; </l>
-               <l n="text.body.div.sp12.l39">Imperio parent humiles: procul illius altas</l>
-               <l n="text.body.div.sp12.l40">Hinc Thamesis celebrat laudes, hinc Sequana plaudit.</l>
+               <l n="l22">		Arte refert, vultumque, oculosque coloribus, atque			</l>
+               <l n="l23">Officia, et vitae seriem, doctosque labores</l>
+               <l n="l24">Exprimit; ast animum, atque omnes vincentia fucos</l>
+               <l n="l25">Virtutum merita, et conclusas pectore dotes</l>
+               <l n="l26">Versibus adscriptis pandit, quos ipse sororum</l>
+               <l n="l27">Aonidum chorus, ac praesens miratur Apollo.					</l>
+               <l n="l28">	Aspicis? ingrati deserta volumina juris</l>
+               <l n="l29">Hic fugit: incassum fugientem, ac torva tuentem</l>
+               <l n="l30">Irato revocat vultu Themis. Aetheris arcem</l>
+               <l n="l31">Hic subit, et Coeli motus, ac sydera discit.</l>
+               <l n="l32">Hic eadem adstringit numeris, ac nunciat omnes 				</l>
+               <l n="l33">Astrorum adspectus varios, et tempora signat</l>
+               <l n="l34">Divinus Coeli vates: soror utraque fessum</l>
+               <l n="l35">Hinc atque hinc sexu major levat: aetheris ignes</l>
+               <l n="l36">Hac parte, hac varios Solis, Lunaeque labores</l>
+               <l n="l37">Oblongo per vitra tubo speculatur, at illa						</l>
+               <l n="l38">Ante pedes Rhenusque tumens, et turbidus Idex,</l>
+               <l n="l39">Heu modo Felsineos tam dirus uterque per agros; </l>
+               <l n="l40">Imperio parent humiles: procul illius altas</l>
+               <l n="l41">Hinc Thamesis celebrat laudes, hinc Sequana plaudit.</l>
             </sp>
-            <sp n="text.body.div.sp13">
-               <speaker n="text.body.div.sp13.speaker">Lyc.</speaker>
-               <l n="text.body.div.sp13.l1">Quale opus, o superi! Viva omnia, Tytire, credas.				</l>
-               <l n="text.body.div.sp13.l2">Qui tamen<note place="foot" n="text.body.div.sp13.l2.note">
-                     <p n="text.body.div.sp13.l2.note.p1">Hic jam ad nostras effigies fit gradus. Innuitur Illustrissimus Praesul Franciscus Blanchinus. Is apud Arcades dicitur <foreign n="text.body.div.sp13.l2.note.p1.foreign" xml:lang="it">Selvaggio</foreign>, quem ne <emph n="text.body.div.sp13.l2.note.p1.emph">Sylvagium</emph> appellaremus, barbaries quaedam ejusmodi vocis vetuit.</p>
-                     <p n="text.body.div.sp13.l2.note.p2">	Porro is observationibus Astronomicis, ac Geographiae et Antiquitatis studio celeberrimus fuit. Venerem Campani vitro palmorum 140. observavit et semiplenam et falcatam sine tubo, ut in ejusmodi longitudine fieri solet, affixo procul objectivo vitro, quod ope fili dirigitur, ac oculari lente exiguo tubulo inclusa. Porro is maculas in Venere contemplatus censuit ejus <emph n="text.body.div.sp13.l2.note.p2.emph1">vertiginem </emph>admodum <emph n="text.body.div.sp13.l2.note.p2.emph2">lentam</emph> 25. diebus absolvi, quam Dominicus Cassinus censuit 24. horis breviorem. Iccirco adiecimus <emph n="text.body.div.sp13.l2.note.p2.emph3">lentum dubiae vertiginis orbem</emph>. Fuse de hac controversia Jacobus Cassinus in Elementis Astronomiae.</p>
-                     <p n="text.body.div.sp13.l2.note.p3">	Meridianae lineae ductum a Mari supero ad inferum per urbem Romam transeuntem definivit, crassos Geographorum errores corrigens. Eam inter ejus observationes Manfredius edidit post ejus obitum.</p>
-                     <p n="text.body.div.sp13.l2.note.p4">	Meridianam lineam ad observationes Astronomicas ineundas magnificentissimam construxit Romae in Chartusianorum aede apud Termas Diocletiani.</p>
-                     <p n="text.body.div.sp13.l2.note.p5">	Caesarum palatinas aedes, ac auream Neronis domum partim e ruderibus, quae supersunt, eruit, partim pro ingenio suo supplevit, ac edidit. Ibi autem cum per cuniculum ex summa altitudine in inferiores aedium partes incaute decidisset, confracto crure praesentis mortis periculum aegre evasit, quam haud ita multo post eo ipso casu labefactus obiit.</p>
+            <sp n="sp15">
+               <speaker n="speaker1">Lyc.</speaker>
+               <l n="l2">Quale opus, o superi! Viva omnia, Tytire, credas.				</l>
+               <l n="l3">Qui tamen<note place="foot" n="note1">
+                     <p n="p1">Hic jam ad nostras effigies fit gradus. Innuitur Illustrissimus Praesul Franciscus Blanchinus. Is apud Arcades dicitur <foreign n="foreign1" xml:lang="it">Selvaggio</foreign>, quem ne <emph n="emph2">Sylvagium</emph> appellaremus, barbaries quaedam ejusmodi vocis vetuit.</p>
+                     <p n="p2">	Porro is observationibus Astronomicis, ac Geographiae et Antiquitatis studio celeberrimus fuit. Venerem Campani vitro palmorum 140. observavit et semiplenam et falcatam sine tubo, ut in ejusmodi longitudine fieri solet, affixo procul objectivo vitro, quod ope fili dirigitur, ac oculari lente exiguo tubulo inclusa. Porro is maculas in Venere contemplatus censuit ejus <emph n="emph1">vertiginem </emph>admodum <emph n="emph2">lentam</emph> 25. diebus absolvi, quam Dominicus Cassinus censuit 24. horis breviorem. Iccirco adiecimus <emph n="emph3">lentum dubiae vertiginis orbem</emph>. Fuse de hac controversia Jacobus Cassinus in Elementis Astronomiae.</p>
+                     <p n="p3">	Meridianae lineae ductum a Mari supero ad inferum per urbem Romam transeuntem definivit, crassos Geographorum errores corrigens. Eam inter ejus observationes Manfredius edidit post ejus obitum.</p>
+                     <p n="p4">	Meridianam lineam ad observationes Astronomicas ineundas magnificentissimam construxit Romae in Chartusianorum aede apud Termas Diocletiani.</p>
+                     <p n="p5">	Caesarum palatinas aedes, ac auream Neronis domum partim e ruderibus, quae supersunt, eruit, partim pro ingenio suo supplevit, ac edidit. Ibi autem cum per cuniculum ex summa altitudine in inferiores aedium partes incaute decidisset, confracto crure praesentis mortis periculum aegre evasit, quam haud ita multo post eo ipso casu labefactus obiit.</p>
                   </note> ille, tuae qui summo in vertice lauri</l>
-               <l n="text.body.div.sp13.l3">Eminet, ac viola praefulget amictus opaca,</l>
-               <l n="text.body.div.sp13.l4">Jam senior, sed cruda viro, viridisque senectus?</l>
-               <l n="text.body.div.sp13.l5">Ille etiam multa servat vaga sydera nocte.</l>
-               <l n="text.body.div.sp13.l6">En vitream aeriae ramoso in vertice pinus						</l>
-               <l n="text.body.div.sp13.l7">Affixit lentem, ac filo moderatur: acutos </l>
-               <l n="text.body.div.sp13.l8">Ante oculos pendet lens altera: grandius astrum</l>
-               <l n="text.body.div.sp13.l9">Respondet contra, sinuatum in cornua lumen</l>
-               <l n="text.body.div.sp13.l10">	Stringitur, et maculis vultus sordescit opacis.</l>
-               <l n="text.body.div.sp13.l11">Hinc et per montes altos, camposque patentes					</l>
-               <l n="text.body.div.sp13.l12">Linea se longo tendit, perque oppida ductu:</l>
-               <l n="text.body.div.sp13.l13">Altera per sacram brevior traducitur aedem.</l>
-               <l n="text.body.div.sp13.l14">Inde ruinosos inter pendentia muros</l>
-               <l n="text.body.div.sp13.l15">Signa jacent dispersa solo, conscriptaque saxa.</l>
+               <l n="l4">Eminet, ac viola praefulget amictus opaca,</l>
+               <l n="l5">Jam senior, sed cruda viro, viridisque senectus?</l>
+               <l n="l6">Ille etiam multa servat vaga sydera nocte.</l>
+               <l n="l7">En vitream aeriae ramoso in vertice pinus						</l>
+               <l n="l8">Affixit lentem, ac filo moderatur: acutos </l>
+               <l n="l9">Ante oculos pendet lens altera: grandius astrum</l>
+               <l n="l10">Respondet contra, sinuatum in cornua lumen</l>
+               <l n="l11">	Stringitur, et maculis vultus sordescit opacis.</l>
+               <l n="l12">Hinc et per montes altos, camposque patentes					</l>
+               <l n="l13">Linea se longo tendit, perque oppida ductu:</l>
+               <l n="l14">Altera per sacram brevior traducitur aedem.</l>
+               <l n="l15">Inde ruinosos inter pendentia muros</l>
+               <l n="l16">Signa jacent dispersa solo, conscriptaque saxa.</l>
             </sp>
-            <sp n="text.body.div.sp14">
-               <speaker n="text.body.div.sp14.speaker">Tyt.</speaker>
-               <l n="text.body.div.sp14.l1">	Hic vir, hic est, Lycida. Non illo doctior alter					</l>
-               <l n="text.body.div.sp14.l2">	Sydera scrutari, aut mensas describere terras,</l>
-               <l n="text.body.div.sp14.l3">		Eruere aut altis veterum monumenta ruinis.</l>
-               <l n="text.body.div.sp14.l4">Arcades a Sylva nomen fecere vocantes.</l>
-               <l n="text.body.div.sp14.l5">Adductos terris falcatae hic Cypridis ignes,</l>
-               <l n="text.body.div.sp14.l6">Et maculas, dubium et lentae vertiginis orbem				</l>
-               <l n="text.body.div.sp14.l7">Exquirit. Qua se ardenti via flectat ab Austro</l>
-               <l n="text.body.div.sp14.l8">In Boream hic campis, hic sacra signat in aede.</l>
-               <l n="text.body.div.sp14.l9">Immissus Titana refert per tenve foramen</l>
-               <l n="text.body.div.sp14.l10">Ex alto radius, mutataque tempora monstrat.</l>
-               <l n="text.body.div.sp14.l11">Ast ibi collapsas, monumentum insigne Neronis,				</l>
-               <l n="text.body.div.sp14.l12">Immemor ipse sui (heu nimium!) considerat aedes:</l>
-               <l n="text.body.div.sp14.l13">Ah! ruit, et fractos praeceps alliditur artus.</l>
+            <sp n="sp16">
+               <speaker n="speaker1">Tyt.</speaker>
+               <l n="l2">	Hic vir, hic est, Lycida. Non illo doctior alter					</l>
+               <l n="l3">	Sydera scrutari, aut mensas describere terras,</l>
+               <l n="l4">		Eruere aut altis veterum monumenta ruinis.</l>
+               <l n="l5">Arcades a Sylva nomen fecere vocantes.</l>
+               <l n="l6">Adductos terris falcatae hic Cypridis ignes,</l>
+               <l n="l7">Et maculas, dubium et lentae vertiginis orbem				</l>
+               <l n="l8">Exquirit. Qua se ardenti via flectat ab Austro</l>
+               <l n="l9">In Boream hic campis, hic sacra signat in aede.</l>
+               <l n="l10">Immissus Titana refert per tenve foramen</l>
+               <l n="l11">Ex alto radius, mutataque tempora monstrat.</l>
+               <l n="l12">Ast ibi collapsas, monumentum insigne Neronis,				</l>
+               <l n="l13">Immemor ipse sui (heu nimium!) considerat aedes:</l>
+               <l n="l14">Ah! ruit, et fractos praeceps alliditur artus.</l>
             </sp>
-            <sp n="text.body.div.sp15">
-               <speaker n="text.body.div.sp15.speaker">Lyc.</speaker>
-               <l n="text.body.div.sp15.l1">	Hic vero<note place="foot" n="text.body.div.sp15.l1.note">
-                     <p n="text.body.div.sp15.l1.note.p1">P. Guidonem Grandium hic proponimus summum geometram. Innuimus eius sectiones Conicas, Flores Geometricos et varia calculorum genera. Sectionum conicarum prima, nimirum ellipsis, in orbem redit, ac planetae et cometae omnes in eiusmodi orbe motus suos peragunt. Secunda, nimirum parabola, unicum habet ramum, quo in infinitum protenditur binis cruribus in eandem plagam tendentibus: eam gravia corpora describunt oblique proiecta. Tertia, sive hyperbola binos habet ramos oppositos, quorum singuli in infinitum protenduntur binis cruribus. Eius plurimi sunt usus per omnem mathesim longe lateque dispersi.</p>
-                     <p n="text.body.div.sp15.l1.note.p2">	Flores autem geometricos Grandius inscripsit elegantissimum opusculum, quo curvas geometricas definivit nonnullas exhibentes florum folia et varios foliorum ordines.</p>
+            <sp n="sp17">
+               <speaker n="speaker1">Lyc.</speaker>
+               <l n="l2">	Hic vero<note place="foot" n="note1">
+                     <p n="p1">P. Guidonem Grandium hic proponimus summum geometram. Innuimus eius sectiones Conicas, Flores Geometricos et varia calculorum genera. Sectionum conicarum prima, nimirum ellipsis, in orbem redit, ac planetae et cometae omnes in eiusmodi orbe motus suos peragunt. Secunda, nimirum parabola, unicum habet ramum, quo in infinitum protenditur binis cruribus in eandem plagam tendentibus: eam gravia corpora describunt oblique proiecta. Tertia, sive hyperbola binos habet ramos oppositos, quorum singuli in infinitum protenduntur binis cruribus. Eius plurimi sunt usus per omnem mathesim longe lateque dispersi.</p>
+                     <p n="p2">	Flores autem geometricos Grandius inscripsit elegantissimum opusculum, quo curvas geometricas definivit nonnullas exhibentes florum folia et varios foliorum ordines.</p>
                   </note> nivea effulgens in veste Sacerdos</l>
-               <l n="text.body.div.sp15.l2">		Quam varias radio signat nigrante figuras!</l>
-               <l n="text.body.div.sp15.l3">Illa refert ovum, haec longum sinuatur in arcum				</l>
-               <l n="text.body.div.sp15.l4">Crure super gemino, geminis abit altera ramis</l>
-               <l n="text.body.div.sp15.l5">		Immensum hinc, atque hinc fugiens, et crure quaterno</l>
-               <l n="text.body.div.sp15.l6">Aversas petit usque plagas: at vertice in alto</l>
-               <l n="text.body.div.sp15.l7">Sese aliae longis sinuant ambagibus, atque</l>
-               <l n="text.body.div.sp15.l8">In se iterum, atque iterum redeunt, flectuntque, plicantque,	</l>
-               <l n="text.body.div.sp15.l9">Et reddunt sparsos per prata nitentia flores:</l>
-               <l n="text.body.div.sp15.l10">Mille notae, ac tela numeri densantur in ima.</l>
-               <l n="text.body.div.sp15.l11" xml:id="e263.1" next="#e263.2">Alter in hac...</l>
+               <l n="l3">		Quam varias radio signat nigrante figuras!</l>
+               <l n="l4">Illa refert ovum, haec longum sinuatur in arcum				</l>
+               <l n="l5">Crure super gemino, geminis abit altera ramis</l>
+               <l n="l6">		Immensum hinc, atque hinc fugiens, et crure quaterno</l>
+               <l n="l7">Aversas petit usque plagas: at vertice in alto</l>
+               <l n="l8">Sese aliae longis sinuant ambagibus, atque</l>
+               <l n="l9">In se iterum, atque iterum redeunt, flectuntque, plicantque,	</l>
+               <l n="l10">Et reddunt sparsos per prata nitentia flores:</l>
+               <l n="l11">Mille notae, ac tela numeri densantur in ima.</l>
+               <l n="l12" xml:id="e263.1" next="#e263.2">Alter in hac...</l>
             </sp> 
-            <sp n="text.body.div.sp16">
-               <speaker n="text.body.div.sp16.speaker">Tyt.</speaker> 
-               <l n="text.body.div.sp16.l1" xml:id="e263.2" prev="#e263.1">Quo te, Lycida, tuus abripit ardor?</l>
-               <l n="text.body.div.sp16.l2">Tempus abit. Tela mihi stat Dubenus in illa,</l>
-               <l n="text.body.div.sp16.l3">Ausoniae Dubenus honos, et gloria prima</l>
-               <l n="text.body.div.sp16.l4">Arcadiae. Haud illi Thamesis, non Sequana certet			</l>
-               <l n="text.body.div.sp16.l5">Grandibus ingeniis, non ingens Rhenus, et Ister.</l>
-               <l n="text.body.div.sp16.l6">Hic teretem coni vario secat ordine formam</l>
-               <l n="text.body.div.sp16.l7">Obliquans flexu triplici: prima exhibet astris</l>
-               <l n="text.body.div.sp16.l8">Omnibus oblongos calles: iter altera praebet</l>
-               <l n="text.body.div.sp16.l9">Emissae funda glandi, volucrique sagittae:					</l>
-               <l n="text.body.div.sp16.l10">Tertia proh quantis est usibus apta! Nitentes</l>
-               <l n="text.body.div.sp16.l11">Hic certo calami ductu descripsit odori</l>
-               <l n="text.body.div.sp16.l12">Veris opes: numeris hic mille arcana, notisque</l>
-               <l n="text.body.div.sp16.l13">Naturae educta e penetralibus eruit imis. </l>
-               <l n="text.body.div.sp16.l14">Illa<note place="foot" n="text.body.div.sp16.l14.note">Nonnullos alios hic innuimus mathematicos ac philosophos, Heronem, sive Vincentium Vivianum, Epidaurum, sive Georgium Baglivium, non quidem Aletiensem, sed ex Ragusino patre Ragusii natum, adeoque Ragusinum, ex Armeniorum familia, qui aletium a P. Michaele Mondegajo Soc. Jesu poeta celeberrimo evocatus a Baglivio ibi medicinam exercente educatus et haeres ex asse institutus familiae nomen commutavit; Ursachium, sive Xaverium Pansutum; Didalmum, sive P. Abb. Didacum Revillas.</note> Hero, ast illa incisus mihi parte Epidaurus:				</l>
-               <l n="text.body.div.sp16.l15">Ursacchi hinc vultus pendent, hinc ora Didalmi,</l>
-               <l n="text.body.div.sp16.l16">Illum ebore, hunc pario sculptum de marmore finxi.</l>
-               <l n="text.body.div.sp16.l17">Nil tamen haec perfecta moror: mea maxima cura</l>
-               <l n="text.body.div.sp16.l18">	Pastor Achemenides<note place="foot" n="text.body.div.sp16.l18.note">Achemenides, sive P. Horatius Burgundius Soc. Jesu, Mathesim fere per 30 annos Romae in Romano Collegio publice docuit, frequenti auditorum concursu, inter quo et me Mathematicis disciplinis instruxit, quem et successorem sibi dedit renunciatus Collegii Romani Rector. Mentionem hic facimus hujus ipsius muneris Mathesim docendi, quo tandiu est functus, regiminis Collegii ipsius, et 4 poematum de volatu, de natatu, de incessu, ac de motu sanguinis , quae inter Arcadum illustrium carmina prostant.</note> tabula pingendus in ampla</l>
-               <l n="text.body.div.sp16.l19">	Sollicitum tenet, o Lycida, mentemque, animumque			</l>
-               <l n="text.body.div.sp16.l20">	Ad sese rapit, et calamos, dextramque reposcit.</l>
-               <l n="text.body.div.sp16.l21">Ille olim sanctae correptum ad templa Mathesis</l>
-               <l n="text.body.div.sp16.l22">Me traxit, sistens Divae, atque arcana latentis</l>
-               <l n="text.body.div.sp16.l23">Pandere naturae, et magni scrutarier ignes</l>
-               <l n="text.body.div.sp16.l24">Aetheris, ac noctes docuit vigilare serenas.					</l>
-               <l n="text.body.div.sp16.l25">Centum igitur solidis pingam suffulta columnis</l>
-               <l n="text.body.div.sp16.l26">Templa Deae in medio: sculptis longa atria signis</l>
-               <l n="text.body.div.sp16.l27">Fulgebunt late: rutilanti hinc aurea Coelum</l>
-               <l n="text.body.div.sp16.l28">Uraniae et fixos, errantesque aetheris ignes</l>
-               <l n="text.body.div.sp16.l29">Monstrabit radio: hinc torvus tormenta Gradivus				</l>
-               <l n="text.body.div.sp16.l30">Aerea, ferratosque globos signabit acuta</l>
-               <l n="text.body.div.sp16.l31">Cuspide, diffractasque arces: lucentia fila</l>
-               <l n="text.body.div.sp16.l32">Parte alia septem variata coloribus almae</l>
-               <l n="text.body.div.sp16.l33">In radium jungent Charites, vitroque resolvent</l>
-               <l n="text.body.div.sp16.l34">Mox iterum triquetro, at speculis ardentibus ignem			</l>
-               <l n="text.body.div.sp16.l35">Aligeri educent pueri, atque incendia spargent.</l>
-               <l n="text.body.div.sp16.l36">Parte alia puram per campos Najades undam</l>
-               <l n="text.body.div.sp16.l37">Grandibus effundent rivis, ludentque natantes.</l>
-               <l n="text.body.div.sp16.l38">Aurea parietibus mille instrumenta, coruscis</l>
-               <l n="text.body.div.sp16.l39">Pendebunt mille e trabibus, numerique, notaeque</l>
-               <l n="text.body.div.sp16.l40">Mille solum niveo constratum marmore, mille				</l>
-               <l n="text.body.div.sp16.l41">Distinguent recti tractus, orbesque recurvi.</l>
-               <l n="text.body.div.sp16.l42">Ipsa Dea e medio prodibit fulgida templo</l>
-               <l n="text.body.div.sp16.l43">Ad limen: juvenum supplex densissima turba</l>
-               <l n="text.body.div.sp16.l44">Stabit Achemenidem circum, ac deducet ad aedem</l>
-               <l n="text.body.div.sp16.l45">Ille avidos; numero sed me secernet ab omni					</l>
-               <l n="text.body.div.sp16.l46">Apprehensum dextra, Divaeque in limine sistet.</l>
-               <l n="text.body.div.sp16.l47">	Parte alia Phaebusque aderit, totusque canenti</l>
-               <l n="text.body.div.sp16.l48">Aonidum chorus; ille oculos ad nubila tollet,</l>
-               <l n="text.body.div.sp16.l49">Atque aciem extentas volucrum defiget in alas.</l>
-               <l n="text.body.div.sp16.l50">Squammigerum interea placido pecus aequore ludet,		</l>
-               <l n="text.body.div.sp16.l51">Quadrupedes curvo, bipedesque in litore stabunt</l>
-               <l n="text.body.div.sp16.l52">Assimiles gressum densantibus: atque rubenti</l>
-               <l n="text.body.div.sp16.l53">Ad latus undantes effingam sanguine venas,</l>
-               <l n="text.body.div.sp16.l54">Carminis argumentum ingens, quo Pindus, et omne</l>
-               <l n="text.body.div.sp16.l55">Arcadicum insonuit nemus olim, et Pegasis unda.			</l>
-               <l n="text.body.div.sp16.l56">	Nec deerit sacros coestus Astraea regenti</l>
-               <l n="text.body.div.sp16.l57">Adsistens, nec dius Amor, Pietasque, Fidesque.</l>
-               <l n="text.body.div.sp16.l58">	Sed quid ego longum frustra moror? Heu brevis hora</l>
-               <l n="text.body.div.sp16.l59">Effugit. I, Lycida, conceptum mente laborem</l>
-               <l n="text.body.div.sp16.l60">Da facili complere manu, atque inducere fucos.				</l>
-               <l n="text.body.div.sp16.l61">Inductis demum fucis, noctesque, diesque</l>
-               <l n="text.body.div.sp16.l62">Tecum adero, alternoque horas sermone trahemus.</l>
+            <sp n="sp18">
+               <speaker n="speaker1">Tyt.</speaker> 
+               <l n="l2" xml:id="e263.2" prev="#e263.1">Quo te, Lycida, tuus abripit ardor?</l>
+               <l n="l3">Tempus abit. Tela mihi stat Dubenus in illa,</l>
+               <l n="l4">Ausoniae Dubenus honos, et gloria prima</l>
+               <l n="l5">Arcadiae. Haud illi Thamesis, non Sequana certet			</l>
+               <l n="l6">Grandibus ingeniis, non ingens Rhenus, et Ister.</l>
+               <l n="l7">Hic teretem coni vario secat ordine formam</l>
+               <l n="l8">Obliquans flexu triplici: prima exhibet astris</l>
+               <l n="l9">Omnibus oblongos calles: iter altera praebet</l>
+               <l n="l10">Emissae funda glandi, volucrique sagittae:					</l>
+               <l n="l11">Tertia proh quantis est usibus apta! Nitentes</l>
+               <l n="l12">Hic certo calami ductu descripsit odori</l>
+               <l n="l13">Veris opes: numeris hic mille arcana, notisque</l>
+               <l n="l14">Naturae educta e penetralibus eruit imis. </l>
+               <l n="l15">Illa<note place="foot" n="note1">Nonnullos alios hic innuimus mathematicos ac philosophos, Heronem, sive Vincentium Vivianum, Epidaurum, sive Georgium Baglivium, non quidem Aletiensem, sed ex Ragusino patre Ragusii natum, adeoque Ragusinum, ex Armeniorum familia, qui aletium a P. Michaele Mondegajo Soc. Jesu poeta celeberrimo evocatus a Baglivio ibi medicinam exercente educatus et haeres ex asse institutus familiae nomen commutavit; Ursachium, sive Xaverium Pansutum; Didalmum, sive P. Abb. Didacum Revillas.</note> Hero, ast illa incisus mihi parte Epidaurus:				</l>
+               <l n="l16">Ursacchi hinc vultus pendent, hinc ora Didalmi,</l>
+               <l n="l17">Illum ebore, hunc pario sculptum de marmore finxi.</l>
+               <l n="l18">Nil tamen haec perfecta moror: mea maxima cura</l>
+               <l n="l19">	Pastor Achemenides<note place="foot" n="note1">Achemenides, sive P. Horatius Burgundius Soc. Jesu, Mathesim fere per 30 annos Romae in Romano Collegio publice docuit, frequenti auditorum concursu, inter quo et me Mathematicis disciplinis instruxit, quem et successorem sibi dedit renunciatus Collegii Romani Rector. Mentionem hic facimus hujus ipsius muneris Mathesim docendi, quo tandiu est functus, regiminis Collegii ipsius, et 4 poematum de volatu, de natatu, de incessu, ac de motu sanguinis , quae inter Arcadum illustrium carmina prostant.</note> tabula pingendus in ampla</l>
+               <l n="l20">	Sollicitum tenet, o Lycida, mentemque, animumque			</l>
+               <l n="l21">	Ad sese rapit, et calamos, dextramque reposcit.</l>
+               <l n="l22">Ille olim sanctae correptum ad templa Mathesis</l>
+               <l n="l23">Me traxit, sistens Divae, atque arcana latentis</l>
+               <l n="l24">Pandere naturae, et magni scrutarier ignes</l>
+               <l n="l25">Aetheris, ac noctes docuit vigilare serenas.					</l>
+               <l n="l26">Centum igitur solidis pingam suffulta columnis</l>
+               <l n="l27">Templa Deae in medio: sculptis longa atria signis</l>
+               <l n="l28">Fulgebunt late: rutilanti hinc aurea Coelum</l>
+               <l n="l29">Uraniae et fixos, errantesque aetheris ignes</l>
+               <l n="l30">Monstrabit radio: hinc torvus tormenta Gradivus				</l>
+               <l n="l31">Aerea, ferratosque globos signabit acuta</l>
+               <l n="l32">Cuspide, diffractasque arces: lucentia fila</l>
+               <l n="l33">Parte alia septem variata coloribus almae</l>
+               <l n="l34">In radium jungent Charites, vitroque resolvent</l>
+               <l n="l35">Mox iterum triquetro, at speculis ardentibus ignem			</l>
+               <l n="l36">Aligeri educent pueri, atque incendia spargent.</l>
+               <l n="l37">Parte alia puram per campos Najades undam</l>
+               <l n="l38">Grandibus effundent rivis, ludentque natantes.</l>
+               <l n="l39">Aurea parietibus mille instrumenta, coruscis</l>
+               <l n="l40">Pendebunt mille e trabibus, numerique, notaeque</l>
+               <l n="l41">Mille solum niveo constratum marmore, mille				</l>
+               <l n="l42">Distinguent recti tractus, orbesque recurvi.</l>
+               <l n="l43">Ipsa Dea e medio prodibit fulgida templo</l>
+               <l n="l44">Ad limen: juvenum supplex densissima turba</l>
+               <l n="l45">Stabit Achemenidem circum, ac deducet ad aedem</l>
+               <l n="l46">Ille avidos; numero sed me secernet ab omni					</l>
+               <l n="l47">Apprehensum dextra, Divaeque in limine sistet.</l>
+               <l n="l48">	Parte alia Phaebusque aderit, totusque canenti</l>
+               <l n="l49">Aonidum chorus; ille oculos ad nubila tollet,</l>
+               <l n="l50">Atque aciem extentas volucrum defiget in alas.</l>
+               <l n="l51">Squammigerum interea placido pecus aequore ludet,		</l>
+               <l n="l52">Quadrupedes curvo, bipedesque in litore stabunt</l>
+               <l n="l53">Assimiles gressum densantibus: atque rubenti</l>
+               <l n="l54">Ad latus undantes effingam sanguine venas,</l>
+               <l n="l55">Carminis argumentum ingens, quo Pindus, et omne</l>
+               <l n="l56">Arcadicum insonuit nemus olim, et Pegasis unda.			</l>
+               <l n="l57">	Nec deerit sacros coestus Astraea regenti</l>
+               <l n="l58">Adsistens, nec dius Amor, Pietasque, Fidesque.</l>
+               <l n="l59">	Sed quid ego longum frustra moror? Heu brevis hora</l>
+               <l n="l60">Effugit. I, Lycida, conceptum mente laborem</l>
+               <l n="l61">Da facili complere manu, atque inducere fucos.				</l>
+               <l n="l62">Inductis demum fucis, noctesque, diesque</l>
+               <l n="l63">Tecum adero, alternoque horas sermone trahemus.</l>
             </sp>
-            <closer n="text.body.div.closer">LAUS DEO</closer>
+            <closer n="closer19">LAUS DEO</closer>
          </div>    
       </body>
   </text>

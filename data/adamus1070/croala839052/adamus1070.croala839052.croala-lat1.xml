@@ -102,6 +102,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -148,13 +165,13 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:adamus1070.croala839052.croala-lat1:" xml:lang="lat" type="prosa">
-        <body n="text.body">
-         <div n="text.body.div" type="prosa-donatio">
-            <opener n="text.body.div.opener">† Anno ab incarnatione domini nostri Iesu Christi millesimo LXX, indictione VIII. Regnante Romano imperatore tertio, rege Chrobatie Dalmatieque Petro, Siuinnimir bano. Actum in ciuitate Nona Adamizo iupano.</opener>
-            <p n="text.body.div.p1">Ego Radauanus trado omnem possessionem meam in terris et uineis, queque fuit aui <sic n="text.body.div.p1.sic">meo</sic> Ualeco, in monasterio sancti Chrisogoni abbate Petro presente iure <supplied n="text.body.div.p1.supplied">perpetuo</supplied> possidenda.  </p>
-            <p n="text.body.div.p2">His coram testibus: capellano Petro teste, Laurentio teste, <sic n="text.body.div.p2.sic">Desnna</sic> iupano teste, Adamizo iupano teste, Souinna setenico teste, Dedu teste, Uitadrago teste, Nepostoy teste, Petro presbiter teste, Michahel presbiter teste, Prodano teste, Rugota teste, Andreas presbiter teste. Si quis autem hanc conscriptionis uel donationis <supplied n="text.body.div.p2.supplied">chartulam</supplied> uoluerit corrumpere cupiditate deceptus, superni numinis iram incurrat sortemque possideat cum his, qui dixerunt domino deo: <q n="text.body.div.p2.q">recede a nobis</q>, nec ut iudicetur, sed ut perpetuo damnetur, resurgat.</p>
-            <closer n="text.body.div.closer">
-               <signed n="text.body.div.closer.signed">Ego Adam, presbiter et monachus, <supplied n="text.body.div.closer.signed.supplied">ueritate</supplied> comperta rogatus manu mea scripsi.</signed>
+        <body n="body1">
+         <div n="div1" type="prosa-donatio">
+            <opener n="opener1">† Anno ab incarnatione domini nostri Iesu Christi millesimo LXX, indictione VIII. Regnante Romano imperatore tertio, rege Chrobatie Dalmatieque Petro, Siuinnimir bano. Actum in ciuitate Nona Adamizo iupano.</opener>
+            <p n="p2">Ego Radauanus trado omnem possessionem meam in terris et uineis, queque fuit aui <sic n="sic1">meo</sic> Ualeco, in monasterio sancti Chrisogoni abbate Petro presente iure <supplied n="supplied2">perpetuo</supplied> possidenda.  </p>
+            <p n="p3">His coram testibus: capellano Petro teste, Laurentio teste, <sic n="sic1">Desnna</sic> iupano teste, Adamizo iupano teste, Souinna setenico teste, Dedu teste, Uitadrago teste, Nepostoy teste, Petro presbiter teste, Michahel presbiter teste, Prodano teste, Rugota teste, Andreas presbiter teste. Si quis autem hanc conscriptionis uel donationis <supplied n="supplied2">chartulam</supplied> uoluerit corrumpere cupiditate deceptus, superni numinis iram incurrat sortemque possideat cum his, qui dixerunt domino deo: <q n="q3">recede a nobis</q>, nec ut iudicetur, sed ut perpetuo damnetur, resurgat.</p>
+            <closer n="closer4">
+               <signed n="signed1">Ego Adam, presbiter et monachus, <supplied n="supplied1">ueritate</supplied> comperta rogatus manu mea scripsi.</signed>
             </closer>
          </div>
         </body>

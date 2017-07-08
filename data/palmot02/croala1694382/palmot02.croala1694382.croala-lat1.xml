@@ -97,6 +97,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -149,17 +163,17 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:palmot02.croala1694382.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-epistula-dedicatio">
-            <opener n="text.body.div.opener">
-               <expan n="text.body.div.opener.expan1">EMINENTISSIMO</expan> AC <expan n="text.body.div.opener.expan2">REVERENDISSIMO</expan>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-epistula-dedicatio">
+            <opener n="opener1">
+               <expan n="expan1">EMINENTISSIMO</expan> AC <expan n="expan2">REVERENDISSIMO</expan>
                
                PRINCIPI DOMINO
                
                FRANCISCO
                
-               <expan n="text.body.div.opener.expan3">CARDINALI</expan> BARBERINO
+               <expan n="expan3">CARDINALI</expan> BARBERINO
                
                Sacri Collegii Decano, Reipublicae
                Ragusinae Protectori.
@@ -171,27 +185,27 @@
             
             
             
-            <p n="text.body.div.p1">VETVSTISSIMVM genus annalium, Princeps Eminentissime, ac ipsius naturae magisterio generi humano
+            <p n="p2">VETVSTISSIMVM genus annalium, Princeps Eminentissime, ac ipsius naturae magisterio generi humano
             monstratum, poemata, cantusque fuisse, a doctissimo quoque, solerter animaduersum, summamque rationem in ea re versatam esse comperio. Primi namque
             
-               <pb n="text.body.div.p1.pb1"/>
+               <pb n="pb1"/>
             
-            mortales; cum ad prudentiam in consiliis capiendis necessariam sua cuique experimenta nequaquam esse satis intelligerent, quod plurima gerenda occurrerent, quorum exempla longiore interuallo, quam humanae vitae spatium dabat, repeti oporteret; res gestas clarorum virorum, ad vitae doctrinam idoneas, vincta rudibus utcumque numeris oratione comprehendere, caeteraque musarum suauitate condire ad memoriae praesidium instituerunt ne fructus eorum, quae dicta sapienter, aut strenue facta, aut inuenta salubriter in vitam prodibant, unius regionis, ac temporis angustiis terminarentur; ita enim fiebat, vt cum ad aures iucundius acciderent, et libentius ediscerentur, et memoriae tenacius haererent, facile deinde, succedentibus quasi per manus, qui eadem acciperent, traderentque, in omnem late posteritatem extenderentur, et quod usquam fieret prodesse, ubique posset. Hinc illa <foreign n="text.body.div.p1.foreign" xml:lang="grc">παλαιγενέων κλέ´ ἀνδρῶν</foreign> Homerico Achilli ad citharam modulata: hinc priscae 
-               virtutis laudationes in mensas, atque inter pocula usurpatae, quarum memoriam Catonis originibus debemus: hinc Arminii, Tacito laudati superstes <pb n="text.body.div.p1.pb2"/> ad longam posteritatem recordatio, quod quanquam 
+            mortales; cum ad prudentiam in consiliis capiendis necessariam sua cuique experimenta nequaquam esse satis intelligerent, quod plurima gerenda occurrerent, quorum exempla longiore interuallo, quam humanae vitae spatium dabat, repeti oporteret; res gestas clarorum virorum, ad vitae doctrinam idoneas, vincta rudibus utcumque numeris oratione comprehendere, caeteraque musarum suauitate condire ad memoriae praesidium instituerunt ne fructus eorum, quae dicta sapienter, aut strenue facta, aut inuenta salubriter in vitam prodibant, unius regionis, ac temporis angustiis terminarentur; ita enim fiebat, vt cum ad aures iucundius acciderent, et libentius ediscerentur, et memoriae tenacius haererent, facile deinde, succedentibus quasi per manus, qui eadem acciperent, traderentque, in omnem late posteritatem extenderentur, et quod usquam fieret prodesse, ubique posset. Hinc illa <foreign n="foreign2" xml:lang="grc">παλαιγενέων κλέ´ ἀνδρῶν</foreign> Homerico Achilli ad citharam modulata: hinc priscae 
+               virtutis laudationes in mensas, atque inter pocula usurpatae, quarum memoriam Catonis originibus debemus: hinc Arminii, Tacito laudati superstes <pb n="pb3"/> ad longam posteritatem recordatio, quod quanquam 
             Graecorum, annalibus ignotus, et Romanis non perinde celebris, tamen 
             caneretur barbaras apud gentes: quibus ea virtutis colendae, et ad 
             posteros prodendae ratio pro historia et litterarum monumentis erat. 
             Cujus quidem moris etiamnum retinentes habemus finitimas nostrae civitati Slavorum gentes, quarum in ore, auribusque nihil hoc genere carminis frequentius est . Quo quidem haud temere ullum paulo illustrius editorum a veteribus Hungaris, Serblisque, ac Bulgaris facinorum intactum, indictumque reperias; non bella suscepta cum barbaris, non iuncta inter se foedera, non commissa praelia, non ortas a praeliis victorias, aut clades, quas deinde proxima rerum orientalium conuersio est consecuta. Nec solum in hoc genere laudis veterum Poetarum industriam occupatam accepimus; sed etiam, accedente maxime litterarum subsidio, in indagandis naturae secretis, in excolenda ratione, in ordinanda vitae disciplina, et moribus formandis extitisse: versatis summa cum laude in hac exequenda ratione apud Graecos quidem Solone, Empedocle, Pythagora, Phocylide, 
             
-               <pb n="text.body.div.p1.pb3"/>
+               <pb n="pb4"/>
             
-            apud Romanos vero Ennio, Lucretio, aliisque vtraque in gente permultis, qui honestissimis carminum suorum illecebris ad temperandam Philosophiae austeritatem solerti consilio usi sunt; ne scilicet animos ad praeclara nitentium ingratus labor <sic n="text.body.div.p1.sic1">offenderer</sic>, sed existens e musarum suauitate studium, et oblectatio pro melle quodammodo esset ad pocula, quibus sapientia hauritur, imbuenda; vtque ea ratione cupidi bonarum artium, non modo cum seriis intenti sunt, sed etiam in otio, ac remissione ad virtutem proficerent. Nam quid ego Vates commemorem sacrarum litterarum praeconio nobiles, qui tanti nominis dignitatem non minus carminum gloria, quam futuri praesagiis meruerunt? egregium Psalmorum scriptorem, caeterosque Diuinae mentis canoros interpretes, quorum numeros coelestis sapientiae plenos perenne instrumentum habemus gaudentis in Domino Ecclesiae, et dies festos celebrantis. Nec vero defuerunt qui Christianae quoque Philosophiae, historiaeque Poetae: quin <sic n="text.body.div.p1.sic2">vberimus</sic> eorum prouentus per omnem ecclesiae memoriam fuit. Et quanquam post exortam Euangelii lucem ad prodendas litteris
+            apud Romanos vero Ennio, Lucretio, aliisque vtraque in gente permultis, qui honestissimis carminum suorum illecebris ad temperandam Philosophiae austeritatem solerti consilio usi sunt; ne scilicet animos ad praeclara nitentium ingratus labor <sic n="sic5">offenderer</sic>, sed existens e musarum suauitate studium, et oblectatio pro melle quodammodo esset ad pocula, quibus sapientia hauritur, imbuenda; vtque ea ratione cupidi bonarum artium, non modo cum seriis intenti sunt, sed etiam in otio, ac remissione ad virtutem proficerent. Nam quid ego Vates commemorem sacrarum litterarum praeconio nobiles, qui tanti nominis dignitatem non minus carminum gloria, quam futuri praesagiis meruerunt? egregium Psalmorum scriptorem, caeterosque Diuinae mentis canoros interpretes, quorum numeros coelestis sapientiae plenos perenne instrumentum habemus gaudentis in Domino Ecclesiae, et dies festos celebrantis. Nec vero defuerunt qui Christianae quoque Philosophiae, historiaeque Poetae: quin <sic n="sic6">vberimus</sic> eorum prouentus per omnem ecclesiae memoriam fuit. Et quanquam post exortam Euangelii lucem ad prodendas litteris
             
-               <pb n="text.body.div.p1.pb4"/>
+               <pb n="pb7"/>
             
             cogitationes suas optimus quisque multo vberiorem, clarioremque materiam nacti, et executi sunt in seuera de Deo, rebusque diuinis Philosophia tractanda; non idcirco tamen ab amoenioribus hisce musis colendis stili sui grauitatem arcendam duxerunt. Inter hos profiteri nomen suum ausus nuper est Iunius Palmotta frater meus, delecto argumento omnium grauissimo, amplissimoque; de rebus a Christo Domino inter homines gestis. Id autem exequendum sibi putauit Illyrico carmine; secutus Latinum eiusdem argumenti Poetam Hieronymum Vidam, Albensem Antistitem, quomodo Ennius Euripidem, Caeciliusque, et Terentius Menandrum secuti sunt: operae pretium se facturum pro certo sperans, quod non ex vano sibi auguratus est, captos olim suorum numerorum dulcedine Slauorum populos, partem aliquam otii, quod nunc Vladislais, Coruinis, et Craieuichiis suis memorandis oblectant, ad Christi Domini, eiusque sodalium res gestas, et miracula patrata, et duratos labores, et tradita vitae praecepta secum vna canenda, et celebranda conuersuros; idque ob ipsas, de quibus hic disputo,
             
-               <pb n="text.body.div.p1.pb5"/>
+               <pb n="pb8"/>
             causas; quae quidem eo gravioris in hac re momenti sunt, quod 
             usus linguae illyricae omnium, quibus Christi nomen invocatur et colitur, latissime patet, quodque illa populares suos adeo sibi addictos habet, ut praecipua quadam animi inductione exteras omnes aspernentur; ut inde vel maxime profectum existimem, quod his unis inter caeteras Europae gentes uti fas est proprio sermone cum in scribendis, legendisque sacris litteris, tum in sacrificiis, caeterisque Divinis officiis obeundis. Adde quod imprimis elegans est, et copiosa, priscisque, et a 
             vulgo semotis vocibus frequens, itemque loquendi formulis ad grandem 
@@ -202,8 +216,8 @@
             denique nobilis imprimis et magnis rebus gerendis nata, ut merito in 
             aureo illo Caroli IV. Imperatoris diplomate inter artes Principibus Romanis necessarias recenseatur.</p>
             
-            <pb n="text.body.div.pb1"/>
-            <p n="text.body.div.p2">Hoc opus ego, Princeps Eminentissime, prae caeteris, quae plurima hujus auctoris in Civitate nostra lectitantur, magna cura, studioque perfectum, cum proferre in publicum supremis ejus tabulis jussus sim; 
+            <pb n="pb3"/>
+            <p n="p4">Hoc opus ego, Princeps Eminentissime, prae caeteris, quae plurima hujus auctoris in Civitate nostra lectitantur, magna cura, studioque perfectum, cum proferre in publicum supremis ejus tabulis jussus sim; 
             quo voluntati carissimi mihi capitis, et de me optime meriti cumulatius 
             obtemperem, tuo nomine decorare, et insignire constitui. Quem enim 
             mihi privatim in hoc litterario negotio expediendo Patronum rectius 
@@ -211,7 +225,7 @@
             Civitas omnis: cujus acceptam a majoribus erga nos, gentemque nostram charitatem novis in dies benevolentiae cumulis amplificari experimur: qui nostrorum hominum ingenia, fidem, industriam, pietatem celebrare non desinit, veteraque Civitatis instituta, et disciplinam, cujus 
             ope Religionem, et libertatem, excisso circa nos totius Orientis statu, 
             diutissime retinemus? Nec modo quoad incolumes, florentesque fuimus 
-            eximium tuum erga res nostras, Princeps Eminentissime, studium extitit, sed multo luculentius, multoque uberius, quanti nos faceres, declarasti post acceptam proximam calamitatem. Nemo siquidem cladibus nostris <pb n="text.body.div.p2.pb1"/> vehementius indoluit: nemo efficacioribus solatiis, nemo fideliore 
+            eximium tuum erga res nostras, Princeps Eminentissime, studium extitit, sed multo luculentius, multoque uberius, quanti nos faceres, declarasti post acceptam proximam calamitatem. Nemo siquidem cladibus nostris <pb n="pb1"/> vehementius indoluit: nemo efficacioribus solatiis, nemo fideliore 
             consilio, nemo praesentioribus auxiliis gravissimo nostro casui praesto 
             fuit. Nec vero nos oblitos, aut unquam oblituros puta splendidae illius 
             tuae vocis, qua te ad opem nobis ferendam coram adfuturum, et ipsius 
@@ -220,7 +234,7 @@
             neque istam Christiani imperii arcem tua statione privare: inita ratio 
             est, ne prorsus a nobis abesse, quamvis longe ageres, viderere, accepto nostrae Civitatis jure, quod tibi publico decreto deferri gavisus es: qua re in communionem nostrae fortunae, quaecumque ea demum futura est, venire voluisti: cum interim, Civis noster, et Senator et Patricius inter tot fulgentissima dignitatis tuae ornamenta libenter audias, qua nominis societate nihil hoc tempore nobis, aut honestius, aut illustrius potest accidere. Nec vero id solum propter amplissimos tuos et 
             summo proximos in Ecclesia et Republica honores, sed multo magis 
-            propter eas, quae vere tuae sunt, laudes egregiarum virtutum, <pb n="text.body.div.p2.pb2"/> et artium, inter quas, ut a proposito meo non abscedam, mirifice eminet studium litterarum, quibus cum Te, tuumque ipsius animum sine ulla exceptione gravissimarum occupationum tuarum ornare, et excolere toto 
+            propter eas, quae vere tuae sunt, laudes egregiarum virtutum, <pb n="pb2"/> et artium, inter quas, ut a proposito meo non abscedam, mirifice eminet studium litterarum, quibus cum Te, tuumque ipsius animum sine ulla exceptione gravissimarum occupationum tuarum ornare, et excolere toto 
             vitae cursu perseverasti; tum vero, quod in Viro tui fastigii multo 
             praestantius est, ut alii quoque ornarentur et excellerent, effecisti: et 
             nunc cum maxime facis proposito domi tuae veluti signo omnium liberalium disciplinarum, ad quod undique gentium excitarentur, et convenirent, quibus ampla et florente re litteraria opus est. Ouis enim est 
@@ -229,7 +243,7 @@
             itineris fructum non arbitretur? ii praesertim, quos interiore amicitiae 
             tuae sacrario dignos existimas, et depromptis ex amplissimae Bibliothecae tuae Thesauroxeniis, muneribusque donatos dimittis. Quibus mox 
             illi ad exornandos praeclaros ingeniorum suorum foetus utuntur, 
-               <pb n="text.body.div.p2.pb3"/>
+               <pb n="pb3"/>
             in amplificandis Philosophiae fontibus, in eruenda e tenebris antiquitate, aliisque litterariis negotiis explicandis, summa cum tuae liberalitatis, et magnificentiae laude, doctrinaeque, et sapientiae: cujus ope saeculi nostri elegantiae, ac dignitati adversus ingruentem undequaque squallorem, 
             atque barbariem egregie provisum est, effectumque, ut nunc vere, si 
             unquam alias Ecclesiae Romanae splendor externis gentibus luceat, nec 
@@ -238,7 +252,7 @@
             multo majorem studii mei, quam modestiae tuae in Te laudando rationem habuisse videar: hoc uno adjecto, nihil mihi optatius, nihil futurum honestius, quam si hoc meo, qualecumque est, munere Te, Princeps 
             Eminentissime, non indelectatum fuisse intelligam.</p>
             
-            <pb n="text.body.div.pb2"/>
+            <pb n="pb5"/>
             
          </div>
       </body>

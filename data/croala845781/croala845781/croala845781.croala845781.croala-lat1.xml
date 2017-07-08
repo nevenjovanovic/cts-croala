@@ -101,6 +101,29 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -145,284 +168,284 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:croala845781.croala845781.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
+      <body n="body1">
          
-         <div type="poesis-epica" n="text.body.div">
-            <head n="text.body.div.head">
-               Diomedis et Glauci Congressus. Locus ex <bibl n="text.body.div.head.bibl">Homeri Iliade Z. a versu 119. sequentes</bibl> Latino carmine redditus.
+         <div type="poesis-epica" n="div1">
+            <head n="head1">
+               Diomedis et Glauci Congressus. Locus ex <bibl n="bibl1">Homeri Iliade Z. a versu 119. sequentes</bibl> Latino carmine redditus.
             </head>
-            <l n="text.body.div.l1">Glaucus at Hippolocho satus, et Tydeïus heros, </l>
+            <l n="l2">Glaucus at Hippolocho satus, et Tydeïus heros, </l>
              
-            <l n="text.body.div.l2">In medium coiere, manum conferre parati. </l>
+            <l n="l3">In medium coiere, manum conferre parati. </l>
              
-            <l n="text.body.div.l3">Ac jam collato propius se Marte petebant, </l>
+            <l n="l4">Ac jam collato propius se Marte petebant, </l>
              
-            <l n="text.body.div.l4">Cum prior ingenti Diomedes voce profatur: </l>
+            <l n="l5">Cum prior ingenti Diomedes voce profatur: </l>
              
-            <l n="text.body.div.l5">Quisnam tu quaeso mortali e stirpe virorum? </l>
+            <l n="l6">Quisnam tu quaeso mortali e stirpe virorum? </l>
              
-            <l n="text.body.div.l6">Nam qui conspicuo nunquam in certamine nobis </l>
+            <l n="l7">Nam qui conspicuo nunquam in certamine nobis </l>
              
-            <l n="text.body.div.l7">Antehac visus eras, animis nunc grandibus omnes</l>
+            <l n="l8">Antehac visus eras, animis nunc grandibus omnes</l>
              
-            <l n="text.body.div.l8">Transisti, nostris ausus subsistere telis,</l>
+            <l n="l9">Transisti, nostris ausus subsistere telis,</l>
              
-            <l n="text.body.div.l9">Occurrunt Genio quibus infelice creati.</l>
+            <l n="l10">Occurrunt Genio quibus infelice creati.</l>
              
-            <l n="text.body.div.l10">Quodsi quis Divūm summo descendis Olympo, <note n="text.body.div.l10.note" type="numvers">10</note>
+            <l n="l11">Quodsi quis Divūm summo descendis Olympo, <note n="note1" type="numvers">10</note>
             </l>
              
-            <l n="text.body.div.l11">Non ego coelicolis optem contendere pugna.</l>
+            <l n="l12">Non ego coelicolis optem contendere pugna.</l>
              
-            <l n="text.body.div.l12">Nam nec magnanimi proles violenta Dryantis,  </l>
+            <l n="l13">Nam nec magnanimi proles violenta Dryantis,  </l>
              
-            <l n="text.body.div.l13">Evaluit superesse diu, dum Numina contra</l>
+            <l n="l14">Evaluit superesse diu, dum Numina contra</l>
              
-            <l n="text.body.div.l14">Bella gerit; madidi nutrices ille Lyaei, </l>
+            <l n="l15">Bella gerit; madidi nutrices ille Lyaei, </l>
              
-            <l n="text.body.div.l15">Egit praecipiti juga per Nysseïa cursu.  <note n="text.body.div.l15.note" type="numvers">15</note>
+            <l n="l16">Egit praecipiti juga per Nysseïa cursu.  <note n="note1" type="numvers">15</note>
             </l>
              
-            <l n="text.body.div.l16">Illae in humum thyrsos passim fudere virentes,</l>
+            <l n="l17">Illae in humum thyrsos passim fudere virentes,</l>
              
-            <l n="text.body.div.l17">Verbera sangvinei fugiunt dum saeva Lycurgi.</l>
+            <l n="l18">Verbera sangvinei fugiunt dum saeva Lycurgi.</l>
              
-            <l n="text.body.div.l18">Ipse etiam in fluctus saliit conterritus Evan.</l>
+            <l n="l19">Ipse etiam in fluctus saliit conterritus Evan.</l>
              
-            <l n="text.body.div.l19">Quem Thetis humenti gremio miserata recepit, </l>
+            <l n="l20">Quem Thetis humenti gremio miserata recepit, </l>
              
-            <l n="text.body.div.l20">Quippe Deum, turbante viro, metus acer habebat.  <note n="text.body.div.l20.note" type="numvers">20</note>
+            <l n="l21">Quippe Deum, turbante viro, metus acer habebat.  <note n="note1" type="numvers">20</note>
             </l>
              
-            <l n="text.body.div.l21">Inde dolor, facilem ducentia Numina vitam</l>
+            <l n="l22">Inde dolor, facilem ducentia Numina vitam</l>
              
-            <l n="text.body.div.l22">Asperat, et visum misero Saturnius aufert,</l>
+            <l n="l23">Asperat, et visum misero Saturnius aufert,</l>
              
-            <l n="text.body.div.l23">Nec longo, infensus Divis post, tempore vixit.</l>
+            <l n="l24">Nec longo, infensus Divis post, tempore vixit.</l>
              
-            <l n="text.body.div.l24">Haud igitur cupiam cuiquam certare Deorum. </l>
+            <l n="l25">Haud igitur cupiam cuiquam certare Deorum. </l>
              
-            <l n="text.body.div.l25">Sin hominum ex numero es, terrae qui munera carpunt, <note n="text.body.div.l25.note" type="numvers">25</note>
+            <l n="l26">Sin hominum ex numero es, terrae qui munera carpunt, <note n="note1" type="numvers">25</note>
             </l>
              
-            <l n="text.body.div.l26">Accede, ut Leti quamprimum limina tangas.</l>
+            <l n="l27">Accede, ut Leti quamprimum limina tangas.</l>
              
-            <l n="text.body.div.l27">Tum contra Hippolochi sic excipit inclyta proles:</l>
+            <l n="l28">Tum contra Hippolochi sic excipit inclyta proles:</l>
              
-            <l n="text.body.div.l28">Quid genus exquiris, sate sangvine Tydeos alti?</l>
+            <l n="l29">Quid genus exquiris, sate sangvine Tydeos alti?</l>
              
-            <l n="text.body.div.l29">Quale genus foliis, tale et mortalibus aegris.</l>
+            <l n="l30">Quale genus foliis, tale et mortalibus aegris.</l>
              
-            <l n="text.body.div.l30">Nam folia haec rapiens sternit notus; illa comantes  <note n="text.body.div.l30.note" type="numvers">30</note>
+            <l n="l31">Nam folia haec rapiens sternit notus; illa comantes  <note n="note1" type="numvers">30</note>
             </l>
              
-            <l n="text.body.div.l31">Producunt silvae, frondosi tempore veris.</l>
+            <l n="l32">Producunt silvae, frondosi tempore veris.</l>
              
-            <l n="text.body.div.l32">Haud aliter soboles, viget haec, nunc illa, virorum.</l>
+            <l n="l33">Haud aliter soboles, viget haec, nunc illa, virorum.</l>
              
-            <l n="text.body.div.l33">Quod si tantus amor stirpem tibi noscere nostram;</l>
+            <l n="l34">Quod si tantus amor stirpem tibi noscere nostram;</l>
              
-            <l n="text.body.div.l34">(Quam tamen innumerae gentes novere per orbem,)</l>
+            <l n="l35">(Quam tamen innumerae gentes novere per orbem,)</l>
              
-            <l n="text.body.div.l35">Urbs est Argolicas Ephyre inter condita fauces;  <note n="text.body.div.l35.note" type="numvers">35</note>
+            <l n="l36">Urbs est Argolicas Ephyre inter condita fauces;  <note n="note1" type="numvers">35</note>
             </l>
              
-            <l n="text.body.div.l36">
-               <gap n="text.body.div.l36.gap"/>******************<note xml:id="ftn1" place="foot" n="text.body.div.l36.note">
-                  <p n="text.body.div.l36.note.p"> Versus 36. excidit, qui apud Homerum sic habet:
-                  <q n="text.body.div.l36.note.p.q1">
-                        <l n="text.body.div.l36.note.p.q1.l" xml:lang="grc">῎Ενθα δὲ Σίσυφος ἔσκεν, ὁ κέρδιστος γένετ' ἀνδρῶν  </l>
+            <l n="l37">
+               <gap n="gap1"/>******************<note xml:id="ftn1" place="foot" n="note2">
+                  <p n="p1"> Versus 36. excidit, qui apud Homerum sic habet:
+                  <q n="q1">
+                        <l n="l1" xml:lang="grc">῎Ενθα δὲ Σίσυφος ἔσκεν, ὁ κέρδιστος γένετ' ἀνδρῶν  </l>
                      </q>
                      et verti posset hoc modo:
-                     <q n="text.body.div.l36.note.p.q2">
-                        <l n="text.body.div.l36.note.p.q2.l">Sisyphus hic alios erat ante vaferrimus omnes. </l>
+                     <q n="q2">
+                        <l n="l1">Sisyphus hic alios erat ante vaferrimus omnes. </l>
                      </q>
-                     <abbr n="text.body.div.l36.note.p.abbr">A. K.</abbr>
+                     <abbr n="abbr3">A. K.</abbr>
                   </p>
                </note>
             </l>
              
-            <l n="text.body.div.l37">Sisyphus Aeolides, quo Glaucus patre creatur, </l>
+            <l n="l38">Sisyphus Aeolides, quo Glaucus patre creatur, </l>
              
-            <l n="text.body.div.l38">At Glauci magnus de semine Bellerophontes </l>
+            <l n="l39">At Glauci magnus de semine Bellerophontes </l>
              
-            <l n="text.body.div.l39">Nascitur, huic laetos Superi virtutis honores</l>
+            <l n="l40">Nascitur, huic laetos Superi virtutis honores</l>
              
-            <l n="text.body.div.l40">Afflarant; sed Proetus ei mala mente movebat;  <note n="text.body.div.l40.note" type="numvers">40</note>
+            <l n="l41">Afflarant; sed Proetus ei mala mente movebat;  <note n="note1" type="numvers">40</note>
             </l>
              
-            <l n="text.body.div.l41">Donec longe opibus pollentior ejicit Argis, </l>
+            <l n="l42">Donec longe opibus pollentior ejicit Argis, </l>
              
-            <l n="text.body.div.l42">Ipsius quos tum sceptris subjecerat altus </l>
+            <l n="l43">Ipsius quos tum sceptris subjecerat altus </l>
              
-            <l n="text.body.div.l43">Iupiter; at duri conjux Antia tyranni, </l>
+            <l n="l44">Iupiter; at duri conjux Antia tyranni, </l>
              
-            <l n="text.body.div.l44">Ardebat dulci juvenem cognoscere furto, </l>
+            <l n="l45">Ardebat dulci juvenem cognoscere furto, </l>
              
-            <l n="text.body.div.l45">Sed procul illecebras turpes mens casta refugit.  <note n="text.body.div.l45.note" type="numvers">45</note>
+            <l n="l46">Sed procul illecebras turpes mens casta refugit.  <note n="note1" type="numvers">45</note>
             </l>
              
-            <l n="text.body.div.l46">Illa haec ad regem fatur mendacia Proetum: </l>
+            <l n="l47">Illa haec ad regem fatur mendacia Proetum: </l>
              
-            <l n="text.body.div.l47">Ipse cadas; Glauco genitum vel, Proete, necato; </l>
+            <l n="l48">Ipse cadas; Glauco genitum vel, Proete, necato; </l>
              
-            <l n="text.body.div.l48">Invitam qui me stupro violare paravit. </l>
+            <l n="l49">Invitam qui me stupro violare paravit. </l>
              
-            <l n="text.body.div.l49">His rex auditis tacitas exarsit in iras, </l>
+            <l n="l50">His rex auditis tacitas exarsit in iras, </l>
              
-            <l n="text.body.div.l50">Sed juvenem veritus manifesto perdere leto,  <note n="text.body.div.l50.note" type="numvers">50</note>
+            <l n="l51">Sed juvenem veritus manifesto perdere leto,  <note n="note1" type="numvers">50</note>
             </l>
              
-            <l n="text.body.div.l51">Ad Lycias mittit scriptis cum tristibus oras, </l>
+            <l n="l52">Ad Lycias mittit scriptis cum tristibus oras, </l>
              
-            <l n="text.body.div.l52">Impia signatis perarans arcana tabellis. </l>
+            <l n="l53">Impia signatis perarans arcana tabellis. </l>
              
-            <l n="text.body.div.l53">Callidus has socero periturum ostendere mandat. </l>
+            <l n="l54">Callidus has socero periturum ostendere mandat. </l>
              
-            <l n="text.body.div.l54">Ille Deūm ductu Lyciam meliore petivit, </l>
+            <l n="l55">Ille Deūm ductu Lyciam meliore petivit, </l>
              
-            <l n="text.body.div.l55">Quam tandem et Xanthi postquam pervenit ad undas;  <note n="text.body.div.l55.note" type="numvers">55</note>
+            <l n="l56">Quam tandem et Xanthi postquam pervenit ad undas;  <note n="note1" type="numvers">55</note>
             </l>
              
-            <l n="text.body.div.l56">Exhibet huic magnos Lyciae regnator honores, </l>
+            <l n="l57">Exhibet huic magnos Lyciae regnator honores, </l>
              
-            <l n="text.body.div.l57">Ter trinis totidem mactans armenta diebus; </l>
+            <l n="l58">Ter trinis totidem mactans armenta diebus; </l>
              
-            <l n="text.body.div.l58">Ut decima effulsit digitis <sic n="text.body.div.l58.sic" resp="#NJ">rubicantibus</sic> Eos, </l>
+            <l n="l59">Ut decima effulsit digitis <sic n="sic1" resp="#NJ">rubicantibus</sic> Eos, </l>
              
-            <l n="text.body.div.l59">Tunc edi mandata rogat, tum cernere poscit,</l>
+            <l n="l60">Tunc edi mandata rogat, tum cernere poscit,</l>
              
-            <l n="text.body.div.l60">Si qua sibi a genero portetur epistola Proeto.  <note n="text.body.div.l60.note" type="numvers">60</note>
+            <l n="l61">Si qua sibi a genero portetur epistola Proeto.  <note n="note1" type="numvers">60</note>
             </l>
              
-            <l n="text.body.div.l61">Ergo notas postquam generi percepit iniquas, </l>
+            <l n="l62">Ergo notas postquam generi percepit iniquas, </l>
              
-            <l n="text.body.div.l62">Indomitam primum jubet expugnare Chimaeram. </l>
+            <l n="l63">Indomitam primum jubet expugnare Chimaeram. </l>
              
-            <l n="text.body.div.l63">Bellua non hominum, sed erat genus illa Deorum,  </l>
+            <l n="l64">Bellua non hominum, sed erat genus illa Deorum,  </l>
              
-            <l n="text.body.div.l64">Ante leo, capra in medio, pone horridus angvis, </l>
+            <l n="l65">Ante leo, capra in medio, pone horridus angvis, </l>
              
-            <l n="text.body.div.l65">Turbida flagrantis spirans incendia flammae;  <note n="text.body.div.l65.note" type="numvers">65</note>
+            <l n="l66">Turbida flagrantis spirans incendia flammae;  <note n="note1" type="numvers">65</note>
             </l>
              
-            <l n="text.body.div.l66">Sed tamen hanc stravit Divūm portenta secutus. </l>
+            <l n="l67">Sed tamen hanc stravit Divūm portenta secutus. </l>
              
-            <l n="text.body.div.l67">Congreditur Solymis illustribus inde, nec unquam </l>
+            <l n="l68">Congreditur Solymis illustribus inde, nec unquam </l>
              
-            <l n="text.body.div.l68">Acrius hoc sese certamen inisse ferebat. </l>
+            <l n="l69">Acrius hoc sese certamen inisse ferebat. </l>
              
-            <l n="text.body.div.l69">Tertio Amazonias fundit discrimine turmas; </l>
+            <l n="l70">Tertio Amazonias fundit discrimine turmas; </l>
              
-            <l n="text.body.div.l70">Huic reduci alterius fraudis tentamina texit.  <note n="text.body.div.l70.note" type="numvers">70</note>
+            <l n="l71">Huic reduci alterius fraudis tentamina texit.  <note n="note1" type="numvers">70</note>
             </l>
              
-            <l n="text.body.div.l71">Quippe legens Lyciae fortissima corpora pubis, </l>
+            <l n="l72">Quippe legens Lyciae fortissima corpora pubis, </l>
              
-            <l n="text.body.div.l72">Collocat insidias; quos omnes perculit heros </l>
+            <l n="l73">Collocat insidias; quos omnes perculit heros </l>
              
-            <l n="text.body.div.l73">Glauciades, patriae nec <sic n="text.body.div.l73.sic" resp="#NJ">quenquam</sic> ad tecta remisit. </l>
+            <l n="l74">Glauciades, patriae nec <sic n="sic1" resp="#NJ">quenquam</sic> ad tecta remisit. </l>
              
-            <l n="text.body.div.l74">Ut tandem agnovit divina e stirpe creatum, </l>
+            <l n="l75">Ut tandem agnovit divina e stirpe creatum, </l>
              
-            <l n="text.body.div.l75">Detinuit secum, natae connubia pactus,  <note n="text.body.div.l75.note" type="numvers">75</note>
+            <l n="l76">Detinuit secum, natae connubia pactus,  <note n="note1" type="numvers">75</note>
             </l>
              
-            <l n="text.body.div.l76">Cum qua dimidium regni partitur honorem  </l>
+            <l n="l77">Cum qua dimidium regni partitur honorem  </l>
              
-            <l n="text.body.div.l77">Dant simul et Lyciae gentes, quem percolat agrum, </l>
+            <l n="l78">Dant simul et Lyciae gentes, quem percolat agrum, </l>
              
-            <l n="text.body.div.l78">Arboribus longe laetum, et felicibus arvis. </l>
+            <l n="l79">Arboribus longe laetum, et felicibus arvis. </l>
              
-            <l n="text.body.div.l79">Illa parit magno tria pignora Bellerophonti; </l>
+            <l n="l80">Illa parit magno tria pignora Bellerophonti; </l>
              
-            <l n="text.body.div.l80">Isandrum, simul Hippolochum, sed tertia proles  <note n="text.body.div.l80.note" type="numvers">80</note>
+            <l n="l81">Isandrum, simul Hippolochum, sed tertia proles  <note n="note1" type="numvers">80</note>
             </l>
              
-            <l n="text.body.div.l81">Laodamia fuit; summo quae juncta Tonanti, </l>
+            <l n="l82">Laodamia fuit; summo quae juncta Tonanti, </l>
              
-            <l n="text.body.div.l82">Belligerum sacro fudit Sarpedona partu. </l>
+            <l n="l83">Belligerum sacro fudit Sarpedona partu. </l>
              
-            <l n="text.body.div.l83">At postquam huic etiam succensuit ira Deorum, </l>
+            <l n="l84">At postquam huic etiam succensuit ira Deorum, </l>
              
-            <l n="text.body.div.l84">Arva pererrabat comitatus Aleïa nullo, </l>
+            <l n="l85">Arva pererrabat comitatus Aleïa nullo, </l>
              
-            <l n="text.body.div.l85">Ipse suum cor edens, hominum vestigia vitans.  <note n="text.body.div.l85.note" type="numvers">85</note>
+            <l n="l86">Ipse suum cor edens, hominum vestigia vitans.  <note n="note1" type="numvers">85</note>
             </l>
              
-            <l n="text.body.div.l86">Isandrum ast illi, miserando funere, natum,  </l>
+            <l n="l87">Isandrum ast illi, miserando funere, natum,  </l>
              
-            <l n="text.body.div.l87">Trux perimit Mavors, Solymis dum praelia miscet. </l>
+            <l n="l88">Trux perimit Mavors, Solymis dum praelia miscet. </l>
              
-            <l n="text.body.div.l88">Hanc irata suis figit Dictynna sagittis. </l>
+            <l n="l89">Hanc irata suis figit Dictynna sagittis. </l>
              
-            <l n="text.body.div.l89">Hippolochi vero me dico e semine cretum. </l>
+            <l n="l90">Hippolochi vero me dico e semine cretum. </l>
              
-            <l n="text.body.div.l90">Qui dum me patriis ad Trojam mitteret oris,  <note n="text.body.div.l90.note" type="numvers">90</note>
+            <l n="l91">Qui dum me patriis ad Trojam mitteret oris,  <note n="note1" type="numvers">90</note>
             </l>
              
-            <l n="text.body.div.l91">Fortibus ante alios monuit clarescere factis, </l>
+            <l n="l92">Fortibus ante alios monuit clarescere factis, </l>
              
-            <l n="text.body.div.l92">Nomina magnorum nec dedecorare parentum, </l>
+            <l n="l93">Nomina magnorum nec dedecorare parentum, </l>
              
-            <l n="text.body.div.l93">Quos Lyciae terra ampla tulit, tulit alta Corinthus. </l>
+            <l n="l94">Quos Lyciae terra ampla tulit, tulit alta Corinthus. </l>
              
-            <l n="text.body.div.l94">Tanti sublimem generis me gloria tollit! </l>
+            <l n="l95">Tanti sublimem generis me gloria tollit! </l>
              
-            <l n="text.body.div.l95">Talibus exultat Tydides acer et hasta  <note n="text.body.div.l95.note" type="numvers">95</note>
+            <l n="l96">Talibus exultat Tydides acer et hasta  <note n="note1" type="numvers">95</note>
             </l>
              
-            <l n="text.body.div.l96">In terram fixa, dictis ita fatur amicis:</l>
+            <l n="l97">In terram fixa, dictis ita fatur amicis:</l>
              
-            <l n="text.body.div.l97">Dudum equidem nobis patrius cognosceris hospes, </l>
+            <l n="l98">Dudum equidem nobis patrius cognosceris hospes, </l>
              
-            <l n="text.body.div.l98">Egregium Hippolochi patrem nam maximus olim, </l>
+            <l n="l99">Egregium Hippolochi patrem nam maximus olim, </l>
              
-            <l n="text.body.div.l99">Hospitio tenuit bis denis lucibus Oeneus; </l>
+            <l n="l100">Hospitio tenuit bis denis lucibus Oeneus; </l>
              
-            <l n="text.body.div.l100">Mutua quin etiam tribuerunt dona vicissim,  <note n="text.body.div.l100.note" type="numvers">100</note>
+            <l n="l101">Mutua quin etiam tribuerunt dona vicissim,  <note n="note1" type="numvers">100</note>
             </l>
              
-            <l n="text.body.div.l101">Oeneus puniceo fulgentem murice balteum, </l>
+            <l n="l102">Oeneus puniceo fulgentem murice balteum, </l>
              
-            <l n="text.body.div.l102">Insignem fulvo pateram dedit ille metallo. </l>
+            <l n="l103">Insignem fulvo pateram dedit ille metallo. </l>
              
-            <l n="text.body.div.l103">Hanc ego digrediens intra mea tecta reliqui, </l>
+            <l n="l104">Hanc ego digrediens intra mea tecta reliqui, </l>
              
-            <l n="text.body.div.l104">Tydeos haud memini. Nam me pater optime parvum </l>
+            <l n="l105">Tydeos haud memini. Nam me pater optime parvum </l>
              
-            <l n="text.body.div.l105">Deseris, ad Thebas periit cum Graja juventus. <note n="text.body.div.l105.note" type="numvers">105</note>
+            <l n="l106">Deseris, ad Thebas periit cum Graja juventus. <note n="note1" type="numvers">105</note>
             </l>
              
-            <l n="text.body.div.l106">Hinc ego sum mediis hospes tibi fidus in Argis, </l>
+            <l n="l107">Hinc ego sum mediis hospes tibi fidus in Argis, </l>
              
-            <l n="text.body.div.l107">Tu contra in Lycia; quando hanc peregrinus adibo. </l>
+            <l n="l108">Tu contra in Lycia; quando hanc peregrinus adibo. </l>
              
-            <l n="text.body.div.l108">Ergo etiam turba ferro abstineamus in ipsa. </l>
+            <l n="l109">Ergo etiam turba ferro abstineamus in ipsa. </l>
              
-            <l n="text.body.div.l109">Multi nam Troum, sociorum ex agmine multi, </l>
+            <l n="l110">Multi nam Troum, sociorum ex agmine multi, </l>
              
-            <l n="text.body.div.l110">Quos mactem, tantum Deus offerat, et pede prendam. <note n="text.body.div.l110.note" type="numvers">110</note>
+            <l n="l111">Quos mactem, tantum Deus offerat, et pede prendam. <note n="note1" type="numvers">110</note>
             </l>
              
-            <l n="text.body.div.l111">Nec tibi quem perimas, possis modo, desit Achivus. </l>
+            <l n="l112">Nec tibi quem perimas, possis modo, desit Achivus. </l>
              
-            <l n="text.body.div.l112">Arma sed inter nos jam commutemus, ut omnes </l>
+            <l n="l113">Arma sed inter nos jam commutemus, ut omnes </l>
              
-            <l n="text.body.div.l113">Hospitiis junctos norint gaudere vetustis. </l>
+            <l n="l114">Hospitiis junctos norint gaudere vetustis. </l>
              
-            <l n="text.body.div.l114">Sic fati, extemplo saliunt e curribus altis, </l>
+            <l n="l115">Sic fati, extemplo saliunt e curribus altis, </l>
              
-            <l n="text.body.div.l115">Ac dextras tangunt, et pacis foedera firmant. <note n="text.body.div.l115.note" type="numvers">115</note>
+            <l n="l116">Ac dextras tangunt, et pacis foedera firmant. <note n="note1" type="numvers">115</note>
             </l>
              
-            <l n="text.body.div.l116">Sustulit hic mentem Glauco Saturnia proles, </l>
+            <l n="l117">Sustulit hic mentem Glauco Saturnia proles, </l>
              
-            <l n="text.body.div.l117">Qui cum Tydide permutans arma feroci, </l>
+            <l n="l118">Qui cum Tydide permutans arma feroci, </l>
              
-            <l n="text.body.div.l118">Aerea susciperet bobus vix digna novenis, </l>
+            <l n="l119">Aerea susciperet bobus vix digna novenis, </l>
              
-            <l n="text.body.div.l119">Aurea, centenos daret ipse valentia tauros.</l>
+            <l n="l120">Aurea, centenos daret ipse valentia tauros.</l>
              
          </div>
       </body>

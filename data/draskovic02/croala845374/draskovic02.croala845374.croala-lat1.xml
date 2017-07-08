@@ -88,6 +88,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -134,25 +151,25 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:draskovic02.croala845374.croala-lat1:" xml:lang="lat">
     
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-oratio">
-            <opener n="text.body.div.opener">
-               <salute n="text.body.div.opener.salute">
-                  <abbr n="text.body.div.opener.salute.abbr">II. SS. et OO.</abbr> ! — </salute>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-oratio">
+            <opener n="opener1">
+               <salute n="salute1">
+                  <abbr n="abbr1">II. SS. et OO.</abbr> ! — </salute>
             </opener>
-            <p n="text.body.div.p1">Communicati nobiscum recursus <num n="text.body.div.p1.num" value="2">II.</num> Comitatuum Crisiensis et Varasdinensis summi sane sunt momenti, — nemo enim ignorat periculum, quod toti nostrae generationi cultae, virisque modo officia et subselia tenentibus minatur; — quales autem advenas metuendos habeamus, inde patet, dum jam hi pauci academici nobis missi, et qui e nostris fundationibus solvuntur, tamen per suum proselytismum intolerabiles evadunt. Ast omnibus his praegnantibus malis majus esset ignominia, hanc enim fama aeternis historiarum tabulis insereret, haeredibusque nostris patrimonii instar transmitteret.
+            <p n="p2">Communicati nobiscum recursus <num n="num1" value="2">II.</num> Comitatuum Crisiensis et Varasdinensis summi sane sunt momenti, — nemo enim ignorat periculum, quod toti nostrae generationi cultae, virisque modo officia et subselia tenentibus minatur; — quales autem advenas metuendos habeamus, inde patet, dum jam hi pauci academici nobis missi, et qui e nostris fundationibus solvuntur, tamen per suum proselytismum intolerabiles evadunt. Ast omnibus his praegnantibus malis majus esset ignominia, hanc enim fama aeternis historiarum tabulis insereret, haeredibusque nostris patrimonii instar transmitteret.
         Sacra namque est obligatio nostra, ut vestigiis antenatorum insistamus, nationalitatemque nostram, et tot tantaque sanguine parentum parta diplomata, velut testimonia valoris illorum vindicemus.</p> 
     
-            <p n="text.body.div.p2">Horum, inquam, heroicorum argumentorum memores nos esse oportet, et scire nos adhucdum justa protectione perfrui Principis nostri: non nos lateat, quod unam compactam semi alterius millionis heroicam populationem possideamus, quae inde a Sirmio usque montes Velebit nationalitatis et linguae excidium nunquam toleratura est; indignum itaque fore, ut nos sociorum despotismum toleremus.</p> 
+            <p n="p3">Horum, inquam, heroicorum argumentorum memores nos esse oportet, et scire nos adhucdum justa protectione perfrui Principis nostri: non nos lateat, quod unam compactam semi alterius millionis heroicam populationem possideamus, quae inde a Sirmio usque montes Velebit nationalitatis et linguae excidium nunquam toleratura est; indignum itaque fore, ut nos sociorum despotismum toleremus.</p> 
     
-            <pb n="text.body.div.pb"/>
+            <pb n="pb4"/>
     
-            <p n="text.body.div.p3">Ne ergo coram Principe et popularibus nostris ac tota Europa arguamur, oportet, ut modo, dum forte de nationalitate nostra delenda leges sub incude sunt, a Rege nostro augustissimo petamus, ut postulatis dietalibus respectu ad nos transplantandae linguae magjaricae assensum suum denegare, nosque penes diploma Anni 1808. ultro permittere.</p>
+            <p n="p5">Ne ergo coram Principe et popularibus nostris ac tota Europa arguamur, oportet, ut modo, dum forte de nationalitate nostra delenda leges sub incude sunt, a Rege nostro augustissimo petamus, ut postulatis dietalibus respectu ad nos transplantandae linguae magjaricae assensum suum denegare, nosque penes diploma Anni 1808. ultro permittere.</p>
     
-            <p n="text.body.div.p4">In quantum autem dicasterium dirigens se cognitione linguae latinae exuisset, nobis ab exemplo divae Theresiae proprium Consilium tanto a fortiori concedere dignetur, cum nos sufficientes nostros fundos publicos per Consilium Locumtenentiale citra utile, et notitiam nostram manipulatos habeamus.</p>
+            <p n="p6">In quantum autem dicasterium dirigens se cognitione linguae latinae exuisset, nobis ab exemplo divae Theresiae proprium Consilium tanto a fortiori concedere dignetur, cum nos sufficientes nostros fundos publicos per Consilium Locumtenentiale citra utile, et notitiam nostram manipulatos habeamus.</p>
     
-            <p n="text.body.div.p5">Denique demisse opinarer, ut Repraesentatio nostra caeteris nostris quinque Comitatibus communicetur et secundari petatur.</p>
+            <p n="p7">Denique demisse opinarer, ut Repraesentatio nostra caeteris nostris quinque Comitatibus communicetur et secundari petatur.</p>
          </div>
    
       </body>

@@ -97,6 +97,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -141,160 +161,160 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:stafilic01.croala769785.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-oratio">
-            <milestone unit="column" n="text.body.div.milestone"/>
-            <head n="text.body.div.head">238 <ref n="text.body.div.head.ref1">
-                  <persName n="text.body.div.head.ref1.persName">
-                     <abbr n="text.body.div.head.ref1.persName.abbr">Io.</abbr> Stafilei</persName> episcopi Sibinicensis
-                        <ref n="text.body.div.head.ref1.ref">
-                     <persName n="text.body.div.head.ref1.ref.persName">Iulii II.</persName> Pontificis maximi</ref> oratoris,</ref>
-               oratio habita ad <ref n="text.body.div.head.ref2">Dominium Venetum</ref>, <placeName n="text.body.div.head.placeName">Venetiis</placeName> in
-                  <ref n="text.body.div.head.ref3">Collegio</ref>
-               <date n="text.body.div.head.date" when="1512-12-27">die XXVII Decembris M.D.XII.</date>
+      <body n="body1">
+         <div n="div1" type="prosa-oratio">
+            <milestone unit="column" n="milestone1"/>
+            <head n="head2">238 <ref n="ref1">
+                  <persName n="persName1">
+                     <abbr n="abbr1">Io.</abbr> Stafilei</persName> episcopi Sibinicensis
+                        <ref n="ref2">
+                     <persName n="persName1">Iulii II.</persName> Pontificis maximi</ref> oratoris,</ref>
+               oratio habita ad <ref n="ref2">Dominium Venetum</ref>, <placeName n="placeName3">Venetiis</placeName> in
+                  <ref n="ref4">Collegio</ref>
+               <date n="date5" when="1512-12-27">die XXVII Decembris M.D.XII.</date>
             </head>
-            <p n="text.body.div.p1"> Nihil est quod magis expediat <ref n="text.body.div.p1.ref1">Reipublicae Christianae</ref>, <ref n="text.body.div.p1.ref2">Serenissime
-                  Princeps</ref> ac <ref n="text.body.div.p1.ref3">patres conscripti</ref>, quam pacem colere et a bellis,
-               quae inter <ref n="text.body.div.p1.ref4">Christianos</ref> civilia et intestina dici possunt, abstinere: quia
-               tempore pacis bene colitur <ref n="text.body.div.p1.ref5">Auctor pacis</ref>, qui, proximus passioni, pacem
-               velut locupletissimam haereditatem <ref n="text.body.div.p1.ref6">Apostolis</ref> caeterisque fidelibus suis in
-               haec verba dimisit: <q n="text.body.div.p1.q1">pacem meam do vobis, pacem relinquo vobis</q>. Propterea,
-               haeres <persName n="text.body.div.p1.persName1">Christi</persName> non est, qui pacem illius testamento relictam non
-               amat. Et ideo, quemadmodum homines pacifici beati et filii <persName n="text.body.div.p1.persName2">Dei</persName>
-               in <ref n="text.body.div.p1.ref7">Evangelio</ref> appellantur, ita inquieti, dissensiones ac scandala
-                  <sic n="text.body.div.p1.sic1">facentes</sic> filii <ref n="text.body.div.p1.ref8">Diaboli</ref>
-               <sic n="text.body.div.p1.sic2">juremerito</sic> possunt <sic n="text.body.div.p1.sic3">noncupari</sic>, qui est sator zizaniae, pater
+            <p n="p3"> Nihil est quod magis expediat <ref n="ref1">Reipublicae Christianae</ref>, <ref n="ref2">Serenissime
+                  Princeps</ref> ac <ref n="ref3">patres conscripti</ref>, quam pacem colere et a bellis,
+               quae inter <ref n="ref4">Christianos</ref> civilia et intestina dici possunt, abstinere: quia
+               tempore pacis bene colitur <ref n="ref5">Auctor pacis</ref>, qui, proximus passioni, pacem
+               velut locupletissimam haereditatem <ref n="ref6">Apostolis</ref> caeterisque fidelibus suis in
+               haec verba dimisit: <q n="q7">pacem meam do vobis, pacem relinquo vobis</q>. Propterea,
+               haeres <persName n="persName8">Christi</persName> non est, qui pacem illius testamento relictam non
+               amat. Et ideo, quemadmodum homines pacifici beati et filii <persName n="persName9">Dei</persName>
+               in <ref n="ref10">Evangelio</ref> appellantur, ita inquieti, dissensiones ac scandala
+                  <sic n="sic11">facentes</sic> filii <ref n="ref12">Diaboli</ref>
+               <sic n="sic13">juremerito</sic> possunt <sic n="sic14">noncupari</sic>, qui est sator zizaniae, pater
                scandali ac perturbator pacis. Quod exemplo
-                     <ref n="text.body.div.p1.ref9">
-                  <persName n="text.body.div.p1.ref9.persName">
-                     <sic n="text.body.div.p1.ref9.persName.sic">Policarpi</sic>
+                     <ref n="ref15">
+                  <persName n="persName1">
+                     <sic n="sic1">Policarpi</sic>
                   </persName> sanctissimi
-                  <sic n="text.body.div.p1.ref9.sic">martiris</sic>
+                  <sic n="sic2">martiris</sic>
                </ref> eleganter comprobatur, qui cum obviaret
-                     <ref n="text.body.div.p1.ref10">
-                  <persName n="text.body.div.p1.ref10.persName">Martiano</persName> schismatico</ref> eidem interroganti :
-                  <q n="text.body.div.p1.q2">Agnoscis ne me, <persName n="text.body.div.p1.q2.persName">
-                     <sic n="text.body.div.p1.q2.persName.sic">Policarpe</sic>
+                     <ref n="ref16">
+                  <persName n="persName1">Martiano</persName> schismatico</ref> eidem interroganti :
+                  <q n="q17">Agnoscis ne me, <persName n="persName1">
+                     <sic n="sic1">Policarpe</sic>
                   </persName>?</q>
-               <sic n="text.body.div.p1.sic4">Respondit</sic>: <q n="text.body.div.p1.q3">Agnosco primogenitum
-                     <persName n="text.body.div.p1.q3.persName">
-                     <sic n="text.body.div.p1.q3.persName.sic">Sathanae</sic>
+               <sic n="sic18">Respondit</sic>: <q n="q19">Agnosco primogenitum
+                     <persName n="persName1">
+                     <sic n="sic1">Sathanae</sic>
                   </persName> et filium perditionis.</q>
             </p>
-            <p n="text.body.div.p2">
-               <persName n="text.body.div.p2.persName1">Cicero</persName> quoque in <bibl n="text.body.div.p2.bibl1">Philippicis</bibl> contra hujusmodi
-               homines sic invehitur: <q n="text.body.div.p2.q1">Nec privatos focos, nec societatem hominum, nec libertatis
+            <p n="p4">
+               <persName n="persName1">Cicero</persName> quoque in <bibl n="bibl2">Philippicis</bibl> contra hujusmodi
+               homines sic invehitur: <q n="q3">Nec privatos focos, nec societatem hominum, nec libertatis
                   jura videtur cara habere qui seditiones et scandala delectatur, eumque ex numero
                   hominum ejiciendum et ex terminis humanae naturae exterminandum puto. Nihil hoc
                   homine, nihil hoc cive deterius : non aut civis aut homo habendus est cui bellum,
-                  praecipue civile, placet.</q> Rursus idem <persName n="text.body.div.p2.persName2">Cicero</persName>
-               <bibl n="text.body.div.p2.bibl2">de Amicitia</bibl>: <q n="text.body.div.p2.q2">Quae domus tam stabilis, quae civitas tam firma est quae
+                  praecipue civile, placet.</q> Rursus idem <persName n="persName4">Cicero</persName>
+               <bibl n="bibl5">de Amicitia</bibl>: <q n="q6">Quae domus tam stabilis, quae civitas tam firma est quae
                   odiis et dissensionibus funditus everti non possit?</q> Haec modo scandala, has
                dissensiones seditionesque, haec bella civilia vel potius intestina, non solum misera
-               haec nostra <placeName n="text.body.div.p2.placeName1">Italia</placeName>, sed tota fere <ref n="text.body.div.p2.ref1">Respublica
+               haec nostra <placeName n="placeName7">Italia</placeName>, sed tota fere <ref n="ref8">Respublica
                   Christiana</ref> jam multis patitur annis. Dum Reges et Principes nostri inter se
                gravissima bella gerunt et cruentissima committunt certamina, spernunt pacem, et suam
                ac suorum populorum quietem oderunt, caedibus autem, ruinis et incommodis hominum
-               studiosissime delectantur. Sunt qui <sic n="text.body.div.p2.sic1">Christianisimi</sic> dici nominarique
-               volunt, et tamen <sic n="text.body.div.p2.sic2">christianissimorum</sic>
-               <milestone unit="column" n="text.body.div.p2.milestone1"/> nominibus operibusque contradicunt. Dum, non
+               studiosissime delectantur. Sunt qui <sic n="sic9">Christianisimi</sic> dici nominarique
+               volunt, et tamen <sic n="sic10">christianissimorum</sic>
+               <milestone unit="column" n="milestone11"/> nominibus operibusque contradicunt. Dum, non
                contenti suis amplissimis regnis ac propriis terminis finibusque, aliena longaevo
                tempore parta ac quiete possessa vastant, trahunt ac hostiliter invadunt; hinc
-               subversiones <sic n="text.body.div.p2.sic3">dirreptionesque</sic> plurimarum urbium; hinc caedes innumerabilium
+               subversiones <sic n="sic12">dirreptionesque</sic> plurimarum urbium; hinc caedes innumerabilium
                populorum; hinc uberrima flumina humano cruore fluentia; hinc violatio fidei datae;
                hinc transgressio jurisiurandi: hinc contemptus deorum; hinc perfidia plus quam
-               punica. Impletum est temporibus nostris <ref n="text.body.div.p2.ref2">vaticinium illud evangelicum</ref>:
-                  <q n="text.body.div.p2.q3">Surget gens contra gentem et regnum adversus regnum et <sic n="text.body.div.p2.q3.sic">terremotus</sic>
+               punica. Impletum est temporibus nostris <ref n="ref13">vaticinium illud evangelicum</ref>:
+                  <q n="q14">Surget gens contra gentem et regnum adversus regnum et <sic n="sic1">terremotus</sic>
                   erunt magni per loca, pestilentiae, et fames, terroresque de caelo, quae sunt
                   evidentissima signa et initia malorum.</q> Proh dolor! libet hoc loco miserias
-               temporum nostrorum prosequi et calamitates quas hactenus <sic n="text.body.div.p2.sic4">substinuimus</sic>
+               temporum nostrorum prosequi et calamitates quas hactenus <sic n="sic15">substinuimus</sic>
                lamentabiliter enarrare! quot ingenua nobiliaque corpora his bellis ludibrio fuere!
-               capti episcopi et <ref n="text.body.div.p2.ref3">Sanctae Romanae Ecclesiae</ref> Cardinales, interfecti
-                  <sic n="text.body.div.p2.sic5">praesbyteri</sic> et diversorum officia clericorum, subversae ecclesiae,
-                  <sic n="text.body.div.p2.sic6">dirrepta</sic> monasteria, stupratae sacrae virgines, ad altaria
-                  <persName n="text.body.div.p2.persName3">Christi</persName> stabulati equi, <sic n="text.body.div.p2.sic7">martirum</sic> projectae
-               reliquiae, et quod horrendum est dictu et auditu, sacratissimum <ref n="text.body.div.p2.ref4">Salvatoris
-                  nostri</ref> Corpus argenteis <sic n="text.body.div.p2.sic8">praetiosisque</sic> pro more vasculis
+               capti episcopi et <ref n="ref16">Sanctae Romanae Ecclesiae</ref> Cardinales, interfecti
+                  <sic n="sic17">praesbyteri</sic> et diversorum officia clericorum, subversae ecclesiae,
+                  <sic n="sic18">dirrepta</sic> monasteria, stupratae sacrae virgines, ad altaria
+                  <persName n="persName19">Christi</persName> stabulati equi, <sic n="sic20">martirum</sic> projectae
+               reliquiae, et quod horrendum est dictu et auditu, sacratissimum <ref n="ref21">Salvatoris
+                  nostri</ref> Corpus argenteis <sic n="sic22">praetiosisque</sic> pro more vasculis
                reconditum, praedae cupiditate in terram collisum, pedibusque calcatum! Deerat
-               extremum malorum omnium, quod nihilominus attentatum est, ac <sic n="text.body.div.p2.sic9">pene</sic>
-               confectum. <sic n="text.body.div.p2.sic10">Dirripuerunt</sic>
-               <ref n="text.body.div.p2.ref5">Patrimonium <persName n="text.body.div.p2.ref5.persName">Beati Petri</persName>
+               extremum malorum omnium, quod nihilominus attentatum est, ac <sic n="sic23">pene</sic>
+               confectum. <sic n="sic24">Dirripuerunt</sic>
+               <ref n="ref25">Patrimonium <persName n="persName1">Beati Petri</persName>
                </ref>, obsederunt hostiliter
-                  <ref n="text.body.div.p2.ref6">civitatem Bononiensem</ref>, incluserunt oppugnaruntque <ref n="text.body.div.p2.ref7">Vicarium
-                     <persName n="text.body.div.p2.ref7.persName">Jesus Christi</persName>
+                  <ref n="ref26">civitatem Bononiensem</ref>, incluserunt oppugnaruntque <ref n="ref27">Vicarium
+                     <persName n="persName1">Jesus Christi</persName>
                </ref> ibidem cum sua curia residentem,
-               captivumque turpiter abduxissent, nisi <ref n="text.body.div.p2.ref8">Deus Optimus Maximus</ref> causae suae et
-                  <ref n="text.body.div.p2.ref9">Ecclesiae</ref> in tempore affuisset, qui eosdem oppugnatores sacrilegos et
+               captivumque turpiter abduxissent, nisi <ref n="ref28">Deus Optimus Maximus</ref> causae suae et
+                  <ref n="ref29">Ecclesiae</ref> in tempore affuisset, qui eosdem oppugnatores sacrilegos et
                inconsutilem tunicam scindere mollientes momento temporis in ictu oculi in fugam
                convertit. O Divinam clementiam! o summam benignitatem! permittit fluctuare
                naviculam, sed eam mergi subvertique non patitur; suscitat validum contrarium ventum,
                et tamen suis laborantibus fert opem, et porrigit dexteram! Unde, quaeso, tam
-               repentina mutatio ut victores subito vincantur, nisi per dexteram <ref n="text.body.div.p2.ref10">Excelsi</ref>?
+               repentina mutatio ut victores subito vincantur, nisi per dexteram <ref n="ref30">Excelsi</ref>?
                Unde haec tam insperata victoria, non per humanam virtutem sed ex Divina providentia
                et pietate? Modo iidem hostes paulo ante divinitus fusi fugatique, corde indurato
-               obstinatioresque, more <ref n="text.body.div.p2.ref11">Pharaonis</ref> in flagellis, rursus tentant irrumpere in
-                  <placeName n="text.body.div.p2.placeName2">Italiam</placeName>, rursus aliena rapere, et crudeliores caedes quas
-               fecerunt hactenus perpetrare vosque, <ref n="text.body.div.p2.ref12">optimos Patres</ref>, cultores pacis et
-               quietis, et bonae fidei, ut aiunt, possessores in <milestone unit="column" n="text.body.div.p2.milestone2"/>
+               obstinatioresque, more <ref n="ref31">Pharaonis</ref> in flagellis, rursus tentant irrumpere in
+                  <placeName n="placeName32">Italiam</placeName>, rursus aliena rapere, et crudeliores caedes quas
+               fecerunt hactenus perpetrare vosque, <ref n="ref33">optimos Patres</ref>, cultores pacis et
+               quietis, et bonae fidei, ut aiunt, possessores in <milestone unit="column" n="milestone34"/>
                eorum errorem allicere student, et secum in perditionem multis variisque subdolis
                sollicitationibus seducere satagunt; quod si, peccatis nostris exigentibus efficere
                poterunt, profecto novissimus error pejor priore. Nam dum inter nos bella gerimus et
                cruenta committimus certamina, infideles populos magis ac magis contra nos procul
-               dubio animamus, eis <sic n="text.body.div.p2.sic11">sque</sic> cervices nostras feriendas sponte exhibemus. Ob
-               praeteritas etenim dissensiones et bella intestina <ref n="text.body.div.p2.ref13">Christianorum</ref> amisimus
-               amplissima regna, latissimasque provincias, <placeName n="text.body.div.p2.placeName3">
-                  <sic n="text.body.div.p2.placeName3.sic">Misiam</sic>
+               dubio animamus, eis <sic n="sic35">sque</sic> cervices nostras feriendas sponte exhibemus. Ob
+               praeteritas etenim dissensiones et bella intestina <ref n="ref36">Christianorum</ref> amisimus
+               amplissima regna, latissimasque provincias, <placeName n="placeName37">
+                  <sic n="sic1">Misiam</sic>
                </placeName>,
-                  <placeName n="text.body.div.p2.placeName4">Thraciam</placeName>, <placeName n="text.body.div.p2.placeName5">
-                  <sic n="text.body.div.p2.placeName5.sic">Macaedoniam</sic>
+                  <placeName n="placeName38">Thraciam</placeName>, <placeName n="placeName39">
+                  <sic n="sic1">Macaedoniam</sic>
                </placeName>,
-                     <placeName n="text.body.div.p2.placeName6">
-                  <sic n="text.body.div.p2.placeName6.sic">Aepirum</sic>
+                     <placeName n="placeName40">
+                  <sic n="sic1">Aepirum</sic>
                </placeName> totamque
-                  <placeName n="text.body.div.p2.placeName7">Graeciam</placeName>, ac caeteras innumeras urbes, quibus nunc imperat
-                  <persName n="text.body.div.p2.persName4">Ottomanus</persName>. </p>
-            <p n="text.body.div.p3"> Restant solae maritimae civitates <placeName n="text.body.div.p3.placeName1">Dalmatiae</placeName> provinciae
+                  <placeName n="placeName41">Graeciam</placeName>, ac caeteras innumeras urbes, quibus nunc imperat
+                  <persName n="persName42">Ottomanus</persName>. </p>
+            <p n="p5"> Restant solae maritimae civitates <placeName n="placeName1">Dalmatiae</placeName> provinciae
                nostrae quas impii hostes vastant, trahunt, rapiunt, ita ut vix miris urbium exire
                incolis liceat, foris vastata sunt omnia, apparetque ingens ubique solitudo. Vereor
                modo ne ex recidivis bellis futuris dissensionibusque illae eaedem miserrimae urbes a
                rapacissimis hostibus occupentur: et tunc reliquum erit, ut brevissimo tempore (quod
-                  <ref n="text.body.div.p3.ref1">Deus</ref> avertat) traiiciant in <placeName n="text.body.div.p3.placeName2">Italiam</placeName>, eritque
-               finis civilium bellorum inter <ref n="text.body.div.p3.ref2">Christianos</ref>. Tum unusquisque principum ad
+                  <ref n="ref2">Deus</ref> avertat) traiiciant in <placeName n="placeName3">Italiam</placeName>, eritque
+               finis civilium bellorum inter <ref n="ref4">Christianos</ref>. Tum unusquisque principum ad
                propria se recipiet, et suas recolliget vires, quae illis forte minime tunc
-               proderunt, tanquam debilitatae, imo pene <sic n="text.body.div.p3.sic1">exaustae</sic> ob praeteritas
-               dissensiones. <sic n="text.body.div.p3.sic2">Hic</sic> malis futurisque incommodis ac minis <ref n="text.body.div.p3.ref3">Reipublicae
-                  Christianae</ref> cupiens occurrere, <ref n="text.body.div.p3.ref4">
-                  <persName n="text.body.div.p3.ref4.persName">Julius secundus</persName>
+               proderunt, tanquam debilitatae, imo pene <sic n="sic5">exaustae</sic> ob praeteritas
+               dissensiones. <sic n="sic6">Hic</sic> malis futurisque incommodis ac minis <ref n="ref7">Reipublicae
+                  Christianae</ref> cupiens occurrere, <ref n="ref8">
+                  <persName n="persName1">Julius secundus</persName>
                   Pontifex maximus</ref> percussit foedus, inivitque amicitiam cum
-                     <ref n="text.body.div.p3.ref5">
-                  <persName n="text.body.div.p3.ref5.persName">Maximiliano</persName> Romanorum Imperatore electo</ref>, nec
-               non cum <ref n="text.body.div.p3.ref6">Catholica Majestate</ref>, ut junctis simul viribus sint potentiores
+                     <ref n="ref9">
+                  <persName n="persName1">Maximiliano</persName> Romanorum Imperatore electo</ref>, nec
+               non cum <ref n="ref10">Catholica Majestate</ref>, ut junctis simul viribus sint potentiores
                fortioresque adversus rapacissimum lupum, communem omnium hostem et inimicum, quo
-               domito et fortissimis nodis religato, pacatis rebus in <placeName n="text.body.div.p3.placeName3">Italia</placeName>
-               cum unanimo consensu omnium <ref n="text.body.div.p3.ref7">Christianorum principum</ref>, accingent se ad
-               sanctissimam expeditionem contra <persName n="text.body.div.p3.persName1">Turchas</persName>, ad quam idem
-                  <ref n="text.body.div.p3.ref8">Summus Pontifex</ref>, nedum in hoc suo felici faustoque pontificatu, sed
+               domito et fortissimis nodis religato, pacatis rebus in <placeName n="placeName11">Italia</placeName>
+               cum unanimo consensu omnium <ref n="ref12">Christianorum principum</ref>, accingent se ad
+               sanctissimam expeditionem contra <persName n="persName13">Turchas</persName>, ad quam idem
+                  <ref n="ref14">Summus Pontifex</ref>, nedum in hoc suo felici faustoque pontificatu, sed
                adhuc in minoribus constitutus, toto mentis affectu summopere semper continuoque
-                  <sic n="text.body.div.p3.sic3">hanelavit</sic>. Ad hanc prolocutam pacem, vos quoque amplissimos patres
+                  <sic n="sic15">hanelavit</sic>. Ad hanc prolocutam pacem, vos quoque amplissimos patres
                tamquam fìlios paterno amore invitat charitativisque monitionibus per viscera
-               misericordiae <ref n="text.body.div.p3.ref9">Dei nostri</ref> hortatur, ut ejusdem foederis sancitaeque
+               misericordiae <ref n="ref16">Dei nostri</ref> hortatur, ut ejusdem foederis sancitaeque
                amicitiae ac prolocutae pacis velitis esse participes, ne, si secus feceritis, parens
                ipse vester necessitate constrictus cogatur deserere vos fìlios, immo in vos armis
-               spiritualibus et temporalibus acriter insurgere, sicut et <persName n="text.body.div.p3.persName2">Brutus</persName>
-               insurrexit in mortem filii, et <persName n="text.body.div.p3.persName3">Saul</persName> in
-                  <persName n="text.body.div.p3.persName4">Jonatham</persName> primogenitum ob neglecta praecepta. <milestone unit="column" n="text.body.div.p3.milestone"/> Dicet forte quispiam vestrum praecepta haec nimis dura
+               spiritualibus et temporalibus acriter insurgere, sicut et <persName n="persName17">Brutus</persName>
+               insurrexit in mortem filii, et <persName n="persName18">Saul</persName> in
+                  <persName n="persName19">Jonatham</persName> primogenitum ob neglecta praecepta. <milestone unit="column" n="milestone20"/> Dicet forte quispiam vestrum praecepta haec nimis dura
                sunt, et conditiones pacis quae nobis offeruntur admodum graves. </p>
-            <p n="text.body.div.p4"> Huic ego respondeo: durum graveque <persName n="text.body.div.p4.persName">Romanis</persName> videbatur dimittere
-                  <placeName n="text.body.div.p4.placeName">Siciliam</placeName> fertilissimam insulam uberrimum horreum
-                  <ref n="text.body.div.p4.ref1">populi Romani</ref>, quam tamen in conditionibus pacis adversariis dimittere
-               sunt coacti. Durum insuper est <ref n="text.body.div.p4.ref2">illud evangelicum</ref>: <q n="text.body.div.p4.q">si quis voluerit
-                  tecum in <sic n="text.body.div.p4.q.sic">juditio</sic> contendere et petierit a te tunicam, dimitte ei
-                  pallium.</q> Dura quoque lex <sic n="text.body.div.p4.sic1">multotiens</sic> promulgatur; sed ex
-                  <sic n="text.body.div.p4.sic2">cauxa</sic> necessaria <sic n="text.body.div.p4.sic3">tolleratur</sic> et fertur. Verum, quia haec
+            <p n="p6"> Huic ego respondeo: durum graveque <persName n="persName1">Romanis</persName> videbatur dimittere
+                  <placeName n="placeName2">Siciliam</placeName> fertilissimam insulam uberrimum horreum
+                  <ref n="ref3">populi Romani</ref>, quam tamen in conditionibus pacis adversariis dimittere
+               sunt coacti. Durum insuper est <ref n="ref4">illud evangelicum</ref>: <q n="q5">si quis voluerit
+                  tecum in <sic n="sic1">juditio</sic> contendere et petierit a te tunicam, dimitte ei
+                  pallium.</q> Dura quoque lex <sic n="sic6">multotiens</sic> promulgatur; sed ex
+                  <sic n="sic7">cauxa</sic> necessaria <sic n="sic8">tolleratur</sic> et fertur. Verum, quia haec
                quaestio altiores radices habet secretioraque ac magis minuta consilia expostulat,
                ideo illam et quaedam alia quae in mandatis habeo in diem sequentem vel alias, pro
                vestra commoditate differo. </p>
-            <closer n="text.body.div.closer">Dixi.</closer>
+            <closer n="closer7">Dixi.</closer>
          </div>
       </body>
    </text>

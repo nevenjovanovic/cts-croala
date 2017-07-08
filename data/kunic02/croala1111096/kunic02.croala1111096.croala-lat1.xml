@@ -91,6 +91,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -135,49 +149,49 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:kunic02.croala1111096.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="poesis-elegia-paraphrasis" met="elegiacum">
+      <body n="body1">
+         <div n="div1" type="poesis-elegia-paraphrasis" met="elegiacum">
             
-            <l n="text.body.div.l1">Maecenas, Regum sanguis, quo nitor et unde</l>
-            <l n="text.body.div.l2" met="pentameter">Hoc quodcumque mei nominis omne venit,</l>
-            <l n="text.body.div.l3">Sunt quos <sic n="text.body.div.l3.sic">Alphaeae</sic> bijugus prope flumina Pisae</l>
-            <l n="text.body.div.l4" met="pentameter">Cursus, et elati pulveris unda juvat,</l>
-            <l n="text.body.div.l5">Et vitata rotis ferventibus obvia meta,</l>
-            <l n="text.body.div.l6" met="pentameter">Et palma ad summos evehit usque deos.</l>
-            <l n="text.body.div.l7">Hunc si mobilior fluctuque, et nube Quiritum</l>
-            <l n="text.body.div.l8" met="pentameter">Tollere tergemino certet honore favor,</l>
-            <l n="text.body.div.l9">Illum si <sic n="text.body.div.l9.sic">Lybicas</sic> congessit in horrea messes</l>
-            <l n="text.body.div.l10" met="pentameter">Gaudentem patrios findere sarculo agros.</l>
-            <l n="text.body.div.l11">Non raro Attalicae labefactes munere vertis,</l>
-            <l n="text.body.div.l12" met="pentameter">Non auro aut cari deliciis lapidis,</l>
-            <l n="text.body.div.l13">Pallidus ut Cypriae credat se Nauta carinae,</l>
-            <l n="text.body.div.l14" met="pentameter">Et velit Ionio pandere vela Mari.</l>
-            <l n="text.body.div.l15">Mercator validis ponto luctantibus Austris</l>
-            <l n="text.body.div.l16" met="pentameter">Frigida cum trepido corda timore micant,</l>
-            <l n="text.body.div.l17">Pagumque exiguamque Domum, parvosque Penates,</l>
-            <l n="text.body.div.l18" met="pentameter">Et ruris laudat jugera pauca sui;</l>
-            <l n="text.body.div.l19">Mox reficit diro quassatam turbine puppim,</l>
-            <l n="text.body.div.l20" met="pentameter">Pauperiem duram nescius ille pati.</l>
-            <l n="text.body.div.l21">Est qui nec fregisse diem, nec mollia spernat</l>
-            <l n="text.body.div.l22" met="pentameter">Serta, nec annoso pocula plena mero.</l>
-            <l n="text.body.div.l23">Stratus vel rara qua procubat arbutus umbra,</l>
-            <l n="text.body.div.l24" met="pentameter">Lympha vel e sacro garrula fonte cadit.</l>
-            <l n="text.body.div.l25">Martia castra placent multis, lituisque tubarum</l>
-            <l n="text.body.div.l26" met="pentameter">Vox permixta fer murmure dulce sonat;</l>
-            <l n="text.body.div.l27">Dulce micant enses; nec torva in bella ruentes</l>
-            <l n="text.body.div.l28" met="pentameter">Maesta tenet damnans proelia saeva Parens.</l>
-            <l n="text.body.div.l29">Venator noctem ducit nive stratus in alta,</l>
-            <l n="text.body.div.l30" met="pentameter">Fertque pruinosi frigora longa Iovis,</l>
-            <l n="text.body.div.l31">Seu celerem catuli cervam videre fideles.</l>
-            <l n="text.body.div.l32" met="pentameter">Obvia seu rupit retia Marsus aper.</l>
-            <l n="text.body.div.l33">Me superis miscent, doctorum praemia vatum,</l>
-            <l n="text.body.div.l34" met="pentameter">Lauri, me molles, <sic n="text.body.div.l34.sic">bacchica</sic> serta, hederae;</l>
-            <l n="text.body.div.l35">Me nemus abducit Populo, me frigida rupes,</l>
-            <l n="text.body.div.l36" met="pentameter">Nympharumque leves cum Satyris choreae;</l>
-            <l n="text.body.div.l37">Si mihi Lesborum dulcis Polyhymnia tendit</l>
-            <l n="text.body.div.l38" met="pentameter">Barbiton, aut buxum candida non cohibet</l>
-            <l n="text.body.div.l39">Euterpe, Lyricis quod si me vatibus addes,</l>
-            <l n="text.body.div.l40" met="pentameter">Orbem alto feriam vertice signiferum.</l>
+            <l n="l1">Maecenas, Regum sanguis, quo nitor et unde</l>
+            <l n="l2" met="pentameter">Hoc quodcumque mei nominis omne venit,</l>
+            <l n="l3">Sunt quos <sic n="sic1">Alphaeae</sic> bijugus prope flumina Pisae</l>
+            <l n="l4" met="pentameter">Cursus, et elati pulveris unda juvat,</l>
+            <l n="l5">Et vitata rotis ferventibus obvia meta,</l>
+            <l n="l6" met="pentameter">Et palma ad summos evehit usque deos.</l>
+            <l n="l7">Hunc si mobilior fluctuque, et nube Quiritum</l>
+            <l n="l8" met="pentameter">Tollere tergemino certet honore favor,</l>
+            <l n="l9">Illum si <sic n="sic1">Lybicas</sic> congessit in horrea messes</l>
+            <l n="l10" met="pentameter">Gaudentem patrios findere sarculo agros.</l>
+            <l n="l11">Non raro Attalicae labefactes munere vertis,</l>
+            <l n="l12" met="pentameter">Non auro aut cari deliciis lapidis,</l>
+            <l n="l13">Pallidus ut Cypriae credat se Nauta carinae,</l>
+            <l n="l14" met="pentameter">Et velit Ionio pandere vela Mari.</l>
+            <l n="l15">Mercator validis ponto luctantibus Austris</l>
+            <l n="l16" met="pentameter">Frigida cum trepido corda timore micant,</l>
+            <l n="l17">Pagumque exiguamque Domum, parvosque Penates,</l>
+            <l n="l18" met="pentameter">Et ruris laudat jugera pauca sui;</l>
+            <l n="l19">Mox reficit diro quassatam turbine puppim,</l>
+            <l n="l20" met="pentameter">Pauperiem duram nescius ille pati.</l>
+            <l n="l21">Est qui nec fregisse diem, nec mollia spernat</l>
+            <l n="l22" met="pentameter">Serta, nec annoso pocula plena mero.</l>
+            <l n="l23">Stratus vel rara qua procubat arbutus umbra,</l>
+            <l n="l24" met="pentameter">Lympha vel e sacro garrula fonte cadit.</l>
+            <l n="l25">Martia castra placent multis, lituisque tubarum</l>
+            <l n="l26" met="pentameter">Vox permixta fer murmure dulce sonat;</l>
+            <l n="l27">Dulce micant enses; nec torva in bella ruentes</l>
+            <l n="l28" met="pentameter">Maesta tenet damnans proelia saeva Parens.</l>
+            <l n="l29">Venator noctem ducit nive stratus in alta,</l>
+            <l n="l30" met="pentameter">Fertque pruinosi frigora longa Iovis,</l>
+            <l n="l31">Seu celerem catuli cervam videre fideles.</l>
+            <l n="l32" met="pentameter">Obvia seu rupit retia Marsus aper.</l>
+            <l n="l33">Me superis miscent, doctorum praemia vatum,</l>
+            <l n="l34" met="pentameter">Lauri, me molles, <sic n="sic1">bacchica</sic> serta, hederae;</l>
+            <l n="l35">Me nemus abducit Populo, me frigida rupes,</l>
+            <l n="l36" met="pentameter">Nympharumque leves cum Satyris choreae;</l>
+            <l n="l37">Si mihi Lesborum dulcis Polyhymnia tendit</l>
+            <l n="l38" met="pentameter">Barbiton, aut buxum candida non cohibet</l>
+            <l n="l39">Euterpe, Lyricis quod si me vatibus addes,</l>
+            <l n="l40" met="pentameter">Orbem alto feriam vertice signiferum.</l>
             
          </div>
       </body>

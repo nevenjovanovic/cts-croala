@@ -93,6 +93,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -143,94 +160,94 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:hektor01.croala1853610.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div1" type="poesis-epigramma" met="elegiacum">
-            <head n="text.body.div1.head">1. PETRUS HECTOREUS MICHAELI AEMILIO PRAEDICTO<note n="text.body.div1.head.note">t. j. Mikši Pelegrinoviću</note> CUM IDEM AEMILIUS AD BAPTISMUM SUAE FILIAE IPSUM PRO COMPATRE VOCAVISSET.</head> 
-            <note n="text.body.div1.note">
-               <date n="text.body.div1.note.date" notBefore="1558">1558</date>
+      <body n="body1">
+         <div n="div1" type="poesis-epigramma" met="elegiacum">
+            <head n="head1">1. PETRUS HECTOREUS MICHAELI AEMILIO PRAEDICTO<note n="note1">t. j. Mikši Pelegrinoviću</note> CUM IDEM AEMILIUS AD BAPTISMUM SUAE FILIAE IPSUM PRO COMPATRE VOCAVISSET.</head> 
+            <note n="note2">
+               <date n="date1" notBefore="1558">1558</date>
             </note>
-            <l n="text.body.div1.l1">Compater excellens, salve, mihi dulcior illo</l> 
-            <l n="text.body.div1.l2" met="pentameter">
-               <choice n="text.body.div1.l2.choice">
-                  <reg n="text.body.div1.l2.choice.reg">melle</reg>
-                  <sic n="text.body.div1.l2.choice.sic">mele</sic>
+            <l n="l3">Compater excellens, salve, mihi dulcior illo</l> 
+            <l n="l4" met="pentameter">
+               <choice n="choice1">
+                  <reg n="reg1">melle</reg>
+                  <sic n="sic2">mele</sic>
                </choice>, quod in caeris laeta recondit apis.</l> 
-            <l n="text.body.div1.l3">Filia, maternos mores imitata tuosque</l> 
-            <l n="text.body.div1.l4" met="pentameter">vivat, foelicem mox aditura virum.</l> 
-            <l n="text.body.div1.l5">Livia Nestoreos tecum tua transeat annos</l>
-            <l n="text.body.div1.l6" met="pentameter">conjux, quae tali conjuge digna fuit.</l> 
+            <l n="l5">Filia, maternos mores imitata tuosque</l> 
+            <l n="l6" met="pentameter">vivat, foelicem mox aditura virum.</l> 
+            <l n="l7">Livia Nestoreos tecum tua transeat annos</l>
+            <l n="l8" met="pentameter">conjux, quae tali conjuge digna fuit.</l> 
          </div> 
-         <div n="text.body.div2" type="poesis-epigramma" met="elegiacum">
-            <head n="text.body.div2.head">2. <choice n="text.body.div2.head.choice">
-                  <corr n="text.body.div2.head.choice.corr">EPITAPHIUM</corr> 
-                  <orig n="text.body.div2.head.choice.orig">EPITHAPHIUM</orig>
+         <div n="div2" type="poesis-epigramma" met="elegiacum">
+            <head n="head1">2. <choice n="choice1">
+                  <corr n="corr1">EPITAPHIUM</corr> 
+                  <orig n="orig2">EPITHAPHIUM</orig>
                </choice> IN TUMULO SCULPTUM PETRI HECTOREI MATRIS.</head> 
-            <note n="text.body.div2.note">
-               <date n="text.body.div2.note.date" notBefore="1556">1556</date>
+            <note n="note2">
+               <date n="date1" notBefore="1556">1556</date>
             </note>
-            <l n="text.body.div2.l1">Hectoreae, Catarina, domus probitatis imago,</l> 
-            <l n="text.body.div2.l2" met="pentameter">hic jacet, o quantum tam brevis urna tenet!</l> 
-            <l n="text.body.div2.l3">Cujus ab exemplo connectes undique lector,</l> 
-            <l n="text.body.div2.l4" met="pentameter">quam memorem Famam, qui bene vixit, habet.</l> 
+            <l n="l3">Hectoreae, Catarina, domus probitatis imago,</l> 
+            <l n="l4" met="pentameter">hic jacet, o quantum tam brevis urna tenet!</l> 
+            <l n="l5">Cujus ab exemplo connectes undique lector,</l> 
+            <l n="l6" met="pentameter">quam memorem Famam, qui bene vixit, habet.</l> 
   
          </div> 
-         <div n="text.body.div3" type="poesis-epigramma" met="elegiacum">
+         <div n="div3" type="poesis-epigramma" met="elegiacum">
   
    
   
-            <head n="text.body.div3.head">3. RESPONSUM PETRI HECTOREI <choice n="text.body.div3.head.choice">
-                  <corr n="text.body.div3.head.choice.corr">EPISTOLAE</corr> 
-                  <orig n="text.body.div3.head.choice.orig">AEPISTOLAE</orig>
+            <head n="head1">3. RESPONSUM PETRI HECTOREI <choice n="choice1">
+                  <corr n="corr1">EPISTOLAE</corr> 
+                  <orig n="orig2">AEPISTOLAE</orig>
                </choice> HIERONIMI BERTUCII, QUI AB EO SCIRE CUPIEBAT, QUA SIT AD SUPEROS ITER.</head> 
-            <note n="text.body.div3.note">
-               <date n="text.body.div3.note.date" notBefore="1552" notAfter="1557" precision="medium">1552-1557</date>
+            <note n="note2">
+               <date n="date1" notBefore="1552" notAfter="1557" precision="medium">1552-1557</date>
             </note>
-            <l n="text.body.div3.l1">Ad superos, si scire cupis, virtutis alumne,</l> 
-            <l n="text.body.div3.l2" met="pentameter">corporis exuto pondere qua sit iter;</l> 
-            <l n="text.body.div3.l3">hortulus ostendet noster, breve namque, quod optas,</l> 
-            <l n="text.body.div3.l4" met="pentameter">in gelido sculptum limine carmen habet.</l> 
+            <l n="l3">Ad superos, si scire cupis, virtutis alumne,</l> 
+            <l n="l4" met="pentameter">corporis exuto pondere qua sit iter;</l> 
+            <l n="l5">hortulus ostendet noster, breve namque, quod optas,</l> 
+            <l n="l6" met="pentameter">in gelido sculptum limine carmen habet.</l> 
   
-            <milestone unit="page" n="text.body.div3.milestone"/>
+            <milestone unit="page" n="milestone7"/>
   
          </div> 
-         <div n="text.body.div4" type="poesis-epigramma" met="elegiacum">
+         <div n="div4" type="poesis-epigramma" met="elegiacum">
   
-            <head n="text.body.div4.head">4. PETRI HECTOREI PHARENSIS CARMEN DE <choice n="text.body.div4.head.choice">
-                  <corr n="text.body.div4.head.choice.corr">LY(A)EO</corr> 
-                  <orig n="text.body.div4.head.choice.orig">LYEO</orig>
+            <head n="head1">4. PETRI HECTOREI PHARENSIS CARMEN DE <choice n="choice1">
+                  <corr n="corr1">LY(A)EO</corr> 
+                  <orig n="orig2">LYEO</orig>
                </choice>. </head>
   
-            <l n="text.body.div4.l1">Viderat Augusto proles Semeleia mense</l> 
-            <l n="text.body.div4.l2" met="pentameter">fervere spumosis dulcia musta cadis;</l> 
-            <l n="text.body.div4.l3">exardensque, sitim cupiens sedare per aestus,</l> 
-            <l n="text.body.div4.l4" met="pentameter">depromsit rapida fervida vina manu.</l> 
-            <l n="text.body.div4.l5">Nec satis est potasse semel cratere liquorem.</l>
-            <l n="text.body.div4.l6" met="pentameter">pleno tam gratum, stat renovare vices.</l> 
-            <l n="text.body.div4.l7">Protinus ardentes flagrans rubor occupat artus,</l> 
-            <l n="text.body.div4.l8" met="pentameter">erubuere genae, blaesaque lingua fuit</l> 
-            <l n="text.body.div4.l9">O quam dulce meum dixit, dixisse potantem</l> 
-            <l n="text.body.div4.l10" met="pentameter">dulce merum, risit rustica turba deum.</l>
-            <l n="text.body.div4.l11">
-               <sic n="text.body.div4.l11.sic">Procabuit</sic>, sertumque cadit, tenuantur ocelli,</l> 
-            <l n="text.body.div4.l12" met="pentameter">ructantis premit hinc turgida membra sopor.</l> 
-            <l n="text.body.div4.l13">Turpiter obscaena detectus parte jacebat,</l> 
-            <l n="text.body.div4.l14" met="pentameter">fabula ruricolae ludibriumque choro.</l> 
-            <l n="text.body.div4.l15">Transiliant nimii mortales munera Bacchi;</l>
-            <l n="text.body.div4.l16" met="pentameter">talia cum laedant pocula sumpta deos.</l> 
+            <l n="l2">Viderat Augusto proles Semeleia mense</l> 
+            <l n="l3" met="pentameter">fervere spumosis dulcia musta cadis;</l> 
+            <l n="l4">exardensque, sitim cupiens sedare per aestus,</l> 
+            <l n="l5" met="pentameter">depromsit rapida fervida vina manu.</l> 
+            <l n="l6">Nec satis est potasse semel cratere liquorem.</l>
+            <l n="l7" met="pentameter">pleno tam gratum, stat renovare vices.</l> 
+            <l n="l8">Protinus ardentes flagrans rubor occupat artus,</l> 
+            <l n="l9" met="pentameter">erubuere genae, blaesaque lingua fuit</l> 
+            <l n="l10">O quam dulce meum dixit, dixisse potantem</l> 
+            <l n="l11" met="pentameter">dulce merum, risit rustica turba deum.</l>
+            <l n="l12">
+               <sic n="sic1">Procabuit</sic>, sertumque cadit, tenuantur ocelli,</l> 
+            <l n="l13" met="pentameter">ructantis premit hinc turgida membra sopor.</l> 
+            <l n="l14">Turpiter obscaena detectus parte jacebat,</l> 
+            <l n="l15" met="pentameter">fabula ruricolae ludibriumque choro.</l> 
+            <l n="l16">Transiliant nimii mortales munera Bacchi;</l>
+            <l n="l17" met="pentameter">talia cum laedant pocula sumpta deos.</l> 
   
          </div> 
-         <div n="text.body.div5" type="poesis-epigramma" met="elegiacum">
+         <div n="div5" type="poesis-epigramma" met="elegiacum">
   
-            <head n="text.body.div5.head">5. EXIMIO ARTIUM ET MEDICINAE <abbr n="text.body.div5.head.abbr">DOCT.</abbr> VINCENTIO VANETTO.</head> 
-            <note n="text.body.div5.note">
-               <date n="text.body.div5.note.date" when="1561" precision="medium">1561</date>
+            <head n="head1">5. EXIMIO ARTIUM ET MEDICINAE <abbr n="abbr1">DOCT.</abbr> VINCENTIO VANETTO.</head> 
+            <note n="note2">
+               <date n="date1" when="1561" precision="medium">1561</date>
             </note>
-            <l n="text.body.div5.l1">Vincenti, clarum nomen cognomine vincens,</l> 
-            <l n="text.body.div5.l2" met="pentameter">et patrios superans nobilitate Lares;</l> 
-            <l n="text.body.div5.l3">cernis, quanta tuae virtutis signa dedisti:</l> 
-            <l n="text.body.div5.l4" met="pentameter">te vult nostra Pharus, te cupit Aspalatum.</l> 
+            <l n="l3">Vincenti, clarum nomen cognomine vincens,</l> 
+            <l n="l4" met="pentameter">et patrios superans nobilitate Lares;</l> 
+            <l n="l5">cernis, quanta tuae virtutis signa dedisti:</l> 
+            <l n="l6" met="pentameter">te vult nostra Pharus, te cupit Aspalatum.</l> 
   
-            <signed n="text.body.div5.signed">Petrus Hectoreus.</signed>
+            <signed n="signed7">Petrus Hectoreus.</signed>
          </div>  
       </body>
    </text>

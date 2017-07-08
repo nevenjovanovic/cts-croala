@@ -98,6 +98,20 @@ történelem, római katolikus egyház, levelezés, pápa, forrás, Vatikán, 15
           <tagUsage gi="unclear" occurs="7"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -152,17 +166,17 @@ unificirano zaglavlje. </change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:vranc01.croala1583421.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div type="prosa-historia" n="text.body.div">
-            <head n="text.body.div.head1">XXXI/1 <date n="text.body.div.head1.date" when="1532">1532.</date> Memoriale Antonii Verantii de statu rerum Hungaricarum a
+      <body n="body1">
+         <div type="prosa-historia" n="div1">
+            <head n="head1">XXXI/1 <date n="date1" when="1532">1532.</date> Memoriale Antonii Verantii de statu rerum Hungaricarum a
 morte regis Ludovici II. usque ad finem anni 1529.</head>
 
 
-            <note n="text.body.div.note1" resp="BJ">Segr. Stato, Principi, 13, f. 55r–57v. Copia.</note>
+            <note n="note2" resp="BJ">Segr. Stato, Principi, 13, f. 55r–57v. Copia.</note>
 
-            <head n="text.body.div.head2">De statu rerum Hungaricarum a morte regis Ludovici secundi usque ad presens tempus, ad finem
+            <head n="head3">De statu rerum Hungaricarum a morte regis Ludovici secundi usque ad presens tempus, ad finem
 anni 1529.</head>
-            <p n="text.body.div.p">Uladislao defuncto Ludovicus filius successit ad huc impubes, qui ducta in uxorem Maria, Caroli
+            <p n="p4">Uladislao defuncto Ludovicus filius successit ad huc impubes, qui ducta in uxorem Maria, Caroli
 caesaris et Ferdinandi tunc Austriae archiducis sorore annum agens vigesimum primum superioribus
 annis in bello contra Turcarum imperatorem Solimanum mortem obiit. Post cuius obitum magna principum
 Hungaricorum parte in illo funesto bello absumpta Stephano de Bathor palatino comite per
@@ -175,102 +189,102 @@ auspiciis Joannem de Zapolya comitem Scepusiensem vaÿvodam Transilvanum unanimi
 regem creant et sequenti die coronant. Cuius coronatione audita illi quoque, qui in Ferdinandum
 inclinare visi fuerant, palatino tantum et duobus aliis exceptis ad eius obedientiam certatim
 concurrunt. Ferdinandus ex altera parte egerius ferens consensu totius Hungariae regnum esse
-<unclear n="text.body.div.p.unclear1">alteri</unclear> traditum<ref n="text.body.div.p.ref1">41</ref> cum illis paucis, qui factionem eius duce palatino
+<unclear n="unclear1">alteri</unclear> traditum<ref n="ref2">41</ref> cum illis paucis, qui factionem eius duce palatino
 sequebantur, bellum parat, quod tamen supervenientibus brevi nivibus et frigore, cuius pedites eius
 lanczkintÿ sunt impatientissimi, fuit dessolutum. Agit nihilominus Ferdinandus apud palatinum, ut
 diaeta quedam per reginam ad Comaren opidum tunc in manibus eius existens locum insularem et ad
 talia prorsus insuetum indicta Possonium transferretur atque ibi electio de se fieret in loco
 similiter infurto paulo ante in suam potestatem per palatinum tradito, ubi palatinus cum illis
 paucis, non in campo et loco libero, quod in electionibus regum Hungariae semper est observatum, sed
-in quadam ecclesia conveniens hortatu reginae, <sic n="text.body.div.p.sic1">qui</sic> in eadem civitate erat, post lapsum
+in quadam ecclesia conveniens hortatu reginae, <sic n="sic3">qui</sic> in eadem civitate erat, post lapsum
 tempus illius etiam reginalis dietae nulla lege, nullo ordine servato, nullo comitatu nobilium, sine
 quibus talia fieri non possunt, presente post coronatum alium legitimum regem Ferdinandum elegit.
-<note n="text.body.div.p.note1" resp="BJ">41 In originali: tractatum. </note>
-               <milestone n="text.body.div.p.milestone1" unit="page"/> Atque in hunc modum mortuo rege Ludovico prius Joannes, postea Ferdinandus
-fit rex Hungariae, ille favore et electione populi, hic partim <gap n="text.body.div.p.gap1" reason="lacuna"/>42, partim
-quorundam contractuum jure a tribus tantum, qui ius eligendi regis <supplied n="text.body.div.p.supplied1" cert="medium">cognoscuntur</supplied> habere, Posonii electus. Interponit deinde partes suas Sigismundus rex e
+<note n="note4" resp="BJ">41 In originali: tractatum. </note>
+               <milestone n="milestone5" unit="page"/> Atque in hunc modum mortuo rege Ludovico prius Joannes, postea Ferdinandus
+fit rex Hungariae, ille favore et electione populi, hic partim <gap n="gap6" reason="lacuna"/>42, partim
+quorundam contractuum jure a tribus tantum, qui ius eligendi regis <supplied n="supplied7" cert="medium">cognoscuntur</supplied> habere, Posonii electus. Interponit deinde partes suas Sigismundus rex e
 Polonia, utriusque regis cognatus pro concordia, cuius autoritate fit conventus Olomucii in civitate
 Moravici. Ad quem cum ab his tribus regibus primores consiliarii missi fuissent tractandae
-concordiae gratia, re infecta inde redierunt Joanne et ibi et postea semper <expan n="text.body.div.p.expan">iustitiam</expan>
-implorante et ius suum cognitioni regis Poloniae gratiosissimi domini <gap n="text.body.div.p.gap2" reason="lacuna"/>43
-pos<gap n="text.body.div.p.gap3" reason="lacuna"/>44 alterius hominis Christiani submittente, Ferdinando ne <gap n="text.body.div.p.gap4" reason="lacuna"/>45 quidem juris et justitiae audire volente, sed hoc tantum dicente nolle se
-intrare in iudicium cum servo et vassallo, ita enim Joannem appellabat. <unclear n="text.body.div.p.unclear2">Hic</unclear>
+concordiae gratia, re infecta inde redierunt Joanne et ibi et postea semper <expan n="expan8">iustitiam</expan>
+implorante et ius suum cognitioni regis Poloniae gratiosissimi domini <gap n="gap9" reason="lacuna"/>43
+pos<gap n="gap10" reason="lacuna"/>44 alterius hominis Christiani submittente, Ferdinando ne <gap n="gap11" reason="lacuna"/>45 quidem juris et justitiae audire volente, sed hoc tantum dicente nolle se
+intrare in iudicium cum servo et vassallo, ita enim Joannem appellabat. <unclear n="unclear12">Hic</unclear>
 postea venitur ad arma, et nostro fato vel infelicitate Joannis primores Hungariae: Paulus
-archiepiscopus Strigoniensis, Petrus Veremi<ref n="text.body.div.p.ref2">46</ref> waÿvoda Transilvanus, cui Joannes coronam
-regni servandam tradiderat, Andreas Bathori, Franciscus Bothiani<ref n="text.body.div.p.ref3">47</ref>, et non nulli alii, in
+archiepiscopus Strigoniensis, Petrus Veremi<ref n="ref13">46</ref> waÿvoda Transilvanus, cui Joannes coronam
+regni servandam tradiderat, Andreas Bathori, Franciscus Bothiani<ref n="ref14">47</ref>, et non nulli alii, in
 quos Joannes vires et facultates suas partitus fuerat, quibus maxime confidebat, ad Ferdinandum
 deficiunt, ea etiam spe, quod ille eis policebatur non solum certissimam recuperationem omnium sub
 rege Ludovico et Ladislao amissorum, sed etiam longe maiora. Joannes igitur desertus a suis, licet
-sua regia pulsus tam diu, tamen regnum <unclear n="text.body.div.p.unclear3">est</unclear> retinere conatus, donec habito <gap n="text.body.div.p.gap5" reason="lacuna"/>48 cum hoste praelio (ibi quoque non tam ab hostibus victus, <sic n="text.body.div.p.sic2">quia</sic> a suis
+sua regia pulsus tam diu, tamen regnum <unclear n="unclear15">est</unclear> retinere conatus, donec habito <gap n="gap16" reason="lacuna"/>48 cum hoste praelio (ibi quoque non tam ab hostibus victus, <sic n="sic17">quia</sic> a suis
 pugnare contra suos nolentibus desertus) in Poloniam profugit detenta tamen in sua dictione libere
 tota illa Hungariae parte, quae est inter montes Carpatios, qui Poloniam et Russiam ab Hungaria
 dividunt, et inter Themesvar, inter Tibiscum porro fluvium et Transilvaniam ad
-<unclear n="text.body.div.p.unclear4">haec</unclear> tota fere Sclavonia, magna parte Transilvanie ex favore occulto in animis
+<unclear n="unclear18">haec</unclear> tota fere Sclavonia, magna parte Transilvanie ex favore occulto in animis
 Hungarorum per totam Hungariam sparso. Etiam Ferdinandus habita corona regni a Petro Perenÿ in Alba
 Regali in solennibus comitiis et ipse coronatus fuerat. Joanne porro in Polonia exulante rex
-Poloniae rursus concordiam tentat, sed <gap n="text.body.div.p.gap6" reason="lacuna"/>49 Ioanne tunc ad omnia iusta et
-honesta parato, et <gap n="text.body.div.p.gap7" reason="lacuna"/>50 parato, quae si referantur, vix fidem habebunt apud
-alios, quam qui rem ipsam <unclear n="text.body.div.p.unclear5">tentaverunt</unclear>, id quod pro bono et salute
+Poloniae rursus concordiam tentat, sed <gap n="gap19" reason="lacuna"/>49 Ioanne tunc ad omnia iusta et
+honesta parato, et <gap n="gap20" reason="lacuna"/>50 parato, quae si referantur, vix fidem habebunt apud
+alios, quam qui rem ipsam <unclear n="unclear21">tentaverunt</unclear>, id quod pro bono et salute
 Christianitatis, non rerum suarum desperatione, iam enim certus erat sibi amicitiam Thurci esse
 paratam. Ambo enim iam antea legationem ad Turchum miserant pacem petitum, sed Joannes non prius,
 quam Ferdinandi littere manu eius subscriptae fuerint interceptae, id a Turca
-<unclear n="text.body.div.p.unclear6">perdamnificatum</unclear>. Potentes ambo igitur fere eodem tempore cum pro hoc ad Turcam
-misissent, Turchus Joannis amplectitur amicitiam, <note n="text.body.div.p.note2" resp="BJ">42 Litterae sex – circiter in
+<unclear n="unclear22">perdamnificatum</unclear>. Potentes ambo igitur fere eodem tempore cum pro hoc ad Turcam
+misissent, Turchus Joannis amplectitur amicitiam, <note n="note23" resp="BJ">42 Litterae sex – circiter in
 longitudine 2 cm – sunt illegibiles.</note>
-               <note n="text.body.div.p.note3" resp="BJ">43 Abbreviatio – in longitudine circiter 0,5 cm – legi non potest.</note>
-               <note n="text.body.div.p.note4" resp="BJ">44 Locus circiter litterarum quattuor (1 cm) exesus. </note>
-               <note n="text.body.div.p.note5" resp="BJ">45 Locus circiter litterarum quattuor (1,5 cm) exesus. </note>
-               <note n="text.body.div.p.note6" resp="BJ">46 Petrus de Peren. </note>
-               <note n="text.body.div.p.note7" resp="BJ">47 Franciscus de Batthyan. </note>
-               <note n="text.body.div.p.note8" resp="BJ">48 Litterae – circiter quattuor in longitudine 1,5 cm – sunt illegibiles. </note>
-               <note n="text.body.div.p.note9" resp="BJ">49 Litterae circiter septemdecim – in longitudinem 7 cm – sunt illegibiles. </note>
-               <note n="text.body.div.p.note10" resp="BJ">50 Desideratur in longitudine 2 cm locus litterarum circiter quinque. </note>
-               <milestone n="text.body.div.p.milestone2" unit="page"/> Ferdinando pacem non negat, sed ita: Ferdinandus prius libere in Hungariam
+               <note n="note24" resp="BJ">43 Abbreviatio – in longitudine circiter 0,5 cm – legi non potest.</note>
+               <note n="note25" resp="BJ">44 Locus circiter litterarum quattuor (1 cm) exesus. </note>
+               <note n="note26" resp="BJ">45 Locus circiter litterarum quattuor (1,5 cm) exesus. </note>
+               <note n="note27" resp="BJ">46 Petrus de Peren. </note>
+               <note n="note28" resp="BJ">47 Franciscus de Batthyan. </note>
+               <note n="note29" resp="BJ">48 Litterae – circiter quattuor in longitudine 1,5 cm – sunt illegibiles. </note>
+               <note n="note30" resp="BJ">49 Litterae circiter septemdecim – in longitudinem 7 cm – sunt illegibiles. </note>
+               <note n="note31" resp="BJ">50 Desideratur in longitudine 2 cm locus litterarum circiter quinque. </note>
+               <milestone n="milestone32" unit="page"/> Ferdinando pacem non negat, sed ita: Ferdinandus prius libere in Hungariam
 permittat, deinde Polono et Venetis sit amicus, postremo regi Christianissimo reddi curet. Ferunt
-additum in responso illo [<supplied n="text.body.div.p.supplied2" cert="medium">nescio</supplied>?], quid et de pontifice Romano –
+additum in responso illo [<supplied n="supplied33" cert="medium">nescio</supplied>?], quid et de pontifice Romano –
 quae quidem nisi Ferdinandus faciat, bellum sibi paratum esse intelligat. Ferdinandus nihil iis
 belli rationibus deterritus bellum et ipse parat, sed ita, ut de eo illud fortasse dicere posses,
 quod Virgilius de Troili cum Achille congresso dixit Infelix puer atque impar congressus
-Achilli<ref n="text.body.div.p.ref4">51</ref> Ubi Joannes fit certior de tanto belli apparatu Turcico veritus id, quod
+Achilli<ref n="ref34">51</ref> Ubi Joannes fit certior de tanto belli apparatu Turcico veritus id, quod
 evenit, consulens non solum reipublice Christianae, sed etiam inimico mittit ad Thurcum medio Ibraym
 bassa a Christianitate avertendum. Quod ubi nullo modo impetrari potest Turca in Ferdinandum, mira
 et incredibili ira percito, quod reliquum erat, dat omnem operam, ut regnum suum conservat, accedens
 in persona propria ad Turcum in Hungariam intrantem nihil ibi pretermittens in salutem regni sui
-procurare, quicquid a Christiano principe <gap n="text.body.div.p.gap8" reason="lacuna"/>52. Etiam Thurcus habito Joanne rege
+procurare, quicquid a Christiano principe <gap n="gap35" reason="lacuna"/>52. Etiam Thurcus habito Joanne rege
 colloquio Budam, postea et alia omnia penes Danubium usque Posonium capit et ad Joannis, ut
-promiserat, manus tradit non reperto<ref n="text.body.div.p.ref5">53</ref> aut viso<ref n="text.body.div.p.ref6">54</ref> adversario obvia queque
+promiserat, manus tradit non reperto<ref n="ref36">53</ref> aut viso<ref n="ref37">54</ref> adversario obvia queque
 ferro et igni vastat et diripit, adultos fere omnes obtruncat, adolescentes et impuberes promiscui
 sexus captos abducit. A Vienne obsidione temporis iniquitate repellitur, revertens Constantinopolim
 cum integro exercitu Joannem Budae repertum amicissimis verbis affatus honorificentissime muneratum
 regem in libero regno relinquit pollicitus ei non solum sinceram amicitiam, sed et contra quoscunque
 inimicos maxime contra archiducem Austriae auxilia totiens, quotiens esset opus, etiam in persona
 propria, testatus in eo sermone, quem cum rege habuit, non displicere sibi, quod rex haberet
-amicitiam Christianissimi regis Franciae, cuius oratorem apud regem <unclear n="text.body.div.p.unclear7">provideret</unclear>,
+amicitiam Christianissimi regis Franciae, cuius oratorem apud regem <unclear n="unclear38">provideret</unclear>,
 et aliorum etiam principum Christianorum atque inibi Paulo etiam archiepiscopo de Strigoniensi,
 Petro item Perenÿ tunc captivo regio, paulo ante waiwode Transilvano – quos ambos superius
-nominavimus – gratiam a rege impetrat. Res in hunc modum se habet. Nunc<ref n="text.body.div.p.ref7">55</ref> Joannes in
+nominavimus – gratiam a rege impetrat. Res in hunc modum se habet. Nunc<ref n="ref39">55</ref> Joannes in
 regnum restitutus regni etiam corona, quam Ferdinando traditam fuisse diximus, recuperata nihil
 aliud querit, nisi pacem et quietem suam et regni sui et amicitiam principum Christianorum, Sedis
 autem Apostolicae paternam benedictionem. Ferdinandus, si adhuc Hungariam turbare porrexerit, etiam
 si quid damna inferat, nihil aliud faciet, nisi quod hactenus fecit, ut et Christianos vexet et
 congerat carbones igneos super caput suum, id est provocet rursus contra se potentissimum inimicum.
-Qui si redierit – sicut rediturum si Ferdinandus non queat [<supplied n="text.body.div.p.supplied3" cert="medium">avertere</supplied>?], nemo dubitet –, longe maiora faciet, quam proxima expeditione fecit, neque
+Qui si redierit – sicut rediturum si Ferdinandus non queat [<supplied n="supplied40" cert="medium">avertere</supplied>?], nemo dubitet –, longe maiora faciet, quam proxima expeditione fecit, neque
 est quisquis preter Deum rebus presertim Christianis sic stantibus, qui possit eius viribus
-resistere, quicquid fortasse aliqui Christiani <gap n="text.body.div.p.gap9" reason="lacuna"/>56. <note n="text.body.div.p.note11" resp="BJ">51
+resistere, quicquid fortasse aliqui Christiani <gap n="gap41" reason="lacuna"/>56. <note n="note42" resp="BJ">51
 Vergilius (475. I. Aen.)</note>
-               <note n="text.body.div.p.note12" resp="BJ">52 Desideratur in longitudine 3 cm locus litterarum circiter octo. </note>
-               <note n="text.body.div.p.note13" resp="BJ">53 In origine: repente. </note>
-               <note n="text.body.div.p.note14" resp="BJ">54 In originale: usque. </note>
-               <note n="text.body.div.p.note15" resp="BJ">55 In originali: Hunc. </note>
-               <note n="text.body.div.p.note16" resp="BJ">56 Locus litterarum circiter decem – in longitudine 3 cm – est illegibilis.</note>
-               <milestone n="text.body.div.p.milestone3" unit="page"/> Nec<ref n="text.body.div.p.ref8">57</ref> est quisquam persuadeat Joanne vivo, et cum Ferdinando in
+               <note n="note43" resp="BJ">52 Desideratur in longitudine 3 cm locus litterarum circiter octo. </note>
+               <note n="note44" resp="BJ">53 In origine: repente. </note>
+               <note n="note45" resp="BJ">54 In originale: usque. </note>
+               <note n="note46" resp="BJ">55 In originali: Hunc. </note>
+               <note n="note47" resp="BJ">56 Locus litterarum circiter decem – in longitudine 3 cm – est illegibilis.</note>
+               <milestone n="milestone48" unit="page"/> Nec<ref n="ref49">57</ref> est quisquam persuadeat Joanne vivo, et cum Ferdinando in
 concordiam non adducto Hungariam Ferdinandi fore et si Joanni mors inter ista contingat, quis
 dubitat Turcum vel alium regem pro voto suo Hungariae impositurum, Joanne longe ferociorem et
 intractabiliorem, vel Hungariam (quod magis est timendum) pro se occupaturum et ex regno in
 provinciam redacturum, quod Thurci sangiacatum vocant.</p>
 
 
-            <note n="text.body.div.note2" resp="BJ">Annotatio: Cit. KOLLÁNYI 1905, p. 323.</note>
+            <note n="note5" resp="BJ">Annotatio: Cit. KOLLÁNYI 1905, p. 323.</note>
 
          </div>
       </body>

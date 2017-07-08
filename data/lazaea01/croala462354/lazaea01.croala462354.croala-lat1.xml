@@ -92,6 +92,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -145,110 +156,110 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:lazaea01.croala462354.croala-lat1:" xml:lang="lat">
-      <front n="text.front">
-         <docAuthor n="text.front.docAuthor">Philippa Lazaea Polana Illyrica</docAuthor>
-         <titlePart n="text.front.titlePart">Epigrammata et odae</titlePart>
+      <front n="front1">
+         <docAuthor n="docAuthor1">Philippa Lazaea Polana Illyrica</docAuthor>
+         <titlePart n="titlePart2">Epigrammata et odae</titlePart>
       </front>
-      <body n="text.body">
+      <body n="body2">
      
       
       
         
       
-         <div n="text.body.div1" met="hendecasyllabus">
-            <pb n="text.body.div1.pb1"/>
-            <l n="text.body.div1.l1">Hem: quid aspicio? labella cuja haec?</l>
-            <l n="text.body.div1.l2">Tincta Cecropio labella melle.</l>
-            <l n="text.body.div1.l3">Cujus sunt oculi lepore pleni?</l>
-            <l n="text.body.div1.l4">Haec spirantia cujus ora? nonne</l>
-            <l n="text.body.div1.l5">Picta est haec facies mei sodalis</l>
-            <l n="text.body.div1.l6">Boissardi? facilis Camoena cujus</l>
-            <l n="text.body.div1.l7">Manum instruxit Apollinisque doctam</l>
-            <l n="text.body.div1.l8">Indulsit citharam: Hercle Ianus iste est</l>
-            <pb n="text.body.div1.pb2"/>
-            <l n="text.body.div1.l9">Natus Sequanica Vesuntione.</l>
-            <l n="text.body.div1.l10">Vivis, Iane, igitur tuosque vultus</l>
-            <l n="text.body.div1.l11">Expressos tabulis Apollodori</l>
-            <l n="text.body.div1.l12">Totus noverit orbis: At pol illos</l>
-            <l n="text.body.div1.l13">Tersis carminibus tuae Thaleiae</l>
-            <l n="text.body.div1.l14">A morte interituque vindicasti.</l>
+         <div n="div1" met="hendecasyllabus">
+            <pb n="pb1"/>
+            <l n="l2">Hem: quid aspicio? labella cuja haec?</l>
+            <l n="l3">Tincta Cecropio labella melle.</l>
+            <l n="l4">Cujus sunt oculi lepore pleni?</l>
+            <l n="l5">Haec spirantia cujus ora? nonne</l>
+            <l n="l6">Picta est haec facies mei sodalis</l>
+            <l n="l7">Boissardi? facilis Camoena cujus</l>
+            <l n="l8">Manum instruxit Apollinisque doctam</l>
+            <l n="l9">Indulsit citharam: Hercle Ianus iste est</l>
+            <pb n="pb10"/>
+            <l n="l11">Natus Sequanica Vesuntione.</l>
+            <l n="l12">Vivis, Iane, igitur tuosque vultus</l>
+            <l n="l13">Expressos tabulis Apollodori</l>
+            <l n="l14">Totus noverit orbis: At pol illos</l>
+            <l n="l15">Tersis carminibus tuae Thaleiae</l>
+            <l n="l16">A morte interituque vindicasti.</l>
          </div>
-        <div n="text.body.div2" met="sapphicum">
-            <pb n="text.body.div2.pb1"/>
-            <head n="text.body.div2.head">Ad I. I. Boissardum Philippa Lazaea.</head>
-            <l n="text.body.div2.l1">Magnum opus tentat, variaeque plenum</l>
-            <l n="text.body.div2.l2">Difficultatis, studet in futuro</l>
-            <l n="text.body.div2.l3">Qui sibi veri titulos honoris</l>
-            <l n="text.body.div2.l4">Quaerere saeclo.</l>
+        <div n="div2" met="sapphicum">
+            <pb n="pb1"/>
+            <head n="head2">Ad I. I. Boissardum Philippa Lazaea.</head>
+            <l n="l3">Magnum opus tentat, variaeque plenum</l>
+            <l n="l4">Difficultatis, studet in futuro</l>
+            <l n="l5">Qui sibi veri titulos honoris</l>
+            <l n="l6">Quaerere saeclo.</l>
         
-            <pb n="text.body.div2.pb2"/>
+            <pb n="pb7"/>
         
-            <l n="text.body.div2.l5">Hos ita exculto assequeris labore,</l>
-            <l n="text.body.div2.l6">Iane, dum cura vigili ora viva</l>
-            <l n="text.body.div2.l7">Caesarum longa serie Sophorumque</l>
-            <l n="text.body.div2.l8">Exprimis arte.</l>
+            <l n="l8">Hos ita exculto assequeris labore,</l>
+            <l n="l9">Iane, dum cura vigili ora viva</l>
+            <l n="l10">Caesarum longa serie Sophorumque</l>
+            <l n="l11">Exprimis arte.</l>
         
-            <l n="text.body.div2.l9">Sed vide ne dum nimium politis</l>
-            <l n="text.body.div2.l10">Versibus nomen celebras Philippae,</l>
-            <l n="text.body.div2.l11">Illius vultum statuisque in illa</l>
-            <l n="text.body.div2.l12">Classe virorum:</l>
+            <l n="l12">Sed vide ne dum nimium politis</l>
+            <l n="l13">Versibus nomen celebras Philippae,</l>
+            <l n="l14">Illius vultum statuisque in illa</l>
+            <l n="l15">Classe virorum:</l>
         
-            <l n="text.body.div2.l13">Ne parum digne Tyrio colori</l>
-            <l n="text.body.div2.l14">Conferas succos ebuli, horridamque</l>
-            <l n="text.body.div2.l15">Noctuam audacter videare pulchris</l>
-            <l n="text.body.div2.l16">Iungere pavis.</l>
+            <l n="l16">Ne parum digne Tyrio colori</l>
+            <l n="l17">Conferas succos ebuli, horridamque</l>
+            <l n="l18">Noctuam audacter videare pulchris</l>
+            <l n="l19">Iungere pavis.</l>
         
-            <l n="text.body.div2.l17">Barbitus nobis humilisque Musa est:</l>
-            <l n="text.body.div2.l18">Et fides surdę Illyrico boatu</l>
-            <l n="text.body.div2.l19">Perstrepunt: raucus resonos ut inter</l>
-            <l n="text.body.div2.l20">Anser olores.</l>
+            <l n="l20">Barbitus nobis humilisque Musa est:</l>
+            <l n="l21">Et fides surdę Illyrico boatu</l>
+            <l n="l22">Perstrepunt: raucus resonos ut inter</l>
+            <l n="l23">Anser olores.</l>
         
-            <l n="text.body.div2.l21">Sufficit, si me relegant puellae,</l>
-            <l n="text.body.div2.l22">Quę colunt dulci studio Minervam.</l>
-            <l n="text.body.div2.l23">Sufficit, si me relegat suo cum</l>
-            <l n="text.body.div2.l24">Ianus Alardo.</l>
+            <l n="l24">Sufficit, si me relegant puellae,</l>
+            <l n="l25">Quę colunt dulci studio Minervam.</l>
+            <l n="l26">Sufficit, si me relegat suo cum</l>
+            <l n="l27">Ianus Alardo.</l>
         
-            <l n="text.body.div2.l25">Si probent nostris mala scripta libris:</l>
-            <l n="text.body.div2.l26">Si legi dicant meruere: cur non</l>
-            <l n="text.body.div2.l27">Laudibus tantis reputem aestimandam</l>
-            <l n="text.body.div2.l28">Iure Philippam?</l>
+            <l n="l28">Si probent nostris mala scripta libris:</l>
+            <l n="l29">Si legi dicant meruere: cur non</l>
+            <l n="l30">Laudibus tantis reputem aestimandam</l>
+            <l n="l31">Iure Philippam?</l>
         </div>
 
         
-         <div n="text.body.div3" met="sapphicum">
-            <pb n="text.body.div3.pb1"/>
-            <head n="text.body.div3.head">CARMEN SAPHICUM PHILIPPE LACAEAE POLANAE ILLYRICAE.</head>
+         <div n="div3" met="sapphicum">
+            <pb n="pb1"/>
+            <head n="head2">CARMEN SAPHICUM PHILIPPE LACAEAE POLANAE ILLYRICAE.</head>
 
-            <l n="text.body.div3.l1">Dum viros, clarae quibus aura lucis</l>
-            <l n="text.body.div3.l2">Fulsit antiquo celebrisque saeclo</l>
-            <l n="text.body.div3.l3">Fama, mirandis revocare certas,</l>
-            <l n="text.body.div3.l4">Jane, tabellis.</l>
-            <pb n="text.body.div3.pb2"/>
+            <l n="l3">Dum viros, clarae quibus aura lucis</l>
+            <l n="l4">Fulsit antiquo celebrisque saeclo</l>
+            <l n="l5">Fama, mirandis revocare certas,</l>
+            <l n="l6">Jane, tabellis.</l>
+            <pb n="pb7"/>
 
-            <l n="text.body.div3.l5">Tu tuum nomen, decus, atque laudes</l>
-            <l n="text.body.div3.l6">Porrigis, primo radios ab ortu</l>
-            <l n="text.body.div3.l7">Qua vehit Phaebus celeri rotatu ad</l>
-            <l n="text.body.div3.l8">Littora Calpes.</l>
-            <l n="text.body.div3.l9">Et tibi debet studiosa summum</l>
-            <l n="text.body.div3.l10">Turba quaesituum meritis favorem:</l>
-            <l n="text.body.div3.l11">Quam manu docta, et calami magistra</l>
-            <l n="text.body.div3.l12">Arte beasti.</l>
-            <l n="text.body.div3.l13">Sic placent gnavo facies labore</l>
-            <l n="text.body.div3.l14">Principum pictae, quibus italorum</l>
-            <l n="text.body.div3.l15">Paruit quondam regio simulque</l>
-            <l n="text.body.div3.l16">Dorica tellus.</l>
-            <l n="text.body.div3.l17">Sic juvat, quorum veneramur artes,</l>
-            <l n="text.body.div3.l18">Dogma, virtutem, pia gesta, vitam,</l>
-            <l n="text.body.div3.l19"> Gratiam, roburque scientiamque,</l>
-            <l n="text.body.div3.l20">Cernere vultus.</l>
-            <l n="text.body.div3.l21">Vivida quos sic oculis figura</l>
-            <l n="text.body.div3.l22">Subiicis nostris, proprioque gestu,</l>
-            <l n="text.body.div3.l23">Ut putet quivis ea signa veram</l>
-            <l n="text.body.div3.l24">Ducere vitam.</l>
-            <l n="text.body.div3.l25">Gratiam saeclis tibi sic futuris</l>
-            <l n="text.body.div3.l26">Adstruis: qua qui valuit potiri,</l>
-            <l n="text.body.div3.l27">Dicier credo hunc potuisse ab omni</l>
-            <l n="text.body.div3.l28">Parte beatum.</l>
+            <l n="l8">Tu tuum nomen, decus, atque laudes</l>
+            <l n="l9">Porrigis, primo radios ab ortu</l>
+            <l n="l10">Qua vehit Phaebus celeri rotatu ad</l>
+            <l n="l11">Littora Calpes.</l>
+            <l n="l12">Et tibi debet studiosa summum</l>
+            <l n="l13">Turba quaesituum meritis favorem:</l>
+            <l n="l14">Quam manu docta, et calami magistra</l>
+            <l n="l15">Arte beasti.</l>
+            <l n="l16">Sic placent gnavo facies labore</l>
+            <l n="l17">Principum pictae, quibus italorum</l>
+            <l n="l18">Paruit quondam regio simulque</l>
+            <l n="l19">Dorica tellus.</l>
+            <l n="l20">Sic juvat, quorum veneramur artes,</l>
+            <l n="l21">Dogma, virtutem, pia gesta, vitam,</l>
+            <l n="l22"> Gratiam, roburque scientiamque,</l>
+            <l n="l23">Cernere vultus.</l>
+            <l n="l24">Vivida quos sic oculis figura</l>
+            <l n="l25">Subiicis nostris, proprioque gestu,</l>
+            <l n="l26">Ut putet quivis ea signa veram</l>
+            <l n="l27">Ducere vitam.</l>
+            <l n="l28">Gratiam saeclis tibi sic futuris</l>
+            <l n="l29">Adstruis: qua qui valuit potiri,</l>
+            <l n="l30">Dicier credo hunc potuisse ab omni</l>
+            <l n="l31">Parte beatum.</l>
          </div> 
             
       </body>

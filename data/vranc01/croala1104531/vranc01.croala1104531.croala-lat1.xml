@@ -85,6 +85,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -131,18 +148,18 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:vranc01.croala1104531.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-epistula">
-            <opener n="text.body.div.opener">Strigoniensis Casimiro nepoti suo salutem.</opener>
+      <body n="body1">
+         <div n="div1" type="prosa-epistula">
+            <opener n="opener1">Strigoniensis Casimiro nepoti suo salutem.</opener>
         
-            <p n="text.body.div.p">
-            Misi tibi cura Pauli Suscouith, officialis Tyrnauiensis domus nostrae, florenos decem, quibus necessitatibus tuis consules, quum opus habebis. Caeterum dicas fratri tuo, si adhuc est Posonii, ne Raphaelem discedens in societatem suam admittat (et hoc propter bonos respectus), si forte cum illo vellet recedere. Nec ullo pacto teneatur in domo nostra, donec istic erit. Dicasque hoc etiam Vincentio. Vltra enim <gap n="text.body.div.p.gap"/>. <pb n="text.body.div.p.pb"/> Non vageris extra domum, sed attende officio, quod iniunxi tibi. 
+            <p n="p2">
+            Misi tibi cura Pauli Suscouith, officialis Tyrnauiensis domus nostrae, florenos decem, quibus necessitatibus tuis consules, quum opus habebis. Caeterum dicas fratri tuo, si adhuc est Posonii, ne Raphaelem discedens in societatem suam admittat (et hoc propter bonos respectus), si forte cum illo vellet recedere. Nec ullo pacto teneatur in domo nostra, donec istic erit. Dicasque hoc etiam Vincentio. Vltra enim <gap n="gap1"/>. <pb n="pb2"/> Non vageris extra domum, sed attende officio, quod iniunxi tibi. 
                 </p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">Vale.</salute> 
-               <dateline n="text.body.div.closer.dateline">Galgocii <date n="text.body.div.closer.dateline.date" when="1533-08-12">3. Maii 1573.</date>
+            <closer n="closer3">
+               <salute n="salute1">Vale.</salute> 
+               <dateline n="dateline2">Galgocii <date n="date1" when="1533-08-12">3. Maii 1573.</date>
                </dateline>
-               <signed n="text.body.div.closer.signed">Strigoniensis idem</signed>
+               <signed n="signed3">Strigoniensis idem</signed>
             </closer>
          </div>
       </body>    

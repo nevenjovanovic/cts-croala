@@ -80,6 +80,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -135,34 +149,34 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:alb02.croala886270.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
+        <body n="body1">
             
-                <div n="text.body.div" type="epigramma" xml:id="nicalb-c04">
-                    <head n="text.body.div.head">
-               <anchor n="text.body.div.head.anchor" xml:id="id_tth_sEc15"/>15  Epitaphium Petri Lucii Traguriensis,
+                <div n="div1" type="epigramma" xml:id="nicalb-c04">
+                    <head n="head1">
+               <anchor n="anchor1" xml:id="id_tth_sEc15"/>15  Epitaphium Petri Lucii Traguriensis,
                         patricii nobilissimi, Nicolaus Albertus Spalatensis, ex tempore</head>
-                    <l n="text.body.div.l1">Tune hic, Petre, iaces? Tuane hic lapis ossa sepulchro</l>
-                    <l n="text.body.div.l2">    Contegit? O patrii cura dolorque soli!</l>
-                    <l n="text.body.div.l3">Quid tibi nobilitas? quid opes? quid uiuida uirtus</l>
-                    <l n="text.body.div.l4">    Profuit? aut uitae candida facta piae?</l>
-                    <l n="text.body.div.l5"> Atropos inuidiae stimulis agitata sororum</l>
-                    <l n="text.body.div.l6">    Abrupit dira stamina pulla manu.</l>
-                    <l n="text.body.div.l7">Occidit exemplum sanctorum nobile morum</l>
-                    <l n="text.body.div.l8">    Ne fieret tanto terra superba bono.<ref n="text.body.div.l8.ref" target="#tthFtNtABG"/>
+                    <l n="l2">Tune hic, Petre, iaces? Tuane hic lapis ossa sepulchro</l>
+                    <l n="l3">    Contegit? O patrii cura dolorque soli!</l>
+                    <l n="l4">Quid tibi nobilitas? quid opes? quid uiuida uirtus</l>
+                    <l n="l5">    Profuit? aut uitae candida facta piae?</l>
+                    <l n="l6"> Atropos inuidiae stimulis agitata sororum</l>
+                    <l n="l7">    Abrupit dira stamina pulla manu.</l>
+                    <l n="l8">Occidit exemplum sanctorum nobile morum</l>
+                    <l n="l9">    Ne fieret tanto terra superba bono.<ref n="ref1" target="#tthFtNtABG"/>
             </l>
                 </div>
             
         </body>
-        <back n="text.back">
-            <div n="text.back.div" type="notes">
-                <head n="text.back.div.head">Notae:</head>
+        <back n="back2">
+            <div n="div1" type="notes">
+                <head n="head1">Notae:</head>
                 
-                <p n="text.back.div.p">
-               <anchor n="text.back.div.p.anchor" xml:id="id_tthFtNtABG"/>
-               <ref n="text.back.div.p.ref" target="#tthFrefABG">16</ref>Trag. f. 32v;    <hi n="text.back.div.p.hi">v. 2</hi> Contegit: Contigit <emph n="text.back.div.p.emph1">Trag.</emph> -
+                <p n="p2">
+               <anchor n="anchor1" xml:id="id_tthFtNtABG"/>
+               <ref n="ref2" target="#tthFrefABG">16</ref>Trag. f. 32v;    <hi n="hi3">v. 2</hi> Contegit: Contigit <emph n="emph4">Trag.</emph> -
                     Petrus Lucius fortasse est ille procurator cassae operariae (Cassa
                     dell'operaria) cathedralis Traguriensis cuius mors notata esse videtur ad annum
-                    1545. Cf. <emph n="text.back.div.p.emph2">Trag. f. 116r.</emph>
+                    1545. Cf. <emph n="emph5">Trag. f. 116r.</emph>
             </p>
                 
             </div>

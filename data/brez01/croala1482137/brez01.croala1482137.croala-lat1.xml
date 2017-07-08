@@ -89,6 +89,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -145,131 +165,131 @@
    </teiHeader>
 
   <text xml:base="urn:cts:croala:brez01.croala1482137.croala-lat1:" xml:lang="lat" type="poesis-satura">
-      <milestone unit="page" n="text.milestone"/>
-      <front n="text.front">
-         <docTitle n="text.front.docTitle">
-            <titlePart n="text.front.docTitle.titlePart">Dalmatiae, Croatiae et Slavoniae trium sororum recursus ad novum Proregem Ioannem
+      <milestone unit="page" n="milestone1"/>
+      <front n="front2">
+         <docTitle n="docTitle1">
+            <titlePart n="titlePart1">Dalmatiae, Croatiae et Slavoniae trium sororum recursus ad novum Proregem Ioannem
       Erdödy, ne suis priventur coronis et novo sponso Leopoldo ab Hungaria</titlePart>
          </docTitle>
-         <docAuthor n="text.front.docAuthor">Anonymus (i. e. Tituš Brezovački)</docAuthor>
+         <docAuthor n="docAuthor2">Anonymus (i. e. Tituš Brezovački)</docAuthor>
       </front>
-      <body n="text.body">
-         <div n="text.body.div" met="elegiacum" type="elegia">
+      <body n="body3">
+         <div n="div1" met="elegiacum" type="elegia">
      
-            <l n="text.body.div.l1">Unica spes nostrae jam pridem, Bane, salutis</l>
-            <l n="text.body.div.l2" met="pentameter">Huc propera, penitus ne periisse sine.</l>
-            <l n="text.body.div.l3">Dalmata, Slavinus clamant, gens fida Croata:</l>
-            <l n="text.body.div.l4" met="pentameter">"Banus erit nostris mox medicina malis!"</l>
-            <l n="text.body.div.l5">Religio in summo versatur prisca periclo,</l>
-            <l n="text.body.div.l6" met="pentameter">Libertas gentis, jus, Leopolde, tuum.</l>
-            <l n="text.body.div.l7">Praesul cum clero sese junxere Luthero,</l>
-            <l n="text.body.div.l8" met="pentameter">Calvinum, Photium jam vocitant socium.</l>
-            <l n="text.body.div.l9">Sicne tui fecere Patres, scelerata propago?</l>
-            <l n="text.body.div.l10" met="pentameter">Coelum non intras, nec sinis ire alios.</l>
-            <l n="text.body.div.l11">Proh, scelus infandum, nostris spoliare coronis</l>
-            <l n="text.body.div.l12" met="pentameter">Nos tres Reginas impia turba parat,</l>
-            <l n="text.body.div.l13">Atque Croatarum nomen gentemque abolere!</l>
-            <l n="text.body.div.l14" met="pentameter">Nullus abhinc Slav[in]us, <note n="text.body.div.l14.note" place="foot">
-                  <p n="text.body.div.l14.note.p"> Fortasse legendum: <emph n="text.body.div.l14.note.p.emph">Nullus [abhinc] Slavinus.</emph>
+            <l n="l1">Unica spes nostrae jam pridem, Bane, salutis</l>
+            <l n="l2" met="pentameter">Huc propera, penitus ne periisse sine.</l>
+            <l n="l3">Dalmata, Slavinus clamant, gens fida Croata:</l>
+            <l n="l4" met="pentameter">"Banus erit nostris mox medicina malis!"</l>
+            <l n="l5">Religio in summo versatur prisca periclo,</l>
+            <l n="l6" met="pentameter">Libertas gentis, jus, Leopolde, tuum.</l>
+            <l n="l7">Praesul cum clero sese junxere Luthero,</l>
+            <l n="l8" met="pentameter">Calvinum, Photium jam vocitant socium.</l>
+            <l n="l9">Sicne tui fecere Patres, scelerata propago?</l>
+            <l n="l10" met="pentameter">Coelum non intras, nec sinis ire alios.</l>
+            <l n="l11">Proh, scelus infandum, nostris spoliare coronis</l>
+            <l n="l12" met="pentameter">Nos tres Reginas impia turba parat,</l>
+            <l n="l13">Atque Croatarum nomen gentemque abolere!</l>
+            <l n="l14" met="pentameter">Nullus abhinc Slav[in]us, <note n="note1" place="foot">
+                  <p n="p1"> Fortasse legendum: <emph n="emph1">Nullus [abhinc] Slavinus.</emph>
                   </p>
                </note> Dalmata nullus erit, </l>
-            <l n="text.body.div.l15">Sed genus in Scythicum, lingvam immutarier ipsam,</l>
-            <l n="text.body.div.l16" met="pentameter">Hirsutos mores inque statuta <note n="text.body.div.l16.note" place="foot">
-                  <p n="text.body.div.l16.note.p"> Corr. ex: <emph n="text.body.div.l16.note.p.emph">statura</emph> .</p>
+            <l n="l15">Sed genus in Scythicum, lingvam immutarier ipsam,</l>
+            <l n="l16" met="pentameter">Hirsutos mores inque statuta <note n="note1" place="foot">
+                  <p n="p1"> Corr. ex: <emph n="emph1">statura</emph> .</p>
                </note> placet. </l>
-            <l n="text.body.div.l17">Quis furor, o cives, quae vos dementia cepit</l>
-            <l n="text.body.div.l18" met="pentameter">Subdere tam duro libera colla jugo?</l>
-            <milestone unit="page" n="text.body.div.milestone1"/>
-            <l n="text.body.div.l19">Libera regna sumus, si quem pudet esse Croatam,</l>
-            <l n="text.body.div.l20" met="pentameter">Hunnis subjectus serviat ille feris!</l>
-            <l n="text.body.div.l21">Credite, nulla datur toto truculentior orbe</l>
-            <l n="text.body.div.l22" met="pentameter">Gens Hunno; Theuto svavior ipse fuit.</l>
-            <l n="text.body.div.l23">Est levis, inconstans, semper cupidusque novandi,</l>
-            <l n="text.body.div.l24" met="pentameter">Intollerandus herus, non tollerans dominum. /</l>
-            <l n="text.body.div.l25">Ambitione tumens, quivis vult esse monarcha</l>
-            <l n="text.body.div.l26" met="pentameter">Nobilis, et nullus publica ferre onera.</l>
-            <l n="text.body.div.l27">Non est his certe notio vel prima gubernii,</l>
-            <l n="text.body.div.l28" met="pentameter">Et tamen his nunc vos vendere sponte lubet!</l>
-            <l n="text.body.div.l29">Barbara praeterea lingva est, quam respuit omnis,</l>
-            <l n="text.body.div.l30" met="pentameter">Ni extremi Lappon incola forte poli.</l>
-            <l n="text.body.div.l31">Ac merito, nam alphabetum non exstat in orbe,</l>
-            <l n="text.body.div.l32" met="pentameter">Hunnica quo possis scribere verba bene.</l>
-            <l n="text.body.div.l33">Theuto fuit durus, quod vos peregrina jubebat</l>
-            <l n="text.body.div.l34" met="pentameter">Verba loqui: quanto durior Hunnus erit?</l>
-            <l n="text.body.div.l35">Ille tenet cultos mores et se excolit ultro,</l>
-            <l n="text.body.div.l36" met="pentameter">Hic revocat barbis barbara secla suis.</l>
-            <l n="text.body.div.l37">Hunni si modo non sapiunt in lumine tanto,</l>
-            <l n="text.body.div.l38" met="pentameter">Non sapient umquam, vel diadema docet.</l>
-            <l n="text.body.div.l39">His tamen, ah! miseras nos vendere Scaliger optat.</l>
-            <l n="text.body.div.l40" met="pentameter">Impius, et patriae proditor usque suae;</l>
-            <l n="text.body.div.l41">Quid tentas, delire senex? Quid feceris ante,</l>
-            <l n="text.body.div.l42" met="pentameter">Infelix meminit natio tota probe.</l>
-            <milestone unit="page" n="text.body.div.milestone2"/>
-            <l n="text.body.div.l43">Vendebas aulae, donec dabat aula favores,</l>
-            <l n="text.body.div.l44" met="pentameter">Vendis nunc illis, qui dare plura valent.</l>
-            <l n="text.body.div.l45">Quid sit amor patriae, non scivit Scaliger umquam</l>
-            <l n="text.body.div.l46" met="pentameter">Credere nec par est, quod sciat ille modo.</l>
-            <l n="text.body.div.l47">Venditor est alter praesul, ter fidus Achates;</l>
-            <l n="text.body.div.l48" met="pentameter">Hoc duce quid didicit, jam documenta dedit.</l>
-            <l n="text.body.div.l49">Ut fieret praesul, norunt, quid fecerit, omnes;</l>
-            <l n="text.body.div.l50" met="pentameter">Ut fiat primas, tradere regna parat. /</l>
-            <l n="text.body.div.l51">Tertius in serie, sed re ingenioque supremus</l>
-            <l n="text.body.div.l52" met="pentameter">Clam rotat, et post hos grex sine mente venit.</l>
-            <l n="text.body.div.l53">Hungare, dic sodes, quonam haec molimina tendant,</l>
-            <l n="text.body.div.l54" met="pentameter">Servitium a Svevo namque timere stupor.</l>
-            <l n="text.body.div.l55">Quod septingentis totis non accidit annis, </l>
-            <l n="text.body.div.l56" met="pentameter">Id totidem seclis non accidet aliis.</l>
-            <l n="text.body.div.l57">Sic loquitur, quisquis rerum disquirit in ortus,</l>
-            <l n="text.body.div.l58" met="pentameter">Et cui non pingvis mente Minerva sedet.</l>
-            <l n="text.body.div.l59">Theuto nihil sine Scaligeris tentaverat umquam,</l>
-            <l n="text.body.div.l60" met="pentameter">Absque Simone sacra vendere nulla solet.</l>
-            <l n="text.body.div.l61">Tollite Scaligeros, nolite fieri <note n="text.body.div.l61.note" place="foot">
-                  <p n="text.body.div.l61.note.p"> Sic, pro: <emph n="text.body.div.l61.note.p.emph">fieri nolite</emph>
+            <l n="l17">Quis furor, o cives, quae vos dementia cepit</l>
+            <l n="l18" met="pentameter">Subdere tam duro libera colla jugo?</l>
+            <milestone unit="page" n="milestone19"/>
+            <l n="l20">Libera regna sumus, si quem pudet esse Croatam,</l>
+            <l n="l21" met="pentameter">Hunnis subjectus serviat ille feris!</l>
+            <l n="l22">Credite, nulla datur toto truculentior orbe</l>
+            <l n="l23" met="pentameter">Gens Hunno; Theuto svavior ipse fuit.</l>
+            <l n="l24">Est levis, inconstans, semper cupidusque novandi,</l>
+            <l n="l25" met="pentameter">Intollerandus herus, non tollerans dominum. /</l>
+            <l n="l26">Ambitione tumens, quivis vult esse monarcha</l>
+            <l n="l27" met="pentameter">Nobilis, et nullus publica ferre onera.</l>
+            <l n="l28">Non est his certe notio vel prima gubernii,</l>
+            <l n="l29" met="pentameter">Et tamen his nunc vos vendere sponte lubet!</l>
+            <l n="l30">Barbara praeterea lingva est, quam respuit omnis,</l>
+            <l n="l31" met="pentameter">Ni extremi Lappon incola forte poli.</l>
+            <l n="l32">Ac merito, nam alphabetum non exstat in orbe,</l>
+            <l n="l33" met="pentameter">Hunnica quo possis scribere verba bene.</l>
+            <l n="l34">Theuto fuit durus, quod vos peregrina jubebat</l>
+            <l n="l35" met="pentameter">Verba loqui: quanto durior Hunnus erit?</l>
+            <l n="l36">Ille tenet cultos mores et se excolit ultro,</l>
+            <l n="l37" met="pentameter">Hic revocat barbis barbara secla suis.</l>
+            <l n="l38">Hunni si modo non sapiunt in lumine tanto,</l>
+            <l n="l39" met="pentameter">Non sapient umquam, vel diadema docet.</l>
+            <l n="l40">His tamen, ah! miseras nos vendere Scaliger optat.</l>
+            <l n="l41" met="pentameter">Impius, et patriae proditor usque suae;</l>
+            <l n="l42">Quid tentas, delire senex? Quid feceris ante,</l>
+            <l n="l43" met="pentameter">Infelix meminit natio tota probe.</l>
+            <milestone unit="page" n="milestone44"/>
+            <l n="l45">Vendebas aulae, donec dabat aula favores,</l>
+            <l n="l46" met="pentameter">Vendis nunc illis, qui dare plura valent.</l>
+            <l n="l47">Quid sit amor patriae, non scivit Scaliger umquam</l>
+            <l n="l48" met="pentameter">Credere nec par est, quod sciat ille modo.</l>
+            <l n="l49">Venditor est alter praesul, ter fidus Achates;</l>
+            <l n="l50" met="pentameter">Hoc duce quid didicit, jam documenta dedit.</l>
+            <l n="l51">Ut fieret praesul, norunt, quid fecerit, omnes;</l>
+            <l n="l52" met="pentameter">Ut fiat primas, tradere regna parat. /</l>
+            <l n="l53">Tertius in serie, sed re ingenioque supremus</l>
+            <l n="l54" met="pentameter">Clam rotat, et post hos grex sine mente venit.</l>
+            <l n="l55">Hungare, dic sodes, quonam haec molimina tendant,</l>
+            <l n="l56" met="pentameter">Servitium a Svevo namque timere stupor.</l>
+            <l n="l57">Quod septingentis totis non accidit annis, </l>
+            <l n="l58" met="pentameter">Id totidem seclis non accidet aliis.</l>
+            <l n="l59">Sic loquitur, quisquis rerum disquirit in ortus,</l>
+            <l n="l60" met="pentameter">Et cui non pingvis mente Minerva sedet.</l>
+            <l n="l61">Theuto nihil sine Scaligeris tentaverat umquam,</l>
+            <l n="l62" met="pentameter">Absque Simone sacra vendere nulla solet.</l>
+            <l n="l63">Tollite Scaligeros, nolite fieri <note n="note1" place="foot">
+                  <p n="p1"> Sic, pro: <emph n="emph1">fieri nolite</emph>
                   </p>
                </note> Simones: </l>
-            <l n="text.body.div.l62" met="pentameter">Dulcis libertas vestra perennis erit!</l>
-            <l n="text.body.div.l63">Ergo cupis jungi, capias ut publica solus</l>
-            <l n="text.body.div.l64" met="pentameter">Munia, mancipium sitque Croata tuum.</l>
-            <milestone unit="page" n="text.body.div.milestone3"/>
-            <l n="text.body.div.l65">Nempe tuo velles si quando more novare,</l>
-            <l n="text.body.div.l66" met="pentameter">Ne ausus impediat forte Croata tuos.</l>
-            <l n="text.body.div.l67">Hunc igitur captas banatu, illumque senatu,</l>
-            <l n="text.body.div.l68" met="pentameter">Hunc magnatu, hi dant tria regna tibi.</l>
-            <l n="text.body.div.l69">Heu cadimus, stetimus quae jam tot regna per annos,</l>
-            <l n="text.body.div.l70" met="pentameter">Religio gentis, gloria, nomen abit!</l>
-            <l n="text.body.div.l71">Fallimur: en properat nostrae summa spes <note n="text.body.div.l71.note" place="foot">
-                  <p n="text.body.div.l71.note.p"> Sic, pro: <emph n="text.body.div.l71.note.p.emph">spes summa</emph> .</p>
+            <l n="l64" met="pentameter">Dulcis libertas vestra perennis erit!</l>
+            <l n="l65">Ergo cupis jungi, capias ut publica solus</l>
+            <l n="l66" met="pentameter">Munia, mancipium sitque Croata tuum.</l>
+            <milestone unit="page" n="milestone67"/>
+            <l n="l68">Nempe tuo velles si quando more novare,</l>
+            <l n="l69" met="pentameter">Ne ausus impediat forte Croata tuos.</l>
+            <l n="l70">Hunc igitur captas banatu, illumque senatu,</l>
+            <l n="l71" met="pentameter">Hunc magnatu, hi dant tria regna tibi.</l>
+            <l n="l72">Heu cadimus, stetimus quae jam tot regna per annos,</l>
+            <l n="l73" met="pentameter">Religio gentis, gloria, nomen abit!</l>
+            <l n="l74">Fallimur: en properat nostrae summa spes <note n="note1" place="foot">
+                  <p n="p1"> Sic, pro: <emph n="emph1">spes summa</emph> .</p>
                </note> salutis, </l>
-            <l n="text.body.div.l72" met="pentameter">Erdödy, felix nomen et omen habens;</l>
-            <l n="text.body.div.l73">Inclytus heroum priscoque a sangvine cretus,</l>
-            <l n="text.body.div.l74" met="pentameter">Nec minor est meritis, quos imitatur, avis.</l>
-            <l n="text.body.div.l75">Proteget exemplo patrum sacra vera Quiritum,</l>
-            <l n="text.body.div.l76" met="pentameter">Proteget et forti nos tria <note n="text.body.div.l76.note" place="foot">
-                  <p n="text.body.div.l76.note.p"> Corr. ex: <emph n="text.body.div.l76.note.p.emph">nostria</emph> .</p>
+            <l n="l75" met="pentameter">Erdödy, felix nomen et omen habens;</l>
+            <l n="l76">Inclytus heroum priscoque a sangvine cretus,</l>
+            <l n="l77" met="pentameter">Nec minor est meritis, quos imitatur, avis.</l>
+            <l n="l78">Proteget exemplo patrum sacra vera Quiritum,</l>
+            <l n="l79" met="pentameter">Proteget et forti nos tria <note n="note1" place="foot">
+                  <p n="p1"> Corr. ex: <emph n="emph1">nostria</emph> .</p>
                </note> regna manu. / </l>
-            <l n="text.body.div.l77">Ut maneant, faciet salva omnia jura vetusta</l>
-            <l n="text.body.div.l78" met="pentameter">Atque Leopoldo terna corona pio.</l>
-            <l n="text.body.div.l79">Corda Croatarum regi cur dedita semper,</l>
-            <l n="text.body.div.l80" met="pentameter">Solius est verae religionis opus.</l>
-            <l n="text.body.div.l81">Hungara clara quidem est gens, sed non clarior ulla</l>
-            <l n="text.body.div.l82" met="pentameter">Slavena, historia teste probare potes.</l>
-            <l n="text.body.div.l83">Cernis, ut est totum ferme diffusa per orbem,</l>
-            <l n="text.body.div.l84" met="pentameter">Hungariae regna nostra fuere prius.</l>
-            <milestone unit="page" n="text.body.div.milestone4"/>
-            <l n="text.body.div.l85">Bane, veni, serva miserarum jura sororum!</l>
-            <l n="text.body.div.l86" met="pentameter">Aeternus gratas nos tibi junget amor.</l>
-            <l n="text.body.div.l87">Te Bano tantum fieri ne admitte <note n="text.body.div.l87.note" place="foot">
-                  <p n="text.body.div.l87.note.p"> Ipse scriba correxit ex: <emph n="text.body.div.l87.note.p.emph">ne admitte fieri.</emph>
+            <l n="l80">Ut maneant, faciet salva omnia jura vetusta</l>
+            <l n="l81" met="pentameter">Atque Leopoldo terna corona pio.</l>
+            <l n="l82">Corda Croatarum regi cur dedita semper,</l>
+            <l n="l83" met="pentameter">Solius est verae religionis opus.</l>
+            <l n="l84">Hungara clara quidem est gens, sed non clarior ulla</l>
+            <l n="l85" met="pentameter">Slavena, historia teste probare potes.</l>
+            <l n="l86">Cernis, ut est totum ferme diffusa per orbem,</l>
+            <l n="l87" met="pentameter">Hungariae regna nostra fuere prius.</l>
+            <milestone unit="page" n="milestone88"/>
+            <l n="l89">Bane, veni, serva miserarum jura sororum!</l>
+            <l n="l90" met="pentameter">Aeternus gratas nos tibi junget amor.</l>
+            <l n="l91">Te Bano tantum fieri ne admitte <note n="note1" place="foot">
+                  <p n="p1"> Ipse scriba correxit ex: <emph n="emph1">ne admitte fieri.</emph>
                   </p>
                </note> malorum, </l>
-            <l n="text.body.div.l88" met="pentameter">Dic rudibus qui sunt simplicibusque viris:</l>
-            <l n="text.body.div.l89">"Dum libertatem totus nunc mundus adoptat,</l>
-            <l n="text.body.div.l90" met="pentameter">Hac sponte est ingens se spoliare stupor!"</l>
-            <l n="text.body.div.l91">Quod si non sapient, reteges tunc omnia Regi,</l>
-            <l n="text.body.div.l92" met="pentameter">Qui sibi certe adimi non tria serta sinet.</l>
-            <l n="text.body.div.l93">Hungara, da veniam, ardens quid sit foemina, nosti,</l>
-            <l n="text.body.div.l94" met="pentameter">Illam dum caro vis spoliare viro. </l>
-            <milestone unit="page" n="text.body.div.milestone5"/>
+            <l n="l92" met="pentameter">Dic rudibus qui sunt simplicibusque viris:</l>
+            <l n="l93">"Dum libertatem totus nunc mundus adoptat,</l>
+            <l n="l94" met="pentameter">Hac sponte est ingens se spoliare stupor!"</l>
+            <l n="l95">Quod si non sapient, reteges tunc omnia Regi,</l>
+            <l n="l96" met="pentameter">Qui sibi certe adimi non tria serta sinet.</l>
+            <l n="l97">Hungara, da veniam, ardens quid sit foemina, nosti,</l>
+            <l n="l98" met="pentameter">Illam dum caro vis spoliare viro. </l>
+            <milestone unit="page" n="milestone99"/>
          </div>
       </body>
   </text>

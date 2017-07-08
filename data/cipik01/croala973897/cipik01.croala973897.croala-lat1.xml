@@ -83,6 +83,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -127,16 +144,16 @@
         </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:cipik01.croala973897.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-inscriptio">
-            <p n="text.body.div.p">
-               <g n="text.body.div.p.g">ϯ</g> CORIOLANVS CEPIO <pc n="text.body.div.p.pc1">•</pc> 
-               <expan n="text.body.div.p.expan1">Petri</expan> 
-               <pc n="text.body.div.p.pc2">•</pc> 
-               <expan n="text.body.div.p.expan2">Filius</expan> 
-               <pc n="text.body.div.p.pc3">•</pc> VILLAM INCENDIO CONFLAGRATAM SENATVS VENETI BENIGNITATE ET <expan n="text.body.div.p.expan3">Sua Pecunia</expan> MELIORI IN STATV RESTITVIT
-        <date n="text.body.div.p.date" when="1492">
-                  <num n="text.body.div.p.date.num" value="1492">MCCCCLXXXXII</num>
+      <body n="body1">
+         <div n="div1" type="prosa-inscriptio">
+            <p n="p1">
+               <g n="g1">ϯ</g> CORIOLANVS CEPIO <pc n="pc2">•</pc> 
+               <expan n="expan3">Petri</expan> 
+               <pc n="pc4">•</pc> 
+               <expan n="expan5">Filius</expan> 
+               <pc n="pc6">•</pc> VILLAM INCENDIO CONFLAGRATAM SENATVS VENETI BENIGNITATE ET <expan n="expan7">Sua Pecunia</expan> MELIORI IN STATV RESTITVIT
+        <date n="date8" when="1492">
+                  <num n="num1" value="1492">MCCCCLXXXXII</num>
                </date>
             </p>
          </div> 

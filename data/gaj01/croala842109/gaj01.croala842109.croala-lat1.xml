@@ -92,6 +92,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc xml:id="gajvlasic18330214">
          <abstract>
@@ -148,29 +162,29 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:gaj01.croala842109.croala-lat1:" xml:lang="lat">
     
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-epistula" corresp="#gajvlasic18330214">
-            <opener n="text.body.div.opener">
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-epistula" corresp="#gajvlasic18330214">
+            <opener n="opener1">
         Excellentissime ac illustrissime domine liber baro bane, domine gratiosissime.</opener>
-            <p n="text.body.div.p1">
+            <p n="p2">
         
         Motu proprio adhortationibusque quamplurimorum patriae meae dignissimorum virorum animatus, praesertim postquam probe perspicerem nihil plane, quod ad linguam nationis ejusque culturam evehendam, taliterque amplius salutis, gloriae atque splendoris regnorum Dalmatiae, Croatiae et Slavoniae incrementum promovendum spectaret, negligendum esse, — arduum sane lingua attamen patriae exindeque promananti culturae admodum proficuum in lingua nostra Croatico-Illyrica edendarum ephemeridum tam politicarum quam literariarum Redactionis munus omni cum onere in me suscipere praesumpsi.
     </p>
-            <p n="text.body.div.p2">
+            <p n="p3">
         Siquidem autem hujusmodi ephemerides, in quibus tam nova politica, quam et alii omnigenam nationis et linguae — quae pari passu ambulare solent culturam praesertim moralem respicientes articuli mixtim, systematice nihilominus continebuntur, absque obtinendo altissimo loco privilegio luci publicae dari haud possint.
     </p>
-            <p n="text.body.div.p3">
-        Ex eo excellentiae vestrae humillime supplex sum, quatenus mihi ad suam sacratissimam majestatem mox recursus litteras recomendatorias ac suas potentissimas vires interponere gratiosissime dignaretur. De quo altissimo patrocinio eo minus dubitare praesummo, quo propius praefatum objectum nationis excellentiae vestrae altissimo praesidio atque amori concreditae commodum et decus attingat et quo clarius jam eatenus conplures regni Croatiae inclytae Jurisdictiones nationis desiderium in reccommendatoriis mihi gratiose <corr n="text.body.div.p3.corr">exprimere</corr> conatae sunt.
+            <p n="p4">
+        Ex eo excellentiae vestrae humillime supplex sum, quatenus mihi ad suam sacratissimam majestatem mox recursus litteras recomendatorias ac suas potentissimas vires interponere gratiosissime dignaretur. De quo altissimo patrocinio eo minus dubitare praesummo, quo propius praefatum objectum nationis excellentiae vestrae altissimo praesidio atque amori concreditae commodum et decus attingat et quo clarius jam eatenus conplures regni Croatiae inclytae Jurisdictiones nationis desiderium in reccommendatoriis mihi gratiose <corr n="corr1">exprimere</corr> conatae sunt.
         
     </p> 
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">Queis in reliquo altissimis excellentiae vestrae gratiis devotus summa cum veneratione emorior.</salute>
+            <closer n="closer5">
+               <salute n="salute1">Queis in reliquo altissimis excellentiae vestrae gratiis devotus summa cum veneratione emorior.</salute>
     
-               <signed n="text.body.div.closer.signed">Excellentiae vestrae
+               <signed n="signed2">Excellentiae vestrae
             humillimus servus
             Ludovicus Gay m. p.</signed>
-               <dateline n="text.body.div.closer.dateline">Viennae 14. febr. 1833.</dateline>
+               <dateline n="dateline3">Viennae 14. febr. 1833.</dateline>
             </closer>
          </div>
    

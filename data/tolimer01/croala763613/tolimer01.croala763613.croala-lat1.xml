@@ -87,6 +87,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -152,96 +166,96 @@
            </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:tolimer01.croala763613.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <milestone unit="page" n="text.body.milestone"/>
-         <div n="text.body.div" xml:id="FBN089" type="poesis-carmen" met="hexameter">
-            <head n="text.body.div.head">89. Aelii Tolimerii Sibenicensis ad senatum populumque Spalatensem
-            encomium<ref type="nota" xml:id="rd0e81" target="nd0e81" n="text.body.div.head.ref"/>
+      <body n="body1">
+         <milestone unit="page" n="milestone1"/>
+         <div n="div2" xml:id="FBN089" type="poesis-carmen" met="hexameter">
+            <head n="head1">89. Aelii Tolimerii Sibenicensis ad senatum populumque Spalatensem
+            encomium<ref type="nota" xml:id="rd0e81" target="nd0e81" n="ref1"/>
             </head>
          
-            <l n="text.body.div.l1">Iam pridem mihi mens ardenti exaestuat igne</l>
+            <l n="l2">Iam pridem mihi mens ardenti exaestuat igne</l>
          
-            <l n="text.body.div.l2">In laudes, urbs, alma, tuas, Spalatensis, in omnes</l>
+            <l n="l3">In laudes, urbs, alma, tuas, Spalatensis, in omnes</l>
          
-            <l n="text.body.div.l3">Gentes et populos, passim pleno ore canendas.</l>
+            <l n="l4">Gentes et populos, passim pleno ore canendas.</l>
          
-            <l n="text.body.div.l4">Nam tua me pietas et amor cultusque deorum,</l>
+            <l n="l5">Nam tua me pietas et amor cultusque deorum,</l>
          
-            <l n="text.body.div.l5">Prona fides animusque augendo semper honori</l>
+            <l n="l6">Prona fides animusque augendo semper honori</l>
          
-            <l n="text.body.div.l6">Principis hospitibus mens et frons laeta receptis</l>
+            <l n="l7">Principis hospitibus mens et frons laeta receptis</l>
          
-            <l n="text.body.div.l7">Addixere tibi et clauo fixere tenaci.</l>
+            <l n="l8">Addixere tibi et clauo fixere tenaci.</l>
          
-            <l n="text.body.div.l8">Sed Proculeiani quis nam praeconia uerbis</l>
+            <l n="l9">Sed Proculeiani quis nam praeconia uerbis</l>
          
-            <l n="text.body.div.l9">Aut aequare sciat, propius ut accedere possit.</l>
+            <l n="l10">Aut aequare sciat, propius ut accedere possit.</l>
          
-            <l n="text.body.div.l10">Quae summis in te studiis, conamine summo</l>
+            <l n="l11">Quae summis in te studiis, conamine summo</l>
          
-            <l n="text.body.div.l11">Conscripsit Spalatique tulit super aethera nomen.</l>
+            <l n="l12">Conscripsit Spalatique tulit super aethera nomen.</l>
          
-            <l n="text.body.div.l12">Vrbis et illius quam princeps ille locauit,</l>
+            <l n="l13">Vrbis et illius quam princeps ille locauit,</l>
          
-            <l n="text.body.div.l13">Qui sibi deposito requiem diademate fecit.</l>
+            <l n="l14">Qui sibi deposito requiem diademate fecit.</l>
          
-            <l n="text.body.div.l14">Impius at Totilas immo exsecrabile monstrum</l>
+            <l n="l15">Impius at Totilas immo exsecrabile monstrum</l>
          
-            <l n="text.body.div.l15">Subruit euertitque urbis decora alma uetustae.</l>
+            <l n="l16">Subruit euertitque urbis decora alma uetustae.</l>
          
-            <l n="text.body.div.l16">At Proculeiani uirtus collapsa reponit</l>
+            <l n="l17">At Proculeiani uirtus collapsa reponit</l>
          
-            <l n="text.body.div.l17">Et rediuiua simul iam subruta moenia, fecit</l>
+            <l n="l18">Et rediuiua simul iam subruta moenia, fecit</l>
          
-            <l n="text.body.div.l18">Ingenio et scriptis uobis per saecula famam.</l>
+            <l n="l19">Ingenio et scriptis uobis per saecula famam.</l>
          
-            <l n="text.body.div.l19">Exstruxit muros hic instaurauit et urbem,</l>
+            <l n="l20">Exstruxit muros hic instaurauit et urbem,</l>
          
-            <l n="text.body.div.l20">Hic tibi, gens felix, seruauit et auxit honores.</l>
+            <l n="l21">Hic tibi, gens felix, seruauit et auxit honores.</l>
          
-            <l n="text.body.div.l21">Donaque, quae reges, quae princeps unus et alter</l>
+            <l n="l22">Donaque, quae reges, quae princeps unus et alter</l>
          
-            <l n="text.body.div.l22">Contulerant, faciens breuibus illustria chartis.</l>
+            <l n="l23">Contulerant, faciens breuibus illustria chartis.</l>
          
-            <l n="text.body.div.l23">
-               <gap n="text.body.div.l23.gap"/>	... pinxit uelut alter Apelles</l>
+            <l n="l24">
+               <gap n="gap1"/>	... pinxit uelut alter Apelles</l>
          
-            <l n="text.body.div.l24">
-               <gap n="text.body.div.l24.gap"/>	... auis patrum monumenta tuorum</l>
+            <l n="l25">
+               <gap n="gap1"/>	... auis patrum monumenta tuorum</l>
          
-            <l n="text.body.div.l25">
-               <gap n="text.body.div.l25.gap"/>	... longinquas gentes hic, hic littora et urbes</l>
+            <l n="l26">
+               <gap n="gap1"/>	... longinquas gentes hic, hic littora et urbes</l>
          
-            <l n="text.body.div.l26">Impleuit uoce, ac famae Spalatensis honore,</l>
+            <l n="l27">Impleuit uoce, ac famae Spalatensis honore,</l>
          
-            <l n="text.body.div.l27">Atque adeo ut gentes miro inflammentur amore,</l>
+            <l n="l28">Atque adeo ut gentes miro inflammentur amore,</l>
          
-            <l n="text.body.div.l28">Vt uideant, ut te noscant possintque tueri.</l>
+            <l n="l29">Vt uideant, ut te noscant possintque tueri.</l>
          
-            <l n="text.body.div.l29">Ergo felicem quis te non dicere possit,</l>
+            <l n="l30">Ergo felicem quis te non dicere possit,</l>
          
-            <l n="text.body.div.l30">Vrbs Spalati, et solis passim candore micantem?</l>
+            <l n="l31">Vrbs Spalati, et solis passim candore micantem?</l>
          
-            <l n="text.body.div.l31">Tot Proculeiani scriptis decorata, tot, inquam,</l>
+            <l n="l32">Tot Proculeiani scriptis decorata, tot, inquam,</l>
          
-            <l n="text.body.div.l32">Laudibus, ut nullo sis interitura sub aeuo.</l>
+            <l n="l33">Laudibus, ut nullo sis interitura sub aeuo.</l>
          
-            <l n="text.body.div.l33">Qui magis in uita nihil expetit, aut prius optat,</l>
+            <l n="l34">Qui magis in uita nihil expetit, aut prius optat,</l>
          
-            <l n="text.body.div.l34">Nil studet, o ciues Spalatenses, quam pius in uos,</l>
+            <l n="l35">Nil studet, o ciues Spalatenses, quam pius in uos,</l>
          
-            <l n="text.body.div.l35">Quam memor et gratus uobis cunctisque uideri</l>
+            <l n="l36">Quam memor et gratus uobis cunctisque uideri</l>
          
-            <l n="text.body.div.l36">Et decus et laudes uestras per cuncta patere.</l>
+            <l n="l37">Et decus et laudes uestras per cuncta patere.</l>
          </div>
 
       </body>
-      <back n="text.back">
+      <back n="back2">
       
-         <div1 n="text.back.div1" type="notes">
-            <head n="text.back.div1.head">Notae</head>
-            <note n="text.back.div1.note" place="foot" xml:id="nd0e81" target="rd0e81">
-               <date n="text.back.div1.note.date" notAfter="1537">ante 1537</date>
+         <div1 n="div11" type="notes">
+            <head n="head1">Notae</head>
+            <note n="note2" place="foot" xml:id="nd0e81" target="rd0e81">
+               <date n="date1" notAfter="1537">ante 1537</date>
             </note>
          </div1>
       </back>

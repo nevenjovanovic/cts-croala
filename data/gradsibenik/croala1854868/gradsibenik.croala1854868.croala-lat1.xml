@@ -86,6 +86,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -139,20 +153,20 @@
         
     </teiHeader>
    <text xml:base="urn:cts:croala:gradsibenik.croala1854868.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div1" type="prosaOratio-acta">
+      <body n="body1">
+         <div n="div1" type="prosaOratio-acta">
         <!-- I. 
         Elezione di nove nobili. -->
         
-            <opener n="text.body.div1.opener">
-               <date n="text.body.div1.opener.date" when="1449-03-02">Die Dominico, secundo mensis Marcij M.CCCC.XLVIIII</date>
+            <opener n="opener1">
+               <date n="date1" when="1449-03-02">Die Dominico, secundo mensis Marcij M.CCCC.XLVIIII</date>
             </opener> 
-            <p n="text.body.div1.p1">Convocato et congregato Generali Consilio Nobilium civium 
-        Sibenici in sala inferiori palatij Comitatus Sibenici more solito, de commissione Magnifici et Generosi Viri Domini Christophori Marcello pro <expan n="text.body.div1.p1.expan">Illustrissimo</expan> Ducali Dominio Venetiarum et honorabilis Comitis et Capitanei civitatis Sibenici, in quo quidem Consilio computato ipso Magnifico Domino Comite et Capitaneo Sibenici interfuerunt nobiles LXXIIII. In ipso Consilio capta fuit pars tenoris infrascripti, videlicet : </p>
+            <p n="p2">Convocato et congregato Generali Consilio Nobilium civium 
+        Sibenici in sala inferiori palatij Comitatus Sibenici more solito, de commissione Magnifici et Generosi Viri Domini Christophori Marcello pro <expan n="expan1">Illustrissimo</expan> Ducali Dominio Venetiarum et honorabilis Comitis et Capitanei civitatis Sibenici, in quo quidem Consilio computato ipso Magnifico Domino Comite et Capitaneo Sibenici interfuerunt nobiles LXXIIII. In ipso Consilio capta fuit pars tenoris infrascripti, videlicet : </p>
         
-            <p n="text.body.div1.p2">Cum omnibus manifestum sit, quod fabbrica ecclesiae Sancti Jacobi de Sibenico omnino egeat provisione ut possit ulterius procedi ad ipsam fabricam, aliter necesse erit eam distruere cum maximo detrimento operis iam facti, quod nisi perficiatur ibit in ruinam, et cum maxima infamia hujus Communitatis, quoniam dicetur et predicabitur per omnes regiones de pusillanimitate nostra eo quod defecerimus a tam preclaro opere, et ne simus ingrati de beneficiis a Deo receptis, et provocemus eius iram adversus nos filiosque nostros, et ne apud mortales infamiam accipiamus quod destituerimus dictam fabricam; ibit pars quod in isto Consilio fiat scruptinium pro eligendo novem nobiles hujus Consilii, et debeant ballotari illi qui eligentur in dicto scruptinio, et illi novem nobiles qui remanebunt electi, et balotati illi qui habebunt plures balotas ceteris, habeant plenissimam libertatem per totum mensem Martij presentis disputare inter se omnes et singulas provisiones que videbuntur sibi fore utiles et honeste pro dicta fabrica prosequenda, et insuper audire et acceptare debeant in scriptis omnes et singulas provisiones, quas unusquisque Nobilis hujus Consilii super fabrica predicta dabit et presentabit ipsis novem Nobilibus electis, infra terminum XV dierum proxime futurorum, quibus provisionibus disputatis, auditis et acceptatis ut dictum est supra, predicti novem nobiles electi, infra presentem mensem Marcij ducere debeant suas opiniones provisiones 
+            <p n="p3">Cum omnibus manifestum sit, quod fabbrica ecclesiae Sancti Jacobi de Sibenico omnino egeat provisione ut possit ulterius procedi ad ipsam fabricam, aliter necesse erit eam distruere cum maximo detrimento operis iam facti, quod nisi perficiatur ibit in ruinam, et cum maxima infamia hujus Communitatis, quoniam dicetur et predicabitur per omnes regiones de pusillanimitate nostra eo quod defecerimus a tam preclaro opere, et ne simus ingrati de beneficiis a Deo receptis, et provocemus eius iram adversus nos filiosque nostros, et ne apud mortales infamiam accipiamus quod destituerimus dictam fabricam; ibit pars quod in isto Consilio fiat scruptinium pro eligendo novem nobiles hujus Consilii, et debeant ballotari illi qui eligentur in dicto scruptinio, et illi novem nobiles qui remanebunt electi, et balotati illi qui habebunt plures balotas ceteris, habeant plenissimam libertatem per totum mensem Martij presentis disputare inter se omnes et singulas provisiones que videbuntur sibi fore utiles et honeste pro dicta fabrica prosequenda, et insuper audire et acceptare debeant in scriptis omnes et singulas provisiones, quas unusquisque Nobilis hujus Consilii super fabrica predicta dabit et presentabit ipsis novem Nobilibus electis, infra terminum XV dierum proxime futurorum, quibus provisionibus disputatis, auditis et acceptatis ut dictum est supra, predicti novem nobiles electi, infra presentem mensem Marcij ducere debeant suas opiniones provisiones 
         et partes ad Consilium Generale predictum, et balotatis ipsis 
-        <pb n="text.body.div1.p2.pb"/> 
+        <pb n="pb1"/> 
         
         
         
@@ -164,16 +178,16 @@
         Mlednich. Qui novem nobiles electi acceptaverunt electionem 
         suam et officium eis impositum.</p> 
          </div>
-        <pb n="text.body.pb1"/>
-         <div n="text.body.div2" type="prosaOratio-acta">    
+        <pb n="pb2"/>
+         <div n="div3" type="prosaOratio-acta">    
         <!-- Tassa generale per un novennio, in elemosina alla fabbrica della chiesa, ma a condizione che v' abbia a contribuire anche il clero con cento ducati all'anno. -->
         
-            <opener n="text.body.div2.opener">
-               <date n="text.body.div2.opener.date" when="1449-03-23">M.CCCC.XLVIIII. indictione XII. die Dominico. XXIII. mensis 
+            <opener n="opener1">
+               <date n="date1" when="1449-03-23">M.CCCC.XLVIIII. indictione XII. die Dominico. XXIII. mensis 
         Marcij.</date>
             </opener> 
         
-            <p n="text.body.div2.p">Item in predicto Generali Consilio per illos novem nobiles, 
+            <p n="p2">Item in predicto Generali Consilio per illos novem nobiles, 
         die secundo instantis mensis in Generali Consilio supradicto per 
         scruptinium electos et deputatos ad disputandum audiendum et 
         acceptandum provisiones fiendas super fabbrica ecclesie Cathedralis Sanati Jacobi de Sibenico, et deducendum eorum provisiones opiniones et partes ad prefatum Generale Consilium, ut 
@@ -191,7 +205,7 @@
         huius civitatis pro maiori parte bene examinate et distincte sunt, 
         vadit pars quod semel exactis tansis quas exigi debent pro perfectione dicte Cisterne et dicto opere completo, totum residuum 
         dicte exactionis contribuatur pro manualibus turrium fiendarum 
-        <pb n="text.body.div2.p.pb"/>
+        <pb n="pb1"/>
         circa Sibenicum, et si dicti denarij non sufficerent, suppleatur 
         per sisterium, et ab inde in antea, correctis prius dictis tansis, 
         quia aliqui ut dicitur sunt preter modum gravati, aliqui minus 
@@ -205,7 +219,7 @@
         reliquis vero tansis L. sexdecim et decem solidorum manentibus 
         ut sunt, et pecunie inde exacte contribuantur pro elemosina in 
         dictam fabricam, et procuratores dicte ecclesie dare possint modum 
-        dictarum exactionum et providere de exactionibus. Hoc modo <gap n="text.body.div2.p.gap"/> 
+        dictarum exactionum et providere de exactionibus. Hoc modo <gap n="gap2"/> 
         omnium gravamine procedere poterit opus predictum cum magna 
         omnium laude et Dei honore. Qua parte capta, omnes alie provisiones annue civium Sibenici intelligantur et sint tunc cassate 
         et revocate, et de libris Ecclesie cancellentur. Et hec omnia locum habeant in quantum Dominus Episcopus cum clero suo contribuerit in dictam fabricam ducatos centum omni anno ad dictos 
@@ -217,50 +231,50 @@
         
         
         
-        <pb n="text.body.pb2"/>
+        <pb n="pb4"/>
         <!-- III. 
         
         Termine di due mesi assegnato al vescovo per la risposta. -->
-         <div n="text.body.div3" type="prosaOratio-acta">
-            <opener n="text.body.div3.opener">
-               <date n="text.body.div3.opener.date" when="1449-03-30">M.CCCC.XLVIIII. Indictione XII. Die Dominico penultimo 
+         <div n="div5" type="prosaOratio-acta">
+            <opener n="opener1">
+               <date n="date1" when="1449-03-30">M.CCCC.XLVIIII. Indictione XII. Die Dominico penultimo 
         mensis Martij.</date>
             </opener> 
         
-            <p n="text.body.div3.p">Cum die XXIII dicti mensis Martij in Generali Consilio Nobilium Sibenicensium posita ballotata et capta fuerit quedam pars 
+            <p n="p2">Cum die XXIII dicti mensis Martij in Generali Consilio Nobilium Sibenicensium posita ballotata et capta fuerit quedam pars 
         super provisione pecuniarum pro fabrica Ecclesie Cathedralis 
         Sancti Jacobi de Sibenico reciperandarum et exigendarum conditione quod contenta in ipsa parte locum habeant in quantum 
-        <abbr n="text.body.div3.p.abbr1">Rv:mus</abbr> Dominus Episcopus Sibenicensis cum clero suo contribuerit 
+        <abbr n="abbr1">Rv:mus</abbr> Dominus Episcopus Sibenicensis cum clero suo contribuerit 
         in dictam fabricam ducatos centum omni anno ad annos novem, 
         aliter vero non, prout in ipsa parte plenius continetur; ideo in 
         predicto Generali Consilio capta fuit pars sive additio ipsius 
-        partis, tenoris infra scriptis, videlicet : Quod <abbr n="text.body.div3.p.abbr2">Rv:mus</abbr> Dominus 
+        partis, tenoris infra scriptis, videlicet : Quod <abbr n="abbr2">Rv:mus</abbr> Dominus 
         Episcopus Sibenicensis cum suo clero habeat terminum ad respondendum et deliberandum, ac respondisse et deliberasse super 
         parte capta super predictis amodo usque per totum mensem 
-        Madij proxime futuri, quo termine elapso respondeant et deliberent dictus <abbr n="text.body.div3.p.abbr3">Rv:mus</abbr> Dominus Episcopus et suus clerus quoquo 
+        Madij proxime futuri, quo termine elapso respondeant et deliberent dictus <abbr n="abbr3">Rv:mus</abbr> Dominus Episcopus et suus clerus quoquo 
         modo ipsi voluerint, tamen annue promissione facte per cives 
         Sibenici sint casse et nulle, nulliusque valoris et momenti, et 
         ponatur ista pars in copia sub parte suprascripta capta die 23 
         martij instantis.</p> 
         </div>
-         <div n="text.body.div4" type="prosaOratio-acta">
+         <div n="div6" type="prosaOratio-acta">
         <!-- V. 
         
         Deliberazione del Consiglio. -->
         
-            <opener n="text.body.div4.opener">
-               <date n="text.body.div4.opener.date" when="1449-05-25">Die XXV Julij M.CCCC.XLVIIII. in festo sancti Jacobi 
+            <opener n="opener1">
+               <date n="date1" when="1449-05-25">Die XXV Julij M.CCCC.XLVIIII. in festo sancti Jacobi 
         Apostoli.</date>
             </opener> 
         
-            <p n="text.body.div4.p1">Convocato et congregato generali Consilio Nobilium civium civitatis Sibenici in sala inferiori palatij Comitatus Sibenicensis 
-        more solito, de mandato et licentia Magnifici viri domini Christofori Marcello pro <expan n="text.body.div4.p1.expan">Illustrissimo</expan> Ducali Dominio Venetiarum et 
+            <p n="p2">Convocato et congregato generali Consilio Nobilium civium civitatis Sibenici in sala inferiori palatij Comitatus Sibenicensis 
+        more solito, de mandato et licentia Magnifici viri domini Christofori Marcello pro <expan n="expan1">Illustrissimo</expan> Ducali Dominio Venetiarum et 
         
         
-        <pb n="text.body.div4.p1.pb"/>
+        <pb n="pb2"/>
         honorabilis Comitis et Capitanei Sibenici, in quo quidem Consilio, 
         computato ipso Magnifico domino Comite et capitaneo interfuerunt nobiles LXV, capta fuit pars tenoris infrascripti, videlicet:</p> 
-            <p n="text.body.div4.p2">Cum in generali Consilio die penultimo mensis Martij elapsi 
+            <p n="p3">Cum in generali Consilio die penultimo mensis Martij elapsi 
         capta fuerit quedam pars, quos annue promissiones pecuniarie 
         facte per Cives Sibenici pro fabrica ecclesie Sancti Jacobi de 
         Sibenico essent casse et nulle rationibus et causis in ipsa parte 
@@ -271,7 +285,7 @@
         promisisse sub conditione quod presbiteri deberent dare subventionem, sint absoluti ab eorum promissionibus; illi autem qui 
         jurabunt se promisisse libere absque aliqua conditione, remaneant 
         obligati iuxta suos promissiones, et hoc quia illud quod semel 
-        oblatum est Deo libere, merito non debet <sic n="text.body.div4.p2.sic">rectratari</sic> aut revocari.</p>
+        oblatum est Deo libere, merito non debet <sic n="sic1">rectratari</sic> aut revocari.</p>
         
         </div>
       </body>

@@ -88,6 +88,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -138,29 +149,29 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:dudes01.croala817145.croala-lat1:" xml:lang="lat">
-      <front n="text.front">
-         <docAuthor n="text.front.docAuthor">Matthaeus Dudesius Dalmata Absorensis</docAuthor>
-         <docTitle n="text.front.docTitle">
-            <titlePart n="text.front.docTitle.titlePart">Ad lectorem (Dictionarii latino epirotici, Romae 1635)</titlePart>
+      <front n="front1">
+         <docAuthor n="docAuthor1">Matthaeus Dudesius Dalmata Absorensis</docAuthor>
+         <docTitle n="docTitle2">
+            <titlePart n="titlePart1">Ad lectorem (Dictionarii latino epirotici, Romae 1635)</titlePart>
          </docTitle>
-         <docDate n="text.front.docDate">Romae, <date n="text.front.docDate.date">1635</date>.</docDate>
+         <docDate n="docDate3">Romae, <date n="date1">1635</date>.</docDate>
   
       </front>
-      <body n="text.body">
-         <div n="text.body.div" type="poesis" met="elegiacum">
-            <head n="text.body.div.head">
+      <body n="body2">
+         <div n="div1" type="poesis" met="elegiacum">
+            <head n="head1">
   MATTHAEVS DVDESIVS
   Dalmata Absorensis
   AD LECTOREM
 </head>
 
-            <l n="text.body.div.l1" xml:id="ma.1">  Si cupis immensis Epiri cernere campis</l>
-            <l n="text.body.div.l2" xml:id="ma.2" met="pentameter">  Urbes, quae Argolico non procul Orbe iacent;</l>
-            <l n="text.body.div.l3" xml:id="ma.3">  Saepe cruentatis Othomano ubi sanguine Lunis</l>
-            <l n="text.body.div.l4" xml:id="ma.4" met="pentameter">  Disiecit Scythicos Mars Epirota duces,</l>
-            <l n="text.body.div.l5" xml:id="ma.5">  Hunc lege, hunc recole, ingenioque reconde libellum</l>
+            <l n="l2" xml:id="ma.1">  Si cupis immensis Epiri cernere campis</l>
+            <l n="l3" xml:id="ma.2" met="pentameter">  Urbes, quae Argolico non procul Orbe iacent;</l>
+            <l n="l4" xml:id="ma.3">  Saepe cruentatis Othomano ubi sanguine Lunis</l>
+            <l n="l5" xml:id="ma.4" met="pentameter">  Disiecit Scythicos Mars Epirota duces,</l>
+            <l n="l6" xml:id="ma.5">  Hunc lege, hunc recole, ingenioque reconde libellum</l>
             <!-- sic, ne štima prozodija -->
-            <l n="text.body.div.l6" xml:id="ma.6" met="pentameter">  Linguae qui Patriae dat documenta suae.</l>
+            <l n="l7" xml:id="ma.6" met="pentameter">  Linguae qui Patriae dat documenta suae.</l>
          </div>
       </body>
    </text>

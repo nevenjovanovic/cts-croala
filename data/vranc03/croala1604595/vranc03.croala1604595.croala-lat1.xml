@@ -121,6 +121,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         
         <profileDesc>
@@ -179,25 +190,25 @@
         
     </teiHeader>
    <text xml:base="urn:cts:croala:vranc03.croala1604595.croala-lat1:" xml:lang="lat">
-      <front n="text.front">
-         <titlePage n="text.front.titlePage">
-            <titlePart n="text.front.titlePage.titlePart">Oratio pro Q. Ligario</titlePart>
+      <front n="front1">
+         <titlePage n="titlePage1">
+            <titlePart n="titlePart1">Oratio pro Q. Ligario</titlePart>
          </titlePage>
       </front>
-        <body n="text.body">
-            <gap n="text.body.gap1" reason="irrelevant"/>
-            <div n="text.body.div" type="poesis-epigramma" met="hendecasyllabus">
-                <head n="text.body.div.head">Michael Wrancius Dalmata ad lectorem</head>
-                <l n="text.body.div.l1">Istac ut Cicero actione vitam</l>
-                <l n="text.body.div.l2">Quinti Ligarii Charonte ab ipso</l>
-                <l n="text.body.div.l3">Divini eloquii tuba evocavit:</l>
-                <l n="text.body.div.l4">Sic vos, o juvenes, labore multo</l>
-                <l n="text.body.div.l5">Saevam barbariem jugo prementes</l>
-                <l n="text.body.div.l6">Hoc Marci auxilio evocemus orco</l>
-                <l n="text.body.div.l7">Musaque eloquiumque Tullianum.</l>
+        <body n="body2">
+            <gap n="gap1" reason="irrelevant"/>
+            <div n="div2" type="poesis-epigramma" met="hendecasyllabus">
+                <head n="head1">Michael Wrancius Dalmata ad lectorem</head>
+                <l n="l2">Istac ut Cicero actione vitam</l>
+                <l n="l3">Quinti Ligarii Charonte ab ipso</l>
+                <l n="l4">Divini eloquii tuba evocavit:</l>
+                <l n="l5">Sic vos, o juvenes, labore multo</l>
+                <l n="l6">Saevam barbariem jugo prementes</l>
+                <l n="l7">Hoc Marci auxilio evocemus orco</l>
+                <l n="l8">Musaque eloquiumque Tullianum.</l>
 
             </div>
-            <gap n="text.body.gap2" reason="irrelevant"/>
+            <gap n="gap3" reason="irrelevant"/>
         </body>
 
     

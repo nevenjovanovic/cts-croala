@@ -104,6 +104,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -169,25 +183,25 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:brod01.croala1802602.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div type="prosa-epistula" n="text.body.div">
+        <body n="body1">
+            <div type="prosa-epistula" n="div1">
 
 
-                <head n="text.body.div.head">XIV/6 <date n="text.body.div.head.date" when="1526-03-17">1526. 17. Martii</date>, Budae Stephanus Brodericus electus episcopus
+                <head n="head1">XIV/6 <date n="date1" when="1526-03-17">1526. 17. Martii</date>, Budae Stephanus Brodericus electus episcopus
                     Sirmiensis, cancellarius Clementi papae VII.</head>
 
 
-                <note n="text.body.div.note" resp="BJ">Segr. Stato, Principi, 4, f. 51. Editio: THEINER 1860, n. DCCCLXXI,
+                <note n="note2" resp="BJ">Segr. Stato, Principi, 4, f. 51. Editio: THEINER 1860, n. DCCCLXXI,
                     p. 663–664.</note>
 
 
-                <opener n="text.body.div.opener">Beatissime pater et domine clementissime! Post oscula pedum Sanctitatis
+                <opener n="opener3">Beatissime pater et domine clementissime! Post oscula pedum Sanctitatis
                     Vestre beatorum et servitutis mee in gratiam humillimam commendationem.</opener>
-                <p n="text.body.div.p">Vestra Beatitudo, scio, satis meminit, quid sepe tam de statu huius regni ac de
+                <p n="p4">Vestra Beatitudo, scio, satis meminit, quid sepe tam de statu huius regni ac de
                     aliquo meliori ordine in eo ponendo, quid etiam de domino Colocensi mecum
                     contulerit. Duo sunt potissimum magistratus in Hungaria, quorum prudencia,
                     authoritate, industria hoc regnum regi consuevit: cancellariatus et the
-                        <milestone n="text.body.div.p.milestone1" unit="page"/> saurariatus – nam de palatinatu nunc nihil loquor.
+                        <milestone n="milestone1" unit="page"/> saurariatus – nam de palatinatu nunc nihil loquor.
                     Cancellarium habet Vestra Sanctitas illum, quem voluit, si nulla alia re, certe
                     integritate et fide tam erga Se, quam erga regem et regnum nemini cedentem, id,
                     quod ego de eo constantissime polliceor. Sed cancellarius, qualiscumque et
@@ -230,14 +244,14 @@
                     valeat pocius amicicia illorum, quam ista tanta huius regni et reipublice
                     Christiane recte constituende occasio pretermittatur. Ego, quantum maxime
                     possum, supplico Vestre Sanctitati, dignetur hec, que nunc scribo, diligenter
-                    considerare. Quod ad me pertinet, licet satis tenui vale <milestone n="text.body.div.p.milestone2" unit="page"/> tudine sim ad onus tantum ferendum ac parum eciam idoneus, tamen neque
+                    considerare. Quod ad me pertinet, licet satis tenui vale <milestone n="milestone2" unit="page"/> tudine sim ad onus tantum ferendum ac parum eciam idoneus, tamen neque
                     valetudini, neque rei ulli in mundo, neque vite sim parsurus, dummodo pro
                     desiderio Vestre Sanctitatis aliquid servire possim. Ad quod certum est me hiis
                     duobus adminiculis ita indigere, ut sine hiis nullo pacto esse possim.</p>
-                <closer n="text.body.div.closer">Me et servitutem meam in graciam Vestre Sanctitatis humilime commendo, que
+                <closer n="closer5">Me et servitutem meam in graciam Vestre Sanctitatis humilime commendo, que
                     ignoscat, rogo, literarum prolixitati. Vestram Sanctitatem Deus Optimus Maximus
                     felicem atque incolumem conservet. Datum Bude, XVI Marcii, anno Domini MDXXVI.
-                    Vestrę Sanctitatis <gap n="text.body.div.closer.gap" reason="lacuna"/>27</closer>
+                    Vestrę Sanctitatis <gap n="gap1" reason="lacuna"/>27</closer>
 
             </div>
         </body>

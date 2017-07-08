@@ -82,6 +82,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -137,27 +151,27 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:martin02.croala2083813.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
+        <body n="body1">
             
-                <div n="text.body.div" type="epigramma" xml:id="hiermart-c02">
-                    <head n="text.body.div.head">
-               <anchor n="text.body.div.head.anchor" xml:id="id_tth_sEc16"/>16  <add n="text.body.div.head.add">Hieronymi Martiniaci epitaphium
+                <div n="div1" type="epigramma" xml:id="hiermart-c02">
+                    <head n="head1">
+               <anchor n="anchor1" xml:id="id_tth_sEc16"/>16  <add n="add2">Hieronymi Martiniaci epitaphium
                             Hieronymi Lucii</add>
             </head>
-                    <l n="text.body.div.l1">Totus Hieronymus lucebat Lucius, at nunc</l>
-                    <l n="text.body.div.l2">    Pars melior lucet nobiliorque sui.<ref n="text.body.div.l2.ref" target="#tthFtNtABH"/>
+                    <l n="l2">Totus Hieronymus lucebat Lucius, at nunc</l>
+                    <l n="l3">    Pars melior lucet nobiliorque sui.<ref n="ref1" target="#tthFtNtABH"/>
                     </l>
                 </div>
             
         </body>
-        <back n="text.back">
-            <div n="text.back.div" type="notes">
-                <head n="text.back.div.head">Notae:</head>
+        <back n="back2">
+            <div n="div1" type="notes">
+                <head n="head1">Notae:</head>
                 
-                <p n="text.back.div.p">
-               <anchor n="text.back.div.p.anchor" xml:id="id_tthFtNtABH"/>
-               <ref n="text.back.div.p.ref" target="#tthFrefABH">17</ref>Trag. f. 34v;    <hi n="text.back.div.p.hi">tit.</hi> Hieronymus Martiniacus
-                        <emph n="text.back.div.p.emph">Trag.</emph>
+                <p n="p2">
+               <anchor n="anchor1" xml:id="id_tthFtNtABH"/>
+               <ref n="ref2" target="#tthFrefABH">17</ref>Trag. f. 34v;    <hi n="hi3">tit.</hi> Hieronymus Martiniacus
+                        <emph n="emph4">Trag.</emph>
             </p>
                       </div>
         </back>

@@ -79,6 +79,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
             
         <profileDesc>
@@ -127,23 +141,23 @@
 
 	
 
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div">
-            <head n="text.body.div.head">MIROSLAV KRAVAR</head>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2">
+            <head n="head1">MIROSLAV KRAVAR</head>
         
-            <p n="text.body.div.p1">Quaeso, doctissimi collegae, ut mihi liceat hoc in Coetu ea, quae de
+            <p n="p2">Quaeso, doctissimi collegae, ut mihi liceat hoc in Coetu ea, quae de
         studiorum classicorum in re publica Iugoslavia statu suo tempore in ephemeride «Romanitas» pluribus verbis exposui, in pauca conferre, quo facilius appareat parem aut similem saltem horum studiorum condicionem
         in variis non solum Europae civitatibus, sed etiam in omnibus paene orbis
         terrarum regionibus, in quibus etiam patrum nostrorum memoria linguam
         litterasque Latinas maiore in honore quam hodie fuisse constat.
         
-        <pb n="text.body.div.p1.pb"/>
+        <pb n="pb1"/>
         
         Hoc eo libentius faciam, quod haud silentio praetereundum est etiam
         Slavorum multas nationes intra Latinitatis moenia iam diu vitam agere.</p>
         
-            <p n="text.body.div.p2">Dies me deficiat, si ordine exponere velim, quam abundanter olim
+            <p n="p3">Dies me deficiat, si ordine exponere velim, quam abundanter olim
         in urbibus Slavorum meridianorum, imprimis apud eos, qui ad occidentem
         vergunt, studia classica floruerint, quae praeclara scriptorum studiosorum
         sapientium ingenia contenderint, ut Latini sermonis usum conservarent
@@ -156,39 +170,39 @@
         aptius quam antea uti coeperunt. Quo factum est, ut lingua Latina nullo
         iam modo eum honoris locum retinere posset, quem antea habuerat.</p>
         
-            <p n="text.body.div.p3">Haec ego omnia nimis vetera satisque cognita praetereo, ut ad
+            <p n="p4">Haec ego omnia nimis vetera satisque cognita praetereo, ut ad
         hodiernum studiorum Latinorum statum veniam.</p>
         
-            <p n="text.body.div.p4">Inter duo bella universalia in Vetere Iugoslaviae regno duo erant
+            <p n="p5">Inter duo bella universalia in Vetere Iugoslaviae regno duo erant
         scholarum genera, in quibus discipuli puerili aetate lingua litterisque Latinis instruerentur: alterum erat gymnasium classicum, in quo praeter linguam Graecam etiam Latina discebatur, cuius studio octo anni tribuebantur, alterum vero gymnasium reale dictum, ubi eadem studia tantum
         superius quadriennium occupabant. Quorum in altero ex auctoribus Latinis hi praecipue scriptores legebantur: Caesar, Sallustius, Cicero, Livius, Tacitus, poetae Ovidius, Vergilius, Horatius; in altero autem eorundem
         auctorum loci selecti. Quod ad magistratus linguae litterarumque Latinarum erudiendos attinet, huic rei seminaria classica apud facultates philosophiae quattuor Universitatum operam suam navabant: Aemonensis,
         Zagabriensis, Singidunensis, Scupensis.</p>
         
-            <p n="text.body.div.p5">Neque deerant controversiae, sicut in aliis orbis regionibus, de classicorum studiorum utilitate, in quibus saepenumero acriora verba in gymnasium classicum audita sunt, quamquam id radicitus tolli nequibat.</p>
-            <p n="text.body.div.p6">Postea vero, in nova iam rei publicae ratione, quae post alterum bellum universale est constituta, multa sunt in scholarum provincia partim renovata partim funditus mutata. Multae novae scholae et quaedam novae Universitates ortae sunt, aliquot vetera gymnasia classica sunt clausa, nonnulla nova aperta, sed ita tamen, ut omnium numerus minor esset quam ante bellum. Praeterea in gymnasio quod dicitur communi biennium tantum linguae Latinae consecratur, quo fit, ut litteris non solum Latinis
+            <p n="p6">Neque deerant controversiae, sicut in aliis orbis regionibus, de classicorum studiorum utilitate, in quibus saepenumero acriora verba in gymnasium classicum audita sunt, quamquam id radicitus tolli nequibat.</p>
+            <p n="p7">Postea vero, in nova iam rei publicae ratione, quae post alterum bellum universale est constituta, multa sunt in scholarum provincia partim renovata partim funditus mutata. Multae novae scholae et quaedam novae Universitates ortae sunt, aliquot vetera gymnasia classica sunt clausa, nonnulla nova aperta, sed ita tamen, ut omnium numerus minor esset quam ante bellum. Praeterea in gymnasio quod dicitur communi biennium tantum linguae Latinae consecratur, quo fit, ut litteris non solum Latinis
         sed etiam omnino classicis in singulos annos minus studeatur. Cuius rei
         causas si quaerere velis, duas forsitan invenias, quae adulescentium animos maxime ad hoc studiorum genere deterreant: unam celerrimum
         scientiarum progressum, cuius omnes testes sumus, alteram vero novam
         civitatis rationem, quae eas praecipue artes curat, quae ad novam rem
         publicam aedificandam pertinere videntur.</p>
         
-            <p n="text.body.div.p7">Quod autem ad ipsas antiquitatis disciplinas, quae philologia classica
+            <p n="p8">Quod autem ad ipsas antiquitatis disciplinas, quae philologia classica
         continentur, eae nihilominus in Universitatibus strenue coluntur, ut ex
         
-        <pb n="text.body.div.p7.pb"/>
+        <pb n="pb1"/>
         
         ephemeride semestrali "Živa antika" (id est "Antiquitas viva"), quae
         Scupis iam sedecim annos editur, iudicari potest. Hoc rerum statu scientia
         linguae Latinae magis magisque singulis artibus atque disciplinis servire
         incipit: historiae, archeologiae, philosophiae, medicinae, iurisprudentiae
-        <abbr n="text.body.div.p7.abbr">etc.</abbr> Quid mirum, si in aetate technica viventes studia antiquitatis e scholarum scamnis paulatim recedere videmus atque magis magisque in alias provincias transire? Nostrum certe est summa ope niti, ut omnia quae
+        <abbr n="abbr2">etc.</abbr> Quid mirum, si in aetate technica viventes studia antiquitatis e scholarum scamnis paulatim recedere videmus atque magis magisque in alias provincias transire? Nostrum certe est summa ope niti, ut omnia quae
         veteres nobis memoria tradiderint ab oblivione vindicemus, sed tempora
         mutata monere videntur novis quibusdam itineribus opus esse, quae nos
         ad hanc metam perducant, eoque magis, quod in variis nationibus non
         eaedem sunt vitae condiciones, quae studia nostra vel provehere vel retardare possint.</p>
         
-            <p n="text.body.div.p8">Haud sane dubium est, quin hic Conventus, sicut alii eiusdem generis
+            <p n="p9">Haud sane dubium est, quin hic Conventus, sicut alii eiusdem generis
         coetus, quippe qui hac in re auctoritate plurimum valeant, efficere possint,
         ut in studiis Latinis provehendis multa in commune statuantur. In his
         mihi eae sententiae maximi momenti esse videntur, quae hac in re ad

@@ -91,6 +91,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -142,167 +156,167 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:muzic01.croala581036.croala-lat1:" xml:lang="lat" type="poesis">
-      <front n="text.front">
-         <docTitle n="text.front.docTitle">
-            <titlePart n="text.front.docTitle.titlePart">Carmina Latina Francisci Musaei Sicensis e codice Iadertino Variorum Dalmaticorum (Znanstvena knjižnica Zadar, sign. 25290, ms.
+      <front n="front1">
+         <docTitle n="docTitle1">
+            <titlePart n="titlePart1">Carmina Latina Francisci Musaei Sicensis e codice Iadertino Variorum Dalmaticorum (Znanstvena knjižnica Zadar, sign. 25290, ms.
           617)</titlePart>
          </docTitle>
       </front>
-      <body n="text.body">
-        <pb n="text.body.pb1"/>
-         <div n="text.body.div1" type="poesis-epigramma" xml:id="mus-vd01" met="hexameter">
-            <head n="text.body.div1.head">De Hieronymi Veturii Traguriensis /
+      <body n="body2">
+        <pb n="pb1"/>
+         <div n="div2" type="poesis-epigramma" xml:id="mus-vd01" met="hexameter">
+            <head n="head1">De Hieronymi Veturii Traguriensis /
             nobilissimi atque optimi uiri obitu / Musaeus </head>
-            <l n="text.body.div1.l1">Si quis inextincta probitatis luce refulsit,</l>
-            <l n="text.body.div1.l2">Fulsit Delmatica genitus de stirpe Veturus.</l>
-            <l n="text.body.div1.l3">Iustitia prorsus nituit pietateque uera;</l>
-            <l n="text.body.div1.l4">Floruit ingenio multaque excelluit arte;</l>
-            <pb n="text.body.div1.pb"/>
-            <l n="text.body.div1.l5">Moribus egregiis uirtuteque claruit omni.</l>
-            <l n="text.body.div1.l6">Plura quid enumerem? Superum rectore fauente</l>
-            <l n="text.body.div1.l7">Christicola dignam uoluit deducere uitam,</l>
-            <l n="text.body.div1.l8">Christicola digno meruit concedere fato. </l>
-            <l n="text.body.div1.l9"> Terrae igitur terrena quidem caelestia caelo</l>
-            <l n="text.body.div1.l10">Reddidit et magni peruenit ad ora Tonantis.</l>
-            <l n="text.body.div1.l11">Ergo caelicolis fruitur summumque parentem</l>
-            <l n="text.body.div1.l12">Conspicit aeternum felix uicturus in aeuum.</l>
+            <l n="l2">Si quis inextincta probitatis luce refulsit,</l>
+            <l n="l3">Fulsit Delmatica genitus de stirpe Veturus.</l>
+            <l n="l4">Iustitia prorsus nituit pietateque uera;</l>
+            <l n="l5">Floruit ingenio multaque excelluit arte;</l>
+            <pb n="pb6"/>
+            <l n="l7">Moribus egregiis uirtuteque claruit omni.</l>
+            <l n="l8">Plura quid enumerem? Superum rectore fauente</l>
+            <l n="l9">Christicola dignam uoluit deducere uitam,</l>
+            <l n="l10">Christicola digno meruit concedere fato. </l>
+            <l n="l11"> Terrae igitur terrena quidem caelestia caelo</l>
+            <l n="l12">Reddidit et magni peruenit ad ora Tonantis.</l>
+            <l n="l13">Ergo caelicolis fruitur summumque parentem</l>
+            <l n="l14">Conspicit aeternum felix uicturus in aeuum.</l>
         </div>
-        <pb n="text.body.pb2"/>
-         <div n="text.body.div2" type="poesis-carmen" xml:id="mus-vd02" met="hexameter">
-            <head n="text.body.div2.head"> Musaei ad Veturios carmen</head>
-            <l n="text.body.div2.l1">Gentis et antiquae patriae decora alta Veturi,</l>
-            <l n="text.body.div2.l2">Quam Mars, armorum sophiae, quam pulcher Apollo</l>
-            <l n="text.body.div2.l3">Egregiis quondam titulis ad sidera uexit,</l>
-            <l n="text.body.div2.l4">Quid maerere iuuat genitoris funera iussa</l>
-            <l n="text.body.div2.l5">Imperio ac nutu supremi regis Olympi,</l>
-            <l n="text.body.div2.l6">Qui sine fine suo moderatur cuncta tenore?</l>
-            <l n="text.body.div2.l7">Parcite maereri lacrimis, iam parcite multum,</l>
-            <l n="text.body.div2.l8">Solari debent nullo non tempore uestrum</l>
-            <l n="text.body.div2.l9">Eximii mores et candida uita dolorem,</l>
-            <l n="text.body.div2.l10">Excessusque patris tota laudabilis hora:</l>
-            <l n="text.body.div2.l11">Praeterea clarum satis et memorabile nomen.</l>
-            <l n="text.body.div2.l12">Exitus hic unus mortalia corpora certe</l>
-            <l n="text.body.div2.l13">Semper habet, uerum lucis spes certa futurae</l>
-            <l n="text.body.div2.l14">Corda tenet sacrae fidei coniuncta uigori,</l>
-            <l n="text.body.div2.l15">At diuinus amor uirtutem absoluit utramque</l>
-            <l n="text.body.div2.l16">Iure suo iactatque nouas in pectora flammas.</l>
-            <l n="text.body.div2.l17">Inflammata polos hominum praecordia scandunt</l>
-            <l n="text.body.div2.l18">Et Dominum immensi caeli speculantur et orbis.</l>
-            <l n="text.body.div2.l19">Quid plura? Ingentis, uerae quoque laudis honore</l>
-            <l n="text.body.div2.l20">Perbreue curriculum uitae natura rependit</l>
-            <l n="text.body.div2.l21">Naturam moderante Deo per saecula rerum. </l>
-            <pb n="text.body.div2.pb1"/>
-            <l n="text.body.div2.l22">Vnanimes igitur maestas dimittite curas!</l>
-            <l n="text.body.div2.l23">Cedite numinibus studiisque incumbite uestris </l>
-            <l n="text.body.div2.l24">Nobilitate pari fulgoreque prorsus eodem:</l>
-            <l n="text.body.div2.l25">Nam pariter facunda uiros et bellica Pallas</l>
-            <l n="text.body.div2.l26">Aetheris excelsi radiantia tollit ad astra.</l>
-            <l n="text.body.div2.l27">Pergite tantarum uirtutum currere campos:</l>
-            <l n="text.body.div2.l28">Assiduos etenim comitatur gloria semper.</l>
-            <l n="text.body.div2.l29">Sic nitor aeternae laudis decorabit utrumque</l>
-            <l n="text.body.div2.l30">Perpetuoque dabit celebrandum protinus aeuo.</l>
-            <pb n="text.body.div2.pb2"/>
+        <pb n="pb3"/>
+         <div n="div4" type="poesis-carmen" xml:id="mus-vd02" met="hexameter">
+            <head n="head1"> Musaei ad Veturios carmen</head>
+            <l n="l2">Gentis et antiquae patriae decora alta Veturi,</l>
+            <l n="l3">Quam Mars, armorum sophiae, quam pulcher Apollo</l>
+            <l n="l4">Egregiis quondam titulis ad sidera uexit,</l>
+            <l n="l5">Quid maerere iuuat genitoris funera iussa</l>
+            <l n="l6">Imperio ac nutu supremi regis Olympi,</l>
+            <l n="l7">Qui sine fine suo moderatur cuncta tenore?</l>
+            <l n="l8">Parcite maereri lacrimis, iam parcite multum,</l>
+            <l n="l9">Solari debent nullo non tempore uestrum</l>
+            <l n="l10">Eximii mores et candida uita dolorem,</l>
+            <l n="l11">Excessusque patris tota laudabilis hora:</l>
+            <l n="l12">Praeterea clarum satis et memorabile nomen.</l>
+            <l n="l13">Exitus hic unus mortalia corpora certe</l>
+            <l n="l14">Semper habet, uerum lucis spes certa futurae</l>
+            <l n="l15">Corda tenet sacrae fidei coniuncta uigori,</l>
+            <l n="l16">At diuinus amor uirtutem absoluit utramque</l>
+            <l n="l17">Iure suo iactatque nouas in pectora flammas.</l>
+            <l n="l18">Inflammata polos hominum praecordia scandunt</l>
+            <l n="l19">Et Dominum immensi caeli speculantur et orbis.</l>
+            <l n="l20">Quid plura? Ingentis, uerae quoque laudis honore</l>
+            <l n="l21">Perbreue curriculum uitae natura rependit</l>
+            <l n="l22">Naturam moderante Deo per saecula rerum. </l>
+            <pb n="pb23"/>
+            <l n="l24">Vnanimes igitur maestas dimittite curas!</l>
+            <l n="l25">Cedite numinibus studiisque incumbite uestris </l>
+            <l n="l26">Nobilitate pari fulgoreque prorsus eodem:</l>
+            <l n="l27">Nam pariter facunda uiros et bellica Pallas</l>
+            <l n="l28">Aetheris excelsi radiantia tollit ad astra.</l>
+            <l n="l29">Pergite tantarum uirtutum currere campos:</l>
+            <l n="l30">Assiduos etenim comitatur gloria semper.</l>
+            <l n="l31">Sic nitor aeternae laudis decorabit utrumque</l>
+            <l n="l32">Perpetuoque dabit celebrandum protinus aeuo.</l>
+            <pb n="pb33"/>
         </div>
-         <div n="text.body.div3" type="poesis-epigramma" xml:id="mus-vd03" met="hexameter">
-            <head n="text.body.div3.head">
-            Francisci Musaei de Petri Difnici / uiri <corr n="text.body.div3.head.corr">illustris</corr> obitu carmen
+         <div n="div5" type="poesis-epigramma" xml:id="mus-vd03" met="hexameter">
+            <head n="head1">
+            Francisci Musaei de Petri Difnici / uiri <corr n="corr1">illustris</corr> obitu carmen
           </head>
-            <note n="text.body.div3.note">tit. illustris: illustri</note>
-            <l n="text.body.div3.l1">Te quoque lanificae nobis rapuere sorores,</l>
-            <l n="text.body.div3.l2">Candide Petre, tuae decus indelebile gentis</l>
-            <l n="text.body.div3.l3">Illyrides Tuscaeque deae tua fata queruntur;</l>
-            <l n="text.body.div3.l4">Atque Latina gemit lacrimasque Minerua profundit.</l>
-            <l n="text.body.div3.l5">Quae tibi Nestoreos optabat iugiter annos,</l>
-            <l n="text.body.div3.l6">Patria grata tuum nomen celebrabit in aeuum.</l>
+            <note n="note2">tit. illustris: illustri</note>
+            <l n="l3">Te quoque lanificae nobis rapuere sorores,</l>
+            <l n="l4">Candide Petre, tuae decus indelebile gentis</l>
+            <l n="l5">Illyrides Tuscaeque deae tua fata queruntur;</l>
+            <l n="l6">Atque Latina gemit lacrimasque Minerua profundit.</l>
+            <l n="l7">Quae tibi Nestoreos optabat iugiter annos,</l>
+            <l n="l8">Patria grata tuum nomen celebrabit in aeuum.</l>
           
           
         </div>
-        <pb n="text.body.pb3"/> 
-         <div n="text.body.div4" type="poesis-carmen" xml:id="mus-vd04" met="hexameter">
-            <head n="text.body.div4.head">
+        <pb n="pb6"/> 
+         <div n="div7" type="poesis-carmen" xml:id="mus-vd04" met="hexameter">
+            <head n="head1">
             De Ioannis Lascari nobilissimi / atque honoratissimi uiri optime de / Veneta
               Republica meriti obitu / Francisci Musaei Sicensis carmen
           </head>
-            <l n="text.body.div4.l1">Lascara gens merito latum memorata per orbem,</l>
-            <l n="text.body.div4.l2">Historiis celebrata nouis, celebrata uetustis,</l>
-            <l n="text.body.div4.l3">Caesareo splendore nitens ac stemmate pulchro;</l>
-            <l n="text.body.div4.l4">Principibus bene fida suis et cognita laude, </l>
-            <l n="text.body.div4.l5">Claruit ingeniis, armorum claruit arte.</l>
-            <l n="text.body.div4.l6">Tali stirpe quidem genitus Demetrius ille,</l>
-            <l n="text.body.div4.l7">Dux rectorque equitum, toto laudabilis aeuo,</l>
-            <l n="text.body.div4.l8">Ardenti studio uigilanteque publica semper</l>
-            <pb n="text.body.div4.pb"/>
-            <l n="text.body.div4.l9">Munera procurans, Byzanti excessit in urbe,</l>
-            <l n="text.body.div4.l10">Nunc ubi perplacide patria in tellure quiescit.</l>
-            <l n="text.body.div4.l11">At modo Ioannes ueterum sine more parentum</l>
-            <l n="text.body.div4.l12">Respondens decori, rara probitate refulgens,</l>
-            <l n="text.body.div4.l13">Ductor, clarus eques, nec non moderator equestris</l>
-            <l n="text.body.div4.l14">Militiae ante diem nostra tumulatur in ora.</l>
-            <l n="text.body.div4.l15">Sic superi uoluere polos et saecla regentes,</l>
-            <l n="text.body.div4.l16">Sic disiuncta iacent summorum corpora fratrum,</l>
-            <l n="text.body.div4.l17">Quos genus ac multi sociarant Martis honores:</l>
-            <l n="text.body.div4.l18">Verum animae pariter diuina luce fruuntur.</l>
+            <l n="l2">Lascara gens merito latum memorata per orbem,</l>
+            <l n="l3">Historiis celebrata nouis, celebrata uetustis,</l>
+            <l n="l4">Caesareo splendore nitens ac stemmate pulchro;</l>
+            <l n="l5">Principibus bene fida suis et cognita laude, </l>
+            <l n="l6">Claruit ingeniis, armorum claruit arte.</l>
+            <l n="l7">Tali stirpe quidem genitus Demetrius ille,</l>
+            <l n="l8">Dux rectorque equitum, toto laudabilis aeuo,</l>
+            <l n="l9">Ardenti studio uigilanteque publica semper</l>
+            <pb n="pb10"/>
+            <l n="l11">Munera procurans, Byzanti excessit in urbe,</l>
+            <l n="l12">Nunc ubi perplacide patria in tellure quiescit.</l>
+            <l n="l13">At modo Ioannes ueterum sine more parentum</l>
+            <l n="l14">Respondens decori, rara probitate refulgens,</l>
+            <l n="l15">Ductor, clarus eques, nec non moderator equestris</l>
+            <l n="l16">Militiae ante diem nostra tumulatur in ora.</l>
+            <l n="l17">Sic superi uoluere polos et saecla regentes,</l>
+            <l n="l18">Sic disiuncta iacent summorum corpora fratrum,</l>
+            <l n="l19">Quos genus ac multi sociarant Martis honores:</l>
+            <l n="l20">Verum animae pariter diuina luce fruuntur.</l>
           
         </div>
-         <pb n="text.body.pb4"/>
-         <div n="text.body.div5" type="poesis-carmen" xml:id="mus-vd05" met="hexameter">
-            <head n="text.body.div5.head">
+         <pb n="pb8"/>
+         <div n="div9" type="poesis-carmen" xml:id="mus-vd05" met="hexameter">
+            <head n="head1">
 Ad singularem uirum Aloysium / Barbarum praetorem Traguriensem / Musaeus
           </head>
-            <l n="text.body.div5.l1">Barbara gens certe per totum floruit aeuum</l>
-            <l n="text.body.div5.l2">Praestantum ingenio, sophia, numeroque uirorum,</l>
-            <l n="text.body.div5.l3">Et bene de patria sede et ditione merentum,</l>
-            <l n="text.body.div5.l4">Nomine qui clari semper memorantur in orbe</l>
-            <l n="text.body.div5.l5">Et perpulchra sui praebent exempla uigoris; </l>
-            <l n="text.body.div5.l6">Praeterea stimulos laudum mortalibus addunt.</l>
-            <l n="text.body.div5.l7">Nunc floret uirtute patrum magis, optime praetor,</l>
-            <l n="text.body.div5.l8">Rem Venetam uarie decorantum stemmate digno;</l>
-            <l n="text.body.div5.l9">Et decus antiquum confert cum laude recenti,</l>
-            <l n="text.body.div5.l10">Protinus aethereo genti aspirante fauore. </l>
-            <l n="text.body.div5.l11">Te quoque iure quidem tali laetatur alumno</l>
-            <l n="text.body.div5.l12">Auctoremque sui te comprobat illa nitoris.</l>
-            <l n="text.body.div5.l13">Quae digna ipse tibi merito praeconia fundam</l>
-            <l n="text.body.div5.l14">Acriter urgenti uestigia nota priorum?</l>
-            <l n="text.body.div5.l15">Spectata probitate micas, grauitateque polles, </l>
-            <l n="text.body.div5.l16">Consilioque uiges, recta ratione gubernas;</l>
-            <l n="text.body.div5.l17">Omnia iustitiaeque nouo fulgore coruscas,</l>
-            <l n="text.body.div5.l18">Nempe ferens aequam nullo non tempore lancem.</l>
-            <l n="text.body.div5.l19">Quis manifesta neget? Quis non fateatur et ornet?</l>
-            <l n="text.body.div5.l20">Tu, multa solidae pietatis luce refulgens, </l>
-            <l n="text.body.div5.l21">Perpetuo invigilas cunctis ex ordine rebus,</l>
-            <l n="text.body.div5.l22">Ad uerae spectant quae relligionis honorem, </l>
-            <pb n="text.body.div5.pb"/>
-            <l n="text.body.div5.l23">Et columen patriae, terrarum sceptra tenentis</l>
-            <l n="text.body.div5.l24">Ac pelagi, aeternoque caput tollentis Olympo. </l>
-            <l n="text.body.div5.l25">Caelicolum dono Veneta tu missus ab urbe, </l>
-            <l n="text.body.div5.l26">Regia corda gerens, semper moderamine iusto</l>
-            <l n="text.body.div5.l27">Hunc populum regis atque foues curaque paterna</l>
-            <l n="text.body.div5.l28">Haec pro parte leuas tristissima tempora rerum.</l>
-            <l n="text.body.div5.l29">Talia quis taceat? Superi quis ad aurea regni</l>
-            <l n="text.body.div5.l30">Sidera non tollat nullis peritura diebus? </l>
-            <l n="text.body.div5.l31">Mandantur praeclara quidem memori omnia saeclo.</l>
-            <l n="text.body.div5.l32">Sic ego non dubito fari te, candide rector,</l>
-            <l n="text.body.div5.l33">Ad patriae decus et regimen populi esse creatum.</l>
-            <l n="text.body.div5.l34">Cetera praetereo de te qui iugiter ipse</l>
-            <l n="text.body.div5.l35">Splendorem sine more tuum per plurima profers. </l>
-            <l n="text.body.div5.l36">Iam mihi, uaticino penitus feruente dolore,</l>
-            <l n="text.body.div5.l37">Fas est tale semel prorumpere carmen ad auras.</l>
-            <l n="text.body.div5.l38">Barbare, barbaricae domitor feritatis et omnis</l>
-            <l n="text.body.div5.l39">Saeuitiae et probri scelerumque acerrime uindex,</l>
-            <l n="text.body.div5.l40">Ecce tibi, magno Diuum genitore secundo, </l>
-            <l n="text.body.div5.l41">Insignes tituli summa cum laude parantur,</l>
-            <l n="text.body.div5.l42">Quae merito passim totis celebrabitur annis.</l>
-            <l n="text.body.div5.l43">Ergo age maiore praetor memorande Camena,</l>
-            <l n="text.body.div5.l44">Virtutum ire uiam diuino munere pergens,</l>
-            <l n="text.body.div5.l45">Factorum egregio famam cumulato decore. </l>
+            <l n="l2">Barbara gens certe per totum floruit aeuum</l>
+            <l n="l3">Praestantum ingenio, sophia, numeroque uirorum,</l>
+            <l n="l4">Et bene de patria sede et ditione merentum,</l>
+            <l n="l5">Nomine qui clari semper memorantur in orbe</l>
+            <l n="l6">Et perpulchra sui praebent exempla uigoris; </l>
+            <l n="l7">Praeterea stimulos laudum mortalibus addunt.</l>
+            <l n="l8">Nunc floret uirtute patrum magis, optime praetor,</l>
+            <l n="l9">Rem Venetam uarie decorantum stemmate digno;</l>
+            <l n="l10">Et decus antiquum confert cum laude recenti,</l>
+            <l n="l11">Protinus aethereo genti aspirante fauore. </l>
+            <l n="l12">Te quoque iure quidem tali laetatur alumno</l>
+            <l n="l13">Auctoremque sui te comprobat illa nitoris.</l>
+            <l n="l14">Quae digna ipse tibi merito praeconia fundam</l>
+            <l n="l15">Acriter urgenti uestigia nota priorum?</l>
+            <l n="l16">Spectata probitate micas, grauitateque polles, </l>
+            <l n="l17">Consilioque uiges, recta ratione gubernas;</l>
+            <l n="l18">Omnia iustitiaeque nouo fulgore coruscas,</l>
+            <l n="l19">Nempe ferens aequam nullo non tempore lancem.</l>
+            <l n="l20">Quis manifesta neget? Quis non fateatur et ornet?</l>
+            <l n="l21">Tu, multa solidae pietatis luce refulgens, </l>
+            <l n="l22">Perpetuo invigilas cunctis ex ordine rebus,</l>
+            <l n="l23">Ad uerae spectant quae relligionis honorem, </l>
+            <pb n="pb24"/>
+            <l n="l25">Et columen patriae, terrarum sceptra tenentis</l>
+            <l n="l26">Ac pelagi, aeternoque caput tollentis Olympo. </l>
+            <l n="l27">Caelicolum dono Veneta tu missus ab urbe, </l>
+            <l n="l28">Regia corda gerens, semper moderamine iusto</l>
+            <l n="l29">Hunc populum regis atque foues curaque paterna</l>
+            <l n="l30">Haec pro parte leuas tristissima tempora rerum.</l>
+            <l n="l31">Talia quis taceat? Superi quis ad aurea regni</l>
+            <l n="l32">Sidera non tollat nullis peritura diebus? </l>
+            <l n="l33">Mandantur praeclara quidem memori omnia saeclo.</l>
+            <l n="l34">Sic ego non dubito fari te, candide rector,</l>
+            <l n="l35">Ad patriae decus et regimen populi esse creatum.</l>
+            <l n="l36">Cetera praetereo de te qui iugiter ipse</l>
+            <l n="l37">Splendorem sine more tuum per plurima profers. </l>
+            <l n="l38">Iam mihi, uaticino penitus feruente dolore,</l>
+            <l n="l39">Fas est tale semel prorumpere carmen ad auras.</l>
+            <l n="l40">Barbare, barbaricae domitor feritatis et omnis</l>
+            <l n="l41">Saeuitiae et probri scelerumque acerrime uindex,</l>
+            <l n="l42">Ecce tibi, magno Diuum genitore secundo, </l>
+            <l n="l43">Insignes tituli summa cum laude parantur,</l>
+            <l n="l44">Quae merito passim totis celebrabitur annis.</l>
+            <l n="l45">Ergo age maiore praetor memorande Camena,</l>
+            <l n="l46">Virtutum ire uiam diuino munere pergens,</l>
+            <l n="l47">Factorum egregio famam cumulato decore. </l>
         </div>
-        <pb n="text.body.pb5"/>
-        <div n="text.body.div6" type="poesis-epigramma" xml:id="mus-vd06" met="elegiacum">
-            <head n="text.body.div6.head">
+        <pb n="pb10"/>
+        <div n="div11" type="poesis-epigramma" xml:id="mus-vd06" met="elegiacum">
+            <head n="head1">
             Musaeus
           </head>
-            <l n="text.body.div6.l1">Lucia gens tenuit primum, modo Lucia seruat,</l>
-            <l n="text.body.div6.l2" met="pentameter"> Lucia me superum nutu per saecula seruet.</l>
+            <l n="l2">Lucia gens tenuit primum, modo Lucia seruat,</l>
+            <l n="l3" met="pentameter"> Lucia me superum nutu per saecula seruet.</l>
         </div>
       
       </body>

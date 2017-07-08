@@ -93,6 +93,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -345,44 +365,44 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:sobot01.croala1805062.croala-lat1:" xml:lang="lat" type="prosa">
     
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div type="prosa-epistula" n="text.body.div1" corresp="#sobotavallaresso1">
+      <body n="body1">
+         <pb n="pb1"/>
+         <div type="prosa-epistula" n="div2" corresp="#sobotavallaresso1">
     
-            <opener n="text.body.div1.opener">
-            Johannes Sobote Mapheo Valaresso <expan n="text.body.div1.opener.expan">salutem</expan>
+            <opener n="opener1">
+            Johannes Sobote Mapheo Valaresso <expan n="expan1">salutem</expan>
             </opener>    
-            <p n="text.body.div1.p">
+            <p n="p2">
         Pompa nuptialis clarissimi tui Senatus tantae amplitudinis ac maiestatis mihi visa est, ut si coelum ac pulchritudinem beatorum contempleris. Nescio si ibi quicquam illustrius comperies, qua ex re, Maphee suavissime, ut opinio mea fert, nullius nec laudatione nec vituperatione indigere
         videtur. Qua ex re optimam in partem accipies. Hoc meum silentium iure
         honestum facies satis, certe scio, pro innata tua in me humanitate. 
         
     </p>
-            <closer n="text.body.div1.closer">Vale.
-        Disertissimo viro <expan n="text.body.div1.closer.expan1">Vitali</expan> 
-               <expan n="text.body.div1.closer.expan2">Lando</expan> meis verbis salutem dic. <dateline n="text.body.div1.closer.dateline">
-                  <date n="text.body.div1.closer.dateline.date" when="--03-03">
-                     <num n="text.body.div1.closer.dateline.date.num" value="3">III</num> martii</date>, ex Civitate.</dateline>
+            <closer n="closer3">Vale.
+        Disertissimo viro <expan n="expan1">Vitali</expan> 
+               <expan n="expan2">Lando</expan> meis verbis salutem dic. <dateline n="dateline3">
+                  <date n="date1" when="--03-03">
+                     <num n="num1" value="3">III</num> martii</date>, ex Civitate.</dateline>
             </closer>
  
          </div>
-         <div type="prosa-epistula" n="text.body.div2" corresp="#sobotavallaresso14380831">
+         <div type="prosa-epistula" n="div3" corresp="#sobotavallaresso14380831">
         
-            <opener n="text.body.div2.opener">
+            <opener n="opener1">
             Idem ad eumdem.
         </opener>    
-            <p n="text.body.div2.p1">
+            <p n="p2">
             Maxima laetitia affectus fui, Maphee suavissime, ex iocundissimis tuis
             litteris, quas hisce diebus veluti quoddam excellens munus deorum 
-            <pb n="text.body.div2.p1.pb"/>
+            <pb n="pb1"/>
             suscepi, quibus scribis Patavinam urbem adhuc pestifero sidere commoveri:
             nullum tamen ex domesticis sociis meis hoc morbo occubuisse: qua ex re
             diis gratias habeo. Quod autem scribis senatorio viro domino Andreae
-            Ve<expan n="text.body.div2.p1.expan">nerio</expan> meam commendationem pergratam fuisse, hoc profecto semper
+            Ve<expan n="expan2">nerio</expan> meam commendationem pergratam fuisse, hoc profecto semper
             praedicavi: me sibi gratissimum esse. Corniolam, in qua mortis effigies
             sculpta sit, citius quoad potero compertam ad ipsum mittam. Haec de his.
         </p>
-            <p n="text.body.div2.p2">
+            <p n="p3">
             Hoc unum te, Maphee praestantissime, nolo latere: patri tuo, nostro praetori clarissimo, litteras quas ad me scribis tantae voluptati esse ut nihil
             supra meque saepenumero solet exorare, ut cum litteris meis te ad scribendum excitem; qua ex re, si patrem tuum magna voluptate explere
             vis, saepius illo tuo stilo litterali ad me scribas; mihi etiam tuis litteris
@@ -396,22 +416,22 @@
             
             
         </p>
-            <closer n="text.body.div2.closer">Vale et incolumitati tuae servias, in qua et mea est. <dateline n="text.body.div2.closer.dateline">
-                  <note n="text.body.div2.closer.dateline.note">Ex Tragurio</note> 
-                  <date n="text.body.div2.closer.dateline.date" when="1438-08-31">Pridie kal. septembris.</date>
+            <closer n="closer4">Vale et incolumitati tuae servias, in qua et mea est. <dateline n="dateline1">
+                  <note n="note1">Ex Tragurio</note> 
+                  <date n="date2" when="1438-08-31">Pridie kal. septembris.</date>
                </dateline>
             </closer>
-            <note n="text.body.div2.note" xml:lang="hr">Zorzi Vallaresso trogirski je knez 1438.</note>
+            <note n="note5" xml:lang="hr">Zorzi Vallaresso trogirski je knez 1438.</note>
          </div>
-         <div type="prosa-epistula" n="text.body.div3" corresp="#sobotavallaressopost144301">
+         <div type="prosa-epistula" n="div4" corresp="#sobotavallaressopost144301">
         
-            <opener n="text.body.div3.opener">
+            <opener n="opener1">
             Idem ad eumdem.
         </opener>    
-            <p n="text.body.div3.p">
+            <p n="p2">
             
             Superiori die cuidam de Campolongo commisi, ut meis verbis te exoraret, disertissimus iuris consultus Johannes de Prato ut aliquid ipso dignum
-            <pb n="text.body.div3.p.pb"/>
+            <pb n="pb1"/>
             adderet ad subtile consilium Francisci de Capitibusliste: pecuniam quam
             miseram. Nihil postea certi habui, quare, si homo ille ad te venerat, me
             certum facias. Reliquum est, ut luculentam illam oratiunculam ad me
@@ -420,17 +440,17 @@
             dabis, veluti excellens munus deorum ipsam suscipiam.
             
         </p>
-            <closer n="text.body.div3.closer">Vale.</closer>
-            <note n="text.body.div3.note" xml:lang="hr">
-               <date n="text.body.div3.note.date" notBefore="1443-01">Nakon siječnja 1443</date>
+            <closer n="closer3">Vale.</closer>
+            <note n="note4" xml:lang="hr">
+               <date n="date1" notBefore="1443-01">Nakon siječnja 1443</date>
             </note>
          </div>
-         <div type="prosa-epistula" n="text.body.div4" corresp="#sobotavallaresso4">
+         <div type="prosa-epistula" n="div5" corresp="#sobotavallaresso4">
         
-            <opener n="text.body.div4.opener">
+            <opener n="opener1">
             Idem ad eumdem.
         </opener>    
-            <p n="text.body.div4.p">
+            <p n="p2">
             Singularis ac prope divina tua in me humanitas, vir ornatissime,
             tantum de te mihi pollicetur quantum de me mihi polliceri soleo meque
             hortatur ut tibi magis imperem quam te exorem. Qua ex re, si temeritati
@@ -443,35 +463,35 @@
             potest, nec quicquain tibi denegare audet: profecto, si copiam illius consilii tuo nomine et caute accipies latorique praesentium dabis, Darii sane
             regis opes me superasse putabo.
         </p>
-            <closer n="text.body.div4.closer">Vale. <note n="text.body.div4.closer.note">Tragurii</note>
+            <closer n="closer3">Vale. <note n="note1">Tragurii</note>
             </closer>
         
          </div>
-         <div type="prosa-epistula" n="text.body.div5" corresp="#sobotavallaresso5">
+         <div type="prosa-epistula" n="div6" corresp="#sobotavallaresso5">
         
-            <opener n="text.body.div5.opener">
+            <opener n="opener1">
             Idem ad eumdem.
         </opener>    
-            <p n="text.body.div5.p">
-            Satis certo scio, humanissime Maphee, <expan n="text.body.div5.p.expan1">Jacopum</expan> fratrem tuum ad
+            <p n="p2">
+            Satis certo scio, humanissime Maphee, <expan n="expan1">Jacopum</expan> fratrem tuum ad
             te scripsisse quo pacto puerum tuum profugum Venetiis comperi, quem
             continue senatorio viro domino Zachariae patruo tuo tradidi. Cogitans sane
             diligentius mecum pueri barbari ingenium multiplex ac tortuosum non possum satis non mirari: mea ex sententia quadam egregia vafricia, dum
             abste aufugeret, usus est. Ex eo, quoniam ad te veniet, cognoscere poteris; ab eo tamen percepi lacessitum iniuriis ancillarum domesticarum
-            abste profugisse. Reliquum est ut omnibus nostris me commendes: N<expan n="text.body.div5.p.expan2">icolao</expan>
-            Can<expan n="text.body.div5.p.expan3">alio</expan> meis verbis salutem dic. Fac ut aliquid te dignum ad me scribas,
+            abste profugisse. Reliquum est ut omnibus nostris me commendes: N<expan n="expan2">icolao</expan>
+            Can<expan n="expan3">alio</expan> meis verbis salutem dic. Fac ut aliquid te dignum ad me scribas,
             praesertim de salute Urbis.  
             
         </p>
-            <closer n="text.body.div5.closer">Ex litteris percipies qui sim: sic enim ad familiares scribo. <dateline n="text.body.div5.closer.dateline">
-                  <note n="text.body.div5.closer.dateline.note">Venetiis</note> 
-                  <date n="text.body.div5.closer.dateline.date" when="--07-05">
-                     <num n="text.body.div5.closer.dateline.date.num" value="3">III</num> nonas quintilis</date>.</dateline>
+            <closer n="closer3">Ex litteris percipies qui sim: sic enim ad familiares scribo. <dateline n="dateline1">
+                  <note n="note1">Venetiis</note> 
+                  <date n="date2" when="--07-05">
+                     <num n="num1" value="3">III</num> nonas quintilis</date>.</dateline>
             </closer>
         
          </div>
     
-         <gap n="text.body.gap" reason="alibi"/>
+         <gap n="gap7" reason="alibi"/>
       </body>
    </text>
 </TEI>

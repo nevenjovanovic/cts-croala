@@ -87,6 +87,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -131,23 +148,23 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:niger02.croala1675587.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="poesis-epigramma" met="elegiacum">
-            <opener n="text.body.div.opener">
-               <date n="text.body.div.opener.date">A<expan n="text.body.div.opener.date.expan1">nno</expan> S<expan n="text.body.div.opener.date.expan2">alutis</expan> D<expan n="text.body.div.opener.date.expan3">omini</expan> 
-                  <num n="text.body.div.opener.date.num" value="1527">M. D. XXVII</num>
+      <body n="body1">
+         <div n="div1" type="poesis-epigramma" met="elegiacum">
+            <opener n="opener1">
+               <date n="date1">A<expan n="expan1">nno</expan> S<expan n="expan2">alutis</expan> D<expan n="expan3">omini</expan> 
+                  <num n="num4" value="1527">M. D. XXVII</num>
                </date>
             </opener>
             
-            <l n="text.body.div.l1">DALMATA THOMA NIGRO SPALATENSIS ET ORDINE, PRAESVL</l>
-            <l n="text.body.div.l2" met="pentameter">EX SCARDONENSI TRAGVRIENSIS HIC EST</l>
-            <l n="text.body.div.l3">CVI LEO TVNC DECIMVS, MOX CLEMENS SEPTIMVS <corr n="text.body.div.l3.corr" resp="#NJ">ISTVD</corr>
+            <l n="l2">DALMATA THOMA NIGRO SPALATENSIS ET ORDINE, PRAESVL</l>
+            <l n="l3" met="pentameter">EX SCARDONENSI TRAGVRIENSIS HIC EST</l>
+            <l n="l4">CVI LEO TVNC DECIMVS, MOX CLEMENS SEPTIMVS <corr n="corr1" resp="#NJ">ISTVD</corr>
             </l>
-            <l n="text.body.div.l4" met="pentameter">CONTVLIT ABSCENTI PONTIFICALE DECVS</l>
-            <l n="text.body.div.l5">VT, SVA QVE FVERINT MERITORUM PREMIA, BINVS</l>
-            <l n="text.body.div.l6" met="pentameter">TESTARETVR HONOS, GRATIS ET VLTRO DATVS.</l>
-            <l n="text.body.div.l7">VNVM TVRCA FEROX, ALIVM PIA CVRA NEPOTIS</l>
-            <l n="text.body.div.l8" met="pentameter">ABSTVLIT. AMBORVM SIT PIA CVRA DEO.</l>
+            <l n="l5" met="pentameter">CONTVLIT ABSCENTI PONTIFICALE DECVS</l>
+            <l n="l6">VT, SVA QVE FVERINT MERITORUM PREMIA, BINVS</l>
+            <l n="l7" met="pentameter">TESTARETVR HONOS, GRATIS ET VLTRO DATVS.</l>
+            <l n="l8">VNVM TVRCA FEROX, ALIVM PIA CVRA NEPOTIS</l>
+            <l n="l9" met="pentameter">ABSTVLIT. AMBORVM SIT PIA CVRA DEO.</l>
                      </div>
       </body>
   </text>

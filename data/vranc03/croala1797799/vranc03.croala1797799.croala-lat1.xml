@@ -94,6 +94,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -142,28 +159,28 @@
         
     </teiHeader>
    <text xml:base="urn:cts:croala:vranc03.croala1797799.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-epistula"> 
-            <opener n="text.body.div.opener">Reverendissimo domino, domino Antonio Verancio, episcopo Agriensi, perpetuo comiti Hewesiensi, sacratissimae caesareae majestatis consiliario, domino observandissimo.
-            <salute n="text.body.div.opener.salute">Salutem et felicitatem.</salute>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-epistula"> 
+            <opener n="opener1">Reverendissimo domino, domino Antonio Verancio, episcopo Agriensi, perpetuo comiti Hewesiensi, sacratissimae caesareae majestatis consiliario, domino observandissimo.
+            <salute n="salute1">Salutem et felicitatem.</salute>
             </opener>
-            <note n="text.body.div.note" resp="AV">Receptae 23. Novembris 1558.</note>
-            <p n="text.body.div.p1">Ego Domino comite die 14. Septembris incolumis domum perveni, ubi omnes reperi incolumes utriusque domus, licet luctu et squallore plenos; quibus tamen adventus noster consolationis nonnihil attulit et tristitiae abstulit; imo potius prospera valetudo et honorum ac dignitatis accessio dominationis vestrae reverendissimae, quae quascunque calamitates nostras temperat et in oblivionem adducit. Quod reliquum est, ea quae perficienda fuerant mihi injuncta per dominationem vestram reverendissimam, partim confecta sunt, partim vero iis proximis diebus divino auxilio conficientur, utputa: domus conductio, hortus, insula, negotium Spalatense
-            <pb n="text.body.div.p1.pb"/>
-            et similia; nam quae agenda erant Venetiis, ex itinere peregi, et eam certiorem inde de omnibus feci per litteras; quod autem in hanc diem distulerim, in causa fuerunt vindemiae, nam appuli recte in ipso furore vindemiarum. Porro hic viget nunc extrema omnium rerum charistia, vini mira exiguitas, fruges autem vix etiam reperiuntur, adeo ut verendum sit, ne hac hieme a fame velut ab hoste haec civitas obsidionem experiatur. Ceterum Provian <foreign n="text.body.div.p1.foreign1" xml:lang="hu">szigetiben vagyon eladó egy szép ház szüleivel egyetemben, kinek mása nincsen ott; az házzal ípitéssel, kerttel, gyimücsivel, csatornakúttal és helylyel, id est, Scruanovics Péteri ki volt; de nem hiszöm, hogy annye pinznek szerit tehetem menuyét kírnek, mert tübb kelletik nigyedfél száz forintnál letennyi írette; de csak az haz odvarával és kertvel jobb kétszáz forintnál, anekül vagyon hetven mírtík fülde. Azám gonyai mind szőlö hasznos, olajmolnával.</foreign> Quare summopere dominationem vestram reverendissimam rogo et supplico, ut huic negotio suppetias ferat, et quidem mature, si pro ejus ratione fieri poterit, ne tam nobilis res nobis elabatur; ego tamen omnibus artibus, quibus potero, negotium differam ad responsum ejusdem vestrae reverendissimae dominationis, <foreign n="text.body.div.p1.foreign2" xml:lang="hu">mert az a ki eladja csak engemet várt</foreign>. Quod autem ad equos attinet, statim a principio dedi operam ut intelligam, sicubi aliquid nobile electumque habeatur. Ita accepi esse in quodam loco rem singularem, hoc est equum nominatissimum apud praecipuum virum et militem famosum; mox dimisi, ut tentetur hominis animus, responsum tamen quotidie exspecto; si erit dignum animal, non dimittetur.
+            <note n="note2" resp="AV">Receptae 23. Novembris 1558.</note>
+            <p n="p3">Ego Domino comite die 14. Septembris incolumis domum perveni, ubi omnes reperi incolumes utriusque domus, licet luctu et squallore plenos; quibus tamen adventus noster consolationis nonnihil attulit et tristitiae abstulit; imo potius prospera valetudo et honorum ac dignitatis accessio dominationis vestrae reverendissimae, quae quascunque calamitates nostras temperat et in oblivionem adducit. Quod reliquum est, ea quae perficienda fuerant mihi injuncta per dominationem vestram reverendissimam, partim confecta sunt, partim vero iis proximis diebus divino auxilio conficientur, utputa: domus conductio, hortus, insula, negotium Spalatense
+            <pb n="pb1"/>
+            et similia; nam quae agenda erant Venetiis, ex itinere peregi, et eam certiorem inde de omnibus feci per litteras; quod autem in hanc diem distulerim, in causa fuerunt vindemiae, nam appuli recte in ipso furore vindemiarum. Porro hic viget nunc extrema omnium rerum charistia, vini mira exiguitas, fruges autem vix etiam reperiuntur, adeo ut verendum sit, ne hac hieme a fame velut ab hoste haec civitas obsidionem experiatur. Ceterum Provian <foreign n="foreign2" xml:lang="hu">szigetiben vagyon eladó egy szép ház szüleivel egyetemben, kinek mása nincsen ott; az házzal ípitéssel, kerttel, gyimücsivel, csatornakúttal és helylyel, id est, Scruanovics Péteri ki volt; de nem hiszöm, hogy annye pinznek szerit tehetem menuyét kírnek, mert tübb kelletik nigyedfél száz forintnál letennyi írette; de csak az haz odvarával és kertvel jobb kétszáz forintnál, anekül vagyon hetven mírtík fülde. Azám gonyai mind szőlö hasznos, olajmolnával.</foreign> Quare summopere dominationem vestram reverendissimam rogo et supplico, ut huic negotio suppetias ferat, et quidem mature, si pro ejus ratione fieri poterit, ne tam nobilis res nobis elabatur; ego tamen omnibus artibus, quibus potero, negotium differam ad responsum ejusdem vestrae reverendissimae dominationis, <foreign n="foreign3" xml:lang="hu">mert az a ki eladja csak engemet várt</foreign>. Quod autem ad equos attinet, statim a principio dedi operam ut intelligam, sicubi aliquid nobile electumque habeatur. Ita accepi esse in quodam loco rem singularem, hoc est equum nominatissimum apud praecipuum virum et militem famosum; mox dimisi, ut tentetur hominis animus, responsum tamen quotidie exspecto; si erit dignum animal, non dimittetur.
         </p>
-            <p n="text.body.div.p2">De morte summi pontificis, puto <corr n="text.body.div.p2.corr" resp="NJ">hucusque</corr>
-               <pb n="text.body.div.p2.pb"/>
+            <p n="p4">De morte summi pontificis, puto <corr n="corr1" resp="NJ">hucusque</corr>
+               <pb n="pb2"/>
             intellexit. Faxit Deus ut eum sortiatur successorem, qui meliores partes amplectatur et bonis adhaereat, posthabitis satanae ministris. Dominatio vestra reverendissima dignetur ad me solito more saepius scribere, ut sciam semper quo loci versetur, et quibus successibus ejus dignitatis rationes progrediantur.</p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">Et cum hoc feliciter diutissimeque ac optime valeat. Salutem dicunt omnes et felicia precantur pro incolumitate ejus.</salute>
-               <dateline n="text.body.div.closer.dateline">Sibenici, <date n="text.body.div.closer.dateline.date" when="1558-10-01">prima die Octobris 1558.</date>
+            <closer n="closer5">
+               <salute n="salute1">Et cum hoc feliciter diutissimeque ac optime valeat. Salutem dicunt omnes et felicia precantur pro incolumitate ejus.</salute>
+               <dateline n="dateline2">Sibenici, <date n="date1" when="1558-10-01">prima die Octobris 1558.</date>
                </dateline>
-               <signed n="text.body.div.closer.signed">Michael Verancius frater et servitor.</signed>
+               <signed n="signed3">Michael Verancius frater et servitor.</signed>
             </closer>
-            <postscript n="text.body.div.postscript">
-               <p n="text.body.div.postscript.p">Scriptis jam litteris iterum advenit fama, pontificem nondum decessisse, sed in extremis laborare, et palatium esse jam direptum. Turcica classis dudum se recepit Constantinopolim, male affecta tam ab hostibus quam a peste, nostra vero propediem domum revertetur incolumis. Hic publica fama est tam a mercatoribus, quam etiam ab ipsis Turcis, cogitare Turcam proximo anno expeditionem in Ungariam facere.</p>
+            <postscript n="postscript6">
+               <p n="p1">Scriptis jam litteris iterum advenit fama, pontificem nondum decessisse, sed in extremis laborare, et palatium esse jam direptum. Turcica classis dudum se recepit Constantinopolim, male affecta tam ab hostibus quam a peste, nostra vero propediem domum revertetur incolumis. Hic publica fama est tam a mercatoribus, quam etiam ab ipsis Turcis, cogitare Turcam proximo anno expeditionem in Ungariam facere.</p>
             </postscript>
          </div>
       </body>

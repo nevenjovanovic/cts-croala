@@ -88,6 +88,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
             
         <profileDesc>
@@ -135,345 +149,345 @@
 
 	
 
-      <body n="text.body">
-         <pb n="text.body.pb1"/>
-         <epigraph n="text.body.epigraph1">
-            <l n="text.body.epigraph1.l1">VOX CLAMANTIS IN DESERTO</l>
-            <l n="text.body.epigraph1.l2">PARATE VIAM DOMINI</l>
-            <l n="text.body.epigraph1.l3">RECTAS FACITE IN SOLITUDINE</l>
-            <l n="text.body.epigraph1.l4">SEMITAS DEI NOSTRI</l>
-            <bibl n="text.body.epigraph1.bibl">Isaias XL</bibl>
+      <body n="body1">
+         <pb n="pb1"/>
+         <epigraph n="epigraph2">
+            <l n="l1">VOX CLAMANTIS IN DESERTO</l>
+            <l n="l2">PARATE VIAM DOMINI</l>
+            <l n="l3">RECTAS FACITE IN SOLITUDINE</l>
+            <l n="l4">SEMITAS DEI NOSTRI</l>
+            <bibl n="bibl5">Isaias XL</bibl>
          </epigraph>
-         <pb n="text.body.pb2"/>
-         <div n="text.body.div1" type="poesis-poema">
-            <head n="text.body.div1.head">SOLITUDO</head>
+         <pb n="pb3"/>
+         <div n="div4" type="poesis-poema">
+            <head n="head1">SOLITUDO</head>
     
-            <lg n="text.body.div1.lg1">
-               <l n="text.body.div1.lg1.l1">Quid faciam tibi, Dilecta,</l>
-               <l n="text.body.div1.lg1.l2">Quid dicam de te Electa</l>
-               <l n="text.body.div1.lg1.l3">Obscuratus est vultus tuus</l>
-               <l n="text.body.div1.lg1.l4">Vanitas vulneravit faciem tuam</l>
-               <l n="text.body.div1.lg1.l5">Umbrae operuerunt splendorem tuum</l>
-               <l n="text.body.div1.lg1.l6">Frigora hiberna constrinxere cor tuum</l>
-               <l n="text.body.div1.lg1.l7">Electa Dilecta</l>
-            </lg>
-    
-            <lg n="text.body.div1.lg2">
-               <l n="text.body.div1.lg2.l1">Palpebrae meae vigilant</l>
-               <l n="text.body.div1.lg2.l2">ad portas cordis tui</l>
-               <l n="text.body.div1.lg2.l3">Oculus meus solamen non invenit</l>
-               <l n="text.body.div1.lg2.l4">nec torrentes lacrimarum</l>
-               <l n="text.body.div1.lg2.l5">in siccitatem convertentur</l>
+            <lg n="lg2">
+               <l n="l1">Quid faciam tibi, Dilecta,</l>
+               <l n="l2">Quid dicam de te Electa</l>
+               <l n="l3">Obscuratus est vultus tuus</l>
+               <l n="l4">Vanitas vulneravit faciem tuam</l>
+               <l n="l5">Umbrae operuerunt splendorem tuum</l>
+               <l n="l6">Frigora hiberna constrinxere cor tuum</l>
+               <l n="l7">Electa Dilecta</l>
             </lg>
     
-            <lg n="text.body.div1.lg3">
-               <l n="text.body.div1.lg3.l1">Dolor pignus laetitiae</l>
-               <l n="text.body.div1.lg3.l2">et amaritudo signum spei</l>
-               <l n="text.body.div1.lg3.l3">Luctus exsultationis initium</l>
-               <l n="text.body.div1.lg3.l4">et contritio fortitudinis exordium</l>
-            </lg>
-         </div>
-         <pb n="text.body.pb3"/>
-         <div n="text.body.div2" type="poesis-poema">
-            <head n="text.body.div2.head">E limo Pannoniae</head>
-        
-            <lg n="text.body.div2.lg1">
-               <l n="text.body.div2.lg1.l1">Gemitus rerum</l>
-               <l n="text.body.div2.lg1.l2">strepitus cordis</l>
-               <l n="text.body.div2.lg1.l3">e limo Pannoniae</l>
-               <l n="text.body.div2.lg1.l4">hodie natus</l>
-            </lg>
-        
-            <lg n="text.body.div2.lg2">
-               <l n="text.body.div2.lg2.l1">In gurgite carnis</l>
-               <l n="text.body.div2.lg2.l2">infans est natus</l>
-               <l n="text.body.div2.lg2.l3">coram solio solis</l>
-            </lg>
-         </div>
-         <pb n="text.body.pb4"/>
-         <div n="text.body.div3" type="poesis-poema">
-            <head n="text.body.div3.head">ABYSSUS ABSCONDITA</head>
-    
-            <l n="text.body.div3.l1">Puppilla parens lacrimarum</l>
-            <l n="text.body.div3.l2">abyssus abscondita</l>
-            <l n="text.body.div3.l3">spes</l>
-         </div>
-         <pb n="text.body.pb5"/>
-         <div n="text.body.div4" type="poesis-poema">
-            <head n="text.body.div4.head">TERRA</head>
-            <lg n="text.body.div4.lg1">
-               <l n="text.body.div4.lg1.l1">Maria</l>
-               <l n="text.body.div4.lg1.l2">terrae maxillae</l>
+            <lg n="lg3">
+               <l n="l1">Palpebrae meae vigilant</l>
+               <l n="l2">ad portas cordis tui</l>
+               <l n="l3">Oculus meus solamen non invenit</l>
+               <l n="l4">nec torrentes lacrimarum</l>
+               <l n="l5">in siccitatem convertentur</l>
             </lg>
     
-            <lg n="text.body.div4.lg2">
-               <l n="text.body.div4.lg2.l1">Montes</l>
-               <l n="text.body.div4.lg2.l2">terrae mamillae</l>
+            <lg n="lg4">
+               <l n="l1">Dolor pignus laetitiae</l>
+               <l n="l2">et amaritudo signum spei</l>
+               <l n="l3">Luctus exsultationis initium</l>
+               <l n="l4">et contritio fortitudinis exordium</l>
+            </lg>
+         </div>
+         <pb n="pb5"/>
+         <div n="div6" type="poesis-poema">
+            <head n="head1">E limo Pannoniae</head>
+        
+            <lg n="lg2">
+               <l n="l1">Gemitus rerum</l>
+               <l n="l2">strepitus cordis</l>
+               <l n="l3">e limo Pannoniae</l>
+               <l n="l4">hodie natus</l>
+            </lg>
+        
+            <lg n="lg3">
+               <l n="l1">In gurgite carnis</l>
+               <l n="l2">infans est natus</l>
+               <l n="l3">coram solio solis</l>
+            </lg>
+         </div>
+         <pb n="pb7"/>
+         <div n="div8" type="poesis-poema">
+            <head n="head1">ABYSSUS ABSCONDITA</head>
+    
+            <l n="l2">Puppilla parens lacrimarum</l>
+            <l n="l3">abyssus abscondita</l>
+            <l n="l4">spes</l>
+         </div>
+         <pb n="pb9"/>
+         <div n="div10" type="poesis-poema">
+            <head n="head1">TERRA</head>
+            <lg n="lg2">
+               <l n="l1">Maria</l>
+               <l n="l2">terrae maxillae</l>
             </lg>
     
-            <lg n="text.body.div4.lg3">
-               <l n="text.body.div4.lg3.l1">Arcanum</l>
-               <l n="text.body.div4.lg3.l2">spiritus terrarum</l>
+            <lg n="lg3">
+               <l n="l1">Montes</l>
+               <l n="l2">terrae mamillae</l>
+            </lg>
+    
+            <lg n="lg4">
+               <l n="l1">Arcanum</l>
+               <l n="l2">spiritus terrarum</l>
             </lg>
          </div>
-         <pb n="text.body.pb6"/>
-         <div n="text.body.div5" type="poesis-poema">
-            <head n="text.body.div5.head">VULTUS TERRAE</head>
+         <pb n="pb11"/>
+         <div n="div12" type="poesis-poema">
+            <head n="head1">VULTUS TERRAE</head>
         
         
-            <l n="text.body.div5.l1">Anima mea</l>
-            <l n="text.body.div5.l2">saturata amaritudine</l>
-            <l n="text.body.div5.l3">quaerit faciem aurorae</l>
-            <l n="text.body.div5.l4">vultumque terrae</l>
-            <l n="text.body.div5.l5">matris hominumque deumque</l>
-        
-         </div>
-         <pb n="text.body.pb7"/>
-         <div n="text.body.div6" type="poesis-poema">
-            <head n="text.body.div6.head">LACRIMAE OCULI</head>
-        
-        
-            <l n="text.body.div6.l1">Lacrimae oculi</l>
-            <l n="text.body.div6.l2">sicut unda</l>
-            <l n="text.body.div6.l3">in litore maris</l>
-            <l n="text.body.div6.l4">evanescunt in arena</l>
-            <l n="text.body.div6.l5">non fertili</l>
+            <l n="l2">Anima mea</l>
+            <l n="l3">saturata amaritudine</l>
+            <l n="l4">quaerit faciem aurorae</l>
+            <l n="l5">vultumque terrae</l>
+            <l n="l6">matris hominumque deumque</l>
         
          </div>
-         <pb n="text.body.pb8"/>
-         <div n="text.body.div7" type="poesis-poema">
-            <head n="text.body.div7.head">FLUMINA PARADISI</head>
+         <pb n="pb13"/>
+         <div n="div14" type="poesis-poema">
+            <head n="head1">LACRIMAE OCULI</head>
         
         
-            <l n="text.body.div7.l1">Sub auspiciis deorum</l>
-            <l n="text.body.div7.l2">crescant arbores vitae</l>
-            <l n="text.body.div7.l3">et flumina paradisi</l>
-            <l n="text.body.div7.l4">inundant agros</l>
-            <l n="text.body.div7.l5">animae exaratae</l>
-        
-         </div>
-         <pb n="text.body.pb9"/>
-         <div n="text.body.div8" type="poesis-poema">
-            <head n="text.body.div8.head">PRURITUS TERRAE</head>
-        
-        
-            <l n="text.body.div8.l1">Redi in domum tuam</l>
-            <l n="text.body.div8.l2">Pupillam oculi exstingue</l>
-            <l n="text.body.div8.l3">Veni in deserti ubertatem</l>
-            <l n="text.body.div8.l4">Lucernam temporis ignoti accende</l>
-            <l n="text.body.div8.l5">Depone dierum onus ad pedes montis</l>
-            <l n="text.body.div8.l6">Palpitui terrae praebe aurem</l>
-            <l n="text.body.div8.l7">Pruritum terrae mitiga</l>
+            <l n="l2">Lacrimae oculi</l>
+            <l n="l3">sicut unda</l>
+            <l n="l4">in litore maris</l>
+            <l n="l5">evanescunt in arena</l>
+            <l n="l6">non fertili</l>
         
          </div>
-         <pb n="text.body.pb10"/>
-         <div n="text.body.div9" type="poesis-poema">
-            <head n="text.body.div9.head">DE NIHILO CANTABO</head>
+         <pb n="pb15"/>
+         <div n="div16" type="poesis-poema">
+            <head n="head1">FLUMINA PARADISI</head>
         
         
-            <lg n="text.body.div9.lg1">
-               <l n="text.body.div9.lg1.l1">De nihilo cantabo</l>
-               <l n="text.body.div9.lg1.l2">amici aurorae</l>
+            <l n="l2">Sub auspiciis deorum</l>
+            <l n="l3">crescant arbores vitae</l>
+            <l n="l4">et flumina paradisi</l>
+            <l n="l5">inundant agros</l>
+            <l n="l6">animae exaratae</l>
+        
+         </div>
+         <pb n="pb17"/>
+         <div n="div18" type="poesis-poema">
+            <head n="head1">PRURITUS TERRAE</head>
+        
+        
+            <l n="l2">Redi in domum tuam</l>
+            <l n="l3">Pupillam oculi exstingue</l>
+            <l n="l4">Veni in deserti ubertatem</l>
+            <l n="l5">Lucernam temporis ignoti accende</l>
+            <l n="l6">Depone dierum onus ad pedes montis</l>
+            <l n="l7">Palpitui terrae praebe aurem</l>
+            <l n="l8">Pruritum terrae mitiga</l>
+        
+         </div>
+         <pb n="pb19"/>
+         <div n="div20" type="poesis-poema">
+            <head n="head1">DE NIHILO CANTABO</head>
+        
+        
+            <lg n="lg2">
+               <l n="l1">De nihilo cantabo</l>
+               <l n="l2">amici aurorae</l>
             </lg>
             
-            <lg n="text.body.div9.lg2">
-               <l n="text.body.div9.lg2.l1">De verbo oblivioni dato</l>
-               <l n="text.body.div9.lg2.l2">fideles nivium</l>
+            <lg n="lg3">
+               <l n="l1">De verbo oblivioni dato</l>
+               <l n="l2">fideles nivium</l>
             </lg>
             
-            <lg n="text.body.div9.lg3">
-               <l n="text.body.div9.lg3.l1">De illo</l>
-               <l n="text.body.div9.lg3.l2">de nihilo</l>
+            <lg n="lg4">
+               <l n="l1">De illo</l>
+               <l n="l2">de nihilo</l>
             </lg>
         
          </div>
-         <pb n="text.body.pb11"/>
-         <div n="text.body.div10" type="poesis-poema">
-            <head n="text.body.div10.head">Manus elevata</head>
+         <pb n="pb21"/>
+         <div n="div22" type="poesis-poema">
+            <head n="head1">Manus elevata</head>
         
         
-            <lg n="text.body.div10.lg1">
-               <l n="text.body.div10.lg1.l1">Imbrium satura terra</l>
-               <l n="text.body.div10.lg1.l2">Inebriatus titubat orbis</l>
-               <l n="text.body.div10.lg1.l3">in abscondito rerum rumore</l>
+            <lg n="lg2">
+               <l n="l1">Imbrium satura terra</l>
+               <l n="l2">Inebriatus titubat orbis</l>
+               <l n="l3">in abscondito rerum rumore</l>
             </lg>
         
-            <lg n="text.body.div10.lg2">
-               <l n="text.body.div10.lg2.l1">Os signatum fons</l>
-               <l n="text.body.div10.lg2.l2">Manus elevata pons</l>
-            </lg>
-         </div>
-         <pb n="text.body.pb12"/>
-         <div n="text.body.div11" type="poesis-poema">
-            <head n="text.body.div11.head">UMBRARUM VISCERA</head>
-        
-        
-            <lg n="text.body.div11.lg1">
-               <l n="text.body.div11.lg1.l1">Ardor horrendus</l>
-               <l n="text.body.div11.lg1.l2">consilio mutato revixit</l>
-               <l n="text.body.div11.lg1.l3">tenebrarum bracchium extendens</l>
-               <l n="text.body.div11.lg1.l4">tormenta terrae deplorans</l>
-            </lg>
-        
-            <lg n="text.body.div11.lg2">
-               <l n="text.body.div11.lg2.l1">Cogor umbrarum penetrare viscera</l>
-               <l n="text.body.div11.lg2.l2">Oculi crepusculum illuminat viam</l>
+            <lg n="lg3">
+               <l n="l1">Os signatum fons</l>
+               <l n="l2">Manus elevata pons</l>
             </lg>
          </div>
-         <pb n="text.body.pb13"/>
-         <div n="text.body.div12" type="poesis-poema">
-            <head n="text.body.div12.head">NOX SINE LUNA</head>
+         <pb n="pb23"/>
+         <div n="div24" type="poesis-poema">
+            <head n="head1">UMBRARUM VISCERA</head>
         
         
-            <lg n="text.body.div12.lg1">
-               <l n="text.body.div12.lg1.l1">Obscurata est luna</l>
-               <l n="text.body.div12.lg1.l2">in solio noctis</l>
-               <l n="text.body.div12.lg1.l3">Manus hominis</l>
-               <l n="text.body.div12.lg1.l4">faciem eius tetigit</l>
-               <l n="text.body.div12.lg1.l5">Polluta ululat</l>
-               <l n="text.body.div12.lg1.l6">regina noctis</l>
-               <l n="text.body.div12.lg1.l7">tollitque parvulis somnia</l>
+            <lg n="lg2">
+               <l n="l1">Ardor horrendus</l>
+               <l n="l2">consilio mutato revixit</l>
+               <l n="l3">tenebrarum bracchium extendens</l>
+               <l n="l4">tormenta terrae deplorans</l>
             </lg>
         
-            <lg n="text.body.div12.lg2">
-               <l n="text.body.div12.lg2.l1">Quid est nox sine luna</l>
-               <l n="text.body.div12.lg2.l2">Quid vita sine somniis</l>
+            <lg n="lg3">
+               <l n="l1">Cogor umbrarum penetrare viscera</l>
+               <l n="l2">Oculi crepusculum illuminat viam</l>
             </lg>
          </div>
-         <pb n="text.body.pb14"/>
-         <div n="text.body.div13" type="poesis-poema">
-            <head n="text.body.div13.head">SOMNIORUM SEMINA</head>
+         <pb n="pb25"/>
+         <div n="div26" type="poesis-poema">
+            <head n="head1">NOX SINE LUNA</head>
         
         
-            <lg n="text.body.div13.lg1">
-               <l n="text.body.div13.lg1.l1">Entibus viventibus</l>
-               <l n="text.body.div13.lg1.l2">somniorum semina insunt</l>
-               <l n="text.body.div13.lg1.l3">Candor doloris</l>
-               <l n="text.body.div13.lg1.l4">flores deserti germinat</l>
-               <l n="text.body.div13.lg1.l5">Sol solitudinis</l>
-               <l n="text.body.div13.lg1.l6">generat proles insolitas</l>
+            <lg n="lg2">
+               <l n="l1">Obscurata est luna</l>
+               <l n="l2">in solio noctis</l>
+               <l n="l3">Manus hominis</l>
+               <l n="l4">faciem eius tetigit</l>
+               <l n="l5">Polluta ululat</l>
+               <l n="l6">regina noctis</l>
+               <l n="l7">tollitque parvulis somnia</l>
             </lg>
         
-            <lg n="text.body.div13.lg2">
-               <l n="text.body.div13.lg2.l1">Amice estne quid pulchrius</l>
-               <l n="text.body.div13.lg2.l2">flore deserti</l>
+            <lg n="lg3">
+               <l n="l1">Quid est nox sine luna</l>
+               <l n="l2">Quid vita sine somniis</l>
             </lg>
          </div>
-         <pb n="text.body.pb15"/>
-         <div n="text.body.div14" type="poesis-poema">
-            <head n="text.body.div14.head">TORMENTUM VIGILIAE</head>
+         <pb n="pb27"/>
+         <div n="div28" type="poesis-poema">
+            <head n="head1">SOMNIORUM SEMINA</head>
         
         
-            <l n="text.body.div14.l1">Tormentum vigiliae</l>
-            <l n="text.body.div14.l2">annullat soporem</l>
-            <l n="text.body.div14.l3">somniorum dulcedinem</l>
-            <l n="text.body.div14.l4">manifestam reddit</l>
+            <lg n="lg2">
+               <l n="l1">Entibus viventibus</l>
+               <l n="l2">somniorum semina insunt</l>
+               <l n="l3">Candor doloris</l>
+               <l n="l4">flores deserti germinat</l>
+               <l n="l5">Sol solitudinis</l>
+               <l n="l6">generat proles insolitas</l>
+            </lg>
+        
+            <lg n="lg3">
+               <l n="l1">Amice estne quid pulchrius</l>
+               <l n="l2">flore deserti</l>
+            </lg>
          </div>
-         <pb n="text.body.pb16"/>
-         <div n="text.body.div15" type="poesis-poema">
-            <head n="text.body.div15.head">PORTA AURATA</head>
+         <pb n="pb29"/>
+         <div n="div30" type="poesis-poema">
+            <head n="head1">TORMENTUM VIGILIAE</head>
         
         
-            <l n="text.body.div15.l1">Porta aurata</l>
-            <l n="text.body.div15.l2">exspectat imaginem</l>
-            <l n="text.body.div15.l3">exspectat hominem</l>
-            <l n="text.body.div15.l4">masculum et feminam</l>
-            <l n="text.body.div15.l5">feminam decantantem</l>
-            <l n="text.body.div15.l6">masculum cantantem</l>
-            <l n="text.body.div15.l7">Porta aurata</l>
+            <l n="l2">Tormentum vigiliae</l>
+            <l n="l3">annullat soporem</l>
+            <l n="l4">somniorum dulcedinem</l>
+            <l n="l5">manifestam reddit</l>
          </div>
-         <pb n="text.body.pb17"/>
-         <div n="text.body.div16" type="poesis-poema">
-                <head n="text.body.div16.head">Procella discrepantiae</head>
+         <pb n="pb31"/>
+         <div n="div32" type="poesis-poema">
+            <head n="head1">PORTA AURATA</head>
+        
+        
+            <l n="l2">Porta aurata</l>
+            <l n="l3">exspectat imaginem</l>
+            <l n="l4">exspectat hominem</l>
+            <l n="l5">masculum et feminam</l>
+            <l n="l6">feminam decantantem</l>
+            <l n="l7">masculum cantantem</l>
+            <l n="l8">Porta aurata</l>
+         </div>
+         <pb n="pb33"/>
+         <div n="div34" type="poesis-poema">
+                <head n="head1">Procella discrepantiae</head>
 
-                <l n="text.body.div16.l1">Obscurata est oculi pupilla</l>
-                <l n="text.body.div16.l2">Procella discrepantiae</l>
-                <l n="text.body.div16.l3">devastat loca deserta</l>
-                <l n="text.body.div16.l4">Exsiccatus est fons lacrimarum</l>
-                <l n="text.body.div16.l5">Arbor solitaria ramos erexit</l>
-                <l n="text.body.div16.l6">nubibus susurrat poema</l>
-                <l n="text.body.div16.l7">Numquam solus cum sola</l>
-                <l n="text.body.div16.l8">Melius est adesse quam abesse</l>
+                <l n="l2">Obscurata est oculi pupilla</l>
+                <l n="l3">Procella discrepantiae</l>
+                <l n="l4">devastat loca deserta</l>
+                <l n="l5">Exsiccatus est fons lacrimarum</l>
+                <l n="l6">Arbor solitaria ramos erexit</l>
+                <l n="l7">nubibus susurrat poema</l>
+                <l n="l8">Numquam solus cum sola</l>
+                <l n="l9">Melius est adesse quam abesse</l>
             </div>
-         <pb n="text.body.pb18"/>
-         <div n="text.body.div17" type="poesis-poema">
-            <head n="text.body.div17.head">LACRIMAE LIBRORUM</head>
+         <pb n="pb35"/>
+         <div n="div36" type="poesis-poema">
+            <head n="head1">LACRIMAE LIBRORUM</head>
         
-            <l n="text.body.div17.l1">Quomodo se habet salus et solitudo</l>
-            <l n="text.body.div17.l2">In fuga salus</l>
-            <l n="text.body.div17.l3">Lacrimae librorum annuntiant diluvii diem</l>
-            <l n="text.body.div17.l4">Pupilla oblivione obscurata</l>
+            <l n="l2">Quomodo se habet salus et solitudo</l>
+            <l n="l3">In fuga salus</l>
+            <l n="l4">Lacrimae librorum annuntiant diluvii diem</l>
+            <l n="l5">Pupilla oblivione obscurata</l>
          </div>
-         <pb n="text.body.pb19"/>
-         <div n="text.body.div18" type="poesis-poema">
-            <head n="text.body.div18.head">CARNIS LAMENTATIO</head>
+         <pb n="pb37"/>
+         <div n="div38" type="poesis-poema">
+            <head n="head1">CARNIS LAMENTATIO</head>
         
-            <l n="text.body.div18.l1">Redi in eremi viam</l>
-            <l n="text.body.div18.l2">Manuum vulnera lava</l>
-            <l n="text.body.div18.l3">Noli tardare</l>
-            <l n="text.body.div18.l4">Desolata carnis lamentatio</l>
+            <l n="l2">Redi in eremi viam</l>
+            <l n="l3">Manuum vulnera lava</l>
+            <l n="l4">Noli tardare</l>
+            <l n="l5">Desolata carnis lamentatio</l>
          </div>
-         <pb n="text.body.pb20"/>
-         <div n="text.body.div19" type="poesis-poema">
-            <head n="text.body.div19.head">RERUM CUSTOS</head>
+         <pb n="pb39"/>
+         <div n="div40" type="poesis-poema">
+            <head n="head1">RERUM CUSTOS</head>
         
-            <l n="text.body.div19.l1">Occisus est rerum custos</l>
-            <l n="text.body.div19.l2">Plorat fluminum mater</l>
-            <l n="text.body.div19.l3">Ubi sunt omina bona</l>
-            <l n="text.body.div19.l4">Ubi aurorae iter</l>
+            <l n="l2">Occisus est rerum custos</l>
+            <l n="l3">Plorat fluminum mater</l>
+            <l n="l4">Ubi sunt omina bona</l>
+            <l n="l5">Ubi aurorae iter</l>
          </div>
-         <pb n="text.body.pb21"/>
-         <div n="text.body.div20" type="poesis-poema">
-            <head n="text.body.div20.head">VADO MORI</head>
+         <pb n="pb41"/>
+         <div n="div42" type="poesis-poema">
+            <head n="head1">VADO MORI</head>
         
-            <l n="text.body.div20.l1">Vado mori satur diebus</l>
-            <l n="text.body.div20.l2">Vado mori oblatus terrae harundinum</l>
-            <l n="text.body.div20.l3">Vado mori relictus in siccitate eremi</l>
-            <l n="text.body.div20.l4">Vado mori tormento vigiliae fatigatus</l>
+            <l n="l2">Vado mori satur diebus</l>
+            <l n="l3">Vado mori oblatus terrae harundinum</l>
+            <l n="l4">Vado mori relictus in siccitate eremi</l>
+            <l n="l5">Vado mori tormento vigiliae fatigatus</l>
          </div>
-         <pb n="text.body.pb22"/>
-         <div n="text.body.div21" type="poesis-poema">
-            <head n="text.body.div21.head">NON MORIAR</head>
+         <pb n="pb43"/>
+         <div n="div44" type="poesis-poema">
+            <head n="head1">NON MORIAR</head>
         
-            <l n="text.body.div21.l1">Non moriar in terra sterili</l>
-            <l n="text.body.div21.l2">Non moriar in aqua sordida</l>
-            <l n="text.body.div21.l3">Non moriar in avium nido</l>
-            <l n="text.body.div21.l4">Non moriar in itinere matutino</l>
+            <l n="l2">Non moriar in terra sterili</l>
+            <l n="l3">Non moriar in aqua sordida</l>
+            <l n="l4">Non moriar in avium nido</l>
+            <l n="l5">Non moriar in itinere matutino</l>
          </div>
-         <pb n="text.body.pb23"/>
-         <div n="text.body.div22" type="poesis-poema">
-            <head n="text.body.div22.head">IN DILUCULO <corr n="text.body.div22.head.corr" resp="#NJ">DIEI</corr> TUI</head>
+         <pb n="pb45"/>
+         <div n="div46" type="poesis-poema">
+            <head n="head1">IN DILUCULO <corr n="corr1" resp="#NJ">DIEI</corr> TUI</head>
         
-            <l n="text.body.div22.l1">In diluculo diei tui</l>
-            <l n="text.body.div22.l2">exsultant colles</l>
-            <l n="text.body.div22.l3">silvae elevant manus</l>
-            <l n="text.body.div22.l4">populus accendit ignem</l>
-            <l n="text.body.div22.l5">cor et pupillam</l>
-            <l n="text.body.div22.l6">avis verberat aerem</l>
-            <l n="text.body.div22.l7">annuntiat diem eremi</l>
-            <l n="text.body.div22.l8">passus tui fiunt flores deserti</l>
-            <l n="text.body.div22.l9">oculus tuus lucerna in tenebris</l>
-            <l n="text.body.div22.l10">In aurora diei tui</l>
+            <l n="l2">In diluculo diei tui</l>
+            <l n="l3">exsultant colles</l>
+            <l n="l4">silvae elevant manus</l>
+            <l n="l5">populus accendit ignem</l>
+            <l n="l6">cor et pupillam</l>
+            <l n="l7">avis verberat aerem</l>
+            <l n="l8">annuntiat diem eremi</l>
+            <l n="l9">passus tui fiunt flores deserti</l>
+            <l n="l10">oculus tuus lucerna in tenebris</l>
+            <l n="l11">In aurora diei tui</l>
          </div>
-         <pb n="text.body.pb24"/>
-         <div n="text.body.div23" type="poesis-poema" xml:lang="grc">
-            <head n="text.body.div23.head">ΟΙ ΔΩΔΕΚΑ</head>
+         <pb n="pb47"/>
+         <div n="div48" type="poesis-poema" xml:lang="grc">
+            <head n="head1">ΟΙ ΔΩΔΕΚΑ</head>
         
-            <l n="text.body.div23.l1">Οἱ δώδεκα διδόασιν</l>
-            <l n="text.body.div23.l2">τὸν ἄρτον τοῦδε τοῦ ἔτους</l>
-            <l n="text.body.div23.l3">τὸν οἶνον τῶν ἡμερῶν τούτων</l>
-            <l n="text.body.div23.l4">τὸν οἶνον κοινόν</l>
-            <l n="text.body.div23.l5">τὸν ἄρτον καινόν</l>
+            <l n="l2">Οἱ δώδεκα διδόασιν</l>
+            <l n="l3">τὸν ἄρτον τοῦδε τοῦ ἔτους</l>
+            <l n="l4">τὸν οἶνον τῶν ἡμερῶν τούτων</l>
+            <l n="l5">τὸν οἶνον κοινόν</l>
+            <l n="l6">τὸν ἄρτον καινόν</l>
          </div>
-         <pb n="text.body.pb25"/>
-         <epigraph n="text.body.epigraph2">
-            <quote n="text.body.epigraph2.quote">
-               <l n="text.body.epigraph2.quote.l1">RORATE CAELI DESUPER</l>
-               <l n="text.body.epigraph2.quote.l2">ET NUBES PLUANT IUSTUM</l>
-               <l n="text.body.epigraph2.quote.l3">APERIATUR TERRA</l>
-               <l n="text.body.epigraph2.quote.l4">ET GERMINET SALVATOREM</l>
+         <pb n="pb49"/>
+         <epigraph n="epigraph50">
+            <quote n="quote1">
+               <l n="l1">RORATE CAELI DESUPER</l>
+               <l n="l2">ET NUBES PLUANT IUSTUM</l>
+               <l n="l3">APERIATUR TERRA</l>
+               <l n="l4">ET GERMINET SALVATOREM</l>
             </quote>
-            <bibl n="text.body.epigraph2.bibl">ISAIAS XLV</bibl>
+            <bibl n="bibl2">ISAIAS XLV</bibl>
          </epigraph>
       </body>
     </text>

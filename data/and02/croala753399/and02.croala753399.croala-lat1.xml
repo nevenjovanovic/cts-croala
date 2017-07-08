@@ -111,6 +111,35 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8']/*[@n='$9'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc xml:id="andreisbonzagno15290215">
          <abstract>
@@ -177,72 +206,72 @@
 
    <text xml:base="urn:cts:croala:and02.croala753399.croala-lat1:" xml:lang="lat" type="prosa">
     
-        <body n="text.body">
-            <pb n="text.body.pb"/>
-            <div n="text.body.div" type="epistula" corresp="#andreisbonzagno15290215">
-                <opener n="text.body.div.opener">Reverende domine, domine honorande, </opener>
+        <body n="body1">
+            <pb n="pb1"/>
+            <div n="div2" type="epistula" corresp="#andreisbonzagno15290215">
+                <opener n="opener1">Reverende domine, domine honorande, </opener>
                 
-                <p n="text.body.div.p1">credo <sic n="text.body.div.p1.sic1">tue</sic> reverende dominationi
+                <p n="p2">credo <sic n="sic1">tue</sic> reverende dominationi
                 cognitos esse meos omnes casus usque ad reditum ex
-                <placeName n="text.body.div.p1.placeName1">Constantinopoli</placeName>. Quam primum veni in <placeName n="text.body.div.p1.placeName2">Hungariam</placeName> rege adhuc extorre,
-                subita et ancipiti <sic n="text.body.div.p1.sic2">egritudine</sic> corrui sumque morbo vexatus menses tres
-                semper morti propior quam <sic n="text.body.div.p1.sic3">vite</sic>. Interim regia maiestas rediit ex
-                <placeName n="text.body.div.p1.placeName3">Polonia</placeName>; narravi necessitates <sic n="text.body.div.p1.sic4">tue reverende</sic> dominationis, quas et
-                ipse noveram et tua reverenda dominatio perscripserat in <sic n="text.body.div.p1.sic5">literis</sic>, quas
-                ad me dederat in <placeName n="text.body.div.p1.placeName4">Turciam</placeName>. Regia maiestas iniquo animo <sic n="text.body.div.p1.sic6">tullit</sic>
-                <sic n="text.body.div.p1.sic7">infortuniam</sic> <sic n="text.body.div.p1.sic8">tue reverende</sic> dominationis, propter temporum
-                difficultates, ceterum affirmavit, se postea providisse <sic n="text.body.div.p1.sic9">tue
-                reverendissime</sic> dominationi de expensis. Hoc <sic n="text.body.div.p1.sic10">eciam</sic> possum polliceri <sic n="text.body.div.p1.sic11">tue
+                <placeName n="placeName2">Constantinopoli</placeName>. Quam primum veni in <placeName n="placeName3">Hungariam</placeName> rege adhuc extorre,
+                subita et ancipiti <sic n="sic4">egritudine</sic> corrui sumque morbo vexatus menses tres
+                semper morti propior quam <sic n="sic5">vite</sic>. Interim regia maiestas rediit ex
+                <placeName n="placeName6">Polonia</placeName>; narravi necessitates <sic n="sic7">tue reverende</sic> dominationis, quas et
+                ipse noveram et tua reverenda dominatio perscripserat in <sic n="sic8">literis</sic>, quas
+                ad me dederat in <placeName n="placeName9">Turciam</placeName>. Regia maiestas iniquo animo <sic n="sic10">tullit</sic>
+                <sic n="sic11">infortuniam</sic> <sic n="sic12">tue reverende</sic> dominationis, propter temporum
+                difficultates, ceterum affirmavit, se postea providisse <sic n="sic13">tue
+                reverendissime</sic> dominationi de expensis. Hoc <sic n="sic14">eciam</sic> possum polliceri <sic n="sic15">tue
                 reverendissime</sic> dominationi, quod tua reverendissima dominatio
-                amplificata dignitate auctisque fortunis reditura sit in <placeName n="text.body.div.p1.placeName5">Hungariam</placeName>.</p>
+                amplificata dignitate auctisque fortunis reditura sit in <placeName n="placeName16">Hungariam</placeName>.</p>
                 
-                <p n="text.body.div.p2">Regia maiestas aliquot in locis alit magnas copias, iam plerasque
-                provincias subegit et arces expugnavit. Hic potentissimus <ref n="text.body.div.p2.ref">princeps
-                Turcus</ref> mittit <sic n="text.body.div.p2.sic1">regie</sic> maiestati in subsidium sex sanzachos et ipse cum
-                validissimo <sic n="text.body.div.p2.sic2">excercitu</sic> contra hostes nostros adulto vere
-                profecturus. Me huc venire mutatis equis adhuc imbecillem <sic n="text.body.div.p2.sic3">opportuit</sic>
-                iussu <sic n="text.body.div.p2.sic4">regie</sic> maiestatis; his diebus octo credo me expeditum ex
-                <sic n="text.body.div.p2.sic5">sentencia</sic> rediturum ad regiam maiestatem. Magnificus dominus
-                <persName n="text.body.div.p2.persName1">Ludovicus Gritti</persName> <sic n="text.body.div.p2.sic6">strennue</sic> ac fideliter procurat <sic n="text.body.div.p2.sic7">negocia</sic> regia et
-                ipse laturus est amplissimum fructum <sic n="text.body.div.p2.sic8">sue</sic> fidei atque
+                <p n="p3">Regia maiestas aliquot in locis alit magnas copias, iam plerasque
+                provincias subegit et arces expugnavit. Hic potentissimus <ref n="ref1">princeps
+                Turcus</ref> mittit <sic n="sic2">regie</sic> maiestati in subsidium sex sanzachos et ipse cum
+                validissimo <sic n="sic3">excercitu</sic> contra hostes nostros adulto vere
+                profecturus. Me huc venire mutatis equis adhuc imbecillem <sic n="sic4">opportuit</sic>
+                iussu <sic n="sic5">regie</sic> maiestatis; his diebus octo credo me expeditum ex
+                <sic n="sic6">sentencia</sic> rediturum ad regiam maiestatem. Magnificus dominus
+                <persName n="persName7">Ludovicus Gritti</persName> <sic n="sic8">strennue</sic> ac fideliter procurat <sic n="sic9">negocia</sic> regia et
+                ipse laturus est amplissimum fructum <sic n="sic10">sue</sic> fidei atque
                 laboris, quemadmodum puto intellexisse tuam reverendissimam dominationem
-                ex <sic n="text.body.div.p2.sic9">literis</sic>, quas tua reverendissima dominatio proxime ad ipsum magnificum
-                dominum <persName n="text.body.div.p2.persName2">Gritti</persName> misit. Ingens me cura invasit de reverendissimo domino
-                <persName n="text.body.div.p2.persName3">Statilio</persName> et magnifico <persName n="text.body.div.p2.persName4">Rincone</persName>, oratore regis <placeName n="text.body.div.p2.placeName">
-            <sic n="text.body.div.p2.placeName.sic">Frantie</sic>
+                ex <sic n="sic11">literis</sic>, quas tua reverendissima dominatio proxime ad ipsum magnificum
+                dominum <persName n="persName12">Gritti</persName> misit. Ingens me cura invasit de reverendissimo domino
+                <persName n="persName13">Statilio</persName> et magnifico <persName n="persName14">Rincone</persName>, oratore regis <placeName n="placeName15">
+            <sic n="sic1">Frantie</sic>
           </placeName>, si expediti sunt et
                 quod nondum redierint; timeo, ne quid eis acciderit. Sed utinam deus
                 nostras curas in melius mutet.</p> 
-                <closer n="text.body.div.closer1">
-          <salute n="text.body.div.closer1.salute">Cupio, ut tua reverendissima dominatio
+                <closer n="closer4">
+          <salute n="salute1">Cupio, ut tua reverendissima dominatio
                 recte valeat, cui me unice commendo.</salute> 
-                    <dateline n="text.body.div.closer1.dateline">Ex <placeName n="text.body.div.closer1.dateline.placeName">Constantinopoli</placeName>, <date n="text.body.div.closer1.dateline.date">15. <sic n="text.body.div.closer1.dateline.date.sic">marcii</sic> 1529.</date>
-            <note n="text.body.div.closer1.dateline.note">(1)</note>
+                    <dateline n="dateline2">Ex <placeName n="placeName1">Constantinopoli</placeName>, <date n="date2">15. <sic n="sic1">marcii</sic> 1529.</date>
+            <note n="note3">(1)</note>
           </dateline>
                 
-                <signed n="text.body.div.closer1.signed">
-            <persName n="text.body.div.closer1.signed.persName">Tranquillus</persName> manu propria</signed>
+                <signed n="signed3">
+            <persName n="persName1">Tranquillus</persName> manu propria</signed>
         </closer>
                 
-                <postscript n="text.body.div.postscript">
-          <p n="text.body.div.postscript.p">
-            <ref n="text.body.div.postscript.p.ref1">
-              <persName n="text.body.div.postscript.p.ref1.persName">Radul</persName> wayvoda, omnium bipedum ingratissimus</ref>, a suis trucidatus
-                est cum <ref n="text.body.div.postscript.p.ref2">filio</ref>, cuius morte credimus fractos esse <ref n="text.body.div.postscript.p.ref3">animos <sic n="text.body.div.postscript.p.ref3.sic">Transsilvanenses</sic>
+                <postscript n="postscript5">
+          <p n="p1">
+            <ref n="ref1">
+              <persName n="persName1">Radul</persName> wayvoda, omnium bipedum ingratissimus</ref>, a suis trucidatus
+                est cum <ref n="ref2">filio</ref>, cuius morte credimus fractos esse <ref n="ref3">animos <sic n="sic1">Transsilvanenses</sic>
             </ref>.</p>
         </postscript>
                 
-                <closer n="text.body.div.closer2">
-          <sic n="text.body.div.closer2.sic">Suprascriptio</sic> et copia literarum ut continent.
+                <closer n="closer6">
+          <sic n="sic1">Suprascriptio</sic> et copia literarum ut continent.
                 
-                <address n="text.body.div.closer2.address">
-            <addrLine n="text.body.div.closer2.address.addrLine">
-              <ref n="text.body.div.closer2.address.addrLine.ref">Reverendo domino, domino <persName n="text.body.div.closer2.address.addrLine.ref.persName">Iohanni Bonzano</persName>, <sic n="text.body.div.closer2.address.addrLine.ref.sic">preposito</sic> Varadiensi
-                et oratori <ref n="text.body.div.closer2.address.addrLine.ref.ref1">serenissimi domini <persName n="text.body.div.closer2.address.addrLine.ref.ref1.persName">Iohannis</persName> regis <placeName n="text.body.div.closer2.address.addrLine.ref.ref1.placeName">
-                    <sic n="text.body.div.closer2.address.addrLine.ref.ref1.placeName.sic">Ungarie</sic>
+                <address n="address2">
+            <addrLine n="addrLine1">
+              <ref n="ref1">Reverendo domino, domino <persName n="persName1">Iohanni Bonzano</persName>, <sic n="sic2">preposito</sic> Varadiensi
+                et oratori <ref n="ref3">serenissimi domini <persName n="persName1">Iohannis</persName> regis <placeName n="placeName2">
+                    <sic n="sic1">Ungarie</sic>
                   </placeName>
-                </ref> ad <ref n="text.body.div.closer2.address.addrLine.ref.ref2">excellentissimum
-                dominum <persName n="text.body.div.closer2.address.addrLine.ref.ref2.persName">Venetorum</persName>
+                </ref> ad <ref n="ref4">excellentissimum
+                dominum <persName n="persName1">Venetorum</persName>
                 </ref>, domino meo honorando</ref>.</addrLine>
           </address>
         </closer>

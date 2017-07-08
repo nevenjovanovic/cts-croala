@@ -81,6 +81,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -122,10 +136,10 @@
         </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:krsav02.croala1768901.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-        <div n="text.body.div" type="inscriptio">
-            <p n="text.body.div.p">
-                <date n="text.body.div.p.date1" when="1434">DLIII Olympiadis anno II</date>, Petrus, Cresii filius, Cresiavus, Jadertinus, divini iuris doctor, ac beati martyris et Jadertini patroni Chrysogoni ecclesiae venerabilis abbas, arcum, priori tempore labantem et longa patrum maiorumque incuria obscure atque indigne oppressum, proprio sumptu, hodie <date n="text.body.div.p.date2" when="1434-11-13">idibus Novembribus</date>, ad pristinam suam faciem splendoremque restituit.
+      <body n="body1">
+        <div n="div1" type="inscriptio">
+            <p n="p1">
+                <date n="date1" when="1434">DLIII Olympiadis anno II</date>, Petrus, Cresii filius, Cresiavus, Jadertinus, divini iuris doctor, ac beati martyris et Jadertini patroni Chrysogoni ecclesiae venerabilis abbas, arcum, priori tempore labantem et longa patrum maiorumque incuria obscure atque indigne oppressum, proprio sumptu, hodie <date n="date2" when="1434-11-13">idibus Novembribus</date>, ad pristinam suam faciem splendoremque restituit.
             </p>
         </div>
       </body>

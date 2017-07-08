@@ -106,6 +106,29 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -785,22 +808,22 @@
     <text xml:base="urn:cts:croala:skrl01.croala735015.croala-lat1:" xml:lang="lat">
 
 
-        <front n="text.front">
-            <docTitle n="text.front.docTitle">
-                <titlePart n="text.front.docTitle.titlePart">Nicolai Skerlecz Epistulae ad Martinum Georgium Kovachich,
+        <front n="front1">
+            <docTitle n="docTitle1">
+                <titlePart n="titlePart1">Nicolai Skerlecz Epistulae ad Martinum Georgium Kovachich,
                 1791–1798</titlePart>
             </docTitle>
-            <docEdition n="text.front.docEdition">edidit Neven Jovanović</docEdition>
+            <docEdition n="docEdition2">edidit Neven Jovanović</docEdition>
         </front>
-        <group n="text.group">
-            <text n="text.group.text1" type="epistula" corresp="#skrleckovacic17910206">
-                <body n="text.group.text1.body">
-                    <head n="text.group.text1.body.head">Posonii 6-ta Februarii 1791. (Budae perceptum die 11. Februarii 1791; f.
+        <group n="group2">
+            <text n="text1" type="epistula" corresp="#skrleckovacic17910206">
+                <body n="body1">
+                    <head n="head1">Posonii 6-ta Februarii 1791. (Budae perceptum die 11. Februarii 1791; f.
                         61r-62v) </head>
-                    <opener n="text.group.text1.body.opener">
-                        <salute n="text.group.text1.body.opener.salute">Clarissime vir!</salute>
+                    <opener n="opener2">
+                        <salute n="salute1">Clarissime vir!</salute>
                     </opener>
-                    <p n="text.group.text1.body.p1">Ego nec hactenus quidquam eorum praetermisi quae ad reddendam tibi magis
+                    <p n="p3">Ego nec hactenus quidquam eorum praetermisi quae ad reddendam tibi magis
                         propitiam sortem pertinere existimabam. Effectum conatuum meorum id unice
                         impedivit quod, ut ipse nosti, non eo loco sim collocatus ut ad augendam
                         fortunam tuam immediate conferre potuerim. Itaque ego ultro etiam lubens
@@ -810,11 +833,11 @@
                         redierit, quidquid mea apud illum commendatio potest, hanc interponere non
                         intermittam. Utinam inimica tibi nigra cohors etiam thesaurarii conatus non
                         intervertat! </p>
-                    <p n="text.group.text1.body.p2">Amice! validi tibi sunt duo hostes <emph n="text.group.text1.body.p2.emph1">ignorantia</emph> et
-                        <emph n="text.group.text1.body.p2.emph2">ambitio</emph>. Hos superare Herculeum certe laborem requirit. Iam
+                    <p n="p4">Amice! validi tibi sunt duo hostes <emph n="emph1">ignorantia</emph> et
+                        <emph n="emph2">ambitio</emph>. Hos superare Herculeum certe laborem requirit. Iam
                         primum, necdum eradicatum est e mentibus popularium nostrorum falsum illud
                         principium quod homines litterati minus idonei sint ad res agendas.
-                            <emph n="text.group.text1.body.p2.emph3">Authoris</emph> et <emph n="text.group.text1.body.p2.emph4">magistratus</emph> nomen incompatibile
+                            <emph n="emph3">Authoris</emph> et <emph n="emph4">magistratus</emph> nomen incompatibile
                         arbitrantur. Qui in civili republica res suas proferre voluit, si una
                         litteras coluit, debuit id tamdiu clam agere donec ad eum locum se provexit
                         ut se impune litteratum profiteri potuerit. Scis Istvanfium ipsum non nisi
@@ -822,14 +845,14 @@
                         suam praecocius ac res ferebat manifestaverat, quantas passus sit
                         persecutiones, ipse nosti. Reliqui omnes eruditi nostri invidiam temporis
                         sui obscuritate privatae conditionis suae redemerunt. </p>
-                    <p n="text.group.text1.body.p3">Haec ignorantia. Quos non adhuc obices ponere solet ambitio eius classis
+                    <p n="p5">Haec ignorantia. Quos non adhuc obices ponere solet ambitio eius classis
                         hominum, qui mundum in ea porro opinione continere volunt quod nemo extra
                         eorum coetum in re litteraria boni aliquid praestare possit! Hi omnem, qui
                         aliquid edunt, profanum hostem putant, qui ipsam potentiae suae basim,
                         opinionem videlicet de exclusivo eorum scientiae dono, subvertere conatur.
                         Si is privatus sit, ictibus eorum minus patet, si in magistratu agit, omnem
                         eius ulteriorem progressum impedire conantur. </p>
-                    <p n="text.group.text1.body.p4">Quorsum haec? dices. Ut litteras prorsus reponam? Absit. Hoc enim est quod
+                    <p n="p6">Quorsum haec? dices. Ut litteras prorsus reponam? Absit. Hoc enim est quod
                         adversarii anhelant. Ut dimissa, quam teneo, statione ad praesidium privati
                         Maecenatis recurram, et sub hoc Musas porro colam? Si aliquem eiusmodi
                         Maecenatem nossem, qui te digna mentis laboribusque tuis subsistentia ad
@@ -856,10 +879,10 @@
                         expendas, ipse comperies nec conatum se supra civilium dignitatum splendorem
                         elevandi adeo difficilem esse, et certam te, si id praestes, apud
                         posteritatem gloriae mercedem manere. </p>
-                    <p n="text.group.text1.body.p5">De litterariis tuis conatibus quod me certiorem facere volueris, gratiam tibi
+                    <p n="p7">De litterariis tuis conatibus quod me certiorem facere volueris, gratiam tibi
                         habeo. Ego quidem Budam non revertar. Spero tamen me hoc adhuc vere pro
                         aliquot mensibus eo venturum. Plura tunc conferemus. </p>
-                    <p n="text.group.text1.body.p6">Episcopo dicam ut a manuscriptis Széchenianis interea praescindat dum eventus
+                    <p n="p8">Episcopo dicam ut a manuscriptis Széchenianis interea praescindat dum eventus
                         doceat, an comes tomos suos tibi communicare velit. Imo agam ipse apud
                         Szechenium ut eos tibi transmittat. De collectione actorum diaetalium, in
                         tempus valde opportunum incidisti. Intendit, ut observavi, iam ipse
@@ -867,32 +890,32 @@
                         Cum eorsum venerit, agas per idoneos homines ut tibi hanc rem deferat et
                         sumptus administret. Opportune in eam rem veniet prospectus quem te
                         proximius editurum scribis. </p>
-                    <closer n="text.group.text1.body.closer">
-                        <dateline n="text.group.text1.body.closer.dateline">Posonii 6-ta Februarii 1791. </dateline>
-                        <signed n="text.group.text1.body.closer.signed">Tuus Skerlecz </signed>
+                    <closer n="closer9">
+                        <dateline n="dateline1">Posonii 6-ta Februarii 1791. </dateline>
+                        <signed n="signed2">Tuus Skerlecz </signed>
                     </closer>
 
                 </body>
             </text>
-            <text n="text.group.text2" type="epistula" corresp="#skrleckovacic17920908">
-                <body n="text.group.text2.body">
-                    <head n="text.group.text2.body.head">Iakovlye, 8-va Septembris 1792. (f. 139r-140v)</head>
-                    <opener n="text.group.text2.body.opener">Spectabilis ac clarissime vir! </opener>
-                    <p n="text.group.text2.body.p1">Diploma, quod per camerae praesidem te misisse scribis, necdum equidem
+            <text n="text2" type="epistula" corresp="#skrleckovacic17920908">
+                <body n="body1">
+                    <head n="head1">Iakovlye, 8-va Septembris 1792. (f. 139r-140v)</head>
+                    <opener n="opener2">Spectabilis ac clarissime vir! </opener>
+                    <p n="p3">Diploma, quod per camerae praesidem te misisse scribis, necdum equidem
                         accepi, cum ille hactenus non advenerit; praecipio tamen meam pro illo
                         gratitudinem. Ad illud notis illustrandum opellam meam tanto lubentius
-                        conferam, quanto ardentius edita videre cupio <emph n="text.group.text2.body.p1.emph">Vestigiorum
+                        conferam, quanto ardentius edita videre cupio <emph n="emph1">Vestigiorum
                         Supplementa.</emph> Verum ante Festum Omnium Sanctorum non possum operi
                         manum admovere, quia distineor adhuc elaboratis deputationis commercialis.
-                        Nisi tamen opus sit vastius, iuxta labores officii (usque Novum Annum)<note n="text.group.text2.body.p1.note">
-                     <p n="text.group.text2.body.p1.note.p">
-                             usque Novum Annum<emph n="text.group.text2.body.p1.note.p.emph"> in margine addidit auctor</emph>
+                        Nisi tamen opus sit vastius, iuxta labores officii (usque Novum Annum)<note n="note2">
+                     <p n="p1">
+                             usque Novum Annum<emph n="emph1"> in margine addidit auctor</emph>
                         </p>
                   </note> me illud terminaturum spero. Hoc absoluto
                         forte Sigismundaeum etiam Regestum commentabor. Ut tamen reliqua etiam a te
                         edita decreta per rubricas, uti desideras, dispescam, ad id nec tempus nec
                         patientiam mihi superesse profiteor. </p>
-                    <p n="text.group.text2.body.p2">Laudo tuam industriam quod in detegendis decretorum originalibus tantum
+                    <p n="p4">Laudo tuam industriam quod in detegendis decretorum originalibus tantum
                         operae colloces: agnosco etiam dignum authoritate potestatis legislativae
                         opus futurum si rejecta, quam alioquin tantum privati satis erronee
                         consarcinarunt, moderna Corporis Iuris editione novam, ipsis originalibus
@@ -914,7 +937,7 @@
                         faceret requisitionem, forte plura adhuc, quam tu detexisti, protraherentur.
                         Age tu necessaria in hanc rem, et maius patriae servitium praestabis quam
                         copiando ea, quae tibi communicantur. </p>
-                    <p n="text.group.text2.body.p3">Maiori adhuc solatio mihi cessit bonus, quem describis, collectionis
+                    <p n="p5">Maiori adhuc solatio mihi cessit bonus, quem describis, collectionis
                         diariorum et actorum diaetalium progressus. Noli tamen tibi blandiri ut opus
                         hoc seu futura, ut scribis, aestate, seu usque proxima comitia, quae ego
                         1794-to celebranda esse puto, absolvatur. Agnoscis restare tibi adhuc
@@ -932,24 +955,24 @@
                         fortasse res medio comitis Szapari Palatino proponi atque is ad
                         suppeditandos sumptus disponi. Nam acta haec alioquin haud secus haberi
                         poterunt quam si Palatinus pro iis banum requirat. </p>
-                    <p n="text.group.text2.body.p4">De progressu collectionis diplomatum perinde gratulor. Supono tamen te
+                    <p n="p6">De progressu collectionis diplomatum perinde gratulor. Supono tamen te
                         accepisse consilium meum ut de his non edendis, sed chronologice
                         describendis et ad Archivum Regni deponendis cogites. Secus tute pronuncio
                         te nunquam voti damnandum fore. Unde enim necessariae pro tam sumptuoso
                         opere expensae? Quarum vix centesimam partem defectus emptorum compensaret. </p>
-                    <p n="text.group.text2.body.p5">Eadem prorsus ratio est Collectionis Tractatuum Publicorum. De Collectione
+                    <p n="p7">Eadem prorsus ratio est Collectionis Tractatuum Publicorum. De Collectione
                         tamen Actorum Diaetalium, Diplomatum, et Tractatuum, cuperem ut unum par
                         etiam ad Bibliothecam Universitatis deponatur. Privatis enim eruditis
                         accessum ad Archivum Regni diu adhuc difficilem futurum tuto provideo; e
                         contra facilior erit Bibliothecae Universitatis usus, magno rei litterariae
                         Hungaricae emolumento. </p>
-                    <p n="text.group.text2.body.p6">Hactenus de collectionibus tantum sermo fuit quae improbum quidem laborem,
+                    <p n="p8">Hactenus de collectionibus tantum sermo fuit quae improbum quidem laborem,
                         vix tamen aliquem mentis intensionem requirunt. Et tamen si vel has,
                         pluribus licet in societatem laboris adscitis, absolvas, laborem
                         praestitisti quae in quocunque alio aetatem integram requisivisset. Quid si
-                        ea insuper, quae tibi proposuisti, elabores <bibl n="text.group.text2.body.p6.bibl1">Supplementa
-                        Vestigiorum</bibl>; <bibl n="text.group.text2.body.p6.bibl2">Subsidia ad Historiam Bibliographico-Litterariam
-                            Legislationis et Iurisprudentiae</bibl>, <bibl n="text.group.text2.body.p6.bibl3">Praenotiones Iuris Municipalis.</bibl>
+                        ea insuper, quae tibi proposuisti, elabores <bibl n="bibl1">Supplementa
+                        Vestigiorum</bibl>; <bibl n="bibl2">Subsidia ad Historiam Bibliographico-Litterariam
+                            Legislationis et Iurisprudentiae</bibl>, <bibl n="bibl3">Praenotiones Iuris Municipalis.</bibl>
                         Erit quidem, ut spero, superis cura ut tuam, publico adeo utilem vitam
                         producant. Vereor tamen ut, quaecunque tibi adhuc superest aetas, omnibus
                         his sufficiat. Quare et tui honoris, et publici causa te amice denuo hortor
@@ -960,20 +983,20 @@
                         proprium sibi faciet. Quid? quod intenso nimium labore, ipse tibi vitam
                         debeas abbreviare. Si penes collectiones, quas inchoasti, duo prima, quae
                         indicasti, opera absolvas, satis ad immortalitatem nominis tui praestitisti.
-                            <emph n="text.group.text2.body.p6.emph">Praenotiones Iuris Municipalis</emph> supremae, si dii longam
+                            <emph n="emph4">Praenotiones Iuris Municipalis</emph> supremae, si dii longam
                         concedant, aetati seponere potes; et alioquin non scio an his mysteriis
                         satis initiatus sis ut opus famae tuae respondeat. </p>
-                    <p n="text.group.text2.body.p7">Facis tu iam hactenus epocham; confixisti enim cornicum oculos; ostendisti
+                    <p n="p9">Facis tu iam hactenus epocham; confixisti enim cornicum oculos; ostendisti
                         quod ad scribendam utiliter patriam historiam non sufficiat umbratilis, qua
                         sola scriptores nostri hactenus gaudebant, eruditio; quod ad iuris scientiam
                         non sufficiat usus forensis; quod ad ferenda graviora negotia satis non sit
                         possidere technologiam dicasterialem, sed quod ipsi fontes petendi sint,
                         nimirum diplomata, acta diaetalia, publici tractatus. </p>
-                    <p n="text.group.text2.body.p8">Compone tantum animum tuum ad tranquillitatem. Suffoca omnem capessendae
+                    <p n="p10">Compone tantum animum tuum ad tranquillitatem. Suffoca omnem capessendae
                         vitae ambitiosae cogitationem. Praemium laborum tuorum non a praesenti, sed
                         a futuris generationibus exspecta. Si vel collectiones, quas inchoasti,
-                        absolveris, premet atra oblivio omnia modo <emph n="text.group.text2.body.p8.emph1">magnificorum,
-                            illustrissimorum</emph> et <emph n="text.group.text2.body.p8.emph2">excellentissimorum</emph> nomina quando
+                        absolveris, premet atra oblivio omnia modo <emph n="emph1">magnificorum,
+                            illustrissimorum</emph> et <emph n="emph2">excellentissimorum</emph> nomina quando
                         tuum omnium litteratorum sermonibus celebrabitur; quando dicetur: primus
                         Kovachich ad solidam publicarum scientiarum cognitionem viam stravit; primus
                         aperuit campum in quo et politicus, et iurista, et historicus industriam
@@ -981,21 +1004,21 @@
                         vitae suae instituto alienorum, opera prostravit. Verum ut id eveniat,
                         coeptas a te collectiones absolvi prorsus necessum est. Quare opus hoc tibi
                         iterum iterumque commendo. </p>
-                    <closer n="text.group.text2.body.closer">
-                        <salute n="text.group.text2.body.closer.salute">Vale. </salute>
-                        <dateline n="text.group.text2.body.closer.dateline">Dabam Iakovlye 8-va 7-bris 1792. </dateline>
-                        <signed n="text.group.text2.body.closer.signed">Tuus Cultor Nicolaus Skerlecz, manu propria. </signed>
+                    <closer n="closer11">
+                        <salute n="salute1">Vale. </salute>
+                        <dateline n="dateline2">Dabam Iakovlye 8-va 7-bris 1792. </dateline>
+                        <signed n="signed3">Tuus Cultor Nicolaus Skerlecz, manu propria. </signed>
                     </closer>
                 </body>
             </text>
-            <text n="text.group.text3" type="epistula" corresp="#skrleckovacicante17921115">
-                <body n="text.group.text3.body">
-                    <head n="text.group.text3.body.head">? ante 15. Novembris 1792. (responsum die 15. Novembris 1792; f. 21r-22v) </head>
-                    <opener n="text.group.text3.body.opener">
-                        <salute n="text.group.text3.body.opener.salute">Spectabilis et clarissime vir! </salute>
+            <text n="text3" type="epistula" corresp="#skrleckovacicante17921115">
+                <body n="body1">
+                    <head n="head1">? ante 15. Novembris 1792. (responsum die 15. Novembris 1792; f. 21r-22v) </head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis et clarissime vir! </salute>
                     </opener>
-                    <p n="text.group.text3.body.p1">Quae mihi transmisisti, camerae praeses primo 15-to huius tradidit; longius
-                        enim opinione sua Viennae detinebatur. Pro opusculo <bibl n="text.group.text3.body.p1.bibl">de Subsidiis
+                    <p n="p3">Quae mihi transmisisti, camerae praeses primo 15-to huius tradidit; longius
+                        enim opinione sua Viennae detinebatur. Pro opusculo <bibl n="bibl1">de Subsidiis
                             Publicis</bibl> gratiam tibi habeo. Evolvi illud: operosam authoris
                         industriam laudavi. Scopum ipsum, in quem lucubrationem hanc direxit,
                         probavi. Nam et mihi eadem hac in re semper mens fuit. Internae tamen
@@ -1009,10 +1032,10 @@
                         adhuc hoc in genere lux affulsit, et ideo id cogere velle esset rem
                         destruere. Ubi e converso si sensim providatur, post non multum tempus res
                         sponte in effectum ibit. </p>
-                    <p n="text.group.text3.body.p2">Quod opusculum adtinet, optassem ordinatam magis combinationem; nam et plura
+                    <p n="p4">Quod opusculum adtinet, optassem ordinatam magis combinationem; nam et plura
                         saepius repetit, et non omnes, quos vel e his materialibus elicere
                         potuisset, reflexiones subiungit. Cupivissem autem praeprimis ut obiectum
-                            <emph n="text.group.text3.body.p2.emph1">pecuniarum exercitualium</emph> per ipsas illas, iuxta quas alia
+                            <emph n="emph1">pecuniarum exercitualium</emph> per ipsas illas, iuxta quas alia
                         obiecta pertractavit, rubricas dilucidet. Hac enim in re omnes adhuc
                         caecutimus. In decretis bis tantum aut ter eorum mentio, sed tenuis fit. In
                         diplomatibus, quae mihi inspicere licuit, vix in tribus quatuorve locis
@@ -1020,20 +1043,20 @@
                         occurrent certe loca, quae obiectum hoc illustrare possint. Quare anima
                         authorem ut ad complendum opus suum hunc laborem suscipiat, et licet
                         lucubratio forte vix unam aliamve fileram efficiat, in forma supplementi
-                            <emph n="text.group.text3.body.p2.emph2">in eodem formato</emph> edat. Quisquis principale opusculum iam
+                            <emph n="emph2">in eodem formato</emph> edat. Quisquis principale opusculum iam
                         habet, supplementum hoc sibi certe comparabit. </p>
-                    <p n="text.group.text3.body.p3">Ceterum video in opusculo hoc <bibl n="text.group.text3.body.p3.bibl">Historiam <emph n="text.group.text3.body.p3.bibl.emph">Bajtaianam</emph>
+                    <p n="p5">Ceterum video in opusculo hoc <bibl n="bibl1">Historiam <emph n="emph1">Bajtaianam</emph>
                   </bibl> citari.
                         Quaero te, indaga apud authorem: an ipsam Historiam? et si ita, an
                         completam? vel vero tantum eius extractum possideat? Et me de eo redde
                         certiorem. </p>
-                    <p n="text.group.text3.body.p4">Video etiam quod dicat author se acta diaetae 1618. postremis comitiis
+                    <p n="p6">Video etiam quod dicat author se acta diaetae 1618. postremis comitiis
                         edidisse et statibus obtulisse. Suntne hae eadem, quae typographus
                         Pesthiensis (nomen eius mihi non occurrit) in comitiis 1791. annuntiaverat?
                         Suntne completa? Vel fors per te locupletiora edentur? Adestne etiam
                         diarium? De his omnibus peto a te informari. </p>
-                    <p n="text.group.text3.body.p5">Iam ad Diploma Uladislaianum. Terminato his diebus qui mihi obtigerat pro
-                        deputatione commerciali labore, illud tantisper inspexi. <bibl n="text.group.text3.body.p5.bibl">Decretum Andreae
+                    <p n="p7">Iam ad Diploma Uladislaianum. Terminato his diebus qui mihi obtigerat pro
+                        deputatione commerciali labore, illud tantisper inspexi. <bibl n="bibl1">Decretum Andreae
                         3-tii</bibl> quod continet, est omnino thesaurus statisticae Hungariae
                         antiquitatis, quo pretiosiorem aetas nostra non eruit. Admovi manum: tuam
                         paragraphorum divisionem ferme ubique retinui, et iuxta hanc prodiverunt
@@ -1049,23 +1072,23 @@
                         paragraphus praecedit, qui naturali ordine sequi deberet, et ideo ille
                         commode exstricari non potest, nisi posterior prius illustretur. Vel sola
                         rubricarum systematico ordine in adnexo folio collocatarum perlectio id tibi
-                        planum faciet. Si meministi, reduxeram <gap n="text.group.text3.body.p5.gap"/>
-                  <note n="text.group.text3.body.p5.note">
-                            <p n="text.group.text3.body.p5.note.p">
-                                <emph n="text.group.text3.body.p5.note.p.emph">Textum ulteriorem editores hoc tempore non possident.</emph>
+                        planum faciet. Si meministi, reduxeram <gap n="gap2"/>
+                  <note n="note3">
+                            <p n="p1">
+                                <emph n="emph1">Textum ulteriorem editores hoc tempore non possident.</emph>
                             </p>
                         </note>
                     </p>
                 </body>
             </text>
-            <text n="text.group.text4" type="epistula" corresp="#skrleckovacic17921208">
-                <body n="text.group.text4.body">
-                    <head n="text.group.text4.body.head">Zagrabiae 8. Decembris 1792. (perceptum 15. Dec. 1792, responsum 31. Ian.
+            <text n="text4" type="epistula" corresp="#skrleckovacic17921208">
+                <body n="body1">
+                    <head n="head1">Zagrabiae 8. Decembris 1792. (perceptum 15. Dec. 1792, responsum 31. Ian.
                         1793; f. 28r-29v)</head>
-                    <opener n="text.group.text4.body.opener">
-                        <salute n="text.group.text4.body.opener.salute">Spectabilis ac clarissime vir!</salute>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis ac clarissime vir!</salute>
                     </opener>
-                    <p n="text.group.text4.body.p1">Non possum satis demirari indefessam tuam industriam. Tanta exiguo hoc, quo
+                    <p n="p3">Non possum satis demirari indefessam tuam industriam. Tanta exiguo hoc, quo
                         divulsi sumus, tempore praestitisti, ut si tibi superi (quod enixe opto) vel
                         decennio vitam producant, ferme iam non ambigam quin vastas tuas idaeas re
                         ipsa ad effectum perducturus sis. Video quidem te de sumptibus subdubitare.
@@ -1073,7 +1096,7 @@
                         tibi comparare sciveris, ego nec dubito quin necessarios pro descriptione
                         tantum harum collectionum sumptus porro etiam procures. Pro typo enim ne
                         principis quidem Eszterhazi facultates tibi sufficerent. Tantum
-                            <bibl n="text.group.text4.body.p1.bibl1">Vestigia Diaetarum</bibl> et <bibl n="text.group.text4.body.p1.bibl2">Decreta inedita</bibl> tibi
+                            <bibl n="bibl1">Vestigia Diaetarum</bibl> et <bibl n="bibl2">Decreta inedita</bibl> tibi
                         maiorem in modum commendo. Et ideo quam requiris in profigendis rubricis
                         opellam, lubens praestabo. Modo decreta ita descripta sint ut ea, quae aut
                         in unum paragraphum contrahenda aut in plures dispescenda existimavero, aut
@@ -1082,106 +1105,106 @@
                         rediturus dicitur, mihi submittere. Si ille tribus quatuorve hebdomadis hic
                         moretur, et me infirmitas aut alia urgentior occupatio non distineat, forte
                         medio eiusdem et illa et notas in Uladislaianum tibi remittam. </p>
-                    <p n="text.group.text4.body.p2">Iam ad reliqua litterarum tuarum capita. Video te novum <bibl n="text.group.text4.body.p2.bibl1">de subsidiis ad
+                    <p n="p4">Iam ad reliqua litterarum tuarum capita. Video te novum <bibl n="bibl1">de subsidiis ad
                             Legislativam et Iurisprudentiam Hungaricam</bibl> opus moliri. Laudo
                         consilium. Id unum a te maiorem in modum peto, ne omnia ad semel edere
                         connitaris. Sic enim et sumptus et tempus te necessario deficere debebunt.
                         Preme, quod bene coepisti, iter, et praeprimis Vestigia absolve. Reliqua per
                         otium adpara, et tene parata, dum Maecenatem reperias. Video etiam te multa
-                            <emph n="text.group.text4.body.p2.emph">iam edita</emph> diplomata <bibl n="text.group.text4.body.p2.bibl2">Vestigiis</bibl> inferre velle. Muta quaeso
+                            <emph n="emph2">iam edita</emph> diplomata <bibl n="bibl3">Vestigiis</bibl> inferre velle. Muta quaeso
                         consilium et parce tempori et sumptibus. Postquam Katona omnia ad suum usque
                         tempus edita diplomata chronologico ordine exhibuit, oleum, crede mihi, et
                         operam perdes. Id unum aliqua cum utilitate praestari posse puto si illa,
-                        quae post <bibl n="text.group.text4.body.p2.bibl3">opus Katonaianum</bibl> edita sunt, chronologico ordine exhibeantur. E
+                        quae post <bibl n="bibl4">opus Katonaianum</bibl> edita sunt, chronologico ordine exhibeantur. E
                         ceteris suffecturum puto si clausulam, quae tibi deserviet, adferas et
                         fontem corones. Scis populares nostros non tantum negligentia in legendo,
                         sed pretii etiam quantitate a coemendis libris deterreri. Interest itaque
                         tua ut edendi a te libri quam minimae molis et pretii sint. Ipse ego
                         subindignari soleo illis qui edita iam toties diplomata recoquunt. </p>
-                    <p n="text.group.text4.body.p3">Oro te etiam ne acta diaetalia annum 1600. praecedentia <bibl n="text.group.text4.body.p3.bibl1">Vestigiis Diaetarum</bibl>
-                        intrudas. Nam haec natura sua ad Categoriam <emph n="text.group.text4.body.p3.emph">Collectionis Actorum
+                    <p n="p5">Oro te etiam ne acta diaetalia annum 1600. praecedentia <bibl n="bibl1">Vestigiis Diaetarum</bibl>
+                        intrudas. Nam haec natura sua ad Categoriam <emph n="emph2">Collectionis Actorum
                             Diaetalium</emph> spectant. Quam vellem ne vel ipsa inedita decreta
-                        <bibl n="text.group.text4.body.p3.bibl2">primum Vestigiorum tomum</bibl> ingressa fuissent. Nam et haec sub distinctam
+                        <bibl n="bibl3">primum Vestigiorum tomum</bibl> ingressa fuissent. Nam et haec sub distinctam
                         categoriam cadunt. Verum non sperabamus tunc nos tot inedita decreta
                         reperturos. Si id scivissem, praefixissem illis articulos subiecissemque
-                        notas uti nunc <bibl n="text.group.text4.body.p3.bibl3">Uladislaiano</bibl> faciam, et tunc te rogassem ut eadem simul, et
-                        quidem in eodem, quo <bibl n="text.group.text4.body.p3.bibl4">Corpus Iuris</bibl> habetur, formato edas. Nam hac ratione
+                        notas uti nunc <bibl n="bibl4">Uladislaiano</bibl> faciam, et tunc te rogassem ut eadem simul, et
+                        quidem in eodem, quo <bibl n="bibl5">Corpus Iuris</bibl> habetur, formato edas. Nam hac ratione
                         eadem sensim pro lege indubie adoptata fuissent. </p>
-                    <p n="text.group.text4.body.p4">
-                        <bibl n="text.group.text4.body.p4.bibl1">Vestigia</bibl> tua et <bibl n="text.group.text4.body.p4.bibl2">Institutum Diplomaticum</bibl> tam mihi
+                    <p n="p6">
+                        <bibl n="bibl1">Vestigia</bibl> tua et <bibl n="bibl2">Institutum Diplomaticum</bibl> tam mihi
                         quam et comitatui meo reddita sunt. Optassem ut eadem occasione aliquam tibi
                         gratificationem procurare potuissem. Pertentavi potiorum animos. Verum
                         necdum eos ad promovendum litterarum cultum comparatos inveni. Nimirum
                         desunt nobis opulenti, ut in Hungaria, cives, reliqui sumptus ad rationem
                         vitae suae admetiuntur. </p>
-                    <p n="text.group.text4.body.p5">Opusculum <bibl n="text.group.text4.body.p5.bibl1">de Statu Ecclesiastico</bibl> etiam percepi. Verum illud non
-                        eam, quam <bibl n="text.group.text4.body.p5.bibl2">Lucubratio de <emph n="text.group.text4.body.p5.bibl2.emph">subsidiis publicis,</emph>
+                    <p n="p7">Opusculum <bibl n="bibl1">de Statu Ecclesiastico</bibl> etiam percepi. Verum illud non
+                        eam, quam <bibl n="bibl2">Lucubratio de <emph n="emph1">subsidiis publicis,</emph>
                   </bibl> mihi attentionem
                         excitavit, neque utrumque eiusdem authoris opus esse scivi. Quod
-                            <emph n="text.group.text4.body.p5.emph1">pecunias exercituales</emph> adtinet, non esset opus totum
-                            <emph n="text.group.text4.body.p5.emph2">monetae</emph> obiectum ad vivum resecare. Sufficeret si author
+                            <emph n="emph3">pecunias exercituales</emph> adtinet, non esset opus totum
+                            <emph n="emph4">monetae</emph> obiectum ad vivum resecare. Sufficeret si author
                         colligeret ea e legibus et diplomatibus quae ad resolvendas, quas sibi quoad
                         reliqua subsidiorum obiecta posuit, quaestiones pertinent, nimirum: quando
                         originem acceperint? quid? et per quos hoc titulo depensum? quorsum
-                        conversum fuerit? <abbr n="text.group.text4.body.p5.abbr">etc.</abbr> Si defectu authoritatum nec has quaestiones resolvere
+                        conversum fuerit? <abbr n="abbr5">etc.</abbr> Si defectu authoritatum nec has quaestiones resolvere
                         potest, quaeso te fac exscribi clausulas illas, si quae in ineditis tuis
                         diplomatibus aut aliis instrumentis hac de re continentur, et mihi submitte.
                         Forte ego aliquam obiecto huic lucem affundam. </p>
-                    <p n="text.group.text4.body.p6">Si amicus ille, pro quo <bibl n="text.group.text4.body.p6.bibl">Historiam Bajtaianam</bibl> describi curas, non est
+                    <p n="p8">Si amicus ille, pro quo <bibl n="bibl1">Historiam Bajtaianam</bibl> describi curas, non est
                         episcopus noster, quaeso te interroga illum an non et ille pro se illam
                         describi velit. Scio autem quod velit; ita fiet ut et ego eius usum habere
                         possum. </p>
-                    <p n="text.group.text4.body.p7">Consilium continuandae <bibl n="text.group.text4.body.p7.bibl">Schvandtnerianae <emph n="text.group.text4.body.p7.bibl.emph">Scriptorum Hungariae
+                    <p n="p9">Consilium continuandae <bibl n="bibl1">Schvandtnerianae <emph n="emph1">Scriptorum Hungariae
                             Collectionis</emph>
                   </bibl> vehementer probo. Cum tamen septem tomos elatura
                         sit, vereor ut Maecenatem pro typo nanciscaris. Tenta semel minus aliquod
-                        opus erga <emph n="text.group.text4.body.p7.emph">subscriptionem</emph> annuntiare. E huius successu metiri
+                        opus erga <emph n="emph2">subscriptionem</emph> annuntiare. E huius successu metiri
                         poteris quid tibi sperandum sit, si eandem pro collectione hac viam inires. </p>
-                    <p n="text.group.text4.body.p8">Quoad acta diaetae 1618, memoria me fefellit. Credebam me in primo <bibl n="text.group.text4.body.p8.bibl">opusculi
-                            <emph n="text.group.text4.body.p8.bibl.emph">de subsidiis publicis</emph>
+                    <p n="p10">Quoad acta diaetae 1618, memoria me fefellit. Credebam me in primo <bibl n="bibl1">opusculi
+                            <emph n="emph1">de subsidiis publicis</emph>
                   </bibl> capite legisse quod author illa a se
                         edita profiteatur. Cum postea caput illud revolvissem, vidi me memoria
                         lapsum. </p>
-                    <p n="text.group.text4.body.p9">Quae de combinandis diaetarium<note n="text.group.text4.body.p9.note">
-                     <p n="text.group.text4.body.p9.note.p">
-                        diaetarium<emph n="text.group.text4.body.p9.note.p.emph"> sic</emph>
+                    <p n="p11">Quae de combinandis diaetarium<note n="note1">
+                     <p n="p1">
+                        diaetarium<emph n="emph1"> sic</emph>
                     </p>
                   </note> diariis
                         scribis, recte iudicasti. Vereor tamen ut praeter recentiorum unius diaetae
                         vel trina diaria deprehendere possis. Ut ut sit, non est hoc uni homini
                         datum ut omnia exhauriat. Relinquendum est aliquod etiam posteritati.
                         Sufficit si materialia eidem praeparemus. </p>
-                    <closer n="text.group.text4.body.closer">
-                        <salute n="text.group.text4.body.closer.salute">Vale. </salute>
-                        <dateline n="text.group.text4.body.closer.dateline">Zagrabiae 8. 10-br. 1792. </dateline>
+                    <closer n="closer12">
+                        <salute n="salute1">Vale. </salute>
+                        <dateline n="dateline2">Zagrabiae 8. 10-br. 1792. </dateline>
                     </closer>
                 </body>
             </text>
-            <text n="text.group.text5" type="epistula" corresp="#skrleckovacic17930222">
-                <body n="text.group.text5.body">
-                    <head n="text.group.text5.body.head">Zagrabiae 22. Februarii 1793. (Budae perceptum die 2. Martis 1793; f.
+            <text n="text5" type="epistula" corresp="#skrleckovacic17930222">
+                <body n="body1">
+                    <head n="head1">Zagrabiae 22. Februarii 1793. (Budae perceptum die 2. Martis 1793; f.
                         7r-8v)</head>
-                    <opener n="text.group.text5.body.opener">
-                        <salute n="text.group.text5.body.opener.salute">Spectabilis ac clarissime vir!</salute>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis ac clarissime vir!</salute>
                     </opener>
-                    <p n="text.group.text5.body.p1">Triduo antea, quam postremas tuas, de 31 praeterlapsi, accepi, reddita mihi
+                    <p n="p3">Triduo antea, quam postremas tuas, de 31 praeterlapsi, accepi, reddita mihi
                         sunt decreta, quae medio episcopi submisisti. Opportune evenit quod illo
-                        plane tempore <bibl n="text.group.text5.body.p1.bibl">animadversiones in Andreae 3-ii et Vladislai 1. decreta</bibl> iam
+                        plane tempore <bibl n="bibl1">animadversiones in Andreae 3-ii et Vladislai 1. decreta</bibl> iam
                         absolverim. Itaque commentandis his quoque decretis manum continuo admovi,
                         et Deo auspice opus iam etiam peregi. Cum res volumen efficiat, proximis
-                        autem diebus <term n="text.group.text5.body.p1.term">expressus</term> cum aliis litteris ad episcopum
+                        autem diebus <term n="term2">expressus</term> cum aliis litteris ad episcopum
                         ascensurus sit, nolui te meque postalibus expensis inutiliter gravare, sed
                         omnia ipsa hac occasione tibi submittam. Volui te de eo in antecessum
                         certiorem reddere, ne longior exspectatio aliquam tibi fortasse
                         sollicitudinem iniiciat. Superest ut de eo etiam, quomodo in hoc opere
                         versatus sim, te edoceam. </p>
-                    <p n="text.group.text5.body.p2">In decretis, quae in articulos iam divisa fuerunt, ordinem numerorum reliqui
+                    <p n="p4">In decretis, quae in articulos iam divisa fuerunt, ordinem numerorum reliqui
                         et rubricas tantum et notas adieci. Alia insuper meo arbitrio in articulos
                         dispescui. </p>
-                    <p n="text.group.text5.body.p3">In erroribus seu scribentis seu compilatoris, quos tu subtraxisti, genuinam
+                    <p n="p5">In erroribus seu scribentis seu compilatoris, quos tu subtraxisti, genuinam
                         lectionem supra talem vocem inscripsi censeremque ut in editione genuina
-                        lectio intra parenthesim, per ly <emph n="text.group.text5.body.p3.emph">lege</emph> vel subaudi inseratur. </p>
-                    <p n="text.group.text5.body.p4">Andreae 3. et Vladislai iam mundata cum subnexis ad singulum paragraphum vel
+                        lectio intra parenthesim, per ly <emph n="emph1">lege</emph> vel subaudi inseratur. </p>
+                    <p n="p6">Andreae 3. et Vladislai iam mundata cum subnexis ad singulum paragraphum vel
                         articulum notis, ita ut pro impressione statim possit deservire. Reliqua si
                         eodem modo describi voluissem, mensis mihi non suffecisset. Recipies itaque
                         decreta illa tantum rubricis aucta, prouti mihi illa submissisti. Meas vero
@@ -1189,70 +1212,70 @@
                         numeros, quibus singulum decretum signavi, ita clare provocant, ut scriptor
                         tuus et decreta, quae alioquin pro typo non satis munde descripta sunt,
                         purizare et singulam meam notam suo loco subiicere facile possit.</p>
-                    <p n="text.group.text5.body.p5">Quod rem ipsam adtinet, non ego me detinui cum gramaticalibus notis. Sensum
+                    <p n="p7">Quod rem ipsam adtinet, non ego me detinui cum gramaticalibus notis. Sensum
                         clausularum tum tantum explanavi, quando Textus aut ambiguus, aut ita
                         contortus fuit, ut Oedipo indiguerit. </p>
-                    <p n="text.group.text5.body.p6">Historicas notas duas tantum, sed has bene longas adposui. Verum utraque
+                    <p n="p8">Historicas notas duas tantum, sed has bene longas adposui. Verum utraque
                         harum aut facta a nullo historico hactenus prodita aut combinationes per
                         neminem adhuc institutas continet. Totus itaque in eo fui ut hominibus
                         nostris aperiam oculos, quomodo veteres leges aut instrumenta meditari?
                         Quomodo ad invicem combinare? Quomodo denique meritorias ex iis circa ius
                         nostrum civile et publicum, imo ipsam statisticam, observationes depromere
                         debeant? Quod ut praestem, conabar ubi potui:
-                    <list n="text.group.text5.body.p6.list">
-                     <item n="text.group.text5.body.p6.list.item1">1-mo. Si non historiam, adminus occasionem e qua lex aliqua lata fuit. Tum
+                    <list n="list1">
+                     <item n="item1">1-mo. Si non historiam, adminus occasionem e qua lex aliqua lata fuit. Tum
                         motivum seu rationem legis indicare. </item>
-                    <item n="text.group.text5.body.p6.list.item2">2-do. Cum plurimas veteres leges in effectum non abivisse constet, sicubi
+                    <item n="item2">2-do. Cum plurimas veteres leges in effectum non abivisse constet, sicubi
                         pragmaticum habui argumentum pro eo, quod re ipsa effectuata fuerit, illud
                         protuli. </item>
-                    <item n="text.group.text5.body.p6.list.item3">3-tio. Combinavi singulam memorabiliorem legem cum praecedentibus et
+                    <item n="item3">3-tio. Combinavi singulam memorabiliorem legem cum praecedentibus et
                         subsequis de eodem obiecto perlatis, sicque originem, variationes, et
                         abrogationem eiusmodi legis erui. </item>
-                    <item n="text.group.text5.body.p6.list.item4">4-to. Exegi singulam civilem legem ad fundamentalia iuris nostri principia,
+                    <item n="item4">4-to. Exegi singulam civilem legem ad fundamentalia iuris nostri principia,
                         politicam vero ad theoriam constitutionis nostrae, et, si ab his deviavit,
                         adnotavi. Denique </item>
-                    <item n="text.group.text5.body.p6.list.item5">5-to. Interserui complures iuridicarum et politicarum antiquitatum nostrarum
+                    <item n="item5">5-to. Interserui complures iuridicarum et politicarum antiquitatum nostrarum
                     notitias, quas neminem adhuc aut protulisse aut recte combinasse deprehendi. </item>
                     </list>
                     </p>
-                    <p n="text.group.text5.body.p7">Quo successu haec praestiteram, tu ipse potes existimare. Ego, licet opus ad
+                    <p n="p9">Quo successu haec praestiteram, tu ipse potes existimare. Ego, licet opus ad
                         maiorem ac ipse existimabam molem excreverit, nisi me amor proprius fallit,
                         non inutilem operam me praestitisse puto. </p>
-                    <p n="text.group.text5.body.p8">Iam de <bibl n="text.group.text5.body.p8.bibl">supplemento Vestigiorum</bibl>. Decreta, quae recipies, cum meis
+                    <p n="p10">Iam de <bibl n="bibl1">supplemento Vestigiorum</bibl>. Decreta, quae recipies, cum meis
                         adnotationibus dimidium ferme tomi talis, qualis primus est, efficient. Si
                         tu heterogeneis instituto tuo obiectis secundum quoque tomum oneraveris, ne
                         tribus quidem tomis opus absolves. Si quid video, ad scopum, quem tuo huic
-                        operi praefixisti, nil aliud pertinet, quam <list n="text.group.text5.body.p8.list">
-                     <item n="text.group.text5.body.p8.list.item1">1-mo regales, si quid peculiaris
+                        operi praefixisti, nil aliud pertinet, quam <list n="list2">
+                     <item n="item1">1-mo regales, si quid peculiaris
                         continent;</item> 
-                     <item n="text.group.text5.body.p8.list.item2">2-do in defectu harum aliae litterae e quibus locus et terminus
+                     <item n="item2">2-do in defectu harum aliae litterae e quibus locus et terminus
                         diaetae praefixus erui possit, nisi id ipsum iam in praefatione exprimatur.</item>
-                        <item n="text.group.text5.body.p8.list.item3">3-tio litterae e quibus vestigium diaetae, cuius decretum non prostat,
+                        <item n="item3">3-tio litterae e quibus vestigium diaetae, cuius decretum non prostat,
                         deprehendi possit, et cum hoc iam primo tomo praestiteris, ad sequentem
                         tomum non nisi talia vestigia inferre potes quae ibi desiderantur, secus
                         enim eandem crambem recoques.</item> 
-                     <item n="text.group.text5.body.p8.list.item4">4-to decreta quae primo tomo non protulisti.
+                     <item n="item4">4-to decreta quae primo tomo non protulisti.
                         5-to tales litterae e quibus apparet quae negotia, ultra illa, quae in
                         articulis alioquin indicantur, in tali diaeta confecta sint.</item> 
-                     <item n="text.group.text5.body.p8.list.item5">Denique 6-to
+                     <item n="item5">Denique 6-to
                         tales litterae quae ad explicationem momentosi alicuius articuli pertinent.</item>
                   </list> 
                </p>
-                    <p n="text.group.text5.body.p9">Si tu te his limitibus vis continere, certe totum opus uno adhuc tomo
+                    <p n="p11">Si tu te his limitibus vis continere, certe totum opus uno adhuc tomo
                         absolves tuaeque apud posteros existimationi magis prospicies quam si nos
                         congesta unde unde faragine rerum porro quoque obruere pergis. </p>
-                    <p n="text.group.text5.body.p10">Quare mactes nos cum illis 100, quas te congesisse scribis, regalibus. Quin
+                    <p n="p12">Quare mactes nos cum illis 100, quas te congesisse scribis, regalibus. Quin
                         enim eas legerim, fido mihi cavere quod vix decem sint ex iis quae aliquam
                         observatione dignam clausulam contineant. De his ipsis non interest abuti
                         patientia lectoris ut eundem barbarum stylum centies legere debeat; sufficit
                         ipsam tantum memorabilem clausulam totidem verbis proferre. </p>
-                    <p n="text.group.text5.body.p11">De aliis revoca quaeso tibi in memoriam quod in hoc opere non praefixeris
+                    <p n="p13">De aliis revoca quaeso tibi in memoriam quod in hoc opere non praefixeris
                         tibi scopum collectionis diplomatum et antiquarum litterarum, sed
                         vestigiorum diaetarum; decet autem authorem ut sibi constet, et a scopo suo
                         non divagetur, praesertim qui non collectoris laboriosam quidem, sed minus
                         illustrem provinciam, sed systematici, quale tuum vestigiorum opus esse
                         deberet, scriptoris Spartam assumit. </p>
-                    <p n="text.group.text5.body.p12">Si totum opus denuo recoqui posset, libenter ego mutuarem operam meam in iis
+                    <p n="p14">Si totum opus denuo recoqui posset, libenter ego mutuarem operam meam in iis
                         quoque, quae tomus 1. habet, decretis illustrandis; et tunc erasis, quae ad
                         stabilita superius principia revocari non possunt, instrumentis prodiret
                         unicus iustus tomus, pro quo maiorem certe tibi et praesens publicum et
@@ -1260,71 +1283,71 @@
                         opus ad 5 tomos produxeris. Contrahe itaque vela et fac ut unicum adhuc, sed
                         eum proximius tomum obtineamus. Ad reliqua litterarum tuarum capita alias
                         respondebo. </p>
-                    <closer n="text.group.text5.body.closer">
-                        <salute n="text.group.text5.body.closer.salute">Vale. </salute>
-                        <dateline n="text.group.text5.body.closer.dateline">Zagrabiae 22. Februarii 1793. </dateline>
+                    <closer n="closer15">
+                        <salute n="salute1">Vale. </salute>
+                        <dateline n="dateline2">Zagrabiae 22. Februarii 1793. </dateline>
                     </closer>
                 </body>
             </text>
-            <text n="text.group.text6" type="epistula" corresp="#skrleckovacic17930303">
-                <body n="text.group.text6.body">
-                    <head n="text.group.text6.body.head">Zagrabiae 3-tia Martii 1793. (responsum 20. Martii 1793; f. 9r–10v) </head>
-                    <opener n="text.group.text6.body.opener">
-                        <salute n="text.group.text6.body.opener.salute">Spectabilis ac clarissime vir! </salute>
+            <text n="text6" type="epistula" corresp="#skrleckovacic17930303">
+                <body n="body1">
+                    <head n="head1">Zagrabiae 3-tia Martii 1793. (responsum 20. Martii 1793; f. 9r–10v) </head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis ac clarissime vir! </salute>
                     </opener>
-                    <p n="text.group.text6.body.p1">Cape tua decreta non tam notis, quam observationibus pragmatico-politicis et
-                        iuridicis illustrata. Unica tamen ad <bibl n="text.group.text6.body.p1.bibl1">articulum 2. Andreanum</bibl> modum notae
+                    <p n="p3">Cape tua decreta non tam notis, quam observationibus pragmatico-politicis et
+                        iuridicis illustrata. Unica tamen ad <bibl n="bibl1">articulum 2. Andreanum</bibl> modum notae
                         excedere videtur. Quare si eam aut exmittas, aut in compendium mittas, non
                         adversabor. Ceterum rationem instituti, quod in lucubratione hac tenui, iam
                         postremis meis indicavi. Ubi ipse eam attentius expenderis, advertes quod
                         non pauca pro politica Hungariae, uti et iuris, historia materialia
-                        contineat. Invenies solutum quod in <bibl n="text.group.text6.body.p1.bibl2">
-                     <name n="text.group.text6.body.p1.bibl2.name">Vestigiis</name> pag. 392.</bibl>
-                        proposuisti aenigma de eo quid significet clausula: <q n="text.group.text6.body.p1.q">ab omnibus pro
+                        contineat. Invenies solutum quod in <bibl n="bibl2">
+                     <name n="name1">Vestigiis</name> pag. 392.</bibl>
+                        proposuisti aenigma de eo quid significet clausula: <q n="q3">ab omnibus pro
                             vero decreto Regni haberi volumus</q>. Videbis quid demum de
                         exercitualibus pecuniis hactenus eruere potuerim; observabis quantum
                         authentia decretorum Bachiensium anni 1518 et 1519. fluctuet. Denique
                         reperies dignam attentione de forma Ludovicorum et primorum Ferdinandi 1.
                         decretorum observationem. </p>
-                    <p n="text.group.text6.body.p2">Superest ut de aliquibus te admoneam, alia vero a te postulem. Iam primum, in
-                        notis, quas decretis <bibl n="text.group.text6.body.p2.bibl">primae Vestigiorum parti</bibl> insertis adieci, video graves
+                    <p n="p4">Superest ut de aliquibus te admoneam, alia vero a te postulem. Iam primum, in
+                        notis, quas decretis <bibl n="bibl1">primae Vestigiorum parti</bibl> insertis adieci, video graves
                         seu scriptoris seu typothetae errores irrepsisse. Cum tua perinde intersit
                         ut secunda pars quo correctior edatur, cura ut tam scriptura, quam et prima
                         typi philera exactissime comportetur. Quo momentosiores sunt praesentes,
                         quam illae fuerint, notae, eo magis interest, ne sensus, seu per omissionem,
                         seu per depravationem aliquarum vocum corrumpatur. </p>
-                    <p n="text.group.text6.body.p3">Deinde in decretis his ubicunque manifestum scriptoris errorem cubare e sensu
+                    <p n="p5">Deinde in decretis his ubicunque manifestum scriptoris errorem cubare e sensu
                         ipso collegi, veram lectionem superne mea manu inscripsi. Lectionem hanc aut
-                        per ly: <emph n="text.group.text6.body.p3.emph1">lege</emph> vel vero: <emph n="text.group.text6.body.p3.emph2">subaudi</emph> interserendam, aut
+                        per ly: <emph n="emph1">lege</emph> vel vero: <emph n="emph2">subaudi</emph> interserendam, aut
                         vero, cum hae alioquin simplices tantum copiae sint, genuinam lectionem ipsi
                         statim textui inferendam puto. </p>
-                    <p n="text.group.text6.body.p4">Porro ad ipsius sensus praesertim in intricatioribus obiectis dilucidationem
+                    <p n="p6">Porro ad ipsius sensus praesertim in intricatioribus obiectis dilucidationem
                         pertinet ut omnes illae clausulae aut verba, quae ego subtraxi, minutiore
                         typo exprimantur. Verum magna hac in re attentione opus est. Saepe enim
                         debui ipsam subtractam clausulam maioris claritatis causa meis aliquot
                         verbis, quae non subtraxi, interpolare. Nisi ad haec sollicite advertatur,
                         et mea etiam verba minutiori typo exprimantur, debebit id lectorem minus
                         emunctae naris, qualis plurimos habebimus, confundere. </p>
-                    <p n="text.group.text6.body.p5">Interest etiam, ut textus maiori, notae minori, prout in <bibl n="text.group.text6.body.p5.bibl">prima etiam
+                    <p n="p7">Interest etiam, ut textus maiori, notae minori, prout in <bibl n="bibl1">prima etiam
                         Vestigiorum parte</bibl> factum est, edatur: id autem vel maxime cavere oportet ne
                         nota aliqua cum textu ipso confundatur. Haec universim. </p>
-                    <p n="text.group.text6.body.p6">In particulari de <bibl n="text.group.text6.body.p6.bibl">Decreto Vladislaiano</bibl>. Cum scriba meus datum sibi mandatum,
+                    <p n="p8">In particulari de <bibl n="bibl1">Decreto Vladislaiano</bibl>. Cum scriba meus datum sibi mandatum,
                         ut textum grandiori scriptura exprimat, non expleverit, ne nota aliqua cum
                         textu confundatur, signavi in margine ubique quid sit textus, quid nota. Cum
                         discrimen hoc in editione ipsa typi diversitas ostensura sit, naturale est
                         quod marginalia illa signa exmitti debeant. </p>
-                    <p n="text.group.text6.body.p7">Cum tu significaveris quod post hoc decretum syllabum rubricarum ad
+                    <p n="p9">Cum tu significaveris quod post hoc decretum syllabum rubricarum ad
                         concernentes materias reductarum subiungere velis, ego autem per occasionem
                         commentationis et in numero, et in textu quarumpiam rubricarum mutationem
                         fecerim, moneo te: quod submissi tibi, syllabi nullum usum facere possis.
-                        Verum promisi ego illum in <ref n="text.group.text6.body.p7.ref">notis pag. 82</ref> credebamque quod illum eadem hac
+                        Verum promisi ego illum in <ref n="ref1">notis pag. 82</ref> credebamque quod illum eadem hac
                         occasione tibi submittere possim. Verum impediverunt me alia urgentiora
                         negotia. Itaque illum tibi alias submittam. </p>
-                    <p n="text.group.text6.body.p8">Quod reliqua decreta adtinet; vides iam ipse quantum temporis molis huius
+                    <p n="p10">Quod reliqua decreta adtinet; vides iam ipse quantum temporis molis huius
                         purizatio et notarum ad concernentes articulos insertio extraxisset. Itaque
                         lucubrationem hanc tibi in maculari submitto. Sunt ibi quidem diversae
                         correcturae, et claves. Hae tamen scriptorem, si requisitam adhibeat
-                        attentionem <add n="text.group.text6.body.p8.add">non confundent</add>. Commendo tamen tibi peculiarem
+                        attentionem <add n="add1">non confundent</add>. Commendo tamen tibi peculiarem
                         vel hoc nomine in comportando diligentiam. Cum hic textus decretorum in alio
                         et notae in alio corpore sint, ut nota textui misceatur, facile quidem
                         evenire non potest. Verum eo facilius evenire posset ut nota aliqua articulo
@@ -1334,46 +1357,46 @@
                         diligentissime advertas, et si forte in ipsam hanc provocationem error
                         calami irrepsisset, e sensu ipso colligas ad quem articulum nota talis
                         pertineat. </p>
-                    <p n="text.group.text6.body.p9">Ceterum ego, ut iam vides, in lucubratione hac singulum instrumentum sua
+                    <p n="p11">Ceterum ego, ut iam vides, in lucubratione hac singulum instrumentum sua
                         serie assumpsi et primum de categoria, ad quam illud referri debet, iudicium
                         tuli; haec et complura alia, quae hac occasione dixi, ad te tantum
                         referuntur. Ad ipsa decreta nil nisi rubricae et notae pertinent. Vide
                         itaque ne quid eorum, quae ego ad te tantum dvixi, decretis inscribatur. </p>
-                    <p n="text.group.text6.body.p10">Quae autem a te postulo, haec sunt. Primum ut nec de notis nec de
+                    <p n="p12">Quae autem a te postulo, haec sunt. Primum ut nec de notis nec de
                         commentatore quidpiam aliud dicas quam quod eadem manu exaratae sunt quae
                         decretis primae Vestigiorum partis notas adiecit. </p>
-                    <p n="text.group.text6.body.p11">Deinde, ut rubricas et notas, quas in maculari submitto, quo ocius in purum
+                    <p n="p13">Deinde, ut rubricas et notas, quas in maculari submitto, quo ocius in purum
                         redigi cures, maculare vero ipsum mihi remittas. Egeo enim illo ad alias,
                         quas sub manu habeo, lucubrationes. Purizatum tamen Vladislai diploma tuto
                         retinere potes. </p>
-                    <p n="text.group.text6.body.p12">Porro, ut <bibl n="text.group.text6.body.p12.bibl">diploma Mathaei bani de 1270</bibl>, quod pariter cum notis meis tenes,
+                    <p n="p14">Porro, ut <bibl n="bibl1">diploma Mathaei bani de 1270</bibl>, quod pariter cum notis meis tenes,
                         mihi perinde remittas. De multis enim rebus, quae eotum mihi ignotae erant,
                         e posteribus his diplomatibus edoctus in notis illis complura debeo
                         emendare. Si tibi quando illud edendi animus erit, remittam tibi cum notis
                         iam emendatis. </p>
-                    <p n="text.group.text6.body.p13">Denique, ego per cursum observationum mearum non paucas coniecturas
-                        deprompsi. Cum tibi longe maior veterum litterarum <add n="text.group.text6.body.p13.add">...</add>
+                    <p n="p15">Denique, ego per cursum observationum mearum non paucas coniecturas
+                        deprompsi. Cum tibi longe maior veterum litterarum <add n="add1">...</add>
                         praesto sit, si quam eiusmodi coniecturam per disertum alicuius, quod tibi
                         ad manum est, instrumenti refelli compereris, quaeso te, noli refutando
                         coniecturam meam paginam implere, sed ipsam statim notam, in qua eiusmodi
                         coniectura promitur, emenda. </p>
-                    <p n="text.group.text6.body.p14">Nescio an etiam <bibl n="text.group.text6.body.p14.bibl">Sigismundi sic dictum Regestrum</bibl> edere velis. Si ita,
+                    <p n="p16">Nescio an etiam <bibl n="bibl1">Sigismundi sic dictum Regestrum</bibl> edere velis. Si ita,
                         significa mihi, et ego notas in illud quoque submittam. Nam et illic
                         complura observanda occurrunt. </p>
-                    <p n="text.group.text6.body.p15">Ubi notas meas evolveris, fac me certiorem ingenue, an tuam expleverint
+                    <p n="p17">Ubi notas meas evolveris, fac me certiorem ingenue, an tuam expleverint
                         expectationem? uti et id, quando mihi polliceri possim editionem
                         Supplementorum. </p>
-                    <closer n="text.group.text6.body.closer">
-                        <salute n="text.group.text6.body.closer.salute">Vale. </salute>
-                        <dateline n="text.group.text6.body.closer.dateline">Dabam Zagrabiae 3-tia Martii 1793. </dateline>
+                    <closer n="closer18">
+                        <salute n="salute1">Vale. </salute>
+                        <dateline n="dateline2">Dabam Zagrabiae 3-tia Martii 1793. </dateline>
                     </closer>
-                    <postscript n="text.group.text6.body.postscript">
-                        <p n="text.group.text6.body.postscript.p">Meum maculare et <bibl n="text.group.text6.body.postscript.p.bibl">diploma Mathaei</bibl> forte medio redituri ad nos episcopi
+                    <postscript n="postscript19">
+                        <p n="p1">Meum maculare et <bibl n="bibl1">diploma Mathaei</bibl> forte medio redituri ad nos episcopi
                             remittere poteris. Audio enim deputationem eius toto adhuc hoc mense
                             duraturam. Sin, vel aliquis Croata tardius adhuc e deputatione sua
-                            redibit, vel Mandich, Bedekovich, aut Milos hac ad<note n="text.group.text6.body.postscript.p.note">
-                        <p n="text.group.text6.body.postscript.p.note.p">
-                                 ad <emph n="text.group.text6.body.postscript.p.note.p.emph">sic</emph>
+                            redibit, vel Mandich, Bedekovich, aut Milos hac ad<note n="note2">
+                        <p n="p1">
+                                 ad <emph n="emph1">sic</emph>
                             </p>
                      </note> aestate patriam suam pro aliquo tempore
                             revisent, et tunc medio alicuius ex his id praestare poteris. Quaeso te,
@@ -1381,108 +1404,108 @@
                     </postscript>
                 </body>
             </text>
-            <text n="text.group.text7" type="epistula" corresp="#skrleckovacic17930407">
-                <body n="text.group.text7.body">
-                    <head n="text.group.text7.body.head">Zagrabiae 7. Aprilis 1793. (Budae perceptum 13. Apr. 1793; f. 11r-11v)</head>
-                    <opener n="text.group.text7.body.opener">
-                        <salute n="text.group.text7.body.opener.salute">Spectabilis ac clarissime vir! </salute>
+            <text n="text7" type="epistula" corresp="#skrleckovacic17930407">
+                <body n="body1">
+                    <head n="head1">Zagrabiae 7. Aprilis 1793. (Budae perceptum 13. Apr. 1793; f. 11r-11v)</head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis ac clarissime vir! </salute>
                     </opener>
-                    <p n="text.group.text7.body.p1">Occupatus negotiis decurrentis restauratoriae congregationis, tuis de 20.
+                    <p n="p3">Occupatus negotiis decurrentis restauratoriae congregationis, tuis de 20.
                         praeteriti paucis respondeo. Ut primum reliqua per te submissa decreta
-                        absolvi, illico <ref n="text.group.text7.body.p1.ref">Sigismundaeis propositionibus</ref> manum admovi. Itaque
+                        absolvi, illico <ref n="ref1">Sigismundaeis propositionibus</ref> manum admovi. Itaque
                         animadversiones in illas iam dudum paratae sunt. Describi illas hactenus non
                         curavi quia nescivi an earum usum facere velis. Nunc illae scribam meum iam
                         fatigant, mittamque tibi prima, quae ad episcopum profectura est, occasione.
                         Est enim opus voluminosius quam ut illud cursore publico mittere expediat.
                         Totum ego illic banderiorum institutum enuclear, non triviali legum
                         combinatione, sed pragmaticis subsidiis fulcitus. </p>
-                    <p n="text.group.text7.body.p2">Quod propositionibus subnectitur: <q n="text.group.text7.body.p2.q">Tempore Sigismundi Regis
+                    <p n="p4">Quod propositionibus subnectitur: <q n="q1">Tempore Sigismundi Regis
                         Hungariae</q>, habeo, sed illud nullam meretur attentionem, prouti in
                         meis observationibus ostendi. Nimirum voluit aliquis posterius compendium
                         propositionum Sigismundearum elaborare. Sed in ipso hoc compendio frequenter
                         lapsus est, ut id combinatio ostendit. </p>
-                    <p n="text.group.text7.body.p3">Si mihi variantes lectiones, anteaquam animadversiones exmittam, submiseris,
+                    <p n="p5">Si mihi variantes lectiones, anteaquam animadversiones exmittam, submiseris,
                         combinabo eas et videbo an non id contineant, quod ego in stylo erratum esse
                         iam observavi. Si antea illas non accepero, debebis tu ipse id cum meis
                         notis combinare. </p>
-                    <p n="text.group.text7.body.p4">Vides ex his quod, si occasio ad episcopum sub finem mensis huius profecta
-                        fuerit, tu <name n="text.group.text7.body.p4.name1">Regestum</name> eodem tempore accipies, adeoque non
+                    <p n="p6">Vides ex his quod, si occasio ad episcopum sub finem mensis huius profecta
+                        fuerit, tu <name n="name1">Regestum</name> eodem tempore accipies, adeoque non
                         superesse rationem, cur 1-mam periodum seorsim pro revisione submittas.
-                        <name n="text.group.text7.body.p4.name2">Regestrum</name>
-                  <note n="text.group.text7.body.p4.note1">
-                     <p n="text.group.text7.body.p4.note1.p">
-                            5)  Regestrum <emph n="text.group.text7.body.p4.note1.p.emph">sic</emph>
+                        <name n="name2">Regestrum</name>
+                  <note n="note3">
+                     <p n="p1">
+                            5)  Regestrum <emph n="emph1">sic</emph>
                         </p>
                   </note> enim hoc ita ordinate cum
-                        subnexis animadversionibus descriptum accipies ut illum<note n="text.group.text7.body.p4.note2">
-                     <p n="text.group.text7.body.p4.note2.p">
-                            6)  illum <emph n="text.group.text7.body.p4.note2.p.emph">sic</emph>
+                        subnexis animadversionibus descriptum accipies ut illum<note n="note4">
+                     <p n="p1">
+                            6)  illum <emph n="emph1">sic</emph>
                         </p>
                   </note> statum revisioni substerni possit. Cura
                         tantum ut interea decreta illa, in quae notas tibi separatim submisi,
-                        ordinate purizentur, sicque meum originale eadem, qua tibi <name n="text.group.text7.body.p4.name3">Regestum</name> misero,
+                        ordinate purizentur, sicque meum originale eadem, qua tibi <name n="name5">Regestum</name> misero,
                         occasione mihi remittere possis. </p>
-                    <p n="text.group.text7.body.p5">Quod opus censurae consilii status substernas, probo. Impedies enim hac
+                    <p n="p7">Quod opus censurae consilii status substernas, probo. Impedies enim hac
                         ratione ne te nigra cohors, ut prima vice fecit, iterum calumniari possit.
                         Metuo tamen ne consilium status censuram, tanquam institutioni suo
                         heterogeneam, a se amoliatur, aut, si illam suscipiat, ne opus illic nimis
                         diu adhaereat. Quomodo molestiae huic subvenias, tu videris. </p>
-                    <closer n="text.group.text7.body.closer">
-                        <salute n="text.group.text7.body.closer.salute">Vale.</salute>
-                        <dateline n="text.group.text7.body.closer.dateline">Zagrabiae 7. Aprilis 1793. </dateline>
+                    <closer n="closer8">
+                        <salute n="salute1">Vale.</salute>
+                        <dateline n="dateline2">Zagrabiae 7. Aprilis 1793. </dateline>
                     </closer>
                 </body>
             </text>
-            <text n="text.group.text8" type="epistula" corresp="#skrleckovacic17930519">
-                <body n="text.group.text8.body">
-                    <head n="text.group.text8.body.head">Zagrabiae 19. Maii 1793. (f. 33-34r)</head>
-                    <opener n="text.group.text8.body.opener">
-                        <salute n="text.group.text8.body.opener.salute">Spectabilis ac clarissime vir! </salute>
+            <text n="text8" type="epistula" corresp="#skrleckovacic17930519">
+                <body n="body1">
+                    <head n="head1">Zagrabiae 19. Maii 1793. (f. 33-34r)</head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis ac clarissime vir! </salute>
                     </opener>
-                    <p n="text.group.text8.body.p1">Accludo <bibl n="text.group.text8.body.p1.bibl">Regestrum Sigismundi, notis illustratum</bibl>. De hoc eadem te monitum
+                    <p n="p3">Accludo <bibl n="bibl1">Regestrum Sigismundi, notis illustratum</bibl>. De hoc eadem te monitum
                         velim quae de reliquis, quae tibi dudum submisi, instrumentis iam indicavi.
                         Cumprimis commendo ut textus maioribus, notae minoribus litteris
                         imprimantur: secus lector facile se confundet! Dein ut ea, quae subtraxi, in
                         textu quidem minoribus, in notis vero maioribus litteris exprimantur. Id eo
                         pertinet ut lector ea, quae substantiam continent, oculo ipso discernere
                         possit. Denique ut prima philera exactissime corrigatur. </p>
-                    <p n="text.group.text8.body.p2">Id, quod regestrum sequitur: <q n="text.group.text8.body.p2.q">Tempore Sigismundi Regis</q>, exmisi,
+                    <p n="p4">Id, quod regestrum sequitur: <q n="q1">Tempore Sigismundi Regis</q>, exmisi,
                         quia re penitius expensa comperi quod nil aliud contineat quam informem et
                         infidelem ipsius Sigismundaei Regestri extractum, quem imperita manus
                         tardius efformavit. Nihil itaque habet quod inde discat lector, confundi
                         autem potest quia in aliquot locis differt ab ipso regestro. Quod si tamen
                         tu illum absolute adiicere vis, ut hanc illi observationem praemittas, est
                         necesse. </p>
-                    <p n="text.group.text8.body.p3">Variantis lectionis, quam mihi submisisti, nullum usum facere potui, quia ad
+                    <p n="p5">Variantis lectionis, quam mihi submisisti, nullum usum facere potui, quia ad
                         loca illa, quae seu scribarum oscitantia, seu compilatoris ipsius imperitia
                         corrupit, explicanda nihil conferunt. Verum horum ego sensum seu ex nexu
                         orationis aut obiecti, seu ex temporis rerumque adiunctis enucleavi. Non
                         puto itaque operae pretium ut chartam variantibus his oneres, sed utere illa
                         lectione, quae sensui re ipsa congruit; id enim editori semper integrum est. </p>
-                    <p n="text.group.text8.body.p4">Iam ad rem ipsam. Si notas meas rite evolvisti, debebas in illis deprehendere
+                    <p n="p6">Iam ad rem ipsam. Si notas meas rite evolvisti, debebas in illis deprehendere
                         vestigia aliquot diaetarum quae tu in primo tuo opusculo non indicasti. In
-                        ipsis, quas modo mitto, <bibl n="text.group.text8.body.p4.bibl">notis ad paragraphum 7-mum</bibl> Vestigium Diaetae
+                        ipsis, quas modo mitto, <bibl n="bibl1">notis ad paragraphum 7-mum</bibl> Vestigium Diaetae
                         1434-ti, quod tu hactenus non protulisti, deprehendes. </p>
-                    <p n="text.group.text8.body.p5">Reperi etiam ego per occasionem in <bibl n="text.group.text8.body.p5.bibl">Katonae Historia Critica</bibl> complura
+                    <p n="p7">Reperi etiam ego per occasionem in <bibl n="bibl1">Katonae Historia Critica</bibl> complura
                         diaetarum vestigia quae te fugerunt. Indicabo tomos et paginas ut ea
-                        facilius reperire possis. Habentur illa <list n="text.group.text8.body.p5.list">
-                     <item n="text.group.text8.body.p5.list.item1">
-                        <ref n="text.group.text8.body.p5.list.item1.ref">tomo 6-to pagina 581, 583, 797, 937,
+                        facilius reperire possis. Habentur illa <list n="list2">
+                     <item n="item1">
+                        <ref n="ref1">tomo 6-to pagina 581, 583, 797, 937,
                         et 1115</ref>.</item>
-                    <item n="text.group.text8.body.p5.list.item2">
-                        <ref n="text.group.text8.body.p5.list.item2.ref">Tomo 8-vo pagina 220</ref>. </item>
-                    <item n="text.group.text8.body.p5.list.item3">
-                        <ref n="text.group.text8.body.p5.list.item3.ref">Tomo 15-to pagina 123, 522, 562, et 755</ref>. </item>
-                    <item n="text.group.text8.body.p5.list.item4">
-                        <ref n="text.group.text8.body.p5.list.item4.ref">Tomo 16-to pag. 31, 135, et 588</ref>. </item>
+                    <item n="item2">
+                        <ref n="ref1">Tomo 8-vo pagina 220</ref>. </item>
+                    <item n="item3">
+                        <ref n="ref1">Tomo 15-to pagina 123, 522, 562, et 755</ref>. </item>
+                    <item n="item4">
+                        <ref n="ref1">Tomo 16-to pag. 31, 135, et 588</ref>. </item>
                   </list>
                </p>
-                    <p n="text.group.text8.body.p6">Haec ideo tibi indicanda existimavi ut loca haec consulere opusque tuum his
+                    <p n="p8">Haec ideo tibi indicanda existimavi ut loca haec consulere opusque tuum his
                         etiam subsidiis completius efficere possis. Forte in uno aliove paginam male
                         consignavi. Forte fugit etiam oculum meum quod tu unius alteriusve, quae his
                         paginis memorantur, diaetae vestigium re ipsa iam protuleris. Invenies tamen
                         illic aliquas, quas tu re ipsa praeteriisti. </p>
-                    <p n="text.group.text8.body.p7">Non dubito quin originale notarum mearum, id est, quas tibi in maculatorio
+                    <p n="p9">Non dubito quin originale notarum mearum, id est, quas tibi in maculatorio
                         submisi, mihi medio episcopi remiseris. Si tamen id praetermisisti, rogo te
                         ut illud seu per Bedekovichium seu per Milossum, quorum utrumque hac adhuc
                         aestate ad nos venturum credo, mihi remittas. Egeo enim illis pro mea, quam
@@ -1491,99 +1514,99 @@
                         autem omnem cautelam ne notae e maculatorio meo vel ad textum alienum
                         inscribantur, vel vero litterae, quibus textus signatus, improprio loco
                         collocentur; id enim ipsius operis pretium minueret. </p>
-                    <p n="text.group.text8.body.p8">Superest ut te rogem quo me certiorem facere velis quo circiter tempore
+                    <p n="p10">Superest ut te rogem quo me certiorem facere velis quo circiter tempore
                         editionem Supplementi sperare possum. </p>
-                    <closer n="text.group.text8.body.closer">
-                        <salute n="text.group.text8.body.closer.salute">Vale. </salute>
-                        <dateline n="text.group.text8.body.closer.dateline">Zagrabiae 19. Maii 1793. </dateline>
+                    <closer n="closer11">
+                        <salute n="salute1">Vale. </salute>
+                        <dateline n="dateline2">Zagrabiae 19. Maii 1793. </dateline>
                     </closer>
                 </body>
             </text>
-            <text n="text.group.text9" type="epistula" corresp="#skrleckovacic17940116">
-                <body n="text.group.text9.body">
-                    <head n="text.group.text9.body.head">Zagrabiae 16. Ianuarii 1794. (perceptum 25. Ianuarii 1794; f. 181r-182v)</head>
-                    <opener n="text.group.text9.body.opener">
-                        <salute n="text.group.text9.body.opener.salute">Spectabilis et clarissime vir! </salute>
+            <text n="text9" type="epistula" corresp="#skrleckovacic17940116">
+                <body n="body1">
+                    <head n="head1">Zagrabiae 16. Ianuarii 1794. (perceptum 25. Ianuarii 1794; f. 181r-182v)</head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis et clarissime vir! </salute>
                     </opener>
-                    <p n="text.group.text9.body.p1">Et tuae de 17. praeterlapsi et originale mearum notarum mihi redditae sunt.
+                    <p n="p3">Et tuae de 17. praeterlapsi et originale mearum notarum mihi redditae sunt.
                         Relegi has denuo deprehendique aliquos calami errores, qui me antea
                         fugerant, et quos attentionem etiam tuam effugisse inde arbitror, quia eos
                         in originali non correxisti. Hos itaque eo fine tibi indicandos putavi ut
                         eos in puro, antequam illud typis concredatur, emendes. </p>
-                    <p n="text.group.text9.body.p2">Et ut chronologico ordine procedam: ad Decretum statuum 1447. et quidem ad
+                    <p n="p4">Et ut chronologico ordine procedam: ad Decretum statuum 1447. et quidem ad
                         art. 16. adiecisti tu notam quod distinctam generalis comitatuum
                         congregationis, ut olim celebrabantur, uti et congregationum palatinalium,
-                        qua <emph n="text.group.text9.body.p2.emph1">iudicialium</emph> et qua <emph n="text.group.text9.body.p2.emph2">politicarum,</emph> notionem
+                        qua <emph n="emph1">iudicialium</emph> et qua <emph n="emph2">politicarum,</emph> notionem
                         necdum habeamus. Hanc notam quaeso exmitte; nam relate ad primam
                         propositionem certum est praeter palatinales illas nullas alias comitatuum
                         congregationes tota prima periodo celebratas fuisse. </p>
-                    <p n="text.group.text9.body.p3">Relate ad 2-dum: statim in subsequa, ad art. 21. eiusdem decreti nota,
+                    <p n="p5">Relate ad 2-dum: statim in subsequa, ad art. 21. eiusdem decreti nota,
                         ostenditur ex articulo 35. Vlad. decr. 1-mi quod congregatio generalis,
                         congregatio palatinalis, iudicium generale et iudicium palatinale unum
                         idemque fuerit. Contradicerent itaque sibi ad invicem notae et quidem
                         proxime se excipientes, si tua illa animadversio sub loco relinquatur.
-                        Quomodo autem <emph n="text.group.text9.body.p3.emph">politicae</emph> modernae comitatuum congregationes
+                        Quomodo autem <emph n="emph1">politicae</emph> modernae comitatuum congregationes
                         tertia primum epocha enatae sunt, id ego alibi uberrime demonstravi. </p>
-                    <p n="text.group.text9.body.p4">2-do: in notis ad Decretum Mathiae de 1472. et quidem ad eius conclusionem,
-                        litteram /b/ et paragraphum qui ita incipit: <emph n="text.group.text9.body.p4.emph1">Et vero ab hoc inde </emph>
-                        <emph n="text.group.text9.body.p4.emph2">tempore</emph>, sub finem in propositione illa: <emph n="text.group.text9.body.p4.emph3">Hoc anno, ut in
+                    <p n="p6">2-do: in notis ad Decretum Mathiae de 1472. et quidem ad eius conclusionem,
+                        litteram /b/ et paragraphum qui ita incipit: <emph n="emph1">Et vero ab hoc inde </emph>
+                        <emph n="emph2">tempore</emph>, sub finem in propositione illa: <emph n="emph3">Hoc anno, ut in
                             nota ad art. 6-tum Decreti 1268. iam vidimus,</emph> annus 1268-vus
                         erronee scriptus est, et poni debet 1468-vus. </p>
-                    <p n="text.group.text9.body.p5">Ibidem paulo post dicitur: <emph n="text.group.text9.body.p5.emph1">Cum decretum diaetae huius
+                    <p n="p7">Ibidem paulo post dicitur: <emph n="emph1">Cum decretum diaetae huius
                         desideretur</emph>. Verum id aequivocationem facit; posset enim lector
                         existimare quod id ad decretum 1468-vi, quod tamen actu commentamur,
-                        appellet. Quare diserte ponendum: <emph n="text.group.text9.body.p5.emph2">Cum decretum diaetae 1467-mi
+                        appellet. Quare diserte ponendum: <emph n="emph2">Cum decretum diaetae 1467-mi
                             desideretur.</emph>
                     </p>
-                    <p n="text.group.text9.body.p6">Eodem loco infra, in stropha quae incipit: <emph n="text.group.text9.body.p6.emph1">Anno 1478. in decreto quod
-                            in Corpore iuris prostat,</emph> vocula: <emph n="text.group.text9.body.p6.emph2">offertur</emph> emansit.
-                        Debet itaque haec addi et tunc textus ita sonabit: <emph n="text.group.text9.body.p6.emph3">Anno 1478. in
+                    <p n="p8">Eodem loco infra, in stropha quae incipit: <emph n="emph1">Anno 1478. in decreto quod
+                            in Corpore iuris prostat,</emph> vocula: <emph n="emph2">offertur</emph> emansit.
+                        Debet itaque haec addi et tunc textus ita sonabit: <emph n="emph3">Anno 1478. in
                             decreto, quod in Corpore iuris prostat, articulo 2. subsidium unius
                             floreni pro 5 annis offertur.</emph> Reliquum stat. </p>
-                    <p n="text.group.text9.body.p7">Ibidem paulo infra, ad stropham quae incipit: <emph n="text.group.text9.body.p7.emph1">Errant proinde
-                        illi,</emph> vocula: <emph n="text.group.text9.body.p7.emph2">arbitrantur</emph> emansit. Haec proinde addi
-                        debet, et tunc oratio ita sonabit: <emph n="text.group.text9.body.p7.emph3">Errant proinde illi qui Mathiam seu
+                    <p n="p9">Ibidem paulo infra, ad stropham quae incipit: <emph n="emph1">Errant proinde
+                        illi,</emph> vocula: <emph n="emph2">arbitrantur</emph> emansit. Haec proinde addi
+                        debet, et tunc oratio ita sonabit: <emph n="emph3">Errant proinde illi qui Mathiam seu
                             lucro camerae seu subsidio ipsos etiam nobiles subiecisse
                         arbitrantur.</emph>
                     </p>
-                    <p n="text.group.text9.body.p8">Ibidem paulo infra, sub finem strophae quae incipit: <emph n="text.group.text9.body.p8.emph1">Errant etiam
-                        qui</emph>, ante verba illa: <emph n="text.group.text9.body.p8.emph2">Et ideo fideiussionales illae</emph>,
-                        voculae illae <emph n="text.group.text9.body.p8.emph3">lucrum camerae exigebat</emph> deleri debent, nisi tu
+                    <p n="p10">Ibidem paulo infra, sub finem strophae quae incipit: <emph n="emph1">Errant etiam
+                        qui</emph>, ante verba illa: <emph n="emph2">Et ideo fideiussionales illae</emph>,
+                        voculae illae <emph n="emph3">lucrum camerae exigebat</emph> deleri debent, nisi tu
                         forte id fieri debere iam ex sensu ipso observasti. </p>
-                    <p n="text.group.text9.body.p9">Ad Decr. Lud. 2. de 1518. art. 3-tium, et quidem in paragrapho qui incipit:
-                            <emph n="text.group.text9.body.p9.emph1">In mox proferendo integro</emph> vocula: <emph n="text.group.text9.body.p9.emph2">decreto</emph>
-                        emansit. Quare oratio illa ita compleri debet: <emph n="text.group.text9.body.p9.emph3">In mox proferendo
+                    <p n="p11">Ad Decr. Lud. 2. de 1518. art. 3-tium, et quidem in paragrapho qui incipit:
+                            <emph n="emph1">In mox proferendo integro</emph> vocula: <emph n="emph2">decreto</emph>
+                        emansit. Quare oratio illa ita compleri debet: <emph n="emph3">In mox proferendo
                             integro diaetae 1523. decreto.</emph>
                     </p>
-                    <p n="text.group.text9.body.p10">Ad finem eiusdem decreti de 1518, et quidem rubricam: <emph n="text.group.text9.body.p10.emph">Reflexio
+                    <p n="p12">Ad finem eiusdem decreti de 1518, et quidem rubricam: <emph n="emph1">Reflexio
                             generalis in decreta Ludovici 2-di,</emph> adnotasti tu quod possideas
                         diplomata quibus et Mathias 1. et Ludovicus 2. conditos in diaetis articulos
                         seorsim confirmavit. Cum id ita se habeat, evertitur utique substantia
                         generalis illius meae reflexionis. Quare oro te ut illam prorsus exmittas,
                         aut, quod mallem, illam ad novam hanc tuam detectionem accommodes. </p>
-                    <p n="text.group.text9.body.p11">Ad Decr. 1519. art. 31. ad finem, vocula: <emph n="text.group.text9.body.p11.emph1">ordinatur</emph>, emansit.
-                        Quare hoc reponi, et oratio illa ita sonare debet: <emph n="text.group.text9.body.p11.emph2">Sed tantum ut metae
+                    <p n="p13">Ad Decr. 1519. art. 31. ad finem, vocula: <emph n="emph1">ordinatur</emph>, emansit.
+                        Quare hoc reponi, et oratio illa ita sonare debet: <emph n="emph2">Sed tantum ut metae
                             illae per protonotarium erigantur, ordinatur: nempe adeo parum aevo hoc
                             legibus obtemperabatur.</emph>
                     </p>
-                    <p n="text.group.text9.body.p12">Ad Decr. 1523. art. 8. Cum tu nomina ipsa missorum Norimbergam oratorum
+                    <p n="p14">Ad Decr. 1523. art. 8. Cum tu nomina ipsa missorum Norimbergam oratorum
                         detexeris, nota mea mutari debet. Posset fortasse ita mutari: Prajus
                         oratorem fuisse Andream Szekely nescio unde desumpsit. Plures fuisse ipse
                         hic articulus indicat. Nomina autem eorum exprimet data ipsis instructio
-                        cuius sequens est initium <abbr n="text.group.text9.body.p12.abbr">etc.</abbr> Exprime unde habeas hanc instructionem. Post
+                        cuius sequens est initium <abbr n="abbr1">etc.</abbr> Exprime unde habeas hanc instructionem. Post
                         haec finalis notae meae clausula subiici potest, ita tamen ut loco:
-                            <emph n="text.group.text9.body.p12.emph1">Idem refert</emph>, ponatur: <emph n="text.group.text9.body.p12.emph2">Prajus</emph> refert. </p>
-                    <p n="text.group.text9.body.p13">Ut haec omnia diligenter corrigas, eo etiam nomine te rogo, quod in notas
+                            <emph n="emph2">Idem refert</emph>, ponatur: <emph n="emph3">Prajus</emph> refert. </p>
+                    <p n="p15">Ut haec omnia diligenter corrigas, eo etiam nomine te rogo, quod in notas
                         meas, quas impressis in prima Vestigiorum parte decretis adieci, plures
                         eiusmodi errores videam irrepsisse. Ceterum superfluum quidem videtur te
                         monere ut sermonem illum, quem ad ingressum singuli instrumenti ad te
                         direxi, exmittas, et rubricas tantum et notas operi inferas. Cum tamen loca
                         haec nullo distincto signo in originali insignita videam, ad id etiam
                         reflectendum existimavi. </p>
-                    <p n="text.group.text9.body.p14">Significa mihi an notas Benzurianas ad Decretum Mathiae de 1472. exmittendas
+                    <p n="p16">Significa mihi an notas Benzurianas ad Decretum Mathiae de 1472. exmittendas
                         reipsa decreveris? Sin: iterum iure meo efflagito ut indices has non esse
                         eiusdem, cuius reliquae sunt, notas. </p>
-                    <p n="text.group.text9.body.p15">Iam ad litteras tuas: ergo Supplementa tantum ad 1-mam periodum in unum iam
+                    <p n="p17">Iam ad litteras tuas: ergo Supplementa tantum ad 1-mam periodum in unum iam
                         tomum excreverunt? Secunda et tertia epocha, uti e tuis video, vix duobus
                         tomis poterit contineri. Nulla itaque mihi iam spes superest ut completam
                         insignis huius operis editionem supervivere possim. Unde enim sumptus pro
@@ -1598,13 +1621,13 @@
                         pauciores adhuc lectores reperiant. Sed haec iam acta sunt. Age adminus
                         viriliter ut Supplementum 1-ae periodi censurae tandem eripias. Secus et hac
                         solatii parte frustrari possum. </p>
-                    <p n="text.group.text9.body.p16">Opus de subsidiis ad legislationem Hungaricam admodum probo, licet certus sim
+                    <p n="p18">Opus de subsidiis ad legislationem Hungaricam admodum probo, licet certus sim
                         illud te vivo nunquam lucem aspecturum. Unde enim iterum sumptus? Unde
                         tempus? Erit tamen insigne, etiamsi in manuscripto tantum remaneat,
                         litteraturae Hungaricae cymelion. Unum adhuc caput adiici desiderarem. Nempe
                         de iis, quae in diaetis agitata fuisse aliunde constat, neque tamen
                         articulis inserta sunt. </p>
-                    <p n="text.group.text9.body.p17">Alterum de subsidiis ad iurisprudentiam Hungaricam erit perinde illustre. Hic
+                    <p n="p19">Alterum de subsidiis ad iurisprudentiam Hungaricam erit perinde illustre. Hic
                         primum certe locum obtinere debet Diploma Mathaei Bani de 1270., quod
                         adiecta notis, quas in illud feci, suprema manu, si optas, tibi suo tempore
                         remittam. Nescio an tibi noti sint Zakmardiani, Szermaiani, Klosziani, et
@@ -1618,38 +1641,38 @@
                         id quod per episcopum Mandich tuto praestare potes. Hac enim sola ratione
                         ego cognoscere possem quid addendum, quid omittendum, qui comutandum esse
                         censeam. </p>
-                    <p n="text.group.text9.body.p18">Quod petis ut tibi summa legum, et potestatis civilis capita indicem, haec ad
+                    <p n="p20">Quod petis ut tibi summa legum, et potestatis civilis capita indicem, haec ad
                         sequentia referuntur. </p>
-                    <p n="text.group.text9.body.p19">Summum imperium (<emph n="text.group.text9.body.p19.emph1">souvrainete</emph>) ad duo tantum capita reipsa
-                        recidit, ad <emph n="text.group.text9.body.p19.emph2">legislativam</emph>, et <emph n="text.group.text9.body.p19.emph3">executivam</emph>
-                        [potestas]; ipsa enim <emph n="text.group.text9.body.p19.emph4">iudiciorum</emph> exercendorum potestas natura
+                    <p n="p21">Summum imperium (<emph n="emph1">souvrainete</emph>) ad duo tantum capita reipsa
+                        recidit, ad <emph n="emph2">legislativam</emph>, et <emph n="emph3">executivam</emph>
+                        [potestas]; ipsa enim <emph n="emph4">iudiciorum</emph> exercendorum potestas natura
                         sua ad executivam refertur. </p>
-                    <p n="text.group.text9.body.p20">Utraque haec potestas ad quattuor summa capita revocatur, nimirum ad
-                            <emph n="text.group.text9.body.p20.emph1">politica, oeconomica, militaria</emph> et <emph n="text.group.text9.body.p20.emph2">iudicialia</emph>
+                    <p n="p22">Utraque haec potestas ad quattuor summa capita revocatur, nimirum ad
+                            <emph n="emph1">politica, oeconomica, militaria</emph> et <emph n="emph2">iudicialia</emph>
                         obiecta. Singulus hic ramus varias recipere potest subdivisiones. Commode
-                        tamen leges ad 13. capita revocantur, nimirum: <emph n="text.group.text9.body.p20.emph3">publicas, stricte
+                        tamen leges ad 13. capita revocantur, nimirum: <emph n="emph3">publicas, stricte
                             politicas, politiae, religionarias, eclesiasticas, stricte
-                        oeconomicas</emph> seu finanziales, <emph n="text.group.text9.body.p20.emph4">commerciales, montanisticas,
+                        oeconomicas</emph> seu finanziales, <emph n="emph4">commerciales, montanisticas,
                             monetarias, iudiciales, civiles, criminales</emph> et
-                        <emph n="text.group.text9.body.p20.emph5">bellicas.</emph> Iam quidem ordinata pro emendatione legum 1715.
+                        <emph n="emph5">bellicas.</emph> Iam quidem ordinata pro emendatione legum 1715.
                         comissio systematica (cuius elaborata in 2 tomis posideo) omnes totius
                         Corporis Iuris leges ad suas generales rubricas revocare tentavit. Sed
                         infeliciter, quia rubricas ipsas male efformavit. Quae hic in nuce claudo,
                         uberius si cupis explicabo. </p>
-                    <closer n="text.group.text9.body.closer">
-                        <salute n="text.group.text9.body.closer.salute">Vale, et utprimum per graviores occupationes licuerit, responde. </salute>
-                        <dateline n="text.group.text9.body.closer.dateline">Zagr. 16. Ian. 1794. </dateline>
-                        <signed n="text.group.text9.body.closer.signed">Tuus Nic. Skerlecz, manu propria</signed>
+                    <closer n="closer23">
+                        <salute n="salute1">Vale, et utprimum per graviores occupationes licuerit, responde. </salute>
+                        <dateline n="dateline2">Zagr. 16. Ian. 1794. </dateline>
+                        <signed n="signed3">Tuus Nic. Skerlecz, manu propria</signed>
                     </closer>
                 </body>
             </text>
-            <text n="text.group.text10" type="epistula" corresp="#skrleckovacic17940623">
-                <body n="text.group.text10.body">
-                    <head n="text.group.text10.body.head">Iakovlye 23. Iunii (1794? f. 35r-36v)</head>
-                    <opener n="text.group.text10.body.opener">
-                        <salute n="text.group.text10.body.opener.salute">Spectabilis et clarissime vir!</salute>
+            <text n="text10" type="epistula" corresp="#skrleckovacic17940623">
+                <body n="body1">
+                    <head n="head1">Iakovlye 23. Iunii (1794? f. 35r-36v)</head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis et clarissime vir!</salute>
                     </opener>
-                    <p n="text.group.text10.body.p1">Remitto tuum opus. Cum illud persolvissem, observavi te quoad hoc tria
+                    <p n="p3">Remitto tuum opus. Cum illud persolvissem, observavi te quoad hoc tria
                         obiecta in erronea opinione versari: 1-mo quoad formam nobilitandi per
                         donationem, pag. 7; 2-do quod politicae comitatuum congregationes iam in 1-a
                         et 2-da epocha viguerint, pag. 24; 3-tio quod reges utriusque huius periodi
@@ -1664,9 +1687,9 @@
                         commoditate et illas tibi cum tempore submittam. Respondebo etiam tibi ad
                         quaesita tua quae in schaeda, quam Mandichio tradidisti, formaveras; nunc
                         enim necdum sum capax serii laboris. </p>
-                    <p n="text.group.text10.body.p2">Ceterum usus sum notitiis novis, quae ex opere tuo hausi, ad aliquot meas
+                    <p n="p4">Ceterum usus sum notitiis novis, quae ex opere tuo hausi, ad aliquot meas
                         notas his conformandas. Has ut ita, prout nunc sunt, relinquas quaeso. </p>
-                    <p n="text.group.text10.body.p3">Pag. 15. modificavi tantisper paraphrasim qua in littera mea ad te usus
+                    <p n="p5">Pag. 15. modificavi tantisper paraphrasim qua in littera mea ad te usus
                         fueram, non ut illam operi inseras, sed ut te ab inserendo, quo Sigismundus
                         Hungariam Alberto donavit, decreto dimoveam. Nam ita, ut fuit, incurrisset
                         certe in oculos censorum, et te probabiliter ad indicandum, qui illam
@@ -1675,7 +1698,7 @@
                         alioquin iam editum instrumentum, et paraphrasim meam, et tuas in hanc
                         reflexiones. Si instrumenti reeditioni praefracte insistis, exmitte adminus
                         paraphrasim et reflexiones; has enim alioquin censores non patientur. </p>
-                    <p n="text.group.text10.body.p4">Ingressus ad sic dictum <emph n="text.group.text10.body.p4.emph">Regestrum</emph> a pag. 40. usque pag. 55.
+                    <p n="p6">Ingressus ad sic dictum <emph n="emph1">Regestrum</emph> a pag. 40. usque pag. 55.
                         adeoque per solidas quattuordecim phileras productus mihi nimis verbosus et
                         intricatus videtur. Ter illum cum omni attentione relegere debui, donec,
                         quid probare velis, elicere potui. Deprehendi etiam in illo, prouti in
@@ -1684,18 +1707,18 @@
                         confecti, ex quo primum expeditio ad comitatus fieri debebat, et tamen
                         statuere (uti tu pag. 49. et sequentibus facis) quod habeat vim obligativam
                         legis. Reliquas recensere non vacat. </p>
-                    <p n="text.group.text10.body.p5">Tractas tu etiam in hoc ingressu quaestionem illam: ad qualem categoriam
+                    <p n="p7">Tractas tu etiam in hoc ingressu quaestionem illam: ad qualem categoriam
                         instrumentum hoc refferri debeat, quam ego in prima mea ad ingressum
                         instrumenti nota, pag. 56, pertractavi, et in compluribus subsequis notis
                         opinionem meam e textu ipso confirmavi. Tu consentis opinioni meae et
                         iisdem, quibus ego, uteris argumentis. Repetitio haec inutilis est. Quare
                         censerem ut aut meam primam notam ad ingressum, aut tuam de eodem merito
                         deductionem exmittas. </p>
-                    <p n="text.group.text10.body.p6">Quoad aetatem regestri huius, tu dissentis a mea opinione. Ut lectori planius
+                    <p n="p8">Quoad aetatem regestri huius, tu dissentis a mea opinione. Ut lectori planius
                         sit iudicium ferre, censerem ut tuam de hoc merito opinionem notae meae
                         subiicias, prouti alias fecisti. </p>
-                    <p n="text.group.text10.body.p7">Si reflexionibus his detuleris, nihil tibi remanebit pro ingressu quam
-                        quaestio illa, cui appendix illa: <emph n="text.group.text10.body.p7.emph">Tempore Sigismundi Regis</emph>
+                    <p n="p9">Si reflexionibus his detuleris, nihil tibi remanebit pro ingressu quam
+                        quaestio illa, cui appendix illa: <emph n="emph1">Tempore Sigismundi Regis</emph>
                         tribui possit? Ego quidem libenter patior certiora me edoceri. Omnia tamen,
                         quae adfers, me non movent ut scriptum illud pro extractu a Telegdio facto
                         habeam. Confer, quaeso, te illud accuratius cum regestro, et videbis quod
@@ -1714,109 +1737,109 @@
                         propositionum harum cum Sigismundi Decreto 5-to in notis satis demonstrasse
                         quod illae in diaeta 1435. resumptae et determinatae fuerint, adeoque ex iis
                         id tantum in legem transiverit quod in articulis diaetae huius continetur. </p>
-                    <p n="text.group.text10.body.p8">Pag. 219. littera Mathiae 1. non diaetam, sed conventum praelatorum, et
+                    <p n="p10">Pag. 219. littera Mathiae 1. non diaetam, sed conventum praelatorum, et
                         baronum; Kerchelichius non Hungariae, sed Sclavoniae congregationem
                         generalem indicat. </p>
-                    <p n="text.group.text10.body.p9">Pag. 295, ubi provocas ad Diploma Uladislai, cuperem ut sequentem
-                        animadversionem tuae substituas: <emph n="text.group.text10.body.p9.emph">Quod duo supremi comites uni
+                    <p n="p11">Pag. 295, ubi provocas ad Diploma Uladislai, cuperem ut sequentem
+                        animadversionem tuae substituas: <emph n="emph1">Quod duo supremi comites uni
                             comitatui praefecti fuerint, plura exstant monumenta. Sed hactenus
                             credebamus eos comitatum exaequata potestate rexisse, sicut bani
                             Croatiae et Sclavoniae, dum duo regnis his praeficiebantur. Nunc apparet
                             comitatum ipsum inter eos divisum fuisse.</emph>
                     </p>
-                    <p n="text.group.text10.body.p10">Ibidem ex eo, quod <emph n="text.group.text10.body.p10.emph1">Regestrum Proventuum Regalium</emph> de oblato anni
+                    <p n="p12">Ibidem ex eo, quod <emph n="emph1">Regestrum Proventuum Regalium</emph> de oblato anni
                         1494. et 1495. subsidio loquatur, non recte arguis annis his diaetam
                         celebratam fuisse. Supra enim pag. 277. docuisti hanc etiam in
-                            <emph n="text.group.text10.body.p10.emph2">Provincialibus Congregationibus,</emph> id est comitatibus,
+                            <emph n="emph2">Provincialibus Congregationibus,</emph> id est comitatibus,
                         offerri consuevisse. Usus certe hic primo sub Uladislao, in diaeta 1504, si
                         bene memini, art. 7. sublatus, et statutum est ut subsidia tantum in diaeta
                         offerri possint. Quare cuperem ut paragraphum hunc modifices. </p>
-                    <p n="text.group.text10.body.p11">In charta paginae 321 sub * adnexa non recte arguis e producto ibi diplomate
+                    <p n="p13">In charta paginae 321 sub * adnexa non recte arguis e producto ibi diplomate
                         quod Uladislaus praeter sedem iudiciariam distinctum consilium politicum
                         habuerit. Ipse enim pag. praecedenti 320. docuisti quod in octavis etiam
                         politica negotia pertractata fuerint, et vides quod in ipso diplomate,
-                            <emph n="text.group.text10.body.p11.emph1">consiliares et sedis nostrae iudiciariae iurati assessores</emph>
+                            <emph n="emph1">consiliares et sedis nostrae iudiciariae iurati assessores</emph>
                         compellentur. Habeo ego fundatam circa regium consilium, cuius leges
-                        aliquando meminerunt, deductionem. Sed cum obiectum hoc ad <emph n="text.group.text10.body.p11.emph2">Vestigia
+                        aliquando meminerunt, deductionem. Sed cum obiectum hoc ad <emph n="emph2">Vestigia
                             Diaetarum</emph> non pertineat, ab eo praescindo. </p>
-                    <p n="text.group.text10.body.p12">Pag. 447. historiam conventus Hatvaniensis per nova, quae profers, documenta
+                    <p n="p14">Pag. 447. historiam conventus Hatvaniensis per nova, quae profers, documenta
                         magis adhuc obscurasti. Cum in penultimis tuis te nova iterum subsidia de
                         memorabili hoc statisticae Hungaricae obiecto postea obtinuisse mihi
                         significaveris, combina quaeso et ea, quae in prima parte
-                            <emph n="text.group.text10.body.p12.emph">Supplementorum</emph> iam edidisti, et ea, quae tibi postea iam
+                            <emph n="emph1">Supplementorum</emph> iam edidisti, et ea, quae tibi postea iam
                         accesserunt, et dissipa tandem, si potes, has tenebras. </p>
-                    <p n="text.group.text10.body.p13">Ceterum age quaeso ut memoratum pag. 2. Caroli 1. Decretum de 1327. ante
+                    <p n="p15">Ceterum age quaeso ut memoratum pag. 2. Caroli 1. Decretum de 1327. ante
                         editionem operis huius a Berzeviczyi obtineas, illudque eidem inseras; angor
                         enim quod plane Caroli et Ludovici 1, qui 73 annis regnarunt, nullum adhuc
                         decretum per extensum produci potuerit. </p>
-                    <p n="text.group.text10.body.p14">Eadem ratio est gravaminum et resolutionum, quorum in appensa illic charta
+                    <p n="p16">Eadem ratio est gravaminum et resolutionum, quorum in appensa illic charta
                         meministi. Quanquam verear quod instrumentum hoc sit simplex rescriptum quod
                         ad privatas Saxonum in via instantiae positas querelas emanavit. </p>
-                    <p n="text.group.text10.body.p15">Gratulor et de firma tua valetudine, de qua in penultimis tuis, et de tanta
+                    <p n="p17">Gratulor et de firma tua valetudine, de qua in penultimis tuis, et de tanta
                         pretiosorum instrumentorum accessione, de qua in postremis tuis gloriaris.
                         Difficultates, quas tibi obiici quereris, omnes magni viri sustinere
                         debuerunt. Verum id ipsum nomini eorum viam stravit ad immortalitatem. Mihi
                         id maxime dolet quod ratione bibliothecariatus tam indigne tecum agatur,
                         praesertim a Lakichio, qui ex instituto litteris favere deberet. </p>
-                    <p n="text.group.text10.body.p16">Si <emph n="text.group.text10.body.p16.emph1">Repertorium Actorum Diaetalium</emph> et <emph n="text.group.text10.body.p16.emph2">Conspectum
+                    <p n="p18">Si <emph n="emph1">Repertorium Actorum Diaetalium</emph> et <emph n="emph2">Conspectum
                             Collectionis Monumentorum, quae ad Statisticam, ad Ius Publicum
                             Legislationem et Historiam Hungariae pertinent</emph> proximius, ut in
                         penultimis tuis polliceris, eddideris, rem publico admodum utilem, mihi
                         gratissimam praestabis; pridem enim ego id optabam. </p>
-                    <p n="text.group.text10.body.p17">Si quid porro mecum communicare volueris, ego, quod vires meae admittunt, in
+                    <p n="p19">Si quid porro mecum communicare volueris, ego, quod vires meae admittunt, in
                         perfectionem operis lubenter conferam, et, cum episcopus mihi promiserit
                         quod toties quoties praedialistam mihi dare velit, remittam tibi citius quam
                         praesens opus; id enim unice e defectu occasionis tamdiu apud me adhaesit. </p>
-                    <closer n="text.group.text10.body.closer">
-                        <salute n="text.group.text10.body.closer.salute">Perge infracto pectore, qua coepisti, via, et vale. </salute>
-                        <dateline n="text.group.text10.body.closer.dateline">Iakovlye 23. Iunii. </dateline>
-                        <signed n="text.group.text10.body.closer.signed">Tuus N. Skerlecz, manu propria </signed>
+                    <closer n="closer20">
+                        <salute n="salute1">Perge infracto pectore, qua coepisti, via, et vale. </salute>
+                        <dateline n="dateline2">Iakovlye 23. Iunii. </dateline>
+                        <signed n="signed3">Tuus N. Skerlecz, manu propria </signed>
                     </closer>
                 </body>
             </text>
-            <text n="text.group.text11" type="epistula" corresp="#skrleckovacic17940630">
-                <body n="text.group.text11.body">
-                    <head n="text.group.text11.body.head">Iakovlye, 30. Iunii 1794. (f. 78r-79v)</head>
-                    <opener n="text.group.text11.body.opener">
-                        <salute n="text.group.text11.body.opener.salute">Spectabilis ac clarissime vir! </salute>
+            <text n="text11" type="epistula" corresp="#skrleckovacic17940630">
+                <body n="body1">
+                    <head n="head1">Iakovlye, 30. Iunii 1794. (f. 78r-79v)</head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis ac clarissime vir! </salute>
                     </opener>
-                    <p n="text.group.text11.body.p1">Meritorium ad utrasque tuas, nempe de 27. Aprilis et 4. huius datas litteras
+                    <p n="p3">Meritorium ad utrasque tuas, nempe de 27. Aprilis et 4. huius datas litteras
                         responsum accipies per praedialem, qui tibi opus, quod mihi communicaveras,
                         referet.</p>
-                    <p n="text.group.text11.body.p2">Promisit mihi episcopus quod illum hodie velit expedire. Puto tamen litteram
+                    <p n="p4">Promisit mihi episcopus quod illum hodie velit expedire. Puto tamen litteram
                         hanc citius atque praedialem ad te perventurum. Quare id tibi eo nomine
                         significandum existimavi ut te a sollicitudine de recipiendo tuo opere
                         quantocuius liberem. </p>
-                    <p n="text.group.text11.body.p3">Iam ad quaesita quae per traditam Mandichio schaedam formasti. </p>
-                    <p n="text.group.text11.body.p4">Cum Statutorium de 1426. sequentem clausulam habeat: <emph n="text.group.text11.body.p4.emph1">Consvetudinaria
+                    <p n="p5">Iam ad quaesita quae per traditam Mandichio schaedam formasti. </p>
+                    <p n="p6">Cum Statutorium de 1426. sequentem clausulam habeat: <emph n="emph1">Consvetudinaria
                             vero lege Regni nostri Hungarici, ab antiquo approbata, sanciente</emph>
-                        adhaeres ad voculam <emph n="text.group.text11.body.p4.emph2">sanciente</emph>, cum consuetudo e frequentatis
+                        adhaeres ad voculam <emph n="emph2">sanciente</emph>, cum consuetudo e frequentatis
                         solum actibus exurgere, lex vero sola aliquid sancire possit, et quaeris:
                         quid per legem consuetudinariam ab antiquo approbatam et
-                        <emph n="text.group.text11.body.p4.emph3">sancientem</emph> intelligi debeat? </p>
-                    <p n="text.group.text11.body.p5">Ante omnia monere te debeo ne in veteribus litteris <emph n="text.group.text11.body.p5.emph1">verborum</emph>
-                        <emph n="text.group.text11.body.p5.emph2">proprietatem</emph> quaeras. Scatent illae hiulcis expressionibus et
-                            <emph n="text.group.text11.body.p5.emph3">impropriis verbis</emph>, quae ego in diplomatibus et decretis,
+                        <emph n="emph3">sancientem</emph> intelligi debeat? </p>
+                    <p n="p7">Ante omnia monere te debeo ne in veteribus litteris <emph n="emph1">verborum</emph>
+                        <emph n="emph2">proprietatem</emph> quaeras. Scatent illae hiulcis expressionibus et
+                            <emph n="emph3">impropriis verbis</emph>, quae ego in diplomatibus et decretis,
                         quae notis illustravi, ubique, sicut id facile observare poteras, relevavi,
                         et loca talia ex ipso contextu aut rerum natura ad genuinum sensum reduxi.
                         Quare si ego allatum per te statutorii locum commentari deberem, unicum
-                        illud ad vocabulum: <emph n="text.group.text11.body.p5.emph4">sancientem</emph> observarem quod hic improprie
+                        illud ad vocabulum: <emph n="emph4">sancientem</emph> observarem quod hic improprie
                         adhibeatur, cum, ut praemisi, consuetudo e frequentatis tantum actibus
                         oriatur, sola vero lex aliquid sancire possit. </p>
-                    <p n="text.group.text11.body.p6">Quod phrasis: <emph n="text.group.text11.body.p6.emph1">lex consuetudinaria</emph> in documentis ipsisque adeo
+                    <p n="p8">Quod phrasis: <emph n="emph1">lex consuetudinaria</emph> in documentis ipsisque adeo
                         legibus nostris frequenter usurpetur, inde evenit quia non tantum apud
                         nostros, sed aliarum etiam gentium iurisconsultos principium illud invaluit
-                            <emph n="text.group.text11.body.p6.emph2">quod legitima consuetudo obtineat vim legis</emph>, propterea
+                            <emph n="emph2">quod legitima consuetudo obtineat vim legis</emph>, propterea
                         tamen illa natura sua distincta est a lege. Et ideo ipsa etiam hoc
-                        expressio: <emph n="text.group.text11.body.p6.emph3">lex consuetudinaria</emph> impropria est, quia duo natura
+                        expressio: <emph n="emph3">lex consuetudinaria</emph> impropria est, quia duo natura
                         sua distincta obiecta confundit. Si concipiens statutorium illud
                         proprietatem linguae Latinae novisset, clausulam illam ita expresisset:
-                            <emph n="text.group.text11.body.p6.emph4">Antiqua vero, et approbata </emph>
-                        <emph n="text.group.text11.body.p6.emph5">Regni nostri consuetudine, quae vi legis pollet, id secum
+                            <emph n="emph4">Antiqua vero, et approbata </emph>
+                        <emph n="emph5">Regni nostri consuetudine, quae vi legis pollet, id secum
                         ferente</emph> 
-                  <abbr n="text.group.text11.body.p6.abbr">etc.</abbr> 
+                  <abbr n="abbr6">etc.</abbr> 
                </p>
-                    <p n="text.group.text11.body.p7">Ceterum recte observas complura, quae iam antea legibus sancita fuerunt,
+                    <p n="p9">Ceterum recte observas complura, quae iam antea legibus sancita fuerunt,
                         postquam harum memoria intercidit, tanquam simplices consuetudines allegatas
                         fuisse. Remonstravi id ego in compluribus meis ad decreta, quae commentatus
                         sum, praesertim vero ad Decretum Andreae 3. notis, ostendique quanta iam
@@ -1834,23 +1857,23 @@
                         tantum litterae privatorum iura concernentes pertinent, protrahi debuerint.
                         Verum id naturale est apud gentem continuis ferme bellis occupatam et ideo
                         exiguum litterarum usum habentem. </p>
-                    <p n="text.group.text11.body.p8">Aliud quaesitum tuum iam maiorem habet difficultatem. Ad hanc tollendam
-                        distingui debent privilegia <emph n="text.group.text11.body.p8.emph1">privata</emph> ab iis quae ad <emph n="text.group.text11.body.p8.emph2">iura
+                    <p n="p10">Aliud quaesitum tuum iam maiorem habet difficultatem. Ad hanc tollendam
+                        distingui debent privilegia <emph n="emph1">privata</emph> ab iis quae ad <emph n="emph2">iura
                             maiestatica</emph> referuntur. Illa quisque privatus, adeoque etiam
                         reginae, elargiri potuerunt, veluti villis suis aliquas immunitates
                         concedere; ex inferiori conditionariorum classe ad altiorem, e.g.
-                            <emph n="text.group.text11.body.p8.emph3">iobagionis bellatores</emph>, seu ut nunc loquimur, praedialium
+                            <emph n="emph3">iobagionis bellatores</emph>, seu ut nunc loquimur, praedialium
                         conditionem elevare; terram sub hac vel illa servitii, aut praestationis
-                        obligatione conferre, et reliqua. Sed haec <emph n="text.group.text11.body.p8.emph4">improprie</emph> tantum
+                        obligatione conferre, et reliqua. Sed haec <emph n="emph4">improprie</emph> tantum
                         privilegia appellantur, stricte loquendo sunt tantum favores, quos privati
-                        etiam concedere possunt. In sensu iuridico illa tantum <emph n="text.group.text11.body.p8.emph5">proprie</emph>
+                        etiam concedere possunt. In sensu iuridico illa tantum <emph n="emph5">proprie</emph>
                         privilegia appellantur quae e iure maiestatico dimanant: veluti aliquem seu
                         per donationem, seu per armales nobilitare; conferre bona in fiscum redacta;
                         usum iuris gladii, telonii, nauli, nundinarum, aut tricesimae indulgere, et
                         reliqua. Haec autem reginam aliquam concesisse nuspiam reperies, nisi una
-                        fuerit <emph n="text.group.text11.body.p8.emph6">corregens</emph>, quo in casu e communicato sibi iure
+                        fuerit <emph n="emph6">corregens</emph>, quo in casu e communicato sibi iure
                         maiestatico agebat. </p>
-                    <p n="text.group.text11.body.p9">Verum non hic cubat difficultas circa intellectum 11. 14. part. 2-dae. Vis
+                    <p n="p11">Verum non hic cubat difficultas circa intellectum 11. 14. part. 2-dae. Vis
                         nodi in eo consistit: qualenam principium viguerit in eo, quod aliquorum
                         regum privilegia serventur, aliorum non item? Duplex hactenus fuit ea de re
                         sententia. Una quod illi, quorum privilegia non servantur, non fuerint
@@ -1858,54 +1881,54 @@
                         fuerint vera Regni corona coronati. Mihi neutra arridet. Inter eos enim,
                         quorum privilegia non observari Verboczius testatur, sunt complures in
                         quorum inauguratione neuter horum defectuum intercessit. </p>
-                    <p n="text.group.text11.body.p10">Itaque mea hactenus, donec certiora edocear, hoc est sententia: quod illorum
+                    <p n="p12">Itaque mea hactenus, donec certiora edocear, hoc est sententia: quod illorum
                         tantum regum privilegia non observentur, quorum acta et facta, seu quod
                         crudeliter, seu vero quod arbitrarie contra constitutionem Regni imperarint,
                         sub successore suo publica lege rescissa fuerunt; quemadmodum omnia Petri
                         facta adeoque etiam privilegia sub Aba antiquata fuisse constat. Motiva
                         huius meae sententiae proferre non vacat; volui eam tibi tantum indicare. </p>
-                    <p n="text.group.text11.body.p11">Habes meam de propositis dubiis sententiam. Superest ut te denuo orem ne opus
+                    <p n="p13">Habes meam de propositis dubiis sententiam. Superest ut te denuo orem ne opus
                         tuum inani eorum, quae ego in notis meis iam exhausi, repetitione oneres. </p>
-                    <closer n="text.group.text11.body.closer">
-                        <salute n="text.group.text11.body.closer.salute">Vale. </salute>
-                        <dateline n="text.group.text11.body.closer.dateline">Iakovlye 30. Iunii 1794. </dateline>
+                    <closer n="closer14">
+                        <salute n="salute1">Vale. </salute>
+                        <dateline n="dateline2">Iakovlye 30. Iunii 1794. </dateline>
                     </closer>
                 </body>
             </text>
-            <text n="text.group.text12" type="epistula" corresp="#skrleckovacic17950103">
-                <body n="text.group.text12.body">
-                    <head n="text.group.text12.body.head">Zagrabiae 3. Ianuarii 1795. (f. 127r–128v)</head>
-                    <opener n="text.group.text12.body.opener">
-                        <salute n="text.group.text12.body.opener.salute">Spectabilis ac clarissime vir! </salute>
+            <text n="text12" type="epistula" corresp="#skrleckovacic17950103">
+                <body n="body1">
+                    <head n="head1">Zagrabiae 3. Ianuarii 1795. (f. 127r–128v)</head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis ac clarissime vir! </salute>
                     </opener>
-                    <p n="text.group.text12.body.p1">Cum ad meas, quibus dissertationem adnexui, nullum tanto tempore responsum
+                    <p n="p3">Cum ad meas, quibus dissertationem adnexui, nullum tanto tempore responsum
                         acceperim, credebam te omne mecum litterarum commercium abrumpere velle.
                         Opinionem tamen hanc redditae mihi altero abhinc tabellario tuae, sub 6-ta
                         10-bris Colosvarino litterae, exemerunt. </p>
-                    <p n="text.group.text12.body.p2">Gratulor rei litterariae Hungaricae te iam ad extremos Regni huius limites
+                    <p n="p4">Gratulor rei litterariae Hungaricae te iam ad extremos Regni huius limites
                         pertigisse, videoque quod fata tibi uni hanc felicitatem reservaverint ut
                         avara alias hoc in genere nostratum scrinia recludas. Nihil ferme iam tibi
                         reliquum est quam ut meridionales etiam Hungariae limites, id est Croatiam
                         pertentes. Quam in rem si tibi voluntas et otium suo tempore adfuerit,
                         significa mihi. Conficiam cum episcopo ut id nullo tuo impendio praestare
                         possis. </p>
-                    <p n="text.group.text12.body.p3">Cum tibi ad secretariatum camerae adhuc animum superesse videam, Szechenacz
+                    <p n="p5">Cum tibi ad secretariatum camerae adhuc animum superesse videam, Szechenacz
                         vero eidem, cui Hajnoczius, fato implicitus sit, commendavi te illico
                         postremo tabellario praesidi tuo. Nisi pro alio iam praeventus sit, spero
                         eum rationem habiturum esse meae commendationis; sin, conatum adminus meum
                         aequi bonique consule. Si propius ad clavum sederem, dudum ego honori
                         fortunaeque tuae prospexissem. </p>
-                    <p n="text.group.text12.body.p4">Cum metuas ne secundus <emph n="text.group.text12.body.p4.emph">Supplementorum</emph> tuorum tomus apud
+                    <p n="p6">Cum metuas ne secundus <emph n="emph1">Supplementorum</emph> tuorum tomus apud
                         cancellariam diutius adhaereat, commendavi episcopo nostro, qui nunc Viennae
                         agit, ut eius revisionem adurgeat; quod eum ultro praestiturum, nullus
                         dubito. Primum tomum pro me et aliquot amicis iam constitui. </p>
-                    <p n="text.group.text12.body.p5">Quae de 3-tio tomo scribis, non satis assequor. Voluistine id indicare quod
+                    <p n="p7">Quae de 3-tio tomo scribis, non satis assequor. Voluistine id indicare quod
                         dissertatio, quam tibi transmisi, ideo in illo locum habere non possit, quia
                         iam tua lucubratio 120 vel 130 phyleras explebit? Verum nunquam mihi mens
                         fuit, ut illa tomum 3-tium ingrediatur. Si moles operis admisisset ut 2-dum
                         tomum, eo loco quo tu primam Ludovici 1. donationem producis, ingrediatur,
                         gratum mihi omnino fuisset. Tertio minus sane opportune adiiceretur. </p>
-                    <p n="text.group.text12.body.p6">Neque illud intelligo quod scribis te Lendvaio comisisse ut data diplomatica
+                    <p n="p8">Neque illud intelligo quod scribis te Lendvaio comisisse ut data diplomatica
                         colligat ad meam dissertationem per te, vel me subinde adiicienda; nam ad
                         ea, quae in dissertatione illa statui, comprobanda ego ipse sufficientia
                         data diplomatica adduxi. Eo tantum loco, quo ad productam per te in 2-do
@@ -1913,7 +1936,7 @@
                         inserendo paginae numero, quia iste ante impressionem eiusdem tomi
                         determinari non potest. Quare te porro etiam requiro ut, dum tomus ille
                         impressus fuerit, lacunam illam expleas. </p>
-                    <p n="text.group.text12.body.p7">Ceterum longe aliud est quod ego a te hoc in genere postremis meis postulavi.
+                    <p n="p9">Ceterum longe aliud est quod ego a te hoc in genere postremis meis postulavi.
                         Nimirum ut alios ad elucubrandas tanto magis res Hungaricas excitem, ego non
                         tantum illa antiquitatum capita, quae e productis hactenus diplomatibus
                         eruere potui, in medium protuli, sed etiam quid adhuc circa singulum
@@ -1933,16 +1956,16 @@
                         transmitterem, tertio Supplementorum Tomo inserenda. Si tempus superest, et
                         tu vis, ut hunc dubiorum et opinationum mearum extractum ipse tibi
                         submittam, praestabo id lubenter. </p>
-                    <p n="text.group.text12.body.p8">Quod reliquas meas dissertationes adtinet, habeo complures paratas, sed quas
-                        pro systematico, quod molior, <emph n="text.group.text12.body.p8.emph1">De veteribus Hungarorum
+                    <p n="p10">Quod reliquas meas dissertationes adtinet, habeo complures paratas, sed quas
+                        pro systematico, quod molior, <emph n="emph1">De veteribus Hungarorum
                         Institutis</emph> opere reservo. Et huc etiam pertinebit quam sub incude
-                        habeo: <emph n="text.group.text12.body.p8.emph2">De veteri Forma Congregationis Comitatuum.</emph> Cum ego non
+                        habeo: <emph n="emph2">De veteri Forma Congregationis Comitatuum.</emph> Cum ego non
                         discerpta materialia edere, sed iam systematicam eorum, quae ad statisticam,
                         ius publicum, et politicam Hungariae historiam pertinent, combinationem
                         procudere mediter, singulum obiectum longam, et operosam exigit
                         meditationem. Si mihi vita ad absolvendum opus non suppetat, poterit
                         feliciors fortasse aliquis congruum lucubrationum mearum usum facere. </p>
-                    <p n="text.group.text12.body.p9">Unum tantum me poenitet quod notis in Diploma Bani Mathaei de 1270, quod a te
+                    <p n="p11">Unum tantum me poenitet quod notis in Diploma Bani Mathaei de 1270, quod a te
                         repetii, supremam manum non adposuerim antea quam tu primum Supplementorum
                         tuorum tomum edidisti. Cum enim hoc diplomate et Decreto Andreae 3-tii omnia
                         iudicialium antiquitatum nostrarum capita contineantur, nullibi illud
@@ -1952,13 +1975,13 @@
                         versati sint, et pars adminus iudicialis antiquitatum nostrarum, etiamsi ego
                         fortasse systematicum meum opus non absolvam, utcunque elucubratum fuisset.
                         Sed haec iam acta sunt. </p>
-                    <p n="text.group.text12.body.p10">Cum apud Episcopum Transilvaniensem frequentius verseris, indaga quaeso quid
-                        sit quod ille opus Schonvisneri: <emph n="text.group.text12.body.p10.emph">De Re Numaria Hungariae</emph>, cuius
+                    <p n="p12">Cum apud Episcopum Transilvaniensem frequentius verseris, indaga quaeso quid
+                        sit quod ille opus Schonvisneri: <emph n="emph1">De Re Numaria Hungariae</emph>, cuius
                         impressionem in se recepit, tanto tempore non edat, et si quid ad
                         accelerandam eius impressionem conferre potes, fac quaeso; ego enim opus hoc
                         avidissime exspecto. Informa etiam te an ille secundum operis sui de
                         conciliis tomum proximius daturus sit, meque de eo informa. </p>
-                    <p n="text.group.text12.body.p11">Quod cum reditu tuo <emph n="text.group.text12.body.p11.emph1">Bibliothecam Hungaricam,</emph> id est, uti ego
+                    <p n="p13">Quod cum reditu tuo <emph n="emph1">Bibliothecam Hungaricam,</emph> id est, uti ego
                         intelligo, recensionem omnium hoc idiomate editorum librorum edere
                         mediteris, probo vehementer. Vereor tamen ut aliquem e sodalibus tuis
                         reperias, qui opus hoc tam brevi, ut speras, tempore perficere possit; nudam
@@ -1966,41 +1989,41 @@
                         critice recensere, vires unius hominis excederit; nimirum, quia libri hi
                         varias litteraturae classes respiciunt, quas ut unus homo teneat,
                         impossibile est. E converso cuperem ego ut aliquis simplicem licet,
-                        completam tamen, omnium, qui hactenus editi sunt, <emph n="text.group.text12.body.p11.emph2">de rebus Hungaricis
+                        completam tamen, omnium, qui hactenus editi sunt, <emph n="emph2">de rebus Hungaricis
                             et Croatico-Slavicis consignationem</emph> procudat. Non puto quod hi
                         300-mum aut 400-mum numerum hactenus excedant, et tamen nemo Hungarorum est
                         non dico qui exiguam hanc collectionem possideat, sed qui vel notitiam
-                        omnium habeat. Habemus quidem iam <emph n="text.group.text12.body.p11.emph3">Zvittingeros, Haneros,</emph> et
-                            <emph n="text.group.text12.body.p11.emph4">Valaszkios</emph>, qui elucubrandis eruditorum Hungariae vitis
+                        omnium habeat. Habemus quidem iam <emph n="emph3">Zvittingeros, Haneros,</emph> et
+                            <emph n="emph4">Valaszkios</emph>, qui elucubrandis eruditorum Hungariae vitis
                         operam impenderunt, ubi per occasionem editorum etiam per singulum librorum
-                        meminere. Nullus tamen eorum obiectum hoc exhausit. <emph n="text.group.text12.body.p11.emph5">Horanyi</emph> in
+                        meminere. Nullus tamen eorum obiectum hoc exhausit. <emph n="emph5">Horanyi</emph> in
                         alphabetico, cuius unum tomum iam edidit, eruditorum Hungariae cathalogo
                         videtur hunc etiam sibi scopum proposuisse. Verum nescio an opus hoc
                         consumaturus sit; hactenus enim, quoad mihi constat, tantum litteras A, B, C
                         edidit. </p>
-                    <p n="text.group.text12.body.p12">Cupio admodum ut sodalis tuus, cui argumentum <emph n="text.group.text12.body.p12.emph">De Monetis, Ponderibus et
+                    <p n="p14">Cupio admodum ut sodalis tuus, cui argumentum <emph n="emph1">De Monetis, Ponderibus et
                             Mensuris</emph> Hungarorum, comisisti, illud feliciter elaboret. Vereor
                         tamen ut id illi succedat, cum pauca adhuc, quod ego sciam, hanc in rem data
                         habeamus. Forte opus Schonvisneri, cuius supra memini de monetis, maximo
                         illi subsidio esse posset. </p>
-                    <p n="text.group.text12.body.p13">Si tu <emph n="text.group.text12.body.p13.emph">Bibliothecam Manuscriptorum de rebus Hungaricis</emph> edideris,
+                    <p n="p15">Si tu <emph n="emph1">Bibliothecam Manuscriptorum de rebus Hungaricis</emph> edideris,
                         praeclare certe mereberis de re litteraria Hungarica. </p>
-                    <closer n="text.group.text12.body.closer">
-                        <salute n="text.group.text12.body.closer.salute">Vale. </salute>
-                        <dateline n="text.group.text12.body.closer.dateline">Zagrabiae 3. Ianuarii 1795. </dateline>
+                    <closer n="closer16">
+                        <salute n="salute1">Vale. </salute>
+                        <dateline n="dateline2">Zagrabiae 3. Ianuarii 1795. </dateline>
                     </closer>
-                    <postscript n="text.group.text12.body.postscript">
-                        <p n="text.group.text12.body.postscript.p">Maecenati tuo, quem ego semper suspexi, dic amicam meo nomine salutem.
+                    <postscript n="postscript17">
+                        <p n="p1">Maecenati tuo, quem ego semper suspexi, dic amicam meo nomine salutem.
                         </p>
                     </postscript>
                 </body>
             </text>
-            <text n="text.group.text13" type="epistula" corresp="#skrleckovacic17951224">
-                <body n="text.group.text13.body">
-                    <p n="text.group.text13.body.p1">Zagrabiae 24. Decembris 1796. (perceptum 2. Ianuarii 1797, responsum 8. Oct.;
+            <text n="text13" type="epistula" corresp="#skrleckovacic17951224">
+                <body n="body1">
+                    <p n="p1">Zagrabiae 24. Decembris 1796. (perceptum 2. Ianuarii 1797, responsum 8. Oct.;
                         f. 38r-39v)</p>
-                    <p n="text.group.text13.body.p2">Clarissime vir! </p>
-                    <p n="text.group.text13.body.p3">Sinistre tibi relatum fuit me Posonii agere; ab hoc enim me, cum iam in
+                    <p n="p2">Clarissime vir! </p>
+                    <p n="p3">Sinistre tibi relatum fuit me Posonii agere; ab hoc enim me, cum iam in
                         procinctu itineris essem, febur catharalis prohibuit, quae me vix ante duas
                         hebdomadas deseruit, et ideo, quas Posonium direxisti, altero abhinc cursore
                         isthic accepi. Pro nuncupatis nomini meo votis amicam tibi gratiam rependo.
@@ -2013,7 +2036,7 @@
                         eventurum reor. Gaudebunt tunc operosi in re litteraria patriae cives quod
                         tu per collectionem tuam viam ipsis straveris, et cineres tuos floribus
                         conspergent. </p>
-                    <p n="text.group.text13.body.p4">Unum tantum me adhuc sollicitum tenet. Vides ipse quod tibi nec aetas, nec
+                    <p n="p4">Unum tantum me adhuc sollicitum tenet. Vides ipse quod tibi nec aetas, nec
                         aes ad typis vulgandam collectionem tuam sufficient. Quae sors manebit
                         manuscripta tua, dum tu, quamcunque demum tarde, naturae debitum exolveris?
                         Quid si te saeva vis fati in medio cursu eripiat? Statio, quam tenes, plane
@@ -2023,108 +2046,108 @@
                         fiat, ipsius, quam tibi secus tuto polliceri potes, apud posteritatem
                         gratitudinis iacturam facies. Quare ut huic discrimini ante omnia provideas,
                         cupio vehementer. </p>
-                    <p n="text.group.text13.body.p5">Iam ad rem ipsam. Ego <emph n="text.group.text13.body.p5.emph1">Scriptores</emph> tuos <emph n="text.group.text13.body.p5.emph2">Ineditos</emph>, seu
-                            <emph n="text.group.text13.body.p5.emph3">Maiores</emph>, seu <emph n="text.group.text13.body.p5.emph4">Minores</emph> nihil moror. Si tamen
+                    <p n="p5">Iam ad rem ipsam. Ego <emph n="emph1">Scriptores</emph> tuos <emph n="emph2">Ineditos</emph>, seu
+                            <emph n="emph3">Maiores</emph>, seu <emph n="emph4">Minores</emph> nihil moror. Si tamen
                         tantum aeris tibi superest, puto maiorem te a publico gratiam relaturum, si
-                        in vicem eorum <emph n="text.group.text13.body.p5.emph5">Acta</emph> et <emph n="text.group.text13.body.p5.emph6">Diaria</emph> antiquarum
-                            <emph n="text.group.text13.body.p5.emph7">Diaetarum</emph> vulgari procures; licet enim nullum eorum
+                        in vicem eorum <emph n="emph5">Acta</emph> et <emph n="emph6">Diaria</emph> antiquarum
+                            <emph n="emph7">Diaetarum</emph> vulgari procures; licet enim nullum eorum
                         legerim, ausim tamen tuto ominari quod in talibus minutiis versentur, quae
                         modo vix iam aliquod interesse habent, et ideo ad summum iis, qui
                         eruditionem ex instituto assectantur, usui esse possunt. Horum autem quam
-                        exiguus sit numerus, ipse nosti. <emph n="text.group.text13.body.p5.emph8">Acta</emph> e contra et <emph n="text.group.text13.body.p5.emph9">Diaria
+                        exiguus sit numerus, ipse nosti. <emph n="emph8">Acta</emph> e contra et <emph n="emph9">Diaria
                             Diaetarum</emph> terentur certe in omnium manibus, qui aliquam in
                         administratione reipublicae partem habent. Accedit quod hoc sit maxime
-                            <emph n="text.group.text13.body.p5.emph10">homogeneum</emph> obiectum <emph n="text.group.text13.body.p5.emph11">Vestigiis</emph> quae iam
+                            <emph n="emph10">homogeneum</emph> obiectum <emph n="emph11">Vestigiis</emph> quae iam
                         edidisti. Duplex certe hoc opus nomen tuum magis illustrabit, quam si
-                            <emph n="text.group.text13.body.p5.emph12">Vestigiis</emph> statim heterogeneum opus subiicias. Dices te
+                            <emph n="emph12">Vestigiis</emph> statim heterogeneum opus subiicias. Dices te
                         utrumque praestiturum. Verum depone quaeso tandem praesumptuosam istam
                         cogitationem; vastis enim tuis moliminibus facultates tuae non
-                        correspondent. Habes exemplum in tuis <emph n="text.group.text13.body.p5.emph13">Supplementis</emph> ad
-                            <emph n="text.group.text13.body.p5.emph14">Vestigia</emph>, quorum editio iam in tertium annum protrahitur.
-                        Quare, si me audis, sepone feliciori tempori <emph n="text.group.text13.body.p5.emph15">Ineditos
-                        Scriptores</emph> et post <emph n="text.group.text13.body.p5.emph16">Supplementa</emph> omnem tuam operam ad
-                        edenda <emph n="text.group.text13.body.p5.emph17">Acta</emph> et <emph n="text.group.text13.body.p5.emph18">Diaria Diaetalia</emph> converte. </p>
-                    <p n="text.group.text13.body.p6">Quoad <emph n="text.group.text13.body.p6.emph1">Monumenta Antiquitatum</emph>
-                        <emph n="text.group.text13.body.p6.emph2">Iurispr. Hung.</emph> eandem mecum foves cogitationem. Tantum in
+                        correspondent. Habes exemplum in tuis <emph n="emph13">Supplementis</emph> ad
+                            <emph n="emph14">Vestigia</emph>, quorum editio iam in tertium annum protrahitur.
+                        Quare, si me audis, sepone feliciori tempori <emph n="emph15">Ineditos
+                        Scriptores</emph> et post <emph n="emph16">Supplementa</emph> omnem tuam operam ad
+                        edenda <emph n="emph17">Acta</emph> et <emph n="emph18">Diaria Diaetalia</emph> converte. </p>
+                    <p n="p6">Quoad <emph n="emph1">Monumenta Antiquitatum</emph>
+                        <emph n="emph2">Iurispr. Hung.</emph> eandem mecum foves cogitationem. Tantum in
                         titulo et dispositione operis discrepamus. Nimirum subiverat etiam mentem
-                        meam idaea concinandi operis sub titulo <emph n="text.group.text13.body.p6.emph3">Fontes Iurisprudentiae et
+                        meam idaea concinandi operis sub titulo <emph n="emph3">Fontes Iurisprudentiae et
                             Statisticae Hungariae sub prima Regum Periodo.</emph> Primo loco
-                        ponendos credebam <emph n="text.group.text13.body.p6.emph4">Libros S. Stephani, S. Ladislai</emph> et
-                            <emph n="text.group.text13.body.p6.emph5">Colomanni;</emph> unicum enim e primo Hungariae saeculo hoc
+                        ponendos credebam <emph n="emph4">Libros S. Stephani, S. Ladislai</emph> et
+                            <emph n="emph5">Colomanni;</emph> unicum enim e primo Hungariae saeculo hoc
                         monumentum nobis superest. Verum non deberent illi per extensum, ut in
                         Corpore Iuris iacent, edi; sed illa tantum capita quae reipsa aliquam seu
                         statisticae, seu iuris prudentiae notitiam praebent. Cum talia capita
                         plerumque obscura sint, deberent talibus notis explanari, qualibus ego
-                            <emph n="text.group.text13.body.p6.emph6">Decretum Andreae 3-ii</emph> illustravi. Verum id nonnisi a tali
-                        praestari potest, qui et in <emph n="text.group.text13.body.p6.emph7">statistica</emph> et in
-                            <emph n="text.group.text13.body.p6.emph8">iurisprudentia</emph> practice versatus est. </p>
-                    <p n="text.group.text13.body.p7">E secundo saeculo nullum prorsus superest monumentum. E tertio iam plura ad
-                        nos pertigerunt. Primum locum tenent duo <emph n="text.group.text13.body.p7.emph1">Andreae 2-di</emph> et unum
-                            <emph n="text.group.text13.body.p7.emph2">Belae 4ti</emph> decreta, quorum posteriora duo tu in
-                            <emph n="text.group.text13.body.p7.emph3">Vestigiis</emph> edidisti. Sed et in haec aliae notae fieri
+                            <emph n="emph6">Decretum Andreae 3-ii</emph> illustravi. Verum id nonnisi a tali
+                        praestari potest, qui et in <emph n="emph7">statistica</emph> et in
+                            <emph n="emph8">iurisprudentia</emph> practice versatus est. </p>
+                    <p n="p7">E secundo saeculo nullum prorsus superest monumentum. E tertio iam plura ad
+                        nos pertigerunt. Primum locum tenent duo <emph n="emph1">Andreae 2-di</emph> et unum
+                            <emph n="emph2">Belae 4ti</emph> decreta, quorum posteriora duo tu in
+                            <emph n="emph3">Vestigiis</emph> edidisti. Sed et in haec aliae notae fieri
                         deberent quam quas ego tunc feci; aliqua enim eorum, quae ibi dixi, iam in
                         praecedentibus exhaurirentur, et e converso aliquas novas combinationes ipsa
                         illa, quae ad libros regum primi saeculi fierent, suppeditarent. Decreta
-                        haec excipere deberet <emph n="text.group.text13.body.p7.emph4">Ritus explorandae Veritatis</emph>. Sed nec hic
+                        haec excipere deberet <emph n="emph4">Ritus explorandae Veritatis</emph>. Sed nec hic
                         per extensum edi deberet, cum e tercentis octuaginta novem paragraphis vix
                         sint 100 quae aliquam seu statisticam, seu iudicialem notitiam contineant,
                         reliqui taedium tantum lectori adferunt; e converso singulus, qui ederetur,
                         paragraphus non Gramaticalibus, uti Szaszkius fecit, sed
-                        <emph n="text.group.text13.body.p7.emph5">politicis</emph> et <emph n="text.group.text13.body.p7.emph6">iuridicis</emph> notis deberent illustrari.
-                            <emph n="text.group.text13.body.p7.emph7">Gramaticales</emph> enim notae cum nihil seu utilis, seu iucundi
+                        <emph n="emph5">politicis</emph> et <emph n="emph6">iuridicis</emph> notis deberent illustrari.
+                            <emph n="emph7">Gramaticales</emph> enim notae cum nihil seu utilis, seu iucundi
                         contineant, debent lectori nausaeam adferre. Occurrit mihi hoc loco, quod
-                        alicubi seu legerim seu audiverim <emph n="text.group.text13.body.p7.emph8">Fragmentum</emph> eiusmodi
-                            <emph n="text.group.text13.body.p7.emph9">Ritus</emph> etiam in alio aliquo capitulo et, quantum memini, in
-                            <emph n="text.group.text13.body.p7.emph10">Transilvaniensi</emph> exstare. Quare vide an non tu, ut felix es,
+                        alicubi seu legerim seu audiverim <emph n="emph8">Fragmentum</emph> eiusmodi
+                            <emph n="emph9">Ritus</emph> etiam in alio aliquo capitulo et, quantum memini, in
+                            <emph n="emph10">Transilvaniensi</emph> exstare. Quare vide an non tu, ut felix es,
                         hoc etiam detegere possis. </p>
-                    <p n="text.group.text13.body.p8">Tum subiici deberent pauca illa diplomata, quae exstant, de <emph n="text.group.text13.body.p8.emph1">Ritu,
-                            dirimendae, per Duellum</emph> seu <emph n="text.group.text13.body.p8.emph2">Equestre</emph>, seu
-                            <emph n="text.group.text13.body.p8.emph3">Pedestre Causae,</emph> et haec pariter per paragraphos notis
+                    <p n="p8">Tum subiici deberent pauca illa diplomata, quae exstant, de <emph n="emph1">Ritu,
+                            dirimendae, per Duellum</emph> seu <emph n="emph2">Equestre</emph>, seu
+                            <emph n="emph3">Pedestre Causae,</emph> et haec pariter per paragraphos notis
                         illustrari. </p>
-                    <p n="text.group.text13.body.p9">Sequeretur deinde <emph n="text.group.text13.body.p9.emph1">Diploma Mathaei Bani de 1270,</emph> quod tibi iam
+                    <p n="p9">Sequeretur deinde <emph n="emph1">Diploma Mathaei Bani de 1270,</emph> quod tibi iam
                         submiseram, sed quia in notis, quas antea in illud feceram, complura e
                         captis interea novis notitiis mutari debere observaveram, denuo repetii.
                         Submitterem tibi libenter hoc diploma, sed ego non possum antea priores
-                        notas corrigere, donec tua <emph n="text.group.text13.body.p9.emph2">Supplementa</emph> edantur; nam ex iis,
-                        quas in Decretum <emph n="text.group.text13.body.p9.emph3">Andreae 3-tii</emph> feci, notis istae corrigi
+                        notas corrigere, donec tua <emph n="emph2">Supplementa</emph> edantur; nam ex iis,
+                        quas in Decretum <emph n="emph3">Andreae 3-tii</emph> feci, notis istae corrigi
                         deberent, ego autem meum originale abieci. </p>
-                    <p n="text.group.text13.body.p10">Tandem veniret ipsum hoc <emph n="text.group.text13.body.p10.emph">Andreae 3. Decretum</emph>. Sed et in huius
+                    <p n="p10">Tandem veniret ipsum hoc <emph n="emph1">Andreae 3. Decretum</emph>. Sed et in huius
                         notis plura alteranda venirent; quia si quis omnia haec monumenta serie
                         chronologica commentaretur, complura, quae ego in notis ad hoc decretum
                         dixi, iam ad praecedentia dici deberent. </p>
-                    <p n="text.group.text13.body.p11">Si opus hoc vulgaretur, praeberet illud materiam systematicis
-                        dissertationibus, qualis illa est, quam tibi submisi, <emph n="text.group.text13.body.p11.emph1">de usitatis in
+                    <p n="p11">Si opus hoc vulgaretur, praeberet illud materiam systematicis
+                        dissertationibus, qualis illa est, quam tibi submisi, <emph n="emph1">de usitatis in
                             prima et secunda Periodo Nobilitandi Formis</emph>, de qua quod nullam
                         ab eo tempore feceris mentionem, miror; et sic dilucidatis primum per
-                        eiusmodi dissertationes summis <emph n="text.group.text13.body.p11.emph2">statisticae</emph> et
-                        <emph n="text.group.text13.body.p11.emph3">iuris</emph> nostri capitibus, posset aliquis efformando
-                        <emph n="text.group.text13.body.p11.emph4">iusto</emph> statisticae et iurisprudentiae nostrae
-                        <emph n="text.group.text13.body.p11.emph5">systemati</emph> manum admonere. </p>
-                    <p n="text.group.text13.body.p12">Pro secunda periodo video pauca adhuc tibi praesto esse monumenta; nam quae
-                        de <emph n="text.group.text13.body.p12.emph1">stylis</emph>, de <emph n="text.group.text13.body.p12.emph2">formulis</emph> memoras, cum extrinsecam
-                        tantum formam, quae iam dudum obsolevit, afficiant, non ad <emph n="text.group.text13.body.p12.emph3">utiles
-                            notitias</emph>, sed ad <emph n="text.group.text13.body.p12.emph4">luxum eruditionis</emph> referuntur. </p>
-                    <p n="text.group.text13.body.p13">Copiam alterius, sed <emph n="text.group.text13.body.p13.emph">Andreae 3-tii Decreti</emph> Mandichius mihi
+                        eiusmodi dissertationes summis <emph n="emph2">statisticae</emph> et
+                        <emph n="emph3">iuris</emph> nostri capitibus, posset aliquis efformando
+                        <emph n="emph4">iusto</emph> statisticae et iurisprudentiae nostrae
+                        <emph n="emph5">systemati</emph> manum admonere. </p>
+                    <p n="p12">Pro secunda periodo video pauca adhuc tibi praesto esse monumenta; nam quae
+                        de <emph n="emph1">stylis</emph>, de <emph n="emph2">formulis</emph> memoras, cum extrinsecam
+                        tantum formam, quae iam dudum obsolevit, afficiant, non ad <emph n="emph3">utiles
+                            notitias</emph>, sed ad <emph n="emph4">luxum eruditionis</emph> referuntur. </p>
+                    <p n="p13">Copiam alterius, sed <emph n="emph1">Andreae 3-tii Decreti</emph> Mandichius mihi
                         omnino iam dudum tradidit. Sed illud paucas admodum novas notitias
                         suppeditat. </p>
-                    <p n="text.group.text13.body.p14">Si quid ad provehendam tuam sortem conferre possem, facerem certe lubens. Sed
+                    <p n="p14">Si quid ad provehendam tuam sortem conferre possem, facerem certe lubens. Sed
                         ego arctis officii mei limitibus conclusus nullum iam prorsus in
                         dicasterialia obiecta influxum habeo, et ideo nullum, etiamsi faciam,
                         commendationis meae pondus mihi possum polliceri. </p>
-                    <closer n="text.group.text13.body.closer">
-                        <salute n="text.group.text13.body.closer.salute">Vale.</salute>
-                        <dateline n="text.group.text13.body.closer.dateline">Zagrabiae 24. Decembris 1796. </dateline>
-                        <signed n="text.group.text13.body.closer.signed">Tuus N. Skerlecz, manu propria </signed>
+                    <closer n="closer15">
+                        <salute n="salute1">Vale.</salute>
+                        <dateline n="dateline2">Zagrabiae 24. Decembris 1796. </dateline>
+                        <signed n="signed3">Tuus N. Skerlecz, manu propria </signed>
                     </closer>
                 </body>
             </text>
-            <text n="text.group.text14" type="epistula" corresp="#skrleckovacic17950519">
-                <body n="text.group.text14.body">
-                    <head n="text.group.text14.body.head">Iakovlye 19. Maii 1798. (responsum 12. Iunii 1798; f. 91r-92v)</head>
-                    <opener n="text.group.text14.body.opener">
-                        <salute n="text.group.text14.body.opener.salute">Spectabilis et clarissime vir! </salute>
+            <text n="text14" type="epistula" corresp="#skrleckovacic17950519">
+                <body n="body1">
+                    <head n="head1">Iakovlye 19. Maii 1798. (responsum 12. Iunii 1798; f. 91r-92v)</head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis et clarissime vir! </salute>
                     </opener>
-                    <p n="text.group.text14.body.p1">Littera tua magnam mihi attulit voluptatem; video enim quod tu improbo labore
+                    <p n="p3">Littera tua magnam mihi attulit voluptatem; video enim quod tu improbo labore
                         et praefracta constantia eripueris tandem genti nostrae vetus praeiudicium,
                         quasi veteres scripturas eruditis communicare res plena periculi foret; quo
                         quidem facto ingens rei litterariae emolumentum adtulisti. Video etiam quod
@@ -2133,26 +2156,26 @@
                         conferant. Secundent superi generosos tuos conatus, et tibi longam et
                         vividam senectutem largiantur, et tu singularem in litteratura Hungarica
                         epocham efficies. </p>
-                    <p n="text.group.text14.body.p2">Pro transmisso mihi libro gratiam tibi habeo, maiorem adhuc pro icone tua;
+                    <p n="p4">Pro transmisso mihi libro gratiam tibi habeo, maiorem adhuc pro icone tua;
                         hanc enim tanquam pignus amicitiae nostrae diligenter conservabo. </p>
-                    <p n="text.group.text14.body.p3">De nato tibi filiolo ex animo gratulor. Ut hunc tibi sospitem superi servent,
+                    <p n="p5">De nato tibi filiolo ex animo gratulor. Ut hunc tibi sospitem superi servent,
                         et tu educationem eius ipse absolvas et tui similem efficias, ex animo
                         precor. Quod autem meum illi nomen indere volueris, suscipio tanquam
                         luculentum tuae erga me amicitiae argumentum. </p>
-                    <p n="text.group.text14.body.p4">Dissertationem meam <emph n="text.group.text14.body.p4.emph1">de variis Nobilitandi Modis</emph>, quaeso te, ne
-                        edas, dum tibi aliam, nempe <emph n="text.group.text14.body.p4.emph2">de variis, quae olim in Hungaria
+                    <p n="p6">Dissertationem meam <emph n="emph1">de variis Nobilitandi Modis</emph>, quaeso te, ne
+                        edas, dum tibi aliam, nempe <emph n="emph2">de variis, quae olim in Hungaria
                             viguerunt, Hominum Conditionibus</emph>, submittam; prior enim multas
                         notitias iam supponit, quae in posteriori continentur, adeoque haec illi
                         praemitti debet. Si mihi superi vitam et sanitatem tribuerint, futuro vere
                         illam habebis; nunc enim aliis distineor, tu autem habes alia sat multa,
                         quae interea edere possis, modo negligens, ut scribis, praelum vel his
                         interea sufficiat. </p>
-                    <p n="text.group.text14.body.p5">Quod te Croatiam etiam invisendi desiderium incesserit, incredibili laetitia
+                    <p n="p7">Quod te Croatiam etiam invisendi desiderium incesserit, incredibili laetitia
                         me affudit; nullum enim mihi maius in senili hac mea aetate solatium
                         accedere posset quam si mihi praesentis tui copia per plures, si non
-                        hebdomadas,<note n="text.group.text14.body.p5.note">
-                     <p n="text.group.text14.body.p5.note.p">
-                            7)  <emph n="text.group.text14.body.p5.note.p.emph">Corr. ex</emph> Hebdomas</p>
+                        hebdomadas,<note n="note1">
+                     <p n="p1">
+                            7)  <emph n="emph1">Corr. ex</emph> Hebdomas</p>
                             </note> adminus dies obtingere
                         quiret. Panderem ego tibi omnem meam litterariam penum. Posses ipse et
                         lucubrationes meas, et alia, quae habeo, materialia volvere, iudicare, et,
@@ -2163,43 +2186,43 @@
                         Si in proposito Croatiam invisendi persistis, et camerae praeses hoc anno ad
                         nos venturus est, satagam ut ab illo pro futuro anno veniam itineris huius
                         pro te impetrare possim. Quare significa mihi an in proposito tuo persistas. </p>
-                    <p n="text.group.text14.body.p6">Quo plura censura e lucubrationibus tuis expungit, eo pretiosius evadet tuam
+                    <p n="p8">Quo plura censura e lucubrationibus tuis expungit, eo pretiosius evadet tuam
                         originale. Poteris illud alicui e ditioribus anecdotorum collectoribus
                         grandi aere vendere sicque novum pro aliis operibus fundum tibi parare.
-                        Utinam <emph n="text.group.text14.body.p6.emph1">Supplementa</emph> adminus <emph n="text.group.text14.body.p6.emph2">Vestigiarum</emph> vel ita, ut
+                        Utinam <emph n="emph1">Supplementa</emph> adminus <emph n="emph2">Vestigiarum</emph> vel ita, ut
                         illa censura truncavit, tandem aliquando prodeant! Ego certe iam tabesco tam
-                        diuturna operis exspectatione, et, cum pro pluribus <emph n="text.group.text14.body.p6.emph3">Minorum
+                        diuturna operis exspectatione, et, cum pro pluribus <emph n="emph3">Minorum
                         Scriptorum</emph> tomis paratos habeas Maecenates, vereor ne hi ita
-                        typographiam occupent ut tempus edendorum <emph n="text.group.text14.body.p6.emph4">Supplementorum</emph> non
-                        supervivam. Id autem tu ipse admittes quod <emph n="text.group.text14.body.p6.emph5">Supplementa</emph> longe
+                        typographiam occupent ut tempus edendorum <emph n="emph4">Supplementorum</emph> non
+                        supervivam. Id autem tu ipse admittes quod <emph n="emph5">Supplementa</emph> longe
                         maiorem quam minores isti scriptores rei litterariae lucem attulissent.
                         Quare si quid mea commendatio apud te valet, te maiorem in modum exoro ut
-                        Editionem <emph n="text.group.text14.body.p6.emph6">Supplementorum</emph> adurgeas. </p>
-                    <p n="text.group.text14.body.p7">Inter <emph n="text.group.text14.body.p7.emph1">Monumenta Antiquae Iurisprudentiae Hungariae</emph> meministi de
-                            <emph n="text.group.text14.body.p7.emph2">Iudicio Ferri Candentis.</emph> Significa mihi an per hoc
+                        Editionem <emph n="emph6">Supplementorum</emph> adurgeas. </p>
+                    <p n="p9">Inter <emph n="emph1">Monumenta Antiquae Iurisprudentiae Hungariae</emph> meministi de
+                            <emph n="emph2">Iudicio Ferri Candentis.</emph> Significa mihi an per hoc
                         intelligas libellum Magno Varadini repertum, quem iam Belius edidit? Vel
                         aliud, ab eo diversum? Si primum, illum recudere vix operae pretium puto. Si
                         secundum, edoce me, unde illud acceperis, et quid contineat. </p>
-                    <p n="text.group.text14.body.p8">Nodus, quem in epistola ad comitem Banfy, pag. 223, de prothonotario Croatiae
+                    <p n="p10">Nodus, quem in epistola ad comitem Banfy, pag. 223, de prothonotario Croatiae
                         texuisti, ita explicatur quod ille primum anno 1662-do diurna ex Aerario
                         Camerali ad instar prothonotariorum Hungariae obtinuerit, antea enim illa
                         tantum ex Aerario Regni Croatiae percipiebat; de eo enim nec dubita quod
-                        barbarum vocabulum <emph n="text.group.text14.body.p8.emph1">diuturnum</emph> in illo articulo per aliud adhuc
-                        magis barbarum <emph n="text.group.text14.body.p8.emph2">diarium</emph> enuncietur. </p>
-                    <p n="text.group.text14.body.p9">De <emph n="text.group.text14.body.p9.emph1">voto</emph> et <emph n="text.group.text14.body.p9.emph2">sessione</emph> ita habe: ante 1662-dum
-                        prothonotarius<note n="text.group.text14.body.p9.note">
-                     <p n="text.group.text14.body.p9.note.p">
-                            8)  <emph n="text.group.text14.body.p9.note.p.emph">Corr. ex</emph> Prothonarius</p>
+                        barbarum vocabulum <emph n="emph1">diuturnum</emph> in illo articulo per aliud adhuc
+                        magis barbarum <emph n="emph2">diarium</emph> enuncietur. </p>
+                    <p n="p11">De <emph n="emph1">voto</emph> et <emph n="emph2">sessione</emph> ita habe: ante 1662-dum
+                        prothonotarius<note n="note3">
+                     <p n="p1">
+                            8)  <emph n="emph1">Corr. ex</emph> Prothonarius</p>
                         </note> Croatiae diaetae ex
                         officio non interveniebat, sed debebat per status Croatiae peculiariter
                         ablegari, et tunc sessionem habebat inter nuncios Croatiae, non vero
                         prothonotarios Hungariae. Docent id ipsa Articuli 98-vi 1649-ni
-                        <add n="text.group.text14.body.p9.add">...</add> ubi dicitur: <emph n="text.group.text14.body.p9.emph3">Prothonotarii Regni Croatiae et
+                        <add n="add4">...</add> ubi dicitur: <emph n="emph5">Prothonotarii Regni Croatiae et
                             Sclavoniae, ac Ablegati eiusdem Regni, ad praesentem Diaetam
                         Nuncii.</emph> Docent magis adhuc protocolla Regni, e quibus patet quod post
-                        1662-dum non fuerit amplius <emph n="text.group.text14.body.p9.emph4">electus</emph> pro ablegato, sed semper ex
+                        1662-dum non fuerit amplius <emph n="emph6">electus</emph> pro ablegato, sed semper ex
                         officio, per regale, eorsum evocatus. </p>
-                    <p n="text.group.text14.body.p10">Habes solutum tibi nodum. Verum quando primum concessa fuerit ablegatis
+                    <p n="p12">Habes solutum tibi nodum. Verum quando primum concessa fuerit ablegatis
                         Croatiae ad Tabulam Regiam sessio? An non olim alicui comitatuum tabulae, si
                         ita, cui, et quo ordine assederint? An primo statim obtentae ad Tabulam
                         Regiam sessionis tempore primum a dextra Personalis locum, uti nunc,
@@ -2211,174 +2234,174 @@
                         eruere potui monumentum. Qua tu in eiusmodi rebus felicitate polles, forte
                         incides in aliquod instrumentum, e quo una aliave harum quaestionum definiri
                         possit. Quod si eveniat, fac me quaeso detectionis huius participem. </p>
-                    <p n="text.group.text14.body.p11">Cum omnia ferme, quae adhuc supersunt, diaetarum diaria collegeris et pro
+                    <p n="p13">Cum omnia ferme, quae adhuc supersunt, diaetarum diaria collegeris et pro
                         Archivo Regni describi curaveris, non dubito quin singulum eorum praevie
                         perlegeris. In hunc casum consule memoriam tuam an non aliquid de his rebus
                         in iis contineri meminisse possis. Sin, forte tu in singulum diarium
                         indiculum adornasti, et tunc sufficeret indices hos inspexisse. </p>
-                    <p n="text.group.text14.body.p12">Grata etiam memoria recolo quod tu duarum Protocollo Regni antiquiorum
+                    <p n="p14">Grata etiam memoria recolo quod tu duarum Protocollo Regni antiquiorum
                         congregationum acta detexeris et mihi communicaris. Forte ab eo tempore in
                         complura vetustiorum Regni huius congregationum acta incidisti, e quibus
                         aliquid in eam rem erui posset. </p>
-                    <p n="text.group.text14.body.p13">De <emph n="text.group.text14.body.p13.emph">Exercituatione</emph> Regni Croatiae vetustissimum, quod hactenus
+                    <p n="p15">De <emph n="emph1">Exercituatione</emph> Regni Croatiae vetustissimum, quod hactenus
                         protractum est, monumentum in eruto a te sic dicto Regesto Sigismundi Regis
                         continetur. Ab eo tempore erui antiquiora, Protocollo Regni, quod 1565-to
                         incipit, congregationis de 1546. acta, in quibus modus insurectionis eius
                         anni describitur. Verum nec hoc instrumentum antiquitas commendat. Si tamen
                         cupis, mittam tibi illud, nisi forte retento ad nos veniendi proposito illud
                         prius ipse inspicere velis. </p>
-                    <p n="text.group.text14.body.p14">Iudicialia, quae mihi communicasti, instrumenta per Mandichium tibi remittam.
+                    <p n="p16">Iudicialia, quae mihi communicasti, instrumenta per Mandichium tibi remittam.
                         Doleo vehementer quod dato careant; nam propter huius defectum nullo mihi
                         usui esse possunt, cum non sciam ad quam epocham referenda sit norma
                         procedendi quam exhibent. </p>
-                    <p n="text.group.text14.body.p15">
-                        <emph n="text.group.text14.body.p15.emph1">Iudiciales</emph> seu, ut nunc dicimus, <emph n="text.group.text14.body.p15.emph2">Sententionales</emph>
+                    <p n="p17">
+                        <emph n="emph1">Iudiciales</emph> seu, ut nunc dicimus, <emph n="emph2">Sententionales</emph>
                         primae periodi, si quae in immensa tua collectione exstant, ut exquiras, te
                         iterum iterumque rogo. Millos cum initio Iulii ad nos proficiscetur; si quid
                         repereris, per hunc transmittere potes. </p>
-                    <p n="text.group.text14.body.p16">Quam Prayus <emph n="text.group.text14.body.p16.emph1">Statisticam</emph> appellavit, nil nisi <emph n="text.group.text14.body.p16.emph2">politicam
+                    <p n="p18">Quam Prayus <emph n="emph1">Statisticam</emph> appellavit, nil nisi <emph n="emph2">politicam
                             historiam</emph> esse sat fidedigne intellexi; e quo apparet quod ille
-                        ne quidem naturam <emph n="text.group.text14.body.p16.emph3">statisticae</emph> assecutus sit. Utinam tamen ille
+                        ne quidem naturam <emph n="emph3">statisticae</emph> assecutus sit. Utinam tamen ille
                         vel politicam historiam rite adornasset! Videbimus. Iam enim est in censura
                         atque indubie proximius prodibit. </p>
-                    <p n="text.group.text14.body.p17">Libenter etiam videbo Lakichii <emph n="text.group.text14.body.p17.emph">Ius Publicum</emph>. Si illud mancum
+                    <p n="p19">Libenter etiam videbo Lakichii <emph n="emph1">Ius Publicum</emph>. Si illud mancum
                         dederit, male consulet nomini suo apud posteritatem. </p>
-                    <p n="text.group.text14.body.p18">Ne camerae praesidem ieiuna littera onerare debeam, quaeso accede illum et
+                    <p n="p20">Ne camerae praesidem ieiuna littera onerare debeam, quaeso accede illum et
                         nomine meo roga ut articulos Crisienses 15, quos detexisti, pro me describi
                         curet et, cum ad nos venerit, secum adferat. Gratius adhuc mihi foret si
                         illos ante Millossii abitu describi curaret et medio huius mihi
                         transmitteret. </p>
-                    <p n="text.group.text14.body.p19">Si <emph n="text.group.text14.body.p19.emph">Actorum Instituti Diplomatici</emph> tomum 1-mum hac adhuc aestate,
+                    <p n="p21">Si <emph n="emph1">Actorum Instituti Diplomatici</emph> tomum 1-mum hac adhuc aestate,
                         ut scribis, edideris, quaeso fac me illico certiorem, ut de illo mihi
                         adferendo necessaria disponere possim. </p>
-                    <closer n="text.group.text14.body.closer">
-                        <salute n="text.group.text14.body.closer.salute1">Vale, meque ea, qua hactenus, amicitia prosequere; sum enim </salute>
-                        <salute n="text.group.text14.body.closer.salute2">tuus </salute>
-                        <signed n="text.group.text14.body.closer.signed">non tam cultor, quam admirator Nicolaus Skerlecz, manu propria </signed>
-                        <dateline n="text.group.text14.body.closer.dateline">Iakovlye 19. Maii 1798. </dateline>
+                    <closer n="closer22">
+                        <salute n="salute1">Vale, meque ea, qua hactenus, amicitia prosequere; sum enim </salute>
+                        <salute n="salute2">tuus </salute>
+                        <signed n="signed3">non tam cultor, quam admirator Nicolaus Skerlecz, manu propria </signed>
+                        <dateline n="dateline4">Iakovlye 19. Maii 1798. </dateline>
                     </closer>
-                    <note n="text.group.text14.body.note">
-                        <p n="text.group.text14.body.note.p"> Responsum 12. Iunii 1798. </p>
+                    <note n="note23">
+                        <p n="p1"> Responsum 12. Iunii 1798. </p>
                     </note>
                 </body>
             </text>
-            <text n="text.group.text15" type="epistula" corresp="#skrleckovacic17950724">
-                <body n="text.group.text15.body">
-                    <head n="text.group.text15.body.head">Iakovlye 24. Iulii 1798. (f. 109r-110v) </head>
-                    <opener n="text.group.text15.body.opener">
-                        <salute n="text.group.text15.body.opener.salute">Spectabilis ac clarissime domine!</salute>
+            <text n="text15" type="epistula" corresp="#skrleckovacic17950724">
+                <body n="body1">
+                    <head n="head1">Iakovlye 24. Iulii 1798. (f. 109r-110v) </head>
+                    <opener n="opener2">
+                        <salute n="salute1">Spectabilis ac clarissime domine!</salute>
                     </opener>
-                    <p n="text.group.text15.body.p1">Tuas de 12-ma Iunii iam post discessum Mandichii accepi; ab eo vero tempore
+                    <p n="p3">Tuas de 12-ma Iunii iam post discessum Mandichii accepi; ab eo vero tempore
                         nullam habui occasionem per quam tibi Privilegium Civitatis Pesthiensis a me
                         notis illustratum submittere potuissem. Quare si Codicem Iuris Tavernicalis
                         cum initio Augusti edere vis, debebunt notae meae emanere et solus
                         privilegii textus codici inferri. In omnem tamen eventum mittam tibi illas
                         per Millossium, qui circa 18-vam Augusti Pesthinum pertinget. </p>
-                    <p n="text.group.text15.body.p2">Ad commentationem, quam meditaris, de civitatibus tavernicalibus, ego nihil
+                    <p n="p4">Ad commentationem, quam meditaris, de civitatibus tavernicalibus, ego nihil
                         conferre possum, quia in nulla iuris nostri parte sum ita peregrinus uti in
                         tavernicali; nunquam enim vel practice in eo versatus sum nec pro eius
                         theoria aliquam collectionem faciendi cogitatio me subivit. </p>
-                    <p n="text.group.text15.body.p3">Si Codici Iuris Municipalis edendo porro etiam insistis, remittam tibi, quod
+                    <p n="p5">Si Codici Iuris Municipalis edendo porro etiam insistis, remittam tibi, quod
                         a te receperam, Mathaei Bani diploma de 1270, quo praecipua municipalis
-                        regni huius iuris capita, quibus regnicolae iam antea <emph n="text.group.text15.body.p3.emph1">ab
+                        regni huius iuris capita, quibus regnicolae iam antea <emph n="emph1">ab
                         immemoriali</emph>, ut in diplomate dicitur, utebantur, exprimuntur. Textum
-                        quidem diplomatis huius iam Kerchelichius <emph n="text.group.text15.body.p3.emph2">Notitiis
+                        quidem diplomatis huius iam Kerchelichius <emph n="emph2">Notitiis
                         Praeliminaribus</emph> inseruit, verum nisi hic per idoneas notas
                         explicetur, concives nostri aut non legent illud, aut certe cum fastidio
                         abiicient. Scis me illud iam olim notis illustrasse; sed quia ex iis, quae
                         postea detexi, me in his in aliquot locis errasse deprehendi, repetii illud
                         a te ut hos errores possim emendare. Quod cum iam praestiterim, possum tibi
                         illud, si eo egebis, successive submittere. </p>
-                    <p n="text.group.text15.body.p4">Ego sic existimo quod omnis iuris nostri antiquitas quattuor his fontibus
-                        potissimum contineatur: <emph n="text.group.text15.body.p4.emph1">Libris S. Stephani, S. Ladislai, et Colomanni;
-                            Ritu explorandae veritatis; </emph>laudato <emph n="text.group.text15.body.p4.emph2">Mathaei bani diplomate;
-                        </emph>et <emph n="text.group.text15.body.p4.emph3">Decreto Andreae 3-tii de 1298-vo</emph>. Si mihi senectus
+                    <p n="p6">Ego sic existimo quod omnis iuris nostri antiquitas quattuor his fontibus
+                        potissimum contineatur: <emph n="emph1">Libris S. Stephani, S. Ladislai, et Colomanni;
+                            Ritu explorandae veritatis; </emph>laudato <emph n="emph2">Mathaei bani diplomate;
+                        </emph>et <emph n="emph3">Decreto Andreae 3-tii de 1298-vo</emph>. Si mihi senectus
                         vires non abstulisset, sicut Decretum Andreae 3-tii et Diploma Mathaei Bani
                         commentatus sum, ita illustrarem etiam illos Ritus explorandae veritatis
-                        paragraphos et illa Librorum S. Stephani <abbr n="text.group.text15.body.p4.abbr">etc.</abbr> capita quae ad cognoscendas
+                        paragraphos et illa Librorum S. Stephani <abbr n="abbr4">etc.</abbr> capita quae ad cognoscendas
                         seu civiles seu iudiciales nostras antiquitates aliquid conferunt. Si haec
                         chronologico ordine simul ederentur, haberemus generale adminus civilium et
                         iudicialium antiquitatum nostrarum systema. Nunc eo imbecillitatis deveni
                         quod iam nec matutino tempore ultra horam intenso alicui labori insistere
                         possim. Ideo ne mirere quod nec dissertationem de origine comitatensium
                         congregationum absolverim. </p>
-                    <p n="text.group.text15.body.p5">Quod impressio <emph n="text.group.text15.body.p5.emph">Supplementorum ad vestigia diaetarum</emph> resumatur,
+                    <p n="p7">Quod impressio <emph n="emph1">Supplementorum ad vestigia diaetarum</emph> resumatur,
                         gaudeo vehementer; ego enim opus illud vix exspecto, ea etiam de causa ut
                         videam quid e notis meis per censuram resectum sit. </p>
-                    <p n="text.group.text15.body.p6">Elenchum etiam chronologicum omnium ineditorum Hungariae scriptorum, quem
+                    <p n="p8">Elenchum etiam chronologicum omnium ineditorum Hungariae scriptorum, quem
                         promittis, libenter legam; ego enim illam epistolae tuae partem, in hunc
                         sensum accipio, cum non possim mihi persuadere ut ipsos scriptores edere seu
                         consilium admittere, seu typographia id suo periculo suscipere velit. </p>
-                    <p n="text.group.text15.body.p7">De articulis Crisiensibus Mandichium iam requisivi, qui mihi pollicitus est
+                    <p n="p9">De articulis Crisiensibus Mandichium iam requisivi, qui mihi pollicitus est
                         quod eos a camerae praeside velit procurare. </p>
-                    <p n="text.group.text15.body.p8">Si mihi Deus vitam produxerit et tu futura aestate ad nos veneris, dies
+                    <p n="p10">Si mihi Deus vitam produxerit et tu futura aestate ad nos veneris, dies
                         illos, quos tecum transigere potero, pro felicissimis reputabo. Rusticabimur
                         una quam diutissime tibi licuerit, et hac occasione patebit tibi tota mea
                         litteraria penus. </p>
-                    <p n="text.group.text15.body.p9">Ego apud nos nullum scio qui aliquid habeat quod tu Minoribus tuis
+                    <p n="p11">Ego apud nos nullum scio qui aliquid habeat quod tu Minoribus tuis
                         scriptoribus inferre possis; maiores enim nostri in colligendis eiusmodi
                         rebus fuerunt minime curiosi. </p>
-                    <p n="text.group.text15.body.p10">Ceterum accepi etiam 10. exemplaria 2-di Minorum scriptorum tomi. Ex his unum
+                    <p n="p12">Ceterum accepi etiam 10. exemplaria 2-di Minorum scriptorum tomi. Ex his unum
                         pro me retinui, aliud reverendissimo domino lectori Volgemuth, qui primum
                         tomum iam habuit, dedi. Episcopus Viennae agit, sed etsi adesset, nec huic
                         nec bano exemplar dandum existimavi, donec ulteriorem a te accipiam
                         inviationem; nescio enim an hi 1-mum tomum iam habeant. Sin, vides ipse quod
                         nec illi tibi magnam gratiam habebunt, si 2-dum tomum sine 1-mo accipiant,
                         et tu duo exemplaria inutiliter truncabis. </p>
-                    <p n="text.group.text15.body.p11">Idem est de reliquis 6. exemplaribus, quae tu venui exponi cupis; quis enim
+                    <p n="p13">Idem est de reliquis 6. exemplaribus, quae tu venui exponi cupis; quis enim
                         emet 2-dum tomum sine 1-mo? Quare mea haec est opinio ut vel tu ipse huiatem
                         bibliopolam Müller litteris convenias, vel rem hanc mihi comittas ut cum
                         illo conficiam, erga quantum pro 100 distractionem submittendorum a te
                         librorum assumere velit? Hoc stabilito cum seu Zagrabiensis, seu
                         Varasdinensis tricesimator omni anno Budam ascendat, potes rem ita
                         organizare ut per illos singulis annis aliquot exemplaria submittas. </p>
-                    <p n="text.group.text15.body.p12">In hunc autem casum tibi author sum ut ante omnia 1-mi tomi Scriptorum
+                    <p n="p14">In hunc autem casum tibi author sum ut ante omnia 1-mi tomi Scriptorum
                         Minorum 20, 2-di vero (cum 8 iam habeam) 12 exemplaria transmittas; totidem
                         enim exemplaria, puto, omnino vendi posse. </p>
-                    <p n="text.group.text15.body.p13">Dein vero ut, quam primum <emph n="text.group.text15.body.p13.emph1">Supplementa</emph> excusa fuerint, tam de
-                        his, quam et de <emph n="text.group.text15.body.p13.emph2">Vestigiis</emph>
-                        <emph n="text.group.text15.body.p13.emph3">Comitiorum</emph> pariter 20 exemplaria transmittas, et sic de anno in
+                    <p n="p15">Dein vero ut, quam primum <emph n="emph1">Supplementa</emph> excusa fuerint, tam de
+                        his, quam et de <emph n="emph2">Vestigiis</emph>
+                        <emph n="emph3">Comitiorum</emph> pariter 20 exemplaria transmittas, et sic de anno in
                         annum pergas. </p>
-                    <p n="text.group.text15.body.p14">Faciam ego ut impressum nuntium et Zagrabiae, et Carlostadii, et Crisii, et
+                    <p n="p16">Faciam ego ut impressum nuntium et Zagrabiae, et Carlostadii, et Crisii, et
                         Varasdini distribuatur, hacque ratione spero quod plura etiam exemplaria
                         quam 20 de singulo, quod missurus es, opere vendi possint. Significa mihi
                         hac de re mentem tuam et vale. </p>
-                    <closer n="text.group.text15.body.closer">
-                        <dateline n="text.group.text15.body.closer.dateline">Dabam Iakovlye 24. Iulii 1798. </dateline>
-                        <signed n="text.group.text15.body.closer.signed">Tuus Skerlecz, manu propria </signed>
+                    <closer n="closer17">
+                        <dateline n="dateline1">Dabam Iakovlye 24. Iulii 1798. </dateline>
+                        <signed n="signed2">Tuus Skerlecz, manu propria </signed>
                     </closer>
                 </body>
             </text>
         </group>
-        <back n="text.back">
-            <div n="text.back.div" type="notes">
-                <p n="text.back.div.p1">
-                    <ref n="text.back.div.p1.ref" target="#footnoteback1">1)</ref> usque Novum Annum<emph n="text.back.div.p1.emph"> in margine addidit
+        <back n="back3">
+            <div n="div1" type="notes">
+                <p n="p1">
+                    <ref n="ref1" target="#footnoteback1">1)</ref> usque Novum Annum<emph n="emph2"> in margine addidit
                         auctor</emph>
                 </p>
-                <p n="text.back.div.p2">
-                    <ref n="text.back.div.p2.ref" target="#footnoteback2">2)</ref> 
-               <emph n="text.back.div.p2.emph">Textum ulteriorem editores hoc
+                <p n="p2">
+                    <ref n="ref1" target="#footnoteback2">2)</ref> 
+               <emph n="emph2">Textum ulteriorem editores hoc
                         tempore non possident.</emph>
                 </p>
-                <p n="text.back.div.p3">
-                    <ref n="text.back.div.p3.ref" target="#footnoteback3">3)</ref>  diaetarium<emph n="text.back.div.p3.emph"> sic</emph>
+                <p n="p3">
+                    <ref n="ref1" target="#footnoteback3">3)</ref>  diaetarium<emph n="emph2"> sic</emph>
                 </p>
-                <p n="text.back.div.p4">
-                    <ref n="text.back.div.p4.ref" target="#footnoteback4">4)</ref>  ad <emph n="text.back.div.p4.emph">sic</emph>
+                <p n="p4">
+                    <ref n="ref1" target="#footnoteback4">4)</ref>  ad <emph n="emph2">sic</emph>
                 </p>
-                <p n="text.back.div.p5">
-                    <ref n="text.back.div.p5.ref" target="#footnoteback5">5)</ref>  Regestrum <emph n="text.back.div.p5.emph">sic</emph>
+                <p n="p5">
+                    <ref n="ref1" target="#footnoteback5">5)</ref>  Regestrum <emph n="emph2">sic</emph>
                 </p>
-                <p n="text.back.div.p6">
-                    <ref n="text.back.div.p6.ref" target="#footnoteback6">6)</ref>  illum <emph n="text.back.div.p6.emph">sic</emph>
+                <p n="p6">
+                    <ref n="ref1" target="#footnoteback6">6)</ref>  illum <emph n="emph2">sic</emph>
                 </p>
-                <p n="text.back.div.p7">
-                    <ref n="text.back.div.p7.ref" target="#footnoteback7">7)</ref>  
-               <emph n="text.back.div.p7.emph">Corr. ex</emph> Hebdomas</p>
-                <p n="text.back.div.p8">
-                    <ref n="text.back.div.p8.ref" target="#footnoteback8">8)</ref>  
-               <emph n="text.back.div.p8.emph">Corr. ex</emph> Prothonarius</p>
+                <p n="p7">
+                    <ref n="ref1" target="#footnoteback7">7)</ref>  
+               <emph n="emph2">Corr. ex</emph> Hebdomas</p>
+                <p n="p8">
+                    <ref n="ref1" target="#footnoteback8">8)</ref>  
+               <emph n="emph2">Corr. ex</emph> Prothonarius</p>
             </div>
         </back>
     </text>

@@ -105,6 +105,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -170,24 +187,24 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:brod01.croala291987.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div type="prosa-epistula" n="text.body.div">
+        <body n="body1">
+            <div type="prosa-epistula" n="div1">
 
-                <head n="text.body.div.head">XIV/2 <date n="text.body.div.head.date" when="1525-09-30">1525. 30. Septembris</date>, Budae Stephanus Brodericus secretarius regius
+                <head n="head1">XIV/2 <date n="date1" when="1525-09-30">1525. 30. Septembris</date>, Budae Stephanus Brodericus secretarius regius
                     Clementi papae VII.</head>
 
 
-                <note n="text.body.div.note" resp="BJ">Segr. Stato, Principi, 3, f. 299.</note>
+                <note n="note2" resp="BJ">Segr. Stato, Principi, 3, f. 299.</note>
 
-                <opener n="text.body.div.opener">
-               <note n="text.body.div.opener.note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
+                <opener n="opener3">
+               <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
                     domino nostro, domino Clementi VII pontifici maximo, domino mihi semper
-                    clementissimo <note n="text.body.div.opener.note2" resp="BJ">[Alia manu:] Stephani Broderici Buda
-                            <expan n="text.body.div.opener.note2.expan1">Pridie</expan>
-                        <expan n="text.body.div.opener.note2.expan2">Calendae</expan> Octobris</note> Beatissime pater ac domine, domine
+                    clementissimo <note n="note2" resp="BJ">[Alia manu:] Stephani Broderici Buda
+                            <expan n="expan1">Pridie</expan>
+                        <expan n="expan2">Calendae</expan> Octobris</note> Beatissime pater ac domine, domine
                     mihi semper clementissime! Post oscula pedum Sanctitatis Vestrę beatorum et meę
                     humillime servitutis in gratiam eiusdem commendationem.</opener>
-                <p n="text.body.div.p">De publicis rebus nostris scribit regia maiestas, dominus meus gratiosissimus,
+                <p n="p4">De publicis rebus nostris scribit regia maiestas, dominus meus gratiosissimus,
                     privatum autem rerum mearum statum intelliget Vestra Sanctitas ex litteris
                     domini baronis, nuncii sui. Si res habebit bonum exitum, sicut credo omnino
                     futurum, suplico Vestre Sanctitati humilime, dignetur me rebus omnibus, quibus
@@ -207,7 +224,7 @@
                     fieri poterit, et hoc regnum suum, illam ecclesiam adeo insignem atque in toto
                     septemtrione primariam, hanc personam de se suisque regnis ac de Christianitate
                     tota optime meritam hoc honore afficere. Hoc a Vestra Sanctitate Maiestas Sua
-                    summis precibus petit, me vere omnes <milestone n="text.body.div.p.milestone" unit="page"/> rationes mundi
+                    summis precibus petit, me vere omnes <milestone n="milestone1" unit="page"/> rationes mundi
                     inducunt, Clementissime Pater, ut idem suadeam Vestrę Sanctitati faciendum atque
                     ipsum dominum Strigoniensem omni gratia prosequendum. Non sum ego nescius earum
                     rerum, quę hic hiis diebus preteritis contigere, non sermonum, quos multos cum
@@ -226,18 +243,18 @@
                     credo, Vestra etiam Sanctitas libenter videbit. Palatinus novus ostendit
                     mirabilem animum ad bene agendum, est nobiscum valde coniunctus. Vaÿvoda et ipse
                     singulari certe prudentia iuvenis. Denique habeo optimam spem res bene ac ex
-                    desiderio ac prescripto Vestrae Sanctitatis <expan n="text.body.div.p.expan1">curans</expan>, sed
-                    fundamentum nullum <expan n="text.body.div.p.expan2">firmum</expan> neque aliud plane video, quam quod ad
+                    desiderio ac prescripto Vestrae Sanctitatis <expan n="expan2">curans</expan>, sed
+                    fundamentum nullum <expan n="expan3">firmum</expan> neque aliud plane video, quam quod ad
                     dominum Franciscum perscripsi. Rege ipso nihil posset esse melius in veritate
                     neque ad omne bonum inclinatius flexibiliusque, sed est etate nimium adhuc
                     immature ad tantum onus. Deus nos iuvabit et post Deum eius vicarius
                     sanctissimus.</p>
-                <closer n="text.body.div.closer">Me et meam servitutem in gratiam Vestrae Sanctitatis humilime commendo. Quam
+                <closer n="closer5">Me et meam servitutem in gratiam Vestrae Sanctitatis humilime commendo. Quam
                     Deus conservet semper felicissimam atque incolumem. Bude, pridie Kalendis
                     Octobris. 1525. Eiusdem Vestrae Sanctitatis creatura et minimus servulus
                     Stephanus Brodericus</closer>
 
-                <milestone n="text.body.div.milestone" unit="page"/>
+                <milestone n="milestone6" unit="page"/>
             </div>
         </body>
     </text>

@@ -104,6 +104,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -169,18 +183,18 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:brod01.croala1842831.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div type="prosa-epistula" n="text.body.div">
+        <body n="body1">
+            <div type="prosa-epistula" n="div1">
 
-                <head n="text.body.div.head">XIV/7 <date n="text.body.div.head.date" when="1526-03-26">1526. 26. Martii</date>, Budae Stephanus Brodericus cancellarius Clementi papae
+                <head n="head1">XIV/7 <date n="date1" when="1526-03-26">1526. 26. Martii</date>, Budae Stephanus Brodericus cancellarius Clementi papae
                     VII.</head>
 
 
-                <note n="text.body.div.note1" resp="BJ">Segr. Stato, Principi, 4, f. 59.</note>
+                <note n="note2" resp="BJ">Segr. Stato, Principi, 4, f. 59.</note>
 
-                <opener n="text.body.div.opener">Beatissime pater et domine clementissime! Post oscula pedum Sanctitatis
+                <opener n="opener3">Beatissime pater et domine clementissime! Post oscula pedum Sanctitatis
                     Vestre beatorum et servitutis mee humillimam commendationem.</opener>
-                <p n="text.body.div.p">Publica ex publicis cognoscet Vestra Beatitudo, hoc et ex publicis, et ex his
+                <p n="p4">Publica ex publicis cognoscet Vestra Beatitudo, hoc et ex publicis, et ex his
                     meis: nos, si unquam alias, nunc maxime in extremo periculo versare et nullam
                     habere spem post Deum, nisi in Vestra Sanctitate. Vestra Sanctitas, per amorem
                     Ihesu Christi, cuius vicarium agit, cogitet quamprimum de salute nostra et eam
@@ -193,17 +207,17 @@
                     suscepisse, imo propter cancellariatum solum, id quod Vestram Sanctitatem ex
                     literis domini baronis, non dubito, plenius intellexisse. Is, qui Sirmiensis
                     erat, contentandus mihi fuit cum beneficiis cuiusdam amici Itali,
-                        Regiensis<ref n="text.body.div.p.ref1">28</ref>, viri docti, et qui alias a domino cardinale Estensi
+                        Regiensis<ref n="ref1">28</ref>, viri docti, et qui alias a domino cardinale Estensi
                     episcopatum Agriensis diu rexit. Is ipse optavit a me, et ego id ei fretus
-                    benignitate Sanctitatis Vestrae libere spopondi recompensationem<ref n="text.body.div.p.ref2">29</ref>
+                    benignitate Sanctitatis Vestrae libere spopondi recompensationem<ref n="ref2">29</ref>
                     aliquam a Vestra Sanctitate pro beneficiis ipsius impetraturum. Supplico Vestrae
                     Sanctitati, domino meo clementissimo, dignetur ei dare aliquid loco beneficiorum
                     ipsius, que ascendunt usque ad quingentos ducatos et amplius. Ipse non optat,
-                    nisi ducentos, vel etiam tanto minus, quantum <note n="text.body.div.p.note1" resp="BJ">27 Subscriptio
+                    nisi ducentos, vel etiam tanto minus, quantum <note n="note3" resp="BJ">27 Subscriptio
                         desideratur. </note>
-                    <note n="text.body.div.p.note2" resp="BJ">28 Hodie Reggio. </note>
-                    <note n="text.body.div.p.note3" resp="BJ">29 In originali: recompensam. </note>
-                    <milestone n="text.body.div.p.milestone" unit="page"/> Sanctitati Vestre videbitur, vel in officiis, vel in
+                    <note n="note4" resp="BJ">28 Hodie Reggio. </note>
+                    <note n="note5" resp="BJ">29 In originali: recompensam. </note>
+                    <milestone n="milestone6" unit="page"/> Sanctitati Vestre videbitur, vel in officiis, vel in
                     beneficiis. Scio ego hanc petitionem meam paulo fortasse aliquibus
                     inverecundiorem visum iri, quasi, qui post tot et tantos Vestrae Sanctitatis in
                     me favores, quos nunquam merui, talia etiam expetam, quae Vestrae Sanctitatis
@@ -214,7 +228,7 @@
                     magistratum autem hunc non causa mea, sed spe boni publici difficilimis
                     temporibus subiisse. Me in his, quae suscepi, ab eo rebus omnibus adiuvari, qui
                     causas publicas tocius Christiane reipublice et maxime horum finium, qui
-                    reliquam Christianitatem <expan n="text.body.div.p.expan">tuentur</expan>, tueri etiam ex professo debet.
+                    reliquam Christianitatem <expan n="expan7">tuentur</expan>, tueri etiam ex professo debet.
                     Vestra Sanctitas, et hoc, quod nunc ab ea pro isto amico meo peto, et, si quid
                     in posterum in me conferre voluerit (in quo ego tamen non ero importunus), nihil
                     supplico, conferat in me, unquam causa mea privata, sed causa publica illo uno
@@ -223,17 +237,17 @@
                     Sanctitate Vestra iam pontifice petivi, excepto, quod cuiusmodi sit, credo, bene
                     recordatur. Sed ad rem. Supplico Vestrae Sanctitati, dignetur in hac non magna
                     re preces parvuli servitoris benigne exaudire.</p>
-                <closer n="text.body.div.closer">In cuius gratiam servitutem meam humiliter commendo. Budę, XXVI Marcii, anno
+                <closer n="closer5">In cuius gratiam servitutem meam humiliter commendo. Budę, XXVI Marcii, anno
                     Domini MDXXVI. Iste amicus meus imo pro quo suplico appellatur Joannes Bonzagnus
-                    Regiensis Iuris utriusque doctor<ref n="text.body.div.closer.ref">30</ref> Vestre Beatitudinis humilimus
+                    Regiensis Iuris utriusque doctor<ref n="ref1">30</ref> Vestre Beatitudinis humilimus
                     servulus Stephanus Brodericus cancellarius</closer>
 
 
-                <note n="text.body.div.note2" resp="BJ">Annotatio: Pars datum subsequens ipso a Stephano Broderico scripta
+                <note n="note6" resp="BJ">Annotatio: Pars datum subsequens ipso a Stephano Broderico scripta
                     est.</note>
 
 
-                <note n="text.body.div.note3" resp="BJ">30 Bonsagnum Hippolytus Estensis secum in Hungariam tulit. Iam anno
+                <note n="note7" resp="BJ">30 Bonsagnum Hippolytus Estensis secum in Hungariam tulit. Iam anno
                     1512 in regno se continet, anno 1516 gubernator episcopatus Agriensis, anno 1528
                     legatus regis Hungariae apud Venetos. Anno 1529 praepositus Varadiensis, in
                     testimonio Stephani Broderici eodem tempore dato ut olim episcopus Chanadiensis

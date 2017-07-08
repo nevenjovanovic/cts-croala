@@ -99,6 +99,29 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -146,529 +169,529 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:mazuranic_viaf17261922.croala1694865.croala-lat1:" xml:lang="lat">
-      <front n="text.front">
-        <pb n="text.front.pb"/>
-        <docTitle n="text.front.docTitle">
-            <titlePart n="text.front.docTitle.titlePart1">U slavu Antunu Kukuljeviću. </titlePart>
-            <titlePart n="text.front.docTitle.titlePart2">(Prigodom, kad bje imenovan vrhovnim ravnateljem hrvatskih škola) </titlePart>
+      <front n="front1">
+        <pb n="pb1"/>
+        <docTitle n="docTitle2">
+            <titlePart n="titlePart1">U slavu Antunu Kukuljeviću. </titlePart>
+            <titlePart n="titlePart2">(Prigodom, kad bje imenovan vrhovnim ravnateljem hrvatskih škola) </titlePart>
         </docTitle>
-        <docDate n="text.front.docDate">1837. </docDate>
+        <docDate n="docDate3">1837. </docDate>
       </front>
-      <body n="text.body">
-         <div n="text.body.div" type="poesis-carmen">
-            <head n="text.body.div.head">Honoribus <lb n="text.body.div.head.lb1"/> Magnifici Domini <lb n="text.body.div.head.lb2"/>
-               <persName n="text.body.div.head.persName1">Antonii Kukuljević <lb n="text.body.div.head.persName1.lb"/> de Bassani et Sacci</persName> ... <lb n="text.body.div.head.lb3"/> dum <lb n="text.body.div.head.lb4"/> regii Superioris provincialis per districtum <lb n="text.body.div.head.lb5"/> literarium Zagrabiensem ... Studiorum et Scholarum Directoris munus capesseret <lb n="text.body.div.head.lb6"/> dicat Regia scientiarum Academia Zagrabiensis. <lb n="text.body.div.head.lb7"/> Vate <persName n="text.body.div.head.persName2">Ioanne Mažuranić</persName> 
-               <lb n="text.body.div.head.lb8"/> Academico Iurium II. in annum auditore.</head>     
+      <body n="body2">
+         <div n="div1" type="poesis-carmen">
+            <head n="head1">Honoribus <lb n="lb1"/> Magnifici Domini <lb n="lb2"/>
+               <persName n="persName3">Antonii Kukuljević <lb n="lb1"/> de Bassani et Sacci</persName> ... <lb n="lb4"/> dum <lb n="lb5"/> regii Superioris provincialis per districtum <lb n="lb6"/> literarium Zagrabiensem ... Studiorum et Scholarum Directoris munus capesseret <lb n="lb7"/> dicat Regia scientiarum Academia Zagrabiensis. <lb n="lb8"/> Vate <persName n="persName9">Ioanne Mažuranić</persName> 
+               <lb n="lb10"/> Academico Iurium II. in annum auditore.</head>     
 
-            <epigraph n="text.body.div.epigraph" xml:lang="hrv">
-               <cit n="text.body.div.epigraph.cit">
-                  <quote n="text.body.div.epigraph.cit.quote">
-                     <l n="text.body.div.epigraph.cit.quote.l1">        Ista nas narav na veselje vuče, </l>
-                     <l n="text.body.div.epigraph.cit.quote.l2">Seko. Ja cienim, da znamenje dobro </l>
-                     <l n="text.body.div.epigraph.cit.quote.l3">Jest. Neki dan mi reče sestra <persName n="text.body.div.epigraph.cit.quote.l3.persName">Klio</persName>, </l>
-                     <l n="text.body.div.epigraph.cit.quote.l4">Staro da nam se </l>
-                     <l n="text.body.div.epigraph.cit.quote.l5">Vrieme povraća, kolo staro, stani, </l>
-                     <l n="text.body.div.epigraph.cit.quote.l6">Pjesme, čast, glasnih citara štovanje: </l>
-                     <l n="text.body.div.epigraph.cit.quote.l7">U sabor dojdu lugovih po pustih </l>
-                     <l n="text.body.div.epigraph.cit.quote.l8">Sestre razsute.</l>
+            <epigraph n="epigraph2" xml:lang="hrv">
+               <cit n="cit1">
+                  <quote n="quote1">
+                     <l n="l1">        Ista nas narav na veselje vuče, </l>
+                     <l n="l2">Seko. Ja cienim, da znamenje dobro </l>
+                     <l n="l3">Jest. Neki dan mi reče sestra <persName n="persName1">Klio</persName>, </l>
+                     <l n="l4">Staro da nam se </l>
+                     <l n="l5">Vrieme povraća, kolo staro, stani, </l>
+                     <l n="l6">Pjesme, čast, glasnih citara štovanje: </l>
+                     <l n="l7">U sabor dojdu lugovih po pustih </l>
+                     <l n="l8">Sestre razsute.</l>
                   </quote>
 
-                  <bibl n="text.body.div.epigraph.cit.bibl">Katančić. </bibl>
+                  <bibl n="bibl2">Katančić. </bibl>
                </cit>
             </epigraph>
 
-            <lg n="text.body.div.lg1">
-               <l n="text.body.div.lg1.l1">
-                  <persName n="text.body.div.lg1.l1.persName">Illyrides Musae</persName>, vestra modulatus avena </l>
-               <l n="text.body.div.lg1.l2">Carmina dum vates <persName n="text.body.div.lg1.l2.persName1" next="#romsor">romanis</persName> pango <persName n="text.body.div.lg1.l2.persName2" xml:id="romsor">Camoenis</persName>, </l>
-               <l n="text.body.div.lg1.l3">Externoque modos fundens de gutture ludo, </l>
-               <l n="text.body.div.lg1.l4">Parcite, vestra cano, memores o parcite, <persName n="text.body.div.lg1.l4.persName">Musae</persName>, </l>
-               <l n="text.body.div.lg1.l5">Gaudia, et e tenero rorantia pectore vota. </l>
-               <l n="text.body.div.lg1.l6">Scitis enim lingua <persName n="text.body.div.lg1.l6.persName" next="#latsor">Latias</persName> et sanguine iunctas </l>
-               <l n="text.body.div.lg1.l7">Communi vobis de stirpe venire <persName n="text.body.div.lg1.l7.persName" xml:id="latsor">sorores</persName>. </l>
-               <l n="text.body.div.lg1.l8">Haec Latia resonent cithara, vestraque sonabunt </l>
-               <l n="text.body.div.lg1.l9">Mox alia, et patrium pergent lusura per orbem. </l>
+            <lg n="lg3">
+               <l n="l1">
+                  <persName n="persName1">Illyrides Musae</persName>, vestra modulatus avena </l>
+               <l n="l2">Carmina dum vates <persName n="persName1" next="#romsor">romanis</persName> pango <persName n="persName2" xml:id="romsor">Camoenis</persName>, </l>
+               <l n="l3">Externoque modos fundens de gutture ludo, </l>
+               <l n="l4">Parcite, vestra cano, memores o parcite, <persName n="persName1">Musae</persName>, </l>
+               <l n="l5">Gaudia, et e tenero rorantia pectore vota. </l>
+               <l n="l6">Scitis enim lingua <persName n="persName1" next="#latsor">Latias</persName> et sanguine iunctas </l>
+               <l n="l7">Communi vobis de stirpe venire <persName n="persName1" xml:id="latsor">sorores</persName>. </l>
+               <l n="l8">Haec Latia resonent cithara, vestraque sonabunt </l>
+               <l n="l9">Mox alia, et patrium pergent lusura per orbem. </l>
             </lg>
 
-            <lg n="text.body.div.lg2">
-               <l n="text.body.div.lg2.l1">Est regio in coelis: mortalia lumina cernunt </l>
-               <l n="text.body.div.lg2.l2">Quum subit ante diem roseos redimita capillos </l>
-               <l n="text.body.div.lg2.l3">Eoas <persName n="text.body.div.lg2.l3.persName">Cytherea</persName> vias rutilansque renidet. </l>
-               <l n="text.body.div.lg2.l4">Atque sub <persName n="text.body.div.lg2.l4.persName">Aurorae</persName> reditus nocturna bicornes </l>
-               <l n="text.body.div.lg2.l5">Ad <persName n="text.body.div.lg2.l5.persName1">Venerem</persName> luces revoluta <persName n="text.body.div.lg2.l5.persName2">Diana</persName> per auras </l>
-               <l n="text.body.div.lg2.l6">
-                  <sic n="text.body.div.lg2.l6.sic">Aethereis</sic> conspersa rosis vestigia calcat. </l>
-               <l n="text.body.div.lg2.l7">Sidera clara micant, radiant regione stupendo </l>
-               <l n="text.body.div.lg2.l8">Corpore purpureis centum funalibus orbes, </l>
-               <l n="text.body.div.lg2.l9">Atque meant remeantque vias, dum vere nitentes </l>
-               <l n="text.body.div.lg2.l10">Perpetuo fovet annus agros, et candida campi </l>
-               <l n="text.body.div.lg2.l11">Lilia. Nunquam immitis hiems, creberque procellis </l>
-               <l n="text.body.div.lg2.l12">Africus, aut boreas nivibus metuendus et imbre</l>
-               <pb n="text.body.div.lg2.pb"/>
-               <l n="text.body.div.lg2.l13">Turbavere polos, nec splenduit ignibus aether. </l>
-               <l n="text.body.div.lg2.l14">Non nitidos dextra tonuere vibrata per axes </l>
-               <l n="text.body.div.lg2.l15">Fulmina magna <persName n="text.body.div.lg2.l15.persName">Jovis</persName>, nec mugiit imber <placeName n="text.body.div.lg2.l15.placeName">Olympo</placeName>, </l>
-               <l n="text.body.div.lg2.l16">Lethiferisve furens ardoribus usserat arva </l>
-               <l n="text.body.div.lg2.l17">
-                  <persName n="text.body.div.lg2.l17.persName">Sirius</persName>, aut miseri iacuerunt vota coloni </l>
-               <l n="text.body.div.lg2.l18">Nimbis in glaciem cretis: nam nemo colonus, </l>
-               <l n="text.body.div.lg2.l19">Vomere sive unquam iuncti gemuere iuvenci. </l>
+            <lg n="lg4">
+               <l n="l1">Est regio in coelis: mortalia lumina cernunt </l>
+               <l n="l2">Quum subit ante diem roseos redimita capillos </l>
+               <l n="l3">Eoas <persName n="persName1">Cytherea</persName> vias rutilansque renidet. </l>
+               <l n="l4">Atque sub <persName n="persName1">Aurorae</persName> reditus nocturna bicornes </l>
+               <l n="l5">Ad <persName n="persName1">Venerem</persName> luces revoluta <persName n="persName2">Diana</persName> per auras </l>
+               <l n="l6">
+                  <sic n="sic1">Aethereis</sic> conspersa rosis vestigia calcat. </l>
+               <l n="l7">Sidera clara micant, radiant regione stupendo </l>
+               <l n="l8">Corpore purpureis centum funalibus orbes, </l>
+               <l n="l9">Atque meant remeantque vias, dum vere nitentes </l>
+               <l n="l10">Perpetuo fovet annus agros, et candida campi </l>
+               <l n="l11">Lilia. Nunquam immitis hiems, creberque procellis </l>
+               <l n="l12">Africus, aut boreas nivibus metuendus et imbre</l>
+               <pb n="pb13"/>
+               <l n="l14">Turbavere polos, nec splenduit ignibus aether. </l>
+               <l n="l15">Non nitidos dextra tonuere vibrata per axes </l>
+               <l n="l16">Fulmina magna <persName n="persName1">Jovis</persName>, nec mugiit imber <placeName n="placeName2">Olympo</placeName>, </l>
+               <l n="l17">Lethiferisve furens ardoribus usserat arva </l>
+               <l n="l18">
+                  <persName n="persName1">Sirius</persName>, aut miseri iacuerunt vota coloni </l>
+               <l n="l19">Nimbis in glaciem cretis: nam nemo colonus, </l>
+               <l n="l20">Vomere sive unquam iuncti gemuere iuvenci. </l>
             </lg>
 
-            <lg n="text.body.div.lg3">
-               <l n="text.body.div.lg3.l1">Hac pater omnipotens coeli dum constitit arce </l>
-               <l n="text.body.div.lg3.l2">Terras et genitos terris scrutatus, amoenis </l>
-               <l n="text.body.div.lg3.l3">
-                  <placeName n="text.body.div.lg3.l3.placeName">Illyriae</placeName> regnis oculum defixit, et ingens </l>
-               <l n="text.body.div.lg3.l4">
-                  <placeName n="text.body.div.lg3.l4.placeName">Parnassum</placeName> tetigisse malum, patriasque <persName n="text.body.div.lg3.l4.persName">Camoenas</persName> 
+            <lg n="lg5">
+               <l n="l1">Hac pater omnipotens coeli dum constitit arce </l>
+               <l n="l2">Terras et genitos terris scrutatus, amoenis </l>
+               <l n="l3">
+                  <placeName n="placeName1">Illyriae</placeName> regnis oculum defixit, et ingens </l>
+               <l n="l4">
+                  <placeName n="placeName1">Parnassum</placeName> tetigisse malum, patriasque <persName n="persName2">Camoenas</persName> 
                </l>
-               <l n="text.body.div.lg3.l5">Fluctibus in mediis cernens, dum ventus et unda </l>
-               <l n="text.body.div.lg3.l6">Orbatas vigili feriunt rectore carinas, </l>
-               <l n="text.body.div.lg3.l7">Ingemit, et graviter motus sic ora resolvit: </l>
+               <l n="l5">Fluctibus in mediis cernens, dum ventus et unda </l>
+               <l n="l6">Orbatas vigili feriunt rectore carinas, </l>
+               <l n="l7">Ingemit, et graviter motus sic ora resolvit: </l>
             </lg>
 
-            <lg n="text.body.div.lg4">
-               <l n="text.body.div.lg4.l1">„Vos memores hominum, coelestia numina, divi, </l>
-               <l n="text.body.div.lg4.l2">Vos ego nunc, Superi, coelos ac aethera coeli </l>
-               <l n="text.body.div.lg4.l3">In mea vota voco: vestra nunc audiar aure." </l>
+            <lg n="lg6">
+               <l n="l1">„Vos memores hominum, coelestia numina, divi, </l>
+               <l n="l2">Vos ego nunc, Superi, coelos ac aethera coeli </l>
+               <l n="l3">In mea vota voco: vestra nunc audiar aure." </l>
             </lg>
 
-            <lg n="text.body.div.lg5">
-               <l n="text.body.div.lg5.l1">„Terra antiqua iacet tepidis spirantibus austris, </l>
-               <l n="text.body.div.lg5.l2">Temperie moderante gelu, libycosque calores, </l>
-               <l n="text.body.div.lg5.l3">
-                  <placeName n="text.body.div.lg5.l3.placeName">Italiam</placeName> contra. Coelum favet humor et aura. </l>
-               <l n="text.body.div.lg5.l4">
-                  <placeName n="text.body.div.lg5.l4.placeName1" next="#euxund">Euxinis</placeName> oritur sol matutinus ab <placeName n="text.body.div.lg5.l4.placeName2" xml:id="euxund">undis</placeName>, </l>
-               <l n="text.body.div.lg5.l5">Et virides nitido perlustrans lumine campos </l>
-               <l n="text.body.div.lg5.l6">Flectit, et occiduas <placeName n="text.body.div.lg5.l6.placeName">Adriae</placeName> descendit ad oras. </l>
-               <l n="text.body.div.lg5.l7">Qua scythicus furiis boreas accensus et ira </l>
-               <l n="text.body.div.lg5.l8">Saevit, et indomiti bacchatur bruma <placeName n="text.body.div.lg5.l8.placeName">Trionis</placeName>, </l>
-               <l n="text.body.div.lg5.l9">Unda meat, validos et volvit ad aequora fluctus. </l>
-               <l n="text.body.div.lg5.l10">Quaque dies medius flagrantibus aestuat horis, </l>
-               <l n="text.body.div.lg5.l11">Armigeris rigido seiuncta est monte <persName n="text.body.div.lg5.l11.persName">Pelasgis</persName>." </l>
+            <lg n="lg7">
+               <l n="l1">„Terra antiqua iacet tepidis spirantibus austris, </l>
+               <l n="l2">Temperie moderante gelu, libycosque calores, </l>
+               <l n="l3">
+                  <placeName n="placeName1">Italiam</placeName> contra. Coelum favet humor et aura. </l>
+               <l n="l4">
+                  <placeName n="placeName1" next="#euxund">Euxinis</placeName> oritur sol matutinus ab <placeName n="placeName2" xml:id="euxund">undis</placeName>, </l>
+               <l n="l5">Et virides nitido perlustrans lumine campos </l>
+               <l n="l6">Flectit, et occiduas <placeName n="placeName1">Adriae</placeName> descendit ad oras. </l>
+               <l n="l7">Qua scythicus furiis boreas accensus et ira </l>
+               <l n="l8">Saevit, et indomiti bacchatur bruma <placeName n="placeName1">Trionis</placeName>, </l>
+               <l n="l9">Unda meat, validos et volvit ad aequora fluctus. </l>
+               <l n="l10">Quaque dies medius flagrantibus aestuat horis, </l>
+               <l n="l11">Armigeris rigido seiuncta est monte <persName n="persName1">Pelasgis</persName>." </l>
             </lg>
 
-            <lg n="text.body.div.lg6">
-               <l n="text.body.div.lg6.l1">„Felix terra. Ferax, dum stipite poma rubescunt </l>
-               <l n="text.body.div.lg6.l2">Civibus esca suis, nitidique in nectare rivi </l>
-               <l n="text.body.div.lg6.l3">Dulcis potus adest, virtuti alimenta futura. </l>
+            <lg n="lg8">
+               <l n="l1">„Felix terra. Ferax, dum stipite poma rubescunt </l>
+               <l n="l2">Civibus esca suis, nitidique in nectare rivi </l>
+               <l n="l3">Dulcis potus adest, virtuti alimenta futura. </l>
             </lg>
 
 
 
-            <pb n="text.body.div.pb1"/> 
+            <pb n="pb9"/> 
 
 
 
-            <lg n="text.body.div.lg7">
-               <l n="text.body.div.lg7.l1">Mortalem Superis si fas imitante voluptam </l>
-               <l n="text.body.div.lg7.l2">Ore loqui: curae relevamen amoena beatis </l>
-               <l n="text.body.div.lg7.l3">Hospitibus fert umbra suis, et pectora mulcet </l>
-               <l n="text.body.div.lg7.l4">Anxia, dum roseo pendens philomela racemo </l>
-               <l n="text.body.div.lg7.l5">Mellifluum querulo deducit gutture carmen." </l>
+            <lg n="lg10">
+               <l n="l1">Mortalem Superis si fas imitante voluptam </l>
+               <l n="l2">Ore loqui: curae relevamen amoena beatis </l>
+               <l n="l3">Hospitibus fert umbra suis, et pectora mulcet </l>
+               <l n="l4">Anxia, dum roseo pendens philomela racemo </l>
+               <l n="l5">Mellifluum querulo deducit gutture carmen." </l>
             </lg>
 
-            <lg n="text.body.div.lg8">
-               <l n="text.body.div.lg8.l1">„<placeName n="text.body.div.lg8.l1.placeName">Illyriam</placeName> dixere senes, dum regna manebant </l>
-               <l n="text.body.div.lg8.l2">Patria, et agresti resonabat arundine cantus; </l>
-               <l n="text.body.div.lg8.l3">Lanigeras dum pavit oves timidasque capellas </l>
-               <l n="text.body.div.lg8.l4">Patrius in patriis pastor, nec palluit, agris." </l>
+            <lg n="lg11">
+               <l n="l1">„<placeName n="placeName1">Illyriam</placeName> dixere senes, dum regna manebant </l>
+               <l n="l2">Patria, et agresti resonabat arundine cantus; </l>
+               <l n="l3">Lanigeras dum pavit oves timidasque capellas </l>
+               <l n="l4">Patrius in patriis pastor, nec palluit, agris." </l>
             </lg>
 
-            <lg n="text.body.div.lg9">
-               <l n="text.body.div.lg9.l1">„<placeName n="text.body.div.lg9.l1.placeName">Illyriam</placeName> memores patrum dixere nepotes. </l>
-               <l n="text.body.div.lg9.l2">Nec male. Nam, memini, mundi quae <placeName n="text.body.div.lg9.l2.placeName">Europa</placeName> vocatur </l>
-               <l n="text.body.div.lg9.l3">Unum principio populum regione locavi, </l>
-               <l n="text.body.div.lg9.l4">Unam gutturibus iussi resonare loquelam, </l>
-               <l n="text.body.div.lg9.l5">Fraternosque dedi fraterno in corpore mores. </l>
-               <l n="text.body.div.lg9.l6">At postquam in quatuor gentes abiisse nepotes, <ref n="text.body.div.lg9.l6.ref">1)</ref> 
+            <lg n="lg12">
+               <l n="l1">„<placeName n="placeName1">Illyriam</placeName> memores patrum dixere nepotes. </l>
+               <l n="l2">Nec male. Nam, memini, mundi quae <placeName n="placeName1">Europa</placeName> vocatur </l>
+               <l n="l3">Unum principio populum regione locavi, </l>
+               <l n="l4">Unam gutturibus iussi resonare loquelam, </l>
+               <l n="l5">Fraternosque dedi fraterno in corpore mores. </l>
+               <l n="l6">At postquam in quatuor gentes abiisse nepotes, <ref n="ref1">1)</ref> 
                </l>
-               <l n="text.body.div.lg9.l7">Et flexisse alio iamiam modulamine vocem </l>
-               <l n="text.body.div.lg9.l8">Accidit, <persName n="text.body.div.lg9.l8.persName1" next="#helladgn">Helladicos</persName> feci consurgere <persName n="text.body.div.lg9.l8.persName2" xml:id="helladgn">gnatos</persName>, </l>
-               <l n="text.body.div.lg9.l9">Regnatosque dein terris ac orbe <persName n="text.body.div.lg9.l9.persName">Latinos</persName>, </l>
-               <l n="text.body.div.lg9.l10">Et fera <persName n="text.body.div.lg9.l10.persName">Teutonidum</persName> borealibus arva latebris. </l>
-               <l n="text.body.div.lg9.l11">Solos, ne dubiis campus tribuatur et irae, </l>
-               <l n="text.body.div.lg9.l12">Solos <persName n="text.body.div.lg9.l12.persName">Illyrides</persName> ex <mentioned n="text.body.div.lg9.l12.mentioned">il</mentioned>, quo terra notatur, </l>
-               <l n="text.body.div.lg9.l13">Dixi <ref n="text.body.div.lg9.l13.ref">2)</ref>, ut terrigenas pateat tellure fuisse </l>
-               <l n="text.body.div.lg9.l14">
-                  <placeName n="text.body.div.lg9.l14.placeName">Illyrica</placeName> patres, quorum de sanguine creta </l>
-               <l n="text.body.div.lg9.l15">Posteritas. Sed, proh Superi, quam turpe negatur </l>
-               <l n="text.body.div.lg9.l16">Horum, siderea quondam quos arce locavi, </l>
-               <l n="text.body.div.lg9.l17">Astra polosque dedi, patrum veneranda propago. </l>
-               <l n="text.body.div.lg9.l18">Quam male praeteritos norunt memorare labores, </l>
-               <l n="text.body.div.lg9.l19">Qui scythico illyricos ausint deducere natos </l>
-               <l n="text.body.div.lg9.l20">Sanguine, sarmatica vel nuper origine cretos, </l>
-               <l n="text.body.div.lg9.l21">Saeva velut tigris mitem produxerit agnum. <ref n="text.body.div.lg9.l21.ref">3)</ref> 
+               <l n="l7">Et flexisse alio iamiam modulamine vocem </l>
+               <l n="l8">Accidit, <persName n="persName1" next="#helladgn">Helladicos</persName> feci consurgere <persName n="persName2" xml:id="helladgn">gnatos</persName>, </l>
+               <l n="l9">Regnatosque dein terris ac orbe <persName n="persName1">Latinos</persName>, </l>
+               <l n="l10">Et fera <persName n="persName1">Teutonidum</persName> borealibus arva latebris. </l>
+               <l n="l11">Solos, ne dubiis campus tribuatur et irae, </l>
+               <l n="l12">Solos <persName n="persName1">Illyrides</persName> ex <mentioned n="mentioned2">il</mentioned>, quo terra notatur, </l>
+               <l n="l13">Dixi <ref n="ref1">2)</ref>, ut terrigenas pateat tellure fuisse </l>
+               <l n="l14">
+                  <placeName n="placeName1">Illyrica</placeName> patres, quorum de sanguine creta </l>
+               <l n="l15">Posteritas. Sed, proh Superi, quam turpe negatur </l>
+               <l n="l16">Horum, siderea quondam quos arce locavi, </l>
+               <l n="l17">Astra polosque dedi, patrum veneranda propago. </l>
+               <l n="l18">Quam male praeteritos norunt memorare labores, </l>
+               <l n="l19">Qui scythico illyricos ausint deducere natos </l>
+               <l n="l20">Sanguine, sarmatica vel nuper origine cretos, </l>
+               <l n="l21">Saeva velut tigris mitem produxerit agnum. <ref n="ref1">3)</ref> 
                </l>
             </lg>
-            <lg n="text.body.div.lg10">
-               <l n="text.body.div.lg10.l1">Heus <sic n="text.body.div.lg10.l1.sic">coeci</sic> (nam non opus est dictamine longo) </l>
-               <l n="text.body.div.lg10.l2">Heus oculis solum crustas deponite vestris, </l>
-               <pb n="text.body.div.lg10.pb"/>
-               <l n="text.body.div.lg10.l3">Quamque dies usque hos simili post saecula voces </l>
-               <l n="text.body.div.lg10.l4">Ore sonent uni, quatuor nunc, cernite ramis, </l>
-               <l n="text.body.div.lg10.l5">Antiquosque agitate locos. Sed coepta sequamur." </l>
+            <lg n="lg13">
+               <l n="l1">Heus <sic n="sic1">coeci</sic> (nam non opus est dictamine longo) </l>
+               <l n="l2">Heus oculis solum crustas deponite vestris, </l>
+               <pb n="pb3"/>
+               <l n="l4">Quamque dies usque hos simili post saecula voces </l>
+               <l n="l5">Ore sonent uni, quatuor nunc, cernite ramis, </l>
+               <l n="l6">Antiquosque agitate locos. Sed coepta sequamur." </l>
             </lg>
 
 
-            <lg n="text.body.div.lg11">
-               <l n="text.body.div.lg11.l1">„Patribus his late niveas diffudit in oras </l>
-               <l n="text.body.div.lg11.l2">Germina magna potens populus, geminosque per orbes </l>
-               <l n="text.body.div.lg11.l3">Slavica signa tulit, dum slavica et ipsa vocatur </l>
-               <l n="text.body.div.lg11.l4">Natio de <mentioned n="text.body.div.lg11.l4.mentioned1" xml:lang="hrv">slava</mentioned>, quo nomine <mentioned n="text.body.div.lg11.l4.mentioned2">gloria</mentioned> genti </l>
-               <l n="text.body.div.lg11.l5">Ore sonat patrio <ref n="text.body.div.lg11.l5.ref">4)</ref> : coelosque et nostra deorum </l>
-               <l n="text.body.div.lg11.l6">Atria summa poli claro meruere labore. </l>
-               <l n="text.body.div.lg11.l7">Huc patriam tuiti dulci tellure recedens </l>
-               <l n="text.body.div.lg11.l8">Magnanimi <persName n="text.body.div.lg11.l8.persName1">Bati</persName> et socii grandaeva <persName n="text.body.div.lg11.l8.persName2">Pinetis</persName> 
-                  <ref n="text.body.div.lg11.l8.ref">5)</ref> 
+            <lg n="lg14">
+               <l n="l1">„Patribus his late niveas diffudit in oras </l>
+               <l n="l2">Germina magna potens populus, geminosque per orbes </l>
+               <l n="l3">Slavica signa tulit, dum slavica et ipsa vocatur </l>
+               <l n="l4">Natio de <mentioned n="mentioned1" xml:lang="hrv">slava</mentioned>, quo nomine <mentioned n="mentioned2">gloria</mentioned> genti </l>
+               <l n="l5">Ore sonat patrio <ref n="ref1">4)</ref> : coelosque et nostra deorum </l>
+               <l n="l6">Atria summa poli claro meruere labore. </l>
+               <l n="l7">Huc patriam tuiti dulci tellure recedens </l>
+               <l n="l8">Magnanimi <persName n="persName1">Bati</persName> et socii grandaeva <persName n="persName2">Pinetis</persName> 
+                  <ref n="ref3">5)</ref> 
                </l>
-               <l n="text.body.div.lg11.l9">Securos veluti ad portus gelida umbra refugit. </l>
-               <l n="text.body.div.lg11.l10">Hic <persName n="text.body.div.lg11.l10.persName1">Ljudevit</persName> 
-                  <ref n="text.body.div.lg11.l10.ref">6)</ref> patriis <persName n="text.body.div.lg11.l10.persName2">Francos</persName> praedatus in agris, </l>
-               <l n="text.body.div.lg11.l11">Ut caram renovaret humum, coelestia vinctus </l>
-               <l n="text.body.div.lg11.l12">Serta comis, quae non potuit, nunc vincula solvit. </l>
-               <l n="text.body.div.lg11.l13">Has <persName n="text.body.div.lg11.l13.persName1">Miloš</persName> et <persName n="text.body.div.lg11.l13.persName2">Lazar</persName> 
-                  <ref n="text.body.div.lg11.l13.ref">7)</ref> sedes petiere per altos, </l>
-               <l n="text.body.div.lg11.l14">Sub quibus in <placeName n="text.body.div.lg11.l14.placeName">Kosovo</placeName> fortes cecidere labores, </l>
-               <l n="text.body.div.lg11.l15">Funeribus magni propriis. Has <persName n="text.body.div.lg11.l15.persName">Marcus</persName> 
-                  <ref n="text.body.div.lg11.l15.ref">8)</ref> ad oras </l>
-               <l n="text.body.div.lg11.l16">Per varios casus, per tot discrimina rerum </l>
-               <l n="text.body.div.lg11.l17">Venit, et aeternam vivet per saecula vitam, </l>
-               <l n="text.body.div.lg11.l18">Carmina dum pastor sylvis resonabit, et alma </l>
-               <l n="text.body.div.lg11.l19">Arte patrum tenues calamos tractabit et arcum. </l>
-               <l n="text.body.div.lg11.l20">
-                  <persName n="text.body.div.lg11.l20.persName">Zrinius</persName> 
-                  <ref n="text.body.div.lg11.l20.ref">9)</ref> hic heros <placeName n="text.body.div.lg11.l20.placeName">Sigeti</placeName> tumulatus in altis </l>
-               <l n="text.body.div.lg11.l21">Moenibus <sic n="text.body.div.lg11.l21.sic">aethereis</sic> recipit nunc praemia terris </l>
-               <l n="text.body.div.lg11.l22">Vulneribus devota suis. Hic <persName n="text.body.div.lg11.l22.persName">Gondola</persName> 
-                  <ref n="text.body.div.lg11.l22.ref">10)</ref> vester, </l>
-               <l n="text.body.div.lg11.l23">
-                  <persName n="text.body.div.lg11.l23.persName">Illyrides Musae</persName>, vates, vesterque sacerdos </l>
-               <l n="text.body.div.lg11.l24">
-                  <persName n="text.body.div.lg11.l24.persName">Gundulić</persName> hic residet: circum sua tempora lauri. </l>
-               <l n="text.body.div.lg11.l25">Actaque dum repetens rivi viridante recumbit </l>
-               <l n="text.body.div.lg11.l26">Margine, et illyrico carmen de pectore fundit, </l>
-               <l n="text.body.div.lg11.l27">Lympha stetit, steteruntque vagis in frondibus aurae, </l>
-               <l n="text.body.div.lg11.l28">Vosque canenti animas, Superi, tenuistis et aures. </l>
-               <l n="text.body.div.lg11.l29">Hic alii centum, quos invida temporis ora </l>
-               <l n="text.body.div.lg11.l30">Mentibus, et memorum grato rapuere nepotum </l>
+               <l n="l9">Securos veluti ad portus gelida umbra refugit. </l>
+               <l n="l10">Hic <persName n="persName1">Ljudevit</persName> 
+                  <ref n="ref2">6)</ref> patriis <persName n="persName3">Francos</persName> praedatus in agris, </l>
+               <l n="l11">Ut caram renovaret humum, coelestia vinctus </l>
+               <l n="l12">Serta comis, quae non potuit, nunc vincula solvit. </l>
+               <l n="l13">Has <persName n="persName1">Miloš</persName> et <persName n="persName2">Lazar</persName> 
+                  <ref n="ref3">7)</ref> sedes petiere per altos, </l>
+               <l n="l14">Sub quibus in <placeName n="placeName1">Kosovo</placeName> fortes cecidere labores, </l>
+               <l n="l15">Funeribus magni propriis. Has <persName n="persName1">Marcus</persName> 
+                  <ref n="ref2">8)</ref> ad oras </l>
+               <l n="l16">Per varios casus, per tot discrimina rerum </l>
+               <l n="l17">Venit, et aeternam vivet per saecula vitam, </l>
+               <l n="l18">Carmina dum pastor sylvis resonabit, et alma </l>
+               <l n="l19">Arte patrum tenues calamos tractabit et arcum. </l>
+               <l n="l20">
+                  <persName n="persName1">Zrinius</persName> 
+                  <ref n="ref2">9)</ref> hic heros <placeName n="placeName3">Sigeti</placeName> tumulatus in altis </l>
+               <l n="l21">Moenibus <sic n="sic1">aethereis</sic> recipit nunc praemia terris </l>
+               <l n="l22">Vulneribus devota suis. Hic <persName n="persName1">Gondola</persName> 
+                  <ref n="ref2">10)</ref> vester, </l>
+               <l n="l23">
+                  <persName n="persName1">Illyrides Musae</persName>, vates, vesterque sacerdos </l>
+               <l n="l24">
+                  <persName n="persName1">Gundulić</persName> hic residet: circum sua tempora lauri. </l>
+               <l n="l25">Actaque dum repetens rivi viridante recumbit </l>
+               <l n="l26">Margine, et illyrico carmen de pectore fundit, </l>
+               <l n="l27">Lympha stetit, steteruntque vagis in frondibus aurae, </l>
+               <l n="l28">Vosque canenti animas, Superi, tenuistis et aures. </l>
+               <l n="l29">Hic alii centum, quos invida temporis ora </l>
+               <l n="l30">Mentibus, et memorum grato rapuere nepotum </l>
 
 
 
-               <pb n="text.body.div.lg11.pb"/>
+               <pb n="pb31"/>
 
 
 
-               <l n="text.body.div.lg11.l31">Pectore, nunc degunt et patria tecta tuentur, </l>
-               <l n="text.body.div.lg11.l32">
-                  <persName n="text.body.div.lg11.l32.persName">Martem</persName> quemque putes, hominum dum forma manebat, </l>
-               <l n="text.body.div.lg11.l33">Illyricisque <sic n="text.body.div.lg11.l33.sic">furiit</sic> inimica potentia terris </l>
-               <l n="text.body.div.lg11.l34">Antiquos populata patres: nunc blanda verendos </l>
-               <l n="text.body.div.lg11.l35">Vox resonat Superos, superis nunc lene refulgent </l>
-               <l n="text.body.div.lg11.l36">Ora iocis, tacitasque fugant in nectare curas. </l>
-               <l n="text.body.div.lg11.l37">Tantum habet illyrico coelum de sanguine lucis." </l>
+               <l n="l32">Pectore, nunc degunt et patria tecta tuentur, </l>
+               <l n="l33">
+                  <persName n="persName1">Martem</persName> quemque putes, hominum dum forma manebat, </l>
+               <l n="l34">Illyricisque <sic n="sic1">furiit</sic> inimica potentia terris </l>
+               <l n="l35">Antiquos populata patres: nunc blanda verendos </l>
+               <l n="l36">Vox resonat Superos, superis nunc lene refulgent </l>
+               <l n="l37">Ora iocis, tacitasque fugant in nectare curas. </l>
+               <l n="l38">Tantum habet illyrico coelum de sanguine lucis." </l>
             </lg>
 
-            <lg n="text.body.div.lg12">
-               <l n="text.body.div.lg12.l1">„At modo quid nostros, hominum Superumque satoris, </l>
-               <l n="text.body.div.lg12.l2">Sistitur ante oculos? Eheu, quid saeva tulere </l>
-               <l n="text.body.div.lg12.l3">Fata meis, quos ante alios hac sede reponi </l>
-               <l n="text.body.div.lg12.l4">Decrevi <persName n="text.body.div.lg12.l4.persName">Illyrides</persName>, et magno in pectore magnum </l>
-               <l n="text.body.div.lg12.l5">Cor animumque dedi, sortis ne tela timerent? </l>
-               <l n="text.body.div.lg12.l6">Non satis est sceleris, quondam potuisse videre, </l>
-               <l n="text.body.div.lg12.l7">Barbarus ut campis ferro bacchetur et acri </l>
-               <l n="text.body.div.lg12.l8">
-                  <persName n="text.body.div.lg12.l8.persName">Parthus</persName> equo, rigidumque furens <placeName n="text.body.div.lg12.l8.placeName">Acheronta</placeName> beatis </l>
-               <l n="text.body.div.lg12.l9">Seminet <persName n="text.body.div.lg12.l9.persName">Hunnus</persName> agris, nec vindice falce venenum </l>
-               <l n="text.body.div.lg12.l10">Exsecuisse hominum, et stygias misisse sub umbras, </l>
-               <l n="text.body.div.lg12.l11">Aeternas umbras <placeName n="text.body.div.lg12.l11.placeName">Erebi</placeName> noctemque profundam? </l>
-                <l n="text.body.div.lg12.l12">
-                  <persName n="text.body.div.lg12.l12.persName1" next="#marsap">Marsus</persName> qualis <persName n="text.body.div.lg12.l12.persName2" xml:id="marsap">aper</persName> latebris elapsus agente </l>
-               <l n="text.body.div.lg12.l13">Longaeva esurie, teneros dum vadit in agnos; </l>
-               <l n="text.body.div.lg12.l14">Sanguineas faucum frendens recludit abyssos, </l>
-               <l n="text.body.div.lg12.l15">Fulmineique minas iactant et funera dentes, </l>
-               <l n="text.body.div.lg12.l16">Dum timidus proprii vindex, stat pastor, et ingens </l>
-               <l n="text.body.div.lg12.l17">Portentum miratur iners spectator, at illud </l>
-               <l n="text.body.div.lg12.l18">Dentibus et furiis totum discerpit ovile: </l>
-               <l n="text.body.div.lg12.l19">Sic vos <persName n="text.body.div.lg12.l19.persName1">Illyridum</persName> sicco, fera numina, <persName n="text.body.div.lg12.l19.persName2">Parcae</persName>, </l>
-               <l n="text.body.div.lg12.l20">Lumine spectastis longos sine fine labores, </l>
-               <l n="text.body.div.lg12.l21">Dum furiosus agros, homines populatus et urbes </l>
-               <l n="text.body.div.lg12.l22">
-                  <persName n="text.body.div.lg12.l22.persName">Tartarus</persName> horrendam sparsit super omnia mortem." </l>
+            <lg n="lg15">
+               <l n="l1">„At modo quid nostros, hominum Superumque satoris, </l>
+               <l n="l2">Sistitur ante oculos? Eheu, quid saeva tulere </l>
+               <l n="l3">Fata meis, quos ante alios hac sede reponi </l>
+               <l n="l4">Decrevi <persName n="persName1">Illyrides</persName>, et magno in pectore magnum </l>
+               <l n="l5">Cor animumque dedi, sortis ne tela timerent? </l>
+               <l n="l6">Non satis est sceleris, quondam potuisse videre, </l>
+               <l n="l7">Barbarus ut campis ferro bacchetur et acri </l>
+               <l n="l8">
+                  <persName n="persName1">Parthus</persName> equo, rigidumque furens <placeName n="placeName2">Acheronta</placeName> beatis </l>
+               <l n="l9">Seminet <persName n="persName1">Hunnus</persName> agris, nec vindice falce venenum </l>
+               <l n="l10">Exsecuisse hominum, et stygias misisse sub umbras, </l>
+               <l n="l11">Aeternas umbras <placeName n="placeName1">Erebi</placeName> noctemque profundam? </l>
+                <l n="l12">
+                  <persName n="persName1" next="#marsap">Marsus</persName> qualis <persName n="persName2" xml:id="marsap">aper</persName> latebris elapsus agente </l>
+               <l n="l13">Longaeva esurie, teneros dum vadit in agnos; </l>
+               <l n="l14">Sanguineas faucum frendens recludit abyssos, </l>
+               <l n="l15">Fulmineique minas iactant et funera dentes, </l>
+               <l n="l16">Dum timidus proprii vindex, stat pastor, et ingens </l>
+               <l n="l17">Portentum miratur iners spectator, at illud </l>
+               <l n="l18">Dentibus et furiis totum discerpit ovile: </l>
+               <l n="l19">Sic vos <persName n="persName1">Illyridum</persName> sicco, fera numina, <persName n="persName2">Parcae</persName>, </l>
+               <l n="l20">Lumine spectastis longos sine fine labores, </l>
+               <l n="l21">Dum furiosus agros, homines populatus et urbes </l>
+               <l n="l22">
+                  <persName n="persName1">Tartarus</persName> horrendam sparsit super omnia mortem." </l>
             </lg>
 
-            <lg n="text.body.div.lg13">
-               <l n="text.body.div.lg13.l1">„Nec mala longa cadunt, variant mala pristina tantum, </l>
-                <l n="text.body.div.lg13.l2">Dum <persName n="text.body.div.lg13.l2.persName1" next="#patrmus">patriae</persName> titubant <persName n="text.body.div.lg13.l2.persName2" xml:id="patrmus">Musae</persName> maria omnia circum </l>
-               <l n="text.body.div.lg13.l3">Fluctus per medios ubi nil nisi pontus et aer, </l>
-               <pb n="text.body.div.lg13.pb"/>
+            <lg n="lg16">
+               <l n="l1">„Nec mala longa cadunt, variant mala pristina tantum, </l>
+                <l n="l2">Dum <persName n="persName1" next="#patrmus">patriae</persName> titubant <persName n="persName2" xml:id="patrmus">Musae</persName> maria omnia circum </l>
+               <l n="l3">Fluctus per medios ubi nil nisi pontus et aer, </l>
+               <pb n="pb4"/>
 
-               <l n="text.body.div.lg13.l4">Nec <persName n="text.body.div.lg13.l4.persName">Palinurus</persName> adest rector sortisque futurae </l>
-               <l n="text.body.div.lg13.l5">Praescius: at viduas onerosis quassat aquarum </l>
-               <l n="text.body.div.lg13.l6">Molibus unda rates et pondere flectit habenas. </l>
-               <l n="text.body.div.lg13.l7">Hoc peccasse satis. Nec enim cras nostra deorum </l>
-               <l n="text.body.div.lg13.l8">Regia securos cernet splendescere soles, </l>
-               <l n="text.body.div.lg13.l9">Et metuent umbras per amica silentia noctis </l>
-               <l n="text.body.div.lg13.l10">Sidera, dum ipse suo magnus trepidabit <placeName n="text.body.div.lg13.l10.placeName">Olympo</placeName> 
+               <l n="l5">Nec <persName n="persName1">Palinurus</persName> adest rector sortisque futurae </l>
+               <l n="l6">Praescius: at viduas onerosis quassat aquarum </l>
+               <l n="l7">Molibus unda rates et pondere flectit habenas. </l>
+               <l n="l8">Hoc peccasse satis. Nec enim cras nostra deorum </l>
+               <l n="l9">Regia securos cernet splendescere soles, </l>
+               <l n="l10">Et metuent umbras per amica silentia noctis </l>
+               <l n="l11">Sidera, dum ipse suo magnus trepidabit <placeName n="placeName1">Olympo</placeName> 
                </l>
-               <l n="text.body.div.lg13.l11">
-                  <persName n="text.body.div.lg13.l11.persName">Jupiter</persName>, ac natas supplex venerabitur Orci; </l>
-               <l n="text.body.div.lg13.l12">Ni putridum medica quamprimum falce recidat </l>
-               <l n="text.body.div.lg13.l13">Vulnus, et aethereo prostraverit igne nocentes. </l>
-               <l n="text.body.div.lg13.l14">Tantane vos duri tenuit fiducia vestri </l>
-               <l n="text.body.div.lg13.l15">Muneris, ut <persName n="text.body.div.lg13.l15.persName1">Ditem</persName> nostro sine numine, <persName n="text.body.div.lg13.l15.persName2">Parcae</persName>, </l>
-               <l n="text.body.div.lg13.l16">Caeruleumque deum florentia sternere regna </l>
-               <l n="text.body.div.lg13.l17">Illyridum, fluctu ferroque, sinatis inertes, </l>
-               <l n="text.body.div.lg13.l18">Et piceas toto nebulas convolvere coelo? </l>
-               <l n="text.body.div.lg13.l19">Per mare, per terras, per <placeName n="text.body.div.lg13.l19.placeName">Averni</placeName> flumina iuro, </l>
-               <l n="text.body.div.lg13.l20">Vos ego. Sed longos praestat lenire labores, </l>
-               <l n="text.body.div.lg13.l21">Nutantesque viris ex parte reducere vires. </l>
-               <l n="text.body.div.lg13.l22">Post mihi non simili poena commissa luetis." </l>
+               <l n="l12">
+                  <persName n="persName1">Jupiter</persName>, ac natas supplex venerabitur Orci; </l>
+               <l n="l13">Ni putridum medica quamprimum falce recidat </l>
+               <l n="l14">Vulnus, et aethereo prostraverit igne nocentes. </l>
+               <l n="l15">Tantane vos duri tenuit fiducia vestri </l>
+               <l n="l16">Muneris, ut <persName n="persName1">Ditem</persName> nostro sine numine, <persName n="persName2">Parcae</persName>, </l>
+               <l n="l17">Caeruleumque deum florentia sternere regna </l>
+               <l n="l18">Illyridum, fluctu ferroque, sinatis inertes, </l>
+               <l n="l19">Et piceas toto nebulas convolvere coelo? </l>
+               <l n="l20">Per mare, per terras, per <placeName n="placeName1">Averni</placeName> flumina iuro, </l>
+               <l n="l21">Vos ego. Sed longos praestat lenire labores, </l>
+               <l n="l22">Nutantesque viris ex parte reducere vires. </l>
+               <l n="l23">Post mihi non simili poena commissa luetis." </l>
             </lg>
 
-            <lg n="text.body.div.lg14">
-               <l n="text.body.div.lg14.l1">Sic ait, et nitidas fulmen dimittit in auras </l>
-               <l n="text.body.div.lg14.l2">Dextera, fatorum quum laeva capessit habenas. </l>
-               <l n="text.body.div.lg14.l3">Intonuere poli gemitumque dedere cavernae, </l>
-               <l n="text.body.div.lg14.l4">Replenturque vago Superum de murmure coeli, </l>
-               <l n="text.body.div.lg14.l5">Quale esset magno in populo, dum saepe potentis </l>
-               <l n="text.body.div.lg14.l6">Oribus ac oculo regis dependet, at ille </l>
-               <l n="text.body.div.lg14.l7">Jura fidemque legens quaerentia lumina certo </l>
-               <l n="text.body.div.lg14.l8">Sonte locat, meritasque petit de crimine poenas. </l>
-               <l n="text.body.div.lg14.l9">At pater omnipotens nutum <sic n="text.body.div.lg14.l9.sic">devibrat</sic> et almam </l>
-               <l n="text.body.div.lg14.l10">Quassans caesariem coelos ac aethera versat, </l>
-               <l n="text.body.div.lg14.l11">Maiugenamque petit celerem. Nec longa morantur </l>
-               <l n="text.body.div.lg14.l12">Tempora, iam steterat iussis <persName n="text.body.div.lg14.l12.persName">Cyllenius ales</persName>. </l>
-               <l n="text.body.div.lg14.l13">Tum pater aeternus nato sua dulcia libat </l>
-               <l n="text.body.div.lg14.l14">Oscula, quid peteretque dein sic vocibus orsus: </l>
-            </lg>
-
-
-
-            <pb n="text.body.div.pb2"/>
-
-
-
-            <lg n="text.body.div.lg15">
-               <l n="text.body.div.lg15.l1">"Nate (mei grato nam sunt tibi pectore amores) </l>
-               <l n="text.body.div.lg15.l2">Excipe, nate, patrem et velox commissa resolve. </l>
-               <l n="text.body.div.lg15.l3">Urbs est illyrica princeps tellure reposta, </l>
-               <l n="text.body.div.lg15.l4">Utque vides, turres placido possessa vetustas </l>
-               <l n="text.body.div.lg15.l5">Colle, sacrosque <persName n="text.body.div.lg15.l5.persName1">Lares</persName> et patria vota <persName n="text.body.div.lg15.l5.persName2">Penates</persName>. </l>
-               <l n="text.body.div.lg15.l6">
-                  <placeName n="text.body.div.lg15.l6.placeName">Zagrabiam</placeName> dicunt. Sedes longaeva potentis </l>
-               <l n="text.body.div.lg15.l7">Proregis, summa validas moderantis habenas </l>
-               <l n="text.body.div.lg15.l8">
-                  <persName n="text.body.div.lg15.l8.persName">Illyridum</persName> dextra; vestri sedesque deorum </l>
-               <l n="text.body.div.lg15.l9">Pontificis, Superi, divas qui libat ad aras. </l>
-               <l n="text.body.div.lg15.l10">Illic illyrico degit de sanguine cretus </l>
-               <l n="text.body.div.lg15.l11">Vir, sed amor patriae forti sub pectore multo </l>
-               <l n="text.body.div.lg15.l12">
-                  <persName n="text.body.div.lg15.l12.persName">Illyridem</persName> notat esse magis. Nam nuper in almo </l>
-               <l n="text.body.div.lg15.l13">Patrum concilio patrias defenderat oras </l>
-               <l n="text.body.div.lg15.l14">Conciliante animos lingua, motusque virorum. </l>
-               <l n="text.body.div.lg15.l15">Hinc nobis, patriisque focis dilectus et orbi, </l>
-               <l n="text.body.div.lg15.l16">Cui meliore deus finxi praecordia gleba. </l>
-               <l n="text.body.div.lg15.l17">Qualis enim curvo solers innixus aratro </l>
-               <l n="text.body.div.lg15.l18">Stat pater, et memorans sua dulcia pignora natos, </l>
-               <l n="text.body.div.lg15.l19">Fidam vertit humum validos urgetque iuvencos, </l>
-               <l n="text.body.div.lg15.l20">Nec calidos sentit soles aestatis; at illi </l>
-               <l n="text.body.div.lg15.l21">Uni omnes reduci plaudunt, unoque quiescunt </l>
-               <l n="text.body.div.lg15.l22">Pectore, complexuque tenent ac oscula libant: </l>
-               <l n="text.body.div.lg15.l23">Sic huic, nate, viro (dixere <persName n="text.body.div.lg15.l23.persName">Kukuljević</persName>) altum </l>
-               <l n="text.body.div.lg15.l24">Cor animusque sacro patriae telluris amore </l>
-               <l n="text.body.div.lg15.l25">Arsit, dum memorem patriae dissolvere linguam </l>
-               <l n="text.body.div.lg15.l26">Ausus, dilectum arte focum defendit et aras, </l>
-               <l n="text.body.div.lg15.l27">Ut caram modicum pubem relevaret ad auras." </l>
-            </lg>
-
-            <lg n="text.body.div.lg16">
-               <l n="text.body.div.lg16.l1">„Nate vola. Nam longa mihi praescindere visum </l>
-               <l n="text.body.div.lg16.l2">Jam mala, promeritis longe meliora per atra </l>
-               <l n="text.body.div.lg16.l3">Tempora saeclorum, rigidas minitante procellas </l>
-               <l n="text.body.div.lg16.l4">Aethere, et indomitis pelago bacchante sub undis. </l>
-               <l n="text.body.div.lg16.l5">Nate vola, celeremque refer sub sidera famam: </l>
-               <l n="text.body.div.lg16.l6">Coelitibus placitum patrias relevare Camoenas, </l>
-
-
-
-               <pb n="text.body.div.lg16.pb"/>
-
-
-
-               <l n="text.body.div.lg16.l7">Et diros rectore novo lenire dolores </l>
-               <l n="text.body.div.lg16.l8">Magnanimae terrae, magnumque Kukuljević almis </l>
-               <l n="text.body.div.lg16.l9">Praeponi Illyridum Musis. Sic volvere Parcas. </l>
-               <l n="text.body.div.lg16.l10">Heu video fatis, longos gestire nepotes, </l>
-               <l n="text.body.div.lg16.l11">Quos tulit atque feret saeclis ventura propago </l>
-               <l n="text.body.div.lg16.l12">Illyrico quondam claro de sanguine natos. </l>
-               <l n="text.body.div.lg16.l13">Quam bene de tenero manantia pectore vota, </l>
-               <l n="text.body.div.lg16.l14">Gaudiaque, et nitido stillantes lumine rores, </l>
-               <l n="text.body.div.lg16.l15">Ac memori ardentes pietate in cordibus arae </l>
-               <l n="text.body.div.lg16.l16">Tanto conveniunt homini. Sed vade per auras." </l>
-            </lg>
-
-            <lg n="text.body.div.lg17">
-               <l n="text.body.div.lg17.l1">Dixerat. At genitus dissolvere magna parabat </l>
-               <l n="text.body.div.lg17.l2">Jussa patris. Zephyrosque vocans talaria primum </l>
-               <l n="text.body.div.lg17.l3">Aurea dat pedibus, pennas galeaeque comatae, </l>
-               <l n="text.body.div.lg17.l4">Atque humeris alas nectit, quibus aera magnum, </l>
-               <l n="text.body.div.lg17.l5">Sidereis seu posce viis, seu turbida supra </l>
-               <l n="text.body.div.lg17.l6">Aequora, seu terras, findens commissa resolvit. </l>
-               <l n="text.body.div.lg17.l7">Virgam deinde capit: pallentes evocat Orco </l>
-               <l n="text.body.div.lg17.l8">Hac animas, tenebroso alias detrudit Averni </l>
-               <l n="text.body.div.lg17.l9">Flumine, datque adimitque leves de corde sopores. </l>
-               <l n="text.body.div.lg17.l10">Afflant dehinc Zephyri, et liquidas descendit ad auras. </l>
-            </lg>
-
-            <lg n="text.body.div.lg18">
-               <l n="text.body.div.lg18.l1">Interea Divi, Illyridum quos alta creavit </l>
-               <l n="text.body.div.lg18.l2">Patria et immotos coelum Superosque tueri </l>
-               <l n="text.body.div.lg18.l3">Jusserat, immanes iamiam cessare labores </l>
-               <l n="text.body.div.lg18.l4">Dum memores veteris cernunt telluris, et amplis </l>
-               <l n="text.body.div.lg18.l5">Illyriae campis pictos reviviscere flores, </l>
-               <l n="text.body.div.lg18.l6">Agrestique novos calamo resonare parentum </l>
-               <l n="text.body.div.lg18.l7">Arte modos; viridi fidas dum valle reducit </l>
-               <l n="text.body.div.lg18.l8">Pastor oves, teneras lento vel colle capellas; </l>
-               <l n="text.body.div.lg18.l9">Undique dum saxis reboant et montibus almi </l>
-               <l n="text.body.div.lg18.l10">Illyrides ac Illyrides vox icta cavernis </l>
-               <l n="text.body.div.lg18.l11">Bis redit, et resonans nitidis renovatur in auris; </l>
-               <l n="text.body.div.lg18.l12">Dumque sua <sic n="text.body.div.lg18.l12.sic">abstergunt</sic> lacrimantia lumina Musae </l>
+            <lg n="lg17">
+               <l n="l1">Sic ait, et nitidas fulmen dimittit in auras </l>
+               <l n="l2">Dextera, fatorum quum laeva capessit habenas. </l>
+               <l n="l3">Intonuere poli gemitumque dedere cavernae, </l>
+               <l n="l4">Replenturque vago Superum de murmure coeli, </l>
+               <l n="l5">Quale esset magno in populo, dum saepe potentis </l>
+               <l n="l6">Oribus ac oculo regis dependet, at ille </l>
+               <l n="l7">Jura fidemque legens quaerentia lumina certo </l>
+               <l n="l8">Sonte locat, meritasque petit de crimine poenas. </l>
+               <l n="l9">At pater omnipotens nutum <sic n="sic1">devibrat</sic> et almam </l>
+               <l n="l10">Quassans caesariem coelos ac aethera versat, </l>
+               <l n="l11">Maiugenamque petit celerem. Nec longa morantur </l>
+               <l n="l12">Tempora, iam steterat iussis <persName n="persName1">Cyllenius ales</persName>. </l>
+               <l n="l13">Tum pater aeternus nato sua dulcia libat </l>
+               <l n="l14">Oscula, quid peteretque dein sic vocibus orsus: </l>
             </lg>
 
 
 
-            <pb n="text.body.div.pb3"/>
+            <pb n="pb18"/>
 
 
 
-            <lg n="text.body.div.lg19">
-               <l n="text.body.div.lg19.l1">Jam sapiente dato viduis rectore carinis: </l>
-               <l n="text.body.div.lg19.l2">Aethereis veniunt tectis, longoque locantur </l>
-               <l n="text.body.div.lg19.l3">Ordine, quo meritum, longaeva aetasve ferebat, </l>
-               <l n="text.body.div.lg19.l4">Dum oribus ac oculis Divum coelestia splendent </l>
-               <l n="text.body.div.lg19.l5">Gaudia, et aeternos spirant sine fine nitores. </l>
-               <l n="text.body.div.lg19.l6">Tum <persName n="text.body.div.lg19.l6.persName">Ljudevit</persName>: „Fratres: nam firmius ista sonabunt </l>
-               <l n="text.body.div.lg19.l7">Gutturibus Divum dehinc icta vocabula nostris. </l>
-               <l n="text.body.div.lg19.l8">Plaudite iam, fratres. Patria tellure resurgunt </l>
-               <l n="text.body.div.lg19.l9">Tecta ferae quondam noctis destructa procellis. </l>
-               <l n="text.body.div.lg19.l10">Et tumulata viros, campos tumulata virentes </l>
-               <l n="text.body.div.lg19.l11">Fata favent, magnus rursus dum captat habenas </l>
-               <l n="text.body.div.lg19.l12">Jupiter, ac piceas nubes dispellit et umbras </l>
-               <l n="text.body.div.lg19.l13">Illyridum terris, lucemque diemque reducit </l>
-               <l n="text.body.div.lg19.l14">Sole novo. Alma favet Cytherea, favetque <persName n="text.body.div.lg19.l14.persName">Diana</persName>. <ref n="text.body.div.lg19.l14.ref">11)</ref> 
+            <lg n="lg19">
+               <l n="l1">"Nate (mei grato nam sunt tibi pectore amores) </l>
+               <l n="l2">Excipe, nate, patrem et velox commissa resolve. </l>
+               <l n="l3">Urbs est illyrica princeps tellure reposta, </l>
+               <l n="l4">Utque vides, turres placido possessa vetustas </l>
+               <l n="l5">Colle, sacrosque <persName n="persName1">Lares</persName> et patria vota <persName n="persName2">Penates</persName>. </l>
+               <l n="l6">
+                  <placeName n="placeName1">Zagrabiam</placeName> dicunt. Sedes longaeva potentis </l>
+               <l n="l7">Proregis, summa validas moderantis habenas </l>
+               <l n="l8">
+                  <persName n="persName1">Illyridum</persName> dextra; vestri sedesque deorum </l>
+               <l n="l9">Pontificis, Superi, divas qui libat ad aras. </l>
+               <l n="l10">Illic illyrico degit de sanguine cretus </l>
+               <l n="l11">Vir, sed amor patriae forti sub pectore multo </l>
+               <l n="l12">
+                  <persName n="persName1">Illyridem</persName> notat esse magis. Nam nuper in almo </l>
+               <l n="l13">Patrum concilio patrias defenderat oras </l>
+               <l n="l14">Conciliante animos lingua, motusque virorum. </l>
+               <l n="l15">Hinc nobis, patriisque focis dilectus et orbi, </l>
+               <l n="l16">Cui meliore deus finxi praecordia gleba. </l>
+               <l n="l17">Qualis enim curvo solers innixus aratro </l>
+               <l n="l18">Stat pater, et memorans sua dulcia pignora natos, </l>
+               <l n="l19">Fidam vertit humum validos urgetque iuvencos, </l>
+               <l n="l20">Nec calidos sentit soles aestatis; at illi </l>
+               <l n="l21">Uni omnes reduci plaudunt, unoque quiescunt </l>
+               <l n="l22">Pectore, complexuque tenent ac oscula libant: </l>
+               <l n="l23">Sic huic, nate, viro (dixere <persName n="persName1">Kukuljević</persName>) altum </l>
+               <l n="l24">Cor animusque sacro patriae telluris amore </l>
+               <l n="l25">Arsit, dum memorem patriae dissolvere linguam </l>
+               <l n="l26">Ausus, dilectum arte focum defendit et aras, </l>
+               <l n="l27">Ut caram modicum pubem relevaret ad auras." </l>
+            </lg>
+
+            <lg n="lg20">
+               <l n="l1">„Nate vola. Nam longa mihi praescindere visum </l>
+               <l n="l2">Jam mala, promeritis longe meliora per atra </l>
+               <l n="l3">Tempora saeclorum, rigidas minitante procellas </l>
+               <l n="l4">Aethere, et indomitis pelago bacchante sub undis. </l>
+               <l n="l5">Nate vola, celeremque refer sub sidera famam: </l>
+               <l n="l6">Coelitibus placitum patrias relevare Camoenas, </l>
+
+
+
+               <pb n="pb7"/>
+
+
+
+               <l n="l8">Et diros rectore novo lenire dolores </l>
+               <l n="l9">Magnanimae terrae, magnumque Kukuljević almis </l>
+               <l n="l10">Praeponi Illyridum Musis. Sic volvere Parcas. </l>
+               <l n="l11">Heu video fatis, longos gestire nepotes, </l>
+               <l n="l12">Quos tulit atque feret saeclis ventura propago </l>
+               <l n="l13">Illyrico quondam claro de sanguine natos. </l>
+               <l n="l14">Quam bene de tenero manantia pectore vota, </l>
+               <l n="l15">Gaudiaque, et nitido stillantes lumine rores, </l>
+               <l n="l16">Ac memori ardentes pietate in cordibus arae </l>
+               <l n="l17">Tanto conveniunt homini. Sed vade per auras." </l>
+            </lg>
+
+            <lg n="lg21">
+               <l n="l1">Dixerat. At genitus dissolvere magna parabat </l>
+               <l n="l2">Jussa patris. Zephyrosque vocans talaria primum </l>
+               <l n="l3">Aurea dat pedibus, pennas galeaeque comatae, </l>
+               <l n="l4">Atque humeris alas nectit, quibus aera magnum, </l>
+               <l n="l5">Sidereis seu posce viis, seu turbida supra </l>
+               <l n="l6">Aequora, seu terras, findens commissa resolvit. </l>
+               <l n="l7">Virgam deinde capit: pallentes evocat Orco </l>
+               <l n="l8">Hac animas, tenebroso alias detrudit Averni </l>
+               <l n="l9">Flumine, datque adimitque leves de corde sopores. </l>
+               <l n="l10">Afflant dehinc Zephyri, et liquidas descendit ad auras. </l>
+            </lg>
+
+            <lg n="lg22">
+               <l n="l1">Interea Divi, Illyridum quos alta creavit </l>
+               <l n="l2">Patria et immotos coelum Superosque tueri </l>
+               <l n="l3">Jusserat, immanes iamiam cessare labores </l>
+               <l n="l4">Dum memores veteris cernunt telluris, et amplis </l>
+               <l n="l5">Illyriae campis pictos reviviscere flores, </l>
+               <l n="l6">Agrestique novos calamo resonare parentum </l>
+               <l n="l7">Arte modos; viridi fidas dum valle reducit </l>
+               <l n="l8">Pastor oves, teneras lento vel colle capellas; </l>
+               <l n="l9">Undique dum saxis reboant et montibus almi </l>
+               <l n="l10">Illyrides ac Illyrides vox icta cavernis </l>
+               <l n="l11">Bis redit, et resonans nitidis renovatur in auris; </l>
+               <l n="l12">Dumque sua <sic n="sic1">abstergunt</sic> lacrimantia lumina Musae </l>
+            </lg>
+
+
+
+            <pb n="pb23"/>
+
+
+
+            <lg n="lg24">
+               <l n="l1">Jam sapiente dato viduis rectore carinis: </l>
+               <l n="l2">Aethereis veniunt tectis, longoque locantur </l>
+               <l n="l3">Ordine, quo meritum, longaeva aetasve ferebat, </l>
+               <l n="l4">Dum oribus ac oculis Divum coelestia splendent </l>
+               <l n="l5">Gaudia, et aeternos spirant sine fine nitores. </l>
+               <l n="l6">Tum <persName n="persName1">Ljudevit</persName>: „Fratres: nam firmius ista sonabunt </l>
+               <l n="l7">Gutturibus Divum dehinc icta vocabula nostris. </l>
+               <l n="l8">Plaudite iam, fratres. Patria tellure resurgunt </l>
+               <l n="l9">Tecta ferae quondam noctis destructa procellis. </l>
+               <l n="l10">Et tumulata viros, campos tumulata virentes </l>
+               <l n="l11">Fata favent, magnus rursus dum captat habenas </l>
+               <l n="l12">Jupiter, ac piceas nubes dispellit et umbras </l>
+               <l n="l13">Illyridum terris, lucemque diemque reducit </l>
+               <l n="l14">Sole novo. Alma favet Cytherea, favetque <persName n="persName1">Diana</persName>. <ref n="ref2">11)</ref> 
                </l>
-               <l n="text.body.div.lg19.l15">Cernite, nam teneras iungunt (mirabile visu) </l>
-               <l n="text.body.div.lg19.l16">Luce manus clypeo, nostros tutante nepotes. </l>
-               <l n="text.body.div.lg19.l17">Non cassum nostra iacuit cervice recisum </l>
-               <l n="text.body.div.lg19.l18">Corpus, et immanes vestri cecidere labores, </l>
-               <l n="text.body.div.lg19.l19">
-                  <persName n="text.body.div.lg19.l19.persName1">Bate</persName> ac magne <persName n="text.body.div.lg19.l19.persName2">Pines</persName>; <persName n="text.body.div.lg19.l19.persName3">Miloši</persName> 
-                  <persName n="text.body.div.lg19.l19.persName4">Lazari</persName>que supremus </l>
-               <l n="text.body.div.lg19.l20">
-                  <corr n="text.body.div.lg19.l20.corr" resp="viaf74230808">Fluxit</corr> corde cruor. Nec <persName n="text.body.div.lg19.l20.persName">Zrinius</persName> occidit heros </l>
-               <l n="text.body.div.lg19.l21">Gratis. Sed <placeName n="text.body.div.lg19.l21.placeName">Sigetum</placeName> magna dum morte tuetur, </l>
-               <l n="text.body.div.lg19.l22">Venturos tuitus, vitam cum sanguine fudit. </l>
-               <l n="text.body.div.lg19.l23">Plaudite iam, fratres: nam denuo patria surgit, </l>
-               <l n="text.body.div.lg19.l24">Plaudite iam laeti, ac sortem celebrate secundam." </l>
+               <l n="l15">Cernite, nam teneras iungunt (mirabile visu) </l>
+               <l n="l16">Luce manus clypeo, nostros tutante nepotes. </l>
+               <l n="l17">Non cassum nostra iacuit cervice recisum </l>
+               <l n="l18">Corpus, et immanes vestri cecidere labores, </l>
+               <l n="l19">
+                  <persName n="persName1">Bate</persName> ac magne <persName n="persName2">Pines</persName>; <persName n="persName3">Miloši</persName> 
+                  <persName n="persName4">Lazari</persName>que supremus </l>
+               <l n="l20">
+                  <corr n="corr1" resp="viaf74230808">Fluxit</corr> corde cruor. Nec <persName n="persName2">Zrinius</persName> occidit heros </l>
+               <l n="l21">Gratis. Sed <placeName n="placeName1">Sigetum</placeName> magna dum morte tuetur, </l>
+               <l n="l22">Venturos tuitus, vitam cum sanguine fudit. </l>
+               <l n="l23">Plaudite iam, fratres: nam denuo patria surgit, </l>
+               <l n="l24">Plaudite iam laeti, ac sortem celebrate secundam." </l>
             </lg>
 
-            <lg n="text.body.div.lg20">
-               <l n="text.body.div.lg20.l1">Illi omnes hilari clamant de pectore voces, </l>
-               <l n="text.body.div.lg20.l2">Laetantesque, dii, mortalia carmina dicunt. </l>
-               <l n="text.body.div.lg20.l3">Pars manibus plaudunt, pedibus pars atria pulsant </l>
-               <l n="text.body.div.lg20.l4">Arte patrum (terris <mentioned n="text.body.div.lg20.l4.mentioned" xml:lang="hrv">kolo</mentioned> dixere nepotes) </l>
-               <l n="text.body.div.lg20.l5">Junctis in cyclum manibus, celeresque moventur: </l>
-               <l n="text.body.div.lg20.l6">Interea Aonius <sic n="text.body.div.lg20.l6.sic">cytharas</sic> imitante sonoras </l>
-               <l n="text.body.div.lg20.l7">
-                  <persName n="text.body.div.lg20.l7.persName">Gundulić</persName> ore canit, patrias inflatque cicutas. </l>
+            <lg n="lg25">
+               <l n="l1">Illi omnes hilari clamant de pectore voces, </l>
+               <l n="l2">Laetantesque, dii, mortalia carmina dicunt. </l>
+               <l n="l3">Pars manibus plaudunt, pedibus pars atria pulsant </l>
+               <l n="l4">Arte patrum (terris <mentioned n="mentioned1" xml:lang="hrv">kolo</mentioned> dixere nepotes) </l>
+               <l n="l5">Junctis in cyclum manibus, celeresque moventur: </l>
+               <l n="l6">Interea Aonius <sic n="sic1">cytharas</sic> imitante sonoras </l>
+               <l n="l7">
+                  <persName n="persName1">Gundulić</persName> ore canit, patrias inflatque cicutas. </l>
 
-               <l n="text.body.div.lg20.l8">At genitus Maia celeres dum captat in auris </l>
-               <l n="text.body.div.lg20.l9">Remigio alarum Zephyros, et laetus inanem </l>
-
-
-
-               <pb n="text.body.div.lg20.pb"/>
+               <l n="l8">At genitus Maia celeres dum captat in auris </l>
+               <l n="l9">Remigio alarum Zephyros, et laetus inanem </l>
 
 
 
-               <l n="text.body.div.lg20.l10">Insequitur boream, gaudetque infringere pennis, </l>
-                <l n="text.body.div.lg20.l11">
-                  <placeName n="text.body.div.lg20.l11.placeName1" next="#illyror">Illyricis</placeName> tandem velox allabitur <placeName n="text.body.div.lg20.l11.placeName2" xml:id="illyror">oris</placeName>. </l>
-               <l n="text.body.div.lg20.l12">Qualis avis, coeli subito regione relapsa </l>
-               <l n="text.body.div.lg20.l13">
-                  <sic n="text.body.div.lg20.l13.sic">Aethereos</sic> superata polos tellure quiescit, </l>
-               <l n="text.body.div.lg20.l14">Iam nunc <placeName n="text.body.div.lg20.l14.placeName">Zagrabiam</placeName> labens <persName n="text.body.div.lg20.l14.persName">Cyllenius ales</persName> 
+               <pb n="pb10"/>
+
+
+
+               <l n="l11">Insequitur boream, gaudetque infringere pennis, </l>
+                <l n="l12">
+                  <placeName n="placeName1" next="#illyror">Illyricis</placeName> tandem velox allabitur <placeName n="placeName2" xml:id="illyror">oris</placeName>. </l>
+               <l n="l13">Qualis avis, coeli subito regione relapsa </l>
+               <l n="l14">
+                  <sic n="sic1">Aethereos</sic> superata polos tellure quiescit, </l>
+               <l n="l15">Iam nunc <placeName n="placeName1">Zagrabiam</placeName> labens <persName n="persName2">Cyllenius ales</persName> 
                </l>
-               <l n="text.body.div.lg20.l15">Flabra premit <persName n="text.body.div.lg20.l15.persName">Zephyris</persName> factoque hic fine resedit. </l>
-               <l n="text.body.div.lg20.l16">Atque ut pernicibus tetigit penetralia plantis </l>
-               <l n="text.body.div.lg20.l17">Magnanimumque oculis spectare <persName n="text.body.div.lg20.l17.persName">Kukuljević</persName> alma </l>
-               <l n="text.body.div.lg20.l18">Sorte datum, magni solvit sic iussa parentis: </l>
+               <l n="l16">Flabra premit <persName n="persName1">Zephyris</persName> factoque hic fine resedit. </l>
+               <l n="l17">Atque ut pernicibus tetigit penetralia plantis </l>
+               <l n="l18">Magnanimumque oculis spectare <persName n="persName1">Kukuljević</persName> alma </l>
+               <l n="l19">Sorte datum, magni solvit sic iussa parentis: </l>
             </lg>
 
-            <lg n="text.body.div.lg21">
-               <l n="text.body.div.lg21.l1">„Vir dilecte polo, et dulci dilecte paternae </l>
-               <l n="text.body.div.lg21.l2">Telluri, te fata vocant, te magnus <placeName n="text.body.div.lg21.l2.placeName">
-                     <sic n="text.body.div.lg21.l2.placeName.sic">Olimpi</sic>
+            <lg n="lg26">
+               <l n="l1">„Vir dilecte polo, et dulci dilecte paternae </l>
+               <l n="l2">Telluri, te fata vocant, te magnus <placeName n="placeName1">
+                     <sic n="sic1">Olimpi</sic>
                   </placeName> 
                </l>
-               <l n="text.body.div.lg21.l3">
-                  <persName n="text.body.div.lg21.l3.persName">Jupiter</persName>, et plaudens cupiunt ad magna iuventus. </l>
-               <l n="text.body.div.lg21.l4">Munus grande petis, generose <persName n="text.body.div.lg21.l4.persName">Kukuljević</persName>, <placeName n="text.body.div.lg21.l4.placeName" next="#orbilly">orbem</placeName> 
+               <l n="l3">
+                  <persName n="persName1">Jupiter</persName>, et plaudens cupiunt ad magna iuventus. </l>
+               <l n="l4">Munus grande petis, generose <persName n="persName1">Kukuljević</persName>, <placeName n="placeName2" next="#orbilly">orbem</placeName> 
                </l>
-                <l n="text.body.div.lg21.l5">
-                  <placeName n="text.body.div.lg21.l5.placeName" xml:id="orbilly">Illyricum</placeName> (dii namque volunt) recturus habenis </l>
-               <l n="text.body.div.lg21.l6">Quum capis, et tenero recludis pectore flammas, </l>
-               <l n="text.body.div.lg21.l7">Ut gelidas, iamiam ventis ac aequore mersas </l>
-               <l n="text.body.div.lg21.l8">
-                  <persName n="text.body.div.lg21.l8.persName">Illyridum Musas</persName> revoces gremioque recondas. </l>
-               <l n="text.body.div.lg21.l9">Magna petis magnus. Nam patria multa requirit, </l>
-               <l n="text.body.div.lg21.l10">Multaque in acceptis poscit referenda <persName n="text.body.div.lg21.l10.persName">Camoenis</persName>. </l>
-               <l n="text.body.div.lg21.l11">Vade age: iam teneras puppes solare paternis </l>
-               <l n="text.body.div.lg21.l12">Vocibus, et patriam patriae moderare iuventam." </l>
+                <l n="l5">
+                  <placeName n="placeName1" xml:id="orbilly">Illyricum</placeName> (dii namque volunt) recturus habenis </l>
+               <l n="l6">Quum capis, et tenero recludis pectore flammas, </l>
+               <l n="l7">Ut gelidas, iamiam ventis ac aequore mersas </l>
+               <l n="l8">
+                  <persName n="persName1">Illyridum Musas</persName> revoces gremioque recondas. </l>
+               <l n="l9">Magna petis magnus. Nam patria multa requirit, </l>
+               <l n="l10">Multaque in acceptis poscit referenda <persName n="persName1">Camoenis</persName>. </l>
+               <l n="l11">Vade age: iam teneras puppes solare paternis </l>
+               <l n="l12">Vocibus, et patriam patriae moderare iuventam." </l>
             </lg>
 
-            <lg n="text.body.div.lg22">
-               <l n="text.body.div.lg22.l1">Sic ait, et tenues rursus disparet in auras. </l>
-               <l n="text.body.div.lg22.l2">Facunda interea <persName n="text.body.div.lg22.l2.persName">Kukuljević</persName> ora parabat </l>
-                <l n="text.body.div.lg22.l3">Solvere, et <persName n="text.body.div.lg22.l3.persName1" next="#arcadnat">Arcadio</persName> grates persolvere <persName n="text.body.div.lg22.l3.persName2" xml:id="arcadnat">nato</persName>. </l>
-               <l n="text.body.div.lg22.l4">At vacuos videt esse <persName n="text.body.div.lg22.l4.persName">Lares</persName>, vacuumque nitentem </l>
-               <l n="text.body.div.lg22.l5">Aethera. Tum supplex celso gratatus <placeName n="text.body.div.lg22.l5.placeName">Olympo</placeName> 
+            <lg n="lg27">
+               <l n="l1">Sic ait, et tenues rursus disparet in auras. </l>
+               <l n="l2">Facunda interea <persName n="persName1">Kukuljević</persName> ora parabat </l>
+                <l n="l3">Solvere, et <persName n="persName1" next="#arcadnat">Arcadio</persName> grates persolvere <persName n="persName2" xml:id="arcadnat">nato</persName>. </l>
+               <l n="l4">At vacuos videt esse <persName n="persName1">Lares</persName>, vacuumque nitentem </l>
+               <l n="l5">Aethera. Tum supplex celso gratatus <placeName n="placeName1">Olympo</placeName> 
                </l>
-               <l n="text.body.div.lg22.l6">Orat, et ad puppim transit, clavumque prehendit. </l>
+               <l n="l6">Orat, et ad puppim transit, clavumque prehendit. </l>
             </lg>
 
-            <pb n="text.body.div.pb4"/>
+            <pb n="pb28"/>
 
 
 
          </div>
       </body>
-      <back n="text.back">
-        <div n="text.back.div" type="prosa-commentarii">
-            <head n="text.back.div.head">Adnotationes. </head>
+      <back n="back3">
+        <div n="div1" type="prosa-commentarii">
+            <head n="head1">Adnotationes. </head>
             
-            <p n="text.back.div.p1">1) Autochthones seu Aborigines europaeos antiquissimis Historiae temporibus unam constituisse nationem, atque hanc tanquam 
+            <p n="p2">1) Autochthones seu Aborigines europaeos antiquissimis Historiae temporibus unam constituisse nationem, atque hanc tanquam 
             communem matricem imprimis in Thraces et Celtas divisam, postea in Thraco-Hellenos, a quibus graeci, Thraco-Illyros, a quibus 
             slavici, dein Celto-Gallos, a quibus latini, ac demum Celto-Germanos, a quibus teutonici populi suam trahunt originem, abivisse, 
             per celeberrimos in Historia et Philologia viros evictum est. —  Vid. Jelenski S: Lexicon symphonum, quo quatuor linguarum 
             Europae, graecae, latinae, germanicae et slavicae concordantia consonantiaque indicatur. Basil. 1539. — Šafarik: Über die 
             Abkunft der Slawen, p. 55. et seqq. — Conf. Kreljanović: Memorie per la storia della Dalmazia. Zara. 1809. — A. Muray: History of the europ. languages. Edinb. 1823. — Levesque: Essai sur les rapports de la langue des Slaves. — Bulletin des sciences histor. antiquit. philolog. Nr. 12. Decembr. 1825. p. 396. - Confer „Danica ilirska" br. 18. 1836.: Kratki uvod u dogodovštinu velike Ilirie, od Dra. L. Gaja.</p> 
             
-            <p n="text.back.div.p2">2) Nomina: Ilir, Iliria (Illyrus, Illyria), Illyricum, Illyris, a 
+            <p n="p3">2) Nomina: Ilir, Iliria (Illyrus, Illyria), Illyricum, Illyris, a 
             thracica radice il, quae hodie apud Thraco-Hellenos in voce *iXvg 
             (limus), apud Thraco-Illyros in primaeva sua pura forma il, ilo, 
             substantiam seu limum terrae, aut argillam denotante, ac in compluribus aliis inde deductis vocabulis conservata est, derivantur. — 
             Conf. Jungmann: Slownjk cesko-nemecky. W Praze. 1836. p. 614. art. gil. — Jarnik: Etymologikon der slowenischen Mundart. Klagenf. 1832. p. 32. art. il. — Šafarik: Abkunft der Slawen. p. 193. — J. J. Michl: Pravopis ilirski, i razlika medju jezikom českim i ilirskim. U Prazi. 1836. p. 1.</p> 
             
-            <p n="text.back.div.p3">3) Vid. Misli o starobilosti Slavianah u Europi, od Dra. P. J. Šafarika, in „Danica ilirska" br. 4. 1836. ubi dicit: „Mi 
+            <p n="p4">3) Vid. Misli o starobilosti Slavianah u Europi, od Dra. P. J. Šafarika, in „Danica ilirska" br. 4. 1836. ubi dicit: „Mi 
             pako neblagorodni sini nasih predjovah, koji smo se za običnim 
             
             
             
-            <pb n="text.back.div.p3.pb"/>
+            <pb n="pb1"/>
             
             
             
@@ -681,7 +704,7 @@
             stranski verno pomogli, da sto dublje u ovo Skitsko-Sarmatsko blato ugreznemo i upadnemo, ter se u njemu najposlie 
             zadušimo, tomu se nije potrebno čuditi, niti ih radi toga kriviti."</p> 
             
-            <p n="text.back.div.p4">4) Thraco-Illyrica, seu a slava, quod gloriam significat, 
+            <p n="p5">4) Thraco-Illyrica, seu a slava, quod gloriam significat, 
             slavica natio (vid. J. Kolar: Rozprawy. W Bud. 1830. p. 19. 
             et seqq.) ab Adria intra Pontum Euxinum et Balthicum per niveas 
             septentrionis oras muros usque Chinenses protensa, ac 80 milliones 
@@ -699,11 +722,11 @@
             J. Kolara. Item J. J. Michl: Pravopis ilirski. p. 138. et seqq. 
             — „Danica ilirska", br. 34. 1835. Naš narod, od dra. L. Gaja. </p>
             
-            <p n="text.back.div.p5">5) Sunt nomina illyricorum belliducum, qui prima aerae chr. 
+            <p n="p6">5) Sunt nomina illyricorum belliducum, qui prima aerae chr. 
             decade contra Romanorum iugum fortiter pugnarunt. — Vid. Velei(!) 
             Paterculi lib. II.</p> 
             
-            <p n="text.back.div.p6">6) Fortissimus illyricus Saviensis Pannoniae dux, qui anno 
+            <p n="p7">6) Fortissimus illyricus Saviensis Pannoniae dux, qui anno 
             818. et seqq. contra Francos Illyriam crudeliter opprimentes arma 
             movit, ac tres eorum exercitus strenue debellavit, postea a Ljutomislo ex insidiis sublatus. — Vid. Eginhard: Biograph. Lud. 
             Pii, et Adelmum ad annum 822. — Conf. Beitrage zur Lösung 
@@ -713,9 +736,9 @@
             
             
             
-            <pb n="text.back.div.pb"/>
+            <pb n="pb8"/>
             
-            <p n="text.back.div.p7">7) Lazar et Miloš ambo illyrici heroes. Ac prior quidem 
+            <p n="p9">7) Lazar et Miloš ambo illyrici heroes. Ac prior quidem 
             redimitus Serbiae Imperator, qui anno 1389. die 15. Junii in 
             Kosoviensibus campis contra immanissimum Europae hostem fortiter dimicando proditione Vuki Branković senioris generi sui cum 
             flore nationis caesus, libertatem et independentiam inferioris Illyriae una secum tumulo intulit. Posterior autem, cognomine Obilić, 
@@ -725,13 +748,13 @@
             fortissime sese defendendo et ipse per hostes oppressus. — Vid. 
             Raić: Istoria. U Beču. 1794. tom. III. p. 38. et seqq.</p> 
             
-            <p n="text.back.div.p8">8) Marcus Vukašini, Serbiae Regis, quatuor filiorum natu 
+            <p n="p10">8) Marcus Vukašini, Serbiae Regis, quatuor filiorum natu 
             maximus, Kraljević (regis filius) dictus, sub auspiciis Baiazetis 
             Turcarum Imperatoris Castoriam, Locridem et Peloponnesi partem 
             tenuit. Vir ab heroica virtute, variisque sortis discriminibus innumeris apud nationem illyricam cantilenis celebratissimus. Floruit 
             circa finem saeculi XIV. Vid. Raić: Istoria tom. II. p. 701.</p> 
             
-            <p n="text.back.div.p9">9) Comes Nicolaus Zrinjski (Magjaris Zrinyi) Prorex Illyrici 
+            <p n="p11">9) Comes Nicolaus Zrinjski (Magjaris Zrinyi) Prorex Illyrici 
             e perantiqua croatica prosapia Šubić (vid. Joh. Lucium de regno 
             Dalmat. et Croat. l. 4. c. 9.) quae pluribus saeculis in maritima 
             zupania Bribiriensi floruit, ac inito anno 1347. die 2. Aug. cum 
@@ -745,13 +768,13 @@
             Graf Nik. von Zrin. Pesth. 1822. - - P. Vitezovića Oddeljenje 
             Sigetsko. U Zagr. 1836. Uvod.</p> 
             
-            <p n="text.back.div.p10">10) Inter multos Raguseos illyrici Parnassi classicos auctores 
+            <p n="p12">10) Inter multos Raguseos illyrici Parnassi classicos auctores 
             primum in poesi epica locum occupat immortalis Gundulić, Italis 
             Gondola, (nat. Ragusae 1588. + 1638.), qui, praeter alia, celebratissimum in orbe literario epos „Osman" elegantissimo ac comptissimo illyrico carmine in XX. cantibus absolvit. Ceterum qui in 
             
             
             
-            <pb n="text.back.div.p10.pb"/>
+            <pb n="pb1"/>
             
             
             
@@ -765,7 +788,7 @@
             Časopis česk. Muzeum: Literatura Ilirov, od Dra. Šafarika. p. 
             18. et seqq. svaz. I. 1833.</p> 
             
-            <p n="text.back.div.p11">11) Alluditur ad Illyriorum insignia: Luciferum utpote album 
+            <p n="p13">11) Alluditur ad Illyriorum insignia: Luciferum utpote album 
             bicorni Lunae albae in rubro campo imminentem.</p>
             
         </div>

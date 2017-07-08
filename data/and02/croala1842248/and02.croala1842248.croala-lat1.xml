@@ -113,6 +113,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc xml:id="andreisvrancic15710630">
          <abstract>
@@ -175,35 +192,35 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:and02.croala1842248.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div n="text.body.div" type="prosa-epistula" xml:id="fta-av06" corresp="#andreisvrancic15710630">
-                <pb n="text.body.div.pb"/>
+        <body n="body1">
+            <div n="div1" type="prosa-epistula" xml:id="fta-av06" corresp="#andreisvrancic15710630">
+                <pb n="pb1"/>
 
-                <gap n="text.body.div.gap" reason="irrelevant"/>
+                <gap n="gap2" reason="irrelevant"/>
 
 
 
-                <head n="text.body.div.head">XCII. <foreign n="text.body.div.head.foreign" xml:lang="hu">Verancsics Antalnak Andronicus
+                <head n="head3">XCII. <foreign n="foreign1" xml:lang="hu">Verancsics Antalnak Andronicus
                         Tranquillus.</foreign>
             </head>
 
-                <opener n="text.body.div.opener">Ad Archiepiscopum Strigoniensem Antonium Verantium Tranquillus Andronicus.
+                <opener n="opener4">Ad Archiepiscopum Strigoniensem Antonium Verantium Tranquillus Andronicus.
                     Reverendissime et Illustrissime Domine!</opener>
 
 
 
-                <p n="text.body.div.p1">Existimavi me operae pretium esse facturum, <note n="text.body.div.p1.note">
-                        <date n="text.body.div.p1.note.date" when="1571-06-30">1571. jun 30.</date>
+                <p n="p5">Existimavi me operae pretium esse facturum, <note n="note1">
+                        <date n="date1" when="1571-06-30">1571. jun 30.</date>
                     </note> si de his te absentem admoneam, de quibus coram agere prohibuit ingens
                     silva tuorum negotiorum. Ea tamen, etsi tibi cognita sunt, neque ego hanc mihi
                     sapientiam temere arrogo, neque adeo sum impudens, ut quasi sus Minervam te
                     doceam, virum ingenio singulari praeditum, excultumque studiis doctrinarum. Sed
                     certe, ut iustis rationibus tibi persuadeam, ne differas ceteris praetermissis
-                    accingere te ad decus et famam nominis tui sempiternam. Non <pb n="text.body.div.p1.pb1"/> autem
+                    accingere te ad decus et famam nominis tui sempiternam. Non <pb n="pb2"/> autem
                     vereor, quod hanc meam erga te voluntatem, senis inquam hominis, et veterani
-                    amici, tuique cupidissimi, (qua mansuetudine es supra ceteros mortales), <gap n="text.body.div.p1.gap"/>
+                    amici, tuique cupidissimi, (qua mansuetudine es supra ceteros mortales), <gap n="gap3"/>
                     et moleste ferres, utpote qui non tam prudentiam in amicis requiras, quam
-                    voluntatem metiaris. In altero si <corr n="text.body.div.p1.corr">defecimus</corr>, alterum sane non
+                    voluntatem metiaris. In altero si <corr n="corr4">defecimus</corr>, alterum sane non
                     desiderabis. Sed iam venio ad rem, neque necesse est, ut recenseam initia tui
                     generis et nobilitatis, aut aetatis prima rudimenta, sive ut maiores tui
                     profugerint in Dalmatiam ex Moesia, quum Turcus eam occupasset. Haec enim sunt
@@ -213,7 +230,7 @@
                     amplissimas dignitates honoris et fortunarum. Postea quum in virum evasisses, et
                     viderere tractandis maioribus negotiis idoneus, multas et varias, et nobiles
                     legationes, primum sub Joanne Rege, deinde sub Caesaribus Ferdinando et
-                    Maximiliano fideliter, prudenter, <sic n="text.body.div.p1.sic1">dextere</sic>, servata semper Principum auctoritate,
+                    Maximiliano fideliter, prudenter, <sic n="sic5">dextere</sic>, servata semper Principum auctoritate,
                     obiisti. Quamobrem tibi externo, nec petenti, nec ambienti, merito quidem
                     virtutis et industriae ultro donata sunt amplissima sacerdotia, atque praelatus
                     es clarissimis genere atque titulis illustribus, quorum maiores in Ungaria
@@ -222,7 +239,7 @@
                     praesertim hoc infelicissimo rerum statu, in tam corruptis moribus omnium huius
                     aetatis, unde profligata virtus exulat, probitas probro est, innocentia ludibrio
                     habetur, et in obscuro sepulta iacet, contra nequissimus quisque ac
-                    imperitissimus extollitur. Quare hoc exemplum, <pb n="text.body.div.p1.pb2"/> quod in te evehendo
+                    imperitissimus extollitur. Quare hoc exemplum, <pb n="pb6"/> quod in te evehendo
                     ad hoc Archiepiscopale munus multo maximum, et proximum fastigio Regiae
                     Maiestatis, nuper editum est applausu bonorum omnium rarum est admodum, ac in
                     omni vita memorabile. Neque dubito, quin in eo gerendo et Deo, et Principi, et
@@ -234,9 +251,9 @@
                     extinguuntur, eorum quoque nomina in ipso funere intereunt. Constat, infinitos
                     ab orbe condito principes fuisse tum inutiles, tum eos, qui laudem merebantur;
                     at paucissimorum hodie memoria extat; atque hi quoque cum reliqua turba tenebris
-                    premerentur, perinde ac <add n="text.body.div.p1.add" resp="#editor">(si)</add> nunquam in rerum natura
+                    premerentur, perinde ac <add n="add7" resp="#editor">(si)</add> nunquam in rerum natura
                     fuissent, nisi quorundam scriptorum ingeniis felicibus vindicarentur
-                        <sic n="text.body.div.p1.sic2">ob</sic> oblivione. Alioquin nec victoriarum fama Liberi patris, nec
+                        <sic n="sic8">ob</sic> oblivione. Alioquin nec victoriarum fama Liberi patris, nec
                     labores Herculis, nec multorum gestae res illustres ad nos pervenissent; et quod
                     omnium maximum est, non abundaremus optimis artibus et documentis ad vitam
                     sancte beateque degendam. Nec solum animi beneficio litterarum excoluntur, sed
@@ -245,8 +262,8 @@
                     sed et aliis, de quibus in suis scriptis mentionem cum laude faciunt,
                     immortalitatem parant.</p>
 
-                <p n="text.body.div.p2">Itaque, Praesul optime, cui providentiae dono ad praeclaras dotes ingenii tui
-                    litterarum ingens doctrinarumque studium accessit; te hortor ex animo, ut <pb n="text.body.div.p2.pb1"/> properes, dum aetas viget ad immortalitatem, et aliquid temporis
+                <p n="p6">Itaque, Praesul optime, cui providentiae dono ad praeclaras dotes ingenii tui
+                    litterarum ingens doctrinarumque studium accessit; te hortor ex animo, ut <pb n="pb1"/> properes, dum aetas viget ad immortalitatem, et aliquid temporis
                     subducas de curis publicis et domesticis, sub eisque horis interdum divertas ad
                     scribendum, tanquam ad amoenum aliquod viridarium, ubi te oblectes multis
                     nominibus; quo pacto etiam valetudini consules, quae assiduis laboribus
@@ -268,7 +285,7 @@
                     proferantur in lucem, quae obruta in tenebris iacent. Quod arbitramur te unum
                     imprimis posse insigniter et luculenter facere. Non autem flagitamus, terrarum
                     omnium res gestas complectaris, id enim esset immensi operis; sed tantum, qui
-                    per hos annos in <pb n="text.body.div.p2.pb2"/> Pannonia successus fuerunt, qui eventus vel
+                    per hos annos in <pb n="pb2"/> Pannonia successus fuerunt, qui eventus vel
                     prosperi vel adversi secuti sunt, neque vera subtrahendo, neque affingendo
                     falsa, quod ea tibi omnia notissima sunt, quaedam etiam a te pertractata. Multis
                     interfuisti, quibusdam etiam praefuisti. Quod si feceris, ut speramus, magnum
@@ -276,13 +293,13 @@
                     beneficio magnopere devinces, et nomen tuum celebre manebit inter mortales in
                     memoria sempiterna, cuius maxima pars in tuam familiam et patriam redundabit.
                     Tunc demum intelliges, me tibi fideliter et amanter consuluisse.</p>
-                <closer n="text.body.div.closer">
-                    <salute n="text.body.div.closer.salute">Vale diu felix nostrique memor.</salute>
-                    <dateline n="text.body.div.closer.dateline">
-                  <placeName n="text.body.div.closer.dateline.placeName">Posonii</placeName>
-                        <date n="text.body.div.closer.dateline.date" when="1571-06-30">die ultima Junii anno Domini 1571.</date>
+                <closer n="closer7">
+                    <salute n="salute1">Vale diu felix nostrique memor.</salute>
+                    <dateline n="dateline2">
+                  <placeName n="placeName1">Posonii</placeName>
+                        <date n="date2" when="1571-06-30">die ultima Junii anno Domini 1571.</date>
                </dateline>
-                    <signed n="text.body.div.closer.signed">Tuus Tranquillus.</signed>
+                    <signed n="signed3">Tuus Tranquillus.</signed>
                 </closer>
 
 

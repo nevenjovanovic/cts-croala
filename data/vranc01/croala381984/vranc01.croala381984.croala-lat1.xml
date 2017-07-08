@@ -90,6 +90,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -136,15 +153,15 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:vranc01.croala381984.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-epistula">
-            <opener n="text.body.div.opener">Antonius Wrancius Petro de Gamratis episcopo Cracoviensi S.</opener>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-epistula">
+            <opener n="opener1">Antonius Wrancius Petro de Gamratis episcopo Cracoviensi S.</opener>
         
-            <p n="text.body.div.p">Ea me humanitate superioribus diebus Cracoviae complexus es, eo favore ornasti, tantam etiam liberalitatis apud te copiam et praesenti fecisti et absenti obtulisti, ut nihil est quod a te expetere non audeam meque <sic n="text.body.div.p.sic">consequenturum</sic> non confidam, tam multa mihi de integritate ac tua erga me benevolentia persuaserim.  Is itaque Marinus Caboga Ragusinus, meus necessarius, ac mihi quum natione tum consuetudine ipsa pene a primis annis junctus, veniens nunc in Hungariam, ad me, vetere necessitudine nostra fretus, recta concessit.  Eum ut germanum fratrem accepi et amanter habui.  Quid animi haberet, quod tam longe e patria fuisset evagatus, quaesivi; multorum, respondit, urbes videndi et mores cognoscendi gratia, nonnihil etiam domestici otii affectus taedio.  Ego ut meo gentili debeo, hic ejus commodis libenter opera mea volebam consulere, et de statu providere, sed asperitas morum hujus gentis et inaequalitas displicuit.  Quare in Poloniam, ubi summam illi concordiam, politiam ac lenitatem commendarunt, sese conferre statuit et patrono cuipiam dedere.  Quum autem imprimis te ipsi benignum, liberalem, litteratorumque <pb n="text.body.div.p.pb"/> asylum ac Maecenatem singularem quidam praedicarunt, dudum se tibi dedidit, praesertim quum et ego idipsum confirmaverim.  Venientem itaque ad te fide ac spe rerum suarum non dubia, vehementer oro, habeas commendatum, et numero tuorum adjungas.  Homo est aetate juvenis, sed ingenio atque maturitate vir, domi praeterea nobilis, moribus bonis et eruditione non exigua, quique sciet se pro voluntate tanti episcopi probe in tuo servitio gerere.  Si usui tibi non fuerit, dignabere saltem mea gratia alibi de loco honesto illi providere.  Quod si mea hac commendatione Marinus Caboga apud te consequitur, Antonius Wrancius praecipui favoris loco accipiet, cognoscetque fiduciam suam, quam in te habet collocatam, firmam, veram et constantem esse, nec minus fructuosam, tibique omni studio, opera atque observantia sedulo gratificari conabitur.  </p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">Feliciter te valere desidero.</salute> 
-               <dateline n="text.body.div.closer.dateline">Budae <date n="text.body.div.closer.dateline.date" when="1539-12-20">XIII. kal. Januarii MDXXXVIIII.</date>
+            <p n="p2">Ea me humanitate superioribus diebus Cracoviae complexus es, eo favore ornasti, tantam etiam liberalitatis apud te copiam et praesenti fecisti et absenti obtulisti, ut nihil est quod a te expetere non audeam meque <sic n="sic1">consequenturum</sic> non confidam, tam multa mihi de integritate ac tua erga me benevolentia persuaserim.  Is itaque Marinus Caboga Ragusinus, meus necessarius, ac mihi quum natione tum consuetudine ipsa pene a primis annis junctus, veniens nunc in Hungariam, ad me, vetere necessitudine nostra fretus, recta concessit.  Eum ut germanum fratrem accepi et amanter habui.  Quid animi haberet, quod tam longe e patria fuisset evagatus, quaesivi; multorum, respondit, urbes videndi et mores cognoscendi gratia, nonnihil etiam domestici otii affectus taedio.  Ego ut meo gentili debeo, hic ejus commodis libenter opera mea volebam consulere, et de statu providere, sed asperitas morum hujus gentis et inaequalitas displicuit.  Quare in Poloniam, ubi summam illi concordiam, politiam ac lenitatem commendarunt, sese conferre statuit et patrono cuipiam dedere.  Quum autem imprimis te ipsi benignum, liberalem, litteratorumque <pb n="pb2"/> asylum ac Maecenatem singularem quidam praedicarunt, dudum se tibi dedidit, praesertim quum et ego idipsum confirmaverim.  Venientem itaque ad te fide ac spe rerum suarum non dubia, vehementer oro, habeas commendatum, et numero tuorum adjungas.  Homo est aetate juvenis, sed ingenio atque maturitate vir, domi praeterea nobilis, moribus bonis et eruditione non exigua, quique sciet se pro voluntate tanti episcopi probe in tuo servitio gerere.  Si usui tibi non fuerit, dignabere saltem mea gratia alibi de loco honesto illi providere.  Quod si mea hac commendatione Marinus Caboga apud te consequitur, Antonius Wrancius praecipui favoris loco accipiet, cognoscetque fiduciam suam, quam in te habet collocatam, firmam, veram et constantem esse, nec minus fructuosam, tibique omni studio, opera atque observantia sedulo gratificari conabitur.  </p>
+            <closer n="closer3">
+               <salute n="salute1">Feliciter te valere desidero.</salute> 
+               <dateline n="dateline2">Budae <date n="date1" when="1539-12-20">XIII. kal. Januarii MDXXXVIIII.</date>
                </dateline>
             </closer>
          </div>

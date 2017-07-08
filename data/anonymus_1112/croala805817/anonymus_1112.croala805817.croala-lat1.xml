@@ -86,6 +86,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -142,15 +156,15 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_1112.croala805817.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div n="text.body.div" type="poesis-inscriptio-epitaphium" met="hexameter-leoninus">
+        <body n="body1">
+            <div n="div1" type="poesis-inscriptio-epitaphium" met="hexameter-leoninus">
                 <!-- Nadgrobni natpis splitskoga nadbiskupa Krescencija († 1112) -->
 
-                <l n="text.body.div.l1">Vita salus cunctis qualis sit, cernitur urnis,</l>
-                <l n="text.body.div.l2">In quibus ossa, cinis <sic n="text.body.div.l2.sic">remaneat</sic> de corpore vili,</l>
-                <l n="text.body.div.l3">Quantumcumque boni gessit, quantumque decoris.</l>
-                <l n="text.body.div.l4">Urbe fuit, dicta Spalatum, Crescentius ista</l>
-                <l n="text.body.div.l5">Pontificum presul. Nunc mundi floribus exul.</l>
+                <l n="l1">Vita salus cunctis qualis sit, cernitur urnis,</l>
+                <l n="l2">In quibus ossa, cinis <sic n="sic1">remaneat</sic> de corpore vili,</l>
+                <l n="l3">Quantumcumque boni gessit, quantumque decoris.</l>
+                <l n="l4">Urbe fuit, dicta Spalatum, Crescentius ista</l>
+                <l n="l5">Pontificum presul. Nunc mundi floribus exul.</l>
             </div>
         </body>
     </text>

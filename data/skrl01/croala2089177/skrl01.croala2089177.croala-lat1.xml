@@ -104,6 +104,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -172,35 +192,35 @@
    </teiHeader>
 
    <text xml:base="urn:cts:croala:skrl01.croala2089177.croala-lat1:" xml:lang="lat" type="epistula">
-      <front n="text.front">
-         <head n="text.front.head">8. Jakovlye, 28. Aprilis 1798.</head>
+      <front n="front1">
+         <head n="head1">8. Jakovlye, 28. Aprilis 1798.</head>
       </front>
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-epistula">
-            <opener n="text.body.div.opener">
+      <body n="body2">
+         <div n="div1" type="prosa-epistula">
+            <opener n="opener1">
     
-               <salute n="text.body.div.opener.salute">Chare amice!</salute>
+               <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="text.body.div.p1"> Agnosco amicitiam tuam in eo quod primis statim adventus tui diebus tantum
+            <p n="p2"> Agnosco amicitiam tuam in eo quod primis statim adventus tui diebus tantum
     temporis decerpere volueris ut me litteris tuis convenire possis.  Gratias
     etiam tibi refero pro novis quae mihi significasti.  Sunt quidem et haec
     tristia, magis tamen me sollicitum habent ea quae postea cum legato Gallico evenerunt.
      Quaeso te significa mihi an spes supersit rem hanc ita componendi ne in
     bellum erumpat?  Uti et an, prout hic fertur, idem eodem plane die legatus
     Gallicus etiam Berolini attentarit?  Et si ita, quo eventu?</p>
-            <p n="text.body.div.p2"> Turca etiam apparatus bellicos in dies magis intendit. 
+            <p n="p3"> Turca etiam apparatus bellicos in dies magis intendit. 
     Non possum in animum meum inducere ut tantam vim contra unum bassam parari credam.
      Non possum etiam mihi persuadere quod apparatus hi contra Moscoviam
     dirigantur.  Metuo proinde ne haec nobis propinentur. 
     Leva me, si potes, hac etiam sollicitudine.</p>
-            <p n="text.body.div.p3"> De Reinvetler hactenus nihil.  Si intellexeris mihi
+            <p n="p4"> De Reinvetler hactenus nihil.  Si intellexeris mihi
     consulto non responderi, quaeso te significa mihi causam huius aenigmatis. 
     Ad meam in causa Pethoiana instantiam resolutio aut iam prodivit aut certe proxime emanabit.
      Rogo te ut iam discedentem rogavi.</p>
-            <p n="text.body.div.p4"> Si quid conferre potes ad id ut proiectum internae hospitalis
+            <p n="p5"> Si quid conferre potes ad id ut proiectum internae hospitalis
     regulationis per Vlassichium, negotium vero de erigendo novo capitalis huiatis scholae
     aedificio per Langium proximius conficiatur, rem publico 
-    <pb n="text.body.div.p4.pb"/>
+    <pb n="pb1"/>
     utilem, mihi gratam praestabis.  Significa mihi adminus an aliquid, et si
     ita, quo eventu in rem hanc egeris?  Homo tuus circa transferendos ad Novum
     hospitale tuos pauperes in deputatione se aliter, atque nos concertaveramus, declaravit.
@@ -208,55 +228,55 @@
     aedificio alere velis; de deponendo vero aestimationali aedificii huius pretio se nullam a te
     accepisse instructionem.  Quare deputatio illum requisivit ut tuam de eo
     mentem per litteras exquirat.</p>
-            <p n="text.body.div.p5"> Optassem quidem ut in proposito tuos pauperes eorsum<note n="text.body.div.p5.note" place="foot">
-                  <p n="text.body.div.p5.note.p">8,21 tuos <name n="text.body.div.p5.note.p.name1">Kolanović</name> ] duos <emph n="text.body.div.p5.note.p.emph">MS</emph> | eorsum] seorsum
-     <name n="text.body.div.p5.note.p.name2">Kolanović</name>
+            <p n="p6"> Optassem quidem ut in proposito tuos pauperes eorsum<note n="note1" place="foot">
+                  <p n="p1">8,21 tuos <name n="name1">Kolanović</name> ] duos <emph n="emph2">MS</emph> | eorsum] seorsum
+     <name n="name3">Kolanović</name>
                   </p>
                </note> mittendi, quod mihi manifestaveras, perstitisses.  Interea, si iam
     de eo aliter apud te constituisti, quaeso te per omnia, ne exsolutionem adminus aedificii
     aestimationali pretio difficultes, id enim convelleret totum, iam altissimo etiam foro
     approbatum, fundationalium xenodochii capitalium schema, praesertim cum tuo exemplo iam
     Capitulum etiam vacillare incipiat circa aedificii sui seu licitationem seu exsolutionem.</p>
-            <p n="text.body.div.p6"> Et cum propter reliquas circa transferendos in festo sanctae Margarethae
-    pauperes dispositiones tuam hac <add n="text.body.div.p6.add">in</add> re<note n="text.body.div.p6.note" place="foot">
-                  <p n="text.body.div.p6.note.p">8,23 hac in re] in <emph n="text.body.div.p6.note.p.emph">addidi</emph>
+            <p n="p7"> Et cum propter reliquas circa transferendos in festo sanctae Margarethae
+    pauperes dispositiones tuam hac <add n="add1">in</add> re<note n="note2" place="foot">
+                  <p n="p1">8,23 hac in re] in <emph n="emph1">addidi</emph>
                   </p>
                </note> mentem quantocius scire intersit, quaeso te rescribe proximius et mihi et tuo homini.</p>
-            <p n="text.body.div.p7"> Propter certam combinationem, quam hic describere taediosum foret, scire
+            <p n="p8"> Propter certam combinationem, quam hic describere taediosum foret, scire
     cupio an societas canalem Colapianum sequente anno effective resumptura sit?
      Id tu ab ipso comite Aponyi tutissime rescire potes. 
     Quare quaeso te, fac me de eo certiorem, uti et de eo qualis adminus prospectiva sit
     regulandae Dalmatiae et Croatici Litoralis, praesertim in linea vectigalis? 
     Metuo vehementer ne noster Districtus commercialis, qui me frustra reluctante ad Flumen
     applicitus est, hac occasione a iurisdictione Sacrae coronae avellatur.</p>
-            <p n="text.body.div.p8"> Ceterum recordaberis quod Archenholtz in sua <emph n="text.body.div.p8.emph">Minerva</emph>
+            <p n="p9"> Ceterum recordaberis quod Archenholtz in sua <emph n="emph1">Minerva</emph>
     memorabile illud brochure, quod de Potemkin prodiit, per frusta edat.  Ego
     non dubito quod brochure illud etiam secus haberi possit, si adsit homo qui illud perquirere
     et constituere sciat.  Cum tu habeas eiusmodi hominem, brochure autem illud
     vix aliquod grossos constare possit, oro te, praesta mihi hanc amicitiam et illud pro me
     constitue; aveo enim 
-    <pb n="text.body.div.p8.pb"/>
-    vehementer illud habere, cum sit pendant ad<note n="text.body.div.p8.note" place="foot">
-                  <p n="text.body.div.p8.note.p">8,30 <emph n="text.body.div.p8.note.p.emph1">post</emph> pendant ad <emph n="text.body.div.p8.note.p.emph2">delevit auctor</emph> illum</p>
+    <pb n="pb2"/>
+    vehementer illud habere, cum sit pendant ad<note n="note3" place="foot">
+                  <p n="p1">8,30 <emph n="emph1">post</emph> pendant ad <emph n="emph2">delevit auctor</emph> illum</p>
                </note> libellum de Catharina Secunda, quem mihi dedisti.</p>
-            <p n="text.body.div.p9"> Non obliviscaris ultimam, quae de Bottany Bay exstat, relationem
+            <p n="p10"> Non obliviscaris ultimam, quae de Bottany Bay exstat, relationem
     procurare.  Accipiet indubie colonia illa notabilia e conspiratione, quae in
     Irlandia detecta est, supplementa.  Forte detectio haec meditatum a Gallis
     descensum evanescere faciet; ego enim in eam nunc delapsus sum opinionem quod hi descensum
     unice sub spe conspirationis huius decreverint.</p>
-            <p n="text.body.div.p10"> Ego per hanc paucorum licet adhuc dierum rusticationem vires meas recepi
+            <p n="p11"> Ego per hanc paucorum licet adhuc dierum rusticationem vires meas recepi
     et commode valeo.  Cupio ut tu quoque sanus agas et confectis prospere
     negotiis tuis ad nos proximius revertaris. </p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute"> Vale meque, ut facis, ama.</salute>
-               <dateline n="text.body.div.closer.dateline">Jakovlye, 28. Aprilis 1798.</dateline>
+            <closer n="closer12">
+               <salute n="salute1"> Vale meque, ut facis, ama.</salute>
+               <dateline n="dateline2">Jakovlye, 28. Aprilis 1798.</dateline>
             </closer>
          </div>
       </body>
-      <back n="text.back">
-         <div n="text.back.div" type="notes">
-            <p n="text.back.div.p">
-               <bibl n="text.back.div.p.bibl">(NAZ, EAE, vol. 115, nr. 32.)</bibl>
+      <back n="back3">
+         <div n="div1" type="notes">
+            <p n="p1">
+               <bibl n="bibl1">(NAZ, EAE, vol. 115, nr. 32.)</bibl>
             </p>
          </div>
       </back>

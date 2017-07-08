@@ -108,6 +108,26 @@
           <tagUsage gi="trailer" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -165,24 +185,24 @@ Prvi unos. Kratice razriješene, ostalo neizmijenjeno.
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:nimira_martin_01.croala1491506.croala-lat1:" xml:lang="lat" type="prosa">
-      <front n="text.front">
+      <front n="front1">
     
-         <div n="text.front.div" type="prosa-epistula">
-            <pb n="text.front.div.pb"/>
-            <opener n="text.front.div.opener">
-               <salute n="text.front.div.opener.salute">
-                  <name n="text.front.div.opener.salute.name">M. Nimireus Arbensis Archidyaconus</name> Reuerendissimo in Christo patri domino
-        domino <choice n="text.front.div.opener.salute.choice">
-                     <abbr n="text.front.div.opener.salute.choice.abbr">B.</abbr>
-                     <expan n="text.front.div.opener.salute.choice.expan">Bernardino</expan>
+         <div n="div1" type="prosa-epistula">
+            <pb n="pb1"/>
+            <opener n="opener2">
+               <salute n="salute1">
+                  <name n="name1">M. Nimireus Arbensis Archidyaconus</name> Reuerendissimo in Christo patri domino
+        domino <choice n="choice2">
+                     <abbr n="abbr1">B.</abbr>
+                     <expan n="expan2">Bernardino</expan>
                   </choice> tituli sanctorum Petri et Marcellini
         perbenigno Cardinali Carthaginensi dignissimo salutem
         </salute>
             </opener>
-            <p n="text.front.div.p">
+            <p n="p3">
         Facilius cogitari quam exprimi posset, Reuerendissime princeps, quantum uoluptatis
         perceperim cum tuum audiui de hoc meo sermunculo nuper apud diuum
-        <name n="text.front.div.p.name">Alexandrum Pontificem Maximum</name> habito perbenignum et fauorabile
+        <name n="name1">Alexandrum Pontificem Maximum</name> habito perbenignum et fauorabile
         iudicium, cumque poscere te in scriptis eadem illa uerba, que ipse in concione
         protuleram, mira quadam humanitate animaduerti.  Qua ex re non sum profecto nescius
         quantam sit meo nomini summa tua auctoritas et amplitudo uel laudem uel utilitatem
@@ -197,31 +217,31 @@ Prvi unos. Kratice razriješene, ostalo neizmijenjeno.
         admirabilem benignitatem reueritus. Cuius insigne uenerandumque nomen satis me (ut
         confido) a genuina uitilitigatorum istorum rabie securum reddet. 
       </p>
-            <closer n="text.front.div.closer">
-               <salute n="text.front.div.closer.salute">Valeas pater
+            <closer n="closer4">
+               <salute n="salute1">Valeas pater
           clementissime, litterarum decus, et dignitatis istius singulare ornamentum.</salute>
-               <dateline n="text.front.div.closer.dateline">Rome <date n="text.front.div.closer.dateline.date" when="1494-04-03">
-                     <num n="text.front.div.closer.dateline.date.num" value="3">III</num>. Non. Aprilis MCCCCXCIIII</date>
+               <dateline n="dateline2">Rome <date n="date1" when="1494-04-03">
+                     <num n="num1" value="3">III</num>. Non. Aprilis MCCCCXCIIII</date>
                </dateline>
             </closer>
          </div>
     
       </front>
-      <body n="text.body">
+      <body n="body2">
 
-         <div n="text.body.div1" type="prosa-oratio">
-            <epigraph n="text.body.div1.epigraph">
-               <cit n="text.body.div1.epigraph.cit">
-                  <quote n="text.body.div1.epigraph.cit.quote">
+         <div n="div1" type="prosa-oratio">
+            <epigraph n="epigraph1">
+               <cit n="cit1">
+                  <quote n="quote1">
   foderunt manus meas et pedes meos: dinumerauerunt omnia ossa mea. 
-  <bibl n="text.body.div1.epigraph.cit.quote.bibl">Dauid ps. XXI</bibl>
+  <bibl n="bibl1">Dauid ps. XXI</bibl>
                   </quote>
-                  <note n="text.body.div1.epigraph.cit.note" type="gloss">
-                     <add n="text.body.div1.epigraph.cit.note.add" resp="#NJ">[i.e. 21 (22): 17--18]</add>
+                  <note n="note2" type="gloss">
+                     <add n="add1" resp="#NJ">[i.e. 21 (22): 17--18]</add>
                   </note>
                </cit>
             </epigraph>
-            <p n="text.body.div1.p1">
+            <p n="p2">
 Si quantum pietas aput me potuit, hodierno die tantum prudentia ualuisset, Beatissime
 pater; nunquam profecto commisissem ut mihi hoc orandi munus esset nunc in
 celeberrimo totius orbis loco subeundum, presertim cum plane intelligam me nec tali
@@ -231,12 +251,12 @@ temeritas mea excusationem, cum sit interdum non minus pietas in audendo quam
 modestia in reticendo laudabilis, cuius plerunque immodicus ardor magnam apud deum
 hominesque consequitur gloriam. Quod quidem, Beatissime Pater, cum aliis plerisque, tum
 maxime illi, cui primo Christus claues et sedem istam tuam commisit, accidisse legimus.
-<name n="text.body.div1.p1.name">Petrus</name> siquidem (ut euangelica tradit historia), cum ex naui quondam
-preceptorem suum in medio mari conspexisset, non periculi, non suiipsius <pb n="text.body.div1.p1.pb"/> memor
+<name n="name1">Petrus</name> siquidem (ut euangelica tradit historia), cum ex naui quondam
+preceptorem suum in medio mari conspexisset, non periculi, non suiipsius <pb n="pb2"/> memor
 statim sese in undas proiecit quo celerius ad illum, cuius incredibili amore tenebatur,
 perueniret.</p>
 
-            <p n="text.body.div1.p2">Reputans igitur ipse mecum penas Redemptoris nostri et
+            <p n="p3">Reputans igitur ipse mecum penas Redemptoris nostri et
 crucem illam sanctissimam tota mentis contemplatione percurrens temperare mihi
 quidem non potui. Videbam enim Saluatorem nostrum per mare illud rubrum inter
 mortiferas tempestates trophea salutifere passionis sue gestantem eiusque fretus
@@ -244,7 +264,7 @@ bonitate his fluctibus et huic pelago committere me non dubitaui. Neque enim dif
 que ipsius in omnes est benignitas, quin mihi hodie sicut quondam Apostolo suo opem
 in medio mari sit allaturus.</p>  
 
-            <p n="text.body.div1.p3">Quanquam non parum profecto me recreat mansuetudo tua, <name n="text.body.div1.p3.name">Sanctissime Pontifex
+            <p n="p4">Quanquam non parum profecto me recreat mansuetudo tua, <name n="name1">Sanctissime Pontifex
 Alexander</name>, cuius aspectus mihi multo iucundissimus securitatem et quasi
 certum quoddam presidium polliceri uidetur; Vestra item humanitas, Reuerendissimi
 atque amplissimi patres, quos ego cum silentio, tum attentione summa ad audiendum me
@@ -261,15 +281,15 @@ admonent?  Quin immo ipsa hec dies nescio quo modo obscurior creatoris sui torme
 quasi sensatu quoddam turbata luce prosequitur.</p>
 
             <!-- najava -->
-            <p n="text.body.div1.p4">
+            <p n="p5">
 Dicam igitur, Beatissime pater, ac primum quidem Saluatoris nostri et
-penas et mortem necessariam saluti hominum <corr n="text.body.div1.p4.corr">fuisse</corr> docebo.  Deinde quo
+penas et mortem necessariam saluti hominum <corr n="corr1">fuisse</corr> docebo.  Deinde quo
 breuius potero eiusdem mortis conditionem, cuius hodie memoriam celebramus, percurram;
 eritque hoc pietatis, illud ingenii et rationis curriculum. Vos, ut cepistis, queso
 diligenter attendite.
 </p>
             <!-- protivnicka teza -->
-            <p n="text.body.div1.p5">
+            <p n="p6">
   Superuacuam fuisse mortalibus Christi passionem plerique asseruerunt quod nihil uel
   ad gloriam suam uel ad salutem nostram pertinere uideatur: quorum hec ferme est
   sententia. Potuisse, inquiunt, deum, cum omnia possit, alia quadam ratione orbem hunc
@@ -279,7 +299,7 @@ diligenter attendite.
   oportebat et sese humanis sordibus immisceri cum posset etiam in celo residens uel
   solo nutu omnis homines, si eorum cura tangeretur, ad salutis uiam perducere;
   labores, iniurias, maledicta, contumelias, uerbera latronum more deum subiisse pro
-  hominum salute nec consentaneum nec uerisimile est.  Quid enim nobis aut <pb n="text.body.div1.p5.pb"/>
+  hominum salute nec consentaneum nec uerisimile est.  Quid enim nobis aut <pb n="pb1"/>
   illi crucis patibulum uel utilitatis afferre potuit uel commodi?  Postremo multa
   sunt (ut affirmant) ex quibus coniectare licet aut nullum esse deum et falsa
   homines credulitate moueri, aut, si quisquam sit, eum res humanas non curare. Quod
@@ -287,32 +307,32 @@ diligenter attendite.
   malos secunda extolli frequenter uidemus.  Quod uero sit et humana non curet, ea
   ratio ostendit quia, cum affectibus careat, cura humanarum rerum, que sine affectu
   non constat, eum attingere non potest.  Restat igitur religionem totam aut inanem
-  esse, aut omnino nullam, et <name n="text.body.div1.p5.name">Christum Jesum</name>, si deus et dei est filius,
+  esse, aut omnino nullam, et <name n="name2">Christum Jesum</name>, si deus et dei est filius,
   sicuti certe est, carnem hanc nostram assumere crucisque tormenta subire, quo nos
   saluaret, non modo non debuisse, sed ne potuisse quidem; cum nemo existimet deum
   affectibus esse subiectum.</p>
-            <p n="text.body.div1.p6">
+            <p n="p7">
 <!-- pobijanje -->
-Sunt <expan n="text.body.div1.p6.expan">hec</expan> 
-               <name n="text.body.div1.p6.name1">Epicuri</name> inter crapulam et calices suos
+Sunt <expan n="expan1">hec</expan> 
+               <name n="name2">Epicuri</name> inter crapulam et calices suos
 ructantis uomitus eorumque, qui scelere et nequicia inuoluti neque dei neque sui
 memores impunitatem sibi huiusmodi deliramentis pollicentur, quorum eo miserabilior
 est conditio quod miseriam suam tum nolunt, tum et nequeunt agnoscere.  Quid enim si
 deus humana non curat, si bonorum et malorum studio non mouetur, si nec iustos amat
 nec impios odit, quid, inquam, stultius quam templa extruere, laudes reddere, conferre
-dona, ut nihil inde boni, nihil commodi assequamur? atque <bibl n="text.body.div1.p6.bibl">(ut ille ait)</bibl> 
-               <quote n="text.body.div1.p6.quote">si talis
+dona, ut nihil inde boni, nihil commodi assequamur? atque <bibl n="bibl3">(ut ille ait)</bibl> 
+               <quote n="quote4">si talis
 est ut nulla hominum caritate teneatur, ualeat; quid enim dicam propicius sit? esse
 enim propitius potest nemini.</quote>
-               <note n="text.body.div1.p6.note" type="gloss">
-                  <add n="text.body.div1.p6.note.add" resp="#NJ">Cic. nat. 1, 124.</add>
-               </note> Stultus igitur <name n="text.body.div1.p6.name2">Socrates</name>, insanus
-<name n="text.body.div1.p6.name3">Plato</name>, delirus <name n="text.body.div1.p6.name4">Aristoteles</name>, <name n="text.body.div1.p6.name5">Zeno</name> item Stoicus
+               <note n="note5" type="gloss">
+                  <add n="add1" resp="#NJ">Cic. nat. 1, 124.</add>
+               </note> Stultus igitur <name n="name6">Socrates</name>, insanus
+<name n="name7">Plato</name>, delirus <name n="name8">Aristoteles</name>, <name n="name9">Zeno</name> item Stoicus
 et plerique omnes philosophorum amentes plane et fatui, qui et deum esse et
 prouidentia cuncta hec consistere partim senserunt, partim etiam in scriptis
-reliquerunt.  <name n="text.body.div1.p6.name6">Salomon</name> quoque rex, dei testimonio omnium mortalium
+reliquerunt.  <name n="name10">Salomon</name> quoque rex, dei testimonio omnium mortalium
 sapientissimus, sine mente tunc erat cum ad ipsius omnipotentis dei honorem
-nobilissimum templum <name n="text.body.div1.p6.name7" type="locus">Hierosolymis</name> extructum consecrauit,
+nobilissimum templum <name n="name11" type="locus">Hierosolymis</name> extructum consecrauit,
 imo uero illos ipsos, qui hec somniauerunt, uecordes et absque ulla bone mentis
 effigie, qui uel ex hac sine dubio preclara et speciosissima rerum quas cernimus mole
 non potuerint adduci uel ad suspitionem aliquam eorum, que de deo ac parente suo et
@@ -326,16 +346,16 @@ effici potuisse uideatur; et hec temere ac fortuito subsistere quisquam sane men
 contenderit, hec sine dei prouidentia ita esse ab initio disposita crediderit?  An
 uero per ipsum immortalem deum nobis, qui hoc sumus uili corpusculo inclusi, artem,
 consilium, rationem, intellectum et prouidendi multa et gubernandi prope infinita
-et quedam etiam de nouo quasi creandi concedemus, illi uero <corr n="text.body.div1.p6.corr">immenso</corr> et perpetuo fonti, a
+et quedam etiam de nouo quasi creandi concedemus, illi uero <corr n="corr12">immenso</corr> et perpetuo fonti, a
 quo omnia hec miro quodam et ineffabili ordine profluxerunt, curam suarum rerum non
 dabimus?  Et numquid solus ille, qui plantauit, aurem non audiet, et qui fecit, oculos
-non uidebit? <pb n="text.body.div1.p6.pb"/> Quod cum falsissimum tum ratione, tum exemplo et auctoritate
+non uidebit? <pb n="pb13"/> Quod cum falsissimum tum ratione, tum exemplo et auctoritate
 conuincatur, necesse est profecto et deum esse et res humanas curare et bonos, hoc
 est sui similes, diligere, malos contra odisse.  Semper enim iustitia iniquitati
 repugnat et bonitas prauitati est inimica.  Quod si deo, qui summa est iustitia,
 summa bonitas, improbi displicent, conuenit certe ut puniantur.</p>
 
-            <p n="text.body.div1.p7">Neque est quod mihi aliquis dicat displicentiam hanc ex affectu prouenire, quo deum
+            <p n="p8">Neque est quod mihi aliquis dicat displicentiam hanc ex affectu prouenire, quo deum
 ipsum, qui stabilis, firmus, inconcussus est, commoueri non decet.  Mouetur nanque
 summus ille rerum opifex, non autem affectibus (hi enim deum attingere non possunt)
 sed effectibus duntaxat.  Et sicut ad coercendam malitiam opprimendaque scelera
@@ -344,10 +364,10 @@ utrunque ad iustitiam et bonitatem, que in deo summa et precipua sunt, pertinet,
 uelut soli huic lumen perpetuo adheret.  Nec tamen motum hunc more humano aut cum
 passione uel turbatione aliqua nature illi excellentissime euenire dixerim.  Quis
 enim deo iram hanc nostram, hoc est nostre huic similem, attribuerit, cum eam physici
-<corr n="text.body.div1.p7.corr">asserant</corr> ex sanguinis circa cor accensione causari, et deus
+<corr n="corr1">asserant</corr> ex sanguinis circa cor accensione causari, et deus
 omnino tam corde, quam sanguine careat?</p>
 
-            <p n="text.body.div1.p8">Neque enim nunc de <name n="text.body.div1.p8.name">Christo</name>, qui et ipse uerissimus est deus ex humana
+            <p n="p9">Neque enim nunc de <name n="name1">Christo</name>, qui et ipse uerissimus est deus ex humana
 carne et diuina essentia constans, disputamus.  Aliter enim de eo loquendum esset et
 alia ratione incedendum. Sed nobis nunc de diuina essentia sermo est, non de natura
 humana.  Mouetur itaque deus (ut dicebam) non hominum affectibus aut his, qui nobis
@@ -357,42 +377,42 @@ et peculiari ratione, quam humana assequi mente uel difficile, uel impossibile s
 et quemadmodum probos homines et cum uirtute uiuentes diligit, ita malos ira et odio
 prosequitur: alioqui inter uitia et studiosas actiones nil interesset.</p>
 
-            <p n="text.body.div1.p9">Cur autem boni uiri malis innumerabilibus plerunque in hac uita uexentur, improbi
+            <p n="p10">Cur autem boni uiri malis innumerabilibus plerunque in hac uita uexentur, improbi
 item commodis omnibus affluant, dicam paulo post: nunc, quoniam deo cure res nostras
 esse ostendi, prosequar cetera, que se continenter offerunt, ne instituti sermonis
 cursus intercidatur.</p>
 
-            <p n="text.body.div1.p10">Prospicit ergo, ut docui, summa illa et ineffabilis maiestas rebus humanis eisdemque
+            <p n="p11">Prospicit ergo, ut docui, summa illa et ineffabilis maiestas rebus humanis eisdemque
 pro sua diuina benignitate et prouidentia moderatur.  Quod si moderatur, certe
 prodest.  Si uero prodest,  conuenit ut eas etiam diligat.  Si autem diligit,  quis
 mirari debet illam saluti hominum uoluisse consulere orbique huic nocte et tenebris
 offuso lumen celitus demittere? Errabant enim miseri mortales studioque sapientie
 inquirende, quam sine deo assequi non poterant, mirum in modum torquebantur, iacebatque
-ipsa ueritas (ut <name n="text.body.div1.p10.name1">Democritus</name> inquit) in altissimo quodam puteo
-  demersa;<note n="text.body.div1.p10.note" type="gloss">
-                  <add n="text.body.div1.p10.note.add" resp="#NJ">Cf. Diog. Laert. IX, 72.</add>
-               </note> et <name n="text.body.div1.p10.name2">Anaxagoras</name> circumfusa esse
+ipsa ueritas (ut <name n="name1">Democritus</name> inquit) in altissimo quodam puteo
+  demersa;<note n="note2" type="gloss">
+                  <add n="add1" resp="#NJ">Cf. Diog. Laert. IX, 72.</add>
+               </note> et <name n="name3">Anaxagoras</name> circumfusa esse
 tenebris omnia pronuntiauit, ita sapientie splendor, immo ne scintilla quidem, nusquam
 apparebat: sed tanto ueteres nostri indagande illius ardore tenebantur ut primum
-<name n="text.body.div1.p10.name3">Pithagoras</name> et postea <name n="text.body.div1.p10.name4">Plato</name> ad <name n="text.body.div1.p10.name5" type="populus">Egyptios</name> usque et <name n="text.body.div1.p10.name6" type="populus">Persas</name> hac sola
-de causa penetrauerint: et <name n="text.body.div1.p10.name7">Lycurgus</name> utroque prior <name n="text.body.div1.p10.name8" type="regio">Lydiam</name>, <name n="text.body.div1.p10.name9" type="regio">Hiberiam</name>, <name n="text.body.div1.p10.name10" type="regio">Indiam</name>que peragrans gymnosophistas adierit.</p>
+<name n="name4">Pithagoras</name> et postea <name n="name5">Plato</name> ad <name n="name6" type="populus">Egyptios</name> usque et <name n="name7" type="populus">Persas</name> hac sola
+de causa penetrauerint: et <name n="name8">Lycurgus</name> utroque prior <name n="name9" type="regio">Lydiam</name>, <name n="name10" type="regio">Hiberiam</name>, <name n="name11" type="regio">Indiam</name>que peragrans gymnosophistas adierit.</p>
 
-            <p n="text.body.div1.p11">Misertus itaque rerum humanarum mundi opifex deus filium unigenitum, quo sibi homines
+            <p n="p12">Misertus itaque rerum humanarum mundi opifex deus filium unigenitum, quo sibi homines
 maiori beneficio obstringeret, transmisit in terram, ut illi eodem interprete ac
 magistro, omissis erroribus, ueram tandem doctrinam ueramque sapientiam perdiscerent.
-Venit ergo Saluator mundi <name n="text.body.div1.p11.name1">Christus</name> de sancto conceptus spiritu, de
+Venit ergo Saluator mundi <name n="name1">Christus</name> de sancto conceptus spiritu, de
 uirgine matre genitus, diuque cum hominibus uiuens iter immortalitatis nullius adhuc
 tentatum uestigio illis aperuit.  Sed cur homo potius uenit quam deus?  Cur mole
 carnis huius nostre circundatus et non purus, non simplex, non expeditus?  Quia
 nullum aliud animal, nulla alia substantia nec commodius nec rectius docere hominem
-potest quam homo.  Sed fingamus sane disputationis gratia: si <name n="text.body.div1.p11.name2">Christus</name>
+potest quam homo.  Sed fingamus sane disputationis gratia: si <name n="name2">Christus</name>
 Saluator noster olim, cum in terram uenturus erat, ignis alicuius speciem aut nubis aut
 aliam quamlibet huiusmodi effigiem assumpsisset (nam deus ipse, cum sit omnis materie
 expers, oculis humanis peruideri non potest); at uero si tales aliquas suscepisset
 formas, unde illi ex igne humana uox, aut unde uerba ex nube suppetere potuissent?
-Sed esto, do etiam uocem, concedo uerba, cum et <name n="text.body.div1.p11.name3">Moysi</name> hoc ferme modo
+Sed esto, do etiam uocem, concedo uerba, cum et <name n="name3">Moysi</name> hoc ferme modo
 locutum fuisse dominum acceperimus.  Quid autem est?  Nonne melius fuit (ut omittam
-quod perfectissima sunt omnia diuina opera, <corr n="text.body.div1.p11.corr">etsi</corr> uidetur nobis interdum pro nostra
+quod perfectissima sunt omnia diuina opera, <corr n="corr4">etsi</corr> uidetur nobis interdum pro nostra
 imbecillitate ita non esse), nonne, inquam, melius fuit deum ea forma ad homines
 descendisse quam illis gratissimam fore non ignorabat, quandoquidem natura comparatum
 sit ut omne animans sui similitudine plurimum delectetur.  Neque enim ulla poterat
@@ -403,12 +423,12 @@ paulo post corpus ipsum resumens in celum triumphans rediit, mortuos scilicet in
 forma sibi consimili, hoc est cum propriis corporibus excitatos, iudicaturus, et
 unicuique pro meritis siue penas siue premia redditurus.</p>
 
-            <p n="text.body.div1.p12">At uero cur pauper in mundum descendit? cur humilis? cur abiectus? cur tormentis
+            <p n="p13">At uero cur pauper in mundum descendit? cur humilis? cur abiectus? cur tormentis
 omnibus et morti turpissime expositus?  Sciebat ille, amplissimi patres (quid enim
-deus <corr n="text.body.div1.p12.corr">nesciat</corr>?),  multo plus factis commoueri homines quam uerbis, facilius exemplo
+deus <corr n="corr1">nesciat</corr>?),  multo plus factis commoueri homines quam uerbis, facilius exemplo
 uite quam sermonis hortatione ad bene beateque uiuendum institui.  Equidem cum bene
 dicere nullius sit laboris, bene uiuere maximi et incredibilis est.  Quod si
-<name n="text.body.div1.p12.name">Christus</name> omni uoluptate, omnibus delitiis affluens <pb n="text.body.div1.p12.pb"/> equo animo
+<name n="name2">Christus</name> omni uoluptate, omnibus delitiis affluens <pb n="pb3"/> equo animo
 ferendam esse paupertatem suaderet, si ipse felix aduersos casus fortiter esse
 tolerandos predicaret, si incontinens ipse continentiam amplectendam esse
 contenderet, si denique nullo ipse incommodo affectus alios ad dolorem, penas,
@@ -416,55 +436,55 @@ mortemque contemnendam hortaretur, nemo illum (ut arbitror, immo ut certe scio) 
 modo sequi, sed ne audire quidem uoluisset; est nanque portento simile ea uelle
 ceteris persuadere que tuipse nunquam attigisses.</p>
 
-            <p n="text.body.div1.p13">Sed poterat, ut superius est obiectum, etiam in celo residens omnis homines solo nutu ad
+            <p n="p14">Sed poterat, ut superius est obiectum, etiam in celo residens omnis homines solo nutu ad
           ueram immortalitatis notitiam perducere. Atqui nonne idipsum fecit, nonne et nutu et
           uoluntate perduxit, cum filium unigenitum ad eos hac potissimum causa transmisit? An
           existimandum est, obsecro, sine patris consensu Saluatorem nostrum in terram descendisse?
-          hoc nemo dicet: sed illud fortasse dicet: <q n="text.body.div1.p13.q">Cur descendit in terram cum in celo
+          hoc nemo dicet: sed illud fortasse dicet: <q n="q1">Cur descendit in terram cum in celo
             nihilominus res peragi potuerit?</q> Quoniam, ut dixi, exemplo optime docetur uirtutis
-          uia, cum <corr n="text.body.div1.p13.corr">difficillimum</corr> habeat aditum, et deus ea, que facere homines uolebat,
+          uia, cum <corr n="corr2">difficillimum</corr> habeat aditum, et deus ea, que facere homines uolebat,
           fecit prius ipse ut eo magis illos ad bene beateque uiuendum excitaret. Quis enim seruus
           tam impudens, tam barbarus, tam ingratus, tam impius sit, qui si dominum suum uideat
           omnibus tormentis, doloribus, penis expositum pro se, non item ipse pro domino et corpus
           et uitam omnibus periculis exponat? At uero multo id quidem magis nos facere oportet, qui
-          ut omnes molestias, omnes penas subeamus pro <name n="text.body.div1.p13.name1">Christo</name>, nobis gratiam, nobis
+          ut omnes molestias, omnes penas subeamus pro <name n="name3">Christo</name>, nobis gratiam, nobis
           premia cumulamus, non illi referimus, et in eo ipso, quod deo seruimus, quod cum uirtute
-          uiuimus, quod a <name n="text.body.div1.p13.name2">Christi</name> mandatis non discedimus, non ipsius utilitati, qui
+          uiuimus, quod a <name n="name4">Christi</name> mandatis non discedimus, non ipsius utilitati, qui
           hominum opera non indiget, sed nostre consulimus saluti.</p>
             <!-- dovde ispravljeno -->
-            <p n="text.body.div1.p14">Quod autem boni plerunque in hoc seculo uexentur: mali item in delitiis sine ullo
+            <p n="p15">Quod autem boni plerunque in hoc seculo uexentur: mali item in delitiis sine ullo
 incommodo quiescant: hec plane est ratio: Quia cum ardua et maxime angusta sit (ut
 sepius dixi) uia illa uirtutis: quam Philosophi impedimentis omnibus refertissimam
 esse ostenderunt: et cum omnia eius officia in tolerandis laboribus: in perferendo
 dolore: in periculis obeundis: in contemnenda morte uersentur difficile: et
 quodammodo impossibile est luxuriosos diuites et omni rerum ac uoluptatum copia
-redundantes ad illam aspirare.  Quod equidem ipsius <name n="text.body.div1.p14.name1">Jesu Christi</name> exemplo
+redundantes ad illam aspirare.  Quod equidem ipsius <name n="name1">Jesu Christi</name> exemplo
 uel maxime comprobatur: qui cum eiusdem uirtutis et auctor esset et uerissimus
 antistes repudiatis opibus: reiecta quiete: propulsatis uoluptatibus inopiam,
 laborem, sitim, esuriem penas mortem est amplexus.  Preterea consentaneum profecto
 est et plurimum conuenit ut homines in sui finis contemplatione qui deus est sint
 semper occupati: eaque summa ope euitent que huic instituto possunt quoquo modo esse
 contraria.  Sed lusus, commessationes, libidines et omnes id genus uoluptates quas ab
-ocio et diuitiis prouenire <pb n="text.body.div1.p14.pb1"/> certissimum est illos uel maxime ab ea cogitatione
+ocio et diuitiis prouenire <pb n="pb2"/> certissimum est illos uel maxime ab ea cogitatione
 auertunt: iubentque non deo et rationi: sed concupiscentie et uitiis omnem operam
 adhibere.  Decet igitur probos et innocentes uiros queuis potius incommoda subire
 quam in ocio, in rerum copia, in delitiis ita uiuere ut merito uideantur hic mercedem
-suam recepisse.  Nam teste <name n="text.body.div1.p14.name2">Hieronymo</name> impossibile est ex terrenis ad
-celestes comigrare delitias.  Quod ipsum <name n="text.body.div1.p14.name3">Salomon</name> etiam apertissime
-sentire uisus est cum ait: <quote n="text.body.div1.p14.quote1">Risus dolore miscebitur: et extrema gaudii luctus
-occupat.</quote> Et iterum: <quote n="text.body.div1.p14.quote2">Risum deputaui errrorem: et gaudio dixi quid
-frustra deciperis?</quote> Et rursus: <quote n="text.body.div1.p14.quote3">Cor sapientum ubi tristitia est: et cor
+suam recepisse.  Nam teste <name n="name3">Hieronymo</name> impossibile est ex terrenis ad
+celestes comigrare delitias.  Quod ipsum <name n="name4">Salomon</name> etiam apertissime
+sentire uisus est cum ait: <quote n="quote5">Risus dolore miscebitur: et extrema gaudii luctus
+occupat.</quote> Et iterum: <quote n="quote6">Risum deputaui errrorem: et gaudio dixi quid
+frustra deciperis?</quote> Et rursus: <quote n="quote7">Cor sapientum ubi tristitia est: et cor
 stultorum ubi letitia.</quote> Sed deus bone quis hoc diuinius ostendit?  quis
-apertius declarauit quam Saluator noster <name n="text.body.div1.p14.name4">Jesus</name> cum inquit: <quote n="text.body.div1.p14.quote4">Ahe
-uobis qui nunc ridetis quia lugebitis et flebitis.</quote> Item alibi: <quote n="text.body.div1.p14.quote5">Beati
-qui lugent quoniam consolabuntur.</quote> Item et illud: <quote n="text.body.div1.p14.quote6">Qui amat animam suam
+apertius declarauit quam Saluator noster <name n="name8">Jesus</name> cum inquit: <quote n="quote9">Ahe
+uobis qui nunc ridetis quia lugebitis et flebitis.</quote> Item alibi: <quote n="quote10">Beati
+qui lugent quoniam consolabuntur.</quote> Item et illud: <quote n="quote11">Qui amat animam suam
 perdet eam: et qui odit animam suam in hoc mundo in uitam eternam custodit
 eam.</quote> A quo et Tragycus nescio qui uates quanquam gentilis non multum tamen
-dissentisse uisus est, quando sic ait: <quote n="text.body.div1.p14.quote7">Que hic mala putantur hec sunt in celo
+dissentisse uisus est, quando sic ait: <quote n="quote12">Que hic mala putantur hec sunt in celo
 bona.</quote>
 
 Proinde dicant licet homines quid uelint et suis ut libet blandiantur fortunis: sunt
-certe illi gratiores <name n="text.body.div1.p14.name5">Jesu Christo</name>: ad eiusque doctrinam propius accedunt
+certe illi gratiores <name n="name13">Jesu Christo</name>: ad eiusque doctrinam propius accedunt
 quos inopem uictum patienter sufferre conspicimus: quam quos in rerum omnium ac
 uoluptatum copia uulgus ueluti beatos admiratur.  Atque hoc loco multa profecto de
 diuitiis haud improbanda dicerem: que et ipse si recte acquirantur expeditissimum
@@ -473,31 +493,31 @@ ipsum immortalem imitari uoluerimus et eius quodammodo diuinitatem effingere: qu
 beneficentia et liberalitas.  Omnibus nanque summus ille opifex bona infinita
 largitur: omnibus se quotidie immo continue exhibet liberalem.  Atque hoc ipsum
 homines opulenti et diuitiis affluentes facile (ut mihi quidem uidetur) si modo
-uoluerint consequi possunt.  Nam diuitie (ut <name n="text.body.div1.p14.name6">Ambrosius</name> inquit) sicut
+uoluerint consequi possunt.  Nam diuitie (ut <name n="name14">Ambrosius</name> inquit) sicut
 impedimenta improbis: ita bonis sunt adiumenta uirtutis.  Multa igitur dicerem in
 hanc sententiam ne opibus: quas nemo per se malas existimat bellum indixisse uiderer;
 nisi iamdudum et animus et ipsa oratio ad alteram instituti sermonis partem
 festinaret.  Nemo igitur miretur si iustum quandoque hominem fortune ictibus
 concussum aspexerit credatque iustitie et bonitatis sue coronam in celo esse
-repositam.  Nam deus ipse immortalis (ut <name n="text.body.div1.p14.name7">Seneca</name> inquit) homines pro
+repositam.  Nam deus ipse immortalis (ut <name n="name15">Seneca</name> inquit) homines pro
 liberis habet: sed corruptos ac uitiosos luxuriose ac delicate patitur uiuere: quia
 non putat emendatione sua dignos.  Bonos autem quos diligit castigat sepius et
 assiduis laboribus ad usum uirtutis exercet: nec eos caducis ac mortalibus bonis
 corrumpi ac deprauari sinit. 
-<pb n="text.body.div1.p14.pb2"/>
+<pb n="pb16"/>
   Quod ipsum et a medicis quotidie fieri uidemus qui egrotis hominibus de quorum
   salute nulla spes reliqua est sine delectu aliquo pro ipsorum appetitu indulgent
   omnia, eos uero quorum mors certa adhuc non est multis rebus etiam auidissime
   desideratis abstinere iubent.  
 
 <!-- rekapitulacija i najava 2. dijela -->
-Ostendi igitur ut promiseram Beatissime pater pro ingenii mei paruitate <name n="text.body.div1.p14.name8">Jesu
+Ostendi igitur ut promiseram Beatissime pater pro ingenii mei paruitate <name n="name17">Jesu
 Christi</name> mortem nobis non modo non superuacuam: sed salubrem omnino et
 pernecessariam fuisse: Nunc ad mortis ipsius conditionem breuissime percurrendam que
 altera incepti sermonis est pars deflectat oratio: Vos queso audite et diligenter
 sicut hactenus fecistis attendite.
 </p>
-            <p n="text.body.div1.p15">
+            <p n="p16">
   Sentio me Beatissime pater asserende ueritatis studio longiuscule prouectum et plus
   temporis quam par erat in re minime dubia consumpsisse: propterea non repetam
   altius ut equidem erat in animo ea que Saluator noster pridie quam pateretur pro
@@ -506,17 +526,17 @@ sicut hactenus fecistis attendite.
   initio potissimum exordiar: fuit enim oratio illa tam sedula, tam ardens, tam
   laboriosa: ut non modo gemitum: non modo lachrymas: sed etiam sudorem et quod omne
   anxietatis genus plurimum exuperat: guttas sanguinis ex sacro illo uenerandoque
-  corpore expresserit: et factus (inquit <name n="text.body.div1.p15.name1">Lucas</name>) in agonia: hoc est in
+  corpore expresserit: et factus (inquit <name n="name1">Lucas</name>) in agonia: hoc est in
   timore et sollicitudine (id enim agonia significat) erat namque Saluator noster in
   maxima perturbatione: summaque affectuum sollicitudine: ut sic assumptam
-  humanitatem manifestissimo indicio demonstraret: Atque (ut <name n="text.body.div1.p15.name2">Hieronymus</name>
+  humanitatem manifestissimo indicio demonstraret: Atque (ut <name n="name2">Hieronymus</name>
   ait) ne passio in animo illius dominaretur: per passionem contristari cepit.
 
 Sensualitas siquidem abhorrens futuram mortem cum ultro ipsam ratio expeteret ad
 summas et incredibiles angustias illum frequenti estu cogitationis excitabat.
 Contristabatur enim non quod penas nollet perpeti Nam quid in mundum uenisset? sed
 languentium hominum more qui dum morbi alicuius iniuria uel deperditas uires uel
-membrum aliquod amissum recuperare student (sumus enim et nos <name n="text.body.div1.p15.name3">Christi</name>
+membrum aliquod amissum recuperare student (sumus enim et nos <name n="name3">Christi</name>
 membra) nullos neque dolores: neque cruciatus euitant: quin etiam urgentem metum
 rationis imperio propulsantes et ferri et ignis remedia non modo non reformidant: sed
 etiam arcessunt atque ultro efflagitant: quod tamen illi si modo homines sint facere
@@ -524,44 +544,44 @@ sine ingenti animi sollicitudine non possunt; factus igitur Saluator noster in a
 laborabat pro rei magnitudine supra quam dici potest: ita ut ex hac uehementissima et
 incredibili anxietate sanguis uel sudor tinctus sanguine omnibus membris totoque
 corpore sese effunderet.  Ille in terra proiectus ad celum oculos totamque mentem
-conuertens ter in hunc modum dixisse perhibetur: <q n="text.body.div1.p15.q1">Mi pater si possibile est
-transeat <pb n="text.body.div1.p15.q1.pb"/> a me calix iste: uerum tamen non sicut ego uolo: sed sicut tu:</q> Et
+conuertens ter in hunc modum dixisse perhibetur: <q n="q4">Mi pater si possibile est
+transeat <pb n="pb1"/> a me calix iste: uerum tamen non sicut ego uolo: sed sicut tu:</q> Et
 apparuit ei angelus confortans eum.  Sed dicet hic fortasse aliquis (utar enim uestra
 bonitate amplissimi patres: ac paululum a proposito digrediar: quoniam me tam
-diligenter attenditis) dicet inquam aliquis: <q n="text.body.div1.p15.q2">Quid est quod Christus patrem orabat
+diligenter attenditis) dicet inquam aliquis: <q n="q5">Quid est quod Christus patrem orabat
 ut calix ille mortis a se tolleretur: cum id nequaquam uellet: aut si uolebat?  cur a
 deo tunc exauditus non fuit?</q> Atqui oratio hec Saluatoris ea ex parte proueniebat:
 que (ut modo dicebam) ad motum et afflictionem sensitiue partis attinet non que ad
 rationem et certam animi uoluntatem: ideoque mox addit: Verum tamen non mea uoluntas
-fiat pater: sed tua.  Atque hoc ipsum <name n="text.body.div1.p15.name4">Dauid</name> etiam Rex in Christi persona
-diuine sicut omnia his uerbis elocutus est: <q n="text.body.div1.p15.q3">Deus deus meus clamabo per diem: et
+fiat pater: sed tua.  Atque hoc ipsum <name n="name6">Dauid</name> etiam Rex in Christi persona
+diuine sicut omnia his uerbis elocutus est: <q n="q7">Deus deus meus clamabo per diem: et
 nocte: et non exaudies me.</q> Quia et circa horam nonam dici clamauit in cruce:
-<quote n="text.body.div1.p15.quote1">Heloy Heloy lama Azabatani.</quote> Et hac nocte proxime preterita clamauit, id
+<quote n="quote8">Heloy Heloy lama Azabatani.</quote> Et hac nocte proxime preterita clamauit, id
 est orauit ad patrem: de qua ego oratione nunc loquor: Orauit, inquam, pro sua
-liberatione dicens: <quote n="text.body.div1.p15.quote2">Mi pater, si possibile est, transeat a me calix iste: et non
+liberatione dicens: <quote n="quote9">Mi pater, si possibile est, transeat a me calix iste: et non
 exaudies</quote>; quia (ut ostendi) exauditus non fuit.  Peracta igitur
-oratione uenit ad discipulos: quibus a somno excitatis ait: <quote n="text.body.div1.p15.quote3">Dormite iam et
+oratione uenit ad discipulos: quibus a somno excitatis ait: <quote n="quote10">Dormite iam et
 requiescite: ecce qui me tradet prope est.</quote> Dormiebant enim preter Judam
 ceteri omnes: is nanque accepto iam facinoris sui stipendio: coactaque pessimorum
-hominum manu <corr n="text.body.div1.p15.corr1">properabat</corr> infelix ad agni sanctissimi proditionem: ad
+hominum manu <corr n="corr11">properabat</corr> infelix ad agni sanctissimi proditionem: ad
 sanguinis iustissimi effusionem: ad templi illius sacratissimi destructionem: non ex
 parietibus manufactis: sed ex lapidibus preciosis e uiuis constructi: quod tamen
 triduo post instaurari debebat: ut si omnibus gentibus: omnibus populis: atque etiam
 ipsi misero si uoluisset refugium foret salutis et gratie.  At uero crudelissimus
-parricida ad <name n="text.body.div1.p15.name5" type="populus">Iudeos</name> se contulerat et recepto iam pefidie
+parricida ad <name n="name12" type="populus">Iudeos</name> se contulerat et recepto iam pefidie
 sue stipendio: principatumque inter eos sceleris sui priuilegio obtinens ante omnes
 gradiebatur.  Ipse ipse dux: ipse tenebrarum caput perditissimo et teterrimo gregi
 signum dabat Quemcumque inquiens osculatus fuero ille est tenete eum.  Quid postea?
-persoluit infelix qod promiserat: manibus impurissimis <name n="text.body.div1.p15.name6">Jesum</name>
+persoluit infelix qod promiserat: manibus impurissimis <name n="name13">Jesum</name>
 amplectitur: faciem illam deo et hominibus iratam uultui sanctissimo admouet:
-pallido: trementique ore <name n="text.body.div1.p15.name7">Christum</name> osculatur: neque enim ille qua erat mansuetudine
+pallido: trementique ore <name n="name14">Christum</name> osculatur: neque enim ille qua erat mansuetudine
 proditorem suum reiicere uoluit.  Perge porro: sed quid tandem hic restat nisi ut
-uoce tota in clamorem prorumpam?  O scelerate <name n="text.body.div1.p15.name8">Juda</name>: O impurissime latro:
+uoce tota in clamorem prorumpam?  O scelerate <name n="name15">Juda</name>: O impurissime latro:
 O imanissima bellua: osculo tu quod ad humane societatis coniunctionem et uinculum
 pertinet: quod sacrosanctum charitatis et beniuolentie fedus adinuentum est: osculo
 inquam Preceptorem tuum tradis?  Scriptum est peccatum hoc: scriptum est scelus hoc
 stilo ferreo in ungue adamantino: et testis falsus non erit impunitus pro eo quod
-uendidit argento iustum: Argento <pb n="text.body.div1.p15.pb1"/> enim <name n="text.body.div1.p15.name9">Jesum</name> uendidisti
+uendidit argento iustum: Argento <pb n="pb16"/> enim <name n="name17">Jesum</name> uendidisti
 crudelissime gladiator.  Illum inquam uendidisti cum quo panem commedebas, illum
 uendidisti cum quo dies et noctes dulces capiebas cibos, idest qui te suauissimis et
 saluberrimis admonitionibus continue pascebat.
@@ -571,57 +591,57 @@ perpetrari potuit.  Miserum certe est ab ignoto homine iniuriam accipere: miseri
 noto.  Acerbum ab extraneo: acerbius a proximo.  Calamitosum ab inimico: calamitosius
 ab amico.  Indignum a uicino: indignius a domestico.  Luctuosum a conciue: luctuosius
 a conuiua.  Horribile a socio: horribilius a discipulo: et erat tibi ille quem
-perdidisti notissimus o <name n="text.body.div1.p15.name10">Juda</name>, erat proximus, erat amicus, domesticus,
+perdidisti notissimus o <name n="name18">Juda</name>, erat proximus, erat amicus, domesticus,
 conuiua, magister.  Quid? quod parens, quod saluator, quod dominus, quod creator,
 quod deus?  
 
-Cohors ergo et tribunus et ministri <name n="text.body.div1.p15.name11">Judeorum</name> comprehenderunt
+Cohors ergo et tribunus et ministri <name n="name19">Judeorum</name> comprehenderunt
 Jesum et ligauerunt eum.  Atque ibi primum se ille non modo ab inimicis circundatum:
 uerum etiam ab amicis: et proximis omnibus misere destitutum conspexit.  Quocunque
 oculos uertebat neminem pro se intuebatur. facti sunt principes eius, id est apostoli
 eius, uelut arietes non inuenientes pascua: et abierunt absque fortitudine ante
 faciem subsequentis. omnes amici eius dereliquerunt eum: et preualuerunt insidiantes:
 non est qui consoletur eum ex omnibus caris eius.  Colligatis itaque post tergum
-manibus quasi agnus in medio luporum ad <name n="text.body.div1.p15.name12">Pilatum</name> presidem trahebatur; omnes in eum
+manibus quasi agnus in medio luporum ad <name n="name20">Pilatum</name> presidem trahebatur; omnes in eum
 uerbis pariter et uerberibus seuiebant. nec uero ille quenquam in tanto perditorum
 latronum grege conspicere poterat qui sanguinem suum inusitata et incredibili rabie
 non expeteret.  Videres aliquos pugnis atque alapis eum cedere. plerosque diro
 latratu acerbissimisque uocibus partim irridere. partim maledicere. quosdam capillum
 et barbam (o intollerandum dedecus) impurissimis manibus expilare. nonnullos in eum
-quasi in maleficum quempiam ore scelestissimo conspuere.  <name n="text.body.div1.p15.name13">Pilatus</name> autem cum illum
+quasi in maleficum quempiam ore scelestissimo conspuere.  <name n="name21">Pilatus</name> autem cum illum
 post multas et pene infinitas uexationes adduxissent ad se cognita eius innocentia
 instare admodum cepit uti a morte absolueretur optioneque plebi proposita de eo:
-deque <name n="text.body.div1.p15.name14">Barraba</name> nescio quo improbo et seditioso homine qui forte tunc in publica
-custiodia asseruabatur inquit: <q n="text.body.div1.p15.q4">Est uobis consuetudo per hos dies reum aliquem a
-carcere liberare. uultis ergo ut <name n="text.body.div1.p15.q4.name">Jesum Nazarenum</name> uobis absolutum dimittam?</q> Tum
-uero sacrilegi homines sublato ingenti clamore: <q n="text.body.div1.p15.q5">Non Jesum</q> inquiunt <q n="text.body.div1.p15.q6">sed
-<name n="text.body.div1.p15.q6.name1">Barrabam</name> 
-                  <name n="text.body.div1.p15.q6.name2">Barrabam</name> nobis dimitte.</q> 
+deque <name n="name22">Barraba</name> nescio quo improbo et seditioso homine qui forte tunc in publica
+custiodia asseruabatur inquit: <q n="q23">Est uobis consuetudo per hos dies reum aliquem a
+carcere liberare. uultis ergo ut <name n="name1">Jesum Nazarenum</name> uobis absolutum dimittam?</q> Tum
+uero sacrilegi homines sublato ingenti clamore: <q n="q24">Non Jesum</q> inquiunt <q n="q25">sed
+<name n="name1">Barrabam</name> 
+                  <name n="name2">Barrabam</name> nobis dimitte.</q> 
 
 Deus bone quanto hec dicenda sunt cum dolore?  quanto eloquenda cum gemitu? quibus
 lachrymis deploranda? An quicquam peius? an scelestius quicquam aut fieri. aut
-dici. aut etiam excogitari potuit?  sceleratum innocenti. sacrilegum <pb n="text.body.div1.p15.pb2"/>
+dici. aut etiam excogitari potuit?  sceleratum innocenti. sacrilegum <pb n="pb26"/>
 sancto. iniquum iusto. seductorem pacifico. crudelem miti ac pio. quid superest? deo
 Optimo Maximo hominem infimum et pessimum pretulerunt.  Trahitur ergo
-<name n="text.body.div1.p15.name15">Christus</name> ad uerbera: facinus indignum. res miseranda. scelus
-inauditum. Trahitur inquam <name n="text.body.div1.p15.name16">Christus</name> hominum Saluator ad
+<name n="name27">Christus</name> ad uerbera: facinus indignum. res miseranda. scelus
+inauditum. Trahitur inquam <name n="name28">Christus</name> hominum Saluator ad
 uerbera. nudusque uelut latro aliquis ad lapideam columnam deligatur.  Aderant ibi
 carnifices ad pulsandos homines exercitatissimi. circumsistunt columnam. expediunt
 flagra. preparant sese (horret animus cetera persequi) attollunt sacrilegas
 manus. ingeminant percutiunt. uerberant diu. acriterque totis uiribus: cedebatur
 sacrim illud uenerandumque corpus. cedebatur deus et parens et saluator noster: atque
 ita cedebatur ut non capiti. non ori. non ipsis etiam oculis parceretur.  Hem bone
-<name n="text.body.div1.p15.name17">Jesu</name>. mundi Saluator. spes futuri seculi: sic ne a gente tua. sic a
+<name n="name29">Jesu</name>. mundi Saluator. spes futuri seculi: sic ne a gente tua. sic a
 populo tuo exciperis?  Miserum me: hec gratitudo est? hic honor est? hec gloria est
 que tue debetur maiestati? an ideo hominibus salutem e celo attulisti ut tibi illi
 uitam in terra eriperent? feriebant eum crebris ictibus homines illi
 scelestissimi. intumescebat atris plagarum uestigiis totum corpus: disruptaque
 uerberibus cute sanguis in terram undique diffundebatur: atque ubi iam tortores: et
-essent quodammodo tormenta ipsa defessa: <name n="text.body.div1.p15.name18">Pilatus</name> tertio (totidem enim
-sacri perhibent euangeliste) ad <name n="text.body.div1.p15.name19" type="populus">Judeos</name> exiuit inquiens se
-in <name n="text.body.div1.p15.name20">Jesu</name> mortis causam non inuenire: uiderique sibi talem esse illum qui
+essent quodammodo tormenta ipsa defessa: <name n="name30">Pilatus</name> tertio (totidem enim
+sacri perhibent euangeliste) ad <name n="name31" type="populus">Judeos</name> exiuit inquiens se
+in <name n="name32">Jesu</name> mortis causam non inuenire: uiderique sibi talem esse illum qui
 merito absolui debeat: presertim flagellatus iam et uerberibus adeo afflictus.  Tum
-illi: <q n="text.body.div1.p15.q7">Si non esset hic malefactor non tibi tradidissemus eum.</q> O audaciam
+illi: <q n="q33">Si non esset hic malefactor non tibi tradidissemus eum.</q> O audaciam
 singularem!  O incredibilem insaniam.  Hunc uos malefactorem appellatis homines
 dementissimi qui cecos illuminat: qui claudos erigit. qui leprosos curat. qui mutis
 sermonem reddit. surdis auditum apperit. languidis sanitatem donat. moribundis
@@ -633,12 +653,12 @@ quidem ita uobis prescribitis imitandum: obseruandumque ut si bonus aliqis inter
 (quod tamen ego fieri posse non arbitror) sed si quis forte inueniretur eum quasi
 sceleris crimine conuictum tollere possetis e medio: essetque apud uos bene agentibus
 pena proposita: male uero premia constituta: atque hoc modo certatim in tenebras, id
-est in scelus et nequitias uestras rueretis.  <q n="text.body.div1.p15.q8">Omnes inquit de uobis rex quondam
-uester <name n="text.body.div1.p15.q8.name">Dauid</name> declinauerunt simul. inutiles facti sunt. non est qui
+est in scelus et nequitias uestras rueretis.  <q n="q34">Omnes inquit de uobis rex quondam
+uester <name n="name1">Dauid</name> declinauerunt simul. inutiles facti sunt. non est qui
 faciat bonum: non est usque ad unum.</q> 
-               <name n="text.body.div1.p15.name21">Pilatus</name> itaque <pb n="text.body.div1.p15.pb3"/> et
-clamore illorum et <name n="text.body.div1.p15.name22">Herodis</name> Tetrarche instigatione metuentis ne regno
-pelleretur uictus est: et <name n="text.body.div1.p15.name23">Christum</name> iam prope extinctum uerberibus eorum
+               <name n="name35">Pilatus</name> itaque <pb n="pb36"/> et
+clamore illorum et <name n="name37">Herodis</name> Tetrarche instigatione metuentis ne regno
+pelleretur uictus est: et <name n="name38">Christum</name> iam prope extinctum uerberibus eorum
 uoluntati tradidit ut ipsimet de illo secundum legem suam iudicarent.  
 
 O magnum et
@@ -672,16 +692,16 @@ illuuies attenuatos oculos et lumen prope extinctum puluere et cruore obducit.
 Adhesit caro eius ossibus ipsius.  A planta pedis usque ad uerticem non est in eo
 sanitas.  Vidimus eum et non habebat speciem neque decorem: sed erat species eius
 inhonorata et deficiens a filiis hominum. mutatus est enim color optimus obscuratum
-est aurum: et lapis ille preciosus. electus. angularis: quem <pb n="text.body.div1.p15.pb4"/> quondam deus in
+est aurum: et lapis ille preciosus. electus. angularis: quem <pb n="pb39"/> quondam deus in
 fundamentis Syon: id est in sancte matris ecclesie fundamentis missurum se pollicitus
 erat perdidit decorem. perdidit lumen: quamuis uirtutem non amiserit. nemo eum
 nouit. nemo estimat. nemo ueretur.  Lux in tenebris lucet et tenebre eam non
 comprehenderunt: In propria uenit et sui eum non receperunt.  Quis est iste qui uenit
-Edom? <abbr n="text.body.div1.p15.abbr">i</abbr> sanguineus tinctus uestibus de <foreign n="text.body.div1.p15.foreign">bosra</foreign> id est angustia
+Edom? <abbr n="abbr40">i</abbr> sanguineus tinctus uestibus de <foreign n="foreign41">bosra</foreign> id est angustia
 uel tribulatione.  Quare rubrum est uestimentum tuum: et uestimenta tua sicut
 calcantium in torculari?  Torcular inquit calcaui solus: ac si aperte diceret: solus
 pro humana natura sanguinem effudi. solus crimina omnium durissima morte et
-acerbissimis penis meis abstuli.  De quo etiam Moyses inquit: <quote n="text.body.div1.p15.quote4">Vos
+acerbissimis penis meis abstuli.  De quo etiam Moyses inquit: <quote n="quote42">Vos
 tacebitis</quote> et alius: hoc est Christus solus: pugnabit pro uobis: moriendo
 scilicet in cruce pro salute omnium mortalium.
 
@@ -690,16 +710,16 @@ predixisse uidentur: quam bene dies diei eructat uerbum et nox nocti indicat
 scientiam. quam decenter rota in medio rote collocatur: quam manifeste abyssus
 abyssum inuocat, idest prisca illa hebreorum lex noue huius nostre sacra declarat:
 et quodammodo inuocat mysteria: in uoce catharactarum tuarum: hoc est ipsorum
-prophetarum uoce.  Atque de hoc ipso alibi etiam legimus: <quote n="text.body.div1.p15.quote5">Posuit tenebras
+prophetarum uoce.  Atque de hoc ipso alibi etiam legimus: <quote n="quote43">Posuit tenebras
 latibulum suum</quote> uetus scilicet testamentum: quod ipsis erat obscurum
 figuris. In circuitu eius tabernaculum eius: tenebrosa aqua in nubibus aeris. Sed
-addit postea: <quote n="text.body.div1.p15.quote6">Pre fulgore eius nubes transierunt</quote>. Quia aqua illa que in
+addit postea: <quote n="quote44">Pre fulgore eius nubes transierunt</quote>. Quia aqua illa que in
 nubibus latebat uidelicet Christiane legis mysteria que in ueteri testamento
 latebant in aperto post Christi aduentum refulserunt. ita quoad ab omnibus non iam
 per enigmata et obscuras similitudines sed manifeste ac simpliciter et doceri
 possent et percipi.  Emisit enim ex nubibus illis aquarum fontes Saluator: ut
 fluminis impetus letificaret ciuitatem suam: cuius saluberrimo potu nulli homines:
-nulla toto orbe regio esset expers.  <quote n="text.body.div1.p15.quote7">In omnem enim terram exiuit sonus
+nulla toto orbe regio esset expers.  <quote n="quote45">In omnem enim terram exiuit sonus
 Apostolorum Christi et in fines orbis terre uerbum eorum.</quote>
 
 Quamquam quid ego huc sum delapsus quasi uel ex nostris dubitet quispiam uel ex
@@ -711,7 +731,7 @@ dicendum loci huius oportunitate admonitus: uestraque humanissima attentione pen
 requisitus preterire non possum.  Juuat enim prophanum illud genus non nostris: sed
 suorum hominum auctoritatibus paululum aggredi et arma illa quibus frustra nos
 oppugnant in ipsos retorquere: quo paucissimis uerbis uanas rationes: quibus
-stultissime nobis obstrepunt <pb n="text.body.div1.p15.pb5"/> propriis auctoribus: et suo (ut ita dixerim)
+stultissime nobis obstrepunt <pb n="pb46"/> propriis auctoribus: et suo (ut ita dixerim)
 mucrone iugulatas conspiciant.  Docebo enim idipsum quod a religione nostra
 abhorrent quod in tenebris uersantur. quod Christum ueram lucem ignorant multo antea
 tempore a maioribus suis predictum fuisse.  Vbi es sancte uates Hieremias? quid
@@ -726,7 +746,7 @@ incrassatum est enim cor populi huius.  Item Ezechiel dum captiuus prophetaret i
 Caldea sic ait: factus est sermo domini ad me dicens: fili hominis in medio domus
 exasperantis tu habitas: qui oculos habent ad uidendum et non uident: et aures ad
 audiendum et non audiunt.  Ex quo certe Judeorum scelus atque impietas
-manifestissime apparet: Neque enim tam clarus <corr n="text.body.div1.p15.corr2">sermo</corr>, tam simplex, <corr n="text.body.div1.p15.corr3">tam</corr>
+manifestissime apparet: Neque enim tam clarus <corr n="corr47">sermo</corr>, tam simplex, <corr n="corr48">tam</corr>
 manifestus inuerti aut deprauari ullo modo potest.
 
 Itaque redeamus illuc unde nostra diuertit oratio.  Educitur Jesus ad supplicium eo
@@ -746,7 +766,7 @@ hominum Redemptor. expandit tota die manus suas. posuerunt enim lignum in pane e
 et cornua in manibus eius. foderunt manus eius et pedes eius: dinumerauerunt omnia
 ossa eius. distillant manus eius mirrham: et digiti eius guttas. Eleuatio enim
 manuum suarum sacrificium uespertinum. De cuius supplicii atrocitate quid ego multa
-dicam? cum omnes sciant quantus sit dolor eas corporis <pb n="text.body.div1.p15.pb6"/> partes ferro
+dicam? cum omnes sciant quantus sit dolor eas corporis <pb n="pb49"/> partes ferro
 transfigi: que plurimis sunt contexte neruorum coeuntium fibris: ubi pene omnis
 uiuacitas sedes suas: et quasi arcem quandam retinere uidetur.  Ecce autem paulo
 post horrenda adesse prodigia: et subita rerum insensibilium mutatio: que opifici et
@@ -755,13 +775,13 @@ tantas Summi atque Optimi dei penas pro sua queque conditione deplorare: ut plan
 tunc diceres pietatem: que humanitatis propria est ab hominibus sese in muta corpora
 transtulisse. Tota namque terre ipsius moles late contremuit. et lapides terrifico
 quodam et inaudito prodigii genere scissi sunt.  Sed et Sol per tres horas, quod
-fieri tunc secundum rationes Mathematicas non poterat, <corr n="text.body.div1.p15.corr4">obscuratus</corr> est.
+fieri tunc secundum rationes Mathematicas non poterat, <corr n="corr50">obscuratus</corr> est.
 Multaque sanctorum corpora qui dormierant surrexerunt.  At uero Saluator noster
 cruci affixus: uidens iam perfecta et consumata esse omnia: et penarum suarum
 ignominiam mox triumpho mortis gloriosissime comutatum iri: ad matrem afflictam et
 miseram deficientes ac prope extinctos oculos deflexit: Cumque eam lachrymis pene
 ocnsumptam: et uix iam dolori resistentem aliquandiu intuitus esset: ad Johannem
-postea: qui solus discipulorum ibi remanserat se conuertit: <quote n="text.body.div1.p15.quote8">Mulier inquiens
+postea: qui solus discipulorum ibi remanserat se conuertit: <quote n="quote51">Mulier inquiens
 (sic enim matrem tunc appellauit) ecce filius tuus.</quote>  Deinde rursus ad illam
 se reuoluens: quasi capite innueret quod manibus non poterat: Joani ait: Ecce mater
 tua.  Et ex illa hora accepit eam discipulus in suam.
@@ -772,15 +792,15 @@ certe uidere uideor perennes lachrymas: mestissimos eiulatus: dispersos crines:
 manus sanctissimas modo faciem: modo caput plangentes.  Sed age omittamus hec omnia:
 cum eadem sacri etiam euangeliste consulto fortassis omiserint et Mariam uirginem
 nihil aliud nisi uerba illa notissima orbitatis clamantem nobis ante oculos
-proponamus: <quote n="text.body.div1.p15.quote9">Mi Jesu dulcissimum quondam: nunc uero amarissimum mihi nomen: sic
+proponamus: <quote n="quote52">Mi Jesu dulcissimum quondam: nunc uero amarissimum mihi nomen: sic
 tu obsecro sponsam tuam deseris?  Sic matrem miseram destituis fili?  Quomodo factus
 es mihi amaritudo et dolor? quid igitur faciam? quo iam amisso te reuertar?  quo me
 recipiam? domumne?  at que ibi poterit esse uita nisi acerbissima?  nisi dolori
 perpetuo obnoxia?  Anne igitur ad Petrum. Andream. Philippum. Jacobum: ceterosque
 tuos discipulos: qui te derelicto aufugerunt omnes.  At uero adest orbitatis solatium
 Johannes: Miseram me: hunc ergo suscipiam: hunc pro te retinebo fili? hominem
-<corr n="text.body.div1.p15.quote9.corr">scilicet</corr> pro deo, seruum pro domino, cognatum pro filio?  O acerbam
-permutationem: o luctuosum solatium et meroris perpetui monimentum. <pb n="text.body.div1.p15.quote9.pb"/> Sed queso
+<corr n="corr1">scilicet</corr> pro deo, seruum pro domino, cognatum pro filio?  O acerbam
+permutationem: o luctuosum solatium et meroris perpetui monimentum. <pb n="pb2"/> Sed queso
 te charissime fili per uiscera misericordie tue. per eternum parentem tuum: cur
 miserrimam matrem in tot angustiis non adiuuas?  Cur tormenta hec uel morte subita
 non tollis?  An uero clementissime aures tue: que cunctis hominibus patent mihi uni
@@ -835,7 +855,7 @@ percussor cum cecus antea fuisset. et iudei in tenebris et cecitate sua remanser
 Statimque ex uulnere sanguis et aqua effluxit.  Sanguis ad redemptionem nostram:
 Aqua ad criminum ablutionem 
 
-O Reges. o duces. o principes: uos enim qui orbi huic misero cum <corr n="text.body.div1.p15.corr5">fastu</corr> et
+O Reges. o duces. o principes: uos enim qui orbi huic misero cum <corr n="corr53">fastu</corr> et
 superbia preestis. qui pupillos et uiduas et pauperes opprimitis: Qui
 luxu. cupiditate. auaritia diuina et humana omnia peruertitis. qui et uosipsos et
 delitias ac uoluptates uestras immortales arbitramini: uos hoc loco quanta maxime
@@ -853,8 +873,8 @@ quid cunctaris?  Ecce nunc tempus acceptabile: ecce nunc dies salutis.  Quid tib
 auaritia?  quid cum luxuria: si Johannem uis euangelistam imitari et Christo esse
 dilectus?  matrem eius flentem associa.  Si Simon es Cyreneus tolle crucem et
 sequere.  Si optas crimina tibi remitti? procumbe cum Magdalena retro secus pedes
-domini.  Si cupis hodie cum Christo <pb n="text.body.div1.p15.pb7"/> esse in paradiso: crucifigere modo
-et dic cum latrone: <q n="text.body.div1.p15.q9">Domine memento mei dum ueneris in regnum tuum.</q> Inspice
+domini.  Si cupis hodie cum Christo <pb n="pb54"/> esse in paradiso: crucifigere modo
+et dic cum latrone: <q n="q55">Domine memento mei dum ueneris in regnum tuum.</q> Inspice
 uulnera pendentis (ut Augustinus ait) sanguinem morientis, precium redimentis, caput
 habet inclinatum ad te osculandum, pedes confixos ad te expectandum, manus extensas
 ad te amplexandum, cor apertum ad te diligendum, totum corpus expositum ad te
@@ -892,14 +912,14 @@ quibus preest proficere: ut ad uitam una cum commisso sibi grege perueniat
 sempiternam: per dominum nostrum Jesum Christum filium tuum dilectissimum: qui tecum
 uiuit et regnat per infinita secula Amen.
 </p>
-            <trailer n="text.body.div1.trailer">Dixi:.</trailer>
-            <pb n="text.body.div1.pb"/>
+            <trailer n="trailer17">Dixi:.</trailer>
+            <pb n="pb18"/>
          </div>
-         <div n="text.body.div2">
-            <p n="text.body.div2.p">
+         <div n="div2">
+            <p n="p1">
       Librum quondam neque inutilem neque iniucundum quod in eo pauca quedam non
       usquequaque perfecta essent qui illum perlegerat furore ob id concitus
-      dilacerat <q n="text.body.div2.p.q">O inquit Liber hominum naturam ingratam atque peruersam: Siquidem
+      dilacerat <q n="q1">O inquit Liber hominum naturam ingratam atque peruersam: Siquidem
         pro paucissimis erratis multam penam desumere: et pro multis acceptis
         beneficiis gratias nullas agere consueuerunt.</q>
             </p>

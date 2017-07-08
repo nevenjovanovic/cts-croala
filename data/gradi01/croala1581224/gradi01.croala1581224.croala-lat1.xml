@@ -97,6 +97,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -138,36 +152,36 @@
      </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:gradi01.croala1581224.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
+      <body n="body1">
          
-         <gap n="text.body.gap1" reason="alia"/>
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" met="scazon" type="poesis-epigramma">
-            <head n="text.body.div.head">DE INSULAE<ref n="text.body.div.head.ref">1</ref> JUPANAE amoenitate.</head>
+         <gap n="gap1" reason="alia"/>
+         <pb n="pb2"/>
+         <div n="div3" met="scazon" type="poesis-epigramma">
+            <head n="head1">DE INSULAE<ref n="ref1">1</ref> JUPANAE amoenitate.</head>
 
-            <l n="text.body.div.l1">FElicis hospes Insulae, vides glebas</l>
+            <l n="l2">FElicis hospes Insulae, vides glebas</l>
              
-            <l n="text.body.div.l2">Virides, amoenas, mitibus hilares pomis,</l>
+            <l n="l3">Virides, amoenas, mitibus hilares pomis,</l>
              
-            <l n="text.body.div.l3">Ubi relinquens Indiam suam Bacchus</l>
+            <l n="l4">Ubi relinquens Indiam suam Bacchus</l>
              
-            <l n="text.body.div.l4">Chiumque nobilem uvidamque <sic n="text.body.div.l4.sic">Methymnum</sic>
+            <l n="l5">Chiumque nobilem uvidamque <sic n="sic1">Methymnum</sic>
             </l>
              
-            <l n="text.body.div.l5">Madidus jocosos feriatur Octobres,</l>
+            <l n="l6">Madidus jocosos feriatur Octobres,</l>
              
-            <l n="text.body.div.l6">Nullaque vite laetius calet, nulla</l>
+            <l n="l7">Nullaque vite laetius calet, nulla</l>
              
-            <l n="text.body.div.l7">His gratiora pampinis gerit serta,</l>
+            <l n="l8">His gratiora pampinis gerit serta,</l>
              
-            <l n="text.body.div.l8">Praeque his adulto collibus mero vestras</l>
+            <l n="l9">Praeque his adulto collibus mero vestras</l>
              
-            <l n="text.body.div.l9">Desiderare, Coelites, negat mensas.</l>
+            <l n="l10">Desiderare, Coelites, negat mensas.</l>
              
-            <note n="text.body.div.note">1 Jupana insula est orae Illyricae, ditionis Ragusinae, quam Tauridem appellat Hirtius de bello Alexandrino.</note>
+            <note n="note11">1 Jupana insula est orae Illyricae, ditionis Ragusinae, quam Tauridem appellat Hirtius de bello Alexandrino.</note>
             
          </div>
-         <gap n="text.body.gap2" reason="alia"/>
+         <gap n="gap4" reason="alia"/>
       </body>
    </text>
 </TEI>

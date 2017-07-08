@@ -91,6 +91,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -141,33 +155,33 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:naljesk01.croala897902.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" met="elegiacum">
+      <body n="body1">
+         <div n="div1" met="elegiacum">
   
-            <milestone unit="page" n="text.body.div.milestone1"/>
-            <head n="text.body.div.head" xml:lang="hr">Nadgrobnica d. Mavru Veteranu opatu teologu, astrologu i spievaocu izvrsnomu, koji preminu na dan svetoga Mavra opata na 15 gjenara 1576. Nikola Stjepka Nalješkovića složi.</head> 
+            <milestone unit="page" n="milestone1"/>
+            <head n="head2" xml:lang="hr">Nadgrobnica d. Mavru Veteranu opatu teologu, astrologu i spievaocu izvrsnomu, koji preminu na dan svetoga Mavra opata na 15 gjenara 1576. Nikola Stjepka Nalješkovića složi.</head> 
   
    
   
-            <div n="text.body.div.div1">
-               <l n="text.body.div.div1.l1" xml:lang="hr">Putniče pogledaj grob, u kom počiva</l> 
-               <l n="text.body.div.div1.l2" xml:lang="hr">dum Mavar, koji raj i boga uživa,</l> 
-               <l n="text.body.div.div1.l3" xml:lang="hr">do sto ljet na svieti višnjega ki slavi</l> 
-               <l n="text.body.div.div1.l4" xml:lang="hr">u pjesneh, ke pjeti ovdi nam ostavi,</l> 
-               <l n="text.body.div.div1.l5" xml:lang="hr">kroz ke će njegov glas i slava i dike</l>
-               <l n="text.body.div.div1.l6" xml:lang="hr">do sudnji živjet' čas a duša u vike.</l> 
+            <div n="div3">
+               <l n="l1" xml:lang="hr">Putniče pogledaj grob, u kom počiva</l> 
+               <l n="l2" xml:lang="hr">dum Mavar, koji raj i boga uživa,</l> 
+               <l n="l3" xml:lang="hr">do sto ljet na svieti višnjega ki slavi</l> 
+               <l n="l4" xml:lang="hr">u pjesneh, ke pjeti ovdi nam ostavi,</l> 
+               <l n="l5" xml:lang="hr">kroz ke će njegov glas i slava i dike</l>
+               <l n="l6" xml:lang="hr">do sudnji živjet' čas a duša u vike.</l> 
   
-               <note n="text.body.div.div1.note" xml:lang="hr">P. 37. u rukopisu je posljednja pod br. 57, a nadpisa nema, P. 38, u 
+               <note n="note7" xml:lang="hr">P. 37. u rukopisu je posljednja pod br. 57, a nadpisa nema, P. 38, u 
     rukopisu stoji pod br. 52 iza poslanice koja je naštampana napried pod 
     br. 35. </note>
             </div>
-            <milestone unit="page" n="text.body.div.milestone2"/>
+            <milestone unit="page" n="milestone4"/>
   
-            <div n="text.body.div.div2" type="epigramma" met="hexameter">
-               <l n="text.body.div.div2.l1">Qui Mauro miseranda paras dare membra sepulcro</l>
-               <l n="text.body.div.div2.l2">neu Parium lapidem neu marmor quere Laconum;</l>
-               <l n="text.body.div.div2.l3">illum, illum obserua, sicco qui lumine transit,</l>
-               <l n="text.body.div.div2.l4">nam lapis est urnamque illo de marmore conde.</l>
+            <div n="div5" type="epigramma" met="hexameter">
+               <l n="l1">Qui Mauro miseranda paras dare membra sepulcro</l>
+               <l n="l2">neu Parium lapidem neu marmor quere Laconum;</l>
+               <l n="l3">illum, illum obserua, sicco qui lumine transit,</l>
+               <l n="l4">nam lapis est urnamque illo de marmore conde.</l>
             </div>
          </div>
       </body>

@@ -100,6 +100,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc xml:id="banicevicbrengier15110429">
          <abstract>
@@ -151,20 +168,20 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:banic01.croala976014.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div n="text.body.div" type="prosa-epistula" corresp="#banicevicbrengier15110429">
-                <pb n="text.body.div.pb"/>
-                <opener n="text.body.div.opener">Magnifice <pb n="text.body.div.opener.pb"/>
-                    <note n="text.body.div.opener.note" xml:lang="fr" place="margin" resp="#GA">
-                  <date n="text.body.div.opener.note.date" when="1511-04-29">29. April. 1511.</date>
+        <body n="body1">
+            <div n="div1" type="prosa-epistula" corresp="#banicevicbrengier15110429">
+                <pb n="pb1"/>
+                <opener n="opener2">Magnifice <pb n="pb1"/>
+                    <note n="note2" xml:lang="fr" place="margin" resp="#GA">
+                  <date n="date1" when="1511-04-29">29. April. 1511.</date>
                </note> Domine
                     observande, Commendationem plurimam,</opener>
-                <p n="text.body.div.p1">solicitabam ego sicuti scribebat Dominatio Vestra, ut responderetur Serenissimae
+                <p n="p3">solicitabam ego sicuti scribebat Dominatio Vestra, ut responderetur Serenissimae
                     Dominae circa ea quae scripserat Caesareae Majestati de illis Officiis quae
                     vacarunt per obitum bonae memoriae Domini de Vaudre: respondit mihi Caesarea
                     Majestas quod jam pridem admonita est Serenissima Domina, nec indigere alia
                     responsione.</p>
-                <p n="text.body.div.p2">Ex Italia Reverendus Dominus Gurcensis est cum Pontifice Bononiae in tractatibus,
+                <p n="p4">Ex Italia Reverendus Dominus Gurcensis est cum Pontifice Bononiae in tractatibus,
                     sed usque ad diem Pasce quum fuerunt date littere nihil actum fuerat, ob
                     aliqualem egritudinem Pontificis, laboravit podagra cum profluvio et aliquali
                     febricula, in die tamen Pasce prodiit ad benedicendum populo: Exercitus suus est
@@ -175,26 +192,26 @@
                     vexat adeo quod arbitrantur quod prefatus exercitus Pontificius et Venetus vel
                     cogetur ad pugnam progredi, vel retrocedere. Construxerant etiam idem Pontificii
                     et Veneti unum Pontem supra Siclam fluvium prope Concordiam per quem
-                        <sic n="text.body.div.p2.sic1">stradiote</sic> Veneti infestabant omnem illam Regionem, usque ad agrum
-                    Mantuanum: Galli eum destruxerunt, et complures <sic n="text.body.div.p2.sic2">stradiotos</sic>
+                        <sic n="sic1">stradiote</sic> Veneti infestabant omnem illam Regionem, usque ad agrum
+                    Mantuanum: Galli eum destruxerunt, et complures <sic n="sic2">stradiotos</sic>
                     interfecerunt et ceperunt: Pontifex intendebat redire Ravennam. Infra triduum
-                        <pb n="text.body.div.p2.pb"/> scribit Dominus Gurcencis quod erat clare perspecturus si erat
+                        <pb n="pb3"/> scribit Dominus Gurcencis quod erat clare perspecturus si erat
                     futura Pax vel bellum: scribunt omnes Pontificem valde obstinatum in quibusdam
                     suis fantasiis.</p>
-                <p n="text.body.div.p3">Terremotus fecit notabile damnum Venetiis, et plus terruit eos quia id habuerunt
+                <p n="p5">Terremotus fecit notabile damnum Venetiis, et plus terruit eos quia id habuerunt
                     pro prodigio, et licet Terremotus sit res naturalis, tamen certe non est sine
                     prodigio, habuerunt etiam in Pado, sicuti credo me prioribus meis scripsisse,
                     satis magnam cladem ab Duce Ferrariae hiis proximis diebus; </p>
-                <closer n="text.body.div.closer">quae omnia placebit declarare Serenissimae Dominae et me in suam bonam
+                <closer n="closer6">quae omnia placebit declarare Serenissimae Dominae et me in suam bonam
                     gratiam humillime commendare, similiter placebit Dominationi Vestrae me
-                    commendare Domino Joanni Marnix <sic n="text.body.div.closer.sic">heae</sic> erunt cum eo communes si est
+                    commendare Domino Joanni Marnix <sic n="sic1">heae</sic> erunt cum eo communes si est
                     vobiscum, et commendo me Dominationi Vestrae quae diu faeliciter valeat.
-                        <dateline n="text.body.div.closer.dateline">Ex Tibinga die xxviiij. Aprilis anno Domini M. D X I.</dateline>
-                    <signed n="text.body.div.closer.signed">Excellentissimae Serenitatis Vestrae semper ad vota. Jacobus de
+                        <dateline n="dateline2">Ex Tibinga die xxviiij. Aprilis anno Domini M. D X I.</dateline>
+                    <signed n="signed3">Excellentissimae Serenitatis Vestrae semper ad vota. Jacobus de
                         Bannissis:</signed>
-                    <address n="text.body.div.closer.address">
-                  <note n="text.body.div.closer.address.note" resp="#GA">a tergo</note> 
-                  <addrLine n="text.body.div.closer.address.addrLine">Magnifico Domino Alouisio Brengier Serenissimae Dominae meae colendissimae Secretario, Domino honorando.</addrLine>
+                    <address n="address4">
+                  <note n="note1" resp="#GA">a tergo</note> 
+                  <addrLine n="addrLine2">Magnifico Domino Alouisio Brengier Serenissimae Dominae meae colendissimae Secretario, Domino honorando.</addrLine>
                </address>
             </closer>
             </div>

@@ -89,6 +89,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -133,120 +144,120 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:cibel01.croala875696.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="poesis-epigramma" met="hendecasyllabus">
-            <head n="text.body.div.head">AD PANNONIAM</head>
+      <body n="body1">
+         <div n="div1" type="poesis-epigramma" met="hendecasyllabus">
+            <head n="head1">AD PANNONIAM</head>
     
     
     
-            <l n="text.body.div.l1">Foelix Pannonia et beata certe es,</l>
-            <l n="text.body.div.l2">Caelo quae frueris sereniore,</l>
-            <l n="text.body.div.l3">Quae omnes fertilitate vincis oras</l>
-            <l n="text.body.div.l4">Mundi nunc gemino sitas sub axe.</l>
-            <l n="text.body.div.l5">5   Nam tu Callaicis paris metalla</l>
-            <l n="text.body.div.l6">Multo nobiliora vel Corintho</l>
-            <l n="text.body.div.l7">Aes purum pretiosiusque fundis</l>
-            <l n="text.body.div.l8">Gratum Deliaco nimis poetae.</l>
-            <l n="text.body.div.l9">Pubes doctior et tua est opimae</l>
-            <l n="text.body.div.l10">10   Terrae viscera, quam Asturum propago</l>
-            <l n="text.body.div.l11">Scrutari atque redire tincta fulvo</l>
-            <l n="text.body.div.l12">Auro continuo frequens labore.</l>
-            <l n="text.body.div.l13">Nulli tu regioni opum secunda es</l>
-            <l n="text.body.div.l14">Maiestate dei favore summi</l>
-            <l n="text.body.div.l15">15   Ob magnae merita atque cultum honorum</l>
-            <l n="text.body.div.l16">Virtutis decorata sic perenne,</l>
-            <l n="text.body.div.l17">Qua semper radias superba dote.</l>
-            <l n="text.body.div.l18">Nec donis Cerealibus cares vel</l>
-            <l n="text.body.div.l19">Solerti minus es potens colono,</l>
-            <l n="text.body.div.l20">20   Cum tu Sardiniae ferocis agros</l>
-            <l n="text.body.div.l21">Et pingues segetum vales acervos</l>
-            <l n="text.body.div.l22">Gargani superare nunc remoti</l>
-            <l n="text.body.div.l23">Campanique soli uberes agellos.</l>
-            <l n="text.body.div.l24">An tu pampineo liquore cuiquam</l>
-            <l n="text.body.div.l25">25   Cedes? aut Latiis nequis Falernis</l>
-            <l n="text.body.div.l26">Concertare animosiore pugna?</l>
-            <l n="text.body.div.l27">Si possis Cilicum anteire colles</l>
-            <l n="text.body.div.l28">Claros vitiferis crocique glebis,</l>
-            <l n="text.body.div.l29">Bacchi copia non parum probati.</l>
-            <l n="text.body.div.l30">30   Nam Methymna tuos timet racemos</l>
-            <l n="text.body.div.l31">Provocare nimis minante vultu</l>
-            <l n="text.body.div.l32">Mamertinaque Setiaeque vina</l>
-            <l n="text.body.div.l33">Dant palmam tibi dulcibusque succis.</l>
-            <l n="text.body.div.l34">Sed quid? nonne tua illa mire acerbum</l>
-            <l n="text.body.div.l35">35   Audent Sirmica Caecubo duellum</l>
-            <l n="text.body.div.l36">Semper nectareo sapore odora,</l>
-            <l n="text.body.div.l37">Tota quae populi merentur ora.</l>
-            <l n="text.body.div.l38">Laudes Pannoniae haec domant inertes</l>
-            <l n="text.body.div.l39">Curas exhilarantque corda gentis</l>
-            <l n="text.body.div.l40">40   Vere Martigenae chorosque dulces</l>
-            <l n="text.body.div.l41">Suadent ducere cassibus repostis</l>
-            <l n="text.body.div.l42">Et diris clypeis vel ense curvo.</l>
-            <l n="text.body.div.l43">O quae multiplici beatitatis</l>
-            <l n="text.body.div.l44">Fulges munere amica valde tellus,</l>
-            <l n="text.body.div.l45">45   Quis laudes poterit tuas ad unguem</l>
-            <l n="text.body.div.l46">Iusto dicere carminis tenore?</l>
-            <l n="text.body.div.l47">Quae pulchra radias decente gemma,</l>
-            <l n="text.body.div.l48">Duri quae es chalybis referta circum,</l>
-            <l n="text.body.div.l49">Amnes quae vitreos strepente cursu</l>
-            <l n="text.body.div.l50">50   Nutris fonticulis nimis puellis</l>
-            <l n="text.body.div.l51">Caros arvaque flosculis odora.</l>
-            <l n="text.body.div.l52">Marmor Mygdonio paris nitore,</l>
-            <l n="text.body.div.l53">Aequas vel Parium decente vena.</l>
-            <l n="text.body.div.l54">Tu armenti locuples gregisque pulchri</l>
-            <l n="text.body.div.l55">55   Et dives pecoris colore multo</l>
-            <l n="text.body.div.l56">Dantis vellera multiformis usus.</l>
-            <l n="text.body.div.l57">Foelix atque iterum beata tellus,</l>
-            <l n="text.body.div.l58">Nostrae quae fidei decus perenne es,</l>
-            <l n="text.body.div.l59">Gentis Christicolae undecunque asylum et</l>
-            <l n="text.body.div.l60">60   Invictus clypeus, poli sub umbra</l>
-            <l n="text.body.div.l61">Mortali innumeram ambiens catervam:</l>
-            <l n="text.body.div.l62">Tu nomen lachrymabile atque dirum</l>
-            <l n="text.body.div.l63">Turcarum populis rapina adultis</l>
-            <l n="text.body.div.l64">Et iustum sitientibus cruorem.</l>
-            <l n="text.body.div.l65">65   Foelix, quae Hectoream paris virorum </l>
-            <l n="text.body.div.l66">Turbam atque Herculea manu perita</l>
-            <l n="text.body.div.l67">Nutris agmina militum feroci</l>
-            <l n="text.body.div.l68">Mente et quae Ausoniae aemulam coronae</l>
-            <l n="text.body.div.l69">Pubem sola foves, simul Catones</l>
-            <l n="text.body.div.l70">70   Quae iam Scipiadasque prole digna</l>
-            <l n="text.body.div.l71">Aequas lumina Dardanae cohortis</l>
-            <l n="text.body.div.l72">Nam antistes, titulo ecce quem venustat</l>
-            <l n="text.body.div.l73">Quinquecclesia iam infulae sacratae,</l>
-            <l n="text.body.div.l74">Fines irradiat tuos Georgius</l>
-            <l n="text.body.div.l75">75   Alti solis ad instar, coelitum qui est</l>
-            <l n="text.body.div.l76">Natus stemmate, quem parens deorum</l>
-            <l n="text.body.div.l77">Despectat nitidaque fronte ab aula</l>
-            <l n="text.body.div.l78">Coeli stelligeri docentem honori</l>
-            <l n="text.body.div.l79">Cordis consilio rudem popellum</l>
-            <l n="text.body.div.l80">80   Aequi iura, fidem atque iter beatae</l>
-            <l n="text.body.div.l81">Virtutis superas merentis arces</l>
-            <l n="text.body.div.l82">Monstrantem, angelici ac soni adaptantem</l>
-            <l n="text.body.div.l83">Paeana innumeris deorum in aulis,</l>
-            <l n="text.body.div.l84">Thesauros inopum atque largientem</l>
-            <l n="text.body.div.l85">85   Turbae multifluae favente dextra</l>
-            <l n="text.body.div.l86">Et multos iuvenum ingeni Minerva,</l>
-            <l n="text.body.div.l87">Phoebeis habiles vel artibus mox</l>
-            <l n="text.body.div.l88">Tradentem Latiis deabus; hic fons</l>
-            <l n="text.body.div.l89">Et dulce auxilium meae Camoenae est,</l>
-            <l n="text.body.div.l90">90   Hic spes maxima luxque amoena vitae.</l>
-            <l n="text.body.div.l91">O felix iterum et magis beata es,</l>
-            <l n="text.body.div.l92">Quae felicibus emicas alumnis</l>
-            <l n="text.body.div.l93">Ac gentis variae quibus refulcis</l>
-            <l n="text.body.div.l94">Fines, quae Italiam tuis adornas</l>
-            <l n="text.body.div.l95">95   Gazis et generosiore ditas</l>
-            <l n="text.body.div.l96">Natorum numero decus Latinum.</l>
-            <l n="text.body.div.l97">Quos inter nitida nepos Georgi</l>
-            <l n="text.body.div.l98">Vita praesulis optimoque fulgens</l>
-            <l n="text.body.div.l99">Insignitus honore moribusque</l>
-            <l n="text.body.div.l100">100   Est Laurentius; hunc Camoenae adorant,</l>
-            <l n="text.body.div.l101">Hunc et Felsineae potens colit grex</l>
-            <l n="text.body.div.l102">Baptistaeque Pii Thalia tollit</l>
-            <l n="text.body.div.l103">Altis aethereas sonis ad arces.</l>
-            <l n="text.body.div.l104">O Paeonia, si feraciorem</l>
-            <l n="text.body.div.l105">105   Natorum generando talium nunc</l>
-            <l n="text.body.div.l106">Praeberis numerum, volabis ecce</l>
-            <l n="text.body.div.l107">Iam iam Romuleis in orbe toto</l>
-            <l n="text.body.div.l108">Fama notior, clarior. Valeto.</l>
+            <l n="l2">Foelix Pannonia et beata certe es,</l>
+            <l n="l3">Caelo quae frueris sereniore,</l>
+            <l n="l4">Quae omnes fertilitate vincis oras</l>
+            <l n="l5">Mundi nunc gemino sitas sub axe.</l>
+            <l n="l6">5   Nam tu Callaicis paris metalla</l>
+            <l n="l7">Multo nobiliora vel Corintho</l>
+            <l n="l8">Aes purum pretiosiusque fundis</l>
+            <l n="l9">Gratum Deliaco nimis poetae.</l>
+            <l n="l10">Pubes doctior et tua est opimae</l>
+            <l n="l11">10   Terrae viscera, quam Asturum propago</l>
+            <l n="l12">Scrutari atque redire tincta fulvo</l>
+            <l n="l13">Auro continuo frequens labore.</l>
+            <l n="l14">Nulli tu regioni opum secunda es</l>
+            <l n="l15">Maiestate dei favore summi</l>
+            <l n="l16">15   Ob magnae merita atque cultum honorum</l>
+            <l n="l17">Virtutis decorata sic perenne,</l>
+            <l n="l18">Qua semper radias superba dote.</l>
+            <l n="l19">Nec donis Cerealibus cares vel</l>
+            <l n="l20">Solerti minus es potens colono,</l>
+            <l n="l21">20   Cum tu Sardiniae ferocis agros</l>
+            <l n="l22">Et pingues segetum vales acervos</l>
+            <l n="l23">Gargani superare nunc remoti</l>
+            <l n="l24">Campanique soli uberes agellos.</l>
+            <l n="l25">An tu pampineo liquore cuiquam</l>
+            <l n="l26">25   Cedes? aut Latiis nequis Falernis</l>
+            <l n="l27">Concertare animosiore pugna?</l>
+            <l n="l28">Si possis Cilicum anteire colles</l>
+            <l n="l29">Claros vitiferis crocique glebis,</l>
+            <l n="l30">Bacchi copia non parum probati.</l>
+            <l n="l31">30   Nam Methymna tuos timet racemos</l>
+            <l n="l32">Provocare nimis minante vultu</l>
+            <l n="l33">Mamertinaque Setiaeque vina</l>
+            <l n="l34">Dant palmam tibi dulcibusque succis.</l>
+            <l n="l35">Sed quid? nonne tua illa mire acerbum</l>
+            <l n="l36">35   Audent Sirmica Caecubo duellum</l>
+            <l n="l37">Semper nectareo sapore odora,</l>
+            <l n="l38">Tota quae populi merentur ora.</l>
+            <l n="l39">Laudes Pannoniae haec domant inertes</l>
+            <l n="l40">Curas exhilarantque corda gentis</l>
+            <l n="l41">40   Vere Martigenae chorosque dulces</l>
+            <l n="l42">Suadent ducere cassibus repostis</l>
+            <l n="l43">Et diris clypeis vel ense curvo.</l>
+            <l n="l44">O quae multiplici beatitatis</l>
+            <l n="l45">Fulges munere amica valde tellus,</l>
+            <l n="l46">45   Quis laudes poterit tuas ad unguem</l>
+            <l n="l47">Iusto dicere carminis tenore?</l>
+            <l n="l48">Quae pulchra radias decente gemma,</l>
+            <l n="l49">Duri quae es chalybis referta circum,</l>
+            <l n="l50">Amnes quae vitreos strepente cursu</l>
+            <l n="l51">50   Nutris fonticulis nimis puellis</l>
+            <l n="l52">Caros arvaque flosculis odora.</l>
+            <l n="l53">Marmor Mygdonio paris nitore,</l>
+            <l n="l54">Aequas vel Parium decente vena.</l>
+            <l n="l55">Tu armenti locuples gregisque pulchri</l>
+            <l n="l56">55   Et dives pecoris colore multo</l>
+            <l n="l57">Dantis vellera multiformis usus.</l>
+            <l n="l58">Foelix atque iterum beata tellus,</l>
+            <l n="l59">Nostrae quae fidei decus perenne es,</l>
+            <l n="l60">Gentis Christicolae undecunque asylum et</l>
+            <l n="l61">60   Invictus clypeus, poli sub umbra</l>
+            <l n="l62">Mortali innumeram ambiens catervam:</l>
+            <l n="l63">Tu nomen lachrymabile atque dirum</l>
+            <l n="l64">Turcarum populis rapina adultis</l>
+            <l n="l65">Et iustum sitientibus cruorem.</l>
+            <l n="l66">65   Foelix, quae Hectoream paris virorum </l>
+            <l n="l67">Turbam atque Herculea manu perita</l>
+            <l n="l68">Nutris agmina militum feroci</l>
+            <l n="l69">Mente et quae Ausoniae aemulam coronae</l>
+            <l n="l70">Pubem sola foves, simul Catones</l>
+            <l n="l71">70   Quae iam Scipiadasque prole digna</l>
+            <l n="l72">Aequas lumina Dardanae cohortis</l>
+            <l n="l73">Nam antistes, titulo ecce quem venustat</l>
+            <l n="l74">Quinquecclesia iam infulae sacratae,</l>
+            <l n="l75">Fines irradiat tuos Georgius</l>
+            <l n="l76">75   Alti solis ad instar, coelitum qui est</l>
+            <l n="l77">Natus stemmate, quem parens deorum</l>
+            <l n="l78">Despectat nitidaque fronte ab aula</l>
+            <l n="l79">Coeli stelligeri docentem honori</l>
+            <l n="l80">Cordis consilio rudem popellum</l>
+            <l n="l81">80   Aequi iura, fidem atque iter beatae</l>
+            <l n="l82">Virtutis superas merentis arces</l>
+            <l n="l83">Monstrantem, angelici ac soni adaptantem</l>
+            <l n="l84">Paeana innumeris deorum in aulis,</l>
+            <l n="l85">Thesauros inopum atque largientem</l>
+            <l n="l86">85   Turbae multifluae favente dextra</l>
+            <l n="l87">Et multos iuvenum ingeni Minerva,</l>
+            <l n="l88">Phoebeis habiles vel artibus mox</l>
+            <l n="l89">Tradentem Latiis deabus; hic fons</l>
+            <l n="l90">Et dulce auxilium meae Camoenae est,</l>
+            <l n="l91">90   Hic spes maxima luxque amoena vitae.</l>
+            <l n="l92">O felix iterum et magis beata es,</l>
+            <l n="l93">Quae felicibus emicas alumnis</l>
+            <l n="l94">Ac gentis variae quibus refulcis</l>
+            <l n="l95">Fines, quae Italiam tuis adornas</l>
+            <l n="l96">95   Gazis et generosiore ditas</l>
+            <l n="l97">Natorum numero decus Latinum.</l>
+            <l n="l98">Quos inter nitida nepos Georgi</l>
+            <l n="l99">Vita praesulis optimoque fulgens</l>
+            <l n="l100">Insignitus honore moribusque</l>
+            <l n="l101">100   Est Laurentius; hunc Camoenae adorant,</l>
+            <l n="l102">Hunc et Felsineae potens colit grex</l>
+            <l n="l103">Baptistaeque Pii Thalia tollit</l>
+            <l n="l104">Altis aethereas sonis ad arces.</l>
+            <l n="l105">O Paeonia, si feraciorem</l>
+            <l n="l106">105   Natorum generando talium nunc</l>
+            <l n="l107">Praeberis numerum, volabis ecce</l>
+            <l n="l108">Iam iam Romuleis in orbe toto</l>
+            <l n="l109">Fama notior, clarior. Valeto.</l>
          </div>    
           </body>
       </text>

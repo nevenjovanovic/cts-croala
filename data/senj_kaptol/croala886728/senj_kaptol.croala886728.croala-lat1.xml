@@ -102,6 +102,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -167,26 +181,26 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:senj_kaptol.croala886728.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div type="prosa-epistula" n="text.body.div">
-                <head n="text.body.div.head">XXVIII/1 <date n="text.body.div.head.date" when="1531-07-17">1531. 17. Julii</date>, Segniae Capitulum ecclesiae Segniensis Clementi
+        <body n="body1">
+            <div type="prosa-epistula" n="div1">
+                <head n="head1">XXVIII/1 <date n="date1" when="1531-07-17">1531. 17. Julii</date>, Segniae Capitulum ecclesiae Segniensis Clementi
                     papae VII.</head>
 
 
-                <note n="text.body.div.note" resp="BJ">Segr. Stato, Principi, 6, f. 225r. Sigillo annulari.</note>
+                <note n="note2" resp="BJ">Segr. Stato, Principi, 6, f. 225r. Sigillo annulari.</note>
 
-                <opener n="text.body.div.opener">
-               <expan n="text.body.div.opener.expan">Sanctissime</expan> atque beatissime pater et domine, domine nobis
+                <opener n="opener3">
+               <expan n="expan1">Sanctissime</expan> atque beatissime pater et domine, domine nobis
                     clementissime! Post beatorum pedum oscula, servitiorum nostrorum
                     commendationem.</opener>
-                <p n="text.body.div.p">E medio nostrum praesentium exhibitorem, venerabilem dominum Thomam, canonicum et
+                <p n="p4">E medio nostrum praesentium exhibitorem, venerabilem dominum Thomam, canonicum et
                     fratrem nostrum ad Sanctitatem Vestram mittimus quedam negotia nostra
                     Beatitudini Vestre expositurum, cui tamquam nostro domino gratiosissimo
                     humiliter et genuflexe suplicamus, ipsum benigne exaudire dignetur vebisque suis
                     Sanctitas Vestra velit fidem indubiam adhibere, ac si nos metipsi personaliter
                     ante pedes Sanctitatis Vestre interfuissemus, cui sese humiliter et genuflexe
                     commendamus atque orationes offerimus.</p>
-                <closer n="text.body.div.closer">Datum Segnie, die XVII Julii MDXXXImo Eiusdem Sanctitatis Vestre fidelissimi
+                <closer n="closer5">Datum Segnie, die XVII Julii MDXXXImo Eiusdem Sanctitatis Vestre fidelissimi
                     servitores et capellani capitulum ecclesie Segniensis</closer>
 
             </div>

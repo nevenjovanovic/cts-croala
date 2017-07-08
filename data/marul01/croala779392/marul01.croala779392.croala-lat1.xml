@@ -95,6 +95,23 @@
           <tagUsage gi="trailer" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -139,45 +156,45 @@
    </teiHeader>
 
    <text xml:base="urn:cts:croala:marul01.croala779392.croala-lat1:" xml:lang="lat" type="prosa">
-      <front n="text.front">
-         <titlePage n="text.front.titlePage">
-            <docTitle n="text.front.titlePage.docTitle">
-               <titlePart n="text.front.titlePage.docTitle.titlePart1" type="titulus">REGVM DELMATIĘ ATQVE CROATIĘ GESTA </titlePart>
-               <titlePart n="text.front.titlePage.docTitle.titlePart2" type="auctor">A MARCO MARVLO SPALATENSI PATRITIO LATINITATE DONATA</titlePart>
+      <front n="front1">
+         <titlePage n="titlePage1">
+            <docTitle n="docTitle1">
+               <titlePart n="titlePart1" type="titulus">REGVM DELMATIĘ ATQVE CROATIĘ GESTA </titlePart>
+               <titlePart n="titlePart2" type="auctor">A MARCO MARVLO SPALATENSI PATRITIO LATINITATE DONATA</titlePart>
             </docTitle>
          </titlePage>
 
 
-         <div n="text.front.div" type="dedicatio">
+         <div n="div2" type="dedicatio">
 
-            <opener n="text.front.div.opener"> Marcus Marulus Dominico Papali salutem. </opener>
+            <opener n="opener1"> Marcus Marulus Dominico Papali salutem. </opener>
 
-            <p n="text.front.div.p1"> Commentariolum a te in Craina nuper repertum, inter uetustissimas gentis illius scripturas
+            <p n="p2"> Commentariolum a te in Craina nuper repertum, inter uetustissimas gentis illius scripturas
      Delmatico idiomate compositum, tuo rogatu Latinum feci, Croatię Delmatięque regum gesta
      continentem. </p>
 
-            <p n="text.front.div.p2"> Res certe digna relatu et quam non solum nostrę uernaculę linguę gnari, sed etiam Latinę
+            <p n="p3"> Res certe digna relatu et quam non solum nostrę uernaculę linguę gnari, sed etiam Latinę
      intelligant. Ex hac enim historia et boni exemplum petere poterunt quod imitentur et mali per
      quod sese corrigant. Atque hoc illud fuit quod et te impulit ut me ad historiam transferendam
      urgeres, et me ut tibi obtemperarem. Magis tamen tuus erga me amor laborem hunc coegit me
      subire; quid est enim quod illi non debeo? </p>
 
-            <closer n="text.front.div.closer">
-               <salute n="text.front.div.closer.salute">Vale.</salute>
-               <date n="text.front.div.closer.date">Anno Christianę salutis MDX.</date>
+            <closer n="closer4">
+               <salute n="salute1">Vale.</salute>
+               <date n="date2">Anno Christianę salutis MDX.</date>
             </closer>
          </div>
       </front>
 
-      <body n="text.body">
+      <body n="body2">
 
-         <div n="text.body.div" type="historia">
+         <div n="div1" type="historia">
 
-            <p n="text.body.div.p1"> Iustiniano partibus Orientis imperante anno Christianę salutis DXXXVIII, quo tempore
+            <p n="p1"> Iustiniano partibus Orientis imperante anno Christianę salutis DXXXVIII, quo tempore
      Germanus et Sabinus episcopi erant, uitę sanctitate nobiles, et Benedictus abbas Montis
      Cassini, Sfiolado rege uita defuncto Brissus inter liberos eius natu maior successit in regno.
      Reliqui duo, Totila et Stroilus, et ipsi dominandi cupidi ad alias prouincias sibi subiugandas
-     animum intendunt. Erat Gothorum<note n="text.body.div.p1.note" place="margin">Gothi</note> gens inquieta, uaga, absque
+     animum intendunt. Erat Gothorum<note n="note1" place="margin">Gothi</note> gens inquieta, uaga, absque
      legibus, aspera et bellicosa. Igitur Totila et Stroilus, cum a fratre Brisso subsidia
      impetrassent, ingentes equitum peditumque copias secum trahentes Occidentis regna inuasere. Et
      primo quidem infestis armis Pannoniam aggressi commisso cum Pannonibus proelio superant, regem
@@ -201,12 +218,12 @@
      internitionem deletis in Siciliam transmisit et, sicut futurum Benedictus abbas Diuino spiritu
      afflatus prędixerat, haud multo post fato est defunctus. </p>
 
-            <p n="text.body.div.p2"> Interea frater eius Stroilus<note n="text.body.div.p2.note1" place="margin">Stroilus</note> Illyrici regno potitur,
-     deinde Mysiam inferiorem (quę nunc Bosna<note n="text.body.div.p2.note2" place="margin">Bosna</note> dicitur) ingressus,
+            <p n="p2"> Interea frater eius Stroilus<note n="note1" place="margin">Stroilus</note> Illyrici regno potitur,
+     deinde Mysiam inferiorem (quę nunc Bosna<note n="note2" place="margin">Bosna</note> dicitur) ingressus,
      cum et ipsam breui subiugasset, in Delmatiam descendit. Vrbes maritimas deprędatus est,
      Scardonam oppidum et Salonas, totius prouincię emporium, dirruit et euertit, necdum malis
      satiatus misit cum parte exercitus filium suum Seuioladum ad Delmatię mediterranea, quę nunc
-     Croatia dicitur,<note n="text.body.div.p2.note3" place="margin">Croatia</note> expugnanda. Cumque Iustinianus Cęsar
+     Croatia dicitur,<note n="note3" place="margin">Croatia</note> expugnanda. Cumque Iustinianus Cęsar
      intellexisset quod Gothorum dux copias diuisisset dimisissetque a se partem alteram cum
      Seuiolado filio atque ita esse, ut ferebatur, per exploratores certior factus, coacto repente
      exercitu Stroilum inuasurus abiit. Nec minus prompte atque impigre Stroilus cum his quos secum
@@ -219,13 +236,13 @@
      pręda uictores in patriam sunt reuersi. At uero Seuioladus, cum talia audisset, patris necem
      ulturus (si fors ita ferret) cum tota expeditione, quam celerrime poterat, Bosnam
      proficiscitur. Sed cum aduersarios inde iam discessisse comperisset, ibidem patris loco regnare
-      <note n="text.body.div.p2.note4" place="margin">Primus rex</note> coepit natusque est ei filius cui Silimiro nomen fuit.
+      <note n="note4" place="margin">Primus rex</note> coepit natusque est ei filius cui Silimiro nomen fuit.
      Ipse autem Seuioladus Bosnę, Valachię usque ad Polonię fines, et Delmatię Croatięque imperauit,
      Christiano nomini infensissimus. Eos igitur qui maritima Delmatię oppida incolunt frequentibus
      afficiebat iniuriis. </p>
 
-            <p n="text.body.div.p3"> Anno imperii sui XII uita decedens, filio Silimiro regnum reliquit. Hic patri natura ac
-     moribus longe dissimilis erat.<note n="text.body.div.p3.note" place="margin">Rex 2</note> Nam licet et ipse esset
+            <p n="p3"> Anno imperii sui XII uita decedens, filio Silimiro regnum reliquit. Hic patri natura ac
+     moribus longe dissimilis erat.<note n="note1" place="margin">Rex 2</note> Nam licet et ipse esset
      gentilis, omnes tamen sibi subiectos perhumaniter ac perbenigne habebat, ius suum cuique
      tribuens, neminem lędi permittens et in exigendis uectigalibus nullum inter Christianos et
      gentiles habens discrimen. Plurimi itaque de coetu fidelium, qui ob persecutionem sęuitiamque
@@ -233,13 +250,13 @@
      Croatia nuncupatur, nunquam populosior fuisse existimaretur; tranquille inter omnes degebatur
      nullisque lacessentibus bellis pacem agitabant. </p>
 
-            <p n="text.body.div.p4"> Silimiro autem,<note n="text.body.div.p4.note1" place="margin">3 rex Bladinus</note> cum unum et uiginti annos
+            <p n="p4"> Silimiro autem,<note n="note1" place="margin">3 rex Bladinus</note> cum unum et uiginti annos
      imperasset, e uiuis sublato, successit Bladinus filius. Mitis admodum et paternę mansuetudinis
      ęmulus, omnibus charus uixit. Veruntamen filium genuit suę probitati nimis imparem ingenioque
      diuersum; Ratimiro nomen erat. Cumque adoleuisset, insolescere coepit et regnante adhuc patre
      quasi dominari uelle. Per idem tempus immensa quędam hominum multitudo familias quoque mulierum
      ac puerorum secum trahens transmisso magno amne Velia in regionem Sinbagiorum irrupit eaque
-     potita est. Huius gentis dux erat nomine<note n="text.body.div.p4.note2" place="margin">Barris uel barro</note> Barris,
+     potita est. Huius gentis dux erat nomine<note n="note2" place="margin">Barris uel barro</note> Barris,
      quem nos Cęsarem possumus dicere; sub eo chiliarchę pręfectique erant, quorum nutu atque
      auspiciis singuli plebis ordines regebantur disponebanturque. Hinc profecti Seleuciam sibi
      subegere, deinde Macedoniam, neque eo contenti Italiam quoque armis inuaserunt. Non semel cum
@@ -253,7 +270,7 @@
      cupiens cuncta, quę armis uastata erant, nouis cultoribus replenda curauit uectigalium
      remissione inuitando immunitateque et libertate. </p>
 
-            <p n="text.body.div.p5"> Interea Bladino rege<note n="text.body.div.p5.note1" place="margin">Rex IIII</note> uita defuncto regni gubernacula
+            <p n="p5"> Interea Bladino rege<note n="note1" place="margin">Rex IIII</note> uita defuncto regni gubernacula
      filius suscepit Ratimirus qui, auitę humanitatis penitus expers, inimico animo in Christianos
      erat. Non pauca regni oppida, quę ab illis habitabantur, euertit, ipsos uero in seruitutem
      redegit, sed iis pręcipue infestus qui maritima Delmatię incolebant loca. Itaque quę aui
@@ -262,15 +279,15 @@
      transferendo uitamque misere admodum sustentando dum spem fouent se Deo miserante meliorem
      tandem dominum sortituros. Neque illos ea spes fefellit, quanuis ad quintum usque regem dilatus
      est euentus. Etenim haud ita multo post moritur Ratimirus absque liberis nullaque post se prole
-      <note n="text.body.div.p5.note2" place="margin">Rex 5</note> relicta. Suffectus est tamen in eius locum quidam ex
-     propinquis, deinde et hoc<note n="text.body.div.p5.note3" place="margin">6 7 8</note> mortuo alius; uterque autem grauis
+      <note n="note2" place="margin">Rex 5</note> relicta. Suffectus est tamen in eius locum quidam ex
+     propinquis, deinde et hoc<note n="note3" place="margin">6 7 8</note> mortuo alius; uterque autem grauis
      atque molestus Christiano nomini inprimis fuit. Deinde alii duo unus post alterum regnarunt,
      omnes tamen, ut melioribus locum darent, satis celeri morte de medio sublati sunt. Cęterum quam
      diu uixerunt usque adeo nostrę religioni infensi erant ut nonnulli ex Christianis
      persecutionibus afflicti ad eorum ritus declinarent, sed quibus fides uita charior erat, omnia
      extrema perpeti malebant quam gentilitatis erroribus implicari. </p>
 
-            <p n="text.body.div.p6"> Quintus ab his in regnum uocatus, nomine Satimerus, abstinuit a fidelium<note n="text.body.div.p6.note" place="margin">Rex VIIII Satimerus</note> infestatione atque in omnes ęquo pariter animo fuit. Eo regnante
+            <p n="p6"> Quintus ab his in regnum uocatus, nomine Satimerus, abstinuit a fidelium<note n="note1" place="margin">Rex VIIII Satimerus</note> infestatione atque in omnes ęquo pariter animo fuit. Eo regnante
      in publicum prodibant qui diu latuerant quique antea metu conterriti partim a fide defecerant,
      partim fugerant, pristina libertate usi ad sua quisque loca redibant. Erat ea tempestate
      Thessalonicę uir quidam nomine Constantius, multa uitę sanctitate pręditus philosophięque
@@ -278,9 +295,9 @@
      transtulisset, Christum euangelizare coepit; multi conuertebantur, credentes baptizabat,
      denique totam ferme Bulgarorum prouinciam ueritatis prędicatione ab erroribus liberauit. </p>
 
-            <p n="text.body.div.p7"> Cum ergo defuncto rege Satimero Budimerus, uir humanitate animique mansuetudine et ipse
+            <p n="p7"> Cum ergo defuncto rege Satimero Budimerus, uir humanitate animique mansuetudine et ipse
      insignis, diadema sceptrumque suscepisset, a Constantio doctus Christi quoque religionem
-      suscepit.<note n="text.body.div.p7.note1" place="margin">Rex 10 Budimerus</note> Et quoniam litteris etiam non parum
+      suscepit.<note n="note1" place="margin">Rex 10 Budimerus</note> Et quoniam litteris etiam non parum
      instructus erat, cum philosophis aliisque incredulis contendere ausus, nonnullos ex iis in
      Christum credere compulit. Inde Cassariam accedens gratanter est susceptus ibique regni sedem
      posuit, fidelis inter fideles quos iam Constantius conuersos baptizauerat. Erat tunc summus
@@ -333,7 +350,7 @@
      concilium factum fuerat, usque ad locum qui Valdemin appellatur et a Valdemino usque Dyrrachium
      protenditur, hanc in partes duas diuiserunt, quas dirimebat ripa Drini fluminis, occidentem
      uersus usque ad Beriam montem et tractus perpetuus Bosnam prouinciam scindens usque ad montem
-     Lippam. His ita separatis alibi banni,<note n="text.body.div.p7.note2" place="margin">Bannus</note> quos Latini tribunos
+     Lippam. His ita separatis alibi banni,<note n="note2" place="margin">Bannus</note> quos Latini tribunos
      uocant, alibi sublimioris potestatis duces pręfecti sunt, prout cuiusque regionis exigere
      uidebatur conditio; sub his creati sunt centuriones, ita dicti a militum numero quibus
      pręerant; singuli banni septem centurionibus imperabant, maior natu ex centurionibus cum bano
@@ -348,11 +365,11 @@
      probe ac laudabiliter suo functi officio magnisque a rege muneribus donati reuerenterque habiti
      recessere. Mox etiam omnis hominum multitudo cum suis ducibus bannis centurionibusque dilapsa
      est in suas quisque sedes patriumque solum rediere. Rex autem ipse Budimerus anno a sua
-     unctione quadragesimo, mense <num n="text.body.div.p7.num" value="3">III</num>. diem clausit extremum et cum ingenti funeralis pompę apparatu
+     unctione quadragesimo, mense <num n="num3" value="3">III</num>. diem clausit extremum et cum ingenti funeralis pompę apparatu
      in ęde beatę Virginis Marię matris Dei in oppido Decolio est sepultus. Luxit eum populus dies
      plurimos; nam ex omnibus regni finibus, ut funus eius honorarent, eo conuenerant. </p>
 
-            <p n="text.body.div.p8"> Non multo ante natus<note n="text.body.div.p8.note" place="margin">Rex 11</note> regi filius erat. Hunc infantem licet
+            <p n="p8"> Non multo ante natus<note n="note1" place="margin">Rex 11</note> regi filius erat. Hunc infantem licet
      et in cunis adhuc iacentem omnes uno animo regem salutauerunt. Vncto deinde ab episcopis et
      coronato nomen inditum est Sfetolicus, quod in Latinum uersum Sanctulum sonat. Qui cum
      adoleuisset, patris, omnium qui ante illic regnarunt pręstantissimi, uestigia sequi coepit,
@@ -360,17 +377,17 @@
      gessisset mortemque obiisset, filius ei Vladislauus successit in regno, qui ei duo de uiginti
      annos nato genitus fuerat. </p>
 
-            <p n="text.body.div.p9"> Hic quidem et corporis uiribus et animi audacia pręstabat, sed uita ac moribus patri auoque
+            <p n="p9"> Hic quidem et corporis uiribus et animi audacia pręstabat, sed uita ac moribus patri auoque
      non satis similis habebatur. Parum enim religiose uixit nec iustitię seruiens nec legibus
-     parens, quin immo prauis<note n="text.body.div.p9.note" place="margin">Rex 12</note> animi cupiditatibus deditus nihil
+     parens, quin immo prauis<note n="note1" place="margin">Rex 12</note> animi cupiditatibus deditus nihil
      sibi non licere existimabat quod collibuisset. Maxime illum uenatio delectabat, cui intentus,
      dum die quodam citato equo feram insequitur, forte in foueam non modicę altitudinis corruit
      atque inde totis artubus elisum exanimemque traxere; et talis quidem uitę eius finis fuit. </p>
 
-            <p n="text.body.div.p10"> Regnum suscepit<note n="text.body.div.p10.note1" place="margin">Rex 13 Polislauus</note> filius Polislauus. Quo regnante
+            <p n="p10"> Regnum suscepit<note n="note1" place="margin">Rex 13 Polislauus</note> filius Polislauus. Quo regnante
      Attila, Pannonum rex, grandi coacto exercitu regnum eius inuasit. Erat Polislauus iuuenis adhuc
      uirentisque ętatis, sed manu strenuus animoque pręstans. Itaque acrius quam credi poterat cum
-      suis<note n="text.body.div.p10.note2" place="margin">Attila</note> hosti restitit. Quoties enim legiones inter se
+      suis<note n="note2" place="margin">Attila</note> hosti restitit. Quoties enim legiones inter se
      concurrerunt, semper proelio superior euasit. Vidensque Attila nequaquam ęquo Marte se
      confligere posse finibus excessit et plurimis de suo exercitu amissis in Pannoniam cum
      ignominia redire coactus est. Post hęc Polislauo regi nata est filia, quę iam nubilis uiro
@@ -378,14 +395,14 @@
      haud parua rerum gestarum fama post se relicta ut qui pacis bellique artibus plurimum
      pręstaret. </p>
 
-            <p n="text.body.div.p11"> Eo<note n="text.body.div.p11.note1" place="margin">
-                  <add n="text.body.div.p11.note1.add">Rex XIV</add>
+            <p n="p11"> Eo<note n="note1" place="margin">
+                  <add n="add1">Rex XIV</add>
                </note> defuncto alter ex nepotibus eius natu maior nomine Sebeslauus regnare coepit. Cumque
      Scodram, regni sui oppidum, Gothi obsedissent, ille coacta suorum non parua manu audacter
-     impigreque castra eorum<note n="text.body.div.p11.note2" place="margin">Scodra</note> inuasit ita ut primo impetu eos
+     impigreque castra eorum<note n="note2" place="margin">Scodra</note> inuasit ita ut primo impetu eos
      opprimeret. Hostium igitur, qui regnum suum bello lacessere non dubitauerant, statim pars alia
-     cęsa, alia capta, alia in fugam conuersa uictoriam illi reliquit. Neque enim<note n="text.body.div.p11.note3" place="margin">
-                  <graphic n="text.body.div.p11.note3.graphic" url="manicula.png"/>
+     cęsa, alia capta, alia in fugam conuersa uictoriam illi reliquit. Neque enim<note n="note3" place="margin">
+                  <graphic n="graphic1" url="manicula.png"/>
                </note> semper prospere pugnare possunt qui plus audacię quam uirium prę se ferunt. Interim
      Attila, Pannonię rex, rursum infestis armis fines eius ingressus oppidum quoddam ui cępit
      cumque bona diripuisset, ędes incendit, moenia dirruit et audita Gothorum cęde nihil cunctatus
@@ -394,7 +411,7 @@
      instaurari iussit. Cumque quattuor et uiginti regnasset annos, duos de se liberos reliquit:
      alteri nomen erat Razbiuoius, alteri Bladimerus. </p>
 
-            <p n="text.body.div.p12"> Hi post patris obitum<note n="text.body.div.p12.note" place="margin">XV rex</note> regnum inter se partiti sunt,
+            <p n="p12"> Hi post patris obitum<note n="note1" place="margin">XV rex</note> regnum inter se partiti sunt,
      arbitrio tamen Razbiuoi quia natu maior erat. Cęssit ergo Bladimero partem regni ultra montes
      Danubium uersus, partemque Macedonię ad campos Argolidis uergentem. Ipse uero sibi accepit
      littorale regnum omnemque citra montes tractum mari contiguum nauigationibusque opportunum.
@@ -403,7 +420,7 @@
      decessit nulla de se prole relicta. Venit ergo frater Bladimerus et regnum consanguinitatis
      iure possedit. Cumque in suo regno uiginti, in fratris octo regnasset annos, mortem obiit. </p>
 
-            <p n="text.body.div.p13"> Filius eius primogenitus<note n="text.body.div.p13.note" place="margin">XVI rex</note> Canimerus post eum diadema
+            <p n="p13"> Filius eius primogenitus<note n="note1" place="margin">XVI rex</note> Canimerus post eum diadema
      suscepit regnumque dudum diuisum coniunxit et pręcedentium regum potentiam suis opibus ęquauit.
      Sed quoniam ob quandam animi duritiem inuisus plebi erat, illa Delmatię pars quę Croatia
      dicitur ab eo desciuit. Quam ob rem rex in furorem uersus coacto repente exercitu Macedonię,
@@ -412,18 +429,18 @@
      inter se concurrerunt; diu ęquo Marte pugnatum est. Interfecto tandem Canimero rege cęssauit
      bellum. </p>
 
-            <p n="text.body.div.p14"> Successit ei filius<note n="text.body.div.p14.note1" place="margin">XVII rex</note> Tuerdislauus regnoque potitus est.
-     Mox et ipso sine filiis defuncto regnum suscepit nepos eius Ostriuoius,<note n="text.body.div.p14.note2" place="margin">XVIII, XVIIII reges</note> cui anno tertio et uigesimo regni sui defuncto successit Tolimerus
+            <p n="p14"> Successit ei filius<note n="note1" place="margin">XVII rex</note> Tuerdislauus regnoque potitus est.
+     Mox et ipso sine filiis defuncto regnum suscepit nepos eius Ostriuoius,<note n="note2" place="margin">XVIII, XVIIII reges</note> cui anno tertio et uigesimo regni sui defuncto successit Tolimerus
      filius. Quo regnante nihil contigit turbulentum; ocium et pax erat, ab armis quies. Vndecim
      regnauit annos. </p>
 
-            <p n="text.body.div.p15"> Et in eius locum<note n="text.body.div.p15.note" place="margin">XX rex</note> suffectus est Pribislauus filius, qui cum
+            <p n="p15"> Et in eius locum<note n="note1" place="margin">XX rex</note> suffectus est Pribislauus filius, qui cum
      multa in eos quibus pręerat intoleranda commisisset, a Mysis, qui nunc Bosnenses appellantur,
      interficitur. Interfecti cadauer in fluuium proiicitur, ut sepultura quoque hominis careret qui
      ab humanitate alienus erat. </p>
 
-            <p n="text.body.div.p16"> Loco eius regnare coepit Cepimerus filius; qui potestatem nactus paternę cędis auctores
-     poena affectos uita spoliauit.<note n="text.body.div.p16.note" place="margin">XXI rex</note> Eo regnante ferocissima
+            <p n="p16"> Loco eius regnare coepit Cepimerus filius; qui potestatem nactus paternę cędis auctores
+     poena affectos uita spoliauit.<note n="note1" place="margin">XXI rex</note> Eo regnante ferocissima
      Germanorum gens a septentrionis partibus ueniens Istriam occupauit. Cumque Delmatię fines armis
      lacessere coepisset, Cepimerus rex eis obuiam processit. Inito proelio uictoria potitur,
      plurimos concidit, pauci fuga in tutum elapsi sunt. Posthac Germanorum princeps, ut odia in
@@ -431,9 +448,9 @@
      sponsalitiis amice post hęc alter altero usus est. Cepimerus regnauit quinque et uiginti annos,
      menses septem. </p>
 
-            <p n="text.body.div.p17"> Cui successit Suetozarus filius, ob insitam sibi animi mansuetudinem omnibus pariter
-      charus.<note n="text.body.div.p17.note1" place="margin">XXII rex</note> Hic Radoslauum filium adeo dilexit ut uiuens adhuc
-     illum pro se regnare iuberet. Radoslauus<note n="text.body.div.p17.note2" place="margin">XXIII rex</note> uero, ut tanto
+            <p n="p17"> Cui successit Suetozarus filius, ob insitam sibi animi mansuetudinem omnibus pariter
+      charus.<note n="note1" place="margin">XXII rex</note> Hic Radoslauum filium adeo dilexit ut uiuens adhuc
+     illum pro se regnare iuberet. Radoslauus<note n="note2" place="margin">XXIII rex</note> uero, ut tanto
      beneficio se non indignum probaret, mortuo patre non tantum regni eius, sed etiam uirtutum se
      pręstitit hęredem paternosque mores imitatus optime sese in omnibus gessit; prolem tamen sibi
      suisque longe degenerem sortitus est. Filium enim habuit in tantum uitiis corruptum ut
@@ -445,7 +462,7 @@
      ueniaque data. Quos autem cęperat Seislauus, illos in seruitutem redegit pręfectis copiarum
      suarum oblatos; patri quoque iratus, quod rebellantibus pepercisset, seditionibus animum
      intendere coepit. Plurimi militum centurionumque terrore compulsi illum sequebantur. Quorum
-     opera usus patrem regno expulit<note n="text.body.div.p17.note3" place="margin">XXIV rex</note> Croatięque dominatus est.
+     opera usus patrem regno expulit<note n="note3" place="margin">XXIV rex</note> Croatięque dominatus est.
      Ea enim gens parum ciuilis animi semper metu magis quam benignitate ad obsequendum mouebatur,
      bonis itaque dominis molesta, improbis autem et arrogantibus mitis erat. Porro Radoslauus regno
      exutus Lastum cum paucis quos secum habebat confugit. Vbi cum filium sibi adhuc infensum
@@ -460,7 +477,7 @@
      Apuliam, ubi illi expositi terrestri itinere Romam contenderunt. Scopulus uero ille, qui
      fugientes exceperat, regis nomen sortitus est, quem usque nunc Petram Radoslaui appellant. </p>
 
-            <p n="text.body.div.p18"> Interim impius Seislauus fugato patre regnum possedit donec Deo ulciscente hostili manu (ut
+            <p n="p18"> Interim impius Seislauus fugato patre regnum possedit donec Deo ulciscente hostili manu (ut
      monstrabimus) interemptus poenas daret. Per idem enim tempus erat in Pannonię partibus uir
      quidam nomine Tecomilus, presbyteri filius, magister custosque armentorum principis Vdislaui
      inter Pannones nobilissimi, cui inprimis charus fuit. Nam cum ipse Vdislauus mirum in modum
@@ -492,20 +509,20 @@
      flumen Sauum cum uinculis deiectus pręfocatur; atque hunc exitum habuit illa in patrem impietas
      in Deumque contemptus. </p>
 
-            <p n="text.body.div.p19"> Audita filii nece Radoslauus familięque eius internitione, quod dignas factis poenas
+            <p n="p19"> Audita filii nece Radoslauus familięque eius internitione, quod dignas factis poenas
      dedissent, Deo gratias egit, iusta eius iudicia qua poterat laudatione efferens, qui et noxios
      punire et innocentibus misereri consuesset. Accepta tandem a pontifice benedictione Roma
      decedens in regnum suum est reuersus mansitque inter Delmatas maris accolas; Croatis uero omnem
      iniuriam remisit nec quicquam in se inique commissum exprobrauit, ad clementiam quam ad
      uindictam semper propensior. </p>
 
-            <p n="text.body.div.p20"> Interea natus est ei filius Colomanus, qui post patris obitum consensu omnium regnum
-     suscepit paternarumque uirtutum ęmulus<note n="text.body.div.p20.note" place="margin">XXV rex</note> iustitiam pietatemque
+            <p n="p20"> Interea natus est ei filius Colomanus, qui post patris obitum consensu omnium regnum
+     suscepit paternarumque uirtutum ęmulus<note n="note1" place="margin">XXV rex</note> iustitiam pietatemque
      coluit, mitis, clemens, munificus, modestus ac proinde optimo cuique charus magnique habitus. </p>
 
-            <p n="text.body.div.p21"> Cui in pace defuncto successit<note n="text.body.div.p21.note1" place="margin">XXVI rex</note> Crisimerus filius, et
+            <p n="p21"> Cui in pace defuncto successit<note n="note1" place="margin">XXVI rex</note> Crisimerus filius, et
      ipse in omnibus laudandus, naturę fortunęque bonis ęque insignis, sed pręcipue in Deum
-     obseruantia atque cultu. Cumque unum et triginta regnasset annos,<note n="text.body.div.p21.note2" place="margin">XXVII rex
+     obseruantia atque cultu. Cumque unum et triginta regnasset annos,<note n="note2" place="margin">XXVII rex
       et ultimus</note> in demortui locum suffectus est filius Zuonimerus, animi ornamentis ac
      religione nemini superiorum regum postponendus, ęqui ac legum pręcipuus obseruator et proinde
      pessimo cuique maxime inuisus. Eo regnante prospere inoffenseque succedebant omnia, quieuerant
@@ -519,7 +536,7 @@
      uerti coepit, in summum usque scelus erupturam, quod ex sequenti modo patebit narratione
      uerumque esse constabit. Contigit enim ut ab Roma Cęsaris pontificisque legati ad Zuonimerum
      regem missi cum binis litteris uenirent; primas tantum regi legendas dederunt, quarum hęc
-     sententia erat: <quote n="text.body.div.p21.quote"> Rogamus obsecramusque te, Zuonimere frater, regum Christianorum
+     sententia erat: <quote n="quote3"> Rogamus obsecramusque te, Zuonimere frater, regum Christianorum
       piissime, uti coacto procerum tuorum populique concilio alteram epistolam coram resignari
       coramque legi iubeas et una cum ipsis deliberes his de rebus quas nos Deo bene iuuante aggredi
       meditamur pro amore Christi ecclesięque sanctę utilitate; tum demum, quicquid communi omnium
@@ -527,10 +544,10 @@
      </quote>
             </p>
 
-            <p n="text.body.div.p22"> Zuonimerus igitur nauiter, sicut rogabatur, accersitis omnibus regni sui pręfectis
+            <p n="p22"> Zuonimerus igitur nauiter, sicut rogabatur, accersitis omnibus regni sui pręfectis
      decurionibusque ciuitatum conuentuque habito ad Quinque ecclesias in campo qui Cossouus
      nuncupatur litteras aperiri fecit et cunctis cum silentio audientibus publice recitari; quę in
-     hęc fere uerba scriptę erant: <quote n="text.body.div.p22.quote"> Romanus pontifex et Cęsar Augustus Zuonimero regi
+     hęc fere uerba scriptę erant: <quote n="quote1"> Romanus pontifex et Cęsar Augustus Zuonimero regi
       populoque eius salutem. Rem certe indignam et Christianorum principum ignauię adscribendam
       existimamus ut Hierosolymę sanctaque loca, in quibus Christus Dominus pro nobis nasci, pro
       nobis mori uoluit, ab infidelibus tam diu possideantur, possessa polluantur prophanenturque,
@@ -544,7 +561,7 @@
       Valete in Domino. </quote>
             </p>
 
-            <p n="text.body.div.p23"> Id audiens nequissima Croatorum gens protinus indignari coepit ita ut uix litteras perlegi
+            <p n="p23"> Id audiens nequissima Croatorum gens protinus indignari coepit ita ut uix litteras perlegi
      pateretur. Non solum itaque non consenserunt litteris et exhortationi pontificis ac Cęsaris,
      uerum etiam in regem suum insurgentes magno tumultu et uociferatione conquesti sunt illum esse
      huiusce rei autorem ut ipsi relictis coniugibus, liberis patrioque solo procul per alienas
@@ -564,23 +581,23 @@
      relicto corpore ad cęleste regnum transferri meruit, cum terrenum tam bene rexisset per annos
      quinque et triginta; tam diu enim cum potestate uixit. </p>
 
-            <p n="text.body.div.p24"> Bela autem, Pannonię rex, huius nominis primus, cum fama referente hoc quod Zuonimero
+            <p n="p24"> Bela autem, Pannonię rex, huius nominis primus, cum fama referente hoc quod Zuonimero
      acciderat didicisset, propere cum expeditorum manu uenit rerumque potitus omnes regni partes
      possedit: Bosnam, Croatiam, Delmatiam, Naronam. Sed Croatos, ut domino suo rebelles ac
      parricidas, laboribus seruituteque oppressit. Pręterea cum post hęc regnum in partes
      secessisset anno a natiuitate Christi MLXXIX, Bosnenses dominum suum sortiti sunt, Naronenses
      suum, soli Croati alienum, ne quis eos frustra olim uel immerito a Zuonimero deuotos credat. </p>
 
-            <trailer n="text.body.div.trailer"> Finis </trailer>
+            <trailer n="trailer25"> Finis </trailer>
          </div>
       </body>
-      <back n="text.back">
+      <back n="back3">
 
 
 
 
-         <div n="text.back.div">
-            <p n="text.back.div.p">Hucusque historiam uernaculo gentis nostrę sermone compositam uidi et quam potui diligenter fideliterque in Latinum transposui, nihil de sententia dimittens, licet aliqua de uerbis quę superflua uidebantur mutilans, ne lectori oneri essent.</p>
+         <div n="div1">
+            <p n="p1">Hucusque historiam uernaculo gentis nostrę sermone compositam uidi et quam potui diligenter fideliterque in Latinum transposui, nihil de sententia dimittens, licet aliqua de uerbis quę superflua uidebantur mutilans, ne lectori oneri essent.</p>
          </div>
 
       </back>

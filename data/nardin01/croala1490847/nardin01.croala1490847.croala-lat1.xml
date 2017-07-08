@@ -105,6 +105,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       
       <profileDesc>
@@ -165,106 +179,106 @@
       </revisionDesc>
   </teiHeader>
     <text xml:base="urn:cts:croala:nardin01.croala1490847.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-        <div n="text.body.div" type="poesis-elegia" met="elegiacum">
-            <head n="text.body.div.head">
-               <add n="text.body.div.head.add">Elegia de laudibus Sibenici</add>
+        <body n="body1">
+        <div n="div1" type="poesis-elegia" met="elegiacum">
+            <head n="head1">
+               <add n="add1">Elegia de laudibus Sibenici</add>
             </head>
-            <l n="text.body.div.l1">Solus honor, Sibenice, tuus, tua gloria sola est,</l>
+            <l n="l2">Solus honor, Sibenice, tuus, tua gloria sola est,</l>
              
-            <l n="text.body.div.l2" met="pentameter">            Semper in his, quae nunc disticha nostra canunt.</l>
+            <l n="l3" met="pentameter">            Semper in his, quae nunc disticha nostra canunt.</l>
              
-            <l n="text.body.div.l3">            In reliquis tua fama nitet communis et alta</l>
+            <l n="l4">            In reliquis tua fama nitet communis et alta</l>
              
-            <l n="text.body.div.l4" met="pentameter">            Copia te rerum conditione beat.</l>
+            <l n="l5" met="pentameter">            Copia te rerum conditione beat.</l>
              
-            <l n="text.body.div.l5">            Insula quae in Tithio est caelo tam grata sereno</l>
+            <l n="l6">            Insula quae in Tithio est caelo tam grata sereno</l>
              
-            <l n="text.body.div.l6" met="pentameter">            Illa quidem nunquam grandine laesa fuit.</l>
+            <l n="l7" met="pentameter">            Illa quidem nunquam grandine laesa fuit.</l>
              
-            <l n="text.body.div.l7">            Marmora quae Tithius stillat pretiosa feruntur,</l>
+            <l n="l8">            Marmora quae Tithius stillat pretiosa feruntur,</l>
              
-            <l n="text.body.div.l8" met="pentameter">            Lignaque tam mira petrificantur aqua</l>
+            <l n="l9" met="pentameter">            Lignaque tam mira petrificantur aqua</l>
              
-            <l n="text.body.div.l9">            Anguillam haec etiam pretiosi dona palati</l>
+            <l n="l10">            Anguillam haec etiam pretiosi dona palati</l>
              
-            <l n="text.body.div.l10" met="pentameter">            Dat tibi quae febri est haud nocitura malae.</l>
+            <l n="l11" met="pentameter">            Dat tibi quae febri est haud nocitura malae.</l>
              
-            <l n="text.body.div.l11">            Latrat et insequitur solum miranda canum vis</l>
+            <l n="l12">            Latrat et insequitur solum miranda canum vis</l>
              
-            <l n="text.body.div.l12" met="pentameter">            Te simul atque omnes gens Agarena tuos.</l>
+            <l n="l13" met="pentameter">            Te simul atque omnes gens Agarena tuos.</l>
              
-            <l n="text.body.div.l13">            Rara, coronatos extollit gloria pisces</l>
+            <l n="l14">            Rara, coronatos extollit gloria pisces</l>
              
-            <l n="text.body.div.l14" met="pentameter">            Dentales merito quos, Sibenice, vocas.</l>
+            <l n="l15" met="pentameter">            Dentales merito quos, Sibenice, vocas.</l>
              
-            <l n="text.body.div.l15">            Delphines iam, Sice, tui tam denique mites</l>
+            <l n="l16">            Delphines iam, Sice, tui tam denique mites</l>
              
-            <l n="text.body.div.l16" met="pentameter">            Piscantes tollunt nomen ad astra tuum.</l>
+            <l n="l17" met="pentameter">            Piscantes tollunt nomen ad astra tuum.</l>
              
-            <l n="text.body.div.l17">            Septimus ut venit nobis, quis crederet, annus,</l>
+            <l n="l18">            Septimus ut venit nobis, quis crederet, annus,</l>
              
-            <l n="text.body.div.l18" met="pentameter">            Anguillae effervent hoc, mihi crede, lacu.</l>
+            <l n="l19" met="pentameter">            Anguillae effervent hoc, mihi crede, lacu.</l>
              
-            <l n="text.body.div.l19">Manna solo, Sibenice, tuo felicibus astris</l>
+            <l n="l20">Manna solo, Sibenice, tuo felicibus astris</l>
              
-            <l n="text.body.div.l20" met="pentameter">Ambrosias tribuit, nectareasque dapes.</l>
+            <l n="l21" met="pentameter">Ambrosias tribuit, nectareasque dapes.</l>
              
-            <l n="text.body.div.l21">            Cedite, Campanae vites, iam cedite, Graiae,</l>
+            <l n="l22">            Cedite, Campanae vites, iam cedite, Graiae,</l>
              
-            <l n="text.body.div.l22" met="pentameter">            Dulcia Collenti nam deus arva colit.</l>
+            <l n="l23" met="pentameter">            Dulcia Collenti nam deus arva colit.</l>
              
-            <l n="text.body.div.l23">            Surgit in his campis sacrae spetiosa Minervae</l>
+            <l n="l24">            Surgit in his campis sacrae spetiosa Minervae</l>
              
-            <l n="text.body.div.l24" met="pentameter">            Arbor et excelsas ornat ubique dapes.</l>
+            <l n="l25" met="pentameter">            Arbor et excelsas ornat ubique dapes.</l>
              
-            <l n="text.body.div.l25">            Praeciso hic homines cerebro vixere per annos</l>
+            <l n="l26">            Praeciso hic homines cerebro vixere per annos</l>
              
-            <l n="text.body.div.l26" met="pentameter">            Ducentes longa posteritate dies.</l>
+            <l n="l27" met="pentameter">            Ducentes longa posteritate dies.</l>
              
-            <l n="text.body.div.l27">            Hinc utero ablato generosae munera dextrae</l>
+            <l n="l28">            Hinc utero ablato generosae munera dextrae</l>
              
-            <l n="text.body.div.l28" met="pentameter">            Vivit adhuc mulier fortiter arma gerens.</l>
+            <l n="l29" met="pentameter">            Vivit adhuc mulier fortiter arma gerens.</l>
              
-            <l n="text.body.div.l29">            Haec fidei comissa tuae, fidelissima nempe</l>
+            <l n="l30">            Haec fidei comissa tuae, fidelissima nempe</l>
              
-            <l n="text.body.div.l30" met="pentameter">            Sice, Duci Veneto, moenia tuta manent;</l>
+            <l n="l31" met="pentameter">            Sice, Duci Veneto, moenia tuta manent;</l>
              
-            <l n="text.body.div.l31">
-               <orig n="text.body.div.l31.orig">Hic</orig> trino dicata Deo dum festa refulgent</l>
+            <l n="l32">
+               <orig n="orig1">Hic</orig> trino dicata Deo dum festa refulgent</l>
              
-            <l n="text.body.div.l32" met="pentameter">Civis in hac sceptrum nobilis urbe tenet.</l>
+            <l n="l33" met="pentameter">Civis in hac sceptrum nobilis urbe tenet.</l>
               
-            <l n="text.body.div.l33">Hic prius ostenso celebrat nova nupta Priapo</l>
+            <l n="l34">Hic prius ostenso celebrat nova nupta Priapo</l>
              
-            <l n="text.body.div.l34" met="pentameter">Connubium, et socias porrigit inde manus.</l>
+            <l n="l35" met="pentameter">Connubium, et socias porrigit inde manus.</l>
              
-            <l n="text.body.div.l35">            Felici hoc portu placidas regit Eolus undas.</l>
+            <l n="l36">            Felici hoc portu placidas regit Eolus undas.</l>
              
-            <l n="text.body.div.l36" met="pentameter">            Firmat et innumeras Marte silente rates</l>
+            <l n="l37" met="pentameter">            Firmat et innumeras Marte silente rates</l>
              
-            <l n="text.body.div.l37">            Hoc mare tam lautos tollit super aethera cancros</l>
+            <l n="l38">            Hoc mare tam lautos tollit super aethera cancros</l>
              
-            <l n="text.body.div.l38" met="pentameter">            Atque epulas ornat Iuppiter inde tuas</l>
+            <l n="l39" met="pentameter">            Atque epulas ornat Iuppiter inde tuas</l>
              
-            <l n="text.body.div.l39">Haec quoque florescit speciosis unda Corallis,</l>
+            <l n="l40">Haec quoque florescit speciosis unda Corallis,</l>
              
-            <l n="text.body.div.l40" met="pentameter">Qui dites Indos, antipodasque petunt.</l>
+            <l n="l41" met="pentameter">Qui dites Indos, antipodasque petunt.</l>
              
-            <l n="text.body.div.l41">            Hic ubi tam variis fervescit piscibus aequor</l>
+            <l n="l42">            Hic ubi tam variis fervescit piscibus aequor</l>
              
-            <l n="text.body.div.l42" met="pentameter">            Hic sua Neptunus sceptra superba tenet.</l>
+            <l n="l43" met="pentameter">            Hic sua Neptunus sceptra superba tenet.</l>
              
-            <gap n="text.body.div.gap1" reason="fragmentum" resp="NJ"/>
+            <gap n="gap44" reason="fragmentum" resp="NJ"/>
             
 
             
             
 
-            <gap n="text.body.div.gap2" reason="fragmentum" resp="NJ"/>
+            <gap n="gap45" reason="fragmentum" resp="NJ"/>
             </div>
         
-            <gap n="text.body.gap" reason="irrelevant" resp="NJ"/>
+            <gap n="gap2" reason="irrelevant" resp="NJ"/>
         </body>
     </text>
 </TEI>

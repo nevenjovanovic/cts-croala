@@ -85,6 +85,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
             
         <profileDesc>
@@ -133,16 +150,16 @@
 
 	
 
-      <body n="text.body">
-         <pb n="text.body.pb1"/>
-         <div n="text.body.div1">
-            <head n="text.body.div1.head">PRAEFATIO AUCTORIS IN TOMUM I</head>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2">
+            <head n="head1">PRAEFATIO AUCTORIS IN TOMUM I</head>
     
-            <p n="text.body.div1.p1">Studium litterarum Latinarum ad cultum atque humanitatem populi Croatici <sic n="text.body.div1.p1.sic">cognoscenda</sic> maximi momenti
+            <p n="p2">Studium litterarum Latinarum ad cultum atque humanitatem populi Croatici <sic n="sic1">cognoscenda</sic> maximi momenti
     est. Quid enim hic populus ab adventu suo in Haemi
     paeninsulam usque ad hodiernum diem doctrinae
     atque humanitati praestiterit, neutiquam recte aestimare poteris, si incredibilem fere eius Latine scribendi
-    diligentiam exceperis. Ineunte saeculo VII <abbr n="text.body.div1.p1.abbr">ae. v.</abbr> sede
+    diligentiam exceperis. Ineunte saeculo VII <abbr n="abbr2">ae. v.</abbr> sede
     e Transcarpathicis regionibus translata in fines Dalmatiae, Pannoniae, Histriae, regionum quas olim Romani insederant, ubi tunc quoque sermo Latinus magna in parte terebatur, maioribus nostris statim usus cum
     idiomate Latino intercessit. Latine enim communicabant inter se incolae maritimarum urbium, Latina scribebantur mandata et resolutiones auctoritatum Francorum, ea erat lingua tum potentissimae ecclesiae Romanae. Mirandumne est, quod in Croatia quoque - non
     aliter ac in aliis Europae occidentalis regionibus - his
@@ -150,7 +167,7 @@
     rei publicae negotia tractanda adhibebatur quodque antiquissimae inscriptiones lapidariae Croaticae aliaque
     documenta cancellariae aulicae Croatarum lingua Latina exarabantur?
 </p>    
-            <p n="text.body.div1.p2">Quod vero initio ob necessitatem factum est, procedente tempore et politioribus saeculis in consuetudinem
+            <p n="p3">Quod vero initio ob necessitatem factum est, procedente tempore et politioribus saeculis in consuetudinem
     venit. Non neglecta lingua vernacula (quam semper
     quovis sacrificiorum genere defendere parati erant)
     Croatae altiorum coetuum linguam Latinam tamquam
@@ -159,7 +176,7 @@
     Latine sciebat, aditus ad liberalia studia aperiebatur
     viaque ad exteras quascunque terras patebat.</p>
     
-            <p n="text.body.div1.p3">Quamque brevi toti nationi Croaticae ter quaterve
+            <p n="p4">Quamque brevi toti nationi Croaticae ter quaterve
     saeculis diuturna et gravissima bella cum Turcis gerenda erant, maiores nostri nec inter arma commercium
     cum Ciceronis lingua intermiserunt. Ludi, gymnasia,
     academiae, quae volventibus annis variis in urbibus »reliquiarum« Croatiae constituebantur, bonarum artium et
@@ -170,14 +187,14 @@
     Sacerdotes, nobiles, cives, milites, docti indoctique omni
     ope nitebantur, ut Latinis litteris instituerentur Latinoque sermone assuescerent. Non videbatur, ut Ciceronis verbis utar, tam praeclarum esse scire Latine,
     quam turpe nescire. Nihilominus lingua Latina, quippe
-    quae plebis non propria fuerit, apud Croatas nullo <pb n="text.body.div1.p3.pb"/>
+    quae plebis non propria fuerit, apud Croatas nullo <pb n="pb1"/>
     modo communis dici potest, sed lingua tantum cultorum virorum. quibus in scholis cum labore discenda
     erat.</p>
     
-            <p n="text.body.div1.p4">In his condicionibus orta sunt apud Croatas multa
-    opera lingua Latina conscripta (magna ex parte <corr n="text.body.div1.p4.corr">inedita</corr>), quae rei publicae litterariae totius Europae nunc quoque decori sunt. Scriptores Croatici, qui sermone Latino scripserunt, nullum genus scribendi a se alienum
+            <p n="p5">In his condicionibus orta sunt apud Croatas multa
+    opera lingua Latina conscripta (magna ex parte <corr n="corr1">inedita</corr>), quae rei publicae litterariae totius Europae nunc quoque decori sunt. Scriptores Croatici, qui sermone Latino scripserunt, nullum genus scribendi a se alienum
     putabant. Eorum id genus opera tam multa sunt, ut
-    a quodam nostro viro docto<ref n="text.body.div1.p4.ref"/> vetustiores Croatarum litterae optimo iure bilingues, i.e. Croaticae et Latinae
+    a quodam nostro viro docto<ref n="ref2"/> vetustiores Croatarum litterae optimo iure bilingues, i.e. Croaticae et Latinae
     dictae sint. Si in hac Croatarum elegantissima Latinitate scribentium multitudine quaeras, cuinam palma
     danda sit, auctoribus, qui saeculo XVIII primisque triginta annis saeculi XIX floruerunt et quorum plerique
     Ragusii nati sunt, illam prae ceteris deberi invenias. Hi
@@ -186,38 +203,38 @@
     ab universis fere eiusdem temporis viris eruditis uno
     ore celeberrimis veteribus scriptoribus aequiparandi dicerentur.</p>
     
-            <p n="text.body.div1.p5">Facere non possum, quin hic magnum numerum nostratium, qui lingua Latina usi sint, meliorem vitae
+            <p n="p6">Facere non possum, quin hic magnum numerum nostratium, qui lingua Latina usi sint, meliorem vitae
     partem, immo omnem vitam in diversis Europae partibus transegisse atque patriae suae parum profuisse,
     dolenti animo commemorem. Verumtamen cum plurimi eorum acerrimi ingenii essent litterisque ac studiis
     impigram operam navarent, tantam apud exteras nationes famam sibi conciliaverunt, ut patriae suae gloriam non parum auxerint. Inter hos nostros linguae Latinae cultores multi ardentissimo patriae amore enituerunt. Testantur id verba Nicolai Modrussiensis, assertoris liturgiae glagoliticae, Georgii Sisgorei, Marci
     Maruli Spalatensis, Simonis Begnii ceterorumque oratorum populi Croatici, qui apud aulas Europaeas auxilium contra immanissimum Turcam implorabant, Antonii Verantii, Matthiae Flacii Illyrici, Dominici Zavorei, Vincentii Priboevi, Stephani Gradii,.Pauli Ritteri, Rogerii   Iosephi Boskovich, Titi Brezovatsky, Pauli Stoosz, Francisci Millashinovich, Josephi Georgii
-    Strossmayer, plurimorum ceterorum. Anonymus Dalmata (<q n="text.body.div1.p5.q">Cyllenius Dalmaticus e civitate Macarensi</q>)
+    Strossmayer, plurimorum ceterorum. Anonymus Dalmata (<q n="q1">Cyllenius Dalmaticus e civitate Macarensi</q>)
     circa annum 1840. ore Pauli Stoosz Latine canit:
     
-    <quote n="text.body.div1.p5.quote">
-                  <l n="text.body.div1.p5.quote.l1">Me natale solum retinet, me patria cara</l>
-                  <l n="text.body.div1.p5.quote.l2">Dulce ligat, vinctumque fovet mihi pectus in ulnis</l>
-                  <l n="text.body.div1.p5.quote.l3">Mater amata suis, et non nisi moesta cupressus</l>
-                  <l n="text.body.div1.p5.quote.l4">Dum superincumbens tumulo mea fata dolebit,</l>
-                  <l n="text.body.div1.p5.quote.l5">A se divulsum me natio cara videbit.</l>
+    <quote n="quote2">
+                  <l n="l1">Me natale solum retinet, me patria cara</l>
+                  <l n="l2">Dulce ligat, vinctumque fovet mihi pectus in ulnis</l>
+                  <l n="l3">Mater amata suis, et non nisi moesta cupressus</l>
+                  <l n="l4">Dum superincumbens tumulo mea fata dolebit,</l>
+                  <l n="l5">A se divulsum me natio cara videbit.</l>
                </quote>
             </p>
-            <note n="text.body.div1.note">1 <bibl n="text.body.div1.note.bibl">V. Gortan. Klasična gimnazija i naša kulturna baština.
+            <note n="note7">1 <bibl n="bibl1">V. Gortan. Klasična gimnazija i naša kulturna baština.
         (Zbornik Zagrebačke klasične gimnazije. Zagreb, 1957., str.
         85.).</bibl>
             </note>
-            <pb n="text.body.div1.pb"/>
-            <p n="text.body.div1.p6">Haec idcirco silentio praetermittenda non censui,
+            <pb n="pb8"/>
+            <p n="p9">Haec idcirco silentio praetermittenda non censui,
     quod sunt quidam exteri viri, litteris et rebus politicis
     dediti, qui singulare studium linguae Latinae apud
     maiores nostros perverse interpretari non desinunt.</p>
     
-            <p n="text.body.div1.p7">Memoratu dignum est Croatas in politicis et diaetalibus negotiis sermone Latino diutius quam omnes alios
+            <p n="p10">Memoratu dignum est Croatas in politicis et diaetalibus negotiis sermone Latino diutius quam omnes alios
     Europae populos usos esse, nempe usque ad diem 23.
     Octobris 1847. Is enim sermo in nationali libertate asserenda et linguis Germanica et Hungarica, quae iis
     imponebantur, propulsandis magno iis adiumento fuit.</p>
     
-            <p n="text.body.div1.p8"> E litterarum hereditate, quae apud Croatas lingua
+            <p n="p11"> E litterarum hereditate, quae apud Croatas lingua
     Latina conscripta est, in apposito elencho opera usque
     ad medium praeteritum saeculum typis edita recensere aggressus sum. Hic autem non solum ea opera intelligenda sunt, quae a Croatis proprio marte Latine condita sunt, verum et illa, quae ab iis e qualibet lingua
     in Latinum translata sunt quaeve auctores Croatici
@@ -226,11 +243,11 @@
     librorum id genus, sed pro viribus recensere opera
     cognitione potissime digna, quod studiosis Lexico latinitatis recentioris aetatis Iugoslaviae condendo vacantibus inserviret.</p>
     
-            <p n="text.body.div1.p9">Cum autem apud nos, quod ego sciam, nemo adhuc
+            <p n="p12">Cum autem apud nos, quod ego sciam, nemo adhuc
     provinciam istam exantlaverit, licet sperare, deficientibus aliis subsidiis bibliographicis, hunc indicem ceteris
     quoque viris doctis alicuius utilitatis fore.</p>
     
-            <p n="text.body.div1.p10">Ut nunc res est, absolutam litterarum Latinarum
+            <p n="p13">Ut nunc res est, absolutam litterarum Latinarum
     Croatiae bibliographiam ad praesens confici non posse
     persuasum mihi habeo. Litterarum populi Croatici hereditas diversissimis de causis tam distracta est, ut ad
     omnium librorum editiones comparandas plurimorum
@@ -239,7 +256,7 @@
     est, vel minimum contulerit, id mihi satis superque
     erit.</p>
     
-            <p n="text.body.div1.p11">Res, quae in hoc indice compendiario stilo referuntur, e nonnullis bibliothecis et archivis variorumque
+            <p n="p14">Res, quae in hoc indice compendiario stilo referuntur, e nonnullis bibliothecis et archivis variorumque
     scriptorum auctoritate erutae sunt. Fons uberrimus in
     colligendis notis mihi fuit Bibliotheca nationalis et
     universitaria Zagrabiensis, quae inter veterum librorum
@@ -248,26 +265,26 @@
     Bibliothecae Musaei Britannici et Bibliothecae nationalis Galliae, typis editi, tum notissima opera bibliographica in calce huius Indicis memorata C. Estreicheri, G. Petrik. C. Szabó, J. Szinnyei, M. D. Grmek, ceterorum, quae in ea bibliotheca asservantur
     quaeque mihi ad supplendas lacunas maximum subsidium praestiterunt. Aliae bibliothecae et archiva, quae pro! brevissimo tempore adire potui, sunt: Bibliotheca
     metropolitana Zagrabiensis, Bibliotheca Academiae
-    <pb n="text.body.div1.p11.pb"/>
+    <pb n="pb1"/>
     Slavorum meridionalium Zagrabiensis, Bibliotheca conventus Fratrum minorum Ragusii, Bibliothecae scientiarum Ragusii, Spalati, Iaderae, duo Archiva historica
     Iaderae et Zagrabiae. Auctor huius indicis, parvo spatio ad perficiendum opus sibi relicto, ex memoratis
     thesauris librorum non omnia depromere et invisere
     potuit, ut voluerat, sed non raro ex catalogis ipsis ei
     hauriendum fuit. Simili modo, quae ex singulis auctoribus deprompserat, deficientibus ipsis libris aliisve testimoniis, recognoscere nequivit, sed, ut invenerat, retulit.
 </p>    
-            <p n="text.body.div1.p12">Quae omnia si benevolus lector, aequus rerum aestimator, recte consideraverit, spero fore, ut multis, quae
+            <p n="p15">Quae omnia si benevolus lector, aequus rerum aestimator, recte consideraverit, spero fore, ut multis, quae
     in hoc indice minus elaborata videantur, benigne indulgeat. Nihilominus in hoc elencho plurima nova adducuntur, quae litterarum Croaticarum historiae adhuc
     latuerunt. Lacunis enim supplendis imprimis operam
     navandam censui ad bibliographiam nostram id maximi momenti esse existimans.</p>
     
-            <p n="text.body.div1.p13">Doleo, quod (licet consulto id fecerim) hunc in censum inserere omisi quosdam scriptores, qui a Croatia
+            <p n="p16">Doleo, quod (licet consulto id fecerim) hunc in censum inserere omisi quosdam scriptores, qui a Croatia
     oriundi extra Croatiam vixerunt et quorum vita et
     opera accuratiore perscrutatione indigent, puta Franciscum Nigrum, Julium Camillum Delminium, Juvencum Caelium Calanum Dalmatam, quaedam familiae
     Kollonitschianae membra, Georgium Horvath-Stansithium, Martinum Georgium Kovachich ceteros nec
-    non alieniigenas quosdam, qui apud nos degentes <q n="text.body.div1.p13.q">nostraque merentes stipendia doctrina et eruditione claruerunt</q>. Quae omnia supplementis subsequenter adici
+    non alieniigenas quosdam, qui apud nos degentes <q n="q1">nostraque merentes stipendia doctrina et eruditione claruerunt</q>. Quae omnia supplementis subsequenter adici
     poterunt.</p>
     
-            <p n="text.body.div1.p14">De norma, quam in recensendis libris adhibui, haec
+            <p n="p17">De norma, quam in recensendis libris adhibui, haec
     moneo: Nomina auctorum forma usitatissima et orthographia horum temporum afferuntur, ad quam formam
     lector semper ab aliis formis remittitur. Ne huius elenchi ambitus ultra modum augeretur, titulos librorum
     non integros exscripsi, sed partes minoris momenti,
@@ -276,26 +293,26 @@
     annum editionis formamque libri, numerum paginarum
     vel foliorum exhibenda curavi.</p>
     
-            <p n="text.body.div1.p15">Singulis editionibus notas adieci paucas, quas ad
+            <p n="p18">Singulis editionibus notas adieci paucas, quas ad
     quaedam illustranda vel detegenda utiles iudicavi. In
     conscribendis notis usus sum sermone Latino, quo exteris quoque viris usus huius indicis commodior fieret.</p>
     
-            <p n="text.body.div1.p16">Oro et rogo benevolos lectores, quae hoc in opere
+            <p n="p19">Oro et rogo benevolos lectores, quae hoc in opere
     emendanda vel supplenda animadvertant, ut vel ipsi
     suppleant vel me certiorem facere dignentur, quo prius
     in supplementis edendis addi et corrigi possint.</p>
     
-            <p n="text.body.div1.p17">Omnibus, qui in perficiendo hoc elencho quolibet
+            <p n="p20">Omnibus, qui in perficiendo hoc elencho quolibet
     modo me adiuverunt, praecipue doctori Aurelio Herkov, gratias ago maximas.</p>
          </div>
-         <pb n="text.body.pb2"/>
-         <div n="text.body.div2">
-            <head n="text.body.div2.head">PRAEFATIO AUCTORIS IN TOMUM II</head>
+         <pb n="pb3"/>
+         <div n="div4">
+            <head n="head1">PRAEFATIO AUCTORIS IN TOMUM II</head>
     
-            <p n="text.body.div2.p1">Posteaquam Indicem scriptorum Croaticorum, qui
+            <p n="p2">Posteaquam Indicem scriptorum Croaticorum, qui
     Opera sua usque ad annum 1848. lingua Latina vulgaverunt, ordine alphabetico edidi, prodit nunc nova editio Indicis seu Tomus II eorundem operum ordine secundum classes digestus.</p>
     
-            <p n="text.body.div2.p2">Editio prior variis de causis polygraphi ope edita est,
+            <p n="p3">Editio prior variis de causis polygraphi ope edita est,
     inde nullo modo fieri potuit, quin multa in ea errata
     remanerent. Haec itaque spalmata typothetica aliaque
     quaedam menda, quae culpa nostra libro irrepserant, in
@@ -303,24 +320,24 @@
     In decursu autem laboris id quoque semper prae oculis habebam, ut et alia opera Latina nostratium, quae
     priori Tomo abesse dolebam, pro viribus in hunc novum Tomum referrem. Ad supplendum opus etsi et
     tempus et subsidia in adeundis bibliothecis prorsum
-    deerant, nihilominus CCL plus minusve titulos novos <pb n="text.body.div2.p2.pb"/>
+    deerant, nihilominus CCL plus minusve titulos novos <pb n="pb1"/>
     adiectos, lector, invenies. Parum est, concedo, sed et
     exigua hoc in genere additamenta aliquid prodesse
     videntur.</p>
     
-            <p n="text.body.div2.p3">Quod ad novam operis dispositionem attinet, memorandum est opera pro ratione obiecti, quod pertractant,
+            <p n="p4">Quod ad novam operis dispositionem attinet, memorandum est opera pro ratione obiecti, quod pertractant,
     in praesenti Tomo in XXI classes divisa esse, quarum
     seriem Conspectus operis, qui libro praemissus est,
     exhibet. In una quaque classe opera ordine chronologico enumerantur, ita enim statum et progressum cuiuslibet disciplinae per seriem temporis quivis facile distinguere valebit.</p>
     
-            <p n="text.body.div2.p4">Pro maiore lectorum commoditate subnectitur copiosus auctorum index alphabeticus.</p>
+            <p n="p5">Pro maiore lectorum commoditate subnectitur copiosus auctorum index alphabeticus.</p>
     
-            <p n="text.body.div2.p5">In fine grato animo memoro me in adornanda hac
+            <p n="p6">In fine grato animo memoro me in adornanda hac
     editione opera doctoris Dana Čučković assidue adiutum
     esse.</p>
     
-            <closer n="text.body.div2.closer">
-               <dateline n="text.body.div2.closer.dateline">Scribebam in Metropoli Croatiae <date n="text.body.div2.closer.dateline.date" when="1971-04-01">Kalendis Aprilibus
+            <closer n="closer7">
+               <dateline n="dateline1">Scribebam in Metropoli Croatiae <date n="date1" when="1971-04-01">Kalendis Aprilibus
     anno MCMLXXI</date>.</dateline>
             </closer>
          </div>

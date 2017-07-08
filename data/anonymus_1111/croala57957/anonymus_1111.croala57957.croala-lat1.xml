@@ -97,6 +97,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -143,71 +157,71 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_1111.croala57957.croala-lat1:" xml:lang="lat" type="poesis">
-        <body n="text.body">
-         <div n="text.body.div1" type="poesis-inscriptio" met="hexameter-leoninus">
-            <head n="text.body.div1.head">I.</head>
+        <body n="body1">
+         <div n="div1" type="poesis-inscriptio" met="hexameter-leoninus">
+            <head n="head1">I.</head>
     
     
     
-            <l n="text.body.div1.l1">1. Laude nitens multa, iacet hic Vekenega sepulta:</l>
+            <l n="l2">1. Laude nitens multa, iacet hic Vekenega sepulta:</l>
              
     
-            <l n="text.body.div1.l2">2. Quae fabricam turris simul et capitolia struxit</l>
+            <l n="l3">2. Quae fabricam turris simul et capitolia struxit</l>
              
     
-            <l n="text.body.div1.l3">3. <corr n="text.body.div1.l3.corr1">Haec</corr> obit undeno <corr n="text.body.div1.l3.corr2">centum</corr> post mille sub aevo:</l>
+            <l n="l4">3. <corr n="corr1">Haec</corr> obit undeno <corr n="corr2">centum</corr> post mille sub aevo:</l>
              
     
-            <l n="text.body.div1.l4">4. Quo ueniens <corr n="text.body.div1.l4.corr">Christus</corr> carnis gestauit amictus</l>
+            <l n="l5">4. Quo ueniens <corr n="corr1">Christus</corr> carnis gestauit amictus</l>
              
     
-            <l n="text.body.div1.l5">5. Nos habet est annus quintus quo rex Colomannus:</l>
+            <l n="l6">5. Nos habet est annus quintus quo rex Colomannus:</l>
              
     
-            <l n="text.body.div1.l6">6. <corr n="text.body.div1.l6.corr1">Praesul et est</corr> 
-               <corr n="text.body.div1.l6.corr2">decimus</corr> quo Gregorius fuit annus:</l>
+            <l n="l7">6. <corr n="corr1">Praesul et est</corr> 
+               <corr n="corr2">decimus</corr> quo Gregorius fuit annus:</l>
              
          </div>    
-            <div n="text.body.div2" type="poesis-inscriptio">
-                <head n="text.body.div2.head">II.</head>
-            <l n="text.body.div2.l1">Oret qui spectat dicens in pace quiescat</l>
+            <div n="div2" type="poesis-inscriptio">
+                <head n="head1">II.</head>
+            <l n="l2">Oret qui spectat dicens in pace quiescat</l>
              
-            <l n="text.body.div2.l2">Corpus ut arca tegat flatus et alta petat</l>
-             
-            </div>    
-            <div n="text.body.div3" type="poesis-inscriptio">
-                <head n="text.body.div3.head">
-               <num n="text.body.div3.head.num" value="3">III</num>.</head>
-            <l n="text.body.div3.l1">Huc ueniens uultum <sic n="text.body.div3.l1.sic">feret</sic> hoc cernendo sepulchrum. </l>
-             
-            <l n="text.body.div3.l2">huic pie dic anime da requiem Domine.</l>
+            <l n="l3">Corpus ut arca tegat flatus et alta petat</l>
              
             </div>    
-            <div n="text.body.div4" type="poesis-inscriptio">
-                <head n="text.body.div4.head">IV.</head>
-            <l n="text.body.div4.l1">Res fluitant cunctae uelut <corr n="text.body.div4.l1.corr">impetus</corr> undae.</l>
+            <div n="div3" type="poesis-inscriptio">
+                <head n="head1">
+               <num n="num1" value="3">III</num>.</head>
+            <l n="l2">Huc ueniens uultum <sic n="sic1">feret</sic> hoc cernendo sepulchrum. </l>
              
-            <l n="text.body.div4.l2">Quicquid et exoritur labitur et moritur.</l>
+            <l n="l3">huic pie dic anime da requiem Domine.</l>
              
-    
-            <l n="text.body.div4.l3">Mente deum pura semper Vekenega secuta.</l>
+            </div>    
+            <div n="div4" type="poesis-inscriptio">
+                <head n="head1">IV.</head>
+            <l n="l2">Res fluitant cunctae uelut <corr n="corr1">impetus</corr> undae.</l>
              
-            <l n="text.body.div4.l4">Non penitus moritur sed moriens oritur.</l>
-             
-    
-            <l n="text.body.div4.l5">Namque probos mores cupiens seruare sorores.</l>
-             
-            <l n="text.body.div4.l6">Actibus excoluit uoce quod has monuit</l>
+            <l n="l3">Quicquid et exoritur labitur et moritur.</l>
              
     
-            <l n="text.body.div4.l7">Hostis ab insidiis aditus bene cauit ouilis.</l>
+            <l n="l4">Mente deum pura semper Vekenega secuta.</l>
              
-            <l n="text.body.div4.l8">Quaque regente domus creuit <corr n="text.body.div4.l8.corr">et</corr> iste locus.</l>
+            <l n="l5">Non penitus moritur sed moriens oritur.</l>
              
     
-            <l n="text.body.div4.l9">In festo sacri Cosmae migrauit ac Damiani.</l>
+            <l n="l6">Namque probos mores cupiens seruare sorores.</l>
              
-            <l n="text.body.div4.l10">Ut sit in arce dei uita perhennis ei:</l>
+            <l n="l7">Actibus excoluit uoce quod has monuit</l>
+             
+    
+            <l n="l8">Hostis ab insidiis aditus bene cauit ouilis.</l>
+             
+            <l n="l9">Quaque regente domus creuit <corr n="corr1">et</corr> iste locus.</l>
+             
+    
+            <l n="l10">In festo sacri Cosmae migrauit ac Damiani.</l>
+             
+            <l n="l11">Ut sit in arce dei uita perhennis ei:</l>
              
             </div>
         </body>

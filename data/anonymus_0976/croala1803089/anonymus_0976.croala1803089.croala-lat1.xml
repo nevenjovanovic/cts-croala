@@ -91,6 +91,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -136,22 +153,22 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_0976.croala1803089.croala-lat1:" xml:lang="lat" type="prosa">
-        <body n="text.body">
-         <div n="text.body.div" type="prosa-inscriptio">
+        <body n="body1">
+         <div n="div1" type="prosa-inscriptio">
     
-            <p n="text.body.div.p1">
-               <supplied n="text.body.div.p1.supplied1">in hoc</supplied> 
-               <supplied n="text.body.div.p1.supplied2">tUMULO</supplied> 
-               <supplied n="text.body.div.p1.supplied3">QuiESCIT</supplied> HELENA <supplied n="text.body.div.p1.supplied4">FAMOsa quae fui</supplied> UXOR MICHAELI REGI <expan n="text.body.div.p1.expan1">MATERQue</expan> STEFANI <expan n="text.body.div.p1.expan2">Regis pacemque obtENUIT</expan> REGNI. VIII IDUS <expan n="text.body.div.p1.expan3">Mensis OCTobris</expan> 
-               <supplied n="text.body.div.p1.supplied5">in pacE</supplied> HIC <supplied n="text.body.div.p1.supplied6">ORdinata</supplied> FUIT <supplied n="text.body.div.p1.supplied7">ANno</supplied> AB <supplied n="text.body.div.p1.supplied8">INCARNAtione Domini</supplied> DCCCCLXXVI <abbr n="text.body.div.p1.abbr1">IND.</abbr> IV <supplied n="text.body.div.p1.supplied9">CICLo</supplied> 
-               <supplied n="text.body.div.p1.supplied10">
-                  <abbr n="text.body.div.p1.supplied10.abbr">Lun.</abbr>
-               </supplied> V. <supplied n="text.body.div.p1.supplied11">
-                  <abbr n="text.body.div.p1.supplied11.abbr">ep.</abbr>
-               </supplied> XVII <supplied n="text.body.div.p1.supplied12">ciclo <abbr n="text.body.div.p1.supplied12.abbr">sol.</abbr>
-               </supplied> V <abbr n="text.body.div.p1.abbr2">LUN.</abbr> V. <supplied n="text.body.div.p1.supplied13">concURRENTE</supplied> VI. <expan n="text.body.div.p1.expan4">ISTAQue</expan> VIVENS <supplied n="text.body.div.p1.supplied14">FUit REGNi</supplied> MATER FUIT <supplied n="text.body.div.p1.supplied15">PUPILORum TUTOrque VIDUARum</supplied> 
+            <p n="p1">
+               <supplied n="supplied1">in hoc</supplied> 
+               <supplied n="supplied2">tUMULO</supplied> 
+               <supplied n="supplied3">QuiESCIT</supplied> HELENA <supplied n="supplied4">FAMOsa quae fui</supplied> UXOR MICHAELI REGI <expan n="expan5">MATERQue</expan> STEFANI <expan n="expan6">Regis pacemque obtENUIT</expan> REGNI. VIII IDUS <expan n="expan7">Mensis OCTobris</expan> 
+               <supplied n="supplied8">in pacE</supplied> HIC <supplied n="supplied9">ORdinata</supplied> FUIT <supplied n="supplied10">ANno</supplied> AB <supplied n="supplied11">INCARNAtione Domini</supplied> DCCCCLXXVI <abbr n="abbr12">IND.</abbr> IV <supplied n="supplied13">CICLo</supplied> 
+               <supplied n="supplied14">
+                  <abbr n="abbr1">Lun.</abbr>
+               </supplied> V. <supplied n="supplied15">
+                  <abbr n="abbr1">ep.</abbr>
+               </supplied> XVII <supplied n="supplied16">ciclo <abbr n="abbr1">sol.</abbr>
+               </supplied> V <abbr n="abbr17">LUN.</abbr> V. <supplied n="supplied18">concURRENTE</supplied> VI. <expan n="expan19">ISTAQue</expan> VIVENS <supplied n="supplied20">FUit REGNi</supplied> MATER FUIT <supplied n="supplied21">PUPILORum TUTOrque VIDUARum</supplied> 
             </p>
-            <p n="text.body.div.p2">ICQUE ASPICIENS VIR ANIME DIC MISERERE DEUS.</p>
+            <p n="p2">ICQUE ASPICIENS VIR ANIME DIC MISERERE DEUS.</p>
          </div>    
                     </body>
 

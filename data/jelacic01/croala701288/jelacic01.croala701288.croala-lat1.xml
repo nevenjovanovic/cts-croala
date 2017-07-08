@@ -109,6 +109,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -165,106 +182,106 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:jelacic01.croala701288.croala-lat1:" xml:lang="lat">
     
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-epistula">
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-epistula">
          
-            <head n="text.body.div.head">Valedictoria 
-         Ludovici Jellachich de Buzin, <expan n="text.body.div.head.expan">Iuris Universi Doctoris</expan>, scientiarum 
+            <head n="head1">Valedictoria 
+         Ludovici Jellachich de Buzin, <expan n="expan1">Iuris Universi Doctoris</expan>, scientiarum 
          politicarum, styli curialis et iuris cambialis professoris in Accademia Zagrabiensi 
-         <abbr n="text.body.div.head.abbr1">p. o.</abbr> comitatus zagrabiensis tabulae judiciariae assessoris et facultatis juridicae 
-         prosenioris, prout divulgatur, postquam idem <abbr n="text.body.div.head.abbr2">D.</abbr> Jellachich strenue oppugnatum 
+         <abbr n="abbr2">p. o.</abbr> comitatus zagrabiensis tabulae judiciariae assessoris et facultatis juridicae 
+         prosenioris, prout divulgatur, postquam idem <abbr n="abbr3">D.</abbr> Jellachich strenue oppugnatum 
          tyronum statutionis meritum, et ad reddendam qualiter peractae deputationis 
          Veronensis rationem in publico provocatos respectivos deputatos (Kussevich 
          nempe et Busan) altissimo jussu cathedra sua, et serius etiam ipso assessoris 
          titulo fuisset privatus:</head> 
-            <opener n="text.body.div.opener">Studiosis juris in annum II-um, suis hucusque auditoribus, ammotus ab 
+            <opener n="opener2">Studiosis juris in annum II-um, suis hucusque auditoribus, ammotus ab 
          officio professor salutem plurimam dicit.</opener> 
-            <p n="text.body.div.p1">Quandoquidem vobis, auditores charissimi, ex cathedra valedicere non 
+            <p n="p3">Quandoquidem vobis, auditores charissimi, ex cathedra valedicere non 
          possum, praesentibus id litteris praestare, ad explendas quasvis muneris, quod 
          tredecim, et quod excedit, annis fideliter me gessisse coram vobis saltem, promptissimis ad id testibus, gloriari licet, partes pertinere censeo: quo sic et moderatoris, studiis vestris devinctissimi, memoriam gratam et scientiae, qua absque 
          nec hominem, nec civem esse liquet, contentissimum studium vel hoc ipso, 
          quo vos relinquo, momento vobis amplius etiam ingenerarem.</p>
-            <p n="text.body.div.p2">Principia, quae tenui, a me elucubrata dissertatione hausistis, talia sunt, 
+            <p n="p4">Principia, quae tenui, a me elucubrata dissertatione hausistis, talia sunt, 
          ut, si iisdem fideliter inhaeseritis, nihil amplius sive Patria sive Princeps desiderent. Colite illa, ut thesaurum, quem non ego, sed tota retroacti temporis 
          tristis perinde, ac jucunda collegit experientia, nec sinite, vos ulla ab iisdem 
          dimoveri authoritate.</p> 
-            <pb n="text.body.div.pb1"/>
-            <p n="text.body.div.p3">Docui ego ibidem vos, non complacendi, aut bonas cujusque (ut mos est) 
-         grates merendi animo, sed, e clarissimorum virorum, prosperis rerum eventibus probatis, theoriis, petitis argumentis convictus: <emph n="text.body.div.p3.emph">Monarchiam</emph>, ut 
+            <pb n="pb5"/>
+            <p n="p6">Docui ego ibidem vos, non complacendi, aut bonas cujusque (ut mos est) 
+         grates merendi animo, sed, e clarissimorum virorum, prosperis rerum eventibus probatis, theoriis, petitis argumentis convictus: <emph n="emph1">Monarchiam</emph>, ut 
          palladium existentiae civilis etiam tum venerari, si (ut in Flavio Voss legimus) 
          aulici vel stulti, vel detestabiles cautissimos etiam principes a recto salutis publicae abducant tramite. - Certum enim est, Deos immortales ita Respublicas sua complecti Providentia, ut mox post nubila Phoebus placatum collustret, 
          diffuso lumine coelum.</p> 
-            <p n="text.body.div.p4">Docui porro, illam, ubique gentium (ut pessimam regiminis formam) 
-         diffamatam <emph n="text.body.div.p4.emph">Aristocratiam</emph> penitus nosceret (non dubito) convinci: quaelibet, quae in eam conjiciuntur, vituperia, turbatum inter varias Aristarum 
+            <p n="p7">Docui porro, illam, ubique gentium (ut pessimam regiminis formam) 
+         diffamatam <emph n="emph1">Aristocratiam</emph> penitus nosceret (non dubito) convinci: quaelibet, quae in eam conjiciuntur, vituperia, turbatum inter varias Aristarum 
          species aequilibrium potius, quam hanc, simpliciter inevitabilem, cujuslibet 
          regiminis formae modificationem ferire; praepotentia namque solum sive Aristarum 
          stemmatis, ut aevo medio, sive Aristarum populi, ut recentissime evoluto tempore: sive denique Aristarum ingenii, ut hodie, gentes divexatae perspicere coeperunt, tantum influxus a sapiente Monarcha Aristis stemmatis, id 
          est magnatibus, relinquendum, tantum item Aristis populi, id est Provinciarum 
          deputatis, juris concedendum, ut Aristae ingenii, id est summi, et infimi Magistratus, vigili utrorumque custoditi oculo, optimorum regum animis veritatem 
          celare nunquam valeant.</p> 
-            <p n="text.body.div.p5">Docui denique, quid sit <emph n="text.body.div.p5.emph1">Democratia</emph>? quae <emph n="text.body.div.p5.emph2">Populum</emph> inter et 
-         <emph n="text.body.div.p5.emph3">Plebem</emph> distinctio? ostendique confusionis harum duarum, toto coelo distinctarum, idearum vesanam consequentiam. Nihil proinde expedire magis 
+            <p n="p8">Docui denique, quid sit <emph n="emph1">Democratia</emph>? quae <emph n="emph2">Populum</emph> inter et 
+         <emph n="emph3">Plebem</emph> distinctio? ostendique confusionis harum duarum, toto coelo distinctarum, idearum vesanam consequentiam. Nihil proinde expedire magis 
          communi Reipublicae, Regum videlicet et Nationum, quae ab invicem separari 
          nequeunt, saluti, quam felicem horum trium elementorum in unum coalitionem, quam etiam ut principium disciplinae quae civitatem regere docet, statui. 
          Principium in ea primum omnino proprium et domesticum, quod ex principio 
          Philosophiae Ethicae, cujus ipsa haec scientia continuatio est, suam demonstrationem adaequate trahit, quodve in virtute fundatur, quam non in externa 
          actionum cum legibus conformitate, sed in intimo Divinas perfectiones manifestandi habitu collocavi, callidos non bonos, reputant, qui omnia utilitate 
          sua metiuntur.</p> 
-            <p n="text.body.div.p6">Atque sic cum Cicerone, qui sapientissimorum sese (l. 2. C. 4 de Legibus) 
-         sequi confitetur, sententiam: <q n="text.body.div.p6.q">Principem, et ultimam legem mentem esse, dixi, omnia ratione cogentis, aut vetantis Dei</q>.</p> 
-            <p n="text.body.div.p7">Haec est ilia (ut novistis) doctrina, quae altissimo loco, ut perniciosa 
-         novatio descripta, cathedram scientiarum politicarum (me inaudito) in hoc litterario instituto doctore suo viduam <corr n="text.body.div.p7.corr">reddidit</corr>. Haec illa sunt <q n="text.body.div.p7.q1">Inobedientiae 
+            <p n="p9">Atque sic cum Cicerone, qui sapientissimorum sese (l. 2. C. 4 de Legibus) 
+         sequi confitetur, sententiam: <q n="q1">Principem, et ultimam legem mentem esse, dixi, omnia ratione cogentis, aut vetantis Dei</q>.</p> 
+            <p n="p10">Haec est ilia (ut novistis) doctrina, quae altissimo loco, ut perniciosa 
+         novatio descripta, cathedram scientiarum politicarum (me inaudito) in hoc litterario instituto doctore suo viduam <corr n="corr1">reddidit</corr>. Haec illa sunt <q n="q2">Inobedientiae 
          et renitentiae principia</q>, quibus vos non in spes publicas 
          sed futuras Patriae calamitates infascinari, succrescere 
-         perhibemini. <q n="text.body.div.p7.q2">Qualibus manibus boni superi! nos, futurarum generationum Patres transmitteremus veneranda 
-         Majorum nostrorum instituta!</q> nuper suspiravit vir quidam,<ref n="text.body.div.p7.ref">*</ref> cujus nec sobolem, nec sollicitudinem de Majorum institutis conservandis novimus.</p>
-            <note n="text.body.div.note">* Donatus Lukavzky, sup. comes comitatus zagrabiensis <foreign n="text.body.div.note.foreign" xml:lang="hr">(pripisano kasnije 
+         perhibemini. <q n="q3">Qualibus manibus boni superi! nos, futurarum generationum Patres transmitteremus veneranda 
+         Majorum nostrorum instituta!</q> nuper suspiravit vir quidam,<ref n="ref4">*</ref> cujus nec sobolem, nec sollicitudinem de Majorum institutis conservandis novimus.</p>
+            <note n="note11">* Donatus Lukavzky, sup. comes comitatus zagrabiensis <foreign n="foreign1" xml:lang="hr">(pripisano kasnije 
          drugom rukom)</foreign>.</note> 
-            <pb n="text.body.div.pb2"/> 
-            <p n="text.body.div.p8">Vestri ergo est perhibere de manibus his testimonium, idque vestra in 
+            <pb n="pb12"/> 
+            <p n="p13">Vestri ergo est perhibere de manibus his testimonium, idque vestra in 
          Reges Apostolicos fidelitate, vestroque conservandorum Institutorum Patriae zelo 
          facile utrumque praestituri; quoniam idem, quod Quintus Mar. (L. 3 C. 5 de Legibus) 
-         dixerat, vos quoque mihi obvertere possitis: <q n="text.body.div.p8.q1">Parum a me in praelectionibus meis novi allatum esse, quod in majorum Institutis non reperiretur</q>, <q n="text.body.div.p8.q2">et 
-         recte quidem!</q> (cum Marco respondeo) <q n="text.body.div.p8.q3">Cum haec omnia sapientissime, moderatissimeque <corr n="text.body.div.p8.q3.corr">constituta</corr> essent a Majoribus nostris, nihil habui quod putarem innovandum</q>.</p> 
-            <p n="text.body.div.p9">Ignoscamus igitur iis, qui nos novos Lycurgos et Solones, insultando, compellant, eoque magis ignoscamus, quod pravis offensae (illiusque immodicae) 
+         dixerat, vos quoque mihi obvertere possitis: <q n="q1">Parum a me in praelectionibus meis novi allatum esse, quod in majorum Institutis non reperiretur</q>, <q n="q2">et 
+         recte quidem!</q> (cum Marco respondeo) <q n="q3">Cum haec omnia sapientissime, moderatissimeque <corr n="corr1">constituta</corr> essent a Majoribus nostris, nihil habui quod putarem innovandum</q>.</p> 
+            <p n="p14">Ignoscamus igitur iis, qui nos novos Lycurgos et Solones, insultando, compellant, eoque magis ignoscamus, quod pravis offensae (illiusque immodicae) 
          ambitionis consiliis seducti, prius de nobis judicare sustinuerint, quam qui 
          simus? cognovissent.</p> 
-            <p n="text.body.div.p10">Sed nec quidquam contigit, quod Sonnenfelsis enegare, una mecum non 
+            <p n="p15">Sed nec quidquam contigit, quod Sonnenfelsis enegare, una mecum non 
          praevidissetis. Multis ille antea annis id praedixerat: Emigrantes Galli, pertinaces 
          Coriolani, fastidiosi Apii - et strepitu utrorumque attonitae sibique non bene 
          quaqua versum fidentes, administrationes publicae Democratas (hodie Demagogos) appellant quosvis viros qui de juribus hominis et civis liberalius dicere, 
-         aut scribere sustinent. Similiter Aristocratia et Democratia non modo <emph n="text.body.div.p10.emph1">Excessus</emph> formarum regiminis evasere, sed plane <emph n="text.body.div.p10.emph2">Inculpationes</emph>: de quibus 
-         jure timeas, ne, prout Tyberiorum et Domitianorum tempore, <emph n="text.body.div.p10.emph3">crimina 
-         laesae Majestatis</emph>, prout non pridem in Hispania <emph n="text.body.div.p10.emph4">Crimina Haereseos</emph> eo perducantur, <emph n="text.body.div.p10.emph5">ut omnis virilis fortitudo, honestas animi, et eruditio <corr n="text.body.div.p10.emph5.corr">suspectae</corr> reddantur, optimique viri 
+         aut scribere sustinent. Similiter Aristocratia et Democratia non modo <emph n="emph1">Excessus</emph> formarum regiminis evasere, sed plane <emph n="emph2">Inculpationes</emph>: de quibus 
+         jure timeas, ne, prout Tyberiorum et Domitianorum tempore, <emph n="emph3">crimina 
+         laesae Majestatis</emph>, prout non pridem in Hispania <emph n="emph4">Crimina Haereseos</emph> eo perducantur, <emph n="emph5">ut omnis virilis fortitudo, honestas animi, et eruditio <corr n="corr1">suspectae</corr> reddantur, optimique viri 
          statu suo et fortunis priventur</emph>.</p> 
-            <p n="text.body.div.p11">Ideo sustineamus inimicos generis humani, adeoque et nostros! - insistemus eo fidelius virtuti, quod illa absque adversitatibus plene nec eluceat, 
+            <p n="p16">Ideo sustineamus inimicos generis humani, adeoque et nostros! - insistemus eo fidelius virtuti, quod illa absque adversitatibus plene nec eluceat, 
          quodve sibi soli sufficiat. Beati enim qui patiuntur persecutionem propter justitiam, et profecto beati, non modo ibi, ubi vera et perpetua sine fine est beatitudo, sed hic quoque beati conscientia recti. - Beati existimatione et amore 
          concivium. - Beati sensu gratitudinis defensae calamitatis - Et fors etiam suo 
          tempore beandi ipsius, rectius informandi, terrae domini clementia - saepe 
          enim, Jovis telo quercus adusta, viret.</p> 
-            <p n="text.body.div.p12">Sed esto etiam usque finem vitae hujus inimica <corr n="text.body.div.p12.corr1">continuo</corr> nobis obsistat 
-         fortuna! - quid inde? - <emph n="text.body.div.p12.emph1">Officiis publicis destituemur?</emph> - Onere 
+            <p n="p17">Sed esto etiam usque finem vitae hujus inimica <corr n="corr1">continuo</corr> nobis obsistat 
+         fortuna! - quid inde? - <emph n="emph2">Officiis publicis destituemur?</emph> - Onere 
          responsionis coram Deo et hominibus per id liberabimur, nobisque ipsis, absque 
-         peccato derelictae Reipublicae vivemus, qui, cum voluimus honeste servire, repulsam tulimus - <emph n="text.body.div.p12.emph2">Authoritate, et honore munerum publicorum destituemur?</emph> - Quae rogo authoritate intelligentes? et quis honore 
+         peccato derelictae Reipublicae vivemus, qui, cum voluimus honeste servire, repulsam tulimus - <emph n="emph3">Authoritate, et honore munerum publicorum destituemur?</emph> - Quae rogo authoritate intelligentes? et quis honore 
          probi civis, in nostra praesertim Patria, major esse potest? qui, dum jure 
          suo ab illis gesti officii rationes exigit, censura infidos publice perstringit. - 
-         <emph n="text.body.div.p12.emph3">At beneficio salariorum frustrabimur?</emph> Quo <corr n="text.body.div.p12.corr2">beneficio</corr>? aut 
+         <emph n="emph4">At beneficio salariorum frustrabimur?</emph> Quo <corr n="corr5">beneficio</corr>? aut 
          quale illud est? Salaria sunt compensatio neglectae per servitium publicum rei 
-         privatae, quam cum ipsi cum parsimonia, quae maximum est vectigal, providebimus, quid hac parte damni est? <emph n="text.body.div.p12.emph4">Sed nullum Patrimonium habemus?</emph> Ergo in hac Patria, ubi, sanguine civium saginari, lege cautum est, nec 
+         privatae, quam cum ipsi cum parsimonia, quae maximum est vectigal, providebimus, quid hac parte damni est? <emph n="emph6">Sed nullum Patrimonium habemus?</emph> Ergo in hac Patria, ubi, sanguine civium saginari, lege cautum est, nec 
          servire audetis; - Agite ergo, ut vobis, non ut Reipublicae nimium pretiosa 
-         opera vestra serviatis. - <emph n="text.body.div.p12.emph5">Quare autem studuimus?</emph> - Ut sic vivere 
+         opera vestra serviatis. - <emph n="emph7">Quare autem studuimus?</emph> - Ut sic vivere 
          
-         <pb n="text.body.div.p12.pb"/> 
-         discatis, ne <corr n="text.body.div.p12.corr3">mori</corr> timeatis. - <emph n="text.body.div.p12.emph6">Sed vivere debemus?</emph> - <q n="text.body.div.p12.q1">Nolite esse solliciti</q> (verba sunt, fallere nescii, Dei), <q n="text.body.div.p12.q2">quid comedetis, aut bibetis, sed ante omnia quaerite regnum coelorum, et coetera adjicientur vobis</q> - Vel fors, satis 
+         <pb n="pb8"/> 
+         discatis, ne <corr n="corr9">mori</corr> timeatis. - <emph n="emph10">Sed vivere debemus?</emph> - <q n="q11">Nolite esse solliciti</q> (verba sunt, fallere nescii, Dei), <q n="q12">quid comedetis, aut bibetis, sed ante omnia quaerite regnum coelorum, et coetera adjicientur vobis</q> - Vel fors, satis 
          habere nunquam vidistis hominem cui Deus ita non benedixisset propter virtutem?</p> 
-            <p n="text.body.div.p13">Modo autem valete! totis viribus officiis status vestri incumbentes, ut, 
+            <p n="p18">Modo autem valete! totis viribus officiis status vestri incumbentes, ut, 
          habitu hocce a teneris contractu, olim firmius iisdem insistatis. - Meo in 
-         officio successori eos vos exhibeatis, quales <corr n="text.body.div.p13.corr">vosmet</corr> mihi exhibuistis, et confitebitur, prout ego pallam profiteor: <emph n="text.body.div.p13.emph">Tales juvenes in optimas spes 
+         officio successori eos vos exhibeatis, quales <corr n="corr1">vosmet</corr> mihi exhibuistis, et confitebitur, prout ego pallam profiteor: <emph n="emph2">Tales juvenes in optimas spes 
          suae succrescere Patriae.</emph>
             </p> 
-            <closer n="text.body.div.closer">Mei vero gratam velitis, quaeso, retinere memoriam, qui patriam juventutem tenerrimo semper dilexi, et diligam animo. Valete! 
-         <dateline n="text.body.div.closer.dateline">Scribebam in curia Chehy <date n="text.body.div.closer.dateline.date" when="1824-04-01">calendis aprilis 1824</date>.</dateline>
+            <closer n="closer19">Mei vero gratam velitis, quaeso, retinere memoriam, qui patriam juventutem tenerrimo semper dilexi, et diligam animo. Valete! 
+         <dateline n="dateline1">Scribebam in curia Chehy <date n="date1" when="1824-04-01">calendis aprilis 1824</date>.</dateline>
             </closer>
          </div>
       </body>

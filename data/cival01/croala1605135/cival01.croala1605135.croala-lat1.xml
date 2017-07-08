@@ -111,6 +111,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -160,24 +171,24 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:cival01.croala1605135.croala-lat1:" xml:lang="lat" type="poesis">
-      <body n="text.body">
-         <div n="text.body.div1" type="poesis-epigramma" met="hendecasyllabus">
-            <head n="text.body.div1.head">Viri clarissimi Donati Ciualelli in Palladii Fusci Commentarios Endecasyllabon.</head>
+      <body n="body1">
+         <div n="div1" type="poesis-epigramma" met="hendecasyllabus">
+            <head n="head1">Viri clarissimi Donati Ciualelli in Palladii Fusci Commentarios Endecasyllabon.</head>
 
-            <l n="text.body.div1.l1">Si quis per tenebras Catullianas</l>
-            <l n="text.body.div1.l2">Securos cupit explicare gressus:</l>
-            <l n="text.body.div1.l3">Hic mox Palladium meum sequatur</l>
-            <l n="text.body.div1.l4">Claras lampadas et faces ferentem</l>
-            <l n="text.body.div1.l5">Non sic semita claruit per orbem</l>
-            <l n="text.body.div1.l6">Quaerenti Cereri abditam rapinam:</l>
-            <l n="text.body.div1.l7">Vt docti tenebrae nitent Catulli</l>
-            <l n="text.body.div1.l8">Claras Palladio faces ferente.</l>
+            <l n="l2">Si quis per tenebras Catullianas</l>
+            <l n="l3">Securos cupit explicare gressus:</l>
+            <l n="l4">Hic mox Palladium meum sequatur</l>
+            <l n="l5">Claras lampadas et faces ferentem</l>
+            <l n="l6">Non sic semita claruit per orbem</l>
+            <l n="l7">Quaerenti Cereri abditam rapinam:</l>
+            <l n="l8">Vt docti tenebrae nitent Catulli</l>
+            <l n="l9">Claras Palladio faces ferente.</l>
          </div>  
-         <div n="text.body.div2" type="poesis-epigramma" met="elegiacum">
-            <head n="text.body.div2.head">In laudem Antonii Grimani Donati Civalelli</head> 
-            <l n="text.body.div2.l1">Mille rates Danaum Atride duo fortis Achilles</l>
-            <gap n="text.body.div2.gap"/>
-            <l n="text.body.div2.l2" met="pentameter">verum pugnavit validis Mars ipse lacertis</l>
+         <div n="div2" type="poesis-epigramma" met="elegiacum">
+            <head n="head1">In laudem Antonii Grimani Donati Civalelli</head> 
+            <l n="l2">Mille rates Danaum Atride duo fortis Achilles</l>
+            <gap n="gap3"/>
+            <l n="l4" met="pentameter">verum pugnavit validis Mars ipse lacertis</l>
          </div>
       </body>
   </text>

@@ -81,6 +81,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -116,548 +127,548 @@
       </profileDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:benes01.croala972483.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="poesis-carmen" met="hexameter">
-            <head n="text.body.div.head">Epicedion in morte Jacobi Boni.</head> 
+      <body n="body1">
+         <div n="div1" type="poesis-carmen" met="hexameter">
+            <head n="head1">Epicedion in morte Jacobi Boni.</head> 
         
         
-            <l n="text.body.div.l1">Indictos obitus infletaque funera linquam </l>
+            <l n="l2">Indictos obitus infletaque funera linquam </l>
              
-            <l n="text.body.div.l2">Egregii Vatis, nobis tantumque propinqui? </l>
+            <l n="l3">Egregii Vatis, nobis tantumque propinqui? </l>
              
-            <l n="text.body.div.l3">Materias ultro quaesitas carminis olim </l>
+            <l n="l4">Materias ultro quaesitas carminis olim </l>
              
-            <l n="text.body.div.l4">Qui legi media multis certantibus urbe. </l>
+            <l n="l5">Qui legi media multis certantibus urbe. </l>
              
-            <l n="text.body.div.l5">Atque vetus studium quamvis elanguit annis, </l>
+            <l n="l6">Atque vetus studium quamvis elanguit annis, </l>
              
-            <l n="text.body.div.l6">Excussus nostro quamvis de corpore Phoebus </l>
+            <l n="l7">Excussus nostro quamvis de corpore Phoebus </l>
              
-            <l n="text.body.div.l7">Exulat, et virtus dicendi exaruit omnis: </l>
+            <l n="l8">Exulat, et virtus dicendi exaruit omnis: </l>
              
-            <l n="text.body.div.l8">Ast hic, quae cernit pietas modo vera iacentem </l>
+            <l n="l9">Ast hic, quae cernit pietas modo vera iacentem </l>
              
-            <l n="text.body.div.l9">Iam iam mortalis defunctum munere vitae, </l>
+            <l n="l10">Iam iam mortalis defunctum munere vitae, </l>
              
-            <l n="text.body.div.l10">Non sinit in magno tacitum torpere dolore. </l>
+            <l n="l11">Non sinit in magno tacitum torpere dolore. </l>
              
-            <l n="text.body.div.l11">Quin etiam carmen si poscant multa modosque. </l>
+            <l n="l12">Quin etiam carmen si poscant multa modosque. </l>
              
-            <l n="text.body.div.l12">Quis fatum fraudare sono, quis funera voce </l>
+            <l n="l13">Quis fatum fraudare sono, quis funera voce </l>
              
-            <l n="text.body.div.l13">Possit, quis cantum non indulgere Poetae?</l>
+            <l n="l14">Possit, quis cantum non indulgere Poetae?</l>
              
         
-            <l n="text.body.div.l14">Attamen haec quaenam facies et imago iacentis?</l>
+            <l n="l15">Attamen haec quaenam facies et imago iacentis?</l>
              
-            <l n="text.body.div.l15">Huc cunctas congessit opes sibi Flora, Venusque </l>
+            <l n="l16">Huc cunctas congessit opes sibi Flora, Venusque </l>
              
-            <l n="text.body.div.l16">Unquam non alias tantos afflavit honores: </l>
+            <l n="l17">Unquam non alias tantos afflavit honores: </l>
              
-            <l n="text.body.div.l17">Veris ut in medio lassus recubare videtur, </l>
+            <l n="l18">Veris ut in medio lassus recubare videtur, </l>
              
-            <l n="text.body.div.l18">Plurima cui Veneris nuper iam gratia cessit. </l>
+            <l n="l19">Plurima cui Veneris nuper iam gratia cessit. </l>
              
-            <l n="text.body.div.l19">Hinc stat certamen varium nec leve Dearum, </l>
+            <l n="l20">Hinc stat certamen varium nec leve Dearum, </l>
              
-            <l n="text.body.div.l20">Quas Ida iratas Phrygio sub iudice vidit. </l>
+            <l n="l21">Quas Ida iratas Phrygio sub iudice vidit. </l>
              
-            <l n="text.body.div.l21">Contendunt, studiumque iuvant nixusque vicissim </l>
+            <l n="l22">Contendunt, studiumque iuvant nixusque vicissim </l>
              
-            <l n="text.body.div.l22">Intulit huc Iuno conchis, quae decolor Indus </l>
+            <l n="l23">Intulit huc Iuno conchis, quae decolor Indus </l>
              
-            <l n="text.body.div.l23">Legit opes, secum diversas permeat oras </l>
+            <l n="l24">Legit opes, secum diversas permeat oras </l>
              
-            <l n="text.body.div.l24">Dum simul, occiduis dum partibus advehit una </l>
+            <l n="l25">Dum simul, occiduis dum partibus advehit una </l>
              
-            <l n="text.body.div.l25">Eoas merces, nec non longe orta Britannis </l>
+            <l n="l26">Eoas merces, nec non longe orta Britannis </l>
              
-            <pb n="text.body.div.pb1"/>
-            <l n="text.body.div.l26">Dum spectanda sinit, simul ac ditescit ab arte, </l>
+            <pb n="pb27"/>
+            <l n="l28">Dum spectanda sinit, simul ac ditescit ab arte, </l>
              
-            <l n="text.body.div.l27">Quam Maia genitus mortales edocuit olim. </l>
+            <l n="l29">Quam Maia genitus mortales edocuit olim. </l>
              
-            <l n="text.body.div.l28">Nil tamen hinc hebetat mentem, nec defluit ullo </l>
+            <l n="l30">Nil tamen hinc hebetat mentem, nec defluit ullo </l>
              
-            <l n="text.body.div.l29">Ingenium luxu; terras permensus, ad astra </l>
+            <l n="l31">Ingenium luxu; terras permensus, ad astra </l>
              
-            <l n="text.body.div.l30">Tollitur, aeterna miratus luce nitentes </l>
+            <l n="l32">Tollitur, aeterna miratus luce nitentes </l>
              
-            <l n="text.body.div.l31">Ingrediturque plagas, circumque examina cernit </l>
+            <l n="l33">Ingrediturque plagas, circumque examina cernit </l>
              
-            <l n="text.body.div.l32">Tergemina serie volucres stipare phalanges. </l>
+            <l n="l34">Tergemina serie volucres stipare phalanges. </l>
              
-            <l n="text.body.div.l33">Applaudit Pallas lata regione vaganti, </l>
+            <l n="l35">Applaudit Pallas lata regione vaganti, </l>
              
-            <l n="text.body.div.l34">Quaeque simul sociat suprema ad infima Cypris. </l>
+            <l n="l36">Quaeque simul sociat suprema ad infima Cypris. </l>
              
-            <l n="text.body.div.l35">Et iunctis una iucundum gignit Amorem, </l>
+            <l n="l37">Et iunctis una iucundum gignit Amorem, </l>
              
-            <l n="text.body.div.l36">Qua manat triplex amplexa gratia, caro </l>
+            <l n="l38">Qua manat triplex amplexa gratia, caro </l>
              
-            <l n="text.body.div.l37">Erigit et mentem nati velut excita oestro. </l>
+            <l n="l39">Erigit et mentem nati velut excita oestro. </l>
              
-            <l n="text.body.div.l38">Hinc me corripuit sacro modo Diva furore, </l>
+            <l n="l40">Hinc me corripuit sacro modo Diva furore, </l>
              
-            <l n="text.body.div.l39">Concipio, Vates quanta sit laude ferendus. </l>
+            <l n="l41">Concipio, Vates quanta sit laude ferendus. </l>
              
-            <l n="text.body.div.l40">Nil generis praelustre decus nomenque mirabor,</l>
+            <l n="l42">Nil generis praelustre decus nomenque mirabor,</l>
              
-            <l n="text.body.div.l41">Quamque etiam semper fuerit gens ampla Bonorum,</l>
+            <l n="l43">Quamque etiam semper fuerit gens ampla Bonorum,</l>
              
-            <l n="text.body.div.l42">Iampridem quorum virtus fortunaque certant. </l>
+            <l n="l44">Iampridem quorum virtus fortunaque certant. </l>
              
-            <l n="text.body.div.l43">Mens alio properat fugiens dispendia rerum, </l>
+            <l n="l45">Mens alio properat fugiens dispendia rerum, </l>
              
-            <l n="text.body.div.l44">Complectorque domus mores, quibus Helius olim</l>
+            <l n="l46">Complectorque domus mores, quibus Helius olim</l>
              
-            <l n="text.body.div.l45">A teneris sobolem ingenuam pater educat annis. </l>
+            <l n="l47">A teneris sobolem ingenuam pater educat annis. </l>
              
-            <l n="text.body.div.l46">Grande decus generis, pars idem magna senatus </l>
+            <l n="l48">Grande decus generis, pars idem magna senatus </l>
              
-            <l n="text.body.div.l47">Helius, et Patriae columen nutantis amicum, </l>
+            <l n="l49">Helius, et Patriae columen nutantis amicum, </l>
              
-            <l n="text.body.div.l48">Cuius non merita unquam nos meminisse pigebit. </l>
+            <l n="l50">Cuius non merita unquam nos meminisse pigebit. </l>
              
-            <l n="text.body.div.l49">Excipit eiectos rapti post fata parentis:</l>
+            <l n="l51">Excipit eiectos rapti post fata parentis:</l>
              
-            <l n="text.body.div.l50">Ille mihi patuit portus, solusque receptus,</l>
+            <l n="l52">Ille mihi patuit portus, solusque receptus,</l>
              
-            <l n="text.body.div.l51">Quem fera mox genitum fortuna orbaverat olim,</l>
+            <l n="l53">Quem fera mox genitum fortuna orbaverat olim,</l>
              
-            <l n="text.body.div.l52">Subvectisque fuit sedes concessa quieti.</l>
+            <l n="l54">Subvectisque fuit sedes concessa quieti.</l>
              
-            <l n="text.body.div.l53">Parte stetit nobis tunc luctus, naufraga qualis</l>
+            <l n="l55">Parte stetit nobis tunc luctus, naufraga qualis</l>
              
-            <l n="text.body.div.l54">Excipitur scopulis optato aut littore puppis.</l>
+            <l n="l56">Excipitur scopulis optato aut littore puppis.</l>
              
-            <l n="text.body.div.l55">Suscepti hic demum primaevis crevimus annis. </l>
+            <l n="l57">Suscepti hic demum primaevis crevimus annis. </l>
              
-            <l n="text.body.div.l56">At Vetera hei! misero semper lamenta novanti </l>
+            <l n="l58">At Vetera hei! misero semper lamenta novanti </l>
              
-            <l n="text.body.div.l57">Nunquam oblita cadet patriae querimonia mortis. </l>
+            <l n="l59">Nunquam oblita cadet patriae querimonia mortis. </l>
              
-            <l n="text.body.div.l58">Sed quidcunque tamen damni, pensabimus aequi: </l>
+            <l n="l60">Sed quidcunque tamen damni, pensabimus aequi: </l>
              
-            <l n="text.body.div.l59">Quos mores posthac monitis haurimus avitis! </l>
+            <l n="l61">Quos mores posthac monitis haurimus avitis! </l>
              
-            <l n="text.body.div.l60">Urbis erant nostrae nondum venalia cuncta</l>
+            <l n="l62">Urbis erant nostrae nondum venalia cuncta</l>
              
-            <l n="text.body.div.l61">Et lucri non tantus amor, non cura peculi,</l>
+            <l n="l63">Et lucri non tantus amor, non cura peculi,</l>
              
-            <l n="text.body.div.l62">Sed non indignus florebat cultus honesti,</l>
+            <l n="l64">Sed non indignus florebat cultus honesti,</l>
              
-            <l n="text.body.div.l63">Hinc erat et studii pretium non vile Latini.</l>
+            <l n="l65">Hinc erat et studii pretium non vile Latini.</l>
              
-            <l n="text.body.div.l64">Unde domum institui properabas artibus, Heli,</l>
+            <l n="l66">Unde domum institui properabas artibus, Heli,</l>
              
-            <l n="text.body.div.l65">Ingenuis, cultu quae tunc florebat honesto,</l>
+            <l n="l67">Ingenuis, cultu quae tunc florebat honesto,</l>
              
-            <l n="text.body.div.l66">Praestans ingenio gnatorum, et rebus agendis.</l>
+            <l n="l68">Praestans ingenio gnatorum, et rebus agendis.</l>
              
-            <l n="text.body.div.l67">Quales vel platani, sen quercus brachia tendunt, </l>
+            <l n="l69">Quales vel platani, sen quercus brachia tendunt, </l>
              
-            <l n="text.body.div.l68">Et pecori faciunt, faciunt cultoribus umbras, </l>
+            <l n="l70">Et pecori faciunt, faciunt cultoribus umbras, </l>
              
-            <l n="text.body.div.l69">Et nunquam deserta manent loca sola per aestus, </l>
+            <l n="l71">Et nunquam deserta manent loca sola per aestus, </l>
              
-            <l n="text.body.div.l70">Ventorumque minas laturae robore firmo </l>
+            <l n="l72">Ventorumque minas laturae robore firmo </l>
              
-            <l n="text.body.div.l71">Haerent, nec terrae metuunt coelive ruinam: </l>
+            <l n="l73">Haerent, nec terrae metuunt coelive ruinam: </l>
              
-            <l n="text.body.div.l72">Sic virtus experta virum quodcunque ferebat </l>
+            <l n="l74">Sic virtus experta virum quodcunque ferebat </l>
              
-            <pb n="text.body.div.pb2"/>
-            <l n="text.body.div.l73">Tempus, et impulsu fortunae haud mota ruebat. </l>
+            <pb n="pb75"/>
+            <l n="l76">Tempus, et impulsu fortunae haud mota ruebat. </l>
              
-            <l n="text.body.div.l74">Sed prior insanos furibundae intercipit ictus</l>
+            <l n="l77">Sed prior insanos furibundae intercipit ictus</l>
              
-            <l n="text.body.div.l75">Et medium Petrus ludenti ostenderat unguem, </l>
+            <l n="l78">Et medium Petrus ludenti ostenderat unguem, </l>
              
-            <l n="text.body.div.l76">Pauperie lecta, Francisci veste recinctus. </l>
+            <l n="l79">Pauperie lecta, Francisci veste recinctus. </l>
              
-            <l n="text.body.div.l77">O felix animi, o Croesi iam ditior aura, </l>
+            <l n="l80">O felix animi, o Croesi iam ditior aura, </l>
              
-            <l n="text.body.div.l78">Qui pedibus pressit fastus Acherontis avari. </l>
+            <l n="l81">Qui pedibus pressit fastus Acherontis avari. </l>
              
-            <l n="text.body.div.l79">Et famam spernit, degitque ignobilis aevi</l>
+            <l n="l82">Et famam spernit, degitque ignobilis aevi</l>
              
-            <l n="text.body.div.l80">Ut legat, ipse Deus quae nobis abdidit intus. </l>
+            <l n="l83">Ut legat, ipse Deus quae nobis abdidit intus. </l>
              
-            <l n="text.body.div.l81">Cuncta quibus despecta semel mortalia sordent </l>
+            <l n="l84">Cuncta quibus despecta semel mortalia sordent </l>
              
-            <l n="text.body.div.l82">Quotidie ambrosia divino et nectare pastus. </l>
+            <l n="l85">Quotidie ambrosia divino et nectare pastus. </l>
              
-            <l n="text.body.div.l83">Hinc claustri petiit semotos ille recessus </l>
+            <l n="l86">Hinc claustri petiit semotos ille recessus </l>
              
-            <l n="text.body.div.l84">Additus libris, dum mentis pabula carpit, </l>
+            <l n="l87">Additus libris, dum mentis pabula carpit, </l>
              
-            <l n="text.body.div.l85">Felix propositi, studiumque ad fata secutus </l>
+            <l n="l88">Felix propositi, studiumque ad fata secutus </l>
              
-            <l n="text.body.div.l86">Ultima, demum eadem moriens in vota quievit: </l>
+            <l n="l89">Ultima, demum eadem moriens in vota quievit: </l>
              
-            <l n="text.body.div.l87">Et sic iam fratrum (quos condidit ante) superstes. </l>
+            <l n="l90">Et sic iam fratrum (quos condidit ante) superstes. </l>
              
-            <l n="text.body.div.l88">Susceptis liberis natu nam maximus horum </l>
+            <l n="l91">Susceptis liberis natu nam maximus horum </l>
              
-            <l n="text.body.div.l89">Effertur primus rara probitate Joannes, </l>
+            <l n="l92">Effertur primus rara probitate Joannes, </l>
              
-            <l n="text.body.div.l90">Amplis iam Patriae perfunctus honoribus olim. </l>
+            <l n="l93">Amplis iam Patriae perfunctus honoribus olim. </l>
              
-            <l n="text.body.div.l91">Post, utroque Simon sed iunior, occidit illum, </l>
+            <l n="l94">Post, utroque Simon sed iunior, occidit illum, </l>
              
-            <l n="text.body.div.l92">Orando quo non fuerat praestantior alter: </l>
+            <l n="l95">Orando quo non fuerat praestantior alter: </l>
              
-            <l n="text.body.div.l93">Idcirco toties Legatus obiverat olim </l>
+            <l n="l96">Idcirco toties Legatus obiverat olim </l>
              
-            <l n="text.body.div.l94">Ad summos Reges, habitus non futilis auctor, </l>
+            <l n="l97">Ad summos Reges, habitus non futilis auctor, </l>
              
-            <l n="text.body.div.l95">Ambiguo quoties sententia dicta senatu est. </l>
+            <l n="l98">Ambiguo quoties sententia dicta senatu est. </l>
              
-            <l n="text.body.div.l96">Nec tamen ille domum viduatam prole reliquit </l>
+            <l n="l99">Nec tamen ille domum viduatam prole reliquit </l>
              
-            <l n="text.body.div.l97">Occumbens, modo quae laetissima tempora carpit.</l>
+            <l n="l100">Occumbens, modo quae laetissima tempora carpit.</l>
              
         
-            <l n="text.body.div.l98">Ast hic Musarum meliori cultor in aevo </l>
+            <l n="l101">Ast hic Musarum meliori cultor in aevo </l>
              
-            <l n="text.body.div.l99">Et pectus simul atqiie animos ad carmina dignos </l>
+            <l n="l102">Et pectus simul atqiie animos ad carmina dignos </l>
              
-            <l n="text.body.div.l100">Attulit, unde suos certator provocat annos. </l>
+            <l n="l103">Attulit, unde suos certator provocat annos. </l>
              
-            <l n="text.body.div.l101">Qualis olor placido lugens sua fata, Meandro </l>
+            <l n="l104">Qualis olor placido lugens sua fata, Meandro </l>
              
-            <l n="text.body.div.l102">Dum cantus iterat, resonant loca, pulsus et amnis: </l>
+            <l n="l105">Dum cantus iterat, resonant loca, pulsus et amnis: </l>
              
-            <l n="text.body.div.l103">Et simul auditur circum querimonia late. </l>
+            <l n="l106">Et simul auditur circum querimonia late. </l>
              
-            <l n="text.body.div.l104">Nec terit ille vias vulgares: tollit in auras </l>
+            <l n="l107">Nec terit ille vias vulgares: tollit in auras </l>
              
-            <l n="text.body.div.l105">Aspirans animo vis protinus enthea vatem. </l>
+            <l n="l108">Aspirans animo vis protinus enthea vatem. </l>
              
-            <l n="text.body.div.l106">Tunc animi bona complexus, facta inclyta cantu </l>
+            <l n="l109">Tunc animi bona complexus, facta inclyta cantu </l>
              
-            <l n="text.body.div.l107">Extulit: ut domito Alcides evaserit Orco. </l>
+            <l n="l110">Extulit: ut domito Alcides evaserit Orco. </l>
              
-            <l n="text.body.div.l108">Conatusque simul generosos inde secutus, </l>
+            <l n="l111">Conatusque simul generosos inde secutus, </l>
              
-            <l n="text.body.div.l109">Et peregrina petit Gymnasia, desidis ultro </l>
+            <l n="l112">Et peregrina petit Gymnasia, desidis ultro </l>
              
-            <l n="text.body.div.l110">Otia dum vitae fugit, et notescere quaerit </l>
+            <l n="l113">Otia dum vitae fugit, et notescere quaerit </l>
              
-            <l n="text.body.div.l111">Principibus: tendit, Romanam invisit et aulam. </l>
+            <l n="l114">Principibus: tendit, Romanam invisit et aulam. </l>
              
-            <l n="text.body.div.l112">Ast aversatus mores (proh dedecus!) urbis </l>
+            <l n="l115">Ast aversatus mores (proh dedecus!) urbis </l>
              
-            <l n="text.body.div.l113">Pendentis turpe et pulchrum discrimine nullo, </l>
+            <l n="l116">Pendentis turpe et pulchrum discrimine nullo, </l>
              
-            <l n="text.body.div.l114">Inde solum natale petit, Patriamque requirit. </l>
+            <l n="l117">Inde solum natale petit, Patriamque requirit. </l>
              
-            <l n="text.body.div.l115">Enituit posthac ubi demum cognita virtus, </l>
+            <l n="l118">Enituit posthac ubi demum cognita virtus, </l>
              
-            <l n="text.body.div.l116">Et res commissa est fungenti publica porro. </l>
+            <l n="l119">Et res commissa est fungenti publica porro. </l>
              
-            <l n="text.body.div.l117">Ad Reges toties dum iam Legatus obiret. </l>
+            <l n="l120">Ad Reges toties dum iam Legatus obiret. </l>
              
-            <l n="text.body.div.l118">Saepe gubernaculo Patriae praefuit ille, (!) </l>
+            <l n="l121">Saepe gubernaculo Patriae praefuit ille, (!) </l>
              
-            <l n="text.body.div.l119">Et Praetor iuri dicendo; haud futilis idem </l>
+            <l n="l122">Et Praetor iuri dicendo; haud futilis idem </l>
              
-            <l n="text.body.div.l120">Consiliis habitus, toties Rectorque Senatus. </l>
+            <l n="l123">Consiliis habitus, toties Rectorque Senatus. </l>
              
-            <pb n="text.body.div.pb3"/>
-            <l n="text.body.div.l121">Quin etiam ut melius civilis degeret aevum,</l>
+            <pb n="pb124"/>
+            <l n="l125">Quin etiam ut melius civilis degeret aevum,</l>
              
-            <l n="text.body.div.l122">Non sine iam thalami consorte senescere visum. </l>
+            <l n="l126">Non sine iam thalami consorte senescere visum. </l>
              
-            <l n="text.body.div.l123">Cui coniuncta thoro Marie florentibus annis; </l>
+            <l n="l127">Cui coniuncta thoro Marie florentibus annis; </l>
              
-            <l n="text.body.div.l124">An probior morum fuerat, vel pulchrior oris? </l>
+            <l n="l128">An probior morum fuerat, vel pulchrior oris? </l>
              
-            <l n="text.body.div.l125">Non leve iudicium: sese iactaret ut inde </l>
+            <l n="l129">Non leve iudicium: sese iactaret ut inde </l>
              
-            <l n="text.body.div.l126">Zervia gens, pulchrae, tum doctae pubis alumna. </l>
+            <l n="l130">Zervia gens, pulchrae, tum doctae pubis alumna. </l>
              
-            <l n="text.body.div.l127">Haec sibi curarum solamen, solus amorque, </l>
+            <l n="l131">Haec sibi curarum solamen, solus amorque, </l>
              
-            <l n="text.body.div.l128">Dum vixit, nec nota Venus fuit altera Vati. </l>
+            <l n="l132">Dum vixit, nec nota Venus fuit altera Vati. </l>
              
-            <l n="text.body.div.l129">Non steriles anni, non infaecunda marito, </l>
+            <l n="l133">Non steriles anni, non infaecunda marito, </l>
              
-            <l n="text.body.div.l130">Multiplici at partu connubia laeta fuere. </l>
+            <l n="l134">Multiplici at partu connubia laeta fuere. </l>
              
-            <l n="text.body.div.l131">Et quamvis inter proceres dignissimus ille</l>
+            <l n="l135">Et quamvis inter proceres dignissimus ille</l>
              
-            <l n="text.body.div.l132">Ut gravitate viri se hodie Res publica iactet,</l>
+            <l n="l136">Ut gravitate viri se hodie Res publica iactet,</l>
              
-            <l n="text.body.div.l133">Urbibus et valeat claris contendere demum,</l>
+            <l n="l137">Urbibus et valeat claris contendere demum,</l>
              
-            <l n="text.body.div.l134">Usque adeo virtus ullis non protinus impar </l>
+            <l n="l138">Usque adeo virtus ullis non protinus impar </l>
              
-            <l n="text.body.div.l135">Rerum ponderibus, casu haud variabilis ullo, </l>
+            <l n="l139">Rerum ponderibus, casu haud variabilis ullo, </l>
              
-            <l n="text.body.div.l136">Spectabat, regeret qua casus nacta secundos. </l>
+            <l n="l140">Spectabat, regeret qua casus nacta secundos. </l>
              
-            <l n="text.body.div.l137">Huic dotes animi quantae, prudentia prorsus </l>
+            <l n="l141">Huic dotes animi quantae, prudentia prorsus </l>
              
-            <l n="text.body.div.l138">Quanta fuit! pietas tum qualis! scripta docebunt </l>
+            <l n="l142">Quanta fuit! pietas tum qualis! scripta docebunt </l>
              
-            <l n="text.body.div.l139">Culta nimis, docto quo non et carmine maior!</l>
+            <l n="l143">Culta nimis, docto quo non et carmine maior!</l>
              
-            <l n="text.body.div.l140">Qui claris Christi praelusit in Hercule gestis,</l>
+            <l n="l144">Qui claris Christi praelusit in Hercule gestis,</l>
              
-            <l n="text.body.div.l141">Dulcisono posthac evectus in aethera cantu</l>
+            <l n="l145">Dulcisono posthac evectus in aethera cantu</l>
              
-            <l n="text.body.div.l142">Usque modos variat pendens sublimibus alis,</l>
+            <l n="l146">Usque modos variat pendens sublimibus alis,</l>
              
-            <l n="text.body.div.l143">Ut simul occasus resonet sibi prorsus et ortus.</l>
+            <l n="l147">Ut simul occasus resonet sibi prorsus et ortus.</l>
              
-            <l n="text.body.div.l144">Ac coeli pateant penetralia sacra canenti.</l>
+            <l n="l148">Ac coeli pateant penetralia sacra canenti.</l>
              
-            <l n="text.body.div.l145">Quot nam instructae acies nectunt legionibus orbes,</l>
+            <l n="l149">Quot nam instructae acies nectunt legionibus orbes,</l>
              
-            <l n="text.body.div.l146">Quaenam tum series, et quae tum munera Divum,</l>
+            <l n="l150">Quaenam tum series, et quae tum munera Divum,</l>
              
-            <l n="text.body.div.l147">Protinus huc lectus virtutum ducitur ordo,</l>
+            <l n="l151">Protinus huc lectus virtutum ducitur ordo,</l>
              
-            <l n="text.body.div.l148">Et vacuo explicuit decora hinc insignia caelo.</l>
+            <l n="l152">Et vacuo explicuit decora hinc insignia caelo.</l>
              
         
-            <l n="text.body.div.l149">Sed neu defuerit, quae sese postulet usus,</l>
+            <l n="l153">Sed neu defuerit, quae sese postulet usus,</l>
              
-            <l n="text.body.div.l150">Forsan muneribus, visum rem quaerere honestis</l>
+            <l n="l154">Forsan muneribus, visum rem quaerere honestis</l>
              
-            <l n="text.body.div.l151">Artibus, unde Lares non multis ampliat annis,</l>
+            <l n="l155">Artibus, unde Lares non multis ampliat annis,</l>
              
-            <l n="text.body.div.l152">Dum terras peragrat circum, dumque ambit, et ultro</l>
+            <l n="l156">Dum terras peragrat circum, dumque ambit, et ultro</l>
              
-            <l n="text.body.div.l153">Externas merces semotis advehit oris. </l>
+            <l n="l157">Externas merces semotis advehit oris. </l>
              
-            <l n="text.body.div.l154">Qua subit, explorat, septemfluus aequora Nilus,</l>
+            <l n="l158">Qua subit, explorat, septemfluus aequora Nilus,</l>
              
-            <l n="text.body.div.l155">Memphin adit, gentis vario subtegmine texta </l>
+            <l n="l159">Memphin adit, gentis vario subtegmine texta </l>
              
-            <l n="text.body.div.l156">Mercator coemit, coemit pulchrosque tapetas, </l>
+            <l n="l160">Mercator coemit, coemit pulchrosque tapetas, </l>
              
-            <l n="text.body.div.l157">Atque legit gemmas pretiosas. Protinus emptor </l>
+            <l n="l161">Atque legit gemmas pretiosas. Protinus emptor </l>
              
-            <l n="text.body.div.l158">Inde abit; Europam repetit, tum ditia quaerit </l>
+            <l n="l162">Inde abit; Europam repetit, tum ditia quaerit </l>
              
-            <l n="text.body.div.l159">Oppida, multiplici crevit sors illico quaestu. </l>
+            <l n="l163">Oppida, multiplici crevit sors illico quaestu. </l>
              
-            <l n="text.body.div.l160">Parthenope, Romaeque simul versatur, obitque</l>
+            <l n="l164">Parthenope, Romaeque simul versatur, obitque</l>
              
-            <l n="text.body.div.l161">Passim nobilium diversa palatia Regum.</l>
+            <l n="l165">Passim nobilium diversa palatia Regum.</l>
              
-            <l n="text.body.div.l162">Hinc mox digressum subit illicet altera cura, </l>
+            <l n="l166">Hinc mox digressum subit illicet altera cura, </l>
              
-            <l n="text.body.div.l163">Et petit occasum, aerias traiecit et Alpes,</l>
+            <l n="l167">Et petit occasum, aerias traiecit et Alpes,</l>
              
-            <l n="text.body.div.l164">Teque tuasque simul transmittit, Gallia, campos.</l>
+            <l n="l168">Teque tuasque simul transmittit, Gallia, campos.</l>
              
-            <l n="text.body.div.l165">Protinus invisit ditem validumque Britannum — </l>
+            <l n="l169">Protinus invisit ditem validumque Britannum — </l>
              
-            <l n="text.body.div.l166">Insula in Oceano nostris distermina terris</l>
+            <l n="l170">Insula in Oceano nostris distermina terris</l>
              
-            <l n="text.body.div.l167">Et priscis alter quondam fere creditus orbis, </l>
+            <l n="l171">Et priscis alter quondam fere creditus orbis, </l>
              
-            <pb n="text.body.div.pb4"/>
-            <l n="text.body.div.l168">Indole nativa regio ditissima prorsus — </l>
+            <pb n="pb172"/>
+            <l n="l173">Indole nativa regio ditissima prorsus — </l>
              
-            <l n="text.body.div.l169">Hinc sua cunctae hominum gentes commercia poscunt, </l>
+            <l n="l174">Hinc sua cunctae hominum gentes commercia poscunt, </l>
              
-            <l n="text.body.div.l170">Huc ergo illatus merces commutat Eoas. </l>
+            <l n="l175">Huc ergo illatus merces commutat Eoas. </l>
              
-            <l n="text.body.div.l171">Illico sarcinulas componit et aptat habendo </l>
+            <l n="l176">Illico sarcinulas componit et aptat habendo </l>
              
-            <l n="text.body.div.l172">In navim, merces tota regione coemptas. </l>
+            <l n="l177">In navim, merces tota regione coemptas. </l>
              
-            <l n="text.body.div.l173">Invadit portum, dat carbasa protinus auris, </l>
+            <l n="l178">Invadit portum, dat carbasa protinus auris, </l>
              
-            <l n="text.body.div.l174">Et varios terrae flexus legit inde iacentis. </l>
+            <l n="l179">Et varios terrae flexus legit inde iacentis. </l>
              
-            <l n="text.body.div.l175">Ecce sinus cernit, quos hinc Germania pandit; </l>
+            <l n="l180">Ecce sinus cernit, quos hinc Germania pandit; </l>
              
-            <l n="text.body.div.l176">Mox secat, Oceano tribuunt qua nomina Celtae, </l>
+            <l n="l181">Mox secat, Oceano tribuunt qua nomina Celtae, </l>
              
-            <l n="text.body.div.l177">Pyrenem superat, Tartesia littora radit. </l>
+            <l n="l182">Pyrenem superat, Tartesia littora radit. </l>
              
-            <l n="text.body.div.l178">Flectit iter, qua iam Calpen disiunxit ab Hila </l>
+            <l n="l183">Flectit iter, qua iam Calpen disiunxit ab Hila </l>
              
-            <l n="text.body.div.l179">Alcides, dedit Oceano cum libera iura </l>
+            <l n="l184">Alcides, dedit Oceano cum libera iura </l>
              
-            <l n="text.body.div.l180">Intranti, et cano fluctu iuga nigra prementi. </l>
+            <l n="l185">Intranti, et cano fluctu iuga nigra prementi. </l>
              
-            <l n="text.body.div.l181">Hic demum geminae cernit confinia terrae,</l>
+            <l n="l186">Hic demum geminae cernit confinia terrae,</l>
              
-            <l n="text.body.div.l182">Europam et Lybiam, medius licet evolet alto. </l>
+            <l n="l187">Europam et Lybiam, medius licet evolet alto. </l>
              
-            <l n="text.body.div.l183">Evectus pelago spumantes illicet undas </l>
+            <l n="l188">Evectus pelago spumantes illicet undas </l>
              
-            <l n="text.body.div.l184">Et secat, et rapta pontum tellure polumque </l>
+            <l n="l189">Et secat, et rapta pontum tellure polumque </l>
              
-            <l n="text.body.div.l185">Cernit tum, meliusque notat discrimine partes </l>
+            <l n="l190">Cernit tum, meliusque notat discrimine partes </l>
              
-            <l n="text.body.div.l186">Orbis, et facie sibi visus crescere maior. </l>
+            <l n="l191">Orbis, et facie sibi visus crescere maior. </l>
              
-            <l n="text.body.div.l187">Ecce amissa oculis iterum redit arida ponto, </l>
+            <l n="l192">Ecce amissa oculis iterum redit arida ponto, </l>
              
-            <l n="text.body.div.l188">Utque aequor sparsit non insula rara, tuetur. </l>
+            <l n="l193">Utque aequor sparsit non insula rara, tuetur. </l>
              
-            <l n="text.body.div.l189">Praeterit hanc, aliam abscondit de puppe proculque </l>
+            <l n="l194">Praeterit hanc, aliam abscondit de puppe proculque </l>
              
-            <l n="text.body.div.l190">Diversae apparent a prora, ut nubila primum </l>
+            <l n="l195">Diversae apparent a prora, ut nubila primum </l>
              
-            <l n="text.body.div.l191">Exigua hand geminae Baleares nomina: Cyrnos </l>
+            <l n="l196">Exigua hand geminae Baleares nomina: Cyrnos </l>
              
-            <l n="text.body.div.l192">At Liguri praetenta iacet semotior alto. </l>
+            <l n="l197">At Liguri praetenta iacet semotior alto. </l>
              
-            <l n="text.body.div.l193">Sardoum pelagus posthac, petit Itala labens </l>
+            <l n="l198">Sardoum pelagus posthac, petit Itala labens </l>
              
-            <l n="text.body.div.l194">Littora, Sicanio compendia nota Peloro </l>
+            <l n="l199">Littora, Sicanio compendia nota Peloro </l>
              
-            <l n="text.body.div.l195">Ausa sequi ratis, hinc ventis emersa secundis </l>
+            <l n="l200">Ausa sequi ratis, hinc ventis emersa secundis </l>
              
-            <l n="text.body.div.l196">Iamque arat Adriacum scindens temone profundum, </l>
+            <l n="l201">Iamque arat Adriacum scindens temone profundum, </l>
              
-            <l n="text.body.div.l197">Sub Cromam donec celerem iacta anchora sistit. </l>
+            <l n="l202">Sub Cromam donec celerem iacta anchora sistit. </l>
              
-            <l n="text.body.div.l198">Cromam, quae Lybicum Ragusae obiecta tuetur. </l>
+            <l n="l203">Cromam, quae Lybicum Ragusae obiecta tuetur. </l>
              
-            <l n="text.body.div.l199">Littoribus patriis hic tandem exponitur ille. </l>
+            <l n="l204">Littoribus patriis hic tandem exponitur ille. </l>
              
         
-            <l n="text.body.div.l200">Sic amor et studium sibi semper in ardua niti, </l>
+            <l n="l205">Sic amor et studium sibi semper in ardua niti, </l>
              
-            <l n="text.body.div.l201">Atque virum fieri, et claris notescere gestis. </l>
+            <l n="l206">Atque virum fieri, et claris notescere gestis. </l>
              
-            <l n="text.body.div.l202">Dumque aevum elegit, variarent cetera quamvis, </l>
+            <l n="l207">Dumque aevum elegit, variarent cetera quamvis, </l>
              
-            <l n="text.body.div.l203">Ast in eo similisque sibi florebat et usque, </l>
+            <l n="l208">Ast in eo similisque sibi florebat et usque, </l>
              
-            <l n="text.body.div.l204">Ac puer instituit queis vitam moribus olim, </l>
+            <l n="l209">Ac puer instituit queis vitam moribus olim, </l>
              
-            <l n="text.body.div.l205">Ad finem excoluit postremaque fata senectae. </l>
+            <l n="l210">Ad finem excoluit postremaque fata senectae. </l>
              
-            <l n="text.body.div.l206">Heu! indigna rapi quam nullo mota pudore </l>
+            <l n="l211">Heu! indigna rapi quam nullo mota pudore </l>
              
-            <l n="text.body.div.l207">Destruit, et capulo fera mors tibi protinus effert. </l>
+            <l n="l212">Destruit, et capulo fera mors tibi protinus effert. </l>
              
-            <l n="text.body.div.l208">Ecce quidem meruit qui vivere Nestoris annos, </l>
+            <l n="l213">Ecce quidem meruit qui vivere Nestoris annos, </l>
              
-            <l n="text.body.div.l209">Attamen occubuit ceu flos collapsus in arvis. </l>
+            <l n="l214">Attamen occubuit ceu flos collapsus in arvis. </l>
              
-            <l n="text.body.div.l210">Dissipat aut nebulam veluti lux nocte coactam. </l>
+            <l n="l215">Dissipat aut nebulam veluti lux nocte coactam. </l>
              
-            <l n="text.body.div.l211">Effertur, subito bona tot sibi rapta domusque </l>
+            <l n="l216">Effertur, subito bona tot sibi rapta domusque </l>
              
-            <l n="text.body.div.l212">Et Patria heu! luxit, doctae luxere sorores. </l>
+            <l n="l217">Et Patria heu! luxit, doctae luxere sorores. </l>
              
-            <pb n="text.body.div.pb5"/>
-            <l n="text.body.div.l213">Quid plorem? frustra vel domum conquerar unde? </l>
+            <pb n="pb218"/>
+            <l n="l219">Quid plorem? frustra vel domum conquerar unde? </l>
              
-            <l n="text.body.div.l214">Seu male cum mutis positos animalibus una </l>
+            <l n="l220">Seu male cum mutis positos animalibus una </l>
              
-            <l n="text.body.div.l215">In terra, labi communi more repente; </l>
+            <l n="l221">In terra, labi communi more repente; </l>
              
-            <l n="text.body.div.l216">Aut animam potius recte non ossibus addi, </l>
+            <l n="l222">Aut animam potius recte non ossibus addi, </l>
              
-            <l n="text.body.div.l217">Aptam luce frui divina, et carpere flatus </l>
+            <l n="l223">Aptam luce frui divina, et carpere flatus </l>
              
-            <l n="text.body.div.l218">Aetherios, secreta sequi commercia divum. </l>
+            <l n="l224">Aetherios, secreta sequi commercia divum. </l>
              
-            <l n="text.body.div.l219">Sive dari nimium nobis heu! debile corpus, </l>
+            <l n="l225">Sive dari nimium nobis heu! debile corpus, </l>
              
-            <l n="text.body.div.l220">At magnas contra vires, quibus extera laedunt </l>
+            <l n="l226">At magnas contra vires, quibus extera laedunt </l>
              
-            <l n="text.body.div.l221">Infirmos, naturam et se gessisse novercam. </l>
+            <l n="l227">Infirmos, naturam et se gessisse novercam. </l>
              
-            <l n="text.body.div.l222">Sive nefas leges fati damnare vetustas, </l>
+            <l n="l228">Sive nefas leges fati damnare vetustas, </l>
              
-            <l n="text.body.div.l223">Et non praesenti contentos degere ritu, </l>
+            <l n="l229">Et non praesenti contentos degere ritu, </l>
              
-            <l n="text.body.div.l224">Quin aliud quidquam omnino non dignius esset. </l>
+            <l n="l230">Quin aliud quidquam omnino non dignius esset. </l>
              
-            <l n="text.body.div.l225">Seu morem tollentis humo depressa quietus </l>
+            <l n="l231">Seu morem tollentis humo depressa quietus </l>
              
-            <l n="text.body.div.l226">Spectabis mecum, sed quanam exercita virtus </l>
+            <l n="l232">Spectabis mecum, sed quanam exercita virtus </l>
              
-            <l n="text.body.div.l227">Nostra quidem crescit, merito et censetur honore. </l>
+            <l n="l233">Nostra quidem crescit, merito et censetur honore. </l>
              
-            <l n="text.body.div.l228">Expedit ut nobis interque obstantia niti, </l>
+            <l n="l234">Expedit ut nobis interque obstantia niti, </l>
              
-            <l n="text.body.div.l229">Et movisse gradum coeptis audacibus ultra. </l>
+            <l n="l235">Et movisse gradum coeptis audacibus ultra. </l>
              
-            <l n="text.body.div.l230">Nec decuit melius vires monstrare iuvantem </l>
+            <l n="l236">Nec decuit melius vires monstrare iuvantem </l>
              
-            <l n="text.body.div.l231">Ingentes, et opi nos velle reponere tantum. </l>
+            <l n="l237">Ingentes, et opi nos velle reponere tantum. </l>
              
-            <l n="text.body.div.l232">Aut quid enim, cuinam sedes et regna parabat </l>
+            <l n="l238">Aut quid enim, cuinam sedes et regna parabat </l>
              
-            <l n="text.body.div.l233">Altera, si sese gessisset fortiter isthic, </l>
+            <l n="l239">Altera, si sese gessisset fortiter isthic, </l>
              
-            <l n="text.body.div.l234">Debuit? Ignavae nisi protinus otia vitae </l>
+            <l n="l240">Debuit? Ignavae nisi protinus otia vitae </l>
              
-            <l n="text.body.div.l235">Pellere, et in mediis semper vigilare periclis, </l>
+            <l n="l241">Pellere, et in mediis semper vigilare periclis, </l>
              
-            <l n="text.body.div.l236">Virtutesque peti, quot nos infesta lacessunt, </l>
+            <l n="l242">Virtutesque peti, quot nos infesta lacessunt, </l>
              
-            <l n="text.body.div.l237">Ut bona parta suo tandem sudore, teneret. </l>
+            <l n="l243">Ut bona parta suo tandem sudore, teneret. </l>
              
-            <l n="text.body.div.l238">Sic ut quodque quidem factum, nil rectius illo est. </l>
-             
-        
-            <l n="text.body.div.l239">Inde igitur mens torqueri non anxia debet,</l>
-             
-            <l n="text.body.div.l240">Ex quo stat iustis certus tibi legibus ordo.</l>
-             
-            <l n="text.body.div.l241">Ast aequo, quodcunque dies dat, pectore ferre.</l>
-             
-            <l n="text.body.div.l242">Ille quidem, ut decuit, vixit, dum vita manebat,</l>
-             
-            <l n="text.body.div.l243">Nunc fato functus mortalia traiicit isthaec,</l>
-             
-            <l n="text.body.div.l244">Pro meritisque simul sortitur amabile regnum, </l>
-             
-            <l n="text.body.div.l245">Atque receptus ea solatur sede labores </l>
-             
-            <l n="text.body.div.l246">Heu! longos quondam, et vanae dispendia vitae. </l>
-             
-            <l n="text.body.div.l247">Sistere iam reliquum lachrimas, fletumque tenere, </l>
-             
-            <l n="text.body.div.l248">Ex quo causa stetit, potius cur gratuler illi </l>
-             
-            <l n="text.body.div.l249">Recte defuncto per regna optata vaganti, </l>
-             
-            <l n="text.body.div.l250">Et curas hominum miseranti nuper inanes. </l>
+            <l n="l244">Sic ut quodque quidem factum, nil rectius illo est. </l>
              
         
-            <l n="text.body.div.l251">Ergo et tu tanto modo desine digna marito </l>
+            <l n="l245">Inde igitur mens torqueri non anxia debet,</l>
              
-            <l n="text.body.div.l252">Uxor, siste graves gemitus, turpemque querelam.</l>
+            <l n="l246">Ex quo stat iustis certus tibi legibus ordo.</l>
              
-            <l n="text.body.div.l253">Scilicet ut doleas? quod parto fine potitur</l>
+            <l n="l247">Ast aequo, quodcunque dies dat, pectore ferre.</l>
              
-            <l n="text.body.div.l254">Ille, vices tandem fatorum egressus iniquas.</l>
+            <l n="l248">Ille quidem, ut decuit, vixit, dum vita manebat,</l>
              
-            <l n="text.body.div.l255">Quod bene sic actum secum, modo gaudia nobis </l>
+            <l n="l249">Nunc fato functus mortalia traiicit isthaec,</l>
              
-            <l n="text.body.div.l256">Auspiciis potius iam debent gliscere laetis, </l>
+            <l n="l250">Pro meritisque simul sortitur amabile regnum, </l>
              
-            <l n="text.body.div.l257">Ocyus hinc etiam traduci optantibus illo. </l>
+            <l n="l251">Atque receptus ea solatur sede labores </l>
              
-            <l n="text.body.div.l258">Ergo Fides hodie neu corda incredula prorsus </l>
+            <l n="l252">Heu! longos quondam, et vanae dispendia vitae. </l>
              
-            <l n="text.body.div.l259">Arguat, affectu vel quo nos degere turpi. </l>
+            <l n="l253">Sistere iam reliquum lachrimas, fletumque tenere, </l>
              
-            <l n="text.body.div.l260">Eia parentari qua fasque piumque fideli </l>
+            <l n="l254">Ex quo causa stetit, potius cur gratuler illi </l>
              
-            <pb n="text.body.div.pb6"/>
-            <l n="text.body.div.l261">Haec vultu tandem celebremus iusta sereno, </l>
+            <l n="l255">Recte defuncto per regna optata vaganti, </l>
              
-            <l n="text.body.div.l262">Exilio certi nos hinc abscedere longo,</l>
+            <l n="l256">Et curas hominum miseranti nuper inanes. </l>
              
-            <l n="text.body.div.l263">Et Patriae reddi Christi iam morte redemptos.</l>
+        
+            <l n="l257">Ergo et tu tanto modo desine digna marito </l>
+             
+            <l n="l258">Uxor, siste graves gemitus, turpemque querelam.</l>
+             
+            <l n="l259">Scilicet ut doleas? quod parto fine potitur</l>
+             
+            <l n="l260">Ille, vices tandem fatorum egressus iniquas.</l>
+             
+            <l n="l261">Quod bene sic actum secum, modo gaudia nobis </l>
+             
+            <l n="l262">Auspiciis potius iam debent gliscere laetis, </l>
+             
+            <l n="l263">Ocyus hinc etiam traduci optantibus illo. </l>
+             
+            <l n="l264">Ergo Fides hodie neu corda incredula prorsus </l>
+             
+            <l n="l265">Arguat, affectu vel quo nos degere turpi. </l>
+             
+            <l n="l266">Eia parentari qua fasque piumque fideli </l>
+             
+            <pb n="pb267"/>
+            <l n="l268">Haec vultu tandem celebremus iusta sereno, </l>
+             
+            <l n="l269">Exilio certi nos hinc abscedere longo,</l>
+             
+            <l n="l270">Et Patriae reddi Christi iam morte redemptos.</l>
              
         
             </div>

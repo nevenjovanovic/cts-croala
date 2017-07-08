@@ -102,6 +102,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -170,39 +190,39 @@
    </teiHeader>
 
    <text xml:base="urn:cts:croala:skrl01.croala1840066.croala-lat1:" xml:lang="lat" type="epistula">
-      <front n="text.front">
-         <head n="text.front.head">6. Jakovlye, 28. Octobris 1797.</head>
+      <front n="front1">
+         <head n="head1">6. Jakovlye, 28. Octobris 1797.</head>
       </front>
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-epistula">
-            <opener n="text.body.div.opener">
+      <body n="body2">
+         <div n="div1" type="prosa-epistula">
+            <opener n="opener1">
     
-               <salute n="text.body.div.opener.salute">Chare amice,</salute>
+               <salute n="salute1">Chare amice,</salute>
             </opener>
-            <p n="text.body.div.p1"> Et utramque tuam et libros et <bibl n="text.body.div.p1.bibl">duo <emph n="text.body.div.p1.bibl.emph">Journal</emph>
+            <p n="p2"> Et utramque tuam et libros et <bibl n="bibl1">duo <emph n="emph1">Journal</emph>
                </bibl> accepi, sed tum
-    premebat me gravis catharalis alteratiae,<note n="text.body.div.p1.note" place="foot">
-                  <p n="text.body.div.p1.note.p">6,1 alteratiae <emph n="text.body.div.p1.note.p.emph">sic</emph>
+    premebat me gravis catharalis alteratiae,<note n="note2" place="foot">
+                  <p n="p1">6,1 alteratiae <emph n="emph1">sic</emph>
                   </p>
                </note> quae in causa fuit quod utique tardius respondeam.</p>
-            <p n="text.body.div.p2"> Girtaneri continuatio rite procedit.  Sed, quantum
+            <p n="p3"> Girtaneri continuatio rite procedit.  Sed, quantum
     memini,
-    <pb n="text.body.div.p2.pb"/>
-               <bibl n="text.body.div.p2.bibl1">Schillerianae collectionis tomum 13</bibl>, quem mihi nunc submisisti, iam habes; continet enim
-    <bibl n="text.body.div.p2.bibl2">
-                  <emph n="text.body.div.p2.bibl2.emph">Memoires</emph> de Brantome</bibl>, has autem me iam legisse probe recordor. 
+    <pb n="pb1"/>
+               <bibl n="bibl2">Schillerianae collectionis tomum 13</bibl>, quem mihi nunc submisisti, iam habes; continet enim
+    <bibl n="bibl3">
+                  <emph n="emph1">Memoires</emph> de Brantome</bibl>, has autem me iam legisse probe recordor. 
     Hoc eo fine tibi significo ut mandatarium tuum moneas ne tibi, ut iam identidem evenit,
     duplicata submittat.</p>
-            <p n="text.body.div.p3"> Patieris e contra ut te de urgendis, quae tibi adhuc desunt,
-    continuationibus admoneam.  <bibl n="text.body.div.p3.bibl1">Archenholzii <emph n="text.body.div.p3.bibl1.emph">Brittische Annalen</emph>
+            <p n="p4"> Patieris e contra ut te de urgendis, quae tibi adhuc desunt,
+    continuationibus admoneam.  <bibl n="bibl1">Archenholzii <emph n="emph1">Brittische Annalen</emph>
                </bibl>
-    necdum completum habes.  Deest tibi <bibl n="text.body.div.p3.bibl2">secundus tomus itineris Vaillantii in
+    necdum completum habes.  Deest tibi <bibl n="bibl2">secundus tomus itineris Vaillantii in
     Africam</bibl>.  E duplici Germanica, quam tenes, collectione itinerum interea certe
     aliquis tomus prodierit, adminus ex una; nam Forsterianam per mortem eius adhaesisse puto.
      Hos defectus ut adurgeas, non tantum tua, 
-    <pb n="text.body.div.p3.pb"/>
+    <pb n="pb3"/>
     sed et mea interest.</p>
-            <p n="text.body.div.p4"> Forte seu Peyrusii seu Malaspinae seu Angli illius (nomen mihi excidit,
+            <p n="p5"> Forte seu Peyrusii seu Malaspinae seu Angli illius (nomen mihi excidit,
     tu illud inter tua litteraria indubie habebis), qui iussu defuncto Russiae imperatricis
     proximiora Americae litora pertentebat, diaria; forte continuatio Robertsonii, Americanae suae
     historiae, iam prodiverunt.  Forte e continuatione itinerum, quae post
@@ -210,15 +230,15 @@
     Bottany Bay nova aliqua relatio edita est.  Nullum etiam habes systematicum
     de revolutione Americana scriptorem; duorum autem titulos e litterariis novis tibi ipse
     suppeditavi.  De his per modernam occasionem tibi procurandis te
-    reflectendum existimavi.  Impegi etiam nuper in <bibl n="text.body.div.p4.bibl1">Hamburgensibus
-     Novis</bibl> in recensionem admodum honorificam duorum authorum, nempe <bibl n="text.body.div.p4.bibl2">Bulov <emph n="text.body.div.p4.bibl2.emph" xml:lang="de">Der freye
-      Staat von Nort America in seinen neuen Zustande,</emph> Berlin</bibl>, et <bibl n="text.body.div.p4.bibl3">von Desodoard
-    <emph n="text.body.div.p4.bibl3.emph" xml:lang="de">Philosophische Geiste der franzoesischen Revolution,</emph> 2 tom. in 8-vo</bibl>.
+    reflectendum existimavi.  Impegi etiam nuper in <bibl n="bibl1">Hamburgensibus
+     Novis</bibl> in recensionem admodum honorificam duorum authorum, nempe <bibl n="bibl2">Bulov <emph n="emph1" xml:lang="de">Der freye
+      Staat von Nort America in seinen neuen Zustande,</emph> Berlin</bibl>, et <bibl n="bibl3">von Desodoard
+    <emph n="emph1" xml:lang="de">Philosophische Geiste der franzoesischen Revolution,</emph> 2 tom. in 8-vo</bibl>.
      Hos ut tibi praeferenter procures, eo magis tibi suadeo quod exiguo pretio
     veniant et quod id, postquam iam de pace (de qua immortales sint Omnipotenti gratiae) iam
     constat, tanto tutius praestare possis.</p>
-            <pb n="text.body.div.pb"/>
-            <p n="text.body.div.p5" xml:lang="hr"> Vezda prichmu domache novine, vre szem chul nekoja, kako szu nakanyena.
+            <pb n="pb6"/>
+            <p n="p7" xml:lang="hr"> Vezda prichmu domache novine, vre szem chul nekoja, kako szu nakanyena.
      Imas lepu priliku zezvedeti, da bu chlovek napervo miszliti y ravnati sze
     mogel.  Apud nos spargitur Iosephum Erdodi Nitriensem, Szechen Poseganum,
     Marich Crisiensem supremum comitem renuntiandum esse.  Maluissem ut
@@ -227,30 +247,30 @@
     tabule asessor.  Ako to mores opraviti, jako dobro vchinis, ar bus sze
     chudil kada ti po tvojem povratku povem kak je on drughi ki tu isztu chaszt ische z tobum
     baratal, koje sztoprav pred malem vremenom szem zeznal.</p>
-            <p n="text.body.div.p6"> De reditu tuo videris consilium commutasse, quamquam e mea coniuge
+            <p n="p8"> De reditu tuo videris consilium commutasse, quamquam e mea coniuge
     intelligens quod referens Semsey pro duobus mensibus missionem acceperit, id, quod prima tua
-    littera<note n="text.body.div.p6.note" place="foot">
-                  <p n="text.body.div.p6.note.p">6,23 prima tua littera <emph n="text.body.div.p6.note.p.emph">sic</emph>
+    littera<note n="note1" place="foot">
+                  <p n="p1">6,23 prima tua littera <emph n="emph1">sic</emph>
                   </p>
                </note> te facturum esse scripseras, certo crediderim.  Quare significa mihi
     quid demum de tuo reditu constitueris; nosti enim quod ardeam desiderio te ocius amplectendi.
      De novis non est quod tibi significem.  Ego in rustico
     meo otio, quantum per valetudinem licet, scriptitando tempus fallo.  Cum
-    redieris, communicabo tibi <bibl n="text.body.div.p6.bibl">Dissertationem de congregationibus Regni Sclavoniae,</bibl>
+    redieris, communicabo tibi <bibl n="bibl2">Dissertationem de congregationibus Regni Sclavoniae,</bibl>
     cui nunc supremum manum impono.</p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute"> Vale meque, ut facis, ama.</salute> 
-               <dateline n="text.body.div.closer.dateline">Jakovlye, 28. Octobris 1797.</dateline>
+            <closer n="closer9">
+               <salute n="salute1"> Vale meque, ut facis, ama.</salute> 
+               <dateline n="dateline2">Jakovlye, 28. Octobris 1797.</dateline>
             </closer>
          </div>
       </body>
-      <back n="text.back">
-         <div n="text.back.div" type="notes">
-            <p n="text.back.div.p">
-               <bibl n="text.back.div.p.bibl">(NAZ, EAE, sv. 114, br. 140.)</bibl>
+      <back n="back3">
+         <div n="div1" type="notes">
+            <p n="p1">
+               <bibl n="bibl1">(NAZ, EAE, sv. 114, br. 140.)</bibl>
             </p>
          </div>
       </back>
-      <pb n="text.pb"/>
+      <pb n="pb4"/>
    </text>
 </TEI>

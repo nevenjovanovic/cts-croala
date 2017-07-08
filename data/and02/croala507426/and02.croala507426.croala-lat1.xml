@@ -94,6 +94,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -155,75 +175,75 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:and02.croala507426.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <milestone n="text.body.milestone" unit="page"/>
-         <div n="text.body.div" type="prosa">
-            <head n="text.body.div.head">Oratio de laudibus eloquentiae</head>
-            <byline n="text.body.div.byline">
-               <docAuthor n="text.body.div.byline.docAuthor">auctore Tranquillo Parthenio Andronico Dalmata.</docAuthor> in Gymnasio
+      <body n="body1">
+         <milestone n="milestone1" unit="page"/>
+         <div n="div2" type="prosa">
+            <head n="head1">Oratio de laudibus eloquentiae</head>
+            <byline n="byline2">
+               <docAuthor n="docAuthor1">auctore Tranquillo Parthenio Andronico Dalmata.</docAuthor> in Gymnasio
           Lipsensi pronuntiata.</byline>
-            <dateline n="text.body.div.dateline">Lipsiae, ex officina Melchioris Lottheri, </dateline>
-            <docDate n="text.body.div.docDate" when="1518">Anno M. quingentesimo decimooctavo.</docDate>
-            <milestone n="text.body.div.milestone" unit="page"/>
-            <div n="text.body.div.div1" type="prosa-epistula">
-               <opener n="text.body.div.div1.opener">
-                  <salute n="text.body.div.div1.opener.salute">TRANQVILLVS PARTHENIVS. M. VITO VVERLERO uiro doctissimo et integerrimo. S.
+            <dateline n="dateline3">Lipsiae, ex officina Melchioris Lottheri, </dateline>
+            <docDate n="docDate4" when="1518">Anno M. quingentesimo decimooctavo.</docDate>
+            <milestone n="milestone5" unit="page"/>
+            <div n="div6" type="prosa-epistula">
+               <opener n="opener1">
+                  <salute n="salute1">TRANQVILLVS PARTHENIVS. M. VITO VVERLERO uiro doctissimo et integerrimo. S.
             D.</salute>
                </opener>
 
-               <p n="text.body.div.div1.p">Quid sentiam de Lipsensi Gymnasio, a quo summa beneuolentia, singularique honore tuis
+               <p n="p2">Quid sentiam de Lipsensi Gymnasio, a quo summa beneuolentia, singularique honore tuis
             inprimis attestationibus exceptus sum, in Oratione, quam nudiustertius habui de laudibus
             eloquentiae, breuiter significaui, diffusius oportuniore loco meam mentem declaraturus.
             Quam quidem Orationem (tametsi doctas aures reformidat, quod obstrepentibus hinc inde
             rusticis exarata est) ad te mitto: quo nugas meas legendo, quibus olim delectabare,
             nostri memoriam revoces. </p>
-               <closer n="text.body.div.div1.closer">
-                  <salute n="text.body.div.div1.closer.salute">Vale.</salute>
-                  <dateline n="text.body.div.div1.closer.dateline">Ex Lipsia. <date n="text.body.div.div1.closer.dateline.date" calendar="Romanum" when="1518-08-24">VIII. Calen.
+               <closer n="closer3">
+                  <salute n="salute1">Vale.</salute>
+                  <dateline n="dateline2">Ex Lipsia. <date n="date1" calendar="Romanum" when="1518-08-24">VIII. Calen.
                 Septembreis.</date>
                   </dateline>
                </closer>
-               <milestone n="text.body.div.div1.milestone" unit="page"/>
+               <milestone n="milestone4" unit="page"/>
             </div>
-            <div n="text.body.div.div2" type="prosa-oratio">
-               <head n="text.body.div.div2.head">Oratio Tranquilli Parthenii Andronici Dalmatae, de laudibus eloquentiae, in Gymnasio
+            <div n="div7" type="prosa-oratio">
+               <head n="head1">Oratio Tranquilli Parthenii Andronici Dalmatae, de laudibus eloquentiae, in Gymnasio
             Lipsensi habita. </head>
-               <p n="text.body.div.div2.p">
-                  <note n="text.body.div.div2.p.note1" place="margin-right" type="titulus"> Exordium.</note> Equidem non dubito uiri
-            ornatissimi, quin <sic n="text.body.div.div2.p.sic1">plaerique</sic> hoc meum susceptum negotium sint accusaturi:
+               <p n="p2">
+                  <note n="note1" place="margin-right" type="titulus"> Exordium.</note> Equidem non dubito uiri
+            ornatissimi, quin <sic n="sic2">plaerique</sic> hoc meum susceptum negotium sint accusaturi:
             praesertim dum consyderant meam adhuc immaturam aetatem paucis ingenii ac eruditionis
             nostrae testimoniis extantibus, quae me peregrinum a multis suspitionibus apud exteros
             uindicarent. Neque ipse, profecto sum ignarus quam grauissimo oneri maximisque periculis
             me subiecerim, plus fortasse reprehensionis quam laudis assequuturus. Etenim si
             regionem, ciuitatem, gymnasium, atque hunc amplissimum consessum metiri uelim: omnia
             sane mihi non admiranda solum, sed etiam usque ad ruborem extimescenda esse comperiam.
-              <note n="text.body.div.div2.p.note2" place="margin-right" type="titulus"> Laus gymnasii Lipsensis.</note> Omitto nunc
+              <note n="note3" place="margin-right" type="titulus"> Laus gymnasii Lipsensis.</note> Omitto nunc
             robur iuuentutis et militarem uirtutem: praetereo ciuilitatem modestiamque: tantus
             profecto literis honor in hac ciuitate habetur, tanto studio bonae artes expetuntur,
-              <note n="text.body.div.div2.p.note3" place="margin-right" type="titulus"> A studiis.</note> ut hic esse
-            honoratissimum omnium optimarum disciplinarum domicilium quale Athenis <note n="text.body.div.div2.p.note4" place="margin-right" type="nomen"> Athenae.</note> fertur olim fuisse, Italiam, <note n="text.body.div.div2.p.note5" place="margin-right" type="nomen"> Italia.</note> Gallias, <note n="text.body.div.div2.p.note6" place="margin-right" type="nomen"> Galliae.</note> Hispanias, <note n="text.body.div.div2.p.note7" place="margin-right" type="nomen">
-              Hispaniae.</note> ac totam Europam, <note n="text.body.div.div2.p.note8" place="margin-right" type="nomen">
-            Europa.</note> nedum ipsam Germaniam, <note n="text.body.div.div2.p.note9" place="margin-right" type="nomen">
+              <note n="note4" place="margin-right" type="titulus"> A studiis.</note> ut hic esse
+            honoratissimum omnium optimarum disciplinarum domicilium quale Athenis <note n="note5" place="margin-right" type="nomen"> Athenae.</note> fertur olim fuisse, Italiam, <note n="note6" place="margin-right" type="nomen"> Italia.</note> Gallias, <note n="note7" place="margin-right" type="nomen"> Galliae.</note> Hispanias, <note n="note8" place="margin-right" type="nomen">
+              Hispaniae.</note> ac totam Europam, <note n="note9" place="margin-right" type="nomen">
+            Europa.</note> nedum ipsam Germaniam, <note n="note10" place="margin-right" type="nomen">
             Germania.</note> clarissima fama peruagetur. Atque in tanta studiorum uarietate, partim
             prudentia Principis, partim moderatione doctorum, ad hoc bonis discentium ingeniis
             accedentibus, odio atque omnium controuersiarum contentionibus extirpatis, quae in
             multis Germaniae gymnasiis non absque maximo literatorum dedecore ac detrimento in dies
-            concitatiores enascuntur alunturque, in summo consensu atque concordia <note n="text.body.div.div2.p.note10" place="margin-right" type="titulus"> A concordia.</note> uiuitis. Quae res inprimis
+            concitatiores enascuntur alunturque, in summo consensu atque concordia <note n="note11" place="margin-right" type="titulus"> A concordia.</note> uiuitis. Quae res inprimis
             multos allexit, ut uel ex remotissimis regionibus hanc ciuitatem adierint, aut studio
             uidendi, aut uirtutis hauriendae gratia, aut quo suae monumenta eruditionis in loco
             celebratissimo relinquerent, existimantes ea dumtaxat esse ueram et solidam laudem
             paritura, quibus et eorum propria, et discentium ingenia excolerentur. At porro
             huiusmodi sunt artes et disciplinae liberales: nam ut ipsae habentur incorruptae ac
-              <sic n="text.body.div.div2.p.sic2">aethernae</sic>, ita earum optimi ac suauissimi fructus <note n="text.body.div.div2.p.note11" place="margin-right" type="titulus"> Fructus artium liberalium.</note> hanc nostram
+              <sic n="sic12">aethernae</sic>, ita earum optimi ac suauissimi fructus <note n="note13" place="margin-right" type="titulus"> Fructus artium liberalium.</note> hanc nostram
             uitam ab interitu afferentes, foelicissime ad posteros nulla unquam interueniente
-            obliuione deducunt, atque immortalitate donant. <milestone n="text.body.div.div2.p.milestone1" unit="page"/> Itaque tanta
+            obliuione deducunt, atque immortalitate donant. <milestone n="milestone14" unit="page"/> Itaque tanta
             fama etiam ipse permotus (licet essent peragrandae mihi aliae ciuitates Germaniae) huc
             diuerti, cupidus ea uidendi quae aliquando auribus conceperam, qualia uix olim
             florentissima Italiae gymnasia, Patauinum, Bononiensem, Senensem, Perusinum, atque
             Romanum meis oculis subiecerit. Proinde, pulcherrimae famae clamoribus respondente
-            ueritate, nihil non inueni, quod concupieram: <note n="text.body.div.div2.p.note12" place="margin-left" type="titulus">
+            ueritate, nihil non inueni, quod concupieram: <note n="note15" place="margin-left" type="titulus">
               A copia rerum.</note> nihil possum cogitare, quod hic ad bene beateque uiuendum
-            desyderetur. Et quum uigeant praestantissimae uirtutes, maxime uero humanitate <note n="text.body.div.div2.p.note13" place="margin-left" type="titulus"> Ab humanitate.</note> inter uos certatur: ad
+            desyderetur. Et quum uigeant praestantissimae uirtutes, maxime uero humanitate <note n="note16" place="margin-left" type="titulus"> Ab humanitate.</note> inter uos certatur: ad
             quamdam neque praeteritorum temporum memoria reuocanda est, neque praesentibus utendum
             testibus, satis superque testatur hodiernus ad me audiendum concursus, ut plane nesciam,
             plusne mihi ornamenti, an uerecundiae hoc uestro amplissimo conspectu allatum sit.
@@ -231,120 +251,120 @@
             facultatibus ingenia mihi ante oculos obuersantur: uerum etiam non parum me solicitat,
             quod hactenus consueuistis huc conuenire, doctissimos atque facundissimos uiros
             audituri: quorum magnam partem huc usque florentissimis studiis deditam
-            <sic n="text.body.div.div2.p.sic3">quotidiae</sic> cernitis, nedum quod eorum memoria uestris impressa mentibus
-            habeatur. Quid <note n="text.body.div.div2.p.note14" place="margin-left" type="titulus"> Extenuatio</note> autem sit
+            <sic n="sic17">quotidiae</sic> cernitis, nedum quod eorum memoria uestris impressa mentibus
+            habeatur. Quid <note n="note18" place="margin-left" type="titulus"> Extenuatio</note> autem sit
             uobis de me sperandum, qui neque aetate, neque ingenio, neque doctrina, neque ulla in
             parte sum iis comparandus? An non sim et ipse conscius mearum uirium? Et non intelligam,
             nihil in tanta frequentia praestantissimorum uirorum debere afferri, nisi quod
-            cumulatissime expolitum <sic n="text.body.div.div2.p.sic4">consumatumque</sic> iudicetur? Nemini hoc suggestum
+            cumulatissime expolitum <sic n="sic19">consumatumque</sic> iudicetur? Nemini hoc suggestum
             conscendendum esse, nisi forte illi, qui et omnes annos in bonis literis collocauerit,
             et ita firmauerit ingenium studio et exercitatione, ut nullam reprehensionis notam
             expaueat? Quae prorsus in me desyderari, non expectato aliorum iudicio, decet ut ipsemet
-            confitear. Eo quoque <note n="text.body.div.div2.p.note15" place="margin-left" type="titulus">Difficultas ab
+            confitear. Eo quoque <note n="note20" place="margin-left" type="titulus">Difficultas ab
               accidentibus.</note> difficiliorem mihi hanc dicendi prouinciam fore non dubito, quod
             his superioribus temporibus uehementissimis et atrocissimis fluctibus iactatus fuerim,
             in quibus et temporum et rerum asperitatibus atque angustiis ita mihi animus concussus
             ac perturbatus est, ut ad eas artes, quibus a teneris (ut aiunt) unguiculis deditus fui,
-            plena facultas otii non relinquatur. Magnam tamen <milestone n="text.body.div.div2.p.milestone2" unit="page"/> habeo
+            plena facultas otii non relinquatur. Magnam tamen <milestone n="milestone21" unit="page"/> habeo
             fiduciam in uestra humanitate, sperans me facile ueniam a uobis impetraturum, etiam si
-            huic amplissimo loco <note n="text.body.div.div2.p.note16" place="margin-right" type="titulus">Propositio loco
+            huic amplissimo loco <note n="note22" place="margin-right" type="titulus">Propositio loco
               narrationis.</note> uestrisque doctissimis auribus non satisfecero: praesertim quum
-            elegerim munus laudandi eloquentiam: quae ueluti membra Penthei <note n="text.body.div.div2.p.note17" place="margin-right" type="nomen"> Pentheus.</note> discerpta, et in unum corpus denuo
+            elegerim munus laudandi eloquentiam: quae ueluti membra Penthei <note n="note23" place="margin-right" type="nomen"> Pentheus.</note> discerpta, et in unum corpus denuo
             redacta, huc tanquam ad tutissimum portum confugit, ac firmissimas aegit radices, et
             propagauit. Praeterea, quis tanto se fretum putet ingenio? Quis arbitretur tanta dicendi
-            copia excellere, ut magnitudine <note n="text.body.div.div2.p.note18" place="margin-right" type="titulus"> Magnitudo
+            copia excellere, ut magnitudine <note n="note24" place="margin-right" type="titulus"> Magnitudo
               eloquentiae.</note> ac praestantia eloquentiae non obruatur? Quam rari omnibus
-            saeculis ut inquit Cicero, <note n="text.body.div.div2.p.note19" place="margin-right" type="nomen"> Cicero</note>
-            integram uero (teste Seneca) <note n="text.body.div.div2.p.note20" place="margin-right" type="nomen"> Seneca</note>
-            nulli consecuti sunt. Maius enim affirmante Cicerone, <note n="text.body.div.div2.p.note21" place="margin-right" type="nomen"> Cicero</note> quiddam est eloquentia, quam homines opinantur, et
-            pluribus ex artibus studiisque collecta: <note n="text.body.div.div2.p.note22" place="margin-right" type="titulus">
+            saeculis ut inquit Cicero, <note n="note25" place="margin-right" type="nomen"> Cicero</note>
+            integram uero (teste Seneca) <note n="note26" place="margin-right" type="nomen"> Seneca</note>
+            nulli consecuti sunt. Maius enim affirmante Cicerone, <note n="note27" place="margin-right" type="nomen"> Cicero</note> quiddam est eloquentia, quam homines opinantur, et
+            pluribus ex artibus studiisque collecta: <note n="note28" place="margin-right" type="titulus">
               Confirmatio.</note> quis enim aliud in maxima discentium multitudine, summa
             magistratorum copia, praestantissimis hominum ingeniis, infinita causarum uarietate,
             amplissimis eloquentiae propositis praemiis esse causae putet, nisi rei quamdam
-            incredibilem magnitudinem ac difficultatem? Nam, ut etiam sentit Fabius <note n="text.body.div.div2.p.note23" place="margin-right" type="nomen"> Fabius.</note> optimus dicendi artifex, ars
-            oratoria non aliqua leui aut compendiaria traditione potest adipisci: <note n="text.body.div.div2.p.note24" place="margin-right" type="titulus"> Difficultas oratoriae.</note> siquidem multo
+            incredibilem magnitudinem ac difficultatem? Nam, ut etiam sentit Fabius <note n="note29" place="margin-right" type="nomen"> Fabius.</note> optimus dicendi artifex, ars
+            oratoria non aliqua leui aut compendiaria traditione potest adipisci: <note n="note30" place="margin-right" type="titulus"> Difficultas oratoriae.</note> siquidem multo
             labore, assiduo studio, uaria exercitatione, plurimis experimentis, altissima prudentia,
-            praestantissimo consilio constat. Est autem auctore Cicerone, <note n="text.body.div.div2.p.note25" place="margin-right" type="nomen"> Cicero</note> et scientia <note n="text.body.div.div2.p.note26" place="margin-right" type="titulus">
+            praestantissimo consilio constat. Est autem auctore Cicerone, <note n="note31" place="margin-right" type="nomen"> Cicero</note> et scientia <note n="note32" place="margin-right" type="titulus">
               Quae necessaria ad oratoriam.</note> comprehendenda rerum plurimarum, sine qua
             uolubilitas uerborum inanis atque irridenda est, et ipsa oratio conformanda non solum
             electione, sed etiam constructione uerborum, et omnes animorum motus quos hominum generi
             rerum natura tribuit, penitus pernoscendi, quod omnis uis, ratioque dicendi, in eorum
             qui audiunt, mentibus, aut sedandis, aut concitandis exprimenda est. Quo magis imperitae
             multitudinis error culpandus est, modo negantis esse utilem eloquentiam, modo eam
-            aequiparantis praestigiatoriis artibus. <note n="text.body.div.div2.p.note27" place="margin-right" type="titulus">
+            aequiparantis praestigiatoriis artibus. <note n="note33" place="margin-right" type="titulus">
               Diuisio.</note> Quibus nos tam ineptis ac detestandis opinionibus occurrentes,
             aperiemus, nihil in rebus humanis utilius atque excellentius eloquentia reperiri. Etenim
             si ex artibus etiam rerum uilissimarum soleant multa commoda redundare, magnoque usui
-            mortalibus esse: <note n="text.body.div.div2.p.note28" place="margin-right" type="titulus"> Confutatio.</note>
+            mortalibus esse: <note n="note34" place="margin-right" type="titulus"> Confutatio.</note>
             excellentissimas quidem disciplinas, quid utilitatis non esse allaturas credendum est?
-            Num negabitur eloquentiam esse artem? <note n="text.body.div.div2.p.note29" place="margin-right" type="titulus">
-              Eloquentia ars.</note> Atqui ridiculum est hoc etiam cogitare: siquidem <milestone n="text.body.div.div2.p.milestone3" unit="page"/> teste Cicerone, nulla uel rerum minimarum sine arte sit. Profecto nec in
+            Num negabitur eloquentiam esse artem? <note n="note35" place="margin-right" type="titulus">
+              Eloquentia ars.</note> Atqui ridiculum est hoc etiam cogitare: siquidem <milestone n="milestone36" unit="page"/> teste Cicerone, nulla uel rerum minimarum sine arte sit. Profecto nec in
             dandis praeceptis tantum summi viri laborauissent, nisi putarent nos ad optatum finem
-            perducere: nec ut ea nos consequeremur, magnam partem aetatis <sic n="text.body.div.div2.p.sic5">consumeremus</sic>,
+            perducere: nec ut ea nos consequeremur, magnam partem aetatis <sic n="sic37">consumeremus</sic>,
             nisi nobis constaret, tantorum laborum iucundissimos exitus fore. Proinde nemo sciret
-            nisi edoctus, exordio <note n="text.body.div.div2.p.note30" place="margin-left" type="titulus"> Partes orationis.</note>
+            nisi edoctus, exordio <note n="note38" place="margin-left" type="titulus"> Partes orationis.</note>
             allicere auditorum animos, et blandiendo in suam partem trahere, postea pro commodo
             narrare, deinceps argumentis instando sua confirmare et confutare contraria, postremo
             concludere et deprecari, quod in Epilogis, praecipue quando mouendi sunt affectus,
-            oratores facere consueuerunt. Itaque non sunt audiendi Antonius <note n="text.body.div.div2.p.note31" place="margin-left" type="nomen"> Antonius.</note> qui eloquentiam apellauit
-            obseruationem, Critolaus <note n="text.body.div.div2.p.note32" place="margin-left" type="nomen"> Critolaus</note> usum,
-            Menedemus <note n="text.body.div.div2.p.note33" place="margin-left" type="nomen"> Menedemus</note> uero et Lysias <note n="text.body.div.div2.p.note34" place="margin-left" type="nomen"> Lysias</note> ab his secludentes putauerunt eam
+            oratores facere consueuerunt. Itaque non sunt audiendi Antonius <note n="note39" place="margin-left" type="nomen"> Antonius.</note> qui eloquentiam apellauit
+            obseruationem, Critolaus <note n="note40" place="margin-left" type="nomen"> Critolaus</note> usum,
+            Menedemus <note n="note41" place="margin-left" type="nomen"> Menedemus</note> uero et Lysias <note n="note42" place="margin-left" type="nomen"> Lysias</note> ab his secludentes putauerunt eam
             dumtaxat natura consistere. Quorum opinio si uera esset, caeterae disciplinae liberales
             hoc nomine priuarentur. Quippe omnium artium et scientiarum, antequam ab hominibus
-            excultae ad summum culmen peruenerint, quaedam leuia principia <note n="text.body.div.div2.p.note35" place="margin-left" type="titulus"> Principia artium et disciplinarum.</note> extiterunt: quae intellecta,
+            excultae ad summum culmen peruenerint, quaedam leuia principia <note n="note43" place="margin-left" type="titulus"> Principia artium et disciplinarum.</note> extiterunt: quae intellecta,
             et saepius memoria repetita, longo experimento ac obseruatione, cuiusque rei artem ex
             consentientibus preceptis, et ad unum uitae finem utilem ordinatis effecerunt. Ante
-            Atlantem <note n="text.body.div.div2.p.note36" place="margin-left" type="titulus"> Atlas primus astrologus.</note> (si
-            Plinio <note n="text.body.div.div2.p.note37" place="margin-left" type="nomen"> Plinius.</note> credimus) nemo nouerat
+            Atlantem <note n="note44" place="margin-left" type="titulus"> Atlas primus astrologus.</note> (si
+            Plinio <note n="note45" place="margin-left" type="nomen"> Plinius.</note> credimus) nemo nouerat
             syderum cursus et naturam: is primus omnium ex diuturnis in altissimo monte
             obseruationibus praecepta dedit Astrologiae, quae postmodum ab aliis aucta in certas
             regulas digesta est. Eodem modo caeterae artes et scientiae sumpserunt originem et
             incrementa. Sed aliquis ad huc contendet, eloquentiam nulla arte contineri, quod
             plaerosque uideamus, qui nunquam alicui disciplinae addicti fuerunt, et sententiam
             dicere in senatu, et legationibus fungi: in quibus modo pax deprecanda est,
-              <sic n="text.body.div.div2.p.sic6">nonunquam</sic> bellum indicendum: interdum res repetuntur: refelluntur obiecta,
-            et multa alia <add n="text.body.div.div2.p.add" resp="NJ">quae</add> solo usu et natura duce tractari conuenit.
-            Equidem non nego multos hodie imperitos, <note n="text.body.div.div2.p.note38" place="margin-left" type="titulus"> Multi
+              <sic n="sic46">nonunquam</sic> bellum indicendum: interdum res repetuntur: refelluntur obiecta,
+            et multa alia <add n="add47" resp="NJ">quae</add> solo usu et natura duce tractari conuenit.
+            Equidem non nego multos hodie imperitos, <note n="note48" place="margin-left" type="titulus"> Multi
               hodie imperiti legationibus funguntur.</note> apud sui similes disserere, atque ad
             alias nationes ad res tractandas destinari, non tamen absque sui ludibrio, et risu
             audientium. Priscis quoque temporibus, nondum cognitis huius artis principiis, et
             respublicae fuerant, et componendorum bellorum, et conflandarum amicitiarum, et demum
-            rerum omnium agendarum <milestone n="text.body.div.div2.p.milestone4" unit="page"/> aliquam rationem extitisse, nemo est qui
-            nesciat. Sed postquam a Tisia, <note n="text.body.div.div2.p.note39" place="margin-right" type="nomen"> Tisias</note>
-            Corace, <note n="text.body.div.div2.p.note40" place="margin-right" type="nomen"> Corax</note> et Gorgia <note n="text.body.div.div2.p.note41" place="margin-right" type="nomen"> Gorgias</note> Siculis illis primis (ut dicitur)
+            rerum omnium agendarum <milestone n="milestone49" unit="page"/> aliquam rationem extitisse, nemo est qui
+            nesciat. Sed postquam a Tisia, <note n="note50" place="margin-right" type="nomen"> Tisias</note>
+            Corace, <note n="note51" place="margin-right" type="nomen"> Corax</note> et Gorgia <note n="note52" place="margin-right" type="nomen"> Gorgias</note> Siculis illis primis (ut dicitur)
             huius artis inuentoribus coepit eloquentia doceri, omnes homines in sui admirationem
             conuertit: tantusque honor huic disciplinae habebatur, ut illi foelicissimi, singulari
             fatorum benignitate, iudicarentur, qui in ea proficere possent. Cuius rei
-            locupletissimum testimonium facit tum una oratio ab Isocrate <note n="text.body.div.div2.p.note42" place="margin-right" type="nomen"> Isocrates</note> uiginti talentis uendita, tum etiam quod Gorgias <note n="text.body.div.div2.p.note43" place="margin-right" type="nomen"> Gorgias.</note> orator primus auream statuam in
+            locupletissimum testimonium facit tum una oratio ab Isocrate <note n="note53" place="margin-right" type="nomen"> Isocrates</note> uiginti talentis uendita, tum etiam quod Gorgias <note n="note54" place="margin-right" type="nomen"> Gorgias.</note> orator primus auream statuam in
             templo Apollinis Delphici posuerit. Idcirco nobiles certatim tradebant suos liberos
-            eloquentiae sacris <sic n="text.body.div.div2.p.sic7">iniciandos</sic>. Nec postea quidam ex Caesaribus Romanis
-            erubuerunt in utraque lingua declamare, <note n="text.body.div.div2.p.note44" place="margin-right" type="titulus">
+            eloquentiae sacris <sic n="sic55">iniciandos</sic>. Nec postea quidam ex Caesaribus Romanis
+            erubuerunt in utraque lingua declamare, <note n="note56" place="margin-right" type="titulus">
               Quidam ex Caesaribus in utraque lingua declamauerunt.</note> ac publica frequentare
-            declamantium auditoria. Gnaeus Pompeius <note n="text.body.div.div2.p.note45" place="margin-right" type="nomen"> Gnaeus
+            declamantium auditoria. Gnaeus Pompeius <note n="note57" place="margin-right" type="nomen"> Gnaeus
               Pompeius.</note> iam spoliis trium partium orbis onustus, adepto quoque cognomine
-            magni exercuit se declamando, responsurus Curioni <note n="text.body.div.div2.p.note46" place="margin-right" type="nomen"> Curio</note> qui Caesaris <note n="text.body.div.div2.p.note47" place="margin-right" type="nomen">
+            magni exercuit se declamando, responsurus Curioni <note n="note58" place="margin-right" type="nomen"> Curio</note> qui Caesaris <note n="note59" place="margin-right" type="nomen">
               Caesar.</note> partes defendebat. Philosophiae uero nihil conuenientius, nihil magis
             necessarium maiores nostri existimauerunt: in qua re quamquam multorum testimonio
-            possumus uti: tamen abunde satis est duorum eminentissimorum Platonis <note n="text.body.div.div2.p.note48" place="margin-right" type="nomen"> Plato.</note> et Aristotelis: <note n="text.body.div.div2.p.note49" place="margin-right" type="nomen"> Aristoteles.</note> quorum alter uires et commoda
-            eloquentiae in duobus dialogis, qui Gorgias <note n="text.body.div.div2.p.note50" place="margin-right" type="nomen">
-              Gorgias.</note> et Phaedrus <note n="text.body.div.div2.p.note51" place="margin-right" type="nomen"> Phaedrus.</note>
+            possumus uti: tamen abunde satis est duorum eminentissimorum Platonis <note n="note60" place="margin-right" type="nomen"> Plato.</note> et Aristotelis: <note n="note61" place="margin-right" type="nomen"> Aristoteles.</note> quorum alter uires et commoda
+            eloquentiae in duobus dialogis, qui Gorgias <note n="note62" place="margin-right" type="nomen">
+              Gorgias.</note> et Phaedrus <note n="note63" place="margin-right" type="nomen"> Phaedrus.</note>
             inscribuntur, copiose declarauit: alter bis diuina quaedam praecepta de eloquentia
             conscripsit, eamque publice professus est, ad aemulationem praeclarissimi Oratoris
-            Isocratis. <note n="text.body.div.div2.p.note52" place="margin-right" type="nomen"> Isocrates</note> Tunc etiam ad
-            obeundas legationes <sic n="text.body.div.div2.p.sic8">Philosoph</sic>, <note n="text.body.div.div2.p.note53" place="margin-right" type="titulus">
+            Isocratis. <note n="note64" place="margin-right" type="nomen"> Isocrates</note> Tunc etiam ad
+            obeundas legationes <sic n="sic65">Philosoph</sic>, <note n="note66" place="margin-right" type="titulus">
               Philosophi oratores.</note> quod imbuerentur Oratoria disciplina, deligebantur. Plato
-              <note n="text.body.div.div2.p.note54" place="margin-right" type="nomen"> Plato.</note> enimuero cum Gorgia, <note n="text.body.div.div2.p.note55" place="margin-right" type="nomen"> Gorgias.</note> qui Athenas orator a Siculis
+              <note n="note67" place="margin-right" type="nomen"> Plato.</note> enimuero cum Gorgia, <note n="note68" place="margin-right" type="nomen"> Gorgias.</note> qui Athenas orator a Siculis
             aduenerat, per aliquot dies spectante populo disputauit: quos Athenienses quasi festos
-            celebrauerunt. Carneades <note n="text.body.div.div2.p.note56" place="margin-right" type="nomen"> Carneades.</note>
-            quoque Academicus, Diogenes <note n="text.body.div.div2.p.note57" place="margin-right" type="nomen"> Diogenes.</note>
-            Stoicus, et Critolaus <note n="text.body.div.div2.p.note58" place="margin-right" type="nomen"> Critolaus.</note>
+            celebrauerunt. Carneades <note n="note69" place="margin-right" type="nomen"> Carneades.</note>
+            quoque Academicus, Diogenes <note n="note70" place="margin-right" type="nomen"> Diogenes.</note>
+            Stoicus, et Critolaus <note n="note71" place="margin-right" type="nomen"> Critolaus.</note>
             Peripateticus, Atheniensium legati maxima cum admiratione a Senatu Romano auditi sunt.
             Quanta temporum ingeniorumque facta est commutatio? Iam alii mores successerunt: utinam
             non perditi ac detestabiles. Esset sane tolerabilius, si a multis bonae artes non
             attingerentur, quo inertia et luxu marcescerent, quam quod insectantur eloquentiae
-            studiosos, quibus summus honor habendus esset, <milestone n="text.body.div.div2.p.milestone5" unit="page"/> nisi ratio
+            studiosos, quibus summus honor habendus esset, <milestone n="milestone72" unit="page"/> nisi ratio
             pessundaretur. Atque ii potissimum lacerant eloquentiam, quibus deberet esse propria.
-            Quorsum autem illud bonum <note n="text.body.div.div2.p.note59" place="margin-left" type="titulus"> bonum debet in
+            Quorsum autem illud bonum <note n="note73" place="margin-left" type="titulus"> bonum debet in
               multos diffundi.</note> quaeritur, quod intra suos fines compressum, nulla ipsius
             facta propagatione uelut aura euanescit? Quid prodest multos annos Philosophiae
             impendisse insomnes terendo noctes, si eius fructum quam plurimi non sentiant? At qui
@@ -352,8 +372,8 @@
             amplectendis accommodatum, alterum uitiis fugiendis: quod a nemine fieri commode posse
             absque oratoriae adminiculis, cuilibet compertum esse arbitror, etiam si a natura
             ingenita quaedam semina sibi esse ad eloquentiam uideantur: quae quidem nisi
-            temperabuntur ratione, iam non eloquentiae sed loquacitatis nomen uendicabunt. <note n="text.body.div.div2.p.note60" place="margin-left" type="titulus"> Eloquentia sine arte loquacitas appelanda
-            est.</note> Porro, licet natura <note n="text.body.div.div2.p.note61" place="margin-left" type="titulus"> Natura et ars
+            temperabuntur ratione, iam non eloquentiae sed loquacitatis nomen uendicabunt. <note n="note74" place="margin-left" type="titulus"> Eloquentia sine arte loquacitas appelanda
+            est.</note> Porro, licet natura <note n="note75" place="margin-left" type="titulus"> Natura et ars
               eloquentiam perficiunt.</note> ipsa suggerat copiam et illecebras quasdam, et leporem
             in dicendo, faciatque orationem instar torrentis fluere, unde multae laudis oratori
             praestabitur occasio: tum si illi impetus animi naturales, illa inquam uis et ubertas
@@ -364,76 +384,76 @@
             fuerint: quamquam firmissimas uires et robur corporis a natura acceperunt: ita profecto
             omnis illa copia, nisi adiuuetur arte, saepius est nocitura dicenti, quam profutura.
             Interdum enim et genera commiscenda sunt, et status uariandi, praeparandi auditorum
-            animi pro causarum qualitate, <note n="text.body.div.div2.p.note62" place="margin-left" type="titulus"> Diuersae causae
+            animi pro causarum qualitate, <note n="note76" place="margin-left" type="titulus"> Diuersae causae
               diuersam etiam exigunt dispositionem.</note> Nonnunquam aduersariorum dicta neganda,
             modo infirmanda, aliquando etiam eludenda: et alio tempore fateri crimen expedit, alio
             transferre, alio deprecari, et multa, quae prorsus maximam artem expostulant. Ex quo
             manifeste apparet quosdam pueriliter errasse, qui nullam certam materiam eloquentiae
-            subiectam esse putauerunt. <note n="text.body.div.div2.p.note63" place="margin-left" type="titulus"> Error negantium
+            subiectam esse putauerunt. <note n="note77" place="margin-left" type="titulus"> Error negantium
               materiam eloquentiae subiectam esse.</note> Quin immo si quis diligenter consyderet,
-            eam ex omnibus artibus constare fatebitur. Quippe officium eloquentiae <note n="text.body.div.div2.p.note64" place="margin-left" type="titulus"> Officium eloquentiae.</note> non est dumtaxat ad
+            eam ex omnibus artibus constare fatebitur. Quippe officium eloquentiae <note n="note78" place="margin-left" type="titulus"> Officium eloquentiae.</note> non est dumtaxat ad
             unam rem determinatum, quum ad eruendam ueritatem utatur omnibus disciplinis tamquam
-            ancillis. Non solum enim oratori dicendum est <milestone n="text.body.div.div2.p.milestone6" unit="page"/> in laudem uel
+            ancillis. Non solum enim oratori dicendum est <milestone n="milestone79" unit="page"/> in laudem uel
             uituperium alicuius, non solum in forensibus disceptandum causis, ac suadendum et
             dissuadendum de commodis et incommodis, ubi habetur amplissima materia: sed occurrunt
             aliquando quaestiones de agrorum dimensionibus, tractantur tempestatuum qualitates,
             atque impressiones in aere, uocum etiam, rerumque aliarum proportiones incidunt. Saepe
-            numero de moribus et grauissimis in Philosophia locis disserere conuenit. <note n="text.body.div.div2.p.note65" place="margin-right" type="titulus"> Materia eloquentiae sunt omnes res de quibus
+            numero de moribus et grauissimis in Philosophia locis disserere conuenit. <note n="note80" place="margin-right" type="titulus"> Materia eloquentiae sunt omnes res de quibus
               tractat.</note> Quae omnia etiam artes Mechanicas cum aliis quibusque rebus
             interuenientibus eloquentia cum de his tractat, propria sibi et peculiaria facit.
             Quaeso, quid est tam reconditum in Philosophia, quid tam acute ab aliis tractatum
             artibus, in quo non possit Orator suo quodam iure uersari, atque illud maiori copia et
-            ornatu, ueluti quibusdam illecebris delinire? Recte quidem Gorgias <note n="text.body.div.div2.p.note66" place="margin-right" type="nomen"> Gorgias.</note> apud Platonem <note n="text.body.div.div2.p.note67" place="margin-right" type="nomen"> Plato.</note> de omnibus Rhetori putauit esse
-            dicendum, ut se, teste Fabio, <note n="text.body.div.div2.p.note68" place="margin-right" type="nomen"> Fabius.</note> in
-            auditoriis interrogari pateretur, qua quisque de re uellet. Iseum <note n="text.body.div.div2.p.note69" place="margin-right" type="nomen"> Iseus.</note> quoque testatur Plinius <note n="text.body.div.div2.p.note70" place="margin-right" type="nomen"> Plinius.</note> in omnibus controversiis ex tempore
-            respondisse. Nonne diuinus ille Plato <note n="text.body.div.div2.p.note71" place="margin-right" type="nomen">
-            Plato.</note> uarias atque altissimas scientias tum in Timaeo <note n="text.body.div.div2.p.note72" place="margin-right" type="nomen"> Timeus.</note> et Phaedone, <note n="text.body.div.div2.p.note73" place="margin-right" type="nomen">
+            ornatu, ueluti quibusdam illecebris delinire? Recte quidem Gorgias <note n="note81" place="margin-right" type="nomen"> Gorgias.</note> apud Platonem <note n="note82" place="margin-right" type="nomen"> Plato.</note> de omnibus Rhetori putauit esse
+            dicendum, ut se, teste Fabio, <note n="note83" place="margin-right" type="nomen"> Fabius.</note> in
+            auditoriis interrogari pateretur, qua quisque de re uellet. Iseum <note n="note84" place="margin-right" type="nomen"> Iseus.</note> quoque testatur Plinius <note n="note85" place="margin-right" type="nomen"> Plinius.</note> in omnibus controversiis ex tempore
+            respondisse. Nonne diuinus ille Plato <note n="note86" place="margin-right" type="nomen">
+            Plato.</note> uarias atque altissimas scientias tum in Timaeo <note n="note87" place="margin-right" type="nomen"> Timeus.</note> et Phaedone, <note n="note88" place="margin-right" type="nomen">
               Phaedon.</note> tum in aliis dialogis nitore ac foelicissima quadam ubertate
-            illustrauit? Atque a Cicerone <note n="text.body.div.div2.p.note74" place="margin-right" type="nomen"> Cicero.</note>
+            illustrauit? Atque a Cicerone <note n="note89" place="margin-right" type="nomen"> Cicero.</note>
             maximae res et difficiles pulcherrime explicantur in Officiis, Paradoxis, Tusculanis
             disputationibus, Topicis, Academicis, Finibus, Fato, Uniuersitate, Diuinatione, Natura
-            deorum. In similibus studiis excelluere Lactantius, <note n="text.body.div.div2.p.note75" place="margin-right" type="nomen"> Lactantius.</note> Tertulianus, <note n="text.body.div.div2.p.note76" place="margin-right" type="nomen">
+            deorum. In similibus studiis excelluere Lactantius, <note n="note90" place="margin-right" type="nomen"> Lactantius.</note> Tertulianus, <note n="note91" place="margin-right" type="nomen">
               Tertulianus.</note>
-                  <sic n="text.body.div.div2.p.sic9">Ambroxius</sic>, <note n="text.body.div.div2.p.note77" place="margin-right" type="nomen">
-                     <sic n="text.body.div.div2.p.note77.sic">Ambroxius</sic>.</note> Hieronymus, <note n="text.body.div.div2.p.note78" place="margin-right" type="nomen">
-              Hieronymus.</note> Boetius, <note n="text.body.div.div2.p.note79" place="margin-right" type="nomen"> Boetius.</note>
+                  <sic n="sic92">Ambroxius</sic>, <note n="note93" place="margin-right" type="nomen">
+                     <sic n="sic1">Ambroxius</sic>.</note> Hieronymus, <note n="note94" place="margin-right" type="nomen">
+              Hieronymus.</note> Boetius, <note n="note95" place="margin-right" type="nomen"> Boetius.</note>
             et quam plurimi praestantissimi auctores: quos anteponendos esse his recentioribus,
-              <note n="text.body.div.div2.p.note80" place="margin-right" type="titulus"> Recentiores scriptores ineloquentes.</note>
+              <note n="note96" place="margin-right" type="titulus"> Recentiores scriptores ineloquentes.</note>
             siccis, ieiunis, aridis, et exanguibus, quacunque de re scripserint, nemo est tam
             imbecillis iudicii qui non uidet. Nam si quidam scriptores ex aliqua simplici scientia
-            sunt consecuti laudem, ut Occham <note n="text.body.div.div2.p.note81" place="margin-right" type="nomen"> Occham.</note>
-                  <expan n="text.body.div.div2.p.expan1" resp="NJ">quaedam</expan> inanes argutiae notum fecerunt, Acursium <note n="text.body.div.div2.p.note82" place="margin-right" type="nomen"> Acursius.</note> interpretatio legum, quum tamen
+            sunt consecuti laudem, ut Occham <note n="note97" place="margin-right" type="nomen"> Occham.</note>
+                  <expan n="expan98" resp="NJ">quaedam</expan> inanes argutiae notum fecerunt, Acursium <note n="note99" place="margin-right" type="nomen"> Acursius.</note> interpretatio legum, quum tamen
             uterque bonarum literarum ignarus extiterit. Eos profecto, qui in uariis ac optimis
             disciplinis excelluere, nulla non dignos laude censebimus: oratores autem a quibus
             diligens opera in comparanda eloquentia nauata est, res quasque optimas complexi sunt.
-              <note n="text.body.div.div2.p.note83" place="margin-right" type="titulus"> Eloquentia ex optimis.</note> Bonarum enim
-            rationum (ut Fabius <note n="text.body.div.div2.p.note84" place="margin-right" type="nomen"> Fabius.</note> arbitratur)
+              <note n="note100" place="margin-right" type="titulus"> Eloquentia ex optimis.</note> Bonarum enim
+            rationum (ut Fabius <note n="note101" place="margin-right" type="nomen"> Fabius.</note> arbitratur)
             plena sit eloquentia oportet, soliusque oratoris propria, ut quum scientiae probitas
             accesserit, tunc ueri oratoris partes impleturam esse Catonis sententia conprobatur.
-              <note n="text.body.div.div2.p.note85" place="margin-right" type="titulus"> Orator ex sententia Catonis.</note> Nam et
-            Plato <note n="text.body.div.div2.p.note86" place="margin-right" type="nomen"> Plato.</note>
-                  <milestone n="text.body.div.div2.p.milestone7" unit="page"/> euidentissimis in Phaedro <note n="text.body.div.div2.p.note87" place="margin-left" type="nomen"> Phaedrus.</note> rationibus ostendit, hanc artem <sic n="text.body.div.div2.p.sic10">consumari</sic>
-            citra <sic n="text.body.div.div2.p.sic11">iusticiae</sic> scientiam non posse: ubi Lysiam <note n="text.body.div.div2.p.note88" place="margin-left" type="nomen"> Lysias.</note> oratorem exagitat, quod neglecta ueritate ipsiusque
-              <sic n="text.body.div.div2.p.sic12">iusticiae</sic> partibus, uulgi tum auram captando sectaretur lenocinia quaedam
-            et blandimenta uoluptatum: Periclem <note n="text.body.div.div2.p.note89" place="margin-left" type="nomen">
-            Pericles.</note> uero atque Isocratem <note n="text.body.div.div2.p.note90" place="margin-left" type="nomen">
+              <note n="note102" place="margin-right" type="titulus"> Orator ex sententia Catonis.</note> Nam et
+            Plato <note n="note103" place="margin-right" type="nomen"> Plato.</note>
+                  <milestone n="milestone104" unit="page"/> euidentissimis in Phaedro <note n="note105" place="margin-left" type="nomen"> Phaedrus.</note> rationibus ostendit, hanc artem <sic n="sic106">consumari</sic>
+            citra <sic n="sic107">iusticiae</sic> scientiam non posse: ubi Lysiam <note n="note108" place="margin-left" type="nomen"> Lysias.</note> oratorem exagitat, quod neglecta ueritate ipsiusque
+              <sic n="sic109">iusticiae</sic> partibus, uulgi tum auram captando sectaretur lenocinia quaedam
+            et blandimenta uoluptatum: Periclem <note n="note110" place="margin-left" type="nomen">
+            Pericles.</note> uero atque Isocratem <note n="note111" place="margin-left" type="nomen">
             Isocrates.</note> caeteris omnibus anteponit, quod eloquentiam cum Philosophia et
             sapientia coniunxerunt: siquidem praeter morum leges, uires uerborum, et naturas
             ingeniorum, ac rationem quandam componendorum uerborum, quae ingeniis audientium
             communis boni persuadendi gratia accomodanda sunt, asserit Oratorem oportere causas
-            rerum cognoscere. <note n="text.body.div.div2.p.note91" place="margin-left" type="titulus"> Necessaria oratori ad
-              cognoscendum.</note> Nam et Fabius <note n="text.body.div.div2.p.note92" place="margin-left" type="nomen">
+            rerum cognoscere. <note n="note112" place="margin-left" type="titulus"> Necessaria oratori ad
+              cognoscendum.</note> Nam et Fabius <note n="note113" place="margin-left" type="nomen">
             Fabius.</note> ait: aut in suadendo quid faciet Orator, nisi utilitate perspecta? Aut in
             iudiciis, si iusticiae sit ignarus? Quid? Non fortitudinem postulat res eadem, quum
             saepe contra turbulentas populi minas, saepe cum periculosa potentium offensa,
-            nonnunquam (ut Cicero <note n="text.body.div.div2.p.note93" place="margin-left" type="nomen"> Cicero.</note> iudicio
+            nonnunquam (ut Cicero <note n="note114" place="margin-left" type="nomen"> Cicero.</note> iudicio
             Miloniano) inter circumfusa militum arma dicendum sit? Historiarum quoque cognitionem,
-              <note n="text.body.div.div2.p.note94" place="margin-left" type="titulus"> Historiae cognoscendae oratori.</note> non
+              <note n="note115" place="margin-left" type="titulus"> Historiae cognoscendae oratori.</note> non
             immerito necessariam oratori putamus, siue prudentiae splendorem intueri uelis, qua res
             humanae gubernantur, siue consyderentur uires exemplorum, quae neruos orationis recte
             appellaueris: hisque maior fides adhibetur, plus assentiuntur homines, quam
             inductionibus, Enthymematis, Epichrematis, atque ipsis Mathematicis demonstrationibus.
-            Nec poetice segreganda est ab oratore: <note n="text.body.div.div2.p.note95" place="margin-left" type="titulus"> Poetice
+            Nec poetice segreganda est ab oratore: <note n="note116" place="margin-left" type="titulus"> Poetice
               utilis oratori.</note> nam unde melius et maiestas uerborum, et grauitas sententiarum,
             et ille demum magnificus et sublimis spiritus mutuandus est? Atque ut ad leuiora
             descendamus, nonne cuiusque clausulae fere certa compositio similis est dimensionibus
@@ -442,212 +462,212 @@
             Alia leni uoce efferenda, alia concitata, alia circumflexa, quaedam etiam miserabili, ut
             subiectae materiae et compositio, et actio correspondeant. Quis igitur tantum a rationis
             semita deuiauit? Quis tanta erroris caligine demersus est? Quis tam inops consilii et
-              <sic n="text.body.div.div2.p.sic13">iuditii</sic> habetur, ut putet eloquentiam nomine uirtutis priuandam esse? Cuius
-            si initia cum incrementis perpendantur, facile apparebit, eam non <milestone n="text.body.div.div2.p.milestone8" unit="page"/> solum esse artem: sed, ut Cicero testatur, ex quinque maximarum artium concursu <note n="text.body.div.div2.p.note96" place="margin-left" type="titulus">Eloquentia quinque maximas artes complexa.</note>
+              <sic n="sic117">iuditii</sic> habetur, ut putet eloquentiam nomine uirtutis priuandam esse? Cuius
+            si initia cum incrementis perpendantur, facile apparebit, eam non <milestone n="milestone118" unit="page"/> solum esse artem: sed, ut Cicero testatur, ex quinque maximarum artium concursu <note n="note119" place="margin-left" type="titulus">Eloquentia quinque maximas artes complexa.</note>
             unam effici praestantissimam, non alicui certae materiae astrictam, sed quae rerum
             omnium habeat imperium, domineturque disciplinis omnibus, atque ex amplissimis
-            uirtutibus (ueluti Stoicorum <note n="text.body.div.div2.p.note97" place="margin-right" type="nomen"> Stoici.</note>
-            copulatione) una uirtus <note n="text.body.div.div2.p.note98" place="margin-right" type="titulus"> Eloquentia
-            uirtus.</note> accumulata sit. Idque non tam Fabio, <note n="text.body.div.div2.p.note99" place="margin-right" type="nomen"> Fabius.</note> Crasso, <note n="text.body.div.div2.p.note100" place="margin-right" type="nomen">
-            Crassus.</note> Ciceronique, <note n="text.body.div.div2.p.note101" place="margin-right" type="nomen"> Cicero.</note>
+            uirtutibus (ueluti Stoicorum <note n="note120" place="margin-right" type="nomen"> Stoici.</note>
+            copulatione) una uirtus <note n="note121" place="margin-right" type="titulus"> Eloquentia
+            uirtus.</note> accumulata sit. Idque non tam Fabio, <note n="note122" place="margin-right" type="nomen"> Fabius.</note> Crasso, <note n="note123" place="margin-right" type="nomen">
+            Crassus.</note> Ciceronique, <note n="note124" place="margin-right" type="nomen"> Cicero.</note>
             quorum auctoritas multum ualet, credatur, quam rationi et ueritati: quae, teste Platone,
-              <note n="text.body.div.div2.p.note102" place="margin-right" type="nomen"> Plato.</note> dux omnium bonorum esse debet.
+              <note n="note125" place="margin-right" type="nomen"> Plato.</note> dux omnium bonorum esse debet.
             Quippe praeter ea quae pulcherrima et magnificentissima ab unoquoque iudicantur, ut
             defendere amicos, regere consiliis senatum et populum, sententiam inter Principes
             dicere, bella componere, foedus ferire, amicitias iungere, et omnia non nisi maxima
             tractare: quid tam aptum aut egregium ad excolendum ingenium humanum excogitabimus? Aut
             cui potissimum rei tam inuigilandum statuemus, quam ut rationem ac sermonem eius
-            interpretem, <note n="text.body.div.div2.p.note103" place="margin-right" type="titulus"> Sermo rationis interpres.</note>
+            interpretem, <note n="note126" place="margin-right" type="titulus"> Sermo rationis interpres.</note>
             quibus a belluis distinguimur, exornantes, caeteris hominibus prudentiae et eloquentiae
-            lumine longe lateque antecellamus: praesertim quod sermo ipse, <note n="text.body.div.div2.p.note104" place="margin-right" type="titulus"> Sermo cur homini soli est datus.</note> ut
-            scribit Aristoteles, <note n="text.body.div.div2.p.note105" place="margin-right" type="nomen"> Aristoteles.</note>
+            lumine longe lateque antecellamus: praesertim quod sermo ipse, <note n="note127" place="margin-right" type="titulus"> Sermo cur homini soli est datus.</note> ut
+            scribit Aristoteles, <note n="note128" place="margin-right" type="nomen"> Aristoteles.</note>
             idcirco datus est homini soli ex omnibus animantibus, quoniam ciuilitatis mutuaeque
-            inter se consuetudinis cupido quadam sibi a natura ingenita est. Hinc Ciceronem <note n="text.body.div.div2.p.note106" place="margin-right" type="nomen"> Cicero.</note> adductum fuisse arbitror, ut initium
+            inter se consuetudinis cupido quadam sibi a natura ingenita est. Hinc Ciceronem <note n="note129" place="margin-right" type="nomen"> Cicero.</note> adductum fuisse arbitror, ut initium
             orandi conditoribus urbium ac legum latoribus dederit, qui coegerunt primo ex syluis
             agrestem populum, orationeque ad cohabitandum simul, et iisdem moribus et legibus
-            utendum constrinxerunt. Quorum primum <note n="text.body.div.div2.p.note107" place="margin-right" type="titulus"> Qui
-              primi oratores.</note> fuisse Orpheus <note n="text.body.div.div2.p.note108" place="margin-right" type="nomen">
+            utendum constrinxerunt. Quorum primum <note n="note130" place="margin-right" type="titulus"> Qui
+              primi oratores.</note> fuisse Orpheus <note n="note131" place="margin-right" type="nomen">
               Orpheus.</note> opinantur, qui non cithara et cantu saxa duxerit (ut fabulae ferunt)
-            sed ingenia hominum duriora et asperiora marmore, quo uoluit, oratione deflexerit. <note n="text.body.div.div2.p.note109" place="margin-right" type="titulus"> Epilogi primae partis per amplificationem.</note>
+            sed ingenia hominum duriora et asperiora marmore, quo uoluit, oratione deflexerit. <note n="note132" place="margin-right" type="titulus"> Epilogi primae partis per amplificationem.</note>
             Magna profecto est uis eloquentiae, nihilque ad degendam uitam mortalibus accommodatius,
             si uel conciliandi sunt auersi animi, uel seditiones compescendae, uel acuenda et
             concitanda ira, atque omnia facienda, quae ad rei publicae priuatamque utilitatem
             spectare uidentur. Quid aliud seditionem in graecorum exercitu compressit, quam robusta
-            Vlyssis <note n="text.body.div.div2.p.note110" place="margin-right" type="nomen"> Vlysses.</note> facundia? Quid aliud
+            Vlyssis <note n="note133" place="margin-right" type="nomen"> Vlysses.</note> facundia? Quid aliud
             plebem Romanam, quando in sacrum montem secesserat, patribus conciliauit, quam efficax
-            Menenii Agrippae <note n="text.body.div.div2.p.note111" place="margin-right" type="nomen"> Menenius Agrippa.</note>
-            oratio? Neque turpissimae perniciosissimaeque seruituti populus Romanus <milestone n="text.body.div.div2.p.milestone9" unit="page"/> renunciauisset, nisi ad expellendos ab urbe Tarquinios, <note n="text.body.div.div2.p.note112" place="margin-left" type="nomen"> Tarquinii.</note> oratione Bruti <note n="text.body.div.div2.p.note113" place="margin-left" type="nomen"> Brutus.</note> concitatus fuisset. Neque secundi
-            belli punici finis haberetur, nisi Scipio <note n="text.body.div.div2.p.note114" place="margin-left" type="nomen">
+            Menenii Agrippae <note n="note134" place="margin-right" type="nomen"> Menenius Agrippa.</note>
+            oratio? Neque turpissimae perniciosissimaeque seruituti populus Romanus <milestone n="milestone135" unit="page"/> renunciauisset, nisi ad expellendos ab urbe Tarquinios, <note n="note136" place="margin-left" type="nomen"> Tarquinii.</note> oratione Bruti <note n="note137" place="margin-left" type="nomen"> Brutus.</note> concitatus fuisset. Neque secundi
+            belli punici finis haberetur, nisi Scipio <note n="note138" place="margin-left" type="nomen">
               Scipio.</note> senatui persuasisset oratione, exercitum esse traiiciendum in
-              <sic n="text.body.div.div2.p.sic14">Aphricam</sic>. Num negabitur Hegesiam <note n="text.body.div.div2.p.note115" place="margin-left" type="nomen">
-              Hegesias.</note> ui eloquentiae effecisse, quod <sic n="text.body.div.div2.p.sic15">plaerique</sic> mortalium ultro
+              <sic n="sic139">Aphricam</sic>. Num negabitur Hegesiam <note n="note140" place="margin-left" type="nomen">
+              Hegesias.</note> ui eloquentiae effecisse, quod <sic n="sic141">plaerique</sic> mortalium ultro
             sibi manus inferrent, ac uiolentam necem consciscerent? An non eloquentia M. quoque
-            Antonium <note n="text.body.div.div2.p.note116" place="margin-left" type="nomen"> M. Antonius.</note> proscriptum, ab
-            ipsis mortis faucibus mollita <sic n="text.body.div.div2.p.sic16">Sicariorum</sic> rabie, qui iam districtos enses
-            iugulo suo admouerant, eripuit? An non diuina M. Tullii <note n="text.body.div.div2.p.note117" place="margin-left" type="nomen"> M. Tullius.</note> eloquentia et contra leges agrarias, quum eo dicente
-            alimenta sua tribus abdicarent, popularis fuit? Et Catilinae <note n="text.body.div.div2.p.note118" place="margin-left" type="nomen"> Catilina.</note> urbis incendium ruina se extincturum minitantis, fregit
-            audaciam? Quid Iulius Caesar? <note n="text.body.div.div2.p.note119" place="margin-left" type="nomen"> Iulius
-            Caesar.</note> Nonne traiecto Rubicone fluuio, <note n="text.body.div.div2.p.note120" place="margin-left" type="nomen">
+            Antonium <note n="note142" place="margin-left" type="nomen"> M. Antonius.</note> proscriptum, ab
+            ipsis mortis faucibus mollita <sic n="sic143">Sicariorum</sic> rabie, qui iam districtos enses
+            iugulo suo admouerant, eripuit? An non diuina M. Tullii <note n="note144" place="margin-left" type="nomen"> M. Tullius.</note> eloquentia et contra leges agrarias, quum eo dicente
+            alimenta sua tribus abdicarent, popularis fuit? Et Catilinae <note n="note145" place="margin-left" type="nomen"> Catilina.</note> urbis incendium ruina se extincturum minitantis, fregit
+            audaciam? Quid Iulius Caesar? <note n="note146" place="margin-left" type="nomen"> Iulius
+            Caesar.</note> Nonne traiecto Rubicone fluuio, <note n="note147" place="margin-left" type="nomen">
               Rubicon fluuius.</note> quum tot a se rebus egregie gestis, nulla suae uirtutis Romae
             consyderatio haberetur, confirmauit oratione dubios militum animos in perniciem
-            aduersariorum, et rei publicae detrimenta? <note n="text.body.div.div2.p.note121" place="margin-left" type="titulus">
+            aduersariorum, et rei publicae detrimenta? <note n="note148" place="margin-left" type="titulus">
               Secunda pars orationis.</note> Caeterum seposita omni hac utilitate uel hoc ipsum
-            pulchrum est, auctore Fabio, <note n="text.body.div.div2.p.note122" place="margin-left" type="nomen"> Fabius.</note> ex
+            pulchrum est, auctore Fabio, <note n="note149" place="margin-left" type="nomen"> Fabius.</note> ex
             communi intellectu, uerbisque quibus utuntur omnes, tantum assequi laudis et gloriae, ut
-            non loqui et orare, sed ut Pericli <note n="text.body.div.div2.p.note123" place="margin-left" type="nomen">
+            non loqui et orare, sed ut Pericli <note n="note150" place="margin-left" type="nomen">
             Pericles.</note> contigit, fulgurare et tonare uidearis. Cuius quidem gloriae semper est
-            auidus excelsus animus: <note n="text.body.div.div2.p.note124" place="margin-left" type="titulus"> Magnus animus gloriae
+            auidus excelsus animus: <note n="note151" place="margin-left" type="titulus"> Magnus animus gloriae
               cupidus.</note> atque spretis rerum terrenarum cupiditatibus per omnes casus et
             pericula sine ulla intermissione arduum eius ac sudatum uerticem attingere anhelat.
-            Huius cupido Iouem, <note n="text.body.div.div2.p.note125" place="margin-left" type="nomen"> Iupiter.</note>
-                  <sic n="text.body.div.div2.p.sic17">liberum</sic> Patrem, <note n="text.body.div.div2.p.note126" place="margin-left" type="nomen"> Liber pater.</note>
-            Mercurium, <note n="text.body.div.div2.p.note127" place="margin-left" type="nomen"> Mercurius.</note> Apollinem, <note n="text.body.div.div2.p.note128" place="margin-left" type="nomen"> Apollo.</note> Cererem, <note n="text.body.div.div2.p.note129" place="margin-left" type="nomen"> Ceres.</note> Palladem <note n="text.body.div.div2.p.note130" place="margin-left" type="nomen">
-            Pallas.</note> in coelum extulit. Nihil aliud Herculem filium Iouis <note n="text.body.div.div2.p.note131" place="margin-left" type="nomen"> Hercules filius Iouis.</note> fecit, quam quod
+            Huius cupido Iouem, <note n="note152" place="margin-left" type="nomen"> Iupiter.</note>
+                  <sic n="sic153">liberum</sic> Patrem, <note n="note154" place="margin-left" type="nomen"> Liber pater.</note>
+            Mercurium, <note n="note155" place="margin-left" type="nomen"> Mercurius.</note> Apollinem, <note n="note156" place="margin-left" type="nomen"> Apollo.</note> Cererem, <note n="note157" place="margin-left" type="nomen"> Ceres.</note> Palladem <note n="note158" place="margin-left" type="nomen">
+            Pallas.</note> in coelum extulit. Nihil aliud Herculem filium Iouis <note n="note159" place="margin-left" type="nomen"> Hercules filius Iouis.</note> fecit, quam quod
             immensis aerumnis tot monstra sustulerit, quibus mortales infestabantur: quos quidem
             iuuando deum procul dubio imitamur, et hac certissima et compendiaria uia itur ad
-            gloriam. <note n="text.body.div.div2.p.note132" place="margin-left" type="titulus"> Compendiarium iter ad gloriam.</note>
-            Satis esse poterat ad regiam dignitatem retinendam Alexandro Magno <note n="text.body.div.div2.p.note133" place="margin-left" type="nomen"> Alexander Magnus.</note> Macedonia, cui pater
-            Philippus <note n="text.body.div.div2.p.note134" place="margin-left" type="nomen"> Philippus.</note>
-                  <sic n="text.body.div.div2.p.sic18">graeciam</sic>
-                  <note n="text.body.div.div2.p.note135" place="margin-left" type="nomen"> Graecia.</note> quoque adiecerat: nihilo minus
+            gloriam. <note n="note160" place="margin-left" type="titulus"> Compendiarium iter ad gloriam.</note>
+            Satis esse poterat ad regiam dignitatem retinendam Alexandro Magno <note n="note161" place="margin-left" type="nomen"> Alexander Magnus.</note> Macedonia, cui pater
+            Philippus <note n="note162" place="margin-left" type="nomen"> Philippus.</note>
+                  <sic n="sic163">graeciam</sic>
+                  <note n="note164" place="margin-left" type="nomen"> Graecia.</note> quoque adiecerat: nihilo minus
             sola dulcedine gloriae stimulante, susceptis omnibus laboribus et periculis, neque
-            pollicitationibus Darii regis <note n="text.body.div.div2.p.note136" place="margin-left" type="nomen"> Darius Rex.</note>
-            acquiescendo, neque succumbendo fortitudini bellicosissimi Pori Regis, <note n="text.body.div.div2.p.note137" place="margin-left" type="nomen"> Porus Rex.</note> littora Indici ac orientalis
-            Oceani immortalitate suam uirtutem subsequente, uictor peragrauit. <milestone n="text.body.div.div2.p.milestone10" unit="page"/> Non defuerant domi Iulio Caesari <note n="text.body.div.div2.p.note138" place="margin-right" type="nomen"> Iulius Caesar.</note> summi honores et magistratus: at ipse quidem inuicto animo
-            decennium in debellandis Galliis <note n="text.body.div.div2.p.note139" place="margin-right" type="titulus"> Galliae a
+            pollicitationibus Darii regis <note n="note165" place="margin-left" type="nomen"> Darius Rex.</note>
+            acquiescendo, neque succumbendo fortitudini bellicosissimi Pori Regis, <note n="note166" place="margin-left" type="nomen"> Porus Rex.</note> littora Indici ac orientalis
+            Oceani immortalitate suam uirtutem subsequente, uictor peragrauit. <milestone n="milestone167" unit="page"/> Non defuerant domi Iulio Caesari <note n="note168" place="margin-right" type="nomen"> Iulius Caesar.</note> summi honores et magistratus: at ipse quidem inuicto animo
+            decennium in debellandis Galliis <note n="note169" place="margin-right" type="titulus"> Galliae a
               Caesare domitae.</note> consumpsit, ac tunc ignotam populo Romano Britanniam insulam
-              <note n="text.body.div.div2.p.note140" place="margin-right" type="nomen"> Britannia insula.</note> aduersus rabiem
+              <note n="note170" place="margin-right" type="nomen"> Britannia insula.</note> aduersus rabiem
             indignantis Oceani adortus est, ac pene unico praelio domuit. Ad haec ut Epaminundam,
-              <note n="text.body.div.div2.p.note141" place="margin-right" type="nomen"> Epaminundas. </note> Milciadem, <note n="text.body.div.div2.p.note142" place="margin-right" type="nomen"> Milciades.</note> Themistoclem, <note n="text.body.div.div2.p.note143" place="margin-right" type="nomen"> Themistocles.</note> aliosque antiquiores gloriae
-            studiosissimos praetereamus, quid aliud et Pyrrhum regem <note n="text.body.div.div2.p.note144" place="margin-right" type="nomen"> Pirrhus Rex.</note> in Italiam transfretare contra Romanos induxit, et
-            Hannibali <note n="text.body.div.div2.p.note145" place="margin-right" type="nomen"> Hannibal.</note> portentosum iter in
-            Alpibus patefecit, quam ingens gloriae cupido? Eadem sane causa fuit Leonidae <note n="text.body.div.div2.p.note146" place="margin-right" type="nomen"> Leonidas.</note> in Thermopylis <note n="text.body.div.div2.p.note147" place="margin-right" type="nomen"> Thermopylae.</note> fortissime occumbendi. Iidem
-            exoptandi stimuli inter moriendum solicitauerunt Othriadem, <note n="text.body.div.div2.p.note148" place="margin-right" type="nomen"> Othriades.</note> ut suae memor uirtutis, proprio sanguine scriberet in
-            scuto uici. Profecto, neque Cato, <note n="text.body.div.div2.p.note149" place="margin-right" type="nomen"> Cato.</note>
-            neque Scipio, <note n="text.body.div.div2.p.note150" place="margin-right" type="nomen"> Scipio.</note> neque Brutus,
-              <note n="text.body.div.div2.p.note151" place="margin-right" type="nomen"> Brutus.</note> neque Petus, <note n="text.body.div.div2.p.note152" place="margin-right" type="nomen"> Petus.</note> at ne foeminarum quidem strenui
-            animi, Lucretia, <note n="text.body.div.div2.p.note153" place="margin-right" type="nomen"> Lucretia.</note> Portia, <note n="text.body.div.div2.p.note154" place="margin-right" type="nomen"> Portia.</note> Arria, <note n="text.body.div.div2.p.note155" place="margin-right" type="nomen"> Arria.</note> et Hippo <note n="text.body.div.div2.p.note156" place="margin-right" type="nomen">
+              <note n="note171" place="margin-right" type="nomen"> Epaminundas. </note> Milciadem, <note n="note172" place="margin-right" type="nomen"> Milciades.</note> Themistoclem, <note n="note173" place="margin-right" type="nomen"> Themistocles.</note> aliosque antiquiores gloriae
+            studiosissimos praetereamus, quid aliud et Pyrrhum regem <note n="note174" place="margin-right" type="nomen"> Pirrhus Rex.</note> in Italiam transfretare contra Romanos induxit, et
+            Hannibali <note n="note175" place="margin-right" type="nomen"> Hannibal.</note> portentosum iter in
+            Alpibus patefecit, quam ingens gloriae cupido? Eadem sane causa fuit Leonidae <note n="note176" place="margin-right" type="nomen"> Leonidas.</note> in Thermopylis <note n="note177" place="margin-right" type="nomen"> Thermopylae.</note> fortissime occumbendi. Iidem
+            exoptandi stimuli inter moriendum solicitauerunt Othriadem, <note n="note178" place="margin-right" type="nomen"> Othriades.</note> ut suae memor uirtutis, proprio sanguine scriberet in
+            scuto uici. Profecto, neque Cato, <note n="note179" place="margin-right" type="nomen"> Cato.</note>
+            neque Scipio, <note n="note180" place="margin-right" type="nomen"> Scipio.</note> neque Brutus,
+              <note n="note181" place="margin-right" type="nomen"> Brutus.</note> neque Petus, <note n="note182" place="margin-right" type="nomen"> Petus.</note> at ne foeminarum quidem strenui
+            animi, Lucretia, <note n="note183" place="margin-right" type="nomen"> Lucretia.</note> Portia, <note n="note184" place="margin-right" type="nomen"> Portia.</note> Arria, <note n="note185" place="margin-right" type="nomen"> Arria.</note> et Hippo <note n="note186" place="margin-right" type="nomen">
             Hippo.</note> graeca mulier, aliam ob rem sibi mortem inferre dubitauerunt. Heu dedecus
             nostri saeculi abominandum: qui hodie uiri tantum facinus aggredi auderent? At uero (si
             diis placet) nihil non appetunt, nihil non tentant facere, quod abiectum et uilem animum
             repraesentet. Videbis quosdam inerti ocio deditos, perpetuum uirtutibus bellum
             indixisse: alii alia sectantur uitia: maximae quidem parti hominum insatiabilis
-            cupiditatis sitis inhaesit. Hinc scaturiunt illa scelera inter mortales, <note n="text.body.div.div2.p.note157" place="margin-right" type="titulus"> Origo scelerum.</note> periuria, mendacia,
+            cupiditatis sitis inhaesit. Hinc scaturiunt illa scelera inter mortales, <note n="note187" place="margin-right" type="titulus"> Origo scelerum.</note> periuria, mendacia,
             praeuaricatio, doli, perfidia, insidiae, caedes, et quicquid turpitudinis excogitari
-            potest: etenim recte Apostolus <note n="text.body.div.div2.p.note158" place="margin-right" type="nomen">
-            Apostolus.</note> ait, cupiditatem esse radicem omnium malorum. <note n="text.body.div.div2.p.note159" place="margin-right" type="titulus"> Cupiditas radix omnium malorum.</note> Quae si
+            potest: etenim recte Apostolus <note n="note188" place="margin-right" type="nomen">
+            Apostolus.</note> ait, cupiditatem esse radicem omnium malorum. <note n="note189" place="margin-right" type="titulus"> Cupiditas radix omnium malorum.</note> Quae si
             euelleretur ab humanis pectoribus, si prorsus e medio tolleretur, non solum esset uita
-            iucundissima: uerum etiam, neque tot millia hominum bella <sic n="text.body.div.div2.p.sic19">consumerent</sic>, neque
+            iucundissima: uerum etiam, neque tot millia hominum bella <sic n="sic190">consumerent</sic>, neque
             undae absorberent, nec a latronibus interciperentur. Caeterum cupiditate ruimus in omne
             nephas, in nostram inquam perniciem sine lege ruimus, ac si uiueremus Cornicis aetatem,
-              <note n="text.body.div.div2.p.note160" place="margin-right" type="titulus"> Cornicis aetas.</note> aut Sibyllinos
-            attingeremus annos. <note n="text.body.div.div2.p.note161" place="margin-right" type="titulus"> Sibyllae anni.</note>
-            Itaque meritas poenas luit M. Crassus, <note n="text.body.div.div2.p.note162" place="margin-right" type="nomen"> M.
-              Crassus.</note> quum esurisset totum Parthorum <note n="text.body.div.div2.p.note163" place="margin-right" type="nomen"> Parthi.</note> aurum. Et Polycratem <note n="text.body.div.div2.p.note164" place="margin-right" type="nomen">
-              Policrates.</note> Samiorum tyrannum eo traxit auaritia, ut ab Oronte <note n="text.body.div.div2.p.note165" place="margin-right" type="nomen"> Orontes.</note> Persarum Praefecto cruci
-            affigeretur. Verum enimuero <milestone n="text.body.div.div2.p.milestone11" unit="page"/> si uel ipsa initia uelimus intueri,
-            nihil est homine imbecillius, <note n="text.body.div.div2.p.note166" place="margin-left" type="titulus"> Nihil homine
+              <note n="note191" place="margin-right" type="titulus"> Cornicis aetas.</note> aut Sibyllinos
+            attingeremus annos. <note n="note192" place="margin-right" type="titulus"> Sibyllae anni.</note>
+            Itaque meritas poenas luit M. Crassus, <note n="note193" place="margin-right" type="nomen"> M.
+              Crassus.</note> quum esurisset totum Parthorum <note n="note194" place="margin-right" type="nomen"> Parthi.</note> aurum. Et Polycratem <note n="note195" place="margin-right" type="nomen">
+              Policrates.</note> Samiorum tyrannum eo traxit auaritia, ut ab Oronte <note n="note196" place="margin-right" type="nomen"> Orontes.</note> Persarum Praefecto cruci
+            affigeretur. Verum enimuero <milestone n="milestone197" unit="page"/> si uel ipsa initia uelimus intueri,
+            nihil est homine imbecillius, <note n="note198" place="margin-left" type="titulus"> Nihil homine
               imbecillius.</note> ut eam uitae breuitatem quotidie multa intercidant. Superuacuum
             esset recensere innumera morborum genera, pestilentes locos ex uario signorum ortu et
-            occasu in nostro <sic n="text.body.div.div2.p.sic20">Hemisperio</sic>, frigus etiam, aestum, famem, ac mortiferos
+            occasu in nostro <sic n="sic199">Hemisperio</sic>, frigus etiam, aestum, famem, ac mortiferos
             uenenosarum bestiarum ictus. Nonne extinctae lucernae odore potuimus abortus fieri? Quam
             multi occumbunt in primis annis: multi extinguuntur in pubertate: aliis non datur
-            attingere iuuentam; <sic n="text.body.div.div2.p.sic21">plaerique</sic> pereunt immatura aetate: pauci transgrediuntur
-            Climacteras, <note n="text.body.div.div2.p.note167" place="margin-left" type="nomen"> Climacterae</note> ut raros ultima
+            attingere iuuentam; <sic n="sic200">plaerique</sic> pereunt immatura aetate: pauci transgrediuntur
+            Climacteras, <note n="note201" place="margin-left" type="nomen"> Climacterae</note> ut raros ultima
             senectus resoluat. Non satis erat tot malis urgeri, nisi et ipsi quoque peiora nobis
             excogitaremus, dum nescimus imponere modum cupiditati. Nulla externarum gentium
-            distrinxit ensem in miseram Italiam <note n="text.body.div.div2.p.note168" place="margin-left" type="nomen">
+            distrinxit ensem in miseram Italiam <note n="note202" place="margin-left" type="nomen">
             Italia.</note> pro uendicanda libertate, aut quo maiestatem imperii tueretur. Sed certe
-            multis sunt dulces alienae opes, <note n="text.body.div.div2.p.note169" place="margin-left" type="titulus"> Alienae opes
+            multis sunt dulces alienae opes, <note n="note203" place="margin-left" type="titulus"> Alienae opes
               a multis appetuntur.</note> quae sine labore acquiruntur. Hae nuper solicitauere
-            Graecos, <note n="text.body.div.div2.p.note170" place="margin-left" type="nomen"> Graeci.</note> Illyrios, <note n="text.body.div.div2.p.note171" place="margin-left" type="nomen"> Illyrii.</note> Lyburnos, <note n="text.body.div.div2.p.note172" place="margin-left" type="nomen"> Lyburni.</note> Croatos, <note n="text.body.div.div2.p.note173" place="margin-left" type="nomen">
-              Croatae.</note> Carnos, <note n="text.body.div.div2.p.note174" place="margin-left" type="nomen"> Carni.</note> Noricos,
-              <note n="text.body.div.div2.p.note175" place="margin-left" type="nomen"> Norici.</note> Vindelicos, <note n="text.body.div.div2.p.note176" place="margin-left" type="nomen"> Vindelici.</note> Rhetos, <note n="text.body.div.div2.p.note177" place="margin-left" type="nomen"> Rheti.</note> Heluetios, <note n="text.body.div.div2.p.note178" place="margin-left" type="nomen">
-              Heluetii.</note> Sicambros, <note n="text.body.div.div2.p.note179" place="margin-left" type="nomen"> Sicambri.</note>
-            Batauos, <note n="text.body.div.div2.p.note180" place="margin-left" type="nomen"> Bataui.</note> Cantabros, <note n="text.body.div.div2.p.note181" place="margin-left" type="nomen"> Cantabri.</note> ac pene totam Galliam et Hispaniam,
+            Graecos, <note n="note204" place="margin-left" type="nomen"> Graeci.</note> Illyrios, <note n="note205" place="margin-left" type="nomen"> Illyrii.</note> Lyburnos, <note n="note206" place="margin-left" type="nomen"> Lyburni.</note> Croatos, <note n="note207" place="margin-left" type="nomen">
+              Croatae.</note> Carnos, <note n="note208" place="margin-left" type="nomen"> Carni.</note> Noricos,
+              <note n="note209" place="margin-left" type="nomen"> Norici.</note> Vindelicos, <note n="note210" place="margin-left" type="nomen"> Vindelici.</note> Rhetos, <note n="note211" place="margin-left" type="nomen"> Rheti.</note> Heluetios, <note n="note212" place="margin-left" type="nomen">
+              Heluetii.</note> Sicambros, <note n="note213" place="margin-left" type="nomen"> Sicambri.</note>
+            Batauos, <note n="note214" place="margin-left" type="nomen"> Bataui.</note> Cantabros, <note n="note215" place="margin-left" type="nomen"> Cantabri.</note> ac pene totam Galliam et Hispaniam,
             ut magna pars eorum in Italia concideret. Parum erat solos Christianos inter se
-            depugnasse, iam et barbaris <note n="text.body.div.div2.p.note182" place="margin-left" type="titulus"> Barbari in Italiam
+            depugnasse, iam et barbaris <note n="note216" place="margin-left" type="titulus"> Barbari in Italiam
               introducti.</note> patefactum est iter in Italiam, quos Veneti deduxerant, ut melius
             Gallorum impetus sustinerent ac repellerent. Deus quemlibet populum intra suos fines
-            pulcherrime concluserat: separauerat Hispanos a Gallis Pyreneis montibus: <note n="text.body.div.div2.p.note183" place="margin-left" type="nomen"> Pyrenaei montes.</note> ab his uallata fuerat
-            Alpibus <note n="text.body.div.div2.p.note184" place="margin-left" type="nomen"> Alpes.</note> Italia: Germaniam Rhenus
-              <note n="text.body.div.div2.p.note185" place="margin-left" type="nomen"> Rhenus.</note> a Gallis, a Sarmatis Vistula,
-              <note n="text.body.div.div2.p.note186" place="margin-left" type="nomen"> Vistula.</note> Danubius <note n="text.body.div.div2.p.note187" place="margin-left" type="nomen"> Danubius.</note> a Pannonibus terminauerat. Sed
+            pulcherrime concluserat: separauerat Hispanos a Gallis Pyreneis montibus: <note n="note217" place="margin-left" type="nomen"> Pyrenaei montes.</note> ab his uallata fuerat
+            Alpibus <note n="note218" place="margin-left" type="nomen"> Alpes.</note> Italia: Germaniam Rhenus
+              <note n="note219" place="margin-left" type="nomen"> Rhenus.</note> a Gallis, a Sarmatis Vistula,
+              <note n="note220" place="margin-left" type="nomen"> Vistula.</note> Danubius <note n="note221" place="margin-left" type="nomen"> Danubius.</note> a Pannonibus terminauerat. Sed
             praeterimus leges naturae: nullis deterriti difficultatibus transcendimus montes,
-            tranamus flumina, ac etiam, si Dedali pennis <note n="text.body.div.div2.p.note188" place="margin-left" type="titulus">
+            tranamus flumina, ac etiam, si Dedali pennis <note n="note222" place="margin-left" type="titulus">
               Dedali penne.</note> uti liceret (ut est in fabulis) coelum nostra stultitia
             peteremus. Minimum est, quod imus in terrae uiscera: unde iam manes, si qui sunt
-            cruerentur. Profecto nec Scythicae paludes, <note n="text.body.div.div2.p.note189" place="margin-left" type="nomen">
-              Scythicae paludes.</note> nec Riphaei montes <note n="text.body.div.div2.p.note190" place="margin-left" type="nomen">
-              Riphaei montes.</note> semper onusti niuibus, nec illa Gottorum asperrima sedes <note n="text.body.div.div2.p.note191" place="margin-right" type="nomen"> Gottorum sedes.</note> obstat peruicacissimae
-            mortalium cupiditati: ac nisi prohiberetur glaciali Oceano, <note n="text.body.div.div2.p.note192" place="margin-right" type="nomen"> Glacialis Oceanus.</note> loca ultra sepositam <sic n="text.body.div.div2.p.sic22">arcton</sic>
-                  <note n="text.body.div.div2.p.note193" place="margin-right" type="nomen"> Arctos.</note> in extremis mundi partibus (si
+            cruerentur. Profecto nec Scythicae paludes, <note n="note223" place="margin-left" type="nomen">
+              Scythicae paludes.</note> nec Riphaei montes <note n="note224" place="margin-left" type="nomen">
+              Riphaei montes.</note> semper onusti niuibus, nec illa Gottorum asperrima sedes <note n="note225" place="margin-right" type="nomen"> Gottorum sedes.</note> obstat peruicacissimae
+            mortalium cupiditati: ac nisi prohiberetur glaciali Oceano, <note n="note226" place="margin-right" type="nomen"> Glacialis Oceanus.</note> loca ultra sepositam <sic n="sic227">arcton</sic>
+                  <note n="note228" place="margin-right" type="nomen"> Arctos.</note> in extremis mundi partibus (si
             quae sunt) ab homine penetrarentur. Quin etiam maiori discrimine scindimus maria: ubi
-            non <milestone n="text.body.div.div2.p.milestone12" unit="page"/> tantum Orcae <note n="text.body.div.div2.p.note194" place="margin-right" type="nomen">
-              Orcae.</note> et Balenae <note n="text.body.div.div2.p.note195" place="margin-right" type="nomen"> Balenae.</note>
+            non <milestone n="milestone229" unit="page"/> tantum Orcae <note n="note230" place="margin-right" type="nomen">
+              Orcae.</note> et Balenae <note n="note231" place="margin-right" type="nomen"> Balenae.</note>
             immanes belluae, non modo rabies uentorum, fragor procellarum, uis turbinum, ac se
             attollentes in coelum fluctus extimescendi sunt, sed ignes quoque superandi. Quippe
             inhabitatam priscis temporibus plagam sub aequinoctiali circulo, continuo solis calore
             feruentem nostri homines iam esse habitabilem docuerunt: quum assuetis ad omnia mala
             corporibus alioquin intolerabiles aestus impune pertranseant. Inde circumeuntes
-            monstriferam <sic n="text.body.div.div2.p.sic23">Aphricam</sic>
-                  <note n="text.body.div.div2.p.note196" place="margin-right" type="nomen"> Monstrifera <sic n="text.body.div.div2.p.note196.sic">Aphrica</sic>.</note> nauigant
-            ultra solsticium Capricorni <note n="text.body.div.div2.p.note197" place="margin-right" type="nomen"> Solstitium
-              Capricorni. </note> ad Taprobanam insulam, <note n="text.body.div.div2.p.note198" place="margin-right" type="nomen">
+            monstriferam <sic n="sic232">Aphricam</sic>
+                  <note n="note233" place="margin-right" type="nomen"> Monstrifera <sic n="sic1">Aphrica</sic>.</note> nauigant
+            ultra solsticium Capricorni <note n="note234" place="margin-right" type="nomen"> Solstitium
+              Capricorni. </note> ad Taprobanam insulam, <note n="note235" place="margin-right" type="nomen">
               Taprobana insula.</note> olim alterum orbem existimatam. Neque his terminis
             inexplebilis lucri cupido contenta, semper nouas exquirit regiones, iamque antrum Austri
-              <note n="text.body.div.div2.p.note199" place="margin-right" type="nomen"> Antrum austri. </note> occupauisset, nisi
-            simili frigore ac gelu inde repelleretur. <expan n="text.body.div.div2.p.expan2">Hinc</expan> aduehuntur illae opes,
+              <note n="note236" place="margin-right" type="nomen"> Antrum austri. </note> occupauisset, nisi
+            simili frigore ac gelu inde repelleretur. <expan n="expan237">Hinc</expan> aduehuntur illae opes,
             quas uana opinio preciosas facit: at quidem multo sunt fruges utiliores, quibus uita
             hominum conseruatur: quis enim tempore famis non profunderet omnes diuitias? Nihilo
             minus eas laudamus, suspicimus, admiramur, earumque possessores beatissimos nuncupamus:
-            tametsi <sic n="text.body.div.div2.p.sic24">plaerisque</sic> detrimenta ex his acciderunt. <note n="text.body.div.div2.p.note200" place="margin-right" type="titulus"> Diuitiae multis fuerunt damno.</note> Diuitibus et subsessores in
+            tametsi <sic n="sic238">plaerisque</sic> detrimenta ex his acciderunt. <note n="note239" place="margin-right" type="titulus"> Diuitiae multis fuerunt damno.</note> Diuitibus et subsessores in
             syluis, et Piratae in portubus obstruunt itinera: Diuitum domus, hostibus ciuitatem
             occupantibus, primae diripiuntur: hos ante omnia tyranni curant tollere, quibus alienae
-            opes formidolosae sunt. Nam et Syllana <note n="text.body.div.div2.p.note201" place="margin-right" type="nomen">
-            Sylla.</note> et Mariana <note n="text.body.div.div2.p.note202" place="margin-right" type="nomen"> Marius.</note>
-            proscriptione, et post Caesaris necem, a Triumuiris <note n="text.body.div.div2.p.note203" place="margin-right" type="nomen"> Triumuiri.</note> optimos ac ditissimos trucidatos accepimus. Sic in
-            potentiores grassati sunt Alexander Pheraeus, <note n="text.body.div.div2.p.note204" place="margin-right" type="nomen">
-              Alexander Pheraeus.</note> Phalaris Agrigentinus, <note n="text.body.div.div2.p.note205" place="margin-right" type="nomen"> Phalaris Agrigentinus.</note> Dionysius Siracusanus, <note n="text.body.div.div2.p.note206" place="margin-right" type="nomen"> Dionysius Siracusanus.</note> ac triginta Tyranni
-            Athenis, <note n="text.body.div.div2.p.note207" place="margin-right" type="nomen"> Triginta Tiranni.</note> sic omnes
+            opes formidolosae sunt. Nam et Syllana <note n="note240" place="margin-right" type="nomen">
+            Sylla.</note> et Mariana <note n="note241" place="margin-right" type="nomen"> Marius.</note>
+            proscriptione, et post Caesaris necem, a Triumuiris <note n="note242" place="margin-right" type="nomen"> Triumuiri.</note> optimos ac ditissimos trucidatos accepimus. Sic in
+            potentiores grassati sunt Alexander Pheraeus, <note n="note243" place="margin-right" type="nomen">
+              Alexander Pheraeus.</note> Phalaris Agrigentinus, <note n="note244" place="margin-right" type="nomen"> Phalaris Agrigentinus.</note> Dionysius Siracusanus, <note n="note245" place="margin-right" type="nomen"> Dionysius Siracusanus.</note> ac triginta Tyranni
+            Athenis, <note n="note246" place="margin-right" type="nomen"> Triginta Tiranni.</note> sic omnes
             demum, qui aut res publicas occupauerunt, aut ciuitates expugnauerunt. Dicet quispiam
             fortasse pulchrum est splendere in preciosis uestibus, et sumptuosa extruere palatia,
             quae diuturna sunt futura monumenta conditoris. Verumtamen maiori laudi ab unoquoque
             tribueretur, si quilibet suis potius uirtutibus ornatus inspiceretur, quam oneratus
-            uestibus incederet: nemo sit alienis rebus laudabilis, <note n="text.body.div.div2.p.note208" place="margin-right" type="titulus"> Nemo alienis laudabilis.</note> et iis praesertim, quae cuique
+            uestibus incederet: nemo sit alienis rebus laudabilis, <note n="note247" place="margin-right" type="titulus"> Nemo alienis laudabilis.</note> et iis praesertim, quae cuique
             contemptissimo possunt euenire. Quod uero testimonium redditura sunt edificia, siquidem
             diu sibi ipsis non constent? Frustra nimirum, nec sine indignatione naturae exciduntur
-            syluae, <milestone n="text.body.div.div2.p.milestone13" unit="page"/> ut ingemant sub peregrinis marmoribus: alias
-            effodiuntur montes Numidici, <note n="text.body.div.div2.p.note209" place="margin-left" type="nomen"> Numidia.</note>
-            alias Laconici, <note n="text.body.div.div2.p.note210" place="margin-left" type="nomen"> Laconia.</note> alias Aegyptii:
-              <note n="text.body.div.div2.p.note211" place="margin-left" type="nomen"> Aegyptus.</note> nunc nauigamus
-            <expan n="text.body.div.div2.p.expan3">Paron</expan>, <note n="text.body.div.div2.p.note212" place="margin-left" type="nomen"> Paros.</note> nunc Pontum,
-              <note n="text.body.div.div2.p.note213" place="margin-left" type="nomen"> Pontus.</note> interdum etiam ulteriores
+            syluae, <milestone n="milestone248" unit="page"/> ut ingemant sub peregrinis marmoribus: alias
+            effodiuntur montes Numidici, <note n="note249" place="margin-left" type="nomen"> Numidia.</note>
+            alias Laconici, <note n="note250" place="margin-left" type="nomen"> Laconia.</note> alias Aegyptii:
+              <note n="note251" place="margin-left" type="nomen"> Aegyptus.</note> nunc nauigamus
+            <expan n="expan252">Paron</expan>, <note n="note253" place="margin-left" type="nomen"> Paros.</note> nunc Pontum,
+              <note n="note254" place="margin-left" type="nomen"> Pontus.</note> interdum etiam ulteriores
             petuntur regiones, ut maximis laboribus mortalium una aedicula paulo post ruitura
-            extruatur. Vbi sunt columnae L. Crassi? <note n="text.body.div.div2.p.note214" place="margin-left" type="nomen"> L.
-              Crassus.</note> Ubi Luculli, <note n="text.body.div.div2.p.note215" place="margin-left" type="nomen"> Lucullus.</note>
-            Scauri, <note n="text.body.div.div2.p.note216" place="margin-left" type="nomen"> Scaurus.</note> Mamurrae, <note n="text.body.div.div2.p.note217" place="margin-left" type="nomen"> Mamurra.</note> aliorumque Romanorum potentissimae
-            domus? Vbi tot arcus <note n="text.body.div.div2.p.note218" place="margin-left" type="res"> Arcus.</note> triumphales,
-            tot porticus <note n="text.body.div.div2.p.note219" place="margin-left" type="res"> Porticus.</note> ad deambulationem,
-            tot Theatra <note n="text.body.div.div2.p.note220" place="margin-left" type="res"> Theatra.</note> dumtaxat ad ludos
-            erecta? Vbi incrustati parietes, et tesselata pauimenta? Atque ut Corinthum, <note n="text.body.div.div2.p.note221" place="margin-left" type="nomen"> Corinthus.</note> Athenas, <note n="text.body.div.div2.p.note222" place="margin-left" type="nomen"> Athenae.</note> Cizicum, <note n="text.body.div.div2.p.note223" place="margin-left" type="nomen">
-              Cizicum.</note> Rhodum, <note n="text.body.div.div2.p.note224" place="margin-left" type="nomen"> Rhodos.</note>
-            Ephesum, <note n="text.body.div.div2.p.note225" place="margin-left" type="nomen"> Ephesus.</note> Aegyptias Thebas, <note n="text.body.div.div2.p.note226" place="margin-left" type="nomen"> Thebae aegyptiae.</note> et Babylonem <note n="text.body.div.div2.p.note227" place="margin-left" type="nomen"> Babylon.</note> Semiramidis opus, ac septem mundi
-            miracula taceamus? Vbi est inquam illa Roma <note n="text.body.div.div2.p.note228" place="margin-left" type="nomen">
+            extruatur. Vbi sunt columnae L. Crassi? <note n="note255" place="margin-left" type="nomen"> L.
+              Crassus.</note> Ubi Luculli, <note n="note256" place="margin-left" type="nomen"> Lucullus.</note>
+            Scauri, <note n="note257" place="margin-left" type="nomen"> Scaurus.</note> Mamurrae, <note n="note258" place="margin-left" type="nomen"> Mamurra.</note> aliorumque Romanorum potentissimae
+            domus? Vbi tot arcus <note n="note259" place="margin-left" type="res"> Arcus.</note> triumphales,
+            tot porticus <note n="note260" place="margin-left" type="res"> Porticus.</note> ad deambulationem,
+            tot Theatra <note n="note261" place="margin-left" type="res"> Theatra.</note> dumtaxat ad ludos
+            erecta? Vbi incrustati parietes, et tesselata pauimenta? Atque ut Corinthum, <note n="note262" place="margin-left" type="nomen"> Corinthus.</note> Athenas, <note n="note263" place="margin-left" type="nomen"> Athenae.</note> Cizicum, <note n="note264" place="margin-left" type="nomen">
+              Cizicum.</note> Rhodum, <note n="note265" place="margin-left" type="nomen"> Rhodos.</note>
+            Ephesum, <note n="note266" place="margin-left" type="nomen"> Ephesus.</note> Aegyptias Thebas, <note n="note267" place="margin-left" type="nomen"> Thebae aegyptiae.</note> et Babylonem <note n="note268" place="margin-left" type="nomen"> Babylon.</note> Semiramidis opus, ac septem mundi
+            miracula taceamus? Vbi est inquam illa Roma <note n="note269" place="margin-left" type="nomen">
               Roma.</note> caput et lumen orbis? Vbi templum illud magnificentissimum Hierosolymis:
-              <note n="text.body.div.div2.p.note229" place="margin-left" type="nomen"> Hierosolymae.</note> quod aethernum debuit
+              <note n="note270" place="margin-left" type="nomen"> Hierosolymae.</note> quod aethernum debuit
             esse, siquidem sibi deus aedificari iusserat? Omnia certe, aut corruerunt funditus, aut
             sic immutata sunt, ut ne uestigia quidem prioris faciei appareant: nihil enim est tam
             solidum tamque forte, quod, quum sit factum manu artifici, non collabatur in cinerem.
             Quanto satius esset, si eos labores in conquirendis uirtutibus expenderemus: ut Plato
-              <note n="text.body.div.div2.p.note230" place="margin-left" type="nomen"> Plato.</note> qui nauigauerat in Aegyptum,
-            Pythagoras <note n="text.body.div.div2.p.note231" place="margin-left" type="nomen"> Pythagoras.</note> etiam ad Persas,
-            et <sic n="text.body.div.div2.p.sic25">plaerique</sic> ad alias nationes, quorum diuturnius est nomen in terris, quam
+              <note n="note271" place="margin-left" type="nomen"> Plato.</note> qui nauigauerat in Aegyptum,
+            Pythagoras <note n="note272" place="margin-left" type="nomen"> Pythagoras.</note> etiam ad Persas,
+            et <sic n="sic273">plaerique</sic> ad alias nationes, quorum diuturnius est nomen in terris, quam
             eorum patria fuerit. Et quamuis unaquaeque uirtus quemlibet sui amatorem clarum faciat:
-            quemadmodum Achilles fortitudine, <note n="text.body.div.div2.p.note232" place="margin-left" type="nomen"> Achilles
-              fortis.</note> Aeneas pietate <note n="text.body.div.div2.p.note233" place="margin-left" type="nomen"> Aeneas
-            pius.</note> narrantur insignes. Constantia Socrati, <note n="text.body.div.div2.p.note234" place="margin-left" type="nomen"> Socrates constans.</note> Aristidi iusticia <note n="text.body.div.div2.p.note235" place="margin-left" type="nomen"> Aristides iustus.</note> nomen aethernum peperit, magna Caesari laus
-            tribuitur propter clementiam, <note n="text.body.div.div2.p.note236" place="margin-left" type="nomen"> Caesar
+            quemadmodum Achilles fortitudine, <note n="note274" place="margin-left" type="nomen"> Achilles
+              fortis.</note> Aeneas pietate <note n="note275" place="margin-left" type="nomen"> Aeneas
+            pius.</note> narrantur insignes. Constantia Socrati, <note n="note276" place="margin-left" type="nomen"> Socrates constans.</note> Aristidi iusticia <note n="note277" place="margin-left" type="nomen"> Aristides iustus.</note> nomen aethernum peperit, magna Caesari laus
+            tribuitur propter clementiam, <note n="note278" place="margin-left" type="nomen"> Caesar
             clemens.</note> in aliis modestia, in quibusdam liberalitas, atque in multis diuersae
             uirtutes laudantur: tamen quicunque in penetralibus eloquentiae coaluere, fiunt omnium
             procul dubio clarissimi. Etenim quum sit omnes uirtutes complexa, ut uel unius defectu
@@ -655,40 +675,40 @@
             nullius est tantum flumen ingenii, nullius tanta uis et ubertas orationis, ut hanc
             praestantissimam uirtutem, hoc inquam excellentissimum dei et naturae munus, satis
             dignis laudibus possit extollere. Quis enim tuum sacratissimum numen non admiretur
-              <milestone n="text.body.div.div2.p.milestone14" unit="page"/> eloquentia? <note n="text.body.div.div2.p.note237" place="margin-right" type="titulus">
+              <milestone n="milestone279" unit="page"/> eloquentia? <note n="note280" place="margin-right" type="titulus">
               Conclusio per enumerationem.</note> Quem tuus splendor non obnubilet? Quis tua
             suauitate non obmutescat? Tu decus humani ingenii sermonem rationis interpretem excolis,
             ac ueluti in quadam laudis Orchestra collocatum, efficis omnium speciosissimum. Tu prima
             condendarum ciuitatum fundamenta iecisti. Per te dirae bellorum procellae dissipantur.
             Tibi et Barbari et hostes obtemperant. Te concordiae altricem omne genus hominum in
             summa ueneratione habet. Tu immensam laudem, ornamentum, existimationem, atque diuitias
-            tuis praestas cultoribus. Tuo munere Pisistratus <note n="text.body.div.div2.p.note238" place="margin-right" type="nomen"> Pisistratus.</note> Athenarum Principatum est assequutus, deferente populo, aduersus
-            grauissimas Solonis <note n="text.body.div.div2.p.note239" place="margin-right" type="nomen"> Solon.</note> conciones. Tu
-            Demosthenem <note n="text.body.div.div2.p.note240" place="margin-right" type="nomen"> Demosthenes.</note> humillimae
+            tuis praestas cultoribus. Tuo munere Pisistratus <note n="note281" place="margin-right" type="nomen"> Pisistratus.</note> Athenarum Principatum est assequutus, deferente populo, aduersus
+            grauissimas Solonis <note n="note282" place="margin-right" type="nomen"> Solon.</note> conciones. Tu
+            Demosthenem <note n="note283" place="margin-right" type="nomen"> Demosthenes.</note> humillimae
             sortis hominem ad tantos honores prouexisti, ut olim gubernandae Ciuitati praefuerit,
-            atque coronam maximis uitibus Aeschine <note n="text.body.div.div2.p.note241" place="margin-right" type="nomen">
-              Aeschines.</note> reclamante adeptus sit. Tu M. Catonem <note n="text.body.div.div2.p.note242" place="margin-right" type="nomen"> M. Cato.</note> ignotum <sic n="text.body.div.div2.p.sic26">Thusculi</sic> uirum eo laudis extulisti,
-            ut eius incrementa publicis uotis expetenda fuerint. Te duce M. Tullius <note n="text.body.div.div2.p.note243" place="margin-right" type="nomen"> M. Tullius.</note> ex illo humili municipio
+            atque coronam maximis uitibus Aeschine <note n="note284" place="margin-right" type="nomen">
+              Aeschines.</note> reclamante adeptus sit. Tu M. Catonem <note n="note285" place="margin-right" type="nomen"> M. Cato.</note> ignotum <sic n="sic286">Thusculi</sic> uirum eo laudis extulisti,
+            ut eius incrementa publicis uotis expetenda fuerint. Te duce M. Tullius <note n="note287" place="margin-right" type="nomen"> M. Tullius.</note> ex illo humili municipio
             Arpinate id consequutus est, quod nemini unquam mortalium contigit, ut in pace mereretur
             triumphum, et in toga dignus laurea censeretur omnibus triumphis praestantiore. Sed ne
             nimis prisca referendo parum fidei praestetur, his quidem temporibus, quibus negliguntur
-            et pessundantur uirtutes, quae res alia Bilibaldum Pirchaimerum <note n="text.body.div.div2.p.note244" place="margin-right" type="nomen"> Bilibaldus Pirchaimerus.</note> et in Aristocratia
-            Norumbergensi <note n="text.body.div.div2.p.note245" place="margin-right" type="nomen"> Aristocratia
+            et pessundantur uirtutes, quae res alia Bilibaldum Pirchaimerum <note n="note288" place="margin-right" type="nomen"> Bilibaldus Pirchaimerus.</note> et in Aristocratia
+            Norumbergensi <note n="note289" place="margin-right" type="nomen"> Aristocratia
             Norumbergensis.</note> primas habere partes effecit, et Consiliis Maximiliani Caesaris
-              <note n="text.body.div.div2.p.note246" place="margin-right" type="nomen"> Maximilianus Caesar.</note> adhibuit, quam
-            tuae uires efficacissimae? Tu et Conrado Peuttinger <note n="text.body.div.div2.p.note247" place="margin-right" type="nomen"> Conradus Peuttinger.</note> sic obsequuta es, ut Senatui Augustano <note n="text.body.div.div2.p.note248" place="margin-right" type="nomen"> Senatus Augustanus.</note> presideret, et negocia
-            Caesaris exequeretur. Tuam uim demum esse potentissimam docuit Cuspinianus <note n="text.body.div.div2.p.note249" place="margin-right" type="nomen"> Cuspinianus.</note> obscuris quidem ortus
-            parentibus: at paulatim, te aspirante sic emersit, ut nullum aptiorem Viennae <note n="text.body.div.div2.p.note250" place="margin-right" type="nomen"> Vienna Pannoniae.</note> Caesar iudicet in obeundis
+              <note n="note290" place="margin-right" type="nomen"> Maximilianus Caesar.</note> adhibuit, quam
+            tuae uires efficacissimae? Tu et Conrado Peuttinger <note n="note291" place="margin-right" type="nomen"> Conradus Peuttinger.</note> sic obsequuta es, ut Senatui Augustano <note n="note292" place="margin-right" type="nomen"> Senatus Augustanus.</note> presideret, et negocia
+            Caesaris exequeretur. Tuam uim demum esse potentissimam docuit Cuspinianus <note n="note293" place="margin-right" type="nomen"> Cuspinianus.</note> obscuris quidem ortus
+            parentibus: at paulatim, te aspirante sic emersit, ut nullum aptiorem Viennae <note n="note294" place="margin-right" type="nomen"> Vienna Pannoniae.</note> Caesar iudicet in obeundis
             maximarum rerum legationibus. Quod si nunc suus uirtutibus honor redderetur, si bonae
-            artes in precio essent, iam tuis iterum auspiciis noui conspicerentur Camilli, <note n="text.body.div.div2.p.note251" place="margin-right" type="nomen"> Camilli.</note> Decii, <note n="text.body.div.div2.p.note252" place="margin-right" type="nomen"> Decii.</note> Fabricii, <note n="text.body.div.div2.p.note253" place="margin-right" type="nomen">
-              Fabricii.</note> Marcelli, <note n="text.body.div.div2.p.note254" place="margin-right" type="nomen"> Marcelli.</note>
-            Scipiones: <note n="text.body.div.div2.p.note255" place="margin-right" type="nomen"> Scipiones.</note> iterum
-            extenderetur imperium Romanum in Pontum, <note n="text.body.div.div2.p.note256" place="margin-right" type="nomen">
-              Pontus.</note> Persas, <note n="text.body.div.div2.p.note257" place="margin-right" type="nomen"> Persae.</note> Arabas,
-              <note n="text.body.div.div2.p.note258" place="margin-right" type="nomen"> Arabes.</note> et Garamantas. <note n="text.body.div.div2.p.note259" place="margin-right" type="nomen"> Garamantes.</note>
+            artes in precio essent, iam tuis iterum auspiciis noui conspicerentur Camilli, <note n="note295" place="margin-right" type="nomen"> Camilli.</note> Decii, <note n="note296" place="margin-right" type="nomen"> Decii.</note> Fabricii, <note n="note297" place="margin-right" type="nomen">
+              Fabricii.</note> Marcelli, <note n="note298" place="margin-right" type="nomen"> Marcelli.</note>
+            Scipiones: <note n="note299" place="margin-right" type="nomen"> Scipiones.</note> iterum
+            extenderetur imperium Romanum in Pontum, <note n="note300" place="margin-right" type="nomen">
+              Pontus.</note> Persas, <note n="note301" place="margin-right" type="nomen"> Persae.</note> Arabas,
+              <note n="note302" place="margin-right" type="nomen"> Arabes.</note> et Garamantas. <note n="note303" place="margin-right" type="nomen"> Garamantes.</note>
                </p>
             </div>
-            <closer n="text.body.div.closer">DIXI.</closer>
+            <closer n="closer8">DIXI.</closer>
          </div>
       </body>
   </text>

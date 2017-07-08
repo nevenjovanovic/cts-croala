@@ -87,6 +87,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -130,20 +141,20 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:pima01.croala893646.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="poesis-epigramma" met="elegiacum">
-            <head n="text.body.div.head">Bernardi Pimae Delmatae Tetrastichon
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="poesis-epigramma" met="elegiacum">
+            <head n="head1">Bernardi Pimae Delmatae Tetrastichon
                in laudem Domici Palladii Sorani.</head>
             
             
-            <l n="text.body.div.l1">Phoebus ab Eois non hic tibi nascitur oris;</l>
+            <l n="l2">Phoebus ab Eois non hic tibi nascitur oris;</l>
              
-            <l n="text.body.div.l2" met="pentameter">Non Cyrrha, hunc potuit gignere Sora sibi.</l>
+            <l n="l3" met="pentameter">Non Cyrrha, hunc potuit gignere Sora sibi.</l>
              
-            <l n="text.body.div.l3">Sora sibi genuit, totus nunc possidet orbis:</l>
+            <l n="l4">Sora sibi genuit, totus nunc possidet orbis:</l>
              
-            <l n="text.body.div.l4" met="pentameter">Orta est in tenui lucida gemma solo.</l>
+            <l n="l5" met="pentameter">Orta est in tenui lucida gemma solo.</l>
              
          </div>
       </body>

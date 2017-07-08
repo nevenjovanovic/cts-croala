@@ -91,6 +91,29 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
             
         <profileDesc>
@@ -136,56 +159,56 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:juric01.croala906618.croala-lat1:" xml:lang="lat">
-      <front n="text.front">
-         <titlePage n="text.front.titlePage">
-            <docAuthor n="text.front.titlePage.docAuthor">MARCUS MARULUS</docAuthor>
-            <titlePart n="text.front.titlePage.titlePart1">DE VETERIS INSTRUMENTI VIRIS ILLUSTRIBUS COMMENTARIUM</titlePart>
-            <titlePart n="text.front.titlePage.titlePart2">EDIDIT, LATINA PRAEFATIONE ET INDICE INSTRUXIT SIMON JURIĆ</titlePart>
-            <titlePart n="text.front.titlePage.titlePart3">INTRODUCTIONEM CROATICAM SCRIPSIT RAPHAEL BOGIŠIĆ</titlePart>
-            <docImprint n="text.front.titlePage.docImprint1">IMPENSIS BIBLIOTHECAE NATIONALIS ET UNIVERSITARIAE ZAGRABIENSIS ET SOCIETATIS TYP. UNIVERSITARIAE LIBER
+      <front n="front1">
+         <titlePage n="titlePage1">
+            <docAuthor n="docAuthor1">MARCUS MARULUS</docAuthor>
+            <titlePart n="titlePart2">DE VETERIS INSTRUMENTI VIRIS ILLUSTRIBUS COMMENTARIUM</titlePart>
+            <titlePart n="titlePart3">EDIDIT, LATINA PRAEFATIONE ET INDICE INSTRUXIT SIMON JURIĆ</titlePart>
+            <titlePart n="titlePart4">INTRODUCTIONEM CROATICAM SCRIPSIT RAPHAEL BOGIŠIĆ</titlePart>
+            <docImprint n="docImprint5">IMPENSIS BIBLIOTHECAE NATIONALIS ET UNIVERSITARIAE ZAGRABIENSIS ET SOCIETATIS TYP. UNIVERSITARIAE LIBER
         </docImprint>
-            <docImprint n="text.front.titlePage.docImprint2">ZAGRABIAE <num n="text.front.titlePage.docImprint2.num" value="1979">MCMLXXIX</num>
+            <docImprint n="docImprint6">ZAGRABIAE <num n="num1" value="1979">MCMLXXIX</num>
             </docImprint>
          </titlePage>
       </front>
 	
 
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-praefatio">
-            <head n="text.body.div.head">PRAEFATIO EDITORIS</head>
+      <body n="body2">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-praefatio">
+            <head n="head1">PRAEFATIO EDITORIS</head>
     
-            <p n="text.body.div.p1">Marcus Marulus Spalatensis (1450-1524), eximius ille litterarum renascentium
+            <p n="p2">Marcus Marulus Spalatensis (1450-1524), eximius ille litterarum renascentium
             poeta et magnus recte vivendi praeceptor, non tantum ingenii dotibus sed copia
             quoque operum inter aetatis suae suppares eminuit. Scripsit revera multa et varia,
             tum Latino tum Croatico sermone. Harum autem elucubrationum pars ab ipso
             auctore, dum vita suppetebat, publici iuris facta est, pars decursu temporis curantibus
-            diversis doctis viris typis mandata, tertia pars (<q n="text.body.div.p1.q">chartae doctae, Iuppiter, et
+            diversis doctis viris typis mandata, tertia pars (<q n="q1">chartae doctae, Iuppiter, et
             laboriosae</q>) adhuc usque inedita remansit.</p>
-            <p n="text.body.div.p2">
+            <p n="p3">
             Nescio certe qua iniquitate fati acciderit, ut complura ex illis, quae in lucem
             emissa non sunt, eo usque delitescant, ut incompertum sit, an amplius extent an non.
             Nisi uspiam in publicis privatisve bibliothecis tabulariisque sine auctoris nomine
             reiecta putrescunt, prorsus periisse credenda sunt.
             </p>
-            <p n="text.body.div.p3">
+            <p n="p4">
             Tamen spes haudquamquam deponenda videtur. Notum enim omnibus est, quam
             lente et difficulter Maruli opera detecta atque edita fuerint. Omissis aliis casibus
             mentionem facio mirabilis illius carminis Maruliani, quod Davidias inscribitur,
             quodque in Bibliotheca nationali Taurinensi diu asservatum atque anno 1924
             descriptum est, ipsum quoque vix ante aliquot annos doctorum oculos in se
             conversum luci publicae restitutum esse. De recentioribus Maruli operum inventis, si
-            rem volumus usque ad nostra tempora prosequi, lectorem nota <abbr n="text.body.div.p3.abbr">pag.</abbr> XV-XVI adiecta
+            rem volumus usque ad nostra tempora prosequi, lectorem nota <abbr n="abbr1">pag.</abbr> XV-XVI adiecta
             breviter monemus.
         </p>
-            <p n="text.body.div.p4">
+            <p n="p5">
             Usus igitur docet nos confidere posse fore, ut etiam alia opera clarissimi
             Spalatensis, quae nostra aetas numquam vidit, fortuna favente tempus aliquando in
             medium proferat. Quam rem ut comprobem, liceat mihi afferre quae sequuntur: anno
             superiore, dum Romae in Bibliotheca Vallicelliana quibusdam negotiis bibliographicis vacabam, incidi in codicem manu propria Maruli exaratum, qui praeter duo iam
             evulgata eius opera librum quoque De viris illustribus Veteris Testamenti
             
-            <pb n="text.body.div.p4.pb"/>
+            <pb n="pb1"/>
             
             comprehendebat, qui dudum inter deperditos numerabatur. Hoc repertum, quod
             casus invenit, magna laetitia me affecit statimque opus prelo evulgare decrevi. Talem
@@ -195,10 +218,10 @@
             undique conquirenda typisque exaranda esse. Hoc enim modo et officium nostrum
             erga eximium scriptorem servamus et bonarum artium studiis maxime grata facimus.
         </p>
-            <p n="text.body.div.p5">
+            <p n="p6">
             Sed de ratione et iudicio edendi operis pauca dicatur.
         </p>
-            <p n="text.body.div.p6">
+            <p n="p7">
             Ut editio nostra recentioribus litterarum investigatoribus plene satisfaceret,
             putavimus utilissimum fore, ut primigenium exemplar Marci nostri, si ullo modo
             fieri poterit, ex toto chalcotypice, photographice vel alia simili arte exprimi
@@ -208,58 +231,58 @@
             mendo ageretur. Quae tamen legentium commoditatis gratia immutationes factae
             sunt, paucis accipe:
             
-            <list n="text.body.div.p6.list">
-                  <item n="text.body.div.p6.list.item1">1. Quaevis verba in compendiis expressa resoluta sunt</item>
-                  <item n="text.body.div.p6.list.item2">2. In scribendis grandibus et minutis litteris atque in usurpandis interpunctionibus, quippe quae apud antiquiores scriptores plerumque non congruant nec ullius
+            <list n="list1">
+                  <item n="item1">1. Quaevis verba in compendiis expressa resoluta sunt</item>
+                  <item n="item2">2. In scribendis grandibus et minutis litteris atque in usurpandis interpunctionibus, quippe quae apud antiquiores scriptores plerumque non congruant nec ullius
             momenti sint, orthographia, quae nostro tempore in usu viget, adhibenda visa est.</item>
-                  <item n="text.body.div.p6.list.item3">3. Partes orationis rectae, quo melius agnoscerentur, litteris cursivis notari
+                  <item n="item3">3. Partes orationis rectae, quo melius agnoscerentur, litteris cursivis notari
             placuit.</item>
                </list>
             </p>
-            <p n="text.body.div.p7">
+            <p n="p8">
             Cum pro ratione huiusmodi editionis nullum commentarium scribere in animo
             habuissemus, nullas notas criticas textui subiungendas putavimus. Ad quod compensandum Marulianas nominum Hebraeorum scripturas, quot et quales sint, prout
             et alia quaedam communia verba, quorum forma ab usitata discrepat vel a
             nostro auctore minus recte allata sunt, in calce operis litterarum ordine adscripsimus
             adiectis necessariis emendationibus.
             
-            <note n="text.body.div.p7.note">* Hic praestantissimus codex Marulianus propria manu auctoris scriptus asservatur in Bibliotheca Vallicelliana Romae numero F 98 obsignatus. Est formae octavae (21,8 x 16,7
-            /21 x 15,8/ cm), chartaceus, <abbr n="text.body.div.p7.note.abbr1">fol.</abbr> 
-                  <num n="text.body.div.p7.note.num1" value="3">III</num> + 118 constans, <abbr n="text.body.div.p7.note.abbr2">litt. init. simpl.</abbr> rubris, tegumento
+            <note n="note1">* Hic praestantissimus codex Marulianus propria manu auctoris scriptus asservatur in Bibliotheca Vallicelliana Romae numero F 98 obsignatus. Est formae octavae (21,8 x 16,7
+            /21 x 15,8/ cm), chartaceus, <abbr n="abbr1">fol.</abbr> 
+                  <num n="num2" value="3">III</num> + 118 constans, <abbr n="abbr3">litt. init. simpl.</abbr> rubris, tegumento
             coriaceo vestitus, bene conservatus. Continet sequentia opera Maruli:
             
-            <list n="text.body.div.p7.note.list">
-                     <item n="text.body.div.p7.note.list.item1">1. Dialogum de Hercule a Christicolis superato (<abbr n="text.body.div.p7.note.list.item1.abbr">fol.</abbr> 1-22)</item>
+            <list n="list4">
+                     <item n="item1">1. Dialogum de Hercule a Christicolis superato (<abbr n="abbr1">fol.</abbr> 1-22)</item>
             
-                     <item n="text.body.div.p7.note.list.item2">2. Carmen de gestis Herculis (fol. 23)</item>
+                     <item n="item2">2. Carmen de gestis Herculis (fol. 23)</item>
             
-                     <item n="text.body.div.p7.note.list.item3">3. De Veteris Instrumenti viris illustribus commentarium (fol. 25-118).</item>
+                     <item n="item3">3. De Veteris Instrumenti viris illustribus commentarium (fol. 25-118).</item>
                   </list>
             
             Memoratu digniores videntur hae notae: In schedula interiori parti tegumenti anterioris
-            agglutinata CXLVIII. 16. <q n="text.body.div.p7.note.q1">Meiselio Giorgio 1663 Lett. 1 142</q>, <abbr n="text.body.div.p7.note.abbr3">fol.</abbr> Ir <q n="text.body.div.p7.note.q2">F 98 <abbr n="text.body.div.p7.note.q2.abbr">Biblioth.</abbr> Vallicelliana</q>
-            manu librarii, <abbr n="text.body.div.p7.note.abbr4">fol.</abbr> IIr titulus codicis manu recentiori ignota cum duobus sigillis <q n="text.body.div.p7.note.q3" xml:lang="it">R. società
-            Romana 00555 di storia patria</q>, <abbr n="text.body.div.p7.note.abbr5">fol.</abbr> IIIr titulus codicis manu librarii Vallicellianae exaratus,
-            <abbr n="text.body.div.p7.note.abbr6">fol.</abbr> IV titulus codicis manu recentiori ignota. Praecipue memoranda sunt spolia membranacea
-            <abbr n="text.body.div.p7.note.abbr7">fol.</abbr> 
-                  <num n="text.body.div.p7.note.num2" value="3">III</num> agglutinata, quae vestigia scripturae beneventanae monstrant nec non <abbr n="text.body.div.p7.note.abbr8">fol.</abbr> IVr insigne
+            agglutinata CXLVIII. 16. <q n="q5">Meiselio Giorgio 1663 Lett. 1 142</q>, <abbr n="abbr6">fol.</abbr> Ir <q n="q7">F 98 <abbr n="abbr1">Biblioth.</abbr> Vallicelliana</q>
+            manu librarii, <abbr n="abbr8">fol.</abbr> IIr titulus codicis manu recentiori ignota cum duobus sigillis <q n="q9" xml:lang="it">R. società
+            Romana 00555 di storia patria</q>, <abbr n="abbr10">fol.</abbr> IIIr titulus codicis manu librarii Vallicellianae exaratus,
+            <abbr n="abbr11">fol.</abbr> IV titulus codicis manu recentiori ignota. Praecipue memoranda sunt spolia membranacea
+            <abbr n="abbr12">fol.</abbr> 
+                  <num n="num13" value="3">III</num> agglutinata, quae vestigia scripturae beneventanae monstrant nec non <abbr n="abbr14">fol.</abbr> IVr insigne
             ipsius Maruli calamo eius delineatum repraesentans vehiculum quattuor rotarum galeatum
-            cum litteris <q n="text.body.div.p7.note.q4">M A R L</q> (eadem figura sine litteris et galea in quadam aula inferiori domus
-            comitum Carrarensium (<name n="text.body.div.p7.note.name" xml:lang="it">Reggia dei Carraresi</name>) Patavii in udo picta vidi potest!), <abbr n="text.body.div.p7.note.abbr9">fol.</abbr> 24r
-            nota manu vetusta exarata <q n="text.body.div.p7.note.q5">Spalati die <num n="text.body.div.p7.note.q5.num" value="10">Xo</num> decembris</q>.</note>
+            cum litteris <q n="q15">M A R L</q> (eadem figura sine litteris et galea in quadam aula inferiori domus
+            comitum Carrarensium (<name n="name16" xml:lang="it">Reggia dei Carraresi</name>) Patavii in udo picta vidi potest!), <abbr n="abbr17">fol.</abbr> 24r
+            nota manu vetusta exarata <q n="q18">Spalati die <num n="num1" value="10">Xo</num> decembris</q>.</note>
             
-               <pb n="text.body.div.p7.pb"/>
+               <pb n="pb2"/>
             </p>
-            <p n="text.body.div.p8">
+            <p n="p9">
             Reliquum est, ut grato animo proferam singulare meritum Bibliothecae nationalis
             et universitariae Zagrabiensis nec non Societatis librariae "Liber", quae hunc librum
             edendum curaverunt nullis impensis parcentes, ut Marci nostri opus nitidis typis et in
-            optima charta describeretur ac plus quam <num n="text.body.div.p8.num" value="190">CXC</num> phototypicis imaginibus exornaretur.</p>
-            <closer n="text.body.div.closer">
-               <dateline n="text.body.div.closer.dateline">Zagrabiae <date n="text.body.div.closer.dateline.date">
-                     <num n="text.body.div.closer.dateline.date.num" value="9">IX</num> 
-                     <expan n="text.body.div.closer.dateline.date.expan1">Kalendas</expan> 
-                     <expan n="text.body.div.closer.dateline.date.expan2">Decembres</expan> 1977.</date>
+            optima charta describeretur ac plus quam <num n="num1" value="190">CXC</num> phototypicis imaginibus exornaretur.</p>
+            <closer n="closer10">
+               <dateline n="dateline1">Zagrabiae <date n="date1">
+                     <num n="num1" value="9">IX</num> 
+                     <expan n="expan2">Kalendas</expan> 
+                     <expan n="expan3">Decembres</expan> 1977.</date>
                </dateline>
             </closer>
          </div>

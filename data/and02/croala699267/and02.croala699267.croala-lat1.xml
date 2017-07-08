@@ -105,6 +105,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc xml:id="andreisvrancic15380711">
          <abstract>
@@ -170,22 +187,22 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:and02.croala699267.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div n="text.body.div" type="prosa-epistula" corresp="#andreisvrancic15380711">
-                <pb n="text.body.div.pb"/>
-                <opener n="text.body.div.opener">Franciscus Andronicus Tranquillus Antonio Werancio S.</opener>
+        <body n="body1">
+            <div n="div1" type="prosa-epistula" corresp="#andreisvrancic15380711">
+                <pb n="pb1"/>
+                <opener n="opener2">Franciscus Andronicus Tranquillus Antonio Werancio S.</opener>
 
-                <note n="text.body.div.note">(1538. jul. 11; Szalay 6, 11)</note>
+                <note n="note3">(1538. jul. 11; Szalay 6, 11)</note>
 
-                <p n="text.body.div.p">Scis meas necessitates et tu jam in amplissima fortuna es: cuppas et alias res,
-                    quas <placeName n="text.body.div.p.placeName">Budae</placeName> accepisti, vel earum pretium mittas mihi. Quod quidem facies si bonus
+                <p n="p4">Scis meas necessitates et tu jam in amplissima fortuna es: cuppas et alias res,
+                    quas <placeName n="placeName1">Budae</placeName> accepisti, vel earum pretium mittas mihi. Quod quidem facies si bonus
                     vir es, ut hactenus fuisti, et memineris varias vices esse fortunae. Me tibi
                     commendo et omnia bona tibi opto. </p>
-                <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">Vale.</salute>
-                    <dateline n="text.body.div.closer.dateline">
-                  <placeName n="text.body.div.closer.dateline.placeName">Kesmarkii</placeName>
-                        <date n="text.body.div.closer.dateline.date" when="1538-07-11">V. id. Julii MDXXXVIII.</date>
+                <closer n="closer5">
+               <salute n="salute1">Vale.</salute>
+                    <dateline n="dateline2">
+                  <placeName n="placeName1">Kesmarkii</placeName>
+                        <date n="date2" when="1538-07-11">V. id. Julii MDXXXVIII.</date>
                </dateline>
             </closer>
             </div>

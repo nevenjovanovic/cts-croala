@@ -95,6 +95,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc xml:id="crijevicbunic15060811">
          <abstract>
@@ -166,28 +186,28 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:crije02.croala818137.croala-lat1:" xml:lang="lat">
-        <front n="text.front">
-                <milestone unit="page" n="text.front.milestone"/>
-                <titlePart n="text.front.titlePart1">Praestanti viro Domino Marino Bonae suo amico singulari</titlePart>
-                <titlePart n="text.front.titlePart2">Venetiis</titlePart>
+        <front n="front1">
+                <milestone unit="page" n="milestone1"/>
+                <titlePart n="titlePart2">Praestanti viro Domino Marino Bonae suo amico singulari</titlePart>
+                <titlePart n="titlePart3">Venetiis</titlePart>
         </front>
-      <body n="text.body">
+      <body n="body2">
 
-         <div n="text.body.div" type="prosa-epistula" corresp="#crijevicbunic15060811">
-            <milestone unit="page" n="text.body.div.milestone"/>
+         <div n="div1" type="prosa-epistula" corresp="#crijevicbunic15060811">
+            <milestone unit="page" n="milestone1"/>
             
-            <opener n="text.body.div.opener">Aelius Lampridius Cervinus poeta laureatus Mario Bonae salutem. </opener>
-            <p n="text.body.div.p">Noli me ex officio literam extimare: hoc enim vel inimicis praestatur, quod vel pueris vulgatum est, siquidem et illi cantant: <q n="text.body.div.p.q">Inspicit acceptas hostis ab hoste notas</q>, sed meam fidem et illam veterem amicitiam, qua te nemini secundum dilexi, <sic n="text.body.div.p.sic">cogita</sic> 
-               <s n="text.body.div.p.s1" type="versus">
-                  <sic n="text.body.div.p.s1.sic">mutatus</sic>, neque enim possum aut mutarier unquam.</s> 
-               <s n="text.body.div.p.s2" type="versus">Non ego nunc alio mobilis axe volo;</s> 
-               <s n="text.body.div.p.s3" type="versus">magna fides nostro, constantia pectore magna est.</s> 
-               <s n="text.body.div.p.s4" type="versus">Desero nec subito, nec temere incipio;</s> 
-               <s n="text.body.div.p.s5" type="versus">te quoque mutari nequaquam posse putamus,</s> 
-               <s n="text.body.div.p.s6" type="versus">quilibet adfectus mutuus esse solet.</s> Si tamen in scribendis epistolis ut negligentiorem accusas, eo minus condemnari debeo, quod eiusdem criminis reus teneris. Sed quia res est inter amicos, facilior est venia quam culpa, praesertim quod ego te et tu me ita perhumane habuimus, ut alter in altero magis quam in se et accusari et condemnari posset. Sed quia veniae facilitas in hac re vix amicorum est, quod tam diu siluimus, non invicem redargui, non irasci, non est (ut opinor), non est vehementer amantium. Quare tibi succenseo, te familiarius accuso, eo magis, quo maior es amicus accusandum quod tandiu ne unam quidem litteram abs te. Quod crimen nihil est quod excusare possit praeter tuas et plures et longiores litteras. Quod officium non rependi non modo erit negligentis sed etiam ingrati. Neque me audias, neque te exorari sinas si non utriusque criminis vel solam suspitionem crebriores et copiosae litterae meae deprecabuntur atque ita (dii faxint) ut neque meum, neque tuum aliter possit redimi silentium. Quare ego incensus sum totis viribus operam dare quo litteris quas nunc multum desideras explearis. Interim de meis rebus paucis accipe: quod illud praediolum insulare ultra mille aureos vendiderim et hoc sorti meae accessit, immo tuae, nam mea tua sunt atque ideo tibi illa minus offero: quis enim tibi tua offerat? Quod si me iocari putas, periculum fac, videbis me totum et res meas in tuo censu esse. De publicis rebus habe: duas crinitas quas quidem cometas vocant sub septentrione moveri ex illo genere quas breviores et in mucrones fastigiatas xiphias appellant. Quid mali portendant nescio, tamen altera sese in partes orientis altera in meridiem iaculatur. Sunt qui dicant Imperatori Turcae mortem nunciari, nam eiusdem coloris est quo et stella, hoc est chryseus. Ita graviter aegrotat, neque Turcae a tumultu temperant. Duos etiam ex libertis quos Bassalarios vocant qui vestibulo regis assident et ad ipsum res quotidianas referunt a tribunali suo motos exauctoratosque crebri rumores dissipant et Arsacis Alisophi oratores non admissos. Reliquum est ut me <persName n="text.body.div.p.persName1">Marino Barbo</persName> et <persName n="text.body.div.p.persName2">Traiano Bollano</persName> meis patronis commendes. </p>
-            <closer n="text.body.div.closer">
-                    <salute n="text.body.div.closer.salute">Vale. </salute>
-                    <dateline n="text.body.div.closer.dateline">Datum Rhacusae <date n="text.body.div.closer.dateline.date" when="1506-08-11">MDVI <num n="text.body.div.closer.dateline.date.num" value="3">III</num> Idus Sextiles</date>.</dateline>
+            <opener n="opener2">Aelius Lampridius Cervinus poeta laureatus Mario Bonae salutem. </opener>
+            <p n="p3">Noli me ex officio literam extimare: hoc enim vel inimicis praestatur, quod vel pueris vulgatum est, siquidem et illi cantant: <q n="q1">Inspicit acceptas hostis ab hoste notas</q>, sed meam fidem et illam veterem amicitiam, qua te nemini secundum dilexi, <sic n="sic2">cogita</sic> 
+               <s n="s3" type="versus">
+                  <sic n="sic1">mutatus</sic>, neque enim possum aut mutarier unquam.</s> 
+               <s n="s4" type="versus">Non ego nunc alio mobilis axe volo;</s> 
+               <s n="s5" type="versus">magna fides nostro, constantia pectore magna est.</s> 
+               <s n="s6" type="versus">Desero nec subito, nec temere incipio;</s> 
+               <s n="s7" type="versus">te quoque mutari nequaquam posse putamus,</s> 
+               <s n="s8" type="versus">quilibet adfectus mutuus esse solet.</s> Si tamen in scribendis epistolis ut negligentiorem accusas, eo minus condemnari debeo, quod eiusdem criminis reus teneris. Sed quia res est inter amicos, facilior est venia quam culpa, praesertim quod ego te et tu me ita perhumane habuimus, ut alter in altero magis quam in se et accusari et condemnari posset. Sed quia veniae facilitas in hac re vix amicorum est, quod tam diu siluimus, non invicem redargui, non irasci, non est (ut opinor), non est vehementer amantium. Quare tibi succenseo, te familiarius accuso, eo magis, quo maior es amicus accusandum quod tandiu ne unam quidem litteram abs te. Quod crimen nihil est quod excusare possit praeter tuas et plures et longiores litteras. Quod officium non rependi non modo erit negligentis sed etiam ingrati. Neque me audias, neque te exorari sinas si non utriusque criminis vel solam suspitionem crebriores et copiosae litterae meae deprecabuntur atque ita (dii faxint) ut neque meum, neque tuum aliter possit redimi silentium. Quare ego incensus sum totis viribus operam dare quo litteris quas nunc multum desideras explearis. Interim de meis rebus paucis accipe: quod illud praediolum insulare ultra mille aureos vendiderim et hoc sorti meae accessit, immo tuae, nam mea tua sunt atque ideo tibi illa minus offero: quis enim tibi tua offerat? Quod si me iocari putas, periculum fac, videbis me totum et res meas in tuo censu esse. De publicis rebus habe: duas crinitas quas quidem cometas vocant sub septentrione moveri ex illo genere quas breviores et in mucrones fastigiatas xiphias appellant. Quid mali portendant nescio, tamen altera sese in partes orientis altera in meridiem iaculatur. Sunt qui dicant Imperatori Turcae mortem nunciari, nam eiusdem coloris est quo et stella, hoc est chryseus. Ita graviter aegrotat, neque Turcae a tumultu temperant. Duos etiam ex libertis quos Bassalarios vocant qui vestibulo regis assident et ad ipsum res quotidianas referunt a tribunali suo motos exauctoratosque crebri rumores dissipant et Arsacis Alisophi oratores non admissos. Reliquum est ut me <persName n="persName9">Marino Barbo</persName> et <persName n="persName10">Traiano Bollano</persName> meis patronis commendes. </p>
+            <closer n="closer4">
+                    <salute n="salute1">Vale. </salute>
+                    <dateline n="dateline2">Datum Rhacusae <date n="date1" when="1506-08-11">MDVI <num n="num1" value="3">III</num> Idus Sextiles</date>.</dateline>
             </closer>
             
         </div>

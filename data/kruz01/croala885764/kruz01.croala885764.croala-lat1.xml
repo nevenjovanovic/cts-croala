@@ -105,6 +105,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -170,23 +184,23 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:kruz01.croala885764.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div type="prosa-epistula" n="text.body.div">
+        <body n="body1">
+            <div type="prosa-epistula" n="div1">
 
-                <head n="text.body.div.head">XII/3 <date n="text.body.div.head.date" when="1526-01-30">1526. 30. Januarii</date>, Segniae Petrus Crusich capitaneus Segniae Clementi
+                <head n="head1">XII/3 <date n="date1" when="1526-01-30">1526. 30. Januarii</date>, Segniae Petrus Crusich capitaneus Segniae Clementi
                     papae VII.</head>
 
 
-                <note n="text.body.div.note1" resp="BJ">Segr. Stato, Principi, 1, f. 75–76. Sigillo annulari papyro
+                <note n="note2" resp="BJ">Segr. Stato, Principi, 1, f. 75–76. Sigillo annulari papyro
                     tecto</note>
 
-                <opener n="text.body.div.opener">
-               <note n="text.body.div.opener.note" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Beatissimo
+                <opener n="opener3">
+               <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Beatissimo
                     ac Sanctissimo domino nostro pape [Altera manu:] Comitis Petri Krusich Segnio
                     penultima Ianuarii Regestum XIX Februarii Post beatorum oscula pedum. Beatissime
                     pater et domine, domine universalis ecclesie ac in meis tribulationibus pater et
                     protector meus singularissimus!</opener>
-                <p n="text.body.div.p">Magnam mihi et toti huic patrie Vestre Sanctitatis circa castrum Clissÿ provisio
+                <p n="p4">Magnam mihi et toti huic patrie Vestre Sanctitatis circa castrum Clissÿ provisio
                     facta attulit iucunditatem, contentor etiam de hoc bono viro, Vestre Sanctitatis
                     nunctio, quem existimo Vestre Sanctitati ad votum serviturum et huius castri
                     comodis, necessariis profuturum. Preterea, Pater Sancte, quod in omnibus
@@ -197,8 +211,8 @@
                     retulissem, et qualiter castrum Clissy ultra (propter neglectam circa me
                     provisionem) nullo modo tenere valeo, Vestra Sanctitas mihi mandare voluit,
                     quatinus illud dimittere non deberem eo, quod Vestra Sanctitas de illo cito
-                    provisionem <note n="text.body.div.p.note" resp="BJ">18 Desideratur versus unus. </note>
-                    <milestone n="text.body.div.p.milestone" unit="page"/> factura esset et sic, Pater Sancte, nunquam ulterius
+                    provisionem <note n="note1" resp="BJ">18 Desideratur versus unus. </note>
+                    <milestone n="milestone2" unit="page"/> factura esset et sic, Pater Sancte, nunquam ulterius
                     illius cura suscepissem, si Vestre Sanctitais mandatis (cui reluctare nephas
                     est) astrictus non fuissem. Postquam itaque a Vestra discessi Sanctitate his
                     quatuor mensibus castrum prefatum et si difficulter sustinui, quaedam pignora
@@ -212,12 +226,12 @@
                     notificare Maiestati Regie, domino meo gratioso, ne interim castrum aliquid
                     periculum pati contingat, ut et Regia Maiestas a solita non desistat provisione,
                     ut enim Maiestas Regia putabit, quod Sanctitas Vestra in toto illius castri
-                    necessariis providit. Insuper <sic n="text.body.div.p.sic">asueti</sic> sunt ibidem Clissÿ aliquot
+                    necessariis providit. Insuper <sic n="sic3">asueti</sic> sunt ibidem Clissÿ aliquot
                     teneri equites, prout omnia hec Vestre Sanctitatis nunctius vidit latiusque
                     ecclesie scribere potuit. Praeterea, quod annis elapsis Maiestas Regia, dominus
                     meus gratiosus parvam erga me provisionem fecit nec salaria debita mihi dedit,
                     Maiestas Regia hoc anno pene nullam de salario meo fecit mihi provisionem et cum
-                    ab amicis <gap n="text.body.div.p.gap" reason="lacuna"/>19 solicitus scisitassem, relatum habui, quod
+                    ab amicis <gap n="gap4" reason="lacuna"/>19 solicitus scisitassem, relatum habui, quod
                     Regia Maiestas habet in opinione, qualiter Vestra Sanctitas tum persone mee, tum
                     etiam servitoribus meis, quos in 4or castris teneo, sufficientem de salario meo
                     fecisset provisionem. Ideo humili prece, qua possum, amore Dei et servitorum
@@ -229,14 +243,14 @@
                     gratiam acceptare apud maiestatem suam servitia mea non dubito. Huiusmodi autem
                     litteras Regiae Maiestatis deferendas Vestra Sanctitas ad me cito mittere velit,
                     eo quod solus maiestatem suam, quam citius eas habuero, accedere intendo.</p>
-                <closer n="text.body.div.closer">In hiis et omnibus aliis Vestre Sanctitati tamquam domino meo gratiosisssimo
+                <closer n="closer5">In hiis et omnibus aliis Vestre Sanctitati tamquam domino meo gratiosisssimo
                     me humillime commendo. Ex Segnia, penultima Januarii 1526. Eius Vestre
                     Sanctitatis humillimus servitor Petrus Crusith capitaneus Segnie et comes
                     Clissie </closer>
 
-                <note n="text.body.div.note2" resp="BJ">19 Verbum unum – in longitudine circiter 1 cm – illegibile.</note>
+                <note n="note6" resp="BJ">19 Verbum unum – in longitudine circiter 1 cm – illegibile.</note>
 
-                <milestone n="text.body.div.milestone" unit="page"/>
+                <milestone n="milestone7" unit="page"/>
             </div>
         </body>
     </text>

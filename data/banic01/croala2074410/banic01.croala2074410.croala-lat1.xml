@@ -90,6 +90,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
        <profileDesc xml:id="banicevicponchier15100501">
          <abstract>
@@ -148,15 +162,15 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:banic01.croala2074410.croala-lat1:" xml:lang="lat" type="prosa">
     
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-epistula" corresp="#banicevicponchier15100501">
-            <opener n="text.body.div.opener">
+      <body n="body1">
+         <div n="div1" type="prosa-epistula" corresp="#banicevicponchier15100501">
+            <opener n="opener1">
             Jacobus Bannicius a Caesareis secretis Stephano Ponchierio Reverendissimo Episcopo Parisiensi salutem.
     </opener>    
-            <p n="text.body.div.p"> 
-               <persName n="text.body.div.p.persName">Ludovicus Helianus</persName>, qui a Christianissimo Francorum Rege vestro hic apud invictissimum Caesarem nostrum oratorem agit, habuit orationem de Caesare, proceribus Germanisque omnibus adversus Venetianos ac Turcas concitandis, deque factiosis quibusdam concilium ac sanctissimam Principum confederationem interrumpere conantibus comprimendis. Non memini audire neque legere orationem nostra tempestate priscorum oratorum facundiae propius accedentem. Nam has nationes, maxime autem Caesarem ipsum ad id jam bellum incumbentem non delectavit modo, atque commovit, sed etiam affecit, et adversus illas gentes armorum ardore vehementer inflammavit, ac omnium concursantium conatus perfregit. Caesar voluit ut impressoribus ederetur. Ego sicuti dicta est, quae certe extemporanea est, pro ea, quae mihi tecum est gratia atque familiaritate eam ad te mitto, quem scio hoc dicendi genere delectari, <expan n="text.body.div.p.expan1">et</expan> pollere, <expan n="text.body.div.p.expan2">et</expan> plurimum posse.      
+            <p n="p2"> 
+               <persName n="persName1">Ludovicus Helianus</persName>, qui a Christianissimo Francorum Rege vestro hic apud invictissimum Caesarem nostrum oratorem agit, habuit orationem de Caesare, proceribus Germanisque omnibus adversus Venetianos ac Turcas concitandis, deque factiosis quibusdam concilium ac sanctissimam Principum confederationem interrumpere conantibus comprimendis. Non memini audire neque legere orationem nostra tempestate priscorum oratorum facundiae propius accedentem. Nam has nationes, maxime autem Caesarem ipsum ad id jam bellum incumbentem non delectavit modo, atque commovit, sed etiam affecit, et adversus illas gentes armorum ardore vehementer inflammavit, ac omnium concursantium conatus perfregit. Caesar voluit ut impressoribus ederetur. Ego sicuti dicta est, quae certe extemporanea est, pro ea, quae mihi tecum est gratia atque familiaritate eam ad te mitto, quem scio hoc dicendi genere delectari, <expan n="expan2">et</expan> pollere, <expan n="expan3">et</expan> plurimum posse.      
     </p>
-            <closer n="text.body.div.closer">Bene vale. <dateline n="text.body.div.closer.dateline">Ex Augusta Vindelica Cal. Maijs. M. D. X.</dateline>
+            <closer n="closer3">Bene vale. <dateline n="dateline1">Ex Augusta Vindelica Cal. Maijs. M. D. X.</dateline>
             </closer>
  
          </div>

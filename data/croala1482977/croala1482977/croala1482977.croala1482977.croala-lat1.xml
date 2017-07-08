@@ -86,6 +86,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -136,99 +150,99 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:croala1482977.croala1482977.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb1"/>
-         <div n="text.body.div1" type="poesis-epigramma" xml:id="chrys-vd01" met="elegiacum">
-            <head n="text.body.div1.head">Chrysogonus Caballinum sibi conciliat.</head>
-            <l n="text.body.div1.l1">Te licet audiuerim celebrem uirtute putabam</l>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="poesis-epigramma" xml:id="chrys-vd01" met="elegiacum">
+            <head n="head1">Chrysogonus Caballinum sibi conciliat.</head>
+            <l n="l2">Te licet audiuerim celebrem uirtute putabam</l>
              
-            <l n="text.body.div1.l2" met="pentameter">Histius tantum temporis esse uirum.</l>
+            <l n="l3" met="pentameter">Histius tantum temporis esse uirum.</l>
              
-            <l n="text.body.div1.l3">At simulac sensi, postquam sentire loquentem</l>
+            <l n="l4">At simulac sensi, postquam sentire loquentem</l>
              
-            <l n="text.body.div1.l4" met="pentameter">Accidit, extemplo mens mea uersa fuit.</l>
+            <l n="l5" met="pentameter">Accidit, extemplo mens mea uersa fuit.</l>
              
-            <l n="text.body.div1.l5">Admirans dixi perculso corde stupore</l>
+            <l n="l6">Admirans dixi perculso corde stupore</l>
              
-            <l n="text.body.div1.l6" met="pentameter">Nascitur hic certe Belorophontis aquis,</l>
+            <l n="l7" met="pentameter">Nascitur hic certe Belorophontis aquis,</l>
              
-            <l n="text.body.div1.l7">Ipse coturnati calamos tetigisse Maronis</l>
+            <l n="l8">Ipse coturnati calamos tetigisse Maronis</l>
              
-            <l n="text.body.div1.l8" met="pentameter">Apparet, uoces ipse Platonis habet.</l>
+            <l n="l9" met="pentameter">Apparet, uoces ipse Platonis habet.</l>
              
-            <l n="text.body.div1.l9">Hunc reor Arpinas, Fabri quoque filius ingens</l>
+            <l n="l10">Hunc reor Arpinas, Fabri quoque filius ingens</l>
              
-            <l n="text.body.div1.l10" met="pentameter">Orator Danaum, quin super esse queant</l>
+            <l n="l11" met="pentameter">Orator Danaum, quin super esse queant</l>
              
-            <l n="text.body.div1.l11">Nunc precor ut tantum non dedigneris amicum,</l>
+            <l n="l12">Nunc precor ut tantum non dedigneris amicum,</l>
              
-            <l n="text.body.div1.l12" met="pentameter">Quem peperit uirtus, me numerare tuum.</l>
+            <l n="l13" met="pentameter">Quem peperit uirtus, me numerare tuum.</l>
              
          </div>
-         <pb n="text.body.pb2"/>
-         <div n="text.body.div2" type="poesis-epigramma" xml:id="cab-vd01" met="elegiacum">
-            <head n="text.body.div2.head">Caballinus Chrysogono suo</head>
-            <l n="text.body.div2.l1">Chrysogone, immodicis mensuram laudibus adde</l>
+         <pb n="pb3"/>
+         <div n="div4" type="poesis-epigramma" xml:id="cab-vd01" met="elegiacum">
+            <head n="head1">Caballinus Chrysogono suo</head>
+            <l n="l2">Chrysogone, immodicis mensuram laudibus adde</l>
              
-            <l n="text.body.div2.l2" met="pentameter">Si uis iudiciis pondus inesse tuis.</l>
+            <l n="l3" met="pentameter">Si uis iudiciis pondus inesse tuis.</l>
              
-            <l n="text.body.div2.l3">Laudibus adde modum; <expan n="text.body.div2.l3.expan">quam</expan> falsa infamia ledit,</l>
+            <l n="l4">Laudibus adde modum; <expan n="expan1">quam</expan> falsa infamia ledit,</l>
              
-            <l n="text.body.div2.l4" met="pentameter"> Tam non verus honor; laudibus adde modum.</l>
+            <l n="l5" met="pentameter"> Tam non verus honor; laudibus adde modum.</l>
              
-            <l n="text.body.div2.l5">Dum tu me Andino certas aequare Maroni</l>
+            <l n="l6">Dum tu me Andino certas aequare Maroni</l>
              
-            <l n="text.body.div2.l6" met="pentameter"> Non uideo tibi sim <expan n="text.body.div2.l6.expan">quam</expan> bene notus ego.</l>
+            <l n="l7" met="pentameter"> Non uideo tibi sim <expan n="expan1">quam</expan> bene notus ego.</l>
              
-            <l n="text.body.div2.l7">Quis Laerciadę, Demostenis, et Ciceronis</l>
+            <l n="l8">Quis Laerciadę, Demostenis, et Ciceronis</l>
              
-            <l n="text.body.div2.l8" met="pentameter"> Aut quis diuini verba Platonis habet?</l>
+            <l n="l9" met="pentameter"> Aut quis diuini verba Platonis habet?</l>
              
-            <l n="text.body.div2.l9">Tu tamen illa mihi tribuis, <expan n="text.body.div2.l9.expan">censesque</expan> canendo</l>
+            <l n="l10">Tu tamen illa mihi tribuis, <expan n="expan1">censesque</expan> canendo</l>
              
-            <l n="text.body.div2.l10" met="pentameter"> Iampridem antiquis uatibus esse parem.</l>
+            <l n="l11" met="pentameter"> Iampridem antiquis uatibus esse parem.</l>
              
-            <l n="text.body.div2.l11">Non ita me miror: nec sum tibi credulus ista;</l>
+            <l n="l12">Non ita me miror: nec sum tibi credulus ista;</l>
              
-            <l n="text.body.div2.l12" met="pentameter"> Parte: meis <corr n="text.body.div2.l12.corr">malo</corr> fidere iudiciis.</l>
+            <l n="l13" met="pentameter"> Parte: meis <corr n="corr1">malo</corr> fidere iudiciis.</l>
              
-            <l n="text.body.div2.l13">Vel tibi maiestas ueterum est ignota <expan n="text.body.div2.l13.expan">uirorum</expan>
+            <l n="l14">Vel tibi maiestas ueterum est ignota <expan n="expan1">uirorum</expan>
             </l>
              
-            <l n="text.body.div2.l14" met="pentameter"> Vel censere pium <corr n="text.body.div2.l14.corr">talia</corr> cogit amor</l>
+            <l n="l15" met="pentameter"> Vel censere pium <corr n="corr1">talia</corr> cogit amor</l>
              
-            <l n="text.body.div2.l15">Cogat amor quod vult, si vis ut digner amicum</l>
+            <l n="l16">Cogat amor quod vult, si vis ut digner amicum</l>
              
-            <l n="text.body.div2.l16" met="pentameter">
-               <expan n="text.body.div2.l16.expan">Parque</expan> pari referam, laudibus adde modum.</l>
+            <l n="l17" met="pentameter">
+               <expan n="expan1">Parque</expan> pari referam, laudibus adde modum.</l>
              
          </div>
-         <div n="text.body.div3" type="poesis-epigramma" xml:id="chrys-vd02" met="elegiacum">
-            <head n="text.body.div3.head">Chrysogonus Caballino.</head>
-            <l n="text.body.div3.l1">Carmina perturbas quae nos tibi lusimus, ortum</l>
+         <div n="div5" type="poesis-epigramma" xml:id="chrys-vd02" met="elegiacum">
+            <head n="head1">Chrysogonus Caballino.</head>
+            <l n="l2">Carmina perturbas quae nos tibi lusimus, ortum</l>
              
-            <l n="text.body.div3.l2" met="pentameter">Vnguigenis undis te tamen esse siles.</l>
+            <l n="l3" met="pentameter">Vnguigenis undis te tamen esse siles.</l>
              
-            <l n="text.body.div3.l3">Annuis hoc igitur; firmum puto quodque siletur</l>
+            <l n="l4">Annuis hoc igitur; firmum puto quodque siletur</l>
              
-            <l n="text.body.div3.l4" met="pentameter">Vt dictum cunctis gentibus ore sonat.</l>
+            <l n="l5" met="pentameter">Vt dictum cunctis gentibus ore sonat.</l>
              
-            <pb n="text.body.div3.pb"/>
-            <l n="text.body.div3.l5">Quare autem, doctas inter generate Camoenas,</l>
+            <pb n="pb6"/>
+            <l n="l7">Quare autem, doctas inter generate Camoenas,</l>
              
-            <l n="text.body.div3.l6" met="pentameter">Vatibus antiquis de grege iunctus abis?</l>
+            <l n="l8" met="pentameter">Vatibus antiquis de grege iunctus abis?</l>
              
-            <l n="text.body.div3.l7">An tibi nascenti Phaetontis maestus Apollo</l>
+            <l n="l9">An tibi nascenti Phaetontis maestus Apollo</l>
              
-            <l n="text.body.div3.l8" met="pentameter">Morte sui offitii ferre nequiuit opem?</l>
+            <l n="l10" met="pentameter">Morte sui offitii ferre nequiuit opem?</l>
              
-            <l n="text.body.div3.l9">Forsitan et Bachus graciles profectus ad Indos</l>
+            <l n="l11">Forsitan et Bachus graciles profectus ad Indos</l>
              
-            <l n="text.body.div3.l10" met="pentameter">Defuit, auxilium Pieridumque bonum.</l>
+            <l n="l12" met="pentameter">Defuit, auxilium Pieridumque bonum.</l>
              
-            <l n="text.body.div3.l11">Ille quoque in terris non apparebat Atlantis</l>
+            <l n="l13">Ille quoque in terris non apparebat Atlantis</l>
              
-            <l n="text.body.div3.l12" met="pentameter">Ille nepos, fandi quo doceare modum?</l>
+            <l n="l14" met="pentameter">Ille nepos, fandi quo doceare modum?</l>
              
          </div>
       </body>

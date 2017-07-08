@@ -87,6 +87,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc xml:id="djurdjevicsalines">
          <abstract>
@@ -141,15 +155,15 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:djurdjev02.croala1492502.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-epistula" corresp="#djurdjevicsalines">
-            <opener n="text.body.div.opener">Januario Salines Suo <abbr n="text.body.div.opener.abbr">S. P. D.</abbr>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-epistula" corresp="#djurdjevicsalines">
+            <opener n="opener1">Januario Salines Suo <abbr n="abbr1">S. P. D.</abbr>
             </opener>
-            <p n="text.body.div.p">Forte quid agam, certior fieri velis. Obsequar igitur. Melita Insula in Adriatico mari decimo milliario recedit a Continente. Huc Paulum Apostolum olim enatasse multorum opinio est. Hoc in recessu Opianum Graeca Poesi sub Imperatore Septimio Severo florentem sua Halieutica conscripsisse ipsa ejus aedium magnifica rudera, et spirantes sanctissimam vetustatem reliquiae testantur. Hic nunc ago in delicatissimo littore. Disce loci ingenium. Sinus maris patet in Insula, qua vergit ad occidentem, arctissimis faucibus: mox in craterem dilatatur, quaquaversum collibus, ac pineis sylvis circumseptum. Arbores e summo ad mare usque descendunt, et inumbrant littora : ut si cimba secundum crepidinem circumquaque deducaris, per sylvam naviges. Pronae radices, ac rami aquis immerguntur, ad quos cumulata ostrea adhaerescere videas, et sine negotio, ceu poma arborum carpas. Pellucet aequor in speculi morem; (nam clausus undique, raro ventis agitatur) lususque varios piscium, ac omnigenam conchiliorum speciem exhibet, toto fundo disseminatam. Hic capiuntur mulli trilibres, hic immodicae locustae, et pisces, quibus antiqua caenarum luxuries prae caeteris nomen fecit. Juro tibi, et ex intimo sensu, hic plurima arte melior nativa amoenitas contulit. Habeant sibi alii sudata, ac miranda artificia, nobis se tota indulget suis opibus satis compta natura. In medio sinu jacet parva Insula <pb n="text.body.div.p.pb"/> culta quidem, ac velut circino circumscripta, ubi Coenobium nostrum eminet, vestro isto Neapolitano et mole et opibus longe minus: at opportunitate ac deliciis praestans. De fenestra cubiculi praedari pisces licet, vel capi a famulis cernere. Si venatus avium arriserit, proxime sylva est. Ornato phaselo noctu etiam vehimur, et ad flabellum nocturni zephyri per aestatem saepe in medio mari inter synphoniacos caenamus. Amici urbani non raro adsunt: ludimus, jocamur, ridemus. Paucis dicam : mihi vaco, et Musis. Utinam addi deliciis meis summa posset, ut te hic, mi Januari, et reliquos meos suavissimos Auditores aliquando, et aliquandiu sperarem complecti, atque loci indulgentia oblectare. Verum nescimus, quid Vesper serus vehat: longa dies plurima nec sperata parturit. </p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">Vale.</salute>
-               <signed n="text.body.div.closer.signed">Ignatius Giorgi.</signed>
+            <p n="p2">Forte quid agam, certior fieri velis. Obsequar igitur. Melita Insula in Adriatico mari decimo milliario recedit a Continente. Huc Paulum Apostolum olim enatasse multorum opinio est. Hoc in recessu Opianum Graeca Poesi sub Imperatore Septimio Severo florentem sua Halieutica conscripsisse ipsa ejus aedium magnifica rudera, et spirantes sanctissimam vetustatem reliquiae testantur. Hic nunc ago in delicatissimo littore. Disce loci ingenium. Sinus maris patet in Insula, qua vergit ad occidentem, arctissimis faucibus: mox in craterem dilatatur, quaquaversum collibus, ac pineis sylvis circumseptum. Arbores e summo ad mare usque descendunt, et inumbrant littora : ut si cimba secundum crepidinem circumquaque deducaris, per sylvam naviges. Pronae radices, ac rami aquis immerguntur, ad quos cumulata ostrea adhaerescere videas, et sine negotio, ceu poma arborum carpas. Pellucet aequor in speculi morem; (nam clausus undique, raro ventis agitatur) lususque varios piscium, ac omnigenam conchiliorum speciem exhibet, toto fundo disseminatam. Hic capiuntur mulli trilibres, hic immodicae locustae, et pisces, quibus antiqua caenarum luxuries prae caeteris nomen fecit. Juro tibi, et ex intimo sensu, hic plurima arte melior nativa amoenitas contulit. Habeant sibi alii sudata, ac miranda artificia, nobis se tota indulget suis opibus satis compta natura. In medio sinu jacet parva Insula <pb n="pb1"/> culta quidem, ac velut circino circumscripta, ubi Coenobium nostrum eminet, vestro isto Neapolitano et mole et opibus longe minus: at opportunitate ac deliciis praestans. De fenestra cubiculi praedari pisces licet, vel capi a famulis cernere. Si venatus avium arriserit, proxime sylva est. Ornato phaselo noctu etiam vehimur, et ad flabellum nocturni zephyri per aestatem saepe in medio mari inter synphoniacos caenamus. Amici urbani non raro adsunt: ludimus, jocamur, ridemus. Paucis dicam : mihi vaco, et Musis. Utinam addi deliciis meis summa posset, ut te hic, mi Januari, et reliquos meos suavissimos Auditores aliquando, et aliquandiu sperarem complecti, atque loci indulgentia oblectare. Verum nescimus, quid Vesper serus vehat: longa dies plurima nec sperata parturit. </p>
+            <closer n="closer3">
+               <salute n="salute1">Vale.</salute>
+               <signed n="signed2">Ignatius Giorgi.</signed>
             </closer>
          </div>
       </body>

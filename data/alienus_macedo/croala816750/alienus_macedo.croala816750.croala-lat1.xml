@@ -88,6 +88,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -131,17 +142,17 @@
   </teiHeader>
   <text xml:base="urn:cts:croala:alienus_macedo.croala816750.croala-lat1:" xml:lang="lat">
     
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <milestone unit="page" n="text.body.milestone"/>
-        <div n="text.body.div" type="poesis-epigramma" met="elegiacum">
-            <head n="text.body.div.head">Ad Dominicum Aurium equitem ornatissimum.</head>
-            <byline n="text.body.div.byline">Stanislaus Marullus Macedo.</byline>
+      <body n="body1">
+         <pb n="pb1"/>
+         <milestone unit="page" n="milestone2"/>
+        <div n="div3" type="poesis-epigramma" met="elegiacum">
+            <head n="head1">Ad Dominicum Aurium equitem ornatissimum.</head>
+            <byline n="byline2">Stanislaus Marullus Macedo.</byline>
           
-            <l n="text.body.div.l1">Pyramon et Thisben, victuri exemplar amoris,</l>
-            <l n="text.body.div.l2" met="pentameter">dum resonas patriis, Dalmata, carminibus,</l>
-            <l n="text.body.div.l3">audit et haec Phoebus. Babilon, concede Rhacusae,</l>
-            <l n="text.body.div.l4" met="pentameter">et tu (si pudor est), Naso Latine, sile.</l>
+            <l n="l3">Pyramon et Thisben, victuri exemplar amoris,</l>
+            <l n="l4" met="pentameter">dum resonas patriis, Dalmata, carminibus,</l>
+            <l n="l5">audit et haec Phoebus. Babilon, concede Rhacusae,</l>
+            <l n="l6" met="pentameter">et tu (si pudor est), Naso Latine, sile.</l>
         </div>
       </body>
   </text>

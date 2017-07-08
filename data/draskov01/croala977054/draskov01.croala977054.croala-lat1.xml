@@ -96,6 +96,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         
         <profileDesc xml:id="jdraskovichorvat15560814">
@@ -170,21 +187,21 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:draskov01.croala977054.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div n="text.body.div" type="prosa-epistula" corresp="#jdraskovichorvat15560814">
+        <body n="body1">
+            <div n="div1" type="prosa-epistula" corresp="#jdraskovichorvat15560814">
                 
-                <milestone n="text.body.div.milestone" unit="page" facs="jurajdraskovic/episthorv/1557draskovicepisthorv.jpeg"/>
-                 <opener n="text.body.div.opener">
-               <salute n="text.body.div.opener.salute">Egregie domine et amice nobis honorande, salutem et nostri commendationem.</salute>
+                <milestone n="milestone1" unit="page" facs="jurajdraskovic/episthorv/1557draskovicepisthorv.jpeg"/>
+                 <opener n="opener2">
+               <salute n="salute1">Egregie domine et amice nobis honorande, salutem et nostri commendationem.</salute>
             </opener> 
-            <p n="text.body.div.p">Conservationi arcis <placeName n="text.body.div.p.placeName">Zygeth</placeName> et omnium in ea existentium valde gratulor, sed tanto magis, quia <expan n="text.body.div.p.expan">Dominationem</expan> vestram videmus esse florem nostrae nationis, eo quod eadem Croata est. Decoravit enim Dominatio vestra non solum se hoc suo celebri facto, sed et nos omnes Croatas. Quamobrem cum Deus optimus maximus eandem huc adtulerit, si qua in re eadem nostra opera uti voluerit, nos semper sibi paratissimos habebit, quęque eiusdem causa subire. Quam una cum reliquis isthic existentibus feliciter conservari optamus.</p> 
-            <closer n="text.body.div.closer">
-               <dateline n="text.body.div.closer.dateline">Datum Viennę 14 Augusti 1556.</dateline> 
+            <p n="p3">Conservationi arcis <placeName n="placeName1">Zygeth</placeName> et omnium in ea existentium valde gratulor, sed tanto magis, quia <expan n="expan2">Dominationem</expan> vestram videmus esse florem nostrae nationis, eo quod eadem Croata est. Decoravit enim Dominatio vestra non solum se hoc suo celebri facto, sed et nos omnes Croatas. Quamobrem cum Deus optimus maximus eandem huc adtulerit, si qua in re eadem nostra opera uti voluerit, nos semper sibi paratissimos habebit, quęque eiusdem causa subire. Quam una cum reliquis isthic existentibus feliciter conservari optamus.</p> 
+            <closer n="closer4">
+               <dateline n="dateline1">Datum Viennę 14 Augusti 1556.</dateline> 
                 
-                <signed n="text.body.div.closer.signed">Vestre dominationis 
+                <signed n="signed2">Vestre dominationis 
                 frater et amicus 
                 Georgius Draskowyth 
-                <abbr n="text.body.div.closer.signed.abbr">m. p.</abbr>
+                <abbr n="abbr1">m. p.</abbr>
                </signed>
             </closer> 
                 

@@ -79,6 +79,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -113,36 +124,36 @@
       </profileDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:benes01.croala512181.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="poesis-epigramma" met="hendecasyllabus">
-            <head n="text.body.div.head">Ad Alesum Abbatem</head>
-            <l n="text.body.div.l1">        Quotquot littore uel fuere nostro,</l>
+      <body n="body1">
+         <div n="div1" type="poesis-epigramma" met="hendecasyllabus">
+            <head n="head1">Ad Alesum Abbatem</head>
+            <l n="l2">        Quotquot littore uel fuere nostro,</l>
              
-            <l n="text.body.div.l2">        Vel sunt, aut aliis erunt in annis,</l>
+            <l n="l3">        Vel sunt, aut aliis erunt in annis,</l>
              
-            <l n="text.body.div.l3">        Cunctarum pater eruditionum,</l>
+            <l n="l4">        Cunctarum pater eruditionum,</l>
              
-            <l n="text.body.div.l4">        Et qui quotidie referre pergis</l>
+            <l n="l5">        Et qui quotidie referre pergis</l>
              
-            <l n="text.body.div.l5">        Quantos Illyricum priore saeclo</l>
+            <l n="l6">        Quantos Illyricum priore saeclo</l>
              
-            <l n="text.body.div.l6">        Nec nouisse latus puto lepores.</l>
+            <l n="l7">        Nec nouisse latus puto lepores.</l>
              
-            <l n="text.body.div.l7">        Istae sic oleae otium perenne</l>
+            <l n="l8">        Istae sic oleae otium perenne</l>
              
-            <l n="text.body.div.l8">        Componant tibi, laeserint nec Austri</l>
+            <l n="l9">        Componant tibi, laeserint nec Austri</l>
              
-            <l n="text.body.div.l9">        Vicinum nemus, ut queat trapetis</l>
+            <l n="l10">        Vicinum nemus, ut queat trapetis</l>
              
-            <l n="text.body.div.l10">        Felix solvere debitum laboris.</l>
+            <l n="l11">        Felix solvere debitum laboris.</l>
              
-            <l n="text.body.div.l11">        Neu celes modo de meis Camoenis</l>
+            <l n="l12">        Neu celes modo de meis Camoenis</l>
              
-            <l n="text.body.div.l12">        Quid, doctissime, senseris: Catullum</l>
+            <l n="l13">        Quid, doctissime, senseris: Catullum</l>
              
-            <l n="text.body.div.l13">        An quidquam redolent, Horatiumue?</l>
+            <l n="l14">        An quidquam redolent, Horatiumue?</l>
              
-            <l n="text.body.div.l14">        Mallem hoc, quam Lybias, utrumque et Indum.</l>
+            <l n="l15">        Mallem hoc, quam Lybias, utrumque et Indum.</l>
              
             </div>
       </body>

@@ -102,6 +102,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -187,49 +204,49 @@
    </teiHeader>
 
    <text xml:base="urn:cts:croala:skrl01.croala2041283.croala-lat1:" xml:lang="lat" type="epistula">
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-epistula">
-            <head n="text.body.div.head">12. <date n="text.body.div.head.date" when="1798-10-16">Jakovlye, 16. Octobris 1798.</date>
+      <body n="body1">
+         <div n="div1" type="prosa-epistula">
+            <head n="head1">12. <date n="date1" when="1798-10-16">Jakovlye, 16. Octobris 1798.</date>
             </head>
 
-            <opener n="text.body.div.opener">
+            <opener n="opener2">
 
-               <salute n="text.body.div.opener.salute">Chare amice!</salute>
+               <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="text.body.div.p1"> Quod<note n="text.body.div.p1.note1" place="end">
-                  <bibl n="text.body.div.p1.note1.bibl">(NAZ, EAE,vol. 115, nr. 81)</bibl>
-               </note> comes Amade coram duobus se declaraverit<note n="text.body.div.p1.note2" place="foot"> 12,1 declaraverit]
+            <p n="p3"> Quod<note n="note1" place="end">
+                  <bibl n="bibl1">(NAZ, EAE,vol. 115, nr. 81)</bibl>
+               </note> comes Amade coram duobus se declaraverit<note n="note2" place="foot"> 12,1 declaraverit]
      declaverit </note> se proximius futurum supremum comitem Comitatus Zagrabiensis et quod de
     praetensis comitatus huius disordinibus Budae et Pesthini declamaverit, tu ipse credes dum tibi
     reduci data, quae hac de re habeo, indicavero. Si bonam suam fidem sustinere voluit, poterat
     declarare, quod id ille tantum pro casu meae mortis intellexerit. Nunc dum rem adeo evidentem
     negat, immerito sane querulatur me in characterem suum iniurium fuisse.</p>
-            <p n="text.body.div.p2"> Ut ut sit de eo, si ego sentirem quod surdities mea me ab explendis muneris mei partibus re
+            <p n="p4"> Ut ut sit de eo, si ego sentirem quod surdities mea me ab explendis muneris mei partibus re
     ipsa impediat, ea sum honestate quod ego ipse iubilationem cum aliqua diuturni mei servitii
     remuneratione peterem. Nunc ad ipsa comitatus acta tuto possum provocare quod omnes
     administrationis publicae partes ad eum ordinem reduxerim, et porro etiam conservem, qui in
     paucis comitatibus viget. Probat hoc vel illud quod, qui me suffodere conantur, nullum
     specificum in aliqua administrationis parte defectum adferre sciant, sed vel falsos vel
     violenter detortos disordines mihi obiciant.</p>
-            <p n="text.body.div.p3"> Ego archivum in disornatissimo statu deprehendi, reduxi, et conservo illud in tali ordine qui
+            <p n="p5"> Ego archivum in disornatissimo statu deprehendi, reduxi, et conservo illud in tali ordine qui
     in nullo forte alio comitatu reperitur.</p>
-            <p n="text.body.div.p4"> Ego negotium contributionis ita intricatum deprehendi quod non nisi improbo per me ipsum
+            <p n="p6"> Ego negotium contributionis ita intricatum deprehendi quod non nisi improbo per me ipsum
     suscepto labore post triennium illud ad statum currentem reducere potuerim, in quo illud
     hodiedum conservo.</p>
-            <p n="text.body.div.p5"> Ego negotium viarum per commissariaticam administrationem ad merum arbitrium reductum ad
+            <p n="p7"> Ego negotium viarum per commissariaticam administrationem ad merum arbitrium reductum ad
     normalia principia revocavi et in his illud per celebrandam bis singulo anno viarum deputationem
     conservari procuro. Scio comiti Amade id etiam relatum fuisse quod processuales non attenta
     publica dispositione, quas ipsis lubet, vias reparari curent. Verum si vult, convincam ego illum
     per acta publica quod hoc perinde falsum sit, sicuti et illud quod acta particularium
     congregationum in generalibus non referantur.</p>
-            <milestone unit="page" n="text.body.div.milestone1"/>
-            <p n="text.body.div.p6"> Ego regulatum iudiciorum tam civilium quam et criminalium cursum per id sustineo quod seriem
+            <milestone unit="page" n="milestone8"/>
+            <p n="p9"> Ego regulatum iudiciorum tam civilium quam et criminalium cursum per id sustineo quod seriem
     utriusque ordinis causarum mihi quotannis exhiberi curem et, sicubi protellationem observem,
     procedentem urgere non intermittam.</p>
-            <p n="text.body.div.p7"> Denique ne negotia adhaereant, ego de congregatione ad congregationem scontro fieri curo et
+            <p n="p10"> Denique ne negotia adhaereant, ego de congregatione ad congregationem scontro fieri curo et
     cum impossibile sit, sicut in dicasteriis, ita etiam in comitatu, ne complures restantiae
     enascantur, ut illa adminus, quae urgentiora sunt, expediantur, omnimode adurgeo.</p>
-            <p n="text.body.div.p8"> Hi sunt quinque cardines circa quos publica comitatus administratio potissimum versatur.
+            <p n="p11"> Hi sunt quinque cardines circa quos publica comitatus administratio potissimum versatur.
     Ostendant mihi inimici quod in hos propter meam surditiem aliqui defectus arrepserint et ego
     victas dabo manus. Cum hoc non possint, illi alios vagos defectus mihi volunt imputare. Dicunt
     quod propter meam nimiam indulgentiam magistratuales, ac praesertim vicecomes et notarius, pro
@@ -241,64 +258,64 @@
     dicasteriis non servivissem, aut omnes momentosiores repraesentationes ipse non reviderem,
     posset me dubium subire an non id re ipsa quandoque evenerit. Nunc, si quae mihi repraesentatio
     in specifico obiciatur, paratus sum de singula eius expressione rationem reddere.</p>
-            <p n="text.body.div.p9"> Dicunt denique quod propter meam surditiem in congregationibus saepe ad personalitates
+            <p n="p12"> Dicunt denique quod propter meam surditiem in congregationibus saepe ad personalitates
     descendatur. Hoc vero una tantum vice evenit, in negotio Zamersiensi, in quo et ego et
     ordinarius vicecomes interessabar, in hoc enim tuus Petrovich et senator Spissich se mutuis
     conviciis re ipsa prosciderunt. Verum ut primum id ego intellexi, disposui continuo ut unus e
-    fiscalibus sessionibus continuo intersit et contra excedentem<note n="text.body.div.p9.note" place="foot"> 12,26
-     excedentem] <emph n="text.body.div.p9.note.emph">add. auctor</emph>
+    fiscalibus sessionibus continuo intersit et contra excedentem<note n="note1" place="foot"> 12,26
+     excedentem] <emph n="emph1">add. auctor</emph>
                </note> actionem violatae sedis continuo levet. Ab eo tempore nihil amplius eiusmodi contigit.
     Haec ad illa quae mihi speciose obiiciuntur.</p>
-            <milestone unit="page" n="text.body.div.milestone2"/>
-            <p n="text.body.div.p10"> Superest ut de illis, quae mihi peculiariter cordi sunt, institutis aliquid dicam. Ego
+            <milestone unit="page" n="milestone13"/>
+            <p n="p14"> Superest ut de illis, quae mihi peculiariter cordi sunt, institutis aliquid dicam. Ego
     collapsam paene sub commissariatica administratione rem sericeam ita restitui ut superiora
     dicasteria eius directionem etiam per reliquos duos comitatus superiores mihi concrediderint.
     Cum hac in re nemo eas notitias habere possit, quas ego, qui hoc negotium inde a triginta annis
     continuo ferme manipulo, nisi ego directionem hanc duobus adminus annis adhuc retineam et ad
     currentem pedem reducam, vereor admodum ne institutum hoc notabile capiat detrimentum.</p>
-            <p n="text.body.div.p11"> Cum intra unum aliumve annum omnes,<note n="text.body.div.p11.note" place="foot"> 12,32 <emph n="text.body.div.p11.note.emph1">post </emph> omnes
-      <emph n="text.body.div.p11.note.emph2">del. auctor verbum, fortasse </emph> conservatio </note> quae adhuc de novo erigi debent
+            <p n="p15"> Cum intra unum aliumve annum omnes,<note n="note1" place="foot"> 12,32 <emph n="emph1">post </emph> omnes
+      <emph n="emph2">del. auctor verbum, fortasse </emph> conservatio </note> quae adhuc de novo erigi debent
     viae terminandae sint, ego praeparatoria pro elaborando tali conservationis viarum plano, per
     quod erogatio cassae domesticae notabiliter diminuatur, iam futuro vere disponere constitui. Si
     loco movear, nescio an successori meo occursurae sint omnes ille ideae quas ego iam ordinatas
     habeo.</p>
-            <p n="text.body.div.p12"> Negotium cassae xenodochialis mea industria eo perductum est quod, si benigna resolutio circa
+            <p n="p16"> Negotium cassae xenodochialis mea industria eo perductum est quod, si benigna resolutio circa
     proiectatam totius hospitalis regulationem supervenerit, futuro aestate et xenodochium et
     nosocomium aperiri possit. Cum proiectum regulationis ego ipse apposuerim, vereor ut illud alter
     ita feliciter, ut ego, ad effectum perducere possit.</p>
-            <p n="text.body.div.p13"> Negotium cassae orphanotrophialis in celebranda mense Novembri congregatione ad motum ponere
+            <p n="p17"> Negotium cassae orphanotrophialis in celebranda mense Novembri congregatione ad motum ponere
     constitui. Negotium hoc nihilo minoribus, quam cassa xenodochialis fuit, difficultatibus
     implexum est. Agnoscunt omnes quod negotium xenodochii non nisi per me, qui de cassis
     regnicolaribus inde ab earum origine usque meum ad Tabulam regiam transitum in Consilio retuli
     eo, quo pertigimus, perduci potuisse. Vereor ut negotium etiam orphanotrophiale per alium ad
     optatum finem perduci possit.</p>
-            <p n="text.body.div.p14"> Atque, ut omnia haec perficiam, non nisi biennio, aut ad summum triennio opus habeo. Quare si
+            <p n="p18"> Atque, ut omnia haec perficiam, non nisi biennio, aut ad summum triennio opus habeo. Quare si
     haec omnia iis, qui ad clavum sunt, debite ob oculos ponas, agnoscent indubie publici interesse
     ut ego per hoc adminus tempus (si adhuc Deus tam diu vitam prolongare dignatus fuerit) in
     officio conserver. Ut autem id re ipsa praestes, per veteranam nostram amicitiam te etiam atque
     etiam oro.</p>
 
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">Vale.</salute>
-               <milestone unit="page" n="text.body.div.closer.milestone"/>
-               <dateline n="text.body.div.closer.dateline">
-                  <placeName n="text.body.div.closer.dateline.placeName">Jakovlye</placeName>, <date n="text.body.div.closer.dateline.date" when="1798-10-16">16. Octobris
+            <closer n="closer19">
+               <salute n="salute1">Vale.</salute>
+               <milestone unit="page" n="milestone2"/>
+               <dateline n="dateline3">
+                  <placeName n="placeName1">Jakovlye</placeName>, <date n="date2" when="1798-10-16">16. Octobris
     1798.</date>
                </dateline>
             </closer>
-            <postscript n="text.body.div.postscript">
-               <p n="text.body.div.postscript.p1" xml:lang="hr"> Dragi prijatel. Ja sem potlam premislil da ako me genu, gdo god mi sukceduje,
-     on ne bu hotel za pstujn slušiti kakti grof Szechéni. A da njemu <foreign n="text.body.div.postscript.p1.foreign" xml:lang="lat">ex aerario</foreign> plaču dadu kako zu
+            <postscript n="postscript20">
+               <p n="p1" xml:lang="hr"> Dragi prijatel. Ja sem potlam premislil da ako me genu, gdo god mi sukceduje,
+     on ne bu hotel za pstujn slušiti kakti grof Szechéni. A da njemu <foreign n="foreign1" xml:lang="lat">ex aerario</foreign> plaču dadu kako zu
      Amadaeu, to se ja nikak ne morem ufati. Zato sem mislil rajši ov koračaj včiniti. Molim te,
      preštej ovoga lista Amadaeu (zvun pričerka ki bi ga jos bolje zbantuval). More biti včini da on
      sam pričme drugač misliti.</p>
-               <p n="text.body.div.postscript.p2" xml:lang="hr"> Prosim te takaj, daj ga prepisati (<foreign n="text.body.div.postscript.p2.foreign" xml:lang="lat">exmisso exordio</foreign>) i z dobrum prilikum daj ga
+               <p n="p2" xml:lang="hr"> Prosim te takaj, daj ga prepisati (<foreign n="foreign1" xml:lang="lat">exmisso exordio</foreign>) i z dobrum prilikum daj ga
      od Zdenca. Veruj mi da vsa ona koja veli Amade da je proti meni čul ni pri Cancellarie ni pri
      Consiliumu ne glase, ar ja imam vu jednom i drugom dicasteriumu prijatele po koje to znam. Nego
      to vse je Amade vu Zagrebu pobral pak vezda on to glasi. Pri Cancellarie i Consiliumu ne bojim
      se da bi impresiju včinilo. Strinam pako segurno da i pri od Zdenczu ne napravi impresija ako
      on ove moje refleksije prešteje. </p>
-               <p n="text.body.div.postscript.p3" xml:lang="hr"> Znam dar naš Szechen dojde predi vu Beč, nego ti odideš. Prosim te, preštej i
+               <p n="p3" xml:lang="hr"> Znam dar naš Szechen dojde predi vu Beč, nego ti odideš. Prosim te, preštej i
      njemu ov list, da bu i on znal iz istoga tonuša mene soutenirati.</p>
             </postscript>
          </div>

@@ -102,6 +102,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc xml:id="dubrovnikklementvii15321111">
          <abstract>
@@ -176,22 +190,22 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:dubrovnik.croala696484.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div type="prosa-epistula" n="text.body.div" corresp="#dubrovnikklementvii15321111">
+        <body n="body1">
+            <div type="prosa-epistula" n="div1" corresp="#dubrovnikklementvii15321111">
 
-                <head n="text.body.div.head">XI/3. <date n="text.body.div.head.date" when="1532-11-11">1532. 11. Novembris</date>, Rhagusio Rector et consilium Rhagusii Clementi
+                <head n="head1">XI/3. <date n="date1" when="1532-11-11">1532. 11. Novembris</date>, Rhagusio Rector et consilium Rhagusii Clementi
                     papae VII. </head>
 
 
-                <note n="text.body.div.note" resp="BJ">Segr. Stato, Principi, 7, f. 549. Sigillo papyro tecto.</note>
+                <note n="note2" resp="BJ">Segr. Stato, Principi, 7, f. 549. Sigillo papyro tecto.</note>
 
-                <opener n="text.body.div.opener">
-               <note n="text.body.div.opener.note" resp="BJ">[Inscriptio:]</note> Sanctissimo patri, domino nostro
+                <opener n="opener3">
+               <note n="note1" resp="BJ">[Inscriptio:]</note> Sanctissimo patri, domino nostro
                     Beatissime pater!</opener>
-                <p n="text.body.div.p">Defuncto his diebus <persName n="text.body.div.p.persName1">episcopo Mercanensi et Tribunensi</persName>
-               <ref n="text.body.div.p.ref">16</ref> in eius locum
-                    in hoc ipso episcopatu elegimus reverendissimum dominum fratrem <persName n="text.body.div.p.persName2">Thomam Cervinum</persName>,
-                    patricium nostrum ordinis divi <persName n="text.body.div.p.persName3">Dominici</persName>, virum sane et morum sanctitate et aliis
+                <p n="p4">Defuncto his diebus <persName n="persName1">episcopo Mercanensi et Tribunensi</persName>
+               <ref n="ref2">16</ref> in eius locum
+                    in hoc ipso episcopatu elegimus reverendissimum dominum fratrem <persName n="persName3">Thomam Cervinum</persName>,
+                    patricium nostrum ordinis divi <persName n="persName4">Dominici</persName>, virum sane et morum sanctitate et aliis
                     animi dotibus, quibus maxime excellit, huiuscemodi dignitate haud indignum.
                     Quocirca supplicamus, dignetur Sanctitas Vestra, ut iam antea consuevit, hanc
                     ipsam electionem nostram confirmare et – quoniam ipsius episcopatus (bonorum
@@ -199,12 +213,12 @@
                     vix, qui ipsam episcopalem dignitatem substinet, se pro sua dignitate alere
                     substentareque valeat – supplicamus Sanctitati Vestrae, sic ipsum episcopum a
                     nobis electum in sua confirmatione fovendum iuvandumque suscipiat, ut nos ei
-                    benignitatem Sanctitatis Vestre, quam <note n="text.body.div.p.note" resp="BJ">16 Id est episcopus
+                    benignitatem Sanctitatis Vestre, quam <note n="note5" resp="BJ">16 Id est episcopus
                         Macarensis et Tribunensis. </note>
-                    <milestone n="text.body.div.p.milestone" unit="page"/> omnes sentiunt, predicant et admirantur, non defuisse
+                    <milestone n="milestone6" unit="page"/> omnes sentiunt, predicant et admirantur, non defuisse
                     intelligamus et Sanctitati Vestrae precamur a Deo Optimo Maximo felicitatem
                     atque incolumitatem.</p>
-                <closer n="text.body.div.closer">Datum Rhagusii, die XI Novembris 1532. Eiusdem Sanctitatis Vestrae Rector et
+                <closer n="closer5">Datum Rhagusii, die XI Novembris 1532. Eiusdem Sanctitatis Vestrae Rector et
                     consilium Rhagusii devotissimi servitores</closer>
 
             </div>

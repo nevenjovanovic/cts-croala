@@ -106,6 +106,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -161,27 +175,27 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:divnic02.croala788883.croala-lat1:" xml:lang="lat" type="poesis">
-                <body n="text.body">
-                    <gap n="text.body.gap1" resp="NJ" reason="irrelevant"/>
+                <body n="body1">
+                    <gap n="gap1" resp="NJ" reason="irrelevant"/>
                     
-                    <div n="text.body.div" type="poesis-epigramma" met="elegiacum">
+                    <div n="div2" type="poesis-epigramma" met="elegiacum">
                         
-            <milestone unit="page" n="text.body.div.milestone"/>
+            <milestone unit="page" n="milestone1"/>
 
 
 
-                        <head n="text.body.div.head">In librum statutorum <corr n="text.body.div.head.corr">Sibenicensium</corr>.
-                            <expan n="text.body.div.head.expan">Ioannis</expan> Baptistae Diphnici archidiaconi et nobilis Sibenicensis Sacrę Theologię Doctoris. Epigramma.
+                        <head n="head2">In librum statutorum <corr n="corr1">Sibenicensium</corr>.
+                            <expan n="expan2">Ioannis</expan> Baptistae Diphnici archidiaconi et nobilis Sibenicensis Sacrę Theologię Doctoris. Epigramma.
                         </head> 
-                        <l n="text.body.div.l1">Aspera te rupes, Siccum, te moenia seruant,</l>
-                        <l n="text.body.div.l2" met="pentameter">Turribus et gemina tutius arce micas.</l>
-                        <l n="text.body.div.l3">Ast nihil haec prosunt interna ut pace fruatur</l>
-                        <l n="text.body.div.l4" met="pentameter">Incola, ni legum fulgeat usque iubar:</l>
-                        <l n="text.body.div.l5">En tibi conscriptas leges, has corde reconde</l>
-                        <l n="text.body.div.l6" met="pentameter">In te ut sit semper pacis amica quies.</l>
+                        <l n="l3">Aspera te rupes, Siccum, te moenia seruant,</l>
+                        <l n="l4" met="pentameter">Turribus et gemina tutius arce micas.</l>
+                        <l n="l5">Ast nihil haec prosunt interna ut pace fruatur</l>
+                        <l n="l6" met="pentameter">Incola, ni legum fulgeat usque iubar:</l>
+                        <l n="l7">En tibi conscriptas leges, has corde reconde</l>
+                        <l n="l8" met="pentameter">In te ut sit semper pacis amica quies.</l>
                     </div>
                     
-                    <gap n="text.body.gap2" resp="NJ" reason="irrelevant"/>
+                    <gap n="gap3" resp="NJ" reason="irrelevant"/>
 
                     
                     

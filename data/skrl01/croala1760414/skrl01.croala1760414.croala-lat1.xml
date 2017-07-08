@@ -99,6 +99,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -167,37 +181,37 @@
    </teiHeader>
 
    <text xml:base="urn:cts:croala:skrl01.croala1760414.croala-lat1:" xml:lang="lat" type="epistula">
-      <front n="text.front">
-         <head n="text.front.head">2. Jakovlye, 24. Septembris 1793.</head>
+      <front n="front1">
+         <head n="head1">2. Jakovlye, 24. Septembris 1793.</head>
       </front>
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-epistula">
-            <opener n="text.body.div.opener">
-               <salute n="text.body.div.opener.salute">Chare amice!</salute>
+      <body n="body2">
+         <div n="div1" type="prosa-epistula">
+            <opener n="opener1">
+               <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="text.body.div.p1"> Intelligo fidedigne parochos ordinationem tuam circa processiones ita
+            <p n="p2"> Intelligo fidedigne parochos ordinationem tuam circa processiones ita
     maligne intelligere quasi prohibitio haec plebi deberet publicari, id autem citra periculum
     fieri non posse aiunt.  Ubi tamen naturalis ordinationem hanc exsequendi via
     est ut illi sic dictas vicinias non publicent et, si quis e parochianis memor prioris usus
     rationem intermissionis huius deposcat, eum capacitent quod peregrinationes eiusmodi debeant
     esse voluntariae, officium autem suum sit illis, qui proficisci nolunt, ordinariam devotionem
     peragere.</p>
-            <p n="text.body.div.p2"> Nisi impediveris ne parochi publicationem hanc instituant, indubie
+            <p n="p3"> Nisi impediveris ne parochi publicationem hanc instituant, indubie
     complures id ita malitiose facient ut facile inde ingratus aliquis effectus sequi possit.
      Quare id tibi notificandum esse duxi, ad hoc ut tu pro tua prudentia efficax
     rei huic remedium ponas.  Ego certe eos diserte instruendos esse puto quod
     mens tua ea fuerit ne illi amplius vicinias promulgare ausint.  Qui autem aut
     id fecerit aut prohibitionem processionum plebi diserte publicaverit, eum condignas
     inobedientiae suae poenas daturum.</p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute"> Vale, meque ut facis ama.</salute>
-               <dateline n="text.body.div.closer.dateline">Jakovlye, 24. Septembris 1793.</dateline>
+            <closer n="closer4">
+               <salute n="salute1"> Vale, meque ut facis ama.</salute>
+               <dateline n="dateline2">Jakovlye, 24. Septembris 1793.</dateline>
             </closer>
          </div>
       </body>
-      <back n="text.back">
-         <div n="text.back.div" type="notes">
-            <p n="text.back.div.p">(<bibl n="text.back.div.p.bibl">NAZ, EAE, vol. 113, nr. 33</bibl>)</p>
+      <back n="back3">
+         <div n="div1" type="notes">
+            <p n="p1">(<bibl n="bibl1">NAZ, EAE, vol. 113, nr. 33</bibl>)</p>
          </div>
       </back>
    </text>

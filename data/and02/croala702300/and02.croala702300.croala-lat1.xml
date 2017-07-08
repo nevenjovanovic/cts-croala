@@ -119,6 +119,17 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -168,28 +179,28 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:and02.croala702300.croala-lat1:" xml:lang="lat" type="poesis">
-      <body n="text.body">
-         <div n="text.body.div" met="hendecasyllabus">
-            <head n="text.body.div.head">Tranquillus Parthenius Andronicus Dalmata lectori verum describit philosophum.</head>
+      <body n="body1">
+         <div n="div1" met="hendecasyllabus">
+            <head n="head1">Tranquillus Parthenius Andronicus Dalmata lectori verum describit philosophum.</head>
 
 
 
-            <l n="text.body.div.l1">Hic est maximus ille quem requiris,</l>
-            <l n="text.body.div.l2">Nulli par hominum, minus secundus,</l>
-            <l n="text.body.div.l3">Nunquam sollicitus, dolore nullo.</l>
-            <l n="text.body.div.l4">Quem nec vanus amor metusve rodit:</l>
-            <l n="text.body.div.l5">Ignarusque animi furoris: atqui</l>
-            <l n="text.body.div.l6">Nec vitae cupidus, sibi nec ipsi</l>
-            <l n="text.body.div.l7">Indulgens nimium: sed usque constans.</l>
-            <l n="text.body.div.l8">Quem nec frigora, nec gelu, nec aestus,</l>
-            <l n="text.body.div.l9">Imbres nec madidi, niuesque dirae,</l>
-            <l n="text.body.div.l10">Ventorum aut rabies trucisque saeua</l>
-            <l n="text.body.div.l11">Non fati series mouere possunt:</l>
-            <l n="text.body.div.l12">Quin semper putet esse se beatum,</l>
-            <l n="text.body.div.l13">Fortunae dominus, suique rector.</l>
-            <l n="text.body.div.l14">Hunc si partibus assequi licebit</l>
-            <l n="text.body.div.l15">Cunctis: Quis neget Herculem, Iouemque</l>
-            <l n="text.body.div.l16">Caessuros animo tuo decenti?</l>
+            <l n="l2">Hic est maximus ille quem requiris,</l>
+            <l n="l3">Nulli par hominum, minus secundus,</l>
+            <l n="l4">Nunquam sollicitus, dolore nullo.</l>
+            <l n="l5">Quem nec vanus amor metusve rodit:</l>
+            <l n="l6">Ignarusque animi furoris: atqui</l>
+            <l n="l7">Nec vitae cupidus, sibi nec ipsi</l>
+            <l n="l8">Indulgens nimium: sed usque constans.</l>
+            <l n="l9">Quem nec frigora, nec gelu, nec aestus,</l>
+            <l n="l10">Imbres nec madidi, niuesque dirae,</l>
+            <l n="l11">Ventorum aut rabies trucisque saeua</l>
+            <l n="l12">Non fati series mouere possunt:</l>
+            <l n="l13">Quin semper putet esse se beatum,</l>
+            <l n="l14">Fortunae dominus, suique rector.</l>
+            <l n="l15">Hunc si partibus assequi licebit</l>
+            <l n="l16">Cunctis: Quis neget Herculem, Iouemque</l>
+            <l n="l17">Caessuros animo tuo decenti?</l>
          </div>    
       </body>
   </text>

@@ -92,6 +92,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -143,35 +157,35 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:rosan01.croala1400939.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
+      <body n="body1">
 
-         <div n="text.body.div" type="poesis-epigramma" met="elegiacum">
-            <milestone unit="page" n="text.body.div.milestone"/>
-            <head n="text.body.div.head1" xml:lang="hr">3. 
+         <div n="div1" type="poesis-epigramma" met="elegiacum">
+            <milestone unit="page" n="milestone1"/>
+            <head n="head2" xml:lang="hr">3. 
   
   Versi gospodina Antuna Roženea doktura i vlastelina krkarskoga u hvalu knjige koju pisah ja Petri Ektoroviću vlastelinu hvarskomu, koja počinje: U 
   knjigah Čičeron.</head>
-            <note n="text.body.div.note" xml:lang="hr">P. 3. stoji u rkp, pod br. 33 iza poslanice Nalješkovićeve koja je naštampana napried pod br. 25. Poslanicu Naljeskovićevu koja se spominje u nadpisu, vidi napried pod br. 16. Prema nadpisu na strani piše drugom rukom: Antonii Rosanei, doctoris ei patricii Corciolensis.B. rkp. HectordtLm. P. 4. stoji u rkp. ita one pod 3. 
+            <note n="note3" xml:lang="hr">P. 3. stoji u rkp, pod br. 33 iza poslanice Nalješkovićeve koja je naštampana napried pod br. 25. Poslanicu Naljeskovićevu koja se spominje u nadpisu, vidi napried pod br. 16. Prema nadpisu na strani piše drugom rukom: Antonii Rosanei, doctoris ei patricii Corciolensis.B. rkp. HectordtLm. P. 4. stoji u rkp. ita one pod 3. 
   </note>
   
-            <head n="text.body.div.head2">Ad Nicolaum Nalis Ragusinum illiricum poetam quam ornatissimum.</head> 
+            <head n="head4">Ad Nicolaum Nalis Ragusinum illiricum poetam quam ornatissimum.</head> 
   
-            <l n="text.body.div.l1">Carmina Caliopes natum cecinisse putabam,</l> 
-            <l n="text.body.div.l2" met="pentameter">Nicoleos, miror dum tua docta legens,</l> 
-            <l n="text.body.div.l3">in quibus, Hectoreum Petrum quo tollis in astra,</l> 
-            <l n="text.body.div.l4" met="pentameter">mellifluum Phoebi iure uidetur opus,</l> 
-            <l n="text.body.div.l5">quod curis affectum animum sic saepe relaxat</l>
-            <l n="text.body.div.l6" met="pentameter">ut lichnis Pallas lumina fusca refert. </l>
-            <l n="text.body.div.l7">Labitur ore tuo, uates, uberrimus amnis</l> 
-            <l n="text.body.div.l8" met="pentameter">quotquot Dalmatiae pinguia culta rigant</l> 
-            <l n="text.body.div.l9">quaeque deserta tuo facundia pectore manat,</l> 
-            <l n="text.body.div.l10" met="pentameter">non nisi castalis hausta putatus aquis.</l>
-            <l n="text.body.div.l11">Felicem te, <sic n="text.body.div.l11.sic">faustam</sic> Epidaurum, nosque beatos</l> 
-            <l n="text.body.div.l12" met="pentameter">efficit ingenium <sic n="text.body.div.l12.sic">digne poetam</sic> tuum.</l> 
-            <l n="text.body.div.l13">Pierides linguae, palmam seruate diserte,</l> 
-            <l n="text.body.div.l14" met="pentameter">nubila quam uincant saecula nulla situ,</l> 
-            <l n="text.body.div.l15">gloria praeterea, totum diffusa per orbem,</l> 
-            <l n="text.body.div.l16" met="pentameter">sublimis tandem scandat utrumque polum.</l> 
+            <l n="l5">Carmina Caliopes natum cecinisse putabam,</l> 
+            <l n="l6" met="pentameter">Nicoleos, miror dum tua docta legens,</l> 
+            <l n="l7">in quibus, Hectoreum Petrum quo tollis in astra,</l> 
+            <l n="l8" met="pentameter">mellifluum Phoebi iure uidetur opus,</l> 
+            <l n="l9">quod curis affectum animum sic saepe relaxat</l>
+            <l n="l10" met="pentameter">ut lichnis Pallas lumina fusca refert. </l>
+            <l n="l11">Labitur ore tuo, uates, uberrimus amnis</l> 
+            <l n="l12" met="pentameter">quotquot Dalmatiae pinguia culta rigant</l> 
+            <l n="l13">quaeque deserta tuo facundia pectore manat,</l> 
+            <l n="l14" met="pentameter">non nisi castalis hausta putatus aquis.</l>
+            <l n="l15">Felicem te, <sic n="sic1">faustam</sic> Epidaurum, nosque beatos</l> 
+            <l n="l16" met="pentameter">efficit ingenium <sic n="sic1">digne poetam</sic> tuum.</l> 
+            <l n="l17">Pierides linguae, palmam seruate diserte,</l> 
+            <l n="l18" met="pentameter">nubila quam uincant saecula nulla situ,</l> 
+            <l n="l19">gloria praeterea, totum diffusa per orbem,</l> 
+            <l n="l20" met="pentameter">sublimis tandem scandat utrumque polum.</l> 
          </div>
   
       </body>

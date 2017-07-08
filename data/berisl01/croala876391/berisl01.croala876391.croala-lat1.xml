@@ -104,6 +104,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc xml:id="berislavicleox15190905">
          <abstract>
@@ -190,68 +207,68 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:berisl01.croala876391.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div type="prosa-epistula" n="text.body.div" corresp="#berislavicleox15190905">
-            <milestone n="text.body.div.milestone" unit="page"/>
-            <head n="text.body.div.head">I/2. <date n="text.body.div.head.date" when="1519-09-05">1519. 5. Septembris</date>, Zagrabiae Petrus Berislavus episcopus Vespriminensis Leoni
-          papae X. <note n="text.body.div.head.note" resp="BJ">Segr. Stato, Principi, 2, f. 9.</note>
+      <body n="body1">
+         <div type="prosa-epistula" n="div1" corresp="#berislavicleox15190905">
+            <milestone n="milestone1" unit="page"/>
+            <head n="head2">I/2. <date n="date1" when="1519-09-05">1519. 5. Septembris</date>, Zagrabiae Petrus Berislavus episcopus Vespriminensis Leoni
+          papae X. <note n="note2" resp="BJ">Segr. Stato, Principi, 2, f. 9.</note>
             </head>
 
 
-            <opener n="text.body.div.opener">
-               <note n="text.body.div.opener.note" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo ac
-          beatissimo domino, domino Leoni pape decimo, domino meo clementissimo <salute n="text.body.div.opener.salute">Post meorum
+            <opener n="opener3">
+               <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo ac
+          beatissimo domino, domino Leoni pape decimo, domino meo clementissimo <salute n="salute2">Post meorum
             fidelium perpetuorumque serviciorum humilem commendacionem et pedum Sanctitatis Vestre
             devota oscula. Beatissime pater!</salute>
             </opener>
 
 
-            <p n="text.body.div.p"> Que Sanctitas Vestra sua in me solita pietate et clemencia mota dignata est ad me
+            <p n="p4"> Que Sanctitas Vestra sua in me solita pietate et clemencia mota dignata est ad me
           perscribere, non minus scripta, quam propensum erga me et continuum benignitatis cursum
           percepi. Nil ettenim magis pater filio prestare potuit, quam Sanctitas Vestra mihi
           impendit. Non alia, ut puto, causa, quam instinctu iusticie stimulata sciens Sanctitas
           Vestra agi mecum non rite nec sancte, ut cum bono bene meritoque et fideli servulo
           conveniret, sed emulacione, odio et invidia opprimitur virtus, ignavia solercia
-            inercia,<note n="text.body.div.p.note1" resp="BJ">3 Desideratur: sedulitas.</note> fides infidelitate. Non tamen
+            inercia,<note n="note1" resp="BJ">3 Desideratur: sedulitas.</note> fides infidelitate. Non tamen
           doleo vices meas, Pater Sancte, tum ob iustum et syncerum iudicem, quo coram mea res
           agitur, cum eciam ob innocenciam meam, sed angor animo cruciorque non parum, quod emuli
           mei principem et regem meum in hac tenella etate constitutum non tantum in me hic acuunt,
           si acuere possunt, verum ad Sanctitatem Vestram (ubi nil absconditum esse potest, ubi
           omnia igne veritatis purgantur, ubi spiritus sanctus spirat et nebulas falsitatis
-          discutit) ea perscribunt, que per se falsa esse <sic n="text.body.div.p.sic">ipse</sic> testantur. Quid ettenim
+          discutit) ea perscribunt, que per se falsa esse <sic n="sic2">ipse</sic> testantur. Quid ettenim
           magis alienum a veritate est, quam me sallarium maius petere eo, quod predecessores mei
-          habuerunt, cum generosissimus dominus meus, <persName n="text.body.div.p.persName1">Wladislaus</persName> rex regiis diplomatibus mecum de
+          habuerunt, cum generosissimus dominus meus, <persName n="persName3">Wladislaus</persName> rex regiis diplomatibus mecum de
           stipendio, quale palatino datum est, concordaverit? Quid falsius, quam regem meum e
           manibus meis Banatum extricare non posse, cum idem dominus meus litteris suis promiserit
           se non accepturum de manibus meis Banatum, donec non fuerit persolutum? Quid minus vero me
-          ad concordiam non venire, cum anno elapso – medio palatini demortui<note n="text.body.div.p.note2" resp="BJ">4
-            <persName n="text.body.div.p.note2.persName">Emericus de Peren.</persName>
-               </note> et domini episcopi Quinqueeclesiensis<note n="text.body.div.p.note3" resp="BJ">5
-            <persName n="text.body.div.p.note3.persName">Georgius de Satmar</persName> (Zathmar, Zathmari).</note> – eam concordiam inierim cum Sua
+          ad concordiam non venire, cum anno elapso – medio palatini demortui<note n="note4" resp="BJ">4
+            <persName n="persName1">Emericus de Peren.</persName>
+               </note> et domini episcopi Quinqueeclesiensis<note n="note5" resp="BJ">5
+            <persName n="persName1">Georgius de Satmar</persName> (Zathmar, Zathmari).</note> – eam concordiam inierim cum Sua
           Maiestate, quam iidem ipsi mediatores optarint, cum maxima iactura mea, ut pote qui ultra
           octuaginta millia florenorum crediti mei domino meo relaxaverim? Quid magis imposibile,
-            <milestone n="text.body.div.p.milestone" unit="page"/> quam me vi Banatum tenere, qui vermiclus sum? Quid iniustius,
+            <milestone n="milestone6" unit="page"/> quam me vi Banatum tenere, qui vermiclus sum? Quid iniustius,
           iniquius magisque contra publicam fidem, quam me invito rege meo Banatum tenere, cum idem
-          dominus meus, rex assurgens tota consilii eius corona astante <placeName n="text.body.div.p.placeName1">Bachÿe</placeName> rogaverit, ut Banatui
+          dominus meus, rex assurgens tota consilii eius corona astante <placeName n="placeName7">Bachÿe</placeName> rogaverit, ut Banatui
           ipsi preessem, quod suis quoque litteris egit? Quod autem michi aliquam ignominiam inferre
           voluerint, illud reffero testimonio et nuncii Sanctitatis Vestre et Cesaree Maiestatis et
-          serenissimi domini regis <placeName n="text.body.div.p.placeName2">Polonie</placeName> oratoris. Hec sunt, pater Sancte, premia servitutis mee,
+          serenissimi domini regis <placeName n="placeName8">Polonie</placeName> oratoris. Hec sunt, pater Sancte, premia servitutis mee,
           hec sudorum meorum merces, hec septem annorum, quibus claustra Christianitatis tutatus
-          sum, quibus <placeName n="text.body.div.p.placeName3">Iaÿczam</placeName> aliquocies e manibus hostium (vel ipsarum regis mei litterarum
+          sum, quibus <placeName n="placeName9">Iaÿczam</placeName> aliquocies e manibus hostium (vel ipsarum regis mei litterarum
           testimonio) eripui, solucio. Sed quia, Pater Sancte, scriptis omnia comprehendi non
-          possunt, misi ad Sanctitatem Vestram hunc dominum <persName n="text.body.div.p.persName2">Thomam Nigrum</persName>
-               <ref n="text.body.div.p.ref">6</ref>, vicarium
+          possunt, misi ad Sanctitatem Vestram hunc dominum <persName n="persName10">Thomam Nigrum</persName>
+               <ref n="ref11">6</ref>, vicarium
           meum, qui et innocenciam meam declaret, et ipsis regiis monumentis ostendat, quam inique,
           quam impie, quam perverse mecum agatur. Aliud nil restat, quam ut Sanctitas Vestra
           perspecta innocencia mea laboribusque meis pensitatis id agat, quod universalem patrem in
           filium, quod bonum dominum pro fideli servo, quod rectum iudicem pro innocente facere
           convenit, quod quidem meis perpetuis serviciis ecclesie sancte Dei et Sanctitati Vestre
           promereri studebo. </p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">Quam Deus Optimus Maximus diu faustam felicemque ad tutelam gregis sui
+            <closer n="closer5">
+               <salute n="salute1">Quam Deus Optimus Maximus diu faustam felicemque ad tutelam gregis sui
             conservare dignetur.</salute>
-               <dateline n="text.body.div.closer.dateline">Ex Zagrabia, Va mensis Septembris MDXVIIII.</dateline>
-               <signed n="text.body.div.closer.signed">Sanctitatis Vestre fidelis et devota creatura <expan n="text.body.div.closer.signed.expan">Petrus</expan>
+               <dateline n="dateline2">Ex Zagrabia, Va mensis Septembris MDXVIIII.</dateline>
+               <signed n="signed3">Sanctitatis Vestre fidelis et devota creatura <expan n="expan1">Petrus</expan>
             Vesprimiensis</signed>
             </closer>
          </div>

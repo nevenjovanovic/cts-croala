@@ -98,6 +98,29 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -142,997 +165,997 @@
      </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:zama01.croala1441602.croala-lat1:" xml:lang="lat">
-      <group n="text.group">
-         <text n="text.group.text1">
-            <body n="text.group.text1.body">
-               <p n="text.group.text1.body.p">Grčki tekst</p>
+      <group n="group1">
+         <text n="text1">
+            <body n="body1">
+               <p n="p1">Grčki tekst</p>
             </body>
          </text>
-         <text n="text.group.text2">
-            <front n="text.group.text2.front">
-               <docTitle n="text.group.text2.front.docTitle">
-                  <titlePart n="text.group.text2.front.docTitle.titlePart1">Theocriti, Moschi et Bionis idyllia omnia</titlePart>
-                  <titlePart n="text.group.text2.front.docTitle.titlePart2">a Bernardo Zamagna Rachusino Latinis versibus expressa</titlePart>
+         <text n="text2">
+            <front n="front1">
+               <docTitle n="docTitle1">
+                  <titlePart n="titlePart1">Theocriti, Moschi et Bionis idyllia omnia</titlePart>
+                  <titlePart n="titlePart2">a Bernardo Zamagna Rachusino Latinis versibus expressa</titlePart>
                </docTitle>
-               <docImprint n="text.group.text2.front.docImprint">
-                  <pubPlace n="text.group.text2.front.docImprint.pubPlace">Parmae</pubPlace>
-                  <publisher n="text.group.text2.front.docImprint.publisher">In aedibus Palatinis, typis Bodonianis</publisher>
-                  <docDate n="text.group.text2.front.docImprint.docDate">MDCCXCII</docDate>
+               <docImprint n="docImprint2">
+                  <pubPlace n="pubPlace1">Parmae</pubPlace>
+                  <publisher n="publisher2">In aedibus Palatinis, typis Bodonianis</publisher>
+                  <docDate n="docDate3">MDCCXCII</docDate>
                </docImprint>
-               <div n="text.group.text2.front.div">
-                  <head n="text.group.text2.front.div.head">Ad lectorem.</head>
-                  <p n="text.group.text2.front.div.p">Non omnia, quae hoc volumine continentur, Idyllia publici iuris nunc primum fiunt. Prodiere aliqua diversis temporibus. Maxima vero pars in nuptiis Carola Albani Praefecti Sacrae Domus Ferdinandi Austriaci cum Italica eleganti versione cl. Aloysii Bucchettii, qui et eruditum adiecit prooemium, et luculentissimas enarrationes. Nunc tandem vir eximius Zamagna, absolutis iam, quae ad Bionem, Moschumque pertinebant, omnium quoque Theocriti Idylliorum versionem <milestone n="text.group.text2.front.div.p.milestone" unit="page"/> perfecit, simulque universa dare in lucem constituit, ut trium optimorum Graecorum, qui Bucolica scripserunt, nova interpretatione, eaque integra, Latium ditaretur. Quum vero Idyllia maximi haberet, quae celeberrimus Cunichius Latina fecerat, nimirum I. II. IV. VIII. XVIII. XXI. et XXVIIII. ea retinenda censuit, inque suam editionem adoptanda, tamquam ornamento futura. Illud tantum sibi licere duxit, ut quae ex iisdem fuerant data opera a Cunichio omissa, restitueret, ac supppleret; quod quilibet videre poterit, qui Senensem editionem cum Mediolanensi instituerit conferendam. Vale.</p>
+               <div n="div3">
+                  <head n="head1">Ad lectorem.</head>
+                  <p n="p2">Non omnia, quae hoc volumine continentur, Idyllia publici iuris nunc primum fiunt. Prodiere aliqua diversis temporibus. Maxima vero pars in nuptiis Carola Albani Praefecti Sacrae Domus Ferdinandi Austriaci cum Italica eleganti versione cl. Aloysii Bucchettii, qui et eruditum adiecit prooemium, et luculentissimas enarrationes. Nunc tandem vir eximius Zamagna, absolutis iam, quae ad Bionem, Moschumque pertinebant, omnium quoque Theocriti Idylliorum versionem <milestone n="milestone1" unit="page"/> perfecit, simulque universa dare in lucem constituit, ut trium optimorum Graecorum, qui Bucolica scripserunt, nova interpretatione, eaque integra, Latium ditaretur. Quum vero Idyllia maximi haberet, quae celeberrimus Cunichius Latina fecerat, nimirum I. II. IV. VIII. XVIII. XXI. et XXVIIII. ea retinenda censuit, inque suam editionem adoptanda, tamquam ornamento futura. Illud tantum sibi licere duxit, ut quae ex iisdem fuerant data opera a Cunichio omissa, restitueret, ac supppleret; quod quilibet videre poterit, qui Senensem editionem cum Mediolanensi instituerit conferendam. Vale.</p>
                </div>
-               <milestone n="text.group.text2.front.milestone" unit="page"/>
+               <milestone n="milestone4" unit="page"/>
             </front>
-            <body n="text.group.text2.body">
-               <div n="text.group.text2.body.div">
-                  <head n="text.group.text2.body.div.head">Idyllia Theocriti Syracusii.</head>
-                  <milestone n="text.group.text2.body.div.milestone1" unit="page"/>
-                  <div n="text.group.text2.body.div.div1" type="carmen-idyllium" met="hexameter">
-                     <head n="text.group.text2.body.div.div1.head">Idyllium I.</head>
-                     <argument n="text.group.text2.body.div.div1.argument">
-                        <p n="text.group.text2.body.div.div1.argument.p">Thyrsis et Aepolus amice inter se colloquuntur, donisque ab Aepolo propositis, Thyrsis expromit cantilenam de Daphnide amore contabescente.</p>
+            <body n="body2">
+               <div n="div1">
+                  <head n="head1">Idyllia Theocriti Syracusii.</head>
+                  <milestone n="milestone2" unit="page"/>
+                  <div n="div3" type="carmen-idyllium" met="hexameter">
+                     <head n="head1">Idyllium I.</head>
+                     <argument n="argument2">
+                        <p n="p1">Thyrsis et Aepolus amice inter se colloquuntur, donisque ab Aepolo propositis, Thyrsis expromit cantilenam de Daphnide amore contabescente.</p>
                      </argument>
-                     <listPerson n="text.group.text2.body.div.div1.listPerson">
-                        <person n="text.group.text2.body.div.div1.listPerson.person1">
-                           <persName n="text.group.text2.body.div.div1.listPerson.person1.persName">Thyrsis</persName>
+                     <listPerson n="listPerson3">
+                        <person n="person1">
+                           <persName n="persName1">Thyrsis</persName>
                         </person>
-                        <person n="text.group.text2.body.div.div1.listPerson.person2">
-                           <persName n="text.group.text2.body.div.div1.listPerson.person2.persName">Aepolus</persName>
+                        <person n="person2">
+                           <persName n="persName1">Aepolus</persName>
                         </person>
                      </listPerson>
-                     <sp n="text.group.text2.body.div.div1.sp1">
-                        <speaker n="text.group.text2.body.div.div1.sp1.speaker">
-                           <abbr n="text.group.text2.body.div.div1.sp1.speaker.abbr">Th.</abbr>
+                     <sp n="sp4">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Th.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div1.sp1.l1">Dulce sonant aurae, dulce haec fonti adsita pinus,</l>
-                        <l n="text.group.text2.body.div.div1.sp1.l2">Aepole, dulce sonat tua fistula, digna secundae</l>
-                        <l n="text.group.text2.body.div.div1.sp1.l3">Maenalium post Pana ferat quae praemia palmae.</l>
-                        <l n="text.group.text2.body.div.div1.sp1.l4">Hircum si feret ille, capra donabere; capram</l>
-                        <l n="text.group.text2.body.div.div1.sp1.l5">Si feret ille, horna donaberis ipse capella,</l>
-                        <l n="text.group.text2.body.div.div1.sp1.l6">Horna, quae nondum peperit, quae dulcior esu est.</l>
+                        <l n="l2">Dulce sonant aurae, dulce haec fonti adsita pinus,</l>
+                        <l n="l3">Aepole, dulce sonat tua fistula, digna secundae</l>
+                        <l n="l4">Maenalium post Pana ferat quae praemia palmae.</l>
+                        <l n="l5">Hircum si feret ille, capra donabere; capram</l>
+                        <l n="l6">Si feret ille, horna donaberis ipse capella,</l>
+                        <l n="l7">Horna, quae nondum peperit, quae dulcior esu est.</l>
                      </sp>
-                     <sp n="text.group.text2.body.div.div1.sp2">
-                        <speaker n="text.group.text2.body.div.div1.sp2.speaker">
-                           <abbr n="text.group.text2.body.div.div1.sp2.speaker.abbr">Ae.</abbr>
+                     <sp n="sp5">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Ae.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div1.sp2.l1">Dulce tuum, pastor, carmen mage, garrula quam quae</l>
-                        <l n="text.group.text2.body.div.div1.sp2.l2">Aeria de rupe superne huc liquitur unda.</l>
-                        <l n="text.group.text2.body.div.div1.sp2.l3">Munus ovem referent si Musae, munus habebis</l>
-                        <l n="text.group.text2.body.div.div1.sp2.l4">Agnum; si malint agnum sibi ducere Musae,</l>
-                        <l n="text.group.text2.body.div.div1.sp2.l5">Munus ovem niveam referes tu, dona secunda.</l>
+                        <l n="l2">Dulce tuum, pastor, carmen mage, garrula quam quae</l>
+                        <l n="l3">Aeria de rupe superne huc liquitur unda.</l>
+                        <l n="l4">Munus ovem referent si Musae, munus habebis</l>
+                        <l n="l5">Agnum; si malint agnum sibi ducere Musae,</l>
+                        <l n="l6">Munus ovem niveam referes tu, dona secunda.</l>
                      </sp>
-                     <sp n="text.group.text2.body.div.div1.sp3">
-                        <speaker n="text.group.text2.body.div.div1.sp3.speaker">
-                           <abbr n="text.group.text2.body.div.div1.sp3.speaker.abbr">Th.</abbr>
+                     <sp n="sp6">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Th.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div1.sp3.l1">Vis bone, per Nymphas, vis Aepole, stratus in herba</l>
-                        <l n="text.group.text2.body.div.div1.sp3.l2">Heic clivo in molli, fragiles ubi verna myricas</l>
-                        <l n="text.group.text2.body.div.div1.sp3.l3">Ventilat aura, leves de more inflare cicutas?</l>
-                        <milestone n="text.group.text2.body.div.div1.sp3.milestone" unit="page"/>
-                        <l n="text.group.text2.body.div.div1.sp3.l4">Dum canis, ipse tuas pascam tibi rite capellas.</l>
+                        <l n="l2">Vis bone, per Nymphas, vis Aepole, stratus in herba</l>
+                        <l n="l3">Heic clivo in molli, fragiles ubi verna myricas</l>
+                        <l n="l4">Ventilat aura, leves de more inflare cicutas?</l>
+                        <milestone n="milestone5" unit="page"/>
+                        <l n="l6">Dum canis, ipse tuas pascam tibi rite capellas.</l>
                      </sp>
-                     <sp n="text.group.text2.body.div.div1.sp4">
-                        <speaker n="text.group.text2.body.div.div1.sp4.speaker">
-                           <abbr n="text.group.text2.body.div.div1.sp4.speaker.abbr">Ae.</abbr>
+                     <sp n="sp7">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Ae.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div1.sp4.l1">Non fas est medio, non fas inflare cicutas,</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l2">Thyrsi, die; magnum metuo nam Pana: labore</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l3">Venandi fessus nunc Pan cubat; asper, acerbus</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l4">Pan, sedet in summis cui bilis naribus atra.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l5">Hanc potius, quando nosti, bone Thyrsi, dolores</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l6">Daphnidis, agrestisque tenes fastigia musae,</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l7">Hanc concede ulmum subter, simulacra Priapi,</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l8">Fontanas contra et Nymphas; pastoribus apta</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l9">Heic sedes, heic et quercus; heic, Thyrsi, canentem</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l10">Audiero nunc te si carmen, quale canebas</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l11">Pastorem Libyae contra Chromin, hanc tibi capram</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l12">Ter mulgere dabo: binos alit ubere foetus,</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l13">Bina simul niveo complet mulctralia lacte.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l14">Addam alte insculptum calicem, ceraque liquente</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l15">Collutum, instructumque ansis exstantibus, ipso</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l16">Nuper caelatum qui se testatur odore;</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l17">Cui virides hederae, cui luteolus amaranthi</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l18">Haeret flos labro in summo, croceoque virentes</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l19">Capreoli foetu serpunt ludente corymbo.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l20">Interius sculpta est, opus admirabile, forma</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l21">Praestanti mulier, peploque induta fluente,</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l22">Reticuloque comas flaventes vincta: minaci</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l23">Ore viri duo stant propter, torvumque tuentes</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l24">Alternis frustra iurgantur. despicit illa</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l25">Atque hunc atque illum ridens, nec iurgia curat:</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l26">Ipsi autem duro correpti pectus amore</l>
-                        <milestone n="text.group.text2.body.div.div1.sp4.milestone" unit="page"/>
-                        <l n="text.group.text2.body.div.div1.sp4.l27">Ignem oculis iactant tremulis, frustraque laborant.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l28">Hos iuxta scabro in scopulo piscator ad undam</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l29">Curvus per cautes festinat retia ducens.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l30">Ille laboranti similis: namque omnia membra</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l31">Contendit nisu ingenti, colloque tumentes</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l32">Ostendit venas, senior; sed digna iuventa</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l33">Firma viri se vis cano sub vertice prodit.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l34">Vinea non longe gravidis rubet aucta racemis,</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l35">Quam iuxta parvus servat puer, et sedet ipsam</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l36">Ad sepem. heic geminae vulpes, quarum altera vites</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l37">Per medias cursans maturas deripit uvas;</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l38">Insidias peram ad pueri struit altera, nec se</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l39">Missuram incautum dicit prius, omnia furtim</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l40">Quam voret, ac misero fletum et ieiunia linquat.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l41">Ille autem e culmo captandis pulcra locustis</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l42">Septa struit iunco nectens, nec pera, nec uvae</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l43">Iam subeunt animo, textu sed gaudet inani.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l44">In calicem hac illac per totum mollis acanthus;</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l45">Plurimus upilio veniens quem visere gestit,</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l46">Qui tibi miranti suspendet lumina, Thyrsi.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l47">Nauta tulit calicis pretium Calydonius, orbem</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l48">Ingentem pressi lactis, pinguemque capellam.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l49">Necdum etiam labro tetigi, sed conditus omni</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l50">Labe caret, quem ferre tibi facilisque volensque,</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l51">Dulcis amice, dabo, referas modo amabile carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l52">Invideo tibi nil: agedum, bone; carmina quando</l>
-                        <l n="text.group.text2.body.div.div1.sp4.l53">Non umbris, credo, immemori servabis et orco.</l>
+                        <l n="l2">Non fas est medio, non fas inflare cicutas,</l>
+                        <l n="l3">Thyrsi, die; magnum metuo nam Pana: labore</l>
+                        <l n="l4">Venandi fessus nunc Pan cubat; asper, acerbus</l>
+                        <l n="l5">Pan, sedet in summis cui bilis naribus atra.</l>
+                        <l n="l6">Hanc potius, quando nosti, bone Thyrsi, dolores</l>
+                        <l n="l7">Daphnidis, agrestisque tenes fastigia musae,</l>
+                        <l n="l8">Hanc concede ulmum subter, simulacra Priapi,</l>
+                        <l n="l9">Fontanas contra et Nymphas; pastoribus apta</l>
+                        <l n="l10">Heic sedes, heic et quercus; heic, Thyrsi, canentem</l>
+                        <l n="l11">Audiero nunc te si carmen, quale canebas</l>
+                        <l n="l12">Pastorem Libyae contra Chromin, hanc tibi capram</l>
+                        <l n="l13">Ter mulgere dabo: binos alit ubere foetus,</l>
+                        <l n="l14">Bina simul niveo complet mulctralia lacte.</l>
+                        <l n="l15">Addam alte insculptum calicem, ceraque liquente</l>
+                        <l n="l16">Collutum, instructumque ansis exstantibus, ipso</l>
+                        <l n="l17">Nuper caelatum qui se testatur odore;</l>
+                        <l n="l18">Cui virides hederae, cui luteolus amaranthi</l>
+                        <l n="l19">Haeret flos labro in summo, croceoque virentes</l>
+                        <l n="l20">Capreoli foetu serpunt ludente corymbo.</l>
+                        <l n="l21">Interius sculpta est, opus admirabile, forma</l>
+                        <l n="l22">Praestanti mulier, peploque induta fluente,</l>
+                        <l n="l23">Reticuloque comas flaventes vincta: minaci</l>
+                        <l n="l24">Ore viri duo stant propter, torvumque tuentes</l>
+                        <l n="l25">Alternis frustra iurgantur. despicit illa</l>
+                        <l n="l26">Atque hunc atque illum ridens, nec iurgia curat:</l>
+                        <l n="l27">Ipsi autem duro correpti pectus amore</l>
+                        <milestone n="milestone28" unit="page"/>
+                        <l n="l29">Ignem oculis iactant tremulis, frustraque laborant.</l>
+                        <l n="l30">Hos iuxta scabro in scopulo piscator ad undam</l>
+                        <l n="l31">Curvus per cautes festinat retia ducens.</l>
+                        <l n="l32">Ille laboranti similis: namque omnia membra</l>
+                        <l n="l33">Contendit nisu ingenti, colloque tumentes</l>
+                        <l n="l34">Ostendit venas, senior; sed digna iuventa</l>
+                        <l n="l35">Firma viri se vis cano sub vertice prodit.</l>
+                        <l n="l36">Vinea non longe gravidis rubet aucta racemis,</l>
+                        <l n="l37">Quam iuxta parvus servat puer, et sedet ipsam</l>
+                        <l n="l38">Ad sepem. heic geminae vulpes, quarum altera vites</l>
+                        <l n="l39">Per medias cursans maturas deripit uvas;</l>
+                        <l n="l40">Insidias peram ad pueri struit altera, nec se</l>
+                        <l n="l41">Missuram incautum dicit prius, omnia furtim</l>
+                        <l n="l42">Quam voret, ac misero fletum et ieiunia linquat.</l>
+                        <l n="l43">Ille autem e culmo captandis pulcra locustis</l>
+                        <l n="l44">Septa struit iunco nectens, nec pera, nec uvae</l>
+                        <l n="l45">Iam subeunt animo, textu sed gaudet inani.</l>
+                        <l n="l46">In calicem hac illac per totum mollis acanthus;</l>
+                        <l n="l47">Plurimus upilio veniens quem visere gestit,</l>
+                        <l n="l48">Qui tibi miranti suspendet lumina, Thyrsi.</l>
+                        <l n="l49">Nauta tulit calicis pretium Calydonius, orbem</l>
+                        <l n="l50">Ingentem pressi lactis, pinguemque capellam.</l>
+                        <l n="l51">Necdum etiam labro tetigi, sed conditus omni</l>
+                        <l n="l52">Labe caret, quem ferre tibi facilisque volensque,</l>
+                        <l n="l53">Dulcis amice, dabo, referas modo amabile carmen.</l>
+                        <l n="l54">Invideo tibi nil: agedum, bone; carmina quando</l>
+                        <l n="l55">Non umbris, credo, immemori servabis et orco.</l>
                      </sp>
-                     <milestone n="text.group.text2.body.div.div1.milestone" unit="page"/>
-                     <sp n="text.group.text2.body.div.div1.sp5">
-                        <speaker n="text.group.text2.body.div.div1.sp5.speaker">
-                           <abbr n="text.group.text2.body.div.div1.sp5.speaker.abbr">Th.</abbr>
+                     <milestone n="milestone8" unit="page"/>
+                     <sp n="sp9">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Th.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div1.sp5.l1">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l2">Thyrsis ego ex Aetna, aetnaei Thyrsidis haec vox.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l3">Quae loca, dum misere Daphnis tabescit, habebant</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l4">Quae loca vos, Nymphae? Pindusne, an Thessala Tempe?</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l5">Nam neque tum visae vitrei sub gurgite Anapi,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l6">Non Aetna in viridi, sacra nec in Acidis unda.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l7">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l8">Illum etiam Thoes, secla et flevere luporum,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l9">Illum etiam sylva torvis leo flevit ab alta.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l10">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l11">Multae illi ante pedes vaccae, taurique iacentes,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l12">Multae illi vitulae, multae adgemuere iuvencae.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l13">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l14">Primus Atlantiades veniens de monte: quis, inquit,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l15">Daphni, quis indigno miserum male perdit amore?</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l16">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l17">Pastores venere, boum venere magistri,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l18">Venit et upilio; quae te sic, Daphni, rogantes,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l19">Quae miserum torquent curae? venitque Priapus,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l20">Cur et, ait, misere tabescis, Daphni? per umbras</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l21">Te nemorum, te per fontes, tua Nympha requirit.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l22">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l23">Te petit illa: nimis tu cura aegrescis acerba</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l24">Perditus, ante boves servabas, ducere capras</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l25">Nunc bonus heu dicere: hic namque irascitur ardens,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l26">Quum videt hirsutas hircis subsidere capras</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l27">Mollibus in pratis, quod non caper ipse sit ortus.</l>
-                        <milestone n="text.group.text2.body.div.div1.sp5.milestone1" unit="page"/>
-                        <l n="text.group.text2.body.div.div1.sp5.l28">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l29">Tuque videns passim ridentes suave puellas</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l30">Suspiras, non ipse choro quod mixtus eodem es.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l31">Haec illi: at pastor nil contra, moestus acerbo</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l32">Indulgens magis atque magis moriturus amori.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l33">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l34">Venit ab Idalio ridens Venus; illa dolosum</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l35">Nescio quid ridens, at corde irata sub alto,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l36">Atque ait: at certe iactabas nuper amorem</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l37">Cessurum tibi, Daphni: malo nunc cedis amori.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l38">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l39">Cui Daphnis graviter suspirans: Cypri cruenta,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l40">Cypri infesta hominum generi, saeva, improba Cypri,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l41">Ergo mihi totus sol occidit? ast erit ipsum</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l42">Intra orcum Daphnis dolor et grave crimen amori.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l43">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l44">Pastor ubi fertur Cyprin, pete protinus Idam,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l45">Anchisenque..... illic quercus, heic densa cyperus,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l46">Atque apibus cava dulce sonant alvearia circum.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l47">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l48">Pulcher adhuc tibi carus Adonis: pascit et agnas,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l49">Et lepores figit, sequiturque horrentia lustra.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l50">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l51">Rursus adi propius Diomedem, et dicito: Daphnin</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l52">Pastorem vici Daphnin; contendito mecum.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l53">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l54">O thoesque, lupique, ursique, horrentia dumis</l>
-                        <milestone n="text.group.text2.body.div.div1.sp5.milestone2" unit="page"/>
-                        <l n="text.group.text2.body.div.div1.sp5.l55">Occultant quos tesqua, valete: haud amplius usquam</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l56">Cernetis Daphnin per sylvas et nemora alta.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l57">Tuque, Arethusa, vale; fontesque et flumina, pulcrum</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l58">Quae pulcra fluitis lympha prope Tymbridis amnem.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l59">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l60">Daphnis ego, huc pastum duxi qui ad gramina vaccas;</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l61">Daphnis ego, huc potum duxi qui ad flumina tauros.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l62">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l63">O Pan, Pan, gelidi seu nunc iuga celsa Lycaei,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l64">Sive altum lustras nunc Moenalon, huc ades, o Pan,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l65">Trinacrium ad litus. Helices rex, ardua linque</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l66">Saxa, Lycaonidae mirum et dis linque sepulcrum.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l67">Desine bucolicum iam, Musa, o desine carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l68">Huc ades, huc, o Rex; ferto hanc, pulcre apta recenti</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l69">Quae cera, mellis iucundum spirat odorem,</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l70">Molliter et labrum se circumflectit, avenam;</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l71">Ferto tibi; me saevus amor iam trudit ad Orcum.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l72">Desine bucolicum iam, Musa, o desine carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l73">Nunc violas iam ferte, rubi; ferto, aspera spina;</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l74">Fundite, iuniperi, narcissos pulcra comantes.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l75">Cuncta secus fiant. exstincto Daphnide, pinus</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l76">Det pira; quaesitos, cervi, raptate molossos;</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l77">Montanaeque ululae, philomelam vincite cantu.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l78">Desine bucolicum iam, Musa, o desine carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l79">Sic fatus fessum posuit caput: at Venus ulnis</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l80">Collapsum excepit, voluitque attollere, frustra</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l81">Iam frustra. nam cuncta illum fatalia fila</l>
-                        <milestone n="text.group.text2.body.div.div1.sp5.milestone3" unit="page"/>
-                        <l n="text.group.text2.body.div.div1.sp5.l82">Defecere, nigram petiit Styga, mersus et atro est</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l83">Gurgite vir Musis, vir amabilis ille Napaeis.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l84">Desine bucolicum iam, Musa, o desine carmen.</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l85">At tu da capram, calicem da mî, Aepole: mulgens</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l86">Libabo Musis. Musae, salvete; iterum mî</l>
-                        <l n="text.group.text2.body.div.div1.sp5.l87">Atque iterum salvete: alias meliora canemus.</l>
+                        <l n="l2">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l3">Thyrsis ego ex Aetna, aetnaei Thyrsidis haec vox.</l>
+                        <l n="l4">Quae loca, dum misere Daphnis tabescit, habebant</l>
+                        <l n="l5">Quae loca vos, Nymphae? Pindusne, an Thessala Tempe?</l>
+                        <l n="l6">Nam neque tum visae vitrei sub gurgite Anapi,</l>
+                        <l n="l7">Non Aetna in viridi, sacra nec in Acidis unda.</l>
+                        <l n="l8">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l9">Illum etiam Thoes, secla et flevere luporum,</l>
+                        <l n="l10">Illum etiam sylva torvis leo flevit ab alta.</l>
+                        <l n="l11">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l12">Multae illi ante pedes vaccae, taurique iacentes,</l>
+                        <l n="l13">Multae illi vitulae, multae adgemuere iuvencae.</l>
+                        <l n="l14">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l15">Primus Atlantiades veniens de monte: quis, inquit,</l>
+                        <l n="l16">Daphni, quis indigno miserum male perdit amore?</l>
+                        <l n="l17">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l18">Pastores venere, boum venere magistri,</l>
+                        <l n="l19">Venit et upilio; quae te sic, Daphni, rogantes,</l>
+                        <l n="l20">Quae miserum torquent curae? venitque Priapus,</l>
+                        <l n="l21">Cur et, ait, misere tabescis, Daphni? per umbras</l>
+                        <l n="l22">Te nemorum, te per fontes, tua Nympha requirit.</l>
+                        <l n="l23">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l24">Te petit illa: nimis tu cura aegrescis acerba</l>
+                        <l n="l25">Perditus, ante boves servabas, ducere capras</l>
+                        <l n="l26">Nunc bonus heu dicere: hic namque irascitur ardens,</l>
+                        <l n="l27">Quum videt hirsutas hircis subsidere capras</l>
+                        <l n="l28">Mollibus in pratis, quod non caper ipse sit ortus.</l>
+                        <milestone n="milestone29" unit="page"/>
+                        <l n="l30">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l31">Tuque videns passim ridentes suave puellas</l>
+                        <l n="l32">Suspiras, non ipse choro quod mixtus eodem es.</l>
+                        <l n="l33">Haec illi: at pastor nil contra, moestus acerbo</l>
+                        <l n="l34">Indulgens magis atque magis moriturus amori.</l>
+                        <l n="l35">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l36">Venit ab Idalio ridens Venus; illa dolosum</l>
+                        <l n="l37">Nescio quid ridens, at corde irata sub alto,</l>
+                        <l n="l38">Atque ait: at certe iactabas nuper amorem</l>
+                        <l n="l39">Cessurum tibi, Daphni: malo nunc cedis amori.</l>
+                        <l n="l40">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l41">Cui Daphnis graviter suspirans: Cypri cruenta,</l>
+                        <l n="l42">Cypri infesta hominum generi, saeva, improba Cypri,</l>
+                        <l n="l43">Ergo mihi totus sol occidit? ast erit ipsum</l>
+                        <l n="l44">Intra orcum Daphnis dolor et grave crimen amori.</l>
+                        <l n="l45">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l46">Pastor ubi fertur Cyprin, pete protinus Idam,</l>
+                        <l n="l47">Anchisenque..... illic quercus, heic densa cyperus,</l>
+                        <l n="l48">Atque apibus cava dulce sonant alvearia circum.</l>
+                        <l n="l49">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l50">Pulcher adhuc tibi carus Adonis: pascit et agnas,</l>
+                        <l n="l51">Et lepores figit, sequiturque horrentia lustra.</l>
+                        <l n="l52">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l53">Rursus adi propius Diomedem, et dicito: Daphnin</l>
+                        <l n="l54">Pastorem vici Daphnin; contendito mecum.</l>
+                        <l n="l55">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l56">O thoesque, lupique, ursique, horrentia dumis</l>
+                        <milestone n="milestone57" unit="page"/>
+                        <l n="l58">Occultant quos tesqua, valete: haud amplius usquam</l>
+                        <l n="l59">Cernetis Daphnin per sylvas et nemora alta.</l>
+                        <l n="l60">Tuque, Arethusa, vale; fontesque et flumina, pulcrum</l>
+                        <l n="l61">Quae pulcra fluitis lympha prope Tymbridis amnem.</l>
+                        <l n="l62">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l63">Daphnis ego, huc pastum duxi qui ad gramina vaccas;</l>
+                        <l n="l64">Daphnis ego, huc potum duxi qui ad flumina tauros.</l>
+                        <l n="l65">Incipe bucolicum, dulcis Musa, incipe carmen.</l>
+                        <l n="l66">O Pan, Pan, gelidi seu nunc iuga celsa Lycaei,</l>
+                        <l n="l67">Sive altum lustras nunc Moenalon, huc ades, o Pan,</l>
+                        <l n="l68">Trinacrium ad litus. Helices rex, ardua linque</l>
+                        <l n="l69">Saxa, Lycaonidae mirum et dis linque sepulcrum.</l>
+                        <l n="l70">Desine bucolicum iam, Musa, o desine carmen.</l>
+                        <l n="l71">Huc ades, huc, o Rex; ferto hanc, pulcre apta recenti</l>
+                        <l n="l72">Quae cera, mellis iucundum spirat odorem,</l>
+                        <l n="l73">Molliter et labrum se circumflectit, avenam;</l>
+                        <l n="l74">Ferto tibi; me saevus amor iam trudit ad Orcum.</l>
+                        <l n="l75">Desine bucolicum iam, Musa, o desine carmen.</l>
+                        <l n="l76">Nunc violas iam ferte, rubi; ferto, aspera spina;</l>
+                        <l n="l77">Fundite, iuniperi, narcissos pulcra comantes.</l>
+                        <l n="l78">Cuncta secus fiant. exstincto Daphnide, pinus</l>
+                        <l n="l79">Det pira; quaesitos, cervi, raptate molossos;</l>
+                        <l n="l80">Montanaeque ululae, philomelam vincite cantu.</l>
+                        <l n="l81">Desine bucolicum iam, Musa, o desine carmen.</l>
+                        <l n="l82">Sic fatus fessum posuit caput: at Venus ulnis</l>
+                        <l n="l83">Collapsum excepit, voluitque attollere, frustra</l>
+                        <l n="l84">Iam frustra. nam cuncta illum fatalia fila</l>
+                        <milestone n="milestone85" unit="page"/>
+                        <l n="l86">Defecere, nigram petiit Styga, mersus et atro est</l>
+                        <l n="l87">Gurgite vir Musis, vir amabilis ille Napaeis.</l>
+                        <l n="l88">Desine bucolicum iam, Musa, o desine carmen.</l>
+                        <l n="l89">At tu da capram, calicem da mî, Aepole: mulgens</l>
+                        <l n="l90">Libabo Musis. Musae, salvete; iterum mî</l>
+                        <l n="l91">Atque iterum salvete: alias meliora canemus.</l>
                      </sp>
-                     <sp n="text.group.text2.body.div.div1.sp6">
-                        <speaker n="text.group.text2.body.div.div1.sp6.speaker">
-                           <abbr n="text.group.text2.body.div.div1.sp6.speaker.abbr">Ae.</abbr>
+                     <sp n="sp10">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Ae.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div1.sp6.l1">Thyrsi, tibi formosa merum mel compleat ora;</l>
-                        <l n="text.group.text2.body.div.div1.sp6.l2">Dulcibus et vescare favis atque Atthide ficu,</l>
-                        <l n="text.group.text2.body.div.div1.sp6.l3">Vincis et argutas suavi nam voce cicadas.</l>
-                        <l n="text.group.text2.body.div.div1.sp6.l4">En calicem: ambrosium sentin', quem iactat, odorem?</l>
-                        <l n="text.group.text2.body.div.div1.sp6.l5">Quippe suis lavisse putes in fontibus Horas.</l>
-                        <l n="text.group.text2.body.div.div1.sp6.l6">Huc ades, o Cissaetha: agesis Thyrsi, hanc tibi mulge.</l>
-                        <l n="text.group.text2.body.div.div1.sp6.l7">O caprae, saltu ne ludite, ne malus in vos</l>
-                        <l n="text.group.text2.body.div.div1.sp6.l8">Luxuriem solitam iam nunc exerceat hircus.</l>
+                        <l n="l2">Thyrsi, tibi formosa merum mel compleat ora;</l>
+                        <l n="l3">Dulcibus et vescare favis atque Atthide ficu,</l>
+                        <l n="l4">Vincis et argutas suavi nam voce cicadas.</l>
+                        <l n="l5">En calicem: ambrosium sentin', quem iactat, odorem?</l>
+                        <l n="l6">Quippe suis lavisse putes in fontibus Horas.</l>
+                        <l n="l7">Huc ades, o Cissaetha: agesis Thyrsi, hanc tibi mulge.</l>
+                        <l n="l8">O caprae, saltu ne ludite, ne malus in vos</l>
+                        <l n="l9">Luxuriem solitam iam nunc exerceat hircus.</l>
                      </sp>
                   </div>
-                  <milestone n="text.group.text2.body.div.milestone2" unit="page"/>
-                  <div n="text.group.text2.body.div.div2">
-                     <head n="text.group.text2.body.div.div2.head">Idyllium II. Pharmaceutria.</head>
-                     <argument n="text.group.text2.body.div.div2.argument">
-                        <p n="text.group.text2.body.div.div2.argument.p">Saga quaedam Delphidem, a quo se relictam et proditam esse dolet, veneficiis flectere, ac demum reducere conatur.</p>
+                  <milestone n="milestone4" unit="page"/>
+                  <div n="div5">
+                     <head n="head1">Idyllium II. Pharmaceutria.</head>
+                     <argument n="argument2">
+                        <p n="p1">Saga quaedam Delphidem, a quo se relictam et proditam esse dolet, veneficiis flectere, ac demum reducere conatur.</p>
                      </argument>
-                     <sp n="text.group.text2.body.div.div2.sp">
-                        <l n="text.group.text2.body.div.div2.sp.l1">Ocyus huc lauros fer, Thestyli, fer mihi philtra;</l>
-                        <l n="text.group.text2.body.div.div2.sp.l2">Pocula purpureae circumda haec vellere lanae,</l>
-                        <l n="text.group.text2.body.div.div2.sp.l3">Perfidus ut magicae vim sentiat artis amator,</l>
-                        <l n="text.group.text2.body.div.div2.sp.l4">Qui me nondum etiam duodena luce revisit,</l>
-                        <l n="text.group.text2.body.div.div2.sp.l5">Nec de me quidquam, sim viva, an mortua, curat,</l>
-                        <l n="text.group.text2.body.div.div2.sp.l6">Nec perstans foribus malus obstrepit. illum Amor egit</l>
-                        <l n="text.group.text2.body.div.div2.sp.l7">Cum Venere, avexitque alio pernicibus alis.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l8">Cras Timageti visam festina palaestram,</l>
-                        <l n="text.group.text2.body.div.div2.sp.l9">Ludit ubi, faciamque vafro convicia: cantu</l>
-                        <l n="text.group.text2.body.div.div2.sp.l10">Nunc magico experiar si possim flectere. sed tu</l>
-                        <l n="text.group.text2.body.div.div2.sp.l11">Interea purum fulgeto, Delia; sacro</l>
-                        <l n="text.group.text2.body.div.div2.sp.l12">Carmine te affabor primam, Dea; teque sub alta</l>
-                        <pb n="text.group.text2.body.div.div2.sp.pb1"/>
-                        <l n="text.group.text2.body.div.div2.sp.l13">Regnantem tellure, Hecate, quam saeva canum vis</l>
-                        <l n="text.group.text2.body.div.div2.sp.l14">Horret per tumulos vadentem atrumque cruorem.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l15">Salve, Hecate, incoeptumque favens, Dea magna, secunda.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l16">Nostra haec ut Circes ne cedant pocula succis,</l>
-                        <l n="text.group.text2.body.div.div2.sp.l17">Ne vel Medeae, ne vel flavae Perimedae.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l18">Duc, lynx, duc ipsa mihi tu ad limina Delphin.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l19">Vruntur salsae fruges. age, Thestyli, sparge,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l20">Sparge molam; infelix, abiit quo mens tua longe?</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l21">An miseram me tuque tibi facis, improba, ludum?</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l22">Sparge simul, simul et dic: spargo Delphidis ossa.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l23">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l24">Delphis me malus urit; ego hanc in Delphide laurum.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l25">Laurus ut haec magnum crepuit, flammataque in ignem</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l26">Continuo versa est, cinerem nec cernimus ipsum;</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l27">Sic totum indomitus Delphin male torreat ardor.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l28">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l29">Igne liquefacio ceram hanc en auspice diva.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l30">Sic, Dea, sic nostro liquatur Delphis amore.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l31">Rhombus ut hic rapido se turbine versat ahenus,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l32">Attonitus sic ille meo se in limine verset.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l33">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l34">Furfuris hoc libo tibi, Delia: flexeris ipsa</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l35">Infernumque adamanta, et si quid durius ipso est.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l36">Audistine? canes ululant: Dea furva propinquat;</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l37">In triviis Dea furva: aes aes age, Thestyli, pulsa.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l38">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l39">Nunc placidum late silet aequor, nunc silet aura;</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l40">Non silet haec sed cura meo sub pectore gliscens.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l41">Namque virum deserta voco et male prodita, qui me</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l42">Sic viduam casta nuper pro virgine fecit.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l43">Duc, lynx, duc ipsa mihi tu ad limina Delphin.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l44">Ter libo, Dea magna, ter haec non irrita dico;</l> 
-                        <pb n="text.group.text2.body.div.div2.sp.pb2"/>
-                        <l n="text.group.text2.body.div.div2.sp.l45">Iam, quocumque calet, iam deserat immemor ignem;</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l46">Non minus ignoto quam Diae in litore Thesea</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l47">Oblitum perhibent flavam crines Ariadnen.</l> 
+                     <sp n="sp3">
+                        <l n="l1">Ocyus huc lauros fer, Thestyli, fer mihi philtra;</l>
+                        <l n="l2">Pocula purpureae circumda haec vellere lanae,</l>
+                        <l n="l3">Perfidus ut magicae vim sentiat artis amator,</l>
+                        <l n="l4">Qui me nondum etiam duodena luce revisit,</l>
+                        <l n="l5">Nec de me quidquam, sim viva, an mortua, curat,</l>
+                        <l n="l6">Nec perstans foribus malus obstrepit. illum Amor egit</l>
+                        <l n="l7">Cum Venere, avexitque alio pernicibus alis.</l>
+                        <l n="l8">Cras Timageti visam festina palaestram,</l>
+                        <l n="l9">Ludit ubi, faciamque vafro convicia: cantu</l>
+                        <l n="l10">Nunc magico experiar si possim flectere. sed tu</l>
+                        <l n="l11">Interea purum fulgeto, Delia; sacro</l>
+                        <l n="l12">Carmine te affabor primam, Dea; teque sub alta</l>
+                        <pb n="pb13"/>
+                        <l n="l14">Regnantem tellure, Hecate, quam saeva canum vis</l>
+                        <l n="l15">Horret per tumulos vadentem atrumque cruorem.</l>
+                        <l n="l16">Salve, Hecate, incoeptumque favens, Dea magna, secunda.</l>
+                        <l n="l17">Nostra haec ut Circes ne cedant pocula succis,</l>
+                        <l n="l18">Ne vel Medeae, ne vel flavae Perimedae.</l>
+                        <l n="l19">Duc, lynx, duc ipsa mihi tu ad limina Delphin.</l> 
+                        <l n="l20">Vruntur salsae fruges. age, Thestyli, sparge,</l> 
+                        <l n="l21">Sparge molam; infelix, abiit quo mens tua longe?</l> 
+                        <l n="l22">An miseram me tuque tibi facis, improba, ludum?</l> 
+                        <l n="l23">Sparge simul, simul et dic: spargo Delphidis ossa.</l>
+                        <l n="l24">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
+                        <l n="l25">Delphis me malus urit; ego hanc in Delphide laurum.</l> 
+                        <l n="l26">Laurus ut haec magnum crepuit, flammataque in ignem</l> 
+                        <l n="l27">Continuo versa est, cinerem nec cernimus ipsum;</l> 
+                        <l n="l28">Sic totum indomitus Delphin male torreat ardor.</l>
+                        <l n="l29">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
+                        <l n="l30">Igne liquefacio ceram hanc en auspice diva.</l> 
+                        <l n="l31">Sic, Dea, sic nostro liquatur Delphis amore.</l> 
+                        <l n="l32">Rhombus ut hic rapido se turbine versat ahenus,</l> 
+                        <l n="l33">Attonitus sic ille meo se in limine verset.</l>
+                        <l n="l34">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
+                        <l n="l35">Furfuris hoc libo tibi, Delia: flexeris ipsa</l> 
+                        <l n="l36">Infernumque adamanta, et si quid durius ipso est.</l> 
+                        <l n="l37">Audistine? canes ululant: Dea furva propinquat;</l> 
+                        <l n="l38">In triviis Dea furva: aes aes age, Thestyli, pulsa.</l>
+                        <l n="l39">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
+                        <l n="l40">Nunc placidum late silet aequor, nunc silet aura;</l> 
+                        <l n="l41">Non silet haec sed cura meo sub pectore gliscens.</l> 
+                        <l n="l42">Namque virum deserta voco et male prodita, qui me</l> 
+                        <l n="l43">Sic viduam casta nuper pro virgine fecit.</l>
+                        <l n="l44">Duc, lynx, duc ipsa mihi tu ad limina Delphin.</l>
+                        <l n="l45">Ter libo, Dea magna, ter haec non irrita dico;</l> 
+                        <pb n="pb46"/>
+                        <l n="l47">Iam, quocumque calet, iam deserat immemor ignem;</l> 
+                        <l n="l48">Non minus ignoto quam Diae in litore Thesea</l> 
+                        <l n="l49">Oblitum perhibent flavam crines Ariadnen.</l> 
               
-                        <l n="text.group.text2.body.div.div2.sp.l48">Duc, Iynx, duc ipsa mihi tu ad limiua Delphin.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l49">Arcasin hippomanes planta est, gustata furore</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l50">Quae subito stimulat montes armenta per altos.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l51">Sic Delphin videam insanum similemque furenti</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l52">Ex nitida huc rapido cursu adventare palaestra.</l> 
+                        <l n="l50">Duc, Iynx, duc ipsa mihi tu ad limiua Delphin.</l> 
+                        <l n="l51">Arcasin hippomanes planta est, gustata furore</l> 
+                        <l n="l52">Quae subito stimulat montes armenta per altos.</l> 
+                        <l n="l53">Sic Delphin videam insanum similemque furenti</l> 
+                        <l n="l54">Ex nitida huc rapido cursu adventare palaestra.</l> 
               
-                        <l n="text.group.text2.body.div.div2.sp.l53">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l54">Delphidis ex ima lapsa est haec fimbria veste:</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l55">Hanc ego divelloque manu, doque ignibus. eheu,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l56">Heu, crudelis amor, nostro de pectore totum</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l57">Hausisti, veluti fluvialis hirudo, cruorem.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l58">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l59">Cras tibi pharmaca nigra feram, tritamque lacertam,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l60">Thestyli. nunc succos hosce accipe, et illine limen</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l61">Illius inspergens: limen quod prodita servo,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l62">Cui teneor constricta, licet me negligat ille;</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l63">Et spue, dicque spuens: en spargo Delphidis ossa.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l64">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l65">Illa abiit; sum sola, meas nunc unde querelas</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l66">Ordiar? hanc miserae quis mi cladem intulit auctor?</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l67">Sacra canistra ferens Eubulis venit Anaxo</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l68">Huc ad nos, Triviae in lucum; visenda ferarum</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l69">Magna ubi pompa ibat; quas inter fulva leaena.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l70">Disce mei caussas, disce, o bona Luna, furoris.</l>
-              
-              
-                        <l n="text.group.text2.body.div.div2.sp.l71">Theucharileque adeo nutrix me Thressa vocavit,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l72">Mortua iam, tum cara mihi vicina, paratae</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l73">Spectaclum ad pompae. quam dis invisa sequebar</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l74">Bysso culta fluente, gerens pallam Clearistae.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l75">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l76">Dum via qua ducit, gradior prope tecta Lyconis,</l> 
-                        <pb n="text.group.text2.body.div.div2.sp.pb3"/>
-                        <l n="text.group.text2.body.div.div2.sp.l77">Formosum Delphin, formosumque Eudemippum</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l78">Aspicio e nitida redeuntes forte palaestra:</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l79">Mollis helichryso flaventior ore nitebat</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l80">Lanugo, puram vincebant pectora Lunam.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l81">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l82">Vt vidi, ut perii malesana! ut saucia curis</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l83">Pectus eram! coepitque vigens tabescere formae</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l84">Protinus ille nitor; nec pompae iam super ulla</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l85">Cura fuit, nec quaeve domum sim, quave reversa</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l86">Commemini; morbo sed conflictabar acuto</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l87">Bis quinas luces, bis quinas languida noctes.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l88">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l89">Oraque pallebam thapso magis, et mihi toto</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l90">Paullatim crinis de vertice lapsus abibat.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l91">Dira artus macies adduxerat, ossaque tantum</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l92">Duraque restabat cutis aegrae. cuius ad aedes</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l93">Non misera adrepsi? quae me non multa precantem</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l94">Vidit anus, morbos docta excantare morantes?</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l95">Nil cunctaexpertae melius fuit. hora fluebat</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l96">Interea fugiens incassum praepete lapsu.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l97">Disce mei caussas, disce, o bona Luna, furoris.</l>
+                        <l n="l55">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
+                        <l n="l56">Delphidis ex ima lapsa est haec fimbria veste:</l> 
+                        <l n="l57">Hanc ego divelloque manu, doque ignibus. eheu,</l> 
+                        <l n="l58">Heu, crudelis amor, nostro de pectore totum</l> 
+                        <l n="l59">Hausisti, veluti fluvialis hirudo, cruorem.</l>
+                        <l n="l60">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
+                        <l n="l61">Cras tibi pharmaca nigra feram, tritamque lacertam,</l> 
+                        <l n="l62">Thestyli. nunc succos hosce accipe, et illine limen</l> 
+                        <l n="l63">Illius inspergens: limen quod prodita servo,</l> 
+                        <l n="l64">Cui teneor constricta, licet me negligat ille;</l> 
+                        <l n="l65">Et spue, dicque spuens: en spargo Delphidis ossa.</l>
+                        <l n="l66">Duc, Iynx, duc ipsa mihi tu ad limina Delphin.</l> 
+                        <l n="l67">Illa abiit; sum sola, meas nunc unde querelas</l> 
+                        <l n="l68">Ordiar? hanc miserae quis mi cladem intulit auctor?</l> 
+                        <l n="l69">Sacra canistra ferens Eubulis venit Anaxo</l> 
+                        <l n="l70">Huc ad nos, Triviae in lucum; visenda ferarum</l> 
+                        <l n="l71">Magna ubi pompa ibat; quas inter fulva leaena.</l>
+                        <l n="l72">Disce mei caussas, disce, o bona Luna, furoris.</l>
               
               
-                        <l n="text.group.text2.body.div.div2.sp.l98">Tunc famulae verum retegens, age, Thestyli, dixi,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l99">Morbo aliquam fer opem: totam nam Myndius urit</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l100">Me miseram malus ille puer, quin compita gressu</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l101">I subito, servaque meantem saepe palaestram</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l102">Ad Timageti: longa illic otia degit.</l> 
-              
-                        <l n="text.group.text2.body.div.div2.sp.l103">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l104">Atque ipsum invenies ubi solum, te tua, furtim</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l105">Dic, Simaetha vocat. subitoque huc ducito tecum.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l106">Haec ego mandaram. celerans iter illa nitentem</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l107">Nostra egit Delphin in tecta. at lumine vidi</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l108">Vt propius superantem ipsum iam limina portae.</l> 
-                        <pb n="text.group.text2.body.div.div2.sp.pb4"/>
-                        <l n="text.group.text2.body.div.div2.sp.l109">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l110">Obrigui nivibus mage tota; ac plurimus uda</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l111">Sudor iit de fronte, noto ceu tacta pruina</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l112">Liquitur humenti; poteram nec dicere quidquam,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l113">Solvere nec vocem, quantam, quum somnia turbant,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l114">Ad matrem pueri clamantes tollere suerunt:</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l115">Sic gelidae penitus rigui assimilis crystallo.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l116">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l117">Ille autem crudelis, ubi me vidit amantem,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l118">Lumina defixit terra, solioque resedit;</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l119">Tum residens: Simaetha, inquit, praevertere tantum</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l120">Tu me adeo voluisti ultro, quantum ipse venustum</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l121">Antevolans liqui nuper post terga Philinum,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l122">Te coram ut veniamque, tuis et sedibus adstem.</l>
-                        <l n="text.group.text2.body.div.div2.sp.l123">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l124">Atqui ego venissem, iucundum testor Amorem,</l>
-              
-              
-                        <l n="text.group.text2.body.div.div2.sp.l125">Aut tribus aut quatuor sociis comitatus, eadem</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l126">Venissem nocte hac servans canentia Bacchi</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l127">Mala sinu, circum et redimitus tempora fronde</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l128">Herculea, ornaret levibus quam purpura vittis.</l> 
-              
-                        <l n="text.group.text2.body.div.div2.sp.l129">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l130">Quod si in tecta forem admissus, tibi dulce fuisset</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l131">Spero equidem; neque enim mihi vel contendere cursu,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l132">Vel quisquam sese valeat componere forma.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l133">Et si labra labris potuissem inferre, quiessem</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l134">Munere contentus parvo, sin forte fuissem</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l135">A foribus longe pulsus, nec tela nec ignes</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l136">Cessarent, gemerentque effracto cardine postes.</l> 
-              
-                        <l n="text.group.text2.body.div.div2.sp.l137">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l138">Nunc fateor Veneri grates me reddere primum,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l139">Dein tibi post Venerem debere, quod igne retractum</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l140">E medio invitas tua sponte ad limina, diro</l>
-                        <pb n="text.group.text2.body.div.div2.sp.pb5"/>
-                        <l n="text.group.text2.body.div.div2.sp.l141">Iam iam aestu exustum, mulier. quippe improbus ille</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l142">Saevit Amor gravius Liparaeo saepe calore.</l> 
-              
-                        <l n="text.group.text2.body.div.div2.sp.l143">Disce mei caussas, disce, o bona Luna, furoris.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l144">Ille actas furiis patrio discedere gnatas</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l145">E thalamo intactas, docuitque relinquere sponsas</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l146">Coniugis elusi necdum bene frigida strata.</l> 
-              
-                        <l n="text.group.text2.body.div.div2.sp.l147">Dixit: ego facile dicenti credula, dextra</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l148">Correptum iuvenem mecum in penetralia traxi;</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l149">Mutuaque exarsit confestim in corpore flamma,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l150">Oraque flagrabant dulci mussantia voce.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l151">Neve diu teneam te dictis, optima Luna,</l> 
+                        <l n="l73">Theucharileque adeo nutrix me Thressa vocavit,</l> 
+                        <l n="l74">Mortua iam, tum cara mihi vicina, paratae</l> 
+                        <l n="l75">Spectaclum ad pompae. quam dis invisa sequebar</l> 
+                        <l n="l76">Bysso culta fluente, gerens pallam Clearistae.</l>
+                        <l n="l77">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l78">Dum via qua ducit, gradior prope tecta Lyconis,</l> 
+                        <pb n="pb79"/>
+                        <l n="l80">Formosum Delphin, formosumque Eudemippum</l> 
+                        <l n="l81">Aspicio e nitida redeuntes forte palaestra:</l> 
+                        <l n="l82">Mollis helichryso flaventior ore nitebat</l> 
+                        <l n="l83">Lanugo, puram vincebant pectora Lunam.</l>
+                        <l n="l84">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l85">Vt vidi, ut perii malesana! ut saucia curis</l> 
+                        <l n="l86">Pectus eram! coepitque vigens tabescere formae</l> 
+                        <l n="l87">Protinus ille nitor; nec pompae iam super ulla</l> 
+                        <l n="l88">Cura fuit, nec quaeve domum sim, quave reversa</l> 
+                        <l n="l89">Commemini; morbo sed conflictabar acuto</l> 
+                        <l n="l90">Bis quinas luces, bis quinas languida noctes.</l>
+                        <l n="l91">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l92">Oraque pallebam thapso magis, et mihi toto</l> 
+                        <l n="l93">Paullatim crinis de vertice lapsus abibat.</l> 
+                        <l n="l94">Dira artus macies adduxerat, ossaque tantum</l> 
+                        <l n="l95">Duraque restabat cutis aegrae. cuius ad aedes</l> 
+                        <l n="l96">Non misera adrepsi? quae me non multa precantem</l> 
+                        <l n="l97">Vidit anus, morbos docta excantare morantes?</l> 
+                        <l n="l98">Nil cunctaexpertae melius fuit. hora fluebat</l> 
+                        <l n="l99">Interea fugiens incassum praepete lapsu.</l>
+                        <l n="l100">Disce mei caussas, disce, o bona Luna, furoris.</l>
               
               
+                        <l n="l101">Tunc famulae verum retegens, age, Thestyli, dixi,</l> 
+                        <l n="l102">Morbo aliquam fer opem: totam nam Myndius urit</l> 
+                        <l n="l103">Me miseram malus ille puer, quin compita gressu</l> 
+                        <l n="l104">I subito, servaque meantem saepe palaestram</l> 
+                        <l n="l105">Ad Timageti: longa illic otia degit.</l> 
               
-                        <l n="text.group.text2.body.div.div2.sp.l152">Maxima res perfecta, optato et fine potimur.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l153">Post illo nec me culpavit tempore Delphis,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l154">Ipsa nec illum, hesternam ad lucem. at cara Philistae</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l155">Atque Melixonis veniens huc mater in altum</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l156">Quum veherent caelum roseae Titanidos axem</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l157">Oceano e rutilo, nondum orto sole, iugales,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l158">Multa inter fando miserae haec narravit: amore</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l159">Captum alio Delphin; puerine, an forte puellae,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l160">Incertum. tantum saepe inter pocula dixit</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l161">Plena mero miscere, malus quo flagrat, amorem,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l162">Et fugere, et raptim solitum sua visere tecta</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l163">Floribus ac semper multis halantia sertis.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l164">Haec mihi narravit non mendax hospita. ad aedes</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l165">Terque quaterque meas prius adventare solebat,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l166">Doricaque heic pyxis posita illi saepe relicta est.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l167">Nunc vero necdum duodena est luce reversus;</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l168">Immemor anne etiam nostri nova gaudia servat,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l169">Deliciasque odit primas? quare ipsa fugacem</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l170">Experiar philtris iuvenem reprendere, quod si</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l171">Laeserit heu rursus, Parcas immitia testor</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l172">Numina, tabescetque, fores pulsabit et Orci;</l>
-                        <pb n="text.group.text2.body.div.div2.sp.pb6"/>
-                        <l n="text.group.text2.body.div.div2.sp.l173">Talia in hac nobis latitant mala pharmaca cista,</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l174">Assyrius quae me docuit miscere viator.</l> 
+                        <l n="l106">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l107">Atque ipsum invenies ubi solum, te tua, furtim</l> 
+                        <l n="l108">Dic, Simaetha vocat. subitoque huc ducito tecum.</l> 
+                        <l n="l109">Haec ego mandaram. celerans iter illa nitentem</l> 
+                        <l n="l110">Nostra egit Delphin in tecta. at lumine vidi</l> 
+                        <l n="l111">Vt propius superantem ipsum iam limina portae.</l> 
+                        <pb n="pb112"/>
+                        <l n="l113">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l114">Obrigui nivibus mage tota; ac plurimus uda</l> 
+                        <l n="l115">Sudor iit de fronte, noto ceu tacta pruina</l> 
+                        <l n="l116">Liquitur humenti; poteram nec dicere quidquam,</l> 
+                        <l n="l117">Solvere nec vocem, quantam, quum somnia turbant,</l> 
+                        <l n="l118">Ad matrem pueri clamantes tollere suerunt:</l> 
+                        <l n="l119">Sic gelidae penitus rigui assimilis crystallo.</l>
+                        <l n="l120">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l121">Ille autem crudelis, ubi me vidit amantem,</l> 
+                        <l n="l122">Lumina defixit terra, solioque resedit;</l> 
+                        <l n="l123">Tum residens: Simaetha, inquit, praevertere tantum</l> 
+                        <l n="l124">Tu me adeo voluisti ultro, quantum ipse venustum</l> 
+                        <l n="l125">Antevolans liqui nuper post terga Philinum,</l> 
+                        <l n="l126">Te coram ut veniamque, tuis et sedibus adstem.</l>
+                        <l n="l127">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l128">Atqui ego venissem, iucundum testor Amorem,</l>
               
-                        <l n="text.group.text2.body.div.div2.sp.l175">At tu, candida, salve, et equos, Dea, tinge sub alto</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l176">Oceano: ipsa feram, coepi quos ferre, dolores.</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l177">Salve, Luna nitens candenti corpore, vosque</l> 
-                        <l n="text.group.text2.body.div.div2.sp.l178">Salvete, o placidae comites, vaga sidera, noctis.</l>
+              
+                        <l n="l129">Aut tribus aut quatuor sociis comitatus, eadem</l> 
+                        <l n="l130">Venissem nocte hac servans canentia Bacchi</l> 
+                        <l n="l131">Mala sinu, circum et redimitus tempora fronde</l> 
+                        <l n="l132">Herculea, ornaret levibus quam purpura vittis.</l> 
+              
+                        <l n="l133">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l134">Quod si in tecta forem admissus, tibi dulce fuisset</l> 
+                        <l n="l135">Spero equidem; neque enim mihi vel contendere cursu,</l> 
+                        <l n="l136">Vel quisquam sese valeat componere forma.</l> 
+                        <l n="l137">Et si labra labris potuissem inferre, quiessem</l> 
+                        <l n="l138">Munere contentus parvo, sin forte fuissem</l> 
+                        <l n="l139">A foribus longe pulsus, nec tela nec ignes</l> 
+                        <l n="l140">Cessarent, gemerentque effracto cardine postes.</l> 
+              
+                        <l n="l141">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l142">Nunc fateor Veneri grates me reddere primum,</l> 
+                        <l n="l143">Dein tibi post Venerem debere, quod igne retractum</l> 
+                        <l n="l144">E medio invitas tua sponte ad limina, diro</l>
+                        <pb n="pb145"/>
+                        <l n="l146">Iam iam aestu exustum, mulier. quippe improbus ille</l> 
+                        <l n="l147">Saevit Amor gravius Liparaeo saepe calore.</l> 
+              
+                        <l n="l148">Disce mei caussas, disce, o bona Luna, furoris.</l> 
+                        <l n="l149">Ille actas furiis patrio discedere gnatas</l> 
+                        <l n="l150">E thalamo intactas, docuitque relinquere sponsas</l> 
+                        <l n="l151">Coniugis elusi necdum bene frigida strata.</l> 
+              
+                        <l n="l152">Dixit: ego facile dicenti credula, dextra</l> 
+                        <l n="l153">Correptum iuvenem mecum in penetralia traxi;</l> 
+                        <l n="l154">Mutuaque exarsit confestim in corpore flamma,</l> 
+                        <l n="l155">Oraque flagrabant dulci mussantia voce.</l> 
+                        <l n="l156">Neve diu teneam te dictis, optima Luna,</l> 
+              
+              
+              
+                        <l n="l157">Maxima res perfecta, optato et fine potimur.</l> 
+                        <l n="l158">Post illo nec me culpavit tempore Delphis,</l> 
+                        <l n="l159">Ipsa nec illum, hesternam ad lucem. at cara Philistae</l> 
+                        <l n="l160">Atque Melixonis veniens huc mater in altum</l> 
+                        <l n="l161">Quum veherent caelum roseae Titanidos axem</l> 
+                        <l n="l162">Oceano e rutilo, nondum orto sole, iugales,</l> 
+                        <l n="l163">Multa inter fando miserae haec narravit: amore</l> 
+                        <l n="l164">Captum alio Delphin; puerine, an forte puellae,</l> 
+                        <l n="l165">Incertum. tantum saepe inter pocula dixit</l> 
+                        <l n="l166">Plena mero miscere, malus quo flagrat, amorem,</l> 
+                        <l n="l167">Et fugere, et raptim solitum sua visere tecta</l> 
+                        <l n="l168">Floribus ac semper multis halantia sertis.</l> 
+                        <l n="l169">Haec mihi narravit non mendax hospita. ad aedes</l> 
+                        <l n="l170">Terque quaterque meas prius adventare solebat,</l> 
+                        <l n="l171">Doricaque heic pyxis posita illi saepe relicta est.</l> 
+                        <l n="l172">Nunc vero necdum duodena est luce reversus;</l> 
+                        <l n="l173">Immemor anne etiam nostri nova gaudia servat,</l> 
+                        <l n="l174">Deliciasque odit primas? quare ipsa fugacem</l> 
+                        <l n="l175">Experiar philtris iuvenem reprendere, quod si</l> 
+                        <l n="l176">Laeserit heu rursus, Parcas immitia testor</l> 
+                        <l n="l177">Numina, tabescetque, fores pulsabit et Orci;</l>
+                        <pb n="pb178"/>
+                        <l n="l179">Talia in hac nobis latitant mala pharmaca cista,</l> 
+                        <l n="l180">Assyrius quae me docuit miscere viator.</l> 
+              
+                        <l n="l181">At tu, candida, salve, et equos, Dea, tinge sub alto</l> 
+                        <l n="l182">Oceano: ipsa feram, coepi quos ferre, dolores.</l> 
+                        <l n="l183">Salve, Luna nitens candenti corpore, vosque</l> 
+                        <l n="l184">Salvete, o placidae comites, vaga sidera, noctis.</l>
                      </sp>
                   </div>
-                  <milestone n="text.group.text2.body.div.milestone3" unit="page"/>
-                  <div n="text.group.text2.body.div.div3">
-                     <head n="text.group.text2.body.div.div3.head">Idyllium <num n="text.group.text2.body.div.div3.head.num" value="3">III</num>.</head>
-                     <argument n="text.group.text2.body.div.div3.argument">
-                        <p n="text.group.text2.body.div.div3.argument.p">
+                  <milestone n="milestone6" unit="page"/>
+                  <div n="div7">
+                     <head n="head1">Idyllium <num n="num1" value="3">III</num>.</head>
+                     <argument n="argument2">
+                        <p n="p1">
                 Pastor quidam Amaryllidis amore correptus cum eadem conqueritur, quod male eius amori puela respondeat.
               </p>
                      </argument>
-                     <sp n="text.group.text2.body.div.div3.sp">
-                        <lg n="text.group.text2.body.div.div3.sp.lg1">
-                           <l n="text.group.text2.body.div.div3.sp.lg1.l1">Delicias sequar ipse meas Amaryllida: caprae</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg1.l2">Per iuga pascuntur lascivae, ac Tityrus una est.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg1.l3">Tityre, pasce capras, et pastas fontis ad undam,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg1.l4">Ante alios dilecte, age, Tityre, et inter agendum,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg1.l5">Namque caper Libycus cornu ferit ille, caveto.</l>
+                     <sp n="sp3">
+                        <lg n="lg1">
+                           <l n="l1">Delicias sequar ipse meas Amaryllida: caprae</l>
+                           <l n="l2">Per iuga pascuntur lascivae, ac Tityrus una est.</l>
+                           <l n="l3">Tityre, pasce capras, et pastas fontis ad undam,</l>
+                           <l n="l4">Ante alios dilecte, age, Tityre, et inter agendum,</l>
+                           <l n="l5">Namque caper Libycus cornu ferit ille, caveto.</l>
                         </lg>
-                        <lg n="text.group.text2.body.div.div3.sp.lg2">
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l1">O formosa Amarylli, quid ah non sponte sub antrum</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l2">Invitas, velut ante, tuum, crudelis, amantem?</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l3">An tibi nunc odii sum causa? et simus, et esse</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l4">Iam videor propius mento deformis adunco,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l5">Nympha, tibi? laqueo coges me perdere vitam.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l6">Ecce decem tibi mala fero: sunt arbore lecta,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l7">Qua legere et voluisti. iterum cras altera carpens</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l8">Lecta feram; tantum tu nostras aspice curas.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l9">Atque utinam nunc factus apis tua murmure rauco</l>
-                           <milestone n="text.group.text2.body.div.div3.sp.lg2.milestone1" unit="page"/>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l10">Ingrediar sub tecta, interque halantia lapsus</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l11">Gramina tecum hederae filicisque in tegmine ludam!</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l12">Nunc scio, quid sit Amor: numen grave. pressa leaenae</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l13">Ille hausit quondam puer ubera; mater et ipsum</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l14">Eduxit querceta inter, qui vulnere saevo</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l15">Me crucians imos flamma depascitur artus.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l16">O blanda obtutu, penitus lapis, o mea nigro</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l17">Nympha supercilio, ne me complexibus arce,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l18">Osculer ut caram: sunt dulcia et oscula vana.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l19">Ni facias, mens est subito discerpere serta,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l20">Mollia pallidulis hederae quae plexa corymbis,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l21">Atque apio bene olente, tibi servo. hei mihi luctus</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l22">Quam gravis incubuit! tu nil miserere querentis?</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l23">Nudus ab aërio scopuli iam vertice in aequor</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l24">Insiliam, observat thynnos ubi proximus Olpis;</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l25">Et si non moriar, casu laetabere nostro.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l26">Novi equidem: nam tristis ego dum nuper ad artes</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l27">Me solitas verti, cupiens, num fida maneres,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l28">Noscere, non pressum strepitu dedit omina laeta</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l29">Telephilon, sed lenta manu male tabuit herba.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l30">Dixit et Agroeo, dum forte legabat aristas</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l31">Messorum elapsas manibus, non inscia vates</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l32">Vera monens cribro; toto me corde perire.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l33">Heu miserum, nullam tibi nostri in pectore curam.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l34">Ipse capram geminos enixam corpore foetus,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l35">Albentemque tibi servo. Mermnonis habendam</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l36">Hanc sibi iamdudum nigra orat Erithacis: illi</l>
-                           <milestone n="text.group.text2.body.div.div3.sp.lg2.milestone2" unit="page"/>
-                           <l n="text.group.text2.body.div.div3.sp.lg2.l37">Et dabo, tu vanum quoniam sic, improba, ludis.</l>
+                        <lg n="lg2">
+                           <l n="l1">O formosa Amarylli, quid ah non sponte sub antrum</l>
+                           <l n="l2">Invitas, velut ante, tuum, crudelis, amantem?</l>
+                           <l n="l3">An tibi nunc odii sum causa? et simus, et esse</l>
+                           <l n="l4">Iam videor propius mento deformis adunco,</l>
+                           <l n="l5">Nympha, tibi? laqueo coges me perdere vitam.</l>
+                           <l n="l6">Ecce decem tibi mala fero: sunt arbore lecta,</l>
+                           <l n="l7">Qua legere et voluisti. iterum cras altera carpens</l>
+                           <l n="l8">Lecta feram; tantum tu nostras aspice curas.</l>
+                           <l n="l9">Atque utinam nunc factus apis tua murmure rauco</l>
+                           <milestone n="milestone10" unit="page"/>
+                           <l n="l11">Ingrediar sub tecta, interque halantia lapsus</l>
+                           <l n="l12">Gramina tecum hederae filicisque in tegmine ludam!</l>
+                           <l n="l13">Nunc scio, quid sit Amor: numen grave. pressa leaenae</l>
+                           <l n="l14">Ille hausit quondam puer ubera; mater et ipsum</l>
+                           <l n="l15">Eduxit querceta inter, qui vulnere saevo</l>
+                           <l n="l16">Me crucians imos flamma depascitur artus.</l>
+                           <l n="l17">O blanda obtutu, penitus lapis, o mea nigro</l>
+                           <l n="l18">Nympha supercilio, ne me complexibus arce,</l>
+                           <l n="l19">Osculer ut caram: sunt dulcia et oscula vana.</l>
+                           <l n="l20">Ni facias, mens est subito discerpere serta,</l>
+                           <l n="l21">Mollia pallidulis hederae quae plexa corymbis,</l>
+                           <l n="l22">Atque apio bene olente, tibi servo. hei mihi luctus</l>
+                           <l n="l23">Quam gravis incubuit! tu nil miserere querentis?</l>
+                           <l n="l24">Nudus ab aërio scopuli iam vertice in aequor</l>
+                           <l n="l25">Insiliam, observat thynnos ubi proximus Olpis;</l>
+                           <l n="l26">Et si non moriar, casu laetabere nostro.</l>
+                           <l n="l27">Novi equidem: nam tristis ego dum nuper ad artes</l>
+                           <l n="l28">Me solitas verti, cupiens, num fida maneres,</l>
+                           <l n="l29">Noscere, non pressum strepitu dedit omina laeta</l>
+                           <l n="l30">Telephilon, sed lenta manu male tabuit herba.</l>
+                           <l n="l31">Dixit et Agroeo, dum forte legabat aristas</l>
+                           <l n="l32">Messorum elapsas manibus, non inscia vates</l>
+                           <l n="l33">Vera monens cribro; toto me corde perire.</l>
+                           <l n="l34">Heu miserum, nullam tibi nostri in pectore curam.</l>
+                           <l n="l35">Ipse capram geminos enixam corpore foetus,</l>
+                           <l n="l36">Albentemque tibi servo. Mermnonis habendam</l>
+                           <l n="l37">Hanc sibi iamdudum nigra orat Erithacis: illi</l>
+                           <milestone n="milestone38" unit="page"/>
+                           <l n="l39">Et dabo, tu vanum quoniam sic, improba, ludis.</l>
                         </lg>
-                        <lg n="text.group.text2.body.div.div3.sp.lg3">
-                           <l n="text.group.text2.body.div.div3.sp.lg3.l1">En oculus dexter saliit mihi: numquid eamdem</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg3.l2">Prospiciam? hac tereti modulabor carmina pinu</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg3.l3">Innixus, si forte meos si forte dolores</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg3.l4">Respiciat; neque enim est totos adamantina sensus.</l>
+                        <lg n="lg3">
+                           <l n="l1">En oculus dexter saliit mihi: numquid eamdem</l>
+                           <l n="l2">Prospiciam? hac tereti modulabor carmina pinu</l>
+                           <l n="l3">Innixus, si forte meos si forte dolores</l>
+                           <l n="l4">Respiciat; neque enim est totos adamantina sensus.</l>
                         </lg>
-                        <lg n="text.group.text2.body.div.div3.sp.lg4">
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l1">Hippomenes, caram voluit quum vincere nympham,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l2">Poma manu retinens plantis pernicibus omne</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l3">Emensus spatium est. Atalanta ut vidit, ut arsit,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l4">Vt penitus toto concepit pectore amorem!</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l5">Duxit et ex Othry vates armenta Melampus</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l6">In Pylon; inque manus cessit formosa Bianti</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l7">Illa parens genitura decus clarum Alphesiboeam.</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l8">An non et pascit niveas in collibus agnas</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l9">Dum puer, in furias Venerem sic egit Adonis,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l10">Vt gremio complexa nec ipsa in morte relinquat?</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l11">Felix indomito pressus languentia somno</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l12">Lumina et Endymion; felix, o candida Nympha,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l13">Ipse etiam Iasion, laetus qui munera sensit,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg4.l14">Quanta nefas ulli sperare audita profano.</l>
+                        <lg n="lg4">
+                           <l n="l1">Hippomenes, caram voluit quum vincere nympham,</l>
+                           <l n="l2">Poma manu retinens plantis pernicibus omne</l>
+                           <l n="l3">Emensus spatium est. Atalanta ut vidit, ut arsit,</l>
+                           <l n="l4">Vt penitus toto concepit pectore amorem!</l>
+                           <l n="l5">Duxit et ex Othry vates armenta Melampus</l>
+                           <l n="l6">In Pylon; inque manus cessit formosa Bianti</l>
+                           <l n="l7">Illa parens genitura decus clarum Alphesiboeam.</l>
+                           <l n="l8">An non et pascit niveas in collibus agnas</l>
+                           <l n="l9">Dum puer, in furias Venerem sic egit Adonis,</l>
+                           <l n="l10">Vt gremio complexa nec ipsa in morte relinquat?</l>
+                           <l n="l11">Felix indomito pressus languentia somno</l>
+                           <l n="l12">Lumina et Endymion; felix, o candida Nympha,</l>
+                           <l n="l13">Ipse etiam Iasion, laetus qui munera sensit,</l>
+                           <l n="l14">Quanta nefas ulli sperare audita profano.</l>
                         </lg>
-                        <lg n="text.group.text2.body.div.div3.sp.lg5">
-                           <l n="text.group.text2.body.div.div3.sp.lg5.l1">Heu caput indoluit; nil curas? carmina ponam,</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg5.l2">Stratus et heic iaceam. vivi proiecta vorabunt</l>
-                           <l n="text.group.text2.body.div.div3.sp.lg5.l3">Membra lupi; id suavi sparget tua guttura melle.</l>
+                        <lg n="lg5">
+                           <l n="l1">Heu caput indoluit; nil curas? carmina ponam,</l>
+                           <l n="l2">Stratus et heic iaceam. vivi proiecta vorabunt</l>
+                           <l n="l3">Membra lupi; id suavi sparget tua guttura melle.</l>
                         </lg>
                      </sp>
                   </div>
-                  <div n="text.group.text2.body.div.div4">
-                     <head n="text.group.text2.body.div.div4.head">Idyllium IV. Pastores.</head>
-                     <argument n="text.group.text2.body.div.div4.argument">
-                        <p n="text.group.text2.body.div.div4.argument.p">Colloquuntur inter se Battus caprarius et Corydon bubulcus armento custos relictus ab Aegone, quem Milo ad certamen Olympicum secum abduxerat.</p>
+                  <div n="div8">
+                     <head n="head1">Idyllium IV. Pastores.</head>
+                     <argument n="argument2">
+                        <p n="p1">Colloquuntur inter se Battus caprarius et Corydon bubulcus armento custos relictus ab Aegone, quem Milo ad certamen Olympicum secum abduxerat.</p>
                      </argument>
-                     <listPerson n="text.group.text2.body.div.div4.listPerson">
-                        <person n="text.group.text2.body.div.div4.listPerson.person1">
-                           <persName n="text.group.text2.body.div.div4.listPerson.person1.persName">Battus</persName>
+                     <listPerson n="listPerson3">
+                        <person n="person1">
+                           <persName n="persName1">Battus</persName>
                         </person>
-                        <person n="text.group.text2.body.div.div4.listPerson.person2">
-                           <persName n="text.group.text2.body.div.div4.listPerson.person2.persName">Corydon</persName>
+                        <person n="person2">
+                           <persName n="persName1">Corydon</persName>
                         </person>
                      </listPerson>
-                     <sp n="text.group.text2.body.div.div4.sp1">
-                        <speaker n="text.group.text2.body.div.div4.sp1.speaker">
-                           <abbr n="text.group.text2.body.div.div4.sp1.speaker.abbr">Ba.</abbr>
+                     <sp n="sp4">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Ba.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div4.sp1.l">Hae, Corydon, vaccae cuiae sunt? anne Philondae?</l>
+                        <l n="l2">Hae, Corydon, vaccae cuiae sunt? anne Philondae?</l>
                      </sp>
             
-                     <sp n="text.group.text2.body.div.div4.sp2">
-                        <speaker n="text.group.text2.body.div.div4.sp2.speaker">
-                           <abbr n="text.group.text2.body.div.div4.sp2.speaker.abbr">Co.</abbr>
+                     <sp n="sp5">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Co.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div4.sp2.l">Non; verum Aegonis: pascendas mî dedit Aegon.</l>
+                        <l n="l2">Non; verum Aegonis: pascendas mî dedit Aegon.</l>
                      </sp>
                   </div>
-                  <div n="text.group.text2.body.div.div5">
-                     <head n="text.group.text2.body.div.div5.head">Idyllium V. Viatores.</head>
-                     <argument n="text.group.text2.body.div.div5.argument">
-                        <p n="text.group.text2.body.div.div5.argument.p">Comatas Caprarius, et Lacon ovium pastor obvii sibi invicem conviciantur primo; deinde, positis pignoribus, cantu certant, Morsone iudice adhibito, qui Comatan victorem declarat.</p>
+                  <div n="div9">
+                     <head n="head1">Idyllium V. Viatores.</head>
+                     <argument n="argument2">
+                        <p n="p1">Comatas Caprarius, et Lacon ovium pastor obvii sibi invicem conviciantur primo; deinde, positis pignoribus, cantu certant, Morsone iudice adhibito, qui Comatan victorem declarat.</p>
                      </argument>
-                     <listPerson n="text.group.text2.body.div.div5.listPerson">
-                        <person n="text.group.text2.body.div.div5.listPerson.person1">
-                           <persName n="text.group.text2.body.div.div5.listPerson.person1.persName">Comatas</persName>
+                     <listPerson n="listPerson3">
+                        <person n="person1">
+                           <persName n="persName1">Comatas</persName>
                         </person>
-                        <person n="text.group.text2.body.div.div5.listPerson.person2">
-                           <persName n="text.group.text2.body.div.div5.listPerson.person2.persName">Lacon</persName>
+                        <person n="person2">
+                           <persName n="persName1">Lacon</persName>
                         </person>
                      </listPerson>
-                     <sp n="text.group.text2.body.div.div5.sp1">
-                        <speaker n="text.group.text2.body.div.div5.sp1.speaker">
-                           <abbr n="text.group.text2.body.div.div5.sp1.speaker.abbr">Co.</abbr>
+                     <sp n="sp4">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Co.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div5.sp1.l1">Heus fugite o Sybaritam illum Lacona, capellae;</l>
-                        <l n="text.group.text2.body.div.div5.sp1.l2">Hesterna qui luce meum furatus amictum est.</l>
+                        <l n="l2">Heus fugite o Sybaritam illum Lacona, capellae;</l>
+                        <l n="l3">Hesterna qui luce meum furatus amictum est.</l>
                      </sp>
-                     <sp n="text.group.text2.body.div.div5.sp2">
-                        <speaker n="text.group.text2.body.div.div5.sp2.speaker">
-                           <abbr n="text.group.text2.body.div.div5.sp2.speaker.abbr">La.</abbr>
+                     <sp n="sp5">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">La.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div5.sp2.l1">Necdum a fonte, agnae? non furem cernitis illum,</l>
-                        <l n="text.group.text2.body.div.div5.sp2.l2">Garrula cui nuper syrinx mea rapta, Comatan?</l>
+                        <l n="l2">Necdum a fonte, agnae? non furem cernitis illum,</l>
+                        <l n="l3">Garrula cui nuper syrinx mea rapta, Comatan?</l>
                      </sp>
                   </div>
-                  <milestone n="text.group.text2.body.div.milestone4" unit="page"/>
-                  <div n="text.group.text2.body.div.div6">
-                     <head n="text.group.text2.body.div.div6.head">Idyllium VI. Ad Aratum.</head>
-                     <argument n="text.group.text2.body.div.div6.argument">
-                        <p n="text.group.text2.body.div.div6.argument.p">Damoetas et Daphnis bubulci armenta pascentes cantilenam incipiunt: alter ad Polyphemum canit de Galatea; alter nomine Polyphemi respondet ad ea, quae prior dixerat.</p>
+                  <milestone n="milestone10" unit="page"/>
+                  <div n="div11">
+                     <head n="head1">Idyllium VI. Ad Aratum.</head>
+                     <argument n="argument2">
+                        <p n="p1">Damoetas et Daphnis bubulci armenta pascentes cantilenam incipiunt: alter ad Polyphemum canit de Galatea; alter nomine Polyphemi respondet ad ea, quae prior dixerat.</p>
                      </argument>
-                     <l n="text.group.text2.body.div.div6.l1">Damoetas una Daphnisque bubulcus, Arate,</l>
-                     <l n="text.group.text2.body.div.div6.l2">Compulerant armenta. Erat alter rufus, et alter</l>
-                     <l n="text.group.text2.body.div.div6.l3">Vix tenera spargens roseas lanugine malas.</l>
+                     <l n="l3">Damoetas una Daphnisque bubulcus, Arate,</l>
+                     <l n="l4">Compulerant armenta. Erat alter rufus, et alter</l>
+                     <l n="l5">Vix tenera spargens roseas lanugine malas.</l>
                   </div>
-                  <milestone n="text.group.text2.body.div.milestone5" unit="page"/>
-                  <div n="text.group.text2.body.div.div7">
-                     <head n="text.group.text2.body.div.div7.head">Idyllium VII. Thalysia, sive iter ad sacra Cereris.</head>
-                     <argument n="text.group.text2.body.div.div7.argument">
-                        <p n="text.group.text2.body.div.div7.argument.p">Narrat Theocritus in hoc Idyllio, ut a Phrasidamo et Antigene invitatus cum aliquot sociis iverit ad Cereris sacra, occurreritque Lycidae Cydoniensi ex Creta, fortasse in insula Co.</p>
+                  <milestone n="milestone12" unit="page"/>
+                  <div n="div13">
+                     <head n="head1">Idyllium VII. Thalysia, sive iter ad sacra Cereris.</head>
+                     <argument n="argument2">
+                        <p n="p1">Narrat Theocritus in hoc Idyllio, ut a Phrasidamo et Antigene invitatus cum aliquot sociis iverit ad Cereris sacra, occurreritque Lycidae Cydoniensi ex Creta, fortasse in insula Co.</p>
                      </argument>
-                     <l n="text.group.text2.body.div.div7.l1">Ipse in Halenta olim procul urbe atque Eucritus una</l>
-                     <l n="text.group.text2.body.div.div7.l2">Ivimus: ac socius nobiscum venit Amyntas</l>
-                     <l n="text.group.text2.body.div.div7.l3">Tertius. Antigenes Cereri nam sacra parabat,</l>
-                     <l n="text.group.text2.body.div.div7.l4">Et pariter Phrasidamus, uterque et patre Lycopeo</l>
-                     <l n="text.group.text2.body.div.div7.l5">Et bonus, a Clytiae deducti stirpe nepotes,</l>
-                     <l n="text.group.text2.body.div.div7.l6">Magnanimi et Chalconis, ea est si gloria, primus</l>
-                     <l n="text.group.text2.body.div.div7.l7">Qui gelida de rupe, genu connixus utroque,</l>
-                     <l n="text.group.text2.body.div.div7.l8">Aetherias fontem Burhinum eduxit in auras,</l>
-                     <l n="text.group.text2.body.div.div7.l9">Durum opus aggressus. Circum frondentibus alni</l>
+                     <l n="l3">Ipse in Halenta olim procul urbe atque Eucritus una</l>
+                     <l n="l4">Ivimus: ac socius nobiscum venit Amyntas</l>
+                     <l n="l5">Tertius. Antigenes Cereri nam sacra parabat,</l>
+                     <l n="l6">Et pariter Phrasidamus, uterque et patre Lycopeo</l>
+                     <l n="l7">Et bonus, a Clytiae deducti stirpe nepotes,</l>
+                     <l n="l8">Magnanimi et Chalconis, ea est si gloria, primus</l>
+                     <l n="l9">Qui gelida de rupe, genu connixus utroque,</l>
+                     <l n="l10">Aetherias fontem Burhinum eduxit in auras,</l>
+                     <l n="l11">Durum opus aggressus. Circum frondentibus alni</l>
                   </div>
-                  <milestone n="text.group.text2.body.div.milestone6" unit="page"/>
-                  <div n="text.group.text2.body.div.div8">
-                     <head n="text.group.text2.body.div.div8.head">Idyllium VIII.</head>
-                     <argument n="text.group.text2.body.div.div8.argument">
-                        <p n="text.group.text2.body.div.div8.argument.p">Alternis carminibus inter se certantes inducuntur a Theocrito Menalcas pastor et Daphnis bubulcus. Caprarium quemdam adhibent iudicem; isque Daphnidi victoriam adiudicat.</p>
+                  <milestone n="milestone14" unit="page"/>
+                  <div n="div15">
+                     <head n="head1">Idyllium VIII.</head>
+                     <argument n="argument2">
+                        <p n="p1">Alternis carminibus inter se certantes inducuntur a Theocrito Menalcas pastor et Daphnis bubulcus. Caprarium quemdam adhibent iudicem; isque Daphnidi victoriam adiudicat.</p>
                      </argument>
-                     <listPerson n="text.group.text2.body.div.div8.listPerson">
-                        <person n="text.group.text2.body.div.div8.listPerson.person1">
-                           <persName n="text.group.text2.body.div.div8.listPerson.person1.persName">Menalcas</persName>
+                     <listPerson n="listPerson3">
+                        <person n="person1">
+                           <persName n="persName1">Menalcas</persName>
                         </person>
-                        <person n="text.group.text2.body.div.div8.listPerson.person2">
-                           <persName n="text.group.text2.body.div.div8.listPerson.person2.persName">Daphnis</persName>
+                        <person n="person2">
+                           <persName n="persName1">Daphnis</persName>
                         </person>
-                        <person n="text.group.text2.body.div.div8.listPerson.person3">
-                           <occupation n="text.group.text2.body.div.div8.listPerson.person3.occupation">aepolus</occupation>
+                        <person n="person3">
+                           <occupation n="occupation1">aepolus</occupation>
                         </person>
                      </listPerson>
-                     <l n="text.group.text2.body.div.div8.l1">Daphnidi formoso, dum pascit per iuga tauros,</l>
-                     <l n="text.group.text2.body.div.div8.l2">Vpilio, ut perhibent, occurrit forte Menalcas,</l>
-                     <l n="text.group.text2.body.div.div8.l3">Imberbes ambo, rufi ambo, dicere carmen</l>
-                     <l n="text.group.text2.body.div.div8.l4">Docti ambo, et graciles labro percurrere avenas.</l>
-                     <l n="text.group.text2.body.div.div8.l5">Vt Daphnin vidit, coepit prior ista Menalcas.</l>
-                     <sp n="text.group.text2.body.div.div8.sp">
-                        <speaker n="text.group.text2.body.div.div8.sp.speaker">
-                           <abbr n="text.group.text2.body.div.div8.sp.speaker.abbr">Me.</abbr>
+                     <l n="l4">Daphnidi formoso, dum pascit per iuga tauros,</l>
+                     <l n="l5">Vpilio, ut perhibent, occurrit forte Menalcas,</l>
+                     <l n="l6">Imberbes ambo, rufi ambo, dicere carmen</l>
+                     <l n="l7">Docti ambo, et graciles labro percurrere avenas.</l>
+                     <l n="l8">Vt Daphnin vidit, coepit prior ista Menalcas.</l>
+                     <sp n="sp9">
+                        <speaker n="speaker1">
+                           <abbr n="abbr1">Me.</abbr>
                         </speaker>
-                        <l n="text.group.text2.body.div.div8.sp.l">Daphni boum custos, certa sis carmine mecum;</l>
+                        <l n="l2">Daphni boum custos, certa sis carmine mecum;</l>
                      </sp>
                   </div>
-                  <div n="text.group.text2.body.div.div9">
-                     <head n="text.group.text2.body.div.div9.head">Idyllium IX.</head>
-                     <argument n="text.group.text2.body.div.div9.argument">
-                        <p n="text.group.text2.body.div.div9.argument.p">Pastor quidam Daphnin et Menalcam hortatur ad cantum: qui duo bubulci postquam iussi cantum absolverunt, et ipse Pastor breviter canit.</p>
+                  <div n="div16">
+                     <head n="head1">Idyllium IX.</head>
+                     <argument n="argument2">
+                        <p n="p1">Pastor quidam Daphnin et Menalcam hortatur ad cantum: qui duo bubulci postquam iussi cantum absolverunt, et ipse Pastor breviter canit.</p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div10">
-                     <head n="text.group.text2.body.div.div10.head">Idyllium X. Operarii.</head>
-                     <argument n="text.group.text2.body.div.div10.argument">
-                        <p n="text.group.text2.body.div.div10.argument.p">Duo agricolae, vel potius messores inducuntur colloquentes, Milon alter, et alter Battus: Milon Battum ignaviae accusat, causamque exposcit. Battus se excusat, culpamque in Amorem reiicit. Deinde canunt inter opus.</p>
+                  <div n="div17">
+                     <head n="head1">Idyllium X. Operarii.</head>
+                     <argument n="argument2">
+                        <p n="p1">Duo agricolae, vel potius messores inducuntur colloquentes, Milon alter, et alter Battus: Milon Battum ignaviae accusat, causamque exposcit. Battus se excusat, culpamque in Amorem reiicit. Deinde canunt inter opus.</p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div11">
-                     <head n="text.group.text2.body.div.div11.head">Idyllium XI. Cyclops.</head>
-                     <argument n="text.group.text2.body.div.div11.argument">
-                        <p n="text.group.text2.body.div.div11.argument.p">Theocritus Niciam medicum Milesium in hoc carmine alloquitur, nullumque esse ait contra Amorem praesentius remedium, quam Musas, earumque cantum; idque docet exemplo Cyclopis Polyphemi.</p>
+                  <div n="div18">
+                     <head n="head1">Idyllium XI. Cyclops.</head>
+                     <argument n="argument2">
+                        <p n="p1">Theocritus Niciam medicum Milesium in hoc carmine alloquitur, nullumque esse ait contra Amorem praesentius remedium, quam Musas, earumque cantum; idque docet exemplo Cyclopis Polyphemi.</p>
                      </argument>
-                     <lg n="text.group.text2.body.div.div11.lg1">
-                        <l n="text.group.text2.body.div.div11.lg1.l1">Non alio melius medicamine triste nec ungi,</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l2">Nicia, nec spargi me iudice vulnus Amoris,</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l3">Pieridum dulci valeat quam carmine. lenis</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l4">Ista quidem tactu medicina et suavis; at aeque</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l5">Inventu haud facilis. scis, credo, edoctus in arte</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l6">Paeonia, carusque novem tu rite Camoenis.</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l7">Ducebat leviter sic vitae incommoda Cyclops</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l8">Ille vetus Polyphemus in ipso hoc litore, Nympham</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l9">Perditus aequoream iuvenis quo tempore amabat</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l10">Vix circum rara signans lanugine malas.</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l11">Non crispans in fronte comas, non poma, rosamve</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l12">Ipse ferens; sed enim male totis actus amabat</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l13">Heu furiis: cura haec fuit una, at cetera ludus.</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l14">Saepe assueta greges rediere ad ovilia soli</l>
-                        <milestone n="text.group.text2.body.div.div11.lg1.milestone" unit="page"/>
-                        <l n="text.group.text2.body.div.div11.lg1.l15">E viridi pastu, spumoso in litore Nympham</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l16">Dum canit, et luctu tristis tabescit acerbo</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l17">Ipsius aurorae rutilo surgentis ab ortu</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l18">Vulnus alens, Erycina potens quo pectora fixit</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l19">Lethiferam condens alto sub corde sagittam.</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l20">Hoc tamen invenit curis lenimen: in antro</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l21">Aërio residens, ac subdita caerula spectans</l>
-                        <l n="text.group.text2.body.div.div11.lg1.l22">Suavidico tales fundebat gutture questus.</l>
+                     <lg n="lg3">
+                        <l n="l1">Non alio melius medicamine triste nec ungi,</l>
+                        <l n="l2">Nicia, nec spargi me iudice vulnus Amoris,</l>
+                        <l n="l3">Pieridum dulci valeat quam carmine. lenis</l>
+                        <l n="l4">Ista quidem tactu medicina et suavis; at aeque</l>
+                        <l n="l5">Inventu haud facilis. scis, credo, edoctus in arte</l>
+                        <l n="l6">Paeonia, carusque novem tu rite Camoenis.</l>
+                        <l n="l7">Ducebat leviter sic vitae incommoda Cyclops</l>
+                        <l n="l8">Ille vetus Polyphemus in ipso hoc litore, Nympham</l>
+                        <l n="l9">Perditus aequoream iuvenis quo tempore amabat</l>
+                        <l n="l10">Vix circum rara signans lanugine malas.</l>
+                        <l n="l11">Non crispans in fronte comas, non poma, rosamve</l>
+                        <l n="l12">Ipse ferens; sed enim male totis actus amabat</l>
+                        <l n="l13">Heu furiis: cura haec fuit una, at cetera ludus.</l>
+                        <l n="l14">Saepe assueta greges rediere ad ovilia soli</l>
+                        <milestone n="milestone15" unit="page"/>
+                        <l n="l16">E viridi pastu, spumoso in litore Nympham</l>
+                        <l n="l17">Dum canit, et luctu tristis tabescit acerbo</l>
+                        <l n="l18">Ipsius aurorae rutilo surgentis ab ortu</l>
+                        <l n="l19">Vulnus alens, Erycina potens quo pectora fixit</l>
+                        <l n="l20">Lethiferam condens alto sub corde sagittam.</l>
+                        <l n="l21">Hoc tamen invenit curis lenimen: in antro</l>
+                        <l n="l22">Aërio residens, ac subdita caerula spectans</l>
+                        <l n="l23">Suavidico tales fundebat gutture questus.</l>
                      </lg>
-                     <lg n="text.group.text2.body.div.div11.lg2">
-                        <l n="text.group.text2.body.div.div11.lg2.l1">Candida, quid miserum, Galatea o, spernis amantem?</l>
-                        <l n="text.group.text2.body.div.div11.lg2.l2">Lacte mihi puro mage candida, mollior agno,</l>
-                        <l n="text.group.text2.body.div.div11.lg2.l3">Saevior et vitulo, silvestri et acerbior uva.</l>
-                        <l n="text.group.text2.body.div.div11.lg2.l4">Ipsa venis, quum dulcis habet mea lumina somnus;</l>
-                        <l n="text.group.text2.body.div.div11.lg2.l5">Et subito fessos idem quum deserit artus,</l>
-                        <l n="text.group.text2.body.div.div11.lg2.l6">Forte lupum ceu visat ovis, fugis ipsa vocantem.</l>
-                        <l n="text.group.text2.body.div.div11.lg2.l7">Tempore iam ex illo coepi te captus amare,</l>
-                        <l n="text.group.text2.body.div.div11.lg2.l8">Venisti ut primum nostra cum matre hyacinthos</l>
-                        <l n="text.group.text2.body.div.div11.lg2.l9">Carpere purpureos optans in montibus istis:</l>
-                        <l n="text.group.text2.body.div.div11.lg2.l10">Monstrabam dux ipse viam, laetusque praeibam.</l>
+                     <lg n="lg4">
+                        <l n="l1">Candida, quid miserum, Galatea o, spernis amantem?</l>
+                        <l n="l2">Lacte mihi puro mage candida, mollior agno,</l>
+                        <l n="l3">Saevior et vitulo, silvestri et acerbior uva.</l>
+                        <l n="l4">Ipsa venis, quum dulcis habet mea lumina somnus;</l>
+                        <l n="l5">Et subito fessos idem quum deserit artus,</l>
+                        <l n="l6">Forte lupum ceu visat ovis, fugis ipsa vocantem.</l>
+                        <l n="l7">Tempore iam ex illo coepi te captus amare,</l>
+                        <l n="l8">Venisti ut primum nostra cum matre hyacinthos</l>
+                        <l n="l9">Carpere purpureos optans in montibus istis:</l>
+                        <l n="l10">Monstrabam dux ipse viam, laetusque praeibam.</l>
                      </lg>
                   </div>
-                  <div n="text.group.text2.body.div.div12">
-                     <head n="text.group.text2.body.div.div12.head">Idyllium XII. Aites.</head>
-                     <argument n="text.group.text2.body.div.div12.argument">
-                        <p n="text.group.text2.body.div.div12.argument.p">Amatorium est hoc breve Idyllium, nec caret simplici quadam venustate. In eo autem amator quidam desiderat, ut eiusdem amicus pari ipsum amore semper prosequatur. Ionica plerumque dialecto scriptum est.</p>
+                  <div n="div19">
+                     <head n="head1">Idyllium XII. Aites.</head>
+                     <argument n="argument2">
+                        <p n="p1">Amatorium est hoc breve Idyllium, nec caret simplici quadam venustate. In eo autem amator quidam desiderat, ut eiusdem amicus pari ipsum amore semper prosequatur. Ionica plerumque dialecto scriptum est.</p>
                      </argument>
-                     <l n="text.group.text2.body.div.div12.l1">Venisti, puer alme, aurora ut tertia fulsit</l>
-                     <l n="text.group.text2.body.div.div12.l2">Post totidem noctes, venisti? perdit amantes</l>
-                     <l n="text.group.text2.body.div.div12.l3">Ah nimium properata vel una in luce senectus.</l>
-                     <l n="text.group.text2.body.div.div12.l4">Quanto ver bruma, quanto mage suavia prunis</l>
-                     <l n="text.group.text2.body.div.div12.l5">Poma placent, quantoque suo villosior agno</l>
-                     <l n="text.group.text2.body.div.div12.l6">Praestat ovis, quanto ter nupta matre vigescit</l>
-                     <l n="text.group.text2.body.div.div12.l7">Virgo pulcra magis, quantoque est hinnulus acri</l>
-                     <l n="text.group.text2.body.div.div12.l8">In cursu vitulo citior, philomelaque quanto</l>
-                     <l n="text.group.text2.body.div.div12.l9">Dulcisono potior cantu sese evehit omnes</l>
-                     <l n="text.group.text2.body.div.div12.l10">Inter aves; tanto mihi gratior omnibus unus</l>
-                     <l n="text.group.text2.body.div.div12.l11">Deliciis tu grate venis. vestigia lustrans</l>
-                     <l n="text.group.text2.body.div.div12.l12">Ipse tua, ardenti fessus ceu sole viator</l>
-                     <l n="text.group.text2.body.div.div12.l13">Frondiferae quercus ramosa umbracula fagi,</l>
-                     <l n="text.group.text2.body.div.div12.l14">Te solum optabam, solum te voce vocabam.</l>
-                     <milestone n="text.group.text2.body.div.div12.milestone" unit="page"/>
+                     <l n="l3">Venisti, puer alme, aurora ut tertia fulsit</l>
+                     <l n="l4">Post totidem noctes, venisti? perdit amantes</l>
+                     <l n="l5">Ah nimium properata vel una in luce senectus.</l>
+                     <l n="l6">Quanto ver bruma, quanto mage suavia prunis</l>
+                     <l n="l7">Poma placent, quantoque suo villosior agno</l>
+                     <l n="l8">Praestat ovis, quanto ter nupta matre vigescit</l>
+                     <l n="l9">Virgo pulcra magis, quantoque est hinnulus acri</l>
+                     <l n="l10">In cursu vitulo citior, philomelaque quanto</l>
+                     <l n="l11">Dulcisono potior cantu sese evehit omnes</l>
+                     <l n="l12">Inter aves; tanto mihi gratior omnibus unus</l>
+                     <l n="l13">Deliciis tu grate venis. vestigia lustrans</l>
+                     <l n="l14">Ipse tua, ardenti fessus ceu sole viator</l>
+                     <l n="l15">Frondiferae quercus ramosa umbracula fagi,</l>
+                     <l n="l16">Te solum optabam, solum te voce vocabam.</l>
+                     <milestone n="milestone17" unit="page"/>
                   </div>
-                  <div n="text.group.text2.body.div.div13">
-                     <head n="text.group.text2.body.div.div13.head">Idyllium XIII. Hylas.</head>
-                     <argument n="text.group.text2.body.div.div13.argument">
-                        <p n="text.group.text2.body.div.div13.argument.p">
+                  <div n="div20">
+                     <head n="head1">Idyllium XIII. Hylas.</head>
+                     <argument n="argument2">
+                        <p n="p1">
             Hoc XIII. Idyllium inter Theocritaea est item scriptum ad Niciam: docemur autem, non solis hominibus Amorem imperitare, verum etiam heroibus.
           </p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div14">
-                     <head n="text.group.text2.body.div.div14.head">Idyllium XIV.</head>
-                     <argument n="text.group.text2.body.div.div14.argument">
-                        <p n="text.group.text2.body.div.div14.argument.p">
+                  <div n="div21">
+                     <head n="head1">Idyllium XIV.</head>
+                     <argument n="argument2">
+                        <p n="p1">
             Civicum potius est, quam pastoritium hoc carmen, in quo Aeschines amico Thyonico narrat, ut eum Cynisca uxor Lupo cuidam adolescenti in amore posthabuerit, effugeritque e domo. Quamobrem et militare se decrevisse dicit.
           </p>
                      </argument>
-                     <listPerson n="text.group.text2.body.div.div14.listPerson">
-                        <person n="text.group.text2.body.div.div14.listPerson.person1">
-                           <persName n="text.group.text2.body.div.div14.listPerson.person1.persName">Aeschines</persName>
+                     <listPerson n="listPerson3">
+                        <person n="person1">
+                           <persName n="persName1">Aeschines</persName>
                            <!-- et -->
                         </person>
              
-                        <person n="text.group.text2.body.div.div14.listPerson.person2">
-                           <persName n="text.group.text2.body.div.div14.listPerson.person2.persName">Thyonicus</persName>
+                        <person n="person2">
+                           <persName n="persName1">Thyonicus</persName>
                         </person>
                      </listPerson>
                   </div>
-                  <div n="text.group.text2.body.div.div15">
-                     <head n="text.group.text2.body.div.div15.head">Idyllium XV.</head>
-                     <argument n="text.group.text2.body.div.div15.argument">
-                        <p n="text.group.text2.body.div.div15.argument.p">
+                  <div n="div22">
+                     <head n="head1">Idyllium XV.</head>
+                     <argument n="argument2">
+                        <p n="p1">
             In hoc Idyllio quaedam Syracusiae mulieres inducuntur inter se colloquentes, et festum Adonidis invisurae. Multis personis constat Idyllium, estque totum drammaticum, nativa quadam simplicitate maxime commendandum.
           </p>
                      </argument>
-                     <listPerson n="text.group.text2.body.div.div15.listPerson">
-                        <person n="text.group.text2.body.div.div15.listPerson.person1">
-                           <persName n="text.group.text2.body.div.div15.listPerson.person1.persName">Gorgo</persName>
+                     <listPerson n="listPerson3">
+                        <person n="person1">
+                           <persName n="persName1">Gorgo</persName>
                         </person>
-                        <person n="text.group.text2.body.div.div15.listPerson.person2">
-                           <persName n="text.group.text2.body.div.div15.listPerson.person2.persName">Eunoa</persName>
+                        <person n="person2">
+                           <persName n="persName1">Eunoa</persName>
                         </person>
-                        <person n="text.group.text2.body.div.div15.listPerson.person3">
-                           <persName n="text.group.text2.body.div.div15.listPerson.person3.persName">Praxinoe</persName>
+                        <person n="person3">
+                           <persName n="persName1">Praxinoe</persName>
                         </person>
-                        <person n="text.group.text2.body.div.div15.listPerson.person4">
-                           <age n="text.group.text2.body.div.div15.listPerson.person4.age">anus</age>
+                        <person n="person4">
+                           <age n="age1">anus</age>
                 
                         </person>
-                        <person n="text.group.text2.body.div.div15.listPerson.person5">
-                           <occupation n="text.group.text2.body.div.div15.listPerson.person5.occupation">hospes</occupation>
+                        <person n="person5">
+                           <occupation n="occupation1">hospes</occupation>
                         </person>
-                        <person n="text.group.text2.body.div.div15.listPerson.person6">
-                           <occupation n="text.group.text2.body.div.div15.listPerson.person6.occupation">alter hospes</occupation>
+                        <person n="person6">
+                           <occupation n="occupation1">alter hospes</occupation>
                            <!-- et -->
                         </person>
-                        <person n="text.group.text2.body.div.div15.listPerson.person7">
-                           <occupation n="text.group.text2.body.div.div15.listPerson.person7.occupation">vates</occupation>
+                        <person n="person7">
+                           <occupation n="occupation1">vates</occupation>
                         </person>
                      </listPerson>
                   </div>
-                  <div n="text.group.text2.body.div.div16">
-                     <head n="text.group.text2.body.div.div16.head">Idyllium XVI. Charites.</head>
-                     <argument n="text.group.text2.body.div.div16.argument">
-                        <p n="text.group.text2.body.div.div16.argument.p">Videtur huius Idyllii argumentum esse consueta poëtarum noenia, nimirum fructum, quem percipere sperarunt, non respondere votis; quod homines vel nimium avari sint, vel turpi inscitia teneantur, neque pervideant, quantam assequi gloriam potuissent ex poëtarum laudibus. Demum in Hieronis laudes famamque bellicam excurrit Vates.</p>
+                  <div n="div23">
+                     <head n="head1">Idyllium XVI. Charites.</head>
+                     <argument n="argument2">
+                        <p n="p1">Videtur huius Idyllii argumentum esse consueta poëtarum noenia, nimirum fructum, quem percipere sperarunt, non respondere votis; quod homines vel nimium avari sint, vel turpi inscitia teneantur, neque pervideant, quantam assequi gloriam potuissent ex poëtarum laudibus. Demum in Hieronis laudes famamque bellicam excurrit Vates.</p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div17">
-                     <head n="text.group.text2.body.div.div17.head">Idyllium XVII. Encomium Ptolemaei.</head>
-                     <argument n="text.group.text2.body.div.div17.argument">
-                        <p n="text.group.text2.body.div.div17.argument.p">Altius heic assurgit poeta, regemque Aegypti Ptolemaeum Philadelphum praesertim ex generis nobilitate, ex immensae ditionis potentia, ex amplissima divitiarum copia, regiaque munificentia laudat.</p>
+                  <div n="div24">
+                     <head n="head1">Idyllium XVII. Encomium Ptolemaei.</head>
+                     <argument n="argument2">
+                        <p n="p1">Altius heic assurgit poeta, regemque Aegypti Ptolemaeum Philadelphum praesertim ex generis nobilitate, ex immensae ditionis potentia, ex amplissima divitiarum copia, regiaque munificentia laudat.</p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div18">
-                     <head n="text.group.text2.body.div.div18.head">Idyllium XVIII. Helenae epithalamium.</head>
-                     <argument n="text.group.text2.body.div.div18.argument">
-                        <p n="text.group.text2.body.div.div18.argument.p">Virgines Spartanae, uti mos erat in Graecia, in Menelai domum congregatae, multa canunt in honorem coniugum.</p>
+                  <div n="div25">
+                     <head n="head1">Idyllium XVIII. Helenae epithalamium.</head>
+                     <argument n="argument2">
+                        <p n="p1">Virgines Spartanae, uti mos erat in Graecia, in Menelai domum congregatae, multa canunt in honorem coniugum.</p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div19">
-                     <head n="text.group.text2.body.div.div19.head">Idyllium XIX. Favorum fur.</head>
-                     <argument n="text.group.text2.body.div.div19.argument">
-                        <p n="text.group.text2.body.div.div19.argument.p">Vt apis, sic Amor pusillus est; magnum tamen vulnus infigit.</p>
+                  <div n="div26">
+                     <head n="head1">Idyllium XIX. Favorum fur.</head>
+                     <argument n="argument2">
+                        <p n="p1">Vt apis, sic Amor pusillus est; magnum tamen vulnus infigit.</p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div20">
-                     <head n="text.group.text2.body.div.div20.head">Idyllium XX. Bubulcus.</head>
-                     <argument n="text.group.text2.body.div.div20.argument">
-                        <p n="text.group.text2.body.div.div20.argument.p">Pastor quidam, quum in urbem venisset, voluissetque Eunicen urbanam puellam deosculari, ab eadem repulsus fuit atque irrisus tamquam indignus. Qua de re Pastor in hoc Idyllio conqueritur</p>
+                  <div n="div27">
+                     <head n="head1">Idyllium XX. Bubulcus.</head>
+                     <argument n="argument2">
+                        <p n="p1">Pastor quidam, quum in urbem venisset, voluissetque Eunicen urbanam puellam deosculari, ab eadem repulsus fuit atque irrisus tamquam indignus. Qua de re Pastor in hoc Idyllio conqueritur</p>
                      </argument>
-                     <l n="text.group.text2.body.div.div20.l1">Oscula me nuper defigere blanda volentem,</l>
-                     <l n="text.group.text2.body.div.div20.l2">Eunice derisit, et haec super addidit ultro</l>
+                     <l n="l3">Oscula me nuper defigere blanda volentem,</l>
+                     <l n="l4">Eunice derisit, et haec super addidit ultro</l>
                   </div>
-                  <div n="text.group.text2.body.div.div21">
-                     <head n="text.group.text2.body.div.div21.head">Idyllium XXI.</head>
-                     <argument n="text.group.text2.body.div.div21.argument">
-                        <p n="text.group.text2.body.div.div21.argument.p">Asphalion piscator vana spe inflatus narrat hospiti nocturnum visum de pisce aureo, quo capto, comnians iuraverat, se divitem iam factum, piscandi finem facturum. Cui hospes auctor est, ut omissis nugis, artem suam exerceat, si quidem inter aurea somnia fame perire nolit.</p>
-                     </argument>
-                  </div>
-                  <div n="text.group.text2.body.div.div22">
-                     <head n="text.group.text2.body.div.div22.head">Idyllium XXII. Dioscuri seu gemini.</head>
-                     <argument n="text.group.text2.body.div.div22.argument">
-                        <p n="text.group.text2.body.div.div22.argument.p">Duas in partes hoc Idyllium de laudibus Pollucis atque Castoris divisum est. In prima parte Pollucis pugna cum Amyco Bebryciorum tyranno describitur, victoriaque celebratur, quam retulit Pollux. In altera vero parte Castorem inter et Lynceum certamen initum, Leucippi filiarum ergo, continetur. Vincit Castor.</p>
+                  <div n="div28">
+                     <head n="head1">Idyllium XXI.</head>
+                     <argument n="argument2">
+                        <p n="p1">Asphalion piscator vana spe inflatus narrat hospiti nocturnum visum de pisce aureo, quo capto, comnians iuraverat, se divitem iam factum, piscandi finem facturum. Cui hospes auctor est, ut omissis nugis, artem suam exerceat, si quidem inter aurea somnia fame perire nolit.</p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div23">
-                     <head n="text.group.text2.body.div.div23.head">Idyllium XXIII. Amator infelix.</head>
-                     <argument n="text.group.text2.body.div.div23.argument">
-                        <p n="text.group.text2.body.div.div23.argument.p">Tragicus omnino huiusce miserandi hominis est exitus, qui quum se contemni crederet, laqueo mortem quaesivit. Nec minus tragice ab Amore animadversum in eum est, a quo se ille contemptum putabat.</p>
+                  <div n="div29">
+                     <head n="head1">Idyllium XXII. Dioscuri seu gemini.</head>
+                     <argument n="argument2">
+                        <p n="p1">Duas in partes hoc Idyllium de laudibus Pollucis atque Castoris divisum est. In prima parte Pollucis pugna cum Amyco Bebryciorum tyranno describitur, victoriaque celebratur, quam retulit Pollux. In altera vero parte Castorem inter et Lynceum certamen initum, Leucippi filiarum ergo, continetur. Vincit Castor.</p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div24">
-                     <head n="text.group.text2.body.div.div24.head">Idyllium XXIV. Herculiscus-129</head>
-                     <argument n="text.group.text2.body.div.div24.argument">
-                        <p n="text.group.text2.body.div.div24.argument.p"/>
+                  <div n="div30">
+                     <head n="head1">Idyllium XXIII. Amator infelix.</head>
+                     <argument n="argument2">
+                        <p n="p1">Tragicus omnino huiusce miserandi hominis est exitus, qui quum se contemni crederet, laqueo mortem quaesivit. Nec minus tragice ab Amore animadversum in eum est, a quo se ille contemptum putabat.</p>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div25">
-                     <head n="text.group.text2.body.div.div25.head">Idyllium XXV. Augiae opulentia-136</head>
-                     <argument n="text.group.text2.body.div.div25.argument">
-                        <p n="text.group.text2.body.div.div25.argument.p"/>
+                  <div n="div31">
+                     <head n="head1">Idyllium XXIV. Herculiscus-129</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div26">
-                     <head n="text.group.text2.body.div.div26.head">Idyllium XXVI. Lenae, seu Bacchae.-149</head>
-                     <argument n="text.group.text2.body.div.div26.argument">
-                        <p n="text.group.text2.body.div.div26.argument.p"/>
+                  <div n="div32">
+                     <head n="head1">Idyllium XXV. Augiae opulentia-136</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div27">
-                     <head n="text.group.text2.body.div.div27.head">Idylium XXVII.-152</head>
-                     <argument n="text.group.text2.body.div.div27.argument">
-                        <p n="text.group.text2.body.div.div27.argument.p"/>
+                  <div n="div33">
+                     <head n="head1">Idyllium XXVI. Lenae, seu Bacchae.-149</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div28">
-                     <head n="text.group.text2.body.div.div28.head">Idyllium XXVIII. Colus.-155</head>
-                     <argument n="text.group.text2.body.div.div28.argument">
-                        <p n="text.group.text2.body.div.div28.argument.p"/>
+                  <div n="div34">
+                     <head n="head1">Idylium XXVII.-152</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div29">
-                     <head n="text.group.text2.body.div.div29.head">Idyllium XXIX. Amores-157</head>
-                     <argument n="text.group.text2.body.div.div29.argument">
-                        <p n="text.group.text2.body.div.div29.argument.p"/>
+                  <div n="div35">
+                     <head n="head1">Idyllium XXVIII. Colus.-155</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div30">
-                     <head n="text.group.text2.body.div.div30.head">Idyllium XXX. In mortuum Adonidem.-159</head>
-                     <argument n="text.group.text2.body.div.div30.argument">
-                        <p n="text.group.text2.body.div.div30.argument.p"/>
+                  <div n="div36">
+                     <head n="head1">Idyllium XXIX. Amores-157</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div31">
-                     <head n="text.group.text2.body.div.div31.head">Idyllia Moschi-161</head>
-                     <argument n="text.group.text2.body.div.div31.argument">
-                        <p n="text.group.text2.body.div.div31.argument.p"/>
+                  <div n="div37">
+                     <head n="head1">Idyllium XXX. In mortuum Adonidem.-159</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div32">
-                     <head n="text.group.text2.body.div.div32.head">Idyllium I. Amor fugitivus.-163</head>
-                     <argument n="text.group.text2.body.div.div32.argument">
-                        <p n="text.group.text2.body.div.div32.argument.p"/>
+                  <div n="div38">
+                     <head n="head1">Idyllia Moschi-161</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div33">
-                     <head n="text.group.text2.body.div.div33.head">Idyllium II. Europa.-165</head>
-                     <argument n="text.group.text2.body.div.div33.argument">
-                        <p n="text.group.text2.body.div.div33.argument.p"/>
+                  <div n="div39">
+                     <head n="head1">Idyllium I. Amor fugitivus.-163</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div34">
-                     <head n="text.group.text2.body.div.div34.head">Idyllium <num n="text.group.text2.body.div.div34.head.num" value="3">III</num>. Epitaphium Bionis.-172</head>
-                     <argument n="text.group.text2.body.div.div34.argument">
-                        <p n="text.group.text2.body.div.div34.argument.p"/>
+                  <div n="div40">
+                     <head n="head1">Idyllium II. Europa.-165</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div35">
-                     <head n="text.group.text2.body.div.div35.head">Idyllium IV. Megara.-178</head>
-                     <argument n="text.group.text2.body.div.div35.argument">
-                        <p n="text.group.text2.body.div.div35.argument.p"/>
+                  <div n="div41">
+                     <head n="head1">Idyllium <num n="num1" value="3">III</num>. Epitaphium Bionis.-172</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div36">
-                     <head n="text.group.text2.body.div.div36.head">Idyllium V.-184</head>
-                     <argument n="text.group.text2.body.div.div36.argument">
-                        <p n="text.group.text2.body.div.div36.argument.p"/>
+                  <div n="div42">
+                     <head n="head1">Idyllium IV. Megara.-178</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div37">
-                     <head n="text.group.text2.body.div.div37.head">Idyllium VI.-185</head>
-                     <argument n="text.group.text2.body.div.div37.argument">
-                        <p n="text.group.text2.body.div.div37.argument.p"/>
+                  <div n="div43">
+                     <head n="head1">Idyllium V.-184</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div38">
-                     <head n="text.group.text2.body.div.div38.head">Idyllium VII.-186</head>
-                     <argument n="text.group.text2.body.div.div38.argument">
-                        <p n="text.group.text2.body.div.div38.argument.p"/>
+                  <div n="div44">
+                     <head n="head1">Idyllium VI.-185</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div39">
-                     <head n="text.group.text2.body.div.div39.head">Idyllium VIII.-187</head>
-                     <argument n="text.group.text2.body.div.div39.argument">
-                        <p n="text.group.text2.body.div.div39.argument.p"/>
+                  <div n="div45">
+                     <head n="head1">Idyllium VII.-186</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div40">
-                     <head n="text.group.text2.body.div.div40.head">Epigramma.-188</head>
-                     <argument n="text.group.text2.body.div.div40.argument">
-                        <p n="text.group.text2.body.div.div40.argument.p"/>
+                  <div n="div46">
+                     <head n="head1">Idyllium VIII.-187</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div41">
-                     <head n="text.group.text2.body.div.div41.head">Idyllia Bionis Smyrnaei-189</head>
-                     <argument n="text.group.text2.body.div.div41.argument">
-                        <p n="text.group.text2.body.div.div41.argument.p"/>
+                  <div n="div47">
+                     <head n="head1">Epigramma.-188</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div42">
-                     <head n="text.group.text2.body.div.div42.head">Idyllium I. Epitaphium Adonidis.-191</head>
-                     <argument n="text.group.text2.body.div.div42.argument">
-                        <p n="text.group.text2.body.div.div42.argument.p"/>
+                  <div n="div48">
+                     <head n="head1">Idyllia Bionis Smyrnaei-189</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div43">
-                     <head n="text.group.text2.body.div.div43.head">Idyllium II.-196</head>
-                     <argument n="text.group.text2.body.div.div43.argument">
-                        <p n="text.group.text2.body.div.div43.argument.p"/>
+                  <div n="div49">
+                     <head n="head1">Idyllium I. Epitaphium Adonidis.-191</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div44">
-                     <head n="text.group.text2.body.div.div44.head">Idyllium <num n="text.group.text2.body.div.div44.head.num" value="3">III</num>.-197</head>
-                     <argument n="text.group.text2.body.div.div44.argument">
-                        <p n="text.group.text2.body.div.div44.argument.p"/>
+                  <div n="div50">
+                     <head n="head1">Idyllium II.-196</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div45">
-                     <head n="text.group.text2.body.div.div45.head">Idyllium IV.-198</head>
-                     <argument n="text.group.text2.body.div.div45.argument">
-                        <p n="text.group.text2.body.div.div45.argument.p"/>
+                  <div n="div51">
+                     <head n="head1">Idyllium <num n="num1" value="3">III</num>.-197</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div46">
-                     <head n="text.group.text2.body.div.div46.head">Idyllium V.-199</head>
-                     <argument n="text.group.text2.body.div.div46.argument">
-                        <p n="text.group.text2.body.div.div46.argument.p"/>
+                  <div n="div52">
+                     <head n="head1">Idyllium IV.-198</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div47">
-                     <head n="text.group.text2.body.div.div47.head">Idyllium VI.-200</head>
-                     <argument n="text.group.text2.body.div.div47.argument">
-                        <p n="text.group.text2.body.div.div47.argument.p"/>
+                  <div n="div53">
+                     <head n="head1">Idyllium V.-199</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div48">
-                     <head n="text.group.text2.body.div.div48.head">Idyllium VII.-201</head>
-                     <argument n="text.group.text2.body.div.div48.argument">
-                        <p n="text.group.text2.body.div.div48.argument.p"/>
+                  <div n="div54">
+                     <head n="head1">Idyllium VI.-200</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div49">
-                     <head n="text.group.text2.body.div.div49.head">Idyllium VIII. Epithalamium Achillis cum Deidamia.-202</head>
-                     <argument n="text.group.text2.body.div.div49.argument">
-                        <p n="text.group.text2.body.div.div49.argument.p"/>
+                  <div n="div55">
+                     <head n="head1">Idyllium VII.-201</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
-                  <div n="text.group.text2.body.div.div50">
-                     <head n="text.group.text2.body.div.div50.head">Idyllium IX.-207</head>
-                     <argument n="text.group.text2.body.div.div50.argument">
-                        <p n="text.group.text2.body.div.div50.argument.p"/>
+                  <div n="div56">
+                     <head n="head1">Idyllium VIII. Epithalamium Achillis cum Deidamia.-202</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
+                     </argument>
+                  </div>
+                  <div n="div57">
+                     <head n="head1">Idyllium IX.-207</head>
+                     <argument n="argument2">
+                        <p n="p1"/>
                      </argument>
                   </div>
                </div>

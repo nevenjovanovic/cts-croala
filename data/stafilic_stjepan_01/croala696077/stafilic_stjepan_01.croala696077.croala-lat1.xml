@@ -91,6 +91,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -136,18 +150,18 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:stafilic_stjepan_01.croala696077.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="poesis-epigramma-inscriptio" met="elegiacum">
-            <l n="text.body.div.l1">Hic ubi nunc multo cernuntur tecta colono,</l>
+      <body n="body1">
+         <div n="div1" type="poesis-epigramma-inscriptio" met="elegiacum">
+            <l n="l1">Hic ubi nunc multo cernuntur tecta colono,</l>
              
-            <l n="text.body.div.l2" met="pentameter">Unda fuit sicco non adeunda pede.</l>
+            <l n="l2" met="pentameter">Unda fuit sicco non adeunda pede.</l>
              
-            <l n="text.body.div.l3">Staphilei sumptu cessit Neptunus, et arte,</l>
+            <l n="l3">Staphilei sumptu cessit Neptunus, et arte,</l>
              
-            <l n="text.body.div.l4" met="pentameter">Terraque caeruleis undique cessit aquis.</l>
+            <l n="l4" met="pentameter">Terraque caeruleis undique cessit aquis.</l>
              
-            <closer n="text.body.div.closer">
-               <date n="text.body.div.closer.date" when="1508">MDVIII.</date>
+            <closer n="closer5">
+               <date n="date1" when="1508">MDVIII.</date>
             </closer>
     
          </div>

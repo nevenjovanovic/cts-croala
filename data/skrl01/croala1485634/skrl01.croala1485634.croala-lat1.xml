@@ -105,6 +105,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -173,36 +193,36 @@
    </teiHeader>
 
    <text xml:base="urn:cts:croala:skrl01.croala1485634.croala-lat1:" xml:lang="lat" type="epistula">
-      <front n="text.front">
-         <head n="text.front.head">5. Zagrabiae, 10. Decembris 1794.</head>
+      <front n="front1">
+         <head n="head1">5. Zagrabiae, 10. Decembris 1794.</head>
       </front>
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-epistula">
-            <opener n="text.body.div.opener">
+      <body n="body2">
+         <div n="div1" type="prosa-epistula">
+            <opener n="opener1">
     
-               <salute n="text.body.div.opener.salute">Chare amice!</salute>
+               <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="text.body.div.p1"> Cum necessitates aedificii xenodochialis urgeant, ipse quoque raptim
+            <p n="p2"> Cum necessitates aedificii xenodochialis urgeant, ipse quoque raptim
     respondeo.  Gratiam tibi habeo pro grato nuncio oroque te maiorem in modum,
     ut per Bedek. urgeas quo resolutio haec quo ocius expediatur.  Nisi enim
     pecuniam Buda ad summum usque finem Februarii accipiamus, non poterimus debito tempore
     continuationi aedificii manum admovere.</p>
-            <p n="text.body.div.p2"> Galyuff iam heri rediit.  De Vukasovichio an Viennae vel
-    <pb n="text.body.div.p2.pb"/>
+            <p n="p3"> Galyuff iam heri rediit.  De Vukasovichio an Viennae vel
+    <pb n="pb1"/>
     alicubi in via remanserit, necdum potui explorare.  Prior graves cum suo
     statim adventu obiectiones passus est, quod res Capituli segniter curaverint.
-     At ille omnem culpam in <abbr n="text.body.div.p2.abbr1">Vukass.</abbr> reiecit eumque neglectis Capituli rebus
+     At ille omnem culpam in <abbr n="abbr2">Vukass.</abbr> reiecit eumque neglectis Capituli rebus
     matrimonia tantumque cognatorum, resque suae familiae et Directoratum studiorum curasse
     affirmavit; atque ita prima, quam ego in antecessum ominabar, scaena iam evenit.
-     Superest altera ut, si <abbr n="text.body.div.p2.abbr2">Taisp.</abbr> prostratum videant, hunc tanquam omnium
+     Superest altera ut, si <abbr n="abbr3">Taisp.</abbr> prostratum videant, hunc tanquam omnium
     malorum authorem gravibus criminationibus universi insectentur.  Videbis quod
     hanc quoque scaenam adhuc ludent.</p>
-            <p n="text.body.div.p3"> De instantia Gotscianae, si ita, ut scribis, se res habet, bene est.
+            <p n="p4"> De instantia Gotscianae, si ita, ut scribis, se res habet, bene est.
      Quamquam ille longe alia huc scriptitet.  Nempe iam quod
     illa exclusivum privilegium pro civitate sit obtentura, iam vero quod nulla prorsus resolutio
     adhuc emanaverit.  Si rem ad primum recisuram esse observaveris, author tibi
-    sum ut praevenias tuamque typographiam<note n="text.body.div.p3.note" place="foot">
-                  <p n="text.body.div.p3.note.p">5,13 typographiam <name n="text.body.div.p3.note.p.name">Kolanović</name> ] typogr. <emph n="text.body.div.p3.note.p.emph">MS</emph>
+    sum ut praevenias tuamque typographiam<note n="note1" place="foot">
+                  <p n="p1">5,13 typographiam <name n="name1">Kolanović</name> ] typogr. <emph n="emph2">MS</emph>
                   </p>
                </note> sponte ad tuum fundum transferas.  Quoad secundum, scire cuperem an
     resolutio, qua ipsi proba imponitur, iam effective — et si ita, quando — publicata, et an
@@ -215,39 +235,39 @@
     subiungas quod Brig. praeterea haec et haec in publicum et forte etiam altissimo loco
     sparserit et, calumnias licet, has aliquam etiam impressionem fecisse observes, ideo quod
     illas quoque elidere necessarium existimaveris.</p>
-            <p n="text.body.div.p4"> Quaeso, informa te an ex <emph n="text.body.div.p4.emph1">Historia episcoporum
+            <p n="p5"> Quaeso, informa te an ex <emph n="emph1">Historia episcoporum
     Quinqueeclesiarum</emph> Kollerii ultra tomum tertium aliquod prodiverit, praesertim vero eius
-    <emph n="text.body.div.p4.emph2">Prologomena</emph> ?<note n="text.body.div.p4.note" place="foot">
-                  <p n="text.body.div.p4.note.p">5,19 Prologomena] <emph n="text.body.div.p4.note.p.emph">sic</emph>
+    <emph n="emph2">Prologomena</emph> ?<note n="note3" place="foot">
+                  <p n="p1">5,19 Prologomena] <emph n="emph1">sic</emph>
                   </p>
                </note>
             </p>
-            <pb n="text.body.div.pb"/>
-            <p n="text.body.div.p5"> Si ita, quaeso, procura mihi.  Ita etiam, an e Stephani
-    Horvath <emph n="text.body.div.p5.emph">Bibliotheca iurisconsultorum Hungariae</emph> ultra tomum tertium quid
+            <pb n="pb6"/>
+            <p n="p7"> Si ita, quaeso, procura mihi.  Ita etiam, an e Stephani
+    Horvath <emph n="emph1">Bibliotheca iurisconsultorum Hungariae</emph> ultra tomum tertium quid
     prodiverit?  Videtur mihi quod tomus quartus re ipsa prodiverit.
      Quare et hunc et si quis ultra prodiit, mihi adferri peto.</p>
-            <p n="text.body.div.p6"> 
-               <emph n="text.body.div.p6.emph">Hamburger Journal</emph> pro mense Septembri, Octobri et Novembri
+            <p n="p8"> 
+               <emph n="emph1">Hamburger Journal</emph> pro mense Septembri, Octobri et Novembri
     non legi.  Cum et tu et Philippus (cui salutem ex me deferri peto) illud
     teneatis, quaeso, dirige tuum ad Franciscum Raffay et, ut illud mihi communicet, eidem
     committe.</p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute"> Mea te humanissime reveretur.  Vale meque ut facis ama.</salute>
-               <dateline n="text.body.div.closer.dateline">Zagrabiae, 1794. 10. Decembris </dateline>
+            <closer n="closer9">
+               <salute n="salute1"> Mea te humanissime reveretur.  Vale meque ut facis ama.</salute>
+               <dateline n="dateline2">Zagrabiae, 1794. 10. Decembris </dateline>
             </closer>
-            <postscript n="text.body.div.postscript"> 
-               <p n="text.body.div.postscript.p"> Hic aliquis sparserat lectorem ex alio capitulo nominatum et Taisp. eo
+            <postscript n="postscript10"> 
+               <p n="p1"> Hic aliquis sparserat lectorem ex alio capitulo nominatum et Taisp. eo
     translatum esse propterea quod in instantia 13 canonicorum allegetur nullum officii huius
     capacem esse.  Res haec adversarios tuos mirum in modum torsit donec
     falsitatem rumoris huius detexerunt.</p>
             </postscript>
          </div>
       </body>
-      <back n="text.back">
-         <div n="text.back.div" type="notes">
-            <p n="text.back.div.p">
-               <bibl n="text.back.div.p.bibl">(NAZ, EAE, vol. 113, nr. 132.)</bibl>
+      <back n="back3">
+         <div n="div1" type="notes">
+            <p n="p1">
+               <bibl n="bibl1">(NAZ, EAE, vol. 113, nr. 132.)</bibl>
             </p>
          </div>
       </back>

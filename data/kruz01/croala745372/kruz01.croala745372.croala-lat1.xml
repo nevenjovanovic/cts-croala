@@ -105,6 +105,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -170,31 +184,31 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:kruz01.croala745372.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div type="prosa-epistula" n="text.body.div">
+        <body n="body1">
+            <div type="prosa-epistula" n="div1">
 
-                <head n="text.body.div.head">XII/5 <date n="text.body.div.head.date" when="1526-01-30">1526. 30. Januarii</date>, Vegliae Petrus Crusich capitaneus Segniae Clementi
+                <head n="head1">XII/5 <date n="date1" when="1526-01-30">1526. 30. Januarii</date>, Vegliae Petrus Crusich capitaneus Segniae Clementi
                     papae VII.</head>
 
 
-                <note n="text.body.div.note1" resp="BJ">Segr. Stato, Principi, 1, f. 84. Sigillo annulari.</note>
+                <note n="note2" resp="BJ">Segr. Stato, Principi, 1, f. 84. Sigillo annulari.</note>
 
-                <opener n="text.body.div.opener">
-               <note n="text.body.div.opener.note" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Beatissimo
+                <opener n="opener3">
+               <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Beatissimo
                     ac Sanctissimo domino nostro pape Post beatorum oscula pedum. Beatissime
                     pater!</opener>
-                <p n="text.body.div.p">Mitto Lynio Vimenem presbyterumque latere scilicet capellanum mei ad Sanctitatis
-                    pedes, qui paulo ante apud eandem fuit, quod omni <gap n="text.body.div.p.gap1" reason="lacuna"/>tis <gap n="text.body.div.p.gap2" reason="lacuna"/>do <gap n="text.body.div.p.gap3" reason="lacuna"/>de alias <gap n="text.body.div.p.gap4" reason="lacuna"/>nsus Hungarie <gap n="text.body.div.p.gap5" reason="lacuna"/>
+                <p n="p4">Mitto Lynio Vimenem presbyterumque latere scilicet capellanum mei ad Sanctitatis
+                    pedes, qui paulo ante apud eandem fuit, quod omni <gap n="gap1" reason="lacuna"/>tis <gap n="gap2" reason="lacuna"/>do <gap n="gap3" reason="lacuna"/>de alias <gap n="gap4" reason="lacuna"/>nsus Hungarie <gap n="gap5" reason="lacuna"/>
             </p>
-                <closer n="text.body.div.closer">Vestrae Serenitatis servitor Petrus Crusith capitaneus Segnie comes
+                <closer n="closer5">Vestrae Serenitatis servitor Petrus Crusith capitaneus Segnie comes
                     Clissę</closer>
 
 
-                <note n="text.body.div.note2" resp="BJ">Annotatio: Reliqua pars litterarum pallida ideoque legi non
+                <note n="note6" resp="BJ">Annotatio: Reliqua pars litterarum pallida ideoque legi non
                     potest.</note>
 
 
-                <milestone n="text.body.div.milestone" unit="page"/>
+                <milestone n="milestone7" unit="page"/>
             </div>
         </body>
     </text>

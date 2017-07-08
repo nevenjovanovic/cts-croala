@@ -102,6 +102,26 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -153,32 +173,32 @@
      </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:kasic01.croala768184.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <div n="text.body.div" type="prosa-epistula">
-            <head n="text.body.div.head">Ad illyricae linguae studiosos.</head>
+      <body n="body1">
+         <div n="div1" type="prosa-epistula">
+            <head n="head1">Ad illyricae linguae studiosos.</head>
 
-            <p n="text.body.div.p1">
+            <p n="p2">
                
                
                
-               Illyricae linguae <corr n="text.body.div.p1.corr" resp="#NJ">Institutiones</corr>, quas multi exoptabant, modo praepropera fortasse festinatione, si minus omni ex parte perfectas, pro viribus certe alacriter studioseque confeci. Nemo enim adhuc extiterat (quod sciam) quem authorem sequi possem, cuius praecepta de illyrico sermone litteris consignata prodierint. Neque vero ut opus hoc primus aggrederer inducere animum potuissem, nisi eorum accessisset authoritas, quorum voluntati nefas est repugnare. Quo autem ipsi consilio id fecerint, ut et nostra e Societate delecti nonnulli in hac lingua perdiscenda studium suum atque operam collocarent et, quo iis discendi labor minueretur, eiusdem linguae Institutiones aliquae conscriberentur, facile is, ut opinor, intelliget, cui sit exploratum, quo in loco apud Illyricos hoc tempore res christiana versetur. Nam, sive ob diuturnam ac miseram cum religionis catholicae hostibus consuetudinem, sive ob magnam doctorum proborumque pastorum penuriam, innumerabiles propemodum in tantis tenebris inscitiae iacent, ut cetera quae ex inscitiae oriuntur mala taceantur, ut ne prima quidem christianae religionis elementa satis illorum plerisque sint nota.
+               Illyricae linguae <corr n="corr1" resp="#NJ">Institutiones</corr>, quas multi exoptabant, modo praepropera fortasse festinatione, si minus omni ex parte perfectas, pro viribus certe alacriter studioseque confeci. Nemo enim adhuc extiterat (quod sciam) quem authorem sequi possem, cuius praecepta de illyrico sermone litteris consignata prodierint. Neque vero ut opus hoc primus aggrederer inducere animum potuissem, nisi eorum accessisset authoritas, quorum voluntati nefas est repugnare. Quo autem ipsi consilio id fecerint, ut et nostra e Societate delecti nonnulli in hac lingua perdiscenda studium suum atque operam collocarent et, quo iis discendi labor minueretur, eiusdem linguae Institutiones aliquae conscriberentur, facile is, ut opinor, intelliget, cui sit exploratum, quo in loco apud Illyricos hoc tempore res christiana versetur. Nam, sive ob diuturnam ac miseram cum religionis catholicae hostibus consuetudinem, sive ob magnam doctorum proborumque pastorum penuriam, innumerabiles propemodum in tantis tenebris inscitiae iacent, ut cetera quae ex inscitiae oriuntur mala taceantur, ut ne prima quidem christianae religionis elementa satis illorum plerisque sint nota.
             </p>
-            <p n="text.body.div.p2">
+            <p n="p3">
                Quare sapienter est a nostrae Societatis moderatoribus constitutum, ut eius nationis lingua vernacula, quae apud plurimos populos latissime patet, addiscatur ab iis, qui ad eos erudiendos idonei censeantur. Etenim non videbatur satis instituti nostri rationibus convenire, cum tam multi ex nostris hominibus in extremos orientis occidentisque fines mittantur assidue, qui in variis illarum gentium dialectis cognoscendis insudent, quae gentes nunquam antea christianis institutae sunt legibus, ut cum iis de beata vita facilius agi possit; nationes aliae prope finitimae deserantur, quae christianae atque avitae religionis nomen retinentes, ob unam rerum cognoscendarum agendarumque ignorationem a maiorum suorum dignitate splendoreque degenerent, ac tanquam incultae arbores paulatim silvescentes infructuosae reddantur.
             </p>
-            <p n="text.body.div.p3">
+            <p n="p4">
                Quapropter quoad per temporis angustias licuit, linguae huius de octo partibus orationis praecepta colligere ac certa quadam via rationeque tractare sum conatus, quo facilius ac celerius possint eo quo intendunt, qui eius perdicendae sunt cupidi, pervenire. Quod, si cui forte longiores Institutiones huiusmodi videbuntur, eum oro, ne ab instituto cursu propterea retardetur. Etenim nec pauca sunt perspicuitatis potius causa proposita et pleraque ceterorum similia nullam fere novam difficultatem afferunt ad cognoscendum. Equidem in spem venio fore, ut multi harum Institutionum beneficio, qualescumque tandem illae sint, si vel pari industria atque in latinam vel graeca lingua solent in huius cognitione elaborent, non minores brevi in ea processus esse facturos. Quod autem de orationis constructione quam vocant pauca quaedam dumtaxat eaque universe tradiderim, nemo iure mirabitur, qui meminerit reliqua vel cum aliis quas norint linguis esse communia, vel usu potius et exercitatione quam doctrinae praeceptis contineri, vel non facile simul omnia ad artem posse revocari.
             </p>
-            <closer n="text.body.div.closer">
-               Valete. <dateline n="text.body.div.closer.dateline">
-                  <placeName n="text.body.div.closer.dateline.placeName">
-                     <expan n="text.body.div.closer.dateline.placeName.expan">Romae</expan>
-                  </placeName>, <date n="text.body.div.closer.dateline.date" when="1604-04-17">15. <expan n="text.body.div.closer.dateline.date.expan1">Kalendas</expan> Maias <expan n="text.body.div.closer.dateline.date.expan2">anno</expan> 1604.</date> 
+            <closer n="closer5">
+               Valete. <dateline n="dateline1">
+                  <placeName n="placeName1">
+                     <expan n="expan1">Romae</expan>
+                  </placeName>, <date n="date2" when="1604-04-17">15. <expan n="expan1">Kalendas</expan> Maias <expan n="expan2">anno</expan> 1604.</date> 
                </dateline>
             </closer>             
             
          </div>
-         <gap n="text.body.gap" reason="omisit-editor"/>
+         <gap n="gap2" reason="omisit-editor"/>
       </body>
    </text>
 </TEI>

@@ -86,6 +86,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -128,43 +145,43 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_1015.croala699780.croala-lat1:" xml:lang="lat">
-        <body n="text.body">
-            <div n="text.body.div" type="poesis-inscriptio-epitaphium" met="hexameter">
+        <body n="body1">
+            <div n="div1" type="poesis-inscriptio-epitaphium" met="hexameter">
                 
-               <l n="text.body.div.l1"> 
-               <add n="text.body.div.l1.add1">Crv</add>X VENERAND<add n="text.body.div.l1.add2">a poli</add>
-               <lb n="text.body.div.l1.lb1"/>
-                   <add n="text.body.div.l1.add3">ren</add>ATOS MVNIAT <add n="text.body.div.l1.add4">alm</add>OS<lb n="text.body.div.l1.lb2"/>
+               <l n="l1"> 
+               <add n="add1">Crv</add>X VENERAND<add n="add2">a poli</add>
+               <lb n="lb3"/>
+                   <add n="add4">ren</add>ATOS MVNIAT <add n="add5">alm</add>OS<lb n="lb6"/>
             </l>
-                <l n="text.body.div.l2">AVSTRALI DE PART<add n="text.body.div.l2.add1">e mina</add>N<add n="text.body.div.l2.add2">s</add>
-               <lb n="text.body.div.l2.lb"/>
-                    VT SIDVS AB A<add n="text.body.div.l2.add3">ltis</add>
+                <l n="l2">AVSTRALI DE PART<add n="add1">e mina</add>N<add n="add2">s</add>
+               <lb n="lb3"/>
+                    VT SIDVS AB A<add n="add4">ltis</add>
             </l> 
-            <l n="text.body.div.l3">
-               <add n="text.body.div.l3.add1">coel</add>IS<lb n="text.body.div.l3.lb1"/>
-                LV<add n="text.body.div.l3.add2">ceb</add>IT C<expan n="text.body.div.l3.expan1">er</expan>T<expan n="text.body.div.l3.expan2">vs</expan> SVPER <add n="text.body.div.l3.add3">omnia</add> 
-                <expan n="text.body.div.l3.expan3">CHRistvS</expan>
-               <lb n="text.body.div.l3.lb2"/>
+            <l n="l3">
+               <add n="add1">coel</add>IS<lb n="lb2"/>
+                LV<add n="add3">ceb</add>IT C<expan n="expan4">er</expan>T<expan n="expan5">vs</expan> SVPER <add n="add6">omnia</add> 
+                <expan n="expan7">CHRistvS</expan>
+               <lb n="lb8"/>
             </l> 
-            <l n="text.body.div.l4">EOI CRVX ALMA D<expan n="text.body.div.l4.expan">e</expan>I TVEATVR<lb n="text.body.div.l4.lb"/>
-                    AB <sic n="text.body.div.l4.sic">OSTE</sic>
+            <l n="l4">EOI CRVX ALMA D<expan n="expan1">e</expan>I TVEATVR<lb n="lb2"/>
+                    AB <sic n="sic3">OSTE</sic>
             </l> 
-            <l n="text.body.div.l5">INTRANTES <sic n="text.body.div.l5.sic">CVNTOS<lb n="text.body.div.l5.sic.lb"/>QVE</sic> PIOS CONCORDIA NEC <add n="text.body.div.l5.add">tv<expan n="text.body.div.l5.add.expan">m</expan>
+            <l n="l5">INTRANTES <sic n="sic1">CVNTOS<lb n="lb1"/>QVE</sic> PIOS CONCORDIA NEC <add n="add2">tv<expan n="expan1">m</expan>
                </add>
-               <lb n="text.body.div.l5.lb"/>
+               <lb n="lb3"/>
             </l>
-                <l n="text.body.div.l6">VIR APOSTATA <sic n="text.body.div.l6.sic1">SEDEN</sic> SIMVLA<add n="text.body.div.l6.add">bat</add>
-               <lb n="text.body.div.l6.lb"/>
-                    <sic n="text.body.div.l6.sic2">ABERE</sic>
+                <l n="l6">VIR APOSTATA <sic n="sic1">SEDEN</sic> SIMVLA<add n="add2">bat</add>
+               <lb n="lb3"/>
+                    <sic n="sic4">ABERE</sic>
             </l> 
-            <l n="text.body.div.l7">
-               <expan n="text.body.div.l7.expan">CHRistvS</expan> IN ARCE POLI REGIA<lb n="text.body.div.l7.lb"/>
-                        MOX <sic n="text.body.div.l7.sic">EXPVLLIT</sic> ILLVD</l> 
-            <l n="text.body.div.l8">
-               <sic n="text.body.div.l8.sic1">DOMNO</sic>
-               <lb n="text.body.div.l8.lb1"/>
-                            PAVLVS <sic n="text.body.div.l8.sic2">PRESVLVS</sic> OFERT<lb n="text.body.div.l8.lb2"/>
-                            <sic n="text.body.div.l8.sic3">VEXILLV</sic> ISTV<expan n="text.body.div.l8.expan">m</expan>.<lb n="text.body.div.l8.lb3"/>
+            <l n="l7">
+               <expan n="expan1">CHRistvS</expan> IN ARCE POLI REGIA<lb n="lb2"/>
+                        MOX <sic n="sic3">EXPVLLIT</sic> ILLVD</l> 
+            <l n="l8">
+               <sic n="sic1">DOMNO</sic>
+               <lb n="lb2"/>
+                            PAVLVS <sic n="sic3">PRESVLVS</sic> OFERT<lb n="lb4"/>
+                            <sic n="sic5">VEXILLV</sic> ISTV<expan n="expan6">m</expan>.<lb n="lb7"/>
             </l>
             </div>
         </body>

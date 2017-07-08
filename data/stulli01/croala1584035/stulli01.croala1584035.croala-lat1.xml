@@ -92,6 +92,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -140,279 +157,279 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:stulli01.croala1584035.croala-lat1:" xml:lang="lat">
-        <front n="text.front">
-            <titlePage n="text.front.titlePage">
-                <docTitle n="text.front.titlePage.docTitle">
-                    <titlePart n="text.front.titlePage.docTitle.titlePart1">VACCINATIO. CARMEN ELEGIACUM.</titlePart>
-                    <titlePart n="text.front.titlePage.docTitle.titlePart2">ALOYSIO CARENO<lb n="text.front.titlePage.docTitle.titlePart2.lb1"/> MED. ET PHIL. DOCT.<lb n="text.front.titlePage.docTitle.titlePart2.lb2"/> REG. IMP. ACAD.
-                        MANTUANAE, SOCIET. PATRIOT. MEDIOLANENS.<lb n="text.front.titlePage.docTitle.titlePart2.lb3"/> REG. TAURIN. MEDICO-CHIRURG.
-                        IN HELVETIA,<lb n="text.front.titlePage.docTitle.titlePart2.lb4"/> SENEN. VENET. VINDOBON. MONACH. MADRIT. SOCIO<lb n="text.front.titlePage.docTitle.titlePart2.lb5"/>
-                        VINDOBONENSI MEDICO CLINICO<lb n="text.front.titlePage.docTitle.titlePart2.lb6"/> DOCTRINA ET VIRTUTIBUS CLARISSIMO<lb n="text.front.titlePage.docTitle.titlePart2.lb7"/> DE
-                        JENNERIANO INVENTO OPTIME MERITO<lb n="text.front.titlePage.docTitle.titlePart2.lb8"/> CARMEN HOC ELEGIACUM<lb n="text.front.titlePage.docTitle.titlePart2.lb9"/> L. S.<lb n="text.front.titlePage.docTitle.titlePart2.lb10"/>
-                        RAGUSANUS PH. ET MED. D.<lb n="text.front.titlePage.docTitle.titlePart2.lb11"/> D. D. D.</titlePart>
+        <front n="front1">
+            <titlePage n="titlePage1">
+                <docTitle n="docTitle1">
+                    <titlePart n="titlePart1">VACCINATIO. CARMEN ELEGIACUM.</titlePart>
+                    <titlePart n="titlePart2">ALOYSIO CARENO<lb n="lb1"/> MED. ET PHIL. DOCT.<lb n="lb2"/> REG. IMP. ACAD.
+                        MANTUANAE, SOCIET. PATRIOT. MEDIOLANENS.<lb n="lb3"/> REG. TAURIN. MEDICO-CHIRURG.
+                        IN HELVETIA,<lb n="lb4"/> SENEN. VENET. VINDOBON. MONACH. MADRIT. SOCIO<lb n="lb5"/>
+                        VINDOBONENSI MEDICO CLINICO<lb n="lb6"/> DOCTRINA ET VIRTUTIBUS CLARISSIMO<lb n="lb7"/> DE
+                        JENNERIANO INVENTO OPTIME MERITO<lb n="lb8"/> CARMEN HOC ELEGIACUM<lb n="lb9"/> L. S.<lb n="lb10"/>
+                        RAGUSANUS PH. ET MED. D.<lb n="lb11"/> D. D. D.</titlePart>
                 </docTitle>
-                <epigraph n="text.front.titlePage.epigraph">
-                    <quote n="text.front.titlePage.epigraph.quote">Nec te, blande puer, nec nostras perdimus artes.</quote>
+                <epigraph n="epigraph2">
+                    <quote n="quote1">Nec te, blande puer, nec nostras perdimus artes.</quote>
                 </epigraph>
             </titlePage>
         </front>
-        <body n="text.body">
-            <div n="text.body.div" type="elegia" met="elegiacum">
-                <l n="text.body.div.l1">Grandia Romulidum quisquis monumenta revolvens,</l>
-                <l n="text.body.div.l2" met="pentameter">Atque inhians prisci temporis historiae</l>
-                <l n="text.body.div.l3">Degeneres animos, aut longe deteriore</l>
-                <l n="text.body.div.l4" met="pentameter">Nunc homines fictos clamitat esse luto,</l>
-                <l n="text.body.div.l5">Despicit et magnos ausus et dia repeta,</l>
-                <l n="text.body.div.l6" met="pentameter">Quae nostra haec aetas protulit, omnigenis.</l>
-                <l n="text.body.div.l7">Excellens studiis et miris artibus aucta,</l>
-                <l n="text.body.div.l8" met="pentameter">Desipit aut foeda livet ab invidia.</l>
-                <l n="text.body.div.l9">Pyramidum moles, magnae miracula Memphis,</l>
-                <l n="text.body.div.l10" met="pentameter">Aut Triviae templum, Daedaleusque labor,</l>
-                <l n="text.body.div.l11">Pausylipi aut rupes, tumulo praeclara Maronis,</l>
-                <l n="text.body.div.l12" met="pentameter">Jamdudum aerisonis pervia quadrijugis,</l>
-                <l n="text.body.div.l13">Horrendamve palus spirans Pontina mephitim</l>
-                <l n="text.body.div.l14" met="pentameter">Conversa in campos protinus innocuos,</l>
-                <l n="text.body.div.l15">Laetarum agricolae segetum genus omne ferentes</l>
-                <l n="text.body.div.l16" met="pentameter">Regium opus, quo nil grandius esse queat,</l>
-                <l n="text.body.div.l17">Ostendunt, populi quid possit vivida virtus,</l>
-                <l n="text.body.div.l18" met="pentameter">Dum numero innumero jussum opus aggreditur:</l>
-                <l n="text.body.div.l19">Non ego, sed coecum miretur talia vulgus,</l>
-                <l n="text.body.div.l20" met="pentameter">Et toto attonitum pectore suspiciat.</l>
-                <l n="text.body.div.l21">Credo equidem, saeclis obliviscentibus, aetas</l>
-                <l n="text.body.div.l22" met="pentameter">Romani extremas conteret imperii</l>
-                <l n="text.body.div.l23">Relliquias, quarum cineres et nomen inane</l>
-                <l n="text.body.div.l24" met="pentameter">Impigra vix poterit noscere posteritas:</l>
-                <l n="text.body.div.l25">Sed quae compertas vitam excoluere per artes,</l>
-                <l n="text.body.div.l26" met="pentameter">Et procul obscoenam barbariem expulerunt,</l>
-                <l n="text.body.div.l27">Qua foede horrebant homines, cum more ferarum</l>
-                <l n="text.body.div.l28" met="pentameter">Squallentes crassa corporis illuvie</l>
-                <l n="text.body.div.l29">Aspera miscebant pro vili proelia glande,</l>
-                <l n="text.body.div.l30" met="pentameter">Nullum aevum cursu praepete dissolüet.</l>
-                <l n="text.body.div.l31">His nec longa dies ingrata oblivia ducet,</l>
-                <l n="text.body.div.l32" met="pentameter">Nec memori haec hominum diluet ex animo.</l>
-                <l n="text.body.div.l33">Urit adhuc fulgore suo lux alma nepotes,</l>
-                <l n="text.body.div.l34" met="pentameter">Nec tenebras, ullum nec timet interitum,</l>
-                <l n="text.body.div.l35">Qua primum affulsit ratio, decor, utile, rectum,</l>
-                <l n="text.body.div.l36" met="pentameter">Insita et humani vis animi enituit.</l>
-                <l n="text.body.div.l37">Quae cum ita sint, ingens medicinae o fama, CARENE,</l>
-                <l n="text.body.div.l38" met="pentameter">Quidnam de magno dicier Hippocrate</l>
-                <l n="text.body.div.l39">Atque aliis aliisque potest, qui munere divum</l>
-                <l n="text.body.div.l40" met="pentameter">Maximi in arte Viri sedibus aetheriis.</l>
-                <l n="text.body.div.l41">Demissi, humano generi in tot saeva ruenti</l>
-                <l n="text.body.div.l42" met="pentameter">Exitia, in duris casibus adfuerunt?</l>
-                <l n="text.body.div.l43">Stat sua cuique dies, et quotquot munere terrae</l>
-                <l n="text.body.div.l44" met="pentameter">Vescimur, obscuram mortis adire viam</l>
-                <l n="text.body.div.l45">Sors jubet infelix et ineluctabile fatum;</l>
-                <l n="text.body.div.l46" met="pentameter">At quamvis legem fallere Persephones</l>
-                <l n="text.body.div.l47">Haud homini liceat, tamen hoc genus aerumnosum</l>
-                <l n="text.body.div.l48" met="pentameter">Artis Apollineae saepe eger auxilio,</l>
-                <l n="text.body.div.l49">Aut minus ut crebri densentur funera vulgi,</l>
-                <l n="text.body.div.l50" met="pentameter">Nec tanta ad Stygias praeda vehatur aquas ;</l>
-                <l n="text.body.div.l51">Aut aliquod miseris ut certa in morte levamen</l>
-                <l n="text.body.div.l52" met="pentameter">Adsit, ne morbus multimode excruciet</l>
-                <l n="text.body.div.l53">Jam desperantes vitae lucemque perosos,</l>
-                <l n="text.body.div.l54" met="pentameter">Detur et his saltem mitior interitus.</l>
-                <l n="text.body.div.l55">Quot jam versantes ipsis in faucibus Orci,</l>
-                <l n="text.body.div.l56" met="pentameter">Si quando pestis letifera ingruerit,</l>
-                <l n="text.body.div.l57">Tum longo eripuit Medicinae cura labori,</l>
-                <l n="text.body.div.l58" met="pentameter">Pristina tum ad vitae munia restituit?</l>
-                <l n="text.body.div.l59">Tam bene promeritos mortales fama superstes</l>
-                <l n="text.body.div.l60" met="pentameter">Concelebrat cunctos didita per populos.</l>
-                <l n="text.body.div.l61">Europae quondam cum per florentia regna</l>
-                <l n="text.body.div.l62" met="pentameter">Extremis ustae e finibus Arabiae</l>
-                <l n="text.body.div.l63">Advecta immitis contages variolarum</l>
-                <l n="text.body.div.l64" met="pentameter">Bacchari insolita coeperat illuvie,</l>
-                <l n="text.body.div.l65">Et raptim paucis ignoscere, jamque minari</l>
-                <l n="text.body.div.l66" met="pentameter">Desertis extremum urbibus excidium;</l>
-                <l n="text.body.div.l67">Non pueri primo flentes in limine vitae,</l>
-                <l n="text.body.div.l68" met="pentameter">Non armis pubes inclyta, non roseo</l>
-                <l n="text.body.div.l69">Quae reliquas inter praecellunt ore, puellae,</l>
-                <l n="text.body.div.l70" met="pentameter">Crescentes Veneris deliciae et Charitum</l>
-                <l n="text.body.div.l71">Laetos nequicquam suspirantes Hymenaeos;</l>
-                <l n="text.body.div.l72" met="pentameter">Non incana senum debita jam tumulo</l>
-                <l n="text.body.div.l73">AEtas, non quisquis gavisus luminis haustu</l>
-                <l n="text.body.div.l74" met="pentameter">Tam diram potuit perniciem effugere.</l>
-                <l n="text.body.div.l75">Quis memoret diram cladem et commune cadaver</l>
-                <l n="text.body.div.l76" met="pentameter">Europae atque Asiae? Funera funeribus</l>
-                <l n="text.body.div.l77">Mista senum et juvenum mens aversata refugit,</l>
-                <l n="text.body.div.l78" met="pentameter">Luctifici atque horret temporis historiam.</l>
-                <l n="text.body.div.l79">Sed si multa Viri divinum saecula nomen</l>
-                <l n="text.body.div.l80" met="pentameter">Nocte premunt, nostris eripiuntque oculis,</l>
-                <l n="text.body.div.l81">Primus qui omnivoram sapiens hanc contudit hydram</l>
-                <l n="text.body.div.l82" met="pentameter">Perniciemque novis artibus edomuit;</l>
-                <l n="text.body.div.l83">Quis tacitam linquat et Magnanima Heroina,</l>
-                <l n="text.body.div.l84" met="pentameter">Olim quae Europae in finibus, Odrysiam</l>
-                <l n="text.body.div.l85">Gentem inter, magnos vicisti prima timores</l>
-                <l n="text.body.div.l86" met="pentameter">Gnato et contagis semina luctificae</l>
-                <l n="text.body.div.l87">Indere nec verita es, nec luctisoni vagitus</l>
-                <l n="text.body.div.l88" met="pentameter">Plurima nec potuit flectere te pietas:</l>
-                <l n="text.body.div.l89">Anxia sollicito sed quae sub pectore cura,</l>
-                <l n="text.body.div.l90" met="pentameter">Qui tibi tunc moestus corde micante pavor,</l>
-                <l n="text.body.div.l91">Ut domitum urenti vidisti febre jacere,</l>
-                <l n="text.body.div.l92" met="pentameter">Formosasque genas membraque candidula</l>
-                <l n="text.body.div.l93">Foedari maculis, matrum pulcherrima? Forsan</l>
-                <l n="text.body.div.l94" met="pentameter">Spemque metumque inter te quoque poenituit</l>
-                <l n="text.body.div.l95">Dulcem quod sobolem vitäi e limine, mortis</l>
-                <l n="text.body.div.l96" met="pentameter">Jam paene in nigrum compuleras barathrum.</l>
-                <l n="text.body.div.l97">Ne timeas, generosa parens, tibi reddita proles,</l>
-                <l n="text.body.div.l98" met="pentameter">Sic Superis visum, sospes et incolumis</l>
-                <l n="text.body.div.l99">Letifero nunquam posthac obnoxia morbo,</l>
-                <l n="text.body.div.l100" met="pentameter">Nec turpata genas vividulosve oculos;</l>
-                <l n="text.body.div.l101">Jamque tui Angligenae, jam tota Europa salubre</l>
-                <l n="text.body.div.l102" met="pentameter">Grata animi recolit mente magisterium;</l>
-                <l n="text.body.div.l103">Jam tibi posteritas summos largitur honores</l>
-                <l n="text.body.div.l104" met="pentameter">Divum, teque piis addit imaginibus,</l>
-                <l n="text.body.div.l105">Ex quo insperatae populo haec via aperta salutis</l>
-                <l n="text.body.div.l106" met="pentameter">Tartarei ad ripas fluminis horrisonas</l>
-                <l n="text.body.div.l107">Rarior umbrarum glomeratur turba silentum,</l>
-                <l n="text.body.div.l108" met="pentameter">Nec tam saepe nigras itque reditque vias</l>
-                <l n="text.body.div.l109">Terribili squallore Charon, quoque litore opaco</l>
-                <l n="text.body.div.l110" met="pentameter">Sutilis interdum cymba quiescit iners.</l>
-                <l n="text.body.div.l111">Fracta tamen, sed non radicitus exturbata</l>
-                <l n="text.body.div.l112" met="pentameter">Arte nova, huc illuc serpit et insidias</l>
-                <l n="text.body.div.l113">Improba vis morbi nectit, miserosque parentes,</l>
-                <l n="text.body.div.l114" met="pentameter">Heu ! frustra exemplis consiliisque alacres,</l>
-                <l n="text.body.div.l115">Prole orbat viduatque domos ; magnumque repertum</l>
-                <l n="text.body.div.l116" met="pentameter">Moesta Thyesteis prosequitur precibus,</l>
-                <l n="text.body.div.l117">Et lymphata Deos, medicis ut talia reddant</l>
-                <l n="text.body.div.l118" met="pentameter">Hoc non promeritis, flagitat orba Parens.</l>
-                <l n="text.body.div.l119">Sed post tot casus, post tanta pericla, CARENE,</l>
-                <l n="text.body.div.l120" met="pentameter">Quorum mens tetra exhorret adhuc specie,</l>
-                <l n="text.body.div.l121">Humanae sobolis crudelem exscindere pestem</l>
-                <l n="text.body.div.l122" met="pentameter">Atque hoc mortis iter claudere quis potuit?</l>
-                <l n="text.body.div.l123">Magna Virum nutrix et Virtutum Anglia salve,</l>
-                <l n="text.body.div.l124" met="pentameter">Et Charitum et diae grata domus Sophiae,</l>
-                <l n="text.body.div.l125">Qua nil prisci olim majus novere Parentes,</l>
-                <l n="text.body.div.l126" met="pentameter">Ventura aut noscet postmodo progenies!</l>
-                <l n="text.body.div.l127">Angligenae salve Gentis decus, inculte salve</l>
-                <l n="text.body.div.l128" met="pentameter">JENNERE et nostris, concilio Superum</l>
-                <l n="text.body.div.l129">Addite, jam tandem votis assuesce vocari,</l>
-                <l n="text.body.div.l130" met="pentameter">Laudibus et gestis clarior Herculeis,</l>
-                <l n="text.body.div.l131">Qui postquam terras monstris purgavit, Olympo</l>
-                <l n="text.body.div.l132" met="pentameter">Exceptus mensis accubat Indigetum.</l>
-                <l n="text.body.div.l133">Per te alacres tandem florenti aetate puellae</l>
-                <l n="text.body.div.l134" met="pentameter">Sancta ineunt tuti foedera conjugii;</l>
-                <l n="text.body.div.l135">Anxiferae per te levis est dolor Ilithyiae,</l>
-                <l n="text.body.div.l136" met="pentameter">Fitque minor duri cura puerperii,</l>
-                <l n="text.body.div.l137">Quandoquidem infantes materno ex ubere raptos</l>
-                <l n="text.body.div.l138" met="pentameter">Amplius haud perdit funere dira lues,</l>
-                <l n="text.body.div.l139">Ceu cum sternit humi violento turbine grando</l>
-                <l n="text.body.div.l140" met="pentameter">Pallentes violas deciduasque rosas.</l>
-                <l n="text.body.div.l141">Tempus erit, nec vana loquor, volventibus annis</l>
-                <l n="text.body.div.l142" met="pentameter">Quando posteritas sedula pervolüet</l>
-                <l n="text.body.div.l143">Saeclorum annales, veterum et benefacta parentum,</l>
-                <l n="text.body.div.l144" met="pentameter">Tartareo discet pestiferam e barathro</l>
-                <l n="text.body.div.l145">Evasisse luem, quae, ceu feralis Erinnys,</l>
-                <l n="text.body.div.l146" met="pentameter">Quam labor, et metus, et pallida mors sequitur,</l>
-                <l n="text.body.div.l147">Occulto inficiens auras malesana veneno</l>
-                <l n="text.body.div.l148" met="pentameter">Heu! immaturis perdere funeribus</l>
-                <l n="text.body.div.l149">Atque catervatim properabat sternere gentes,</l>
-                <l n="text.body.div.l150" met="pentameter">Ocyor et ventis et volucri igne Jovis.</l>
-                <l n="text.body.div.l151">Discet, ut immitem quo posset flectere Erinnym,</l>
-                <l n="text.body.div.l152" met="pentameter">Ipsa suam Mater sponte dedit sobolem;</l>
-                <l n="text.body.div.l153">Discet, ut Anglus homo jussit sperare salutem,</l>
-                <l n="text.body.div.l154" met="pentameter">Et docuit gentes grande magisterium,</l>
-                <l n="text.body.div.l155">Quo fieri incolumes possent vitamque beatam</l>
-                <l n="text.body.div.l156" met="pentameter">Exsortes morbi ducere letiferi.</l>
-                <l n="text.body.div.l157">Namque ille arcanis naturae admissus ut atrum</l>
-                <l n="text.body.div.l158" met="pentameter">Pus vacuis ductum vidit ab uberibus</l>
-                <l n="text.body.div.l159">Vaccarum, attactu dextram foedare bubulci</l>
-                <l n="text.body.div.l160" met="pentameter">Atque ipsam paribus spargier hinc maculis;</l>
-                <l n="text.body.div.l161">Instituit morbi certas evolvere leges</l>
-                <l n="text.body.div.l162" met="pentameter">Atque triumphatam pellere ab Orbe luem.</l>
-                <l n="text.body.div.l163">Tunc Amor exsultans, Charitum stipante corona,</l>
-                <l n="text.body.div.l164" met="pentameter">Exsiliit, matri et rettulit Idaliae,</l>
-                <l n="text.body.div.l165">Diae virgineum formae decus atque lepores</l>
-                <l n="text.body.div.l166" met="pentameter">Amplius haud foedae damna timere luis.</l>
-                <l n="text.body.div.l167">Navifrago veluti cum sospes ab aequore nauta</l>
-                <l n="text.body.div.l168" met="pentameter">Exhalanti vix ore trahens animam</l>
-                <l n="text.body.div.l169">Dum manibus prensat scopulos, et litus amicum</l>
-                <l n="text.body.div.l170" met="pentameter">Arripit, horrisonum respicit Oceanum,</l>
-                <l n="text.body.div.l171">Et ceu dura silex riget atque immobilis haeret;</l>
-                <l n="text.body.div.l172" met="pentameter">Sic postquam Eumenidum maxima, quae soboli</l>
-                <l n="text.body.div.l173">Humanae tantam cladem tantosque labores</l>
-                <l n="text.body.div.l174" met="pentameter">Intulerat, certo vulnere procubuit,</l>
-                <l n="text.body.div.l175">Ingenti natura parens perculsa stupore est,</l>
-                <l n="text.body.div.l176" met="pentameter">Totque levata malis credere vix potuit</l>
-                <l n="text.body.div.l177">Advenisse diem, Jennero quae auspice, leti</l>
-                <l n="text.body.div.l178" met="pentameter">Innumeras tandem clauderet una vias.</l>
-                <l n="text.body.div.l179">Relligio invento plausit. Fanaticus error</l>
-                <l n="text.body.div.l180" met="pentameter">Et peste et saeva saevior Eumenide</l>
-                <l n="text.body.div.l181">Immundo tenuit rabidas sub pectore voces,</l>
-                <l n="text.body.div.l182" met="pentameter">Et pressit saniem in gutture vipeream.</l>
-                <l n="text.body.div.l183">Tum Gens, excellit quae libertatis amore,</l>
-                <l n="text.body.div.l184" met="pentameter">Atque jugi impatiens imperat Oceano,</l>
-                <l n="text.body.div.l185">Prima dedit primum specimen magnumque timenti</l>
-                <l n="text.body.div.l186" met="pentameter">Exemplum populo: calcar at insolitum</l>
-                <l n="text.body.div.l187">Addidit, et vanos prorsus de mente timores</l>
-                <l n="text.body.div.l188" met="pentameter">Depulit invicti Caesaris ingenium,</l>
-                <l n="text.body.div.l189">Plurima ut in propriis tentare pericula gnatis,</l>
-                <l n="text.body.div.l190" met="pentameter">Per totum voluit didere et Imperium,</l>
-                <l n="text.body.div.l191">Felices ausus fortunatumque repertum;</l>
-                <l n="text.body.div.l192" met="pentameter">Grataque munificus commoda pauperibus</l>
-                <l n="text.body.div.l193">Ultro dedit, pueri possent ut templa salutis</l>
-                <l n="text.body.div.l194" met="pentameter">Indugredi et tanto fungier officio.</l>
-                <l n="text.body.div.l195">Non secus ac inopes ad limina magna Potentum</l>
-                <l n="text.body.div.l196" met="pentameter">Saepe ruunt ingenti et fremitu et lacrymis,</l>
-                <l n="text.body.div.l197">Dum parvae aera stipis vel panis mucida frusta</l>
-                <l n="text.body.div.l198" met="pentameter">Poscunt: (urit enim viscera dira fames,)</l>
-                <l n="text.body.div.l199">Sic ruere innumeros juvenesque senesque videres,</l>
-                <l n="text.body.div.l200" met="pentameter">Et matres casti pignora conjugii</l>
-                <l n="text.body.div.l201">Magni exsultantes deferre ad numinis aram</l>
-                <l n="text.body.div.l202" met="pentameter">Et certum vitae poscere praesidium.</l>
-                <l n="text.body.div.l203">Sic salvi tibi sint nati, sic dextera bello</l>
-                <l n="text.body.div.l204" met="pentameter">Invicta, o CAESAR, pro pietate tua!</l>
-                <l n="text.body.div.l205">Sic Superi robur suspiratamque salutem</l>
-                <l n="text.body.div.l206" met="pentameter">HEROI reddant ocyus Austriaco,</l>
-                <l n="text.body.div.l207">Qui belli fulmen florenti in vere juventae,</l>
-                <l n="text.body.div.l208" met="pentameter">Consilioque potens, vique animi indomita</l>
-                <l n="text.body.div.l209">Grandibus impatiens gestis affectat Olympum,</l>
-                <l n="text.body.div.l210" met="pentameter">Unus et immensum sustinet Imperium!</l>
-                <l n="text.body.div.l211">Nec te posteritas, dilecte CARENE, silebit,</l>
-                <l n="text.body.div.l212" met="pentameter">Maeonis inque tuo nomine opus faciet</l>
-                <l n="text.body.div.l213">Sed primos inter celebrabere vaccinantes,</l>
-                <l n="text.body.div.l214" met="pentameter">Germanique tibi tam bene promerito</l>
-                <l n="text.body.div.l215">Ingentes claro reddent pro munere grates,</l>
-                <l n="text.body.div.l216" met="pentameter">Magnaque tu magnae pars eris historiae.</l>
-                <l n="text.body.div.l217">Perge agedum atque novas studiis intende, CARENE,</l>
-                <l n="text.body.div.l218" met="pentameter">Vires; per durum gloria anhelat iter.</l>
-                <l n="text.body.div.l219">Tenuis ego interea cultor, non arbiter, artis</l>
-                <l n="text.body.div.l220" met="pentameter">Paeoniae algenti natus in Illyria,</l>
-                <l n="text.body.div.l221">Quae praeclara Viris et libertate perenni</l>
-                <l n="text.body.div.l222" met="pentameter">Eoos inter surgit et Hesperios,</l>
-                <l n="text.body.div.l223">Non possum grandes mentis depromere foetus,</l>
-                <l n="text.body.div.l224" met="pentameter">Nec facere, ut de me fama loquatur anus,</l>
-                <l n="text.body.div.l225">Magnis namque aptum rebus mihi Parca negavit</l>
-                <l n="text.body.div.l226" met="pentameter">Ingenium et venam divitis eloquii;</l>
-                <l n="text.body.div.l227">Sed veluti affrictuque levi motuque citato</l>
-                <l n="text.body.div.l228" met="pentameter">Si forte in gyrum vitrea lamna agitur,</l>
-                <l n="text.body.div.l229">Arte quidem mira, quam nec Titania novit</l>
-                <l n="text.body.div.l230" met="pentameter">Circe, etsi magicis clara ministeriis,</l>
-                <l n="text.body.div.l231">Corporibus tenui filo hinc atque inde revinctis,</l>
-                <l n="text.body.div.l232" met="pentameter">Nescio quem cursu praepete suppeditat</l>
-                <l n="text.body.div.l233">Late ignem, insinuans qui se per membra repente</l>
-                <l n="text.body.div.l234" met="pentameter">Contrahit et faciles excutit articulos;</l>
-                <l n="text.body.div.l235">Talis ego abripior tantae novitatis amore,</l>
-                <l n="text.body.div.l236" met="pentameter">Fervet et invento concita mens animi,</l>
-                <l n="text.body.div.l237">Dogmata et impatiens JENNERI pando, meosque</l>
-                <l n="text.body.div.l238" met="pentameter">Cives, finitimos et doceo Otmanidas,</l>
-                <l n="text.body.div.l239">Quos inter magni praeclara in sede Byzanti</l>
-                <l n="text.body.div.l240" met="pentameter">Nescio quid miri VALIUS aggreditur.</l>
-                <l n="text.body.div.l241">Felix cui dederunt tanto bona Numina saeclo</l>
-                <l n="text.body.div.l242" met="pentameter">Haec inter rerum vivere prodigia,</l>
-                <l n="text.body.div.l243">Cum novus instituit coelo nova furta Prometheus,</l>
-                <l n="text.body.div.l244" met="pentameter">Nec vitae igneolam lampada surripuit,</l>
-                <l n="text.body.div.l245">Mollia nec vinxit concreto corpora limo,</l>
-                <l n="text.body.div.l246" met="pentameter">Sed tulit aetheriis pharmacon e domibus,</l>
-                <l n="text.body.div.l247">Quo variis vitiata malis moribundaque membra</l>
-                <l n="text.body.div.l248" met="pentameter">
-               <sic n="text.body.div.l248.sic">Instant</sic> possent surpier exitio.</l>
-                <l n="text.body.div.l249">Ah! pereat, quisquis veterum monumenta revolvens</l>
-                <l n="text.body.div.l250" met="pentameter">Nil, nisi senta situ, laudibus accumulat.</l>
-                <l n="text.body.div.l251">Quod juvat humanam speciem redditque beatam,</l>
-                <l n="text.body.div.l252" met="pentameter">Hoc quaero, hoc toto pectore suspicio,</l>
-                <l n="text.body.div.l253">Nec laudo aut miror cymbam sublime volantem,</l>
-                <l n="text.body.div.l254" met="pentameter">Sive novo Sidus lumine conspicuum.</l>
+        <body n="body2">
+            <div n="div1" type="elegia" met="elegiacum">
+                <l n="l1">Grandia Romulidum quisquis monumenta revolvens,</l>
+                <l n="l2" met="pentameter">Atque inhians prisci temporis historiae</l>
+                <l n="l3">Degeneres animos, aut longe deteriore</l>
+                <l n="l4" met="pentameter">Nunc homines fictos clamitat esse luto,</l>
+                <l n="l5">Despicit et magnos ausus et dia repeta,</l>
+                <l n="l6" met="pentameter">Quae nostra haec aetas protulit, omnigenis.</l>
+                <l n="l7">Excellens studiis et miris artibus aucta,</l>
+                <l n="l8" met="pentameter">Desipit aut foeda livet ab invidia.</l>
+                <l n="l9">Pyramidum moles, magnae miracula Memphis,</l>
+                <l n="l10" met="pentameter">Aut Triviae templum, Daedaleusque labor,</l>
+                <l n="l11">Pausylipi aut rupes, tumulo praeclara Maronis,</l>
+                <l n="l12" met="pentameter">Jamdudum aerisonis pervia quadrijugis,</l>
+                <l n="l13">Horrendamve palus spirans Pontina mephitim</l>
+                <l n="l14" met="pentameter">Conversa in campos protinus innocuos,</l>
+                <l n="l15">Laetarum agricolae segetum genus omne ferentes</l>
+                <l n="l16" met="pentameter">Regium opus, quo nil grandius esse queat,</l>
+                <l n="l17">Ostendunt, populi quid possit vivida virtus,</l>
+                <l n="l18" met="pentameter">Dum numero innumero jussum opus aggreditur:</l>
+                <l n="l19">Non ego, sed coecum miretur talia vulgus,</l>
+                <l n="l20" met="pentameter">Et toto attonitum pectore suspiciat.</l>
+                <l n="l21">Credo equidem, saeclis obliviscentibus, aetas</l>
+                <l n="l22" met="pentameter">Romani extremas conteret imperii</l>
+                <l n="l23">Relliquias, quarum cineres et nomen inane</l>
+                <l n="l24" met="pentameter">Impigra vix poterit noscere posteritas:</l>
+                <l n="l25">Sed quae compertas vitam excoluere per artes,</l>
+                <l n="l26" met="pentameter">Et procul obscoenam barbariem expulerunt,</l>
+                <l n="l27">Qua foede horrebant homines, cum more ferarum</l>
+                <l n="l28" met="pentameter">Squallentes crassa corporis illuvie</l>
+                <l n="l29">Aspera miscebant pro vili proelia glande,</l>
+                <l n="l30" met="pentameter">Nullum aevum cursu praepete dissolüet.</l>
+                <l n="l31">His nec longa dies ingrata oblivia ducet,</l>
+                <l n="l32" met="pentameter">Nec memori haec hominum diluet ex animo.</l>
+                <l n="l33">Urit adhuc fulgore suo lux alma nepotes,</l>
+                <l n="l34" met="pentameter">Nec tenebras, ullum nec timet interitum,</l>
+                <l n="l35">Qua primum affulsit ratio, decor, utile, rectum,</l>
+                <l n="l36" met="pentameter">Insita et humani vis animi enituit.</l>
+                <l n="l37">Quae cum ita sint, ingens medicinae o fama, CARENE,</l>
+                <l n="l38" met="pentameter">Quidnam de magno dicier Hippocrate</l>
+                <l n="l39">Atque aliis aliisque potest, qui munere divum</l>
+                <l n="l40" met="pentameter">Maximi in arte Viri sedibus aetheriis.</l>
+                <l n="l41">Demissi, humano generi in tot saeva ruenti</l>
+                <l n="l42" met="pentameter">Exitia, in duris casibus adfuerunt?</l>
+                <l n="l43">Stat sua cuique dies, et quotquot munere terrae</l>
+                <l n="l44" met="pentameter">Vescimur, obscuram mortis adire viam</l>
+                <l n="l45">Sors jubet infelix et ineluctabile fatum;</l>
+                <l n="l46" met="pentameter">At quamvis legem fallere Persephones</l>
+                <l n="l47">Haud homini liceat, tamen hoc genus aerumnosum</l>
+                <l n="l48" met="pentameter">Artis Apollineae saepe eger auxilio,</l>
+                <l n="l49">Aut minus ut crebri densentur funera vulgi,</l>
+                <l n="l50" met="pentameter">Nec tanta ad Stygias praeda vehatur aquas ;</l>
+                <l n="l51">Aut aliquod miseris ut certa in morte levamen</l>
+                <l n="l52" met="pentameter">Adsit, ne morbus multimode excruciet</l>
+                <l n="l53">Jam desperantes vitae lucemque perosos,</l>
+                <l n="l54" met="pentameter">Detur et his saltem mitior interitus.</l>
+                <l n="l55">Quot jam versantes ipsis in faucibus Orci,</l>
+                <l n="l56" met="pentameter">Si quando pestis letifera ingruerit,</l>
+                <l n="l57">Tum longo eripuit Medicinae cura labori,</l>
+                <l n="l58" met="pentameter">Pristina tum ad vitae munia restituit?</l>
+                <l n="l59">Tam bene promeritos mortales fama superstes</l>
+                <l n="l60" met="pentameter">Concelebrat cunctos didita per populos.</l>
+                <l n="l61">Europae quondam cum per florentia regna</l>
+                <l n="l62" met="pentameter">Extremis ustae e finibus Arabiae</l>
+                <l n="l63">Advecta immitis contages variolarum</l>
+                <l n="l64" met="pentameter">Bacchari insolita coeperat illuvie,</l>
+                <l n="l65">Et raptim paucis ignoscere, jamque minari</l>
+                <l n="l66" met="pentameter">Desertis extremum urbibus excidium;</l>
+                <l n="l67">Non pueri primo flentes in limine vitae,</l>
+                <l n="l68" met="pentameter">Non armis pubes inclyta, non roseo</l>
+                <l n="l69">Quae reliquas inter praecellunt ore, puellae,</l>
+                <l n="l70" met="pentameter">Crescentes Veneris deliciae et Charitum</l>
+                <l n="l71">Laetos nequicquam suspirantes Hymenaeos;</l>
+                <l n="l72" met="pentameter">Non incana senum debita jam tumulo</l>
+                <l n="l73">AEtas, non quisquis gavisus luminis haustu</l>
+                <l n="l74" met="pentameter">Tam diram potuit perniciem effugere.</l>
+                <l n="l75">Quis memoret diram cladem et commune cadaver</l>
+                <l n="l76" met="pentameter">Europae atque Asiae? Funera funeribus</l>
+                <l n="l77">Mista senum et juvenum mens aversata refugit,</l>
+                <l n="l78" met="pentameter">Luctifici atque horret temporis historiam.</l>
+                <l n="l79">Sed si multa Viri divinum saecula nomen</l>
+                <l n="l80" met="pentameter">Nocte premunt, nostris eripiuntque oculis,</l>
+                <l n="l81">Primus qui omnivoram sapiens hanc contudit hydram</l>
+                <l n="l82" met="pentameter">Perniciemque novis artibus edomuit;</l>
+                <l n="l83">Quis tacitam linquat et Magnanima Heroina,</l>
+                <l n="l84" met="pentameter">Olim quae Europae in finibus, Odrysiam</l>
+                <l n="l85">Gentem inter, magnos vicisti prima timores</l>
+                <l n="l86" met="pentameter">Gnato et contagis semina luctificae</l>
+                <l n="l87">Indere nec verita es, nec luctisoni vagitus</l>
+                <l n="l88" met="pentameter">Plurima nec potuit flectere te pietas:</l>
+                <l n="l89">Anxia sollicito sed quae sub pectore cura,</l>
+                <l n="l90" met="pentameter">Qui tibi tunc moestus corde micante pavor,</l>
+                <l n="l91">Ut domitum urenti vidisti febre jacere,</l>
+                <l n="l92" met="pentameter">Formosasque genas membraque candidula</l>
+                <l n="l93">Foedari maculis, matrum pulcherrima? Forsan</l>
+                <l n="l94" met="pentameter">Spemque metumque inter te quoque poenituit</l>
+                <l n="l95">Dulcem quod sobolem vitäi e limine, mortis</l>
+                <l n="l96" met="pentameter">Jam paene in nigrum compuleras barathrum.</l>
+                <l n="l97">Ne timeas, generosa parens, tibi reddita proles,</l>
+                <l n="l98" met="pentameter">Sic Superis visum, sospes et incolumis</l>
+                <l n="l99">Letifero nunquam posthac obnoxia morbo,</l>
+                <l n="l100" met="pentameter">Nec turpata genas vividulosve oculos;</l>
+                <l n="l101">Jamque tui Angligenae, jam tota Europa salubre</l>
+                <l n="l102" met="pentameter">Grata animi recolit mente magisterium;</l>
+                <l n="l103">Jam tibi posteritas summos largitur honores</l>
+                <l n="l104" met="pentameter">Divum, teque piis addit imaginibus,</l>
+                <l n="l105">Ex quo insperatae populo haec via aperta salutis</l>
+                <l n="l106" met="pentameter">Tartarei ad ripas fluminis horrisonas</l>
+                <l n="l107">Rarior umbrarum glomeratur turba silentum,</l>
+                <l n="l108" met="pentameter">Nec tam saepe nigras itque reditque vias</l>
+                <l n="l109">Terribili squallore Charon, quoque litore opaco</l>
+                <l n="l110" met="pentameter">Sutilis interdum cymba quiescit iners.</l>
+                <l n="l111">Fracta tamen, sed non radicitus exturbata</l>
+                <l n="l112" met="pentameter">Arte nova, huc illuc serpit et insidias</l>
+                <l n="l113">Improba vis morbi nectit, miserosque parentes,</l>
+                <l n="l114" met="pentameter">Heu ! frustra exemplis consiliisque alacres,</l>
+                <l n="l115">Prole orbat viduatque domos ; magnumque repertum</l>
+                <l n="l116" met="pentameter">Moesta Thyesteis prosequitur precibus,</l>
+                <l n="l117">Et lymphata Deos, medicis ut talia reddant</l>
+                <l n="l118" met="pentameter">Hoc non promeritis, flagitat orba Parens.</l>
+                <l n="l119">Sed post tot casus, post tanta pericla, CARENE,</l>
+                <l n="l120" met="pentameter">Quorum mens tetra exhorret adhuc specie,</l>
+                <l n="l121">Humanae sobolis crudelem exscindere pestem</l>
+                <l n="l122" met="pentameter">Atque hoc mortis iter claudere quis potuit?</l>
+                <l n="l123">Magna Virum nutrix et Virtutum Anglia salve,</l>
+                <l n="l124" met="pentameter">Et Charitum et diae grata domus Sophiae,</l>
+                <l n="l125">Qua nil prisci olim majus novere Parentes,</l>
+                <l n="l126" met="pentameter">Ventura aut noscet postmodo progenies!</l>
+                <l n="l127">Angligenae salve Gentis decus, inculte salve</l>
+                <l n="l128" met="pentameter">JENNERE et nostris, concilio Superum</l>
+                <l n="l129">Addite, jam tandem votis assuesce vocari,</l>
+                <l n="l130" met="pentameter">Laudibus et gestis clarior Herculeis,</l>
+                <l n="l131">Qui postquam terras monstris purgavit, Olympo</l>
+                <l n="l132" met="pentameter">Exceptus mensis accubat Indigetum.</l>
+                <l n="l133">Per te alacres tandem florenti aetate puellae</l>
+                <l n="l134" met="pentameter">Sancta ineunt tuti foedera conjugii;</l>
+                <l n="l135">Anxiferae per te levis est dolor Ilithyiae,</l>
+                <l n="l136" met="pentameter">Fitque minor duri cura puerperii,</l>
+                <l n="l137">Quandoquidem infantes materno ex ubere raptos</l>
+                <l n="l138" met="pentameter">Amplius haud perdit funere dira lues,</l>
+                <l n="l139">Ceu cum sternit humi violento turbine grando</l>
+                <l n="l140" met="pentameter">Pallentes violas deciduasque rosas.</l>
+                <l n="l141">Tempus erit, nec vana loquor, volventibus annis</l>
+                <l n="l142" met="pentameter">Quando posteritas sedula pervolüet</l>
+                <l n="l143">Saeclorum annales, veterum et benefacta parentum,</l>
+                <l n="l144" met="pentameter">Tartareo discet pestiferam e barathro</l>
+                <l n="l145">Evasisse luem, quae, ceu feralis Erinnys,</l>
+                <l n="l146" met="pentameter">Quam labor, et metus, et pallida mors sequitur,</l>
+                <l n="l147">Occulto inficiens auras malesana veneno</l>
+                <l n="l148" met="pentameter">Heu! immaturis perdere funeribus</l>
+                <l n="l149">Atque catervatim properabat sternere gentes,</l>
+                <l n="l150" met="pentameter">Ocyor et ventis et volucri igne Jovis.</l>
+                <l n="l151">Discet, ut immitem quo posset flectere Erinnym,</l>
+                <l n="l152" met="pentameter">Ipsa suam Mater sponte dedit sobolem;</l>
+                <l n="l153">Discet, ut Anglus homo jussit sperare salutem,</l>
+                <l n="l154" met="pentameter">Et docuit gentes grande magisterium,</l>
+                <l n="l155">Quo fieri incolumes possent vitamque beatam</l>
+                <l n="l156" met="pentameter">Exsortes morbi ducere letiferi.</l>
+                <l n="l157">Namque ille arcanis naturae admissus ut atrum</l>
+                <l n="l158" met="pentameter">Pus vacuis ductum vidit ab uberibus</l>
+                <l n="l159">Vaccarum, attactu dextram foedare bubulci</l>
+                <l n="l160" met="pentameter">Atque ipsam paribus spargier hinc maculis;</l>
+                <l n="l161">Instituit morbi certas evolvere leges</l>
+                <l n="l162" met="pentameter">Atque triumphatam pellere ab Orbe luem.</l>
+                <l n="l163">Tunc Amor exsultans, Charitum stipante corona,</l>
+                <l n="l164" met="pentameter">Exsiliit, matri et rettulit Idaliae,</l>
+                <l n="l165">Diae virgineum formae decus atque lepores</l>
+                <l n="l166" met="pentameter">Amplius haud foedae damna timere luis.</l>
+                <l n="l167">Navifrago veluti cum sospes ab aequore nauta</l>
+                <l n="l168" met="pentameter">Exhalanti vix ore trahens animam</l>
+                <l n="l169">Dum manibus prensat scopulos, et litus amicum</l>
+                <l n="l170" met="pentameter">Arripit, horrisonum respicit Oceanum,</l>
+                <l n="l171">Et ceu dura silex riget atque immobilis haeret;</l>
+                <l n="l172" met="pentameter">Sic postquam Eumenidum maxima, quae soboli</l>
+                <l n="l173">Humanae tantam cladem tantosque labores</l>
+                <l n="l174" met="pentameter">Intulerat, certo vulnere procubuit,</l>
+                <l n="l175">Ingenti natura parens perculsa stupore est,</l>
+                <l n="l176" met="pentameter">Totque levata malis credere vix potuit</l>
+                <l n="l177">Advenisse diem, Jennero quae auspice, leti</l>
+                <l n="l178" met="pentameter">Innumeras tandem clauderet una vias.</l>
+                <l n="l179">Relligio invento plausit. Fanaticus error</l>
+                <l n="l180" met="pentameter">Et peste et saeva saevior Eumenide</l>
+                <l n="l181">Immundo tenuit rabidas sub pectore voces,</l>
+                <l n="l182" met="pentameter">Et pressit saniem in gutture vipeream.</l>
+                <l n="l183">Tum Gens, excellit quae libertatis amore,</l>
+                <l n="l184" met="pentameter">Atque jugi impatiens imperat Oceano,</l>
+                <l n="l185">Prima dedit primum specimen magnumque timenti</l>
+                <l n="l186" met="pentameter">Exemplum populo: calcar at insolitum</l>
+                <l n="l187">Addidit, et vanos prorsus de mente timores</l>
+                <l n="l188" met="pentameter">Depulit invicti Caesaris ingenium,</l>
+                <l n="l189">Plurima ut in propriis tentare pericula gnatis,</l>
+                <l n="l190" met="pentameter">Per totum voluit didere et Imperium,</l>
+                <l n="l191">Felices ausus fortunatumque repertum;</l>
+                <l n="l192" met="pentameter">Grataque munificus commoda pauperibus</l>
+                <l n="l193">Ultro dedit, pueri possent ut templa salutis</l>
+                <l n="l194" met="pentameter">Indugredi et tanto fungier officio.</l>
+                <l n="l195">Non secus ac inopes ad limina magna Potentum</l>
+                <l n="l196" met="pentameter">Saepe ruunt ingenti et fremitu et lacrymis,</l>
+                <l n="l197">Dum parvae aera stipis vel panis mucida frusta</l>
+                <l n="l198" met="pentameter">Poscunt: (urit enim viscera dira fames,)</l>
+                <l n="l199">Sic ruere innumeros juvenesque senesque videres,</l>
+                <l n="l200" met="pentameter">Et matres casti pignora conjugii</l>
+                <l n="l201">Magni exsultantes deferre ad numinis aram</l>
+                <l n="l202" met="pentameter">Et certum vitae poscere praesidium.</l>
+                <l n="l203">Sic salvi tibi sint nati, sic dextera bello</l>
+                <l n="l204" met="pentameter">Invicta, o CAESAR, pro pietate tua!</l>
+                <l n="l205">Sic Superi robur suspiratamque salutem</l>
+                <l n="l206" met="pentameter">HEROI reddant ocyus Austriaco,</l>
+                <l n="l207">Qui belli fulmen florenti in vere juventae,</l>
+                <l n="l208" met="pentameter">Consilioque potens, vique animi indomita</l>
+                <l n="l209">Grandibus impatiens gestis affectat Olympum,</l>
+                <l n="l210" met="pentameter">Unus et immensum sustinet Imperium!</l>
+                <l n="l211">Nec te posteritas, dilecte CARENE, silebit,</l>
+                <l n="l212" met="pentameter">Maeonis inque tuo nomine opus faciet</l>
+                <l n="l213">Sed primos inter celebrabere vaccinantes,</l>
+                <l n="l214" met="pentameter">Germanique tibi tam bene promerito</l>
+                <l n="l215">Ingentes claro reddent pro munere grates,</l>
+                <l n="l216" met="pentameter">Magnaque tu magnae pars eris historiae.</l>
+                <l n="l217">Perge agedum atque novas studiis intende, CARENE,</l>
+                <l n="l218" met="pentameter">Vires; per durum gloria anhelat iter.</l>
+                <l n="l219">Tenuis ego interea cultor, non arbiter, artis</l>
+                <l n="l220" met="pentameter">Paeoniae algenti natus in Illyria,</l>
+                <l n="l221">Quae praeclara Viris et libertate perenni</l>
+                <l n="l222" met="pentameter">Eoos inter surgit et Hesperios,</l>
+                <l n="l223">Non possum grandes mentis depromere foetus,</l>
+                <l n="l224" met="pentameter">Nec facere, ut de me fama loquatur anus,</l>
+                <l n="l225">Magnis namque aptum rebus mihi Parca negavit</l>
+                <l n="l226" met="pentameter">Ingenium et venam divitis eloquii;</l>
+                <l n="l227">Sed veluti affrictuque levi motuque citato</l>
+                <l n="l228" met="pentameter">Si forte in gyrum vitrea lamna agitur,</l>
+                <l n="l229">Arte quidem mira, quam nec Titania novit</l>
+                <l n="l230" met="pentameter">Circe, etsi magicis clara ministeriis,</l>
+                <l n="l231">Corporibus tenui filo hinc atque inde revinctis,</l>
+                <l n="l232" met="pentameter">Nescio quem cursu praepete suppeditat</l>
+                <l n="l233">Late ignem, insinuans qui se per membra repente</l>
+                <l n="l234" met="pentameter">Contrahit et faciles excutit articulos;</l>
+                <l n="l235">Talis ego abripior tantae novitatis amore,</l>
+                <l n="l236" met="pentameter">Fervet et invento concita mens animi,</l>
+                <l n="l237">Dogmata et impatiens JENNERI pando, meosque</l>
+                <l n="l238" met="pentameter">Cives, finitimos et doceo Otmanidas,</l>
+                <l n="l239">Quos inter magni praeclara in sede Byzanti</l>
+                <l n="l240" met="pentameter">Nescio quid miri VALIUS aggreditur.</l>
+                <l n="l241">Felix cui dederunt tanto bona Numina saeclo</l>
+                <l n="l242" met="pentameter">Haec inter rerum vivere prodigia,</l>
+                <l n="l243">Cum novus instituit coelo nova furta Prometheus,</l>
+                <l n="l244" met="pentameter">Nec vitae igneolam lampada surripuit,</l>
+                <l n="l245">Mollia nec vinxit concreto corpora limo,</l>
+                <l n="l246" met="pentameter">Sed tulit aetheriis pharmacon e domibus,</l>
+                <l n="l247">Quo variis vitiata malis moribundaque membra</l>
+                <l n="l248" met="pentameter">
+               <sic n="sic1">Instant</sic> possent surpier exitio.</l>
+                <l n="l249">Ah! pereat, quisquis veterum monumenta revolvens</l>
+                <l n="l250" met="pentameter">Nil, nisi senta situ, laudibus accumulat.</l>
+                <l n="l251">Quod juvat humanam speciem redditque beatam,</l>
+                <l n="l252" met="pentameter">Hoc quaero, hoc toto pectore suspicio,</l>
+                <l n="l253">Nec laudo aut miror cymbam sublime volantem,</l>
+                <l n="l254" met="pentameter">Sive novo Sidus lumine conspicuum.</l>
             </div>
         </body>
     </text>

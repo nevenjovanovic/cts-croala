@@ -86,6 +86,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -129,98 +146,98 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:bonaventurarazmilovic01.croala772180.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="poesis-elegia" met="elegiacum">
-            <head n="text.body.div.head">ADMODVM REVERENDO PATRI
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="poesis-elegia" met="elegiacum">
+            <head n="head1">ADMODVM REVERENDO PATRI
                BERNARDINO TISSIÇICH
                VVLGO NICOLANDA
                OLIM PROVINCIALI DIGNISSIMO.</head>
             
             
-            <l n="text.body.div.l1">Quod fuit in votis longo iam tempore, tandem</l>
+            <l n="l2">Quod fuit in votis longo iam tempore, tandem</l>
              
-            <l n="text.body.div.l2" met="pentameter">Ponitur ecce meis ultima meta notis.</l>
+            <l n="l3" met="pentameter">Ponitur ecce meis ultima meta notis.</l>
              
-            <l n="text.body.div.l3">Est labor haud modicus, modica licet arte triumphet:</l>
+            <l n="l4">Est labor haud modicus, modica licet arte triumphet:</l>
              
-            <l n="text.body.div.l4" met="pentameter">Huic modico magnum pondus inesse patet.</l>
+            <l n="l5" met="pentameter">Huic modico magnum pondus inesse patet.</l>
              
-            <l n="text.body.div.l5">Carmina concludunt haec namque fidemque Deumque</l>
+            <l n="l6">Carmina concludunt haec namque fidemque Deumque</l>
              
-            <l n="text.body.div.l6" met="pentameter">Si tamen ulla Deum claudere metra queant.</l>
+            <l n="l7" met="pentameter">Si tamen ulla Deum claudere metra queant.</l>
              
-            <l n="text.body.div.l7">Est forma informis: magis informatur ab ipsa</l>
+            <l n="l8">Est forma informis: magis informatur ab ipsa</l>
              
-            <l n="text.body.div.l8" met="pentameter">Materia Liber: haud forma dat esse rei.</l>
+            <l n="l9" met="pentameter">Materia Liber: haud forma dat esse rei.</l>
              
-            <l n="text.body.div.l9">Et licet indigeat nullo custode volumen,</l>
+            <l n="l10">Et licet indigeat nullo custode volumen,</l>
              
-            <l n="text.body.div.l10" met="pentameter">Intus Custodem cum sibi charta gerat:</l>
+            <l n="l11" met="pentameter">Intus Custodem cum sibi charta gerat:</l>
              
-            <l n="text.body.div.l11">Attamen huic aliquem cupio invigilare labori,</l>
+            <l n="l12">Attamen huic aliquem cupio invigilare labori,</l>
              
-            <l n="text.body.div.l12" met="pentameter">Zoile, qui dentes arceat inde tuos.</l>
+            <l n="l13" met="pentameter">Zoile, qui dentes arceat inde tuos.</l>
              
-            <l n="text.body.div.l13">Livoris quamquam rabiem quid curo furentem,</l>
+            <l n="l14">Livoris quamquam rabiem quid curo furentem,</l>
              
-            <l n="text.body.div.l14" met="pentameter">
-               <sic n="text.body.div.l14.sic1">Materiam</sic> tristis, dum <sic n="text.body.div.l14.sic2">bona</sic>, Livor habet?</l>
+            <l n="l15" met="pentameter">
+               <sic n="sic1">Materiam</sic> tristis, dum <sic n="sic2">bona</sic>, Livor habet?</l>
              
-            <l n="text.body.div.l15">Sed quaero excubias quae carmina nostra coronent,</l>
+            <l n="l16">Sed quaero excubias quae carmina nostra coronent,</l>
              
-            <l n="text.body.div.l16" met="pentameter">Et quae sint operi vera corona meo.</l>
+            <l n="l17" met="pentameter">Et quae sint operi vera corona meo.</l>
              
-            <l n="text.body.div.l17">Hesperidum procul hinc, vigiles procul este Dracones,</l>
+            <l n="l18">Hesperidum procul hinc, vigiles procul este Dracones,</l>
              
-            <l n="text.body.div.l18" met="pentameter">
-               <sic n="text.body.div.l18.sic">Squammigeras</sic> iactent aurea mala feras.</l>
+            <l n="l19" met="pentameter">
+               <sic n="sic1">Squammigeras</sic> iactent aurea mala feras.</l>
              
-            <l n="text.body.div.l19">Respuit ignivomos pariter mea pagina tauros</l>
+            <l n="l20">Respuit ignivomos pariter mea pagina tauros</l>
              
-            <l n="text.body.div.l20" met="pentameter">Pagina Phryxei velleris osa boves.</l>
+            <l n="l21" met="pentameter">Pagina Phryxei velleris osa boves.</l>
              
-            <l n="text.body.div.l21">Haec siquidem levivm creduntur somnia vatum;</l>
+            <l n="l22">Haec siquidem levivm creduntur somnia vatum;</l>
              
-            <l n="text.body.div.l22" met="pentameter">Fabula nulla meis debet inesse notis.</l>
+            <l n="l23" met="pentameter">Fabula nulla meis debet inesse notis.</l>
              
-            <l n="text.body.div.l23">Aliger hic adest coeli delapsus ab arce:</l>
+            <l n="l24">Aliger hic adest coeli delapsus ab arce:</l>
              
-            <l n="text.body.div.l24" met="pentameter">Alitis excubias postulat iste Liber.</l>
+            <l n="l25" met="pentameter">Alitis excubias postulat iste Liber.</l>
              
-            <l n="text.body.div.l25">BERNARDINE PATER, nostri decus Ordinis, alma</l>
+            <l n="l26">BERNARDINE PATER, nostri decus Ordinis, alma</l>
              
-            <l n="text.body.div.l26" met="pentameter">Lux Spalati, clarum Dalmatiaeque iubar:</l>
+            <l n="l27" met="pentameter">Lux Spalati, clarum Dalmatiaeque iubar:</l>
              
-            <l n="text.body.div.l27">Tu charitate flagrans, certe Angelus Ordinis huius,</l>
+            <l n="l28">Tu charitate flagrans, certe Angelus Ordinis huius,</l>
              
-            <l n="text.body.div.l28" met="pentameter">Seraphici merito crederis esse Patris.</l>
+            <l n="l29" met="pentameter">Seraphici merito crederis esse Patris.</l>
              
-            <l n="text.body.div.l29">Seu doceas, seu verba <sic n="text.body.div.l29.sic">tonas</sic> divina per orbem,</l>
+            <l n="l30">Seu doceas, seu verba <sic n="sic1">tonas</sic> divina per orbem,</l>
              
-            <l n="text.body.div.l30" met="pentameter">Seu regis, Angelica conditione nites.</l>
+            <l n="l31" met="pentameter">Seu regis, Angelica conditione nites.</l>
              
-            <l n="text.body.div.l31">Hunc quemcumque tibi Librum committo tuendum;</l>
+            <l n="l32">Hunc quemcumque tibi Librum committo tuendum;</l>
              
-            <l n="text.body.div.l32" met="pentameter">Huius tu Custos pervigil esse velis.</l>
+            <l n="l33" met="pentameter">Huius tu Custos pervigil esse velis.</l>
              
-            <l n="text.body.div.l33">Cum scriptisque tuo Scriptorem trado favori:</l>
+            <l n="l34">Cum scriptisque tuo Scriptorem trado favori:</l>
              
-            <l n="text.body.div.l34" met="pentameter">Scriptorem et scriptum TV PATER usque fove.</l>
+            <l n="l35" met="pentameter">Scriptorem et scriptum TV PATER usque fove.</l>
              
-            <l n="text.body.div.l35">Coelitus optato quod si dignabor honore,</l>
+            <l n="l36">Coelitus optato quod si dignabor honore,</l>
              
-            <l n="text.body.div.l36" met="pentameter">Nec feret hic Codex irrita vota meus:</l>
+            <l n="l37" met="pentameter">Nec feret hic Codex irrita vota meus:</l>
              
-            <l n="text.body.div.l37">Quae fuit ante BONAE VENTVRAE pagina, posthac,</l>
+            <l n="l38">Quae fuit ante BONAE VENTVRAE pagina, posthac,</l>
              
-            <l n="text.body.div.l38" met="pentameter">TE CVSTODE, bonae Pagina Sortis erit.</l>
+            <l n="l39" met="pentameter">TE CVSTODE, bonae Pagina Sortis erit.</l>
              
             
-            <closer n="text.body.div.closer">
-               <signed n="text.body.div.closer.signed">Paternitatis tuae Admodum Reverendae
+            <closer n="closer40">
+               <signed n="signed1">Paternitatis tuae Admodum Reverendae
             Compatriota addictisimus
-            Frater Bonaventura de Spalato, <abbr n="text.body.div.closer.signed.abbr">etc.</abbr>
+            Frater Bonaventura de Spalato, <abbr n="abbr1">etc.</abbr>
                </signed>
             </closer>
             

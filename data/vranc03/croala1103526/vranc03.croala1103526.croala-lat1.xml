@@ -95,6 +95,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         <profileDesc>
          <abstract>
@@ -143,24 +160,24 @@
         
     </teiHeader>
    <text xml:base="urn:cts:croala:vranc03.croala1103526.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-epistula"> 
-            <opener n="text.body.div.opener">Reverendissimo domino domino Antonio Verancio, episcopo Agriensi, comiti perpetuo Hewesiensi, sacratissimae caesareae majestatis consiliario, domino observandissimo.
-            <salute n="text.body.div.opener.salute">Reverendissime domine, domine observandissime. Salutem et servitiorum nostrorum commendationem. </salute>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-epistula"> 
+            <opener n="opener1">Reverendissimo domino domino Antonio Verancio, episcopo Agriensi, comiti perpetuo Hewesiensi, sacratissimae caesareae majestatis consiliario, domino observandissimo.
+            <salute n="salute1">Reverendissime domine, domine observandissime. Salutem et servitiorum nostrorum commendationem. </salute>
             </opener>
-            <note n="text.body.div.note" resp="AV">Receptae 29. Decembris 1558.</note>
-            <p n="text.body.div.p">Ita repente contigit me scribere hasce litteras, ut particulariter omnia prosequi nequiverim, praesertim mihi specialiter commissa. Sufficiat igitur pro nunc certificare dominationi vestrae reverendissimae, nos omnes esse et vivere incolumes, et plurimum desiderare ejus litteras, ex quibus salutis suae rationes omnes et fortunarum perdisceremus. De fama et praeconio dominationis vestrae reverendissimae apud omnes hasce nationes quid dicam? nisi quod summis viris et omni laude dignis attribuitur. Ut autem attingam nonnihil et summatim de quibusdam quae forsan scire desiderat: De negotio Traguriensi nihil fit. Hic offertur simile per parentem juvenis illius, qui fuit nuper apud eam. <sic n="text.body.div.p.sic1">Filunt</sic> Petrum de Bassano, modo velit dominatio vestra reverendissima; brevi tamen clarius per proximos nuncios. In reliquis frater Nicolaus hortum licitavit florenis 400-is; sed et aliae plures res, et utiles, et hujus loci praecipuae prostant; de quibus totaliter adhuc scribere nequeo praeter ea,
-            <pb n="text.body.div.p.pb"/> 
-            quae nuper scripsi de Praeviano. <q n="text.body.div.p.q">Sint Maecenates</q> 
-               <abbr n="text.body.div.p.abbr">etc</abbr>. Quod reliquum est, circa negotium Ragusinum nihil expeditur, ita ut parens me quotidie <sic n="text.body.div.p.sic2">obtundat</sic>: in ea tamen est spe, in qua eum dominatio vestra reverendissima confirmavit per litteras. Salutem dicere dignetur Belgramonio, Lazkoni magistro curiae suae caeterisque suis familiaribus omnibus cum Pechy Janos meo nomine.</p>
-            <closer n="text.body.div.closer">
-               <salute n="text.body.div.closer.salute">In reliquis opto dominationem vestram reverendissimam optime valere et quam diutissime.</salute>
-               <dateline n="text.body.div.closer.dateline">Ex Sibenico. <date n="text.body.div.closer.dateline.date" when="1558-11-06">Die 6. Novembris 1558.</date>
+            <note n="note2" resp="AV">Receptae 29. Decembris 1558.</note>
+            <p n="p3">Ita repente contigit me scribere hasce litteras, ut particulariter omnia prosequi nequiverim, praesertim mihi specialiter commissa. Sufficiat igitur pro nunc certificare dominationi vestrae reverendissimae, nos omnes esse et vivere incolumes, et plurimum desiderare ejus litteras, ex quibus salutis suae rationes omnes et fortunarum perdisceremus. De fama et praeconio dominationis vestrae reverendissimae apud omnes hasce nationes quid dicam? nisi quod summis viris et omni laude dignis attribuitur. Ut autem attingam nonnihil et summatim de quibusdam quae forsan scire desiderat: De negotio Traguriensi nihil fit. Hic offertur simile per parentem juvenis illius, qui fuit nuper apud eam. <sic n="sic1">Filunt</sic> Petrum de Bassano, modo velit dominatio vestra reverendissima; brevi tamen clarius per proximos nuncios. In reliquis frater Nicolaus hortum licitavit florenis 400-is; sed et aliae plures res, et utiles, et hujus loci praecipuae prostant; de quibus totaliter adhuc scribere nequeo praeter ea,
+            <pb n="pb2"/> 
+            quae nuper scripsi de Praeviano. <q n="q3">Sint Maecenates</q> 
+               <abbr n="abbr4">etc</abbr>. Quod reliquum est, circa negotium Ragusinum nihil expeditur, ita ut parens me quotidie <sic n="sic5">obtundat</sic>: in ea tamen est spe, in qua eum dominatio vestra reverendissima confirmavit per litteras. Salutem dicere dignetur Belgramonio, Lazkoni magistro curiae suae caeterisque suis familiaribus omnibus cum Pechy Janos meo nomine.</p>
+            <closer n="closer4">
+               <salute n="salute1">In reliquis opto dominationem vestram reverendissimam optime valere et quam diutissime.</salute>
+               <dateline n="dateline2">Ex Sibenico. <date n="date1" when="1558-11-06">Die 6. Novembris 1558.</date>
                </dateline>
-               <signed n="text.body.div.closer.signed">Michael Verancius servitor et frater.</signed>
+               <signed n="signed3">Michael Verancius servitor et frater.</signed>
             </closer>
-            <gap n="text.body.div.gap" reason="cryptographum"/>
+            <gap n="gap5" reason="cryptographum"/>
          </div>
       </body>
     

@@ -93,6 +93,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -136,29 +150,29 @@
            </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:bozic01.croala1480545.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="poesis-epigramma" met="elegiacum">
-            <head n="text.body.div.head">
-               <add n="text.body.div.head.add">XXXVII</add> 
-               <expan n="text.body.div.head.expan">Franciscus Natalis</expan>
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="poesis-epigramma" met="elegiacum">
+            <head n="head1">
+               <add n="add1">XXXVII</add> 
+               <expan n="expan2">Franciscus Natalis</expan>
             </head>
-            <l n="text.body.div.l1">Plurima <corr n="text.body.div.l1.corr">Callymachi</corr> venerantur saecula manes</l>
+            <l n="l2">Plurima <corr n="corr1">Callymachi</corr> venerantur saecula manes</l>
              
-            <l n="text.body.div.l2" met="pentameter">Scriptaque Nasonis dulcia<ref n="text.body.div.l2.ref">2</ref> ad Astra ferunt,</l>
+            <l n="l3" met="pentameter">Scriptaque Nasonis dulcia<ref n="ref1">2</ref> ad Astra ferunt,</l>
              
-            <l n="text.body.div.l3">Est qui Pyndareos uario modulamine uersus</l>
+            <l n="l4">Est qui Pyndareos uario modulamine uersus</l>
              
-            <l n="text.body.div.l4" met="pentameter">Subleuat, hic carmen, docte<ref n="text.body.div.l4.ref">3</ref> Catulle, tuum;</l>
+            <l n="l5" met="pentameter">Subleuat, hic carmen, docte<ref n="ref1">3</ref> Catulle, tuum;</l>
              
-            <l n="text.body.div.l5">Vatibus iis tantis ausim praeponere Paulum,</l>
+            <l n="l6">Vatibus iis tantis ausim praeponere Paulum,</l>
              
-            <l n="text.body.div.l6" met="pentameter">Temporibus nostris te, Paladine, sacrum.</l>
+            <l n="l7" met="pentameter">Temporibus nostris te, Paladine, sacrum.</l>
              
-            <closer n="text.body.div.closer">
-               <foreign n="text.body.div.closer.foreign" xml:lang="grc">ΤΕΛΟΣ</foreign>
+            <closer n="closer8">
+               <foreign n="foreign1" xml:lang="grc">ΤΕΛΟΣ</foreign>
             </closer>
-            <milestone unit="page" n="text.body.div.milestone"/>
+            <milestone unit="page" n="milestone9"/>
          </div>
       </body>
    </text>

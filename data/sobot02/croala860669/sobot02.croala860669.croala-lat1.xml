@@ -90,6 +90,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
         
         <profileDesc>
@@ -138,17 +152,17 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot02.croala860669.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
+      <body n="body1">
 
-            <div n="text.body.div" type="inscriptio">
-                <p n="text.body.div.p">Ioanni Sobbotte iuris <expan n="text.body.div.p.expan1">consulto</expan>
-                    <expan n="text.body.div.p.expan2">clarissimo</expan>
-                    <expan n="text.body.div.p.expan3">oratorique</expan> eximio et Simeoni Sobbotte adolescenti omnibus
+            <div n="div1" type="inscriptio">
+                <p n="p1">Ioanni Sobbotte iuris <expan n="expan1">consulto</expan>
+                    <expan n="expan2">clarissimo</expan>
+                    <expan n="expan3">oratorique</expan> eximio et Simeoni Sobbotte adolescenti omnibus
                     virtutibus predito quorum alter acerbo funere interemptus, alter ferro per
-                    insidias aggressus impie inimicis violenta morte vita <corr n="text.body.div.p.corr" resp="NJ">privatus</corr> Catterina Sobotta mulierum miserrima <expan n="text.body.div.p.expan4">coniugi</expan>
-                    et <expan n="text.body.div.p.expan5">filio</expan>
-                    <expan n="text.body.div.p.expan6">ob memoriam perfecit</expan>
-                    <date n="text.body.div.p.date" when="1469">MCCCCLXVIIII</date>
+                    insidias aggressus impie inimicis violenta morte vita <corr n="corr4" resp="NJ">privatus</corr> Catterina Sobotta mulierum miserrima <expan n="expan5">coniugi</expan>
+                    et <expan n="expan6">filio</expan>
+                    <expan n="expan7">ob memoriam perfecit</expan>
+                    <date n="date8" when="1469">MCCCCLXVIIII</date>
             </p>
 
             </div>

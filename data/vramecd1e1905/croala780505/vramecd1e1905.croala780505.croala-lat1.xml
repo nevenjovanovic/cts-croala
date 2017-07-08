@@ -83,6 +83,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -125,16 +139,16 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:vramecd1e1905.croala780505.croala-lat1:" xml:lang="lat">
-      <body n="text.body">
+      <body n="body1">
          
-         <div n="text.body.div" type="poesis-epigramma" met="elegiacum">
-            <l n="text.body.div.l1">
-               <placeName n="text.body.div.l1.placeName1">Styria</placeName> me genuit nutruit sacra <placeName n="text.body.div.l1.placeName2">Vienna</placeName>
+         <div n="div1" type="poesis-epigramma" met="elegiacum">
+            <l n="l1">
+               <placeName n="placeName1">Styria</placeName> me genuit nutruit sacra <placeName n="placeName2">Vienna</placeName>
             </l>
-            <l n="text.body.div.l2" met="pentameter">Mortales docui sacra tenere iura.</l>
-            <closer n="text.body.div.closer">
-               <signed n="text.body.div.closer.signed">Antonius Vramez</signed> 
-               <date n="text.body.div.closer.date" when="1559">1.5.5.9</date>
+            <l n="l2" met="pentameter">Mortales docui sacra tenere iura.</l>
+            <closer n="closer3">
+               <signed n="signed1">Antonius Vramez</signed> 
+               <date n="date2" when="1559">1.5.5.9</date>
             </closer>
          </div>
       </body>

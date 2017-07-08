@@ -94,6 +94,20 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -148,75 +162,75 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:and04.croala339999.croala-lat1:" xml:lang="lat" type="poesis">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="elegia" met="elegiacum">
-            <head n="text.body.div.head">
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="elegia" met="elegiacum">
+            <head n="head1">
         Andronici Tragurini Ad puerum forma superbientem
       </head>
             <!-- [U rkp. umj. "ae" piše uvijek "e"] -->
       
         
       
-            <l n="text.body.div.l1">Quid tantum eximiae perituro flore figurae</l>
-            <l n="text.body.div.l2" met="pentameter">	
-               <corr n="text.body.div.l2.corr">Elatus</corr> brevibus credis, inepte, bonis.</l>
-            <l n="text.body.div.l3">Nulli fida satis fugitivae gratia formae,</l>
-            <l n="text.body.div.l4" met="pentameter">	Nil homini eximium perpetuumque datur.</l>
-            <l n="text.body.div.l5">Par annis facieque tibi defloruit ante</l>
-            <l n="text.body.div.l6" met="pentameter">	Narcissus, formae captus amore suae,</l>
-            <l n="text.body.div.l7">Oebalius tibi par periit puer et puer ille</l>
-            <l n="text.body.div.l8" met="pentameter">	Magna deum exarsit cuius amore parens.</l>
-            <l n="text.body.div.l9">Non semper simulque pubescit floribus Hyllas,</l>
-            <l n="text.body.div.l10" met="pentameter">	Nec partu campus versicolore rubet.			</l>
-            <l n="text.body.div.l11">Huic quoque obesse solent inimicae tempora brumae,</l>
-            <l n="text.body.div.l12" met="pentameter">	Huic quoque Marmarici flaminis ira nocet.</l>
-            <l n="text.body.div.l13">Crede mihi, brevis est et non diuturna voluptas</l>
-            <l n="text.body.div.l14" met="pentameter">	Quam superi formae constituere bonis.</l>
-            <l n="text.body.div.l15">Si male perdentur quae nunc male tempora perdis,		</l>
-            <l n="text.body.div.l16" met="pentameter">	Postera non veniet commodiora tibi.</l>
-            <l n="text.body.div.l17">Effugit admissis aetas non tardior curis</l>
-            <l n="text.body.div.l18" met="pentameter">	Et tremulo adventat curva senecta pede.</l>
-            <l n="text.body.div.l19">Exangues subeunt curae, mox langor et illa </l>
-            <l n="text.body.div.l20" met="pentameter">	Pars vitae semper deterioris adest.			</l>
-            <l n="text.body.div.l21">Aureus iste nitor, frons haec generosa tuique</l>
-            <l n="text.body.div.l22" met="pentameter">	Corporis in rugas totus abibit honos.</l>
-            <l n="text.body.div.l23">Sydereos oculos atque aemula labra rosetis</l>
-            <l n="text.body.div.l24" met="pentameter">	Venturi in nihilum temporis hora feret.</l>
-            <l n="text.body.div.l25">
-               <corr n="text.body.div.l25.corr">Qua</corr> nutant flexi per eburnea colla capilli,	</l>
-            <l n="text.body.div.l26" met="pentameter">	Languida cernetur et sine crine cutis,</l>
-            <l n="text.body.div.l27">Non aliter quam cum solito spoliatur honore</l>
-            <l n="text.body.div.l28" met="pentameter">	Brumalique caret tempore fronde nemus.</l>
-            <l n="text.body.div.l29">Sed si <corr n="text.body.div.l29.corr1">deflecti</corr> cuiquam tamen <corr n="text.body.div.l29.corr2">aeneus ille</corr>
+            <l n="l2">Quid tantum eximiae perituro flore figurae</l>
+            <l n="l3" met="pentameter">	
+               <corr n="corr1">Elatus</corr> brevibus credis, inepte, bonis.</l>
+            <l n="l4">Nulli fida satis fugitivae gratia formae,</l>
+            <l n="l5" met="pentameter">	Nil homini eximium perpetuumque datur.</l>
+            <l n="l6">Par annis facieque tibi defloruit ante</l>
+            <l n="l7" met="pentameter">	Narcissus, formae captus amore suae,</l>
+            <l n="l8">Oebalius tibi par periit puer et puer ille</l>
+            <l n="l9" met="pentameter">	Magna deum exarsit cuius amore parens.</l>
+            <l n="l10">Non semper simulque pubescit floribus Hyllas,</l>
+            <l n="l11" met="pentameter">	Nec partu campus versicolore rubet.			</l>
+            <l n="l12">Huic quoque obesse solent inimicae tempora brumae,</l>
+            <l n="l13" met="pentameter">	Huic quoque Marmarici flaminis ira nocet.</l>
+            <l n="l14">Crede mihi, brevis est et non diuturna voluptas</l>
+            <l n="l15" met="pentameter">	Quam superi formae constituere bonis.</l>
+            <l n="l16">Si male perdentur quae nunc male tempora perdis,		</l>
+            <l n="l17" met="pentameter">	Postera non veniet commodiora tibi.</l>
+            <l n="l18">Effugit admissis aetas non tardior curis</l>
+            <l n="l19" met="pentameter">	Et tremulo adventat curva senecta pede.</l>
+            <l n="l20">Exangues subeunt curae, mox langor et illa </l>
+            <l n="l21" met="pentameter">	Pars vitae semper deterioris adest.			</l>
+            <l n="l22">Aureus iste nitor, frons haec generosa tuique</l>
+            <l n="l23" met="pentameter">	Corporis in rugas totus abibit honos.</l>
+            <l n="l24">Sydereos oculos atque aemula labra rosetis</l>
+            <l n="l25" met="pentameter">	Venturi in nihilum temporis hora feret.</l>
+            <l n="l26">
+               <corr n="corr1">Qua</corr> nutant flexi per eburnea colla capilli,	</l>
+            <l n="l27" met="pentameter">	Languida cernetur et sine crine cutis,</l>
+            <l n="l28">Non aliter quam cum solito spoliatur honore</l>
+            <l n="l29" met="pentameter">	Brumalique caret tempore fronde nemus.</l>
+            <l n="l30">Sed si <corr n="corr1">deflecti</corr> cuiquam tamen <corr n="corr2">aeneus ille</corr>
             </l>
-            <l n="text.body.div.l30" met="pentameter">	Atque <corr n="text.body.div.l30.corr">adamanteus</corr> temporis ordo queat			</l>
-            <pb n="text.body.div.pb"/>
-            <l n="text.body.div.l31">Confiteor: decor iste hominis non sorte teneri</l>
-            <l n="text.body.div.l32" met="pentameter">	Dignus et humana conditione premi.</l>
-            <l n="text.body.div.l33">Doloris expers Lethi Stygiique profundi</l>
-            <l n="text.body.div.l34" met="pentameter">	Horrida Tartarei iura <corr n="text.body.div.l34.corr">levare fori</corr>. </l>
-            <l n="text.body.div.l35">
-               <corr n="text.body.div.l35.corr">Scilicet ut per te</corr> pateat non omnia mortis</l>
-            <l n="text.body.div.l36" met="pentameter">	Esse nec inferna conditione trahi.</l>
-            <l n="text.body.div.l37">Sed quia <corr n="text.body.div.l37.corr">Parcarum</corr> firmata lege negatur</l>
-            <l n="text.body.div.l38" met="pentameter">	Aevo hominis semper dexteriore frui,</l>
-            <l n="text.body.div.l39">Dum licet atque sinit facies, dum tempora <corr n="text.body.div.l39.corr">vernant</corr> 
+            <l n="l31" met="pentameter">	Atque <corr n="corr1">adamanteus</corr> temporis ordo queat			</l>
+            <pb n="pb32"/>
+            <l n="l33">Confiteor: decor iste hominis non sorte teneri</l>
+            <l n="l34" met="pentameter">	Dignus et humana conditione premi.</l>
+            <l n="l35">Doloris expers Lethi Stygiique profundi</l>
+            <l n="l36" met="pentameter">	Horrida Tartarei iura <corr n="corr1">levare fori</corr>. </l>
+            <l n="l37">
+               <corr n="corr1">Scilicet ut per te</corr> pateat non omnia mortis</l>
+            <l n="l38" met="pentameter">	Esse nec inferna conditione trahi.</l>
+            <l n="l39">Sed quia <corr n="corr1">Parcarum</corr> firmata lege negatur</l>
+            <l n="l40" met="pentameter">	Aevo hominis semper dexteriore frui,</l>
+            <l n="l41">Dum licet atque sinit facies, dum tempora <corr n="corr1">vernant</corr> 
             </l>
-            <l n="text.body.div.l40" met="pentameter">	Gaudia festino carpe <corr n="text.body.div.l40.corr">abitura pede</corr> 	
+            <l n="l42" met="pentameter">	Gaudia festino carpe <corr n="corr1">abitura pede</corr> 	
             </l>
-            <l n="text.body.div.l41">
-               <corr n="text.body.div.l41.corr1">Vtere</corr> non stabili <corr n="text.body.div.l41.corr2">fugiturae vere</corr> iuventae</l>
-            <l n="text.body.div.l42" met="pentameter">
-               <corr n="text.body.div.l42.corr">Non curans</corr> homini quid ferat hora sequens</l>
-            <l n="text.body.div.l43">Praecipue <corr n="text.body.div.l43.corr">aligeri fac</corr> sollicitentur amores</l>
-            <l n="text.body.div.l44" met="pentameter">	Arbitrio <corr n="text.body.div.l44.corr1">curuant</corr> dum <corr n="text.body.div.l44.corr2">sua tela</corr> tuo</l>
-            <l n="text.body.div.l45">Et si quando ulli talis meditaberis esse,			</l>
-            <l n="text.body.div.l46" met="pentameter">	Ipsum <corr n="text.body.div.l46.corr">ego</corr> te qualem sensi in amore meo.</l>
-            <l n="text.body.div.l47">
-               <corr n="text.body.div.l47.corr1">Aspice purpurei</corr> formosa rosaria <corr n="text.body.div.l47.corr2">Pesti</corr> 
+            <l n="l43">
+               <corr n="corr1">Vtere</corr> non stabili <corr n="corr2">fugiturae vere</corr> iuventae</l>
+            <l n="l44" met="pentameter">
+               <corr n="corr1">Non curans</corr> homini quid ferat hora sequens</l>
+            <l n="l45">Praecipue <corr n="corr1">aligeri fac</corr> sollicitentur amores</l>
+            <l n="l46" met="pentameter">	Arbitrio <corr n="corr1">curuant</corr> dum <corr n="corr2">sua tela</corr> tuo</l>
+            <l n="l47">Et si quando ulli talis meditaberis esse,			</l>
+            <l n="l48" met="pentameter">	Ipsum <corr n="corr1">ego</corr> te qualem sensi in amore meo.</l>
+            <l n="l49">
+               <corr n="corr1">Aspice purpurei</corr> formosa rosaria <corr n="corr2">Pesti</corr> 
             </l>
-            <l n="text.body.div.l48" met="pentameter">	Quae vix exacta languida <corr n="text.body.div.l48.corr">luce</corr> cadunt.</l>
+            <l n="l50" met="pentameter">	Quae vix exacta languida <corr n="corr1">luce</corr> cadunt.</l>
          </div>
       
       </body>

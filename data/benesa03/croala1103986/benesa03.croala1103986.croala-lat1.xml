@@ -93,6 +93,23 @@
           <tagUsage gi="titleStmt" occurs="1"/>
         </namespace>
       </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -158,23 +175,23 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:benesa03.croala1103986.croala-lat1:" xml:lang="lat" type="prosa">
-      <body n="text.body">
-         <pb n="text.body.pb"/>
-         <div n="text.body.div" type="prosa-epistula">
-            <opener n="text.body.div.opener">Serenissimo ac potentissimo principi Ioanni, electo regi
-                  <placeName n="text.body.div.opener.placeName1">Hungariae</placeName>, <placeName n="text.body.div.opener.placeName2">Dalmatiae</placeName>,
-                  <placeName n="text.body.div.opener.placeName3">Croatiae</placeName>
-               <abbr n="text.body.div.opener.abbr">etc.</abbr> post humilem seruitiorum suorum commendationem <persName n="text.body.div.opener.persName">Petrus
+      <body n="body1">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-epistula">
+            <opener n="opener1">Serenissimo ac potentissimo principi Ioanni, electo regi
+                  <placeName n="placeName1">Hungariae</placeName>, <placeName n="placeName2">Dalmatiae</placeName>,
+                  <placeName n="placeName3">Croatiae</placeName>
+               <abbr n="abbr4">etc.</abbr> post humilem seruitiorum suorum commendationem <persName n="persName5">Petrus
                   Benessa</persName> salutem plurimam dicit. </opener>
-            <p n="text.body.div.p1">Quom ualde semper optassem, serenissime ac potentissime rex, aliqua bene nauata opera
+            <p n="p2">Quom ualde semper optassem, serenissime ac potentissime rex, aliqua bene nauata opera
                gratiam Tuae Maiestatis summam inire, multum diuque mecum cogitaui, quanam potissimum
                re maximum meum in Tuam Maiestatem studium, mirificumque amorem ac prope incredibilem
                declararem. Quom uero multa animo agitassem, multa undique circumspexissem, uoti
                magis et foelicitatis quam mearum uirium uel fortunae esse uidebam, ut me in
                amicitiam tuam insinuarem. </p>
-            <p n="text.body.div.p2">Sed accidit tempus optatum magis quam speratum, ut uoti mei aliqua ex parte compos
-               fieri sperarem. Nam quom superiori anno <persName n="text.body.div.p2.persName">Franciscus Forgacius</persName>
-               <placeName n="text.body.div.p2.placeName1">Rhacusium</placeName> ad me domum uenisset, uir summa grauitate, multa
+            <p n="p3">Sed accidit tempus optatum magis quam speratum, ut uoti mei aliqua ex parte compos
+               fieri sperarem. Nam quom superiori anno <persName n="persName1">Franciscus Forgacius</persName>
+               <placeName n="placeName2">Rhacusium</placeName> ad me domum uenisset, uir summa grauitate, multa
                magnarum artium et illustrium scientia ac sapientia ornatissimus, et rerum
                plurimarum, sed pręcipue Hungaricarum, usu peritissimus, Tuae uero Maiestatis ita
                perstudiosus, Dignitatisque percupidus, ut ex eo animum mihi tuum percipere liceret,
@@ -184,41 +201,41 @@
                iucunde narrare solebat; me uero, uere quasi scienter addentem, admirans
                interrogauit, unde in regione tam remota ea sumerem. Tum ego illi auctorem certum ac
                fidei plenum, tamquam testem rerum Hungaricarum praeclare gestarum locupletissimum ac
-               grauissimum citaui. Cuius <ref n="text.body.div.p2.ref1">
-                  <persName n="text.body.div.p2.ref1.persName">Franciscus</persName>
+               grauissimum citaui. Cuius <ref n="ref3">
+                  <persName n="persName1">Franciscus</persName>
                </ref> miro uidendi
                desiderio accensus maiori studio a me contendere coepit, ut illum sibi ostenderem,
                ostensum uero perlectum atque probatum affirmauit auctorem talem, qualem splendida
                atque eruditissima ingenia probarent, et quali optimus quisque delectari posset,
-               perindignum esse iacere in tenebris, qui rebus in <placeName n="text.body.div.p2.placeName2">Hungaria</placeName>
-               fortiter, magnifice et splendide post obitum <ref n="text.body.div.p2.ref2">
-                  <persName n="text.body.div.p2.ref2.persName">Matthiae</persName>
-                  regis</ref> gestis ueritatis luce dignissimus gratum, iucundumque <del n="text.body.div.p2.del" resp="#VR">in</del> sempiternae memoriae lumen possit et debeat afferre.</p>
+               perindignum esse iacere in tenebris, qui rebus in <placeName n="placeName4">Hungaria</placeName>
+               fortiter, magnifice et splendide post obitum <ref n="ref5">
+                  <persName n="persName1">Matthiae</persName>
+                  regis</ref> gestis ueritatis luce dignissimus gratum, iucundumque <del n="del6" resp="#VR">in</del> sempiternae memoriae lumen possit et debeat afferre.</p>
 
-            <p n="text.body.div.p3">Quamobrem confirmans, si haec historia Tuae Maiestati mittatur, id illi et sibi
+            <p n="p4">Quamobrem confirmans, si haec historia Tuae Maiestati mittatur, id illi et sibi
                gratum fore, animum meum iam diu, ut mitterem, accensum ea oratione tanta cupiditate
                inflammauit, ut nihil libentius facere mihi contigerit unquam. Quapropter eum librum
-               ipsius auctoris manu conscriptum describendum curaui, <pb n="text.body.div.p3.pb"/> cuius exemplum
+               ipsius auctoris manu conscriptum describendum curaui, <pb n="pb1"/> cuius exemplum
                quam emendatissimum Tuae Maiestati mitto atque dedico, eam orans, ut eo animo et ea
                fronte munusculum accipiat, qua aliis maxima donare solet, et ut ei summam
                perpetuamque foelicitatem precor, sic me meaque omnia ei commendatissima cupio, trado
                atque commendo, et ut in ea amanda nemini concedo, sic me in numerum suorum
                carissimorum recipiat, etiam atque etiam rogo.</p>
 
-            <p n="text.body.div.p4">Quod mihi Tua Maiestas imposuit, ut hominibus tuis huc profectis et
-                  <placeName n="text.body.div.p4.placeName">Rhacusium</placeName> diuertentibus, quibuscumque possim rebus
+            <p n="p5">Quod mihi Tua Maiestas imposuit, ut hominibus tuis huc profectis et
+                  <placeName n="placeName1">Rhacusium</placeName> diuertentibus, quibuscumque possim rebus
                accommodem, ut talia onera et tam iucunda mihi semper imponat, oro. Omnia quidem
                certe, quę in tuis rebus agam, non laboriosa mihi, et honesta uidebuntur. Quamobrem
                crebritate officiorum, studio et diligentia efficiam profecto, ut
-                  <persName n="text.body.div.p4.persName">Hungaris</persName>, quos meo semper nomine dilexi plurimum, et ex tuis
+                  <persName n="persName2">Hungaris</persName>, quos meo semper nomine dilexi plurimum, et ex tuis
                familiaribus praecipue, quibus propter Maiestatem Tuam arctissimo amoris uinculo
                obstrictus sum atque deuinctus, pro meae fortunae facultate satisfaciam, praecipuam
                gratiam Maiestatis Tuae quaerens atque expectans, quam in perpetuum foelicissimam
                cupio.</p>
 
-            <closer n="text.body.div.closer">
-               <dateline n="text.body.div.closer.dateline">Datum <placeName n="text.body.div.closer.dateline.placeName">Rhacusii</placeName>
-                  <date n="text.body.div.closer.dateline.date" when="1570-02-25">quinto Kal. Martii, anno Salutis 1570.</date>
+            <closer n="closer6">
+               <dateline n="dateline1">Datum <placeName n="placeName1">Rhacusii</placeName>
+                  <date n="date2" when="1570-02-25">quinto Kal. Martii, anno Salutis 1570.</date>
                </dateline>
             </closer>
          </div>
