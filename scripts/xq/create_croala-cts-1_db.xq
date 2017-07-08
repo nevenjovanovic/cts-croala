@@ -1,0 +1,2 @@
+let $path := replace(file:parent(static-base-uri()), '/scripts/xq/', '/data') 
+return db:create("croala-cts-1", $path, (), map { 'chop': false(), 'ftindex': true(), 'intparse' : true(), 'updindex': true() , 'autooptimize' : true() })
