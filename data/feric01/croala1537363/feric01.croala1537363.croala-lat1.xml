@@ -65,6 +65,35 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8']/*[@n='$9'])">
+                    <p>This pointer pattern extracts @n value of segment.</p>
+                </cRefPattern>
+                <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
+                    <p>This pointer pattern extracts @n value of segment.</p>
+                </cRefPattern>
+                <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+                    <p>This pointer pattern extracts @n value of segment.</p>
+                </cRefPattern>
+                <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+                    <p>This pointer pattern extracts @n value of segment.</p>
+                </cRefPattern>
+                <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+                    <p>This pointer pattern extracts @n value of segment.</p>
+                </cRefPattern>
+                <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+                    <p>This pointer pattern extracts @n value of segment.</p>
+                </cRefPattern>
+                <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+                    <p>This pointer pattern extracts @n value of segment.</p>
+                </cRefPattern>
+                <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+                    <p>This pointer pattern extracts @n value of segment.</p>
+                </cRefPattern>
+                <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+                    <p>This pointer pattern extracts @n value of segment.</p>
+                </cRefPattern>
+            </refsDecl>
         <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -145,8 +174,8 @@
 
 
     </teiHeader>
-    <text xml:base="urn:cts:croala:feric01.croala1537363.croala-lat1:" xml:lang="lat">
-        <body n="body1">
+    <text xml:base="urn:cts:croala:feric01.croala1537363.croala-lat1" xml:lang="lat">
+        <body xml:lang="lat" n="body1">
             <div n="div1" type="poesis-liber" xml:id="F1">
                 <head n="head1">FABULARUM LIBER PRIMUS</head>
                 <div n="div2" type="poesis-fabula" xml:lang="lat" xml:id="F1-0">
