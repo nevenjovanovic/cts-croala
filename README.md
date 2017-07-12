@@ -1,6 +1,10 @@
 # CroALa, a CTS edition
 
-Make Neo-Latin texts from [CroALa](http://croala.ffzg.unizg.hr) conformant to the requirements of the [CITE Architecture](http://cite-architecture.github.io/) and the [CapiTainS guidelines](http://capitains.github.io/pages/guidelines).
+Current release: [![DOI](https://zenodo.org/badge/69696146.svg)](https://zenodo.org/badge/latestdoi/69696146)
+
+Current build status: [![Build Status](https://travis-ci.org/nevenjovanovic/cts-croala.svg?branch=master)](https://travis-ci.org/nevenjovanovic/cts-croala)
+
+Neo-Latin texts from [CroALa](http://croala.ffzg.unizg.hr) made conformant to the requirements of the [CITE Architecture](http://cite-architecture.github.io/) and the [CapiTainS guidelines](http://capitains.github.io/pages/guidelines).
 
 
 ## The team
