@@ -4,7 +4,7 @@ declare namespace ti = "http://chs.harvard.edu/xmlns/cts";
 
 (: tokenize a CroALa CTS URN on colons :)
 declare function cts:tokenize-cts($cts) {
-  tokenize(substring-after($cts, "http://croala.ffzg.unizg.hr/basex/cts/"), ":")
+  tokenize($cts, ":")
 };
 
 (: tokenize / break down an edition name on dots :)
