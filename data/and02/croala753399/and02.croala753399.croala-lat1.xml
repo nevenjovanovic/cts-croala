@@ -46,12 +46,6 @@
             <!-- CTS for a single letter in document -->
             <!-- what about opener, closer, postscript? experimental solution here -->
             <refsDecl n="CTS">
-                <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='$1'])" n="line">
-                    <p>This pointer pattern extracts paragraph</p>
-                </cRefPattern>
-            </refsDecl>
-        
-    <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8']/*[@n='$9'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
@@ -80,6 +74,8 @@
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
+        
+    
     </encodingDesc>
         <profileDesc xml:id="andreisbonzagno15290215">
          <abstract>

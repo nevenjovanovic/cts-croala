@@ -65,12 +65,6 @@
      <encodingDesc>
         <!-- CTS for a single poem in document -->
         <refsDecl n="CTS">
-           <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
-              <p>This pointer pattern extracts line</p>
-           </cRefPattern>
-        </refsDecl>
-     
-    <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
@@ -84,6 +78,8 @@
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
+     
+    
     </encodingDesc>
      <profileDesc>
          <abstract>
