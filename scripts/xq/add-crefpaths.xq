@@ -2,7 +2,7 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace functx = "http://www.functx.com";
 declare function functx:path-to-node
   ( $nodes ) {
-$nodes/string-join(ancestor-or-self::*[not(name()="TEI" or name()="text")]/name(.), "/tei:")
+$nodes/string-join(ancestor-or-self::*[@n]/name(.), "/tei:")
  } ;
 
 (: create matchpattern based on number of elements below TEI/text (this number of nodes is passed as $count) :)
@@ -67,6 +67,6 @@ let $node := element refsDecl {
     for $ppaths in distinct-values ( local:getdistinctpaths($filename) )
     return local:makecref($ppaths)
   }
-return insert node $node into $f//tei:encodingDesc
+return replace node $f//tei:encodingDesc/*:refsDecl with $node
 (: expression for testing :)
 (: return $node :)

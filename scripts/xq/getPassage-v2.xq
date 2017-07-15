@@ -27,6 +27,6 @@ declare function local:getpassage($ctsurn) {
   return xquery:eval($path , map { "" : db:open("croala-cts-1", $edition) } )
 };
 
-let $cts := "http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:crije02.croala292491.croala-lat1:body1.div1.div1.l7"
+let $cts := "http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:baric01.croala1506566.croala-lat1:group1.body1.div1.head1.add1"
 let $edition := "crije02.croala292491.croala-lat1"
 return local:getpassage($cts)
