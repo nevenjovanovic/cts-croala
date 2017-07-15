@@ -41,52 +41,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="3"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="4"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="5" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="38"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -143,18 +98,18 @@
   <text xml:base="urn:cts:croala:pima01.croala893646.croala-lat1:" xml:lang="lat">
       <body xml:lang="lat" n="body1">
          <pb n="pb1"/>
-         <div n="div2" type="poesis-epigramma" met="elegiacum">
+         <div n="div1" type="poesis-epigramma" met="elegiacum">
             <head n="head1">Bernardi Pimae Delmatae Tetrastichon
                in laudem Domici Palladii Sorani.</head>
             
             
-            <l n="l2">Phoebus ab Eois non hic tibi nascitur oris;</l>
+            <l n="l1">Phoebus ab Eois non hic tibi nascitur oris;</l>
              
-            <l n="l3" met="pentameter">Non Cyrrha, hunc potuit gignere Sora sibi.</l>
+            <l n="l2" met="pentameter">Non Cyrrha, hunc potuit gignere Sora sibi.</l>
              
-            <l n="l4">Sora sibi genuit, totus nunc possidet orbis:</l>
+            <l n="l3">Sora sibi genuit, totus nunc possidet orbis:</l>
              
-            <l n="l5" met="pentameter">Orta est in tenui lucida gemma solo.</l>
+            <l n="l4" met="pentameter">Orta est in tenui lucida gemma solo.</l>
              
          </div>
       </body>

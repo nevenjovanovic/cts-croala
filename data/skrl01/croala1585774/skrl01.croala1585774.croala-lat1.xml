@@ -47,64 +47,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="addrLine" occurs="1"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="6"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -198,35 +141,35 @@
    <text xml:base="urn:cts:croala:skrl01.croala1585774.croala-lat1:" xml:lang="lat" type="epistula">
       <front xml:lang="lat" n="front1">
          <head n="head1">1. <placeName n="placeName1">Jakovlye</placeName>, 
-    <date n="date2">28. Maii 1793.</date>
+    <date n="date1">28. Maii 1793.</date>
          </head>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistula">
             <opener n="opener1">
                <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="p2"> Tuis de 5-ta huius Pesthino exaratis et mihi 12-ma redditis non respondi
+            <p n="p1"> Tuis de 5-ta huius Pesthino exaratis et mihi 12-ma redditis non respondi
     quia metuebam ne meae te Pesthini amplius non deprehendant.  Nunc cum e
     combinatione temporis te iam Viennae esse certo credam hisce respondeo.</p>
-            <p n="p3"> Gaudeo vehementer quod tempus reditus tui iam appropinquet.
+            <p n="p2"> Gaudeo vehementer quod tempus reditus tui iam appropinquet.
      Vix iam fero desiderium momenti illius quo te amplecti et aliquot horis
     amice tecum confabulari possim.  Interea utere occasione ad delendam, si quae
     forte tibi apud Principem per calumniatores tuos inusta est, maculam.  Si hoc
     obtinuisti, excidet animo meo ea aegritudo quam eo nomine, qua sincerus tuus amicus,
     contraxeram.  Reliqua omnia plana tibi erunt.</p>
-            <p n="p4"> Ex hac occasione quaeso te, amice, ut mihi mediam libram optimae, quae
+            <p n="p3"> Ex hac occasione quaeso te, amice, ut mihi mediam libram optimae, quae
     haberi potest, chinae, sed non in pulvere, verum in cortice, ita etiam unum vitrellum
     <foreign n="foreign1" xml:lang="de">Von Hoffmanischen Tropfen</foreign> adferas.  Commendavit mihi
     frequentiorem horum usum Hormayer.  Pretium tibi reduci cum gratitudine
     deponam.  De aliis rebus coram. </p>
-            <closer n="closer5">
+            <closer n="closer1">
                <salute n="salute1"> Interea vale meque ut
     facis ama.</salute>
-               <dateline n="dateline2">
-                  <placeName n="placeName1">Jakovlye</placeName>, <date n="date2">28. Maii 1793.</date>
+               <dateline n="dateline1">
+                  <placeName n="placeName1">Jakovlye</placeName>, <date n="date1">28. Maii 1793.</date>
                </dateline>
-               <address n="address3">
+               <address n="address1">
                   <addrLine n="addrLine1">
                      <note n="note1">
                         <add n="add1">a tergo</add>
@@ -241,11 +184,11 @@
    
    
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="notes">
             <p n="p1">(<bibl n="bibl1">NAZ, EAE vol. 112, br. 137.</bibl>)</p>
          </div>
       </back>
-      <pb xml:lang="lat" n="pb4"/>
+      <pb xml:lang="lat" n="pb1"/>
    </text>
 </TEI>

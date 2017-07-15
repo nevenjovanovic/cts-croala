@@ -39,60 +39,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="choice" occurs="4"/>
-          <tagUsage gi="corr" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="div" occurs="5"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="5"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="34"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="5"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="orig" occurs="3"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="reg" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="2"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -163,32 +110,32 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="poesis-epigramma" met="elegiacum">
             <head n="head1">1. PETRUS HECTOREUS MICHAELI AEMILIO PRAEDICTO<note n="note1">t. j. Mikši Pelegrinoviću</note> CUM IDEM AEMILIUS AD BAPTISMUM SUAE FILIAE IPSUM PRO COMPATRE VOCAVISSET.</head> 
-            <note n="note2">
+            <note n="note1">
                <date n="date1" notBefore="1558">1558</date>
             </note>
-            <l n="l3">Compater excellens, salve, mihi dulcior illo</l> 
-            <l n="l4" met="pentameter">
+            <l n="l1">Compater excellens, salve, mihi dulcior illo</l> 
+            <l n="l2" met="pentameter">
                <choice n="choice1">
                   <reg n="reg1">melle</reg>
-                  <sic n="sic2">mele</sic>
+                  <sic n="sic1">mele</sic>
                </choice>, quod in caeris laeta recondit apis.</l> 
-            <l n="l5">Filia, maternos mores imitata tuosque</l> 
-            <l n="l6" met="pentameter">vivat, foelicem mox aditura virum.</l> 
-            <l n="l7">Livia Nestoreos tecum tua transeat annos</l>
-            <l n="l8" met="pentameter">conjux, quae tali conjuge digna fuit.</l> 
+            <l n="l3">Filia, maternos mores imitata tuosque</l> 
+            <l n="l4" met="pentameter">vivat, foelicem mox aditura virum.</l> 
+            <l n="l5">Livia Nestoreos tecum tua transeat annos</l>
+            <l n="l6" met="pentameter">conjux, quae tali conjuge digna fuit.</l> 
          </div> 
          <div n="div2" type="poesis-epigramma" met="elegiacum">
             <head n="head1">2. <choice n="choice1">
                   <corr n="corr1">EPITAPHIUM</corr> 
-                  <orig n="orig2">EPITHAPHIUM</orig>
+                  <orig n="orig1">EPITHAPHIUM</orig>
                </choice> IN TUMULO SCULPTUM PETRI HECTOREI MATRIS.</head> 
-            <note n="note2">
+            <note n="note1">
                <date n="date1" notBefore="1556">1556</date>
             </note>
-            <l n="l3">Hectoreae, Catarina, domus probitatis imago,</l> 
-            <l n="l4" met="pentameter">hic jacet, o quantum tam brevis urna tenet!</l> 
-            <l n="l5">Cujus ab exemplo connectes undique lector,</l> 
-            <l n="l6" met="pentameter">quam memorem Famam, qui bene vixit, habet.</l> 
+            <l n="l1">Hectoreae, Catarina, domus probitatis imago,</l> 
+            <l n="l2" met="pentameter">hic jacet, o quantum tam brevis urna tenet!</l> 
+            <l n="l3">Cujus ab exemplo connectes undique lector,</l> 
+            <l n="l4" met="pentameter">quam memorem Famam, qui bene vixit, habet.</l> 
   
          </div> 
          <div n="div3" type="poesis-epigramma" met="elegiacum">
@@ -197,57 +144,57 @@
   
             <head n="head1">3. RESPONSUM PETRI HECTOREI <choice n="choice1">
                   <corr n="corr1">EPISTOLAE</corr> 
-                  <orig n="orig2">AEPISTOLAE</orig>
+                  <orig n="orig1">AEPISTOLAE</orig>
                </choice> HIERONIMI BERTUCII, QUI AB EO SCIRE CUPIEBAT, QUA SIT AD SUPEROS ITER.</head> 
-            <note n="note2">
+            <note n="note1">
                <date n="date1" notBefore="1552" notAfter="1557" precision="medium">1552-1557</date>
             </note>
-            <l n="l3">Ad superos, si scire cupis, virtutis alumne,</l> 
-            <l n="l4" met="pentameter">corporis exuto pondere qua sit iter;</l> 
-            <l n="l5">hortulus ostendet noster, breve namque, quod optas,</l> 
-            <l n="l6" met="pentameter">in gelido sculptum limine carmen habet.</l> 
+            <l n="l1">Ad superos, si scire cupis, virtutis alumne,</l> 
+            <l n="l2" met="pentameter">corporis exuto pondere qua sit iter;</l> 
+            <l n="l3">hortulus ostendet noster, breve namque, quod optas,</l> 
+            <l n="l4" met="pentameter">in gelido sculptum limine carmen habet.</l> 
   
-            <milestone unit="page" n="milestone7"/>
+            <milestone unit="page" n="milestone1"/>
   
          </div> 
          <div n="div4" type="poesis-epigramma" met="elegiacum">
   
             <head n="head1">4. PETRI HECTOREI PHARENSIS CARMEN DE <choice n="choice1">
                   <corr n="corr1">LY(A)EO</corr> 
-                  <orig n="orig2">LYEO</orig>
+                  <orig n="orig1">LYEO</orig>
                </choice>. </head>
   
-            <l n="l2">Viderat Augusto proles Semeleia mense</l> 
-            <l n="l3" met="pentameter">fervere spumosis dulcia musta cadis;</l> 
-            <l n="l4">exardensque, sitim cupiens sedare per aestus,</l> 
-            <l n="l5" met="pentameter">depromsit rapida fervida vina manu.</l> 
-            <l n="l6">Nec satis est potasse semel cratere liquorem.</l>
-            <l n="l7" met="pentameter">pleno tam gratum, stat renovare vices.</l> 
-            <l n="l8">Protinus ardentes flagrans rubor occupat artus,</l> 
-            <l n="l9" met="pentameter">erubuere genae, blaesaque lingua fuit</l> 
-            <l n="l10">O quam dulce meum dixit, dixisse potantem</l> 
-            <l n="l11" met="pentameter">dulce merum, risit rustica turba deum.</l>
-            <l n="l12">
+            <l n="l1">Viderat Augusto proles Semeleia mense</l> 
+            <l n="l2" met="pentameter">fervere spumosis dulcia musta cadis;</l> 
+            <l n="l3">exardensque, sitim cupiens sedare per aestus,</l> 
+            <l n="l4" met="pentameter">depromsit rapida fervida vina manu.</l> 
+            <l n="l5">Nec satis est potasse semel cratere liquorem.</l>
+            <l n="l6" met="pentameter">pleno tam gratum, stat renovare vices.</l> 
+            <l n="l7">Protinus ardentes flagrans rubor occupat artus,</l> 
+            <l n="l8" met="pentameter">erubuere genae, blaesaque lingua fuit</l> 
+            <l n="l9">O quam dulce meum dixit, dixisse potantem</l> 
+            <l n="l10" met="pentameter">dulce merum, risit rustica turba deum.</l>
+            <l n="l11">
                <sic n="sic1">Procabuit</sic>, sertumque cadit, tenuantur ocelli,</l> 
-            <l n="l13" met="pentameter">ructantis premit hinc turgida membra sopor.</l> 
-            <l n="l14">Turpiter obscaena detectus parte jacebat,</l> 
-            <l n="l15" met="pentameter">fabula ruricolae ludibriumque choro.</l> 
-            <l n="l16">Transiliant nimii mortales munera Bacchi;</l>
-            <l n="l17" met="pentameter">talia cum laedant pocula sumpta deos.</l> 
+            <l n="l12" met="pentameter">ructantis premit hinc turgida membra sopor.</l> 
+            <l n="l13">Turpiter obscaena detectus parte jacebat,</l> 
+            <l n="l14" met="pentameter">fabula ruricolae ludibriumque choro.</l> 
+            <l n="l15">Transiliant nimii mortales munera Bacchi;</l>
+            <l n="l16" met="pentameter">talia cum laedant pocula sumpta deos.</l> 
   
          </div> 
          <div n="div5" type="poesis-epigramma" met="elegiacum">
   
             <head n="head1">5. EXIMIO ARTIUM ET MEDICINAE <abbr n="abbr1">DOCT.</abbr> VINCENTIO VANETTO.</head> 
-            <note n="note2">
+            <note n="note1">
                <date n="date1" when="1561" precision="medium">1561</date>
             </note>
-            <l n="l3">Vincenti, clarum nomen cognomine vincens,</l> 
-            <l n="l4" met="pentameter">et patrios superans nobilitate Lares;</l> 
-            <l n="l5">cernis, quanta tuae virtutis signa dedisti:</l> 
-            <l n="l6" met="pentameter">te vult nostra Pharus, te cupit Aspalatum.</l> 
+            <l n="l1">Vincenti, clarum nomen cognomine vincens,</l> 
+            <l n="l2" met="pentameter">et patrios superans nobilitate Lares;</l> 
+            <l n="l3">cernis, quanta tuae virtutis signa dedisti:</l> 
+            <l n="l4" met="pentameter">te vult nostra Pharus, te cupit Aspalatum.</l> 
   
-            <signed n="signed7">Petrus Hectoreus.</signed>
+            <signed n="signed1">Petrus Hectoreus.</signed>
          </div>  
       </body>
    </text>

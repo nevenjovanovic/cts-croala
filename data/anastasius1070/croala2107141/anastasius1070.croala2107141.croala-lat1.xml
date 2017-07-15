@@ -52,56 +52,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="supplied" occurs="2"/>
-          <tagUsage gi="tagUsage" occurs="42"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -165,18 +116,18 @@
         <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-donatio">
             <opener n="opener1">† Anno dominice incarnationis millessimo septuagesimo, indictione VIIII. Augusto regnante Romano tertio, tempore Cresimiri regis Chroatorum et Dalmatinorum.</opener>
-            <p n="p2"> 
+            <p n="p1"> 
         
         Ego Radouan, nepos Lilici, trado omnem possessionem meam, que fuit predicti aui mei in loco, qui dicitur Suchouara, beato martiri Grisogono presente eiusdem monasterii Petro abbate. Que possessio his manifestis indiciis declaratur: a lacu ex septemtrionali plaga protendendo in directum uersus boream ad riuum, et ab isto loco eundo ad australem partem ad terminos predii de Dubio cum suis circumadiacentiis pascuis. Sed, quia resistebat mihi Uekemir, Luce iupanus, cum Boleslauo tepcii et hoc donum, quod sancto martiri intuitu dei et pro remedio meorum predecessorum animarum feceram, contradicebat et ad nichilum deuenire satagebat dicens ipsam terram a rege predicto sibi esse concessam. Ob quam igitur contencionem die sancto Pasce studui adesse ante presentiam predicti regis, ubi non modica turba nobilium tam Chroatorum quam Dalmatinorum adherat. <corr n="corr1" resp="NJ">Tunc</corr> 
-               <supplied n="supplied2">coram</supplied> omnibus interrogaui satis diligenter dominum meum regem, si tantillam hereditatem meam illis iupanis habere concessisset. Qui in facie omnium id se minime egisse respondit atque mei misertus largitus est michi legatum suum nomine Apricium socolarem, qui regia fretus auctoritate michi et meam terram ab illis defendens redderet ac meam donationem publice coram uicinis in loco supradicto, hoc est in monasterio sancti martiris Grisogoni, confirmaret et sigilli proprii munimine roboraret. <corr n="corr3" resp="NJ">Quod</corr> diuine misericordie instinctu factum est. Nam predictus Apricius una mecum ad predictum locum uidelicet Suchouara ueniens coram omnibus ibidem manentibus nec non coram aduenientibus subscriptis testibus terram iniuste querentibus interdixit et, sicut illam domui dei largitus fueram, una mecum regali institutione iterum tradidit et <supplied n="supplied4">confirmauit</supplied>. Unde ego predictus Radouan regia potitus iustitia rogo et contestor omnes Christi fideles per patrem et Iesum Christum, filium eius, nec non et spiritum sanctum ab utroque procedente, ut hec omnia inuiolabiliter conseruent. Si quis autem hanc meam oblationem qualibet cupiditate deceptus quocunque ingenio aliquo tempore a domo dei auferre temptauerit, superni numinis iram incurrat sortemque possideat cum his, qui dixerunt domino deo: <q n="q5">recede a nobis</q>, nec ut iudicetur, set ut perpetuo dampnetur, resurgat. 
+               <supplied n="supplied1">coram</supplied> omnibus interrogaui satis diligenter dominum meum regem, si tantillam hereditatem meam illis iupanis habere concessisset. Qui in facie omnium id se minime egisse respondit atque mei misertus largitus est michi legatum suum nomine Apricium socolarem, qui regia fretus auctoritate michi et meam terram ab illis defendens redderet ac meam donationem publice coram uicinis in loco supradicto, hoc est in monasterio sancti martiris Grisogoni, confirmaret et sigilli proprii munimine roboraret. <corr n="corr2" resp="NJ">Quod</corr> diuine misericordie instinctu factum est. Nam predictus Apricius una mecum ad predictum locum uidelicet Suchouara ueniens coram omnibus ibidem manentibus nec non coram aduenientibus subscriptis testibus terram iniuste querentibus interdixit et, sicut illam domui dei largitus fueram, una mecum regali institutione iterum tradidit et <supplied n="supplied2">confirmauit</supplied>. Unde ego predictus Radouan regia potitus iustitia rogo et contestor omnes Christi fideles per patrem et Iesum Christum, filium eius, nec non et spiritum sanctum ab utroque procedente, ut hec omnia inuiolabiliter conseruent. Si quis autem hanc meam oblationem qualibet cupiditate deceptus quocunque ingenio aliquo tempore a domo dei auferre temptauerit, superni numinis iram incurrat sortemque possideat cum his, qui dixerunt domino deo: <q n="q1">recede a nobis</q>, nec ut iudicetur, set ut perpetuo dampnetur, resurgat. 
     </p>
-            <p n="p3">
+            <p n="p2">
         Cui donationi et facto interfuerunt hi testes: Desinna, Nonensis iupanus, testis, Cerminicus Breberschico testis, Uocinna Zatinscico testis, Dalizo Poliscico testis, Cosma Luscico testis, Mutimir Sidrascico testis, Saracino sitinico testis, Iacobico Castobriscico testis, Bolano tepciza testis, Iohannes dat testis, Iohannes capellanus testis, Budicio postelnico testis, Desimir Smulie filius testis, Tolimir psar testis, Vitomir duornic. Hii omnes testes fuerunt coram rege. Suchouare uero: Tribigoi grascik. Croatin, Zelodrag, Dragouit, Dobrogoi, Negouan.
         
          
         
          </p>
-            <closer n="closer4">
+            <closer n="closer1">
                <signed n="signed1">† Ego Anastasius, Chroatensis episcopus et aule regie cancellarius, hanc donacionis cartulam rogatu predicti Radouani et ex mandato domini mei regis intus in ciuitate Nona scripsi et confirmaui. Feliciter.</signed>
             </closer>
          </div>

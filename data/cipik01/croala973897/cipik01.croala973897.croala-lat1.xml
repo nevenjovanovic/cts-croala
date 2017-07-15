@@ -37,52 +37,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="3"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="g" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pc" occurs="3"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="38"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -147,12 +102,12 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-inscriptio">
             <p n="p1">
-               <g n="g1">ϯ</g> CORIOLANVS CEPIO <pc n="pc2">•</pc> 
-               <expan n="expan3">Petri</expan> 
-               <pc n="pc4">•</pc> 
-               <expan n="expan5">Filius</expan> 
-               <pc n="pc6">•</pc> VILLAM INCENDIO CONFLAGRATAM SENATVS VENETI BENIGNITATE ET <expan n="expan7">Sua Pecunia</expan> MELIORI IN STATV RESTITVIT
-        <date n="date8" when="1492">
+               <g n="g1">ϯ</g> CORIOLANVS CEPIO <pc n="pc1">•</pc> 
+               <expan n="expan1">Petri</expan> 
+               <pc n="pc2">•</pc> 
+               <expan n="expan2">Filius</expan> 
+               <pc n="pc3">•</pc> VILLAM INCENDIO CONFLAGRATAM SENATVS VENETI BENIGNITATE ET <expan n="expan3">Sua Pecunia</expan> MELIORI IN STATV RESTITVIT
+        <date n="date1" when="1492">
                   <num n="num1" value="1492">MCCCCLXXXXII</num>
                </date>
             </p>

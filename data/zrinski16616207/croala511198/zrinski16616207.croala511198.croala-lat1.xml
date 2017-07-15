@@ -40,61 +40,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="addrLine" occurs="1"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="app" occurs="2"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="placeName" occurs="5"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="rdg" occurs="4"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="signed" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -173,26 +119,26 @@
                   <addrLine n="addrLine1">
                      <ref n="ref1">Prudenti et circumspecto ac nobili domino <persName n="persName1">Dominico
                            Zlatariich</persName>, civi civitatis liberae Ragusiensis, amico nobis
-                        honorando</ref>. <placeName n="placeName2">Ragusii</placeName>
+                        honorando</ref>. <placeName n="placeName1">Ragusii</placeName>
                   </addrLine>
                </address>
-               <signed n="signed2">
+               <signed n="signed1">
                   <expan n="expan1">
                      <persName n="persName1">Zrinius</persName> comes</expan>.</signed>
-               <salute n="salute3">Prudens et circumspecte ac nobilis domine, amice nobis benevole et
+               <salute n="salute1">Prudens et circumspecte ac nobilis domine, amice nobis benevole et
                   honorande.</salute>
             </opener>
-            <p n="p2">Salutem plurimam et amicitiae nostrae singularem commendationem. <ref n="ref1">Anno tertio
+            <p n="p1">Salutem plurimam et amicitiae nostrae singularem commendationem. <ref n="ref1">Anno tertio
                   proxime elapso</ref> libellum quendam Dalmatico idiomate conscriptum nobisque abs
                Tua dominatione, scientia litterarum veraque virtutum nobilitate ornatissima,
                dedicatum atque missum eo quo decuit grato nimirum animo recepimus. Sed quia illo
                temporis articulo per hostes christiani nominis perpetuos fortissimum uligine
-               propugnaculum, puta <placeName n="placeName2">Canisa</placeName>, quae huic <sic n="sic3">ditioni</sic> nostrae quam
+               propugnaculum, puta <placeName n="placeName1">Canisa</placeName>, quae huic <sic n="sic1">ditioni</sic> nostrae quam
                proxime adiacet, capta est, eoque ex tempore nonnisi arma tractare licuit, libellum
-               certe relegere haud potuimus, nam, ut verissime aiunt, <persName n="persName4">Musae</persName>
+               certe relegere haud potuimus, nam, ut verissime aiunt, <persName n="persName1">Musae</persName>
                inter arma silent. Ideo gratum illud sane munus hactenus non cognitum habuimus, nunc
                vero, nacta occasione relegendi, perlustratum longe gratissimum habemus. Huic
-               accedit, quod etiam familiarem nostrum primarium, egregium videlicet <persName n="persName5">Petrum
+               accedit, quod etiam familiarem nostrum primarium, egregium videlicet <persName n="persName2">Petrum
                   Subich de <app n="app1">
                      <rdg n="rdg1">Peonia</rdg>
                      <rdg n="rdg2" wit="B">Pernia</rdg>
@@ -201,12 +147,12 @@
                humanitate eadem exceperit. His igitur de causis visum est nobis, ut Tuae dominationi
                prudentissimae hoc tuum erga nos studium cum singulari amore coniunctum nobis esse
                gratissimum hisce litteris nostris testaremur, et hac occasione ut eandem peteremus,
-               ut vicissim, si qua nova <add n="add6" resp="SK">carmina</add> habuerit, nobiscum communicare
+               ut vicissim, si qua nova <add n="add1" resp="SK">carmina</add> habuerit, nobiscum communicare
                velit, quod nos eidem maiori specimine amicitiae refundere satagemus, modo nos tuto
                requirat, si quando nostra familiaritate uti voluerit tua dominatio, quam diu et
                feliciter valere optamus.</p>
 
-            <closer n="closer3">
+            <closer n="closer1">
                <dateline n="dateline1">Datae in <ref n="ref1">arce nostra <placeName n="placeName1">
                         <app n="app1">
                            <rdg n="rdg1">Chiaktorniae</rdg>
@@ -214,8 +160,8 @@
                         </app>
                      </placeName>
                   </ref>
-                  <date n="date2">die XXVI Augusti anno MDCII</date>.</dateline>
-               <signed n="signed2">Dominationis vestrae amicus singularis <persName n="persName1">Georgius comes de
+                  <date n="date1">die XXVI Augusti anno MDCII</date>.</dateline>
+               <signed n="signed1">Dominationis vestrae amicus singularis <persName n="persName1">Georgius comes de
                      Zrijn</persName>.</signed>
             </closer>
 

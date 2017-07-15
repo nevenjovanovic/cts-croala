@@ -50,59 +50,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="2"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="45"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -188,15 +136,15 @@
                     cardinali Alessandro Farnese</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 14, f. 382–383. Copia. Editio: THEINER 1863,
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 14, f. 382–383. Copia. Editio: THEINER 1863,
                     n. DCCCCI, p. 659–660. ETE IV, n. 507, p. 531–534.</note>
 
-                <opener n="opener3">
+                <opener n="opener1">
                <note n="note1" resp="BJ">[Inscriptio:]</note> Reverendissimo in Christo patri et
                     domino, Alexando Francisco, titulato Sancti Laurentii in Damaso, Sanctae Romanae
                     Ecclesie vicecancellario, domino meo illustrissimo et observandissimo.
                     Reverendissime in Christo Pater et Domine, Domine mihi Observandissime!</opener>
-                <p n="p4">Obsequiorum meorum in benevolentiam Dominationis Vestre Reverendissime diligentem
+                <p n="p1">Obsequiorum meorum in benevolentiam Dominationis Vestre Reverendissime diligentem
                     commendationem. Frater Augustinus ex Dalmatia ordinis fratrum praedicatorum anno
                     pręterito ex urbe rediens litteras Dominationis Vestre Reverendissime Albę
                     Julie, sede episcopali regni Transilvanensis mihi reddidit, quibus – tum propter
@@ -216,7 +164,7 @@
                     profecta sit, non potest mihi non esse gratissima. Et si meam in ambiendis
                     honoribus voluntatem Dominatio Vestra Reverendissima cognosceret, non dubito,
                     quin aliter longe de me esset iudicatura. Ego enim mea conditione (quae etiam me
-                    invito a serenissimo quondam principe meo, domino Joanne rege Ungarie <abbr n="abbr3">etc.</abbr>,
+                    invito a serenissimo quondam principe meo, domino Joanne rege Ungarie <abbr n="abbr1">etc.</abbr>,
                     domino et benefactore meo clementissimo mihi delata est) ita sum contentus, ut
                     praeter hanc nihil omnino quaeram amplius. Illum vero episcopatum, de quo
                     accusor immerito, usque adeo non attigi, ut, cum administratio tantum regni mihi
@@ -224,7 +172,7 @@
                     curandum assumerem. Verum - cum post illius quondam Maiestatis obitum regnum
                     Ungarię in hanc calamitatem incidisset et regia quoque illa Budensi amissa has
                     tantum reliquias regni tenere cogeremur redditusque regni ita essent in angustum
-                    redacti, ut <milestone n="milestone4" unit="page"/> non modo ad solutionem tributi, quod
+                    redacti, ut <milestone n="milestone1" unit="page"/> non modo ad solutionem tributi, quod
                     singulis annis imperatori Turcarum pendimus, sed ne ad sustentationem quidem
                     Reginalis Maiestatis eiusque illustrissimi filii pro dignitate istarum
                     Maiestatum satis esse viderentur – pro illa fidei constantia, quam subditi etiam
@@ -267,7 +215,7 @@
                     autem episcopatum huius regni cum a Sanctissimo Domino Nostro per reverendum
                     dominum Hieronimum Rorarium, illius Sanctae Sedis Apostolicae fidelem nuntium
                     considerata tanta regni huius calamitate nobis episcopis, qui in hisce
-                    regionibus sumus, sine ulla solucione paternum in nos animum Eius <milestone n="milestone5" unit="page"/> Sanctitas in hoc ostensura, gratis semel oblata esset, causam,
+                    regionibus sumus, sine ulla solucione paternum in nos animum Eius <milestone n="milestone2" unit="page"/> Sanctitas in hoc ostensura, gratis semel oblata esset, causam,
                     quominus littere ipse per nuntium nobis reddite sint, scire non potui. Ut igitur
                     et pro confimatione episcopatus mei Varadiensis litteras necessarias Dominatio
                     Vestra Reverendissima ab ipso Sanctissimo Domino Nostro impetrare velit,
@@ -275,7 +223,7 @@
                     Dominationi Vestre Reverendissime meo nomine dicturus est, cuius verbis ut
                     Dominatio Vestra Reverendissima fidem adhibere velit, ipsam diligentissime
                     rogo.</p>
-                <closer n="closer5">Deus pater domini nostri Jesu Christi Dominationem Vestram Reverendissimam
+                <closer n="closer1">Deus pater domini nostri Jesu Christi Dominationem Vestram Reverendissimam
                     sanam et incolumem conservet. Varadini, septima die mensis Februarii, anno
                     Domini MDXLVII. Eiusdem Dominationis Vestrae Reverendissimae deditissimus
                     servitor Frater Georgius episcopus Varadiensis</closer>

@@ -50,61 +50,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="22"/>
-          <tagUsage gi="country" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="del" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="5"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="8"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="6" withId="1"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="5"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="6"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="unclear" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -177,17 +123,17 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistula">
             <pb n="pb1" facs="http://daten.digitale-sammlungen.de/bsb00069363/image_75"/>
-            <opener n="opener2">Doctrina rebusque gerendis ornatissimo uiro <expan n="expan1">Baptistae Bauiloquae</expan> Georgius de Georgiis <expan n="expan2">plurimam</expan> salutem dicit.</opener> 
-            <p n="p3">Quod litteris tuis, quas <corr n="corr1">Tauri</corr> fines <corr n="corr2">Apolline</corr> lustrante recepi, uicem non reddiderim, causam praebuit diuinis naturalibusque artibus uir celeberrimus artis generalis <corr n="corr3">acutissimus</corr> perspicacissimusque magister Alfonsus, ab extremo Galliciae occidentali, qui numerosis orationibus suis aures mentemque meam, <corr n="corr4">immo</corr> totum me ita detinuit quod ab hoc <corr n="corr5">amicissimo</corr> et <sic n="sic6">delectabilissimo</sic> officio et ab omnibus aliis paene retraxit. Is enim eruditissimus artista, Hispaniae non contentus finibus, per Italas urbes omnium scientiarum <sic n="sic7">festissimas</sic> diuae recordationis uiri prestantissimi Raymundi <del n="del8" resp="#NJ">et</del> de insula Maioricarum caelitus infusae scientiae documenta seminare desiderat; dumque hanc artem multis praelatis, religiosis uiris, doctoribus et scientificis in celebri studio Paduano limpidissime legisset, ad hunc maris Adriaci sinum 
-        pervenit gloriosum, ubi per tres quasi menses multos viros religione scientia ac nobilitate claros habuit auditores. Nempe, mi dilectissime Baptista, cum perspicacissimae artis praecepta et methodos, cum huius uiri acumina perspiciens admiransque magnopere <corr n="corr9">sim</corr> delectatus delecterque;  principiis enim non multis propositis, quaestionibus quibusdam et regulis reseratis, ingenium acuit auditoris, mentem illuminat, animum clarificat et <sic n="sic10">id</sic> quaeque penetralia diuine humanaeque rationis sano <sic n="sic11">intellectui</sic> et <sic n="sic12">accurate considerare</sic> studenti viam pandit et quasi quibusdam clauibus <corr n="corr13" resp="Sabbadini">operta</corr> recludit. Quid plura? paruo tempore <corr n="corr14" resp="#NJ">didici</corr> quae attingere secundum communes philosophantium vias magno tempore studioque fuisset opus. His itaque occupatum tibi me non scripsisse pateat non quod tui fuerim immemor, cum caritate, beniuolentia, amicitia firmissima, zelo honestissimo ita nectamur quod neque temporis cursus neque locorum distantia animos tam coniunctissimos ualeat separare. Parce igitur, obsecro, si tibi hactenus mei praesentiam tam diu non exhibui et cum meo <corr n="corr15" resp="#NJ">commodo</corr> compensa siquid ex hac mora molestiae contraxisti.</p>
-            <p n="p4">Si ab his detraho calamum, splendidissimis tuis respondeam litteris, quibus <unclear n="unclear1">pugasti nuda letissimis denotasti</unclear> 
-               <abbr n="abbr2">etc</abbr> ex mea, ut asseris, fortitudine animique constantia ob meos <corr n="corr3" resp="#NJ">turbulentos</corr> casus conceptos exiuisse maerores, <corr n="corr4">imo</corr> 
-               <ref n="ref5" target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0527.tlg048.perseus-lat1:61.10" type="perseus">laetitiae tunicam te induisse testaris</ref>. Compatri igitur qui te disposuit et talem mihi tamquam prudentissimum, tamquam cordialissimum, tamquam amantissimum dedit amicum tuaeque praestantiae, sapientiae, ac beniuolae caritati, quibus omnem nebulam omnemque tristitiae caliginem sereno consilio tuo, clarissimis monitis tuis, prudentissimis documentis tuis, insuper suauissimis amicissimisque persuasionibus meo extirpasti ab animo, gratias reddo innumeras et, siquid est in me uirium, quibus tot et tanta aduersa perpulerim, abs te habeo teneoque caelitus afflato. Quae mens tam dura, quis animus tam rationis inops, quae ex silice tam dura praecordia tuis sapientissimis doctrinis, tuis prudentissimis praeceptis, tuis accuratis institutis non flecteretur? Ad tuae igitur laudis cumulum <corr n="corr6">accedit</corr> quicquid in me putas esse laudabile.</p> 
+            <opener n="opener1">Doctrina rebusque gerendis ornatissimo uiro <expan n="expan1">Baptistae Bauiloquae</expan> Georgius de Georgiis <expan n="expan2">plurimam</expan> salutem dicit.</opener> 
+            <p n="p1">Quod litteris tuis, quas <corr n="corr1">Tauri</corr> fines <corr n="corr2">Apolline</corr> lustrante recepi, uicem non reddiderim, causam praebuit diuinis naturalibusque artibus uir celeberrimus artis generalis <corr n="corr3">acutissimus</corr> perspicacissimusque magister Alfonsus, ab extremo Galliciae occidentali, qui numerosis orationibus suis aures mentemque meam, <corr n="corr4">immo</corr> totum me ita detinuit quod ab hoc <corr n="corr5">amicissimo</corr> et <sic n="sic1">delectabilissimo</sic> officio et ab omnibus aliis paene retraxit. Is enim eruditissimus artista, Hispaniae non contentus finibus, per Italas urbes omnium scientiarum <sic n="sic2">festissimas</sic> diuae recordationis uiri prestantissimi Raymundi <del n="del1" resp="#NJ">et</del> de insula Maioricarum caelitus infusae scientiae documenta seminare desiderat; dumque hanc artem multis praelatis, religiosis uiris, doctoribus et scientificis in celebri studio Paduano limpidissime legisset, ad hunc maris Adriaci sinum 
+        pervenit gloriosum, ubi per tres quasi menses multos viros religione scientia ac nobilitate claros habuit auditores. Nempe, mi dilectissime Baptista, cum perspicacissimae artis praecepta et methodos, cum huius uiri acumina perspiciens admiransque magnopere <corr n="corr6">sim</corr> delectatus delecterque;  principiis enim non multis propositis, quaestionibus quibusdam et regulis reseratis, ingenium acuit auditoris, mentem illuminat, animum clarificat et <sic n="sic3">id</sic> quaeque penetralia diuine humanaeque rationis sano <sic n="sic4">intellectui</sic> et <sic n="sic5">accurate considerare</sic> studenti viam pandit et quasi quibusdam clauibus <corr n="corr7" resp="Sabbadini">operta</corr> recludit. Quid plura? paruo tempore <corr n="corr8" resp="#NJ">didici</corr> quae attingere secundum communes philosophantium vias magno tempore studioque fuisset opus. His itaque occupatum tibi me non scripsisse pateat non quod tui fuerim immemor, cum caritate, beniuolentia, amicitia firmissima, zelo honestissimo ita nectamur quod neque temporis cursus neque locorum distantia animos tam coniunctissimos ualeat separare. Parce igitur, obsecro, si tibi hactenus mei praesentiam tam diu non exhibui et cum meo <corr n="corr9" resp="#NJ">commodo</corr> compensa siquid ex hac mora molestiae contraxisti.</p>
+            <p n="p2">Si ab his detraho calamum, splendidissimis tuis respondeam litteris, quibus <unclear n="unclear1">pugasti nuda letissimis denotasti</unclear> 
+               <abbr n="abbr1">etc</abbr> ex mea, ut asseris, fortitudine animique constantia ob meos <corr n="corr1" resp="#NJ">turbulentos</corr> casus conceptos exiuisse maerores, <corr n="corr2">imo</corr> 
+               <ref n="ref1" target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0527.tlg048.perseus-lat1:61.10" type="perseus">laetitiae tunicam te induisse testaris</ref>. Compatri igitur qui te disposuit et talem mihi tamquam prudentissimum, tamquam cordialissimum, tamquam amantissimum dedit amicum tuaeque praestantiae, sapientiae, ac beniuolae caritati, quibus omnem nebulam omnemque tristitiae caliginem sereno consilio tuo, clarissimis monitis tuis, prudentissimis documentis tuis, insuper suauissimis amicissimisque persuasionibus meo extirpasti ab animo, gratias reddo innumeras et, siquid est in me uirium, quibus tot et tanta aduersa perpulerim, abs te habeo teneoque caelitus afflato. Quae mens tam dura, quis animus tam rationis inops, quae ex silice tam dura praecordia tuis sapientissimis doctrinis, tuis prudentissimis praeceptis, tuis accuratis institutis non flecteretur? Ad tuae igitur laudis cumulum <corr n="corr3">accedit</corr> quicquid in me putas esse laudabile.</p> 
         
-            <p n="p5">Et quia finaliter ais tibi ad me laeta in materia scribere non licere ne laetis uerbis dolor augeretur, precor te simul ac licite, mi Baptista, ut etiam laeta conscribas; turbinem reppulisti et animum meum ad laeta etiam audienda disposuisti. Iam in cicatricem uersum est uolnus, tua potius prudentissima sollertique in me cura quam meo aliquo opere. Et licet cotidie saeuientis in me fortunae iacula perpetiar, <corr n="corr1">his</corr> tamen a te instructus <corr n="corr2">clipeum</corr> oppono ne <corr n="corr3">laedant</corr> et, dum me offendere temptat, ambone percusso fracta resiliunt.</p>
-            <p n="p6">Dumque eas concludere curarem, nobilis uir affinitate et caritate mihi 
-        coniunctus Joannes <abbr n="abbr1">etc</abbr> tuas ad me litteras detulit, quas paulo ante Kalendas Iunii amicissime conscripsisti; his enim amantissimis litteris tuis <corr n="corr2">denotas</corr> etiam non occurrente causa scribendi te mihi scribere maluisse ut amicitia scriptis saltem augeatur indies, et te mihi sospitem repraesentares, inhumanum putans communem amicum sine tuis litteris ad me peruenire. O quam honesta, quam decora, quam amabilis est haec tua splendidissima cogitatio et, si extrinsecus non emergat actio, sat magna est causa ipsa amicitia et <corr n="corr3" resp="#NJ">beniuolae</corr> caritatis mutua repraesentatio. Colloquia dulcia et suaues litteras caritas componit amica, abunde scribendi materiam habet fraterno nexu colligata <expan n="expan4">beniuolentia</expan> neque ad alienos fontes <pb n="pb5" facs="http://daten.digitale-sammlungen.de/bsb00069363/image_76"/> necesse habet exire cum in se iocundissimo fluento scateat; semper enim inter amicos inest causa scribendi. Scribe igitur, exoro, etiam si <corr n="corr6" resp="#NJ">abest</corr> causa, licet putem causam semper adesse ut scribamus, et, si aliquod commercium non resistat, saepissime scribe; tuis igitur litteris ita <corr n="corr7" resp="#NJ">uero</corr> me refoues sicut Aethiopes uel Indos sitibundos ardenti in climate gelida lucidaque unda restaurat. Subiungis etiam ut te <sic n="sic8">lotis</sic> uisitem litteris; et quia a me perpulisti <corr n="corr9" resp="#NJ">maerores</corr> et contra contingentia aduersa remedia salubria contulisti, en praesto sum tuae honestissimae amicissimae petitioni parens.</p>
-            <p n="p7">In calce huius hoc tibi notifico me <corr n="corr1">sospitem</corr> uiuere et studio rerum honestarum <corr n="corr2" resp="#NJ">terere</corr> tempus quoad possum, ne effluat inutiliter, spe meliora concipiens. Laetor autem immense quod cum tuis ualeas ad optata idque quod maxime desideras tibi uenturum ualde <expan n="expan3" resp="#NJ">perglisco</expan>, utque mente et corpore ualeas tuaque prudentia tuaque solerti industria stude. Moribus autem et genere uir clarus tuique amantissimus, tuas cui salutes exhibui, <expan n="expan4">dominus</expan> Andre de Zaz, per has te multimode salutare non cessat.</p>
+            <p n="p3">Et quia finaliter ais tibi ad me laeta in materia scribere non licere ne laetis uerbis dolor augeretur, precor te simul ac licite, mi Baptista, ut etiam laeta conscribas; turbinem reppulisti et animum meum ad laeta etiam audienda disposuisti. Iam in cicatricem uersum est uolnus, tua potius prudentissima sollertique in me cura quam meo aliquo opere. Et licet cotidie saeuientis in me fortunae iacula perpetiar, <corr n="corr1">his</corr> tamen a te instructus <corr n="corr2">clipeum</corr> oppono ne <corr n="corr3">laedant</corr> et, dum me offendere temptat, ambone percusso fracta resiliunt.</p>
+            <p n="p4">Dumque eas concludere curarem, nobilis uir affinitate et caritate mihi 
+        coniunctus Joannes <abbr n="abbr1">etc</abbr> tuas ad me litteras detulit, quas paulo ante Kalendas Iunii amicissime conscripsisti; his enim amantissimis litteris tuis <corr n="corr1">denotas</corr> etiam non occurrente causa scribendi te mihi scribere maluisse ut amicitia scriptis saltem augeatur indies, et te mihi sospitem repraesentares, inhumanum putans communem amicum sine tuis litteris ad me peruenire. O quam honesta, quam decora, quam amabilis est haec tua splendidissima cogitatio et, si extrinsecus non emergat actio, sat magna est causa ipsa amicitia et <corr n="corr2" resp="#NJ">beniuolae</corr> caritatis mutua repraesentatio. Colloquia dulcia et suaues litteras caritas componit amica, abunde scribendi materiam habet fraterno nexu colligata <expan n="expan1">beniuolentia</expan> neque ad alienos fontes <pb n="pb1" facs="http://daten.digitale-sammlungen.de/bsb00069363/image_76"/> necesse habet exire cum in se iocundissimo fluento scateat; semper enim inter amicos inest causa scribendi. Scribe igitur, exoro, etiam si <corr n="corr3" resp="#NJ">abest</corr> causa, licet putem causam semper adesse ut scribamus, et, si aliquod commercium non resistat, saepissime scribe; tuis igitur litteris ita <corr n="corr4" resp="#NJ">uero</corr> me refoues sicut Aethiopes uel Indos sitibundos ardenti in climate gelida lucidaque unda restaurat. Subiungis etiam ut te <sic n="sic1">lotis</sic> uisitem litteris; et quia a me perpulisti <corr n="corr5" resp="#NJ">maerores</corr> et contra contingentia aduersa remedia salubria contulisti, en praesto sum tuae honestissimae amicissimae petitioni parens.</p>
+            <p n="p5">In calce huius hoc tibi notifico me <corr n="corr1">sospitem</corr> uiuere et studio rerum honestarum <corr n="corr2" resp="#NJ">terere</corr> tempus quoad possum, ne effluat inutiliter, spe meliora concipiens. Laetor autem immense quod cum tuis ualeas ad optata idque quod maxime desideras tibi uenturum ualde <expan n="expan1" resp="#NJ">perglisco</expan>, utque mente et corpore ualeas tuaque prudentia tuaque solerti industria stude. Moribus autem et genere uir clarus tuique amantissimus, tuas cui salutes exhibui, <expan n="expan2">dominus</expan> Andre de Zaz, per has te multimode salutare non cessat.</p>
         
          </div>
    

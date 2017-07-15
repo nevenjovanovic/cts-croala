@@ -47,56 +47,7 @@ Minorum), MS 1351, p. 73--79.
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="argument" occurs="5"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="10"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="5"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="415"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="12"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="7" withId="1"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="55"/>
-          <tagUsage gi="tagUsage" occurs="42"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -180,14 +131,14 @@ Minorum), MS 1351, p. 73--79.
       <body xml:lang="lat" n="body1">
          <div type="carmen" n="div1">
             <head n="head1">Ecloga I: Reges</head>
-            <argument n="argument2">
+            <argument n="argument1">
                <p n="p1">
     Ad patrias sedes, unde aliquamdiu abfuerat, reversus Lycidas, quum exultantia insueto adparatu Pastorum mapalia offendisset, de Regum ad Infantis Dei cunas adventu a Tytiro edocetur.
   </p>
                <p n="p2">Lycidas — Tytirus</p>
             </argument>
 
-            <div n="div3" type="poesis-ecloga" met="hexameter">
+            <div n="div1" type="poesis-ecloga" met="hexameter">
                <sp n="sp1" who="Ly">
                   <l n="l1"> Tytire, quandoquidem patriis divisus ab oris</l>
                   <l n="l2"> Externos agitare greges, et littora jussus</l>
@@ -291,10 +242,10 @@ Minorum), MS 1351, p. 73--79.
          </div>
          <div type="carmen" n="div2">
             <head n="head1">Ecloga II: Xaverius</head>
-            <argument n="argument2">
+            <argument n="argument1">
                <p n="p1">Thelgon     Dorilas.</p>
             </argument>
-            <div n="div3" type="poesis-ecloga" met="hexameter">
+            <div n="div1" type="poesis-ecloga" met="hexameter">
                <sp n="sp1" who="Thel">
                   <l n="l1"> Mirabar, Dorila, vicinae in margine ripae</l>
                   <l n="l2"> Retia dum relego, et vacuas sine pondere nassas,</l>
@@ -414,13 +365,13 @@ Minorum), MS 1351, p. 73--79.
          </div>
          <div type="carmen" n="div3">
             <head n="head1">Ecloga <num n="num1" value="3">III</num>: Parthenis</head>
-            <argument n="argument2">
+            <argument n="argument1">
                <p n="p1">
     Corydon Pastor, quaesita frustra per campos Parthenide, dum ejus ab antro discessum lacrimis prosequitur, lustralem ad Templum profectionem ex Lycida cognoscit: tum ambo in Pueri, Virginisque laudes alternis erumpunt.
   </p>
                <p n="p2">Coridon  —   Lycidas.</p>
             </argument>
-            <div n="div3" type="poesis-ecloga" met="hexameter">
+            <div n="div1" type="poesis-ecloga" met="hexameter">
                <sp n="sp1" who="Cor">
                   <l n="l1"> Quos aditus, quae jam refugis nemora avia claustris</l>
                   <l n="l2"> Lustrabis, Corydon, aut quos errare per agros</l>
@@ -555,13 +506,13 @@ Minorum), MS 1351, p. 73--79.
          </div>
          <div type="carmen" n="div4">
             <head n="head1">Ecloga IV: Alexis.</head>
-            <argument n="argument2">
+            <argument n="argument1">
                <p n="p1">Argumentum.</p>
                <p n="p2">
   Nocturna fuga e paternis aedibus elapso D. Alexio discessum ejus matrisque ac sponsae lacrimas Damon pastor miserabili cantu prosequitur.
 </p>
             </argument>
-            <div n="div3" type="poesis-ecloga" met="hexameter">
+            <div n="div1" type="poesis-ecloga" met="hexameter">
                <l n="l1"> Forte sub antiquae contraxerat ilicis umbra</l>
                <l n="l2"> Omne pecus Damon, cum sol altissimus agros</l>
                <l n="l3"> Ureret et raucis resonarent arva cicadis.</l>
@@ -571,7 +522,7 @@ Minorum), MS 1351, p. 73--79.
                <l n="l7"> Multa dolens matrisque vicem sponsaeque relictae,</l>
                <l n="l8"> Solus et hoc vacuas jactabat carmen ad auras.</l>
     
-               <sp n="sp9" who="Damon">
+               <sp n="sp1" who="Damon">
                   <l n="l1">  Hic locus, hi montes, et amica silentia ruris,</l>
                   <l n="l2"> Et tacita quercus, et lenti fluminis undae</l>
                   <l n="l3"> Apta satis lacrimis; lacrimas referamus amaras.</l>
@@ -641,10 +592,10 @@ Minorum), MS 1351, p. 73--79.
          </div>
          <div type="carmen" n="div5">
             <head n="head1">Ecloga V: Elisus.</head>
-            <argument n="argument2">
+            <argument n="argument1">
                <p n="p1">Meliboeus, Thyrsis, Daphnis.</p>
             </argument>
-            <div n="div3" type="poesis-ecloga" met="hexameter">  
+            <div n="div1" type="poesis-ecloga" met="hexameter">  
                <sp n="sp1" who="Mel">
                   <l n="l1"> Occiduas nondum sol vespertinus ad undas</l>
                   <l n="l2"> Urget equos, o Thyrsi; viden', rura omnia circum</l>

@@ -48,58 +48,7 @@
             
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="3"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="q" occurs="2"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -186,22 +135,22 @@
         <body xml:lang="lat" n="body1">
             <div n="div1" type="prosa-historia">
             <gap n="gap1" resp="NJ" reason="irrelevant"/>
-            <head n="head2">De gestis Romanorum imperatorum atque pontificum (excerptum de urbe Spalati)</head>
+            <head n="head1">De gestis Romanorum imperatorum atque pontificum (excerptum de urbe Spalati)</head>
 
-            <div type="caput" n="div3">
+            <div type="caput" n="div1">
 
                 <milestone unit="page" n="milestone1"/>
 
                 <milestone unit="column" n="milestone2"/>
 
-                <head n="head3">Caput XV. De Origine Civium Civitatis Spaleti. </head>
+                <head n="head1">Caput XV. De Origine Civium Civitatis Spaleti. </head>
 
 
 
 
 
 
-                <p n="p4">Sciendum est igitur quod Civitas Spalatina contraxit originem a famosa et antiqua
+                <p n="p1">Sciendum est igitur quod Civitas Spalatina contraxit originem a famosa et antiqua
                     ac Nobili Civitate Salonae, quae Salona fuit tempore Trojanorum, et dominabatur
                     totam Dalmatiam et Croatiam usque in Vngariam et dicitur per historias, et
                     Chronicas antiquas ipsam Civitatis Salonae tempore sui status dedisse ad
@@ -212,7 +161,7 @@
                     Diocletiano Imperatore mirabiliter fabricatum, et ut habetur in Chronicis
                     antiquis Romanis quod iste Imperator Diocletianus ut dicitur fuit natione, et
                     oriundus de Dalmatia id est, de Civitate Salonae, et ideo in sigillo Civitatis
-                    Spalati continetur versiculus <q n="q2">Palatium laetum Spalatum Salonae quietum</q>.
+                    Spalati continetur versiculus <q n="q1">Palatium laetum Spalatum Salonae quietum</q>.
                     post destructionem vero Salonae a Totila Duce Polonorum, Principes, Comites, et
                     Barones, et alii milites Nobiles dictae Civitatis Salonae ad Insulas fugientes,
                     et ibidem aliquo tempore permanentes, postea major pars Nobilium Salonae
@@ -225,10 +174,10 @@
                     Nobiles habuerunt antiquam originem eorum a Trojanis, et aliis Nobilibus hujus
                     orbis, de antiqua et Nobili Civitate Salonae fit mentio in jure Canonico, et in
                     multis decretis investigatis per sapientes, similiter de dicta Civitate Salonae
-                    fit mentio <quote n="quote3">
+                    fit mentio <quote n="quote1">
                         <bibl n="bibl1">per Lucanum Poetam in lib. IIII. in Arenga Vulteij ubi dicit:</bibl>
 
-                        <q n="q2">
+                        <q n="q1">
                             <l n="l1">Qua maris Adriaci longas ferit unda Salonas</l>
                             <l n="l2">Et tepidum in molles Zephiros excurrit Iader.</l>
                         </q>
@@ -237,7 +186,7 @@
                     circuibat totam Civitatem Salonae, et consolabatur omnes ibi stantes in ea. Et
                     usque Spaletum per conductos discurrebat, fuit impositum ipsi nomen fluvii
                     Iader. Licet igitur quod Civitas Spaleti sit depressa in temporalibus, tamen in
-                    spiritualibus superat, <milestone unit="column" n="milestone4"/> et excellit omnes
+                    spiritualibus superat, <milestone unit="column" n="milestone1"/> et excellit omnes
                     Civitates de Dalmatia honore, et dignitate, eo quod Archiepiscopus Spalatinus
                     vocatur Primas totius Dalmatiae habens sub se suffraganeos suos Episcopos X. id
                     est, Traguriensem Sibenicensem Scardonensem Tiniensem Corbauiensem Nonensem
@@ -252,7 +201,7 @@
                     Civitas de honore sui status non modicum amisit.</p>
             </div>
 
-            <gap n="gap4" resp="NJ" reason="irrelevant"/>
+            <gap n="gap2" resp="NJ" reason="irrelevant"/>
 
 
          </div>

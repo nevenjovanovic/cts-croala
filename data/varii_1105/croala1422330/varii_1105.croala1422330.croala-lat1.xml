@@ -40,62 +40,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="108"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="corr" occurs="27"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="109"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="emph" occurs="33"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="g" occurs="46"/>
-          <tagUsage gi="gap" occurs="5"/>
-          <tagUsage gi="head" occurs="108"/>
-          <tagUsage gi="hi" occurs="3"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="30"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="16"/>
-          <tagUsage gi="orgName" occurs="2"/>
-          <tagUsage gi="p" occurs="139"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="19"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="14"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="6"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -177,20 +122,20 @@
                </date>
             </titlePart>
          </docTitle>
-         <pb n="pb2"/>
+         <pb n="pb1"/>
       
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="chartulare">
             <pb n="pb1"/>
-            <div n="div2" type="prosa-charta">
+            <div n="div1" type="prosa-charta">
                <head n="head1">
                   <add n="add1">1.</add>
                </head> 
-               <p n="p2">In Christi nomine et eiusdem incarnationis. Anno millesimo octogesimo, indictione uero
+               <p n="p1">In Christi nomine et eiusdem incarnationis. Anno millesimo octogesimo, indictione uero
             VIII. Temporibus quoque domni Laurentii uenerabilis Spalatinę sedis
             archiepiscopi, regi Chroatorum Suinimiri, nec non Valizze prioris.</p>
-               <p n="p3">Petrus ego Zerni, qui et Gumay filius, vna cum domina Anna mea coniuge,
+               <p n="p2">Petrus ego Zerni, qui et Gumay filius, vna cum domina Anna mea coniuge,
             filia scilicet May Fauę, diuina docente clementia ac plurimorum dei seruorum
             fulti consilio, salubre causa nostrorum defunctorum immo delictorum redemptionis
             inniuimus consilium, quatinus de nostro proprio conquestu, more fidelium, omnipotenti
@@ -207,41 +152,41 @@
               <milestone unit="page" n="milestone1"/> ęcclesie nos exigere cepit. Nos uero pro uiribus et
             nostro posse quęcumque tamen necessaria eiusdem dei seruis dictantibus
             erant, optulimus ibi.</p>
-               <p n="p4">In primis quidem competentia offitii missarum librum missalem I., calicem
+               <p n="p3">In primis quidem competentia offitii missarum librum missalem I., calicem
             argenteum cum sua patena et omni apparatu misse, librum passionum sanctorum I.,
             antiphonarium nocturnale I., psalterium I.</p>
-               <p n="p5">Terras autem dedimus omnes quę in circuitu eius habentur ęcclesię. A confinio
+               <p n="p4">Terras autem dedimus omnes quę in circuitu eius habentur ęcclesię. A confinio
             territorii prelibate ecclesię sancti Domnii usque ad locum qui dicitur Saline quicquid
             infra est mons siue uallis a maris ripa usque ad 
             <pb n="pb1"/> uineam Tilsto Cosse Omnia enim ista nostro proprio
             acquisiuimus pretio: ideo in domo dei dedimus</p>
             </div>
-            <div n="div3" type="prosa-charta">
+            <div n="div2" type="prosa-charta">
                <head n="head1">
                   <add n="add1">2.</add>
                </head> 
-               <p n="p2">Nam in primis terram in qua sita uidetur ecclesia, comparauimus a
+               <p n="p1">Nam in primis terram in qua sita uidetur ecclesia, comparauimus a
               Pribistrio pro duobus solidis et uno modio frumenti, alio autem de sale,
             quod dedimus pro fine sibi. Et hoc factum est coram Stephano filio iupani Pribinne, et
             presbitero Prodano, et presbitero Dragsano, atque Girgi de Tugari.</p>
             </div>
-            <div n="div4" type="prosa-charta">
+            <div n="div3" type="prosa-charta">
                <head n="head1">
                   <add n="add1">3.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Ibidem iuxta eandem terram emimus terras a Zulo pro IIII. modiis
             frumenti et I. argenteum pro fine; coram Johanne Mesagalina et Stephano Curano,
               Boledrugo de Tugari.</p>
             </div>
-            <div n="div5" type="prosa-charta">
+            <div n="div4" type="prosa-charta">
                <head n="head1">
                   <add n="add1">4.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Insuper emimus Semianum a suis inimicis pro XL romanatis; ipse autem non
             habens unde se redimeret, dedit mihi territorium quod sui patris erat ut ego diuiderem
-              <milestone unit="page" n="milestone2"/> cum filio suo omne per medietatem; et in parte mea
+              <milestone unit="page" n="milestone1"/> cum filio suo omne per medietatem; et in parte mea
             dedit totum territorium super ecclesiam et sibi retenuit territorium in Malcin; et quod
             remaneret diuideremus; et sic a me liber abscessit. Et hec conuentio ac
             diffinitio facta fuit ante ecclesiam in Nacle coram his nobilibus, scilicet
@@ -250,29 +195,29 @@
             omnibus eiusdem loci uillanis, ac coram testibus aliis quos a Spalato mecum
             duxi: Johanne filio Gastano, Petro filio Salati et Bilza filio Girdeo.</p>
             </div>
-            <div n="div6" type="prosa-charta">
+            <div n="div5" type="prosa-charta">
                <head n="head1">
                   <add n="add1">5.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Post hęc uero Miraslauus cum filiis Michahelis Acedelo quidem et Chualo
             aduersus nostram diffinitionem hanc maligno spiritu concitatus surrexit et non modicam
             partem de prephato territorio a me subtrahere cepit: a territorio Pribistrii usque
             sursum ad Petram.</p>
-               <p n="p3">Vnde nos conuocatis iterum multis Spalatinorum nobilibus, inter quos etiam Jacobum
+               <p n="p2">Vnde nos conuocatis iterum multis Spalatinorum nobilibus, inter quos etiam Jacobum
             Marianorum ducem cum suis militibus ibidem interesse rogauimus, ante quorum
               presentiam cum prefato decertauimus Miroslauo, ubi et conuentionem hisdem
             monentibus nobilibus cum eis denuo fecimus. Quapropter afirmauit nobis prefatas terras
             quas subtraere uolebat et insuper nobis <corr n="corr1">augmentauit</corr> monticellum que prope
               Petra situm est, et ualle similiter incipiente
-            de Saline usque <milestone unit="page" n="milestone2"/> Satilie et de Satilie usque ad mare. Et
+            de Saline usque <milestone unit="page" n="milestone1"/> Satilie et de Satilie usque ad mare. Et
             dedimus sibi pro conuentione octoginta modia ordei et unum solidum pro fine. Et ipse
-            Miroslauo anteposuit se dicens: <q n="q3">Quicumque ammodo uoluerit te de hoc requirere, ego me
+            Miroslauo anteposuit se dicens: <q n="q1">Quicumque ammodo uoluerit te de hoc requirere, ego me
             omnibus pro te opponam.</q> Actum est ante notitiam horum testium: ducis
             uidelicet iamdicti et sui risari Sauide ac ceteris militibus eius, et
-            Dragisani filii Semiani, Girgi de Tugari <emph n="emph4"/>
-                  <emph n="emph5"/>
-                  <pb n="pb6"/>
+            Dragisani filii Semiani, Girgi de Tugari <emph n="emph1"/>
+                  <emph n="emph2"/>
+                  <pb n="pb1"/>
               Habraham, et frater eius Iadreio, Dabrouito setnico, et
             Semidrago, et frater eius Uilcizo, et alius frater Basili, et
             Draganego duornico, et frater illius Boledrugo, Formini Spalatini qui et
@@ -280,24 +225,24 @@
               Grubiti Zune, Prodani et diaconi Dabri, et aliorum
             multorum.</p>
             </div>
-            <div n="div7" type="prosa-charta">
+            <div n="div6" type="prosa-charta">
                <head n="head1">
                   <add n="add1">6.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Nam post multorum annorum curricula decidi in infirmitate, ut nulla
             spes euadendi esset; ideo uotum uoui in ipsa infirmitate, ut si ego conualescerem de
             infirmitate, in prefata ęcclesia Petri apostoli ibi me totonderem et
             habitum beatissimi Benedicti reciperem. Igitur dispensante diuina clementia surrexi de
             lectulo et consilio et adiutorio Laurentii archiepiscopi ceterrorumque
-            clericorum in supra nominata ecclesia domnum Gregorium nostrum nepotem abbatem<milestone unit="page" n="milestone2"/> ordinauimus; et hoc quod uoui auxilio dei adimpleui. Sed cum
+            clericorum in supra nominata ecclesia domnum Gregorium nostrum nepotem abbatem<milestone unit="page" n="milestone1"/> ordinauimus; et hoc quod uoui auxilio dei adimpleui. Sed cum
             cępimus ędificare domos quas necessaria erant fratribus
             aminiculo dei consumauimus. Quapropter consilio memorati abbati aliorumque
             fratrum uoluimus in nominato Monticellum, quod comparaui a Miroslauo et a filiis
             Michahelis, uicum construere nostris famulis, ceperunt Uilkiki nec non Prodanus duornico
-            cum omnibus Tugaranis causa inuidie zeloque diaboli inflammati resistere dicentes: <q n="q3">Non
+            cum omnibus Tugaranis causa inuidie zeloque diaboli inflammati resistere dicentes: <q n="q1">Non
             licet tibi construere uicum in Monticellum quia noster est!</q> Et ego illis:
-            <q n="q4">Uallem et montem incipiente ex Saline usque Satilie, omnia mea sunt, quia
+            <q n="q2">Uallem et montem incipiente ex Saline usque Satilie, omnia mea sunt, quia
             emi a Miroslauo coram idoneis testimoniis.</q> Attigit eo tempore uenire in nostris
             partibus Slauizo rex et Petrus banus, nec non Sarubba causa discordię quę erat inter
               Slauzo et Lubomiro. Vnde uocauerunt nos ante hos nominatos uiros omnes
@@ -305,100 +250,100 @@
               Slauzo nec non Petro et Sarubba, ceperunt altercare nobiscum, et ita
             nobis iudicauerunt, ut ego uocarem tres meliores ex prefatis testimoniis,
             uidelicet presbiterum Petrum Piseniza, et Forminum Platimisse, nec non diaconum Duymum
-            Bocę. Igitur habii Spalatum, mecumque adduxi eos et ad nominatas <milestone unit="page" n="milestone5"/> Petras ascenderunt et ita, ut supra scriptum est, quia
+            Bocę. Igitur habii Spalatum, mecumque adduxi eos et ad nominatas <milestone unit="page" n="milestone2"/> Petras ascenderunt et ita, ut supra scriptum est, quia
             Monticelum et uallem, et incipiente a Saline usque ad uineam Tilsto Cosse,
             totum nostrum esse, testificauerunt coram Dabro diacono filio Diti,
             presbitero Dominico Macica, presbitero Runtino, Duymo filio Iezamoza,
             Oliuerio, Rugata, Ulcina Damanego, Dabro Petriti, Kerna de Tugari,
               Drugana Tilsto Cosse.</p>
                
-               <pb n="pb3"/>
+               <pb n="pb1"/>
             </div>
-            <div n="div8" type="prosa-charta">
+            <div n="div7" type="prosa-charta">
                <head n="head1">
                   <add n="add1">7.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et alias terras ultra torrentem comparauimus a Iuanizo pro I. solido et pario de
             sola pro fine, coram Nycola et fratre suo Girgi.</p>
             </div>
-            <div n="div9" type="prosa-charta">
+            <div n="div8" type="prosa-charta">
                <head n="head1">
                   <add n="add1">8.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et comparauimus terram aliam a Dobrouito et filio suo Dedomiro, quę est
               super terras sancti Stephani, sub rupe quę uulgo dicitur
               lao, pro VI. galetas uini et media pro fine, coram presbitero Urso et
             diacono Dabro, Iohanne Mesagalina et Petro Carboni</p>
             </div>
-            <div n="div10" type="prosa-charta">
+            <div n="div9" type="prosa-charta">
                <head n="head1">
                   <add n="add1">9.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Adhuc comparauimus promunctorium, qui dicitur Pissi Rit, a filiis
             Stephanizi, Petratia et Sdedrugo, pro II solidis et duobus
             pariis de solis pro fine, coram Mesagalina et Petro Carbone.</p>
             </div>
-            <div n="div11" type="prosa-charta">
+            <div n="div10" type="prosa-charta">
                <head n="head1">
                   <add n="add1">10.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Ibidem prope uinea Nycolay comparauimus uineam a Girgi fratre Nycole pro II. solidis
             et I. modium frumenti pro fine, coram Gregorio Cimpli et Iohanne Cotini.</p>
             </div>
-            <div n="div12" type="prosa-charta">
+            <div n="div11" type="prosa-charta">
                <head n="head1">
                   <add n="add1">11.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Ibidem comparauimus uineam a presbitero sancto Maximo pro I. solido et I. argenteum
             pro fine, coram Micha Masitulo et Andrea de Tugari.</p>
             </div>
-            <div n="div13" type="prosa-charta">
+            <div n="div12" type="prosa-charta">
                <head n="head1">
                   <add n="add1">12.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> 
-                  <corr n="corr2">Comparaui</corr> terram de Zulo infra <milestone unit="page" n="milestone3"/> nostras terras pro
+                  <corr n="corr1">Comparaui</corr> terram de Zulo infra <milestone unit="page" n="milestone1"/> nostras terras pro
             I. solido et II. stara de sale pro fine; presbiter Madius Barbazani testis.</p>
             </div>
-            <div n="div14" type="prosa-charta">
+            <div n="div13" type="prosa-charta">
                <head n="head1">
                   <add n="add1">13.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Emimus terra de Iuanizo iuxta terra supranominati Zuli pro IIII. modia
             de grano et medio pro fine. Ante presentiam horum testimoniorum, Paulo Acina, Fusco
-            <sic n="sic2">Peceas</sic> filio Minga</p>
+            <sic n="sic1">Peceas</sic> filio Minga</p>
             </div>
-            <div n="div15" type="prosa-charta">
+            <div n="div14" type="prosa-charta">
                <head n="head1">
                   <add n="add1">14.</add>
                </head> 
-               <p n="p2">
-                  <g n="g1">+.</g> Adhuc quoque comparauimus de Zulo terra prope meas terras pro <num n="num2" value="3">III</num>. stara de grano et
+               <p n="p1">
+                  <g n="g1">+.</g> Adhuc quoque comparauimus de Zulo terra prope meas terras pro <num n="num1" value="3">III</num>. stara de grano et
               alias de ipso Zulo emi terra subtus terras sancti Maximi pro
             VII. galetas uini et I. prandium pro fine, presbiter Gingi,
               Pradano frater de Marco, testes.</p>
             </div>
-            <div n="div16" type="prosa-charta">
+            <div n="div15" type="prosa-charta">
                <head n="head1">
                   <add n="add1">15.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et comparaui terras de Zuli supra terras sancti Domnii, secus meas
             terras pro IIII. caseis et IIII. panibus pro fine; filio Calendulo Zanni
               testes</p>
             </div>
-            <div n="div17" type="prosa-charta">
+            <div n="div16" type="prosa-charta">
                <head n="head1">
                   <add n="add1">16.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Emimus terram, quę pertinet ad Cozzinzani iuxta territorium nostrum de
               Bozza et de fratre eius, et de totis parentibus eius per I.
             pinguissimam porcam et CCC. cepas pro fine. Ante hos testes: Boledrug,
@@ -406,161 +351,161 @@
               Beza et frater eius Uilcanus.</p>
                
             </div>
-            <div n="div18" type="prosa-charta">
+            <div n="div17" type="prosa-charta">
                <head n="head1">
                   <add n="add1">17.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Ego Petrus comparaui terram in die sancti Benedicti de Drugana et de fratre eius
             Bolano, terra quę fuit de sancto Maximo, infra territorium sancti Petri; nam prefatus
             Drugana et Bolano mutauerunt suam terram a sancto Maximo quę habuerunt
             sursum et mihi ista deorsum uendiderunt pro IIII. solidis, et I. modio de
             sale pro fine; presbiter Iohannes Raguseus testis, Anastasius presbiter testis,
-            <milestone unit="page" n="milestone2"/>
+            <milestone unit="page" n="milestone1"/>
             et alius Iohannes testis, Iohanne
             filio Paulelle Isti sunt testimonia Raguseorum: Sabatius
             subdiaconus filius Gepuci, Uelconiza8" filio Dabraza, testes, Andreas presbiter et
             Dretillo celararius, testes.</p>
             </div>
-            <div n="div19" type="prosa-charta">
+            <div n="div18" type="prosa-charta">
                <head n="head1">
                   <add n="add1">18.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et alia terra comparaui de Bolano filio Dabrouito supra
             terras sancto Maximo pro II. solidis et I. modio de grano pro fine; duornico Dragonego
             et Iohannes Calendulo filio, testes.</p>
             </div>
-            <div n="div20" type="prosa-charta">
+            <div n="div19" type="prosa-charta">
                <head n="head1">
                   <add n="add1">19.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et emi tres pezze de terra, supranominata terra, de fratre eius Dragano
             pro I. modio frumenti et II. stara de sale pro fine; Draganego duornico testis.</p>
             </div>
-            <div n="div21" type="prosa-charta">
+            <div n="div20" type="prosa-charta">
                <head n="head1">
                   <add n="add1">20.</add> 
                </head>
-               <p n="p2">Ibidem comparaui87" terra ubi dicitur Grebeni de filiis Semidragi,
+               <p n="p1">Ibidem comparaui87" terra ubi dicitur Grebeni de filiis Semidragi,
               Pradano et Drugana pro <hi n="hi1">XX. </hi>uellera ouium et II pro
             fine; Ursane filio Iuncte, testis.</p>
             </div>
-            <div n="div22" type="prosa-charta">
+            <div n="div21" type="prosa-charta">
                <head n="head1">
                   <add n="add1">20a</add> 
                </head>
-               <p n="p2">Et omnes terras quę habuerunt supra Grebeni; totam comparaui a prenominatis fratribus
+               <p n="p1">Et omnes terras quę habuerunt supra Grebeni; totam comparaui a prenominatis fratribus
             pro I. solido et II. uellera et <num n="num1" value="3">III</num> cubiti de lenzo pro fine; Ursana
               Iunte testis, Draganego testis.</p>
             </div>
-            <div n="div23" type="prosa-charta">
+            <div n="div22" type="prosa-charta">
                <head n="head1">
                   <add n="add1">21.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et emi a Uilkizo, auunculo Pradani, terras incipiente a
               terras Dragane usque ad terras Zurilli, et usque ad terras Uitaze quę
             sursum sunt, pro V. modio frumenti et medio et I caseum pro
             fine; coram Dranego duornico et Calendulo.</p>
             </div>
-            <div n="div24" type="prosa-charta">
+            <div n="div23" type="prosa-charta">
                <head n="head1">
                   <add n="add1">22.</add>
                </head> 
-               <p n="p2">Ibidem emi terram de Uitaza supra ipsas terras pro <num n="num1" value="3">III</num>. modio frumenti et medio, et I.
+               <p n="p1">Ibidem emi terram de Uitaza supra ipsas terras pro <num n="num1" value="3">III</num>. modio frumenti et medio, et I.
             caseum pro fine; 
-            <milestone unit="page" n="milestone2"/>
+            <milestone unit="page" n="milestone1"/>
             magister filio Calendulo, et
               Boledrugo, et Zuli, testes.</p>
-               <pb n="pb3"/>
+               <pb n="pb1"/>
             </div>
-            <div n="div25" type="prosa-charta">
+            <div n="div24" type="prosa-charta">
                <head n="head1">
                   <add n="add1">23.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et emi terra de Zurillo et de filio eius Dabriky, pro I. solido et II.
             galetas uini pro fine; coram Girdana Tilsta Cossa, et Draganego
             duornico.</p>
             </div>
-            <div n="div26" type="prosa-charta">
+            <div n="div25" type="prosa-charta">
                <head n="head1">
                   <add n="add1">24.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et alia terra comparaui ab ipso Zurillo in loco ubi dicitur Arca supra terras sancti
             Stephani, pro VII. galetas uini et mesa pro fine; filio Kalendulo et
               Bolledrugo nec non Iadrei qui fuit a Casaro, testes.</p>
             </div>
-            <div n="div27" type="prosa-charta">
+            <div n="div26" type="prosa-charta">
                <head n="head1">
                   <add n="add1">25.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Comparaui uineas de Draganego, uites et terra pro XI. solidis et I.
             modio sale pro fine; coram Girgi, Abraham et setnico Dabrauito.</p>
             </div>
-            <div n="div28" type="prosa-charta">
+            <div n="div27" type="prosa-charta">
                <head n="head1">
                   <add n="add1">26.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et de ipso Draganego10" comparaui alia terra a Bresteni
             pro I. solido et I. ouis pro fine; coram Semiano et
               Girgi</p>
             </div>
-            <div n="div29" type="prosa-charta">
+            <div n="div28" type="prosa-charta">
                <head n="head1">
                   <add n="add1">27.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Comparaui terra a Mucla Longa 111 iuxta meas terras de
               Iuanizo pro medio solido et I. capra pro fine; coram filio Dragisani, et
             Draganego, et filio Calendulo.</p>
             </div>
-            <div n="div30" type="prosa-charta">
+            <div n="div29" type="prosa-charta">
                <head n="head1">
                   <add n="add1">28.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et emi terra a Grubizo aurifico, incipiente de Stilbiza usque deorsum ad terras
             prioris Tragurii; coram nostro abbate et presbitero Paulino, et filio Calendulo, et
-            Zurillo pro <num n="num2" value="3">III</num>. capras et I. modio frumenti pro fine.</p>
+            Zurillo pro <num n="num1" value="3">III</num>. capras et I. modio frumenti pro fine.</p>
             </div>
-            <div n="div31" type="prosa-charta">
+            <div n="div30" type="prosa-charta">
                <head n="head1">
                   <add n="add1">29.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et emi terra de consobrino suo Zurra aurifico ibidem iuxta
               eum pro I. modio ordei et I. caseum pro fine; coram Draganego et
             Zuli.</p>
             </div>
-            <div n="div32" type="prosa-charta">
+            <div n="div31" type="prosa-charta">
                <head n="head1">
                   <add n="add1">30.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et emi uinea de Dabressa sursum iuxta 
-            <milestone unit="page" n="milestone2"/>
+            <milestone unit="page" n="milestone1"/>
              Boledrugo pro IIII.
             solidis et I. modio salis pro fine; coram Girgi.</p>
             </div>
-            <div n="div33" type="prosa-charta">
+            <div n="div32" type="prosa-charta">
                <head n="head1">
                   <add n="add1">31.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Comparaui de fratre suo Martino uineam que est a Surbo pro I. solido et I. modio
             salis pro fine, coram Girgi.</p>
             </div>
-            <div n="div34" type="prosa-charta">
+            <div n="div33" type="prosa-charta">
                <head n="head1">
                   <add n="add1">32.</add>
                </head> 
-               <p n="p2">Et emi terram a Prasizo, quę fuit auio meo Michaza, quam uendidit uxor eius et ego
+               <p n="p1">Et emi terram a Prasizo, quę fuit auio meo Michaza, quam uendidit uxor eius et ego
             redemi eam ab illorum nepotibus qui eam comparauerant, videlicet a
             Urascana, Metazza et de consobrino eius Uilcai, et(119)
             Michazza filio Iadrei pro X. solidis et II. argentei atque II. galetas uini pro fine;
@@ -568,345 +513,345 @@
               Uilcana brauaro, Petrana Scurpune, Balla,
               Duymo Dragauito</p>
             </div>
-            <div n="div35" type="prosa-charta">
+            <div n="div34" type="prosa-charta">
                <head n="head1">
                   <add n="add1">33.</add>
                </head> 
-               <p n="p2">
-                  <g n="g1">+.</g> Adhuc quoque <corr n="corr2">comparaui</corr> terram supra Salona ubi dicitur a Suatizo de
+               <p n="p1">
+                  <g n="g1">+.</g> Adhuc quoque <corr n="corr1">comparaui</corr> terram supra Salona ubi dicitur a Suatizo de
             nepote de Uale pro V. solidis et medio pro fine; coram Sinice et
             Rarara</p>
-               <p n="p3">104 C. 55, K. 172, R. 131, S. 280: Tilstacossa. Treba da se kaze, da je ta rijec
+               <p n="p2">104 C. 55, K. 172, R. 131, S. 280: Tilstacossa. Treba da se kaze, da je ta rijec
             to-ponim, kao i u br. 6. Na oba mjesta je prepisivac izostavio <emph n="emph1">de, </emph>te je
             tako mogao da neupoznatog s cinjenicom zavede. Tako je ta Tilsta Cossa ustvari
             Montegrasso, a sada Mutogras, na kome je imao Petar Crni vinograde, a nije Grdanino
             prezime.</p>
-               <p n="p4">106 R. 131: Jaderei.</p>
-               <p n="p5">106 K. 172: Draganego Vites.</p>
-               <p n="p6">107 K. 172, R. 131, §. 280: Habraham.</p>
-               <p n="p7">108 C. 56: dranego.</p>
-               <p n="p8">10(1 K. 172, R. 131: aliam terram.</p>
-               <p n="p9">110 M. 46ro izostavio tri rijeci.</p>
-               <p n="p10">111 C. 56: comucla lonesa; K. 172: luuela longa. 118 C. 56: manizo.</p>
-               <p n="p11">118 K. 173: terram.</p>
-               <p n="p12">114 R. 131, S. 280: eam.</p>
-               <p n="p13">115 R. 131: Boledrago.</p>
-               <p n="p14">"' R. 132: comparauerunt.</p>
-               <p n="p15">117 R. 132 izostavlja, S. 281 nije stavio zarez ispred Metazza, te je tako od dva
+               <p n="p3">106 R. 131: Jaderei.</p>
+               <p n="p4">106 K. 172: Draganego Vites.</p>
+               <p n="p5">107 K. 172, R. 131, §. 280: Habraham.</p>
+               <p n="p6">108 C. 56: dranego.</p>
+               <p n="p7">10(1 K. 172, R. 131: aliam terram.</p>
+               <p n="p8">110 M. 46ro izostavio tri rijeci.</p>
+               <p n="p9">111 C. 56: comucla lonesa; K. 172: luuela longa. 118 C. 56: manizo.</p>
+               <p n="p10">118 K. 173: terram.</p>
+               <p n="p11">114 R. 131, S. 280: eam.</p>
+               <p n="p12">115 R. 131: Boledrago.</p>
+               <p n="p13">"' R. 132: comparauerunt.</p>
+               <p n="p14">117 R. 132 izostavlja, S. 281 nije stavio zarez ispred Metazza, te je tako od dva
             brata, Vraskana i Metace. ucinio Vraskana Metacu.</p>
-               <p n="p16">118 C. 56, K. 173: Velcai.</p>
-               <p n="p17">119 R. 132: dodaje uz <emph n="emph1">et </emph>jos <emph n="emph2">a.</emph>
+               <p n="p15">118 C. 56, K. 173: Velcai.</p>
+               <p n="p16">119 R. 132: dodaje uz <emph n="emph1">et </emph>jos <emph n="emph2">a.</emph>
                </p>
-               <p n="p18">120 C. 56: prodsuppo.</p>
-               <p n="p19">121 R. 132: Tomedrago, ali u b. 55, 137: togedrago.</p>
-               <p n="p20">122 C. 56: villana; S. 281: Ui(l)cana — posve bez potrebe stavlja / u zagradu, jer
+               <p n="p17">120 C. 56: prodsuppo.</p>
+               <p n="p18">121 R. 132: Tomedrago, ali u b. 55, 137: togedrago.</p>
+               <p n="p19">122 C. 56: villana; S. 281: Ui(l)cana — posve bez potrebe stavlja / u zagradu, jer
             pisar sasvim pravilno ispisuje Uilcana.</p>
-               <p n="p21">123 R. 132: Balla Duymo, Dragauito. Naprotiv M. 47r» izostavlja izmedu Balla i Duymo
+               <p n="p20">123 R. 132: Balla Duymo, Dragauito. Naprotiv M. 47r» izostavlja izmedu Balla i Duymo
             zarez, te je ucinio tako jedno lice od dva.</p>
-               <p n="p22">124 C. 56, K. 173, R. 132: comparaui, §. 281: compa(ra)ui. 185 R. 132: Radana, ali u b.
+               <p n="p21">124 C. 56, K. 173, R. 132: comparaui, §. 281: compa(ra)ui. 185 R. 132: Radana, ali u b.
             59, 137: rarara.</p>
-               <p n="p23">218</p>
+               <p n="p22">218</p>
             </div>
-            <div n="div36" type="prosa-charta">
+            <div n="div35" type="prosa-charta">
                <head n="head1">
                   <add n="add1">34.</add>
                </head> 
-               <p n="p2">
-                  <g n="g1">+.</g> Deinde comparaui locum in Salona a Gribiza <corr n="corr2">nepote</corr> de Baza pro II.
+               <p n="p1">
+                  <g n="g1">+.</g> Deinde comparaui locum in Salona a Gribiza <corr n="corr1">nepote</corr> de Baza pro II.
             solidis et I. modio de sale pro fine. Ante presentiam Iacobi Morstici et
             suę uxoris.</p>
             </div>
-            <div n="div37" type="prosa-charta">
+            <div n="div36" type="prosa-charta">
                <head n="head1">
                   <add n="add1">35.</add>
                </head> 
-               <p n="p2">Et in ipso <corr n="corr1">loco</corr> statui molendinum et in ipsa domo prefata emi locum
+               <p n="p1">Et in ipso <corr n="corr1">loco</corr> statui molendinum et in ipsa domo prefata emi locum
             de filio Criuizo Nesnu et de nepote eius pro II. solidis et
               menso I. galetas uini pro fine; coram eidem Iacobo
               Marstico, Ueliaco13-5 cum filio suo, Gregorio podzuppo,
               Vcha, Cotino.</p>
             </div>
-            <div n="div38" type="prosa-charta">
+            <div n="div37" type="prosa-charta">
                <head n="head1">
                   <add n="add1">36.</add>
                </head> 
-               <p n="p2">Deinde post multos annos insurrexerunt contra me nepus suus et filius Uilcane brauari
+               <p n="p1">Deinde post multos annos insurrexerunt contra me nepus suus et filius Uilcane brauari
             <milestone unit="page" n="milestone1"/> Iohannes, uolentes per iniustitiam
             tollere prefatum molendinum. Vnde preiudicauit eos Vilcana
-              brauaro ita dicente: <q n="q2">Fili sine 141 requirere prefatum
+              brauaro ita dicente: <q n="q1">Fili sine 141 requirere prefatum
               mulendinum quia praue illum requiris; nam ego scio quod pretium tulit
             exinde, et pretium dedit Ciclę pro seruitute sua.</q> Coram presentia
               Dobromiri fili Saraceni, et filio Tripuni Zurra, Priuet
               Dedo</p>
             </div>
-            <div n="div39" type="prosa-charta">
+            <div n="div38" type="prosa-charta">
                <head n="head1">
                   <add n="add1">37.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Deinde comparaui similiter in ipsam domum locum de Uilcana, filio
               Mratino Locarda pro II. solidis et I. modio de sale pro
             fine; Formino Platimissa, et Benedicto Orbazai atque Uicha
             testes.</p>
             </div>
-            <div n="div40" type="prosa-charta">
+            <div n="div39" type="prosa-charta">
                <head n="head1">
                   <add n="add1">38.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et emi in alio loco quarta pars de memorato loco de Semina et de fratre eius pro II.
-            modio de grano et medio, et mesa galeta uini, et <num n="num2" value="3">III</num>. pani pro fine; coram
+            modio de grano et medio, et mesa galeta uini, et <num n="num1" value="3">III</num>. pani pro fine; coram
               Ulcina Trulullo, et Petro de Muto et Zanni de Maraldo.</p>
             </div>
-            <div n="div41" type="prosa-charta">
+            <div n="div40" type="prosa-charta">
                <head n="head1">
                   <add n="add1">39.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et emi quarta pars in ipsum locum de Drasizo filiastro de Crasano pro I. solido et
             mesa galeta uini pro fine; coram Formino Platumissa et Benedicto
             Orbazai.</p>
             </div>
-            <div n="div42" type="prosa-charta">
+            <div n="div41" type="prosa-charta">
                <head n="head1">
                   <add n="add1">40.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Denique comparaui medietatem de ipsum supra scriptum locum a presbitero ueterano qui
             cantat missam in sancto Iohanne a Cremen
-          <emph n="emph2"/>
-                  <pb n="pb3"/>
+          <emph n="emph1"/>
+                  <pb n="pb1"/>
           pro II. solidis et I. galeta uini pro fine; coram Prodano nepus de
             Mattana, presbiter Marco, diaconus Dabro, Duymo de Tule, testes.</p>
             </div>
-            <div n="div43" type="prosa-charta">
+            <div n="div42" type="prosa-charta">
                <head n="head1">
                   <add n="add1">41.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Adhuc uero comparaui seruum nomine Cyprianum, cum filiis et filiabus, et uineis quę
-            sunt super callem sub ęcclesia sancti <milestone unit="page" n="milestone2"/>Maximi pro
+            sunt super callem sub ęcclesia sancti <milestone unit="page" n="milestone1"/>Maximi pro
               fine a Nycola pro XV. solidis; coram Petro Cegayta, Iohanne de Porta,
             Dabro Laudula, Fusco Pucipani.</p>
             </div>
-            <div n="div44" type="prosa-charta">
+            <div n="div43" type="prosa-charta">
                <head n="head1">
                   <add n="add1">42.</add>
                </head> 
-               <p n="p2">In eadem Ęcclesia dedimus seruum nomine Nycolaum cum uxore sua Dabrina, cum filiis et
+               <p n="p1">In eadem Ęcclesia dedimus seruum nomine Nycolaum cum uxore sua Dabrina, cum filiis et
             filiabus ac uineis suis quę iuxta uineas Cipriani quia comparauimus illum a fratre
             suo Girgi Nam prenominatus Nycola sit in ipsa ęcclesia; coram Lucaro et
             aliis multis, dedimus illum per manum suo fratri Girgi prenominato; coram Stefano
               cupano, Formino Platmissa</p>
             </div>
-            <div n="div45" type="prosa-charta">
+            <div n="div44" type="prosa-charta">
                <head n="head1">
                   <add n="add1">43.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Comparaui nomine Negozai a Duymo filio Stresinna, pro VI. solidis pro
             fine; coram Fusco Tiberi et Drago Muti.</p>
             </div>
-            <div n="div46" type="prosa-charta">
+            <div n="div45" type="prosa-charta">
                <head n="head1">
                   <add n="add1">44.</add>
                </head> 
-               <p n="p2">Similiter comparaui seruum nomine Dragaza a presbitero de Orechoa pro V.
+               <p n="p1">Similiter comparaui seruum nomine Dragaza a presbitero de Orechoa pro V.
             solidis; coram Basilio Stasucco et Lampredio Cybriulo, cui et c. pecora et II. uacce
             atque par bouum dedimus ad opus eiusdem ęcclesie, et sit ibidem.</p>
             </div>
-            <div n="div47" type="prosa-charta">
+            <div n="div46" type="prosa-charta">
                <head n="head1">
                   <add n="add1">45.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Emimus puerum adhuc paruum qui nuncupatur Slobba a suo genitore, quem studio
             litterarum erudiri fecimus, quemque libertauimus et usque ad presbiterii honore
               sublimari fecimus ad eiusdem ęcclesie opus, ibi illum perpetuo manere
             uolumus.</p>
             </div>
-            <div n="div48" type="prosa-charta">
+            <div n="div47" type="prosa-charta">
                <head n="head1">
                   <add n="add1">46.</add>
                </head> 
-               <p n="p2">Et dedimus Petrum Dracculum quem <corr n="corr1">comparaui</corr> a Catarinis pro <num n="num2" value="3">III</num>.
+               <p n="p1">Et dedimus Petrum Dracculum quem <corr n="corr1">comparaui</corr> a Catarinis pro <num n="num1" value="3">III</num>.
             solidis.</p>
             </div>
-            <div n="div49" type="prosa-charta">
+            <div n="div48" type="prosa-charta">
                <head n="head1">
                   <add n="add1">47.</add>
                </head> 
-               <p n="p2">Comparaui Zorgi Dracculum a Bartholei setnico
+               <p n="p1">Comparaui Zorgi Dracculum a Bartholei setnico
             pro VII solidis; coram archiepiscopo et Ioahanne capellano,
             pro fine</p>
             </div>
-            <div n="div50" type="prosa-charta">
+            <div n="div49" type="prosa-charta">
                <head n="head1">
                   <add n="add1">48.</add>
                </head> 
-               <p n="p2">Comparaui seruum Andriulum nomine, quod dedi patri suo XL. solidos ad laborem et non
+               <p n="p1">Comparaui seruum Andriulum nomine, quod dedi patri suo XL. solidos ad laborem et non
             habenti <milestone unit="page" n="milestone1"/>unde reddere tuli prenominatum filium pro solido,
-            <corr n="corr2">comparaui</corr> pro I. solido et I. staro de grano pro fine, in tali pacto ut si daret
+            <corr n="corr1">comparaui</corr> pro I. solido et I. staro de grano pro fine, in tali pacto ut si daret
             seruum similem sui liber abscederet, sin autem in perpetuum fieret
             ęcclesie seruus; coram omnes fratres et coram sorore sua hoc firmatum est.</p>
             </div>
-            <div n="div51" type="prosa-charta">
+            <div n="div50" type="prosa-charta">
                <head n="head1">
                   <add n="add1">49.</add>
                </head> 
-               <p n="p2">Denique comparaui seruum nomine Pribilum ex Olmisanis pro IIII. solidis de Preda et
+               <p n="p1">Denique comparaui seruum nomine Pribilum ex Olmisanis pro IIII. solidis de Preda et
               Gradenna</p>
             </div>
-            <div n="div52" type="prosa-charta">
+            <div n="div51" type="prosa-charta">
                <head n="head1">
                   <add n="add1">50.</add>
                </head> 
-               <p n="p2">Comparaui seruum nomine Bollezo filio Ulasizo de Preda et ex Desa pro VII. solidis;
+               <p n="p1">Comparaui seruum nomine Bollezo filio Ulasizo de Preda et ex Desa pro VII. solidis;
             coram omnes monachos.</p>
-               <pb n="pb3"/>
+               <pb n="pb1"/>
             </div>
-            <div n="div53" type="prosa-charta">
+            <div n="div52" type="prosa-charta">
                <head n="head1">
                   <add n="add1">51.</add>
                </head> 
-               <p n="p2">Ad hęc comparaui seruum nomine Dragadet de Gurgi filio Beriuoy pro uno
+               <p n="p1">Ad hęc comparaui seruum nomine Dragadet de Gurgi filio Beriuoy pro uno
             mernico, quod fuit per manupreso de Ludino, et ipse mediator
             ex seruo.</p>
             </div>
-            <div n="div54" type="prosa-charta">
+            <div n="div53" type="prosa-charta">
                <head n="head1">
                   <add n="add1">52.</add>
                </head> 
-               <p n="p2">Denique comparaui seruum nomine Dedona cum filio de mulier
+               <p n="p1">Denique comparaui seruum nomine Dedona cum filio de mulier
             Gasari et de filiis suis pro <num n="num1" value="3">III</num>. solidis pro fine, ante ęcclesiam et coram omnes
             monachi, et omnes Tugarini</p>
             </div>
-            <div n="div55" type="prosa-charta">
+            <div n="div54" type="prosa-charta">
                <head n="head1">
                   <add n="add1">53.</add>
                </head> 
-               <p n="p2">Adhuc quoque <corr n="corr1">comparaui</corr> seruum nomine Maracus de Radaslauo de
+               <p n="p1">Adhuc quoque <corr n="corr1">comparaui</corr> seruum nomine Maracus de Radaslauo de
               Narento pro I. cauallum pro fine.</p>
             </div>
-            <div n="div56" type="prosa-charta">
+            <div n="div55" type="prosa-charta">
                <head n="head1">
                   <add n="add1">54.</add>
                </head> 
-               <p n="p2">Comparaui seruum nomine Uilcota quod dedit mihi Tollanus pro seruum quem
+               <p n="p1">Comparaui seruum nomine Uilcota quod dedit mihi Tollanus pro seruum quem
               mihi furauit Miraslauo pater Tollani per manupriso; coram
               Bartholei setniquo</p>
             </div>
-            <div n="div57" type="prosa-charta">
+            <div n="div56" type="prosa-charta">
                <head n="head1">
                   <add n="add1">55.</add>
                </head> 
-               <p n="p2">Comparaui seruum Radouano nomine ex Gampisanis pro X. solidis et
+               <p n="p1">Comparaui seruum Radouano nomine ex Gampisanis pro X. solidis et
               dedi illum per manum ad Ursanum de Sirnounyze.</p>
             </div>
-            <div n="div58" type="prosa-charta">
+            <div n="div57" type="prosa-charta">
                <head n="head1">
                   <add n="add1">56.</add>
                </head> 
-               <p n="p2">Denique comparaui seruum filius Mirane, et dedit michi per se puerulum nomine Bratessa;
+               <p n="p1">Denique comparaui seruum filius Mirane, et dedit michi per se puerulum nomine Bratessa;
             coram Brano iupano et filio eius, et prenominatus filius Mirane
               per manupriso.</p>
             </div>
-            <div n="div59" type="prosa-charta">
+            <div n="div58" type="prosa-charta">
                <head n="head1">
                   <add n="add1">57.</add>
                </head> 
-               <p n="p2">Et emi seruum nomine Nycola et soror eius nomine Marina ex 
+               <p n="p1">Et emi seruum nomine Nycola et soror eius nomine Marina ex 
             <milestone unit="page" n="milestone1"/>
-            monacho<emph n="emph2"> </emph>sancti
-            Bartholomei pro <num n="num3" value="3">III</num> solidis pro fine.</p>
+            monacho<emph n="emph1"> </emph>sancti
+            Bartholomei pro <num n="num1" value="3">III</num> solidis pro fine.</p>
             </div>
-            <div n="div60" type="prosa-charta">
+            <div n="div59" type="prosa-charta">
                <head n="head1">
                   <add n="add1">58.</add>
                </head> 
-               <p n="p2">Comparaui seruum nomine Desinna de Micha Tigala pro VII. solidis pro fine,
+               <p n="p1">Comparaui seruum nomine Desinna de Micha Tigala pro VII. solidis pro fine,
               per manupriso pater suus Uilconiza; coram Sarubba iupano et Gregorio
               Scafiule et Nyciforo filio Telina.</p>
             </div>
-            <div n="div61" type="prosa-charta">
+            <div n="div60" type="prosa-charta">
                <head n="head1">
                   <add n="add1">59.</add>
                </head> 
-               <p n="p2">Denique comparaui seruum nomine Lubizo de Gruba, filio Purci, pro I. ancilla et I.
+               <p n="p1">Denique comparaui seruum nomine Lubizo de Gruba, filio Purci, pro I. ancilla et I.
             seruiolum rogante me patre suo ut illum redimerem; coram Marstico Rusino
             et Grubizo suo consobrino198; pater uero suus per manupriso et mater.</p>
             </div>
-            <div n="div62" type="prosa-charta">
+            <div n="div61" type="prosa-charta">
                <head n="head1">
                   <add n="add1">60.</add>
                </head> 
-               <p n="p2">Ante presentiam horum testimonium:197 Duymo de Srenine et Uilkiki, et
+               <p n="p1">Ante presentiam horum testimonium:197 Duymo de Srenine et Uilkiki, et
               nepus suus Pradano et omnes monachi comparaui seruum
             nomine Raccana qui fuit Usemiro de Subbenzani pro <num n="num1" value="3">III</num>. solidis pro
             fine.</p>
             </div>
-            <div n="div63" type="prosa-charta">
+            <div n="div62" type="prosa-charta">
                <head n="head1">
                   <add n="add1">61.</add>
                </head> 
-               <p n="p2">Comparaui Lutizo seruum, nam ipse Lutizo mihi debebat <num n="num1" value="3">III</num>. solidos non habenti unde
+               <p n="p1">Comparaui Lutizo seruum, nam ipse Lutizo mihi debebat <num n="num1" value="3">III</num>. solidos non habenti unde
             redderet, dedit se mihi seruum; coram duo filii Cdedrago et Stiglizo.</p>
-               <pb n="pb3"/>
+               <pb n="pb1"/>
             </div>
-            <div n="div64" type="prosa-charta">
+            <div n="div63" type="prosa-charta">
                <head n="head1">
                   <add n="add1">62.</add>
                </head> 
-               <p n="p2">Comparaui seruum nomine Perinna pro II. solidis pro fine</p>
+               <p n="p1">Comparaui seruum nomine Perinna pro II. solidis pro fine</p>
             </div>
-            <div n="div65" type="prosa-charta">
+            <div n="div64" type="prosa-charta">
                <head n="head1">
                   <add n="add1">63.</add>
                </head> 
-               <p n="p2">Dedit hic Zacharia filium suum Chudali nomine ut esset
+               <p n="p1">Dedit hic Zacharia filium suum Chudali nomine ut esset
             seruus sancti Petri pro <num n="num1" value="3">III</num>. solidis pro fine.</p>
             </div>
-            <div n="div66" type="prosa-charta">
+            <div n="div65" type="prosa-charta">
                <head n="head1">
                   <add n="add1">64.</add>
                </head> 
-               <p n="p2">Et Raccana similiter dedit filium suum Belotiza in prefata ęcclesia in
+               <p n="p1">Et Raccana similiter dedit filium suum Belotiza in prefata ęcclesia in
             sempiternum.</p>
             </div>
-            <div n="div67" type="prosa-charta">
+            <div n="div66" type="prosa-charta">
                <head n="head1">
                   <add n="add1">65.</add>
                </head> 
-               <p n="p2">Denique Dabressa dedit filium Strosit in memorata ęcclesia ut esset
+               <p n="p1">Denique Dabressa dedit filium Strosit in memorata ęcclesia ut esset
             seruus in sempiternum.</p>
             </div>
-            <div n="div68" type="prosa-charta">
+            <div n="div67" type="prosa-charta">
                <head n="head1">
                   <add n="add1">66.</add>
                </head> 
-               <p n="p2">Comparaui seruum nomine Uelcoz de Nebistan pro II. solidis pro fine.</p>
+               <p n="p1">Comparaui seruum nomine Uelcoz de Nebistan pro II. solidis pro fine.</p>
             </div>
-            <div n="div69" type="prosa-charta">
+            <div n="div68" type="prosa-charta">
                <head n="head1">
                   <add n="add1">67.</add>
                </head> 
-               <p n="p2">Vtecha et duo filii sint similiter in Ęcclesia sancti Petri.</p>
+               <p n="p1">Vtecha et duo filii sint similiter in Ęcclesia sancti Petri.</p>
             </div>
-            <div n="div70" type="prosa-charta">
+            <div n="div69" type="prosa-charta">
                <head n="head1">
                   <add n="add1">68.</add>
                </head> 
-               <p n="p2">Porcarus similiter se dedit in nominata ęcclesia, eo quod
+               <p n="p1">Porcarus similiter se dedit in nominata ęcclesia, eo quod
             illum 
             <milestone unit="page" n="milestone1"/>
-            curauit de <corr n="corr2">capra</corr> abbas cum magno
+            curauit de <corr n="corr1">capra</corr> abbas cum magno
               dispendio, quam habebat in capite.</p>
             </div>
-            <div n="div71" type="prosa-charta">
+            <div n="div70" type="prosa-charta">
                <head n="head1">
                   <add n="add1">69.</add>
                </head> 
-               <p n="p2">Comparaui medium molinum de Brataaza fratre
+               <p n="p1">Comparaui medium molinum de Brataaza fratre
             Zezani quem dedit ei Criuali rex pro <hi n="hi1">XXV. </hi>cubiti de lenzo et I.
             galeta de uino pro fine; coram Madio Longo et Formino Salato.</p>
             </div>
@@ -915,14 +860,14 @@
             <head n="head1">
                <add n="add1">70.</add>
             </head> 
-            <p n="p2">Et alium medium fuit de sancto Petro, dedit illum mihi presbiter et omnes serui sancti
+            <p n="p1">Et alium medium fuit de sancto Petro, dedit illum mihi presbiter et omnes serui sancti
           Petri ut illum laborarem ut fieret medietas mihi et alia medietas illis; coram duo filii
           Cacaumti et duo filii Riuelli.</p>
-            <div n="div3" type="prosa-charta">
+            <div n="div1" type="prosa-charta">
                <head n="head1">
                   <add n="add1">70a</add> 
                </head>
-               <p n="p2">Omnia ista quę hic prelibata sunt uolumus in sempiternum ęcclesiam
+               <p n="p1">Omnia ista quę hic prelibata sunt uolumus in sempiternum ęcclesiam
             habere. Nostris autem filiis ad regendum hęc omnia comittimus, sed tali modo ut quę ibi
             sunt oblata, regant, custodiant, conseruent, et ab omni perturbationis incursu
             defendant. Cotidianum ut habeat officium, elaborent non ad opus suum, sed ad ęcclesie et
@@ -931,79 +876,79 @@
             et unum deum, et maledictionem CCCX. et VIII. sanctorum patrum consequatur et in
             perpetuo nostram possideat maledictionem.</p>
             </div>
-            <div n="div4" type="prosa-charta">
+            <div n="div2" type="prosa-charta">
                <head n="head1">
                   <add n="add1">71.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Memoratorium facio ego Brana una cum filiis meis uidelicet Dragus prior Tragurinus,
             nec non Ulcina, de terris, quę sunt a Sekyriza suptus
             Stilbiza. Volumus et confirmamus ut sit in monasterio sancti
             Petri, 
-          <emph n="emph2"/>
+          <emph n="emph1"/>
+                  <emph n="emph2"/>
                   <emph n="emph3"/>
                   <emph n="emph4"/>
                   <emph n="emph5"/>
-                  <emph n="emph6"/>
-                  <hi n="hi7"/>
-                  <pb n="pb8"/>
-          principis apostolorum pro <milestone unit="page" n="milestone9"/>
+                  <hi n="hi1"/>
+                  <pb n="pb1"/>
+          principis apostolorum pro <milestone unit="page" n="milestone1"/>
               remedio animę nostrę meique uiri nec non filiorum meorum. Quod si,
             quod absit, aliquis preter quod precepimus, egerit, iratum habeat trinum et unum deum,
             et nostram maledictionem consequatur. Hęc oblata sunt coram Duymo priore et Georgio
               Usdischa et omnes monachas sancti Benedicti.</p>
             </div>
-            <div n="div5" type="prosa-charta">
+            <div n="div3" type="prosa-charta">
                <head n="head1">
                   <add n="add1">72.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Breuem recordationem facio ego Rusinus qui et Morsticus de terris quę
             sunt in Tristenico. Pars que mihi contigit, uolo et iubeo ut sint
               in monasterio sancti Petri pro remedio animę. Nam si quis eam
               subtrahere, iratum habeat trinum et unum deum et meam maledictionem.
             Oblata sunt autem hęc coram Preda filio Stepaniti et Dragisse.</p>
             </div>
-            <div n="div6" type="prosa-charta">
+            <div n="div4" type="prosa-charta">
                <head n="head1">
                   <add n="add1">73.</add>
                </head> 
-               <p n="p2">Denique post mortem prefati Marstici uenit uxor eius et
+               <p n="p1">Denique post mortem prefati Marstici uenit uxor eius et
             affirmauit prefatas terras: coram presbitero Uilcana et filio Milese, et Rusello filio
             Souinnę et Desimiro filio Dreuaro nec non Deuiaano</p>
             </div>
-            <div n="div7" type="prosa-charta">
+            <div n="div5" type="prosa-charta">
                <head n="head1">
                   <add n="add1">74.</add>
                </head> 
-               <p n="p2">Postea uenit Slauiz rex et corroborauit prenominatas terras; coram Petro
+               <p n="p1">Postea uenit Slauiz rex et corroborauit prenominatas terras; coram Petro
             bano et Sarubba iupano et Ded filio Climini, et Uelcano
             setnico et Iuuano filio brauaro, et Zurra filio Tripuni238;
             presbiter Panesa, Budimir tepciza, et presbiter Uilcano.</p>
             </div>
-            <div n="div8" type="prosa-charta">
+            <div n="div6" type="prosa-charta">
                <head n="head1">
                   <add n="add1">75.</add>
                </head> 
-               <p n="p2">Ibidem Slauiz ante eosdem testes sicut partem fratris sui <corr n="corr1">affirmauit</corr> sic suam
+               <p n="p1">Ibidem Slauiz ante eosdem testes sicut partem fratris sui <corr n="corr1">affirmauit</corr> sic suam
             partem que ibi habebat in eadem ęcclesia pro remedio animę suę nec non sui fratris
             perpetualiter contulit.</p>
             </div>
-            <div n="div9" type="prosa-charta">
+            <div n="div7" type="prosa-charta">
                <head n="head1">
                   <add n="add1">76.</add>
                </head> 
-               <p n="p2">Denique ego filio Draganego
+               <p n="p1">Denique ego filio Draganego
             <milestone unit="page" n="milestone1"/>
             Prodano offero terra supra Saline in monasterio sancti Petri, quod mihi precepit
             dare pater meus pro remedio animę suę; coram auunculo suo Nictla nec non
             eiusdem ęcclesię abbate.</p>
             </div>
-            <div n="div10" type="prosa-charta">
+            <div n="div8" type="prosa-charta">
                <head n="head1">
                   <add n="add1">77.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Post hęc uero in ipsum monasterium Paulus et Petrus, filii
               Palunduzuli, fratrique nostri abbati
             dederunt terras pro remedium animę suę. Inprimis a Zunano
@@ -1012,45 +957,45 @@
               inpignatam Susazo pro IIII. solidis, et a sancto Casiano agrum in
             Spalazulo uero II. petie de terra, a Spinunti quoque I.
           
-          <pb n="pb2"/>
-          agrum et medietatem de domo in Spalato que fuit de Anzulo. Ista omnia supra <corr n="corr3">scripta</corr>
+          <pb n="pb1"/>
+          agrum et medietatem de domo in Spalato que fuit de Anzulo. Ista omnia supra <corr n="corr1">scripta</corr>
             dederunt pro remedio animę sue et quartam partem de terra eorum.</p>
             </div>
-            <div n="div11" type="prosa-charta">
+            <div n="div9" type="prosa-charta">
                <head n="head1">
                   <add n="add1">78.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Comparaui curtem in Brazza de Tessen Pupazuso a Gomilie
             omnes agros et uineas; coram omnibus insilanis</p>
             </div>
-            <div n="div12" type="prosa-charta">
+            <div n="div10" type="prosa-charta">
                <head n="head1">
                   <add n="add1">79.</add>
                </head> 
-               <p n="p2">
-                  <g n="g1">+.</g> Comparaui uineas in To <gap n="gap2"/> nico de Cipriano; et aliam comparaui uineam
+               <p n="p1">
+                  <g n="g1">+.</g> Comparaui uineas in To <gap n="gap1"/> nico de Cipriano; et aliam comparaui uineam
             ab ipso Cipriano ad uiam quę ducit ad uicum pro IIII. solidis pro fine; coram
             Vsemmiro.</p>
             </div>
-            <div n="div13" type="prosa-charta">
+            <div n="div11" type="prosa-charta">
                <head n="head1">
                   <add n="add1">80.</add> 
                </head>
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Et emi terram ubi dicitur a Praszo quę fuit auio meo Michazzo, quam uendidit mulier
             eius, et ego redemi eam ex illorum nepotibus, qui eam comparauerunt, uidelicet a
             Vrascana Matazza et de consobrino eius Uilcai, et a Michazza filio Jadrei pro X.
-            <milestone unit="page" n="milestone2"/>
+            <milestone unit="page" n="milestone1"/>
               solidis et II. argentei ac II.
             galetas uini pro fine; coram Astrizo podsuppo, et Togedrago cluzaro, et Uilcana brauaro,
             Damiano filio Matana, Petrana filio Scurpune, Balla, Duymo Dragauiti.</p>
             </div>
-            <div n="div14" type="prosa-charta">
+            <div n="div12" type="prosa-charta">
                <head n="head1">
                   <add n="add1">81.</add>
                </head> 
-               <p n="p2">Post hęc uero Suinimir rex dederat Stresi auunculi sui totas terras quę erant in
+               <p n="p1">Post hęc uero Suinimir rex dederat Stresi auunculi sui totas terras quę erant in
             Masaro, et incipente a Salona usque Biaki, ut ipse tolleret tributum ab eis. Denique
             uolebat mihi per uim tollere memoratam terram ita dicendo, quod essent
               regales Nam ego statim iui ad Suinimirum in Subenico, et duxi mecum
@@ -1064,20 +1009,20 @@
             duornicum, Ulcina sagorsticum, presbiterum Petrum cardinalem, Iohannem
             capellanum, Duymo podsuppum.</p>
             </div>
-            <div n="div15" type="prosa-charta">
+            <div n="div13" type="prosa-charta">
                <head n="head1">
                   <add n="add1">82.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Ad hęc emi terras a filiis Uiseni, Desizo et Bogdano, et aliis
-            fratribus, in loco ubi dicitur Podspilize cognomento <milestone unit="page" n="milestone2"/>
+            fratribus, in loco ubi dicitur Podspilize cognomento <milestone unit="page" n="milestone1"/>
               Mirizo, terra et silua et petras, totum quod est in Mirizo, pro VI.
             solidis pro fine, et 
-          <emph n="emph3"/>
+          <emph n="emph1"/>
+                  <emph n="emph2"/>
+                  <emph n="emph3"/>
                   <emph n="emph4"/>
-                  <emph n="emph5"/>
-                  <emph n="emph6"/>
-                  <pb n="pb7"/>
+                  <pb n="pb1"/>
           medium besuetie: coram his testibus: presbitero Dabro filio Telina, diacono Micha
               Iurre filio, diacono Cernata filius Pradani Pecce, diacono
             Dabro filius Petrici, Ulcina filio Climni, Grubo filio
@@ -1085,89 +1030,89 @@
             filio Petrici. Et ego Diti filius, diaconus Dabro, sicut audiui a prefatis
             testibus sic scripsi.</p>
             </div>
-            <div n="div16" type="prosa-charta">
+            <div n="div14" type="prosa-charta">
                <head n="head1">
                   <add n="add1">83.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Denique emi de Germano presbitero nepote Tamali tertiam
             partem Ecclesię sancti Martini que est sita in Monte Grasso et totas terras quę
-            pertinent de Tamali pro <num n="num2" value="3">III</num>. solidis et medium pro fine; coram his testibus: Nyciforo
+            pertinent de Tamali pro <num n="num1" value="3">III</num>. solidis et medium pro fine; coram his testibus: Nyciforo
             nepote Cini, Gauzulo filio Scanacani et Cegayta, Trunzanni filio Rugate,
             nec non Paulo Acina, Dominicus abbas sancti Stephani, Iohannes filius
               Putipani, et Sennica atque Cicla</p>
             </div>
-            <div n="div17" type="prosa-charta">
+            <div n="div15" type="prosa-charta">
                <head n="head1">
                   <add n="add1">84.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Emi uineas de Uilcumiro, fratre Prede suptus ęcclesia sancti Maximi, quę fuit
             Arabizo pro XII. galetas uini et I. porca pro fine coram Germano Tamali et Paulino
             monacho, et ceterorum monachorum.</p>
             </div>
-            <div n="div18" type="prosa-charta">
+            <div n="div16" type="prosa-charta">
                <head n="head1">
                   <add n="add1">85.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <g n="g1">+.</g> Post hęc uero emi ex Girdana medietatem de uinea, quę est ubi dicitur in
               Bresti totam quę sibi pertinet, pro I. solido et medium, pro fine
             modium de grano; coram Zirnugo et Clonimiro
-            <milestone unit="page" n="milestone2"/>
+            <milestone unit="page" n="milestone1"/>
             frater Grubti et
             Uitan frater duornico, et abbas cum suis monachis. Et ego Dabrus diaconus,
             sicut audiui ex memoratis testibus, sic scripsi.</p>
             </div>
-            <div n="div19" type="prosa-charta">
+            <div n="div17" type="prosa-charta">
                <head n="head1">
                   <add n="add1">86.</add>
                </head> 
-               <p n="p2">Denique emi de muliere Benede et ex filiis suis uinea, quę
+               <p n="p1">Denique emi de muliere Benede et ex filiis suis uinea, quę
             est subtus sancta Maria, quę uocatur Nache, prope mare, pro I. modio de
             grano et I. staro pro fine; Girdana et omnes monachi testes.</p>
             </div>
-            <div n="div20" type="prosa-charta">
+            <div n="div18" type="prosa-charta">
                <head n="head1">
                   <add n="add1">87.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <corr n="corr1">Comparaui</corr> filia Scarane cum filio suo Nadeia pro I. solido et II.
             stara de grano pro fine; Pradano duornico et frater eius testes.</p>
             </div>
-            <div n="div21" type="prosa-charta">
+            <div n="div19" type="prosa-charta">
                <head n="head1">
                   <add n="add1">88.</add>
                </head> 
-               <p n="p2">Post hęc emi mulier Neuadi cum filia sua pro I. solido et I. libra de
+               <p n="p1">Post hęc emi mulier Neuadi cum filia sua pro I. solido et I. libra de
             lino pro fine; ante Pradano duornico et fratre eius, et Boledrugo de Nacle
             et Kerna de Tugar cum fratre suo Belata et
             Girdana. Ego Dabro diaconus <corr n="corr1">scriptor</corr> sum et testis.</p>
-               <pb n="pb3"/>
+               <pb n="pb1"/>
             </div>
-            <div n="div22" type="prosa-charta">
+            <div n="div20" type="prosa-charta">
                <head n="head1">
                   <add n="add1">89.</add>
                </head> 
-               <p n="p2">Ad hęc comparaui mater Striani de Cirnecha, filio prioris,
+               <p n="p1">Ad hęc comparaui mater Striani de Cirnecha, filio prioris,
             pro <num n="num1" value="3">III</num>. solidis, et filium comparaui de Longobardis pro X. solidis in
             tali tenore, ut sint omnes fratres et sorores in seruitute; Duymo prior et filius eius
             testes.</p>
             </div>
-            <div n="div23" type="prosa-charta">
+            <div n="div21" type="prosa-charta">
                <head n="head1">
                   <add n="add1">90.</add>
                </head> 
-               <p n="p2">Emi de Bratizo filio Chudina <corr n="corr1">uineam</corr> et agrum a
+               <p n="p1">Emi de Bratizo filio Chudina <corr n="corr1">uineam</corr> et agrum a
               Bresti, secus me, pro IIII. galetas de uino et media pro fine;
               Cirnotta et presbitero Cechizo, et diaconus Stephanus, testes.</p>
-               <milestone unit="page" n="milestone3"/>
+               <milestone unit="page" n="milestone1"/>
             </div>
-            <div n="div24" type="prosa-charta">
+            <div n="div22" type="prosa-charta">
                <head n="head1">
                   <add n="add1">91.</add>
                </head> 
-               <p n="p2">Breuem recordationem ego Petrizo facio de conuentione quam feci cum
+               <p n="p1">Breuem recordationem ego Petrizo facio de conuentione quam feci cum
             Ludino, filio Miroslauo quando illum retinui Spalato apud me. Nam dimisi sibi duos
             seruos et trecentos porcos, tali quidem tenore, ut si deinceps michi faceret aliquod
             damnum, isti parentes eius, scilicet Vilcano de Goynego et
@@ -1176,64 +1121,64 @@
             ipse Ludinus, ut michi componerent damnum proneminati parentes; insuper et nepta dedi ei
             baptizare.</p>
             </div>
-            <div n="div25" type="prosa-charta">
+            <div n="div23" type="prosa-charta">
                <head n="head1">
                   <add n="add1">92.</add>
                </head> 
-               <p n="p2">Post hęc habii ad monasterium, sed ipse non quieuit facere michi damnum. Uenit et
+               <p n="p1">Post hęc habii ad monasterium, sed ipse non quieuit facere michi damnum. Uenit et
             deuastauit totam uillam meam, cepit quatuor seruos et duas ancillas, et patrem
             ancillarum flagellauit usque ad mortem; et cepit duos optimos equos, et unum mulum et
             tres boues, et due uacce, et quinque telę de sagis, habentes unaquaque uiginti cubiti et
             quatuor bela et nouem camise, et una racana, due cucure, et quatuor spate
             et quinque para...313 et <corr n="corr1">duodecim</corr> marre, et sex uomeres, et quinque
             delatoria et sex saga, octo putatoria et duodecim sicli, et sex porcos.
-            Post hęc habii ad prenominatos parentes eius, uidelicet et per manu <milestone unit="page" n="milestone2"/> prisos ita dicendo: <q n="q3">reddite michi damnum quę fecit uester consanguineus.</q>
-            At ipsi responderunt: <q n="q4">uerum est sicut tu dicis; iam nos te rogamus ut accipias totam
-            hęreditatem illorum que pertinet illis ex suo patre.</q> Sed ego nolebam, <q n="q5">nisi michi
+            Post hęc habii ad prenominatos parentes eius, uidelicet et per manu <milestone unit="page" n="milestone1"/> prisos ita dicendo: <q n="q1">reddite michi damnum quę fecit uester consanguineus.</q>
+            At ipsi responderunt: <q n="q2">uerum est sicut tu dicis; iam nos te rogamus ut accipias totam
+            hęreditatem illorum que pertinet illis ex suo patre.</q> Sed ego nolebam, <q n="q3">nisi michi
             uinxeritis terra a Belay quę terra incipiente a muris usque ad meas terras, quas emi a
             Tomizay et de fratre suo Sbina.</q> Denique dederunt michi totam hereditatem ipsorum et
             ipsa terra a Belay; ante presentia horum testimoniorum, presbiterorum
               Iohannes Kerne filio, Micha de Suliza,
-            Michune monacho, Sauida, Uratinna de Malla. Nam ipsi <corr n="corr6">prenominati</corr>
+            Michune monacho, Sauida, Uratinna de Malla. Nam ipsi <corr n="corr2">prenominati</corr>
             testes, presbiter Iohannes et filio Suliza, et Sauida et filio
               Malla Uratina, ambulauerunt per totam
             terras, quas michi dederunt parentes illorum. Postea iuimus 
-          <emph n="emph7"/>
-                  <emph n="emph8"/>
-                  <emph n="emph9"/>
-                  <emph n="emph10"/>
-                  <emph n="emph11"/>
-                  <pb n="pb12"/>
+          <emph n="emph1"/>
+                  <emph n="emph2"/>
+                  <emph n="emph3"/>
+                  <emph n="emph4"/>
+                  <emph n="emph5"/>
+                  <pb n="pb1"/>
           a Raccinico et dederunt totum, quod est in Raccinico et in
               Iessenemo totas uineas et ubicumque quę pertinet illis.</p>
             </div>
-            <div n="div26" type="prosa-charta">
+            <div n="div24" type="prosa-charta">
                <head n="head1">
                   <add n="add1">93.</add>
                </head> 
-               <p n="p2">Post hęc dicebat Susalo de Bilsoy: <q n="q1">quia non est uerum, non dedit a Racinico.</q> Sed
+               <p n="p1">Post hęc dicebat Susalo de Bilsoy: <q n="q1">quia non est uerum, non dedit a Racinico.</q> Sed
             prescripti testes testificauerunt in Clisa coram iudice
             Volenno et Vlcina filio brauari nec non et Vlcina de
               Stresazza, Tesseno de Sittimiro, Tomidrugo
-            filio Naiesda, Dimitro <corr n="corr2">filio</corr> Stocolle quod
+            filio Naiesda, Dimitro <corr n="corr1">filio</corr> Stocolle quod
             Racinico et omnia quę illis pertinent in 
-            <milestone unit="page" n="milestone3"/>
+            <milestone unit="page" n="milestone1"/>
             in
             sempiternum.</p>
             </div>
-            <div n="div27" type="prosa-charta">
+            <div n="div25" type="prosa-charta">
                <head n="head1">
                   <add n="add1">94.</add>
                </head> 
-               <p n="p2">Denique emi terra de Tomizay et de fratre suo Sbina in loco ubi dicitur a Belay ex uno
+               <p n="p1">Denique emi terra de Tomizay et de fratre suo Sbina in loco ubi dicitur a Belay ex uno
             torrente usque ad alium pro trecentos uellera de lana et quinquaginta dedi eis pro
             fine.</p>
             </div>
-            <div n="div28" type="prosa-charta">
+            <div n="div26" type="prosa-charta">
                <head n="head1">
                   <add n="add1">95.</add>
                </head> 
-               <p n="p2">Et eodem die comparaui de Uilcmiro et de fratre suo Preda curtem in
+               <p n="p1">Et eodem die comparaui de Uilcmiro et de fratre suo Preda curtem in
             Sirnouniza et uinea in Peruno pro uno equo; ante presentia horum testium: presbiter
             Vilcana, Teodorus Pudisini, Sauida et filio, Malla et filio
             Souinna 339 et filio eius Rusello, Vecemiro et filio eius
@@ -1242,11 +1187,11 @@
               Cobilahc De duobus emtionibus isti prenominati sunt testes, et de
             Tomizay et de Preda.</p>
             </div>
-            <div n="div29" type="prosa-charta">
+            <div n="div27" type="prosa-charta">
                <head n="head1">
                   <add n="add1">96.</add>
                </head> 
-               <p n="p2">Ego Gregorius abbas sancti Petri recordationem facio qualiter
+               <p n="p1">Ego Gregorius abbas sancti Petri recordationem facio qualiter
             interpellaui cum Teobaldo preposito Laurentii Strigonensis archiepiscopi in synodo
               Iaderensis, coram archiepiscopo Crescentio et Gregorio Iaderensi
             episcopo, nec non Lupo Arbensi episcopo, atque Petro Absarensi episcopo,
@@ -1254,41 +1199,41 @@
             <milestone unit="page" n="milestone1"/>
                         episcopo, et Duymo abbate sancti Stephani, et Desa sancti
             Grisogoni abbate, et Damiano Tragurensi abbate, et alii plures qui ibi
-            interfuerunt. Nam <sic n="sic2">Teobadus</sic> dicebat, quod totas terras illas incipiente a Geseniza
-            usque ad Tessemil dub pertinet a sancto Moysen. E contra ego hęc respondebam: <q n="q3">non est
+            interfuerunt. Nam <sic n="sic1">Teobadus</sic> dicebat, quod totas terras illas incipiente a Geseniza
+            usque ad Tessemil dub pertinet a sancto Moysen. E contra ego hęc respondebam: <q n="q1">non est
             uerum. Nam sunt ibi terre de sancto Domnio et de sancto Martino et de
             sancto Gregorio, et alię sunt de nobilibus Chroatensis et ignobilibus insuper et de
             priore Valiza.</q> 
-                  <corr n="corr4">Et</corr> contra ipse dicebat: <q n="q5">habetis testes?</q> Ego 
-          <emph n="emph6"/>
+                  <corr n="corr1">Et</corr> contra ipse dicebat: <q n="q2">habetis testes?</q> Ego 
+          <emph n="emph1"/>
+                  <emph n="emph2"/>
+                  <emph n="emph3"/>
+                  <emph n="emph4"/>
+                  <emph n="emph5"/>
+                  <emph n="emph6"/>
                   <emph n="emph7"/>
                   <emph n="emph8"/>
                   <emph n="emph9"/>
-                  <emph n="emph10"/>
-                  <emph n="emph11"/>
-                  <emph n="emph12"/>
-                  <emph n="emph13"/>
-                  <emph n="emph14"/>
-                  <pb n="pb15"/>
-                  <corr n="corr16">respondi</corr>: <q n="q17">plures testes habeo, presbiteros et laycos.</q> Denique sic iudicauerunt
+                  <pb n="pb1"/>
+                  <corr n="corr2">respondi</corr>: <q n="q3">plures testes habeo, presbiteros et laycos.</q> Denique sic iudicauerunt
             prephatus archiepiscopus, et alii episcopi ut sicut presbiteri et alii seniores
             dixerint: sit ratum et firmum, quod et factum est. Postea pereximus utrique ad testes,
-            ego et Teobaldus, et cepimus interrogare illos ita dicentes: <q n="q18">Sunt omnes terre iste de
-            sancto Moysen, an non?</q> Qui dixerunt: <q n="q19">non omnes sed solumodo insula quę infra Montem
+            ego et Teobaldus, et cepimus interrogare illos ita dicentes: <q n="q4">Sunt omnes terre iste de
+            sancto Moysen, an non?</q> Qui dixerunt: <q n="q5">non omnes sed solumodo insula quę infra Montem
             Grassum est, pertinet sancto Moysi.</q> Histi sunt testes qui testificauerunt: presbiter
             Ponesa, et frater eius Belzo, Pradano domiquo, presbiter Clemente de
             Srenina, et omnes Srenani. Isti testificauerunt coram Crescesntio
             archiepiscopo et Dabro diacono 
-            <milestone unit="page" n="milestone20"/>
+            <milestone unit="page" n="milestone2"/>
             et presbitero Iohanne filio
             Kerna, et presbitero Ulcina, et Fusco iudicatore, Nicyforo filio Cino,
             Lucaro filio Benetie, Gaudio Frucci.</p>
             </div>
-            <div n="div30" type="prosa-charta">
+            <div n="div28" type="prosa-charta">
                <head n="head1">
                   <add n="add1">97.</add>
                </head> 
-               <p n="p2">In Christi nomine. Anno ab incarnatione domini nostri Jesu Christi, millesimo centesimo
+               <p n="p1">In Christi nomine. Anno ab incarnatione domini nostri Jesu Christi, millesimo centesimo
             septuagesimo sexto, <sic n="sic1">inidictione</sic> uero nona. Regnante domino nostro Manuele sanctissimo
             inperatore et in sede beati Domnii presidente domino Rainerio, uenerabili archiepiscopo,
             et in ciuitate Spalatina existente comite Martino, et in buccaratu Miche filii
@@ -1315,8 +1260,8 @@
             sibi per uiolentiam et usurpationem retineret, quibus denique iuppanus Talmazo, noster
             aduocatus, de uoluntate et mandato omnium 
           
-          <pb n="pb2"/>
-          nostrum ita respondit: <q n="q3">Monasterium sancti Petri de Gomai a longis
+          <pb n="pb1"/>
+          nostrum ita respondit: <q n="q1">Monasterium sancti Petri de Gomai a longis
               retro temporibus sepedictas terras possedit, quas quidem terras Rossene
               Moristicus prius donauit monasterio sancti Petri de Gomai
             et post mortem ipsius Rossene Moristici, Petrus Slauus, filius eius, et Slauizo
@@ -1328,7 +1273,7 @@
               manasterio fuerint tradite.</q> Cartam confirmationis
               demonstrauimus et in presentia omnium assistentium perlecta fuit.
             Auditis igitur utriusque partis allegationibus et uisa carta confirmationis pariter, et
-            audita ratione ac <sic n="sic4">iuistitia</sic> dictante dominus Rainerius uenerabilis
+            audita ratione ac <sic n="sic2">iuistitia</sic> dictante dominus Rainerius uenerabilis
             Spalatensis archiepiscopus iudicauit: quod ego Johannes sancti Domnii sacrista et
             procurator cenobii sancti Petri de Gomai et iuppanus Talmazo, predictam cartam
             confirmationis ueram esse, iuramento firmaremus et terre sepedicte, sicut prius fuerant
@@ -1345,11 +1290,11 @@
               Uurata et Dragus iuppanus. Et ego magister Gualterius, communis notarius
             huius cartule scriptor, testis sum.</p>
             </div>
-            <div n="div31" type="prosa-charta">
+            <div n="div29" type="prosa-charta">
                <head n="head1">
                   <add n="add1">98.</add>
                </head> 
-               <p n="p2">In Christi nomine, amen. Anno dominice incarnationis, millesimo centesimo octogesimo
+               <p n="p1">In Christi nomine, amen. Anno dominice incarnationis, millesimo centesimo octogesimo
             VII, indictione V., existente Petro filio Chitleni, uenerabili Spalatensi archiepiscopo,
             Issaac sancti Stephani abbate, predicti archiepiscopi vicario insurrexit
               Cirne filius Chrappe aduersum monasterium sancti Petri de
@@ -1361,16 +1306,16 @@
             sancti Petri iupanus ibidem fecit, astantibus testibus Magerro et Duymo Pinose et etiam
             predictus abbas Issaac suum prepositum Martinum pristaldum dedit. Ego Sabatius
             subdiaconus, communis iuratus notarius, precepto abbatis Issaac hoc breue scripsi.</p>
-              <milestone unit="page" n="milestone3"/>
-               <gap n="gap4"/>
+              <milestone unit="page" n="milestone1"/>
+               <gap n="gap1"/>
           
-               <pb n="pb5"/>
+               <pb n="pb1"/>
             </div>
-            <div n="div32" type="prosa-charta">
+            <div n="div30" type="prosa-charta">
                <head n="head1">
                   <add n="add1">99.</add>
                </head> 
-               <p n="p2">In nomine domini incipit nota librorum. Inprimis misalum et
+               <p n="p1">In nomine domini incipit nota librorum. Inprimis misalum et
               duos tefenarios, nocturnales et alios uernales, et uitas
             patrum, et tres omelias, et matitunalem, et pasionalem, et unum
             collectarium, et unum penitentialem, et unum ordo ad uisitandum infirmum, et unum
@@ -1384,11 +1329,11 @@
               francigenis
           </p>
             </div>
-            <div n="div33" type="prosa-charta">
+            <div n="div31" type="prosa-charta">
                <head n="head1">
                   <add n="add1">100.</add>
                </head> 
-               <p n="p2">Tempore transacto erat consuetudo in regno Croatorum: erant septem bani qui eligerant
+               <p n="p1">Tempore transacto erat consuetudo in regno Croatorum: erant septem bani qui eligerant
             regem in Croacia, quando rex sine liberis moriebatur, silicet banus
             Croacie primus, banus Bosniensis secundus, banus Sclauonie tercius, banus Posige
             quartus, banus Podrauie quintus, banus Albanie sestus, banus
@@ -1398,13 +1343,13 @@
               Cudomirigi, Mogorouigi, Subigi: isti sunt principales quibus pertinet
             banatum et mitunt sortes cui eorum sors dederit
           </p>
-               <milestone unit="page" n="milestone3"/>
+               <milestone unit="page" n="milestone1"/>
             </div>
-            <div n="div34" type="prosa-charta">
+            <div n="div32" type="prosa-charta">
                <head n="head1">
                   <add n="add1">101</add> 
                </head>
-               <p n="p2">In Christi nomine et eiusdem incarnacionis, millesimo octauogesimo,
+               <p n="p1">In Christi nomine et eiusdem incarnacionis, millesimo octauogesimo,
             indiccione uero octaua. Temporibus quoque domini Laurencii venerabilis archiepiscopi
             Spalatine sedis, regis Croatorum Suinimiri nec non Uolize prioris. Ego Petrus Cerni qui
             et Gumay filius, una cum uxore mea domina Anna dedimus omnes terras que
@@ -1412,25 +1357,25 @@
             torentem qui uocatur Gargenac et usque ad aquam qua uocatur
               Cripotim et inde ad alium torentem et inde uersus mar ad
             murum pristinum. Et ego Ysac habas sancti Stefani hoc scripsi.</p>
-               <pb n="pb3"/>
+               <pb n="pb1"/>
             </div>
-            <div n="div35" type="prosa-charta">
+            <div n="div33" type="prosa-charta">
                <head n="head1">
                   <add n="add1">102.</add>
                </head> 
-               <p n="p2">Isti fuerunt bani in Croatia de genere Croatorum a tempor regis Suetopelegi
+               <p n="p1">Isti fuerunt bani in Croatia de genere Croatorum a tempor regis Suetopelegi
             usque ad tempus Suenimiri regis Croatorum: Stephanus Cucar,</p>
-               <p n="p3">Saruba (... Mog ... Cacig ... car ... can), Slauaz ...
+               <p n="p2">Saruba (... Mog ... Cacig ... car ... can), Slauaz ...
               <corr n="corr1">Cucar</corr> fuit .....</p>
-               <p n="p4">esimir, Cucar tempore Suenimiri Suenimiri fuit Petrus
-            <corr n="corr1">Snacig</corr> banus. <corr n="corr2">Omnes</corr> isti <corr n="corr3">fuerunt</corr> ... in <corr n="corr4">Croatia</corr>. <milestone unit="page" n="milestone5"/>
+               <p n="p3">esimir, Cucar tempore Suenimiri Suenimiri fuit Petrus
+            <corr n="corr1">Snacig</corr> banus. <corr n="corr2">Omnes</corr> isti <corr n="corr3">fuerunt</corr> ... in <corr n="corr4">Croatia</corr>. <milestone unit="page" n="milestone1"/>
                </p>
             </div>
-            <div n="div36" type="prosa-charta">
+            <div n="div34" type="prosa-charta">
                <head n="head1">
                   <add n="add1">103.</add>
                </head> 
-               <p n="p2">Inprimis I. cruce de ramo que fuit facta in Limoza et duo pluuialis:418
+               <p n="p1">Inprimis I. cruce de ramo que fuit facta in Limoza et duo pluuialis:418
             unum est purpura et alter examitum, et due418a planete: una bergata et alia purpura, et
             tertia de banbaco, et I. dalmatica alba, et una stritta, et <num n="num1" value="3">III</num>. pannis de
             sirico, et unum pannum inpintum, et <num n="num2" value="3">III</num>. paratura de lino et IIII. curtine, et
@@ -1439,25 +1384,25 @@
               missalis Et I. omelia de aduento, et I. omelia quadragesimalo, et I.
             omelia post parasceuen, et I. omelia Gregorialis, et I. vita patrum, et II.
             antifonariis, et I. mattinalo, et IIII. psalteriis, et II. imnis, et I.
-            canones, et I. liber. Et est aput <sic n="sic3">ecclesianm</sic> I. matitunalum et I.
+            canones, et I. liber. Et est aput <sic n="sic1">ecclesianm</sic> I. matitunalum et I.
             imnus, et I. manualum, et I. orationalum et I. psalterius, et I. regula,
             et I. sermocinalis. Istis rebus damus tenere in manus Talmacius. Testes
-            sunt Petris et Falcus, et presbiter Iuanus et clericus <corr n="corr4">Benedictus</corr>
+            sunt Petris et Falcus, et presbiter Iuanus et clericus <corr n="corr1">Benedictus</corr>
                </p>
             </div>
-            <div n="div37" type="prosa-charta">
+            <div n="div35" type="prosa-charta">
                <head n="head1">
                   <add n="add1">104.</add>
                </head> 
-               <p n="p2">Et hec sunt uestimenta uius ecclesie: Inprimis I-a alba cum frisio, et I. planeta, et
+               <p n="p1">Et hec sunt uestimenta uius ecclesie: Inprimis I-a alba cum frisio, et I. planeta, et
             II. camisia, et I. nautirzal, et I. pari altaris de
               zandato, et I. uergato.</p>
             </div>
-            <div n="div38" type="prosa-charta">
+            <div n="div36" type="prosa-charta">
                <head n="head1">
                   <add n="add1">105.</add>
                </head> 
-               <p n="p2">In Christi nomine, amen. Anno incarnacionis eiusdem millesimo octauo
+               <p n="p1">In Christi nomine, amen. Anno incarnacionis eiusdem millesimo octauo
               decimo, indiccione nona. Temporibus quoque domini Laurencii, venerabilis
             archiepiscopi sedis Spalatine, domini Suenimiri regis Chroatorum, nec non
             Volize prioris ... Petrus Çerni qui et Gumay filius una cum
@@ -1465,23 +1410,23 @@
                 <emph n="emph1"/>
                   <emph n="emph2"/>
                   <emph n="emph3"/>
-                  <pb n="pb4"/> terras quas habemus in loco uocato Campo,
+                  <pb n="pb1"/> terras quas habemus in loco uocato Campo,
             incipiendo a muro in inferiori uersus mare recta linea et sicut curit litus usque ad
               potoc et usque ad ripam superiorem et recte sicut curit ripa uersus
-              torrentem usque ad pedem montis po <gap n="gap5"/> longe et uersus
-            mare sicut curit ripa et inde ad <corr n="corr6">murum</corr> pristinum; et hii fuerunt testes: Bogdan,
-              Rac, Dragonego <gap n="gap7"/> ic <corr n="corr8">Juray</corr> setnico et
+              torrentem usque ad pedem montis po <gap n="gap1"/> longe et uersus
+            mare sicut curit ripa et inde ad <corr n="corr1">murum</corr> pristinum; et hii fuerunt testes: Bogdan,
+              Rac, Dragonego <gap n="gap2"/> ic <corr n="corr2">Juray</corr> setnico et
             aliis. Et ego Dobrona hoc breue scripsi iusu Pribimiri uicarii regis.
-              <milestone unit="page" n="milestone9"/>
+              <milestone unit="page" n="milestone1"/>
                </p>
             </div>
-            <div n="div39" type="prosa-charta">
+            <div n="div37" type="prosa-charta">
                <head n="head1">
                   <add n="add1">106.</add>
                </head> 
-               <p n="p2">
+               <p n="p1">
                   <gap n="gap1"/> as Pribettiz cum fratre et cum aliis qui morantur in Schilmiz sunt ecclesie
-            sancti Petri. <milestone unit="page" n="milestone2"/>
+            sancti Petri. <milestone unit="page" n="milestone1"/>
                </p>
             </div>
          </div>

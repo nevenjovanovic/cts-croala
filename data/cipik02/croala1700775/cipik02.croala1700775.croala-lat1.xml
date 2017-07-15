@@ -36,52 +36,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="2"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="10"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="3"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="3"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="38"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="trailer" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -144,17 +99,17 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="poesis-epigramma" met="elegiacum">
             <head n="head1">CIPPICVS AD LECTOREM.</head>
-            <l n="l2">Quem petis, <foreign n="foreign1" xml:lang="grc">ὦ</foreign> lector studiose, Terentius hic est,</l>
-            <l n="l3" met="pentameter">Gloria Romani Cecropiique salis,</l>
-            <l n="l4">Cuius Melpomene, si fas est dicere, sacro</l>
-            <l n="l5" met="pentameter">Ore locuta dea est, ore locuta dea est.</l>
-            <l n="l6">Hic tamen ad Latias mendosus uenerat aures</l>
-            <l n="l7" met="pentameter">Iamque parum, recte quod legeretur, erat</l>
-            <l n="l8">Sed Raphael uitio succurrit Regius isti,</l>
-            <l n="l9" met="pentameter">Nec piguit tanti ferre laboris onus.</l>
-            <l n="l10">Quodcunque exedit carie longaeua uetustas,</l>
-            <l n="l11" met="pentameter">Addidit et totum rite poliuit opus.</l>
-            <trailer n="trailer12">
+            <l n="l1">Quem petis, <foreign n="foreign1" xml:lang="grc">ὦ</foreign> lector studiose, Terentius hic est,</l>
+            <l n="l2" met="pentameter">Gloria Romani Cecropiique salis,</l>
+            <l n="l3">Cuius Melpomene, si fas est dicere, sacro</l>
+            <l n="l4" met="pentameter">Ore locuta dea est, ore locuta dea est.</l>
+            <l n="l5">Hic tamen ad Latias mendosus uenerat aures</l>
+            <l n="l6" met="pentameter">Iamque parum, recte quod legeretur, erat</l>
+            <l n="l7">Sed Raphael uitio succurrit Regius isti,</l>
+            <l n="l8" met="pentameter">Nec piguit tanti ferre laboris onus.</l>
+            <l n="l9">Quodcunque exedit carie longaeua uetustas,</l>
+            <l n="l10" met="pentameter">Addidit et totum rite poliuit opus.</l>
+            <trailer n="trailer1">
                <foreign n="foreign1" xml:lang="grc">Τέλος.</foreign>
             </trailer>
          </div>

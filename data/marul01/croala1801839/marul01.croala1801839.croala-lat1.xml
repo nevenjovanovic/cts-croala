@@ -40,63 +40,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="3"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="creation" occurs="3"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="4"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="9"/>
-          <tagUsage gi="l" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="3"/>
-          <tagUsage gi="language" occurs="3"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="11"/>
-          <tagUsage gi="opener" occurs="2"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="18"/>
-          <tagUsage gi="particDesc" occurs="3"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="4"/>
-          <tagUsage gi="place" occurs="4"/>
-          <tagUsage gi="placeName" occurs="5"/>
-          <tagUsage gi="profileDesc" occurs="3" withId="2"/>
-          <tagUsage gi="ptr" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="8"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="3"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="49"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="15"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="3"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -250,13 +194,13 @@
          </titlePage>
 
 
-         <div n="div2" type="dedicatio" corresp="#marulicbuca15220403">
+         <div n="div1" type="dedicatio" corresp="#marulicbuca15220403">
 
             <opener n="opener1"> Reuerendo patri Dominico Buchiae Catharensi ordinis
      praedicatorum, theologiae professori, M. Marulus in Domino
      salutem. </opener>
 
-            <p n="p2">Cum tuis ad populum sermonibus, Dominice pater, frequenter
+            <p n="p1">Cum tuis ad populum sermonibus, Dominice pater, frequenter
 interfuissem (delectabant enim me plurimum), postulasti a me,
 et quidem enixe, ut Pontifici Maximo per litteras exponerem
 Christianorum suorum calamitates, quae ab infidelibus quotidie
@@ -265,7 +209,7 @@ supplicarem ne saltem reliquias ab iisdem inimicis opprimi
 patiatur, sed apostolica authoritate reges atque principes
 nostros ab armis ad concordiam reuocatos ad expeditionem
 aduersum infideles parandam compellat.</p>
-            <p n="p3">Cum hoc a me exigeres, non parum suspenso animo steti,
+            <p n="p2">Cum hoc a me exigeres, non parum suspenso animo steti,
 dubius praestarene id tibi debeam an negare.  Rerum
 necessitas ut praestarem, scribendi difficultas ut negarem
 jubebat.  Lachrimae multorum et miserabilis uicinorum ad
@@ -284,16 +228,16 @@ Quod si res ista, quam orditi sumus, tam prospere quam optamus
 successerit, nihil scriptis meis tribuas uelim sed Ei soli
 gratias age qui, ut nos seruaret, et te inspirauit ut rogares
 et me adiuuit ut rogata perficerem.</p>  
-            <closer n="closer4">Vale et pro me ora.
+            <closer n="closer1">Vale et pro me ora.
     Tertio Nonas Apriles, Anno Salutis MDXXII.</closer>
          </div>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="epistula" corresp="#marulichadrianvi1522">
             <opener n="opener1">MAXIMO PONTIFICI ADRIANO VI. M. MARVLVS SPALATENSIS HVMILIS AC
 SVPPLEX</opener>
 
-            <p n="p2"> Quum me, Sanctissime pater, uel exiguae admodum uel
+            <p n="p1"> Quum me, Sanctissime pater, uel exiguae admodum uel
 nullius omnino authoritatis esse scirem, te autem in summo
 omnium quae in terra sunt dignitatum honorumque fastigio
 sedere non ignorarem, uerebar profecto ad tantae maiestatis
@@ -302,7 +246,7 @@ diu dubium ad scribendum et ipsa tandem rerum ingruentium
 necessitas impulit et animi tui ubique uulgata mansuetudo
 persuasit.</p>
 
-            <p n="p3"> Atque ita mecum ipse tacitus ratiocinari coepi: si
+            <p n="p2"> Atque ita mecum ipse tacitus ratiocinari coepi: si
 muliercula illa Samaritana cum Christo, Dei filio, colloqui
 non timuit, cur ego eius uicarium humiliter ac submisse affari
 formidabo?  An non etiam Deum patrem quotidie ut nostri
@@ -316,7 +260,7 @@ procul extimescendum.  Hoc autem ne accidat per te unum
 praestari posse confidimus, si studium curamque omnem, sicuti
 debes, adhibere non destiteris.</p>
 
-            <p n="p4"> Mala quae nos premunt haec sunt.  Quotidianis
+            <p n="p3"> Mala quae nos premunt haec sunt.  Quotidianis
 infidelium Turcarum incursionibus infestamur, sine
 intermissione carpimur; alii trucidantur, alii in captiuitatem
 abeunt; res diripiuntur, pecus abducitur, uillae uicique igni
@@ -341,7 +285,7 @@ subire cogamur.  Praesentes nostras erumnas breuiter
 recensuimus; iam aliorum quoque calamitates cursim
 perstringemus.
 </p>
-            <p n="p5"> Omitto superioribus temporibus ista omnium
+            <p n="p4"> Omitto superioribus temporibus ista omnium
 Antichristorum impiissima natio quot regna Christianis
 abstulerit, quot prouincias, quot oppida sibi subdiderit,
 ecclesias euerterit, aras prophanauerit.  Quae, quoniam
@@ -364,7 +308,7 @@ nihil praetermittere impii pium putant quod religioni nostrae
 ludibrio fore arbitrantur.  Atque talia quidem et quondam
 passi sumus et nunc patimur.</p>
 
-            <p n="p6"> Post haec commune periculum exponam etiam illis qui
+            <p n="p5"> Post haec commune periculum exponam etiam illis qui
 nihil horum experti sunt imminens atque timendum. <note n="note1">Periculum</note>
  Unum quippe insatiabilis lupi huius propositum est nunquam
 conquiescere donec quicquid adhuc reliquum Christianae
@@ -395,7 +339,7 @@ potitus fuerit, aperta erit ei uia Germaniam Italiamque
 inuadendi, Illyriam omnem opprimendi, reliquum denique
 Christianorum orbem sibi subiugandi.</p>
 
-            <p n="p7"> Hic ergo obsistendum, hic omni ui atque conatu
+            <p n="p6"> Hic ergo obsistendum, hic omni ui atque conatu
 repugnandum, ne forte aperto ostio hic tam immanium minarum
 cataclysmus longe lateque sese effundat et quod residuum est
 terrarum occupet.  Commune periculum communibus armis
@@ -451,7 +395,7 @@ desaeuire!  Eodem nomine censemini, eiusdem religionis
 professionem tenetis; concordi ore unum patrem qui in coelis
 est confitemini, unum inuocate.  Si per omnia igitur
 fratres estis, ut quid fraternitatis, immo etiam humanitatis
-obliti, discordibus animis inuicem confligitis? <note n="note2">Ratio Deum
+obliti, discordibus animis inuicem confligitis? <note n="note1">Ratio Deum
 placandi</note>  Nonne ob hoc maxime irascitur uobis Deus atque
 ut criminis huius a uobis poenas exigat infidelibus fauet
 atque opitulatur? Ex quo nulla sane mihi uidetur alia
@@ -471,13 +415,13 @@ furentes placa, in gratiam reuocatos hortare ut societate
 inita coniunctisque copiis barbaricae gentis uim orbi minantem
 reprimant, fessis periclitantibusque Christicolis adsint et
 uniuersae Dei ecclesiae, quam Maumethana perfidia destruere
-molitur, simul opem ferant. <note n="note3">Poena reorum differenda</note>  Sed
+molitur, simul opem ferant. <note n="note2">Poena reorum differenda</note>  Sed
 et tu, Sanctissime domine, si quos in Christianis principibus
 ecclesiae Dei dicto minus audientes eiusque statui ulla in
 parte iniurias habes, differ ultionem, obsecro, et iustam
 aduersus delinquentes poenam in aliud tempus reserua
 inferendam, sicuti egisse prudentissimum quondam regem Dauidem
-sacra testatur historia. <note n="note4">Rex Dauid</note>  Ioabum enim ducem et
+sacra testatur historia. <note n="note3">Rex Dauid</note>  Ioabum enim ducem et
 Semeum Gerrae filium noluit tunc punire cum peccauerunt: et
 quidem alter duos sibi pares gloriae emulatione per dolum
 interfecerat, alter ipsi maledixerat regi.  At postquam
@@ -495,7 +439,7 @@ professionis suae consortes conceperant, in Maumetanam
 belluam, toti ecclesiae formidabilem, simul effundant. 
 Non est huius temporis (mihi crede) domesticarum iniuriarum
 meminisse nec inter se depugnare uelle, ne forte apologo detur
-locus muris et ranae. <note n="note5">Apologus muris et ranae</note>  Dum enim
+locus muris et ranae. <note n="note4">Apologus muris et ranae</note>  Dum enim
 medio in lacu rana murem sibi alligatum in ima trahit ut
 mergat et mus in sublime nititur ut euadat, miluus illis
 altior in superficie aquae uolutantes conspicatus repente
@@ -510,8 +454,8 @@ tuebuntur, perire non poterunt, uincere poterunt.  Sicut
 enim modo seditione alienatos Deus odit ac detestatur, ita
 deinde amice copulatos adiuuabit ut uincant potius quam
 uincantur et de illo, qui omnibus nobis pariter infensus est,
-tandem superato triumphent. <note n="note6">Pax</note>  Suscipiant igitur te
-hortatore, te duce, pacem et, sicut Apostolus ait: <q n="q7">Deus pacis
+tandem superato triumphent. <note n="note5">Pax</note>  Suscipiant igitur te
+hortatore, te duce, pacem et, sicut Apostolus ait: <q n="q1">Deus pacis
 erit cum illis.</q>  Quis est iste deus pacis nisi Iesus
 Christus Dominus noster, qui de caelo descendens pacem
 attulit, quia in se credentes Deo patri reconciliauit? 
@@ -519,18 +463,18 @@ Per peccatum enim eramus filii irae, per crucem autem Christi
 facti fuimus filii Dei.  Idem tunc in carne nasci uoluit
 cum orbis terrarum positis armis in pace quiesceret.  Tunc
 et angelos suos nostra omnium salute gaudentes concinere
-iussit: <q n="q8">Gloria in excelsis Deo et in terra pax hominibus bonae
+iussit: <q n="q2">Gloria in excelsis Deo et in terra pax hominibus bonae
 uoluntatis</q>.  Ad haec, quoties discipulos suos salutaret,
-dicere solebat: <q n="q9">Pax uobis</q>.  Ipsis etiam, quotiens
+dicere solebat: <q n="q3">Pax uobis</q>.  Ipsis etiam, quotiens
 hospitium aliquod ingrederentur, ut pacem ei domui dicerent
 mandauit.  Postremo ad caelum iturus unde descenderat,
 pacem illis tanquam thesaurum omnis iocunditatis et dulcedinis
-plenum legauit dicens: <q n="q10">Pacem meam do uobis, pacem meam
+plenum legauit dicens: <q n="q4">Pacem meam do uobis, pacem meam
 relinquo uobis</q>.  Cum ergo Deo et Domino nostro pacem ueram
 tam gratam esse apparet, tam acceptam, nonne manifestum est
 quanto eidem odio sint discordiae simultates, irae rixae,
 bella, inter illos praesertim qui de caelestibus unum credunt,
-unum sentiunt, eodem renati sunt baptismate, <note n="note11">Christianos
+unum sentiunt, eodem renati sunt baptismate, <note n="note6">Christianos
 inter se fratres esse</note> qui denique inter se fratres esse
 ipsimet non negant, dum orando unum patrem suum qui in caelis
 est confitentur.  Quando igitur per Spiritus Sancti
@@ -543,22 +487,22 @@ ultores, actum est de omnibus.  Unus hodie, cras alter,
 perindie alius, communis inimici iugum tandem subibunt. 
 Cumque simpliciter uniti Deo adiuuante superiores esse
 potuissent, disseparati atque ob hoc Deo inuisi singulatim
-conterentur.  Veritatis uox est illa in Euangelio: <q n="q12">Omne
+conterentur.  Veritatis uox est illa in Euangelio: <q n="q5">Omne
 regnum diuisum contra se desolabitur et omnis ciuitas uel
 domus diuisa contra se non stabit</q>.  In Christo credentium
 unum est regnum, una ecclesia.  Si ergo diuisi esse
 perseruerauerint, profecto regnum illorum euerteretur. 
 Fieri enim non potest quin uerum sit quicquid a ueritate est
 dictum.  Id futurum siquis Euangelio minus credulus
-dubitat, audiat etiam gentilem illum, qui ait: <q n="q13">Concordia
+dubitat, audiat etiam gentilem illum, qui ait: <q n="q6">Concordia
 paruae res crescunt, discordia maximae dilabuntur</q>.  Audiat
 alium quoque ethnicum nomine Scilurum idem sentientem.
-<note n="note14">Scilurus</note>  Hic octoginta (ut Plutarcus refert) filiorum
+<note n="note7">Scilurus</note>  Hic octoginta (ut Plutarcus refert) filiorum
 erat pater.  Quibus conuocatis hastilium fascem colligatum
 ut singuli confringerent iubebat.  Non ualentibus ipse
 soluto fasce unumquodque hastile separatim assumens facile
-cuncta perfregit et ad illos conuersus: <q n="q15">Videte</q>, inquit,
-<q n="q16">quod donec simul uniti eritis, inuicti permanebitis; sin uero
+cuncta perfregit et ad illos conuersus: <q n="q7">Videte</q>, inquit,
+<q n="q8">quod donec simul uniti eritis, inuicti permanebitis; sin uero
 diuisi, omnium offensis uos ipsos exponetis.</q>  Ne igitur
 singula Christianorum regna, dum inter se pertinaciter
 dimicant, ab infideli tyranno oppressa pereant, tuae
@@ -570,12 +514,12 @@ nullo sanguinis nostri haustu satiatur, se suaque defendant,
 laborantibus magno atque alacri animo succurrant, amissa
 repetant, recepta Deo propicio tueantur et conseruent.
 </p>
-            <p n="p8">Ac ne ego pluribus utens uel prudentiae uel uirtuti tuae
+            <p n="p7">Ac ne ego pluribus utens uel prudentiae uel uirtuti tuae
 diffidere uidear, finem faciam, si tamen adhuc pauca quaedam
 subiecero non tui adhortandi causa, quem in omnia paratum esse
 confido, sed desiderio meo quo uror obsequendi.</p>
 
-            <p n="p9">Rogo igitur ostendas te tot populorum praesidem quot
+            <p n="p8">Rogo igitur ostendas te tot populorum praesidem quot
 tuae fidei a Domino habes commendatos, id est omnium
 Christianorum.  Omnes ad pacem mutuamque beniuolentiam
 hortare ut parens, compelle ut dominus. <note n="note1">Liberalitas
@@ -596,16 +540,16 @@ solicitaueris atque interim periclitanti Pannoniae opportunum
 auxilium extemplo mittendum curaueris.  Nihil ecclesiae
 tuae salubrius, nihil tibi laudabilius, nihil Deo gratius hoc
 tempore efficere potes.</p>  
-            <closer n="closer10">Vale in Domino semper.  Quem,
+            <closer n="closer1">Vale in Domino semper.  Quem,
 ut tibi gregique tuo uolens propiciusque sit, obsecrare die
 noctuque non cessamus.</closer>
 
          </div>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="elegia">
             <head n="head1"> Pro Adriano VI. Pontifice Maximo ad Christum oratio </head> 
-            <l n="l2">
+            <l n="l1">
                <ptr n="ptr1" target="080923marulus-latstihovi.xml#C94"/>
             </l>
          </div>

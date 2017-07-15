@@ -52,59 +52,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="45"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -191,16 +139,16 @@
                     papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 1, f. 75–76. Sigillo annulari papyro
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 1, f. 75–76. Sigillo annulari papyro
                     tecto</note>
 
-                <opener n="opener3">
+                <opener n="opener1">
                <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Beatissimo
                     ac Sanctissimo domino nostro pape [Altera manu:] Comitis Petri Krusich Segnio
                     penultima Ianuarii Regestum XIX Februarii Post beatorum oscula pedum. Beatissime
                     pater et domine, domine universalis ecclesie ac in meis tribulationibus pater et
                     protector meus singularissimus!</opener>
-                <p n="p4">Magnam mihi et toti huic patrie Vestre Sanctitatis circa castrum Clissÿ provisio
+                <p n="p1">Magnam mihi et toti huic patrie Vestre Sanctitatis circa castrum Clissÿ provisio
                     facta attulit iucunditatem, contentor etiam de hoc bono viro, Vestre Sanctitatis
                     nunctio, quem existimo Vestre Sanctitati ad votum serviturum et huius castri
                     comodis, necessariis profuturum. Preterea, Pater Sancte, quod in omnibus
@@ -212,7 +160,7 @@
                     provisionem) nullo modo tenere valeo, Vestra Sanctitas mihi mandare voluit,
                     quatinus illud dimittere non deberem eo, quod Vestra Sanctitas de illo cito
                     provisionem <note n="note1" resp="BJ">18 Desideratur versus unus. </note>
-                    <milestone n="milestone2" unit="page"/> factura esset et sic, Pater Sancte, nunquam ulterius
+                    <milestone n="milestone1" unit="page"/> factura esset et sic, Pater Sancte, nunquam ulterius
                     illius cura suscepissem, si Vestre Sanctitais mandatis (cui reluctare nephas
                     est) astrictus non fuissem. Postquam itaque a Vestra discessi Sanctitate his
                     quatuor mensibus castrum prefatum et si difficulter sustinui, quaedam pignora
@@ -226,12 +174,12 @@
                     notificare Maiestati Regie, domino meo gratioso, ne interim castrum aliquid
                     periculum pati contingat, ut et Regia Maiestas a solita non desistat provisione,
                     ut enim Maiestas Regia putabit, quod Sanctitas Vestra in toto illius castri
-                    necessariis providit. Insuper <sic n="sic3">asueti</sic> sunt ibidem Clissÿ aliquot
+                    necessariis providit. Insuper <sic n="sic1">asueti</sic> sunt ibidem Clissÿ aliquot
                     teneri equites, prout omnia hec Vestre Sanctitatis nunctius vidit latiusque
                     ecclesie scribere potuit. Praeterea, quod annis elapsis Maiestas Regia, dominus
                     meus gratiosus parvam erga me provisionem fecit nec salaria debita mihi dedit,
                     Maiestas Regia hoc anno pene nullam de salario meo fecit mihi provisionem et cum
-                    ab amicis <gap n="gap4" reason="lacuna"/>19 solicitus scisitassem, relatum habui, quod
+                    ab amicis <gap n="gap1" reason="lacuna"/>19 solicitus scisitassem, relatum habui, quod
                     Regia Maiestas habet in opinione, qualiter Vestra Sanctitas tum persone mee, tum
                     etiam servitoribus meis, quos in 4or castris teneo, sufficientem de salario meo
                     fecisset provisionem. Ideo humili prece, qua possum, amore Dei et servitorum
@@ -243,14 +191,14 @@
                     gratiam acceptare apud maiestatem suam servitia mea non dubito. Huiusmodi autem
                     litteras Regiae Maiestatis deferendas Vestra Sanctitas ad me cito mittere velit,
                     eo quod solus maiestatem suam, quam citius eas habuero, accedere intendo.</p>
-                <closer n="closer5">In hiis et omnibus aliis Vestre Sanctitati tamquam domino meo gratiosisssimo
+                <closer n="closer1">In hiis et omnibus aliis Vestre Sanctitati tamquam domino meo gratiosisssimo
                     me humillime commendo. Ex Segnia, penultima Januarii 1526. Eius Vestre
                     Sanctitatis humillimus servitor Petrus Crusith capitaneus Segnie et comes
                     Clissie </closer>
 
-                <note n="note6" resp="BJ">19 Verbum unum – in longitudine circiter 1 cm – illegibile.</note>
+                <note n="note2" resp="BJ">19 Verbum unum – in longitudine circiter 1 cm – illegibile.</note>
 
-                <milestone n="milestone7" unit="page"/>
+                <milestone n="milestone1" unit="page"/>
             </div>
         </body>
     </text>

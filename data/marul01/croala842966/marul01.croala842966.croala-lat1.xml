@@ -46,60 +46,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="11"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="7"/>
-          <tagUsage gi="hi" occurs="1"/>
-          <tagUsage gi="item" occurs="213"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="82"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="list" occurs="3"/>
-          <tagUsage gi="name" occurs="6"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="8"/>
-          <tagUsage gi="num" occurs="11"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="81"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="57"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -184,33 +131,33 @@
                 decimo Pont. max. M. Maruli
                 oratio
             </head>
-            <l n="l2">Pontifici da Christe tuo quę posco Leoni:</l>
-            <l n="l3">	Apta illi et populis commoda posco tuis.</l>
-            <l n="l4">Ecclesiam regat ille tuam moderamine tanto</l>
-            <l n="l5">	Non possum melius dicat ut ipsa regi.</l>
-            <l n="l6">Commissisque sibi gregibus sic pręsit, hiantes</l>
-            <l n="l7">	Vt procul a caulis cogat abesse lupos.</l>
-            <l n="l8">Illo autore feri tollantur pręlia Martis</l>
-            <l n="l9">	Et iam pacis amor pectora fida liget.</l>
-            <l n="l10">Illius auspicijs uicti domitique prophani</l>
-            <l n="l11">	Sub leges nostrę religionis eant.</l>
-            <l n="l12">Illo iter in cęlum post hęc monstrante fideles</l>
-            <l n="l13">	Dimissis terris regna beata petant.</l>
-            <l n="l14">Talia si dederis, non soli, Christe, Leoni</l>
-            <l n="l15">	Sed cunctis sequimur qui tua signa dabis.</l>
-            <l n="l16">Est commune bonum quicquid conceditur uni:</l>
-            <l n="l17">	Omnes membra sumus, omnibus ille caput.</l>
+            <l n="l1">Pontifici da Christe tuo quę posco Leoni:</l>
+            <l n="l2">	Apta illi et populis commoda posco tuis.</l>
+            <l n="l3">Ecclesiam regat ille tuam moderamine tanto</l>
+            <l n="l4">	Non possum melius dicat ut ipsa regi.</l>
+            <l n="l5">Commissisque sibi gregibus sic pręsit, hiantes</l>
+            <l n="l6">	Vt procul a caulis cogat abesse lupos.</l>
+            <l n="l7">Illo autore feri tollantur pręlia Martis</l>
+            <l n="l8">	Et iam pacis amor pectora fida liget.</l>
+            <l n="l9">Illius auspicijs uicti domitique prophani</l>
+            <l n="l10">	Sub leges nostrę religionis eant.</l>
+            <l n="l11">Illo iter in cęlum post hęc monstrante fideles</l>
+            <l n="l12">	Dimissis terris regna beata petant.</l>
+            <l n="l13">Talia si dederis, non soli, Christe, Leoni</l>
+            <l n="l14">	Sed cunctis sequimur qui tua signa dabis.</l>
+            <l n="l15">Est commune bonum quicquid conceditur uni:</l>
+            <l n="l16">	Omnes membra sumus, omnibus ille caput.</l>
             
         </div>
         
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1">
                 <div n="div1">
                     <head n="head1">Vita diui Hieronymi pręsbiteri a Marco Marulo ędita: adiectis miraculis quę
                         de illo Cyrillus Nazarethi episcopus commemorat in summamque redactis
                         breuiorem.</head>
-                    <div n="div2">
+                    <div n="div1">
                         <p n="p1"> Legimus diui Hieronymi pręsbiteri uitam autore incerto.  Quisquis tamen
                             ille fuit, primo non satis narrandi ordinem tenuisse mihi uidetur, cum
                             pleraque ante dicantur postea dicenda, ita ut confundat potius legentis
@@ -230,7 +177,7 @@
                             prędicari, in quo nihil quod omnibus optandum sit desyderatur.  Sed iam
                             quod proposuimus, narrare incipiamus.</p>
                     </div>
-                    <div n="div3">
+                    <div n="div2">
                         <p n="p1"> Hieronymus pręsbiter (ut ipse de se testatur in calce libri illius quem
                                 <name n="name1">De uiris illustribus</name> inscripsit) patre Eusebio natus,
                             oppido Stridone, quod a Gotthis euersum Delmatię quondam Pannonięque
@@ -239,7 +186,7 @@
                             rhetorica Victorinum.  Et iam Gręca Latinaque litteratura excultus, cum
                             nondum XX annorum esset, scholam ad se publice delatam aperuit et
                             pręcipere coepit.  Sic enim ad uirgines deo dicatas de ipsarum
-                            institutione scribens ait: <q n="q2">Me ante quam uicesimum ętatis annum
+                            institutione scribens ait: <q n="q1">Me ante quam uicesimum ętatis annum
                                 attingerem urbs Roma in summum elegerat magistrum in omnibus pęne
                                 liberalibus artibus.</q>  Quum igitur tantum in tam tenera ętate
                             profecisset, nouem deinde et uiginti annos natus a Liberio Pontifice
@@ -263,7 +210,7 @@
                             consyderanti, non tam malorum inuidiam, qua nusquam caruit, eum
                             pertimuisse, quam locum ubi liberius expeditiusque Deo seruiret quęrere
                             uoluisse.  Hanc suam ab urbe profectionem ad Ruffinum ita ipse
-                            describens <q n="q3">Mense</q>, inquit, <q n="q4">augusto, flantibus
+                            describens <q n="q2">Mense</q>, inquit, <q n="q3">augusto, flantibus
                                 ethesijs, cum sancto Vincentio pręsbitero et adolescente fratre et
                                 alijs monachis, qui nunc Hierosolymę commorantur, nauim in Romano
                                 portu conscendi, maxima me sanctorum frequentia prosequente ueni
@@ -330,7 +277,7 @@
                             obliuisci, quod factu impossibile erat, cum etiam senes reminiscantur
                             quid in puerili egerint ętate.  Quod autem hoc ita sibi contigerit,
                             libro in epistolam Pauli ad Galathas <num n="num1" value="3">III</num>. cum Paula et Eustochio loquens
-                            ait: <q n="q2">Nostis et ipsę quod plus XV anni sunt, ex quo in manus meas
+                            ait: <q n="q1">Nostis et ipsę quod plus XV anni sunt, ex quo in manus meas
                                 nunquam Tullius, nunquam Maro, nunquam gentilium litterarum quilibet
                                 autor ascendit.  Et siquid forte inde dum loquimur obrepit, quasi
                                 antiqui per nebulam somnij recordamur</q>.</p>
@@ -432,7 +379,7 @@
                         <p n="p12"> Seuerus quoque Sulpicius, qui ijsdem temporibus fuit, in suo de beati
                             Martini episcopi miraculis dialogo (eius enim discipulus fuit)
                             Posthumianum monachum de beato Hieronymo adhuc in terris degente inducit
-                            sic loquentem: <q n="q1">Inde digressus</q>, inquit,<emph n="emph2"> {Bethleem
+                            sic loquentem: <q n="q1">Inde digressus</q>, inquit,<emph n="emph1"> {Bethleem
                                 oppidum petij, quod ab Hierosolymis sex milibus separatur, ab
                                 Alexandria autem XVI mansionibus abest.  Ecclesiam loci illius
                                 Hieronymus pręsbiter regit.  Nam parochia est episcopi qui
@@ -441,7 +388,7 @@
                                 rectius arbitrarer.  Vir enim pręter fidei meritum non solum Latinis
                                 atque Gręcis, sed Hebreis etiam litteris ita est institutus, ut se
                                 illi in omni scientia nemo audeat comparare.}  </emph>Et post
-                                pauca:<q n="q3">Ego,</q> inquit, <q n="q4">ut dicere institueram,
+                                pauca:<q n="q2">Ego,</q> inquit, <q n="q3">ut dicere institueram,
                                 apud Hieronymum sex mensibus fui, cui iugis aduersum malos pugna
                                 perpetuumque certamen consciuit odia perditorum.  Oderunt eum
                                 heretici, quia eos impugnare non desinit.  Oderunt eum clerici, quia
@@ -795,29 +742,29 @@
                             Octobres.  Peractis iam tandem exequijs affigendum est sepulturę
                             epitaphium, quod nostra rudi Minerua confectum ita habet:</p>
                     </div>
-                    <div n="div4">
+                    <div n="div3">
                         <head n="head1">Epitaphium</head>
-                        <l n="l2">Condita Hironymi recubant hoc ossa sepulchro;</l>
-                        <l n="l3"> ipse colit celsi regna beata poli.</l>
-                        <l n="l4">Disce quibus meritis, nostro dum uixit in ęuo,</l>
-                        <l n="l5"> tot bona nemo uni contulit ecclesię.</l>
-                        <l n="l6">Correxit sacrę corrupta uolumina legis,</l>
-                        <l n="l7"> exposuit ueterum mystica uerba patrum,</l>
-                        <l n="l8">errorum tenebras ueri splendore fugauit,</l>
-                        <l n="l9"> assiduus recti doctor et autor erat,</l>
-                        <l n="l10">Et Latię et Graię callebat Palladis artes,</l>
-                        <l n="l11"> nouerat Hebraice Caldaiceque loqui.</l>
-                        <l n="l12">His tamen ingenij magnis insignibus olim</l>
-                        <l n="l13"> sancte actę uitę gloria maior erat.}</l>
+                        <l n="l1">Condita Hironymi recubant hoc ossa sepulchro;</l>
+                        <l n="l2"> ipse colit celsi regna beata poli.</l>
+                        <l n="l3">Disce quibus meritis, nostro dum uixit in ęuo,</l>
+                        <l n="l4"> tot bona nemo uni contulit ecclesię.</l>
+                        <l n="l5">Correxit sacrę corrupta uolumina legis,</l>
+                        <l n="l6"> exposuit ueterum mystica uerba patrum,</l>
+                        <l n="l7">errorum tenebras ueri splendore fugauit,</l>
+                        <l n="l8"> assiduus recti doctor et autor erat,</l>
+                        <l n="l9">Et Latię et Graię callebat Palladis artes,</l>
+                        <l n="l10"> nouerat Hebraice Caldaiceque loqui.</l>
+                        <l n="l11">His tamen ingenij magnis insignibus olim</l>
+                        <l n="l12"> sancte actę uitę gloria maior erat.}</l>
                     </div>
-                    <div n="div5">
+                    <div n="div4">
                         <head n="head1">Miracula eius post obitum</head>
-                        <p n="p2"> Post felicem uiri obitum Cyrillus Hierosolymitanus episcopus per
+                        <p n="p1"> Post felicem uiri obitum Cyrillus Hierosolymitanus episcopus per
                             epistolam quę nota est omnibus Augustino sciscitanti miracula eius longo
                             admodum sermone studuit recensere.  Ea ego in summam redacta breuiorem
                             hoc loco subiungam.</p>
                     
-                        <p n="p3"> Heresim quandam inquit iam inualescentem, quod nec sanctorum animę
+                        <p n="p2"> Heresim quandam inquit iam inualescentem, quod nec sanctorum animę
                             beatitudine fruerentur nec damnatorum poenas sentirent, donec in die
                             iudicij suis iterum corporibus iungi illas contigisset, beatus
                             Hieronymus Eusebio discipulo apparens repressit.  Trium hominum cadauera
@@ -833,7 +780,7 @@
                             reuelarunt, quotidie tamen ubertim flentes ex eorum recordatione quae
                             uiderant in inferno.</p>
 
-                        <p n="p4"> Sabinianus heresiarcha duas in Christo uoluntates ita fuisse asserebat
+                        <p n="p3"> Sabinianus heresiarcha duas in Christo uoluntates ita fuisse asserebat
                             ut pleraque perficere nequiuerit quę uoluerit.  Idque persuadere alijs
                             uolens opusculum nomine Hieronymi confecerat, quo illum quoque ita
                             quondam sensisse probaret.  Eam heretici fallaciam ęgre ferens Siluanus
@@ -851,7 +798,7 @@
                             tremefacti discipuli errore deposito Siluanum episcopum sequi et
                             ecclesię adhęrere coepere.</p>
 
-                        <p n="p5"> Idem Siluanus diaboli pręstigijs, qui sumpta eius forma uim cuidam
+                        <p n="p4"> Idem Siluanus diaboli pręstigijs, qui sumpta eius forma uim cuidam
                             honestę mulieri inferre conatus depręhendi se fecerat, infamatur,
                             persecutionem patitur, in publicum apparere non audet.  Cęterum cum se
                             orationibus beato Hieronymo commendasset, quendam, qui sibi necem
@@ -867,7 +814,7 @@
                             impetrato post horam expirauit uictisque tentationibus beatitudinis
                             pręmia recępit.</p>
 
-                        <p n="p6"> Duo nobiles ac diuites uiri Alexandrini, licet gentiles, audita
+                        <p n="p5"> Duo nobiles ac diuites uiri Alexandrini, licet gentiles, audita
                             miraculorum fama quę Dominus per sanctum Hieronymum operabatur, pergunt
                             Bethleem uisendi reliquias eius gratia.  Incidunt in latronum insidias.
                              Qui dum illos taciti persequerentur, ecce non paruam cum ijsdem
@@ -888,7 +835,7 @@
                             fere trecenti.  Tot igitur saluati sunt, dum duorum salus Hieronymi ope
                             defenditur.</p>
 
-                        <p n="p7"> Duo iuuenes Romani ab urbe Syriam uersus reliquias huius Sancti uisendi
+                        <p n="p6"> Duo iuuenes Romani ab urbe Syriam uersus reliquias huius Sancti uisendi
                             gratia tendunt.  Iam Bizantium aduentantes ab apparitoribus capiuntur.
                              Coram Bizantij pręside homicidij accusati (duo autem ruri occisi
                             inuenti fuerant cędis autore incerto) crimen negant, ut qui eiusce rei
@@ -901,7 +848,7 @@
                             seruire coeperunt, qui per Sancti sui merita ipsos tam pręsenti periculo
                             toties ac tam mirabiliter eripuisset.</p>
 
-                        <p n="p8"> Apud superiorem Thebaidam foeminarum monasterium fuit, satis opulentum,
+                        <p n="p7"> Apud superiorem Thebaidam foeminarum monasterium fuit, satis opulentum,
                             si plus quam satis est non concupissent.  His enim quę ibi degebant
                             moris erat nullam admittere in consortium nisi certum pecunię pondus
                             secum afferret.  Apparens cuidam ex illis beatus Hieronymus mandat ut
@@ -915,16 +862,16 @@
                             quęstus cupiditas.  Quo tamen exitio per beatum Hieronymum fuissent
                             liberatę, si ei obtemperare uoluissent.</p>
 
-                        <p n="p9"> Hereticus quidam Hierosolymis publice disputans, cum sibi beati
+                        <p n="p8"> Hereticus quidam Hierosolymis publice disputans, cum sibi beati
                             Hieronymi sententia opponeretur, eum mentitum fuisse respondit, nec
                             ultra quicquam effari potuit, mutus illico et elinguis factus.</p>
 
-                        <p n="p10"> Alius Arrianę perfidię hereticus, in eandem incidens calumnię culpam,
+                        <p n="p9"> Alius Arrianę perfidię hereticus, in eandem incidens calumnię culpam,
                             dolore, quem uisceribus concepit, coactus in clamorem prorupit, se a
                             Hieronymo torqueri dicens atque in eodem clamore perseuerans ad uesperum
                             expirauit.</p>
 
-                        <p n="p11"> Alius eiusdem insanię hereticus imaginem Sancti in tabella depictam
+                        <p n="p10"> Alius eiusdem insanię hereticus imaginem Sancti in tabella depictam
                             conspicatus, gutturi illius gladium furibundus infixit.  Sed neque manum
                             inde neque gladium auellere potuit, donec iudicis iussu, cui per quietem
                             Hieronymus cum uulnere illo apparuerat, compręhensus poenas daret.  Cum
@@ -934,7 +881,7 @@
                             locum deductus esset, lapidibus a plebe obrutus interijt et ab imagine
                             illa in testimonium perpetrati sceleris cruor effluxit.</p>
 
-                        <p n="p12"> Ioannes ipsius Cyrilli, qui ista quę recitamus miracula memorię
+                        <p n="p11"> Ioannes ipsius Cyrilli, qui ista quę recitamus miracula memorię
                             prodidit, nepos ac forma ęgregius iuuenis a Persis captus Persarum regi
                             annum seruiuit.  Tedio tandem seruitutis affectus beato Hieronymo
                             identidem se commendare coepit.  Sed a rege deprehensus quod reditum in
@@ -945,7 +892,7 @@
                             post Deum beato Hieronymo gratię actę, qui se inuocantibus tam
                             efficaciter adesse soleret.</p>
 
-                        <p n="p13"> Quędam monialis iuuencula et forma pręstans uirgo, sed non minus uitę
+                        <p n="p12"> Quędam monialis iuuencula et forma pręstans uirgo, sed non minus uitę
                             sanctitate insignis, atque secundum Deum Deique Genitricem beato
                             Hieronymo imprimis deuota, cum a iuuene quodam uisa adamaretur, magi
                             incantationibus misso demone frustra tentatur: Demon quippe uiso ibi
@@ -953,7 +900,7 @@
                             autem cognita magus conuertitur.  Iuuenis uero propositi sui desperans
                             laqueo sibi uitam eripit.</p>
 
-                        <p n="p14"> Ruffus Cyrilli nepos adolescens duo de uiginti annos natus diem obijt.
+                        <p n="p13"> Ruffus Cyrilli nepos adolescens duo de uiginti annos natus diem obijt.
                              Cyrillus, quia sibi charus erat, quid de anima eius contigisset nosse
                             cupidus, cum beatum Hieronymum pręcaretur, uidit iuuenem igneis cathenis
                             terribiliter colligatum, qui propterea poenam illam se pati dixit quod
@@ -963,15 +910,15 @@
                             reuelare dignatus est, obsecrent, ne tale aliquid committant, ac de ante
                             commissis ut penitentiam agant.</p>
 
-                        <p n="p15"> Alius aleę lusu amissa grandi pecunia ex animi indignatione maledicta
+                        <p n="p14"> Alius aleę lusu amissa grandi pecunia ex animi indignatione maledicta
                             beato Hieronymo irrogare ausus repentino fulminis ictu interijt.</p>
                     
-                        <p n="p16"> Tres iuuenes apud Tyrum aleę studiosi procaci ausu se etiam inuito beato
+                        <p n="p15"> Tres iuuenes apud Tyrum aleę studiosi procaci ausu se etiam inuito beato
                             Hieronymo lusum suum et incepturos et finituros dixerunt.  Mox multis
                             cernentibus terrę hiatu absorpti pręstare nequiuerunt quod
                         promiserant.</p>
                     
-                        <p n="p17"> Erat militi cuidam Hierosolymis filius duodecim annos natus, qui ob
+                        <p n="p16"> Erat militi cuidam Hierosolymis filius duodecim annos natus, qui ob
                             nimiam patris indulgentiam licenter talorum lusum tesserarumque
                             sectabatur.  Cumque cum ipso patre luderet nec sibi iactus ad uotum
                             succederent, ait: <q n="q1">A lusione ista nisi uictor non exurgam, uel inuito Hieronymo, qui aleam
@@ -981,7 +928,7 @@
                             educauerat filium.  Crudelis est pater qui delinquentes non castigat
                             liberos.</p>
                     
-                        <p n="p18"> Hoc quod sequitur, Cyrillus Nicolao Cretense archiepiscopo referente,
+                        <p n="p17"> Hoc quod sequitur, Cyrillus Nicolao Cretense archiepiscopo referente,
                             qui ad uisendas beati Hieronymi reliquias Bethleem aduenerat, se
                             didicisse ait.  Cum apud Candidam Cretę ciuitatem sacerdos quidam
                             perditissimis moribus famęque detestandę uita decedens in ecclesia
@@ -994,7 +941,7 @@
                             morbus cum fragore illo simul cessauit.  Exinde apud Cretenses beatus
                             Hieronymus in magna ueneratione haberi coeptus.</p>
 
-                        <p n="p19"> Idem Nicolaus retulit in eadem ciuitate fuisse iuuenem quendam, Tito
+                        <p n="p18"> Idem Nicolaus retulit in eadem ciuitate fuisse iuuenem quendam, Tito
                             nomen erat, beati Hieronymi deuotissimum castitatisque amatorem.  Qui
                             cum ad uicesimum usque ętatis suę annum seruasset uirginitatem, puellam
                             tandem forma insignem deperire coepit duxitque uxorem.  Omnem denique
@@ -1015,7 +962,7 @@
                             igitur per gratiam beati Hieronymi requisito multi a perditione liberati
                             salutem adepti sunt.</p>
 
-                        <p n="p20"> Monachus quidam iuuenis in superioribus ęgypti partibus manens patre
+                        <p n="p19"> Monachus quidam iuuenis in superioribus ęgypti partibus manens patre
                             ęgrotante et filium suum uidere cupiente, perrexit astititque patri.  Et
                             cum eidem simul cum domesticis ministrando forte accidisset, ut sororis
                             manum manu tangeret, diu inuiolata castitas concupiscentię flammam
@@ -1034,7 +981,7 @@
                             procurasse ne cogitatum scelus perficeret.  Admonitus frater
                             dissimulauit neque se correxit.</p>
 
-                        <p n="p21"> Quin immo, quo citius quod iam disposuerat perageret, cessauit ante
+                        <p n="p20"> Quin immo, quo citius quod iam disposuerat perageret, cessauit ante
                             Sancti imaginem genuflectere.  Sancti igitur auxilio ad tempus
                             destitutus claues reperit, reseratis claustris exit, paternas ędis noctu
                             clam ingreditur, seque in lectulo sororis dormientis tacitus collocat.
@@ -1049,13 +996,13 @@
                             custos factus et submissior pręsbiteri nostri cultor, pie ac religiose
                             uitam finiuit.</p>
 
-                        <p n="p22"> Ait Cyrillus nuper sibi Damasi Portuensis episcopi litteras redditas,
+                        <p n="p21"> Ait Cyrillus nuper sibi Damasi Portuensis episcopi litteras redditas,
                             quibus hoc quoque scriptum legit, quod Romę cardinalis quidam nomine
                             Cęlestinus, dum ineffrenis linguę procacitate in coetu Cardinalium
                             publice famam beati Hieronymi laceraret, dolore uiscerum correptus
                             intestinis per inferiora egestis expirarit.</p>
 
-                        <p n="p23"> Andreas cardinalis dum sanus in conuentu multorum consisteret
+                        <p n="p22"> Andreas cardinalis dum sanus in conuentu multorum consisteret
                             fabulareturque, repente concidit exanimis.  Postremo cum peractis
                             exequijs iam in eo esset ut sepeliretur, exurexit uiuus.  Dixit ob
                             uestium pompam lautitiamque ciborum se fuisse damnandum, nisi beato
@@ -1063,7 +1010,7 @@
                             Sancti huius beneficio non tantum reuixit, sed etiam poenas euasit
                             ęternas: uitam enim correxit, ac bene deinde finiuit.</p>
 
-                        <p n="p24"> In superioribus ęgypti partibus Helię monacho in solitudine degenti ac
+                        <p n="p23"> In superioribus ęgypti partibus Helię monacho in solitudine degenti ac
                             sanctitatis fama omnibus noto beatique Hieronymi quondam familiarissimo,
                             post orationem obdormienti uisum est uenisse se in regiam quandam
                             amplitudinis eximię ineffabilisque decoris, tribunal in medio positum et
@@ -1079,7 +1026,7 @@
                             futura, eo quod Theodonius nomen Sancti huius reuerenter in uita
                             habuisset.</p>
 
-                        <p n="p25"> Eodem tempore idem monachus uidit adolescentem pulcherrimum ad beatum
+                        <p n="p24"> Eodem tempore idem monachus uidit adolescentem pulcherrimum ad beatum
                             Hieronymum accurrisse, uotumque Petri patricij eius deuotissimi
                             retulisse, ut uidelicet a Domino sibi filium impetraret generandum; diu
                             enim cum uxore uixerat a patris nomine alienus.  Dominus igitur Petri
@@ -1089,11 +1036,11 @@
                             beati Hieronymi meritis ipse diutinę sterilitatis ignominiam iam pater
                             factus deleuisset.</p>
 
-                        <p n="p26"> Sequitur illa Cyrilli uisio, qua Ioanni Baptistę Hieronymus noscitur
+                        <p n="p25"> Sequitur illa Cyrilli uisio, qua Ioanni Baptistę Hieronymus noscitur
                             comparandus.  Quam quoniam supra suo loco descripsimus, hic repetere
                             superuacaneum foret.  Reliqua ergo uideamus.</p>
 
-                        <p n="p27"> Peracto, inquit, mense post depositionem, postridie ab octaua
+                        <p n="p26"> Peracto, inquit, mense post depositionem, postridie ab octaua
                             Pentecostes plurimis adunatis episcopis ingentique hominum coetu corpus
                             beati Hieronymi exhumatum, ut in sepulchro marmoreo quod parauerant
                             poneretur.  Sed prius in altari collocatum, ut ab omnibus uideri posset,
@@ -1104,7 +1051,7 @@
                              Cumque illum in scrobe, de qua corpus Sancti leuatum fuerat,
                             deposuisset, mox uiuum recępit.</p>
 
-                        <p n="p28"> Porro soluta funeralis pompę celebritate, cum iam diei uesper esset,
+                        <p n="p27"> Porro soluta funeralis pompę celebritate, cum iam diei uesper esset,
                             beati Hieronymi corpus (ut ait) in illo marmoreo monumento condidere;
                             sed mane rursum in sua pristina fouea iacere inuentum.  Nocte sequenti
                             ipsi Cyrillo in quiete Hieronymus apparens dixit, corpus suum humi, ubi
@@ -1113,9 +1060,9 @@
                              Et hęc quidem Cyrillus partim uidisse se, partim audisse ad Augustinum
                             scribens testatus est.</p>
                     </div>
-                    <div n="div6">
+                    <div n="div5">
                         <head n="head1">Opera quae scripsit</head>
-                        <p n="p2"> Nequid autem huic lucubratiunculę nostrę deesse uideatur, libet in fine
+                        <p n="p1"> Nequid autem huic lucubratiunculę nostrę deesse uideatur, libet in fine
                             singula, quę ab eruditissimo sanctissimoque homine conscripta sunt,
                             cursim referre, et quidem eorum primo indicem texere quę ipse confitetur
                             a se confecta usque ad XIIII. Theodosij Principis annum; deinde simul
@@ -1123,7 +1070,7 @@
                             illa quę uel temporis longitudine uel Gothici belli uastationibus uel
                             hereticorum inuidia intercępta ad nostram usque ętatem perdurare
                             nequiuerunt.  Igitur libro <name n="name1">De uiris illustribus</name> se in fine
-                            subscribens ita ait: <q n="q2">Vsque in pręsentem diem, id est annum Theodosij
+                            subscribens ita ait: <q n="q1">Vsque in pręsentem diem, id est annum Theodosij
                                 principis decimum quartum hęc scripsi: Vitam Pauli monachi.
                                 Epistolarum ad diuersos librum I.Ad Heliodorum exhortatoriam.
                                 Altercationem Luciferiani et Orthodoxi. Chronicon omnimodę historię.
@@ -1148,11 +1095,11 @@
                                 epitaphium.</q>
                         </p>
 
-                        <p n="p3"> Hęc Hieronymus.  Postea uero uixit annos XXVII, si Prospero credimus
+                        <p n="p2"> Hęc Hieronymus.  Postea uero uixit annos XXVII, si Prospero credimus
                             dicenti anno Theodosij iunioris XII ipsum obisse.  In his ergo reliqua
                             ędidit.  Sed quę nunc in manibus sunt, uel potius quę me perlegisse
                             nouerim, hęc sunt:</p>
-                        <list n="list4">
+                        <list n="list1">
                             <item n="item1">Ad Damasum Papam fidei expositio.</item>
                             <item n="item2"> Ad eundem utrum in trinitate tres hypostases confitendę sint. </item>
                             <item n="item3"> Ad eundem quęrit cui in Syria communicare debeat. </item>
@@ -1325,9 +1272,9 @@
                             <item n="item152">Item ad ipsum Sabinianum.</item>
                         </list>
 
-                        <p n="p5"> Post hęc quę citra dedicationem leguntur - non enim ad quenquam priuatim
+                        <p n="p3"> Post hęc quę citra dedicationem leguntur - non enim ad quenquam priuatim
                             scripta apparent - hęc sunt:</p>
-                        <list n="list6">
+                        <list n="list2">
                             <item n="item1">De fide et conuersatione Christianorum.</item>
                             <item n="item2">De membris Domini.</item>
                             <item n="item3">De quęstionibus Veteris Testamenti.</item>
@@ -1387,8 +1334,8 @@
                             <item n="item54">In epistolam ad Titum lib. I.</item>
                             <item n="item55">In epistolam ad Philemonem lib. unus.</item>
                         </list>
-                        <p n="p7">Post hęc uidimus Origenis homilias:</p>
-                        <list n="list8">
+                        <p n="p4">Post hęc uidimus Origenis homilias:</p>
+                        <list n="list3">
                             <item n="item1">In Genesim.</item>
                             <item n="item2">In Exodum.</item>
                             <item n="item3">In Leuiticum.</item>
@@ -1396,9 +1343,9 @@
                             <item n="item5">In Iesum Naue.</item>
                             <item n="item6">In librum Iudicum, omnes numero CXVII;</item>
                         </list>
-                        <p n="p9">has quoque a beato Hieronymo Latinas factas constat.</p>
+                        <p n="p5">has quoque a beato Hieronymo Latinas factas constat.</p>
 
-                        <p n="p10"> Siquis plura extare nouerit, addat; ego adhuc non comperi.  Ista autem
+                        <p n="p6"> Siquis plura extare nouerit, addat; ego adhuc non comperi.  Ista autem
                             quę hic retulimus et multa quidem sunt si numerentur et si consyderentur
                             admiranda.  Dabunt itaque mihi ueniam cęteri omnes ecclesiastici
                             scriptores, ita ego sentio, alijs defuisse aliquid peritię, alijs
@@ -1408,7 +1355,7 @@
                             beatitudo est, quem magis et quem minus sui faciat participem.  Ipsi
                             laus et gloria in sempiternum.  Amen.</p>
 
-                        <p n="p11"> Summa: libri, tractatus, homilię, sermones, epistolę plus minus
+                        <p n="p7"> Summa: libri, tractatus, homilię, sermones, epistolę plus minus
                         CCCCXL.</p>
                     </div>
                 </div>
@@ -1416,94 +1363,94 @@
          <div n="div2">
             <head n="head1">In eos qui beatum Hieronymum Italum fuisse contendunt</head>
 
-            <p n="p2"> Quum hęc scriberem, attulit mihi quidam librum nuper ęditum, <name n="name1">Supplementum Chronicarum</name> appellant.  In eo scriptum erat Hieronymum non Delmatam esse, sed Italicum.  Vehementer admiratus quęsiui autoris nomen.  Vbi et ipsum Italum esse conspexi (Bergomensem enim se profitetur), <q n="q2">Zelum</q>, inquam, <q n="q3">habuit iste</q> (ut Apostolus ait), sed non secundum scientiam.  Hieronymum quippe studiosus, quanuis Delmatam fuisse sciret, sancta quadam inuidia delinitus non indignum monacho putauit de alieno facere si posset suum.</p>
+            <p n="p1"> Quum hęc scriberem, attulit mihi quidam librum nuper ęditum, <name n="name1">Supplementum Chronicarum</name> appellant.  In eo scriptum erat Hieronymum non Delmatam esse, sed Italicum.  Vehementer admiratus quęsiui autoris nomen.  Vbi et ipsum Italum esse conspexi (Bergomensem enim se profitetur), <q n="q1">Zelum</q>, inquam, <q n="q2">habuit iste</q> (ut Apostolus ait), sed non secundum scientiam.  Hieronymum quippe studiosus, quanuis Delmatam fuisse sciret, sancta quadam inuidia delinitus non indignum monacho putauit de alieno facere si posset suum.</p>
 
-            <p n="p3">
+            <p n="p2">
                <q n="q1">Hieronymus</q>, inquit, <q n="q2">uir sanctissimus et doctor celeberrimus, Sanctę Romanę Ecclesię cardinalis pręsbiter, natione Italicus ex oppido Stridonis in Istria prouincia constituto, quod quidem a Gothis euersum fuerat Pannonię quondam Delmatięque confinium.</q>
             </p>
 
-            <p n="p4"> Quomodo, quęso, ista simul stare possunt, ut oppidum aliquod Pannoniam Delmatiamque disterminet, et in Istria sit, cum post Istriam Liburniam esse constet, Liburnię autem iunctam esse Delmatiam?  Nisi forte aliquis de stirpe Aeneę Troiani inuentus sit <q n="q1">Ilium in Italiam portans uictosque penates,</q>aut tantam habens fidem, ut non solum montes, sed etiam cum montibus prouincias transtulerit, atque ita Delmatiam cum Stridone oppido de loco suo auulsam ultra Liburniam in Istriam usque iusserit euolare, ut Stridon (sicut Hieronymus ipse dixit) et prius in Delmatię Pannonięque finibus fuerit, et nunc (ut Bergomensis ait) in Istrię agro consistat.  Equidem ista consyderans curiosius quęrere coepi, unde homini religioso ueritatisque professori hic error irrepserit, ut etiam pugnantia inter se asserere non dubitet, et inueni, ubi Longobardorum regni principium ostendere nititur, Blondum quendam Forliuiensem in medium produxisse; qui, cum Italię regiones describeret, tertiam decimam dixit Istriam esse, <q n="q2">in qua,</q>inquit, <q n="q3"> Iustinopolis Ciuitas et Pola et Stridon oppidum, Sanctissimi Hieronymi patria, quod hodie Sdrigna appellatur.</q>
+            <p n="p3"> Quomodo, quęso, ista simul stare possunt, ut oppidum aliquod Pannoniam Delmatiamque disterminet, et in Istria sit, cum post Istriam Liburniam esse constet, Liburnię autem iunctam esse Delmatiam?  Nisi forte aliquis de stirpe Aeneę Troiani inuentus sit <q n="q1">Ilium in Italiam portans uictosque penates,</q>aut tantam habens fidem, ut non solum montes, sed etiam cum montibus prouincias transtulerit, atque ita Delmatiam cum Stridone oppido de loco suo auulsam ultra Liburniam in Istriam usque iusserit euolare, ut Stridon (sicut Hieronymus ipse dixit) et prius in Delmatię Pannonięque finibus fuerit, et nunc (ut Bergomensis ait) in Istrię agro consistat.  Equidem ista consyderans curiosius quęrere coepi, unde homini religioso ueritatisque professori hic error irrepserit, ut etiam pugnantia inter se asserere non dubitet, et inueni, ubi Longobardorum regni principium ostendere nititur, Blondum quendam Forliuiensem in medium produxisse; qui, cum Italię regiones describeret, tertiam decimam dixit Istriam esse, <q n="q2">in qua,</q>inquit, <q n="q3"> Iustinopolis Ciuitas et Pola et Stridon oppidum, Sanctissimi Hieronymi patria, quod hodie Sdrigna appellatur.</q>
             </p>
 
-            <p n="p5"> Hęc Blondi uerba cum legissem, monachi Bergomensis pium simplicemque affectum mecum excusare coepi, et <q n="q1">Discipuli</q>, inquam, <q n="q2">error magistri culpa est.</q>  Magister autem parum (ut mihi uidetur) scrutandę antiquitatis curiosus, nominis similitudine decęptus, Stridonem olim fuisse putauit quod nunc Sdrigna dicitur.  Et tamen hoc saltem secum animaduertere debuerat: si Sdrigna Stridon est, quomodo Hieronymus dixit oppidum hoc inter Pannoniam et Delmatiam esse, et non potius inter Pannoniam et Istriam?  Quęnam igitur ista nouitij autoris audacia, ut putauerit sibi magis quam Hieronymo de se loquenti homines credituros?  Sibi, inquam, in Italia, et quidem post mille et ducentos annos genito, plus fidei habituros quam illi ipsi, qui patrię suę fines multo plenius exactiusque et uerius nosse potuit, tum a parentibus tum ab indigenis edoctus, quam quisquam alius externorum etiam illa sua ętate uiuens?</p>
+            <p n="p4"> Hęc Blondi uerba cum legissem, monachi Bergomensis pium simplicemque affectum mecum excusare coepi, et <q n="q1">Discipuli</q>, inquam, <q n="q2">error magistri culpa est.</q>  Magister autem parum (ut mihi uidetur) scrutandę antiquitatis curiosus, nominis similitudine decęptus, Stridonem olim fuisse putauit quod nunc Sdrigna dicitur.  Et tamen hoc saltem secum animaduertere debuerat: si Sdrigna Stridon est, quomodo Hieronymus dixit oppidum hoc inter Pannoniam et Delmatiam esse, et non potius inter Pannoniam et Istriam?  Quęnam igitur ista nouitij autoris audacia, ut putauerit sibi magis quam Hieronymo de se loquenti homines credituros?  Sibi, inquam, in Italia, et quidem post mille et ducentos annos genito, plus fidei habituros quam illi ipsi, qui patrię suę fines multo plenius exactiusque et uerius nosse potuit, tum a parentibus tum ab indigenis edoctus, quam quisquam alius externorum etiam illa sua ętate uiuens?</p>
 
-            <p n="p6"> Videamus ergo, Bergomensis frater, Blondus iste pręceptor tuus talia asserens quam procul a uero sit.  Italię fines Pomponius Mella, antiquissimus autor, qui ad mare Adriaticum spectant, ad Tergestum usque produxit, Strabo ad Polam, Plinius ad Arsiam fluuium, Ptolomeus quoque Istriam Italię finibus uidetur concedere; Pomponij libro <name n="name1">Geographię</name> suę secundo uerba hęc sunt: <q n="q2">Illyricis usque Tergestum, cętera Gallicis Italisque gentibus cinguntur.</q> Strabonis autem lib. VII. hęc: <q n="q3">usque ad Polam ciuitatem Istrię, huius temporis Imperatores Italię terminos extendere.</q>  Plinij uero <name n="name4">Naturalis hist.</name> lib. <num n="num5" value="3">III</num>. hęc: <q n="q6">Et nunc finis Italię fluuius Arsia.</q> Ptolomei denique lib. <num n="num7" value="3">III</num>. hęc: <q n="q8">Post Istriam Italię ora, inde Liburnię, aut Illyrici.</q> Patet igitur ad Arsiam usque siue Polam Istrię esse finem, et inde primam Illyrici partem, quę Liburnia dicitur, incipere.  Plinio quoque ita dicente: <q n="q9">Arsię gens Liburnorum iungitur usque ad flumen Titium.  Pars eius</q>, inquit, <q n="q10">fuere Mentores, Hymani, Encheleę, Dudini, et quos Callimachus Peucetias appellat, nunc totum uno nomine Illyricum uocatur.</q>  Idem ait: <q n="q11">Liburnię finis et initium Delmatię Scardona.</q>  Tantum igitur ab Istria distat Delmatia, quanta est Liburnię totius longitudo.  Quod si Delmatia nostra tam inde procul abesse noscitur, quo pacto Stridon oppidum non aberit?  Quod Delmatiam cum Pannonia disterminare a Hieronymo, ibidem nato, ibidem adulto, et conuersato dictum est, ut igitur cognoscas Stridonem non illud oppidum esse, quod nunc (ut Blondus ait) Sdrigna dicitur, sed longe ab eo diuersum, et quod nunc ab accolis Strigoum uocatur, et a Ptolomeo Sidrona olim nuncupatum sit; quanuis ipse Ptolomeus Liburnię illud annumeret, ita tunc angustiores Delmatię fines erant, qui postea latius se effuderunt.  Nisi enim Stridon Delmatiam attingeret, nequaquam Hieronymus Delmatię potius quam Liburnię mentionem fecisset.  Porro Ptolomeus lib. <num n="num12" value="3">III</num>. ita ait: <q n="q13">Ciuitates Liburnię mediterraneę hę sunt: Tediastum, Aruncia, Adrotium, Stulpsi, Curum, Ausancali, Varuaria, Saluia, Adra, Aruona, Assesia, Burnum, Sidrona, Blanona, Ouporum, Nedinum,</q> deinde commemorat Delmatię mediterranea.  Sidronam ergo oppidum, postea Stridonem dictum, in Liburnia posuit, non, ut Blondus somniauit, in Istria.  Quod autem Sidrona et Stridon idem sit, uide Ptolomei expositorem, qui ait: <q n="q14">Sidrona siue Stridon; hinc Sanctus Hieronymus de quattuor Doctoribus ecclesię originem ducit</q>.  Hęc ille.  Itaque cum Sidrona, siue Stridon, siue (ut nunc appellant) Strigoum, non Istrię sed Liburnię oppidum fuerit, Hieronymus Italicus dici nullo modo debuit.</p>
+            <p n="p5"> Videamus ergo, Bergomensis frater, Blondus iste pręceptor tuus talia asserens quam procul a uero sit.  Italię fines Pomponius Mella, antiquissimus autor, qui ad mare Adriaticum spectant, ad Tergestum usque produxit, Strabo ad Polam, Plinius ad Arsiam fluuium, Ptolomeus quoque Istriam Italię finibus uidetur concedere; Pomponij libro <name n="name1">Geographię</name> suę secundo uerba hęc sunt: <q n="q1">Illyricis usque Tergestum, cętera Gallicis Italisque gentibus cinguntur.</q> Strabonis autem lib. VII. hęc: <q n="q2">usque ad Polam ciuitatem Istrię, huius temporis Imperatores Italię terminos extendere.</q>  Plinij uero <name n="name2">Naturalis hist.</name> lib. <num n="num1" value="3">III</num>. hęc: <q n="q3">Et nunc finis Italię fluuius Arsia.</q> Ptolomei denique lib. <num n="num2" value="3">III</num>. hęc: <q n="q4">Post Istriam Italię ora, inde Liburnię, aut Illyrici.</q> Patet igitur ad Arsiam usque siue Polam Istrię esse finem, et inde primam Illyrici partem, quę Liburnia dicitur, incipere.  Plinio quoque ita dicente: <q n="q5">Arsię gens Liburnorum iungitur usque ad flumen Titium.  Pars eius</q>, inquit, <q n="q6">fuere Mentores, Hymani, Encheleę, Dudini, et quos Callimachus Peucetias appellat, nunc totum uno nomine Illyricum uocatur.</q>  Idem ait: <q n="q7">Liburnię finis et initium Delmatię Scardona.</q>  Tantum igitur ab Istria distat Delmatia, quanta est Liburnię totius longitudo.  Quod si Delmatia nostra tam inde procul abesse noscitur, quo pacto Stridon oppidum non aberit?  Quod Delmatiam cum Pannonia disterminare a Hieronymo, ibidem nato, ibidem adulto, et conuersato dictum est, ut igitur cognoscas Stridonem non illud oppidum esse, quod nunc (ut Blondus ait) Sdrigna dicitur, sed longe ab eo diuersum, et quod nunc ab accolis Strigoum uocatur, et a Ptolomeo Sidrona olim nuncupatum sit; quanuis ipse Ptolomeus Liburnię illud annumeret, ita tunc angustiores Delmatię fines erant, qui postea latius se effuderunt.  Nisi enim Stridon Delmatiam attingeret, nequaquam Hieronymus Delmatię potius quam Liburnię mentionem fecisset.  Porro Ptolomeus lib. <num n="num3" value="3">III</num>. ita ait: <q n="q8">Ciuitates Liburnię mediterraneę hę sunt: Tediastum, Aruncia, Adrotium, Stulpsi, Curum, Ausancali, Varuaria, Saluia, Adra, Aruona, Assesia, Burnum, Sidrona, Blanona, Ouporum, Nedinum,</q> deinde commemorat Delmatię mediterranea.  Sidronam ergo oppidum, postea Stridonem dictum, in Liburnia posuit, non, ut Blondus somniauit, in Istria.  Quod autem Sidrona et Stridon idem sit, uide Ptolomei expositorem, qui ait: <q n="q9">Sidrona siue Stridon; hinc Sanctus Hieronymus de quattuor Doctoribus ecclesię originem ducit</q>.  Hęc ille.  Itaque cum Sidrona, siue Stridon, siue (ut nunc appellant) Strigoum, non Istrię sed Liburnię oppidum fuerit, Hieronymus Italicus dici nullo modo debuit.</p>
 
 
-            <p n="p7"> Quod ut clarius tibi constet, qui uera nosse cupis, inspice apud eundem autorem tabulam quintam Europę.  Ibi, si a Scardona, quam Liburnię finem et initium Delmatię esse Plinius deffiniuit, septentrionem uersus lineam intenderis, in radicibus montis, qui Illyricum cum Pannonia diuidit, Sidronam inuenies; hoc oppidum tametsi Ptolomei tempore, qui multo ante Hieronymum fuit, in Liburnię finibus erat, postea tamen longius productis finibus, quibus Iaderam, Enonam Arbamque Liburnię quondam oppida compręhendimus, Delmatię dictum fuit: iccirco in eo deffiniendo Hieronymus Delmatię non Liburnię fecit mentionem; iuxta quod oppidum Pannoniam incipere, et ad septentrionem Danubio finiri scriptores testantur.  Huc accedit quod ab illis quoque, qui nunc de locis ei oppido proximis ad nos commeant, sępe audimus, in medijs Strigoi ruinis adhuc sacellum stare Hieronymo dedicatum, ab accolis quidem conditum, ut ibi eius permaneret memoria, ubi nouerant natum; ędium etiam partem aliquam superesse, quas parentum ipsius fuisse affirmant.  Quis ergo tam impudens, tam frontis perfricatę, ut contra tot, taliumque testimonia quicquam diuersum asseueret?  Aut cur tandem aliquis Italorum non permittet nobis hunc apud nos natum esse gloriari, si nos illis non interdicimus, ut sibi plaudant eundem apud ipsos bonarum artium disciplinam percepisse, licet et in Gręcia Gręcis litteris excultus sit, et in Syria Hebraicis eruditus?</p>
+            <p n="p6"> Quod ut clarius tibi constet, qui uera nosse cupis, inspice apud eundem autorem tabulam quintam Europę.  Ibi, si a Scardona, quam Liburnię finem et initium Delmatię esse Plinius deffiniuit, septentrionem uersus lineam intenderis, in radicibus montis, qui Illyricum cum Pannonia diuidit, Sidronam inuenies; hoc oppidum tametsi Ptolomei tempore, qui multo ante Hieronymum fuit, in Liburnię finibus erat, postea tamen longius productis finibus, quibus Iaderam, Enonam Arbamque Liburnię quondam oppida compręhendimus, Delmatię dictum fuit: iccirco in eo deffiniendo Hieronymus Delmatię non Liburnię fecit mentionem; iuxta quod oppidum Pannoniam incipere, et ad septentrionem Danubio finiri scriptores testantur.  Huc accedit quod ab illis quoque, qui nunc de locis ei oppido proximis ad nos commeant, sępe audimus, in medijs Strigoi ruinis adhuc sacellum stare Hieronymo dedicatum, ab accolis quidem conditum, ut ibi eius permaneret memoria, ubi nouerant natum; ędium etiam partem aliquam superesse, quas parentum ipsius fuisse affirmant.  Quis ergo tam impudens, tam frontis perfricatę, ut contra tot, taliumque testimonia quicquam diuersum asseueret?  Aut cur tandem aliquis Italorum non permittet nobis hunc apud nos natum esse gloriari, si nos illis non interdicimus, ut sibi plaudant eundem apud ipsos bonarum artium disciplinam percepisse, licet et in Gręcia Gręcis litteris excultus sit, et in Syria Hebraicis eruditus?</p>
 
-            <div n="div8">
+            <div n="div1">
                <p n="p1"> Hęc autem ad dignoscendum cuiatem illum dicere debeamus coram recensuisse satis sit.  Cęterum disceptationem hanc nostram concertationemque, licet ex animi pietate susceptam, ipsum Hieronymum non tam repręhendere quam ridere reor, quippe qui iam non aliam patriam agnoscit nisi in qua tam feliciter ciuis perpetuus, atque perennis ascribi meruit, hoc est cęlestem illam Hierusalem, quę est mater nostra.  Inde ipsum dicentem audire mihi uideor: <q n="q1">Ille meus est, et ego suus, qui ea quę docui magis nauiter exequi contendit; ille meus est, et ego suus, qui sanctorum uitam quantum potest imitari non desistit; ille denique meus est et ego suus, qui Christi Domini mei est, et Dei mei, cui soli cum Patre et Spiritu Sancto laus et gloria in sempiternum Amen.</q>
                </p>
 
             </div>
          </div>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
         <div n="div1" type="poesis" met="elegiacum">
             <head n="head1">De laudibus diui Hieronymi carmen</head>
-            <l n="l2">Delmatię lętis olim generatus in oris</l>
-            <l n="l3">	Hieronymus toto notus in orbe fuit.</l>
-            <l n="l4">Inter Catholicos unus facundior omnes,</l>
-            <l n="l5">	Iudice me, magno nec Cicerone minor.</l>
-            <l n="l6">Cecropia doctus lingua, doctusque Latina,			<note n="note1" type="numvers">5</note>
+            <l n="l1">Delmatię lętis olim generatus in oris</l>
+            <l n="l2">	Hieronymus toto notus in orbe fuit.</l>
+            <l n="l3">Inter Catholicos unus facundior omnes,</l>
+            <l n="l4">	Iudice me, magno nec Cicerone minor.</l>
+            <l n="l5">Cecropia doctus lingua, doctusque Latina,			<note n="note1" type="numvers">5</note>
             </l>
-            <l n="l7">	Hebraicos didicit, Chaldaicosque sonos.</l>
-            <l n="l8">Felix tam uarię donis donate loquellę!</l>
-            <l n="l9">	Ingenio multum, nec minus arte ualens.</l>
-            <l n="l10">Te Scripturarum castigatore, recessit</l>
-            <l n="l11">	omnis ab utroque menda fugata libro.			<note n="note1" type="numvers">10</note>
+            <l n="l6">	Hebraicos didicit, Chaldaicosque sonos.</l>
+            <l n="l7">Felix tam uarię donis donate loquellę!</l>
+            <l n="l8">	Ingenio multum, nec minus arte ualens.</l>
+            <l n="l9">Te Scripturarum castigatore, recessit</l>
+            <l n="l10">	omnis ab utroque menda fugata libro.			<note n="note1" type="numvers">10</note>
             </l>
-            <l n="l12">Te monstrante patent sensus et enygmata uatum,</l>
-            <l n="l13">	Iam licet obscuris nil titubare locis:</l>
-            <l n="l14">Sic Sole infuso tenebras uanescere noctis	</l>
-            <l n="l15">	Cernimus, et nubes flantibus etesijs.</l>
-            <l n="l16">Te bellante pijs uerterunt terga prophani,			<note n="note1" type="numvers">15</note>
+            <l n="l11">Te monstrante patent sensus et enygmata uatum,</l>
+            <l n="l12">	Iam licet obscuris nil titubare locis:</l>
+            <l n="l13">Sic Sole infuso tenebras uanescere noctis	</l>
+            <l n="l14">	Cernimus, et nubes flantibus etesijs.</l>
+            <l n="l15">Te bellante pijs uerterunt terga prophani,			<note n="note1" type="numvers">15</note>
             </l>
-            <l n="l17">	Perpetuus nostris hostibus hostis eras.</l>
-            <l n="l18">Te duce, prostratis erroribus, alma triumphat</l>
-            <l n="l19">	Ecclesia, et laudes concinit usque tuas.</l>
-            <l n="l20">Tu nobis consulta, modos monitusque dedisti,</l>
-            <l n="l21">	Per quos alta poli scandere ad astra datur.		<note n="note1" type="numvers">20</note>
+            <l n="l16">	Perpetuus nostris hostibus hostis eras.</l>
+            <l n="l17">Te duce, prostratis erroribus, alma triumphat</l>
+            <l n="l18">	Ecclesia, et laudes concinit usque tuas.</l>
+            <l n="l19">Tu nobis consulta, modos monitusque dedisti,</l>
+            <l n="l20">	Per quos alta poli scandere ad astra datur.		<note n="note1" type="numvers">20</note>
             </l>
-            <l n="l22">Nec tamen ista magis uerbis, calamoque docebas,</l>
-            <l n="l23">	Quam uita et factis, uir memorande, tuis.</l>
-            <l n="l24">Nam Latium linquens Syrię deserta petisti,</l>
-            <l n="l25">	Sacco membra tegens esurieque domans.</l>
-            <l n="l26">Illa angusta specus muscoque uirentia saxa,			<note n="note1" type="numvers">25</note>
+            <l n="l21">Nec tamen ista magis uerbis, calamoque docebas,</l>
+            <l n="l22">	Quam uita et factis, uir memorande, tuis.</l>
+            <l n="l23">Nam Latium linquens Syrię deserta petisti,</l>
+            <l n="l24">	Sacco membra tegens esurieque domans.</l>
+            <l n="l25">Illa angusta specus muscoque uirentia saxa,			<note n="note1" type="numvers">25</note>
             </l>
-            <l n="l27">	Nudaque paupertas assiduusque labor,</l>
-            <l n="l28">Cur sint, Roma, tuis tectis pręlata superbis,</l>
-            <l n="l29">	Cur tot diuitijs delitijsque tuis?</l>
-            <l n="l30">Noscere si cupias, rerum metire suprema,</l>
-            <l n="l31">	Et causam disces finis ab indicio.				<note n="note1" type="numvers">30</note>
+            <l n="l26">	Nudaque paupertas assiduusque labor,</l>
+            <l n="l27">Cur sint, Roma, tuis tectis pręlata superbis,</l>
+            <l n="l28">	Cur tot diuitijs delitijsque tuis?</l>
+            <l n="l29">Noscere si cupias, rerum metire suprema,</l>
+            <l n="l30">	Et causam disces finis ab indicio.				<note n="note1" type="numvers">30</note>
             </l>
-            <l n="l32">Ille etenim potuit qui talia spernere multa,</l>
-            <l n="l33">	Contentus paruo, nunc bona summa capit.</l>
-            <l n="l34">Nunc fruitur cęlo, sed quo quoque tempore terras</l>
-            <l n="l35">	Incoluit, mira dote beatus erat:</l>
-            <l n="l36">Mentis enim leuibus transcendens ęthera pennis,		<note n="note1" type="numvers">35</note>
+            <l n="l31">Ille etenim potuit qui talia spernere multa,</l>
+            <l n="l32">	Contentus paruo, nunc bona summa capit.</l>
+            <l n="l33">Nunc fruitur cęlo, sed quo quoque tempore terras</l>
+            <l n="l34">	Incoluit, mira dote beatus erat:</l>
+            <l n="l35">Mentis enim leuibus transcendens ęthera pennis,		<note n="note1" type="numvers">35</note>
             </l>
-            <l n="l37">	Non semel angelicos fertur adisse choros,</l>
-            <l n="l38">Et sanctos uidisse patres, uidisse sedentem</l>
-            <l n="l39">	Fulgentemque super culmina summa Deum;</l>
-            <l n="l40">Sępe supernarum pastus dulcedine rerum</l>
-            <l n="l41">	Ieiunus totas perstitit hebdomadas;			<note n="note1" type="numvers">40</note>
+            <l n="l36">	Non semel angelicos fertur adisse choros,</l>
+            <l n="l37">Et sanctos uidisse patres, uidisse sedentem</l>
+            <l n="l38">	Fulgentemque super culmina summa Deum;</l>
+            <l n="l39">Sępe supernarum pastus dulcedine rerum</l>
+            <l n="l40">	Ieiunus totas perstitit hebdomadas;			<note n="note1" type="numvers">40</note>
             </l>
-            <l n="l42">Illi terribiles se submisere leones,</l>
-            <l n="l43">	Nec dedignati sunt sua iussa sequi.</l>
-            <l n="l44">Nullus tunc domitor, uis nulla subegerat illos,</l>
-            <l n="l45">	Et caput imperio supposuere suo.</l>
-            <l n="l46">Grande uiri meritum, cui grex quoque mutus honorem</l>
-            <l n="l47">	Pręstitit, et sęuę quem coluere ferę.</l>
-            <l n="l48">Grandius hoc tamen est: illius nomina diri</l>
-            <l n="l49">	Demones horrescunt effigiemque cauent;</l>
-            <l n="l50">Illi uota homines persoluunt sępe periclis,</l>
-            <l n="l51">	Sępe graui erepti protinus exitio.</l>
-            <l n="l52">Ossa uiri, Solymis defuncti, Roma recępit:</l>
-            <l n="l53">	Illius meritis hoc quoque credo datum.</l>
-            <l n="l54">Christus namque mori Solymis elegit et idem</l>
-            <l n="l55">	Ecclesię Romam pręstitit esse caput.</l>
+            <l n="l41">Illi terribiles se submisere leones,</l>
+            <l n="l42">	Nec dedignati sunt sua iussa sequi.</l>
+            <l n="l43">Nullus tunc domitor, uis nulla subegerat illos,</l>
+            <l n="l44">	Et caput imperio supposuere suo.</l>
+            <l n="l45">Grande uiri meritum, cui grex quoque mutus honorem</l>
+            <l n="l46">	Pręstitit, et sęuę quem coluere ferę.</l>
+            <l n="l47">Grandius hoc tamen est: illius nomina diri</l>
+            <l n="l48">	Demones horrescunt effigiemque cauent;</l>
+            <l n="l49">Illi uota homines persoluunt sępe periclis,</l>
+            <l n="l50">	Sępe graui erepti protinus exitio.</l>
+            <l n="l51">Ossa uiri, Solymis defuncti, Roma recępit:</l>
+            <l n="l52">	Illius meritis hoc quoque credo datum.</l>
+            <l n="l53">Christus namque mori Solymis elegit et idem</l>
+            <l n="l54">	Ecclesię Romam pręstitit esse caput.</l>
         </div>
         
       </back>

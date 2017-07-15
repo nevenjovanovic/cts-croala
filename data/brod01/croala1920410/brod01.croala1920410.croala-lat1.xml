@@ -52,57 +52,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -188,17 +138,17 @@
                     Clementi papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 8, f. 117., 122. Sigillo annulari papyro
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 8, f. 117., 122. Sigillo annulari papyro
                     tecto. Editio: THEINER 1863, n. DCCCLIII, p. 623–624. ETE II, n. 239, p.
                     272–274.</note>
 
 
-                <opener n="opener3">
+                <opener n="opener1">
                <note n="note1" resp="BJ">[Inscriptio:]</note> Sanctissimo domino nostro, Clementi
                     septimo pontifici maximo, domino nostro clementissimo. Beatissime Pater et
                     domine, domine clementissime! Servitutis mee commendationem ad oscula pedum
                     Vestrae Sanctitatis beatorum.</opener>
-                <p n="p4">Non est opus me de statu horum regnorum multa ad Vestram Sanctitatem scribere,
+                <p n="p1">Non est opus me de statu horum regnorum multa ad Vestram Sanctitatem scribere,
                     cum omnia ex dominis Casaliis sit acceptura. Duae erant potissimum res in tota
                     republica Christiana difficiliores, pro quibus etiam excellentissimus Carolus
                     imperator testatus est se in publico Germaniae conventu Augustensi in Germaniam
@@ -254,13 +204,13 @@
                     pro mea in Sedem Apostolicam fide ac devotione, in Vestram autem Sanctitatem
                     singulari observantia et animi deditissimi propensitate Vestram Sanctitatem
                     humiliter admonere.</p>
-                <closer n="closer5">Quae, supplico, sicut proficiscuntur ex sincero bono et Christiano corde,
+                <closer n="closer1">Quae, supplico, sicut proficiscuntur ex sincero bono et Christiano corde,
                     ita boni aequique consulere dignetur, et Sanctitatem Vestram Deus Optimus
                     Maximus diu salvam et incolumem conservet. Datum Budae, prima mensis Augusti,
                     anno Domini MDXXXIII. Eiusdem Vestrę Sanctitatis humilimus servulus et
                     capellanus Stephanus Brodericus Sirmiensis propria</closer>
 
-                <milestone n="milestone6" unit="page"/>
+                <milestone n="milestone1" unit="page"/>
             </div>
         </body>
     </text>

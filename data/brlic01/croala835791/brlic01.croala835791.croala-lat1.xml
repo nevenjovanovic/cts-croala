@@ -42,64 +42,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="11"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="6"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="mentioned" occurs="6"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="12"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="14"/>
-          <tagUsage gi="person" occurs="5"/>
-          <tagUsage gi="place" occurs="3"/>
-          <tagUsage gi="placeName" occurs="6"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="4"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="5"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="4"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -192,94 +135,94 @@
          <div n="div1" type="prosa-epistula" corresp="#brlicignjatbrlicandrija18371022">
             <head n="head1">
                <foreign n="foreign1" xml:lang="hr">PISMO</foreign> 2.</head>
-            <opener n="opener2">
+            <opener n="opener1">
                <dateline n="dateline1">
                   <foreign n="foreign1" xml:lang="hr">U Vinkovce.</foreign>
         Brodii. 
         XI Calend. Novembris 1837.
-        <abbr n="abbr2">NB</abbr> idest 22a 8bris</dateline>
-               <salute n="salute2">Charissime filiole!</salute>
+        <abbr n="abbr1">NB</abbr> idest 22a 8bris</dateline>
+               <salute n="salute1">Charissime filiole!</salute>
             </opener>    
-            <p n="p3"> 
+            <p n="p1"> 
         Mihi quidem debeo gratulari quod latinas literas ad me
         mittas, sed dolendum, quod eas tam <sic n="sic1">eronee</sic> scribas. Itaque
         tibi plus attentionis commendo tum in ordinatione tuarum
-        literarum, tum in syntaxi <abbr n="abbr2">etc.</abbr> 
-               <sic n="sic3">prosertim</sic> in significationibus
+        literarum, tum in syntaxi <abbr n="abbr1">etc.</abbr> 
+               <sic n="sic2">prosertim</sic> in significationibus
         verborum, eapropter grammaticam et lexicon pro manibus habes.</p>
         
-            <p n="p4">Inter caetera dicis, in prima mihi sine loco et dato missa
+            <p n="p2">Inter caetera dicis, in prima mihi sine loco et dato missa
         epistola, <q n="q1">quemlibet vestrum in scholam scriptoriam ire debere</q>,
-        loco <mentioned n="mentioned2">schola scriptoria</mentioned>; quaere quidnam in lexico
-        <mentioned n="mentioned3">
+        loco <mentioned n="mentioned1">schola scriptoria</mentioned>; quaere quidnam in lexico
+        <mentioned n="mentioned2">
                   <foreign n="foreign1">Schönschreibe-Kunst</foreign>
                </mentioned> 
-            significet. ― Porro dicis: <q n="q4">In artem delineandi
+            significet. ― Porro dicis: <q n="q2">In artem delineandi
         musicamque quilibet ire potest</q>, quaere, qualis expressio hic
         adhibenda fuisset quia ista pessime sonat, et quidem infra
-        omnem pessimi hungarici studiosi. ― Ita postulas <q n="q5">tuam horam</q>,
-        aspice in lexico quidnam <mentioned n="mentioned6">hora</mentioned> significet, et quomodo
-        <mentioned n="mentioned7">
+        omnem pessimi hungarici studiosi. ― Ita postulas <q n="q3">tuam horam</q>,
+        aspice in lexico quidnam <mentioned n="mentioned3">hora</mentioned> significet, et quomodo
+        <mentioned n="mentioned4">
                   <foreign n="foreign1" xml:lang="de">die Uhr</foreign>
                </mentioned> latine
-            vocetur. ― In ambis literis mihi scribis: <q n="q8">salve
+            vocetur. ― In ambis literis mihi scribis: <q n="q4">salve
         Patrem Paschalem</q> 
-               <abbr n="abbr9">etc. etc</abbr>. Ex lexico edoceberis quidnam
-        <mentioned n="mentioned10">salve</mentioned> significet. Quomodo latine dicatur <mentioned n="mentioned11">
+               <abbr n="abbr1">etc. etc</abbr>. Ex lexico edoceberis quidnam
+        <mentioned n="mentioned5">salve</mentioned> significet. Quomodo latine dicatur <mentioned n="mentioned6">
                   <foreign n="foreign1" xml:lang="de">grüssen</foreign>
                </mentioned> inspice
         lexicon.</p>
         
-            <milestone n="milestone5" unit="page"/>
+            <milestone n="milestone1" unit="page"/>
         
-            <p n="p6">Scholam graphidis cum meo annutu non frequentabis,
+            <p n="p3">Scholam graphidis cum meo annutu non frequentabis,
         sed tamen si vis, liceat tibi, at cum modo pro ista arte 
         necessaria instrumenta non habeam, tardius tibi illa mittam.
         Satage ut quo saepissime ad scholam caligraphicam venias,
         nam pessimam scripturam habes.</p>
         
-            <p n="p7">Ut musicae studeas semper opto, et quidem ut vocalem
+            <p n="p4">Ut musicae studeas semper opto, et quidem ut vocalem
         omnibus caeteris musicis <sic n="sic1">praeferras</sic>; cupio, et ni fallor, 
         primum quod in publica schola es percepturus, erit musica 
-        vocalis, id est <foreign n="foreign2">Gesang</foreign>; hoc fundamentum est totius musices!
+        vocalis, id est <foreign n="foreign1">Gesang</foreign>; hoc fundamentum est totius musices!
         Percipe ergo et studeas hoc volo et amo; sed tamen nolo ut
-        grammaticam propter quam ibi existis, ― aliis <sic n="sic3">proferras</sic>, et
+        grammaticam propter quam ibi existis, ― aliis <sic n="sic2">proferras</sic>, et
         negligas. Tuum primum et capitale negotium est frequentatio
         gymnasii, et studium praescriptarum in gymnasio materiarum.
         Si tempus et otium habes, studeas et caeteris omnibus,
         ego non ero contrarius. Sed ne praeferras alia dulcia,
         necessariis et officiosis.</p>
         
-            <p n="p8">Mihi plurimum salutabis admodum <abbr n="abbr1">rever-dos</abbr> dominos 
+            <p n="p5">Mihi plurimum salutabis admodum <abbr n="abbr1">rever-dos</abbr> dominos 
         Cathechetam et tuum Professorem, etiam tuum Patrem familias
         apud quem vesceris, et ejus dominam, mea et matris ex
         parte.</p>
         
-            <p n="p9">Scholam musices tibi mitto. Invenies etiam pro <persName n="persName1">Müller</persName>
+            <p n="p6">Scholam musices tibi mitto. Invenies etiam pro <persName n="persName1">Müller</persName>
         ibidem duo folia Charto pro Cottis, trade eidem illa.
-        Responsum <abbr n="abbr2">Dno.</abbr> 
-               <persName n="persName3">Popovich</persName> adjacens dabis.</p>
+        Responsum <abbr n="abbr1">Dno.</abbr> 
+               <persName n="persName2">Popovich</persName> adjacens dabis.</p>
         
-            <p n="p10">Quid pro instructione in Musica solvendum fuerit, <abbr n="abbr1">A. R.
+            <p n="p7">Quid pro instructione in Musica solvendum fuerit, <abbr n="abbr1">A. R.
         Dnus.</abbr> Cathecheta, meus singularis amicus pro me solvet, cui
         omnia restituam.</p>
         
-            <closer n="closer11">Percipe tuas res bene, ut mihi studium gaudio sit, vale.</closer>
+            <closer n="closer1">Percipe tuas res bene, ut mihi studium gaudio sit, vale.</closer>
         
-            <signed n="signed12">Tuus pater</signed>
+            <signed n="signed1">Tuus pater</signed>
         
-            <postscript n="postscript13">
+            <postscript n="postscript1">
                <p n="p1">
                   <abbr n="abbr1">P. S.</abbr> Unum kalendarium dabis <abbr n="abbr2">a. r. Dno.</abbr>
-                  <sic n="sic3">Cathecheta</sic>, unum clarissimo <abbr n="abbr4">Dno.</abbr> tuo Professori,
-        unum <abbr n="abbr5">Dno.</abbr> Directori <persName n="persName6">Acxich</persName>, residuum pro te servare poteris.</p>
+                  <sic n="sic1">Cathecheta</sic>, unum clarissimo <abbr n="abbr3">Dno.</abbr> tuo Professori,
+        unum <abbr n="abbr4">Dno.</abbr> Directori <persName n="persName1">Acxich</persName>, residuum pro te servare poteris.</p>
         
-               <milestone n="milestone2" unit="page"/>
+               <milestone n="milestone1" unit="page"/>
         
-               <p n="p3">Plurimam salutem tibi dicit Mater, fratres cum sororibus.</p>
+               <p n="p2">Plurimam salutem tibi dicit Mater, fratres cum sororibus.</p>
         
-               <p n="p4">Horologium tibi destinatum necdum <placeName n="placeName1">Posega</placeName> venit, dum
-        autem venerit, si promeritus fueris, tibi mittam, sed <abbr n="abbr2">NB</abbr> si
+               <p n="p3">Horologium tibi destinatum necdum <placeName n="placeName1">Posega</placeName> venit, dum
+        autem venerit, si promeritus fueris, tibi mittam, sed <abbr n="abbr1">NB</abbr> si
         promeritus fueris, nam, si male te gesseris, non illud accipies,
         ergo praestolabimur primam classificationem.
         

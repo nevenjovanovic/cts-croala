@@ -44,58 +44,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="choice" occurs="20"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="10"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="126"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="5"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="orig" occurs="47"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="unclear" occurs="3"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -171,86 +120,86 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="poesis-elegia" met="elegiacum">
             <milestone unit="page" n="milestone1" facs="http://daten.digitale-sammlungen.de/bsb00007356/image_275"/>
-            <head n="head2">Naenia Alouisii Cippici de clarissimo adolescente Petro Rhiario, Sixti summi
+            <head n="head1">Naenia Alouisii Cippici de clarissimo adolescente Petro Rhiario, Sixti summi
           pontificis nepote </head>
 
-            <l n="l3">Frustra igitur dites superis attollimus aras</l>
-            <l n="l4" met="pentameter">Et damus arsuris thura <corr n="corr1" resp="NJ">cremanda</corr> focis;</l>
-            <l n="l5">Frustra legiferi seruamus iussa Lycurgi</l>
-            <l n="l6" met="pentameter">Cumque sua colimus simplicitate fidem.</l>
-            <l n="l7">Parcite, caelestes, uos cogitis impia uatem</l>
-            <l n="l8" met="pentameter">Dicere: non homines, non habet ira deos.</l>
-            <l n="l9">Cur totiens uideo confundi sacra profanis</l>
-            <l n="l10" met="pentameter">Vltimaque in summo prima sedere gradu?</l>
-            <l n="l11">
+            <l n="l1">Frustra igitur dites superis attollimus aras</l>
+            <l n="l2" met="pentameter">Et damus arsuris thura <corr n="corr1" resp="NJ">cremanda</corr> focis;</l>
+            <l n="l3">Frustra legiferi seruamus iussa Lycurgi</l>
+            <l n="l4" met="pentameter">Cumque sua colimus simplicitate fidem.</l>
+            <l n="l5">Parcite, caelestes, uos cogitis impia uatem</l>
+            <l n="l6" met="pentameter">Dicere: non homines, non habet ira deos.</l>
+            <l n="l7">Cur totiens uideo confundi sacra profanis</l>
+            <l n="l8" met="pentameter">Vltimaque in summo prima sedere gradu?</l>
+            <l n="l9">
                <orig n="orig1" resp="bnf">Cur tolli aspicimus nullo discrimine sontes</orig>
             </l>
-            <l n="l12" met="pentameter">
+            <l n="l10" met="pentameter">
                <orig n="orig1" resp="bnf">Et passim meritis pręmia nulla dari?</orig>
             </l>
-            <l n="l13">Cur semper meliora cadunt primosque sub annos</l>
-            <l n="l14" met="pentameter">Deficiunt, cupias uiuere si qua diu?</l>
-            <l n="l15">Sic Paris amplexu tenerae languebat amicae</l>
-            <l n="l16" met="pentameter">Haemoniis Hector cum traheretur equis;</l>
-            <l n="l17">Iam Styga Pelides et magnus uiserat Aiax,</l>
-            <l n="l18" met="pentameter">Thersites Phrygia laetus agebat humo.</l>
-            <l n="l19">Et nunc, heu facinus! uiuant cum mille nocentes,</l>
-            <l n="l20" met="pentameter">Tres in te, Rhiari, ius habuere deae,</l>
-            <l n="l21">Et cadis ante diem, <choice n="choice1">
+            <l n="l11">Cur semper meliora cadunt primosque sub annos</l>
+            <l n="l12" met="pentameter">Deficiunt, cupias uiuere si qua diu?</l>
+            <l n="l13">Sic Paris amplexu tenerae languebat amicae</l>
+            <l n="l14" met="pentameter">Haemoniis Hector cum traheretur equis;</l>
+            <l n="l15">Iam Styga Pelides et magnus uiserat Aiax,</l>
+            <l n="l16" met="pentameter">Thersites Phrygia laetus agebat humo.</l>
+            <l n="l17">Et nunc, heu facinus! uiuant cum mille nocentes,</l>
+            <l n="l18" met="pentameter">Tres in te, Rhiari, ius habuere deae,</l>
+            <l n="l19">Et cadis ante diem, <choice n="choice1">
                   <orig n="orig1" resp="bsb">patris</orig> 
                   <orig n="orig2" resp="bnf">patriis</orig>
                </choice> procul hospes ab oris,</l>
-            <l n="l22" met="pentameter">Picentum et per te reddita terra nocens.</l>
-            <milestone unit="page" n="milestone23" facs="http://daten.digitale-sammlungen.de/bsb00007356/image_276"/>
-            <l n="l24">Heu, modo ad Euganeam Troiani Antenoris urbem</l>
-            <l n="l25" met="pentameter">Fecerat ingenii quanta pericla sui!</l>
-            <l n="l26">Ille et pontificum et ciuilia iura tenebat</l>
-            <l n="l27" met="pentameter">Stabat et Aonii primus in arce iugi.</l>
-            <l n="l28">Euocat a studiis Sixtus, torpere nepotem</l>
-            <l n="l29" met="pentameter">Tam longum uita deside turpe ratus.</l>
-            <l n="l30">Iamque et purpurei sperabat dona galeri</l>
-            <l n="l31" met="pentameter">Et si quid Petri regia maius habet</l>
-            <l n="l32">Spes hominum; medio in cursu, dum pergit ad Vrbem,</l>
-            <l n="l33" met="pentameter">Tristia in ignota fata peregit humo.</l>
-            <l n="l34">Non soror aut mater miserabilis affuit aegro</l>
-            <l n="l35" met="pentameter">Et tulit ad surdos ultima uota deos;</l>
-            <l n="l36">Non animam patulo <choice n="choice1">
+            <l n="l20" met="pentameter">Picentum et per te reddita terra nocens.</l>
+            <milestone unit="page" n="milestone2" facs="http://daten.digitale-sammlungen.de/bsb00007356/image_276"/>
+            <l n="l21">Heu, modo ad Euganeam Troiani Antenoris urbem</l>
+            <l n="l22" met="pentameter">Fecerat ingenii quanta pericla sui!</l>
+            <l n="l23">Ille et pontificum et ciuilia iura tenebat</l>
+            <l n="l24" met="pentameter">Stabat et Aonii primus in arce iugi.</l>
+            <l n="l25">Euocat a studiis Sixtus, torpere nepotem</l>
+            <l n="l26" met="pentameter">Tam longum uita deside turpe ratus.</l>
+            <l n="l27">Iamque et purpurei sperabat dona galeri</l>
+            <l n="l28" met="pentameter">Et si quid Petri regia maius habet</l>
+            <l n="l29">Spes hominum; medio in cursu, dum pergit ad Vrbem,</l>
+            <l n="l30" met="pentameter">Tristia in ignota fata peregit humo.</l>
+            <l n="l31">Non soror aut mater miserabilis affuit aegro</l>
+            <l n="l32" met="pentameter">Et tulit ad surdos ultima uota deos;</l>
+            <l n="l33">Non animam patulo <choice n="choice1">
                   <orig n="orig1" resp="BSB">fugientem</orig> 
                   <orig n="orig2" resp="bnf">j<unclear n="unclear1">acen</unclear>ntem</orig>
                </choice> excepit hiatu,</l>
-            <l n="l37" met="pentameter">Condidit aut oculos composuitue caput;</l>
-            <l n="l38">Oscula non carpsit sensitque nouissima uerba;</l>
-            <l n="l39" met="pentameter">Quis scit an et fati tempore laeta fuit?</l>
-            <l n="l40">Certe laeta fuit: quid enim non indole tanta</l>
-            <l n="l41" met="pentameter">Gaudeat et festum nescia tempus agat?</l>
-            <l n="l42">Non tamen Eliseas <corr n="corr1" resp="NJ">indeploratus</corr> ad umbras</l>
-            <l n="l43" met="pentameter">Desiliit; mater, desine maesta queri.</l>
-            <l n="l44">Nondum oculi, nondum comitum infelicia cessant</l>
-            <l n="l45" met="pentameter">Brachia: adhuc gemitu cuncta furente sonant.</l>
-            <l n="l46">Cuncta sonant gemitu, <choice n="choice1">
+            <l n="l34" met="pentameter">Condidit aut oculos composuitue caput;</l>
+            <l n="l35">Oscula non carpsit sensitque nouissima uerba;</l>
+            <l n="l36" met="pentameter">Quis scit an et fati tempore laeta fuit?</l>
+            <l n="l37">Certe laeta fuit: quid enim non indole tanta</l>
+            <l n="l38" met="pentameter">Gaudeat et festum nescia tempus agat?</l>
+            <l n="l39">Non tamen Eliseas <corr n="corr1" resp="NJ">indeploratus</corr> ad umbras</l>
+            <l n="l40" met="pentameter">Desiliit; mater, desine maesta queri.</l>
+            <l n="l41">Nondum oculi, nondum comitum infelicia cessant</l>
+            <l n="l42" met="pentameter">Brachia: adhuc gemitu cuncta furente sonant.</l>
+            <l n="l43">Cuncta sonant gemitu, <choice n="choice1">
                   <orig n="orig1" resp="bsb">reboat</orig> 
                   <orig n="orig2" resp="bnf">reboatque</orig>
                </choice> ululatibus aer,</l>
-            <l n="l47" met="pentameter">Adiuuat et luctu publica damna suo.</l>
-            <l n="l48">Attoniti mussant, lucemque odere sodales</l>
-            <l n="l49" met="pentameter">Immitesque deos implacidosque uocant.</l>
-            <l n="l50">Nec minus ignoti lugent ad funera busti</l>
-            <l n="l51" met="pentameter">Si soror aut <orig n="orig1" resp="bnf">si</orig> illic astitit ulla parens,</l>
-            <l n="l52">Atque hostes capta tamquam bacchentur in urbe,</l>
-            <l n="l53" met="pentameter">Nec iuuenes lacrimis, nec caruere senes.</l>
-            <l n="l54">Quin etiam ad tumulum scissa Tritonia palla</l>
-            <milestone unit="page" n="milestone55" facs="http://daten.digitale-sammlungen.de/bsb00007356/image_277"/>
-            <l n="l56" met="pentameter">Venit, et <choice n="choice1">
+            <l n="l44" met="pentameter">Adiuuat et luctu publica damna suo.</l>
+            <l n="l45">Attoniti mussant, lucemque odere sodales</l>
+            <l n="l46" met="pentameter">Immitesque deos implacidosque uocant.</l>
+            <l n="l47">Nec minus ignoti lugent ad funera busti</l>
+            <l n="l48" met="pentameter">Si soror aut <orig n="orig1" resp="bnf">si</orig> illic astitit ulla parens,</l>
+            <l n="l49">Atque hostes capta tamquam bacchentur in urbe,</l>
+            <l n="l50" met="pentameter">Nec iuuenes lacrimis, nec caruere senes.</l>
+            <l n="l51">Quin etiam ad tumulum scissa Tritonia palla</l>
+            <milestone unit="page" n="milestone3" facs="http://daten.digitale-sammlungen.de/bsb00007356/image_277"/>
+            <l n="l52" met="pentameter">Venit, et <choice n="choice1">
                   <corr n="corr1" resp="NJ">obtuso</corr> 
-                  <orig n="orig2" resp="bsb">attuso</orig> 
-                  <orig n="orig3" resp="bnf">attuso</orig>
+                  <orig n="orig1" resp="bsb">attuso</orig> 
+                  <orig n="orig2" resp="bnf">attuso</orig>
                </choice> pectore maesta Venus,</l>
-            <l n="l57">Vtraque sparsa leues per candida colla capillos</l>
-            <l n="l58" met="pentameter">Vtraque purpureas ungue notata genas.</l>
-            <l n="l59">Sed primum subito uelut obriguere dolore</l>
-            <l n="l60" met="pentameter">Nullaque sunt gemitus uerba secuta suos;</l>
-            <l n="l61">Mox, ubi uerba dolor laxauit, prima Dione</l>
-            <l n="l62" met="pentameter">Incepit tales ore <choice n="choice1">
+            <l n="l53">Vtraque sparsa leues per candida colla capillos</l>
+            <l n="l54" met="pentameter">Vtraque purpureas ungue notata genas.</l>
+            <l n="l55">Sed primum subito uelut obriguere dolore</l>
+            <l n="l56" met="pentameter">Nullaque sunt gemitus uerba secuta suos;</l>
+            <l n="l57">Mox, ubi uerba dolor laxauit, prima Dione</l>
+            <l n="l58" met="pentameter">Incepit tales ore <choice n="choice1">
                   <orig n="orig1" resp="bsb">tenere</orig> 
                   <orig n="orig2" resp="bnf">tremente</orig>
                </choice> 
@@ -258,28 +207,28 @@
                   <orig n="orig1" resp="bnf">sonos</orig> 
                   <orig n="orig2" resp="bsb">modos</orig>
                </choice> 
-               <add n="add3" resp="bnf">al. modos</add>:</l>
-            <l n="l63">"Tene ego care puer, te nunc ego, parue, iacentem</l>
-            <l n="l64" met="pentameter">Aspicio? An fallit lumina <corr n="corr1">nostra</corr> furor?</l>
-            <l n="l65">Non fallit: liquet, ecce liquet; nosco ardua colla</l>
-            <l n="l66" met="pentameter">Impubesque genas <choice n="choice1">
+               <add n="add1" resp="bnf">al. modos</add>:</l>
+            <l n="l59">"Tene ego care puer, te nunc ego, parue, iacentem</l>
+            <l n="l60" met="pentameter">Aspicio? An fallit lumina <corr n="corr1">nostra</corr> furor?</l>
+            <l n="l61">Non fallit: liquet, ecce liquet; nosco ardua colla</l>
+            <l n="l62" met="pentameter">Impubesque genas <choice n="choice1">
                   <orig n="orig1" resp="bsb">sydereumque</orig> 
                   <orig n="orig2" resp="bnf">sydereum</orig>
                </choice> caput.</l>
-            <l n="l67">Nosco manus, nosco faciem uultusque uerendos</l>
-            <l n="l68" met="pentameter">Solaque <choice n="choice1">
+            <l n="l63">Nosco manus, nosco faciem uultusque uerendos</l>
+            <l n="l64" met="pentameter">Solaque <choice n="choice1">
                   <orig n="orig1" resp="bsb">quos</orig> 
                   <orig n="orig2" resp="bnf">quas</orig>
                </choice> finxi composuique comas.</l>
-            <l n="l69">Quid tamen, infelix, prodest tibi gratia nostri?</l>
-            <l n="l70" met="pentameter">Heu, quantum uobis, tristia fata, licet!</l>
-            <l n="l71">Cur mea, crudeles, renouatis uulnera, Parcae,</l>
-            <l n="l72" met="pentameter">Dilectumque <corr n="corr1" resp="NJ">iterum</corr> sauciat inguen aper?</l>
-            <l n="l73">Nunc demum nobis periit Cynareius ardor,</l>
-            <l n="l74" met="pentameter">Nunc demum uideor uilis et orba mihi.</l>
-            <l n="l75">Per te celsus Eryx, per te mihi Troius heros,</l>
-            <l n="l76" met="pentameter">Et meus, heu! per te saluus Adonis erat.</l>
-            <l n="l77">
+            <l n="l65">Quid tamen, infelix, prodest tibi gratia nostri?</l>
+            <l n="l66" met="pentameter">Heu, quantum uobis, tristia fata, licet!</l>
+            <l n="l67">Cur mea, crudeles, renouatis uulnera, Parcae,</l>
+            <l n="l68" met="pentameter">Dilectumque <corr n="corr1" resp="NJ">iterum</corr> sauciat inguen aper?</l>
+            <l n="l69">Nunc demum nobis periit Cynareius ardor,</l>
+            <l n="l70" met="pentameter">Nunc demum uideor uilis et orba mihi.</l>
+            <l n="l71">Per te celsus Eryx, per te mihi Troius heros,</l>
+            <l n="l72" met="pentameter">Et meus, heu! per te saluus Adonis erat.</l>
+            <l n="l73">
                <choice n="choice1">
                   <orig n="orig1" resp="bsb">At</orig> 
                   <orig n="orig2" resp="bnf">Ad</orig>
@@ -287,81 +236,81 @@
                   <orig n="orig1" resp="bsb">quoque</orig> 
                   <orig n="orig2" resp="bnf">quos</orig>
                </choice> debuit - annos,</l>
-            <l n="l78" met="pentameter">Omnia si fuerat orta necesse mori!</l>
-            <l n="l79">Vix tribus addiderat mediam triaterida lustris,</l>
-            <l n="l80" met="pentameter">Extremum et fati uidit adesse sui.</l>
-            <l n="l81">Scinde arcus, extingue faces, infauste Cupido,</l>
-            <l n="l82" met="pentameter">Et sonet ex umeris nulla pharetra tuis.</l>
-            <l n="l83">Vos quoque fas pueri, Charites, in funere nostri</l>
-            <l n="l84" met="pentameter">Tundere tergemina pectora nuda manu."</l>
-            <l n="l85">Talia clamabat Cytherea, et talia Pallas</l>
-            <milestone unit="page" n="milestone86" facs="http://daten.digitale-sammlungen.de/bsb00007356/image_278"/>
-            <l n="l87" met="pentameter">Intulit, anguifera pectus operta coma:</l>
-            <l n="l88">"Parce, quid immisces te luctibus, inuida, nostris</l>
-            <l n="l89" met="pentameter">Extendisque tuas in mea iura manus?</l>
-            <l n="l90">Parce, Venus, meus ille, meus. De matre cadentem</l>
-            <l n="l91" met="pentameter">Prima tuli manibus sustinuique meis.</l>
-            <l n="l92">Prima sacrum tinxi pectus moresque pudicos</l>
-            <l n="l93" met="pentameter">Totque animi dotes ingeniumque dedi.</l>
-            <l n="l94">Vnde suis illi grauitas maturior annis?</l>
-            <l n="l95" met="pentameter">Vnde <choice n="choice1">
+            <l n="l74" met="pentameter">Omnia si fuerat orta necesse mori!</l>
+            <l n="l75">Vix tribus addiderat mediam triaterida lustris,</l>
+            <l n="l76" met="pentameter">Extremum et fati uidit adesse sui.</l>
+            <l n="l77">Scinde arcus, extingue faces, infauste Cupido,</l>
+            <l n="l78" met="pentameter">Et sonet ex umeris nulla pharetra tuis.</l>
+            <l n="l79">Vos quoque fas pueri, Charites, in funere nostri</l>
+            <l n="l80" met="pentameter">Tundere tergemina pectora nuda manu."</l>
+            <l n="l81">Talia clamabat Cytherea, et talia Pallas</l>
+            <milestone unit="page" n="milestone4" facs="http://daten.digitale-sammlungen.de/bsb00007356/image_278"/>
+            <l n="l82" met="pentameter">Intulit, anguifera pectus operta coma:</l>
+            <l n="l83">"Parce, quid immisces te luctibus, inuida, nostris</l>
+            <l n="l84" met="pentameter">Extendisque tuas in mea iura manus?</l>
+            <l n="l85">Parce, Venus, meus ille, meus. De matre cadentem</l>
+            <l n="l86" met="pentameter">Prima tuli manibus sustinuique meis.</l>
+            <l n="l87">Prima sacrum tinxi pectus moresque pudicos</l>
+            <l n="l88" met="pentameter">Totque animi dotes ingeniumque dedi.</l>
+            <l n="l89">Vnde suis illi grauitas maturior annis?</l>
+            <l n="l90" met="pentameter">Vnde <choice n="choice1">
                   <corr n="corr1" resp="NJ">sonor</corr> 
-                  <orig n="orig2" resp="bnf">sonus</orig>
+                  <orig n="orig1" resp="bnf">sonus</orig>
                </choice> tenero tantus in ore fuit?</l>
-            <l n="l96">
+            <l n="l91">
                <orig n="orig1" resp="bsb">Scilicet illa fides atque illa modestia praecox</orig>
             </l>
-            <l n="l97" met="pentameter">
+            <l n="l92" met="pentameter">
                <orig n="orig1" resp="bsb">Tantaque te probitas erudiente uenit!</orig>
             </l>
-            <l n="l98">Imperiis parere tuis an forte necesse est</l>
-            <l n="l99" met="pentameter">Cui sua natiuum fata dedere decus?</l>
-            <l n="l100">
+            <l n="l93">Imperiis parere tuis an forte necesse est</l>
+            <l n="l94" met="pentameter">Cui sua natiuum fata dedere decus?</l>
+            <l n="l95">
                <corr n="corr1" resp="NJ">Thesides</corr> formosus erat, formosus et ille</l>
-            <l n="l101" met="pentameter">Obiecit Lyciae quem Stheneboea <orig n="orig1" resp="bnf">Stenobea</orig> ferae.</l>
-            <l n="l102">Nec tuus hos, quamuis tentaueris, ignis adussit,</l>
-            <l n="l103" met="pentameter">Propositique fuit uictor uterque sui.</l>
-            <l n="l104">Vtque <orig n="orig1" resp="bsb">tuas</orig> reliqui <choice n="choice2">
+            <l n="l96" met="pentameter">Obiecit Lyciae quem Stheneboea <orig n="orig1" resp="bnf">Stenobea</orig> ferae.</l>
+            <l n="l97">Nec tuus hos, quamuis tentaueris, ignis adussit,</l>
+            <l n="l98" met="pentameter">Propositique fuit uictor uterque sui.</l>
+            <l n="l99">Vtque <orig n="orig1" resp="bsb">tuas</orig> reliqui <choice n="choice1">
                   <orig n="orig1" resp="bsb">metuant</orig> 
                   <orig n="orig2" resp="bnf">metuantque</orig>
                </choice> 
-               <choice n="choice3">
+               <choice n="choice2">
                   <orig n="orig1">colantque</orig> 
-                  <corr n="corr2" resp="NJ">recolantque</corr>
+                  <corr n="corr1" resp="NJ">recolantque</corr>
                </choice> sagittas,</l>
-            <l n="l105" met="pentameter">Quid tamen in Sixti sanguine iuris habes?</l>
-            <l n="l106">Scandere in has sedes (licet importuna) uereris,</l>
-            <l n="l107" met="pentameter">Ianua Acidalio non patet illa pedi;</l>
-            <l n="l108">Quae domus aethereo par assurrexit Olympo</l>
-            <l n="l109" met="pentameter">Nempe erat illecebris instituenda tuis!"</l>
-            <l n="l110">Plura loquuturam Venus occupat, atque uicissim</l>
-            <l n="l111" met="pentameter">Iurgia pro tumulo pro lacrimisque <choice n="choice1">
+            <l n="l100" met="pentameter">Quid tamen in Sixti sanguine iuris habes?</l>
+            <l n="l101">Scandere in has sedes (licet importuna) uereris,</l>
+            <l n="l102" met="pentameter">Ianua Acidalio non patet illa pedi;</l>
+            <l n="l103">Quae domus aethereo par assurrexit Olympo</l>
+            <l n="l104" met="pentameter">Nempe erat illecebris instituenda tuis!"</l>
+            <l n="l105">Plura loquuturam Venus occupat, atque uicissim</l>
+            <l n="l106" met="pentameter">Iurgia pro tumulo pro lacrimisque <choice n="choice1">
                   <orig n="orig1" resp="bsb">cadunt</orig> 
                   <orig n="orig2" resp="bnf">mouet</orig>
                </choice>.</l>
-            <l n="l112">Interea <choice n="choice1">
+            <l n="l107">Interea <choice n="choice1">
                   <orig n="orig1" resp="bsb">uili</orig> 
                   <orig n="orig2" resp="bnf">Julii</orig>
                </choice> corpus caeleste sepulcro</l>
-            <l n="l113" met="pentameter">Conditur et parua contumulatur humo</l>
-            <l n="l114">Ille <choice n="choice1">
+            <l n="l108" met="pentameter">Conditur et parua contumulatur humo</l>
+            <l n="l109">Ille <choice n="choice1">
                   <orig n="orig1" resp="bsb">qui</orig> 
                   <orig n="orig2" resp="bnf">quidem</orig>
-               </choice> dignus Mausoli <orig n="orig2" resp="bsb">in</orig> mole iacere</l>
-            <l n="l115" met="pentameter">Sed fuit ad cultus <choice n="choice1">
+               </choice> dignus Mausoli <orig n="orig1" resp="bsb">in</orig> mole iacere</l>
+            <l n="l110" met="pentameter">Sed fuit ad cultus <choice n="choice1">
                   <unclear n="unclear1">uena</unclear> 
                   <unclear n="unclear2">urna</unclear>
                </choice> parata loci.</l>
-            <l n="l116">Heu heu, quanta iacet tam paruo in cespite uirtus!</l>
-            <l n="l117" met="pentameter">Non solum hac tegitur uile cadauer humo</l>
-            <l n="l118">Tecum omnis <orig n="orig1" resp="bnf">probitas</orig>, Rhiari, <orig n="orig2" resp="bsb">est probitas</orig>, tecum ille sepultus</l>
-            <l n="l119" met="pentameter">Virgineus socia cum grauitate pudor,</l>
-            <milestone unit="page" n="milestone120" facs="http://daten.digitale-sammlungen.de/bsb00007356/image_279"/>
-            <l n="l121">Doctorumque fauor, spes et certissima uatum</l>
-            <l n="l122" met="pentameter">Et reliquum ingenii quicquid in orbe fuit.</l>
-            <l n="l123">O mihi si molles animaret dextra figuras</l>
-            <l n="l124" met="pentameter">Et duraturum fingere nosset opus,</l>
-            <l n="l125">
+            <l n="l111">Heu heu, quanta iacet tam paruo in cespite uirtus!</l>
+            <l n="l112" met="pentameter">Non solum hac tegitur uile cadauer humo</l>
+            <l n="l113">Tecum omnis <orig n="orig1" resp="bnf">probitas</orig>, Rhiari, <orig n="orig2" resp="bsb">est probitas</orig>, tecum ille sepultus</l>
+            <l n="l114" met="pentameter">Virgineus socia cum grauitate pudor,</l>
+            <milestone unit="page" n="milestone5" facs="http://daten.digitale-sammlungen.de/bsb00007356/image_279"/>
+            <l n="l115">Doctorumque fauor, spes et certissima uatum</l>
+            <l n="l116" met="pentameter">Et reliquum ingenii quicquid in orbe fuit.</l>
+            <l n="l117">O mihi si molles animaret dextra figuras</l>
+            <l n="l118" met="pentameter">Et duraturum fingere nosset opus,</l>
+            <l n="l119">
                <choice n="choice1">
                   <orig n="orig1" resp="bsb">Tristis</orig> 
                   <orig n="orig2" resp="bnf">Tristia</orig>
@@ -369,18 +318,18 @@
                   <orig n="orig1" resp="bsb">solacia</orig> 
                   <orig n="orig2" resp="bnf">solennia</orig>
                </choice> chartis</l>
-            <l n="l126" met="pentameter">Leuis et expressum te mihi cera daret,</l>
-            <l n="l127">Et nunc in Libyco similis mihi dente niteris</l>
-            <l n="l128" met="pentameter">Et nunc <choice n="choice1">
+            <l n="l120" met="pentameter">Leuis et expressum te mihi cera daret,</l>
+            <l n="l121">Et nunc in Libyco similis mihi dente niteris</l>
+            <l n="l122" met="pentameter">Et nunc <choice n="choice1">
                   <orig n="orig1" resp="bsb">Mentorea</orig> 
                   <orig n="orig2" resp="bnf">Mentoreo</orig>
                </choice> 
-               <corr n="corr2" resp="NJ">uiuus</corr> in aere fores.</l>
-            <l n="l129">Sed quoniam nobis hoc inuida fata negarunt</l>
-            <l n="l130" met="pentameter">Et praeter nugas nil mea reddit humus,</l>
-            <l n="l131">Quod datur, aeternum memori <corr n="corr1" resp="NJ">cantabere</corr> Musa</l>
-            <l n="l132" met="pentameter">Et sine te crescet pagina nulla mihi.</l>
-            <closer n="closer133">
+               <corr n="corr1" resp="NJ">uiuus</corr> in aere fores.</l>
+            <l n="l123">Sed quoniam nobis hoc inuida fata negarunt</l>
+            <l n="l124" met="pentameter">Et praeter nugas nil mea reddit humus,</l>
+            <l n="l125">Quod datur, aeternum memori <corr n="corr1" resp="NJ">cantabere</corr> Musa</l>
+            <l n="l126" met="pentameter">Et sine te crescet pagina nulla mihi.</l>
+            <closer n="closer1">
                <orig n="orig1" resp="bnf">telos</orig>
             </closer>
          </div>

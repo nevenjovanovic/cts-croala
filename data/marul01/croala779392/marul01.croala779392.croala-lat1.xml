@@ -39,62 +39,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="3"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="graphic" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="33"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="32"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="quote" occurs="2"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="trailer" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -165,28 +110,28 @@
          </titlePage>
 
 
-         <div n="div2" type="dedicatio">
+         <div n="div1" type="dedicatio">
 
             <opener n="opener1"> Marcus Marulus Dominico Papali salutem. </opener>
 
-            <p n="p2"> Commentariolum a te in Craina nuper repertum, inter uetustissimas gentis illius scripturas
+            <p n="p1"> Commentariolum a te in Craina nuper repertum, inter uetustissimas gentis illius scripturas
      Delmatico idiomate compositum, tuo rogatu Latinum feci, Croatię Delmatięque regum gesta
      continentem. </p>
 
-            <p n="p3"> Res certe digna relatu et quam non solum nostrę uernaculę linguę gnari, sed etiam Latinę
+            <p n="p2"> Res certe digna relatu et quam non solum nostrę uernaculę linguę gnari, sed etiam Latinę
      intelligant. Ex hac enim historia et boni exemplum petere poterunt quod imitentur et mali per
      quod sese corrigant. Atque hoc illud fuit quod et te impulit ut me ad historiam transferendam
      urgeres, et me ut tibi obtemperarem. Magis tamen tuus erga me amor laborem hunc coegit me
      subire; quid est enim quod illi non debeo? </p>
 
-            <closer n="closer4">
+            <closer n="closer1">
                <salute n="salute1">Vale.</salute>
-               <date n="date2">Anno Christianę salutis MDX.</date>
+               <date n="date1">Anno Christianę salutis MDX.</date>
             </closer>
          </div>
       </front>
 
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
 
          <div n="div1" type="historia">
 
@@ -365,7 +310,7 @@
      probe ac laudabiliter suo functi officio magnisque a rege muneribus donati reuerenterque habiti
      recessere. Mox etiam omnis hominum multitudo cum suis ducibus bannis centurionibusque dilapsa
      est in suas quisque sedes patriumque solum rediere. Rex autem ipse Budimerus anno a sua
-     unctione quadragesimo, mense <num n="num3" value="3">III</num>. diem clausit extremum et cum ingenti funeralis pompę apparatu
+     unctione quadragesimo, mense <num n="num1" value="3">III</num>. diem clausit extremum et cum ingenti funeralis pompę apparatu
      in ęde beatę Virginis Marię matris Dei in oppido Decolio est sepultus. Luxit eum populus dies
      plurimos; nam ex omnibus regni finibus, ut funus eius honorarent, eo conuenerant. </p>
 
@@ -536,7 +481,7 @@
      uerti coepit, in summum usque scelus erupturam, quod ex sequenti modo patebit narratione
      uerumque esse constabit. Contigit enim ut ab Roma Cęsaris pontificisque legati ad Zuonimerum
      regem missi cum binis litteris uenirent; primas tantum regi legendas dederunt, quarum hęc
-     sententia erat: <quote n="quote3"> Rogamus obsecramusque te, Zuonimere frater, regum Christianorum
+     sententia erat: <quote n="quote1"> Rogamus obsecramusque te, Zuonimere frater, regum Christianorum
       piissime, uti coacto procerum tuorum populique concilio alteram epistolam coram resignari
       coramque legi iubeas et una cum ipsis deliberes his de rebus quas nos Deo bene iuuante aggredi
       meditamur pro amore Christi ecclesięque sanctę utilitate; tum demum, quicquid communi omnium
@@ -588,10 +533,10 @@
      secessisset anno a natiuitate Christi MLXXIX, Bosnenses dominum suum sortiti sunt, Naronenses
      suum, soli Croati alienum, ne quis eos frustra olim uel immerito a Zuonimero deuotos credat. </p>
 
-            <trailer n="trailer25"> Finis </trailer>
+            <trailer n="trailer1"> Finis </trailer>
          </div>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
 
 
 

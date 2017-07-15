@@ -33,53 +33,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="anchor" occurs="2" withId="2"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="2" withId="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="hi" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="8"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -155,28 +109,28 @@
                     <head n="head1">
                <anchor n="anchor1" xml:id="id_tth_sEc15"/>15  Epitaphium Petri Lucii Traguriensis,
                         patricii nobilissimi, Nicolaus Albertus Spalatensis, ex tempore</head>
-                    <l n="l2">Tune hic, Petre, iaces? Tuane hic lapis ossa sepulchro</l>
-                    <l n="l3">    Contegit? O patrii cura dolorque soli!</l>
-                    <l n="l4">Quid tibi nobilitas? quid opes? quid uiuida uirtus</l>
-                    <l n="l5">    Profuit? aut uitae candida facta piae?</l>
-                    <l n="l6"> Atropos inuidiae stimulis agitata sororum</l>
-                    <l n="l7">    Abrupit dira stamina pulla manu.</l>
-                    <l n="l8">Occidit exemplum sanctorum nobile morum</l>
-                    <l n="l9">    Ne fieret tanto terra superba bono.<ref n="ref1" target="#tthFtNtABG"/>
+                    <l n="l1">Tune hic, Petre, iaces? Tuane hic lapis ossa sepulchro</l>
+                    <l n="l2">    Contegit? O patrii cura dolorque soli!</l>
+                    <l n="l3">Quid tibi nobilitas? quid opes? quid uiuida uirtus</l>
+                    <l n="l4">    Profuit? aut uitae candida facta piae?</l>
+                    <l n="l5"> Atropos inuidiae stimulis agitata sororum</l>
+                    <l n="l6">    Abrupit dira stamina pulla manu.</l>
+                    <l n="l7">Occidit exemplum sanctorum nobile morum</l>
+                    <l n="l8">    Ne fieret tanto terra superba bono.<ref n="ref1" target="#tthFtNtABG"/>
             </l>
                 </div>
             
         </body>
-        <back xml:lang="lat" n="back2">
+        <back xml:lang="lat" n="back1">
             <div n="div1" type="notes">
                 <head n="head1">Notae:</head>
                 
-                <p n="p2">
+                <p n="p1">
                <anchor n="anchor1" xml:id="id_tthFtNtABG"/>
-               <ref n="ref2" target="#tthFrefABG">16</ref>Trag. f. 32v;    <hi n="hi3">v. 2</hi> Contegit: Contigit <emph n="emph4">Trag.</emph> -
+               <ref n="ref1" target="#tthFrefABG">16</ref>Trag. f. 32v;    <hi n="hi1">v. 2</hi> Contegit: Contigit <emph n="emph1">Trag.</emph> -
                     Petrus Lucius fortasse est ille procurator cassae operariae (Cassa
                     dell'operaria) cathedralis Traguriensis cuius mors notata esse videtur ad annum
-                    1545. Cf. <emph n="emph5">Trag. f. 116r.</emph>
+                    1545. Cf. <emph n="emph2">Trag. f. 116r.</emph>
             </p>
                 
             </div>

@@ -34,54 +34,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="anchor" occurs="2" withId="2"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="2" withId="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="hi" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -155,23 +108,23 @@
             
                 <div n="div1" type="epigramma" xml:id="hiermart-c02">
                     <head n="head1">
-               <anchor n="anchor1" xml:id="id_tth_sEc16"/>16  <add n="add2">Hieronymi Martiniaci epitaphium
+               <anchor n="anchor1" xml:id="id_tth_sEc16"/>16  <add n="add1">Hieronymi Martiniaci epitaphium
                             Hieronymi Lucii</add>
             </head>
-                    <l n="l2">Totus Hieronymus lucebat Lucius, at nunc</l>
-                    <l n="l3">    Pars melior lucet nobiliorque sui.<ref n="ref1" target="#tthFtNtABH"/>
+                    <l n="l1">Totus Hieronymus lucebat Lucius, at nunc</l>
+                    <l n="l2">    Pars melior lucet nobiliorque sui.<ref n="ref1" target="#tthFtNtABH"/>
                     </l>
                 </div>
             
         </body>
-        <back xml:lang="lat" n="back2">
+        <back xml:lang="lat" n="back1">
             <div n="div1" type="notes">
                 <head n="head1">Notae:</head>
                 
-                <p n="p2">
+                <p n="p1">
                <anchor n="anchor1" xml:id="id_tthFtNtABH"/>
-               <ref n="ref2" target="#tthFrefABH">17</ref>Trag. f. 34v;    <hi n="hi3">tit.</hi> Hieronymus Martiniacus
-                        <emph n="emph4">Trag.</emph>
+               <ref n="ref1" target="#tthFrefABH">17</ref>Trag. f. 34v;    <hi n="hi1">tit.</hi> Hieronymus Martiniacus
+                        <emph n="emph1">Trag.</emph>
             </p>
                       </div>
         </back>

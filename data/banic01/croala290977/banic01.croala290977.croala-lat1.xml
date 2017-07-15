@@ -59,57 +59,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="6"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="3"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -196,22 +146,22 @@
             
             ERASMO <abbr n="abbr1">ROTEROD.</abbr> 
                <abbr n="abbr2">S. D.</abbr> 
-               <salute n="salute3">Reverende et excellentissime domine honorande, commendationem plurimam.</salute>
+               <salute n="salute1">Reverende et excellentissime domine honorande, commendationem plurimam.</salute>
             </opener>    
-            <p n="p2"> 
+            <p n="p1"> 
          Grauiter aduersa valetudine pressum et nec mei ipsius compotem offenderunt me humanissimae litterae tuae: ideo ad eas et tardius et manu aliena respondeo. Nec est cur sibi ipsi succenseat quod me vltro venientem auidius non sit complexa hic Antuuerpiae; exhibuit enim se nimis facilem erga me, et compos voti eram simulatque videram quem desyderabam. Sensi autem tunc non parum impudenter me egisse, quod virum tantorum studiorum et tantae disciplinae, non praetentato vado et magis religiose, sed quadam aulica temeritate interpellare ausus fuerim. Sed id auiditati (quae me vel ex intimo sinu Illyrico meo traxisset) potius quam instituto adscribat. Cupiebam enim illum quem absens veluti numen ob excellentem doctrinam colebam, aliquando praesens (postquam fas erat) intueri; et omnis mora mihi periculosa videbatur. Proinde cum intellexi te hic adesse, nisi statim aduolassem, arbitrabar me non posse compotem voti fieri. Cum primum autem valebo, si per negocia licebit (postquam ita placet), ante digressum meum ex hisce regionibus <abbr n="abbr1">D. T.</abbr> Louanii conueniam; nec enim ipsa hoc tempore tam bonas horas huc veniendo perdere debet.
     </p> 
-            <p n="p3">
+            <p n="p2">
         De Iudaeo vel qui sub eius tam infami et perdito nomine cum doctissimo quoque ac optimo viro congredi audent, solum ex infamia famam sibi aucupantes, nil melius existimo quam illos omittere cum incircuncisa ab omni bono opere mente, et in tenebris suis ignotos delitescere. Ex motu tactuque rei foetide nil nisi foetor elici potest. 
         
     </p>
-            <p n="p4">
+            <p n="p3">
         Literas <abbr n="abbr1">Do. T.</abbr> ad Maguntiam et Pyrckhaimer transmittam. </p>
-            <closer n="closer5">Valeat diu feliciter <abbr n="abbr1">Do. T. R.</abbr> ad commodum et incrementum omnium studiorum.
+            <closer n="closer1">Valeat diu feliciter <abbr n="abbr1">Do. T. R.</abbr> ad commodum et incrementum omnium studiorum.
         
-        <dateline n="dateline2">Antuuerpiae, <date n="date1" when-iso="1517-11-12">die duodecima nouembris. An. m.d.xvii.</date>
+        <dateline n="dateline1">Antuuerpiae, <date n="date1" when-iso="1517-11-12">die duodecima nouembris. An. m.d.xvii.</date>
                </dateline> 
-               <abbr n="abbr3">E. R. D. T.</abbr>
+               <abbr n="abbr2">E. R. D. T.</abbr>
             </closer>
  
          </div>

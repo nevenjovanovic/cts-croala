@@ -40,54 +40,7 @@
          </sourceDesc>
      </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="docDate" occurs="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="6" withId="6"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="8"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -151,13 +104,13 @@
    <text xml:base="urn:cts:croala:dudes01.croala817145.croala-lat1:" xml:lang="lat">
       <front xml:lang="lat" n="front1">
          <docAuthor n="docAuthor1">Matthaeus Dudesius Dalmata Absorensis</docAuthor>
-         <docTitle n="docTitle2">
+         <docTitle n="docTitle1">
             <titlePart n="titlePart1">Ad lectorem (Dictionarii latino epirotici, Romae 1635)</titlePart>
          </docTitle>
-         <docDate n="docDate3">Romae, <date n="date1">1635</date>.</docDate>
+         <docDate n="docDate1">Romae, <date n="date1">1635</date>.</docDate>
   
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="poesis" met="elegiacum">
             <head n="head1">
   MATTHAEVS DVDESIVS
@@ -165,13 +118,13 @@
   AD LECTOREM
 </head>
 
-            <l n="l2" xml:id="ma.1">  Si cupis immensis Epiri cernere campis</l>
-            <l n="l3" xml:id="ma.2" met="pentameter">  Urbes, quae Argolico non procul Orbe iacent;</l>
-            <l n="l4" xml:id="ma.3">  Saepe cruentatis Othomano ubi sanguine Lunis</l>
-            <l n="l5" xml:id="ma.4" met="pentameter">  Disiecit Scythicos Mars Epirota duces,</l>
-            <l n="l6" xml:id="ma.5">  Hunc lege, hunc recole, ingenioque reconde libellum</l>
+            <l n="l1" xml:id="ma.1">  Si cupis immensis Epiri cernere campis</l>
+            <l n="l2" xml:id="ma.2" met="pentameter">  Urbes, quae Argolico non procul Orbe iacent;</l>
+            <l n="l3" xml:id="ma.3">  Saepe cruentatis Othomano ubi sanguine Lunis</l>
+            <l n="l4" xml:id="ma.4" met="pentameter">  Disiecit Scythicos Mars Epirota duces,</l>
+            <l n="l5" xml:id="ma.5">  Hunc lege, hunc recole, ingenioque reconde libellum</l>
             <!-- sic, ne štima prozodija -->
-            <l n="l7" xml:id="ma.6" met="pentameter">  Linguae qui Patriae dat documenta suae.</l>
+            <l n="l6" xml:id="ma.6" met="pentameter">  Linguae qui Patriae dat documenta suae.</l>
          </div>
       </body>
    </text>

@@ -39,65 +39,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="5"/>
-          <tagUsage gi="abstract" occurs="3"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="address" occurs="2"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="creation" occurs="3"/>
-          <tagUsage gi="date" occurs="11"/>
-          <tagUsage gi="dateline" occurs="2"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="keywords" occurs="9"/>
-          <tagUsage gi="langUsage" occurs="3"/>
-          <tagUsage gi="language" occurs="3"/>
-          <tagUsage gi="name" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="2"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="9"/>
-          <tagUsage gi="particDesc" occurs="3"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="12"/>
-          <tagUsage gi="person" occurs="5"/>
-          <tagUsage gi="place" occurs="4"/>
-          <tagUsage gi="placeName" occurs="9"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="3" withId="2"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="4"/>
-          <tagUsage gi="settingDesc" occurs="3"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="signed" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="51"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="15"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="3"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -269,53 +211,53 @@
             <opener n="opener1">
                <address n="address1">
                   <name n="name1">Venerabili Magistro Georgio Grangya, canonico Ecclesie Zagrabiensis fratri honorando.</name>
-                  <placeName n="placeName2">padwe vel Pathavij. cito.</placeName>
+                  <placeName n="placeName1">padwe vel Pathavij. cito.</placeName>
                </address>
-               <salute n="salute2">Salutem, Venerande Frater.</salute> 
+               <salute n="salute1">Salutem, Venerande Frater.</salute> 
             </opener>
-            <p n="p2">Ne Reverendo Domino Preposito sis oneri et gravamini quoquomodo, ut ex verbis Domini Joannis Secretarij Magnifici Domini Wolffgangij Gywlay accepi, in aliam habitationem, quam hactenus pariter tenuistis, te transferas, significesque qualem pecuniam et quantum tibi ipse <gap n="gap1"/> dedit, ut cum domino Martino Provisore in Jazka verum computum facere valeam. Nam fraus et dolus nemini patrocinari debent, sed, ut iuste vivamus, Dominus innuit dicens: Quod tibi fieri non vis <abbr n="abbr2">etc.</abbr> Deinde consequenter mihi describas, infra quod futurum tempus pecunia hactenus missa sustentari possis, quo per suffragia non procedamus. Item si tempus vacabit, accedas Venetias sine tumultu, et per consequens ad officinam Lucantonium de Giunta, Florentinum librarium, qui olim impensa Johannis Pap, librarij Budensis de anno Domini quingentesimo quinto sub presulatu Luce Episcopi Zagrabiensis Patroni Breviarium stampavit, interrogesque ab eo vel suis heredibus, <sic n="sic3">quantum</sic> 
-               <num n="num4" value="200">IIC</num> imprimere vellet ad omne maius et minus, quod mihi statim describas et significes. Nam ad festum Assumptionis Domine sinodus celebrabitur, ad quam ut portari vel ordinari si possent, bonum est. Clerici nostri nullibi posunt reperire. </p>
-            <closer n="closer3">
+            <p n="p1">Ne Reverendo Domino Preposito sis oneri et gravamini quoquomodo, ut ex verbis Domini Joannis Secretarij Magnifici Domini Wolffgangij Gywlay accepi, in aliam habitationem, quam hactenus pariter tenuistis, te transferas, significesque qualem pecuniam et quantum tibi ipse <gap n="gap1"/> dedit, ut cum domino Martino Provisore in Jazka verum computum facere valeam. Nam fraus et dolus nemini patrocinari debent, sed, ut iuste vivamus, Dominus innuit dicens: Quod tibi fieri non vis <abbr n="abbr1">etc.</abbr> Deinde consequenter mihi describas, infra quod futurum tempus pecunia hactenus missa sustentari possis, quo per suffragia non procedamus. Item si tempus vacabit, accedas Venetias sine tumultu, et per consequens ad officinam Lucantonium de Giunta, Florentinum librarium, qui olim impensa Johannis Pap, librarij Budensis de anno Domini quingentesimo quinto sub presulatu Luce Episcopi Zagrabiensis Patroni Breviarium stampavit, interrogesque ab eo vel suis heredibus, <sic n="sic1">quantum</sic> 
+               <num n="num1" value="200">IIC</num> imprimere vellet ad omne maius et minus, quod mihi statim describas et significes. Nam ad festum Assumptionis Domine sinodus celebrabitur, ad quam ut portari vel ordinari si possent, bonum est. Clerici nostri nullibi posunt reperire. </p>
+            <closer n="closer1">
                <salute n="salute1">Bene vale.</salute>
-               <dateline n="dateline2">Ex Zagrabia <date n="date1" when="1535-03-29">feria 2a Paschatis 1535.</date>
+               <dateline n="dateline1">Ex Zagrabia <date n="date1" when="1535-03-29">feria 2a Paschatis 1535.</date>
                </dateline>
        
             </closer>
-            <postscript n="postscript4">
+            <postscript n="postscript1">
                <p n="p1">Quidam Dominus Blasius de Portugallia mercator continuus est nobiscum; ipse relationem afferre potest.</p>
             </postscript>
        
-            <signed n="signed5">Petrus Lector.</signed>
+            <signed n="signed1">Petrus Lector.</signed>
        
        
        
        
          </div>
-         <pb n="pb2"/>
-         <div n="div3" type="prosa-epistula" corresp="#pgrangyaggrangyabakocz15350417">
+         <pb n="pb1"/>
+         <div n="div2" type="prosa-epistula" corresp="#pgrangyaggrangyabakocz15350417">
         
             <opener n="opener1">
                <address n="address1">
                   <name n="name1">Reverendo Domino Thome Bakocz Preposito ac Magistro Georgio Grangya, Canonicis ecclesie Zagrabiensis <abbr n="abbr1">etc.</abbr> Fratribus honorandis.</name>
-                  <placeName n="placeName2">
+                  <placeName n="placeName1">
               Padwe.
               Padwe.
               
               Padwe cito
               </placeName>
                </address>
-               <salute n="salute2">Reverende Domine et Venerabiles Fratres honorandi salutem et mestitie participationem.</salute>
+               <salute n="salute1">Reverende Domine et Venerabiles Fratres honorandi salutem et mestitie participationem.</salute>
             </opener>
-            <p n="p2">Dum pridem apud Reverendum Dominum Superiorem nostrum gratiosum ratione proventuum prepositure instantius laborassem, literas quasdam, quarum copiam presentibus inclusam videritis, mihi in faciem Sua Reverenda Dominatio coniecit: En studentes nostri, non literis sed latrocinijs incumbunt, mittas eis expensas, quibus magis ac magis voluptates suas expleant; venient aliquando ad propria, docebo illos panem crucifixi ad scoorta convertere. Hoc est quod sompniabam, quodque semper eventurum timebam. Et mirabar, quo tantas converteretis expensas. Et aliud, quod lectiones non visitaretis, demiror in rei veritate. Ad honc enim hanc nobilissimam universitatem intrastis? Voluptates corporis minoribus et paucioribus expensis complere vel sequi poteritis. Jam videatis, qua fronte Superiorem vestrum et alios Patronos, imo etiam Fratres Canonicos, qui presentiam vestram tollerant, aggrediamini conciliantes vel visitantes. Timeo in summa, quatenus Sua Reverentia ad privationem procedat, presertim si quoquomodo per bonum et honestum statum et scientiarum incrementum Suam <abbr n="abbr1">R. D.</abbr> 
-               <add n="add2">non</add> conciliamini et lupas et scoorta non abieceritis. Nolo, ut tu Georgie per amplius una cum Domino Prepositu maneas. Et tantum maneas quo cum expensis, quas habes, manere possis. Nolo patrimonium Christi incassum exponas et me hincinde obpignorem et expilem. Tamen ad propria ne redeas, si <abbr n="abbr3">etc.</abbr> 
+            <p n="p1">Dum pridem apud Reverendum Dominum Superiorem nostrum gratiosum ratione proventuum prepositure instantius laborassem, literas quasdam, quarum copiam presentibus inclusam videritis, mihi in faciem Sua Reverenda Dominatio coniecit: En studentes nostri, non literis sed latrocinijs incumbunt, mittas eis expensas, quibus magis ac magis voluptates suas expleant; venient aliquando ad propria, docebo illos panem crucifixi ad scoorta convertere. Hoc est quod sompniabam, quodque semper eventurum timebam. Et mirabar, quo tantas converteretis expensas. Et aliud, quod lectiones non visitaretis, demiror in rei veritate. Ad honc enim hanc nobilissimam universitatem intrastis? Voluptates corporis minoribus et paucioribus expensis complere vel sequi poteritis. Jam videatis, qua fronte Superiorem vestrum et alios Patronos, imo etiam Fratres Canonicos, qui presentiam vestram tollerant, aggrediamini conciliantes vel visitantes. Timeo in summa, quatenus Sua Reverentia ad privationem procedat, presertim si quoquomodo per bonum et honestum statum et scientiarum incrementum Suam <abbr n="abbr1">R. D.</abbr> 
+               <add n="add1">non</add> conciliamini et lupas et scoorta non abieceritis. Nolo, ut tu Georgie per amplius una cum Domino Prepositu maneas. Et tantum maneas quo cum expensis, quas habes, manere possis. Nolo patrimonium Christi incassum exponas et me hincinde obpignorem et expilem. Tamen ad propria ne redeas, si <abbr n="abbr2">etc.</abbr> 
           
             </p>
-            <closer n="closer3">
+            <closer n="closer1">
                <salute n="salute1">bene valete in talismodi infamia. </salute>
-               <dateline n="dateline2">Ex Zagrebia <date n="date1" when="1535-04-17">sabbato ante Jubilate anno Domini 535</date>.
+               <dateline n="dateline1">Ex Zagrebia <date n="date1" when="1535-04-17">sabbato ante Jubilate anno Domini 535</date>.
             
           </dateline>
-               <signed n="signed3">Petrus Lector Zagrabiensis <abbr n="abbr1">etc.</abbr>
+               <signed n="signed1">Petrus Lector Zagrabiensis <abbr n="abbr1">etc.</abbr>
                </signed>
             </closer>
          </div>

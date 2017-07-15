@@ -53,57 +53,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="analytic" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="1"/>
-          <tagUsage gi="biblScope" occurs="2"/>
-          <tagUsage gi="biblStruct" occurs="1" withId="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="14"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="2"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="9"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -172,20 +122,20 @@
                 <head n="head1">EPITAPHIVM MAGNIFICI DOMINI SIMONIS KEGLEWICH DE
                 BVSIN XVII DIE DECEMBRIS ANNO MDLXXIX KRAPYNE
                     <corr n="corr1" resp="editor">DEMORTVi</corr>  ET <corr n="corr2" resp="editor">SEPVLTi</corr> XXII DIE DECEMBRIS.</head>
-                <l n="l2">PARCE HOSPES TVMVLO: SIMON KEGLOWICH HIC SVM</l>
-                <l n="l3" met="pentameter">SEPE ETIAM IGNOTIS IPSE DEDI REQVIEM.</l>
-                <l n="l4">QVOD SI QVEM TITVLI NIHIL HVIVS GRATIA TANGIT</l>
-                <l n="l5" met="pentameter">AT MOVEAT PATRIA FRAVDE QVOD HIC IACEO.</l>
-                <l n="l6">SED VIREO, QVAMVIS NON VITE, AT PLENVS HONORVM</l>
-                <l n="l7" met="pentameter">HOC VNO INGRATVS QVOD GENVI PATRIE</l>
-                <l n="l8">TESTATA EST MORES LACRIMIS PLEBESQue PATRESQVE</l>
-                <l n="l9" met="pentameter">HEC SVNT SINCERI IVDICIA INGENIJ</l>
-                 <l n="l10">FLENS PRIMVM HAS AVRAS HAVSI PVER: OMINE DICO</l>
-                <l n="l11" met="pentameter">FLEBILIS EREPTA VITA FVIT PATRIA</l>
-                <l n="l12">NVNC QVOQVE FLENS MORIOR: NE QVID NON FLEBILE RESTET</l>
-                <l n="l13" met="pentameter">HEC EST HVMANI CONDITIO GENERIS</l>
-                <l n="l14">INVICTVS POTVI NISI MORS VICISSET HABERI</l>
-                <l n="l15" met="pentameter">HEC QVOQVE NON VICIT SED POCIVS <corr n="corr1" resp="editor">SOLVIt</corr>.</l>
+                <l n="l1">PARCE HOSPES TVMVLO: SIMON KEGLOWICH HIC SVM</l>
+                <l n="l2" met="pentameter">SEPE ETIAM IGNOTIS IPSE DEDI REQVIEM.</l>
+                <l n="l3">QVOD SI QVEM TITVLI NIHIL HVIVS GRATIA TANGIT</l>
+                <l n="l4" met="pentameter">AT MOVEAT PATRIA FRAVDE QVOD HIC IACEO.</l>
+                <l n="l5">SED VIREO, QVAMVIS NON VITE, AT PLENVS HONORVM</l>
+                <l n="l6" met="pentameter">HOC VNO INGRATVS QVOD GENVI PATRIE</l>
+                <l n="l7">TESTATA EST MORES LACRIMIS PLEBESQue PATRESQVE</l>
+                <l n="l8" met="pentameter">HEC SVNT SINCERI IVDICIA INGENIJ</l>
+                 <l n="l9">FLENS PRIMVM HAS AVRAS HAVSI PVER: OMINE DICO</l>
+                <l n="l10" met="pentameter">FLEBILIS EREPTA VITA FVIT PATRIA</l>
+                <l n="l11">NVNC QVOQVE FLENS MORIOR: NE QVID NON FLEBILE RESTET</l>
+                <l n="l12" met="pentameter">HEC EST HVMANI CONDITIO GENERIS</l>
+                <l n="l13">INVICTVS POTVI NISI MORS VICISSET HABERI</l>
+                <l n="l14" met="pentameter">HEC QVOQVE NON VICIT SED POCIVS <corr n="corr1" resp="editor">SOLVIt</corr>.</l>
             </div>
         </body>
     </text>

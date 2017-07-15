@@ -41,65 +41,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="7"/>
-          <tagUsage gi="abstract" occurs="7"/>
-          <tagUsage gi="add" occurs="88"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="8"/>
-          <tagUsage gi="change" occurs="4"/>
-          <tagUsage gi="closer" occurs="6"/>
-          <tagUsage gi="creation" occurs="7"/>
-          <tagUsage gi="date" occurs="26"/>
-          <tagUsage gi="dateline" occurs="6"/>
-          <tagUsage gi="div" occurs="8"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="3"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="group" occurs="1"/>
-          <tagUsage gi="head" occurs="8"/>
-          <tagUsage gi="keywords" occurs="21"/>
-          <tagUsage gi="langUsage" occurs="7"/>
-          <tagUsage gi="language" occurs="7"/>
-          <tagUsage gi="milestone" occurs="12"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="8"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="28"/>
-          <tagUsage gi="particDesc" occurs="7"/>
-          <tagUsage gi="persName" occurs="26"/>
-          <tagUsage gi="person" occurs="12"/>
-          <tagUsage gi="place" occurs="13"/>
-          <tagUsage gi="placeName" occurs="24"/>
-          <tagUsage gi="profileDesc" occurs="7" withId="6"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="6"/>
-          <tagUsage gi="settingDesc" occurs="7"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="51"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="35"/>
-          <tagUsage gi="text" occurs="9"/>
-          <tagUsage gi="textClass" occurs="7"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -448,21 +390,21 @@
        non servata accuratione chronologica. Insuper miscellanea quaedam alia eodem pertinentia 1787.
        collecta</titlePart>
          </docTitle>
-         <docAuthor n="docAuthor2">Adam Alojzije Baričević</docAuthor>
+         <docAuthor n="docAuthor1">Adam Alojzije Baričević</docAuthor>
       </front>
-      <group xml:lang="lat" n="group2">
+      <group xml:lang="lat" n="group1">
          <milestone unit="page" n="milestone1"/>
-         <text n="text2" type="epistula" corresp="#baricevicskrlec17801101">
+         <text n="text1" type="epistula" corresp="#baricevicskrlec17801101">
             <body xml:lang="lat" n="body1">
                <div n="div1" type="prosa-epistula" corresp="#baricevicskrlec17801101">
                   <head n="head1">1. <add n="add1">4r-4v</add>
                   </head>
-                  <opener n="opener2">Nicolao Skerlecz, consiliario in Consilio Litterali</opener>
-                  <p n="p3">
-                     <add n="add1">1</add> Quod <placeName n="placeName2">Posonium</placeName> proficiscenti Magnificae Dominationi Vestrae dudum concepta
+                  <opener n="opener1">Nicolao Skerlecz, consiliario in Consilio Litterali</opener>
+                  <p n="p1">
+                     <add n="add1">1</add> Quod <placeName n="placeName1">Posonium</placeName> proficiscenti Magnificae Dominationi Vestrae dudum concepta
         animo sincera vota mea, quae pro secundis Magnificae Dominationis Vestrae rebus Deo Optimo
         Maximo semper feci, praesens coram non significaverim, sane quam molestum mihi est. </p>
-                  <p n="p4">
+                  <p n="p2">
                      <add n="add1">2</add> Sed illud multo molestius, quod meum in historiam Academiae Zagrabiensis
         proemium propter multas easque varias, quibus in suo illo procinctu distinebatur, occupationes
         suo ante abitum calculo probari vel corrigi non potuerit. <add n="add2">3</add> Verum facilem mihi
@@ -472,48 +414,48 @@
         addendo, demendo aut mutando judicio uti omnino dignetur. <add n="add4">5</add> Quodsi opera mea
         probabitur, ut de reliquo etiam opere Magnifica Dominatio Vestra bene sperare possit, omne
         studium atque diligentiam me ad scribendum allaturum polliceor.</p>
-                  <milestone unit="page" n="milestone5"/>
-                  <p n="p6">
-                     <add n="add1">6</add> Plane autem non erat, cur Magnifica Dominatio Vestra <persName n="persName2">Taispergero</persName> in
+                  <milestone unit="page" n="milestone1"/>
+                  <p n="p3">
+                     <add n="add1">6</add> Plane autem non erat, cur Magnifica Dominatio Vestra <persName n="persName1">Taispergero</persName> in
         mandatis darat, ut me praesentibus coram omnibus Academiae hujus professoribus publice
-        adhortaretur, ne magistri munus deponam. <add n="add3">7</add> Quamquam enim mihi cum <persName n="persName4">Taispergero</persName>
+        adhortaretur, ne magistri munus deponam. <add n="add2">7</add> Quamquam enim mihi cum <persName n="persName2">Taispergero</persName>
         nunquam amplius conveniat, nulla tamen tanta esse poterit nos inter simultas, ut in litterarum
-        amore ulli unquam concedam. <add n="add5">8</add> Quin potius, quaecunque me fata manent, illud
+        amore ulli unquam concedam. <add n="add3">8</add> Quin potius, quaecunque me fata manent, illud
         solum efficere poterunt, ut amicam Musis pacem consecter, ut easdem repudiem, efficere non
-        poterunt. <add n="add6">9</add> Ut vero ego in periculi plena statione ista eam rerum conversionem
+        poterunt. <add n="add4">9</add> Ut vero ego in periculi plena statione ista eam rerum conversionem
         ignavus et improvidus operiar, quae aut stipendio me privet aut nescio in quam ingratam
         regionem migrare cogat, istud profecto (quantum quidem Magnificam Dominationem Vestram novi) a
-        me postulabit nunquam. <add n="add7">10</add> Interim Magnificam Dominationem Vestram certam reddo
+        me postulabit nunquam. <add n="add5">10</add> Interim Magnificam Dominationem Vestram certam reddo
         me salutaribus ac plane familiaribus consiliis suis tandiu aquieturum, dum necessitas aliqua
         cogat proprio uti nitique judicio. </p>
-                  <closer n="closer7">
+                  <closer n="closer1">
                      <salute n="salute1">
                         <add n="add1">11</add> Deus Optimus Maximus Magnificam Dominationem Vestram cum carissima
-        conjuge quam diutissime sospitem servet, precor et me subscribo <abbr n="abbr2">etc.</abbr> 
+        conjuge quam diutissime sospitem servet, precor et me subscribo <abbr n="abbr1">etc.</abbr> 
                      </salute>
-                     <dateline n="dateline2">
+                     <dateline n="dateline1">
                         <add n="add1">12</add> 
-                        <placeName n="placeName2">Zagrabiae</placeName>, <date n="date3">ipsis Kalendis Novembris MDCCLXXX.</date>
+                        <placeName n="placeName1">Zagrabiae</placeName>, <date n="date1">ipsis Kalendis Novembris MDCCLXXX.</date>
                      </dateline>
                   </closer>
                </div>
-               <milestone unit="page" n="milestone2"/>
+               <milestone unit="page" n="milestone1"/>
             </body>
          </text>
-         <text n="text3" type="epistula" corresp="#baricevicskrlec17801201">
+         <text n="text2" type="epistula" corresp="#baricevicskrlec17801201">
             <body xml:lang="lat" n="body1">
                <div n="div1" type="prosa-epistula" corresp="#baricevicskrlec17801201">
                   <head n="head1">2. <add n="add1">4v-5r</add>
                   </head>
-                  <opener n="opener2">Eidem</opener>
-                  <p n="p3">
+                  <opener n="opener1">Eidem</opener>
+                  <p n="p1">
                      <add n="add1">1</add> Etsi vereor, ne Magnifica Dominatio Vestra judicium in me desideret, quod
         Magnificae Dominationis Vestrae gravissimis negotiis propemodum oppressae officiosis duntaxat
         litteris obstrepere audeam, judicio tamen, quam constantis meae erga Magnificam Dominationem
         Vestram observantiae remissione peccare malo. <add n="add2">2</add> Itaque illucescente festo
         nomini suo die a Deo Optimo Maximo ex animo precari me profiteor, ut Magnificam Dominationem
         Vestram religioni, patriae ac Musis nostris quam diutissime sospitem servet. </p>
-                  <p n="p4">
+                  <p n="p2">
                      <add n="add1">3</add> Atque ut una fidelia duos parietes dealbem, Magnificae Dominationi Vestrae
         significo me actuarii academicorum consensuum munus deposuisse: non sane eo animo, ut cuiquam
         incommodem, sed quod facili conjectura assequor a domino visitatore regio, qui hoc anno ad nos
@@ -521,27 +463,27 @@
         praelectionibus juris tentatum iri. <add n="add2">4</add> Liberum igitur me a reliquis negotiis
         esse oportet, ut et conceptam de me opinionem sustineam et Magnificae Dominationis Vestrae in
         me eligendo judicium confirmem. </p>
-                  <closer n="closer5">
+                  <closer n="closer1">
                      <salute n="salute1">
                         <add n="add1">5</add> Quod reliquum est, me meaque omnia Magnificae Dominationis Vestrae
         patrocinio devoveo. </salute>
-                     <dateline n="dateline2">
+                     <dateline n="dateline1">
                         <add n="add1">6</add> 
-                        <placeName n="placeName2">Zagrabiae</placeName>, <date n="date3">Kalendis Decembris MDCCLXXX.</date>
+                        <placeName n="placeName1">Zagrabiae</placeName>, <date n="date1">Kalendis Decembris MDCCLXXX.</date>
                      </dateline>
                   </closer>
                </div>
-               <milestone unit="page" n="milestone2"/>
+               <milestone unit="page" n="milestone1"/>
             </body>
          </text>
-         <text n="text4" type="epistula" corresp="#baricevicskrlec17820619">
+         <text n="text3" type="epistula" corresp="#baricevicskrlec17820619">
             <body xml:lang="lat" n="body1">
                <div n="div1" type="prosa-epistula" corresp="#baricevicskrlec17820619">
                   <head n="head1">3. <add n="add1">7v-8v</add>
                   </head>
-                  <opener n="opener2">Nicolao Skerlecz consiliario litterali, supremo comiti Comitatus Zagrabiensis et Studiorum
+                  <opener n="opener1">Nicolao Skerlecz consiliario litterali, supremo comiti Comitatus Zagrabiensis et Studiorum
         Districtus ejusdem directori superiori</opener>
-                  <p n="p3">
+                  <p n="p1">
                      <add n="add1">1</add> Localis director noster coram pluribus jurejurando affirmavit se munus
         suum abdicaturum hancque suam voluntatem hoc eodem tabellario Illustrissimae Dominationis
         Vestrae significaturum, Illustrissime Domine! <add n="add2">2</add> Antea quam pauca quaedam, quae
@@ -549,71 +491,71 @@
         amore mihi in mentem veniunt, cum Illustrissima Dominatione Vestra communicem vel potius ut
         eadem recognoscat, occasionem offeram, majorem in modum ab Illustrissima Dominatione Vestra
         peto, ne consilium istud meum audaciae ac temeritatis condemnet. </p>
-                  <p n="p4">
+                  <p n="p2">
                      <add n="add1">3</add> Exploratum est Illustrissimae Dominationi Vestrae, uti res minimas
         quasque, ita potissimum bonas artes ac disciplinas mutua animorum voluntatumque consensione
         crescere ac omnium maxime niti: anima haec corpus nostrum jam dudum deseruit et ab exteris
         etiam 
-        <milestone unit="page" n="milestone2"/>
+        <milestone unit="page" n="milestone1"/>
         contempti sumus, quem contemptum minime frequentes disputationes nostrae abunde testantur.
-        <add n="add3">4</add> Cujus culpa id accidat, notius est Illustrissimae Dominationi Vestrae, quam
-        ut a me dici debeat. <add n="add4">5</add> Quamobrem resignationem istam insigne incrementum
-        Academiae nostrae allaturam ac proinde ratam habendam esse humillime judico. <add n="add5">6</add>
+        <add n="add2">4</add> Cujus culpa id accidat, notius est Illustrissimae Dominationi Vestrae, quam
+        ut a me dici debeat. <add n="add3">5</add> Quamobrem resignationem istam insigne incrementum
+        Academiae nostrae allaturam ac proinde ratam habendam esse humillime judico. <add n="add4">6</add>
         Hac probata Illustrissimae Dominationis Vestrae supplex sum, ne una eademque manus vulnus
-        opemque ferat. <add n="add6">7</add> Quamdiu nostrates canonici aut (quod non ominor) jesuitae
+        opemque ferat. <add n="add5">7</add> Quamdiu nostrates canonici aut (quod non ominor) jesuitae
         Academiae nostrae praesidebunt, imo in ea etiam censebuntur, affirmare audeo decem fere
         annorum experientia doctus, tandiu necessariam augmento litterarum exulaturam esse concordiam
         libertatemque: tanta est priorum imperitandi impotentia posteriorum reviviscendi desiderium ac
-        machinatio. <add n="add7">8</add> Sed neque in corpore nostro (absit, ut in viscera saeviam) ullum
+        machinatio. <add n="add6">8</add> Sed neque in corpore nostro (absit, ut in viscera saeviam) ullum
         reperio, iis instructum dotibus, quae non pueris utique, sed viris regendis splendide
-        sufficiant: ut adeo foris quaerendum esset caput nostrum. <add n="add8">9</add> Hoc vero si
-        dominus protonotarius <persName n="persName9">Bussich</persName>, vir omnium dignissimus, recuset, dominus autem <persName n="persName10">Szechen</persName> magis
-        conspicuam operiri malit stationem, ubi quaerendum? <add n="add11">10</add> Neque enim ominari
-        possum monachos nobis praefectum iri. <add n="add12">11</add> Itaque eo res adducta 
-        <milestone unit="page" n="milestone13"/>
+        sufficiant: ut adeo foris quaerendum esset caput nostrum. <add n="add7">9</add> Hoc vero si
+        dominus protonotarius <persName n="persName1">Bussich</persName>, vir omnium dignissimus, recuset, dominus autem <persName n="persName2">Szechen</persName> magis
+        conspicuam operiri malit stationem, ubi quaerendum? <add n="add8">10</add> Neque enim ominari
+        possum monachos nobis praefectum iri. <add n="add9">11</add> Itaque eo res adducta 
+        <milestone unit="page" n="milestone2"/>
         videtur, ut seu in prius illud malum recidamus sive (quod vili mea opinione miserae huic
         patriae maxime salutare esset) localis directoris officium certe non necessarium hac occasione
         cesset ejusque vices majore sane cum fructu singularum facultatum decani impleant, primario
         aliquo inter eos constituto, qui alternis vicibus consessus pro re nata cogat iisdemque
         praesideat, actuarium consessuum onere faciendarum (utique ex protocolis) relationum manente. </p>
-                  <p n="p5">
+                  <p n="p3">
                      <add n="add1">12</add> Porro satis amplum localis directoris stipendium praestanti alicui
         chirurgiae aut mechanices (artis utriusque patriae huic perquam necessariae) magistro
         addicatur. <add n="add2">13</add> Quot enim, bone Deus, imperitia chirurgorum miseri apud nos
         pereunt? <add n="add3">14</add> Quam multorum popularium nostrorum ignorantia mechanices
         laborantium omnibusque ejus subsidiis destitutorum praemature atteruntur vires! </p>
-                  <p n="p6">
+                  <p n="p4">
                      <add n="add1">15</add> Quodsi tamen aliquis priore forma nobis praefici debet, Illustrissimam
-        Dominationem Vestram oro et obtestor, ut juris canonici professorem <persName n="persName2">Milassin</persName> licet canonicum
-        nobis praefici procurare dignetur. <add n="add3">16</add> Hoc enim pacto sibi imprimis
+        Dominationem Vestram oro et obtestor, ut juris canonici professorem <persName n="persName1">Milassin</persName> licet canonicum
+        nobis praefici procurare dignetur. <add n="add2">16</add> Hoc enim pacto sibi imprimis
         Illustrissima Dominatio Vestra satisfaciet: scio namque, quod virum hunc in hac, quam occupat,
         statione aegre ferat; servabit deinde illaesam caritatem christianam, si namque 
-        <milestone unit="page" n="milestone4"/>
+        <milestone unit="page" n="milestone1"/>
         crescente lapsu temporum machinatione amotus fuerit, metuo, ne in vetus malum relabatur; me
         denique confirmabit et ab odiosa provincia translatum inter academicos pulveres sorte mea
         contentum ad tumulum usque conquiescere faciet. </p>
-                  <closer n="closer7">
+                  <closer n="closer1">
                      <salute n="salute1">
                         <add n="add1">17</add> Haec uti forte audacia ita certe sincera consilia aequi bonique consulere
-        et me potenti suo patrocinio porro etiam tueri dignetur, oro et sum <abbr n="abbr2">etc.</abbr> 
+        et me potenti suo patrocinio porro etiam tueri dignetur, oro et sum <abbr n="abbr1">etc.</abbr> 
                      </salute>
-                     <dateline n="dateline2">
+                     <dateline n="dateline1">
                         <add n="add1">18</add> 
-                        <placeName n="placeName2">Zagrabiae</placeName>, <date n="date3">XIII. Calendis Julii MDCCLXXXII.</date>
+                        <placeName n="placeName1">Zagrabiae</placeName>, <date n="date1">XIII. Calendis Julii MDCCLXXXII.</date>
                      </dateline>
                   </closer>
                </div>
             </body>
          </text>
-         <text n="text5" type="epistula" corresp="#skrlecbaricevic17820624">
+         <text n="text4" type="epistula" corresp="#skrlecbaricevic17820624">
             <body xml:lang="lat" n="body1">
                <div n="div1" type="prosa-epistula" corresp="#skrlecbaricevic17820624">
                   <head n="head1">4. <add n="add1">8v</add>
                   </head>
-                  <opener n="opener2">
+                  <opener n="opener1">
                      <emph n="emph1">Skerleczii responsoria</emph>
                   </opener>
-                  <p n="p3">
+                  <p n="p1">
                      <add n="add1">1</add> Directoratus decanis aut etiam dignioribus profesoribus veluti praemium
         debetur. <add n="add2">2</add> Vitio hominum evenit, quod canonici qualitas minus gratos ea in re
         effectus produxerit. <add n="add3">3</add> Ceterum suo quisque sensu abundat et cum suam quisque
@@ -622,30 +564,30 @@
         conspiraturos esse, judicium meum eorum electioni continuo substernerem. <add n="add5">5</add>
         Nunc cum distracta in varias partes studia sciam, eos Excelso Consilio proponam, quos maxime
         idoneos existimavero. </p>
-                  <closer n="closer4">
+                  <closer n="closer1">
                      <salute n="salute1">
                         <add n="add1">6</add> Ceterum zelum praetitulatae Dominationis Vestrae probo et constanti cum
         aestimatione permaneo. </salute>
-                     <dateline n="dateline2">
+                     <dateline n="dateline1">
                         <add n="add1">7</add> 
-                        <placeName n="placeName2">Posonii</placeName>,<date n="date3"> 24. Junii 1782.</date> 
+                        <placeName n="placeName1">Posonii</placeName>,<date n="date1"> 24. Junii 1782.</date> 
                      </dateline>
-                     <signed n="signed3">
+                     <signed n="signed1">
                         <add n="add1">8</add> Nicolaus Skerlecz, manu propria</signed>
                   </closer>
                </div>
-               <milestone unit="page" n="milestone2"/>
+               <milestone unit="page" n="milestone1"/>
             </body>
          </text>
-         <text n="text6" type="nota">
+         <text n="text5" type="nota">
             <body xml:lang="lat" n="body1">
                <div n="div1" type="prosa-nota">
                   <head n="head1">5. <add n="add1">8v-9r</add> 
                   </head>
-                  <opener n="opener2">
+                  <opener n="opener1">
                      <emph n="emph1">Nota</emph>
                   </opener>
-                  <p n="p3">
+                  <p n="p1">
                      <add n="add1">1</add> Skerlecz simulandi peritus aliter egit quam se acturum indicabat.
         <add n="add2">2</add> Omnem enim movit lapidem, ut Josephus Petrovich juris naturae Budae
         professor Zagrabiensi Academiae director daretur. <add n="add3">3</add> Qua in re multa peccavit
@@ -660,15 +602,15 @@
         possunt ex Universitatis professoribus directores. <add n="add7">7</add> Quarto: offendit etiam
         clerum, a quo tamen plurima in Skerleczium profecta sunt beneficia, dum saecularem hominem
         praetulit eo ipso tempore, quo Croatiae clerus per summam calumniam 
-        <milestone unit="page" n="milestone8"/>
-        crudus et ignorantiae tenebris obrutus audiebat. <add n="add9">8</add> Quinto: offendit optimum
+        <milestone unit="page" n="milestone1"/>
+        crudus et ignorantiae tenebris obrutus audiebat. <add n="add8">8</add> Quinto: offendit optimum
         quemque ex popularibus suis, dum Hungaris alioquin ad gloriam Croatarum lividos oculos
         attolentibus et uti suorum honori, ita contemptui Croatarum maximopere intentis rimam magno
         quandoque foramine fortassis hiaturam aperuit suos semper exteris academiis dandi
-        praeficiendique directores <abbr n="abbr10">etc.</abbr> 
-                     <abbr n="abbr11">etc.</abbr> 
+        praeficiendique directores <abbr n="abbr1">etc.</abbr> 
+                     <abbr n="abbr2">etc.</abbr> 
                   </p>
-                  <p n="p4">
+                  <p n="p2">
                      <add n="add1">9</add> Neque dicas Petrovichium utique Croatam fuisse. <add n="add2">10</add> Primum
         enim Petrovich 1000 florenorum stipendium in Universitate jam merebat, cum Croatiae
         professores ad summum 700 florenorum stipendia addicta habuerint, deinde ipse Petrovich ut
@@ -679,23 +621,23 @@
                </div>
             </body>
          </text>
-         <text n="text7" type="epistula" corresp="#baricevicskrlec17840523">
+         <text n="text6" type="epistula" corresp="#baricevicskrlec17840523">
             <body xml:lang="lat" n="body1">
                <div n="div1" type="prosa-epistula" corresp="#baricevicskrlec17840523">
                   <head n="head1">6. <add n="add1">18v-19r</add>
                   </head>
-                  <opener n="opener2">Nicolao Skerlecz, Posonium</opener>
-                  <p n="p3">
+                  <opener n="opener1">Nicolao Skerlecz, Posonium</opener>
+                  <p n="p1">
                      <add n="add1">1</add> Sorte mea, quantum per malevolos homines licuit, ceteris in rebus me
-        contentum semper fuisse atque <placeName n="placeName2">Spartam</placeName>, quam nactus sum, pro virili ornare conatum, si te,
+        contentum semper fuisse atque <placeName n="placeName1">Spartam</placeName>, quam nactus sum, pro virili ornare conatum, si te,
         Illustrissime Domine, testem appellem, non metuo, ne quid arrogantius facere videar. </p>
-                  <milestone unit="page" n="milestone4"/>
-                  <p n="p5">
+                  <milestone unit="page" n="milestone1"/>
+                  <p n="p2">
                      <add n="add1">2</add> Firmum hoc animi mei propositum multa eaque varia, dum de magisterio juris
         ecclesiastici aliter ac hactenus se habebat, Apostolicum Regem meum et cogitare et statuere
         velle intelligerem, cogitanti mihi altum adhuc silentium imperabat efficiebatque, ut omnes
         cogitationes meas spesque fallaces esse tacitus ingemiscerem.</p>
-                  <p n="p6">
+                  <p n="p3">
                      <add n="add1">3</add> Nam hoc magisterii genus, quin ulli mortalium incommodarem, et semper me
         spectavisse profiteor et consecutum non esse pluribus de caussis haud mediocriter doleo.
         <add n="add2">4</add> Verum inter has ipsas animi angustias spes aliqua tamquam per spissam nubem
@@ -711,27 +653,27 @@
         animo, ut neque Apostolico Regi meo, si me primatem Hungariae, neque summo pontifici, si
         purpuratorum patrum principem renunciet, magis placere velim quam pulcherrimae veritati.
         <add n="add8">10</add> Haec mihi dum vivam, in rebus humanis dea erit. </p>
-                  <closer n="closer7">
+                  <closer n="closer1">
                      <salute n="salute1">
                         <add n="add1">11</add> Vale Illustrissime Domine, meque potenti patrocinio tuo tueri pergas. </salute>
-                     <dateline n="dateline2">
+                     <dateline n="dateline1">
                         <add n="add1">12</add> 
-                        <placeName n="placeName2">Zagrabiae</placeName>, <date n="date3">X. Kalendis Junii MDCCLXXXIV.</date>
+                        <placeName n="placeName1">Zagrabiae</placeName>, <date n="date1">X. Kalendis Junii MDCCLXXXIV.</date>
                      </dateline>
                   </closer>
                </div>
-               <milestone unit="page" n="milestone2"/>
+               <milestone unit="page" n="milestone1"/>
             </body>
          </text>
-         <text n="text8" type="nota">
+         <text n="text7" type="nota">
             <body xml:lang="lat" n="body1">
                <div n="div1" type="prosa-nota">
                   <head n="head1">7. <add n="add1">19r</add>
                   </head>
-                  <opener n="opener2">
+                  <opener n="opener1">
                      <emph n="emph1">Nota</emph>
                   </opener>
-                  <p n="p3">
+                  <p n="p1">
                      <add n="add1">1</add> Skerleczius, qui plurimam dignitatum honorumque suorum partem adulatrici
         politicae debet, me quidem semper aestimavit, at a pulveribus scholasticis nunquam expediri
         debere simul propositum habuit: hic me magnum fore, hic immortalem famam, nomenque illustre
@@ -743,19 +685,19 @@
         Millassin ad munus directoris localis in Academia Zagrabiensi provehere, hocque pacto ad
         cathedram juris ecclesiastici planam id adhuc temporis viam mihi sternere. <add n="add5">5</add>
         Sed assentari nunquam volui. <add n="add6">6</add> Ideoque mutato consilio Dei potius quam hominis
-        minister ac servus esse elegi. <abbr n="abbr7">etc.</abbr> 
-                     <abbr n="abbr8">etc.</abbr>
+        minister ac servus esse elegi. <abbr n="abbr1">etc.</abbr> 
+                     <abbr n="abbr2">etc.</abbr>
                   </p>
                </div>
             </body>
          </text>
-         <text n="text9" type="epistula" corresp="#baricevicskrlec17840707">
+         <text n="text8" type="epistula" corresp="#baricevicskrlec17840707">
             <body xml:lang="lat" n="body1">
                <div n="div1" type="prosa-epistula" corresp="#baricevicskrlec17840707">
                   <head n="head1">8. <add n="add1">19r-19v</add>
                   </head>
-                  <opener n="opener2">Eidem</opener>
-                  <p n="p3">
+                  <opener n="opener1">Eidem</opener>
+                  <p n="p1">
                      <add n="add1">1</add> Perpetuarum revolutionum tandem pertaesus ac simul bellam nactus
         occasionem, qua commodo meo de occupata hactenus statione possem decedere, indicto pro
         parochia Pokupskensi concursui me subjeci. <add n="add2">2</add> Et ecce opitulanti Deo
@@ -768,17 +710,17 @@
         Academiam promptissime conferam. <add n="add5">5</add> Interea, ne quid detrimenti litterae
         nostrae capiant, praestabo, praelectiones meas ad finem usque anni nulla diligentiae aut
         accurationis 
-        <milestone unit="page" n="milestone6"/>
-        remissione prosequar. <add n="add7">6</add> Illustrissimae vero Dominationis Vestrae supplex
+        <milestone unit="page" n="milestone1"/>
+        remissione prosequar. <add n="add6">6</add> Illustrissimae vero Dominationis Vestrae supplex
         sum, ut potenti patrocinio suo curare dignetur, ne mihi duorum vacationis mensium stipendium
         subtrahatur. </p>
-                  <closer n="closer4">
+                  <closer n="closer1">
                      <salute n="salute1">
-                        <add n="add1">7</add> In reliquo perenni cultu subscribor. <abbr n="abbr2">etc.</abbr> 
+                        <add n="add1">7</add> In reliquo perenni cultu subscribor. <abbr n="abbr1">etc.</abbr> 
                      </salute>
-                     <dateline n="dateline2">
+                     <dateline n="dateline1">
                         <add n="add1">8</add> 
-                        <placeName n="placeName2">Zagrabiae</placeName>, <date n="date3">ipsis Nonis Julii MDCCLXXXIV.</date>
+                        <placeName n="placeName1">Zagrabiae</placeName>, <date n="date1">ipsis Nonis Julii MDCCLXXXIV.</date>
                      </dateline>
                   </closer>
                </div>

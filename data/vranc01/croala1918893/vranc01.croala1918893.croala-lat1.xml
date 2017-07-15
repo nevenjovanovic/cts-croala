@@ -36,54 +36,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="4"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -149,10 +102,10 @@
    <text xml:base="urn:cts:croala:vranc01.croala1918893.croala-lat1:" xml:lang="lat">
         <body xml:lang="lat" n="body1">
             <pb n="pb1"/>
-            <div n="div2" type="prosa-epistula">
+            <div n="div1" type="prosa-epistula">
                 <opener n="opener1">Antonius Verantius Magdalenae Millaversiae</opener>
 
-                <p n="p2">Quod a decennio nihil ad te de vitae ac status mei ratione vel semel nec
+                <p n="p1">Quod a decennio nihil ad te de vitae ac status mei ratione vel semel nec
                     scripserim nec nunciaverim, Magdalena, quemadmodum veteres auctores nostri, <pb n="pb1"/> illique jucundissimi postulabant, causa est, quod iam quum propter
                     annos, qui mihi in dies VIII. lustro ad IX. properant, tum propter tristissimas
                     et graves difficultates, in quas horrendae et continuae Magni Turcae Zulimani
@@ -173,9 +126,9 @@
                     meum suavium, oblivisci ullo tempore posse existimes ; quamvis et pulchritudo
                     Tibi Tua praeterit, et ipse iam eo Cupidine, qui nos coniunxerat, destitui
                     videar. Maiora certe ego amabam et admirabar, delicium ! quam aut formae
-                    praestantiam, aut <sic n="sic2">adaptissimae</sic> aetatis florem ; mores imprimis ab
+                    praestantiam, aut <sic n="sic1">adaptissimae</sic> aetatis florem ; mores imprimis ab
                     omni avaritia Corynthiaca alienos, modestiam dein jucunditati, comitatemque
-                    affabilitati <pb n="pb3"/> copulatam ; musicae postea scientiam, in qua sic
+                    affabilitati <pb n="pb2"/> copulatam ; musicae postea scientiam, in qua sic
                     voce, sic pollebas fidibus, ut quum seu Lydios modos, seu Jovios addam, et
                     reliqua, quibus facile cedunt, Venetos movere maluisses, Ariona vincere et Argum
                     sopire posse haud dubie mihi videbaris ; ingenuitatem postremo ac elegantiam
@@ -197,11 +150,11 @@
                     absentem, redama, aevoque fugitivo fruere ! Nam autumnus, veris ac aestatis
                     bonorum spoliator, iam adest, et bruma instat, quae mihi, si reliquum ex eo
                     fecerit nihil, meos casus solabor ex alienis, tuisque saltem pascar virtutibus,
-                    quibus quum per omnes aetates fuisti hucusque <pb n="pb4"/> amabilis, tum in
+                    quibus quum per omnes aetates fuisti hucusque <pb n="pb3"/> amabilis, tum in
                     senectute, quod erit cumulatius, fies etiam honorabilis.</p>
-                <closer n="closer3">
+                <closer n="closer1">
                     <salute n="salute1">Vale. </salute>
-                    <dateline n="dateline2">Albae Juliae Transsylvanae <date n="date1" when="1543-07-20">XIII. kalendas
+                    <dateline n="dateline1">Albae Juliae Transsylvanae <date n="date1" when="1543-07-20">XIII. kalendas
                             Augusti MDXLIII. </date>
                </dateline>
                 </closer>

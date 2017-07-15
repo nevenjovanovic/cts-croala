@@ -48,55 +48,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="3"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="9"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -155,33 +107,33 @@
       <body xml:lang="lat" n="body1">
          
          <gap n="gap1" reason="alia"/>
-         <pb n="pb2"/>
-         <div n="div3" met="scazon" type="poesis-epigramma">
+         <pb n="pb1"/>
+         <div n="div1" met="scazon" type="poesis-epigramma">
             <head n="head1">DE INSULAE<ref n="ref1">1</ref> JUPANAE amoenitate.</head>
 
-            <l n="l2">FElicis hospes Insulae, vides glebas</l>
+            <l n="l1">FElicis hospes Insulae, vides glebas</l>
              
-            <l n="l3">Virides, amoenas, mitibus hilares pomis,</l>
+            <l n="l2">Virides, amoenas, mitibus hilares pomis,</l>
              
-            <l n="l4">Ubi relinquens Indiam suam Bacchus</l>
+            <l n="l3">Ubi relinquens Indiam suam Bacchus</l>
              
-            <l n="l5">Chiumque nobilem uvidamque <sic n="sic1">Methymnum</sic>
+            <l n="l4">Chiumque nobilem uvidamque <sic n="sic1">Methymnum</sic>
             </l>
              
-            <l n="l6">Madidus jocosos feriatur Octobres,</l>
+            <l n="l5">Madidus jocosos feriatur Octobres,</l>
              
-            <l n="l7">Nullaque vite laetius calet, nulla</l>
+            <l n="l6">Nullaque vite laetius calet, nulla</l>
              
-            <l n="l8">His gratiora pampinis gerit serta,</l>
+            <l n="l7">His gratiora pampinis gerit serta,</l>
              
-            <l n="l9">Praeque his adulto collibus mero vestras</l>
+            <l n="l8">Praeque his adulto collibus mero vestras</l>
              
-            <l n="l10">Desiderare, Coelites, negat mensas.</l>
+            <l n="l9">Desiderare, Coelites, negat mensas.</l>
              
-            <note n="note11">1 Jupana insula est orae Illyricae, ditionis Ragusinae, quam Tauridem appellat Hirtius de bello Alexandrino.</note>
+            <note n="note1">1 Jupana insula est orae Illyricae, ditionis Ragusinae, quam Tauridem appellat Hirtius de bello Alexandrino.</note>
             
          </div>
-         <gap n="gap4" reason="alia"/>
+         <gap n="gap2" reason="alia"/>
       </body>
    </text>
 </TEI>

@@ -42,58 +42,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="13"/>
-          <tagUsage gi="person" occurs="4"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="ptr" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -176,11 +125,11 @@
          <div n="div1" type="prosa-epistula">
 
             <opener n="opener1">Reuerendo in Christo Domino <persName n="persName1">Iacobo Grassolario</persName>, domino meo charissimo. Venetiis.
-            <salute n="salute2">Venerande domine,</salute>
+            <salute n="salute1">Venerande domine,</salute>
             </opener>
-            <p n="p2">de opere nostro Tua cura nuper impresso Tibi gratias ago. In quo componendo siquid meus
+            <p n="p1">de opere nostro Tua cura nuper impresso Tibi gratias ago. In quo componendo siquid meus
           meruit labor, Deum oro, Tecum mihi commune sit.</p>
-            <p n="p3"> De hoc autem, quod nunc in manu est, ut perficere possim, Tu me pręcibus Tuis adiuua!
+            <p n="p2"> De hoc autem, quod nunc in manu est, ut perficere possim, Tu me pręcibus Tuis adiuua!
           Quando quidem non modicę speculationis est de imitatione Christi uelle scribere et uitę
           perfectioris disciplinam tractare. Si mihi Dominus, in cuius laudem talia euoluuntur,
           adiutor fautorque fuerit, spero infra anni spacium de illo, sicuti postulasti, me Tibi
@@ -188,7 +137,7 @@
           impedisset. Nunc in eius aduentu hac molestia liberatus operi absoluendo, quod
           intermiseram, accingar, eoque libentius, quia ipse prouocas, qui me, cum nondum uideris,
           amas. </p>
-            <p n="p4"> Interim beati <persName n="persName1">Hieronymi</persName> uitam his diebus a nobis ęditam Tibi mittam, cum primum ab
+            <p n="p3"> Interim beati <persName n="persName1">Hieronymi</persName> uitam his diebus a nobis ęditam Tibi mittam, cum primum ab
           illis, quibus concessi transcribendam, habere potero. Plus aliquid in ea inuenies quam in
           istis, quę cum ipsius operibus impręssę sunt. Ac ne nostra commendare uidear, non de
           dicendi uenustate loquor (nam et ipse rusticanus sum), sed de historia. Quę si Tibi
@@ -196,17 +145,17 @@
           dedit ore rotundo Musa loqui (ut <persName n="persName2">Oratius</persName> inquit), nostro exemplo prouocatus, idem et
           exquisitiore stilo et sententiis grauioribus efficiet. Tunc ego ista nostratia libenter
           aboleri patiar. Nihil enim in uita tam cupide cupio, quam ut quis de hoc sancto, cuius ego
-            <milestone n="milestone3" unit="page"/> studiosissimus sum, aliquid scribat pro dignitate, quod me
+            <milestone n="milestone1" unit="page"/> studiosissimus sum, aliquid scribat pro dignitate, quod me
           fateor nequaquam assecutum. Itaque in scribendo copiam mihi defuisse noueris, non
           uoluntatem. </p>
-            <closer n="closer5">
+            <closer n="closer1">
                <salute n="salute1">Vale!</salute>
-               <dateline n="dateline2">Spalati, <date n="date1" when-iso="1507-04-04">pridie Nonas Apriles, anno Domini
+               <dateline n="dateline1">Spalati, <date n="date1" when-iso="1507-04-04">pridie Nonas Apriles, anno Domini
               MDVII.</date>
                </dateline>
-               <signed n="signed3">Marcus Marulus Tuus</signed>
+               <signed n="signed1">Marcus Marulus Tuus</signed>
             </closer>
-            <postscript n="postscript6">
+            <postscript n="postscript1">
                <p n="p1">Reuerendo pręsbitero Francisco Lucensi meo nomine gratias age! Octo codices opusculi
             nostri Te curante impressi mihi dono misit, implens illud in Ecclesiaste dictum: Da
             partes septem necnon et octo. Det ei Deus peracto uitę huius tempore, quod septenario

@@ -54,61 +54,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="3"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="9"/>
-          <tagUsage gi="biblScope" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="4"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="360"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lb" occurs="1"/>
-          <tagUsage gi="lg" occurs="2"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="q" occurs="7"/>
-          <tagUsage gi="ref" occurs="100" withId="94"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -201,9 +147,9 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="poesis-satura" met="hexameter">
             <head n="head1">MARTINI SARCASTII PSEUDO-NASONIS ILIRICI METAMORPHOSIS UNICA ARTIS POETICAE AMATORIBUS ET OSORIBUS<lb n="lb1"/>
- AD NOVUM ANNUM DICATA 1843.<ref type="note" xml:id="rd0e9" target="nd0e9" n="ref2"/>
+ AD NOVUM ANNUM DICATA 1843.<ref type="note" xml:id="rd0e9" target="nd0e9" n="ref1"/>
             </head>
-            <lg n="lg2">
+            <lg n="lg1">
                <l n="l1">Quid celare iuvat, quod agit, quod peccat aperte</l>
                <l n="l2">Frons delira hominum risumque iramque movendo?</l>
                <l n="l3">Non facile tegitur vesania publica, lato</l>
@@ -214,8 +160,8 @@
                <l n="l8">I! Satyra! Hoc praesta lectoribus, adspice lucem;</l>
                <l n="l9">Quae potes, emenda, quae non potes, argue, damna! </l>
             </lg>
-            <milestone n="milestone3" unit="section"/>
-            <lg n="lg4">
+            <milestone n="milestone1" unit="section"/>
+            <lg n="lg2">
                <l n="l1">Notus Alexandri sonipes, celebratus equorum</l>
                <l n="l2">Princeps, antiqua descendens arce Draconum,</l>
                <l n="l3">Bucephalus,<ref type="note" xml:id="rd0e58" target="nd0e58" n="ref1"/> praeses Satyrorum est, duxque cohortis</l>
@@ -669,10 +615,10 @@ rubebat</l>
          </div>
 
       </body>
-      <back xml:lang="lat" n="back2">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="notes">
             <head n="head1">Notae</head>
-            <p n="p2">
+            <p n="p1">
                <ref xml:id="nd0e9" target="rd0e9" ana="editor" n="ref1">
   Tekst prilažem prema tiskanom izdanju, bilješke su preuzete od Matića, a numeracija se razlikuje od numeracije u tiskanom primjerku i preuzet je iz rukopisa MP 218 jer jedino u njemu postoji tumač.
  </ref>
@@ -713,19 +659,19 @@ Veshelenyi.</ref>
 Itidem Sitkay qua mandatarius Kossutianus, qui se nomine Eliae Corbovich in ejusdem novalibus scripserat.</ref>
                     <ref xml:id="nd0e493" target="rd0e493" ana="auctor" n="ref24">
 Imago Sitkay Zagrabiam comparentis.</ref>
-                    <ref xml:id="nd0e535" target="rd0e535" ana="editor" n="ref25">Rkp. <bibl n="bibl1">Mp 218</bibl>:<q n="q2"> Corbovis</q>, a <bibl n="bibl3">rkp. R 4057 b i c, R 6189, R 4113</bibl>: <q n="q4">Cor bovis.</q>
+                    <ref xml:id="nd0e535" target="rd0e535" ana="editor" n="ref25">Rkp. <bibl n="bibl1">Mp 218</bibl>:<q n="q1"> Corbovis</q>, a <bibl n="bibl2">rkp. R 4057 b i c, R 6189, R 4113</bibl>: <q n="q2">Cor bovis.</q>
                </ref>
-                    <ref xml:id="nd0e559" target="rd0e559" ana="editor" n="ref26">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>): <q n="q2">magni.</q>
+                    <ref xml:id="nd0e559" target="rd0e559" ana="editor" n="ref26">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>): <q n="q1">magni.</q>
                </ref>
-                    <ref xml:id="nd0e634" target="rd0e634" ana="editor" n="ref27">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>):<q n="q2"> imo.</q>
+                    <ref xml:id="nd0e634" target="rd0e634" ana="editor" n="ref27">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>):<q n="q1"> imo.</q>
                </ref>
-                    <ref xml:id="nd0e649" target="rd0e649" ana="editor" n="ref28">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>): <q n="q2">colle.</q>
+                    <ref xml:id="nd0e649" target="rd0e649" ana="editor" n="ref28">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>): <q n="q1">colle.</q>
                </ref>
                     <ref xml:id="nd0e760" target="rd0e760" ana="auctor" n="ref29">
 D. Lyudevitus Gay.</ref>
                     <ref xml:id="nd0e763" target="rd0e763" ana="auctor" n="ref30">
 Musa Illyrica.</ref>
-                    <ref xml:id="nd0e889" target="rd0e889" ana="editor" n="ref31">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>): <q n="q2">calido.</q>
+                    <ref xml:id="nd0e889" target="rd0e889" ana="editor" n="ref31">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>): <q n="q1">calido.</q>
                </ref>
                     <ref xml:id="nd0e997" target="rd0e997" ana="auctor" n="ref32">
  In restauratione co(mi)t(a)tus Zagrabiensis.</ref>
@@ -739,7 +685,7 @@ Lucavecz, arx nobilium in Turopolje.</ref>
  Omnes co(mi)t(a)tus hungarici.</ref>
                     <ref xml:id="nd0e1084" target="rd0e1084" ana="auctor" n="ref37">
  Baracz, in parte illyrica primus vulneratus,</ref>
-                    <ref xml:id="nd0e1129" target="rd0e1129" ana="editor" n="ref38">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>): <q n="q2">comprendere.</q>
+                    <ref xml:id="nd0e1129" target="rd0e1129" ana="editor" n="ref38">Svi rukopisi (osim <bibl n="bibl1">R 4319</bibl>): <q n="q1">comprendere.</q>
                </ref>
                     <ref xml:id="nd0e1144" target="rd0e1144" ana="auctor" n="ref39">
  Stivich</ref>

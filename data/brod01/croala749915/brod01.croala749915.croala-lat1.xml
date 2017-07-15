@@ -52,57 +52,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -189,11 +139,11 @@
                     Sirmiensis, cancellarius Clementi papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 4, f. 42r.</note>
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 4, f. 42r.</note>
 
-                <opener n="opener3">Beatissime pater, domine clementissime! Post oscula pedum Sanctitatis Vestre
+                <opener n="opener1">Beatissime pater, domine clementissime! Post oscula pedum Sanctitatis Vestre
                     beatorum et servitutis mee humillimam commendationem.</opener>
-                <p n="p4">Hodie factus est finis in negocio cancellariatus auctoritate et intercessione
+                <p n="p1">Hodie factus est finis in negocio cancellariatus auctoritate et intercessione
                     Vestre Sanctitatis et opera domini baronis. Quibus igitur verbis Vestre
                     Sanctitati gratias agam, non invenio. Illud fortasse sacius erit non verbis eas
                     agere, sed facto et <milestone n="milestone1" unit="page"/> reipsa conari referre. Referri
@@ -213,11 +163,11 @@
                     valitudinis tantum imbecillitas est mihi admodum suspecta. Nam preter oculos,
                     qui nondum recte valere non desunt, alia quoque incommoda. Sed fiat in omnibus
                     voluntas domini.</p>
-                <closer n="closer5">Vestrę Sanctitatis humilimus servulus Stephanus Brodericus electus
+                <closer n="closer1">Vestrę Sanctitatis humilimus servulus Stephanus Brodericus electus
                     Sirmiensis, cancellarius</closer>
 
 
-                <note n="note6" resp="BJ">Annotatio: Textus a dato usque ad subscriptionem alia manu scriptus
+                <note n="note2" resp="BJ">Annotatio: Textus a dato usque ad subscriptionem alia manu scriptus
                     est.</note>
 
             </div>

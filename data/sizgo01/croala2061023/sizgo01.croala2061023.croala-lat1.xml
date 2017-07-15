@@ -43,62 +43,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="6"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="18"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="17"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="526"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="9"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="17"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="4"/>
-          <tagUsage gi="quote" occurs="4"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="5"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -173,24 +118,24 @@
   </teiHeader>
     <text xml:base="urn:cts:croala:sizgo01.croala2061023.croala-lat1:" xml:lang="lat">
         <pb xml:lang="lat" n="pb1"/>
-      <front xml:lang="lat" n="front2">
+      <front xml:lang="lat" n="front1">
             <div n="div1" type="prosa-epistula">
                 <opener n="opener1">GEORGIUS SISGOREUS SIBENICENSIS DALMATA MAGNIFICO DOMINO ANTONIO CALVO
                     PATRITIO VENETO ET SIBENICENSI PRAETORI SALUTEM DICIT PLURIMAM.</opener>
-                <p n="p2">Postquam ad nos tua accessit Praestantia, praetor clarissime, et tuo magistratui
+                <p n="p1">Postquam ad nos tua accessit Praestantia, praetor clarissime, et tuo magistratui
                     operam coepit impendere, noctu quidem et interdiu cogitavi quo scriptorum genere
                     te visitarem et qua carminis salutatione salutarem. In mentem praesto venit rei
                     divinae negligentia quaedam, quam nec consyderare absque admiratione nec
                     praeterire valui sine <sic n="sic1">suppletione</sic>, non quod temere audeam patrum
                     nostrorum carpere usum; verum ut nostrae satisfaciam devotioni et tibi hoc
                     inventum inscribam, qui rem divinam praesertim et diligis et colis et observas.</p>
-                <p n="p3">Christus namque apostolos delegerat non de foro Iustiniani, ut scribit
+                <p n="p2">Christus namque apostolos delegerat non de foro Iustiniani, ut scribit
                     Augustinus, sed de piscatorum simplicitate, non peritos quidem grammatica, nec
                     armatos dialectica, nec inflatos rhetorica, sed indoctos homines et pauperes,
                     quos et lucem mundi et sal terrae constituerat. Siquidem, ut sol in radiis suis
                     apparet et rosa in odoribus suis sentitur et ignis in scintillis suis aspicitur,
                     sic in apostolorum virtutibus Christi <sic n="sic1">patentia</sic> cognoscebatur.</p>
-                <p n="p4">Antiqua enim vanitas miratur Platonis, Aristotelis et Carneadis doctrinam, sed
+                <p n="p3">Antiqua enim vanitas miratur Platonis, Aristotelis et Carneadis doctrinam, sed
                     quid excellentius apostolorum doctrina, quae ut sol lucebat et caelum humano
                     generi reserabat? Commendat praeterea Demosthenis et Ciceronis facundiam, sed
                     quid eorum facundia facundius, qui barbaros <pb n="pb1"/> incredulos, et Orpheus
@@ -202,7 +147,7 @@
                     Iulius Caesar nec Alexander Macedo apud historicos effecisse legitur. Optime
                     itaque meriti de militanti ecclesia optimam in sacris merentur gloriam et
                     praecipuam.</p>
-                <p n="p5">Quo circa satis fui admiratus, quod huiusmodi athletae dei odas peculiares intra
+                <p n="p4">Quo circa satis fui admiratus, quod huiusmodi athletae dei odas peculiares intra
                     divina officia non habeant, quos hymnos appellamus, sed communes omnibus et
                     vulgares. Festis diebus Petri dumtaxat et Pauli proprios quosdam hymnos cantat
                     ecclesia, nullo tamen pedum glutino copulatos more carminum Anacreontis. Non
@@ -216,641 +161,641 @@
                     humanitate, magis devotionem hominis religiosi quam elegantem limationem
                     magisque nostram erga te venerationem quam rhetoricorum pompam verborum
                     consyderes et ponderes.</p>
-                <closer n="closer6">
+                <closer n="closer1">
                     <salute n="salute1">Valeat Magnificentia tua, cui me plurime commendo.</salute>
                 </closer>
             </div>
       </front>
-        <body xml:lang="lat" n="body3">
+        <body xml:lang="lat" n="body1">
             <div n="div1" type="poesis-ode" met="sapphicum">
                 <head n="head1">AD ANTONIUM CALVUM PATRITIUM VENETUM PRAETOREM SIBENICENSEM</head>
-                <l n="l2">Praetor Antoni, generosa proles</l>
-                <l n="l3">Calva, perfelix Veneti senatus</l>
-                <l n="l4">Gemma, qua fulget Sibenica tellus</l>
-                <l n="l5">Syderis instar,</l>
-                <l n="l6">Solvimus grates Superum parenti,</l>
-                <l n="l7">Ad magistratum modo qui vocavit</l>
-                <l n="l8">Urbis in nostrae laribus paternis</l>
-                <l n="l9">Te, bone praetor.</l>
-                <l n="l10">Pindari linguae fluvios disertae</l>
-                <l n="l11">Posco praeturam cupiens sonare,</l>
-                <l n="l12">Quam geris solers, animo modesto</l>
-                <l n="l13">Omnia librans.</l>
-                <pb n="pb14"/>
+                <l n="l1">Praetor Antoni, generosa proles</l>
+                <l n="l2">Calva, perfelix Veneti senatus</l>
+                <l n="l3">Gemma, qua fulget Sibenica tellus</l>
+                <l n="l4">Syderis instar,</l>
+                <l n="l5">Solvimus grates Superum parenti,</l>
+                <l n="l6">Ad magistratum modo qui vocavit</l>
+                <l n="l7">Urbis in nostrae laribus paternis</l>
+                <l n="l8">Te, bone praetor.</l>
+                <l n="l9">Pindari linguae fluvios disertae</l>
+                <l n="l10">Posco praeturam cupiens sonare,</l>
+                <l n="l11">Quam geris solers, animo modesto</l>
+                <l n="l12">Omnia librans.</l>
+                <pb n="pb1"/>
 
-                <l n="l15">Iura tu servas, quibus ut minister</l>
-                <l n="l16">Ponderas aequum pariterque iniquum.</l>
-                <l n="l17">Deligis rectum domitasque crimen,</l>
-                <l n="l18">Optime censor.</l>
-                <l n="l19">Caesaris pectus grave, sed benignum</l>
-                <l n="l20">Possides, nomen rigidi Catonis</l>
-                <l n="l21">Temperas, captas, Numa qua vigebat,</l>
-                <l n="l22">Religionem.</l>
-                <l n="l23">Tu togae lampas Venetae videris.</l>
-                <l n="l24">Tu tuae sydus domui nitescis,</l>
-                <l n="l25">Praesidet nobis tua rite virtus</l>
-                <l n="l26">Erygonea.</l>
-                <l n="l27">Tu sacerdotum venerandus ipse</l>
-                <l n="l28">Cultor, illustris procerumque amator,</l>
-                <l n="l29">Tu decus doctae specimenque turbae,</l>
-                <l n="l30">Inclyte praetor.</l>
-                <l n="l31">Tu colis vatum graciles Camoenas,</l>
-                <l n="l32">Tu sapis Phoebum redolesque laurum,</l>
-                <l n="l33">Tu geris clausas Charites sacrato</l>
-                <l n="l34">Pectore claras.</l>
-                <l n="l35">Dulcis auditor cytharae lyraeque,</l>
-                <l n="l36">Perlegas totam modo tu Thaliam</l>
-                <l n="l37">Fonte non vatum veterum madentem,</l>
-                <l n="l38"> Rore sed astri.</l>
+                <l n="l13">Iura tu servas, quibus ut minister</l>
+                <l n="l14">Ponderas aequum pariterque iniquum.</l>
+                <l n="l15">Deligis rectum domitasque crimen,</l>
+                <l n="l16">Optime censor.</l>
+                <l n="l17">Caesaris pectus grave, sed benignum</l>
+                <l n="l18">Possides, nomen rigidi Catonis</l>
+                <l n="l19">Temperas, captas, Numa qua vigebat,</l>
+                <l n="l20">Religionem.</l>
+                <l n="l21">Tu togae lampas Venetae videris.</l>
+                <l n="l22">Tu tuae sydus domui nitescis,</l>
+                <l n="l23">Praesidet nobis tua rite virtus</l>
+                <l n="l24">Erygonea.</l>
+                <l n="l25">Tu sacerdotum venerandus ipse</l>
+                <l n="l26">Cultor, illustris procerumque amator,</l>
+                <l n="l27">Tu decus doctae specimenque turbae,</l>
+                <l n="l28">Inclyte praetor.</l>
+                <l n="l29">Tu colis vatum graciles Camoenas,</l>
+                <l n="l30">Tu sapis Phoebum redolesque laurum,</l>
+                <l n="l31">Tu geris clausas Charites sacrato</l>
+                <l n="l32">Pectore claras.</l>
+                <l n="l33">Dulcis auditor cytharae lyraeque,</l>
+                <l n="l34">Perlegas totam modo tu Thaliam</l>
+                <l n="l35">Fonte non vatum veterum madentem,</l>
+                <l n="l36"> Rore sed astri.</l>
             </div>
             <div n="div2" type="poesis-ode" met="sapphicum">
                 <head n="head1">DEPRECATIONES PRO TRIUMPHO</head>
-                <l n="l2">Scripsimus carmen vario furore</l>
-                <l n="l3">Sive fatorum nebula sinistra</l>
-                <l n="l4">Sive Musarum stimulo pudico</l>
-                <l n="l5">Et sine culpa.</l>
-                <l n="l6">Scripsimus plenos elegos dolore,</l>
-                <l n="l7">Flevimus multo mala tanta lustro,</l>
-                <l n="l8">Hactenus nec me mala sors reliquit</l>
-                <l n="l9">Dulcibus auris.</l>
-                <l n="l10">Lusimus carmen pede, quo poeta</l>
-                <l n="l11">Nempe se toto canit orbe notum.</l>
-                <l n="l12">Cura me tantum superum iuvabat</l>
-                <l n="l13">Sacra canentem.</l>
-                <pb n="pb14"/>
-                <l n="l15">Lusimus claudum celeremque iambum</l>
-                <l n="l16">Bile concessa satyram notanti,</l>
-                <l n="l17">Movimus nostro pariter precatu</l>
-                <l n="l18">Numina caeli.</l>
-                <l n="l19">Personat cantu lyrico Camoena</l>
-                <l n="l20">Ad dei laudem misero faventis,</l>
-                <l n="l21">Emulum pectus, caput et superbum</l>
-                <l n="l22">Dantis ad ima.</l>
-                <l n="l23">Christe sacrato residens Olympo,</l>
-                <l n="l24">Cuncta qui cernis simul et gubernas,</l>
-                <l n="l25">Ipse da castam sine labe vitam</l>
-                <l n="l26">Atque sonoram.</l>
-                <l n="l27">Lauream cinctus tenet en capillus</l>
-                <l n="l28">Et lyram pulsat digitus peritus,</l>
-                <l n="l29">Ipse cantabo modo sic triumphans</l>
-                <l n="l30">Ore modesto.</l>
-                <l n="l31">Victor evado tolerans Ulyxem,</l>
-                <l n="l32">Qui repugnabat Palamedis aurae,</l>
-                <l n="l33">Victor evado bene recta servans</l>
-                <l n="l34">Iuris in aula.</l>
-                <l n="l35">Victor evado fugiens Neronem</l>
-                <l n="l36">Dira ructantem gladio parato,</l>
-                <l n="l37">Victor evado veniens ad alti</l>
-                <l n="l38">Numinis aram.</l>
-                <l n="l39">Christe, tu nostro faveas triumpho</l>
-                <l n="l40">Annuas nostro pariterque voto,</l>
-                <l n="l41">Ut tibi soli famuler tonanti</l>
-                <l n="l42">Tempus in omne.</l>
+                <l n="l1">Scripsimus carmen vario furore</l>
+                <l n="l2">Sive fatorum nebula sinistra</l>
+                <l n="l3">Sive Musarum stimulo pudico</l>
+                <l n="l4">Et sine culpa.</l>
+                <l n="l5">Scripsimus plenos elegos dolore,</l>
+                <l n="l6">Flevimus multo mala tanta lustro,</l>
+                <l n="l7">Hactenus nec me mala sors reliquit</l>
+                <l n="l8">Dulcibus auris.</l>
+                <l n="l9">Lusimus carmen pede, quo poeta</l>
+                <l n="l10">Nempe se toto canit orbe notum.</l>
+                <l n="l11">Cura me tantum superum iuvabat</l>
+                <l n="l12">Sacra canentem.</l>
+                <pb n="pb1"/>
+                <l n="l13">Lusimus claudum celeremque iambum</l>
+                <l n="l14">Bile concessa satyram notanti,</l>
+                <l n="l15">Movimus nostro pariter precatu</l>
+                <l n="l16">Numina caeli.</l>
+                <l n="l17">Personat cantu lyrico Camoena</l>
+                <l n="l18">Ad dei laudem misero faventis,</l>
+                <l n="l19">Emulum pectus, caput et superbum</l>
+                <l n="l20">Dantis ad ima.</l>
+                <l n="l21">Christe sacrato residens Olympo,</l>
+                <l n="l22">Cuncta qui cernis simul et gubernas,</l>
+                <l n="l23">Ipse da castam sine labe vitam</l>
+                <l n="l24">Atque sonoram.</l>
+                <l n="l25">Lauream cinctus tenet en capillus</l>
+                <l n="l26">Et lyram pulsat digitus peritus,</l>
+                <l n="l27">Ipse cantabo modo sic triumphans</l>
+                <l n="l28">Ore modesto.</l>
+                <l n="l29">Victor evado tolerans Ulyxem,</l>
+                <l n="l30">Qui repugnabat Palamedis aurae,</l>
+                <l n="l31">Victor evado bene recta servans</l>
+                <l n="l32">Iuris in aula.</l>
+                <l n="l33">Victor evado fugiens Neronem</l>
+                <l n="l34">Dira ructantem gladio parato,</l>
+                <l n="l35">Victor evado veniens ad alti</l>
+                <l n="l36">Numinis aram.</l>
+                <l n="l37">Christe, tu nostro faveas triumpho</l>
+                <l n="l38">Annuas nostro pariterque voto,</l>
+                <l n="l39">Ut tibi soli famuler tonanti</l>
+                <l n="l40">Tempus in omne.</l>
             </div>
             <div n="div3" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE PETRO APOSTOLO</head>
-                <l n="l2">Patris aeterni soboles beata</l>
-                <l n="l3">Fecit in Petro seniore signa</l>
-                <l n="l4">Orbis in toto celebranda circlo</l>
-                <l n="l5">Pectore miro.</l>
-                <l n="l6">Retibus Cephas propere relictis</l>
-                <l n="l7">Voce divina dominum secutus,</l>
-                <l n="l8">Corde quem prorsus calido vocantem</l>
-                <l n="l9">Coepit amare.</l>
-                <pb n="pb10"/>
-                <l n="l11">Ter tonat dicens: "Amo te, Redemptor,</l>
-                <l n="l12">Tu dei vivi generata proles.</l>
-                <l n="l13">Sentio numen, faciamus urnas</l>
-                <l n="l14">Montis in alto.</l>
-                <l n="l15">Tu meis plantis mare praebuisti,</l>
-                <l n="l16">Fluctibus currens dubiusque signi,</l>
-                <l n="l17">Obruar ne iam pelagi profundo,</l>
-                <l n="l18">Protinus instans.</l>
-                <l n="l19">Increpat capto mulier magistro,</l>
-                <l n="l20">Gallus accusat temere negantem,</l>
-                <l n="l21">Respicis flentem nitidis ocellis</l>
-                <l n="l22">Ductus ad Annam.</l>
-                <l n="l23">Clavium curam mihi tu dedisti</l>
-                <l n="l24">Meque sublimi solio locasti,</l>
-                <l n="l25">Ferreis vinclis quoque liberasti</l>
-                <l n="l26">Nocte quieta.</l>
-                <l n="l27">Ne meae desit fidei rogasti</l>
-                <l n="l28">Robur et surgens nece de cruenta</l>
-                <l n="l29">Gloriam vitae mihi nunciare</l>
-                <l n="l30">Iussa dedisti.</l>
-                <l n="l31">Umbra sanabat mea febre fessos</l>
-                <l n="l32">Et Magi nugas penitus domavi,</l>
-                <l n="l33">Caesaris bilem superans volavi</l>
-                <l n="l34">Astra triumphans."</l>
+                <l n="l1">Patris aeterni soboles beata</l>
+                <l n="l2">Fecit in Petro seniore signa</l>
+                <l n="l3">Orbis in toto celebranda circlo</l>
+                <l n="l4">Pectore miro.</l>
+                <l n="l5">Retibus Cephas propere relictis</l>
+                <l n="l6">Voce divina dominum secutus,</l>
+                <l n="l7">Corde quem prorsus calido vocantem</l>
+                <l n="l8">Coepit amare.</l>
+                <pb n="pb1"/>
+                <l n="l9">Ter tonat dicens: "Amo te, Redemptor,</l>
+                <l n="l10">Tu dei vivi generata proles.</l>
+                <l n="l11">Sentio numen, faciamus urnas</l>
+                <l n="l12">Montis in alto.</l>
+                <l n="l13">Tu meis plantis mare praebuisti,</l>
+                <l n="l14">Fluctibus currens dubiusque signi,</l>
+                <l n="l15">Obruar ne iam pelagi profundo,</l>
+                <l n="l16">Protinus instans.</l>
+                <l n="l17">Increpat capto mulier magistro,</l>
+                <l n="l18">Gallus accusat temere negantem,</l>
+                <l n="l19">Respicis flentem nitidis ocellis</l>
+                <l n="l20">Ductus ad Annam.</l>
+                <l n="l21">Clavium curam mihi tu dedisti</l>
+                <l n="l22">Meque sublimi solio locasti,</l>
+                <l n="l23">Ferreis vinclis quoque liberasti</l>
+                <l n="l24">Nocte quieta.</l>
+                <l n="l25">Ne meae desit fidei rogasti</l>
+                <l n="l26">Robur et surgens nece de cruenta</l>
+                <l n="l27">Gloriam vitae mihi nunciare</l>
+                <l n="l28">Iussa dedisti.</l>
+                <l n="l29">Umbra sanabat mea febre fessos</l>
+                <l n="l30">Et Magi nugas penitus domavi,</l>
+                <l n="l31">Caesaris bilem superans volavi</l>
+                <l n="l32">Astra triumphans."</l>
             </div>
             <div n="div4" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE PAULO APOSTOLO</head>
-                <l n="l2">Stephanum Saulus, Cilicum propago,</l>
-                <l n="l3">Obrui saxis stimulat nocentes:</l>
-                <l n="l4">Ille pro Sauli moriens salute</l>
-                <l n="l5">Numen adorat.</l>
-                <l n="l6">Litteras turbae geris hic malignae,</l>
-                <l n="l7">Nomen ut Christi perimat colendum..</l>
-                <l n="l8">Labitur tandem celeri ruina</l>
-                <l n="l9">Saulus acerbus.</l>
-                <l n="l10">Intonat caelso deus ipse caelo,</l>
-                <l n="l11">Terruit stratum simul et minarum</l>
-                <l n="l12">Perdito coeto lupus ipse lapsus</l>
-                <l n="l13">Surgit ut agnus.</l>
-                <pb n="pb14"/>
-                <l n="l15">Paulus erectus deitate plenus,</l>
-                <l n="l16">Gentium doctor, Crucis atque praeco,</l>
-                <l n="l17">Paulus electus sacra vasa legis</l>
-                <l n="l18">Pectore gestat.</l>
-                <l n="l19">Naufragus vasti fuerat profundi,</l>
-                <l n="l20">Virgulis pulsus lapidumque iactu</l>
-                <l n="l21">Laesus et duro tolerans in orbe</l>
-                <l n="l22">Mille pericla.</l>
-                <l n="l23">Tertium caeli veniens theatrum</l>
-                <l n="l24">Raptus archanam videt ipse lucem,</l>
-                <l n="l25">Lingua mortalis resonare numquam</l>
-                <l n="l26">Rite valebit.</l>
-                <l n="l27">Ter deum carnis stimulo rogavit,</l>
-                <l n="l28">Carnis ut flammam perimat furentem,</l>
-                <l n="l29">Sed satis Paulo fuerat dolenti</l>
-                <l n="l30">Gratia caelsa.</l>
-                <l n="l31">Ensifer fortis fideique magnus</l>
-                <l n="l32">Ipse defensor cadit ense diri</l>
-                <l n="l33">Caesaris, tandem niveo triumpho</l>
-                <l n="l34">Sydera scandit.</l>
+                <l n="l1">Stephanum Saulus, Cilicum propago,</l>
+                <l n="l2">Obrui saxis stimulat nocentes:</l>
+                <l n="l3">Ille pro Sauli moriens salute</l>
+                <l n="l4">Numen adorat.</l>
+                <l n="l5">Litteras turbae geris hic malignae,</l>
+                <l n="l6">Nomen ut Christi perimat colendum..</l>
+                <l n="l7">Labitur tandem celeri ruina</l>
+                <l n="l8">Saulus acerbus.</l>
+                <l n="l9">Intonat caelso deus ipse caelo,</l>
+                <l n="l10">Terruit stratum simul et minarum</l>
+                <l n="l11">Perdito coeto lupus ipse lapsus</l>
+                <l n="l12">Surgit ut agnus.</l>
+                <pb n="pb1"/>
+                <l n="l13">Paulus erectus deitate plenus,</l>
+                <l n="l14">Gentium doctor, Crucis atque praeco,</l>
+                <l n="l15">Paulus electus sacra vasa legis</l>
+                <l n="l16">Pectore gestat.</l>
+                <l n="l17">Naufragus vasti fuerat profundi,</l>
+                <l n="l18">Virgulis pulsus lapidumque iactu</l>
+                <l n="l19">Laesus et duro tolerans in orbe</l>
+                <l n="l20">Mille pericla.</l>
+                <l n="l21">Tertium caeli veniens theatrum</l>
+                <l n="l22">Raptus archanam videt ipse lucem,</l>
+                <l n="l23">Lingua mortalis resonare numquam</l>
+                <l n="l24">Rite valebit.</l>
+                <l n="l25">Ter deum carnis stimulo rogavit,</l>
+                <l n="l26">Carnis ut flammam perimat furentem,</l>
+                <l n="l27">Sed satis Paulo fuerat dolenti</l>
+                <l n="l28">Gratia caelsa.</l>
+                <l n="l29">Ensifer fortis fideique magnus</l>
+                <l n="l30">Ipse defensor cadit ense diri</l>
+                <l n="l31">Caesaris, tandem niveo triumpho</l>
+                <l n="l32">Sydera scandit.</l>
             </div>
             <div n="div5" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE DIVO ANDREA</head>
-                <l n="l2">Mitis Andreas dominum secutus</l>
-                <l n="l3">Vincla mundani laquei relinquens,</l>
-                <l n="l4">Velle sed totum tibi, Christe, vovens</l>
-                <l n="l5">Corde benigno.</l>
-                <l n="l6">Gaudeat Patras veniente tanto</l>
-                <l n="l7">Nuncio Christi: scelus omne mundi</l>
-                <l n="l8">Fulminat, legem probat et nitentem</l>
-                <l n="l9">Flamminis igne.</l>
-                <l n="l10">Audit Aegeas sacra vera vanus,</l>
-                <l n="l11">Pungit Andream sonitu prophano,</l>
-                <l n="l12">Temnit et lignum nitidae salutis</l>
-                <l n="l13">Et Crucis aram.</l>
-                <l n="l14">Templa vanescunt veterum deorum,</l>
-                <l n="l15">Demonum lusus statuae fatentur</l>
-                <l n="l16">Voce caelesti, ruit omne verbum</l>
-                <l n="l17">Iudicis atri.</l>
-                <pb n="pb18"/>
-                <l n="l19">Indicat magna pietate Christum</l>
-                <l n="l20">Sede de caelsa superum petisse</l>
-                <l n="l21">Virginis ventrem, docuisse nec non</l>
-                <l n="l22">Velle paternum.</l>
-                <l n="l23">Livor Haebreos superat malignos,</l>
-                <l n="l24">Nummus et Iudam, timor et Pilatum.</l>
-                <l n="l25">Orbis auctorem cruce sic necavit</l>
-                <l n="l26">Perfida turba.</l>
-                <l n="l27">Motus Aegeas rabie canina</l>
-                <l n="l28">Vera clamantem Superumque caelo</l>
-                <l n="l29">Digna virtutis truculentus hostls</l>
-                <l n="l30">Perdere iussit.</l>
-                <l n="l31">Hic salutabat crucis apparatum,</l>
-                <l n="l32">Emicans in qua dominus pependit,</l>
-                <l n="l33">Denique Andreas roseo triumpho</l>
-                <l n="l34">Scandit Olympum.</l>
+                <l n="l1">Mitis Andreas dominum secutus</l>
+                <l n="l2">Vincla mundani laquei relinquens,</l>
+                <l n="l3">Velle sed totum tibi, Christe, vovens</l>
+                <l n="l4">Corde benigno.</l>
+                <l n="l5">Gaudeat Patras veniente tanto</l>
+                <l n="l6">Nuncio Christi: scelus omne mundi</l>
+                <l n="l7">Fulminat, legem probat et nitentem</l>
+                <l n="l8">Flamminis igne.</l>
+                <l n="l9">Audit Aegeas sacra vera vanus,</l>
+                <l n="l10">Pungit Andream sonitu prophano,</l>
+                <l n="l11">Temnit et lignum nitidae salutis</l>
+                <l n="l12">Et Crucis aram.</l>
+                <l n="l13">Templa vanescunt veterum deorum,</l>
+                <l n="l14">Demonum lusus statuae fatentur</l>
+                <l n="l15">Voce caelesti, ruit omne verbum</l>
+                <l n="l16">Iudicis atri.</l>
+                <pb n="pb1"/>
+                <l n="l17">Indicat magna pietate Christum</l>
+                <l n="l18">Sede de caelsa superum petisse</l>
+                <l n="l19">Virginis ventrem, docuisse nec non</l>
+                <l n="l20">Velle paternum.</l>
+                <l n="l21">Livor Haebreos superat malignos,</l>
+                <l n="l22">Nummus et Iudam, timor et Pilatum.</l>
+                <l n="l23">Orbis auctorem cruce sic necavit</l>
+                <l n="l24">Perfida turba.</l>
+                <l n="l25">Motus Aegeas rabie canina</l>
+                <l n="l26">Vera clamantem Superumque caelo</l>
+                <l n="l27">Digna virtutis truculentus hostls</l>
+                <l n="l28">Perdere iussit.</l>
+                <l n="l29">Hic salutabat crucis apparatum,</l>
+                <l n="l30">Emicans in qua dominus pependit,</l>
+                <l n="l31">Denique Andreas roseo triumpho</l>
+                <l n="l32">Scandit Olympum.</l>
             </div>
             <div n="div6" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE IACOBO MAIORE</head>
-                <l n="l2">Iacobus maior, Zebedea proles,</l>
-                <l n="l3">Quem deus caelo volitans ab alto</l>
-                <l n="l4">Christus ascripsit gremio suorum</l>
-                <l n="l5">Discipulorum.</l>
-                <l n="l6">Hic ut ad dextram sedeat, petebat</l>
-                <l n="l7">Cura materni rogitans amoris.</l>
-                <l n="l8">Hic bibit sacrum calicem, sedile</l>
-                <l n="l9">Dat pater altum.</l>
-                <l n="l10">Thabor ad montem fuerat vocatus</l>
-                <l n="l11">Gloriam cernens ubi praepotentem.</l>
-                <l n="l12">Quando divino facies nitore</l>
-                <l n="l13">Fulsit in aevo.</l>
-                <l n="l14">Affuit Christi precibus cruentis,</l>
-                <l n="l15">Angelus quando monitu paterno</l>
-                <l n="l16">Carne turbatum dominum refecit</l>
-                <l n="l17">Tempore mortis.</l>
-                <l n="l18">Artibus caeli cadit ars Magorum,</l>
-                <l n="l19">Demonum vires baculo ligantur</l>
-                <l n="l20">Iacobi, mansit pietasque felix</l>
-                <l n="l21">Ore sacrato.</l>
-                <pb n="pb22"/>
-                <l n="l23">Victus Herodes ratione diva</l>
-                <l n="l24">Arsit in magnum penitus furorem.</l>
-                <l n="l25">Iacobo sacrum caput amputavit</l>
-                <l n="l26">Ense prophano.</l>
-                <l n="l27">Martyrum primus diadema gessit</l>
-                <l n="l28">Inter illustres socios laborum.</l>
-                <l n="l29">Qui deum toto sonuere mundo</l>
-                <l n="l30">Virgine natum.</l>
-                <l n="l31">Inclyto regno fruitur polorum</l>
-                <l n="l32">Et triumphali solio Tonantis,</l>
-                <l n="l33">Cuius in laudem Sibenica tellus</l>
-                <l n="l34">Phana coronat.</l>
+                <l n="l1">Iacobus maior, Zebedea proles,</l>
+                <l n="l2">Quem deus caelo volitans ab alto</l>
+                <l n="l3">Christus ascripsit gremio suorum</l>
+                <l n="l4">Discipulorum.</l>
+                <l n="l5">Hic ut ad dextram sedeat, petebat</l>
+                <l n="l6">Cura materni rogitans amoris.</l>
+                <l n="l7">Hic bibit sacrum calicem, sedile</l>
+                <l n="l8">Dat pater altum.</l>
+                <l n="l9">Thabor ad montem fuerat vocatus</l>
+                <l n="l10">Gloriam cernens ubi praepotentem.</l>
+                <l n="l11">Quando divino facies nitore</l>
+                <l n="l12">Fulsit in aevo.</l>
+                <l n="l13">Affuit Christi precibus cruentis,</l>
+                <l n="l14">Angelus quando monitu paterno</l>
+                <l n="l15">Carne turbatum dominum refecit</l>
+                <l n="l16">Tempore mortis.</l>
+                <l n="l17">Artibus caeli cadit ars Magorum,</l>
+                <l n="l18">Demonum vires baculo ligantur</l>
+                <l n="l19">Iacobi, mansit pietasque felix</l>
+                <l n="l20">Ore sacrato.</l>
+                <pb n="pb1"/>
+                <l n="l21">Victus Herodes ratione diva</l>
+                <l n="l22">Arsit in magnum penitus furorem.</l>
+                <l n="l23">Iacobo sacrum caput amputavit</l>
+                <l n="l24">Ense prophano.</l>
+                <l n="l25">Martyrum primus diadema gessit</l>
+                <l n="l26">Inter illustres socios laborum.</l>
+                <l n="l27">Qui deum toto sonuere mundo</l>
+                <l n="l28">Virgine natum.</l>
+                <l n="l29">Inclyto regno fruitur polorum</l>
+                <l n="l30">Et triumphali solio Tonantis,</l>
+                <l n="l31">Cuius in laudem Sibenica tellus</l>
+                <l n="l32">Phana coronat.</l>
             </div>
             <div n="div7" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE IOANNE EVANGELISTA</head>
-                <l n="l2">Fervido Christus retinens amore</l>
-                <l n="l3">Consecrat dono nimio Ioannem,</l>
-                <l n="l4">Iacobi fratrem, quibus in polorum est</l>
-                <l n="l5">Sede triumphus.</l>
-                <l n="l6">Quando mundani generis Redemptor</l>
-                <l n="l7">Ultimam coenam faceret, Ioannes</l>
-                <l n="l8">Numen aspexit recubans in almo</l>
-                <l n="l9">Pectore Christi.</l>
-                <l n="l10">Quumque penderet crucis in cupresso,</l>
-                <l n="l11">Caelibi curae penitus reliquit</l>
-                <l n="l12">Virginem matrem, gravidam dolore</l>
-                <l n="l13">Funere nati.</l>
-                <l n="l14">Ephesum linquens habitare Pathmos</l>
-                <l n="l15">Insulam laetam voluit Ioannes,</l>
-                <l n="l16">Exul hic scripsit calamo stupendo</l>
-                <l n="l17">Apochalypsim.</l>
-                <l n="l18">Ephesum tandem rediens recepit</l>
-                <l n="l19">Totius plausum populi canentis:</l>
-                <l n="l20">Mortuae dixit: "Drusiana, surge!"</l>
-                <l n="l21">Surgit et orat.</l>
-                <l n="l22">Carpsit et doctum merito Cratonem.</l>
-                <l n="l23">Qui duas gemmas nichilo docebat</l>
-                <l n="l24">Protinus dandas, quibus indigebat</l>
-                <l n="l25">Nuda caterva.</l>
-                <pb n="pb26"/>
-                <l n="l27">Instar ascendens aquilae volantis</l>
-                <l n="l28">Sydus ad caelsum reboat <sic n="sic1">supremnum</sic>
+                <l n="l1">Fervido Christus retinens amore</l>
+                <l n="l2">Consecrat dono nimio Ioannem,</l>
+                <l n="l3">Iacobi fratrem, quibus in polorum est</l>
+                <l n="l4">Sede triumphus.</l>
+                <l n="l5">Quando mundani generis Redemptor</l>
+                <l n="l6">Ultimam coenam faceret, Ioannes</l>
+                <l n="l7">Numen aspexit recubans in almo</l>
+                <l n="l8">Pectore Christi.</l>
+                <l n="l9">Quumque penderet crucis in cupresso,</l>
+                <l n="l10">Caelibi curae penitus reliquit</l>
+                <l n="l11">Virginem matrem, gravidam dolore</l>
+                <l n="l12">Funere nati.</l>
+                <l n="l13">Ephesum linquens habitare Pathmos</l>
+                <l n="l14">Insulam laetam voluit Ioannes,</l>
+                <l n="l15">Exul hic scripsit calamo stupendo</l>
+                <l n="l16">Apochalypsim.</l>
+                <l n="l17">Ephesum tandem rediens recepit</l>
+                <l n="l18">Totius plausum populi canentis:</l>
+                <l n="l19">Mortuae dixit: "Drusiana, surge!"</l>
+                <l n="l20">Surgit et orat.</l>
+                <l n="l21">Carpsit et doctum merito Cratonem.</l>
+                <l n="l22">Qui duas gemmas nichilo docebat</l>
+                <l n="l23">Protinus dandas, quibus indigebat</l>
+                <l n="l24">Nuda caterva.</l>
+                <pb n="pb1"/>
+                <l n="l25">Instar ascendens aquilae volantis</l>
+                <l n="l26">Sydus ad caelsum reboat <sic n="sic1">supremnum</sic>
             </l>
-                <l n="l29">Primitus Verbum nitidae repostum</l>
-                <l n="l30">Virginis alvo.</l>
-                <l n="l31">Vase ferventis saliens olivi,</l>
-                <l n="l32">Gloriam rerum domino canebat.</l>
-                <l n="l33">Denique egressus niveo tropheo</l>
-                <l n="l34">Ipse quiescit.</l>
+                <l n="l27">Primitus Verbum nitidae repostum</l>
+                <l n="l28">Virginis alvo.</l>
+                <l n="l29">Vase ferventis saliens olivi,</l>
+                <l n="l30">Gloriam rerum domino canebat.</l>
+                <l n="l31">Denique egressus niveo tropheo</l>
+                <l n="l32">Ipse quiescit.</l>
             </div>
             <div n="div8" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE DIVO PHILIPPO</head>
-                <l n="l2">Gentibus Iesum cupidis videre</l>
-                <l n="l3">Curat, ut tandem videant, Philippus.</l>
-                <l n="l4">Auream cuius faciem peroptat</l>
-                <l n="l5">Cernere mundus.</l>
-                <l n="l6">Turba iam Christo duce copiosa</l>
-                <l n="l7">Venerat verbo domini cibari.</l>
-                <l n="l8">Providet plebi sator et redemptor</l>
-                <l n="l9">Esurienti.</l>
-                <l n="l10">Panibus turbam saciare quinque</l>
-                <l n="l11">Nemo dicebat poterit Philippus.</l>
-                <l n="l12">Conditor felix homines cibavit,</l>
-                <l n="l13">Millia quinque.</l>
-                <l n="l14">Grana telluris bonitate crescunt,</l>
-                <l n="l15">Crevit et Christi deitate panis.</l>
-                <l n="l16">Omnium mentes stupidas reliquit</l>
-                <l n="l17">Nobile signum.</l>
-                <l n="l18">"Indica patrem, machinae creator</l>
-                <l n="l19">Orbis, et nostrae fidei satisfit."</l>
-                <l n="l20">Credulus condam modicum Philippus</l>
-                <l n="l21">Verba movebat.</l>
-                <l n="l22">"Filium cernens videt et parentem.</l>
-                <l n="l23">Semper aequali gradimur triumpho."</l>
-                <l n="l24">Christus has tales voluit Philippo</l>
-                <l n="l25">Reddere voces.</l>
-                <l n="l26">Post dies Christi volitantis omnes</l>
-                <l n="l27">Tunc super caelos dapibus polorum</l>
-                <l n="l28">Quattuor lustris miseros Philippus</l>
-                <l n="l29">Pavit homones.</l>
-                <pb n="pb30"/>
-                <l n="l31">Martis evertit statuam crucemque</l>
-                <l n="l32">Prorsus erexit, gelidum draconem</l>
-                <l n="l33">Perdidit, tandem crucifixus intrat</l>
-                <l n="l34">Gaudia caeli.</l>
+                <l n="l1">Gentibus Iesum cupidis videre</l>
+                <l n="l2">Curat, ut tandem videant, Philippus.</l>
+                <l n="l3">Auream cuius faciem peroptat</l>
+                <l n="l4">Cernere mundus.</l>
+                <l n="l5">Turba iam Christo duce copiosa</l>
+                <l n="l6">Venerat verbo domini cibari.</l>
+                <l n="l7">Providet plebi sator et redemptor</l>
+                <l n="l8">Esurienti.</l>
+                <l n="l9">Panibus turbam saciare quinque</l>
+                <l n="l10">Nemo dicebat poterit Philippus.</l>
+                <l n="l11">Conditor felix homines cibavit,</l>
+                <l n="l12">Millia quinque.</l>
+                <l n="l13">Grana telluris bonitate crescunt,</l>
+                <l n="l14">Crevit et Christi deitate panis.</l>
+                <l n="l15">Omnium mentes stupidas reliquit</l>
+                <l n="l16">Nobile signum.</l>
+                <l n="l17">"Indica patrem, machinae creator</l>
+                <l n="l18">Orbis, et nostrae fidei satisfit."</l>
+                <l n="l19">Credulus condam modicum Philippus</l>
+                <l n="l20">Verba movebat.</l>
+                <l n="l21">"Filium cernens videt et parentem.</l>
+                <l n="l22">Semper aequali gradimur triumpho."</l>
+                <l n="l23">Christus has tales voluit Philippo</l>
+                <l n="l24">Reddere voces.</l>
+                <l n="l25">Post dies Christi volitantis omnes</l>
+                <l n="l26">Tunc super caelos dapibus polorum</l>
+                <l n="l27">Quattuor lustris miseros Philippus</l>
+                <l n="l28">Pavit homones.</l>
+                <pb n="pb1"/>
+                <l n="l29">Martis evertit statuam crucemque</l>
+                <l n="l30">Prorsus erexit, gelidum draconem</l>
+                <l n="l31">Perdidit, tandem crucifixus intrat</l>
+                <l n="l32">Gaudia caeli.</l>
             </div>
             <div n="div9" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE SACRO THOMA</head>
-                <l n="l2">Credidit Thomas domino renato</l>
-                <l n="l3">Mortis e vinclo: cupiens videre</l>
-                <l n="l4">Signa clavorum laterisque vulnus</l>
-                <l n="l5">Vidit et inquit:</l>
-                <l n="l6">"Mitis humani generis redemptor,</l>
-                <l n="l7">Omnium rerum decus et creator,</l>
-                <l n="l8">Tu deus, lati dominator orbis,</l>
-                <l n="l9">Victor Averni."</l>
-                <l n="l10">Visaque, Thoma, tua roboravit</l>
-                <l n="l11">Christus occisus, bene quod resumpsit.</l>
-                <l n="l12">Sanctior, qui non oculis videndo</l>
-                <l n="l13">Numina credit.</l>
-                <l n="l14">Profuit nobis dubitans abyssus</l>
-                <l n="l15">Palpitans carnem, fidei nitorem</l>
-                <l n="l16">Comparat, totum resonat per orbem</l>
-                <l n="l17">Gesta triumphi.</l>
-                <l n="l18">Praedicans Parthis pariterque Medis,</l>
-                <l n="l19">Praedicans Persis, calidis et Indis</l>
-                <l n="l20">Plurimo signo populum vocabat</l>
-                <l n="l21">Ad sacra fontis.</l>
-                <l n="l22">Demones flatu domini fugabat,</l>
-                <l n="l23">Prorsus infirmos dabat et saluti,</l>
-                <l n="l24">Lumen et caecis tribuebat almo</l>
-                <l n="l25">
+                <l n="l1">Credidit Thomas domino renato</l>
+                <l n="l2">Mortis e vinclo: cupiens videre</l>
+                <l n="l3">Signa clavorum laterisque vulnus</l>
+                <l n="l4">Vidit et inquit:</l>
+                <l n="l5">"Mitis humani generis redemptor,</l>
+                <l n="l6">Omnium rerum decus et creator,</l>
+                <l n="l7">Tu deus, lati dominator orbis,</l>
+                <l n="l8">Victor Averni."</l>
+                <l n="l9">Visaque, Thoma, tua roboravit</l>
+                <l n="l10">Christus occisus, bene quod resumpsit.</l>
+                <l n="l11">Sanctior, qui non oculis videndo</l>
+                <l n="l12">Numina credit.</l>
+                <l n="l13">Profuit nobis dubitans abyssus</l>
+                <l n="l14">Palpitans carnem, fidei nitorem</l>
+                <l n="l15">Comparat, totum resonat per orbem</l>
+                <l n="l16">Gesta triumphi.</l>
+                <l n="l17">Praedicans Parthis pariterque Medis,</l>
+                <l n="l18">Praedicans Persis, calidis et Indis</l>
+                <l n="l19">Plurimo signo populum vocabat</l>
+                <l n="l20">Ad sacra fontis.</l>
+                <l n="l21">Demones flatu domini fugabat,</l>
+                <l n="l22">Prorsus infirmos dabat et saluti,</l>
+                <l n="l23">Lumen et caecis tribuebat almo</l>
+                <l n="l24">
                <sic n="sic1">Flammine</sic> plenus.</l>
-                <l n="l26">Temperans aestum simul et rigorem,</l>
-                <l n="l27">Suscitans functos proprio vigore,</l>
-                <l n="l28">Passus ob Christi nimios amores</l>
-                <l n="l29">Pace quiescit.</l>
-                <l n="l30">Corpus inclusum tumulo nitescit</l>
-                <l n="l31">Urbe praeclara meritis Edessae,</l>
-                <l n="l32">Emicans in qua celebris refulget</l>
-                <l n="l33">Gratia Thomae.</l>
+                <l n="l25">Temperans aestum simul et rigorem,</l>
+                <l n="l26">Suscitans functos proprio vigore,</l>
+                <l n="l27">Passus ob Christi nimios amores</l>
+                <l n="l28">Pace quiescit.</l>
+                <l n="l29">Corpus inclusum tumulo nitescit</l>
+                <l n="l30">Urbe praeclara meritis Edessae,</l>
+                <l n="l31">Emicans in qua celebris refulget</l>
+                <l n="l32">Gratia Thomae.</l>
             </div>
-            <pb n="pb10"/>
-            <div n="div11" type="poesis-ode" met="sapphicum">
+            <pb n="pb1"/>
+            <div n="div10" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE DIVO BARTHOLOMEO</head>
-                <l n="l2">Dignus altorum Seraphyn sodalis,</l>
-                <l n="l3">Fidus electa populi magister,</l>
-                <l n="l4">Nobilis regum celebrisque proles</l>
-                <l n="l5">Bartholomeus.</l>
-                <l n="l6">Liconum turbae calidis et Indis</l>
-                <l n="l7">Ore divino sacra nunciabat,</l>
-                <l n="l8">Vinculo missum retinent honoris</l>
-                <l n="l9">Verba notantes.</l>
-                <l n="l10">Demonum multo fugiunt fragore</l>
-                <l n="l11">Ipsius vultum, statuae prophanae</l>
-                <l n="l12">Corruunt iussu subito sacrati</l>
-                <l n="l13">Bartholomei.</l>
-                <l n="l14">Centies noctu totiensque luce</l>
-                <l n="l15">Ipse ferventer dominum rogabat</l>
-                <l n="l16">Corde sublimi manibusque tensis.</l>
-                <l n="l17">Poplite flexo.</l>
-                <l n="l18">Huius orantis calor aestuosus</l>
-                <l n="l19">Rore complebat steriles aristas.</l>
-                <l n="l20">Nigra pellebat, faciebat astra</l>
-                <l n="l21">Porro serena.</l>
-                <l n="l22">Audit orantem Superum potestas</l>
-                <l n="l23">Et probant caeli socio lepore</l>
-                <l n="l24">Inferi nec non trepidant tyranni</l>
-                <l n="l25">Rite rogantem.</l>
-                <l n="l26">Urbis Albanae populum docebat</l>
-                <l n="l27">Gloriam vitae, domitans scelestos.</l>
-                <l n="l28">Pelle nudatus roseo triumpho</l>
-                <l n="l29">Gaudia captat.</l>
-                <l n="l30">Ore facundo Theodorus almus</l>
-                <l n="l31">Concinit toti sua sacra mundo,</l>
-                <l n="l32">Concinit laudes chorus Angelorum</l>
-                <l n="l33">Bartholomei.</l>
+                <l n="l1">Dignus altorum Seraphyn sodalis,</l>
+                <l n="l2">Fidus electa populi magister,</l>
+                <l n="l3">Nobilis regum celebrisque proles</l>
+                <l n="l4">Bartholomeus.</l>
+                <l n="l5">Liconum turbae calidis et Indis</l>
+                <l n="l6">Ore divino sacra nunciabat,</l>
+                <l n="l7">Vinculo missum retinent honoris</l>
+                <l n="l8">Verba notantes.</l>
+                <l n="l9">Demonum multo fugiunt fragore</l>
+                <l n="l10">Ipsius vultum, statuae prophanae</l>
+                <l n="l11">Corruunt iussu subito sacrati</l>
+                <l n="l12">Bartholomei.</l>
+                <l n="l13">Centies noctu totiensque luce</l>
+                <l n="l14">Ipse ferventer dominum rogabat</l>
+                <l n="l15">Corde sublimi manibusque tensis.</l>
+                <l n="l16">Poplite flexo.</l>
+                <l n="l17">Huius orantis calor aestuosus</l>
+                <l n="l18">Rore complebat steriles aristas.</l>
+                <l n="l19">Nigra pellebat, faciebat astra</l>
+                <l n="l20">Porro serena.</l>
+                <l n="l21">Audit orantem Superum potestas</l>
+                <l n="l22">Et probant caeli socio lepore</l>
+                <l n="l23">Inferi nec non trepidant tyranni</l>
+                <l n="l24">Rite rogantem.</l>
+                <l n="l25">Urbis Albanae populum docebat</l>
+                <l n="l26">Gloriam vitae, domitans scelestos.</l>
+                <l n="l27">Pelle nudatus roseo triumpho</l>
+                <l n="l28">Gaudia captat.</l>
+                <l n="l29">Ore facundo Theodorus almus</l>
+                <l n="l30">Concinit toti sua sacra mundo,</l>
+                <l n="l31">Concinit laudes chorus Angelorum</l>
+                <l n="l32">Bartholomei.</l>
+            </div>
+            <div n="div11" type="poesis-ode" met="sapphicum">
+                <head n="head1">DE MATTHAEO EVANGELISTA</head>
+                <l n="l1">Rite Matthaeus meliora legit:</l>
+                <l n="l2">Omne vectigal penitus relinquens,</l>
+                <l n="l3">Omne iam lucrum fugiens, salutis</l>
+                <l n="l4">Vocibus haesit.</l>
+                <pb n="pb1"/>
+                <l n="l5">Proximi qui dum rapiebat aurum,</l>
+                <l n="l6">Proprium sprevit fragilemque censum</l>
+                <l n="l7">Tempsit et regem propere secutus</l>
+                <l n="l8">Divitiarum.</l>
+                <l n="l9">Nunciat Verbum Solimis sacratum.</l>
+                <l n="l10">Nunciat regis populo Philippi,</l>
+                <l n="l11">Nunciat nigro sitibus colore</l>
+                <l n="l12">Aethyopumque.</l>
+                <l n="l13">Civitas Nabar nimium decora</l>
+                <l n="l14">Funditus novit sacra nunciantis,</l>
+                <l n="l15">Vidit et dotes nimium stupendas</l>
+                <l n="l16">Numine dante.</l>
+                <l n="l17">Credidit signis validis Egyppus,</l>
+                <l n="l18">Credidit coniunx meritis beatis,</l>
+                <l n="l19">Credidit natus superis in auris</l>
+                <l n="l20">Ipse revivens.</l>
+                <l n="l21">Porro designans hominem volantem</l>
+                <l n="l22">Visio narrat veluti prophetae,</l>
+                <l n="l23">Scripsit Hebreo calamo probatae</l>
+                <l n="l24">Gesta Salutis.</l>
+                <l n="l25">Filiam regis domino sacravit</l>
+                <l n="l26">Praeditam semper gracili precatu.</l>
+                <l n="l27">Nuptiis illam sibi glutinare</l>
+                <l n="l28">Hyrtacus optat.</l>
+                <l n="l29">Virginem Christo prohibet dicatam</l>
+                <l n="l30">Copula carnis maculare foeda,</l>
+                <l n="l31">Hyrtacus iussit subito vetantem</l>
+                <l n="l32">Ense necare.</l>
             </div>
             <div n="div12" type="poesis-ode" met="sapphicum">
-                <head n="head1">DE MATTHAEO EVANGELISTA</head>
-                <l n="l2">Rite Matthaeus meliora legit:</l>
-                <l n="l3">Omne vectigal penitus relinquens,</l>
-                <l n="l4">Omne iam lucrum fugiens, salutis</l>
-                <l n="l5">Vocibus haesit.</l>
-                <pb n="pb6"/>
-                <l n="l7">Proximi qui dum rapiebat aurum,</l>
-                <l n="l8">Proprium sprevit fragilemque censum</l>
-                <l n="l9">Tempsit et regem propere secutus</l>
-                <l n="l10">Divitiarum.</l>
-                <l n="l11">Nunciat Verbum Solimis sacratum.</l>
-                <l n="l12">Nunciat regis populo Philippi,</l>
-                <l n="l13">Nunciat nigro sitibus colore</l>
-                <l n="l14">Aethyopumque.</l>
-                <l n="l15">Civitas Nabar nimium decora</l>
-                <l n="l16">Funditus novit sacra nunciantis,</l>
-                <l n="l17">Vidit et dotes nimium stupendas</l>
-                <l n="l18">Numine dante.</l>
-                <l n="l19">Credidit signis validis Egyppus,</l>
-                <l n="l20">Credidit coniunx meritis beatis,</l>
-                <l n="l21">Credidit natus superis in auris</l>
-                <l n="l22">Ipse revivens.</l>
-                <l n="l23">Porro designans hominem volantem</l>
-                <l n="l24">Visio narrat veluti prophetae,</l>
-                <l n="l25">Scripsit Hebreo calamo probatae</l>
-                <l n="l26">Gesta Salutis.</l>
-                <l n="l27">Filiam regis domino sacravit</l>
-                <l n="l28">Praeditam semper gracili precatu.</l>
-                <l n="l29">Nuptiis illam sibi glutinare</l>
-                <l n="l30">Hyrtacus optat.</l>
-                <l n="l31">Virginem Christo prohibet dicatam</l>
-                <l n="l32">Copula carnis maculare foeda,</l>
-                <l n="l33">Hyrtacus iussit subito vetantem</l>
-                <l n="l34">Ense necare.</l>
+                <head n="head1">DE DIVO IACOBO MINORE</head>
+                <l n="l1">Natus Alphei dominique frater</l>
+                <l n="l2">Iacobus iustus, vocitant minorem.</l>
+                <l n="l3">Sacra templorum Iacobo minori</l>
+                <l n="l4">Omnia florent.</l>
+                <l n="l5">Floruit matris recubans in alvo,</l>
+                <l n="l6">Sanctus effectus fidei vigore,</l>
+                <l n="l7">Vina, siceram minime bibebat</l>
+                <l n="l8">Flumina libans.</l>
+                <pb n="pb1"/>
+                <l n="l9">Carnium temnens epulas opimas.</l>
+                <l n="l10">Balnei vitans tepidum lavacrum</l>
+                <l n="l11">Atque tonsoris fugiens novaclam</l>
+                <l n="l12">Vixit in orbe.</l>
+                <l n="l13">Solus in sanctum veniens sacellum</l>
+                <l n="l14">Saepe callosis genibus rogabat,</l>
+                <l n="l15">Prorsus humectans lachrymis profusis</l>
+                <l n="l16">Ora sacrata.</l>
+                <l n="l17">Latius scribens Egesippus auctor</l>
+                <l n="l18">Nobilis vitam reseravit omnem,</l>
+                <l n="l19">Quam velut sydus speculamur altum</l>
+                <l n="l20">Mortis in aevo.</l>
+                <l n="l21">Passio Christi Iacobum fidelem</l>
+                <l n="l22">Comprobat nullis epulis fruentem</l>
+                <l n="l23">Antequam mundi dominum videret</l>
+                <l n="l24">Morte renatum.</l>
+                <l n="l25">Creditur senis tenuisse lustris</l>
+                <l n="l26">Praesulis sedem Solima sub urbe,</l>
+                <l n="l27">Greditur primam celebrasse missam</l>
+                <l n="l28">Numen adorans.</l>
+                <l n="l29">Cogitur Christum dominum negare,</l>
+                <l n="l30">Profitens Christum datur in ruinam:</l>
+                <l n="l31">Fuste percussus superans Ananum</l>
+                <l n="l32">Astra volavit.</l>
             </div>
             <div n="div13" type="poesis-ode" met="sapphicum">
-                <head n="head1">DE DIVO IACOBO MINORE</head>
-                <l n="l2">Natus Alphei dominique frater</l>
-                <l n="l3">Iacobus iustus, vocitant minorem.</l>
-                <l n="l4">Sacra templorum Iacobo minori</l>
-                <l n="l5">Omnia florent.</l>
-                <l n="l6">Floruit matris recubans in alvo,</l>
-                <l n="l7">Sanctus effectus fidei vigore,</l>
-                <l n="l8">Vina, siceram minime bibebat</l>
-                <l n="l9">Flumina libans.</l>
-                <pb n="pb10"/>
-                <l n="l11">Carnium temnens epulas opimas.</l>
-                <l n="l12">Balnei vitans tepidum lavacrum</l>
-                <l n="l13">Atque tonsoris fugiens novaclam</l>
-                <l n="l14">Vixit in orbe.</l>
-                <l n="l15">Solus in sanctum veniens sacellum</l>
-                <l n="l16">Saepe callosis genibus rogabat,</l>
-                <l n="l17">Prorsus humectans lachrymis profusis</l>
-                <l n="l18">Ora sacrata.</l>
-                <l n="l19">Latius scribens Egesippus auctor</l>
-                <l n="l20">Nobilis vitam reseravit omnem,</l>
-                <l n="l21">Quam velut sydus speculamur altum</l>
-                <l n="l22">Mortis in aevo.</l>
-                <l n="l23">Passio Christi Iacobum fidelem</l>
-                <l n="l24">Comprobat nullis epulis fruentem</l>
-                <l n="l25">Antequam mundi dominum videret</l>
-                <l n="l26">Morte renatum.</l>
-                <l n="l27">Creditur senis tenuisse lustris</l>
-                <l n="l28">Praesulis sedem Solima sub urbe,</l>
-                <l n="l29">Greditur primam celebrasse missam</l>
-                <l n="l30">Numen adorans.</l>
-                <l n="l31">Cogitur Christum dominum negare,</l>
-                <l n="l32">Profitens Christum datur in ruinam:</l>
-                <l n="l33">Fuste percussus superans Ananum</l>
-                <l n="l34">Astra volavit.</l>
-            </div>
-            <div n="div14" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE SYMONE APOSTOLO</head>
-                <l n="l2">Symon audivit dominum Zelotes</l>
-                <l n="l3">Verba narrantem nitidae salutis,</l>
-                <l n="l4">Dictus a Chana dominum secutus</l>
-                <l n="l5">Cuncta reliquit.</l>
-                <l n="l6">Praesulis sedem tenuit supremam</l>
-                <l n="l7">Post necem sacram Iacobi minoris.</l>
-                <l n="l8">Pavit electum populum decenter</l>
-                <l n="l9">Pane polorum.</l>
-                <l n="l10">Symon Aegypti veniens ad oras</l>
-                <l n="l11">Iamque confractus senio trementi,</l>
-                <l n="l12">Vix suis sese pedibus gubernans</l>
-                <l n="l13">Sacra senectus.</l>
-                <pb n="pb14"/>
-                <l n="l15">Praevio Symon graditur bacillo</l>
-                <l n="l16">Spiritus sacri radio nitescens,</l>
-                <l n="l17">Porro qui vires validas ministrat</l>
-                <l n="l18">Sensibus aegris.</l>
-                <l n="l19">Nunciat forti senior vigore</l>
-                <l n="l20">Virginis natum, crucis et patiblum</l>
-                <l n="l21">Atque surgentis tremulo triumphos</l>
-                <l n="l22">Nunciat ore.</l>
-                <l n="l23">Barbarae gentis tolerat minaces</l>
-                <l n="l24">Ipse sermones patiturque duras</l>
-                <l n="l25">Symon erumnas pariterque probra</l>
-                <l n="l26">Sustinet atra.</l>
-                <l n="l27">Atticus mirans patientis altam</l>
-                <l n="l28">Saepe virtutem rogat, ut senectae</l>
-                <l n="l29">Consulat, tandem properat libenter</l>
-                <l n="l30">Ad crucis aram.</l>
-                <l n="l31">Fixus ad lignum senior paratum</l>
-                <l n="l32">Pertulit poenas nimium severas</l>
-                <l n="l33">Gloriam vitae cupiens videre,</l>
-                <l n="l34">Sed duce Christo.</l>
+                <l n="l1">Symon audivit dominum Zelotes</l>
+                <l n="l2">Verba narrantem nitidae salutis,</l>
+                <l n="l3">Dictus a Chana dominum secutus</l>
+                <l n="l4">Cuncta reliquit.</l>
+                <l n="l5">Praesulis sedem tenuit supremam</l>
+                <l n="l6">Post necem sacram Iacobi minoris.</l>
+                <l n="l7">Pavit electum populum decenter</l>
+                <l n="l8">Pane polorum.</l>
+                <l n="l9">Symon Aegypti veniens ad oras</l>
+                <l n="l10">Iamque confractus senio trementi,</l>
+                <l n="l11">Vix suis sese pedibus gubernans</l>
+                <l n="l12">Sacra senectus.</l>
+                <pb n="pb1"/>
+                <l n="l13">Praevio Symon graditur bacillo</l>
+                <l n="l14">Spiritus sacri radio nitescens,</l>
+                <l n="l15">Porro qui vires validas ministrat</l>
+                <l n="l16">Sensibus aegris.</l>
+                <l n="l17">Nunciat forti senior vigore</l>
+                <l n="l18">Virginis natum, crucis et patiblum</l>
+                <l n="l19">Atque surgentis tremulo triumphos</l>
+                <l n="l20">Nunciat ore.</l>
+                <l n="l21">Barbarae gentis tolerat minaces</l>
+                <l n="l22">Ipse sermones patiturque duras</l>
+                <l n="l23">Symon erumnas pariterque probra</l>
+                <l n="l24">Sustinet atra.</l>
+                <l n="l25">Atticus mirans patientis altam</l>
+                <l n="l26">Saepe virtutem rogat, ut senectae</l>
+                <l n="l27">Consulat, tandem properat libenter</l>
+                <l n="l28">Ad crucis aram.</l>
+                <l n="l29">Fixus ad lignum senior paratum</l>
+                <l n="l30">Pertulit poenas nimium severas</l>
+                <l n="l31">Gloriam vitae cupiens videre,</l>
+                <l n="l32">Sed duce Christo.</l>
             </div>
 
-            <div n="div15" type="poesis-ode" met="sapphicum">
+            <div n="div14" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE THADAEO APOSTOLO</head>
-                <l n="l2">Iacobi fratrem colimus Thadaeum</l>
-                <l n="l3">Corculum vitae, specimen salutis,</l>
-                <l n="l4">Totius nostrae fidei perenne</l>
-                <l n="l5">Robur in orbe.</l>
-                <l n="l6">Ut salus rerum, dominus Redemptor</l>
-                <l n="l7">Dexteram patris tenuit potentem</l>
-                <l n="l8">Imperans orbi, meruit Thadaeum</l>
-                <l n="l9">Abgarus aeger.</l>
-                <l n="l10">Abgarus regno dominans Edessae</l>
-                <l n="l11">Scripserat Iesu, validis micanti</l>
-                <l n="l12">Usque miraclis tribuerat altam</l>
-                <l n="l13">Porro salutem:</l>
-                <l n="l14">"Christe, tu rerum dominus, Tonantis</l>
-                <l n="l15">Filius signo vario coruscans,</l>
-                <l n="l16">Namque Iudaei tibi sed minantur</l>
-                <l n="l17">Mortis acerba.</l>
-                <pb n="pb18"/>
-                <l n="l19">Est mibi regnum tenuis peculi,</l>
-                <l n="l20">Quippe virtutum meritis honestum,</l>
-                <l n="l21">Ut rogans ad me libeat venire,</l>
-                <l n="l22">Numen adoro."</l>
-                <l n="l23">Ille rescripsit: "Nimium beatus</l>
-                <l n="l24">Credulus nostri minime videndo.</l>
-                <l n="l25">Ipse complebo veniens ab alto</l>
-                <l n="l26">Velle paternum.</l>
-                <l n="l27">Sede praecaelsa residens Olympi</l>
-                <l n="l28">Ipse curabo dare tunc Thadaeum,</l>
-                <l n="l29">Qui tibi curam dabit et perennem,</l>
-                <l n="l30">Crede, salutem."</l>
-                <l n="l31">Denique ad regem veniens Thadaeus</l>
-                <l n="l32">Optimis curis penitus refecit.</l>
-                <l n="l33">Nuncians: porto sacra missa caelo,</l>
-                <l n="l34">Clausit ocellos.</l>
+                <l n="l1">Iacobi fratrem colimus Thadaeum</l>
+                <l n="l2">Corculum vitae, specimen salutis,</l>
+                <l n="l3">Totius nostrae fidei perenne</l>
+                <l n="l4">Robur in orbe.</l>
+                <l n="l5">Ut salus rerum, dominus Redemptor</l>
+                <l n="l6">Dexteram patris tenuit potentem</l>
+                <l n="l7">Imperans orbi, meruit Thadaeum</l>
+                <l n="l8">Abgarus aeger.</l>
+                <l n="l9">Abgarus regno dominans Edessae</l>
+                <l n="l10">Scripserat Iesu, validis micanti</l>
+                <l n="l11">Usque miraclis tribuerat altam</l>
+                <l n="l12">Porro salutem:</l>
+                <l n="l13">"Christe, tu rerum dominus, Tonantis</l>
+                <l n="l14">Filius signo vario coruscans,</l>
+                <l n="l15">Namque Iudaei tibi sed minantur</l>
+                <l n="l16">Mortis acerba.</l>
+                <pb n="pb1"/>
+                <l n="l17">Est mibi regnum tenuis peculi,</l>
+                <l n="l18">Quippe virtutum meritis honestum,</l>
+                <l n="l19">Ut rogans ad me libeat venire,</l>
+                <l n="l20">Numen adoro."</l>
+                <l n="l21">Ille rescripsit: "Nimium beatus</l>
+                <l n="l22">Credulus nostri minime videndo.</l>
+                <l n="l23">Ipse complebo veniens ab alto</l>
+                <l n="l24">Velle paternum.</l>
+                <l n="l25">Sede praecaelsa residens Olympi</l>
+                <l n="l26">Ipse curabo dare tunc Thadaeum,</l>
+                <l n="l27">Qui tibi curam dabit et perennem,</l>
+                <l n="l28">Crede, salutem."</l>
+                <l n="l29">Denique ad regem veniens Thadaeus</l>
+                <l n="l30">Optimis curis penitus refecit.</l>
+                <l n="l31">Nuncians: porto sacra missa caelo,</l>
+                <l n="l32">Clausit ocellos.</l>
+            </div>
+            <div n="div15" type="poesis-ode" met="sapphicum">
+                <head n="head1">DE DIVO MATTHIA</head>
+                <l n="l1">Ad viam vitae simul et salutis</l>
+                <l n="l2">Proditor Iudas fuerat vocatus,</l>
+                <l n="l3">Perditum calcans iter et prophanum</l>
+                <l n="l4">Sed ruit aeger.</l>
+                <l n="l5">Vendidit nummo dominum polorum,</l>
+                <l n="l6">Filium patris solio sedentis</l>
+                <l n="l7">Aureo caeli, laqueoque fregit</l>
+                <l n="l8">Guttur iniquum.</l>
+                <l n="l9">Matthias missi meruit tribunal</l>
+                <l n="l10">Sorte divina, numerandus ipse</l>
+                <l n="l11">Milites inter domini probatos</l>
+                <l n="l12">Aegregiosque.</l>
+                <l n="l13">Fecerat Iudam reprobum voluntas</l>
+                <l n="l14">Prava, quam numquam dominum secutus</l>
+                <l n="l15">Liquerat, furti loculos habebat</l>
+                <l n="l16">Proditor atrox.</l>
+                <l n="l17">Matthiam fecit domini secutum</l>
+                <l n="l18">Dona perfelix animus probatum,</l>
+                <l n="l19">Lampadem vitae meruit videre</l>
+                <l n="l20">Mortis in umbra.</l>
+                <pb n="pb1"/>
+                <l n="l21">Nunciat Verbum, peperit quod alma</l>
+                <l n="l22">Virginum virgo sine fine felix,</l>
+                <l n="l23">Totius mundi specimen, perennis</l>
+                <l n="l24">Gloria caeli.</l>
+                <l n="l25">Nunciat Verbum, cruce quod pependit,</l>
+                <l n="l26">Morte sub cuius trepidasse terra</l>
+                <l n="l27">Creditur, pullo pariter colore</l>
+                <l n="l28">Astra steterunt.</l>
+                <l n="l29">Matthiam divum scelerisque purum</l>
+                <l n="l30">Vera dicentem populus nefandus</l>
+                <l n="l31">Enecat, qui nunc fruitur polorum</l>
+                <l n="l32">Sede beata.</l>
             </div>
             <div n="div16" type="poesis-ode" met="sapphicum">
-                <head n="head1">DE DIVO MATTHIA</head>
-                <l n="l2">Ad viam vitae simul et salutis</l>
-                <l n="l3">Proditor Iudas fuerat vocatus,</l>
-                <l n="l4">Perditum calcans iter et prophanum</l>
-                <l n="l5">Sed ruit aeger.</l>
-                <l n="l6">Vendidit nummo dominum polorum,</l>
-                <l n="l7">Filium patris solio sedentis</l>
-                <l n="l8">Aureo caeli, laqueoque fregit</l>
-                <l n="l9">Guttur iniquum.</l>
-                <l n="l10">Matthias missi meruit tribunal</l>
-                <l n="l11">Sorte divina, numerandus ipse</l>
-                <l n="l12">Milites inter domini probatos</l>
-                <l n="l13">Aegregiosque.</l>
-                <l n="l14">Fecerat Iudam reprobum voluntas</l>
-                <l n="l15">Prava, quam numquam dominum secutus</l>
-                <l n="l16">Liquerat, furti loculos habebat</l>
-                <l n="l17">Proditor atrox.</l>
-                <l n="l18">Matthiam fecit domini secutum</l>
-                <l n="l19">Dona perfelix animus probatum,</l>
-                <l n="l20">Lampadem vitae meruit videre</l>
-                <l n="l21">Mortis in umbra.</l>
-                <pb n="pb22"/>
-                <l n="l23">Nunciat Verbum, peperit quod alma</l>
-                <l n="l24">Virginum virgo sine fine felix,</l>
-                <l n="l25">Totius mundi specimen, perennis</l>
-                <l n="l26">Gloria caeli.</l>
-                <l n="l27">Nunciat Verbum, cruce quod pependit,</l>
-                <l n="l28">Morte sub cuius trepidasse terra</l>
-                <l n="l29">Creditur, pullo pariter colore</l>
-                <l n="l30">Astra steterunt.</l>
-                <l n="l31">Matthiam divum scelerisque purum</l>
-                <l n="l32">Vera dicentem populus nefandus</l>
-                <l n="l33">Enecat, qui nunc fruitur polorum</l>
-                <l n="l34">Sede beata.</l>
-            </div>
-            <div n="div17" type="poesis-ode" met="sapphicum">
                 <head n="head1">DE INFENSO TRIUMPHUS</head>
-                <l n="l2">Semper armato tibi pugna grandis,</l>
-                <l n="l3">Semper armato furiis Averni,</l>
-                <l n="l4">Non tuae mensae pariterque spondae</l>
-                <l n="l5">Vita quiescit.</l>
-                <l n="l6">Verba mortales veluti sagittae,</l>
-                <l n="l7">Clamor irati veluti leonis</l>
-                <l n="l8">Et minae dirum veluti tonantis</l>
-                <l n="l9">Fulgura nubis.</l>
-                <l n="l10">Tu venenosus velut ictus anguis</l>
-                <l n="l11">Tuque crudelis velut hasta Pyrrhi</l>
-                <l n="l12">Tuque culpatus velut ille condam</l>
-                <l n="l13">Verna Canopi.</l>
-                <l n="l14">Scaevior scaevo canis ipse morsu,</l>
-                <l n="l15">Durior duro <sic n="sic1">scilicis</sic> lapillo,</l>
-                <l n="l16">Nigrior nigro pariterque corvo</l>
-                <l n="l17">Est tibi bilis.</l>
-                <l n="l18">Alter infelix rabie Iugurtha,</l>
-                <l n="l19">Alter effuso Marius cruore,</l>
-                <l n="l20">Alter occultis Cathilina curis</l>
-                <l n="l21">Natus in aevo.</l>
-                <l n="l22">Quid taces nostro minitans theatro?</l>
-                <l n="l23">Quid tonas nostram lacerans Camoenam?</l>
-                <l n="l24">Quid furis nostras capiens volucres</l>
-                <l n="l25">Plenus aceto?</l>
-                <pb n="pb26"/>
-                <l n="l27">Est tibi gressus meditantis atra.</l>
-                <l n="l28">Est tibi gestus rapientis alta</l>
-                <l n="l29">Est tibi sermo domitantis alma</l>
-                <l n="l30">Atque prophana</l>
-                <l n="l31">Saepius, vates, tua tella sensi,</l>
-                <l n="l32">Gloriam de me, maledicte, haberes</l>
-                <l n="l33">Mente durata nisi te tulissem</l>
-                <l n="l34">Ipse triumphans.</l>
+                <l n="l1">Semper armato tibi pugna grandis,</l>
+                <l n="l2">Semper armato furiis Averni,</l>
+                <l n="l3">Non tuae mensae pariterque spondae</l>
+                <l n="l4">Vita quiescit.</l>
+                <l n="l5">Verba mortales veluti sagittae,</l>
+                <l n="l6">Clamor irati veluti leonis</l>
+                <l n="l7">Et minae dirum veluti tonantis</l>
+                <l n="l8">Fulgura nubis.</l>
+                <l n="l9">Tu venenosus velut ictus anguis</l>
+                <l n="l10">Tuque crudelis velut hasta Pyrrhi</l>
+                <l n="l11">Tuque culpatus velut ille condam</l>
+                <l n="l12">Verna Canopi.</l>
+                <l n="l13">Scaevior scaevo canis ipse morsu,</l>
+                <l n="l14">Durior duro <sic n="sic1">scilicis</sic> lapillo,</l>
+                <l n="l15">Nigrior nigro pariterque corvo</l>
+                <l n="l16">Est tibi bilis.</l>
+                <l n="l17">Alter infelix rabie Iugurtha,</l>
+                <l n="l18">Alter effuso Marius cruore,</l>
+                <l n="l19">Alter occultis Cathilina curis</l>
+                <l n="l20">Natus in aevo.</l>
+                <l n="l21">Quid taces nostro minitans theatro?</l>
+                <l n="l22">Quid tonas nostram lacerans Camoenam?</l>
+                <l n="l23">Quid furis nostras capiens volucres</l>
+                <l n="l24">Plenus aceto?</l>
+                <pb n="pb1"/>
+                <l n="l25">Est tibi gressus meditantis atra.</l>
+                <l n="l26">Est tibi gestus rapientis alta</l>
+                <l n="l27">Est tibi sermo domitantis alma</l>
+                <l n="l28">Atque prophana</l>
+                <l n="l29">Saepius, vates, tua tella sensi,</l>
+                <l n="l30">Gloriam de me, maledicte, haberes</l>
+                <l n="l31">Mente durata nisi te tulissem</l>
+                <l n="l32">Ipse triumphans.</l>
             </div>
         </body>
-        <back xml:lang="lat" n="back4">
+        <back xml:lang="lat" n="back1">
             <div n="div1" type="prosa-epilogus">
                 <head n="head1">EPYLOGUS</head>
-                <p n="p2">Motus amplissimi tui nominis celebritate haec ad te, praetor magnifice, et
+                <p n="p1">Motus amplissimi tui nominis celebritate haec ad te, praetor magnifice, et
                     scribere et tibi decantare constitui. Quae si tuae dignationi, ut spero,
                     placuisse sensero, ad alia conscribenda et promptior reddar et alacrior.
                     Caeterum oda, quam in calce bile oppletam exaravi, respondet singulariter
                     emulorum maledictis, de quibus etiam divus Hieronymus sparsim per omnia eius
                     quidem opera conqueritur et Terentius noster in prologis comoediarum. <quote n="quote1">
                         <bibl n="bibl1">Nam ut ingeniosus poeta Naso cecinit in suis Amoribus:</bibl>
-                        <q n="q2">
+                        <q n="q1">
                             <l n="l1">Pascitur in vivis livor, post fata quiescit,</l>
                             <l n="l2">quom suus ex merito quemque tuetur honos.</l>
                         </q>
                     </quote>
                     <quote n="quote2">
                         <bibl n="bibl1">Tunc illud Horatii merito dici poterit:</bibl>
-                        <q n="q2">Exegi monimentum aere perennius</q>
+                        <q n="q1">Exegi monimentum aere perennius</q>
                     </quote>
                     <quote n="quote3">
                         <bibl n="bibl1">et apud Virgilium:</bibl>
-                        <q n="q2">Capitoli immobile saxum,</q>
+                        <q n="q1">Capitoli immobile saxum,</q>
                     </quote>
                     <quote n="quote4">
                         <bibl n="bibl1">et vir prudens apud Senecam:</bibl>
-                        <q n="q2">Quamcumque fortunam acceperit, aliquid ex illa memoriale efficiet.</q>
+                        <q n="q1">Quamcumque fortunam acceperit, aliquid ex illa memoriale efficiet.</q>
                     </quote>
             </p>
-                <closer n="closer3">
+                <closer n="closer1">
                     <salute n="salute1">Tua iterum feliciter valeat humanitas, cui me etiam atque etiam facio
                         commendatum.</salute>
-                    <dateline n="dateline2">Ex aedibus nostris Sibenici <date n="date1" when="1487-01-02">anno salutis 1487,
+                    <dateline n="dateline1">Ex aedibus nostris Sibenici <date n="date1" when="1487-01-02">anno salutis 1487,
                             IIIIo Nonas Ianuarias.</date>
                </dateline>
                 </closer>
             </div>
-            <closer n="closer2">
+            <closer n="closer1">
                 <foreign n="foreign1" xml:lang="grc">τέλος</foreign>
             </closer>
         </back>

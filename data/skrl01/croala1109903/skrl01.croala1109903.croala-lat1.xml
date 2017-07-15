@@ -47,61 +47,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="emph" occurs="7"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="12"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -196,43 +142,43 @@
       <front xml:lang="lat" n="front1">
          <head n="head1">10. Jakovlye, 4. Augusti 1798.</head>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistula">
             <opener n="opener1">
     
                <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="p2"> Non tui oblivione factum est quod in postremis meis nullam promissae
+            <p n="p1"> Non tui oblivione factum est quod in postremis meis nullam promissae
     lucubrationis mentionem iniecerim, sed quia puduit me quod datam fidem tam diu non expleverim.
      Impediverunt id variae, partim sanitatis, partim domesticae circumstantiae,
     quas hic recensere nihil interest, effeceruntque quod non nisi ante paucos dies operi manum
     admoverim.  <emph n="emph1">Si, ut olim, pomeridianis etiam et vespertinis horis
      laborare possem, absolverem illam intra paucos dies.</emph>  
                <emph n="emph2">Nunc, cum
-      mane tantum mihi liceat laborare</emph> ,<note n="note3" place="foot">
+      mane tantum mihi liceat laborare</emph> ,<note n="note1" place="foot">
                   <p n="p1">10,3-4 Si... laborare] <emph n="emph1">Notata in MS-to | </emph> eripiat] eripeat</p>
                </note> adeoque, si quae alia occupatio tempus hoc mihi eripiat, tota illa dies perdita sit,
     non possum praevidere tempus quo laborem absolvam.  Accelerabo tamen illum
-    quoad potero.  Ut moram quadamtenus compensem,<emph n="emph4"> praemitto unum
+    quoad potero.  Ut moram quadamtenus compensem,<emph n="emph3"> praemitto unum
      statisticum punctum de quo publicum rite</emph>
     
-               <pb n="pb5"/>
+               <pb n="pb1"/>
     
-               <emph n="emph6">informari</emph>
-               <emph n="emph7">
+               <emph n="emph4">informari</emph>
+               <emph n="emph5">
                   <note n="note1" place="foot">
                      <p n="p1">10,6 praemitto... informari] <emph n="emph1">Notata in MS-to</emph>
                      </p>
                   </note>
                </emph> moderni praesertim temporis ratio exposcit et quod authori gratum futurum spero.</p>
-            <p n="p3"> Dum rem Milossii agis, Patriae inservis.  Commoda huic
+            <p n="p2"> Dum rem Milossii agis, Patriae inservis.  Commoda huic
     porro etiam tuam operam.  Satis consequeremur si vel Millos hac occasione ad
     Septemviratum provehi posset.  De alio Croata ad Tabulam regiam promovendo
     alia occasione agi posset.  Quamquam non possim combinare ea, quae de
     supernumerariis scribis, cum iam sub hoc regnante duo novi supernumerarii creati sint, adeoque
     nihil mihi videatur obstare quominus etiam in casum promotionis Milossii aliquis gentilis
     noster supernumerarius renuntietur.</p>
-            <p n="p4"> De confecta cum Gallis pace iam plures etiam alii credibiles nuntios
+            <p n="p3"> De confecta cum Gallis pace iam plures etiam alii credibiles nuntios
     acceperunt.  Immo iam condiciones eius sparguntur.  Ego
     tamen non possum id combinare cum continua et severa transportandi in Italiam frumenti
     adursione.  Ut benignae menti satisfiat, comitatus meus vires suas adeo
@@ -244,12 +190,12 @@
      Peribunt certe etiam complura animalia, de horum autem indemnizatione
     nullam hactenus assecurationem habemus.  Ni id fiat, redigentur ad incitas
     animalium illorum posessores, id autem incassationem contributionis difficilem efficiet.</p>
-            <p n="p5"> Amade in investigatione strenue procedit.  Vellet illam
+            <p n="p4"> Amade in investigatione strenue procedit.  Vellet illam
     terminare ante 20. huius; pro hac enim die congregationem comitatui suo praefixit.
      Cum tamen aliqui testes remoti habitent, nescio an eos interea arcessere
     poterit.  Hic quoque instantiam Millossii per suos canales secundavit, id
     quod auget spem meam de optato successu.</p>
-            <p n="p6"> Ego illum necdum vidi quia per hoc tempus urbem non intravi.
+            <p n="p5"> Ego illum necdum vidi quia per hoc tempus urbem non intravi.
      Promisit ille quidem quod, ut primum laborem terminaverit, ad me excurrere
     velit, sed hunc ille usque 14-tam huius vix concludet; ego autem illa die Zagrabiam intrabo
     quia pro 17-ma congregationem praefixi.  Quae de tuis hominibus incaptivatis
@@ -262,7 +208,7 @@
     idem quod tu exemptionis privilegium sibi arrogat, et tamen, dum comitatus protervos
     Sancto-Simonenses capi et puniri fecit, nec se movit nec per id iura sua laesa esse
     existimavit.</p>
-            <p n="p7"> Patere ut pro iure amicitiae, quae inter nos viget, coniecturam meam tibi
+            <p n="p6"> Patere ut pro iure amicitiae, quae inter nos viget, coniecturam meam tibi
     ingenue aperiam.  Invalescit in dies magis opinio illa publici quod aliqui e
     tuis officialibus concitent Colapianos tuos subditos ne se contributioni submittant.
      Si qui eorum hac de causa intercepti sunt, gravis suspicio mihi suboritur
@@ -271,14 +217,14 @@
     quod comitatus tibi deferre non possit, immo quod ad eius officium pertineat authorem culposae
     huius machinationis detegere et promeritae poenae subicere.  Ut primum urbem
     intravero, investigabo fundate totum hoc negotium et, quod iustum fuerit, disponam.</p>
-            <p n="p8"> Significa quaeso mihi quam habes de reditu tuo prospectivam. </p>
-            <closer n="closer9">
+            <p n="p7"> Significa quaeso mihi quam habes de reditu tuo prospectivam. </p>
+            <closer n="closer1">
                <salute n="salute1"> Vale meque ut facis ama.</salute>
-               <dateline n="dateline2">Jakovlye, 4. Augusti 1798.</dateline>
+               <dateline n="dateline1">Jakovlye, 4. Augusti 1798.</dateline>
             </closer>
          </div>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="notes">
             <p n="p1">
                <bibl n="bibl1">(NAZ, EAE, vol. 115, nr. 52.)</bibl>

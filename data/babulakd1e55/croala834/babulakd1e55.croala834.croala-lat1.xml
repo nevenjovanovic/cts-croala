@@ -51,68 +51,7 @@
                <p>This pointer pattern extracts line</p>
             </cRefPattern>
          </refsDecl>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="cRefPattern" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="cit" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="docImprint" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="epigraph" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="130"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="7"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="quote" occurs="2"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="refsDecl" occurs="1"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="signed" occurs="3"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="55"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -175,22 +114,22 @@
    <text xml:base="urn:cts:croala:babulakd1e55.croala834.croala-lat1:" xml:lang="lat">
       <front xml:lang="lat" n="front1">
          <pb n="pb1"/>
-         <titlePage n="titlePage2">
+         <titlePage n="titlePage1">
             <titlePart n="titlePart1">Ode honoribus <abbr n="abbr1">a. r. p.</abbr> Josephi Matzek,</titlePart>
             <titlePart n="titlePart2">
                <abbr n="abbr1">ss.</abbr> theologiae, ac iuris ecclesiastici licentiati, eiusdemque lectoris emeriti; ex-ministri provincialis immediati, ord. min. s. p. Francisci obs. provinciae s. Ioannis de Capistrano, dum solemnem onomaseos diem recoluisset, in perenne gratitudinis pignus XIV kal. Aprilis a. MDCCCXXXIV devote Sacrata.</titlePart>
-            <docImprint n="docImprint3">
+            <docImprint n="docImprint1">
                <pubPlace n="pubPlace1">ESSEKINI</pubPlace>
-               <publisher n="publisher2">Typis M.A. Divald, C.R. Typographi 1834.</publisher>
+               <publisher n="publisher1">Typis M.A. Divald, C.R. Typographi 1834.</publisher>
             </docImprint>
          </titlePage>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          
          
          <div n="div1" type="poesis-ode" met="sapphicum">
             <pb n="pb1"/>
-            <epigraph n="epigraph2">
+            <epigraph n="epigraph1">
                <cit n="cit1">
                   <quote n="quote1">
                      <l n="l1"> Hic Dies vere mihi festus atras </l>
@@ -198,7 +137,7 @@
                      <l n="l2"> Eximet curas, - - - - </l>
              
                   </quote>
-                  <bibl n="bibl2">
+                  <bibl n="bibl1">
                      Horat. Lib. <num n="num1" value="3">III</num> Ode 14
                   </bibl>
                </cit>
@@ -213,264 +152,264 @@
                      <l n="l4"> Luna minores </l>
              
                   </quote>
-                  <bibl n="bibl2"> Idem Lib. I. Od. 12 </bibl>
+                  <bibl n="bibl1"> Idem Lib. I. Od. 12 </bibl>
                </cit>
             </epigraph>
             
+            <pb n="pb2"/>
+            <l n="l1">Cur leves nervos Erato canora</l>
+             
+            <l n="l2">Non levas dulci modulamne? Compta</l>
+             
+            <l n="l3">Tinnulis cur non resonas Thalia</l>
+             
+            <l n="l4">	Carmina plectris?</l>
+             
+            <l n="l5">Grata cur concors Heliconis almi</l>
+             
+            <l n="l6">Non cohors vocum sonat arte, blande</l>
+             
+            <l n="l7">Fessa concentu suavi, lyraque 	</l>
+             
+            <l n="l8">	Pectora mulcens?</l>
+             
+            <l n="l9">Ecce quam puro, nitidoque late</l>
+             
+            <l n="l10">Phoebus ex altis rutilans Olympi</l>
+             
+            <l n="l11">Montibus vultu, recreat calore</l>
+             
+            <l n="l12">	Gramina campi.</l>
+             
+            <l n="l13">Ipse pennati variis decorus</l>
+             
+            <l n="l14">Floribus, circa redolens odore,</l>
+             
+            <l n="l15">Et thymo molli, reseratus ungve</l>
+             
+            <l n="l16">	Gorgoneus fons.</l>
+             
+            <l n="l17">Cuncta quam miti Regio fugacis</l>
+             
+            <l n="l18">Brumae deformis sequitur virore</l>
+             
+            <l n="l19">Turbidam certo faciem, polique</l>
+             
+            <l n="l20">	Frigora saeva </l>
+             
+            <l n="l21">Bruma discessit, decus omne ruri</l>
+             
+            <l n="l22">Florifer fundit Zephyrus, recludens</l>
+             
+            <l n="l23">Montibus duris Scythiae minantis</l>
+             
+            <l n="l24">	Frigora Cauri.</l>
+             
+            <l n="l25">Orbis est totus viridi myrica</l>
+             
+            <l n="l26">Leniter tectus, foliisque Buxi,</l>
+             
+            <l n="l27">Rosmari, lauroque, nigraque myrto</l>
+             
+            <l n="l28">	Floret amoene;</l>
+             
+            <l n="l29">Fontis haud ultra facies maligni</l>
+             
+            <l n="l30">Cernitur stringi Boreae pruina, </l>
+             
+            <l n="l31">Solvitur segnis, refluente vento</l>
+             
+            <l n="l32">	Crusta Favonî.</l>
+             
+            <l n="l33">Aureus mittit radios per arva,</l>
+             
+            <l n="l34">Floribus cedens nemori decorem,</l>
+             
+            <l n="l35">Fronde foecunda iuga montis ornat</l>
+             
+            <l n="l36">	Phoebus Olympo.</l>
+             
+            <l n="l37">Svave dum promit Philomela vocis </l>
+             
+            <l n="l38">Carmen argutum modulando pendens</l>
+             
+            <l n="l39">Gutturis chorda viridi sub umbra</l>
+             
+            <l n="l40">	Nuncia Veris. </l>
+             
+            <l n="l41">Cuncta sic plaudunt, revirente toto</l>
+             
+            <l n="l42">Orbe natura redeunte Vere, </l>
+             
+            <l n="l43">Signa dum Titan calidus recenter</l>
+             
+            <l n="l44">	Arjetis intrat.</l>
+             
             <pb n="pb3"/>
-            <l n="l4">Cur leves nervos Erato canora</l>
+            <l n="l45">Ergo cur sacri tacitus, Camoenae!</l>
              
-            <l n="l5">Non levas dulci modulamne? Compta</l>
+            <l n="l46">Sic chorus Pindi maneat? novenae</l>
              
-            <l n="l6">Tinnulis cur non resonas Thalia</l>
+            <l n="l47">Celsa cur magnum modulamne non dant</l>
              
-            <l n="l7">	Carmina plectris?</l>
+            <l n="l48">	Carmen ad Astra?</l>
              
-            <l n="l8">Grata cur concors Heliconis almi</l>
+            <l n="l49">Vos latet, quantis deceat nitere</l>
              
-            <l n="l9">Non cohors vocum sonat arte, blande</l>
+            <l n="l50">Plausibus primam redeuntis Anni</l>
              
-            <l n="l10">Fessa concentu suavi, lyraque 	</l>
+            <l n="l51">Floridam lucem, rutilante stella</l>
              
-            <l n="l11">	Pectora mulcens?</l>
+            <l n="l52">	Suavis Eois?</l>
              
-            <l n="l12">Ecce quam puro, nitidoque late</l>
+            <l n="l53">Sacra JOSEPHI celebrantur isthic,</l>
              
-            <l n="l13">Phoebus ex altis rutilans Olympi</l>
+            <l n="l54">Sacra, dum dico, recoluntur almi, </l>
              
-            <l n="l14">Montibus vultu, recreat calore</l>
+            <l n="l55">Concinunt, laetosque dies celebrant</l>
              
-            <l n="l15">	Gramina campi.</l>
+            <l n="l56">	Tempora verna.</l>
              
-            <l n="l16">Ipse pennati variis decorus</l>
+            <l n="l57">Ergo vocalem cytharam canendo</l>
              
-            <l n="l17">Floribus, circa redolens odore,</l>
+            <l n="l58">Turba Musarum propera levare, </l>
              
-            <l n="l18">Et thymo molli, reseratus ungve</l>
+            <l n="l59">Dulcibus mulcens animos, fugansque</l>
              
-            <l n="l19">	Gorgoneus fons.</l>
+            <l n="l60">	Tetrica corda.</l>
              
-            <l n="l20">Cuncta quam miti Regio fugacis</l>
+            <l n="l61">Docta JOSEPHO celebra Thalia</l>
              
-            <l n="l21">Brumae deformis sequitur virore</l>
+            <l n="l62">Svave concentu melos, atque carmen</l>
              
-            <l n="l22">Turbidam certo faciem, polique</l>
+            <l n="l63">Dulce curarum relevamen adde</l>
              
-            <l n="l23">	Frigora saeva </l>
+            <l n="l64">	Comica Clio. </l>
              
-            <l n="l24">Bruma discessit, decus omne ruri</l>
+            <l n="l65">Grata panduris resonemus omnes</l>
              
-            <l n="l25">Florifer fundit Zephyrus, recludens</l>
+            <l n="l66">Festa JOSEPHI, celebremus Eius</l>
              
-            <l n="l26">Montibus duris Scythiae minantis</l>
+            <l n="l67">Nominis laudem, redolendo thura</l>
              
-            <l n="l27">	Frigora Cauri.</l>
+            <l n="l68">	Pectoris igne.</l>
              
-            <l n="l28">Orbis est totus viridi myrica</l>
+            <pb n="pb4"/>
+            <l n="l69">Poculis Phoebi, cyathisque fundam</l>
              
-            <l n="l29">Leniter tectus, foliisque Buxi,</l>
+            <l n="l70">Hoc die pinguis Syrii liquorem,</l>
              
-            <l n="l30">Rosmari, lauroque, nigraque myrto</l>
+            <l n="l71">Palladis munus viridis litabo, </l>
              
-            <l n="l31">	Floret amoene;</l>
+            <l n="l72">	Suscipe JOSEPH.</l>
              
-            <l n="l32">Fontis haud ultra facies maligni</l>
+            <l n="l73">Celsa sic vincam pietate corda</l>
              
-            <l n="l33">Cernitur stringi Boreae pruina, </l>
+            <l n="l74">Numinis, longam tribuat Senectam</l>
              
-            <l n="l34">Solvitur segnis, refluente vento</l>
+            <l n="l75">Ut Tibi clemens benignusque servet</l>
              
-            <l n="l35">	Crusta Favonî.</l>
+            <l n="l76">	Nomen in aevum,</l>
              
-            <l n="l36">Aureus mittit radios per arva,</l>
+            <l n="l77">Quod lyra Vatum celebrare nullus</l>
              
-            <l n="l37">Floribus cedens nemori decorem,</l>
+            <l n="l78">Sat potest, multo minus ipse vilis</l>
              
-            <l n="l38">Fronde foecunda iuga montis ornat</l>
+            <l n="l79">Facta condigne memorare Vates</l>
              
-            <l n="l39">	Phoebus Olympo.</l>
+            <l n="l80">	In mea vota.</l>
              
-            <l n="l40">Svave dum promit Philomela vocis </l>
+            <l n="l81">Grata carpendo thyma per molestos</l>
              
-            <l n="l41">Carmen argutum modulando pendens</l>
+            <l n="l82">Collis <sic n="sic1">exelsi</sic> frutices, nemusque </l>
              
-            <l n="l42">Gutturis chorda viridi sub umbra</l>
+            <l n="l83">Nobilis Pindi peragrans, diserta</l>
              
-            <l n="l43">	Nuncia Veris. </l>
+            <l n="l84">	Carmina fingo; </l>
              
-            <l n="l44">Cuncta sic plaudunt, revirente toto</l>
+            <l n="l85">Attamen, quamvis minimus, benigne</l>
              
-            <l n="l45">Orbe natura redeunte Vere, </l>
+            <l n="l86">Sume, quod penna tenui lubenter</l>
              
-            <l n="l46">Signa dum Titan calidus recenter</l>
+            <l n="l87">Offero Magno, redeunte primo</l>
              
-            <l n="l47">	Arjetis intrat.</l>
+            <l n="l88">	Sidere Veris.</l>
              
-            <pb n="pb48"/>
-            <l n="l49">Ergo cur sacri tacitus, Camoenae!</l>
+            <l n="l89">Cordis hoc fiat super impetrato</l>
              
-            <l n="l50">Sic chorus Pindi maneat? novenae</l>
+            <l n="l90">Unicum Voto meritum decoris,</l>
              
-            <l n="l51">Celsa cur magnum modulamne non dant</l>
+            <l n="l91">Grata si praestem sacra Dithyrambis</l>
              
-            <l n="l52">	Carmen ad Astra?</l>
+            <l n="l92">	Lege solutis.</l>
              
-            <l n="l53">Vos latet, quantis deceat nitere</l>
+            <pb n="pb5"/>
+            <l n="l93">Tu Pater vere bone! qui Minorum</l>
              
-            <l n="l54">Plausibus primam redeuntis Anni</l>
+            <l n="l94">Ordinis vitam merito salubri</l>
              
-            <l n="l55">Floridam lucem, rutilante stella</l>
+            <l n="l95">Ducis exemplo, reliquis ut esses</l>
              
-            <l n="l56">	Suavis Eois?</l>
+            <l n="l96">	Norma fidelis;</l>
              
-            <l n="l57">Sacra JOSEPHI celebrantur isthic,</l>
+            <l n="l97">Nam Tibi Fratrum fuerat trienne</l>
              
-            <l n="l58">Sacra, dum dico, recoluntur almi, </l>
+            <l n="l98">Creditum nuper moderamen omne,</l>
              
-            <l n="l59">Concinunt, laetosque dies celebrant</l>
+            <l n="l99">Ne procellarum tumidis pericla</l>
              
-            <l n="l60">	Tempora verna.</l>
+            <l n="l100">	Sentiat undis,</l>
              
-            <l n="l61">Ergo vocalem cytharam canendo</l>
+            <l n="l101">Impiger semper fragilem carinam</l>
              
-            <l n="l62">Turba Musarum propera levare, </l>
+            <l n="l102">Ut Pater verus merito regebas,</l>
              
-            <l n="l63">Dulcibus mulcens animos, fugansque</l>
+            <l n="l103">Optimo cunctos pabulo salutis</l>
              
-            <l n="l64">	Tetrica corda.</l>
+            <l n="l104">	Mitis alebas. </l>
              
-            <l n="l65">Docta JOSEPHO celebra Thalia</l>
+            <l n="l105">Ergo quae tantis meritis referre</l>
              
-            <l n="l66">Svave concentu melos, atque carmen</l>
+            <l n="l106">Magna condignis potero decenter?</l>
              
-            <l n="l67">Dulce curarum relevamen adde</l>
+            <l n="l107">Intimos pandam pietatis ignes</l>
              
-            <l n="l68">	Comica Clio. </l>
+            <l n="l108">	Proemia cordis:</l>
              
-            <l n="l69">Grata panduris resonemus omnes</l>
+            <l n="l109">Hinc decem ductas decies Calendas,</l>
              
-            <l n="l70">Festa JOSEPHI, celebremus Eius</l>
+            <l n="l110">Fronte curvatos superes figuram</l>
              
-            <l n="l71">Nominis laudem, redolendo thura</l>
+            <l n="l111">Bis decem Lunae referentis ignes</l>
              
-            <l n="l72">	Pectoris igne.</l>
+            <l n="l112">	Sorte beatus.</l>
              
-            <pb n="pb73"/>
-            <l n="l74">Poculis Phoebi, cyathisque fundam</l>
+            <l n="l113">Magna Te virtus, Pietasque vera,</l>
              
-            <l n="l75">Hoc die pinguis Syrii liquorem,</l>
+            <l n="l114">Charitas Vivax, animosus ardor</l>
              
-            <l n="l76">Palladis munus viridis litabo, </l>
+            <l n="l115">Igneas Coeli penetrare sedes</l>
              
-            <l n="l77">	Suscipe JOSEPH.</l>
+            <l n="l116">	Adjuvet almum.</l>
              
-            <l n="l78">Celsa sic vincam pietate corda</l>
+            <pb n="pb6"/>
+            <l n="l117">Hoc Phalanx certo resonat Minorum</l>
              
-            <l n="l79">Numinis, longam tribuat Senectam</l>
+            <l n="l118">Ut Patri charo, redolere thura</l>
              
-            <l n="l80">Ut Tibi clemens benignusque servet</l>
+            <l n="l119">In foco cordis satagit, sacrando</l>
              
-            <l n="l81">	Nomen in aevum,</l>
+            <l n="l120">	Festa Patroni:</l>
              
-            <l n="l82">Quod lyra Vatum celebrare nullus</l>
+            <l n="l121">Hoc precor Magno minimus novellus</l>
              
-            <l n="l83">Sat potest, multo minus ipse vilis</l>
+            <l n="l122">Corde de puro, reliqua modeste</l>
              
-            <l n="l84">Facta condigne memorare Vates</l>
+            <l n="l123">Palladis doctae comitante Turba, </l>
              
-            <l n="l85">	In mea vota.</l>
+            <l n="l124">	Vivito prosper. </l>
              
-            <l n="l86">Grata carpendo thyma per molestos</l>
-             
-            <l n="l87">Collis <sic n="sic1">exelsi</sic> frutices, nemusque </l>
-             
-            <l n="l88">Nobilis Pindi peragrans, diserta</l>
-             
-            <l n="l89">	Carmina fingo; </l>
-             
-            <l n="l90">Attamen, quamvis minimus, benigne</l>
-             
-            <l n="l91">Sume, quod penna tenui lubenter</l>
-             
-            <l n="l92">Offero Magno, redeunte primo</l>
-             
-            <l n="l93">	Sidere Veris.</l>
-             
-            <l n="l94">Cordis hoc fiat super impetrato</l>
-             
-            <l n="l95">Unicum Voto meritum decoris,</l>
-             
-            <l n="l96">Grata si praestem sacra Dithyrambis</l>
-             
-            <l n="l97">	Lege solutis.</l>
-             
-            <pb n="pb98"/>
-            <l n="l99">Tu Pater vere bone! qui Minorum</l>
-             
-            <l n="l100">Ordinis vitam merito salubri</l>
-             
-            <l n="l101">Ducis exemplo, reliquis ut esses</l>
-             
-            <l n="l102">	Norma fidelis;</l>
-             
-            <l n="l103">Nam Tibi Fratrum fuerat trienne</l>
-             
-            <l n="l104">Creditum nuper moderamen omne,</l>
-             
-            <l n="l105">Ne procellarum tumidis pericla</l>
-             
-            <l n="l106">	Sentiat undis,</l>
-             
-            <l n="l107">Impiger semper fragilem carinam</l>
-             
-            <l n="l108">Ut Pater verus merito regebas,</l>
-             
-            <l n="l109">Optimo cunctos pabulo salutis</l>
-             
-            <l n="l110">	Mitis alebas. </l>
-             
-            <l n="l111">Ergo quae tantis meritis referre</l>
-             
-            <l n="l112">Magna condignis potero decenter?</l>
-             
-            <l n="l113">Intimos pandam pietatis ignes</l>
-             
-            <l n="l114">	Proemia cordis:</l>
-             
-            <l n="l115">Hinc decem ductas decies Calendas,</l>
-             
-            <l n="l116">Fronte curvatos superes figuram</l>
-             
-            <l n="l117">Bis decem Lunae referentis ignes</l>
-             
-            <l n="l118">	Sorte beatus.</l>
-             
-            <l n="l119">Magna Te virtus, Pietasque vera,</l>
-             
-            <l n="l120">Charitas Vivax, animosus ardor</l>
-             
-            <l n="l121">Igneas Coeli penetrare sedes</l>
-             
-            <l n="l122">	Adjuvet almum.</l>
-             
-            <pb n="pb123"/>
-            <l n="l124">Hoc Phalanx certo resonat Minorum</l>
-             
-            <l n="l125">Ut Patri charo, redolere thura</l>
-             
-            <l n="l126">In foco cordis satagit, sacrando</l>
-             
-            <l n="l127">	Festa Patroni:</l>
-             
-            <l n="l128">Hoc precor Magno minimus novellus</l>
-             
-            <l n="l129">Corde de puro, reliqua modeste</l>
-             
-            <l n="l130">Palladis doctae comitante Turba, </l>
-             
-            <l n="l131">	Vivito prosper. </l>
-             
-            <closer n="closer132">
+            <closer n="closer1">
                <signed n="signed1">P. Otto Babulák</signed>
                <signed n="signed2">In reg. Gymn. Essekinensi</signed>
                <signed n="signed3">II. Hum. Prof.</signed>

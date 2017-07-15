@@ -47,63 +47,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="2"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="3"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="emph" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="49"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -195,31 +139,31 @@
       <front xml:lang="lat" n="front1">
          <head n="head1">3. Jakovlye, 9. Septembris 1794. </head>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistula">
             <opener n="opener1">
     
                <salute n="salute1">Excellentissime et Illustrissime Domine Episcope mihi singulariter colendissime.</salute>
             </opener>
-            <p n="p2"> Banalis armorum praefectura expressam in adnexo<note n="note1" place="foot">
+            <p n="p1"> Banalis armorum praefectura expressam in adnexo<note n="note1" place="foot">
                   <p n="p1">2,1 in adnexo] <emph n="emph1">Adnexum deest.</emph>
                   </p>
                </note> ad commissionem incorporatoriam eius insinuato quaerimoniam proponit.
      Ut illa in proxima commissionis sessione meritorie assumi possit, insinuatum
     hoc Excellentiae 
-    <pb n="pb2"/>
+    <pb n="pb1"/>
     Vestrae ea cum officiosa requisitione in originali communicandum duxi ut eadem responsum
     suum penes remissionem originalis proximius submittere haud gravetur.</p>
-            <closer n="closer3">
+            <closer n="closer1">
                <salute n="salute1"> In reliquo iugi cum veneratione persisto </salute>
-               <signed n="signed2">Excellentiae Vestrae humillimus servus Nicolaus Skerlecz, manu propria</signed>
-               <dateline n="dateline3">Jakovlye, 9. Septembris 1794.</dateline>
+               <signed n="signed1">Excellentiae Vestrae humillimus servus Nicolaus Skerlecz, manu propria</signed>
+               <dateline n="dateline1">Jakovlye, 9. Septembris 1794.</dateline>
     
             </closer>
          </div>
    
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1">
             <p n="p1">
                <add n="add1">

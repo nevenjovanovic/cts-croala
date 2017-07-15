@@ -60,78 +60,7 @@
          
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="4"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="7"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="corr" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="10"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="docImprint" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="9"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="7"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="mentioned" occurs="1"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="name" occurs="11"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="6"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="180"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="55"/>
-          <tagUsage gi="persName" occurs="23" withId="1"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="2"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="2"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="12" withId="1"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="72"/>
-          <tagUsage gi="signed" occurs="3"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="173"/>
-          <tagUsage gi="speaker" occurs="173"/>
-          <tagUsage gi="tagUsage" occurs="64"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -203,28 +132,28 @@
  et brevi ac facili dialogica methodo 
 in lucem expositum opera ac studio
 </titlePart>
-            <docAuthor n="docAuthor2">Admodum Reverendissimi
+            <docAuthor n="docAuthor1">Admodum Reverendissimi
          Domini Michaelis Sillobod,
          parochi in Martinszka Vesz.</docAuthor>
-            <docImprint n="docImprint3">
+            <docImprint n="docImprint1">
                <pubPlace n="pubPlace1">Zagrabiae,</pubPlace>
-               <publisher n="publisher2">
+               <publisher n="publisher1">
             Typis Cajetani Francisci Härl,
             Inclyti Regni Croatiae Typographi, 
          </publisher>
-               <date n="date3" when="1760">1760.</date>
+               <date n="date1" when="1760">1760.</date>
             </docImprint>
          </titlePage>
       
-         <pb n="pb2"/>
-         <div n="div3" type="prosa-censura">
+         <pb n="pb1"/>
+         <div n="div1" type="prosa-censura">
             <opener n="opener1">MDCCLIX. XXII. Augusti</opener>
          
-            <p n="p2">Reverendissimus dominus cathedralis ecclesiae Zagrabiensis canonicus 
+            <p n="p1">Reverendissimus dominus cathedralis ecclesiae Zagrabiensis canonicus 
          decanus <persName n="persName1">Georgius Bisztriczey</persName>, praesens opus revideat ac suam 
-         <sic n="sic2">superinde</sic> censuram apponat.</p>
+         <sic n="sic1">superinde</sic> censuram apponat.</p>
          
-            <closer n="closer3">
+            <closer n="closer1">
                <signed n="signed1">
                   <persName n="persName1">Georgius Rees</persName>, 
          
@@ -236,17 +165,17 @@ in lucem expositum opera ac studio
             </closer>
          </div>
          
-         <pb n="pb4"/>
-         <div n="div5" type="prosa-titulus">
+         <pb n="pb2"/>
+         <div n="div2" type="prosa-titulus">
             <head n="head1">fundamentum cantus gregoriani seu choralis</head>
          </div>
          
-         <pb n="pb6"/>
+         <pb n="pb3"/>
          
-         <div n="div7" type="prosa-censura">
+         <div n="div3" type="prosa-censura">
             <head n="head1">Approbatio censoris</head>
          
-            <p n="p2">Postquam librum, cui titulus: Fundamentum cantus Gregoriani, 
+            <p n="p1">Postquam librum, cui titulus: Fundamentum cantus Gregoriani, 
          seu choralis <abbr n="abbr1">etc.</abbr> perlegissem, ac cum probatis authoribus contulissem, 
          occurrit quod de Platone olim Poëta dixit, dicam ego de libro 
          hoc: Hic unus instar est omnium. Sive enim cantum choralem 
@@ -257,10 +186,10 @@ in lucem expositum opera ac studio
          tyronibus, ad musicum concentum e fundamentis penetrandum 
          aspirantibus, lucis plus afferat.</p> 
          
-            <closer n="closer3">
+            <closer n="closer1">
                <dateline n="dateline1">Zagrabiae, die 4. Septembris, Anno 1759.</dateline>
          
-               <signed n="signed2">
+               <signed n="signed1">
                   <persName n="persName1">Georgius Bisztricey</persName>,
          
          canonicus Zagrabiensis
@@ -272,11 +201,11 @@ in lucem expositum opera ac studio
          </div>
          
          
-         <pb n="pb8"/>
-         <div n="div9" type="prosa-praefatio">
+         <pb n="pb4"/>
+         <div n="div4" type="prosa-praefatio">
             <head n="head1">Praefatio ad lectorem</head>
          
-            <p n="p2">Etsi multi olim fuerint, qui omnem musicae supellectilem copiose 
+            <p n="p1">Etsi multi olim fuerint, qui omnem musicae supellectilem copiose 
          ac erudite, arte et ratione in communem usum traduxissent atque 
          etiam modo sint doctrina et authoritate clarissimi in ecclesiis <sic n="sic1">chorostates</sic>, 
          ad omnem melodiam, ut ait Vergilius, et cantare pares, et 
@@ -301,10 +230,10 @@ in lucem expositum opera ac studio
          cavillare, iudicare audeant, praesumant, etsi fors nec opus 
          
          
-         <pb n="pb4"/>
+         <pb n="pb1"/>
          auctoris viderint. Eiusmodi Zoilos ego quoque, licet minimus, ut 
          evitarem, scripturus, suspensam identidem tenui manum, atque 
-         etiam calamum abieci, abiectum tamen, suffragio gratiosi <sic n="sic5">Moecenatis</sic> 
+         etiam calamum abieci, abiectum tamen, suffragio gratiosi <sic n="sic4">Moecenatis</sic> 
          ac patroni mei resumpsi, qui ex Platone monitum me esse volebat: 
          Nos nobis natos non esse; sed ortus nostri partem patria, partem 
          parentes, partem amici, partem denique posteri sibi vendicent. 
@@ -323,7 +252,7 @@ in lucem expositum opera ac studio
          etiam a vermibus absumpto, cor saltem meum, in animis vestris 
          vivum inventum iri confidam.</p> 
          
-            <signed n="signed3">
+            <signed n="signed1">
                <persName n="persName1">Michael Sillobod</persName>,
          
          parochus</signed>
@@ -332,53 +261,53 @@ in lucem expositum opera ac studio
          </div>
       </front>
    
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
       
          <pb n="pb1"/>
 
 
-         <div type="prosa-dialogus" n="div2">
+         <div type="prosa-dialogus" n="div1">
             <head n="head1">Dialogus I. De authore musices, sive cantus</head>
 
-            <sp n="sp2">
+            <sp n="sp1">
                <speaker n="speaker1">Magister:</speaker>
 
-               <p n="p2">Ad musices artem, artium liberalium antiquissimam, iuxta ac nobilissimam 
+               <p n="p1">Ad musices artem, artium liberalium antiquissimam, iuxta ac nobilissimam 
 peramanter te invito, amantissime discipule!</p>
             </sp>
 
-            <sp n="sp3">
+            <sp n="sp2">
                <speaker n="speaker1">Discipulus:</speaker>
 
-               <p n="p2">Ad ardua me invitas, erudite magister, nisi enim natus sit poeta 
+               <p n="p1">Ad ardua me invitas, erudite magister, nisi enim natus sit poeta 
 et musicus, ei docendi labor frustra impenditur.</p>
             </sp>
 
-            <sp n="sp4">
+            <sp n="sp3">
                <speaker n="speaker1">Magister:</speaker>
 
-               <p n="p2">Nihil arduum abhorreas, ingenue iuvenis. Laboris enim ardui 
+               <p n="p1">Nihil arduum abhorreas, ingenue iuvenis. Laboris enim ardui 
 <sic n="sic1">proemium</sic> virtus est; natura vero arte perficitur.</p>
             </sp>
 
-            <sp n="sp5">
+            <sp n="sp4">
                <speaker n="speaker1">Discipulus:</speaker>
 
-               <p n="p2">Saltem per asperam ac spinosam viam non ducas discipulum 
+               <p n="p1">Saltem per asperam ac spinosam viam non ducas discipulum 
 tuum, suavissime magister!</p>
             </sp>
-            <sp n="sp6">
+            <sp n="sp5">
                <speaker n="speaker1">Magister:</speaker>
 
-               <p n="p2">Neque hoc metuas, boni animi iuvenis; antequam enim provinciam 
+               <p n="p1">Neque hoc metuas, boni animi iuvenis; antequam enim provinciam 
 hanc tractandam suscepissem, scribentem sapienter admonuit 
 Horatius: Quid quid praecipies, esto brevis, facilis et clarus, ut 
 dicta percipiant animi dociles.</p>
 
             </sp>
-            <sp n="sp7">
+            <sp n="sp6">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Praeceptis ergo ac institutis optimi magistri imbuendus, quid 
 musica sit scire cupio.
@@ -387,9 +316,9 @@ musica sit scire cupio.
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp8">
+            <sp n="sp7">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Recte cupis id, quod a Platone et Aristotele prius traditum praecepit 
 Cicero: omnem institutionem, quae de re quacunque suscipitur, 
@@ -399,56 +328,56 @@ Est autem musica bene canendi scientia. Bene autem canere
 
 </p>
             </sp>
-            <sp n="sp9">
+            <sp n="sp8">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 O gratia! O donum Dei amabilis musica! A quo originem habeat, 
 incessit animum cupido sciendi.
 
 </p>
             </sp>
-            <sp n="sp10">
+            <sp n="sp9">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Dicunt quidam habere ab ipsa natura, alii a strepitu fluviorum, 
 alii a pulsu ollarum, alii denique a cantu avium. Sed dicant illi ex 
 se ipsis quid velint. Ego vero non tam ex me quam ex sacris litteris 
 dicam musicam originem habere ab octavo post Adam homine 
-<persName n="persName1">Iubal</persName>. Ipse enim (<bibl n="bibl2">Gen. C. 4. V. 21.</bibl>) fuit Pater canentium cithara, et 
+<persName n="persName1">Iubal</persName>. Ipse enim (<bibl n="bibl1">Gen. C. 4. V. 21.</bibl>) fuit Pater canentium cithara, et 
 organo, ut unisono canentium angelorum choro in coelis, corresponderet 
 in consonantia sua octava in terris.
 
 </p>
             </sp>
-            <sp n="sp11">
+            <sp n="sp10">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Operosa est homini consonantia, magister! Quomodo ergo eam 
 componere poterat <persName n="persName1">Iubal</persName>?
 
 </p>
             </sp>
-            <sp n="sp12">
+            <sp n="sp11">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
-Poterat sane, quia habuit fratrem <persName n="persName1">Tubalcain</persName>, qui (<bibl n="bibl2">citato <abbr n="abbr1">cap</abbr>. 4</bibl>) fuit 
-malleator, et faber in cuncta opera aeris et ferri. Frater ergo eius <persName n="persName3">Iubal</persName>, 
+Poterat sane, quia habuit fratrem <persName n="persName1">Tubalcain</persName>, qui (<bibl n="bibl1">citato <abbr n="abbr1">cap</abbr>. 4</bibl>) fuit 
+malleator, et faber in cuncta opera aeris et ferri. Frater ergo eius <persName n="persName2">Iubal</persName>, 
 ex diverso inaequalium malleorum sono, diversas consonantias 
 
 
-<pb n="pb4"/>
+<pb n="pb1"/>
 composuit atque ita per musicam simplicem divina providentia ad 
 harmonicam pervenit eamque posteritati tradidit.
 
 </p>
             </sp>
-            <sp n="sp13">
+            <sp n="sp12">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Novum genus quaestionis facis, magister. Nonne quasi omnes 
 Adae posteri cum suis artibus diluvio deleti sunt? Quomodo ergo 
@@ -456,9 +385,9 @@ Adae posteri cum suis artibus diluvio deleti sunt? Quomodo ergo
 
 </p>
             </sp>
-            <sp n="sp14">
+            <sp n="sp13">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Provide equidem poterat. Nam antequam Deus sceleratum mundum 
 punivisset, <persName n="persName1">Iubal</persName> in spiritu praevidit igne vel aqua puniendum. 
@@ -469,16 +398,16 @@ ideo insignitam, ut si marmorea igne absumeretur, latericia maneret.
 Vicissim, si latericia aqua dissiparetur, marmorea superstes servaretur. 
 Inundantibus ergo super terram aquis diluvii destructa ac dissipata 
 est columna latericia, ac sola marmorea cum impressis musicae 
-principiis integra inventa est per <persName n="persName3">Noe</persName>. Quae (ut refert <bibl n="bibl4">
+principiis integra inventa est per <persName n="persName3">Noe</persName>. Quae (ut refert <bibl n="bibl1">
                      <persName n="persName1">Samber</persName> in Elucidatione 
 musicae choralis</bibl>) hodiedum in Syria pro aeterna memoria, 
 tamquam pretiosissimus thesaurus vigilantissime custoditur.
 
 </p>
             </sp>
-            <sp n="sp15">
+            <sp n="sp14">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Optimum, ut video, hac in re vetustatis magistrum modo egisti. 
 Age ultro, et dic quaeso: ad quas deinde nationes tam nobilis ars 
@@ -486,9 +415,9 @@ pervenisse traditur?
 
 </p>
             </sp>
-            <sp n="sp16">
+            <sp n="sp15">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Imprimis ad <sic n="sic1">Aegiptios</sic>, ab illis ad Graecos, a Graecis ad Latinos, 
 praesertim vero per Hebraeos, per quos ut plurimum <sic n="sic2">musicalia</sic> 
@@ -496,46 +425,46 @@ instrumenta in utilitatem hominum et laudem Dei inventa esse
 scribunt historici.
 
 
-<pb n="pb3"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp17">
+            <sp n="sp16">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Ergone ais utilem homini et gratam esse Deo musicam?
 
 </p>
             </sp>
-            <sp n="sp18">
+            <sp n="sp17">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Nec secus. Quomodo enim grata non erit homini musica, quae 
 (nisi surdo canas) desperatum erigit, iratum temperat, tristem laetificat, 
 melancholicum exhilarat, et quod caput est omnium, hostem 
 corporis animaeque fugat. Quemadmodum percutiente David 
 citharam, <sic n="sic1">refocillabatur</sic> Saul, et levius habebat: recedebat enim 
-ab eo spiritus malus. <bibl n="bibl2">I. Reg. C. 16.</bibl> Quomodo etiam grata non erit 
+ab eo spiritus malus. <bibl n="bibl1">I. Reg. C. 16.</bibl> Quomodo etiam grata non erit 
 Deo, si idem coronatus vates hortatur nos dicens: Laudate Dominum 
 in psalterio et cithara, in tympano et choro, in chordis et organo 
-ac <sic n="sic3">cimbalis</sic> bene sonantibus. Recte ergo dicebat olim sagacissimus 
+ac <sic n="sic2">cimbalis</sic> bene sonantibus. Recte ergo dicebat olim sagacissimus 
 Socrates nihil se scire, nisi musicam didicisset.
 
 </p>
             </sp>
-            <sp n="sp19">
+            <sp n="sp18">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Musicam unicum vitae animaeque solatium dicis, clarissime magister?
 
 
 </p>
             </sp>
-            <sp n="sp20">
+            <sp n="sp19">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Ita est, unicum dico, sed quintuplex intelligo. Musica enim prima 
 est theorica, seu speculativa, quae in sola contemplatione, et 
@@ -548,27 +477,27 @@ post laborem aliquid operis relinquit, veluti poëta carmen post
 
 
 <pb n="pb1"/>
-mortem. Quarta est <sic n="sic2">instrumentalis</sic>, quae sine voce et textu solis 
+mortem. Quarta est <sic n="sic1">instrumentalis</sic>, quae sine voce et textu solis 
 instrumentis peragitur. Quinta vocalis, quae voce fit.
 
 </p>
             </sp>
-            <sp n="sp21">
+            <sp n="sp20">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Bonitate tua, magister, satisfactum est expectationi meae.
 
 </p>
             </sp>
-            <sp n="sp22">
+            <sp n="sp21">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Nondum satis. Scias etenim vocalem musicam adhuc subdividi 
 in <sic n="sic1">choralem</sic> et figuralem. Dico in <sic n="sic2">choralem</sic>, quod passim usum 
-obtinuerit in choro. Potiori tamen iure dici consuevit <name n="name3">cantus Gregorianus</name>, a <persName n="persName4">divo Gregorio Magno</persName>, non quidem ab eo quasi authore, 
-sed quod is <name n="name5">Antiphonale</name> et <name n="name6">Graduale</name> manu propria scripserit, 
+obtinuerit in choro. Potiori tamen iure dici consuevit <name n="name1">cantus Gregorianus</name>, a <persName n="persName1">divo Gregorio Magno</persName>, non quidem ab eo quasi authore, 
+sed quod is <name n="name2">Antiphonale</name> et <name n="name3">Graduale</name> manu propria scripserit, 
 et ab eiusdem tempore, scilicet ab anno Christi circiter 603., maius 
 sui incrementum ubique in ecclesiis acceperit. Quia vero simplicibus 
 notis constaret, a quibusdam nuncupatur planus, ab Italis 
@@ -577,21 +506,21 @@ ad distinctionem cantus figuralis, qui temporis mensuram per figuratas
 notas et varia signa exprimit.
 
 
-<pb n="pb7"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp23">
+            <sp n="sp22">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Praeclare subdivisisti musicam, magister. Iam quaeso te dic modo: 
 de qua nobis deinceps sermo instituendus est?
 
 </p>
             </sp>
-            <sp n="sp24">
+            <sp n="sp23">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Me consule de <sic n="sic1">chorali</sic> tamquam digniori et antiquiori. Sit itaque 
 nobis, si tibi placet.</p>
@@ -599,32 +528,32 @@ nobis, si tibi placet.</p>
          </div>
 
 
-         <pb n="pb3"/>
-         <div type="prosa-dialogus" n="div4">
+         <pb n="pb2"/>
+         <div type="prosa-dialogus" n="div2">
             <head n="head1">Dialogus II
 
 De lineis, notis et clavibus.</head>
-            <sp n="sp2">
+            <sp n="sp1">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Qui montem Musae ascendere cupit, imprimis scalam ad canendum 
 sibi erigat oportet.
 
 </p>
             </sp>
-            <sp n="sp3">
+            <sp n="sp2">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 De scala cantus loqueris, magister, at ex quot gradibus componatur, 
 taces?
 
 </p>
             </sp>
-            <sp n="sp4">
+            <sp n="sp3">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Si ad veterum monumenta, unde priori sermone digressi sumus, 
 nobis denuo redire liceat, inveniemus sane in columna <persName n="persName1">Iubal</persName> scalam 
@@ -633,25 +562,25 @@ post diluvium tempore in usu fuisse. Crescente vero tempore, crevit
 etiam scala. Quod modo de praecepto quattuor lineae produci 
 debeant, de consilio autem etiam quinque produci possint. Quarum 
 infima, est ordine prima, et quae sequitur secunda, deinde 
-tertia, quarta, <abbr n="abbr2">etc.</abbr> Eodem passu ipsa quoque spatia numerare noveris. 
+tertia, quarta, <abbr n="abbr1">etc.</abbr> Eodem passu ipsa quoque spatia numerare noveris. 
 Sic nempe:
 
 
-<pb n="pb3"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp5">
+            <sp n="sp4">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Video, magister, erectam scalam, video etiam seriem linearum, 
 sed quid ad lineas ponatur nihil video.
 
 </p>
             </sp>
-            <sp n="sp6">
+            <sp n="sp5">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Si videres veterum cantus, nihil aliud videres quam lineas simplicibus 
 punctis signatas, easque, incognita adhuc eorum arte papyracea, 
@@ -660,17 +589,17 @@ lineae, sed etiam spatia signari debent.
 
 </p>
             </sp>
-            <sp n="sp7">
+            <sp n="sp6">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Itane veterum more, simplicibus punctis signanda erunt?
 
 </p>
             </sp>
-            <sp n="sp8">
+            <sp n="sp7">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Nequaquam amplius ita fiet. Nam Ioannes de Muris<ref n="ref1">1</ref>, eximius 
 quondam philosophus et mathematicus, alias ad canendum notas 
@@ -678,9 +607,9 @@ invenisse nobisque tradidisse legitur.
 
 </p>
             </sp>
-            <sp n="sp9">
+            <sp n="sp8">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Fac ergo, venerande magister, ut videam notas a Mathematico 
 nobis traditas ac usu receptas.
@@ -689,12 +618,12 @@ nobis traditas ac usu receptas.
 <note n="note1">1 de Muris ] de Mours</note>
 
 
-                  <pb n="pb2"/>
+                  <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp10">
+            <sp n="sp9">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Videbis omnino, sed non uniformes. Licet enim, ut priori sermone 
 dixeram tibi, in solo cantu figurali servanda sit temporis mensura, 
@@ -718,20 +647,20 @@ accipi debeat. Vide iam omnes et singulas in exemplo.
 
 </p>
             </sp>
-            <sp n="sp11">
+            <sp n="sp10">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Video sat clare exhibitas notas cantus <sic n="sic1">choralis</sic>. At quomodo eas 
 sine voce et textu cantabimus, non video. 
 
 
-<pb n="pb2"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp12">
+            <sp n="sp11">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Scribit <bibl n="bibl1">
                      <persName n="persName1">Banchieri</persName> in sua Cartella Musica</bibl> quod Graeci, qui primi 
@@ -744,9 +673,9 @@ Sex natura modis totum circumsonat orbem.
 
 </p>
             </sp>
-            <sp n="sp13">
+            <sp n="sp12">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Multum, venerande magister, multum debemus Mathematico 
 pro notis, multum Graecis pro inventis litteris; cui autem referendas 
@@ -754,15 +683,15 @@ grates censeres pro vocibus?
 
 </p>
             </sp>
-            <sp n="sp14">
+            <sp n="sp13">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
                   <persName n="persName1">Patri Guidoni Italo, ordinis s. Benedicti Monacho Aretino</persName>. Hic 
 enim cum anno Domini 1019. die sacro s. Ioannis Baptistae, primum 
 ex hymno versum cantari audivisset, nempe: 
 
-<quote n="quote2">
+<quote n="quote1">
                      <l n="l1">Ut queant laxis</l>
 
                      <l n="l2">Re-sonare fibris</l>
@@ -778,48 +707,48 @@ ex hymno versum cantari audivisset, nempe:
                   </quote> 
 
 
-                  <pb n="pb3"/>
+                  <pb n="pb1"/>
 Is haud aliter, quam a Deo illuminatus, ad sex capita versus reflexione 
 facta, totidem ex iis deduxit syllabas, quibus omnis in cantu 
 nota apte exprimi posset, servata in reliquo Graecorum auctoritate, 
 quod primae eorundem litterae . id est gamma sive G. iunxerit 
 ut: deinde A. iunxit cum re: B. cum mi: C. cum fa: D. cum sol: E. 
-cum la. Utrumque tam amico copulavit foedere<ref n="ref4">2</ref>, ut nec Graecorum 
+cum la. Utrumque tam amico copulavit foedere<ref n="ref1">2</ref>, ut nec Graecorum 
 derogaret authoritati, nec tyronum deesset facilitati.
 
 </p>
             </sp>
-            <sp n="sp15">
+            <sp n="sp14">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Nihilne amplius nostra dignum memoria celeberrimus Monachus 
 reliquit?
 
 </p>
             </sp>
-            <sp n="sp16">
+            <sp n="sp15">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Reliquit sane iussu papae Benedicti Octavi usitatum <name n="name1">Graduale</name>. 
-Distinxit etiam cantum durum a b-molli<ref n="ref2">3</ref> praecipitque litteras 
+Distinxit etiam cantum durum a b-molli<ref n="ref1">3</ref> praecipitque litteras 
 vocari claves. 
 
 </p>
             </sp>
-            <sp n="sp17">
+            <sp n="sp16">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 De clavibus loqueris, magister, et quam seram aperiant, non manifestas? 
 
 
 </p>
             </sp>
-            <sp n="sp18">
+            <sp n="sp17">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Manifestabo equidem tibi, quod claves aperiant syllabas sive voces, 
 quibus notae exprimi debeant, ut cognoscas quae nota sit ut, 
@@ -830,23 +759,23 @@ quibus notae exprimi debeant, ut cognoscas quae nota sit ut,
                   <note n="note2">3 <persName n="persName1">Šilobod</persName> promiscue formis bimollis, b.mollis et b-mollis utitur.</note>
 
 
-                  <pb n="pb3"/>
-re, mi, <abbr n="abbr4">etc.</abbr> Hoc est claves sunt vocis formandae indices sive generales 
+                  <pb n="pb1"/>
+re, mi, <abbr n="abbr1">etc.</abbr> Hoc est claves sunt vocis formandae indices sive generales 
 fuerint sive particulares. 
 
 </p>
             </sp>
-            <sp n="sp19">
+            <sp n="sp18">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Duplices ergo claves generales et particulares docebis magister.
 
 </p>
             </sp>
-            <sp n="sp20">
+            <sp n="sp19">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Docebo omnino dicamque illas claves esse generales quae in exordio 
 cantus et capite cuiusque scalae expresse signantur; particulares 
@@ -855,17 +784,17 @@ clavis non obtinent, ut accidit in cantu b-molli.
 
 </p>
             </sp>
-            <sp n="sp21">
+            <sp n="sp20">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Dic ergo, magister, quot sunt claves <sic n="sic1">signabiles</sic>?
 
 </p>
             </sp>
-            <sp n="sp22">
+            <sp n="sp21">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Si de numero quaeris, Graeci quoties quinque lineis utebantur, 
 semper duabus clavibus cantum praenotabant, nempe ad primam 
@@ -879,18 +808,18 @@ clavem signare solent. Sic nempe:
 
 </p>
             </sp>
-            <sp n="sp23">
+            <sp n="sp22">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
-Observo<ref n="ref1">4</ref>, magister, in cantu <sic n="sic2">chorali</sic> tres claves <sic n="sic3">signabiles</sic>, quibus 
+Observo<ref n="ref1">4</ref>, magister, in cantu <sic n="sic1">chorali</sic> tres claves <sic n="sic2">signabiles</sic>, quibus 
 cantus praenotari debet.
 
 </p>
             </sp>
-            <sp n="sp24">
+            <sp n="sp23">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Bene observas in cantu duro. In cantu tamen b-molli clavibus C. 
 F. G. adiungi accidentalem b. Est enim unus cantus durus, b-mollis 
@@ -898,26 +827,26 @@ alter.
 
 </p>
             </sp>
-            <sp n="sp25">
+            <sp n="sp24">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quare clavem b. vocas accidentalem?
 
 </p>
             </sp>
-            <sp n="sp26">
+            <sp n="sp25">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quia haec semper associantur clavi C. signatae, vel non signatae 
 sive accidat in linea, sive in spatio, ut vides hic:
 
 </p>
             </sp>
-            <sp n="sp27">
+            <sp n="sp26">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Video omnino pro cantu b-molli signatam duplicem clavem, sed 
 quae erit generalis?
@@ -926,12 +855,12 @@ quae erit generalis?
 <note n="note1">4 observo ] observa</note>
 
 
-                  <pb n="pb2"/>
+                  <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp28">
+            <sp n="sp27">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Erit b. Quia cantus b-mollis desumit suam denominationem a clavi 
 b., dummodo b. non alicubi, et in parte tantum, sed per totum cantum, 
@@ -940,18 +869,18 @@ C. F. G., quasi signatae non essent, particulares dici poterunt.
 
 </p>
             </sp>
-            <sp n="sp29">
+            <sp n="sp28">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quid igitur dices, ubi b. non per totum cantum, sed alicubi tantum 
 signatur? 
 
 </p>
             </sp>
-            <sp n="sp30">
+            <sp n="sp29">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Dicam tunc litteram b. nec exhibere figuram clavis generalis, cantum 
 vero principaliter esse durum, minus autem principaliter b-
@@ -962,17 +891,17 @@ signetur, mixtus erit.
 
 </p>
             </sp>
-            <sp n="sp31">
+            <sp n="sp30">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Sed quare hoc doces, da discipulo rationem?
 
 </p>
             </sp>
-            <sp n="sp32">
+            <sp n="sp31">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quia musici et cantores utuntur b. rotundo, et quadrato non solum 
 ad denominandum cantum, sed etiam ad significandas voces 
@@ -982,9 +911,9 @@ vox igitur mi tibi dura datur, fa mollis mellificatur.
 
 </p>
             </sp>
-            <sp n="sp33">
+            <sp n="sp32">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Satis, venerande magister, satis miscuisti quadrata rotundis, dedisti 
 durum cum molli, signasti claves. Iam, quaeso te, exple sitim 
@@ -994,9 +923,9 @@ meam, quomodo reliquas litteras suis in locis locare potero?
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp34">
+            <sp n="sp33">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Hoc poteris ex sola clavi signata. Nam vides, quod claves invicem 
 (excepta .) tribus tantum lineis distent. His vero cognitis facile alias 
@@ -1004,66 +933,66 @@ litteras locabis, dummodo eas memoriter recitare sciveris.
 
 </p>
             </sp>
-            <sp n="sp35">
+            <sp n="sp34">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Experire me, meumque ingenium magister, si bonae indolis et 
 animi docilis sim, si optimo magistro dignus discipulus! 
 
 </p>
             </sp>
-            <sp n="sp36">
+            <sp n="sp35">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Recita ergo si potes, discipule, a clavi C. litteras sursum.
 
 </p>
             </sp>
-            <sp n="sp37">
+            <sp n="sp36">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 C. D. E. F. G. A. B. C.
 
 </p>
             </sp>
-            <sp n="sp38">
+            <sp n="sp37">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Recita deorsum.
 
 </p>
             </sp>
-            <sp n="sp39">
+            <sp n="sp38">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 C. B. A. G. F. E. D. C.
 
 </p>
             </sp>
-            <sp n="sp40">
+            <sp n="sp39">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Recita modo a clavi F sursum.
 
 </p>
             </sp>
-            <sp n="sp41">
+            <sp n="sp40">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 F. G. A. B. C. D. E. F.
 
 </p>
             </sp>
-            <sp n="sp42">
+            <sp n="sp41">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Recita deorsum.
 
@@ -1071,49 +1000,49 @@ Recita deorsum.
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp43">
+            <sp n="sp42">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 F. E. D. C. B. A. G. F.
 
 </p>
             </sp>
-            <sp n="sp44">
+            <sp n="sp43">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Recita tandem a clavi G sursum.
 
 </p>
             </sp>
-            <sp n="sp45">
+            <sp n="sp44">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 G. A. B. C. D. E. F. G.
 
 </p>
             </sp>
-            <sp n="sp46">
+            <sp n="sp45">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Recita deorsum.
 
 </p>
             </sp>
-            <sp n="sp47">
+            <sp n="sp46">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 G. F. E. D. C. B. A. G.
 
 </p>
             </sp>
-            <sp n="sp48">
+            <sp n="sp47">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Sat egregium modo profectus tui dedisti specimen, discipule, quo 
 prodis nihil eorum, quae hactenus te docui, memoria excidisse tua. 
@@ -1123,15 +1052,15 @@ Festinemus ergo ad alia.
          </div>
 
 
-         <pb n="pb5"/>
-         <div type="prosa-dialogus" n="div6">
+         <pb n="pb3"/>
+         <div type="prosa-dialogus" n="div3">
             <head n="head1">Dialogus <num n="num1" value="3">III</num>
 
-De <sic n="sic2">solmizatione</sic>
+De <sic n="sic1">solmizatione</sic>
             </head>
-            <sp n="sp2">
+            <sp n="sp1">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Produximus hactenus lineas, expressimus notas, signavimus claves. 
 Nunc patens et aperta est via ut procedentes procedamus per 
@@ -1140,18 +1069,18 @@ recta pronuntiatio.
 
 </p>
             </sp>
-            <sp n="sp3">
+            <sp n="sp2">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Exhibe, magister, discipulo medium, quo notas per rectas voces 
 pronuntiare valeat.
 
 </p>
             </sp>
-            <sp n="sp4">
+            <sp n="sp3">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Solent magistri artis exhibere manum, in eaque omnes vocum 
 derivationes articulatim explanare dicentes:
@@ -1169,25 +1098,25 @@ reducemus.
 <pb n="pb1"/>
 In hac igitur scala vides, discipule, per ternam litterarum replicationem, 
 (excepta F. quae bis tantum replicatur) esse 10. lineas 
-ac totidem spatia, adeoque 20. notas, ultra quas in cantu <sic n="sic2">chorali</sic> 
-progredi non poteris, nec vero debebis<ref n="ref3">5</ref>. Vides etiam utriusque 
+ac totidem spatia, adeoque 20. notas, ultra quas in cantu <sic n="sic1">chorali</sic> 
+progredi non poteris, nec vero debebis<ref n="ref1">5</ref>. Vides etiam utriusque 
 cantus ascensum et descensum, et si nondum omnia intelligis, interroga 
 magistrum. 
 
 </p>
             </sp>
-            <sp n="sp5">
+            <sp n="sp4">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Pace tua interrogabo, Magister: Quare litteras ter replicaveris, replicatas 
 diviseris in finales et <sic n="sic1">affinales</sic>?
 
 </p>
             </sp>
-            <sp n="sp6">
+            <sp n="sp5">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Ideo ter replicavi litteras, quia omnis cantus vel est gravis vel acutus 
 vel <sic n="sic1">superacutus</sic>. Si ambit litteras graves, procedit demisse; si 
@@ -1196,27 +1125,27 @@ replicatas divisi in finales et <sic n="sic3">affinales</sic>, quia omnis regula
 in una ex 4. finalibus litteris terminatur, quae sunt D. E. F. G. 
 
 
-<note n="note4">5 debebis ] nudebis</note>
+<note n="note1">5 debebis ] nudebis</note>
 
 
-                  <pb n="pb5"/>
-De quibus suo loco dicemus. Quod si terminetur in littera <sic n="sic6">affinali</sic> 
+                  <pb n="pb1"/>
+De quibus suo loco dicemus. Quod si terminetur in littera <sic n="sic4">affinali</sic> 
 A. vel B. vel C. irregularis erit. 
 
 </p>
             </sp>
-            <sp n="sp7">
+            <sp n="sp6">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quare autem in scala generali alicui litterae dedisti unam vocem: 
 ut, alicui duas: fa, ut, alicui etiam tres: sol, fa, ut? 
 
 </p>
             </sp>
-            <sp n="sp8">
+            <sp n="sp7">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Hoc ideo factum puta, quia in loco illo, ubi est solum ut, non potest 
 alia vox dici quam ut. Et ubi est fa, ut, non potest dici nisi vel 
@@ -1226,9 +1155,9 @@ vel sol vel fa vel ut respiciendo clavim superiorem aut inferiorem
 
 </p>
             </sp>
-            <sp n="sp9">
+            <sp n="sp8">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Video in symbolo variari voces penes ascensum et descensum, 
 quem tamen ego non cognosco. Dic ergo <sic n="sic1">quandonam</sic> nota ascendat 
@@ -1236,9 +1165,9 @@ et quando descendat?
 
 </p>
             </sp>
-            <sp n="sp10">
+            <sp n="sp9">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Hoc indicant ipsae claves. Nam si nota habet supra se notam in 
 clavi C. vel F. vel G. tunc ascendit, secus vero descendit.
@@ -1247,17 +1176,17 @@ clavi C. vel F. vel G. tunc ascendit, secus vero descendit.
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp11">
+            <sp n="sp10">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quid si autem nota accidat in ipsa clavi: descendetne?
 
 </p>
             </sp>
-            <sp n="sp12">
+            <sp n="sp11">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Discernendum prius est, vel clavis tum gerit munus clavis saltem 
 particularis, vel non? Si gerit, tum nota in ipsa clavi quasi ad se ipsam 
@@ -1279,42 +1208,42 @@ in omnibus mutationibus utriusque cantus duri et b-mollis.
 
 </p>
             </sp>
-            <sp n="sp13">
+            <sp n="sp12">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 De mutatione loqueris et quid illa sit, non definis.
 
 </p>
             </sp>
-            <sp n="sp14">
+            <sp n="sp13">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Mutatio est vocis in vocem in eadem littera unisona variatio. 
 
 </p>
             </sp>
-            <sp n="sp15">
+            <sp n="sp14">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
                   <sic n="sic1">Quandonam</sic> ergo variatio vocis fieri debeat, quaeso te dicas?
 
 </p>
             </sp>
-            <sp n="sp16">
+            <sp n="sp15">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Variatio vocis, seu mutatio, fieri debet, quoties una aut plures notae 
 supra la ascendunt, vel infra ut descendunt.
 
 </p>
             </sp>
-            <sp n="sp17">
+            <sp n="sp16">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quid igitur canendum est, si vel unica nota ascendat supra la? 
 
@@ -1322,9 +1251,9 @@ Quid igitur canendum est, si vel unica nota ascendat supra la?
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp18">
+            <sp n="sp17">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Haec est universalissima omnium regula: Unica nota ascendente 
 supra la, semper canendum est fa, ut aiunt fictum, etiamsi cadat 
@@ -1337,25 +1266,25 @@ in re, mi vel in mi, re. Uti vides in hisce exemplis.
 
 </p>
             </sp>
-            <sp n="sp19">
+            <sp n="sp18">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Fierine debebit mutatio, si plures notae ascendant supra la? 
 
 </p>
             </sp>
-            <sp n="sp20">
+            <sp n="sp19">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Debebit omnino vel sol vel la mutari in re.
 
 </p>
             </sp>
-            <sp n="sp21">
+            <sp n="sp20">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quid autem dices, si una aut plures notae descendant infra ut?
 
@@ -1363,26 +1292,26 @@ Quid autem dices, si una aut plures notae descendant infra ut?
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp22">
+            <sp n="sp21">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Dicam hoc, quod si vel unica nota descendat infra ut, statim vel 
 mi vel re debebit mutari in la. 
 
 </p>
             </sp>
-            <sp n="sp23">
+            <sp n="sp22">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quare ais: vel haec vel illa nota debebit mutari in aliam?
 
 </p>
             </sp>
-            <sp n="sp24">
+            <sp n="sp23">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quia duplex est mutatio quartae et quintae! Dico quartae et quintae 
 quia mutatio fit supra claves C. et................................ F. quae invicem, ut vides, semper 
@@ -1403,17 +1332,17 @@ Mutationes in cantu duro
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp25">
+            <sp n="sp24">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Idemne fit etiam in cantu b-molli?
 
 </p>
             </sp>
-            <sp n="sp26">
+            <sp n="sp25">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Nequaquam idem, sed totum ab opposito<ref n="ref1">6</ref>. Nempe, in mutatione 
 quartae, in ascendendo cantu b-molli, post fa, prius canitur sol, deinde 
@@ -1423,22 +1352,22 @@ re, et in descendendo prius mi, deinde la. In mutatione autem
 ±
 
 
-<note n="note2">6 opposito ] apposito</note>
+<note n="note1">6 opposito ] apposito</note>
 
 
-                  <pb n="pb3"/>
+                  <pb n="pb1"/>
 quintae in ascendendo cantu b-molli, post fa, statim canitur re, et 
 in descendendo la. Haec quoque regula declaratur in exemplis. 
 
 Mutationes in cantu b-molli
 
 
-<pb n="pb4"/>
+<pb n="pb2"/>
                </p>
             </sp>
-            <sp n="sp27">
+            <sp n="sp26">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 In scala cantus generali docuisti, magister, quod infra F. grave ad 
 litteram b non possit alia vox dici quam mi. In praemissis tamen 
@@ -1447,9 +1376,9 @@ quaeso te, conciliabis hoc?
 
 </p>
             </sp>
-            <sp n="sp28">
+            <sp n="sp27">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Conciliabo facillime. Nam quod in b gravi cantus duri non possit 
 alia vox dici quam mi, est per se; quod autem in cantu b-molli dici 
@@ -1459,9 +1388,9 @@ propter octavam, quae fit a b ad b ut exponitur in exemplo.
 
 </p>
             </sp>
-            <sp n="sp29">
+            <sp n="sp28">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Comprehensis et animo et oculis praestantissimis tuis tum praeceptis
 .........................................................., tum exemplis restat explanare, ducendane erit quinta linea, 
@@ -1470,9 +1399,9 @@ vel descendit?
 
 </p>
             </sp>
-            <sp n="sp30">
+            <sp n="sp29">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Pro exigentia talis ascensus et descensus solent quidem <sic n="sic1">figuralistae</sic> 
 unam aut plures lineas addere. Nos tamen <sic n="sic2">choralistae</sic> non 
@@ -1484,12 +1413,12 @@ indice indicante locum subsequentis notae. Si verbis nihil attinet
 exprimere, adsunt tyroni exempla. 
 
 
-<pb n="pb3"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp31">
+            <sp n="sp30">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Clare verbis et praeclare exemplis doces, magister, ad proximam 
 inferiorem lineam movendam esse clavim tunc, quando cantus supra 
@@ -1498,18 +1427,18 @@ infra quartas lineas descendet?
 
 </p>
             </sp>
-            <sp n="sp32">
+            <sp n="sp31">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Vice versa, ad proximam superiorem lineam movebitur. Iuvabit 
 iterum videre exempla.
 
 </p>
             </sp>
-            <sp n="sp33">
+            <sp n="sp32">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Sat industriose pro captu meo laborasti, magister. Haud parum 
 muneri tuo concedendum erit, si ultro praeceptorum tuorum participem 
@@ -1519,9 +1448,9 @@ me facere dignaberis.
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp34">
+            <sp n="sp33">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Si praeceptorum meorum praestantia raperis, discipule, maiori 
 conatu in eorundem studium incumbas velim. Ego vero id prae-
@@ -1530,14 +1459,14 @@ intelligere possis. Est autem: </p>
             </sp>
          </div>
 
-         <pb n="pb7"/>
-         <div type="prosa-dialogus" n="div8">
+         <pb n="pb4"/>
+         <div type="prosa-dialogus" n="div4">
             <head n="head1">Dialogus IV.
 
 De intervallis, sive consonantiis.</head>
-            <sp n="sp2">
+            <sp n="sp1">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 De intervallis, breviori temporis intervallo exercitationem habituri, 
 etiam non rogatus intervallum definio: quod sit (<bibl n="bibl1">teste <persName n="persName1">Boetio 
@@ -1547,35 +1476,35 @@ considerata quam aliqui consonantiam vocant.
 
 </p>
             </sp>
-            <sp n="sp3">
+            <sp n="sp2">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Nunc rogatus dices, magister, quot intervalla numeraturi simus?
 
 
 </p>
             </sp>
-            <sp n="sp4">
+            <sp n="sp3">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Numerant aliqui plura, aliqui vero pauciora. Nos vero octo tantum 
 communiter recepta pertractanda assumemus.
 
 </p>
             </sp>
-            <sp n="sp5">
+            <sp n="sp4">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Assume ergo magister unum, quod ordine primum esse novisti.
 
 </p>
             </sp>
-            <sp n="sp6">
+            <sp n="sp5">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Haud scio quid tibi hic respondeam, bone iuvenis! Primum enim 
 intervallum non tam intervallum est, quam intervalli principium; 
@@ -1587,24 +1516,24 @@ conputandum venit. Primum ergo intervallum, erit tibi prima
 
 <pb n="pb1"/>
 ordine consonantia, quam musici unisonum vocant. Secunda consonantia 
-erit tonus. Tertia ditonus. Quarta (Graecis vocabulis) <sic n="sic2">diatexeron</sic>. 
-Quinta <sic n="sic3">diapens</sic>. Sexta <sic n="sic4">exachordon</sic>. Septima <sic n="sic5">ettachordon</sic>. 
+erit tonus. Tertia ditonus. Quarta (Graecis vocabulis) <sic n="sic1">diatexeron</sic>. 
+Quinta <sic n="sic2">diapens</sic>. Sexta <sic n="sic3">exachordon</sic>. Septima <sic n="sic4">ettachordon</sic>. 
 Octava diapason. Antequam tamen singulas examinemus, imprimis 
 videamus exempla primae consonantiae seu unisoni.
 
 </p>
             </sp>
-            <sp n="sp7">
+            <sp n="sp6">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Vellem mihi diceres, magister, quid sit secunda?
 
 </p>
             </sp>
-            <sp n="sp8">
+            <sp n="sp7">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Secunda est distantia vocis a voce cum uno intervallo, quod fit, 
 quando a linea ad proximum spatium vel vicissim fit transitus, sive 
@@ -1612,9 +1541,9 @@ id fiat perfecte, veluti ab ut ad re. Vel imperfecte, a mi ad fa.
 
 </p>
             </sp>
-            <sp n="sp9">
+            <sp n="sp8">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quare dicis perfecte vel imperfecte?
 
@@ -1624,9 +1553,9 @@ Prima sive unisonus
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp10">
+            <sp n="sp9">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Minime abs re quidquam dico. Duplex enim est secunda, perfecta 
 et imperfecta. Illa vocatur maior, quia in illa quodammodo maior, 
@@ -1638,17 +1567,17 @@ proximum fa et vicissim. Accipe exempla utriusque.
 
 </p>
             </sp>
-            <sp n="sp11">
+            <sp n="sp10">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Interrogare te ausim, magister, quid sit tertia?
 
 </p>
             </sp>
-            <sp n="sp12">
+            <sp n="sp11">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Tertia est distantia vocis a voce per proximas tres notas, sive saltus, 
 cum duobus intervallis. Haec si componatur ex duobus integris 
@@ -1659,20 +1588,20 @@ tono et semitono erit minor, semitonus dicta. Habet autem species
 Secunda
 
 
-<pb n="pb2"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp13">
+            <sp n="sp12">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Digneris magister exponere quartam.
 
 </p>
             </sp>
-            <sp n="sp14">
+            <sp n="sp13">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quarta est distantia quattuor vocum cum tribus intervallis estque 
 duplex, vera una, et falsa alia. Vera, proprie <sic n="sic1">diatexeron</sic> dicta, componitur 
@@ -1688,20 +1617,20 @@ Tertia
 Quarta
 
 
-<pb n="pb2"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp15">
+            <sp n="sp14">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quartam ordine sequitur quinta, quid autem haec sit?
 
 </p>
             </sp>
-            <sp n="sp16">
+            <sp n="sp15">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quinta est distantia quinque vocum cum quattuor intervallis. 
 Haec, si componatur ex tribus tonis et uno semitono, vera et perfecta 
@@ -1711,17 +1640,17 @@ dicta <sic n="sic2">semidiapens</sic>; utriusque species exponunt exempla:
 
 </p>
             </sp>
-            <sp n="sp17">
+            <sp n="sp16">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Audiamus, magister, aliquid de sexta.
 
 </p>
             </sp>
-            <sp n="sp18">
+            <sp n="sp17">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Sexta est distantia sex vocum cum quinque intervallis de nota 
 ad notam faciens saltus sex. Haec si componatur ex quattuor tonis 
@@ -1732,20 +1661,20 @@ et imperfecta, cuiusvis species considera in exemplis:
 Quinta
 
 
-<pb n="pb2"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp19">
+            <sp n="sp18">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Soluta sexta via aperitur ad septimam.
 
 </p>
             </sp>
-            <sp n="sp20">
+            <sp n="sp19">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Septima est distantia cum sex intervallis per septem notas; 
 aeque duplex vera, sive maior, et falsa, sive minor. Maior, Graece 
@@ -1755,17 +1684,17 @@ Cuiusvis species dant exempla:
 
 </p>
             </sp>
-            <sp n="sp21">
+            <sp n="sp20">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Superest exponenda octava.
 
 </p>
             </sp>
-            <sp n="sp22">
+            <sp n="sp21">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Octava est distantia octo vocum cum septem intervallis. Haec si 
 constet ex quinque tonis et duobus semitonis, erit vera et perfecta 
@@ -1782,18 +1711,18 @@ erit falsa et imperfecta. Sed nulla sine exemplis:
 
 </p>
             </sp>
-            <sp n="sp23">
+            <sp n="sp22">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Traditis ac exemplificatis omnibus 8. consonantiis, transeamus, 
 magister, ad alia. 
 
 </p>
             </sp>
-            <sp n="sp24">
+            <sp n="sp23">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Macte animo, transeamus. Operae pretium erit.
 
@@ -1801,14 +1730,14 @@ Octava</p>
             </sp>
          </div>
 
-         <pb n="pb9"/>
-         <div type="prosa-dialogus" n="div10">
+         <pb n="pb5"/>
+         <div type="prosa-dialogus" n="div5">
             <head n="head1">Dialogus V.
 
 De perfectione et imperfectione tonorum</head>
-            <sp n="sp2">
+            <sp n="sp1">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Tonus Graecorum olim lex fuerat, musicorum deinde modus factus 
 est, nobis vero regula erit, qua omnis cantus, (etsi nec antiphona, nec 
@@ -1816,33 +1745,33 @@ responsorium, nec introitus sit) cuius sit toni, cognosci poterit.
 
 </p>
             </sp>
-            <sp n="sp3">
+            <sp n="sp2">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Solita ergo bonitate tua dices, magister, quot sint toni?
 
 </p>
             </sp>
-            <sp n="sp4">
+            <sp n="sp3">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Nunc sunt octoni, quandoque fuere quaterni.
 
 </p>
             </sp>
-            <sp n="sp5">
+            <sp n="sp4">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quare olim quaterni, nunc vero sunt octoni?
 
 </p>
             </sp>
-            <sp n="sp6">
+            <sp n="sp5">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quia omnis fere veterum cantus in una ex quattuor finalibus 
 litteris, quae sunt D. E. F. G. terminabatur. Totidem ergo regulae 
@@ -1852,23 +1781,23 @@ E. secundi in F. tertii in D. quarti. Primus Graece vocabatur <sic n="sic1">prot
 ob nimium ascensum admodum difficiles fuissent, utpote ab uno 
 
 
-<pb n="pb4"/>
+<pb n="pb1"/>
 extremo ad aliud undecim vocibus sive notis ascendens, ideo maioris 
 facilitatis studio ex quattuor tonis facti sunt octoni.
 
 </p>
             </sp>
-            <sp n="sp7">
+            <sp n="sp6">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Sed quomodo hoc factum fuisse putabo, magister?
 
 </p>
             </sp>
-            <sp n="sp8">
+            <sp n="sp7">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Hoc factum puta ita: quattuor tonis adiuncti sunt alii quattuor 
 nec secus, quam cuique suus collateralis, quasi in obsequium datus. 
@@ -1877,9 +1806,9 @@ illi vero, digniori titulo, domini authentici appellarentur.
 
 </p>
             </sp>
-            <sp n="sp9">
+            <sp n="sp8">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Memini te dixisse, magister, quod veteres quattuor suos tonos, 
 quos tu dominos authenticos vocas, cognoscebant ex quattuor finalibus 
@@ -1888,9 +1817,9 @@ litteris D. E. F. G. unde autem nos cognoscemus nostros
 
 </p>
             </sp>
-            <sp n="sp10">
+            <sp n="sp9">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Etiam ex quattuor lineis D. E. F. G. cognoscemus. Nam in quacunque 
 littera terminatur dominus tonus authenticus, in eadem 
@@ -1909,8 +1838,8 @@ Dominus tritus, suusque servus, id est,
 tonus 5. et 6. in F.
 
 
-<pb n="pb3"/>
-Dominus <sic n="sic4">tetrardus</sic>, suusque servus,
+<pb n="pb1"/>
+Dominus <sic n="sic3">tetrardus</sic>, suusque servus,
 
 id est tonus 7. et 8. in G. 
 
@@ -1931,9 +1860,9 @@ Septimus octavusque tonus cognoscitur ex G.
 
 </p>
             </sp>
-            <sp n="sp11">
+            <sp n="sp10">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Si ita est, ut doces, magister, quod tonus authenticus et plagalis 
 in una eademque littera terminentur, quomodo ergo dignosci 
@@ -1941,9 +1870,9 @@ poterunt?
 
 </p>
             </sp>
-            <sp n="sp12">
+            <sp n="sp11">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Antequam respondeam tibi, scias velim discipule omnem cantum 
 tam authenticum, quam plagalem, ut perfectus sit, debere octo 
@@ -1957,9 +1886,9 @@ inspice exempla:
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp13">
+            <sp n="sp12">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Egregie, tam praeceptis, quam exemplis declarasti, magister, ut, 
 si cantus supra notam finalem ascendat notis octo, erit authenticus, 
@@ -1970,9 +1899,9 @@ quam quattuor?
 
 </p>
             </sp>
-            <sp n="sp14">
+            <sp n="sp13">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Uterque erit plus quam perfectus, quemadmodum esset imperfectus, 
 si paucioribus ascenderet vel descenderet.
@@ -1984,9 +1913,9 @@ si paucioribus ascenderet vel descenderet.
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp15">
+            <sp n="sp14">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Concurrentibus duobus tonis perfectis vel imperfectis, quomodo, 
 quaeso te, cognoscere potero, an sit potius authenticus quam 
@@ -1994,9 +1923,9 @@ plagalis vel e contra?
 
 </p>
             </sp>
-            <sp n="sp16">
+            <sp n="sp15">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Iterum in ascensus et descensus odiosam repetitionem cogis me 
 redire, discipule. Dixi enim tibi quod tonus authenticus unice ex 
@@ -2012,18 +1941,18 @@ erit authenticus, si frequentius descendat, erit plagalis.
 
 </p>
             </sp>
-            <sp n="sp17">
+            <sp n="sp16">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Qualis autem erit ille qui nec ascendet per sextam aut septimam, 
 nec vero descendet per secundam aut tertiam?
 
 </p>
             </sp>
-            <sp n="sp18">
+            <sp n="sp17">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Iterum videndum est, an supra notam finalem habeat <sic n="sic1">diapense</sic>, 
 sive quintam veram, vel forte habeat <sic n="sic2">diatexeron</sic>, id est quartam. Si 
@@ -2034,18 +1963,18 @@ affectuose, quod proprium est quartae.
 
 </p>
             </sp>
-            <sp n="sp19">
+            <sp n="sp18">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Interpellare tandem te ausim, optime magister, qualis iam ille erit 
 cantus, qui nec per quintam, nec per quartam ascendit?
 
 </p>
             </sp>
-            <sp n="sp20">
+            <sp n="sp19">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Erit talis qualem indicabit chorda. Est autem chorda, tertia nota 
 supra finalem, ut vides hic. 
@@ -2057,18 +1986,18 @@ authenticus, secus erit plagalis.
 
 </p>
             </sp>
-            <sp n="sp21">
+            <sp n="sp20">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Posset contingere cantus in quo solum una nota esset supra chordam 
 et alia infra chordam qualis autem erit tunc?
 
 </p>
             </sp>
-            <sp n="sp22">
+            <sp n="sp21">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Semper et ubique videndum est an cantus una solum nota ascendat, 
 per tonum vel per semitonum. Si ascendat per tonum, descendat 
@@ -2081,15 +2010,15 @@ una eamus ad chorum. </p>
             </sp>
          </div>
 
-         <pb n="pb11"/>
-         <div type="prosa-dialogus" n="div12">
+         <pb n="pb6"/>
+         <div type="prosa-dialogus" n="div6">
             <head n="head1">Dialogus VI.
 
 De <sic n="sic1">intonationibus</sic>
             </head>
-            <sp n="sp2">
+            <sp n="sp1">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Superatis arduis per amoeniorem studii campum amantem cantus 
 ducam discipulum meum. Campus erit chorus, ratio modulandi 
@@ -2098,44 +2027,44 @@ licebit, ac chori directorem agere minime licebit.
 
 </p>
             </sp>
-            <sp n="sp3">
+            <sp n="sp2">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Quid fuit illud arduum, quod superavimus, et quid hoc amoenum, 
 ad quod amplectendum tantopere me provocas, magister?
 
 </p>
             </sp>
-            <sp n="sp4">
+            <sp n="sp3">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Arduum sane fuerat generaliter omnem cantum, cuius sit toni, 
 ex nota finali et vario notarum ascensu ac descensu cognoscere. 
 Amoenum autem et facile est visa solum nota finali antiphonae et 
 initiali EUOUAE, cuius sit toni, cognoscere. Est autem EUOUAE 
 vox, ex vocalibus <mentioned n="mentioned1">sEcUlOrUm AmEn</mentioned> composita, quae ideo in fine 
-cuiusque antiphonae ponitur, ut iuxta illam <sic n="sic2">intonatio</sic> fiat, sive deinde 
+cuiusque antiphonae ponitur, ut iuxta illam <sic n="sic1">intonatio</sic> fiat, sive deinde 
 tota antiphona decantetur, sive initium tantum.
 
 </p>
             </sp>
-            <sp n="sp5">
+            <sp n="sp4">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Dicis omnia ad captum meum, magister! Dic modo quod <sic n="sic1">solerter</sic> 
 te dicturum promisisti, quomodo ex nota finali antiphonae et 
 initiali EUOUAE cognoscere possim, cuius sit toni antiphona?
 
 
-<pb n="pb2"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp6">
+            <sp n="sp5">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Hoc modo: si finalis nota antiphonae finiat in re et initialis EUOUAE 
 incipiat in la per quintam ascendentem, tunc tam antiphona 
@@ -2162,9 +2091,9 @@ exempla:
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp7">
+            <sp n="sp6">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Placent admodum omnia tua dicta, et facta magister, solum unico 
 adhuc premor angore: quare nimirum plures notae supra EUOUAE 
@@ -2172,9 +2101,9 @@ signantur, dum unicam sufficere dicis ad cognoscendum tonum?
 
 </p>
             </sp>
-            <sp n="sp8">
+            <sp n="sp7">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Mitte angorem, fili mi! Nam paterno te affectu docet magister 
 ideo plures notas quam unicam, ex qua tonus cognoscitur, signari, 
@@ -2187,9 +2116,9 @@ initium et finis consideratur.
 
 </p>
             </sp>
-            <sp n="sp9">
+            <sp n="sp8">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Si toni psalmorum in festis simplicibus et feriis habent <sic n="sic1">intonationes</sic> 
 ab initiali nota EUOUAE, quales autem habent in festis duplicibus?
@@ -2197,9 +2126,9 @@ ab initiali nota EUOUAE, quales autem habent in festis duplicibus?
 
 </p>
             </sp>
-            <sp n="sp10">
+            <sp n="sp9">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Primus tonus habet fa, sol, la, sextus et idem.
 
@@ -2214,22 +2143,22 @@ exempla:
 
 
 <pb n="pb1"/>
-Atque hae <sic n="sic2">intonationes</sic> psalmorum per omnes passim ecclesias 
+Atque hae <sic n="sic1">intonationes</sic> psalmorum per omnes passim ecclesias 
 ritus Romani habentur. In choro tamen almae cathedralis ecclesiae 
-Zagrabiensis in Regno <placeName n="placeName3">Croatiae</placeName>, circa tonum secundum, quartum, 
+Zagrabiensis in Regno <placeName n="placeName1">Croatiae</placeName>, circa tonum secundum, quartum, 
 septimum et octavum invenitur quaedam discrepantia. Nam 
 
 
-<pb n="pb4"/>
+<pb n="pb2"/>
 secundus circa medium et finem, quartus autem, septimus et octavus 
 circa initium nonnihil mutantur, prout videre est in hisce 
 exemplis:
 
 </p>
             </sp>
-            <sp n="sp11">
+            <sp n="sp10">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Summopere delector <sic n="sic1">praedeclaratis</sic> exemplis tuis magister, sed 
 magis miror quod aliquos tonos in unum tantum, aliquos vero in 
@@ -2237,9 +2166,9 @@ plures ac diversos exitus, sive EUOUAE perduxeris.
 
 </p>
             </sp>
-            <sp n="sp12">
+            <sp n="sp11">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Nihil in posterum mireris, <sic n="sic1">chare</sic> discipule. Nam diversi exitus pro 
 diversis festivitatibus instituti sunt, quod nempe aliter die festo duplici 
@@ -2247,7 +2176,7 @@ vel <sic n="sic2">semiduplici</sic>, et aliter simplici vel <sic n="sic3">ferial
 terminari debeant. Quamobrem <sic n="sic4">talismodi</sic> terminationes seu exitus 
 
 
-<pb n="pb5"/>
+<pb n="pb1"/>
 differentiae vocantur. Aliqui vero dicunt diversos exitus, sive differentias 
 esse a diversa modulatione antiphonae. Quacumque ex 
 ratione id factum sit, scias velim, si forte nescivisti hactenus, discipule, 
@@ -2256,18 +2185,18 @@ quod ratione fundatum non sit, institutum fuisse.
 
 </p>
             </sp>
-            <sp n="sp13">
+            <sp n="sp12">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Forte non frustra, nec sine ratione antiphonae et psalmi, per octo 
 tonos <corr n="corr1" resp="#NJ">decantantur</corr>, qui per unum decantari possent?
 
 </p>
             </sp>
-            <sp n="sp14">
+            <sp n="sp13">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Minime gentium frustra decantantur. Sed ex diversitate materiae, 
 atque rerum, diversos quoque et varios convenit esse tonos. 
@@ -2292,9 +2221,9 @@ de impetranda gratia a Deo eiusque Beata Virgine.
 
 </p>
             </sp>
-            <sp n="sp15">
+            <sp n="sp14">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Grates ago Deo, Beatae Virgini, ac tibi, magistro meo, quod in 
 omnibus plene me institutum sentiam, <sic n="sic1">quamoptime</sic> autem in eo 
@@ -2303,12 +2232,12 @@ ut cuiuscunque toni sit antiphona, necesse est ut eiusdem toni
 sit et psalmus. Itane magister?
 
 
-<pb n="pb2"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp16">
+            <sp n="sp15">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Ita quidem, et si secus fiat, tonus irregularis erit, utpote a regulis 
 nobilissimae artis deficiens. Atque talis est psalmus: In exitu Israel 
@@ -2322,17 +2251,17 @@ populi Israelitici contineat et raro canatur.
 
 </p>
             </sp>
-            <sp n="sp17">
+            <sp n="sp16">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Curiosus essem videndi hunc rarum peregrinum.
 
 </p>
             </sp>
-            <sp n="sp18">
+            <sp n="sp17">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Spe plena curiositas tua magnum animo meo attulit solatium. 
 Vide ergo, quod statim videre volebas:
@@ -2343,9 +2272,9 @@ ex septimo.
 
 </p>
             </sp>
-            <sp n="sp19">
+            <sp n="sp18">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 In exitu fuit Israel de <placeName n="placeName1">
                      <sic n="sic1">Egipto</sic>
@@ -2354,12 +2283,12 @@ antequam sciat discipulus tuus, quomodo cognoscantur toni introituum
 eorumque versuum?
 
 
-<pb n="pb2"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp20">
+            <sp n="sp19">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Hoc scies facile ex nota finali introitus et initiali subsequentis versus. 
 Nam si introitus ultima nota fuerit re, et versus prima fa, uterque 
@@ -2375,25 +2304,25 @@ non sunt tamen idem, quia initialis secundi toni est C. ut. Octavi
 autem toni est G. ut. Quod perspicies in substratis exemplis: 
 
 
-<pb n="pb2"/>
+<pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp21">
+            <sp n="sp20">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Adhuc unicum est, quod impensius te rogo, </p>
             </sp>
-            <sp n="sp22">
+            <sp n="sp21">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2"> docebis me 
+               <p n="p1"> docebis me 
 quomodo tonos responsoriorum cognoscere potero.
 
 </p>
             </sp>
-            <sp n="sp23">
+            <sp n="sp22">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Poteris facile, uti prius, ex nota finali responsorii et initiali versus. 
 Nam si responsorium finit in re, et versus incipit vel in la, vel 
@@ -2411,18 +2340,18 @@ pro prima vel ipsum ut, vel fa. Nihil te doceo sine exemplis:
 <pb n="pb1"/>
                </p>
             </sp>
-            <sp n="sp24">
+            <sp n="sp23">
                <speaker n="speaker1">Discipulus:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Postremum est, quod te rogo, dic mihi, magister, quare supra 
 aliquam syllabam textus plures notae farciuntur?
 
 </p>
             </sp>
-            <sp n="sp25">
+            <sp n="sp24">
                <speaker n="speaker1">Magister:</speaker>
-               <p n="p2">
+               <p n="p1">
 
 Ratio petenda est ex ipsis verbis textus. Quae enim verba maioris 
 sunt contemplationis, in iis syllaba aut in longius canitur aut 
@@ -2431,20 +2360,20 @@ quam harmoniae proportione. Atque haec de amabili arte musices
 amantissimo meo discipulo pro modulo dicta sufficiant. 
 </p>
             </sp>
-            <sp n="sp26">
+            <sp n="sp25">
                <speaker n="speaker1">Discipulus:</speaker>
 
-               <p n="p2">Si putas haec tuo sufficere discipulo, magister, nihil aliud iam 
+               <p n="p1">Si putas haec tuo sufficere discipulo, magister, nihil aliud iam 
 superest quam ut, pro impensis in me vigiliis tuis, mille tibi grates 
 reddam. Accesseram quidem timidus studii difficultate perterritus, 
 sed modo solum exultantis animi signis, laetus et securus 
 a te discedo.</p>
             </sp>
 
-            <sp n="sp27">
+            <sp n="sp26">
                <speaker n="speaker1">Magister:</speaker>
 
-               <p n="p2">Amabo te, ne discedas, discipule, donec una grates non agamus 
+               <p n="p1">Amabo te, ne discedas, discipule, donec una grates non agamus 
 Deo, cuius beneficio auream hanc scientiam adepti sumus ac in signum 
 <sic n="sic1">gratitudinis</sic> nostrae quaterna voce decantemus Romanum 
 Te Deum laudamus.</p>

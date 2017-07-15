@@ -52,57 +52,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="8"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -188,12 +138,12 @@
                     Clementi papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 3, f. 355.</note>
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 3, f. 355.</note>
 
 
-                <opener n="opener3">Beatissime pater et domine, domine clementissime! Post oscula pedum
+                <opener n="opener1">Beatissime pater et domine, domine clementissime! Post oscula pedum
                     Sanctitatis Vestre beatorum et mei humillimam commendationem.</opener>
-                <p n="p4">Molestissimum mihi est hec etiam pauca, que nunc ad Vestram Sanctitatem scribo,
+                <p n="p1">Molestissimum mihi est hec etiam pauca, que nunc ad Vestram Sanctitatem scribo,
                     aliena manu mihi esse scribenda. In causa est oculorum lippitudo, qua tamen
                     levari incipio et brevi penitus liberari spero. Alia Vestra Sanctitas partim ex
                     litteris regiis et domino Francisco Marsupino, partim ex litteris domini baronis
@@ -222,13 +172,13 @@
                     communi (nam et ipse regem filium sibi iure educationis vendicat) curam et
                     sollicitudinem habere. Vestre Sanctitati uti domino meo clementissimo humillime
                     supplico, dignetur me sua solita gratia prosequi.</p>
-                <closer n="closer5">Quam Deus Optimus Maximus quam diutissime felicem et incolumem conservet, in
+                <closer n="closer1">Quam Deus Optimus Maximus quam diutissime felicem et incolumem conservet, in
                     cuius gratiam me et mea servitia rursus humillime commendo. Ex Buda, ultima
                         <note n="note1" resp="BJ">26 Iacobus Sadoletus episcopus Carpentrensis, secretarius
                         pontificis summi, munere legati fungens, litterarum humaniorum cultor. Unus
                         expertorum rerum Hungaricarum praecipuorum apud Sanctam Sedem
                         Apostolicam.</note>
-                    <milestone n="milestone2" unit="page"/> novembris. MDXXV. Eiusdem Vestre Sanctitatis humilimus
+                    <milestone n="milestone1" unit="page"/> novembris. MDXXV. Eiusdem Vestre Sanctitatis humilimus
                     servulus Stephanus Brodericus</closer>
 
             </div>

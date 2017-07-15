@@ -47,58 +47,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -184,32 +133,32 @@
       <front xml:lang="lat" n="front1">
          <head n="head1">2. Jakovlye, 24. Septembris 1793.</head>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistula">
             <opener n="opener1">
                <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="p2"> Intelligo fidedigne parochos ordinationem tuam circa processiones ita
+            <p n="p1"> Intelligo fidedigne parochos ordinationem tuam circa processiones ita
     maligne intelligere quasi prohibitio haec plebi deberet publicari, id autem citra periculum
     fieri non posse aiunt.  Ubi tamen naturalis ordinationem hanc exsequendi via
     est ut illi sic dictas vicinias non publicent et, si quis e parochianis memor prioris usus
     rationem intermissionis huius deposcat, eum capacitent quod peregrinationes eiusmodi debeant
     esse voluntariae, officium autem suum sit illis, qui proficisci nolunt, ordinariam devotionem
     peragere.</p>
-            <p n="p3"> Nisi impediveris ne parochi publicationem hanc instituant, indubie
+            <p n="p2"> Nisi impediveris ne parochi publicationem hanc instituant, indubie
     complures id ita malitiose facient ut facile inde ingratus aliquis effectus sequi possit.
      Quare id tibi notificandum esse duxi, ad hoc ut tu pro tua prudentia efficax
     rei huic remedium ponas.  Ego certe eos diserte instruendos esse puto quod
     mens tua ea fuerit ne illi amplius vicinias promulgare ausint.  Qui autem aut
     id fecerit aut prohibitionem processionum plebi diserte publicaverit, eum condignas
     inobedientiae suae poenas daturum.</p>
-            <closer n="closer4">
+            <closer n="closer1">
                <salute n="salute1"> Vale, meque ut facis ama.</salute>
-               <dateline n="dateline2">Jakovlye, 24. Septembris 1793.</dateline>
+               <dateline n="dateline1">Jakovlye, 24. Septembris 1793.</dateline>
             </closer>
          </div>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="notes">
             <p n="p1">(<bibl n="bibl1">NAZ, EAE, vol. 113, nr. 33</bibl>)</p>
          </div>

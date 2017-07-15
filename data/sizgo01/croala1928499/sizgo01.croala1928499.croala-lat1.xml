@@ -60,54 +60,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="14"/>
-          <tagUsage gi="author" occurs="4"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="14"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="14"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="77"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -182,133 +135,133 @@
                 <head n="head1">
                <add n="add1">Carmina varia (P. Tremoli, 1989)</add> 
             </head>
-                <div n="div2" type="epigramma" met="elegiacum">
+                <div n="div1" type="epigramma" met="elegiacum">
                     <head n="head1">
                   <add n="add1">1.</add> Gorgis Sisgoreus de pyrone</head>
 
-                    <l n="l2">Carpo ego ficedulas, lepores, conchilia, rombos.</l>
-                    <l n="l3">Non ego quod carpo, sum miser, alter edit.</l>
+                    <l n="l1">Carpo ego ficedulas, lepores, conchilia, rombos.</l>
+                    <l n="l2">Non ego quod carpo, sum miser, alter edit.</l>
                 </div>
+
+
+                <div n="div2" type="epigramma" met="elegiacum">
+                    <head n="head1">
+                  <add n="add1">2.</add> epytaphium Gorgidos pontificis</head>
+
+                    <l n="l1">Perlege qui transis carmen breve, docte viator,</l>
+                    <l n="l2">Sarcophagus tenet hic Gorgida pontificem.</l>
+                </div>
+
 
 
                 <div n="div3" type="epigramma" met="elegiacum">
                     <head n="head1">
-                  <add n="add1">2.</add> epytaphium Gorgidos pontificis</head>
+                  <add n="add1">3.</add> ad Azzonem Phorestum physicum Gorgis <abbr n="abbr1">Sisg.</abbr>
+               </head>
 
-                    <l n="l2">Perlege qui transis carmen breve, docte viator,</l>
-                    <l n="l3">Sarcophagus tenet hic Gorgida pontificem.</l>
+                    <l n="l1">Uva Pieriis calcatur saepe puellis:</l>
+                    <l n="l2">Haec spuit inclusum nectaris uva merum.</l>
+                    <l n="l3">Dignus es et Musis et sacro nectare dignus:</l>
+                    <l n="l4">Nunc dignos gustus, si sapit, Azzo, refer.</l>
                 </div>
 
 
 
                 <div n="div4" type="epigramma" met="elegiacum">
                     <head n="head1">
-                  <add n="add1">3.</add> ad Azzonem Phorestum physicum Gorgis <abbr n="abbr2">Sisg.</abbr>
-               </head>
+                  <add n="add1">4.</add> Azzonis</head>
 
-                    <l n="l2">Uva Pieriis calcatur saepe puellis:</l>
-                    <l n="l3">Haec spuit inclusum nectaris uva merum.</l>
-                    <l n="l4">Dignus es et Musis et sacro nectare dignus:</l>
-                    <l n="l5">Nunc dignos gustus, si sapit, Azzo, refer.</l>
+                    <l n="l1">Perdulces uvae, perdulcia carmina, Gorgi,</l>
+                    <l n="l2">Ut nectar mentem corripuere meam.</l>
+                    <l n="l3">Felix qui niveas potis es concernere surras,</l>
+                    <l n="l4">Dum calcat mustum lubrica planta novum.</l>
                 </div>
 
 
 
                 <div n="div5" type="epigramma" met="elegiacum">
                     <head n="head1">
-                  <add n="add1">4.</add> Azzonis</head>
+                  <add n="add1">5.</add> peritissimo utriusque iuris doctori domino Gorgidi Priolo Gorgis
+                        Sisgoreus Sibenicensis plurimum sese commendat</head>
 
-                    <l n="l2">Perdulces uvae, perdulcia carmina, Gorgi,</l>
-                    <l n="l3">Ut nectar mentem corripuere meam.</l>
-                    <l n="l4">Felix qui niveas potis es concernere surras,</l>
-                    <l n="l5">Dum calcat mustum lubrica planta novum.</l>
+                    <l n="l1">Edite nobilium Venetorum sanguine, Gorgi,</l>
+                    <l n="l2">Quo se nunc iactat tota Priola domus,</l>
+                    <l n="l3">Me tibi commissum facio, me prebeo totum:</l>
+                    <l n="l4">Suscipe tu donum, Gorgi benigne, clarum.</l>
+                    <l n="l5"> Obtulit Eschines sic se tibi, prisca senectus,</l>
+                    <l n="l6">Cui nocuit plenis hausta cicuta cadis.</l>
+                    <l n="l7">Si hoc fuerit, meum gratum tibi sensero munus.</l>
+                    <l n="l8">Non corvus dirus, sed canit albus olor:</l>
+                    <l n="l9">"Sis felix, quotiens et te tua nomina tangant,</l>
+                    <l n="l10"> Tu totiens nostri nominis esto memor".</l>
                 </div>
 
 
 
                 <div n="div6" type="epigramma" met="elegiacum">
                     <head n="head1">
-                  <add n="add1">5.</add> peritissimo utriusque iuris doctori domino Gorgidi Priolo Gorgis
-                        Sisgoreus Sibenicensis plurimum sese commendat</head>
+                  <add n="add1">6.</add> peritissimo ac eloquentissimo viro domino Georgio Sisgoreo Sibenicensi
+                        Georgius Priolus doctus salutem plurimam dicit</head>
 
-                    <l n="l2">Edite nobilium Venetorum sanguine, Gorgi,</l>
-                    <l n="l3">Quo se nunc iactat tota Priola domus,</l>
-                    <l n="l4">Me tibi commissum facio, me prebeo totum:</l>
-                    <l n="l5">Suscipe tu donum, Gorgi benigne, clarum.</l>
-                    <l n="l6"> Obtulit Eschines sic se tibi, prisca senectus,</l>
-                    <l n="l7">Cui nocuit plenis hausta cicuta cadis.</l>
-                    <l n="l8">Si hoc fuerit, meum gratum tibi sensero munus.</l>
-                    <l n="l9">Non corvus dirus, sed canit albus olor:</l>
-                    <l n="l10">"Sis felix, quotiens et te tua nomina tangant,</l>
-                    <l n="l11"> Tu totiens nostri nominis esto memor".</l>
+                    <l n="l1">Scribere si vellem, fuerint tua carmina quantum</l>
+                    <l n="l2">Grata, prius noctes deficerentque dies.</l>
+                    <l n="l3">Nam sunt Virgilio, digni sunt versus Homero:</l>
+                    <l n="l4">Est haec Sisgoree gloria fama domus.</l>
+                    <l n="l5"> Primus erat vestrum doctor Hyeronimus, alter</l>
+                    <l n="l6">Paulus erat vestrum <corr n="corr1">Vergeriusque</corr> clarus</l>
+                    <l n="l7">Tertius es, Gorgi, Illyrica de stirpe creatus,</l>
+                    <l n="l8">Sed Sibenicensis genus es ipse prior,</l>
+                    <l n="l9">Ambrosius quamquam patria sit natus in illa,</l>
+                    <l n="l10"> Pascasium quondam qui tulit ille clarum.</l>
+                    <l n="l11">Sed non ipse tuas laudes, non ipse tuorum</l>
+                    <l n="l12">Dicam, ne videar dicere grande nimis.</l>
+                    <l n="l13">Nunc tibi commendo potius me, clare Georgi,</l>
+                    <l n="l14">Cum sis de celo dulcis Apollo clarus.</l>
+                    <l n="l15"> Vive diu, sed vive felix</l>
                 </div>
 
 
 
                 <div n="div7" type="epigramma" met="elegiacum">
                     <head n="head1">
-                  <add n="add1">6.</add> peritissimo ac eloquentissimo viro domino Georgio Sisgoreo Sibenicensi
-                        Georgius Priolus doctus salutem plurimam dicit</head>
+                  <add n="add1">7.</add> doctissimo ac eloquentissimo viro domino Petro Barocio preclaro
+                        patricio Veneto Gorgis Sisgoreus Sibenicensis plurimum se commendat</head>
 
-                    <l n="l2">Scribere si vellem, fuerint tua carmina quantum</l>
-                    <l n="l3">Grata, prius noctes deficerentque dies.</l>
-                    <l n="l4">Nam sunt Virgilio, digni sunt versus Homero:</l>
-                    <l n="l5">Est haec Sisgoree gloria fama domus.</l>
-                    <l n="l6"> Primus erat vestrum doctor Hyeronimus, alter</l>
-                    <l n="l7">Paulus erat vestrum <corr n="corr1">Vergeriusque</corr> clarus</l>
-                    <l n="l8">Tertius es, Gorgi, Illyrica de stirpe creatus,</l>
-                    <l n="l9">Sed Sibenicensis genus es ipse prior,</l>
-                    <l n="l10">Ambrosius quamquam patria sit natus in illa,</l>
-                    <l n="l11"> Pascasium quondam qui tulit ille clarum.</l>
-                    <l n="l12">Sed non ipse tuas laudes, non ipse tuorum</l>
-                    <l n="l13">Dicam, ne videar dicere grande nimis.</l>
-                    <l n="l14">Nunc tibi commendo potius me, clare Georgi,</l>
-                    <l n="l15">Cum sis de celo dulcis Apollo clarus.</l>
-                    <l n="l16"> Vive diu, sed vive felix</l>
+                    <l n="l1">Petre, decus Venetum, Barocie gloria gentis,</l>
+                    <l n="l2">Lux vatum, quos haec tempora nostra ferunt,</l>
+                    <l n="l3">Aspectu primo mirabar verba loquentis,</l>
+                    <l n="l4">Mirabar tanti dulcia gesta viri.</l>
+                    <l n="l5"> Credo tuo, doctor, latitabant pectore Musae,</l>
+                    <l n="l6">Quarum praesidio dulce videre decus.</l>
+                    <l n="l7">O domus Aoniae, domus o preclara caterve,</l>
+                    <l n="l8">O qui monstratus saepius a digito,</l>
+                    <l n="l9">Gorgi Priole, tibi meritas, celeberrime doctor,</l>
+                    <l n="l10"> Persolvo grates, carmina si qua valent.</l>
+                    <l n="l11">Me cunctis notus voluisti reddere notum.</l>
+                    <l n="l12">Novit sic paucos Scipio: notus erat.</l>
+                    <l n="l13">Hic mihi Mecenas et clarus Pollio fuit,</l>
+                    <l n="l14">Annue tu Veneti gloria magna chori.</l>
                 </div>
-
 
 
                 <div n="div8" type="epigramma" met="elegiacum">
                     <head n="head1">
-                  <add n="add1">7.</add> doctissimo ac eloquentissimo viro domino Petro Barocio preclaro
-                        patricio Veneto Gorgis Sisgoreus Sibenicensis plurimum se commendat</head>
-
-                    <l n="l2">Petre, decus Venetum, Barocie gloria gentis,</l>
-                    <l n="l3">Lux vatum, quos haec tempora nostra ferunt,</l>
-                    <l n="l4">Aspectu primo mirabar verba loquentis,</l>
-                    <l n="l5">Mirabar tanti dulcia gesta viri.</l>
-                    <l n="l6"> Credo tuo, doctor, latitabant pectore Musae,</l>
-                    <l n="l7">Quarum praesidio dulce videre decus.</l>
-                    <l n="l8">O domus Aoniae, domus o preclara caterve,</l>
-                    <l n="l9">O qui monstratus saepius a digito,</l>
-                    <l n="l10">Gorgi Priole, tibi meritas, celeberrime doctor,</l>
-                    <l n="l11"> Persolvo grates, carmina si qua valent.</l>
-                    <l n="l12">Me cunctis notus voluisti reddere notum.</l>
-                    <l n="l13">Novit sic paucos Scipio: notus erat.</l>
-                    <l n="l14">Hic mihi Mecenas et clarus Pollio fuit,</l>
-                    <l n="l15">Annue tu Veneti gloria magna chori.</l>
-                </div>
-
-
-                <div n="div9" type="epigramma" met="elegiacum">
-                    <head n="head1">
                   <add n="add1">8.</add> Petrus Barocius Georgio Sisgoreo Sibenicensi sal.</head>
 
-                    <l n="l2">Magna quidem sentis, utinam tam vera, Georgi.</l>
-                    <l n="l3">De me: falsa novus plurima suadet amor.</l>
-                    <l n="l4">Sic Helenam Atrides, cum crederet esse pudicam,</l>
-                    <l n="l5">Tunc sensit Phrygio cum fuit in thalamo;</l>
-                    <l n="l6"> Sic potuit castam censere Coronida Apollo,</l>
-                    <l n="l7">Ni corvi indicio prodita furta forent.</l>
-                    <l n="l8">Id tibi ne eveniat vereor, cum carmina nostra</l>
-                    <l n="l9">Doctrinae indicium videris exiguae,</l>
-                    <l n="l10">Sed, lux, ingenium rude sit, studiosa voluntas</l>
-                    <l n="l11"> Est mihi, cum doctis sum, mihi credo, lubens.</l>
-                    <l n="l12">Hoc facit ut nondum visum et ego primus amarem,</l>
-                    <l n="l13">Mutua mox fuerit conciliata fides.</l>
-                    <l n="l14">Alternis cupide Musis certamus utrimque,</l>
-                    <l n="l15">Sed tua quid maius Caliopea sonat.</l>
+                    <l n="l1">Magna quidem sentis, utinam tam vera, Georgi.</l>
+                    <l n="l2">De me: falsa novus plurima suadet amor.</l>
+                    <l n="l3">Sic Helenam Atrides, cum crederet esse pudicam,</l>
+                    <l n="l4">Tunc sensit Phrygio cum fuit in thalamo;</l>
+                    <l n="l5"> Sic potuit castam censere Coronida Apollo,</l>
+                    <l n="l6">Ni corvi indicio prodita furta forent.</l>
+                    <l n="l7">Id tibi ne eveniat vereor, cum carmina nostra</l>
+                    <l n="l8">Doctrinae indicium videris exiguae,</l>
+                    <l n="l9">Sed, lux, ingenium rude sit, studiosa voluntas</l>
+                    <l n="l10"> Est mihi, cum doctis sum, mihi credo, lubens.</l>
+                    <l n="l11">Hoc facit ut nondum visum et ego primus amarem,</l>
+                    <l n="l12">Mutua mox fuerit conciliata fides.</l>
+                    <l n="l13">Alternis cupide Musis certamus utrimque,</l>
+                    <l n="l14">Sed tua quid maius Caliopea sonat.</l>
                 </div>
             </div>
 
@@ -317,45 +270,45 @@
                     <add n="add1">Epigrammata Ambrosiana (ed. Perić, 1985)</add>
                 </head>
 
-                <div n="div2" type="epigramma" met="elegiacum">
+                <div n="div1" type="epigramma" met="elegiacum">
                     <head n="head1">
                   <add n="add1">1.</add> de Pyrone Gorgis Sisgoreus</head>
 
-                    <l n="l2">Carpo ego ficedulas, lepores, conchilia, rombos,</l>
-                    <l n="l3">Non edo, quod carpo: sum miser, alter edit.</l>
+                    <l n="l1">Carpo ego ficedulas, lepores, conchilia, rombos,</l>
+                    <l n="l2">Non edo, quod carpo: sum miser, alter edit.</l>
+                </div>
+
+
+
+                <div n="div2" type="epigramma" met="elegiacum">
+                    <head n="head1">
+                  <add n="add1">2.</add> epitaphium Gorgidos pontificis</head>
+
+                    <l n="l1">Perlege, qui transis, carmen breve, docte viator.</l>
+                    <l n="l2">Sarcophagus tenet hic Gorgida pontificem.</l>
                 </div>
 
 
 
                 <div n="div3" type="epigramma" met="elegiacum">
                     <head n="head1">
-                  <add n="add1">2.</add> epitaphium Gorgidos pontificis</head>
+                  <add n="add1">3.</add> ad Azzonem Phorestum physicum Gorgis Sisgoreus</head>
 
-                    <l n="l2">Perlege, qui transis, carmen breve, docte viator.</l>
-                    <l n="l3">Sarcophagus tenet hic Gorgida pontificem.</l>
+                    <l n="l1">Uva haec Pyeriis calcatur saepe puellis,</l>
+                    <l n="l2">Haec spuit inclusum nectaris uva merum.</l>
+                    <l n="l3">Dignus es et Musis et sacro nectare dignus,</l>
+                    <l n="l4">Nunc dignus gustes; si sapit, Azzo, refer.</l>
                 </div>
-
 
 
                 <div n="div4" type="epigramma" met="elegiacum">
                     <head n="head1">
-                  <add n="add1">3.</add> ad Azzonem Phorestum physicum Gorgis Sisgoreus</head>
-
-                    <l n="l2">Uva haec Pyeriis calcatur saepe puellis,</l>
-                    <l n="l3">Haec spuit inclusum nectaris uva merum.</l>
-                    <l n="l4">Dignus es et Musis et sacro nectare dignus,</l>
-                    <l n="l5">Nunc dignus gustes; si sapit, Azzo, refer.</l>
-                </div>
-
-
-                <div n="div5" type="epigramma" met="elegiacum">
-                    <head n="head1">
                   <add n="add1">4.</add> responsio Azzonis</head>
 
-                    <l n="l2">Perdulces uvae, perdulcia carmina, Gorgi,</l>
-                    <l n="l3">Ut nectar mentem corripuere meam.</l>
-                    <l n="l4">Felix, qui niveas potis es concernere formas,</l>
-                    <l n="l5">Dum calcat mustum lubrica planta novum.</l>
+                    <l n="l1">Perdulces uvae, perdulcia carmina, Gorgi,</l>
+                    <l n="l2">Ut nectar mentem corripuere meam.</l>
+                    <l n="l3">Felix, qui niveas potis es concernere formas,</l>
+                    <l n="l4">Dum calcat mustum lubrica planta novum.</l>
 
 
                 </div>

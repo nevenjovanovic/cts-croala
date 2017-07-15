@@ -47,63 +47,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="emph" occurs="5"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="name" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="16"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="49"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -195,29 +139,29 @@
       <front xml:lang="lat" n="front1">
          <head n="head1">8. Jakovlye, 28. Aprilis 1798.</head>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistula">
             <opener n="opener1">
     
                <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="p2"> Agnosco amicitiam tuam in eo quod primis statim adventus tui diebus tantum
+            <p n="p1"> Agnosco amicitiam tuam in eo quod primis statim adventus tui diebus tantum
     temporis decerpere volueris ut me litteris tuis convenire possis.  Gratias
     etiam tibi refero pro novis quae mihi significasti.  Sunt quidem et haec
     tristia, magis tamen me sollicitum habent ea quae postea cum legato Gallico evenerunt.
      Quaeso te significa mihi an spes supersit rem hanc ita componendi ne in
     bellum erumpat?  Uti et an, prout hic fertur, idem eodem plane die legatus
     Gallicus etiam Berolini attentarit?  Et si ita, quo eventu?</p>
-            <p n="p3"> Turca etiam apparatus bellicos in dies magis intendit. 
+            <p n="p2"> Turca etiam apparatus bellicos in dies magis intendit. 
     Non possum in animum meum inducere ut tantam vim contra unum bassam parari credam.
      Non possum etiam mihi persuadere quod apparatus hi contra Moscoviam
     dirigantur.  Metuo proinde ne haec nobis propinentur. 
     Leva me, si potes, hac etiam sollicitudine.</p>
-            <p n="p4"> De Reinvetler hactenus nihil.  Si intellexeris mihi
+            <p n="p3"> De Reinvetler hactenus nihil.  Si intellexeris mihi
     consulto non responderi, quaeso te significa mihi causam huius aenigmatis. 
     Ad meam in causa Pethoiana instantiam resolutio aut iam prodivit aut certe proxime emanabit.
      Rogo te ut iam discedentem rogavi.</p>
-            <p n="p5"> Si quid conferre potes ad id ut proiectum internae hospitalis
+            <p n="p4"> Si quid conferre potes ad id ut proiectum internae hospitalis
     regulationis per Vlassichium, negotium vero de erigendo novo capitalis huiatis scholae
     aedificio per Langium proximius conficiatur, rem publico 
     <pb n="pb1"/>
@@ -228,52 +172,52 @@
     aedificio alere velis; de deponendo vero aestimationali aedificii huius pretio se nullam a te
     accepisse instructionem.  Quare deputatio illum requisivit ut tuam de eo
     mentem per litteras exquirat.</p>
-            <p n="p6"> Optassem quidem ut in proposito tuos pauperes eorsum<note n="note1" place="foot">
-                  <p n="p1">8,21 tuos <name n="name1">Kolanović</name> ] duos <emph n="emph2">MS</emph> | eorsum] seorsum
-     <name n="name3">Kolanović</name>
+            <p n="p5"> Optassem quidem ut in proposito tuos pauperes eorsum<note n="note1" place="foot">
+                  <p n="p1">8,21 tuos <name n="name1">Kolanović</name> ] duos <emph n="emph1">MS</emph> | eorsum] seorsum
+     <name n="name2">Kolanović</name>
                   </p>
                </note> mittendi, quod mihi manifestaveras, perstitisses.  Interea, si iam
     de eo aliter apud te constituisti, quaeso te per omnia, ne exsolutionem adminus aedificii
     aestimationali pretio difficultes, id enim convelleret totum, iam altissimo etiam foro
     approbatum, fundationalium xenodochii capitalium schema, praesertim cum tuo exemplo iam
     Capitulum etiam vacillare incipiat circa aedificii sui seu licitationem seu exsolutionem.</p>
-            <p n="p7"> Et cum propter reliquas circa transferendos in festo sanctae Margarethae
-    pauperes dispositiones tuam hac <add n="add1">in</add> re<note n="note2" place="foot">
+            <p n="p6"> Et cum propter reliquas circa transferendos in festo sanctae Margarethae
+    pauperes dispositiones tuam hac <add n="add1">in</add> re<note n="note1" place="foot">
                   <p n="p1">8,23 hac in re] in <emph n="emph1">addidi</emph>
                   </p>
                </note> mentem quantocius scire intersit, quaeso te rescribe proximius et mihi et tuo homini.</p>
-            <p n="p8"> Propter certam combinationem, quam hic describere taediosum foret, scire
+            <p n="p7"> Propter certam combinationem, quam hic describere taediosum foret, scire
     cupio an societas canalem Colapianum sequente anno effective resumptura sit?
      Id tu ab ipso comite Aponyi tutissime rescire potes. 
     Quare quaeso te, fac me de eo certiorem, uti et de eo qualis adminus prospectiva sit
     regulandae Dalmatiae et Croatici Litoralis, praesertim in linea vectigalis? 
     Metuo vehementer ne noster Districtus commercialis, qui me frustra reluctante ad Flumen
     applicitus est, hac occasione a iurisdictione Sacrae coronae avellatur.</p>
-            <p n="p9"> Ceterum recordaberis quod Archenholtz in sua <emph n="emph1">Minerva</emph>
+            <p n="p8"> Ceterum recordaberis quod Archenholtz in sua <emph n="emph1">Minerva</emph>
     memorabile illud brochure, quod de Potemkin prodiit, per frusta edat.  Ego
     non dubito quod brochure illud etiam secus haberi possit, si adsit homo qui illud perquirere
     et constituere sciat.  Cum tu habeas eiusmodi hominem, brochure autem illud
     vix aliquod grossos constare possit, oro te, praesta mihi hanc amicitiam et illud pro me
     constitue; aveo enim 
-    <pb n="pb2"/>
-    vehementer illud habere, cum sit pendant ad<note n="note3" place="foot">
+    <pb n="pb1"/>
+    vehementer illud habere, cum sit pendant ad<note n="note1" place="foot">
                   <p n="p1">8,30 <emph n="emph1">post</emph> pendant ad <emph n="emph2">delevit auctor</emph> illum</p>
                </note> libellum de Catharina Secunda, quem mihi dedisti.</p>
-            <p n="p10"> Non obliviscaris ultimam, quae de Bottany Bay exstat, relationem
+            <p n="p9"> Non obliviscaris ultimam, quae de Bottany Bay exstat, relationem
     procurare.  Accipiet indubie colonia illa notabilia e conspiratione, quae in
     Irlandia detecta est, supplementa.  Forte detectio haec meditatum a Gallis
     descensum evanescere faciet; ego enim in eam nunc delapsus sum opinionem quod hi descensum
     unice sub spe conspirationis huius decreverint.</p>
-            <p n="p11"> Ego per hanc paucorum licet adhuc dierum rusticationem vires meas recepi
+            <p n="p10"> Ego per hanc paucorum licet adhuc dierum rusticationem vires meas recepi
     et commode valeo.  Cupio ut tu quoque sanus agas et confectis prospere
     negotiis tuis ad nos proximius revertaris. </p>
-            <closer n="closer12">
+            <closer n="closer1">
                <salute n="salute1"> Vale meque, ut facis, ama.</salute>
-               <dateline n="dateline2">Jakovlye, 28. Aprilis 1798.</dateline>
+               <dateline n="dateline1">Jakovlye, 28. Aprilis 1798.</dateline>
             </closer>
          </div>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="notes">
             <p n="p1">
                <bibl n="bibl1">(NAZ, EAE, vol. 115, nr. 32.)</bibl>

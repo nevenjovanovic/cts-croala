@@ -51,57 +51,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="3"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6" withId="1"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -177,28 +127,28 @@
          <div n="div1" type="prosa-epistula">
             <head n="head1">Ad illyricae linguae studiosos.</head>
 
-            <p n="p2">
+            <p n="p1">
                
                
                
                Illyricae linguae <corr n="corr1" resp="#NJ">Institutiones</corr>, quas multi exoptabant, modo praepropera fortasse festinatione, si minus omni ex parte perfectas, pro viribus certe alacriter studioseque confeci. Nemo enim adhuc extiterat (quod sciam) quem authorem sequi possem, cuius praecepta de illyrico sermone litteris consignata prodierint. Neque vero ut opus hoc primus aggrederer inducere animum potuissem, nisi eorum accessisset authoritas, quorum voluntati nefas est repugnare. Quo autem ipsi consilio id fecerint, ut et nostra e Societate delecti nonnulli in hac lingua perdiscenda studium suum atque operam collocarent et, quo iis discendi labor minueretur, eiusdem linguae Institutiones aliquae conscriberentur, facile is, ut opinor, intelliget, cui sit exploratum, quo in loco apud Illyricos hoc tempore res christiana versetur. Nam, sive ob diuturnam ac miseram cum religionis catholicae hostibus consuetudinem, sive ob magnam doctorum proborumque pastorum penuriam, innumerabiles propemodum in tantis tenebris inscitiae iacent, ut cetera quae ex inscitiae oriuntur mala taceantur, ut ne prima quidem christianae religionis elementa satis illorum plerisque sint nota.
             </p>
-            <p n="p3">
+            <p n="p2">
                Quare sapienter est a nostrae Societatis moderatoribus constitutum, ut eius nationis lingua vernacula, quae apud plurimos populos latissime patet, addiscatur ab iis, qui ad eos erudiendos idonei censeantur. Etenim non videbatur satis instituti nostri rationibus convenire, cum tam multi ex nostris hominibus in extremos orientis occidentisque fines mittantur assidue, qui in variis illarum gentium dialectis cognoscendis insudent, quae gentes nunquam antea christianis institutae sunt legibus, ut cum iis de beata vita facilius agi possit; nationes aliae prope finitimae deserantur, quae christianae atque avitae religionis nomen retinentes, ob unam rerum cognoscendarum agendarumque ignorationem a maiorum suorum dignitate splendoreque degenerent, ac tanquam incultae arbores paulatim silvescentes infructuosae reddantur.
             </p>
-            <p n="p4">
+            <p n="p3">
                Quapropter quoad per temporis angustias licuit, linguae huius de octo partibus orationis praecepta colligere ac certa quadam via rationeque tractare sum conatus, quo facilius ac celerius possint eo quo intendunt, qui eius perdicendae sunt cupidi, pervenire. Quod, si cui forte longiores Institutiones huiusmodi videbuntur, eum oro, ne ab instituto cursu propterea retardetur. Etenim nec pauca sunt perspicuitatis potius causa proposita et pleraque ceterorum similia nullam fere novam difficultatem afferunt ad cognoscendum. Equidem in spem venio fore, ut multi harum Institutionum beneficio, qualescumque tandem illae sint, si vel pari industria atque in latinam vel graeca lingua solent in huius cognitione elaborent, non minores brevi in ea processus esse facturos. Quod autem de orationis constructione quam vocant pauca quaedam dumtaxat eaque universe tradiderim, nemo iure mirabitur, qui meminerit reliqua vel cum aliis quas norint linguis esse communia, vel usu potius et exercitatione quam doctrinae praeceptis contineri, vel non facile simul omnia ad artem posse revocari.
             </p>
-            <closer n="closer5">
+            <closer n="closer1">
                Valete. <dateline n="dateline1">
                   <placeName n="placeName1">
                      <expan n="expan1">Romae</expan>
-                  </placeName>, <date n="date2" when="1604-04-17">15. <expan n="expan1">Kalendas</expan> Maias <expan n="expan2">anno</expan> 1604.</date> 
+                  </placeName>, <date n="date1" when="1604-04-17">15. <expan n="expan1">Kalendas</expan> Maias <expan n="expan2">anno</expan> 1604.</date> 
                </dateline>
             </closer>             
             
          </div>
-         <gap n="gap2" reason="omisit-editor"/>
+         <gap n="gap1" reason="omisit-editor"/>
       </body>
    </text>
 </TEI>

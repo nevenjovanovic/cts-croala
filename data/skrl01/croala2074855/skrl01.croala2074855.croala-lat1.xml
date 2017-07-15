@@ -47,61 +47,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="emph" occurs="4"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="11"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -193,30 +139,30 @@
       <front xml:lang="lat" n="front1">
          <head n="head1">9. Jakovlye, 21. Iulii 1798.</head>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistula">
             <opener n="opener1">
     
                <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="p2"> In praeiudicium iteratarum legum hactenus nullus Croata potuit penetrare
+            <p n="p1"> In praeiudicium iteratarum legum hactenus nullus Croata potuit penetrare
     ad Septemviratum; nullus autem propiorem ad id spem habere potuit, quam noster Millos qui
     antea per octo, ut credo, annos in nostra Districtuali tabula, nunc vero in Regia, iam in
     undecimum annum servit.  Nuper dum ad semel novae<note n="note1" place="foot">
                   <p n="p1">9,2 novae <emph n="emph1">Kolanović</emph> ] ovae <emph n="emph2">MS; fortasse </emph> duae</p>
                </note> vacantiae in Septemviratu enatae fuissent, 
-    <pb n="pb2"/>
+    <pb n="pb1"/>
     porrexit ille instantiam, una et palatini patrocinium imploravit, qui id illi benigne
     addixit.  Sed tunc Bernath, titulo religionis (quia praedecessor eius fuit
     acatholicus), Németh vero ex alia politica causa nominati sunt.</p>
-            <p n="p3"> Nunc improvisa huius promotio novam vacantiam facit, pro qua palatinus
+            <p n="p2"> Nunc improvisa huius promotio novam vacantiam facit, pro qua palatinus
     nullum adhuc praenotatum.<note n="note1" place="foot">
                   <p n="p1">9,4 praenotatum] <emph n="emph1">sic; fortasse auctori in animo erat </emph> praenotatum habet</p>
                </note>  Quare repetit Millos suam instantiam et palatini patrocinium denuo
     implorat.  Putat tamen ad optatum eventum plurimum conferre posse, si tu
     quoque vices tuas suis locis et modis interponas.  Ut id facias, hac posta,
     ut mihi dixit, te exorat, rogavit tamen me, ut ego quoque id tibi velim commendare.</p>
-            <p n="p4"> Facio id tanto libentius et quod ipse quoque anxie desiderem ut Croatam in
+            <p n="p3"> Facio id tanto libentius et quod ipse quoque anxie desiderem ut Croatam in
     illo quoque dicasterio collocatum videre possim, et quod te ipsa hac de causa id libenter
     praestiturum sperem.  Chare amice, nisi tu id tibi cordi sumas, per reliquos,
     qui nunc in altioribus subseliis sedent, gentiles nostros nullus unquam Croata ad aliquod
@@ -231,11 +177,11 @@
                   <p n="p1">9,13 Sau...] <emph n="emph1">In MS-to quattuor puncta.</emph>
                   </p>
                </note> agere.</p>
-            <pb n="pb5"/>
-            <p n="p6"> Si negotium succederet, posses eadem occasione efficere ut Millosio
+            <pb n="pb1"/>
+            <p n="p4"> Si negotium succederet, posses eadem occasione efficere ut Millosio
     Iosephus Petrovich vel, si huic ius suum publicum adhuc obstat, ille, quem iudicares, gentilis
     noster succedat.</p>
-            <p n="p7"> Ne quid tamen dissimulem, cum Németh valde parum Germanice sciat, vereor
+            <p n="p5"> Ne quid tamen dissimulem, cum Németh valde parum Germanice sciat, vereor
     ut collatum sibi munus acceptet.  Puto tamen interesse ut tu negotium in
     omnem casum urgeas; si enim Németh officium deprecabitur, forte eo rem perducere poteris ut
     adminus pro proxima vacantia Millos praenotetur.  Ita ego quondam operabar,
@@ -243,13 +189,13 @@
     provexerim.  Tu maiorem adhuc ac ego quondam influxum habere potes.
      Utere illo in bonum Patriae.  Non exiquum, crede mihi,
     exinde solatium in senectute tua capies. </p>
-            <closer n="closer8">
+            <closer n="closer1">
                <salute n="salute1"> Vale meque ut facis ama.</salute>
-               <dateline n="dateline2">Jakovlye, 21. Iulii 1798.</dateline>
+               <dateline n="dateline1">Jakovlye, 21. Iulii 1798.</dateline>
             </closer>
          </div>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="notes">
             <p n="p1">
                <bibl n="bibl1">(NAZ, EAE, vol. 115, nr. 49)</bibl>

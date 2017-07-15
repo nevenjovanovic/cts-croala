@@ -49,60 +49,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="docDate" occurs="1"/>
-          <tagUsage gi="docImprint" occurs="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="6"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -169,12 +116,12 @@ Prvi unos.
    <text xml:base="urn:cts:croala:nimira_martin_01.croala511697.croala-lat1:" xml:lang="lat">
       <front xml:lang="lat" n="front1">
          <docAuthor n="docAuthor1">Aristotelis</docAuthor>
-         <docTitle n="docTitle2">
+         <docTitle n="docTitle1">
             <titlePart n="titlePart1">Politicorum libri VIII</titlePart>
          </docTitle>
     
-         <docImprint n="docImprint3">Impressum est hoc opus Rome per Magistrum Eucharium Silber: alias Franck:</docImprint>
-         <docDate n="docDate4">Absolutumque die Jouis. xiiii. Kal. Aug. Anno dni. MCCCC.XCII.</docDate>
+         <docImprint n="docImprint1">Impressum est hoc opus Rome per Magistrum Eucharium Silber: alias Franck:</docImprint>
+         <docDate n="docDate1">Absolutumque die Jouis. xiiii. Kal. Aug. Anno dni. MCCCC.XCII.</docDate>
     
         
          
@@ -182,22 +129,22 @@ Prvi unos.
 
     
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <p n="p1"/>
-         <gap n="gap2" reason="inaccessum"/>
+         <gap n="gap1" reason="inaccessum"/>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="epigramma" met="elegiacum">
             <head n="head1">
-               <persName n="persName1">M. Nimireus</persName> Lectori <abbr n="abbr2">S.</abbr>
+               <persName n="persName1">M. Nimireus</persName> Lectori <abbr n="abbr1">S.</abbr>
             </head>
 
-            <l n="l2">Qui cupis imperio populis dare jura sagaci</l>
-            <l n="l3">Et qui non nisi fronte parere cupis,</l>
-            <l n="l4">Si te perpetuo nullis quaesita triumphis</l>
-            <l n="l5">Pax juvat et Pietas Urbis et alma fides,</l>
-            <l n="l6">Accipe <persName n="persName1">Aristotelis</persName> praeclara volumina Lector</l>
-            <l n="l7">Seu pareas seu tu Sceptra verenda tenes.</l>
+            <l n="l1">Qui cupis imperio populis dare jura sagaci</l>
+            <l n="l2">Et qui non nisi fronte parere cupis,</l>
+            <l n="l3">Si te perpetuo nullis quaesita triumphis</l>
+            <l n="l4">Pax juvat et Pietas Urbis et alma fides,</l>
+            <l n="l5">Accipe <persName n="persName1">Aristotelis</persName> praeclara volumina Lector</l>
+            <l n="l6">Seu pareas seu tu Sceptra verenda tenes.</l>
 
 
          </div>

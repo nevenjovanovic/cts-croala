@@ -42,53 +42,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="9"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="8"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="unclear" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -169,15 +123,15 @@
                 <l n="l3">Prebet sub mellis dulcedine pocula fellis.</l>
                 <l n="l4">Cuncta relinquentur nec plus hic invenientur.</l>
                 <l n="l5">Nonne vides mundum miserum et in omnibus nudum?</l>
-                <note n="note6">[correxi ex undum]</note>
-                <l n="l7">Omnibus hoc Leo dico ne se dent inimico,</l>
-                <l n="l8">Nam sic viventes facit et miseros et egentes.</l>
-                <l n="l9">Cordis in aure repone me moriente Leone</l>
-                <l n="l10">Abiectoque foris ceno carnalis amoris.</l>
+                <note n="note1">[correxi ex undum]</note>
+                <l n="l6">Omnibus hoc Leo dico ne se dent inimico,</l>
+                <l n="l7">Nam sic viventes facit et miseros et egentes.</l>
+                <l n="l8">Cordis in aure repone me moriente Leone</l>
+                <l n="l9">Abiectoque foris ceno carnalis amoris.</l>
 
-                <p n="p11">Dominus Leo <unclear n="unclear1">Cacete</unclear> istum elegit locum sue quietis pro se et suo filio
+                <p n="p1">Dominus Leo <unclear n="unclear1">Cacete</unclear> istum elegit locum sue quietis pro se et suo filio
                     Stephano ac suis omnibus heredibus, in quo loco et quiescit sepultus.</p>
-                <closer n="closer12">
+                <closer n="closer1">
                <date n="date1">Anno Domini MCCXCVI, mense Decembri, die XX.</date>
             </closer>
             </div>

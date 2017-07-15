@@ -40,52 +40,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="31"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="38"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -158,37 +113,37 @@
             <head n="head1">
    Carmen macaronicum in Crisienses 1792.
 </head>
-            <l n="l2">Forte per horvacko Marcus Trbuša viator</l>
-            <l n="l3">Selo ibat, notus Musis notusque molosis</l>
-            <l n="l4">Publica cesta fuit, cucki tacuere jacentes</l>
-            <l n="l5">V koprivju, praeerat dum pago trabula, kangya,</l>
-            <l n="l6">Imo et tota comusorum gens repe movebat</l>
-            <l n="l7">Veselo, quotiens Trbušam praetereuntem</l>
-            <l n="l8">Viderat ex klada; ast modo quae conversio! kakti</l>
-            <l n="l9">Stekli omnes lajant, cviliunt et lampe minaces</l>
-            <l n="l10">Ostentat, gubce crispant et kundrave sursum</l>
-            <l n="l11">Repe levant, quasi vuk Trbuša foret, comus inde</l>
-            <l n="l12">Prosilit ex stobor, saltat čez plote Popiško,</l>
-            <l n="l13">Foetidus ex kuhnja prodivit Šarko relicto</l>
-            <l n="l14">Napoj; hinc Pepeljuh, Garov et čorava Citra,</l>
-            <l n="l15">Masnec cum Kurtek, Belin et šantava Liska</l>
-            <l n="l16">Irruit in pugnam; režant, lajant, tuliuntque.</l>
-            <l n="l17">Quid Trbuša facit? placat, rukaque minatur;</l>
-            <l n="l18">Quae rabies coepit vos cucki! Marcus ego sum</l>
-            <l n="l19">Inquit, v kraj pogani! Nil prodest, imo Melampus</l>
-            <l n="l20">Fortis vukodlak et psina audacior unus</l>
-            <l n="l21">Insiluit na blizu, et vix non, bogme, momordit.</l>
-            <l n="l22">Viderat hunc tristem casum Kalnikia vila.</l>
-            <l n="l23">Vila, memor Marci, custos vernissima recti,</l>
-            <l n="l24">Ne timeas! inquit, kučkas, Trbuša cliens, sic</l>
-            <l n="l25">Mos psorum est, lajant, sed nullum grizere possunt</l>
-            <l n="l26">Pišivi dentes; nil mirum si tibi ruljce</l>
-            <l n="l27">Ostentant domini qui pišavere cothurnos,</l>
-            <l n="l28">Sic moneo, vučkom tu macaronice canta</l>
-            <l n="l29">Carmina, dum kefkant rabidi, sprotimque tacebunt.</l>
-            <l n="l30">Hoc Marcus sequitur monitum, i nut desinit av, vav,</l>
-            <l n="l31">Unum omnes kolec erecto crure spirantes</l>
-            <l n="l32">Mirni contractis kundris v <corr n="corr1">koprivje</corr> redibant.</l>
+            <l n="l1">Forte per horvacko Marcus Trbuša viator</l>
+            <l n="l2">Selo ibat, notus Musis notusque molosis</l>
+            <l n="l3">Publica cesta fuit, cucki tacuere jacentes</l>
+            <l n="l4">V koprivju, praeerat dum pago trabula, kangya,</l>
+            <l n="l5">Imo et tota comusorum gens repe movebat</l>
+            <l n="l6">Veselo, quotiens Trbušam praetereuntem</l>
+            <l n="l7">Viderat ex klada; ast modo quae conversio! kakti</l>
+            <l n="l8">Stekli omnes lajant, cviliunt et lampe minaces</l>
+            <l n="l9">Ostentat, gubce crispant et kundrave sursum</l>
+            <l n="l10">Repe levant, quasi vuk Trbuša foret, comus inde</l>
+            <l n="l11">Prosilit ex stobor, saltat čez plote Popiško,</l>
+            <l n="l12">Foetidus ex kuhnja prodivit Šarko relicto</l>
+            <l n="l13">Napoj; hinc Pepeljuh, Garov et čorava Citra,</l>
+            <l n="l14">Masnec cum Kurtek, Belin et šantava Liska</l>
+            <l n="l15">Irruit in pugnam; režant, lajant, tuliuntque.</l>
+            <l n="l16">Quid Trbuša facit? placat, rukaque minatur;</l>
+            <l n="l17">Quae rabies coepit vos cucki! Marcus ego sum</l>
+            <l n="l18">Inquit, v kraj pogani! Nil prodest, imo Melampus</l>
+            <l n="l19">Fortis vukodlak et psina audacior unus</l>
+            <l n="l20">Insiluit na blizu, et vix non, bogme, momordit.</l>
+            <l n="l21">Viderat hunc tristem casum Kalnikia vila.</l>
+            <l n="l22">Vila, memor Marci, custos vernissima recti,</l>
+            <l n="l23">Ne timeas! inquit, kučkas, Trbuša cliens, sic</l>
+            <l n="l24">Mos psorum est, lajant, sed nullum grizere possunt</l>
+            <l n="l25">Pišivi dentes; nil mirum si tibi ruljce</l>
+            <l n="l26">Ostentant domini qui pišavere cothurnos,</l>
+            <l n="l27">Sic moneo, vučkom tu macaronice canta</l>
+            <l n="l28">Carmina, dum kefkant rabidi, sprotimque tacebunt.</l>
+            <l n="l29">Hoc Marcus sequitur monitum, i nut desinit av, vav,</l>
+            <l n="l30">Unum omnes kolec erecto crure spirantes</l>
+            <l n="l31">Mirni contractis kundris v <corr n="corr1">koprivje</corr> redibant.</l>
          </div>
       </body>
    </text>

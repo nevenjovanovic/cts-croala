@@ -48,55 +48,7 @@
                     <p>This pointer pattern extracts line</p>
                 </cRefPattern>
             </refsDecl>
-        <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="cRefPattern" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="70"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="refsDecl" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="6"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="42"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+        
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -165,78 +117,78 @@
             <div n="div1" met="elegiacum">
                 <head n="head1">Joannes Lipauich post pestem Tragurium rediens composuit</head>
                
-            <l n="l2">Salue terra tuo populo priuata, diu quae</l>
-            <l n="l3" met="pentameter">crudeli morbo languida facta sedes</l>
-            <l n="l4">Salue iterum quoniam pestis demissa periclo es</l>
-            <l n="l5" met="pentameter">et quia concessa est iam tibi grata quies,</l>
-            <l n="l6">Salue etiam quod nec metuit te nec fugit hospes</l>
-            <l n="l7" met="pentameter">securus iam te quisquis adire potest.</l>
-            <l n="l8">Pulcra prius fueras Veneta vel pulcrior urbe</l>
-            <l n="l9" met="pentameter">quae velut in celo candida luna nitet,</l>
-            <l n="l10">magnifica et quamvis stet lucida marmore et auro</l>
-            <l n="l11" met="pentameter">non est illa tamen te mihi cara magis.</l>
-            <l n="l12">Tu mihi sola decens, tu cara et pulcra videris,</l>
-            <l n="l13" met="pentameter">judice me nulla est anteponenda tibi.</l>
-            <l n="l14">Tu mihi te referas tam dulcem tamque suauem</l>
-            <l n="l15" met="pentameter">et tam jocundam miror ut ipse quidem</l>
-            <l n="l16">an sum percupidus te. Longo tempore uixi</l>
-            <l n="l17" met="pentameter">a te, luce mea, dissociatus enim.</l>
-            <l n="l18">An dolor et morbi <sic n="sic1">grauuiter</sic> quos passa fuisti</l>
-            <l n="l19" met="pentameter">te reddunt quod sis carior inde mihi,</l>
-            <l n="l20">Ac uelut alba dies in noctem uertitur atram,</l>
-            <l n="l21" met="pentameter">cum uenit ex alto sceua procella mari,</l>
-            <l n="l22">insurgunt tenebrae, uentorum magna furit uis,</l>
-            <l n="l23" met="pentameter">mixtaque cum crebro fulgure grando ruit,</l>
-            <l n="l24">at postquam boreas incumbit pulsu ab antro</l>
-            <l n="l25" met="pentameter">Aeolio, tum nox atra repente fugit</l>
-            <l n="l26">Sol redit et radiis armatis undique terram</l>
-            <l n="l27" met="pentameter">illustrans subito cuncta serena patent.</l>
-            <l n="l28">Post tempestates exactas splendidior lux</l>
-            <l n="l29" met="pentameter">semper et <sic n="sic1">aparet</sic> tunc speciosa dies.</l>
-            <l n="l30">Sic tu, Tracurium, dulcis mea dulcis alumna,</l>
-            <l n="l31" met="pentameter">cara prius fueras, at modo immo magis</l>
-            <l n="l32">En semel atque iterum flectis mea lumina tectis</l>
-            <l n="l33" met="pentameter">nec possis oculos persatiare meos.</l>
-            <l n="l34">Est opere pretium sic te spectare locatam</l>
-            <l n="l35" met="pentameter">et modo mirari, qualiter ipsa mones.</l>
-            <l n="l36">Te uaga percurrens circumfluit unda marina,</l>
-            <l n="l37" met="pentameter">ne prope te veniat barbarus hostis equo.</l>
-            <l n="l38">Te pons a dextra levi de marmore ductus</l>
-            <l n="l39" met="pentameter">te quoque planities lata decorat ibi.</l>
-            <l n="l40">Illic circumstans <sic n="sic1">ortorum</sic> copia magna</l>
-            <l n="l41" met="pentameter">herbarum uario semper odore uirent,</l>
-            <l n="l42">desuper est campus famosus nectare Bacchi,</l>
-            <l n="l43" met="pentameter">hic legitur dulcis ficus et <sic n="sic1">una</sic> frequens,</l>
-            <l n="l44">melliflue fruges hic pendent arbore multa,</l>
-            <l n="l45" met="pentameter">hic micat et sacra Pallade pinguis ager,</l>
-            <l n="l46">parte sed a leva Cerers iacet insula diues,</l>
-            <l n="l47" met="pentameter">cuius arant totidem jugera <sic n="sic1">mile</sic> boues.</l>
-            <l n="l48">Te igitur mediam diuino munere nutrit</l>
-            <l n="l49" met="pentameter">hac seges hac Bacchus fertilitate sua.</l>
-            <l n="l50">Tu procul excelsum templum templique cacumen</l>
-            <l n="l51" met="pentameter">erectasqua aperis candida terra domos,</l>
-            <l n="l52">tu tribus ostendens ornatam turribus arcem</l>
-            <l n="l53" met="pentameter">inuitas ciues ad sua uota tuos.</l>
-            <l n="l54">Hospitium dignare tuum prebere fugatis</l>
-            <l n="l55" met="pentameter">iam satis est nobis te sine longa dies.</l>
-            <l n="l56">Aduuentu et nostro nimium letaris amica</l>
-            <l n="l57" met="pentameter">presertim domini qui tibi jura dabit.</l>
-            <l n="l58">Hic Uincislaus de Rippa quem loquor hic est</l>
-            <l n="l59" met="pentameter">cuius in aeternum fama perhennis erit,</l>
-            <l n="l60">Justicia populo miseris pietate uir iste</l>
-            <l n="l61" met="pentameter">nam placet et superis religione deis.</l>
-            <l n="l62">Gaude igitur postquam Veneti decreta senatus</l>
-            <l n="l63" met="pentameter">hunc tibi pretorem constituere uirum.</l>
-            <l n="l64">Hic est ille quidem fatis promissus ab aeuo</l>
-            <l n="l65" met="pentameter">aurea qui reducet secula prisca tibi.</l>
-            <l n="l66">Plebs ammissa cito reparetur germine prolis,</l>
-            <l n="l67" met="pentameter">quae tibi felices afferat usque dies.</l>
-            <l n="l68">Progeniem Lucina nouam iam duplicet et iam</l>
-            <l n="l69" met="pentameter">pensa trahit Lachesis de meliore colo.</l>
-            <l n="l70">Saluator mundi sic <sic n="sic1">anuet</sic> aure benigna</l>
-            <l n="l71" met="pentameter">non meritis nostris sed pietate sua.</l>
+            <l n="l1">Salue terra tuo populo priuata, diu quae</l>
+            <l n="l2" met="pentameter">crudeli morbo languida facta sedes</l>
+            <l n="l3">Salue iterum quoniam pestis demissa periclo es</l>
+            <l n="l4" met="pentameter">et quia concessa est iam tibi grata quies,</l>
+            <l n="l5">Salue etiam quod nec metuit te nec fugit hospes</l>
+            <l n="l6" met="pentameter">securus iam te quisquis adire potest.</l>
+            <l n="l7">Pulcra prius fueras Veneta vel pulcrior urbe</l>
+            <l n="l8" met="pentameter">quae velut in celo candida luna nitet,</l>
+            <l n="l9">magnifica et quamvis stet lucida marmore et auro</l>
+            <l n="l10" met="pentameter">non est illa tamen te mihi cara magis.</l>
+            <l n="l11">Tu mihi sola decens, tu cara et pulcra videris,</l>
+            <l n="l12" met="pentameter">judice me nulla est anteponenda tibi.</l>
+            <l n="l13">Tu mihi te referas tam dulcem tamque suauem</l>
+            <l n="l14" met="pentameter">et tam jocundam miror ut ipse quidem</l>
+            <l n="l15">an sum percupidus te. Longo tempore uixi</l>
+            <l n="l16" met="pentameter">a te, luce mea, dissociatus enim.</l>
+            <l n="l17">An dolor et morbi <sic n="sic1">grauuiter</sic> quos passa fuisti</l>
+            <l n="l18" met="pentameter">te reddunt quod sis carior inde mihi,</l>
+            <l n="l19">Ac uelut alba dies in noctem uertitur atram,</l>
+            <l n="l20" met="pentameter">cum uenit ex alto sceua procella mari,</l>
+            <l n="l21">insurgunt tenebrae, uentorum magna furit uis,</l>
+            <l n="l22" met="pentameter">mixtaque cum crebro fulgure grando ruit,</l>
+            <l n="l23">at postquam boreas incumbit pulsu ab antro</l>
+            <l n="l24" met="pentameter">Aeolio, tum nox atra repente fugit</l>
+            <l n="l25">Sol redit et radiis armatis undique terram</l>
+            <l n="l26" met="pentameter">illustrans subito cuncta serena patent.</l>
+            <l n="l27">Post tempestates exactas splendidior lux</l>
+            <l n="l28" met="pentameter">semper et <sic n="sic1">aparet</sic> tunc speciosa dies.</l>
+            <l n="l29">Sic tu, Tracurium, dulcis mea dulcis alumna,</l>
+            <l n="l30" met="pentameter">cara prius fueras, at modo immo magis</l>
+            <l n="l31">En semel atque iterum flectis mea lumina tectis</l>
+            <l n="l32" met="pentameter">nec possis oculos persatiare meos.</l>
+            <l n="l33">Est opere pretium sic te spectare locatam</l>
+            <l n="l34" met="pentameter">et modo mirari, qualiter ipsa mones.</l>
+            <l n="l35">Te uaga percurrens circumfluit unda marina,</l>
+            <l n="l36" met="pentameter">ne prope te veniat barbarus hostis equo.</l>
+            <l n="l37">Te pons a dextra levi de marmore ductus</l>
+            <l n="l38" met="pentameter">te quoque planities lata decorat ibi.</l>
+            <l n="l39">Illic circumstans <sic n="sic1">ortorum</sic> copia magna</l>
+            <l n="l40" met="pentameter">herbarum uario semper odore uirent,</l>
+            <l n="l41">desuper est campus famosus nectare Bacchi,</l>
+            <l n="l42" met="pentameter">hic legitur dulcis ficus et <sic n="sic1">una</sic> frequens,</l>
+            <l n="l43">melliflue fruges hic pendent arbore multa,</l>
+            <l n="l44" met="pentameter">hic micat et sacra Pallade pinguis ager,</l>
+            <l n="l45">parte sed a leva Cerers iacet insula diues,</l>
+            <l n="l46" met="pentameter">cuius arant totidem jugera <sic n="sic1">mile</sic> boues.</l>
+            <l n="l47">Te igitur mediam diuino munere nutrit</l>
+            <l n="l48" met="pentameter">hac seges hac Bacchus fertilitate sua.</l>
+            <l n="l49">Tu procul excelsum templum templique cacumen</l>
+            <l n="l50" met="pentameter">erectasqua aperis candida terra domos,</l>
+            <l n="l51">tu tribus ostendens ornatam turribus arcem</l>
+            <l n="l52" met="pentameter">inuitas ciues ad sua uota tuos.</l>
+            <l n="l53">Hospitium dignare tuum prebere fugatis</l>
+            <l n="l54" met="pentameter">iam satis est nobis te sine longa dies.</l>
+            <l n="l55">Aduuentu et nostro nimium letaris amica</l>
+            <l n="l56" met="pentameter">presertim domini qui tibi jura dabit.</l>
+            <l n="l57">Hic Uincislaus de Rippa quem loquor hic est</l>
+            <l n="l58" met="pentameter">cuius in aeternum fama perhennis erit,</l>
+            <l n="l59">Justicia populo miseris pietate uir iste</l>
+            <l n="l60" met="pentameter">nam placet et superis religione deis.</l>
+            <l n="l61">Gaude igitur postquam Veneti decreta senatus</l>
+            <l n="l62" met="pentameter">hunc tibi pretorem constituere uirum.</l>
+            <l n="l63">Hic est ille quidem fatis promissus ab aeuo</l>
+            <l n="l64" met="pentameter">aurea qui reducet secula prisca tibi.</l>
+            <l n="l65">Plebs ammissa cito reparetur germine prolis,</l>
+            <l n="l66" met="pentameter">quae tibi felices afferat usque dies.</l>
+            <l n="l67">Progeniem Lucina nouam iam duplicet et iam</l>
+            <l n="l68" met="pentameter">pensa trahit Lachesis de meliore colo.</l>
+            <l n="l69">Saluator mundi sic <sic n="sic1">anuet</sic> aure benigna</l>
+            <l n="l70" met="pentameter">non meritis nostris sed pietate sua.</l>
 
-                <closer n="closer72">Finis.</closer>
+                <closer n="closer1">Finis.</closer>
                 
             </div>
         </body>

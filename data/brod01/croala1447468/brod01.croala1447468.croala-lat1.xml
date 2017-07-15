@@ -52,60 +52,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -191,24 +138,24 @@
                     papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 4, f. 142r. Editio: KUJÁNI 1908, n. IV, p.
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 4, f. 142r. Editio: KUJÁNI 1908, n. IV, p.
                     263. Translatio hung.: V. KOVÁCS 1971, n. 269, p. 563–564.</note>
 
 
-                <opener n="opener3">
+                <opener n="opener1">
                <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
                     domino nostro, summo pontifici, domino meo clementissimo Sanctissime Pater,
                     Domine, Domine Clementissime! Servitutis commendationem post pedum Vestrae
                     Sanctitatis oscula beatorum.</opener>
-                <p n="p4">In litteris, quas mitto ad dominum Baronem, perscripsi omnia, quę hic aguntur.
+                <p n="p1">In litteris, quas mitto ad dominum Baronem, perscripsi omnia, quę hic aguntur.
                     Quas ita inscripsi, ut, si dominus Baro non adesset, perlegantur nihilominus a
                     Vestra Sanctitate. De me nescio, quid dicam aliud, nisi quod per Baronem
                     suplicavi et prius sepe commendavi, semel per litteras. Nescio quo me
                         <expan n="expan1">vertere</expan>, alio, nisi ad Vestram Sanctitatem, cui servire cupio
                     imperpetuum. Alia littere ad Baronem continebunt.</p>
-                <closer n="closer5">Me et meam servitutem in gratiam eiusdem humilime commendo. Quam Deus
+                <closer n="closer1">Me et meam servitutem in gratiam eiusdem humilime commendo. Quam Deus
                     conservet semper felicem et incolumem. Posonii iiii Octobris 1526</closer>
-                <postscript n="postscript6">
+                <postscript n="postscript1">
                     <p n="p1">Vestra Sanctitas videt aperte non iam pericula neque damna nostra, sed
                         ruinam, ex nostra autem ruina ruinam tocius Christianitatis. Oro et obsecro
                         per amorem Dei omnipotentis, faciat pacem in Christianitate. Summantur arma
@@ -216,10 +163,10 @@
                         dubio iam peribimus funditus. Sed certe neque alii Christiani
                         permanebunt.</p>
                 </postscript>
-                <signed n="signed7">Vestre Sanctitatis humilimus servitor et capellanus Stephanus Brodericus
+                <signed n="signed1">Vestre Sanctitatis humilimus servitor et capellanus Stephanus Brodericus
                     infelix infelicis regis et regni cancellarius</signed>
 
-                <milestone n="milestone8" unit="page"/>
+                <milestone n="milestone1" unit="page"/>
             </div>
         </body>
     </text>

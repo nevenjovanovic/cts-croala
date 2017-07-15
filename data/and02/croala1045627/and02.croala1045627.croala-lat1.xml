@@ -55,55 +55,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1" withId="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="11"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="1"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="11" withId="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -185,9 +137,9 @@
             <div n="div1" type="prosa-epistula" xml:id="fta-av02" corresp="#andreisvrancic15381003">
                 <opener n="opener1">Franciscus Andronicus Tranquillus Antonio Wrancio S.</opener>
 
-                <note n="note2">(3. Oct. 1538.; Szalay 6, 19)</note>
+                <note n="note1">(3. Oct. 1538.; Szalay 6, 19)</note>
 
-                <p n="p3">Binas tuas litteras hodie accepi, alteras kalendis Augusti, alteras quinto nonas
+                <p n="p1">Binas tuas litteras hodie accepi, alteras kalendis Augusti, alteras quinto nonas
                     Octobris datas. Prioribus vehementer fuissem offensus si jam ad injurias non
                     obduruissem. His enim amarulenter me proscindis praeter naturam et consuetudinem
                     tuam ac etiam praeter meritum meum, nisi fortasse veritas coepit apud vos
@@ -214,10 +166,10 @@
                     Quaecunque autem fortuna mihi acciderit, eam voluntate Dei concedi mihi non
                     dubito. Itaque nec prosperis exultandum nec adversis dejici debere judico. Omnia
                     nempe humana fragilia sunt et caduca mutationibusque obnoxia. </p>
-                <closer n="closer4">Rogo ut integram benevolentiam erga me serves et bene vale ac fortunam
+                <closer n="closer1">Rogo ut integram benevolentiam erga me serves et bene vale ac fortunam
                     reverenter habe. Haec pluribus verbis debui rescribere nisi temporis angustia
                     fuissem prohibitus. In <placeName n="placeName1">Naghfalw</placeName>
-                    <date n="date2" when="1538-10-03">V. non Octobris MDXXXVIII.</date>
+                    <date n="date1" when="1538-10-03">V. non Octobris MDXXXVIII.</date>
             </closer>
             </div>
         </body>

@@ -62,64 +62,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="74"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="4"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="3"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="3"/>
-          <tagUsage gi="hi" occurs="296"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="256"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="42"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="357"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="46"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="6"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="13"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -203,10 +146,10 @@
           illustrioribus, et antiquioribus familiis ejusdem Urbis, Archidiaconi, et Juris utriusque
           Doctoris, qui presens omnibus interfuit. Anno 1571 </titlePart>
          </docTitle>
-        <div n="div2" type="prosa-dedicatio">
+        <div n="div1" type="prosa-dedicatio">
             <opener n="opener1">
                <expan n="expan1">Serenissi</expan>mo D. D. Duci Nicolao de Ponte Antonius Rosaneus Corcyr.</opener>
-            <p n="p2">Ne tam insigne Dei benefitium ingratus celando supressisse videar quodam animi ardore
+            <p n="p1">Ne tam insigne Dei benefitium ingratus celando supressisse videar quodam animi ardore
             incensus memorabilem Civitatis Curzulensis deffensionem jampridem a me conscriptam sub
             nomine proprii Auctoris (quando aliter per sacras leges non licet) in lucem edere,
             gloriae Dei, et consolationi fidelium arbitratus sum nonnihil expedire. Scio non
@@ -237,10 +180,10 @@
             reddat votorum suorum compotes.</p>
         </div>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
           <div n="div1" type="prosa-historia">
             <head n="head1">Antonii Rosanei Corcyrae Melenae Opus</head>
-            <p n="p2">Assiduis percontationibus eorum, qui conservationem opiduli Corcyrae Melenae Patriae
+            <p n="p1">Assiduis percontationibus eorum, qui conservationem opiduli Corcyrae Melenae Patriae
               meae miram quidem, et divino adscribendam Numini admirantes, seriem tam praeclari
               facinoris toties a me repetunt, hoc brevi comentariolo<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">u rukopisu prepravljeno iz "compendiolo“</note>
@@ -249,7 +192,7 @@
               eo in praelio certissimam adfuisse, sicuti servulum non es dedignata in iis omnibus
               dirrigere, ita quoque manum, et calamum per veritatis semitas in tua praeconia, et
               gratiarum actiones precor deducito.</p>
-            <p n="p3">Selimus, perfidus Turcarum Tyrannus, Othomanicae fraudis<hi n="hi1" rend="sup">
+            <p n="p2">Selimus, perfidus Turcarum Tyrannus, Othomanicae fraudis<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz "grandis“</note>
                </hi>, non ut Solimanus pater
               dissimulator, sed ex professo haeres, et alumnus faedifrago bello Venetis Cyprum pene
@@ -258,8 +201,8 @@
                   Famagustam D</note>
                </hi> Famagustam jam anno ante ademerat, rebusque secundis
               elatus classem innumerabilem ex Helesponto, et aliis tam Aphricae, et Asiae, quam
-              Europae <sic n="sic3">natalibus</sic>
-               <hi n="hi4" rend="sup">
+              Europae <sic n="sic1">natalibus</sic>
+               <hi n="hi3" rend="sup">
                   <note place="foot" n="note1">natalibus Z: navalibus
                   D</note>
                </hi>ad Euboeam Calendis Maii convenire jussit. Ibi dum epibatis militibus
@@ -269,33 +212,33 @@
               pernicitatis naves praeter onerarias sub altero ductore Pertavú nominato optime
               munitus offendit, easque in Christianorum damna praesertim Venetorum educit. Fama apud
               nostros de hujusmodi classe crebrescebat, trepidabaturque passim a nostris. Turcae
-              vero in confinibus in dies graviora minabantur.<hi n="hi5" rend="sup">
+              vero in confinibus in dies graviora minabantur.<hi n="hi4" rend="sup">
                   <note place="foot" n="note1">minabantur. Tamen Z: minabantur. Res Veneta in maximum discrimen deducta erat.
                   Tamen...D</note>
                </hi> Tamen Summus Pontifex Pius V. opera Marci Antonii Columnae
               nutantes Venetos confirmavit, et ad confoederationem suam una cum Hispaniarum Rege
-              Philippo II contra Turcas optimis conditionibus vix post Idus Maii protraxit<hi n="hi6" rend="sup">
+              Philippo II contra Turcas optimis conditionibus vix post Idus Maii protraxit<hi n="hi5" rend="sup">
                   <note place="foot" n="note1">protraxit Z: pertraxit D</note>
                </hi>. Segniter
               quidem ea confoederatio compacta est cum ab anno praeterito de ea captum fuerit
-              tractari in causa fuerant suspitiones seditionum<hi n="hi7" rend="sup">
+              tractari in causa fuerant suspitiones seditionum<hi n="hi6" rend="sup">
                   <note place="foot" n="note1">captum fuerit....seditionum Z: captum facit tractari. In causa fuerant
                   suspiciones conditionum.</note>
                </hi>. Classis Veneta erat copiosa, sed dissipata
               pars in Creta sub Marco Quirino, et Antonio Canali insulam custodiebat, altera major
               Imperatorem rerum maritimarum Sebastianum Venerium, et Augustinum Barbadicum ejus
-              legatum secuta se receperat in Sciciliam, Messanae <add n="add8">operiens</add>
-               <hi n="hi9" rend="sup">
+              legatum secuta se receperat in Sciciliam, Messanae <add n="add1">operiens</add>
+               <hi n="hi7" rend="sup">
                   <note place="foot" n="note1">operiens: aperiens Z</note>
                </hi> 
-               <milestone unit="page" n="milestone10"/>ex Hispania
+               <milestone unit="page" n="milestone1"/>ex Hispania
               Philippae classis adventum. Interim hostis, quacunque ingrediebatur, totum
-                <add n="add11">pelagus</add>
-               <hi n="hi12" rend="sup">
+                <add n="add2">pelagus</add>
+               <hi n="hi8" rend="sup">
                   <note place="foot" n="note1">pelagus: pelagis
                 Z</note>
                </hi> velorum linteis contegebat, quocunque applicabat praedas agebat,
-              incendia, et sanguinem miscebat. Citheron insulam pene totam devastavit<hi n="hi13" rend="sup">
+              incendia, et sanguinem miscebat. Citheron insulam pene totam devastavit<hi n="hi9" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz "devastasit“</note>
                </hi>, Rethimum
               Urbem Dictaeam ab incolis destitutam cum nobilissimis aedibus succendit, et inde
@@ -310,27 +253,27 @@
               Antibarim quoque nullis prorsus vexatam armis simili deditione suscepit, in hoc tantum
               fide servata, quod Sarram et Praetores Alchiniensem, et Antibarensem cum paucis
               Ragusii exponi fecit. Caeteros tum milites, tum oppidanos praesertim qui abire juxta
-              condictum volebant captivos remigio addixit. Quin et Alchiniensium plerique eo ***<hi n="hi14" rend="sup">
+              condictum volebant captivos remigio addixit. Quin et Alchiniensium plerique eo ***<hi n="hi10" rend="sup">
                   <note place="foot" n="note1">eo *** nequicquam Z: eo quo se nequicquam
                   D</note>
                </hi> nequicquam tuerentur miserime trucidati sunt, aliis vero, qui se
               quietos in Turcarum ingressu continuerant, dimissi sunt vitam in patria nece
               miserabiliorem degere.</p>
-            <p n="p4">Antequam haec in sinu Adriatico ab hostili classe gererentur, ecce repente ad quartum
+            <p n="p3">Antequam haec in sinu Adriatico ab hostili classe gererentur, ecce repente ad quartum
               nonas Augusti praedones nostri, quos Illirico vocabulo <sic n="sic1">Usocos</sic> 
-               <hi n="hi2" rend="sup">
+               <hi n="hi1" rend="sup">
                   <note place="foot" n="note1">sc. Uscocos</note>
                </hi>, idest transultores, seu potius
               transfugas appellare solemus redeuntes ab Epiro nobis Meleneis nuntiarunt, Alchinium
               esse in periculo ab exercitu terrestri seque in pelago vidisse multitudinem velorum
               non procul ab Alchinio, et vix evasisse, neque scire, quae vela sint, suspicari tamen
-              esse Caracosiam piratam cum lintribus celocibus ***<hi n="hi3" rend="sup">
+              esse Caracosiam piratam cum lintribus celocibus ***<hi n="hi2" rend="sup">
                   <note place="foot" n="note1">celocibus *** et aliis Z: celocibus Nicoparonibus et aliis D</note>
                </hi> et
               aliis expeditis piraticis remigiis. Postero die quidam Perastini (quae natio est
               degentium in pago Perasti prope Rizanum) in scapha, relicta majori nave, remigio
               elapsi retulerunt, esse classem Turcicam sub Alchinio, seque praecipiti fuga
-              consuluisse. Neque tamen eis<milestone unit="page" n="milestone4"/>fidem praestitimus: non enim credi posse videbatur
+              consuluisse. Neque tamen eis<milestone unit="page" n="milestone1"/>fidem praestitimus: non enim credi posse videbatur
               ausuram hostilem classem intima sinus nostri penetrare dimissa post tergum
               Christianorum classe, suspensi tamen animo in terrores, et extrema quaeque
               diffluebamus, nec erat praesto ulla consilii capiendi ratio. Perastini quotquot erant
@@ -341,7 +284,7 @@
               supervenisse totam classem hosticam, captumque vereri Alchinium. Subsecuti sunt
               rumores incerti ex Epidauro Illyrica, quae hodie Ragusium dicitur adijcientes
               deditionem Antibarensium, et Cathari periculum, ac totius Illyrici perniciem.</p>
-            <p n="p5">Est ara moenibus innixa juxta portam australem Deiparae Virgini, et Divo Bartholomaeo
+            <p n="p4">Est ara moenibus innixa juxta portam australem Deiparae Virgini, et Divo Bartholomaeo
               a majoribus nostris ob rem in festo excoriationis suae bene gestam in Aragoniam
               classem dedicata sacrificulum tantum cum duobus, vel tribus ministris fornice
               protegens opere trabali cancellato ab area publica seclusa. Ibi quotannis ipso die
@@ -361,11 +304,11 @@
                   <note place="foot" n="note1">scriba ipse delevit</note>
                </hi> incidit. Duo
               haec audivi, potestas Dei est, et tibi Domine misericordia.</p>
-            <p n="p6">Hinc orsus in medio sacrorum hujusmodi verba habuit. Audistis viri probi, Patres,
+            <p n="p5">Hinc orsus in medio sacrorum hujusmodi verba habuit. Audistis viri probi, Patres,
               Fratres, ac filioli in Christo dilectissimi. Audistis inquam Davidis sententiam a me
               modo praelectam. Considerate quaeso in ea Dei duas potissimas virtutes, <milestone unit="page" n="milestone1"/>quarum
               altera nihil divinae majestati impossibile esse testatur altera solum nostri
-              commiserationem illi tribuit, quam ipse Deus in nos sit misericors<hi n="hi2" rend="sup">
+              commiserationem illi tribuit, quam ipse Deus in nos sit misericors<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">tribuit...misericors Z: tribuit, ut nemo hominum in se ipsum
                   magis pius esse possit, quam ipse Deus in nos sit misericors. D</note>
                </hi>. Certe
@@ -377,8 +320,8 @@
               suspicamur Deo potentiores? Absit hoc a nobis, qui Deum omnia quaecumque velit in
               coelo, et in terra facere confitemur. An forte divinam pietatem a nobis aversam
               veremur? Hoc quidem suspicari licet, ita tamen, ut nemo nostrum desperet nobis ipsis
-              potestatem ab eodem Optimi <sic n="sic3">Maximi</sic> 
-               <note place="foot" n="note4">Optimi
+              potestatem ab eodem Optimi <sic n="sic1">Maximi</sic> 
+               <note place="foot" n="note1">Optimi
                   Maximi Z: Optimo Maximo D</note> fieri commiserationis suae recuperandae.
               Nunquam misericordiae suae potest oblivisci Deus. Nos sumus, qui inter pietatem
               divinam, et nostram imbecillitatem obicem scelerum interponimus, ne auxilium divinae
@@ -395,10 +338,10 @@
               clementiam. Opportebat prius praevidere poenam et abstinere a delictis. Nunc autem,
               postquam in omni delictorum genere delectati sumus, non opportet purgationem timere,
               sed eam alacriter suscipere in medelam animarum nostrarum. Sed quid dico nos delictis
-              delectatos? Quasi non adhuc eis delectemur?<milestone unit="page" n="milestone5"/>[Penitus Utinam nulla mortifera]<hi n="hi6" rend="sup">
+              delectatos? Quasi non adhuc eis delectemur?<milestone unit="page" n="milestone2"/>[Penitus Utinam nulla mortifera]<hi n="hi2" rend="sup">
                   <note place="foot" n="note1">scriba ipse delevit</note>
                </hi> Utinam penitus
-                superstitiones<hi n="hi7" rend="sup">
+                superstitiones<hi n="hi3" rend="sup">
                   <note place="foot" n="note1">Utinam penitus superstitiones
                   napisano iznad prekriženog teksta</note>
                </hi> fornicationes, adulteria,
@@ -421,8 +364,8 @@
               praeclaris. Si consistant adversum me castra non timebo, et alia hujusmodi verba, quae
               quotidie ore, et labiis recolimus, corde autem, et opere adimplere recusamus. Audite
               Fratres. Ego vobis nunquam suaserim tentare Deum, ut vos martyrio offeratis. Scio enim
-              nostram <add n="add8">omnium</add>
-               <hi n="hi9" rend="sup">
+              nostram <add n="add1">omnium</add>
+               <hi n="hi4" rend="sup">
                   <note place="foot" n="note1">omnium D: omniam
                   Z</note>
                </hi> infirmitatem. Persuadeo tamen, et hortor quemlibet vestrum potius
@@ -431,7 +374,7 @@
               fine punitio. Et in hoc adhortationem meam superfluam esse censeo, ita enim vos
               animatos conspicio, ut non sit adhortandi locus. Aliud est, quod vos commonere velim;
               Ut video, fugam molimini. Nec probo, nec reprobo. Sed viam, qua sit fugiendum ignoro.
-              <milestone unit="page" n="milestone10"/>Totum mare undique ab omni latere fervet piratis Narentanis, Novianis,
+              <milestone unit="page" n="milestone3"/>Totum mare undique ab omni latere fervet piratis Narentanis, Novianis,
               Apolloniensibus, et aliis hostibus, qui nos circumdederunt. Ab Oriente tota classis
               Turcica fere quadrigentarum triremium jam in sinu Rizonico, aut fortasse ad Epidaurum
               vel vicinius appropinquavit. Ab occidente praemissae ab eadem classe triginta triremes
@@ -440,8 +383,8 @@
               secludimur, et quod deterius est hostium circumdamur insidiis. Videte igitur ne forte
               (quod Deus avertat) majus incidant periculum, qui evadere cupiunt. Si tamen abeundum
               censetis, Deus vos comitetur. Ego qui vitam, non minus charam, quam vos, habeo,
-              nequaquam abire statui, sed hic <add n="add11">operiens</add>
-               <hi n="hi12" rend="sup">
+              nequaquam abire statui, sed hic <add n="add2">operiens</add>
+               <hi n="hi5" rend="sup">
                   <note place="foot" n="note1">operiens D: aperiens Z</note>
                </hi> experiar (ut solet dici) quid fortuna
               ferat. Arbitror enim classem hostilem nequaquam ultra sinum Rizonicum sive Epidaurum
@@ -457,14 +400,14 @@
               Bartholomaeo Apostolo, et Marco Evangelistae sacrata, Patres nostros non Aragoniam
               classem evitasse, sed intra haec ipsa moenia sponte inclusos impetum hostilem fortiter
               repulisse. At nos a majoribus acceptam deseremus? Procul sit a nobis tanta turpitudo.
-              Sed neque navigiorum vobis <hi n="hi13" rend="sup">
+              Sed neque navigiorum vobis <hi n="hi6" rend="sup">
                   <note place="foot" n="note1">vobis copia Z:
                   vobis tanta copia D</note>
                </hi> copia suppetit, ut omnes avehi possitis. Recedant
-              imbecilliores, periclitaturi quidem majori periculo quam nos, qui <hi n="hi14" rend="sup">
+              imbecilliores, periclitaturi quidem majori periculo quam nos, qui <hi n="hi7" rend="sup">
                   <note place="foot" n="note1">qui nihil Z: qui hic nihil D</note>
                </hi> nihil aliud, quam
-              validam manum timemus. Vos autem<milestone unit="page" n="milestone15"/> Matres optimae ne quaeso turbetis virorum
+              validam manum timemus. Vos autem<milestone unit="page" n="milestone4"/> Matres optimae ne quaeso turbetis virorum
               consilia, ne ejuletis tenerorum pignorum animas. Creator Deus amat vos, et pignora
               vestra, et in amando superat maternum amorem vestrum. Commendate vos omnipotenti, et
               piissimo Deo. Confugite ad clementissimam Matrem misericordiae. Si enim ipsa ostendet
@@ -472,13 +415,13 @@
               miserebitur nostri in millibus suarum miserationum. Procumbite ante tutelares Divos
               Bartholomaeum, et Marcum, quorum suffraggiis stant haec moenia, supplices orate, et
               exorabitis. Oratio coelum penetrat, vim Deo facit, exercitus conterit, et
-              potentioribus <add n="add16">ruentibus</add>
-               <hi n="hi17" rend="sup">
+              potentioribus <add n="add3">ruentibus</add>
+               <hi n="hi8" rend="sup">
                   <note place="foot" n="note1">ruentibus D:
                   mentibus Z</note>
                </hi> humiles roborat, et confirmat. His dictis sacra
-              prosequimur, et absolvimus. Plebecula mussitabat alius [alius] <add n="add18">aliud</add>
-               <hi n="hi19" rend="sup">
+              prosequimur, et absolvimus. Plebecula mussitabat alius [alius] <add n="add4">aliud</add>
+               <hi n="hi9" rend="sup">
                   <note place="foot" n="note1">aliud D: alium Z</note>
                </hi> quisque pro suo
               ingenio. Inter coeteros quidam vanitatibus praesagiorum intendentes vel forsan
@@ -487,8 +430,8 @@
               in canali nostro, et circa civitatem videramus, modo natantes in mari solum versari,
               modo avolantes in insulam vineas depascere) usque ab Euxino Ponto venisse, et
               praecedere Turcicam classem, aut solum significare Turcas vittis albis caput obligatos
-              ad destructionem nostram <add n="add20">venturos</add>
-               <hi n="hi21" rend="sup">
+              ad destructionem nostram <add n="add5">venturos</add>
+               <hi n="hi10" rend="sup">
                   <note place="foot" n="note1">venturos D: ventura Z</note>
                </hi>. Interim opulentiores ad navigia suas arcas
               mittere caeperant. Supervenere nuntii de Ragusio unus post alium, et ut quisque erat
@@ -496,23 +439,23 @@
               naves comportant, nec quisquam fuit, qui labori pepercerit, ita ut in angustiis
               portarum alter alterum comprimeret. Praeerat civitati juvenis, nec admodum rerum
               peritus, nec peritioribus confisus. Hic a duobus mensibus citra magistratum occeperat,
-              et intra hoc tam<hi n="hi22" rend="sup">
+              et intra hoc tam<hi n="hi11" rend="sup">
                   <note place="foot" n="note1">“tam” upisano iznad teksta
                 </note>
                </hi> breve spatium nemini non fuerat gravis. Tamen a triduo remiserat
               institutum, et tractabiliorem se praestabat. Is ubi omnia asportari vidit, statim
               portas civitatis seris, vectibusque obseravit. Tum caepere alii e manibus res suas
               deturbare, alii capsas ad portas instruem congerere alii aliis impedimento esse;
-              miserabile erat<milestone unit="page" n="milestone23"/> spectaculum; ita ut in ipso actu senior quidam collacrymans
+              miserabile erat<milestone unit="page" n="milestone5"/> spectaculum; ita ut in ipso actu senior quidam collacrymans
               diceret: Haec facies Trojae cum caperetur erat. Praetor autem quamvis familia Venetis
               dimissa non multam suppelectilem secum aduxisset, tamen et ipse famulam cum universis
-              rebus super navigium in <add n="add24">portum</add>
-               <hi n="hi25" rend="sup">
+              rebus super navigium in <add n="add6">portum</add>
+               <hi n="hi12" rend="sup">
                   <note place="foot" n="note1">portum
                   D: portu Z</note>
                </hi> emiserat, et insuper lembum Perastinorum, qui praedandi
               causa redierant sero oblitum cum sex robustissimis remigibus conductum centum viginti
-              solidis aureis pro se reservabat. Adventante vespere crebrescebant<hi n="hi26" rend="sup">
+              solidis aureis pro se reservabat. Adventante vespere crebrescebant<hi n="hi13" rend="sup">
                   <note place="foot" n="note1">crebrescebant Z: crescebant D</note>
                </hi> rumores varii, et
               incerti. Mulieres trepidae per urbem cursitabant rogantes se emitti in navigia, et in
@@ -524,31 +467,31 @@
               monasterio suo, quod est in scopulo majori procul ab urbe duo millia passuum ex
               orientali parte jampridem crucifixi immaginem mirificam, et aliam divae Virginis
               Mariae Matris Domini picturam in aede Omnium sanctorum intra urbem collocaverant,
-              postea accincti fugae Virgineam<hi n="hi27" rend="sup">
+              postea accincti fugae Virgineam<hi n="hi14" rend="sup">
                   <note place="foot" n="note1">Virgineam Z:
                   Virginis D</note>
                </hi> illam venerabilem figuram cum ornamentis preciosissimis ex
               eadem aede Sanctorum Omnium extractam in lembo, quo erant recessuri deposuerant
-              crucifixi signum<hi n="hi28" rend="sup">
+              crucifixi signum<hi n="hi15" rend="sup">
                   <note place="foot" n="note1">signum Z: lignum
                 D</note>
                </hi> propter cymbae incomoditatem relinquentes. Tanta repente procella
               exorta est, ut ex imo fundo ad coelum usque fluctus attolli, et reluctantibus invicem
-                ventis<hi n="hi29" rend="sup">
+                ventis<hi n="hi16" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz
                 "ventibus“</note>
                </hi> omnia vorticibus in abyssum devorari viderentur. Ex qua
               procella postea percepimus sub Alchinio septem Turcarum triremes in statione periisse,
-              et multas alias inter se collisas fuisse. <add n="add30">Perterrefacti</add>
-               <hi n="hi31" rend="sup">
+              et multas alias inter se collisas fuisse. <add n="add7">Perterrefacti</add>
+               <hi n="hi17" rend="sup">
                   <note place="foot" n="note1">perterrefacti D: pertemefacti Z</note>
                </hi> Fratres arbitrati
               tempestatem ea de causa a numine divino fuisse, commotam statim imaginem in loco, unde
               sustulerant cum omnibus ornamentis reponunt, inde sedato mari deserentes monasterium
               cum campanis etiam in campanili relictis omnes quotquot erant fugam inierunt, relicto
-              in civitate utroque<milestone unit="page" n="milestone32"/> tam charo pignore. Digni certe animadversione, quippe qui
+              in civitate utroque<milestone unit="page" n="milestone6"/> tam charo pignore. Digni certe animadversione, quippe qui
               mortis contemptum professi, tamen ne signo quidem coelesti moniti hebetem animi
-              timorem intra se colligerent, ut vel uno tantum ***<hi n="hi33" rend="sup">
+              timorem intra se colligerent, ut vel uno tantum ***<hi n="hi18" rend="sup">
                   <note place="foot" n="note1">tantum *** famulo Z: tantum saltem famulo</note>
                </hi> famulo religionis
               causa periclitarentur. Sed aliorum exemplo parcendum est et eis, quamvis Narentani
@@ -557,8 +500,8 @@
               provinciae, qui auferre ornamenta pretiosa ab eadem imagine nitebantur, quos remisimus
               unde venerant, vacuos, et si erubescentiae compotes fuerunt erubescentes. Sed haec
               missa facio. Ad rem pergo. Nostri, qui rectum cursum navigando tenuerant omnes
-              incolumes primo die Pharum, altero Jadram vento nimium <add n="add34">favente</add>
-               <hi n="hi35" rend="sup">
+              incolumes primo die Pharum, altero Jadram vento nimium <add n="add8">favente</add>
+               <hi n="hi19" rend="sup">
                   <note place="foot" n="note1">favente D: faventi Z</note>
                </hi> navigarunt, ita ut
               Jadrenses tot velis Nostrorum, ac Pharensium procul conspectis suspicati fuerint
@@ -572,39 +515,39 @@
               regione Augustae inter Melenam, et Melitam. Nocte sequenti illi Novienses extra
               insulam nostram avecti, et tenebrarum silentio in portum ab incolis Gherschiza
               nominatum egressi sub tribus vexillis summo mane a parte australi super pagum Blattae
-              non ante visi<hi n="hi36" rend="sup">
+              non ante visi<hi n="hi20" rend="sup">
                   <note place="foot" n="note1">promijenjeno iz nisi</note>
                </hi>
               sunt, quam clamor vigilum hostes adesse nuntiaverit. Vigiles tametsi praeadmoniti cum
               toto pago a Civitate fuerant de adventu Noviensium in Julianam, tamen obdormierant, et
               adventum non senserant, sed postea expergefacti post terga praetereuntium inimicorum
-              acclamantes, statim se sub latibulis silvarum abdiderant, in dormitione quidem<milestone unit="page" n="milestone37"/>
-              criminosi, sed in acclamatione multis<hi n="hi38" rend="sup">
+              acclamantes, statim se sub latibulis silvarum abdiderant, in dormitione quidem<milestone unit="page" n="milestone7"/>
+              criminosi, sed in acclamatione multis<hi n="hi21" rend="sup">
                   <note place="foot" n="note1">multis
                   Z: multi D</note>
                </hi> salubres. Ad eam vociferationem quotquot valuere pedibus
-              fugam in *** <hi n="hi39" rend="sup">
+              fugam in *** <hi n="hi22" rend="sup">
                   <note place="foot" n="note1">in*** caeperunt Z: in diversa
                   caeperunt D</note>
                </hi> caeperunt. Turcae vero tria agmina direxerant. Unum in
               clivo australi, unde venerant substitit, aliud praedabatur singulas villas. Tertium in
               medio pagi stabat in armis subsidio praedatorum. Est ille pagus totius insulae
               maximus, et trecentos armatos strenuos vel uno sibillo consuevit unire, sed tunc pars
-              eorum in <add n="add40">civitatem</add>
-               <hi n="hi41" rend="sup">
+              eorum in <add n="add9">civitatem</add>
+               <hi n="hi23" rend="sup">
                   <note place="foot" n="note1">civitatem D:
                   civitate Z</note>
                </hi> ad custodiam urbis evocati pars jam multo ante in triremes
               Venetorum coacti pars in silvis abditi proprias sedes sine praesidio reliquerant.
-              Itaque praedatores totum illud *** <hi n="hi42" rend="sup">
+              Itaque praedatores totum illud *** <hi n="hi24" rend="sup">
                   <note place="foot" n="note1">illud ***
                   depopulati Z: illud Rus depopulati D</note>
                </hi>depopulati 50 animas abduxere,
               quarum nulla fuit nisi, vel puerilis, vel foeminea praeter Simonem Simoneti. Tres
-              senes, quorum unus<add n="add43">nomine Pellegrinus</add> erat cecus, et tres anus trucidarunt.
+              senes, quorum unus<add n="add10">nomine Pellegrinus</add> erat cecus, et tres anus trucidarunt.
               Tres enim vulneratos dimisere, quorum unus nomine Pellegrinus Chersineus in altam
               amygdalum se recipiens sagittis plurimis confossus adhuc superstes est. Alter Nicolaus
-                Castropileus<hi n="hi44" rend="sup">
+                Castropileus<hi n="hi25" rend="sup">
                   <note place="foot" n="note1">ispravljeno iz
                   Casropilleus</note>
                </hi> domi jam oppressus, et e manibus, ac vinculis elapsus
@@ -621,12 +564,12 @@
               Patavinae Ecclesiae sacerdotis, et patri Joannis Petrei, qui fuerat inter secundos a
               secretis Ferrantis Gonzagae in Mediolano, et ejus uxori in extrema orbitate inopia,
               squallore, ac decrepitate jacentibus ingratam vitam pepercerunt. Alterum quod inter
-              eos inventus fuerit qui clam a caeteris ex <milestone unit="page" n="milestone45"/>[ex] ipsa navi infantem octo dierum
+              eos inventus fuerit qui clam a caeteris ex <milestone unit="page" n="milestone8"/>[ex] ipsa navi infantem octo dierum
               mulieri claudae nuper illic captae tradiderit deferendum suae matri. Cognitis in
-              civitate iis<hi n="hi46" rend="sup">
+              civitate iis<hi n="hi26" rend="sup">
                   <note place="foot" n="note1">iis Z: his D</note>
                </hi>, quae in
-              Blattensi rure ab hostibus gesta fuerant <hi n="hi47" rend="sup">
+              Blattensi rure ab hostibus gesta fuerant <hi n="hi27" rend="sup">
                   <note place="foot" n="note1">fuerant hostibus Z: fuerant inter nos luctus deinde etiam tumultus exoritur.
                   Universi enim rurales, sub praetextu invisendi suos, et colligendi, si quae
                   superfuerant hostibus D</note>
@@ -639,12 +582,12 @@
               tendere mirifice urbem teruere. Nos rati eas esse semitriremes, quae Blattense rus
               invaserant, cum aliquibus aliis, quae visae erant in portu figherio, multa tormenta
               ignea contra eadem navigia adegimus, postea comperimus Novienses illos iter suum sub
-              litore Sabioncelli secus litus<hi n="hi48" rend="sup">
+              litore Sabioncelli secus litus<hi n="hi28" rend="sup">
                   <note place="foot" n="note1">litus Z: actam
                   D</note>
                </hi> prossecutos expoliasse rudentibus, et aliis funibus quaedam navigia
-              Sabioncellinorum, et relaxasse <add n="add49">restes</add>
-               <hi n="hi50" rend="sup">
+              Sabioncellinorum, et relaxasse <add n="add11">restes</add>
+               <hi n="hi29" rend="sup">
                   <note place="foot" n="note1">restes D: vestes Z</note>
                </hi> a terra, propterea fluctibus arrepta illa
               navigiola nos necquiquam terruerant. Ea nocte duae res contigerunt, altera quod quidam
@@ -653,14 +596,14 @@
               sit alta usque ad genua? Sic, inquit Archidiaconus, et ad poplitem usque eandem aquam
               ingressus unum tantumodo saxum avolvit a profluvio, et statim exsiccatus est locus.
               Altera quod ex unico ictu bombardellae secus eadem omnium sanctorum jugum, seu axem
-                rotans<hi n="hi51" rend="sup">
+                rotans<hi n="hi30" rend="sup">
                   <note place="foot" n="note1">rotans Z: rotarum D</note>
                </hi>
               confractum Nicolaus Missulius, et Franciscus Pauli carpentarii eodem Archidiacono
               cohortante, et facibus cereis lumen ministrante, et coadjuvante, pene quatuor horarum
               spatio refecerunt. Circa Idus Augusti ex Epidauro nuntium certum accepimus potitos
               Alchinio Butua, et Antibari hostes terra, marique Ascrivium obsidione premere, et
-              urgere, atque in extremo periculo Ascrivienses versari. Insuper ex<milestone unit="page" n="milestone52"/>communi omnium
+              urgere, atque in extremo periculo Ascrivienses versari. Insuper ex<milestone unit="page" n="milestone9"/>communi omnium
               opinione ferebatur parvam manum mari sufficere pro obsidione Ascrivii, reliquam totam
               classem properaturam ad expugnationem maritimarum civitatum totius Illyrici praesertim
               Jadrae, et Sibenici, et is, qui haec nuntiavit detulit etiam literas ab Antonio
@@ -668,13 +611,13 @@
               quibus significabat se esse cum classe Turcica, et venisse dedita opera Ragusium, ut
               conveniret aliquem ex familia Rosenorum, quia putabat ex eis quempiam illuc venisse,
               cum autem neminem eorum ibidem offenderit per eas literas se omnibus suis praesertim
-              fratri salutem dicere, et affere<hi n="hi53" rend="sup">
+              fratri salutem dicere, et affere<hi n="hi31" rend="sup">
                   <note place="foot" n="note1">affere Z:
                   offere D</note>
                </hi> se paratissimum, in quibus usui esse possit, subscribendo se
               nominari apud Turcas Jsuphum. Palletinorum familia est in Patria nostra satis antiqua,
               et nobilis fuerat etiam opulenta, sed postea ad eam egestatem, sicut, et pleraeque
-              aliae redacta<hi n="hi54" rend="sup">
+              aliae redacta<hi n="hi32" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz
                 redactae</note>
                </hi> erat, ut Zernovaeam rus urbi proximum incoleret. Ex ea Pater
@@ -682,59 +625,59 @@
               amicissimus, et jure sanguinis quarto gradu conjunctus, propter cujus benevolentiam
               Rosenei domi suae primo Jacobum, quem mors decennem immatura praeripuit, deinde hunc
               Antonium utrumque Marci filium utroque parente orbatum educaverunt literis, et moribus
-                <sic n="sic55">imbuendum</sic> 
-               <hi n="hi56" rend="sup">
+                <sic n="sic2">imbuendum</sic> 
+               <hi n="hi33" rend="sup">
                   <note place="foot" n="note1">educaverunt litteris, et
                   moribus imbuendum Z: educaverunt, literis et moribus imbuendum D</note>
                </hi> sed
               puer seductus in navigationem secessit, et fracta navi ad Chium in manus barbarorum
               incidit, et captivus Uluzali, alias Ochialini proregis Algerii (quam urbem Iuliam
-              Caesaream aliqui appellabant<hi n="hi57" rend="sup">
+              Caesaream aliqui appellabant<hi n="hi34" rend="sup">
                   <note place="foot" n="note1">appellabant Z:
                   appellant D</note>
                </hi>) coactus profiteri Machometanam perfidiam Trierarca, sive
-              Praefectus unius semitriremis<hi n="hi58" rend="sup">
+              Praefectus unius semitriremis<hi n="hi35" rend="sup">
                   <note place="foot" n="note1">semitriremis Z:
                   triremis D</note>
                </hi> evaserat. Tabellarius itaque Marcus Prasiza, qui ejus
               literas detulerat reddidit eas Archidiacono nomine fratris sui Philippi, qui febri
               tertiana laborans cum multa familia, et perexiguo viatice invitus cum caeteris
               navigaverat Jadram versus, et simul cum litteris tradidit etiam sex massas fili
-              <sic n="sic59">sericei</sic> 
-               <hi n="hi60" rend="sup">
+              <sic n="sic3">sericei</sic> 
+               <hi n="hi36" rend="sup">
                   <note place="foot" n="note1">sericei : sericini</note>
                </hi>
               albi minimi pretii in signum (ut reor) ignotae alicujus significationis. Tum vero iis
               acceptis nuntiis terror omnes nostros invasit. Ipse Praetor palam, et absque
-              dissimulatione deserendam esse urbem nec expectandum hostem nimium <milestone unit="page" n="milestone61"/>praepotentem
+              dissimulatione deserendam esse urbem nec expectandum hostem nimium <milestone unit="page" n="milestone10"/>praepotentem
               ajebat. Archidiaconus hortari omnes esse bono animo, et etiam ostendere litteras
               Antonii Paletini cum illo filo albo securitatem, et pacem significante. Illi vero
               interpretati filam vincula minari, et verba nihil prorsus bonae spei polliceri tanto
               magis turbabantur. Statim accito populo ad supplicationes, quas assidue frequentabamus
-                <add n="add62">Clero</add>
-               <hi n="hi63" rend="sup">
+                <add n="add12">Clero</add>
+               <hi n="hi37" rend="sup">
                   <note place="foot" n="note1">Clero D: claro Z</note>
                </hi>
               misericordiam Dei, et suffragia sanctorum implorante, ac universa multitudine cum
               lacrymis per eadem verba respondente visum est enim tres missas celebrare, ut
               diuturnior esset multitudinis occupatio in sacris, et obliviscerentur timoris. Cum
               igitur jam in Cathedrali S. Marci templo sacra peracta forent, et ad aedem Sanctae
-                Trinitatis<hi n="hi64" rend="sup">
+                Trinitatis<hi n="hi38" rend="sup">
                   <note place="foot" n="note1">aedem Sanctae Trinitatis Z:
                   Sanctissimae Trinitatis Ecclesiam D</note>
                </hi> processum fuisset dum ibi quoque
               fierent sacra, supervenit de Sabioncello Helius Cervinus Bona nobilis Ragusinus, quem
-              Praetor a sacris in Praetorium deduxit. Ibi paulisper simul remotis † testibus<hi n="hi65" rend="sup">
+              Praetor a sacris in Praetorium deduxit. Ibi paulisper simul remotis † testibus<hi n="hi39" rend="sup">
                   <note place="foot" n="note1">testibus Z: arbitris D</note>
                </hi> collocuti
               digressi sunt ab invicem, hic in Praetorio remansit, ille reversus est ad
-              Sabioncellum. Tamen Cervinus Bona<hi n="hi66" rend="sup">
+              Sabioncellum. Tamen Cervinus Bona<hi n="hi40" rend="sup">
                   <note place="foot" n="note1">Bona upisano
                   iznad teksta</note>
                </hi> interroganti Vincentio Roseneo de imminentibus periculis
-              subridens responderat: Omnia bene caedent si Praetor abibit.<note place="foot" n="note67">podcrtano Z</note> Nos sacrificium prosecuti
+              subridens responderat: Omnia bene caedent si Praetor abibit.<note place="foot" n="note2">podcrtano Z</note> Nos sacrificium prosecuti
               circumlustrata urbe etiam tertio iteravimus Missae sacrificium in omnium Sanctorum
-              aede ante mirificam V. Mariae [aedem]<note place="foot" n="note68">scriba
+              aede ante mirificam V. Mariae [aedem]<note place="foot" n="note3">scriba
                   ipse delevit</note> Franciscanorum effigiem. Ibi contigit quidam ex nostris
               ex labore, sive lacrymis, vel forsan propter timorem hostium pati spiritus
               defectionem; ita ut domum delatus tres, aut quatuor horas jacuerit intercluso halitu
@@ -743,38 +686,38 @@
               montibus se reperit procul a Civitate 15 millia passuum. Apparati sacris deinde
               corpora curavimus. Vincentius Roseneus fratri retulit, quae audierat a Cervino Bona.
               Ille suspicatus dolo semina terrorum seri succensus quodam calore iracundiae plura
-              animo volvebat, cum in aula praetoria sensit esse de annona <milestone unit="page" n="milestone69"/> publica gratuitis
+              animo volvebat, cum in aula praetoria sensit esse de annona <milestone unit="page" n="milestone11"/> publica gratuitis
               militibus gratis partienda contentionem inter Praetorem, et aliquos nostratium, illo
               nolente distribui iis autem negantibus posse vivere inclusis manibus praesertim
-              ruricolis nisi succurratur<note place="foot" n="note70">succurratur Z:
+              ruricolis nisi succurratur<note place="foot" n="note4">succurratur Z:
                   succurretur D</note> eis. Accessit Archidiaconus, et pedetentin se quasi
               arbitrum inter eos immisit. Mox Praetorem seorsum interrogavit, cujus esset
-              sententiae, vitandi ne an tentandi<note place="foot" n="note71">prepravljeno iz tendandi</note> fortunam. Respondit ille, fugiendi si vis
-              major *** <note place="foot" n="note72">major ***. Cui Z: maior ingruerit.
+              sententiae, vitandi ne an tentandi<note place="foot" n="note5">prepravljeno iz tendandi</note> fortunam. Respondit ille, fugiendi si vis
+              major *** <note place="foot" n="note6">major ***. Cui Z: maior ingruerit.
                   Cui</note>. Cui ergo, inquit, relinques anonam? Hostibus ne? Satius esset
               ante fugam neminem ex suis famelicum circa se habere. Demum acquievit Praetor dietim
-              partiri aliquot <add n="add73">sextarios</add>
-               <note place="foot" n="note74">sextarios D:
-                  sextaria Z</note>, et conscribi nominatim <add n="add75">quemque</add>
-               <note place="foot" n="note76">quemque D: quenquam Z</note>, ut si ea partitio
+              partiri aliquot <add n="add13">sextarios</add>
+               <note place="foot" n="note7">sextarios D:
+                  sextaria Z</note>, et conscribi nominatim <add n="add14">quemque</add>
+               <note place="foot" n="note8">quemque D: quenquam Z</note>, ut si ea partitio
               Illustrissimo Senatui Veneto grata non fuisset ab unoquoque pretium repeteretur.
               Accepta libentissime hac conditione, et occupatis caeteris in partiendo, solus
               Archidiaconus remansit cum Praetore, per tres horas in ejus cubiculo, ubi eum enixe
               rogavit, ne cogitaret ullo pacto de fuga etiam caeteris omnibus fugientibus. Objecit
               suadenti duo, alterum quod ipse quoque Archidiaconus fugam moliretur, et ostendit
-                cymbam<note place="foot" n="note77">cymbam Z: lembum D</note> in
+                cymbam<note place="foot" n="note9">cymbam Z: lembum D</note> in
               portu tribus doliolis vini, aliisque sarcinulis onustum, quem Archidiaconus non ad
               fugam cum esset gravissimi, et tardi motus sed ad subsidium victus Philippi fratris et
               eorum, qui cum eo sine comeatu abierant transmittendum, si quo modo fieri posset
               praeparaverat; alterum quod ne octo quidem velis posset resisti, tum propter
               pugnatorum paucitatem, tum etiam propter murorum debilitatem. Illico jussu
-                Archidiaconi<hi n="hi78" rend="sup">
+                Archidiaconi<hi n="hi41" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz
                   Archidiaconus</note>
                </hi> lembus exoneratus sub oculis Praetoris scissa rimula
               immersus fuit; Deinde omnem multitudinem virorum ipsemet conscripsit, et numeravit, et
-              inventi sunt circiter ducenti, et quadraginta <add n="add79">virilis</add>
-               <hi n="hi80" rend="sup">
+              inventi sunt circiter ducenti, et quadraginta <add n="add15">virilis</add>
+               <hi n="hi42" rend="sup">
                   <note place="foot" n="note1">virilis D: virili Z</note>
                </hi> sexus absque mulieribus, et
               infantibus. Neque tamen Praetor sententiam mutare voluit. Tum protestatione quadam
@@ -782,7 +725,7 @@
               ascripti fuere. Sub idem tempus Pharenses celoci celerima advecti nomine publico
               aliquot cados pulveris bombardici petebant, et repugnante necquicquam Hieronymo
               Gabrielio cum aliquibus aliis Archidiaconus auctor fuit, ut illis petita
-              <milestone unit="page" n="milestone81"/>concederentur, cum nobis superabbundaret hujusmodi materias<hi n="hi82" rend="sup">
+              <milestone unit="page" n="milestone12"/>concederentur, cum nobis superabbundaret hujusmodi materias<hi n="hi43" rend="sup">
                   <note place="foot" n="note1">materias Z: materies D</note>
                </hi>. Qui enim Alchinium
               mittebatur sulphureus pulvis illic subsisterat, et nos eo abbundantes effecerat. Totos
@@ -794,17 +737,17 @@
               obsecrationes assiduas convertimur. Erat videre ante aras quotquot aderant sacerdotes
               gementes, viros cernuos, senes lugentes, virgines squallidas, mulieres plorantes,
               pueros vociferantes, et universum populum oppressum pavore angustiis, et amaritudine.
-              Accidit interea, ut vetula quaedam ad Archidiaconum accedens revelabo inquit<hi n="hi83" rend="sup">
+              Accidit interea, ut vetula quaedam ad Archidiaconum accedens revelabo inquit<hi n="hi44" rend="sup">
                   <note place="foot" n="note1">inquit Z: dixit D</note>
                </hi> tibi visionem,
               quam hac nocte intuita sum. Videbar ante pedes V. Mariae provoluta poscere huic urbi
               subsidium, ab eaque mihi responderi. Subsidium dabitur, dic tantum Archidiacono ut
               robustus sit, et viriliter agat. Et plura erat dictura, sed ad hanc primam mulieris
-              vocem ille a *** <hi n="hi84" rend="sup">
+              vocem ille a *** <hi n="hi45" rend="sup">
                   <note place="foot" n="note1">ille a *** tentari Z: ille
                   subiratus ( tentari D</note>
                </hi> tentari enim se ab ea verebatur nec adhuc
-              exploratum habet quin<hi n="hi85" rend="sup">
+              exploratum habet quin<hi n="hi46" rend="sup">
                   <note place="foot" n="note1">quin Z: cur
                 D</note>
                </hi> tentaretur, respondit. Matercula non est tempus anilium somniorum, nec
@@ -816,38 +759,38 @@
               eisdem verbis conveniunt, et quid opus est facto rogant. Silere eos jussit pollicitus
               facillime huic malo mederi si ipsi temperarent ab asperitate verborum. Forte incidit
               Archidiaconus in Jacobum Scapaneum vices Cancellarii gerentem ipsius praetoris
-              fidissimum, et pernecessarium. Hunc perconctatus quid novi Marcus Parsiza<hi n="hi86" rend="sup">
+              fidissimum, et pernecessarium. Hunc perconctatus quid novi Marcus Parsiza<hi n="hi47" rend="sup">
                   <note place="foot" n="note1">Parsiza Z: Prasiza D</note>
-               </hi> nuper <milestone unit="page" n="milestone87"/>de
+               </hi> nuper <milestone unit="page" n="milestone13"/>de
               Ragusio attulisset? Quamvis sibi non esset ignota ejus relatio, publice enim dixerat,
               se ferre literas quod 80 Triremes Rhodi custodia erant venturae ad nostri
               depopulationem, et in itineris medio, quod ea velorum multitudo conspecta fuerat ad
               Epidaurum vetus, et prope diem hic affutura erat, et iccirco idem Iacobus ex Praetorio
               egrediebatur, ut specularetur e maenibus si quod usquam velum appareret, et
               Archidiaconus id coniiciebat. Tamen occasionem diutius cum eo colloquendi nectebat.
-              Caepit Jacobus diversa respondere, et ambages quasdam <sic n="sic88">intereundum</sic> 
-               <hi n="hi89" rend="sup">
+              Caepit Jacobus diversa respondere, et ambages quasdam <sic n="sic4">intereundum</sic> 
+               <hi n="hi48" rend="sup">
                   <note place="foot" n="note1">intereundum Z: inter eundem D</note>
                </hi> referre.
               Simulabat ille omnia credere, donec moenia pariter conscendunt et totam urbem per
-              muros circumeuntes perlustrant. Tandem cum descensuri erant<hi n="hi90" rend="sup">
+              muros circumeuntes perlustrant. Tandem cum descensuri erant<hi n="hi49" rend="sup">
                   <note place="foot" n="note1">erant Z: essent D</note>
                </hi> ad scalas ligneas Xenodochii
               juxta portam Australem, care frater (dixit Archidiaconus) num credis me nuntiorum quae
               allata sunt quicquam latere? Scio 80 vela hostilia expectari, scio te exivisse
               Praetorio speculandi causa, scio perforatam esse turrim Praetorii. Scio vos primis
               tenebris recessuros celoce Perastina hic in valle praeparata. Et quamvis omnia optime
-              noverim, tamen non aegre fero a te mihi <add n="add91">verba dari</add>
-               <hi n="hi92" rend="sup">
+              noverim, tamen non aegre fero a te mihi <add n="add16">verba dari</add>
+               <hi n="hi50" rend="sup">
                   <note place="foot" n="note1">verba dari D: vervadari Z</note>
                </hi>; imo cum te fidelissimum
               Praetori experiar tanto magis amo, quanto ornatiorem fidelitate comperii. Per hunc
               ergo meum in te amorem, et per tuam fidem te obtestor refer Praetori non tantum me
               unum sed universam Civitatem esse consciam, et nuntiorum et consiliorum ejus,
-              precareque illum ne hinc omnino, vel solum<hi n="hi93" rend="sup">
+              precareque illum ne hinc omnino, vel solum<hi n="hi51" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz simul</note>
                </hi> ne clam recedat, simulque juravit se haec tum
-              nostrae, tum Praetoriae salutis <hi n="hi94" rend="sup">
+              nostrae, tum Praetoriae salutis <hi n="hi52" rend="sup">
                   <note place="foot" n="note1">salutis esse
                   locutum Z: salutis causa locutum</note>
                </hi> esse locutum. Ad haec admirabundus
@@ -856,7 +799,7 @@
               conquisitus tandem ad Praetorem in cubiculum secretius admittitur. Ibi Praetor multis
               verbis conquestus de communibus infortuniis rogare eum suam sententiam cepit. Statim
               respondit non esse causam, cur a pristina opinione recedat. Tum Praetor literas de
-              Ragusio <milestone unit="page" n="milestone95"/>ostendit. At earum significatione, tanto majorem animum capiendum esse
+              Ragusio <milestone unit="page" n="milestone14"/>ostendit. At earum significatione, tanto majorem animum capiendum esse
               Archidiaconus contendebat, cum certo sciatur classem substitisse, et latrones tantum
               facturos excursionem. Cum Praetor Rhodiensem custodiam in nos venire altercaretur. Hic
               autem post muros saxeos nos tutiores fore astrueret, quam hostes ligneis in navibus.
@@ -864,7 +807,7 @@
               Archidiaconi, vir octoginta tres annos natus, qui cum vehementer laboraret, ne Praetor
               destitueret Urbem, tale ab eo tulit responsum. Pater mi tu aetatem tuam vixisti, sine
               me quoque meam vivere. Cum igitur nequaquam ab eo divelli posset, quin de fuga
-              cogitaret cepit Archidiaconus cum eo agere [vel]<hi n="hi96" rend="sup">
+              cogitaret cepit Archidiaconus cum eo agere [vel]<hi n="hi53" rend="sup">
                   <note place="foot" n="note1">scriba ipse delevit</note>
                </hi> ut saltem palam recederet, ne recessus eius
               terrori foret remanentibus. Ille subridiens, tu me, inquit, saxis obrui procuras. Tum
@@ -875,34 +818,34 @@
               abire absque periculo tumultus a plebe excitandi. Ad hoc respondit: Si universam
               multitudinem ad concionem evocaveris, et collaudata ejus allacritate te desiderare cum
               eis vivere, et mori dixeris, sed necesse esse propter eundem populum te maius
-              periculum subire saltem<hi n="hi97" rend="sup">
+              periculum subire saltem<hi n="hi54" rend="sup">
                   <note place="foot" n="note1">saltem Z: scilicet
                   D</note>
-               </hi> Iadram usque pro praesidio adducendo inter hostes prima<hi n="hi98" rend="sup">
+               </hi> Iadram usque pro praesidio adducendo inter hostes prima<hi n="hi55" rend="sup">
                   <note place="foot" n="note1">prima Z: parva D</note>
                </hi> celoce navigare;
               interim te commendare universis si oportuerit loci defensionem, et tuum reditum cum
               valida manu ad breve tempus expectare bono animo horteris quis contradicere audebit?
               Si vero clandestine per foramen exeas, vereor ne audaculus quispiam plumbeam glandulam
-              ferro cavo ignivomo in te emittat, et totam Civitatem lesae<hi n="hi99" rend="sup">
+              ferro cavo ignivomo in te emittat, et totam Civitatem lesae<hi n="hi56" rend="sup">
                   <note place="foot" n="note1">sc. laesae </note>
                </hi> majestatis crimine involvat.
-              Cogitabundus ille aliquantulum substitit<hi n="hi100" rend="sup">
+              Cogitabundus ille aliquantulum substitit<hi n="hi57" rend="sup">
                   <note place="foot" n="note1">prepravljeno, vjerojatno iz subsistit</note>
-               </hi>, mox laetus comentum<milestone unit="page" n="milestone101"/> toto
+               </hi>, mox laetus comentum<milestone unit="page" n="milestone15"/> toto
               nixu complexus mandat familiari suo Marino, et Jacobo Scapaneo omnia expediri, ipse
               convocato in aula universo populo pauca praefatus trepide exposuit, quae jam
               praeconceperat, quaeque ab Archidiacono admonitus fuerat. Non defuere, qui clamitarent
-              satius esse Oratores mittere <add n="add102">quam</add>
-               <hi n="hi103" rend="sup">
+              satius esse Oratores mittere <add n="add17">quam</add>
+               <hi n="hi58" rend="sup">
                   <note place="foot" n="note1">quam
                   D: per Z</note>
                </hi> ipsum periclitari, quibus Archidiaconus se opposuit, Nostra
-              inquiens, et Reipublicae magis interest ipsum Praetorem in hoc <hi n="hi104" rend="sup">
+              inquiens, et Reipublicae magis interest ipsum Praetorem in hoc <hi n="hi59" rend="sup">
                   <note place="foot" n="note1">hoc negotio Z: hoc ultimo negotio D</note>
                </hi> negotio habere
-              Oratorem, quam alium <add n="add105">quemvis</add>
-               <hi n="hi106" rend="sup">
+              Oratorem, quam alium <add n="add18">quemvis</add>
+               <hi n="hi60" rend="sup">
                   <note place="foot" n="note1">quemvis
                   D: quamvis Z</note>
                </hi> qui fortasse sub occasione et praetextu legationis
@@ -911,60 +854,60 @@
               afferat. Universi acclamarunt rite consuli, nec quemquam esse impedimento, sed
               opportere accelerare. Tum Archidiaconus ad Praetorem conversus magnifice inquit Rector
               abeunte te non est aequum relinquere urbem sine capite. Constitue aliquem, qui tuas
-              vices gesturus sit. Ille eum intuens te inquit <add n="add107">constituo</add>
-               <hi n="hi108" rend="sup">
+              vices gesturus sit. Ille eum intuens te inquit <add n="add19">constituo</add>
+               <hi n="hi61" rend="sup">
                   <note place="foot" n="note1">constituo D: constituto Z</note>
                </hi> tibi curam totius
               insulae demando. Inter alios ibidem congregatos aderat quidam rabula dicax et
               seditionum auctor ipsi quoque Praetori invisus. Hic mussitabat in angulo Praetorii, et
-              visus est dicere Egresso Rectore<hi n="hi109" rend="sup">
+              visus est dicere Egresso Rectore<hi n="hi62" rend="sup">
                   <note place="foot" n="note1">Rectore Z:
                   Praetore D</note>
                </hi> plebs constituet, quem volet vicerectorem. Haec vox terruit
               Archidiaconum, ne forte seditio oriretur, propterea in hunc modum denuo affatus est
-              Praetorem. Novit presentia<hi n="hi110" rend="sup">
+              Praetorem. Novit presentia<hi n="hi63" rend="sup">
                   <note place="foot" n="note1">presentia Z:
                   prudentia D</note>
-               </hi> tua tam Reverendissimum Episcopum quam etiam <hi n="hi111" rend="sup">
+               </hi> tua tam Reverendissimum Episcopum quam etiam <hi n="hi64" rend="sup">
                   <note place="foot" n="note1">etiam Reverendissimum Vicarium Z: etiam eius
                   Vicarium</note>
                </hi> Reverendissimum Vicarium cum toto pene clero hinc recessisse;
-              meque licet indignum tamen propter superiorum [licentiam]<hi n="hi112" rend="sup">
+              meque licet indignum tamen propter superiorum [licentiam]<hi n="hi65" rend="sup">
                   <note place="foot" n="note1">scriba ipse delevit</note>
                </hi> absentiam curam gerere tum
               sacrorum, tum etiam sacerdotum. Si enim assumerem curam regiminis prophani nescio
               quantum conduceret. Non subterfugio onus, nec parcam labori, imo in omnibus semper
               praesto adero. Consulo tamen magis expedire, praeficere 4 seniores urbis. Tres
               videlicet Nobiliores, et quartum videlicet ex ordine plebeo nominando illum
-              mussitatorem, ut seditioso †<hi n="hi113" rend="sup">
+              mussitatorem, ut seditioso †<hi n="hi66" rend="sup">
                   <note place="foot" n="note1">nečitko Z:
                   tumultuandi D</note>
-               </hi> occasionem adimeret.<milestone unit="page" n="milestone114"/>Non assensit Praetor in
+               </hi> occasionem adimeret.<milestone unit="page" n="milestone16"/>Non assensit Praetor in
               rabulam, sed in aliis secutus consilium Archidiaconi praefecit Joannem Baptistam
-              Roseneum Hieronymum Gabrielium Marinum Obradium, et Antonium Costam Lat *** <hi n="hi115" rend="sup">
+              Roseneum Hieronymum Gabrielium Marinum Obradium, et Antonium Costam Lat *** <hi n="hi67" rend="sup">
                   <note place="foot" n="note1">lakuna u Z: Latomum D</note>
                </hi>claves urbis
               Joanni Baptistae tanquam seniori tradendo. His peractis circa primam horam noctis
-              exiit Praetor per hostiolum portae marinae cum duobus tantum Jacobo ***<hi n="hi116" rend="sup">
+              exiit Praetor per hostiolum portae marinae cum duobus tantum Jacobo ***<hi n="hi68" rend="sup">
                   <note place="foot" n="note1">Jacobo *** et Marino Z: Jacobo scilicet, et Marino
                   D</note>
                </hi> et Marino suis intimis, et avectus celoce Perastina in habitu vili
               nautico primo Pharum deinde Jadram, et tandem Venetias, sive Ferariam pervenit. Nos
               invicem cohortati alter alterum, et in bonam spem evecti foramen turris Praetoriae
-              extruximus. Vigiliis dispositis totam urbem circum circa ***<hi n="hi117" rend="sup">
+              extruximus. Vigiliis dispositis totam urbem circum circa ***<hi n="hi69" rend="sup">
                   <note place="foot" n="note1">circum circa *** et Z: circum circa ambivimus et D</note>
                </hi>
-              et munitis, quae <add n="add118">comunienda</add>
-               <hi n="hi119" rend="sup">
+              et munitis, quae <add n="add20">comunienda</add>
+               <hi n="hi70" rend="sup">
                   <note place="foot" n="note1">comunienda
                   D: comunicanda Z</note>
                </hi> videbantur, non fuit quisque praeter senes invitus,
               qui non in moenibus vel in viis, vel in templis sponte cubaret armatus ad primam vocem
-              <add n="add120">exiliturus</add> in suam stationem. Archidiaconus tamen sub ipsam auroram se domum
-              quiescendi causa receperat<note place="foot" n="note121">receperat Z:
+              <add n="add21">exiliturus</add> in suam stationem. Archidiaconus tamen sub ipsam auroram se domum
+              quiescendi causa receperat<note place="foot" n="note10">receperat Z:
                   recipiebat D</note>, nec unius horae spatio dormierat indutus, cum subito
-              campanarum sonitus ad matutinale officium eum excitavit<note place="foot" n="note122">excitavit Z: excitabat D</note>. </p>
-            <p n="p7">
+              campanarum sonitus ad matutinale officium eum excitavit<note place="foot" n="note11">excitavit Z: excitabat D</note>. </p>
+            <p n="p6">
               Hoc loco non erit ab re
               Insulae, et oppidi nomen situm, et munitionem describere, quo facilius, quae paulo
               post dicentur percipi possint. Ab Antiquis comperio hanc Insulam Corcyram Melenam,
@@ -972,10 +915,10 @@
                   puto a *** cum utrumque Z: ut puto ob similitudinem situs Pheaciae cum
                   utrumque</note> cum utrumque oppidum septentrionem spectet, commune nomen
               sortitam, et discrepans a densitate nemorum. In quem sensum videtur declinare
-              carmen de ea <add n="add2">compactum</add>
-               <note place="foot" n="note3">compactum D:
+              carmen de ea <add n="add1">compactum</add>
+               <note place="foot" n="note2">compactum D:
                   computu Z</note>
-               <q n="q4">
+               <q n="q1">
                   <l n="l1">Corzula nunc dicor fueram Corcyra Melena </l>
                   <l n="l2">Dicta prius, merito nomen utrumque gero. </l>
                   <l n="l3">Nam maris Adriaci, Garganea litora contra </l>
@@ -989,7 +932,7 @@
                   <l n="l10">Nam Divus centrum Marcus in urbe tenet. </l>
                </q>
             </p>
-            <p n="p8">In ea post Bellum Trojanum Antenor se recepit, ut est auctor Dyctis Cretensis illorum
+            <p n="p7">In ea post Bellum Trojanum Antenor se recepit, ut est auctor Dyctis Cretensis illorum
               temporum miles, et scriptor, quod possibile est Antenorem translatum in pinguiorem
               glebam ad Euganeos sociis suis Gnidiis reliquisse.<note place="foot" n="note1">
                   <p n="p1">In ea ...A recentioribus Z: In eam post Bellum Troianum Antenor se
@@ -1003,7 +946,7 @@
                     veterem modo muro clausam, in lapidem trabe incisum legebatur Carmen, quod
                     defectum sine temporis edacitate, sine hominum iniuria, adhuc vestigia retinet
                     antiquitatis: 
-                <q n="q2">
+                <q n="q1">
                         <l n="l1">Hic Antenoridae Corcyrae prima Melenae</l>
                         <l n="l2">Fundamenta locant, Nobile gentis opus.</l>
                      </q>
@@ -1023,20 +966,20 @@
                   <p n="p4">A recentioribus D</p>
                </note> A recentioribus Curzulae
               nomen recepit, tam urbs,quam insula, et rationem hujus nominis non potui hucusque
-              indagare, nisi quod<hi n="hi2" rend="sup">
+              indagare, nisi quod<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">quod Z: quia
                 D</note>
-               </hi> octogesimo a Reate stadio euntibus via Salaria<hi n="hi3" rend="sup">
+               </hi> octogesimo a Reate stadio euntibus via Salaria<hi n="hi2" rend="sup">
                   <note place="foot" n="note1">via Salaria Z: via Iuria D</note>
-               </hi> praeter<hi n="hi4" rend="sup">
+               </hi> praeter<hi n="hi3" rend="sup">
                   <note place="foot" n="note1">praeter Z: iuxta D</note>
-               </hi> montem Coritum<hi n="hi5" rend="sup">
+               </hi> montem Coritum<hi n="hi4" rend="sup">
                   <note place="foot" n="note1">Coritum Z: Coretum D</note>
                </hi> fuit quaedam
-              Civitas diruta Curzula ut scribit Dionisius Alicarnaseus<hi n="hi6" rend="sup">
+              Civitas diruta Curzula ut scribit Dionisius Alicarnaseus<hi n="hi5" rend="sup">
                   <note place="foot" n="note1">Alicarnaseus Z: Halicarnasseus D</note>
                </hi> lib. 1. pag.9.
-              et fortasse haec ab illa denominationem suscepit. Longitudo eius<hi n="hi7" rend="sup">
+              et fortasse haec ab illa denominationem suscepit. Longitudo eius<hi n="hi6" rend="sup">
                   <note place="foot" n="note1">eius Z: insulae D</note>
                </hi> ab oriente in occidentem est
               circiter stadiorum trecentorum latitudo non est ubique aequalis, ubi tamen major non
@@ -1050,20 +993,20 @@
               Joannis de Gradina quinquaginta stadiorum complectitur. Aquarum dulcium inopiam
               pluvialibus solatur; fons tamen procul ab eadem valle maxima distat triginta stadiis
               in campo magno pagi Blattae, qui multoties tantis scaturire solet aquis, ut stagnum ex
-              campo fiat, quod et pago nomen indidit. Blatto enim <hi n="hi8" rend="sup">
+              campo fiat, quod et pago nomen indidit. Blatto enim <hi n="hi7" rend="sup">
                   <note place="foot" n="note1">Blatto enim aquae Z: Blatto enim Iliirica lingua=Stagnum significat; et
                   multoties bicennio, et triennio immo et septennio solent illae aquae D</note>
                </hi>
-              aquae non decrescere<hi n="hi9" rend="sup">
+              aquae non decrescere<hi n="hi8" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz
                   descrescere</note>
                </hi>. Cum autem exsiccatae sunt, planities mille et quingentos
-              passus longa, et sex stadia lata remanet <milestone unit="page" n="milestone10"/>huberima<hi n="hi11" rend="sup">
+              passus longa, et sex stadia lata remanet <milestone unit="page" n="milestone1"/>huberima<hi n="hi9" rend="sup">
                   <note place="foot" n="note1">huberima Z: uberrima D</note>
                </hi>, ut pote cujus labra
-              proscissa, et seminata, dum aqua decrescit<hi n="hi12" rend="sup">
+              proscissa, et seminata, dum aqua decrescit<hi n="hi10" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz descrescit</note>
-               </hi> centesimum reddidere fructum.<hi n="hi13" rend="sup">
+               </hi> centesimum reddidere fructum.<hi n="hi11" rend="sup">
                   <note place="foot" n="note1">fructus. Nascitur Z: fructus. Campus in Iure
                   est certi numeri Familiarum, et quolibet Septennio dividitur, more Hungarico, in
                   capita Familiarum; Feminae etiam si maneant innuptae, suam habent portionem. Si
@@ -1078,15 +1021,15 @@
                   Nascitur D</note>
                </hi> Nascitur eo in campo uliginosa herba, qua si nimium
               vescantur armenta adeo pinguescunt, ut morbo correpta crepent, neque carnes, neque
-              pelles ullo <add n="add14">sint</add>
-               <hi n="hi15" rend="sup">
+              pelles ullo <add n="add1">sint</add>
+               <hi n="hi12" rend="sup">
                   <note place="foot" n="note1">sint D: sunt
                   Z</note>
-               </hi> usui propter morbi <add n="add16">contagionem</add>
-               <hi n="hi17" rend="sup">
+               </hi> usui propter morbi <add n="add2">contagionem</add>
+               <hi n="hi13" rend="sup">
                   <note place="foot" n="note1">contagionem D: stagionem Z</note>
                </hi> non admodum ab
-              epidemiae peste dissimilem. Si universus<hi n="hi18" rend="sup">
+              epidemiae peste dissimilem. Si universus<hi n="hi14" rend="sup">
                   <note place="foot" n="note1">universus Z: totus D</note>
                </hi> ille ager coleretur est opinio, quod procul
               dubio aleret nedum colonos, et incolas sed etiam vicinos. Veruntamen periti
@@ -1094,7 +1037,7 @@
               deduci perfractis quoque montibus interpositis astruunt. Incolarum vero ignavia nullo
               pacto excusari potest, quamvis enim raro ager ille inundet, nunquam tamen aratur vel
               colitur praeterquam pars minima ab orientali latere, ex qua maximos proventus
-              colligere solent. Insula ferax vini thedae, et picis<hi n="hi19" rend="sup">
+              colligere solent. Insula ferax vini thedae, et picis<hi n="hi15" rend="sup">
                   <note place="foot" n="note1">picis duas Z: piscis, sicut, et mare, insula abluens piscium. Duas
                   D</note>
                </hi> duas artes potissimum exercet scilicet carpentariorum ad fabricandas
@@ -1103,7 +1046,7 @@
               scopulis per stadia circiter sexaginta ab Occidente Equinoctiali Issa aestivali vero
               Pharus per triginta millia passuum procul ab ejus litore proximos excipiunt fluctus. A
               septentrione autem esset tractus Narentanus, sed interjacet Promontorium Sabioncelli
-              nomine Oeni<hi n="hi20" rend="sup">
+              nomine Oeni<hi n="hi16" rend="sup">
                   <note place="foot" n="note1">Oeni Z: Onaei D</note>
                </hi> apud
               Ptholomaeum notatum, quod continenti juxta Narentani fluminis hostia junctum, et
@@ -1111,81 +1054,81 @@
               longe ampliori spatio deflectens efficit Isthmum quatuor stadiorum, in quo est civitas
               Stagni inter duo maria, quorum orientale prospicit Ragusium occidentale vergit in
               Pharum, et Brachiam. Duo quoque exteriora canalia constituit primum ab oriente cum
-                Melita<hi n="hi21" rend="sup">
+                Melita<hi n="hi17" rend="sup">
                   <note place="foot" n="note1">cum Melita per Z: cum Melita et
                   Augusta, per D</note>
-               </hi> per totam<hi n="hi22" rend="sup">
+               </hi> per totam<hi n="hi18" rend="sup">
                   <note place="foot" n="note1">totam insulae Z: totam fere insulae D</note>
                </hi> Insulae extensionem porrectum
-                <hi n="hi23" rend="sup">
+                <hi n="hi19" rend="sup">
                   <note place="foot" n="note1">porrectum sexaginta Z: porrectum, centum
                   sexaginta D</note>
-               </hi> sexaginta stadiis latum, alterum <hi n="hi24" rend="sup">
+               </hi> sexaginta stadiis latum, alterum <hi n="hi20" rend="sup">
                   <note place="foot" n="note1">alterum parte Z: alterum cum parte D</note>
                </hi>parte
-                Melenae<hi n="hi25" rend="sup">
+                Melenae<hi n="hi21" rend="sup">
                   <note place="foot" n="note1">Melenae Z: Onaei D</note>
                </hi>
-               <milestone unit="page" n="milestone26"/>
-              latitudinis sexdecim stadiorum, quorum<hi n="hi27" rend="sup">
+               <milestone unit="page" n="milestone2"/>
+              latitudinis sexdecim stadiorum, quorum<hi n="hi22" rend="sup">
                   <note place="foot" n="note1">quorum
                   etiam dispar Z: quorum canalium dispar D</note>
                </hi> etiam dispar est longitudo.
-              Illud enim <add n="add28">duodeviginti</add> milia passuum non<hi n="hi29" rend="sup">
+              Illud enim <add n="add3">duodeviginti</add> milia passuum non<hi n="hi23" rend="sup">
                   <note place="foot" n="note1">non prilično nečitko</note>
                </hi> excedit, hoc duodecim superat, quoniam
               Corcyra cum per id spatium excurrerit postea deflectit in pelagus tota reliqua sui
-              longitudine, et relinquit Oeni <hi n="hi30" rend="sup">
+              longitudine, et relinquit Oeni <hi n="hi24" rend="sup">
                   <note place="foot" n="note1">Oeni
                   bracchium Z: Onaei promontorii bracchium</note>
                </hi>brachium super Pharum se
-              extendentem humili planitie, et Melitense<hi n="hi31" rend="sup">
+              extendentem humili planitie, et Melitense<hi n="hi25" rend="sup">
                   <note place="foot" n="note1">Melitense (sc.canale) sine scopulis est Z: Canale a Melita sine scopulis est
                   D</note>
                </hi> sine scopulis est Cursulense autem tam in introitu, quam in exitu
               scopulis, et saxis abundat, et propterea periculosum est imperitis praesertim
               intrantibus. Urbs ab utrisque faucibus circiter quinquaginta stadiis distans, et
-              maximam sumitatem Oeni seu Sabioncelli in septentrione<hi n="hi32" rend="sup">
+              maximam sumitatem Oeni seu Sabioncelli in septentrione<hi n="hi26" rend="sup">
                   <note place="foot" n="note1">in septentrione Z: in septentrionem D</note>
                </hi> prospiciens
-              in <add n="add33">excurrenti</add>
-               <hi n="hi34" rend="sup">
+              in <add n="add4">excurrenti</add>
+               <hi n="hi27" rend="sup">
                   <note place="foot" n="note1">excurrenti D: excumenti
                   Z</note>
-               </hi> colle quam maenibus<hi n="hi35" rend="sup">
+               </hi> colle quam maenibus<hi n="hi28" rend="sup">
                   <note place="foot" n="note1">quam
                   maenibus Z: quem maeniorum D</note>
                </hi>, ambitu ovalis formae complectitur
               situata pene tota mari circumdatur,nisi quod ab austro cum reliqua Insula ponte, et
               fossa, ac navali conjungitur. Aedificia urbana ex vivo saxo albo ibidem exciso structa
-              cum templo, et turri campanaria in umbilico caeteris superiori<hi n="hi36" rend="sup">
+              cum templo, et turri campanaria in umbilico caeteris superiori<hi n="hi29" rend="sup">
                   <note place="foot" n="note1">superiori Z: sublimiori D</note>
                </hi> propter soli
-                inaequalitatem.<hi n="hi37" rend="sup">
+                inaequalitatem.<hi n="hi30" rend="sup">
                   <note place="foot" n="note1">inaequalitatem. In medio Z:
                   inaequalitatem, qua interiora, eo sunt altiora culminibus aedificia, pulcherrimam
                   visu speciem procul intrantibus praebent. In medio D</note>
                </hi> In medio oppidi
               platea ex polito saxo ante templum, et campanariam turrim strata omnes totius urbis
-              vias aequali spatio dimensas ad se ducit, unde disticon hoc ei optime convenit:<hi n="hi38" rend="sup">
+              vias aequali spatio dimensas ad se ducit, unde disticon hoc ei optime convenit:<hi n="hi31" rend="sup">
                   <note place="foot" n="note1">convenit: Z: convenit, cui alia duo carmina a
                   benevolo Poeta addita fuerunt. D</note>
                </hi>
             </p>
-            <p n="p9">Viculus<hi n="hi1" rend="sup">
+            <p n="p8">Viculus<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">viculus Z: circulus D</note>
                </hi> in
               medio, denusque<hi n="hi2" rend="sup">
                   <note place="foot" n="note1">denusque Z: densusque D
                 </note>
                </hi> hinc inde viarum </p>
-            <p n="p10">Ordo cingatur Corzula picta manet.<hi n="hi1" rend="sup">
+            <p n="p9">Ordo cingatur Corzula picta manet.<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">manet. Et
                   quidem Z: manet, /Corcula, Dalmatiae non ultima gloria surgit,/ quaeque praemit
                   Venetos, sedula Cura, Patres./ Et quidem D</note>
                </hi>
             </p>
-            <p n="p11">Et quidem eo tempore locus satis munitus reperiebatur praesertim tormentis. Nam
+            <p n="p10">Et quidem eo tempore locus satis munitus reperiebatur praesertim tormentis. Nam
               paucis diebus ante bellum motum Raphael Gabrielius a Petro Bragadeno loci rectore
               optimo missus in legationem Venetiis reportaverat numerum non parvum sclopetorum
               lancearum, arcuum, sagittarum, et sex colombrinas aeneas emittentes pilas ferreas
@@ -1196,27 +1139,27 @@
                </hi> in urbe priora tormenta ferrea, et
               aenea, praesertim unum, quod papale nominant, quod ponderantem triginta libras ferri
               pilam jaculatur, et in armamento etiam erant multa alia arma bellica. Maenia
-              <milestone unit="page" n="milestone2"/>tamen vetera, et ruinosa instauratione indigebant, Pugnatorum quoque paucitas
+              <milestone unit="page" n="milestone1"/>tamen vetera, et ruinosa instauratione indigebant, Pugnatorum quoque paucitas
               dubiam tuitionem reddebat. Sed satis divagati ad institutum redeamus.</p>
-            <p n="p12">Illucescente aurora decimo octavo Calendas septembris prope festum assumptionis
+            <p n="p11">Illucescente aurora decimo octavo Calendas septembris prope festum assumptionis
               beatissimae Dei genitricis Virginis Mariae ministri conscenderant campanariam speculam
               omnium aedificiorum altissimam, arreptisque manu rophalis idest campanarum ferreis
               maleis sive clavis ferro aes personabant in quendam non ingratum concentum festivis
               diebus illic de more frequentatum. Vix ter quaterque manum pulsando duxerant, cum
               statim prospicientes in orientem exclamant.Vaeh, vaeh nobis, ecce tota classis
               hostilis adest, ecce pansis <add n="add1">carbasis</add>
-               <hi n="hi2" rend="sup">
+               <hi n="hi1" rend="sup">
                   <note place="foot" n="note1">carbasis D: carbacis Z</note>
                </hi>, atque citatis remis quinquaginta vela citra
               scopulos jam jam super urbem feruntur reliquum classis paulo ulterius conspicitur.
               Clamor est per urbem. Omnes vociferantur fugiendum in silvas apertis portis, ut qui
-              servari <hi n="hi3" rend="sup">
+              servari <hi n="hi2" rend="sup">
                   <note place="foot" n="note1">servari servetur Z: servari possit
                   servetur D</note>
                </hi>servetur foeminarum more a plerisque plorabatur. Nec
               deerant, qui clamarent. En quo nos perduxere consilia nostrorum sapientum aperiantur
-                <add n="add4">portae</add>
-               <hi n="hi5" rend="sup">
+                <add n="add2">portae</add>
+               <hi n="hi3" rend="sup">
                   <note place="foot" n="note1">portae D: partae
                 Z</note>
                </hi>. Contigit Archidiacono obviare sorori viduae trahenti secum gemelos
@@ -1229,36 +1172,36 @@
               nubes. Tum cepit per urbem discurrere clamitans, ut quisque ad pugnam in sua statione
               persistat. Nihil proficiebat, alius mortem minari, alius proditorem appellare, alii se
               per muros demittere, alii per foramina bombardarum effugere ut quisque erat junior,
-              atque expeditior prior praecipitem<hi n="hi6" rend="sup">
+              atque expeditior prior praecipitem<hi n="hi4" rend="sup">
                   <note place="foot" n="note1">praecipitem Z: perspicientem D</note>
                </hi> se mittere de maenibus. Nonulli
               Hieronimum Gabrielium, cui intempesta nocte Octogenarius Joannes Baptista Rosaneus
               domum se quietis causa recipiens collega collegae urbis claves commiserat verbis
-              minis, et precibus inducebant, ut civitatis portas<milestone unit="page" n="milestone7"/> recluderet, neque tamen
-              consensit, illi vero vi minima<hi n="hi8" rend="sup">
+              minis, et precibus inducebant, ut civitatis portas<milestone unit="page" n="milestone1"/> recluderet, neque tamen
+              consensit, illi vero vi minima<hi n="hi5" rend="sup">
                   <note place="foot" n="note1">minima Z:
                   minime D</note>
                </hi> usi quamvis possent se demisere, qua et alii. Dum vagaretur
               Archidiaconus per urbem tanquam furens, obtestareturque singulos ut se ad pugnandum
               expedirent accurrit ad eum Vincentius frater eius, qui eo usque solus necquicquam
               contenderat cum multis ne fugerent. Eia quid agendum, inquit, omnes fugiunt. Moriendum
-              hic, respondit.<hi n="hi9" rend="sup">
+              hic, respondit.<hi n="hi6" rend="sup">
                   <note place="foot" n="note1">respondit. Tum ambo Z:
                   respondit Archidiaconus. Tu ambo D</note>
                </hi> Tum ambo unanimes jam non
-                <add n="add10">verbis</add>
-               <hi n="hi11" rend="sup">
+                <add n="add3">verbis</add>
+               <hi n="hi7" rend="sup">
                   <note place="foot" n="note1">verbis D: urbis
                 Z</note>
                </hi> agentes sed armis impetum fecerunt in eos qui fugiebant per foramen
-              turris praetoriae nocte praeterita<hi n="hi12" rend="sup">
+              turris praetoriae nocte praeterita<hi n="hi8" rend="sup">
                   <note place="foot" n="note1">praeterita
                   reseratum Z: praeterita obstructum, et nuper a fugacibus reseratum, D</note>
                </hi>
-              reseratum. Amotis omnibus obstruitur foramen,<hi n="hi13" rend="sup">
+              reseratum. Amotis omnibus obstruitur foramen,<hi n="hi9" rend="sup">
                   <note place="foot" n="note1">foramen, mittitur qui tormentis Z: foramen. Disponuntur caetera; et *** qui
                   tormentis</note>
-               </hi> mittitur etiam qui tormentis in hostes ignem daret<hi n="hi14" rend="sup">
+               </hi> mittitur etiam qui tormentis in hostes ignem daret<hi n="hi10" rend="sup">
                   <note place="foot" n="note1">daret. Sonitu audito in signum pugnae
                   feliciter inchoatae a nostris unanimiter vociferari jubetur. Vincentius qui turrim
                   Z: darent, in suam quisque mittitur stationem. Adhuc tamen, (tanta erat animorum
@@ -1267,7 +1210,7 @@
                </hi>. Sonitu audito in signum pugnae
               feliciter inchoatae a nostris unanimiter vociferari jubetur. Vincentius qui turrim
               altam in suburbium spectantem conscenderat, ut inde fugam eorum, qui ex antemurali
-              propugnaculo in fossam se demitebant, lapidibus desuper conjectis impediret<hi n="hi15" rend="sup">
+              propugnaculo in fossam se demitebant, lapidibus desuper conjectis impediret<hi n="hi11" rend="sup">
                   <note place="foot" n="note1">impediret, mutare consilio Z: impediret, et
                   cum nihil proficeret, mutato consilio D</note>
                </hi>, mutare consilio, et
@@ -1276,7 +1219,7 @@
               proclamavit. Hac voce ab oppidanis audita non est amplius de fuga cogitatum; imo
               quidam jam et urbe elapsi clamore Vincentii terrefacti a mulieribus per funem retracti
               fuerunt intra maenia. Veruntamen aliqui post datum ignem revertebantur a tormentis ad
-              egressum urbis, quos Vincentius partim confirmatos eodem remisit<hi n="hi16" rend="sup">
+              egressum urbis, quos Vincentius partim confirmatos eodem remisit<hi n="hi12" rend="sup">
                   <note place="foot" n="note1">maenia. Verumtamen ....quos Vincentius partim confirmatos
                   eodem remisit. Z: maenia. In confusione illa non reperiebantur claves Armamenti
                   *** Archidiaconus sd pulverem bombardicum expediendum fores bipenni perfregit.
@@ -1286,172 +1229,172 @@
               Archidiaconus ad pulverem bombardicum expediendum foribus *** perfractis, cum
               armamenti claves non reperirentur perexerat. Interim hostiles triremes confertae
               impetu ventorum, remigiumque nixu actae celerimo cursu advolant sub ipsa maenia ad
-              ictum bombardae,<hi n="hi17" rend="sup">
+              ictum bombardae,<hi n="hi13" rend="sup">
                   <note place="foot" n="note1">bombardae, et primo Z:
                   Bombardae. Tunc Campanarum sonitu, ut praedipositum fuerat dato signo, Pugna
                   feliciter incohoatur, et a nostris uanimiter, magno clamore, ad se inuicem
                   animandos, vociferatum fuit , simulque datis ignis Bombardis et ab ijs, qui
                   stabant in maenibus alijs igniuomis tormentis hostes percussi: Primo D</note>
                </hi>
-              et primo quidem clamabant se Christianos esse, ut quidam nostrorum referebant<hi n="hi18" rend="sup">
+              et primo quidem clamabant se Christianos esse, ut quidam nostrorum referebant<hi n="hi14" rend="sup">
                   <note place="foot" n="note1">referebant, mox cum Z: referebant, quod et
                   vexilla crucibus transversis insignita prae se ferebant; mox cum D</note>
                </hi>,
               mox cum viderent in se a nostris emitti ex tormentis ignivomis pilas, auditus est
-              semel clamor virorum, clangor<hi n="hi19" rend="sup">
+              semel clamor virorum, clangor<hi n="hi15" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz
                   clamor</note>
-               </hi> tubarum, <add n="add20">crepitus</add> sclopetorum, et tonitrus bombardarum.
-              Tum glandulae minores<hi n="hi21" rend="sup">
+               </hi> tubarum, <add n="add4">crepitus</add> sclopetorum, et tonitrus bombardarum.
+              Tum glandulae minores<hi n="hi16" rend="sup">
                   <note place="foot" n="note1">minores in muros Z:
                   minores hostium in muros D</note>
                </hi> in muros et parietes, ac tecta domorum
               grandinis more resonabant, sagittae autem imbrem imitabantur. Pilae autem
               ferraeseptuaginta librarum concutiebant aedificia, ex mortariis quoque triplo majores
-                <add n="add22">lapideae</add>
-               <hi n="hi23" rend="sup">
+                <add n="add5">lapideae</add>
+               <hi n="hi17" rend="sup">
                   <note place="foot" n="note1">lapideae D: lapidae
                   Z</note>
                </hi> pilae non tamen admodum noxiae veniebant. Quando ignem tormentis
-              erant <add n="add24">applicaturi</add> animadvertimus, quod concursu omnium undique ex tota navi
-              <milestone unit="page" n="milestone25"/>pupim deprimebant, et proram erigebant, sicque ictus in altum elevabatur in tecta
+              erant <add n="add6">applicaturi</add> animadvertimus, quod concursu omnium undique ex tota navi
+              <milestone unit="page" n="milestone2"/>pupim deprimebant, et proram erigebant, sicque ictus in altum elevabatur in tecta
               domorum, et in templum, ac turrim campanariam, in cujus sumitate crucem ecclesiasticam
               auratam cum vexillo rubro, et viridi Archidiaconus ipso in praelio ex inasperato cum
-              acclamatione vivat Christus <add n="add26">erexerat</add>, et animum suis ea erectione mirifice
-              addiderat, hostes vero consternatos, et iracundia fractos crucis radii<hi n="hi27" rend="sup">
+              acclamatione vivat Christus <add n="add7">erexerat</add>, et animum suis ea erectione mirifice
+              addiderat, hostes vero consternatos, et iracundia fractos crucis radii<hi n="hi18" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz radiis</note>
                </hi> sole repercussi a
               praelio deterrebant. Nos oppidani pilis librarum sex et duodecim, et triginta
               distinebamus hostem eminus, et si qua triremium nimis appropinquabat, statim paenas
-              luebat, ita<hi n="hi28" rend="sup">
+              luebat, ita<hi n="hi19" rend="sup">
                   <note place="foot" n="note1">ita pene Z: ita per paene
                   D</note>
-               </hi> pene duas horas<hi n="hi29" rend="sup">
+               </hi> pene duas horas<hi n="hi20" rend="sup">
                   <note place="foot" n="note1">horas
                   lusimus Z: horas horas pugnatum est. Mutata videbatur in urbe omnium facies;
                   redierant animi; vilissim—timori, in hostis adventu concepto susceperat mens
                   impavida, et fortis Spiritus. Alter alterum ad pugnam strenue gerendam excitabant;
                   omnes in factione, sive pugnabant, sive pugnantibus ministrabant. D</note>
                </hi>
-              lusimus. Hostis<hi n="hi30" rend="sup">
+              lusimus. Hostis<hi n="hi21" rend="sup">
                   <note place="foot" n="note1">hostis repente Z: hostis
                   interea repente D</note>
                </hi> repente litori applicans ad navale remotius, quod
               est in suburbio ab orientali parte exposuit in terram sub tribus vexillis circiter
-              mille viros, nec interim adigere in oppidum tormenta cessat. Archidiaconus<hi n="hi31" rend="sup">
+              mille viros, nec interim adigere in oppidum tormenta cessat. Archidiaconus<hi n="hi22" rend="sup">
                   <note place="foot" n="note1">Archidiaconus in propugnaculum Z:
                   Archidiaconus , videns tot hostes navibus eggressos, praevidens aggressuros urbem
                   a parte australi per terram, accurit in Propugnaculum, D</note>
                </hi> in
-              propugnaculum quod <add n="add32">Revelinum</add>
-               <hi n="hi33" rend="sup">
+              propugnaculum quod <add n="add8">Revelinum</add>
+               <hi n="hi23" rend="sup">
                   <note place="foot" n="note1">Revelinum D: nevelinum Z</note>
                </hi> appelant, occurrerat, paucos ibi comperiit,
-              et eos<hi n="hi34" rend="sup">
+              et eos<hi n="hi24" rend="sup">
                   <note place="foot" n="note1">et eos perterritos Z: et novo periculo
                   aliquantum perterritos D</note>
-               </hi> perterritos, cum quibus<hi n="hi35" rend="sup">
+               </hi> perterritos, cum quibus<hi n="hi25" rend="sup">
                   <note place="foot" n="note1">quibus Z: his D</note>
-               </hi> tormentum <add n="add36">aeneum</add>
-               <hi n="hi37" rend="sup">
+               </hi> tormentum <add n="add9">aeneum</add>
+               <hi n="hi26" rend="sup">
                   <note place="foot" n="note1">aeneum D: aenum Z</note>
-               </hi> aptavit<hi n="hi38" rend="sup">
+               </hi> aptavit<hi n="hi27" rend="sup">
                   <note place="foot" n="note1">aeneum aptavit Z: aeneum in hostes aptavit
                   D</note>
-               </hi>.Cum ipse vellet ignem tormento temere applicare adductus fuit<hi n="hi39" rend="sup">
+               </hi>.Cum ipse vellet ignem tormento temere applicare adductus fuit<hi n="hi28" rend="sup">
                   <note place="foot" n="note1">Cum ipse vellet ignem tormento temere
                   applicare, adductus fuit Gregorius Doimus Z: ac volebat etiam ignem eidem
                   applicare, cum adfuit Gregorius Doimus D</note>
                </hi> Gregorius Doimius lapicida in
-                <add n="add40">bombarderium</add>
-               <hi n="hi41" rend="sup">
+                <add n="add10">bombarderium</add>
+               <hi n="hi29" rend="sup">
                   <note place="foot" n="note1">bombarderium D:
                   bombardenum Z</note>
                </hi> ibidem antea deputatus, et totus tremens cum ab
-              Archidiacono <add n="add42">animatus</add>
-               <hi n="hi43" rend="sup">
+              Archidiacono <add n="add11">animatus</add>
+               <hi n="hi30" rend="sup">
                   <note place="foot" n="note1">animatus D:
                   animaretur Z</note>
                </hi> dixit: O quam bene ageret, si quis me jugularet, tamen
               pluries in hostes egregie ex tormento pilas adegit. Sed et ex turri nova ad aedem
               omnium sanctorum nostri egregiam opem coniiciendis pilis ex tormento adversus hostilem
-              classem praestabant. Hostis quoque in eam turrim plura <add n="add44">quam</add>
-               <hi n="hi45" rend="sup">
+              classem praestabant. Hostis quoque in eam turrim plura <add n="add12">quam</add>
+               <hi n="hi31" rend="sup">
                   <note place="foot" n="note1">quam D: quoque Z</note>
                </hi> in ullum alium locum
-              jaculatus tormenta demolitus est eius ***<hi n="hi46" rend="sup">
+              jaculatus tormenta demolitus est eius ***<hi n="hi32" rend="sup">
                   <note place="foot" n="note1">eius *** Z: eius Pinnas. D</note>
-               </hi> In <add n="add47">Revelino</add>
-               <hi n="hi48" rend="sup">
+               </hi> In <add n="add13">Revelino</add>
+               <hi n="hi33" rend="sup">
                   <note place="foot" n="note1">Revelino D: nevelino Z</note>
                </hi> contigit Archidiacono
               casus memorabilis, dum prospiceret per murorum foramen, quod balestreriam appellant
               hostilem classem, ut notaret ictum nostri tormenti, illico pila ferrea ab hostibus
-              conjecta percussit <add n="add49">Revelini</add>
-               <hi n="hi50" rend="sup">
+              conjecta percussit <add n="add14">Revelini</add>
+               <hi n="hi34" rend="sup">
                   <note place="foot" n="note1">Revelini
                   D: nevelini Z</note>
                </hi> muros e regione pedum eius et illa quidem repercussa
-              cecidit in exteriorem fossam, sed sanum †<hi n="hi51" rend="sup">
+              cecidit in exteriorem fossam, sed sanum †<hi n="hi35" rend="sup">
                   <note place="foot" n="note1">sanum + erat Z: saxum quo erat D</note>
                </hi>erat obstructa bombarderia vetus sub
-              eius pedibus introrsus †<hi n="hi52" rend="sup">
+              eius pedibus introrsus †<hi n="hi36" rend="sup">
                   <note place="foot" n="note1">introrsus + inter
                   pedes Z: introrsus adactum, inter pedes</note>
                </hi>inter pedes absque eius lesione
               provolutum est, nec ei molestiae quicquam intulit, nisi quod calce totum respersit, et
-              dealbavit, Turcae expositi in terram recta se ferebant in praetoriam. <add n="add53">Illic</add>
-               <hi n="hi54" rend="sup">
+              dealbavit, Turcae expositi in terram recta se ferebant in praetoriam. <add n="add15">Illic</add>
+               <hi n="hi37" rend="sup">
                   <note place="foot" n="note1">illic D: illinc Z</note>
                </hi> Vincentius
-              Rosaneus Praefectus<hi n="hi55" rend="sup">
+              Rosaneus Praefectus<hi n="hi38" rend="sup">
                   <note place="foot" n="note1">Praefectus Z: perfectus
                   D</note>
-               </hi> fuerat cum aliquot viris, quibus cum<hi n="hi56" rend="sup">
+               </hi> fuerat cum aliquot viris, quibus cum<hi n="hi39" rend="sup">
                   <note place="foot" n="note1">cum Z: dum D</note>
                </hi> per urbem discurreret, loci
-              custodiam demandaverat at illi nacti occasionem<hi n="hi57" rend="sup">
+              custodiam demandaverat at illi nacti occasionem<hi n="hi40" rend="sup">
                   <note place="foot" n="note1">occasionem aufugerant. Z: occasionem, ante adventum Classis, seu in ipso
                   adventu, aufugerant. D</note>
                </hi> aufugerant. Cum ergo hostes in terram expositos
-              vidisset, accurrens ad <add n="add58">suam</add>
-               <hi n="hi59" rend="sup">
+              vidisset, accurrens ad <add n="add16">suam</add>
+               <hi n="hi41" rend="sup">
                   <note place="foot" n="note1">suam D:
                   suos Z</note>
-               </hi> stationem neminem ex iis quos reliquerat invenit.<milestone unit="page" n="milestone60"/>Affuit ei
-              soror Catharina Vitalis cum alia vidua, et quidam senes<hi n="hi61" rend="sup">
+               </hi> stationem neminem ex iis quos reliquerat invenit.<milestone unit="page" n="milestone3"/>Affuit ei
+              soror Catharina Vitalis cum alia vidua, et quidam senes<hi n="hi42" rend="sup">
                   <note place="foot" n="note1">senes Z: senex D</note>
                </hi> ruricolae, raptim edocet eos
               modum replendi pulvere sulphureo, et glandulis plumbeis duas ferreas cannas duorum
               amplissimae longitudinis archibusorum. Ipse unus, alternatim modo hoc, modo illo utens
-              non tantum hostes a spe deiecit, sed et ingentem stragem illorum [edd]<hi n="hi62" rend="sup">
+              non tantum hostes a spe deiecit, sed et ingentem stragem illorum [edd]<hi n="hi43" rend="sup">
                   <note place="foot" n="note1">scriba ipse delevit</note>
                </hi> edidit, Dei singulari
               beneficio servatus illesus a mille ictibus similium glandium et sagittarum. Duae tamen
-              sagittae sororem in brachio, et alteram<hi n="hi63" rend="sup">
+              sagittae sororem in brachio, et alteram<hi n="hi44" rend="sup">
                   <note place="foot" n="note1">alteram Z: altera D</note>
                </hi> viduam inter comas leviter perstrinxerunt, et una
               glandula Andream Uscocium in gutture excepta stravit. Ex Revelino quoque glandulis
-              archibusonum expositi hostes feriebantur. Sed <hi n="hi64" rend="sup">
+              archibusonum expositi hostes feriebantur. Sed <hi n="hi45" rend="sup">
                   <note place="foot" n="note1">sed ipsi Z: sed, et ipsi D</note>
                </hi>ipsi in nostros ingentem
               multitudinem telorum, et glandium contorquebant. Dum sic pugnatur a terra classis se a
-              littore in mare subtraxit, et circa muros eminus ambiendo subsistebat aliquantisper<hi n="hi65" rend="sup">
+              littore in mare subtraxit, et circa muros eminus ambiendo subsistebat aliquantisper<hi n="hi46" rend="sup">
                   <note place="foot" n="note1">aliquantisper Z: aliquantisque D</note>
                </hi>,
-              adigebatque tormenta, et vicinius raptim<hi n="hi66" rend="sup">
+              adigebatque tormenta, et vicinius raptim<hi n="hi47" rend="sup">
                   <note place="foot" n="note1">raptim quoque recedebat Z: raptim appropinquabat. Sed audito tonitru nostrorum
                   Tormentorum, raptim quoque recedebat. D</note>
                </hi> quoque recedebat. Sic pluries
-              tentato aditu procedebat ambiendo ab austro in septentrionem, et cum<hi n="hi67" rend="sup">
+              tentato aditu procedebat ambiendo ab austro in septentrionem, et cum<hi n="hi48" rend="sup">
                   <note place="foot" n="note1">cum Z: ut D</note>
                </hi> ad angulum venisset diutius
               ibidem commorata tormentis moenia ita labefactavit, quod nisi a nostris statim tignis,
-              et fulcris sustentata <add n="add68">fuissent</add>
-               <hi n="hi69" rend="sup">
+              et fulcris sustentata <add n="add17">fuissent</add>
+               <hi n="hi49" rend="sup">
                   <note place="foot" n="note1">fuissent D: fuisset Z</note>
                </hi> procul dubio corruissent. Nostri quoque in eos
-              similiter ignivomis utebantur machinis, et<hi n="hi70" rend="sup">
+              similiter ignivomis utebantur machinis, et<hi n="hi50" rend="sup">
                   <note place="foot" n="note1">et
                   nonnunquam non jaculabantur incessum. Repente Z: et raro incassum inculcabantur.
                   Dum sic pugna, hinc, inde innovatur dubio exitu, sed nostro majori periculo;
@@ -1474,7 +1417,7 @@
               incessum. Repente exorta borealis aura classem invitam sub moenia cepit impellere, sed
               veriti hostes remigio se procul ab oppido in occidentem post monasterium Sancti
               Nicolai in sinulum recepere. Interim ex suburbanis navalibus in urbem misilia nunquam
-                cessabant.<hi n="hi71" rend="sup">
+                cessabant.<hi n="hi51" rend="sup">
                   <note place="foot" n="note1">
                      <p n="p1">Repente exorta borealis aura
                     classem invitam sub moenia cepit impellere, sed veriti hostes remigio se procul
@@ -1495,16 +1438,16 @@
                     Veneti.</p>
                      <p n="p3">Terrestres D</p>
                   </note>
-               </hi> Tandem terrestres<hi n="hi72" rend="sup">
+               </hi> Tandem terrestres<hi n="hi52" rend="sup">
                   <note place="foot" n="note1">terestres copiae Z: terestres hostium copiae D</note>
                </hi>
-              copiae, cum viderent suam classem<hi n="hi73" rend="sup">
+              copiae, cum viderent suam classem<hi n="hi53" rend="sup">
                   <note place="foot" n="note1">classem in
                   valle Z: classem tempestate disiunctam et in vallem D</note>
                </hi> in valle
-              reductam aedem sacram, et caenobium Divi Nicolai <sic n="sic74">cremare</sic>, depredatae sunt totum
+              reductam aedem sacram, et caenobium Divi Nicolai <sic n="sic1">cremare</sic>, depredatae sunt totum
               suburbium incensis pene omnibus privatis, et sacris aedibus, et navigiis,
-              cadaveribusque suorum in ignem conjectis alii<hi n="hi75" rend="sup">
+              cadaveribusque suorum in ignem conjectis alii<hi n="hi54" rend="sup">
                   <note place="foot" n="note1">reductam aedem sacram, et caenobium Divi Nicolai cremare, depredatae sunt totum
                   suburbium incensis pene omnibus privatis, et sacris aedibus, et navigiis,
                   cadaveribusque suorum in ignem conjectis alii Z: reductam, ab oppugnatione
@@ -1512,32 +1455,32 @@
                   et privatas Aedes incendere, cum Templo, et caenobio Sancti Nicolai; et navigiis,
                   cadaveribusque suum in ignem coniectis, omnia cremare aggressi sunt. Alii D
                 </note>
-               </hi> se ad naves cum praeda receperunt<hi n="hi76" rend="sup">
+               </hi> se ad naves cum praeda receperunt<hi n="hi55" rend="sup">
                   <note place="foot" n="note1">receperunt Z: receperant D</note>
-               </hi> alii longius vagati usque ad<hi n="hi77" rend="sup">
+               </hi> alii longius vagati usque ad<hi n="hi56" rend="sup">
                   <note place="foot" n="note1">ad Z: in D</note>
                </hi> proximum rus Zernovae
               ab igne, et devastationibus temperantes non inde quicquam aliud, nisi campanas tantum
-              abstulerunt, alii<hi n="hi78" rend="sup">
+              abstulerunt, alii<hi n="hi57" rend="sup">
                   <note place="foot" n="note1">alii sub Z: alii, pauci
                   tamen, sub D</note>
-               </hi> sub maenibus<hi n="hi79" rend="sup">
+               </hi> sub maenibus<hi n="hi58" rend="sup">
                   <note place="foot" n="note1">maenibus iaculationibus Z: maenibus adhuc iaculationibus D</note>
                </hi>
               jaculationibus vacabant. Circa meridiem animadvertimus tres viros nobiliores, ut ex
               indumentis apparebat de monte Sancti Blasii suburbano speculari urbis situm, tum
-              timpanis bellicis<hi n="hi80" rend="sup">
+              timpanis bellicis<hi n="hi59" rend="sup">
                   <note place="foot" n="note1">bellicis prodivimus Z:
                   bellicis pulsatis prodivimus D</note>
                </hi> 
-               <milestone unit="page" n="milestone81"/>prodivimus super maenia militari
-              more gradientes tam viri, et pueri, quam mulieres, et [†]<hi n="hi82" rend="sup">
+               <milestone unit="page" n="milestone4"/>prodivimus super maenia militari
+              more gradientes tam viri, et pueri, quam mulieres, et [†]<hi n="hi60" rend="sup">
                   <note place="foot" n="note1">nečitko: scriba ipse delevit</note>
                </hi> puellae indumentis
-                virilibus<hi n="hi83" rend="sup">
+                virilibus<hi n="hi61" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz
                 viridibus</note>
-               </hi> indutae<hi n="hi84" rend="sup">
+               </hi> indutae<hi n="hi62" rend="sup">
                   <note place="foot" n="note1">indumentis
                   virilibus indutae Z: virilibus indutae vestibus D</note>
                </hi> omnes armati
@@ -1546,110 +1489,110 @@
               quidam sub maenia in fossam subtus pontem accurrit in habitu turcico clamitans se esse
               Christianum, qui per funem demissum inter nos fuit receptus non saucius quidem, sed
               clamidis sinistro sinu ob glandulam a Vincentio in eum dum curreret coniectam lacerato
-              vix incolumis. Erat is Hispanus Betius<hi n="hi85" rend="sup">
+              vix incolumis. Erat is Hispanus Betius<hi n="hi63" rend="sup">
                   <note place="foot" n="note1">Betius
                   Z: Beaticus D</note>
                </hi>, et ajebat se esse Martinum filium Martini Moralis, et
               nominari Alli apud Turcas. Ab eo non solum oppugnatorem nostrum Uluzalim, sive
               Ochialinum Algerii proregem, sed et gesta, et numerum totius reliquae classis
               didicimus. Neque tamen viro fidebamus quoniam fuerat circumcisus, ut ipse aiebat,
-              coacte. Texebat historiam se viginti annis ante fuisse captum decem <hi n="hi86" rend="sup">
+              coacte. Texebat historiam se viginti annis ante fuisse captum decem <hi n="hi64" rend="sup">
                   <note place="foot" n="note1">decem annorum Z: decem aetatis annorum
               D</note>
                </hi>annorum a Mulaibagazone Rege Veles in Libia, quo postea cum suo regno a
               Rege Fes capto ipse cum aliis captivis in Fes deductus fuerat; ibique violenter
-              circumcisus, neque inde unquam exisse nisi hoc vere nisi cum Scripho <add n="add87">regis</add>
-               <hi n="hi88" rend="sup">
+              circumcisus, neque inde unquam exisse nisi hoc vere nisi cum Scripho <add n="add18">regis</add>
+               <hi n="hi65" rend="sup">
                   <note place="foot" n="note1">regis D: regi Z</note>
                </hi> Fes fratre
               servituti eius mancipatum, et modo opportunitatem nactum aufugisse. Nos hominem in
               vinculis, et custodia tenuimus. Interim de valle hostis movit classem pedetentim per
-                canale<hi n="hi89" rend="sup">
+                canale<hi n="hi66" rend="sup">
                   <note place="foot" n="note1">Interim de valle hostis movit
                   classem pedetentim per canale Z: Interim, cessato vento, hostis de valle
                   pedetentim movit Classem per Canale D</note>
                </hi> in occidentale litus Sabionceli.
               Ex viginti triremibus, et semitriremibus nulla erat, quae non fuisset aliquo a nostris
               damno affecta, alii malus, et antennae perfractae, alii rostra adempta, alii prora
-              illisa alii puppis inquassata<hi n="hi90" rend="sup">
+              illisa alii puppis inquassata<hi n="hi67" rend="sup">
                   <note place="foot" n="note1">in dodano iznad
                   quassata; conquassata D</note>
-               </hi>.<hi n="hi91" rend="sup">
+               </hi>.<hi n="hi68" rend="sup">
                   <note place="foot" n="note1">inquassata. Ex transfuga Z: conquassata. Decem, inhabilis effectae, ab aliis
                   remulco trahebatur. Ex transfuga D</note>
                </hi> Ex transfuga intelleximus centum,
-              et octoginta Turcas, et totidem captivos<hi n="hi92" rend="sup">
+              et octoginta Turcas, et totidem captivos<hi n="hi69" rend="sup">
                   <note place="foot" n="note1">captivos eo proelio Z: captivos, quantum ipse nosse potuit, circiter, eo proelio
                   D</note>
                </hi> eo proelio periisse. In medio canali obviaverunt duae lintres
               Sabioncellinorum munera deferentium, qui nobis postea retulerunt, quod admissi ante
-              Uluzalim commendaverant<hi n="hi93" rend="sup">
+              Uluzalim commendaverant<hi n="hi70" rend="sup">
                   <note place="foot" n="note1">comendaverant Z:
                   comendaverunt D</note>
                </hi> se poscentes indemnitatem, quam ille benigne promisit,
               et praestit tanquam Ragusinorum subditis, interrogavitque eos nunquid militum
-              praesidium in Curzula foret ***<hi n="hi94" rend="sup">
+              praesidium in Curzula foret ***<hi n="hi71" rend="sup">
                   <note place="foot" n="note1">foret ***
                   ipsi Z: foret quodque ipsi D</note>
-               </hi> ipsi responderunt se<milestone unit="page" n="milestone95"/> ab illis
-              civibus hostium loco haberi, neque admitti intra maenia [ad]<hi n="hi96" rend="sup">
+               </hi> ipsi responderunt se<milestone unit="page" n="milestone5"/> ab illis
+              civibus hostium loco haberi, neque admitti intra maenia [ad]<hi n="hi72" rend="sup">
                   <note place="foot" n="note1">scriba ipse delevit</note>
                </hi> in urbem jam a multo tempore.
               Deinde quaesivit an Triremes Venetae fuerint sub eo oppido a quindecim diebus citra,
-              qui responderunt fuisse. Subjunxit ille praesidium fuit dimissum<hi n="hi97" rend="sup">
+              qui responderunt fuisse. Subjunxit ille praesidium fuit dimissum<hi n="hi73" rend="sup">
                   <note place="foot" n="note1">dimissum Z: admissum D</note>
                </hi>, verumtamen majores, et
               munitiores urbes in Hispania ego consuevi debellare, caperem et hanc sed non vacat
               mihi. Dimissis eis se recepit in portum figerium sub Sabioncello procul a nobis
               circiter tria millia passuum. Ibi per totam noctem, et sequentem diem refecit
-                quassas<hi n="hi98" rend="sup">
+                quassas<hi n="hi74" rend="sup">
                   <note place="foot" n="note1">refecit quassas Z: refecit naves
                   quassas D</note>
-               </hi> nullam interim molestiam <add n="add99">nobis</add>
-               <hi n="hi100" rend="sup">
+               </hi> nullam interim molestiam <add n="add19">nobis</add>
+               <hi n="hi75" rend="sup">
                   <note place="foot" n="note1">nobis D: eis Z</note>
-               </hi> inferendo. Nostri profugae<hi n="hi101" rend="sup">
+               </hi> inferendo. Nostri profugae<hi n="hi76" rend="sup">
                   <note place="foot" n="note1">profugae Z: perfugae D</note>
                </hi>, qui eo
               mane ante hostilem adventum ex urbe se per muros dimiserant omnes incolumes
-                <add n="add102">evaserant</add>
-               <hi n="hi103" rend="sup">
+                <add n="add20">evaserant</add>
+               <hi n="hi77" rend="sup">
                   <note place="foot" n="note1">evaserant D: evaserunt
                   Z</note>
                </hi> quidam intra dumeta, et silvas latuerant, alii Augustam Ragusinorum
-              insulam <add n="add104">trajecerant</add>
-               <hi n="hi105" rend="sup">
+              insulam <add n="add21">trajecerant</add>
+               <hi n="hi78" rend="sup">
                   <note place="foot" n="note1">trajecerant D:
                   trajecerunt Z</note>
                </hi>. Nonuli cimbam nacti recte Jadram
-                <add n="add106">transvolaverant</add>
-               <hi n="hi107" rend="sup">
+                <add n="add22">transvolaverant</add>
+               <hi n="hi79" rend="sup">
                   <note place="foot" n="note1">transvolaverant D:
                   transvolaverunt Z</note>
-               </hi> nunciantes, captam<hi n="hi108" rend="sup">
+               </hi> nunciantes, captam<hi n="hi80" rend="sup">
                   <note place="foot" n="note1">captam, et incensam Z: captam Urbem et incensam D</note>
                </hi>, et incensam
-              fuisse Corzulam, seque <hi n="hi109" rend="sup">
+              fuisse Corzulam, seque <hi n="hi81" rend="sup">
                   <note place="foot" n="note1">seque amputari Z:
                   <sic n="sic1">seque</sic> Archidiacono, et eius fratri Vincentio, fortiter praelantibus, intra
                   portas urbis caput amputari D</note>
                </hi>amputari, seque vix praecipiti fuga
-              evasisse <add n="add110">semineces</add>
-               <hi n="hi111" rend="sup">
+              evasisse <add n="add23">semineces</add>
+               <hi n="hi82" rend="sup">
                   <note place="foot" n="note1">semineces D:
                   seminaces Z</note>
                </hi>. Praetor noster audito hoc nuntio gratias egerat Deo, quod
               quae praeviderat, iuxta eius opinionem evenerant. Nostri vero, qui antea illuc
-              navigarent in luctum resoluti sui immemores nostrum casum deplorabant.<hi n="hi112" rend="sup">
+              navigarent in luctum resoluti sui immemores nostrum casum deplorabant.<hi n="hi83" rend="sup">
                   <note place="foot" n="note1">deplorabant. At nos Z: deplorabant. Sed paucos post
                   dies, acceptis veris nunciis, dolore in gaudium converso, confusis nunciatoribus
                   mendacibus, de nostris victoriis, et incolumitate alacres, festivi in patriam
                   redierunt. At Nos D</note>
                </hi> At nos Dei munere servati licet in ipso praelii
-              ineundi principio pavidi, et perterrefacti, et quidam etiam trementes<hi n="hi113" rend="sup">
+              ineundi principio pavidi, et perterrefacti, et quidam etiam trementes<hi n="hi84" rend="sup">
                   <note place="foot" n="note1">prepravljeno </note>
                </hi> videremur, tamen postea
-              caepta pugna adeo alacres evaseramus, ut spiritu quodam divino vires nobis auctas<hi n="hi114" rend="sup">
+              caepta pugna adeo alacres evaseramus, ut spiritu quodam divino vires nobis auctas<hi n="hi85" rend="sup">
                   <note place="foot" n="note1">auctas Z: acutas D</note>
                </hi> nos ipsi
               admiraremur. Erat videre senes etiam octogenarios discurrere, hortari tela ministrare,
@@ -1657,40 +1600,40 @@
               octogesimum tertium annum, et ob senium inferiori debilitata mandibula aperto ore
               hiantem nemo est qui non viderit hastam dextera quamvis effecta vibrantem, et juniorum
               animos verbo, et exemplo excitantem. Mulieres non amplius pavidae muliebri more se in
-              luctum dabant, sed audacter arma tractabant, et <add n="add115">si quae</add>
-               <hi n="hi116" rend="sup">
+              luctum dabant, sed audacter arma tractabant, et <add n="add24">si quae</add>
+               <hi n="hi86" rend="sup">
                   <note place="foot" n="note1">si qua D: signa Z</note>
-               </hi> vulnerabatur aequo<hi n="hi117" rend="sup">
+               </hi> vulnerabatur aequo<hi n="hi87" rend="sup">
                   <note place="foot" n="note1">aequo ferens Z: aequo omnia ferens
                 D</note>
-               </hi> ferens animo, <add n="add118">nec</add>
-               <hi n="hi119" rend="sup">
+               </hi> ferens animo, <add n="add25">nec</add>
+               <hi n="hi88" rend="sup">
                   <note place="foot" n="note1">nec
                   D:ne Z</note>
                </hi> ingemiscebat quidem sed prosequebatur opus suum. Puellae
               solitae ad auram trepidare armis ministrandis obriguerant, Pueri atrocitate quadam
               praeter aetatem hostibus erant damno, et formidinis, viri qui certe perpauci
               supererant ingenti fortitudine munia obibant, nulas vitantes vices, nec ulli parcentes
-              labori. Nec quisquam erat,ex quo jam caeperat pugnari <milestone unit="page" n="milestone120"/>qui suum in
-                <add n="add121">quopiam</add>
-               <hi n="hi122" rend="sup">
+              labori. Nec quisquam erat,ex quo jam caeperat pugnari <milestone unit="page" n="milestone6"/>qui suum in
+                <add n="add26">quopiam</add>
+               <hi n="hi89" rend="sup">
                   <note place="foot" n="note1">quopiam D: quapiam
                 Z</note>
-               </hi> genere desiderari offitium operam, vel laborem<add n="add123"> permittebat</add>
-               <hi n="hi124" rend="sup">
+               </hi> genere desiderari offitium operam, vel laborem<add n="add27"> permittebat</add>
+               <hi n="hi90" rend="sup">
                   <note place="foot" n="note1">permittebat D: praemittebat Z</note>
                </hi>.
-              Post <corr n="corr125">praelium</corr> amotis hostibus delectum omnium quotquot erat intra oppidum arma
-              <sic n="sic126">gererent</sic> 
-               <hi n="hi127" rend="sup">
+              Post <corr n="corr1">praelium</corr> amotis hostibus delectum omnium quotquot erat intra oppidum arma
+              <sic n="sic2">gererent</sic> 
+               <hi n="hi91" rend="sup">
                   <note place="foot" n="note1">quotquot erat intra oppidum arma
                   gererent Z: quotquot intra oppidum arma gerrerent D</note>
                </hi>diligentissimum
-              Archidiaconus habuit. Hoc in loco consentaneum mihi videtur cunctorum sigillatim<hi n="hi128" rend="sup">
+              Archidiaconus habuit. Hoc in loco consentaneum mihi videtur cunctorum sigillatim<hi n="hi92" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz singillatim</note>
                </hi> nomina
               inserere, ne quisquam sua laude defraudetur, et ut Dei beneficium ex debilitate
-              pugnatorum agnoscatur. Imprimis<hi n="hi129" rend="sup">
+              pugnatorum agnoscatur. Imprimis<hi n="hi93" rend="sup">
                   <note place="foot" n="note1">imprimis Z:
                   in primis D</note>
                </hi> ex ordine sacerdotali erant quinque. Ipse nimirum Antonius
@@ -1700,19 +1643,19 @@
               excubiis nocturnis diurnisque pervigil precandi Deum assiduitate indefessus, et quod
               notatu dignum est, cum alias sit semper valetudinarius, et sexagesimo anno
               appropinquaret, agilitate, et exercitatione praecipuam ad omnia operam praestabat.
-              Antonius Paulius cognomento Rufus. Marcus Milateus alias de Charis<hi n="hi130" rend="sup">
+              Antonius Paulius cognomento Rufus. Marcus Milateus alias de Charis<hi n="hi94" rend="sup">
                   <note place="foot" n="note1">Milateus alias de Charis Z: Miloteus alias de Caris
                 D</note>
                </hi>, qui certe tormentariis elapsis adigendorum tormentorum vicem strenue
               subiit, et de turri Omnium Sanctorum hostes damnis plurimis affecit. Antonius
-              Pomeneus, sive Mamentinus<hi n="hi131" rend="sup">
+              Pomeneus, sive Mamentinus<hi n="hi95" rend="sup">
                   <note place="foot" n="note1">Mamentinus Z:
                   Mementinus D</note>
                </hi> sacrista. Ex Patriciis fuerunt tantumodo viginti unus,
               videlicet Jo. Baptista Roseneus 83 annorum circa Idus Octobris explendorum, Hieronymus
               Gabrielius quindecim annis junior. Marinus Obradi pene paris aetatis ad
-                <sic n="sic132">Hieronime</sic> 
-               <hi n="hi133" rend="sup">
+                <sic n="sic3">Hieronime</sic> 
+               <hi n="hi96" rend="sup">
                   <note place="foot" n="note1">pene paris aetatis ad
                   Hieronime Z: paene eiusdem aetatis cum Hieronymo. D</note>
                </hi>. Nicolaus Vidosius
@@ -1721,50 +1664,50 @@
               Marcus Grusius, tunc Curiae minoris judex, Franciscus Sevileus, Michael Cetineus
               Cosmae filius, Franciscus Prismius, Antonius Marineus, Joannes Scemanus, Joannes
               Petrovius, Franciscus Tulius Nicolaus Dragineus, Antonius Baptistinus, Marinus
-              Sacneus, Joannes, alterius Marini Sacnei filius. Civium vero, et incolarum [era]<hi n="hi134" rend="sup">
+              Sacneus, Joannes, alterius Marini Sacnei filius. Civium vero, et incolarum [era]<hi n="hi97" rend="sup">
                   <note place="foot" n="note1">scriba ipse delevit</note>
                </hi> seu artificum
               erat numerus 66, videlicet Marcus Ressa carpentarius bombarderius ad puteum salsum,
               quem Slatinam dicunt, Franciscus de Milo graecus mercator. Mucus Radatovius nauta.
               Georgius de Ragusio Rosenorum domesticus. Nicolaus Epirota, alter Rosenorum famulus
-              sagittandi peritia satis<milestone unit="page" n="milestone135"/> instructus<hi n="hi136" rend="sup">
+              sagittandi peritia satis<milestone unit="page" n="milestone7"/> instructus<hi n="hi98" rend="sup">
                   <note place="foot" n="note1">sagittandi peritia satis instructus Z: excellens sagittarius D</note>
                </hi>, Anton
-              de Ragusio bajulus, Franciscus Profaticus<hi n="hi137" rend="sup">
+              de Ragusio bajulus, Franciscus Profaticus<hi n="hi99" rend="sup">
                   <note place="foot" n="note1">Profaticus Z: Profacius D</note>
                </hi> Nauta seu piscator, Nicolaus Christophori
               piscator. Lucas Macellarius. Christophorus de Paulis Latomus. Franciscus ejusdem
-              Christophori filius similiter Latomus. Marcus Radius Agricola, Toncus<hi n="hi138" rend="sup">
+              Christophori filius similiter Latomus. Marcus Radius Agricola, Toncus<hi n="hi100" rend="sup">
                   <note place="foot" n="note1">Toncus Z: Tomas D</note>
                </hi> Osliza bajulus infirmus,
               et inutilis. Franciscus Jurievius Doliarius, qui et ipse bombarderii munus in praelio
-              satis naviter<hi n="hi139" rend="sup">
+              satis naviter<hi n="hi101" rend="sup">
                   <note place="foot" n="note1">satis naviter Z: optime
                   D</note>
                </hi> obiit. Gregorius Clariceus bajulus, Nicolaus Magliceus pistor,
               Jacobus Matcovus de Ragusio Nauta, Marinus Pharensis, qui recedentem puppim regiam
-              Ullucelini ictu bombardelle ab aede Sancti<hi n="hi140" rend="sup">
+              Ullucelini ictu bombardelle ab aede Sancti<hi n="hi102" rend="sup">
                   <note place="foot" n="note1">sancti Z: sanctissimae D</note>
                </hi> Trinitatis percussit, Vlachusa, alias
-              Blasius de Longo agricola, Gregorius Martuleus<hi n="hi141" rend="sup">
+              Blasius de Longo agricola, Gregorius Martuleus<hi n="hi103" rend="sup">
                   <note place="foot" n="note1">Martuleus Z: Marticleus D</note>
-               </hi> nauta, Nicolaus Vlacotimus<hi n="hi142" rend="sup">
+               </hi> nauta, Nicolaus Vlacotimus<hi n="hi104" rend="sup">
                   <note place="foot" n="note1">Vlacotimus Z: Vulathotinus</note>
                </hi>
-              latomus. Marinus Suturiza cognomento Rex piscator, Franciscus Gerbinus<hi n="hi143" rend="sup">
+              latomus. Marinus Suturiza cognomento Rex piscator, Franciscus Gerbinus<hi n="hi105" rend="sup">
                   <note place="foot" n="note1">Gerbinus Z: Garbinus D</note>
                </hi> piscator. Petrus
               famulus Tronconeorum alias Philippinorum. Nicolaus Gurdius surdus Doliarius. Joannes
               Grusius piscator, et Stephanus eius filius. Nicolaus Sagedinus Doliarius. Antonius
               Costa latomus. Nicolaus eius filius bombarderius adustus Gregorius Doimius latomus,
-              Marinus Surateus pede truncus<hi n="hi144" rend="sup">
+              Marinus Surateus pede truncus<hi n="hi106" rend="sup">
                   <note place="foot" n="note1">truncus Z:
                   trunculus D</note>
                </hi> latomus. Antonius Pomeneus senior carpentarius, Franciscus
-              Bonvardo piscator. Antonius Vitcovius piscator. Marinus Bavonisius<hi n="hi145" rend="sup">
+              Bonvardo piscator. Antonius Vitcovius piscator. Marinus Bavonisius<hi n="hi107" rend="sup">
                   <note place="foot" n="note1">Bavonisius Z: Banisius D</note>
                </hi>, alias Baziza agricola
-                bombarderius.<hi n="hi146" rend="sup">
+                bombarderius.<hi n="hi108" rend="sup">
                   <note place="foot" n="note1">bombarderius, Andreas
                   Vlacotinus Z: bombarderius. Andreas Riganus baiulus. Franciscus Carlius latomus.
                   Marcus Milanconus agricola bombarderius. Andreas Vulatcotinus D</note>
@@ -1776,61 +1719,61 @@
               Vincentius Goriglavius, alias Ardentinus, Vincentius de Ragusio bajulus, Joannes
               Theodori grecus de Valona externus, quem licet suspectum haberent Cives, tamen experti
               sunt fidelem, et strenuum, et viriliter se gerentem, aliosque insuper animantem.
-              Marcus de Paulis latomus,<hi n="hi147" rend="sup">
+              Marcus de Paulis latomus,<hi n="hi109" rend="sup">
                   <note place="foot" n="note1">Marcus de Paulis
                   latomus, Michael faber Z: Marcus de Paulis latomus. Hieronymus Pomeneus latomus.
                   Michael faber D</note>
                </hi> Michael faber ferarius septuaginta annorum, Marcus
-              eius nepos <add n="add148">ejusdem</add>
-               <hi n="hi149" rend="sup">
+              eius nepos <add n="add28">ejusdem</add>
+               <hi n="hi110" rend="sup">
                   <note place="foot" n="note1">eiusdem D: eius
                   Z</note>
                </hi> artis faber. Joannes Pharensis gener castellani pastor. Marcus
-                Radoevius<hi n="hi150" rend="sup">
+                Radoevius<hi n="hi111" rend="sup">
                   <note place="foot" n="note1">Radoevius Z: Radomius
                 D</note>
                </hi> pastor. Petrus Cuppussina agricola, Lucas Smerchigna carpentarius,
               Joannes faber ferrarius ejus gener. Gaspar de Istria bajulator. Andreas Miglienovus
-              senior orationi tantum ante aras utilis. Natalinus †<hi n="hi151" rend="sup">
+              senior orationi tantum ante aras utilis. Natalinus †<hi n="hi112" rend="sup">
                   <note place="foot" n="note1">nečitko</note>
                </hi> 
-               <sic n="sic152">Mathzi</sic>
-               <hi n="hi153" rend="sup">
+               <sic n="sic4">Mathzi</sic>
+               <hi n="hi113" rend="sup">
                   <note place="foot" n="note1">Mathzi kao i kasnije u tekstu Mathqi vjerojatno je krivo prepisan Mathei pisan
                   pomoću e caudata koji ovaj prepisivač ne koristi</note>
                </hi> greci carpentarius.
-              Lucas Marci Ciore piscator, Vincentius Bilcovuius<hi n="hi154" rend="sup">
+              Lucas Marci Ciore piscator, Vincentius Bilcovuius<hi n="hi114" rend="sup">
                   <note place="foot" n="note1">Bilcovuius Z: Billovuius D</note>
-               </hi>, Vincentius Pauli Bigalnei<hi n="hi155" rend="sup">
+               </hi>, Vincentius Pauli Bigalnei<hi n="hi115" rend="sup">
                   <note place="foot" n="note1">Bigalnei Z: Biganei D</note>
                </hi>, Vincentius
-              <sic n="sic156">Mathqi</sic> 
-               <hi n="hi157" rend="sup">
+              <sic n="sic5">Mathqi</sic> 
+               <hi n="hi116" rend="sup">
                   <note place="foot" n="note1">Mathei</note>
                </hi> piscatoris; et
               hi quinque ultimo loco descripti erant pueri decem, aut duodecim annorum ex
-              Blattensibus ultra patricios fuerunt dumtaxat decem<hi n="hi158" rend="sup">
+              Blattensibus ultra patricios fuerunt dumtaxat decem<hi n="hi117" rend="sup">
                   <note place="foot" n="note1">decem Z: undecim D</note>
-               </hi>, videlicet<milestone unit="page" n="milestone159"/> Joannes Orebus, Nicolaus
-                Bajus<hi n="hi160" rend="sup">
+               </hi>, videlicet<milestone unit="page" n="milestone8"/> Joannes Orebus, Nicolaus
+                Bajus<hi n="hi118" rend="sup">
                   <note place="foot" n="note1">Bajus Z: Bacius D</note>
                </hi>,
               Antonius Petrovus, Jacobus Pigeus Gregorius Cheus, Joannes Ragienus. Helius Glavocius,
               Franciscus Baicius Joannes Castrophilus, Antonius Sincovus, Paulus, Bossidarus. Octo
-              fuere Pupnatenses, videlicet<hi n="hi161" rend="sup">
+              fuere Pupnatenses, videlicet<hi n="hi119" rend="sup">
                   <note place="foot" n="note1">Videlicet Marcus
                   Matusius Z: videlicet Marcus Marchiosuus. Petrus et Michael Separei. Marcus
                   Motusius. D</note>
-               </hi> Marcus Matusius, Mathqus<hi n="hi162" rend="sup">
+               </hi> Marcus Matusius, Mathqus<hi n="hi120" rend="sup">
                   <note place="foot" n="note1">Matheus</note>
                </hi> Stanisius, Joannes Roscovius, Jacobus Angelinus,
               Petrus Pharius famulus Juriceorum. Totidem Lumbardini inventi sunt, ultra eos, qui cum
-              Civitate numerati<hi n="hi163" rend="sup">
+              Civitate numerati<hi n="hi121" rend="sup">
                   <note place="foot" n="note1">numerati Z: anumerati
                   D</note>
-               </hi> fuere videlicet Joannes [Melissae]<hi n="hi164" rend="sup">
+               </hi> fuere videlicet Joannes [Melissae]<hi n="hi122" rend="sup">
                   <note place="foot" n="note1">scriba ipse delevit</note>
-               </hi> Buzzalinus<hi n="hi165" rend="sup">
+               </hi> Buzzalinus<hi n="hi123" rend="sup">
                   <note place="foot" n="note1">Upisano iznad Melissae</note>
                </hi>, Bernichius Jelicius,
               Nicolaus Musius, Marinus Radinus, Joannes Radinus, Marcus Cernogareus, Marcus
@@ -1840,14 +1783,14 @@
               Antonius Zuitanus, Jacobus Cebalius, Franciscus Zagoreus, Andreas Stancovas,
               Franciscus Catharinus, et Hieronymus, et alter Hieronymus Banisii Roseneorum coloni,
               et clientes. Marcus senior, et alter Marcus Culianovi Antonius Zugareus, Joannes
-              Nicolicius, Franciscus Luchinus, Antonius cum filio Joanne<hi n="hi166" rend="sup">
+              Nicolicius, Franciscus Luchinus, Antonius cum filio Joanne<hi n="hi124" rend="sup">
                   <note place="foot" n="note1">Joane Bericius Z: Joanne, et Marco fratre Cocchionovus,
                   Marcus et Jacobus Radovini, Jacobus Vaceta. Marcus Bericius D</note>
                </hi>
               Bericius, Marcus Pignatiza, Franciscus Cernogoreus, Joannes Croilo, Marinus Cuspilus,
               Michael Baranus, Petrus Cuspilus, Jacobus Businovus. Nicolaus Cuspilus, Joannes
               Bosinovus. Stephanus Bella infirmus. Praeter hos, qui centum, et quinquaginta trium
-              summam complent nemo alius manum<hi n="hi167" rend="sup">
+              summam complent nemo alius manum<hi n="hi125" rend="sup">
                   <note place="foot" n="note1">manum Z:
                   marium D</note>
                </hi> nisi forte quisque infans, ut erat Horatius, et Annibal
@@ -1857,34 +1800,34 @@
               hostili collapsorum. Vulneratos, et quidem leviter sex, totidem quoque mulieres
               saucias, adustos ex rapida festinatione a semetipsis quinque, quorum unus Franciscus
               Costa latomus paucis post diebus interiit dignus certe juvenis memoria perenni, ut
-              pote qui maluit cum parente, et patria commune [omnia]<hi n="hi168" rend="sup">
+              pote qui maluit cum parente, et patria commune [omnia]<hi n="hi126" rend="sup">
                   <note place="foot" n="note1">scriba ipse delevit</note>
                </hi> subire periculum, quam sibi
-              tantum <hi n="hi169" rend="sup">
+              tantum <hi n="hi127" rend="sup">
                   <note place="foot" n="note1">tantum ignaviter Z: tantum per fugam
                   ignaviter D</note>
                </hi>ignaviter consulere. Nam audito hostili paratu Ragusio
               digrediens ubi tunc morabatur cum uxore et filiis, et pedestri itinere properans
               sponte se intra muros inclusit semper sermone, et re ipsa cives ad deffensionem
               Patriae cohortatus, quem eo libentius collaudo, ut discat posteritas imitari. Alter
-                eorum<hi n="hi170" rend="sup">
+                eorum<hi n="hi128" rend="sup">
                   <note place="foot" n="note1">eorum Z: etiam D</note>
                </hi>
               Franciscus Batocamius arefacta manu, et utroque pede claudus, evasit; reliqui
-              convaluere. Numerus elapsorum fuit centum paulo plurium<milestone unit="page" n="milestone171"/> nec ab hostibus, quisquam
+              convaluere. Numerus elapsorum fuit centum paulo plurium<milestone unit="page" n="milestone9"/> nec ab hostibus, quisquam
               captus fuit praeter solam Catharinam Marci Radoevvii pastoris suburbani filiam. Sub
               vespertinum crepusculum advenere ex eis aliquot veniam deprecantes, et arcenti eos
-              vulgo cum saxis vix potuit Archidiaconus suadere per funem recipere<hi n="hi172" rend="sup">
+              vulgo cum saxis vix potuit Archidiaconus suadere per funem recipere<hi n="hi129" rend="sup">
                   <note place="foot" n="note1">suadere per funem recipere Z: suadere, ut per funem
                   reciperentur D</note>
                </hi>, nec valuit cohiberi temeritas, quin unus graviter in
               fronte feriretur. Tanta est nostra in prosperis humanae charitatis oblivio. Paulo ante
-              vix pietatem divinam lacrymis, et planctu in commiserationem nostri defleximus, et<hi n="hi173" rend="sup">
+              vix pietatem divinam lacrymis, et planctu in commiserationem nostri defleximus, et<hi n="hi130" rend="sup">
                   <note place="foot" n="note1">et Z: ut D</note>
                </hi> non sponte, sed vel
               metu majoris periculi, vel necessitate coacti praeter voluntatem nostram in urbe
               deprehensi fuimus, et tamen in proximos nostros, qui nobis alacriores fuerint,
-              desevimus, nec id cognatorum nostrorum defectibus ***<hi n="hi174" rend="sup">
+              desevimus, nec id cognatorum nostrorum defectibus ***<hi n="hi131" rend="sup">
                   <note place="foot" n="note1">nec id cognatorum nostrorum defectibus *** et nulla Z: nec in cognatorum
                   nostrorum defectibus connivemus. Et nulla D</note>
                </hi> et nulla quidem ratio
@@ -1892,19 +1835,19 @@
               forte rursus oppugnaremur, quamvis aliqui nihil melius cum eis fore contenderent
               quorum licentiam Archidiaconus, et verbo, et auctoritate coercuit. Noctu ante sextum
               decimum Calendas Septembris Uluzali cum suis avectus est Pharum versus quod est
-                Caracosia<hi n="hi175" rend="sup">
+                Caracosia<hi n="hi132" rend="sup">
                   <note place="foot" n="note1">quod est Cracovia ad quinquaginta
                   quinque Z: cum est Caracosia cum quinquaginta quinque D</note>
                </hi> ad
               quinquaginta quinque velis per nostrum canale. Paulo post in tenebris tertia vigilia
-              preteriit ipse quoque Pharum tendens, nec in nos quicquam tentavit<hi n="hi176" rend="sup">
+              preteriit ipse quoque Pharum tendens, nec in nos quicquam tentavit<hi n="hi133" rend="sup">
                   <note place="foot" n="note1">tentavit Z: attentavit D</note>
                </hi> a nobis quoque minime
-              tentatus. Eodem die sub tempus postmeridianum<hi n="hi177" rend="sup">
+              tentatus. Eodem die sub tempus postmeridianum<hi n="hi134" rend="sup">
                   <note place="foot" n="note1">postmeridianum Z: pomeridianum D</note>
                </hi> venit custos de montibus, nuntians
               celocem quandam ex alto celerem tanquam avem in Augustam venisse, et inde ad nos remis
-              velisque tendere, nec multo post affuit celox, cui praeerat Nicolaus Hydruntinus<hi n="hi178" rend="sup">
+              velisque tendere, nec multo post affuit celox, cui praeerat Nicolaus Hydruntinus<hi n="hi135" rend="sup">
                   <note place="foot" n="note1">Hydruntinus Z: Hydrantinus D</note>
                </hi>, qui
               retulit nostram classem prope diem adventuram in hostes animo pugnandi. Ea spes
@@ -1912,10 +1855,10 @@
               confederatorum manum simul esse congregatam, tamen amplificavit spem, et nuntium, ut
               nostros animaret. Is venerat, ut numerum et robur, et hostium gesta exploraret. Nos
               quaesitis eius satisfacientes tertia die eum a nobis dimisimus cum literis
-              Archidiaconi tum ad Serenissimum Imperatorem<hi n="hi179" rend="sup">
+              Archidiaconi tum ad Serenissimum Imperatorem<hi n="hi136" rend="sup">
                   <note place="foot" n="note1">Imperatorem Z: Principem D</note>
                </hi> Venetiarum ex Apulia ubicunque primum
-                applicuisset<hi n="hi180" rend="sup">
+                applicuisset<hi n="hi137" rend="sup">
                   <note place="foot" n="note1">applicuisset Z: applicavisset
                   D</note>
                </hi> terra transmittendis, tum etiam ad Excelentissimum Classis
@@ -1924,22 +1867,22 @@
               Vereor tamen in quibusdam eum deffecisse. Nam auditum quidem fuit pro certo reditas
               fuisse litteras Augustino Barbadico sed non transfugam neque litteras ad Imperatorem
               perlatas. Uluzalis, et Caracosia in depredandis Pharensibus, qui urbem deseruerant, et
-              in arcem confugerant sex dies sumpserunt<hi n="hi181" rend="sup">
+              in arcem confugerant sex dies sumpserunt<hi n="hi138" rend="sup">
                   <note place="foot" n="note1">sumpserunt Z: consumpserunt D</note>
                </hi>, in quibus totum pene suburbium cum
-              duobus <milestone unit="page" n="milestone182"/>Monasteriis Franciscano, et Dominicano, et intra maenia multas aedes
+              duobus <milestone unit="page" n="milestone10"/>Monasteriis Franciscano, et Dominicano, et intra maenia multas aedes
               sacras et prophanas concremaverunt. Per totam quoque Pharensem Insulam circum vicina
-                maria<hi n="hi183" rend="sup">
+                maria<hi n="hi139" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz maenia</note>
                </hi>
-              impune vagati incendiis, et depopulationibus caedibusque <add n="add184">grassabantur</add>
-               <hi n="hi185" rend="sup">
+              impune vagati incendiis, et depopulationibus caedibusque <add n="add29">grassabantur</add>
+               <hi n="hi140" rend="sup">
                   <note place="foot" n="note1">erassabantur Z- greška prepisivača: grassati
                   sunt D</note>
                </hi>, tamen Gelsae pagum turricula defendit, et in monte Samotuorio
               incolae strenue se tutati sunt, et ut fertur ducentos Turcas occiderunt, quo in loco
-              mulieres egregiam operam praestitisse <add n="add186">dicuntur</add>
-               <hi n="hi187" rend="sup">
+              mulieres egregiam operam praestitisse <add n="add30">dicuntur</add>
+               <hi n="hi141" rend="sup">
                   <note place="foot" n="note1">dicuntur D: dicitur Z</note>
                </hi> in efodiendis saxis, quae
               telorum vice viris in hostes ministrabant. Narentani quoque latrones exierant,
@@ -1952,43 +1895,43 @@
               binae, vel ternae, et longo intervallo procedebant, eodem quoque ordine reversae sunt
               ad vespertinum tempus sub Sabioncelum intra unius horae spatium. Quid sibi vellet illa
               morosa trajectio nos nescibamus. Verebamur tamen eum milites emisisse, qui nos ex
-              insperato a terra invaderent, quando ipse a mari oppugnaturus afforet<hi n="hi188" rend="sup">
+              insperato a terra invaderent, quando ipse a mari oppugnaturus afforet<hi n="hi142" rend="sup">
                   <note place="foot" n="note1">afforet Z: offeret D</note>
                </hi>. Icirco totam noctem
-              insomnes egimus, et <add n="add189">quidem</add>
-               <hi n="hi190" rend="sup">
+              insomnes egimus, et <add n="add31">quidem</add>
+               <hi n="hi143" rend="sup">
                   <note place="foot" n="note1">quidem D:
                   quid Z</note>
                </hi> alii vehementer pugnam exoptabant, ut fugae ignominiam
               resarcirent, alios in oppidum rediisse thaedebat, alii taciti finem praestolabantur,
               supplicationibus, et orationibus vacantes. Ego certe in priori illa Uluzalina pugna
-              fateor, me vel numine<hi n="hi191" rend="sup">
+              fateor, me vel numine<hi n="hi144" rend="sup">
                   <note place="foot" n="note1">numine Z: omine
                   D</note>
-               </hi>, vel temeritate, aut desperatione arreptum<hi n="hi192" rend="sup">
+               </hi>, vel temeritate, aut desperatione arreptum<hi n="hi145" rend="sup">
                   <note place="foot" n="note1">arreptum Z: correptum D</note>
-               </hi> mente <add n="add193">hebetata</add>
-               <hi n="hi194" rend="sup">
+               </hi> mente <add n="add32">hebetata</add>
+               <hi n="hi146" rend="sup">
                   <note place="foot" n="note1">hebetata D: hebebata Z</note>
                </hi> obriguisse
-              in mortis contemptum, sed Caracosianum adventum prorsus nihili [†]<hi n="hi195" rend="sup">
+              in mortis contemptum, sed Caracosianum adventum prorsus nihili [†]<hi n="hi147" rend="sup">
                   <note place="foot" n="note1">nečitko: scriba ipse delevit</note>
                </hi> feci, tum propter
-              nostrorum <add n="add196">animum</add>
-               <hi n="hi197" rend="sup">
+              nostrorum <add n="add33">animum</add>
+               <hi n="hi148" rend="sup">
                   <note place="foot" n="note1">animum D: omnium
                   Z</note>
                </hi> priori excitatum praelio, tum propter hostium debilitatem, non enim
-              erant integrae triremes,<hi n="hi198" rend="sup">
+              erant integrae triremes,<hi n="hi149" rend="sup">
                   <note place="foot" n="note1">triremes, nisi Z:
                   triremes, ut Uluzalinae, nisi D</note>
                </hi> nisi perpaucae, sed breviora navigia
               in quibus neque tormenta violenta, nec pugnatorum multitudo nimia esse poterat. Circa
-              quartam vigiliam Caracosiana manus praetereundo <add n="add199">silenter</add>
-               <hi n="hi200" rend="sup">
+              quartam vigiliam Caracosiana manus praetereundo <add n="add34">silenter</add>
+               <hi n="hi150" rend="sup">
                   <note place="foot" n="note1">silenter D: silente Z</note>
                </hi> rasit iter litore Oeni, seu
-              Sabionceli, et ad aquas Terstenice<hi n="hi201" rend="sup">
+              Sabionceli, et ad aquas Terstenice<hi n="hi151" rend="sup">
                   <note place="foot" n="note1">Terstenice
                   Z: Terstenizae D</note>
                </hi> viginti quatuor stadia procul a Curzola ex orientali
@@ -1997,20 +1940,20 @@
               Franciscanorum scopulum perexerunt, et monasterium totius Illyrici pulcherimum ablatis
               campanis incenderunt. Templum autem augustissimum non potuit cremari, quoniam ex saxo
               vivo, et topho in fornicis modum constructum fuerat, interiora tamen quaeque lignea in
-              favillam redacta parietes fumo<milestone unit="page" n="milestone202"/> infecere. Postea universa illa manus profecta est
+              favillam redacta parietes fumo<milestone unit="page" n="milestone11"/> infecere. Postea universa illa manus profecta est
               ad pagum Lombardae ad Veru, ubi sunt loca nostra delitiosa. Illuc enim venere cum
               praeda, qui praecedenti vespere expositi fuerant in valle Tonsoris circiter mille
-              quingenti viri. Hi totam noctem quieti in litore dormiverant<hi n="hi203" rend="sup">
+              quingenti viri. Hi totam noctem quieti in litore dormiverant<hi n="hi152" rend="sup">
                   <note place="foot" n="note1">dormiverant Z: dormierant D</note>
                </hi>, et ab hora prima
-              diei se per latitudinem insulae difundentes<hi n="hi204" rend="sup">
+              diei se per latitudinem insulae difundentes<hi n="hi153" rend="sup">
                   <note place="foot" n="note1">prepravljeno iz defendendes</note>
-               </hi> a medio insulae in orientale<hi n="hi205" rend="sup">
+               </hi> a medio insulae in orientale<hi n="hi154" rend="sup">
                   <note place="foot" n="note1">orientale cavernas Z: orientale caput
                   proceperant scrutantes omnia dumenta, nemora, saltus, valles, montes et cavernas
                   D</note>
                </hi> cavernas, in quibus comperierunt circiter 34</p>
-            <p n="p13">rurales promiscui sexus, qui nullo pacto cogi poterant, ut intra maenia se
+            <p n="p12">rurales promiscui sexus, qui nullo pacto cogi poterant, ut intra maenia se
               transferrent. Pecorum vero copiosam praedam avexere, et quae sibi visa sunt non
                 avehenda<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">avehenda caedentes Z: avehenda
@@ -2023,12 +1966,12 @@
                </hi>etiam triremem ex Caracosienis statim in eam
               contendere, et postquam cominus congressae sunt, vidimus quoque ambas simul ad
               reliquas raptim redire, in quorum adventu illico omnes vela ventis dedere. Nos primo
-              conjecturis id quod erat conjectantes a praefecto classis Turcicae <add n="add3">venisse</add>
-               <hi n="hi4" rend="sup">
+              conjecturis id quod erat conjectantes a praefecto classis Turcicae <add n="add1">venisse</add>
+               <hi n="hi3" rend="sup">
                   <note place="foot" n="note1">venisse D: vomisse Z</note>
                </hi> Caracosiae
               praeceptum, ut ad reliquum navalem exercitum propere festinet, deinde etiam ab emissis
-              exploratoribus de hoc certiores facti, postero die solemnes non solum<hi n="hi5" rend="sup">
+              exploratoribus de hoc certiores facti, postero die solemnes non solum<hi n="hi4" rend="sup">
                   <note place="foot" n="note1">solemnes non solum Z: non solum solemnes D</note>
                </hi>
               annuas supplicationes a nostris majoribus institutas ob defensam fortiter eo die
@@ -2038,15 +1981,15 @@
               collectas aliquot pilas, et jacula in nos ab Uluzalinis adacta in templo cathedrali,
               tanquam trophaeum iuxta scuta Aragonia cum hujusmodi inscriptione olim a majoribus
               dedicata.</p>
-            <q n="q14">
+            <q n="q1">
                <l n="l1"> (Parthenopes Regem, Sociosque hinc classe repulsos </l>
                <l n="l2"> Testantur<note place="foot" n="note1">testantur Z: testentur
                 D</note> natis scuta dicata Tholo.) </l>
             </q>
-            <p n="p15">Deo, ac Virgini matri, nostrisque tutelaribus Divis Bartholomaeo Apostolo, et Marco
+            <p n="p13">Deo, ac Virgini matri, nostrisque tutelaribus Divis Bartholomaeo Apostolo, et Marco
               Evangelistae protectori praecipuo, omnibusque Celitibus pie sacravimus rem tali
               carmine subsignantes:</p>
-            <q n="q16">
+            <q n="q2">
                <l n="l1">Inter mille rates sospes Corcyra Melena</l>
                <l n="l2">Vauceli pulso parta trophaea dicat.</l>
                <l n="l3">Virgo tuo a partu quingentis mille peractis</l>
@@ -2060,10 +2003,10 @@
                <l n="l10">et prece coelituum perge fovere tuos.</l>
                <l n="l11">In te spes nostra est, per te tibi vincimus usque</l>
                <l n="l12">et sine <add n="add1">Te</add>
-                  <note place="foot" n="note2">sine Te ruimus D: sine
+                  <note place="foot" n="note1">sine Te ruimus D: sine
                   ruimus Z</note> ruimus. Semper adesto tuis.</l>
             </q>
-            <p n="p17">Quod quidem Epigramma breviori compendio sic immutatum est
+            <p n="p14">Quod quidem Epigramma breviori compendio sic immutatum est
             <q n="q1">
                   <l n="l1">Virginis a partu quingentis mille peractis,</l>
                   <l n="l2">et decies septem proximus annus erat.</l>
@@ -2076,7 +2019,7 @@
                   <l n="l6">Urbs memor haec Divae parta trophaea dicat.</l>
                </q>
             </p>
-            <p n="p18">Post haec litteris Archidiaconi certiore facto de incolumitate nostra, et de recessu
+            <p n="p15">Post haec litteris Archidiaconi certiore facto de incolumitate nostra, et de recessu
               totius hostilis classis ex Adriatico sinu Iacobo Foscareno, et Philippo Bragadeno,
               quorum alteri terrestrium, alteri maritimarum rerum Illyrici a senatu cura demandata
               fuerat, et transmisso ab eis tunc primum hoc felici nuntio ad senatum non tantum
@@ -2097,16 +2040,16 @@
               Quod si unquam alio tempore, et usquam alibi divini numinis potestas humano generi
               patuit, plane in servanda Curzulensi urbe manifeste constitit. Ut enim involvantur
               silentio, quandoquidem absque lacrymis referri nequeunt) tot aliae munitissimae urbes
-              captae incensae deditae, quis<milestone unit="page" n="milestone3"/> nisi divina pietas eam<hi n="hi4" rend="sup">
+              captae incensae deditae, quis<milestone unit="page" n="milestone1"/> nisi divina pietas eam<hi n="hi3" rend="sup">
                   <note place="foot" n="note1">eam Z: hanc D</note>
                </hi> urbeculam desertam debilibus muris
               parva manu, et ea imbelli praeservavit? Quis pueris rei bellicae imperitis
-              stratagemata consilia, robur, et audaciam subministravit?<hi n="hi5" rend="sup">
+              stratagemata consilia, robur, et audaciam subministravit?<hi n="hi4" rend="sup">
                   <note place="foot" n="note1">subministravit? An Z: subministravit? Quis faeminis cor,
                   animumque dedit, vel puellis, ut virili habitu indutae, inter arma, vulnera, et
                   pericula impavidae, tela vel ministrarent, vel tractarent? An D </note>
                </hi> An
-              non Dei munus est<hi n="hi6" rend="sup">
+              non Dei munus est<hi n="hi5" rend="sup">
                   <note place="foot" n="note1">est Z: fuit D</note>
                </hi>
               vigilantibus frustra custodibus per ministros sacrorum furtivam hostium invasionem
@@ -2117,29 +2060,29 @@
               quadrigentorum triremium hostilis classis reperitur, et ex ea deliguntur Caracosia, et
               Uluzalis, qui excursiones per Illyricum faciant ambo instructi, et parati, ille secum
               deducit quinquaginta quinque vela hic viginti majora, simul ad praedam discedunt sed
-              dum alter alterum praedandi studio praevenit<hi n="hi7" rend="sup">
+              dum alter alterum praedandi studio praevenit<hi n="hi6" rend="sup">
                   <note place="foot" n="note1">praevenit Z: pervenit D</note>
                </hi> cujus nisi divinae providentiae fuit ne ambo
-                simul<hi n="hi8" rend="sup">
+                simul<hi n="hi7" rend="sup">
                   <note place="foot" n="note1">simul Z: simul fere D</note>
                </hi> eam
               adorirentur, cum ambo ad id simul profecti sunt, et ambo simul eam insulam
-              praetergressi in Pharenses <add n="add9">grassati</add>
-               <hi n="hi10" rend="sup">
+              praetergressi in Pharenses <add n="add1">grassati</add>
+               <hi n="hi8" rend="sup">
                   <note place="foot" n="note1">grassati D: crassati Z</note>
                </hi> fuerint? In reditu autem a Pharia
               depopulatione unde est, quod iterum disjunguntur, et alter denuo tentare perrhorescit
               alteri non vacat? O Virgo beatissima, quam de hac tenebrosa caligine translatam nostri
               causa ante perspicuum summi Dei thronum astare credimus, ut quemadmodum in terris
-              humano generi <add n="add11">virtutum</add>
-               <hi n="hi12" rend="sup">
+              humano generi <add n="add2">virtutum</add>
+               <hi n="hi9" rend="sup">
                   <note place="foot" n="note1">virtutum D:
                   virtutem Z</note>
                </hi> exemplar in admirabili humilitate praestitisti, ita et
               super coelos coelorum proxima Dei potestate praedita ad nostram utilitatem regnes :
               Agnoscentis hoc singulare a te munus populi adauge precamur fiduciam, et quos toties
-              ex tot <add n="add13">internectionum</add>
-               <hi n="hi14" rend="sup">
+              ex tot <add n="add3">internectionum</add>
+               <hi n="hi10" rend="sup">
                   <note place="foot" n="note1">internectionum
                   D: internitionum Z</note>
                </hi> casibus misericorditer eripuisti, cumulatis
@@ -2147,317 +2090,317 @@
               Evangelista ceterisque Divis perpetuo servandos intra sinum benignitatis tuae suscipe,
               ut in fide filii tui radicati, nec unquam ad alienos cultus ulla labefactatione
               detracti, et in hac et in coelesti patria protectionis tuae fructum assequamur.
-              Indulgente votis hujusmodi piissima eiusdem servatoris<hi n="hi15" rend="sup">
+              Indulgente votis hujusmodi piissima eiusdem servatoris<hi n="hi11" rend="sup">
                   <note place="foot" n="note1">servatoris Z: salvatoris D</note>
                </hi> nostri filii tui Iesu
               Christi clementia, cui simul cum Patre, et spiritu sancto sit semper honor perpetuus,
-              et aeterna gloria. Amen.<milestone unit="page" n="milestone16"/>
+              et aeterna gloria. Amen.<milestone unit="page" n="milestone2"/>
             </p>
           </div>
                   
       
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="poesis-ode" met="hexameter">
             <head n="head1">In Turcas oratio</head>
-            <l n="l2">O Pater omnipotens, qui verbo cuncta creasti</l>
-            <l n="l3">et solo nutu quaeque creata regis, </l>
-            <l n="l4">Aspicis, ut dire<note place="foot" n="note1">dire Z: diro D</note>
+            <l n="l1">O Pater omnipotens, qui verbo cuncta creasti</l>
+            <l n="l2">et solo nutu quaeque creata regis, </l>
+            <l n="l3">Aspicis, ut dire<note place="foot" n="note1">dire Z: diro D</note>
           latret fera bellua victu </l>
-            <l n="l5">Ausa sibi titulos fingere ut<note place="foot" n="note1">ut Z: et
+            <l n="l4">Ausa sibi titulos fingere ut<note place="foot" n="note1">ut Z: et
           D</note> umbra Dei, </l>
-            <l n="l6">Heu vocat arvorum Dominum se Othomanica pestis, </l>
-            <l n="l7">Quorum aditum primus crimine clausit homo, </l>
-            <l n="l8">Insuper imperium sibi totius arrogat orbis,</l>
-            <l n="l9">Sanguineoque gregem territat ense tuum, </l>
-            <l n="l10">Dat pacis leges populis juratus Olympo, </l>
-            <l n="l11">rursum faedifrago reijcit ore datas.</l>
-            <l n="l12">Faedera nil possunt<note place="foot" n="note1">possunt Z: prosunt
+            <l n="l5">Heu vocat arvorum Dominum se Othomanica pestis, </l>
+            <l n="l6">Quorum aditum primus crimine clausit homo, </l>
+            <l n="l7">Insuper imperium sibi totius arrogat orbis,</l>
+            <l n="l8">Sanguineoque gregem territat ense tuum, </l>
+            <l n="l9">Dat pacis leges populis juratus Olympo, </l>
+            <l n="l10">rursum faedifrago reijcit ore datas.</l>
+            <l n="l11">Faedera nil possunt<note place="foot" n="note1">possunt Z: prosunt
           D</note>, non illum numina tangunt</l>
-            <l n="l13">sub pede <add n="add1">Selimus</add>
-               <note place="foot" n="note2">Selimus D: Sellinus
+            <l n="l12">sub pede <add n="add1">Selimus</add>
+               <note place="foot" n="note1">Selimus D: Sellinus
           Z</note> fasque, piumque tenet. </l>
-            <l n="l14">Nec mora, nec requies, populo datur ulla fideli, </l>
-            <l n="l15">imminet exitio nocte, dieque <add n="add1">virum</add>
-               <note place="foot" n="note2">virum D: virorum Z</note>, </l>
-            <l n="l16">Opprobrii genus omne loqui piget, eripe tetro </l>
-            <l n="l17">(si locus orandi est) nos tua membra jugo. </l>
-            <l n="l18">Num patiere Deus tot inulta piacula gentis?</l>
-            <l n="l19">Ecquis erit probra tot jam tolerare modus?</l>
-            <l n="l20">Quid gravius Pharao potuit commitere? quidve </l>
-            <l n="l21">Prisca Palestinis incola turba jugis?</l>
-            <l n="l22">An scelus impletum tercentis non fuit annis<note place="foot" n="note1">annis Z: armis D</note>?</l>
-            <l n="l23">Ex quo Christicolas Turcica sceptra premunt, </l>
-            <l n="l24">sat dedimus poenas, sat ***<note place="foot" n="note1">sat *** terruit
+            <l n="l13">Nec mora, nec requies, populo datur ulla fideli, </l>
+            <l n="l14">imminet exitio nocte, dieque <add n="add1">virum</add>
+               <note place="foot" n="note1">virum D: virorum Z</note>, </l>
+            <l n="l15">Opprobrii genus omne loqui piget, eripe tetro </l>
+            <l n="l16">(si locus orandi est) nos tua membra jugo. </l>
+            <l n="l17">Num patiere Deus tot inulta piacula gentis?</l>
+            <l n="l18">Ecquis erit probra tot jam tolerare modus?</l>
+            <l n="l19">Quid gravius Pharao potuit commitere? quidve </l>
+            <l n="l20">Prisca Palestinis incola turba jugis?</l>
+            <l n="l21">An scelus impletum tercentis non fuit annis<note place="foot" n="note1">annis Z: armis D</note>?</l>
+            <l n="l22">Ex quo Christicolas Turcica sceptra premunt, </l>
+            <l n="l23">sat dedimus poenas, sat ***<note place="foot" n="note1">sat *** terruit
           Z: sat acinace terruit D</note> terruit hostis</l>
-            <l n="l25">Transeat a nobis Numinis ira tui.</l>
-            <l n="l26">Hac semel amota Turcarum desinet horror</l>
-            <l n="l27">utcunque invicto<note place="foot" n="note1">invicto Z: invito
+            <l n="l24">Transeat a nobis Numinis ira tui.</l>
+            <l n="l25">Hac semel amota Turcarum desinet horror</l>
+            <l n="l26">utcunque invicto<note place="foot" n="note1">invicto Z: invito
           D</note> nomine Turca tumet</l>
-            <l n="l28">Rumpatur tumor hic in numen bella minantis</l>
-            <l n="l29">Rem sibi cum vero sentiat esse Deo.</l>
-            <l n="l30">Nos tua progenies licet isto degener ortu</l>
-            <l n="l31">te tamen offenso sumpsimus arma Pater. <milestone unit="page" n="milestone1"/>
+            <l n="l27">Rumpatur tumor hic in numen bella minantis</l>
+            <l n="l28">Rem sibi cum vero sentiat esse Deo.</l>
+            <l n="l29">Nos tua progenies licet isto degener ortu</l>
+            <l n="l30">te tamen offenso sumpsimus arma Pater. <milestone unit="page" n="milestone1"/>
             </l>
-            <l n="l32">Sumpsimus arma tua pro Religione Redemptor</l>
-            <l n="l33">Ne tua pellatur prorsus ab ore<note place="foot" n="note1">ore Z: Orbe
+            <l n="l31">Sumpsimus arma tua pro Religione Redemptor</l>
+            <l n="l32">Ne tua pellatur prorsus ab ore<note place="foot" n="note1">ore Z: Orbe
           D</note> fides. </l>
-            <l n="l34">Neu animas coeli cives a morte futuras </l>
-            <l n="l35">Imergat divis sub Phlegetonte vadis. </l>
-            <l n="l36">Devictis<note place="foot" n="note1">Devictis Z: divitis D</note>
+            <l n="l33">Neu animas coeli cives a morte futuras </l>
+            <l n="l34">Imergat divis sub Phlegetonte vadis. </l>
+            <l n="l35">Devictis<note place="foot" n="note1">Devictis Z: divitis D</note>
           Asiae, Libiaeque collentibus arva</l>
-            <l n="l37">Christiadis, poterat barbarus esse satur. </l>
-            <l n="l38">Quin et in Europa tot regnis (proh dolor) haustis </l>
-            <l n="l39">debuerat nostri jam cohibere sitim. </l>
-            <l n="l40">Dum redimi potuit pax auro solvimus aurum </l>
-            <l n="l41">Nec sitis extincta est, nec saturata fames. </l>
-            <l n="l42">Non pudet a nobis extremo margine Cyprum </l>
-            <l n="l43">poscere, nec pacis (proh) violare fidem. </l>
-            <l n="l44">Scilicet hinc alias petiturus littoris oras </l>
-            <l n="l45">concipit hesperias subdere posse sibi. </l>
-            <l n="l46">Ac si, quos domuit propria virtute domavit</l>
-            <l n="l47">non alio casu vindice forte Deo. </l>
-            <l n="l48">Nos quoque veh nimium graviter pecasse fatemur</l>
-            <l n="l49">Te tamen, o verum Christe Deum colimus</l>
-            <l n="l50">Qualescunque sumus, trinum veneramur, et unum </l>
-            <l n="l51">Te Deus, hanc unam pandimus ore fidem. </l>
-            <l n="l52">Flectimus inde genu Christo, Christumque secutis </l>
-            <l n="l53">Omne aliud numen credimus esse nefas. </l>
-            <l n="l54">Hinc nos Turcigenae propter te odere nefandi </l>
-            <l n="l55">Quos Mahomet falsa credulitate tenet. </l>
-            <l n="l56">Excidium hinc nobis molitur classe Tyrannus</l>
-            <l n="l57">Turcigenum ducens millia multa mari. </l>
-            <l n="l58">Quin et terrestres turmas equitumque phalanges </l>
-            <l n="l59">in nos emittens undique bella ciet. </l>
-            <l n="l60">Contemptorque Dei scelerata jurgia lingua </l>
-            <l n="l61">congerit, ah saltem parce sceleste Deo. </l>
-            <l n="l62">Parce Deo nostrorum<note place="foot" n="note1">nostrorum Z: nostros
+            <l n="l36">Christiadis, poterat barbarus esse satur. </l>
+            <l n="l37">Quin et in Europa tot regnis (proh dolor) haustis </l>
+            <l n="l38">debuerat nostri jam cohibere sitim. </l>
+            <l n="l39">Dum redimi potuit pax auro solvimus aurum </l>
+            <l n="l40">Nec sitis extincta est, nec saturata fames. </l>
+            <l n="l41">Non pudet a nobis extremo margine Cyprum </l>
+            <l n="l42">poscere, nec pacis (proh) violare fidem. </l>
+            <l n="l43">Scilicet hinc alias petiturus littoris oras </l>
+            <l n="l44">concipit hesperias subdere posse sibi. </l>
+            <l n="l45">Ac si, quos domuit propria virtute domavit</l>
+            <l n="l46">non alio casu vindice forte Deo. </l>
+            <l n="l47">Nos quoque veh nimium graviter pecasse fatemur</l>
+            <l n="l48">Te tamen, o verum Christe Deum colimus</l>
+            <l n="l49">Qualescunque sumus, trinum veneramur, et unum </l>
+            <l n="l50">Te Deus, hanc unam pandimus ore fidem. </l>
+            <l n="l51">Flectimus inde genu Christo, Christumque secutis </l>
+            <l n="l52">Omne aliud numen credimus esse nefas. </l>
+            <l n="l53">Hinc nos Turcigenae propter te odere nefandi </l>
+            <l n="l54">Quos Mahomet falsa credulitate tenet. </l>
+            <l n="l55">Excidium hinc nobis molitur classe Tyrannus</l>
+            <l n="l56">Turcigenum ducens millia multa mari. </l>
+            <l n="l57">Quin et terrestres turmas equitumque phalanges </l>
+            <l n="l58">in nos emittens undique bella ciet. </l>
+            <l n="l59">Contemptorque Dei scelerata jurgia lingua </l>
+            <l n="l60">congerit, ah saltem parce sceleste Deo. </l>
+            <l n="l61">Parce Deo nostrorum<note place="foot" n="note1">nostrorum Z: nostros
           D</note> fas est tibi carpere mores, </l>
-            <l n="l63">Desine, noster ubi sit Deus, obijcere. <milestone unit="page" n="milestone1"/>
+            <l n="l62">Desine, noster ubi sit Deus, obijcere. <milestone unit="page" n="milestone1"/>
             </l>
-            <l n="l64">Regnas<note place="foot" n="note1">regnas Z: regnat D</note> ubique
-          Deus noster. Quod<hi n="hi2" rend="sup">
+            <l n="l63">Regnas<note place="foot" n="note1">regnas Z: regnat D</note> ubique
+          Deus noster. Quod<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">quod Z: qui D</note>
                </hi>
           si tibi poenam </l>
-            <l n="l65">Differt, pensabit mox gravitate moram. </l>
-            <l n="l66">Te manet ignis edax, qui te sine fine cremabit</l>
-            <l n="l67">Ni Christi infelix initiere fide. </l>
-            <l n="l68">Sed quid opus pretium suibus proponere, gemmas?</l>
-            <l n="l69">
+            <l n="l64">Differt, pensabit mox gravitate moram. </l>
+            <l n="l65">Te manet ignis edax, qui te sine fine cremabit</l>
+            <l n="l66">Ni Christi infelix initiere fide. </l>
+            <l n="l67">Sed quid opus pretium suibus proponere, gemmas?</l>
+            <l n="l68">
                <add n="add1">Duruit</add>
-               <note place="foot" n="note2">duruit D: durrit
+               <note place="foot" n="note1">duruit D: durrit
           Z</note>, ut nostro sanguine tingat humum. </l>
-            <l n="l70">Nos commune malum communi pellere sorte</l>
-            <l n="l71">Nitimur, hinc armis, hinc pietate precum , </l>
-            <l n="l72">Militiae robur Veneti Pius, atque Philippus, </l>
-            <l n="l73">Miscere<note place="foot" n="note1">Miscere Z: misere D</note> in
+            <l n="l69">Nos commune malum communi pellere sorte</l>
+            <l n="l70">Nitimur, hinc armis, hinc pietate precum , </l>
+            <l n="l71">Militiae robur Veneti Pius, atque Philippus, </l>
+            <l n="l72">Miscere<note place="foot" n="note1">Miscere Z: misere D</note> in
           pugnam classe vehente viros. </l>
-            <l n="l74">Undique bella tument, noster tibi militat ensis, </l>
-            <l n="l75">Et cruce securus miles in arma ruit, </l>
-            <l n="l76">Imbelles, precibusque piis, votisque rogamus </l>
-            <l n="l77">Rebus, et <add n="add1">angustis</add>
-               <note place="foot" n="note2">angustis D:
+            <l n="l73">Undique bella tument, noster tibi militat ensis, </l>
+            <l n="l74">Et cruce securus miles in arma ruit, </l>
+            <l n="l75">Imbelles, precibusque piis, votisque rogamus </l>
+            <l n="l76">Rebus, et <add n="add1">angustis</add>
+               <note place="foot" n="note1">angustis D:
           angustes Z</note> poscimus affer opem </l>
-            <l n="l78">In te spes nostra est tibi tantum fidimus uni</l>
-            <l n="l79">Omne tibi nostrum corde dicamus opus</l>
-            <l n="l80">Templa vovent alii Pario de marmore ad astra</l>
-            <l n="l81">Ast alii in templo<note place="foot" n="note1">templo Z: templis
+            <l n="l77">In te spes nostra est tibi tantum fidimus uni</l>
+            <l n="l78">Omne tibi nostrum corde dicamus opus</l>
+            <l n="l79">Templa vovent alii Pario de marmore ad astra</l>
+            <l n="l80">Ast alii in templo<note place="foot" n="note1">templo Z: templis
           D</note> capta trophaea manu. </l>
-            <l n="l82">Ipse ego concesso nobis, ut spero triumpho</l>
-            <l n="l83">Grates perpetuas annua sacra feram, </l>
-            <l n="l84">Et memoria<note place="foot" n="note1">memoria Z: memori D</note>
+            <l n="l81">Ipse ego concesso nobis, ut spero triumpho</l>
+            <l n="l82">Grates perpetuas annua sacra feram, </l>
+            <l n="l83">Et memoria<note place="foot" n="note1">memoria Z: memori D</note>
           totum testabor carmine factum, </l>
-            <l n="l85">Noster erit fructus, gloria tota tua. <milestone unit="page" n="milestone1"/>
+            <l n="l84">Noster erit fructus, gloria tota tua. <milestone unit="page" n="milestone1"/>
             </l>
          </div>
          <div n="div2" type="poesis-ode">
             <head n="head1">In magna navali victoria</head>
-            <l n="l2">Gaudeat Caelum exhilaretur Orbis,<note place="foot" n="note1">exhilaretur orbis Z: jubiletque tellus P</note>
+            <l n="l1">Gaudeat Caelum exhilaretur Orbis,<note place="foot" n="note1">exhilaretur orbis Z: jubiletque tellus P</note>
             </l>
-            <l n="l3">Quisquis, et Christum colit, ora solvat</l>
-            <l n="l4">Laetus in laudes, resonetque Laetis</l>
-            <l n="l5">Vocibus Aether.</l>
-            <l n="l6">Torva pars, saevi cecidit Draconis</l>
-            <l n="l7">Nuper hic<note place="foot" n="note1">Nuper hic Z: Qui modo
+            <l n="l2">Quisquis, et Christum colit, ora solvat</l>
+            <l n="l3">Laetus in laudes, resonetque Laetis</l>
+            <l n="l4">Vocibus Aether.</l>
+            <l n="l5">Torva pars, saevi cecidit Draconis</l>
+            <l n="l6">Nuper hic<note place="foot" n="note1">Nuper hic Z: Qui modo
           P</note> lati Dominator orbis</l>
-            <l n="l8">Noxius Christi populos vorabat</l>
-            <l n="l9">Martius anguis.</l>
-            <l n="l10">In specu natus Scithiae propinquas</l>
-            <l n="l11">eruit gentes, Asiamque pastus </l>
-            <l n="l12">Mox, et Europae freta transmeando</l>
-            <l n="l13">Substitit Haemo.</l>
-            <l n="l14">Inde jam <add n="add1">epoto</add> Getico cruore</l>
-            <l n="l15">Illyrim luna genitrice fretus</l>
-            <l n="l16">Hausit, et tandem Danais subactis </l>
-            <l n="l17">Induit <add n="add1">alas</add>
-               <note place="foot" n="note2">alas P: ales
+            <l n="l7">Noxius Christi populos vorabat</l>
+            <l n="l8">Martius anguis.</l>
+            <l n="l9">In specu natus Scithiae propinquas</l>
+            <l n="l10">eruit gentes, Asiamque pastus </l>
+            <l n="l11">Mox, et Europae freta transmeando</l>
+            <l n="l12">Substitit Haemo.</l>
+            <l n="l13">Inde jam <add n="add1">epoto</add> Getico cruore</l>
+            <l n="l14">Illyrim luna genitrice fretus</l>
+            <l n="l15">Hausit, et tandem Danais subactis </l>
+            <l n="l16">Induit <add n="add1">alas</add>
+               <note place="foot" n="note1">alas P: ales
           Z</note>.</l>
-            <l n="l18">Evolans ponto citus ocupavit</l>
-            <l n="l19">quidquid Aegeum mare continebat</l>
-            <l n="l20">Calcidem<note place="foot" n="note1">Calcidem Z: Euboeam P</note>
+            <l n="l17">Evolans ponto citus ocupavit</l>
+            <l n="l18">quidquid Aegeum mare continebat</l>
+            <l n="l19">Calcidem<note place="foot" n="note1">Calcidem Z: Euboeam P</note>
           Naxum Rhodon, atque Lemnum<note place="foot" n="note2">Lemnum Z: Chium
             P</note>
             </l>
-            <l n="l21">et denique Cyprum.</l>
-            <l n="l22">Jam maris terror superi inferique </l>
-            <l n="l23">Italos uno meditatur haustu</l>
-            <l n="l24">Jam Thybrim Rhenum Rhodanumque anhelat</l>
-            <l n="l25">Aliger anguis.</l>
-            <l n="l26">Non tulit Christus scelus hoc nefandum, </l>
-            <l n="l27">qui licet tentet, tamen invocantes</l>
-            <l n="l28">Obrui nunquam patitur fideles, </l>
-            <l n="l29">sed juvat aegros.</l>
-            <l n="l30">Ergo dum tensas Draco pandit alas, </l>
-            <l n="l31">suscitat pastor vigiles ad arma </l>
-            <l n="l32">Fortium coetus, colubrum repente </l>
-            <l n="l33">exuit alis.<milestone unit="page" n="milestone1"/>
+            <l n="l20">et denique Cyprum.</l>
+            <l n="l21">Jam maris terror superi inferique </l>
+            <l n="l22">Italos uno meditatur haustu</l>
+            <l n="l23">Jam Thybrim Rhenum Rhodanumque anhelat</l>
+            <l n="l24">Aliger anguis.</l>
+            <l n="l25">Non tulit Christus scelus hoc nefandum, </l>
+            <l n="l26">qui licet tentet, tamen invocantes</l>
+            <l n="l27">Obrui nunquam patitur fideles, </l>
+            <l n="l28">sed juvat aegros.</l>
+            <l n="l29">Ergo dum tensas Draco pandit alas, </l>
+            <l n="l30">suscitat pastor vigiles ad arma </l>
+            <l n="l31">Fortium coetus, colubrum repente </l>
+            <l n="l32">exuit alis.<milestone unit="page" n="milestone1"/>
             </l>
-            <l n="l34">Sed quid obtectis<note place="foot" n="note1">obtectis Z: optetis
+            <l n="l33">Sed quid obtectis<note place="foot" n="note1">obtectis Z: optetis
           P</note> opus est figuris</l>
-            <l n="l35">Gesta res tanta est, ut <note place="foot" n="note1">ut Z: quod
+            <l n="l34">Gesta res tanta est, ut <note place="foot" n="note1">ut Z: quod
           D</note>in orbe major </l>
-            <l n="l36">Nulla jam saeclis fuerit tot actis<note place="foot" n="note1">Nulla jam
+            <l n="l35">Nulla jam saeclis fuerit tot actis<note place="foot" n="note1">Nulla jam
           saeclis fuerit tot actis Z: Nulla tot annis potuit videri P</note>
             </l>
-            <l n="l37">par nec in armis.</l>
-            <l n="l38">Nostra Christidum superavit omnem </l>
-            <l n="l39">Turcicam classem rapuitque caesis<note place="foot" n="note1">caesis Z:
+            <l n="l36">par nec in armis.</l>
+            <l n="l37">Nostra Christidum superavit omnem </l>
+            <l n="l38">Turcicam classem rapuitque caesis<note place="foot" n="note1">caesis Z:
           laesis P</note>
             </l>
-            <l n="l40">Hostibus totum mare, vindicata</l>
-            <l n="l41">nautica res est.</l>
-            <l n="l42">O diem faustum, celebremque<note place="foot" n="note1">celebremque Z:
+            <l n="l39">Hostibus totum mare, vindicata</l>
+            <l n="l40">nautica res est.</l>
+            <l n="l41">O diem faustum, celebremque<note place="foot" n="note1">celebremque Z:
           celebresque P</note> Nonas</l>
-            <l n="l43">Mensis Octobris, quater o beatas </l>
-            <l n="l44">Oxias multo saturas cruore </l>
-            <l n="l45">Turcigenarum.</l>
-            <l n="l46">Virgine a foeta recolatur annus </l>
-            <l n="l47">Mille quingentis deciesque septem</l>
-            <l n="l48">Orbitis lapsis novus, et lapillo </l>
-            <l n="l49">candidus albo.</l>
-            <l n="l50">Pugna Corcyrae docuit Melenae</l>
-            <l n="l51">Posse confringi<note place="foot" n="note1">confringi Z: confingi
+            <l n="l42">Mensis Octobris, quater o beatas </l>
+            <l n="l43">Oxias multo saturas cruore </l>
+            <l n="l44">Turcigenarum.</l>
+            <l n="l45">Virgine a foeta recolatur annus </l>
+            <l n="l46">Mille quingentis deciesque septem</l>
+            <l n="l47">Orbitis lapsis novus, et lapillo </l>
+            <l n="l48">candidus albo.</l>
+            <l n="l49">Pugna Corcyrae docuit Melenae</l>
+            <l n="l50">Posse confringi<note place="foot" n="note1">confringi Z: confingi
           P</note> rabiem Selini </l>
-            <l n="l52">Ecce confracta est penitus adempto </l>
-            <l n="l53">Limite ponti<note place="foot" n="note1">Limite ponti Z: Iam sibi ponto
+            <l n="l51">Ecce confracta est penitus adempto </l>
+            <l n="l52">Limite ponti<note place="foot" n="note1">Limite ponti Z: Iam sibi ponto
           P</note>
             </l>
-            <l n="l54">Tu gregis pastor Pie quinte verus</l>
-            <l n="l55">Tu decus Christi fidei Philippe</l>
-            <l n="l56">Vos Mocenico Veneti coronis</l>
-            <l n="l57">cum duce digni </l>
-            <l n="l58">Foedus inter vos initum salutem<note place="foot" n="note1">Foedus inter
+            <l n="l53">Tu gregis pastor Pie quinte verus</l>
+            <l n="l54">Tu decus Christi fidei Philippe</l>
+            <l n="l55">Vos Mocenico Veneti coronis</l>
+            <l n="l56">cum duce digni </l>
+            <l n="l57">Foedus inter vos initum salutem<note place="foot" n="note1">Foedus inter
           vos initum salutem Z: foederis nexus initi salutem P</note>
             </l>
-            <l n="l59">Attulit mundo prope jam ruenti</l>
-            <l n="l60">et ministrorum peperit triumphum </l>
-            <l n="l61">Vivida virtus.</l>
-            <l n="l62">
+            <l n="l58">Attulit mundo prope jam ruenti</l>
+            <l n="l59">et ministrorum peperit triumphum </l>
+            <l n="l60">Vivida virtus.</l>
+            <l n="l61">
                <add n="add1">Austrium</add>
-               <note place="foot" n="note2">Austrium P: Austriam
+               <note place="foot" n="note1">Austrium P: Austriam
           Z</note> quis non celebret Joannem? </l>
-            <l n="l63">Inde quis Marci taceat<note place="foot" n="note1">taceat Z: teneat
+            <l n="l62">Inde quis Marci taceat<note place="foot" n="note1">taceat Z: teneat
           P</note> Columnae</l>
-            <l n="l64">Grande robur? quisque Sebastiani </l>
-            <l n="l65">Gesta Veneri?<milestone unit="page" n="milestone1"/>
+            <l n="l63">Grande robur? quisque Sebastiani </l>
+            <l n="l64">Gesta Veneri?<milestone unit="page" n="milestone1"/>
             </l>
-            <l n="l66">Ecquis heroas<note place="foot" n="note1">heroas Z: heroes P</note>
+            <l n="l65">Ecquis heroas<note place="foot" n="note1">heroas Z: heroes P</note>
           numeret canendo </l>
-            <l n="l67">Non polus noctu radiat tot astris</l>
-            <l n="l68">Quot cruentatos mediis stupebat </l>
-            <l n="l69">Naereus undis.</l>
-            <l n="l70">Vos tamen coelis animae receptae</l>
-            <l n="l71">quas amor verus patriae dicavit</l>
-            <l n="l72">Praelii auctores caput et triumphi </l>
-            <l n="l73">Laus docet<hi n="hi1" rend="sup">
+            <l n="l66">Non polus noctu radiat tot astris</l>
+            <l n="l67">Quot cruentatos mediis stupebat </l>
+            <l n="l68">Naereus undis.</l>
+            <l n="l69">Vos tamen coelis animae receptae</l>
+            <l n="l70">quas amor verus patriae dicavit</l>
+            <l n="l71">Praelii auctores caput et triumphi </l>
+            <l n="l72">Laus docet<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">docet Z: decet P</note>
                </hi>
           omnis</l>
-            <l n="l74">Cantet Augustinum age Barbadicum</l>
-            <l n="l75">Doctior Vates graviore plectro</l>
-            <l n="l76">Nos<hi n="hi1" rend="sup">
+            <l n="l73">Cantet Augustinum age Barbadicum</l>
+            <l n="l74">Doctior Vates graviore plectro</l>
+            <l n="l75">Nos<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">Nos Z: Hos P</note>
                </hi> virum fama
           memori colemus </l>
-            <l n="l77">Dum manet orbis. </l>
-            <l n="l78">Sunt quibus<note place="foot" n="note1">quibus Z: quidem P</note>
+            <l n="l76">Dum manet orbis. </l>
+            <l n="l77">Sunt quibus<note place="foot" n="note1">quibus Z: quidem P</note>
           plures ope singulari </l>
-            <l n="l79">Qui suo nobis retulere fato </l>
-            <l n="l80">Lauream de se meritos honoret<note place="foot" n="note1">honoret Z:
+            <l n="l78">Qui suo nobis retulere fato </l>
+            <l n="l79">Lauream de se meritos honoret<note place="foot" n="note1">honoret Z:
           honores P</note>
             </l>
-            <l n="l81">Quisque fidelis.</l>
-            <l n="l82">Quanta mortales decuit gerendis </l>
-            <l n="l83">Praeliis unquam decet hos viros laus </l>
-            <l n="l84">qui sua<note place="foot" n="note1">sua Z: suas P</note> nobis
+            <l n="l80">Quisque fidelis.</l>
+            <l n="l81">Quanta mortales decuit gerendis </l>
+            <l n="l82">Praeliis unquam decet hos viros laus </l>
+            <l n="l83">qui sua<note place="foot" n="note1">sua Z: suas P</note> nobis
           peperere dextra, et </l>
-            <l n="l85">morte Triumphum</l>
-            <l n="l86">Christus his merces fuerit perennis </l>
-            <l n="l87">Nos ei acceptum ferimus qua<note place="foot" n="note1">qua Z: quod
+            <l n="l84">morte Triumphum</l>
+            <l n="l85">Christus his merces fuerit perennis </l>
+            <l n="l86">Nos ei acceptum ferimus qua<note place="foot" n="note1">qua Z: quod
           P</note> aura </l>
-            <l n="l88">Vescimur laeti quoniam haec data est<hi n="hi1" rend="sup">
+            <l n="l87">Vescimur laeti quoniam haec data est<hi n="hi1" rend="sup">
                   <note place="foot" n="note1">quoniam
           haec data est Z: nimium data hac P</note>
                </hi> 
             </l>
-            <l n="l89">Victoria Coelo</l>
-            <l n="l90">Quis brevi captas spatio ducentas </l>
-            <l n="l91">Credat a nostris trabibus triremes?</l>
-            <l n="l92">Sexiesque octo pariter fugatas </l>
-            <l n="l93">Vix tribus horis?</l>
-            <l n="l94">Majus<note place="foot" n="note1">majus Z: mavis P</note> optatis
+            <l n="l88">Victoria Coelo</l>
+            <l n="l89">Quis brevi captas spatio ducentas </l>
+            <l n="l90">Credat a nostris trabibus triremes?</l>
+            <l n="l91">Sexiesque octo pariter fugatas </l>
+            <l n="l92">Vix tribus horis?</l>
+            <l n="l93">Majus<note place="foot" n="note1">majus Z: mavis P</note> optatis
           tulimus. Quis unquam </l>
-            <l n="l95">credat invictos (piget heu) tot armis</l>
-            <l n="l96">pauciorum vi potuisse vinci </l>
-            <l n="l97">Marte cruento?<milestone unit="page" n="milestone1"/>
+            <l n="l94">credat invictos (piget heu) tot armis</l>
+            <l n="l95">pauciorum vi potuisse vinci </l>
+            <l n="l96">Marte cruento?<milestone unit="page" n="milestone1"/>
             </l>
-            <l n="l98">Ecquis in nostros<note place="foot" n="note1">nostros P: nostras
+            <l n="l97">Ecquis in nostros<note place="foot" n="note1">nostros P: nostras
           Z</note> animavit hostem </l>
-            <l n="l99">ut suo poscat<note place="foot" n="note1">poscat Z: parcat P</note>
+            <l n="l98">ut suo poscat<note place="foot" n="note1">poscat Z: parcat P</note>
           gladios cruore, </l>
-            <l n="l100">Artubus pisces, spoliis juventam, </l>
-            <l n="l101">Classe fideles?</l>
-            <l n="l102">Quis statim vectos putet a Pelono </l>
-            <l n="l103">Navitas ausos Ithaces ad oram<note place="foot" n="note1">Ithaces ad
+            <l n="l99">Artubus pisces, spoliis juventam, </l>
+            <l n="l100">Classe fideles?</l>
+            <l n="l101">Quis statim vectos putet a Pelono </l>
+            <l n="l102">Navitas ausos Ithaces ad oram<note place="foot" n="note1">Ithaces ad
           oram Z: Penei sub ora P</note>
             </l>
-            <l n="l104">Congredi cum tot solidis carinis </l>
-            <l n="l105">Vincere suetis.</l>
-            <l n="l106">Sed Deus nobis, Deus ipse favit</l>
-            <l n="l107">Vidimos ventos prius a <sic n="sic1">Chorinto</sic>
+            <l n="l103">Congredi cum tot solidis carinis </l>
+            <l n="l104">Vincere suetis.</l>
+            <l n="l105">Sed Deus nobis, Deus ipse favit</l>
+            <l n="l106">Vidimos ventos prius a <sic n="sic1">Chorinto</sic>
             </l>
-            <l n="l108">Prosperos hosti tumido retrorsum</l>
-            <l n="l109">Turbine verti.</l>
-            <l n="l110">Impetum coeli subito secuti </l>
-            <l n="l111">Milites nostri superant. Quid ergo </l>
-            <l n="l112">Non erat Christus tuiturus arma </l>
-            <l n="l113">Christicolarum?</l>
-            <l n="l114">Quae sua fidunt feritate gentes </l>
-            <l n="l115">Noverint Christum Dominum, nec unquam</l>
-            <l n="l116">arogent palmam nisi destitutis </l>
-            <l n="l117">Numine nostris</l>
-            <l n="l118">Vos quoque o Christi populi fideles </l>
-            <l n="l119">Gesta concordes revocant in hostem</l>
-            <l n="l120">Tempore oblato properate diram</l>
-            <l n="l121">perdere gentem.</l>
-            <l n="l122">Tota nunc<note place="foot" n="note1">nunc Z: num P</note> vobis
+            <l n="l107">Prosperos hosti tumido retrorsum</l>
+            <l n="l108">Turbine verti.</l>
+            <l n="l109">Impetum coeli subito secuti </l>
+            <l n="l110">Milites nostri superant. Quid ergo </l>
+            <l n="l111">Non erat Christus tuiturus arma </l>
+            <l n="l112">Christicolarum?</l>
+            <l n="l113">Quae sua fidunt feritate gentes </l>
+            <l n="l114">Noverint Christum Dominum, nec unquam</l>
+            <l n="l115">arogent palmam nisi destitutis </l>
+            <l n="l116">Numine nostris</l>
+            <l n="l117">Vos quoque o Christi populi fideles </l>
+            <l n="l118">Gesta concordes revocant in hostem</l>
+            <l n="l119">Tempore oblato properate diram</l>
+            <l n="l120">perdere gentem.</l>
+            <l n="l121">Tota nunc<note place="foot" n="note1">nunc Z: num P</note> vobis
           pelagi potestas </l>
-            <l n="l123">cessit en ultro imperium Selini </l>
-            <l n="l124">porrigit mundi moderator, id vos </l>
-            <l n="l125">carpite dextris.</l>
-            <l n="l126">Sponte conspecto cadit umbra sole</l>
-            <l n="l127">Militent tantum in Crucifixi honorem </l>
-            <l n="l128">invicem nexis aderit ministris</l>
-            <l n="l129">Auctor Jesus.</l>
-            <l n="l130">Gloriam Christo Domino canamus </l>
-            <l n="l131">qui dedit nobis superare Turcas </l>
-            <l n="l132">Si datos quondam monitus sequemur</l>
-            <l n="l133">cuncta daturo.</l>
-            <l n="l134">Gloriam Christo Domino canamus</l>
-            <l n="l135">Qui Deus semper caro factus aevo</l>
-            <l n="l136">Cum Patre aeternum, pariterque sancto </l>
-            <l n="l137">Flamine regnat.<note place="foot" n="note1">Posljednje dvije strofe ne
+            <l n="l122">cessit en ultro imperium Selini </l>
+            <l n="l123">porrigit mundi moderator, id vos </l>
+            <l n="l124">carpite dextris.</l>
+            <l n="l125">Sponte conspecto cadit umbra sole</l>
+            <l n="l126">Militent tantum in Crucifixi honorem </l>
+            <l n="l127">invicem nexis aderit ministris</l>
+            <l n="l128">Auctor Jesus.</l>
+            <l n="l129">Gloriam Christo Domino canamus </l>
+            <l n="l130">qui dedit nobis superare Turcas </l>
+            <l n="l131">Si datos quondam monitus sequemur</l>
+            <l n="l132">cuncta daturo.</l>
+            <l n="l133">Gloriam Christo Domino canamus</l>
+            <l n="l134">Qui Deus semper caro factus aevo</l>
+            <l n="l135">Cum Patre aeternum, pariterque sancto </l>
+            <l n="l136">Flamine regnat.<note place="foot" n="note1">Posljednje dvije strofe ne
           nalaze se u P</note>
             </l>
          </div>

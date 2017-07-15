@@ -57,60 +57,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="1"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="10"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -175,20 +122,20 @@
          <div n="div1" type="poesis-epigramma" met="hendecasyllabus">
             <head n="head1">Viri clarissimi Donati Ciualelli in Palladii Fusci Commentarios Endecasyllabon.</head>
 
-            <l n="l2">Si quis per tenebras Catullianas</l>
-            <l n="l3">Securos cupit explicare gressus:</l>
-            <l n="l4">Hic mox Palladium meum sequatur</l>
-            <l n="l5">Claras lampadas et faces ferentem</l>
-            <l n="l6">Non sic semita claruit per orbem</l>
-            <l n="l7">Quaerenti Cereri abditam rapinam:</l>
-            <l n="l8">Vt docti tenebrae nitent Catulli</l>
-            <l n="l9">Claras Palladio faces ferente.</l>
+            <l n="l1">Si quis per tenebras Catullianas</l>
+            <l n="l2">Securos cupit explicare gressus:</l>
+            <l n="l3">Hic mox Palladium meum sequatur</l>
+            <l n="l4">Claras lampadas et faces ferentem</l>
+            <l n="l5">Non sic semita claruit per orbem</l>
+            <l n="l6">Quaerenti Cereri abditam rapinam:</l>
+            <l n="l7">Vt docti tenebrae nitent Catulli</l>
+            <l n="l8">Claras Palladio faces ferente.</l>
          </div>  
          <div n="div2" type="poesis-epigramma" met="elegiacum">
             <head n="head1">In laudem Antonii Grimani Donati Civalelli</head> 
-            <l n="l2">Mille rates Danaum Atride duo fortis Achilles</l>
-            <gap n="gap3"/>
-            <l n="l4" met="pentameter">verum pugnavit validis Mars ipse lacertis</l>
+            <l n="l1">Mille rates Danaum Atride duo fortis Achilles</l>
+            <gap n="gap1"/>
+            <l n="l2" met="pentameter">verum pugnavit validis Mars ipse lacertis</l>
          </div>
       </body>
   </text>

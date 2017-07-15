@@ -39,59 +39,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="addrLine" occurs="1"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="8"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="6"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="916"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="listChange" occurs="1"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="183"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="30"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="45"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -163,15 +111,15 @@
       <front xml:lang="lat" n="front1">
          <div n="div1" type="poesis-epigramma">
             <head n="head1">Ad lectorem</head>
-            <l n="l2">Me iuvat hoc versu vatem inseruisse Croatam</l>
-            <l n="l3">Vatibus antiquis: hic honor huncce decet.</l>
-            <dateline n="dateline4">Split, VII. cal. Februarias An. MCMLVII.</dateline>
-            <signed n="signed5">
+            <l n="l1">Me iuvat hoc versu vatem inseruisse Croatam</l>
+            <l n="l2">Vatibus antiquis: hic honor huncce decet.</l>
+            <dateline n="dateline1">Split, VII. cal. Februarias An. MCMLVII.</dateline>
+            <signed n="signed1">
                <name n="name1">Dr. Ivan Baković</name> 
                Interpres</signed>
          </div>
-            <pb n="pb2"/>
-         <div n="div3" xml:lang="hrv" type="prosa-colophon">
+            <pb n="pb1"/>
+         <div n="div2" xml:lang="hrv" type="prosa-colophon">
             <p n="p1">Umnoženo ciklostilom Biskupskog Ordinarijata u Splitu.</p>
             <p n="p2">Odgovara: Dr. Ivan Baković</p>
             <p n="p3">	  
@@ -179,1151 +127,1151 @@
                   <addrLine n="addrLine1">Split, Rade Končara 40.</addrLine>
                </address>
             </p>
-            <pb n="pb4"/>
+            <pb n="pb1"/>
          </div>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="poesis-epica" met="hexameter">
          
             <div n="div1" type="poesis-epica-liber">
                <head n="head1">DOMINATIO TURCICA</head>
-               <l n="l2">In proprio castro Stolac, quod in Hercegovina</l>
-               <l n="l3">Stat, Smail-aga vocat servos: “Accedite, servi,</l>
-               <l n="l4">Montanosque foras educate, quos ego cepi</l>
-               <l n="l5">Et vinxi vinclis ad Morača, flumen amoenum,</l>
-               <l n="l6">Durakumque senem: mendicus me iste monebat,		<note n="note1" type="numvers">5</note>
+               <l n="l1">In proprio castro Stolac, quod in Hercegovina</l>
+               <l n="l2">Stat, Smail-aga vocat servos: “Accedite, servi,</l>
+               <l n="l3">Montanosque foras educate, quos ego cepi</l>
+               <l n="l4">Et vinxi vinclis ad Morača, flumen amoenum,</l>
+               <l n="l5">Durakumque senem: mendicus me iste monebat,		<note n="note1" type="numvers">5</note>
                </l>
-               <l n="l7">Ut dimitterem eos. Quoniam sunt, dixit, acerbi</l>
-               <l n="l8">Christiadae: certe cervices Christiadarum</l>
-               <l n="l9">A cervice mea sunt ulturi: esurientem</l>
-               <l n="l10">Montanum murem veluti lupus horreat acer.”</l>
-               <l n="l11">Ad sua veloces properarunt munera servi.		<note n="note1" type="numvers">10</note>
+               <l n="l6">Ut dimitterem eos. Quoniam sunt, dixit, acerbi</l>
+               <l n="l7">Christiadae: certe cervices Christiadarum</l>
+               <l n="l8">A cervice mea sunt ulturi: esurientem</l>
+               <l n="l9">Montanum murem veluti lupus horreat acer.”</l>
+               <l n="l10">Ad sua veloces properarunt munera servi.		<note n="note1" type="numvers">10</note>
                </l>
-               <l n="l12">Captivos manicis et dura compede vinctos</l>
-               <l n="l13">Eduxere: potens illos cum viderat Aga,</l>
-               <l n="l14">Ille boves cumulat saturatos carnificesque,</l>
-               <l n="l15">Atroces lynces; post his dat Turcica dona:</l>
-               <l n="l16">Cuique adolescenti vel palum donat acutum,		<note n="note1" type="numvers">15</note>
+               <l n="l11">Captivos manicis et dura compede vinctos</l>
+               <l n="l12">Eduxere: potens illos cum viderat Aga,</l>
+               <l n="l13">Ille boves cumulat saturatos carnificesque,</l>
+               <l n="l14">Atroces lynces; post his dat Turcica dona:</l>
+               <l n="l15">Cuique adolescenti vel palum donat acutum,		<note n="note1" type="numvers">15</note>
                </l>
-               <l n="l17">Vel funem durum praebet, gladiumve coruscum</l>
-               <l n="l18">Decernit cuidam. “Nunc ite ad distribuenda</l>
-               <l n="l19">Munera, Christiadae, quae vobis, Montibus atque</l>
-               <l n="l20">Saxosis vestris ego iustus Turca paravi,</l>
-               <l n="l21">Nam sicut nunc vos, ita Montes protinus omnes.”		<note n="note1" type="numvers">20</note>
+               <l n="l16">Vel funem durum praebet, gladiumve coruscum</l>
+               <l n="l17">Decernit cuidam. “Nunc ite ad distribuenda</l>
+               <l n="l18">Munera, Christiadae, quae vobis, Montibus atque</l>
+               <l n="l19">Saxosis vestris ego iustus Turca paravi,</l>
+               <l n="l20">Nam sicut nunc vos, ita Montes protinus omnes.”		<note n="note1" type="numvers">20</note>
                </l>
-               <l n="l22">Haec dixit Turca, ast occumbere pro cruce Christi</l>
-               <l n="l23">Difficile non est, qui pro illa dimicat ultro.</l>
-               <l n="l24">Multoties et tunc palus crepitavit acutus,</l>
-               <l n="l25">Multoties et tunc vibravit sibila mucro,</l>
-               <l n="l26">Multoties et tunc titubavit lignea furca,		<note n="note1" type="numvers">25</note>
+               <l n="l21">Haec dixit Turca, ast occumbere pro cruce Christi</l>
+               <l n="l22">Difficile non est, qui pro illa dimicat ultro.</l>
+               <l n="l23">Multoties et tunc palus crepitavit acutus,</l>
+               <l n="l24">Multoties et tunc vibravit sibila mucro,</l>
+               <l n="l25">Multoties et tunc titubavit lignea furca,		<note n="note1" type="numvers">25</note>
                </l>
-               <l n="l27">Sed non mutivit Nigro de Monte iuventus,</l>
-               <l n="l28">Nec tunc mutivit, nec dentem dente repressit;</l>
-               <pb n="pb29"/>
-               <l n="l30">Per campum fluvius decurrit sanguinis atri:</l>
+               <l n="l26">Sed non mutivit Nigro de Monte iuventus,</l>
+               <l n="l27">Nec tunc mutivit, nec dentem dente repressit;</l>
+               <pb n="pb1"/>
+               <l n="l28">Per campum fluvius decurrit sanguinis atri:</l>
+               <l n="l29">Nec tunc mutivit, nec dentem dente repressit;</l>
+               <l n="l30">Plurima per campum passim sunt corpora strata:		<note n="note1" type="numvers">30</note>
+               </l>
                <l n="l31">Nec tunc mutivit, nec dentem dente repressit;</l>
-               <l n="l32">Plurima per campum passim sunt corpora strata:		<note n="note1" type="numvers">30</note>
+               <l n="l32">Verum quisque Deum supremum in vota vocavit,</l>
+               <l n="l33">Vel Iesu nomen venerandum ac absque dolore</l>
+               <l n="l34">Liquerunt solem fortes occumbere sueti.</l>
+               <l n="l35">Per campum fluvius fluit atro sanguine tinctus;		<note n="note1" type="numvers">35</note>
                </l>
-               <l n="l33">Nec tunc mutivit, nec dentem dente repressit;</l>
-               <l n="l34">Verum quisque Deum supremum in vota vocavit,</l>
-               <l n="l35">Vel Iesu nomen venerandum ac absque dolore</l>
-               <l n="l36">Liquerunt solem fortes occumbere sueti.</l>
-               <l n="l37">Per campum fluvius fluit atro sanguine tinctus;		<note n="note1" type="numvers">35</note>
+               <l n="l36">Turca decussatis manibus sua lumina pascit.</l>
+               <l n="l37">Iunior in tilia cernit tormenta libenter,</l>
+               <l n="l38">At senior iam nunc eadem tormenta paranda</l>
+               <l n="l39">His a Christiadis in se ex formidine sentit.</l>
+               <l n="l40">Aga furore ardens haec cernit torviter, ille		<note n="note1" type="numvers">40</note>
                </l>
-               <l n="l38">Turca decussatis manibus sua lumina pascit.</l>
-               <l n="l39">Iunior in tilia cernit tormenta libenter,</l>
-               <l n="l40">At senior iam nunc eadem tormenta paranda</l>
-               <l n="l41">His a Christiadis in se ex formidine sentit.</l>
-               <l n="l42">Aga furore ardens haec cernit torviter, ille		<note n="note1" type="numvers">40</note>
+               <l n="l41">Dum leo mirari fortis deberet inertem</l>
+               <l n="l42">Montanum murem. Fortis te non potes ipsum</l>
+               <l n="l43">A forte ulcisci, donec non horreat iste.</l>
+               <l n="l44">Turca tot heroes occidit totque peremit,</l>
+               <l n="l45">Ast ardescentes iras non fudit in illos,		<note n="note1" type="numvers">45</note>
                </l>
-               <l n="l43">Dum leo mirari fortis deberet inertem</l>
-               <l n="l44">Montanum murem. Fortis te non potes ipsum</l>
-               <l n="l45">A forte ulcisci, donec non horreat iste.</l>
-               <l n="l46">Turca tot heroes occidit totque peremit,</l>
-               <l n="l47">Ast ardescentes iras non fudit in illos,		<note n="note1" type="numvers">45</note>
+               <l n="l46">Cum cuncti coram cecidissent absque timore.</l>
+               <l n="l47">Semper eum timeas, qui suevit obire serenus!</l>
+               <l n="l48">Aga videns talem virtutem sensit in imo</l>
+               <l n="l49">Corde gelu vehemens, animam velut eius amaram</l>
+               <l n="l50">Scalpelli gelidi gelidum tetigisset acumen.		<note n="note1" type="numvers">50</note>
                </l>
-               <l n="l48">Cum cuncti coram cecidissent absque timore.</l>
-               <l n="l49">Semper eum timeas, qui suevit obire serenus!</l>
-               <l n="l50">Aga videns talem virtutem sensit in imo</l>
-               <l n="l51">Corde gelu vehemens, animam velut eius amaram</l>
-               <l n="l52">Scalpelli gelidi gelidum tetigisset acumen.		<note n="note1" type="numvers">50</note>
+               <l n="l51">Forsitan heroes, violens quibus abstulit auras</l>
+               <l n="l52">Incassum, dolet? Haud miseretur Christiadarum</l>
+               <l n="l53">Turca ferus. Forsan nunc de cervice pavescit?</l>
+               <l n="l54">Haec potis Aga sibi negat ipsi. Forsitan illum</l>
+               <l n="l55">Non cernis: quaenam peragit fortissimus heros		<note n="note1" type="numvers">55</note>
                </l>
-               <l n="l53">Forsitan heroes, violens quibus abstulit auras</l>
-               <l n="l54">Incassum, dolet? Haud miseretur Christiadarum</l>
-               <l n="l55">Turca ferus. Forsan nunc de cervice pavescit?</l>
-               <l n="l56">Haec potis Aga sibi negat ipsi. Forsitan illum</l>
-               <l n="l57">Non cernis: quaenam peragit fortissimus heros		<note n="note1" type="numvers">55</note>
+               <l n="l56">Ad frenandam hiemem, de puncto quae rotat illo</l>
+               <l n="l57">Exiguo gelidas undas per corporis artus!</l>
+               <pb n="pb2"/>
+               <l n="l58">Cerne caput, quod ad astra elate tollitur, audax;</l>
+               <l n="l59">Cerne serenatam frontem, necnon sub eadem</l>
+               <l n="l60">Resplendens lumen; stantem quoque cerne staturam		<note n="note1" type="numvers">60</note>
                </l>
-               <l n="l58">Ad frenandam hiemem, de puncto quae rotat illo</l>
-               <l n="l59">Exiguo gelidas undas per corporis artus!</l>
-               <pb n="pb60"/>
-               <l n="l61">Cerne caput, quod ad astra elate tollitur, audax;</l>
-               <l n="l62">Cerne serenatam frontem, necnon sub eadem</l>
-               <l n="l63">Resplendens lumen; stantem quoque cerne staturam		<note n="note1" type="numvers">60</note>
+               <l n="l61">Robustam gnaramque vigoris: dic mihi posthac,</l>
+               <l n="l62">Estne illic signum quodquod minimumque timoris?</l>
+               <l n="l63">Ac audi posthaec, heros nunc quomodo fatur,</l>
+               <l n="l64">Quomodo voce gravi trepidantes increpat ille:</l>
+               <l n="l65">“Heu! Durak, annose senex, heu! muribus istis		<note n="note1" type="numvers">65</note>
                </l>
-               <l n="l64">Robustam gnaramque vigoris: dic mihi posthac,</l>
-               <l n="l65">Estne illic signum quodquod minimumque timoris?</l>
-               <l n="l66">Ac audi posthaec, heros nunc quomodo fatur,</l>
-               <l n="l67">Quomodo voce gravi trepidantes increpat ille:</l>
-               <l n="l68">“Heu! Durak, annose senex, heu! muribus istis		<note n="note1" type="numvers">65</note>
+               <l n="l66">Montanis stratis quonam tu tendere mavis?</l>
+               <l n="l67">Forsitan ad Montes? Montani in Montibus adsunt;</l>
+               <l n="l68">Ad campos fors? in campos de Montibus illi</l>
+               <l n="l69">Desilient; forsan vives, caput ut tibi collo</l>
+               <l n="l70">Tollatur? Tantum ad nubes tibi tendere restat.		<note n="note1" type="numvers">70</note>
                </l>
-               <l n="l69">Montanis stratis quonam tu tendere mavis?</l>
-               <l n="l70">Forsitan ad Montes? Montani in Montibus adsunt;</l>
-               <l n="l71">Ad campos fors? in campos de Montibus illi</l>
-               <l n="l72">Desilient; forsan vives, caput ut tibi collo</l>
-               <l n="l73">Tollatur? Tantum ad nubes tibi tendere restat.		<note n="note1" type="numvers">70</note>
+               <l n="l71">Revera mures rodunt, sed corpore terram</l>
+               <l n="l72">Detorquent: aquila ad caelum sese unica tollit.</l>
+               <l n="l73">Ad furcam! laqueoque senem suspendite duro,</l>
+               <l n="l74">Ut sapiat, quam illi timor afferat utilitatem.</l>
+               <l n="l75">Et si Turca quis hic existat, qui quoque viles		<note n="note1" type="numvers">75</note>
                </l>
-               <l n="l74">Revera mures rodunt, sed corpore terram</l>
-               <l n="l75">Detorquent: aquila ad caelum sese unica tollit.</l>
-               <l n="l76">Ad furcam! laqueoque senem suspendite duro,</l>
-               <l n="l77">Ut sapiat, quam illi timor afferat utilitatem.</l>
-               <l n="l78">Et si Turca quis hic existat, qui quoque viles		<note n="note1" type="numvers">75</note>
+               <l n="l76">Christiadas timeat, tollam sub nubila caeli</l>
+               <l n="l77">Illum, ut ibi nigris corvis stet praeda cruenta.”</l>
+               <l n="l78">Omnis in ore deest servis sonus, unguibus istam</l>
+               <l n="l79">Arripiunt praedam. “Veniam” rogat et gemit aevo</l>
+               <l n="l80">Languidus, illius quoque natus Novica clamat		<note n="note1" type="numvers">80</note>
                </l>
-               <l n="l79">Christiadas timeat, tollam sub nubila caeli</l>
-               <l n="l80">Illum, ut ibi nigris corvis stet praeda cruenta.”</l>
-               <l n="l81">Omnis in ore deest servis sonus, unguibus istam</l>
-               <l n="l82">Arripiunt praedam. “Veniam” rogat et gemit aevo</l>
-               <l n="l83">Languidus, illius quoque natus Novica clamat		<note n="note1" type="numvers">80</note>
+               <l n="l81">Et lacrimat “Veniam! veniam!” conamine vano.</l>
+               <l n="l82">Aga stat, immanis fera, firma columna silexque</l>
+               <l n="l83">Durus: et ipso auram reddente manumque movente</l>
+               <l n="l84">Occubuit ferme Durak crudelibus umbris.</l>
+               <l n="l85">“Medet”...<note n="note1">+ Vox Turcica: auxiliare.</note> Carnifices collum iam fune ligarunt.		<note n="note2" type="numvers">85</note>
                </l>
-               <l n="l84">Et lacrimat “Veniam! veniam!” conamine vano.</l>
-               <l n="l85">Aga stat, immanis fera, firma columna silexque</l>
-               <l n="l86">Durus: et ipso auram reddente manumque movente</l>
-               <l n="l87">Occubuit ferme Durak crudelibus umbris.</l>
-               <l n="l88">“Medet”...<note n="note1">+ Vox Turcica: auxiliare.</note> Carnifices collum iam fune ligarunt.		<note n="note2" type="numvers">85</note>
-               </l>
-               <l n="l89">Fata senex subiit, tenuere silentia cuncti. </l>
+               <l n="l86">Fata senex subiit, tenuere silentia cuncti. </l>
             
-               <pb n="pb90"/>
+               <pb n="pb3"/>
             </div>
             <div n="div2" type="poesis-epica-liber">
                <head n="head1">VIATOR NOCTUABUNDUS</head>
-               <l n="l2">Sol absconditus est et pernox luna resurgit.</l>
-               <l n="l3">Ille quis est, qui per montis iuga dura vagatur</l>
-               <l n="l4">Ad Montemque Nigrum gressum facit usque latenter?</l>
-               <l n="l5">Se fert nocte, diu permittit membra quieti;		<note n="note1" type="numvers">90</note>
+               <l n="l1">Sol absconditus est et pernox luna resurgit.</l>
+               <l n="l2">Ille quis est, qui per montis iuga dura vagatur</l>
+               <l n="l3">Ad Montemque Nigrum gressum facit usque latenter?</l>
+               <l n="l4">Se fert nocte, diu permittit membra quieti;		<note n="note1" type="numvers">90</note>
                </l>
-               <l n="l6">Hic heros olim, sed nunc non amplius heros,</l>
-               <l n="l7">Sed calamus tenuis, qui flamine quoque movetur.</l>
-               <l n="l8">Si iuxta callem serpentem serpere, sive</l>
-               <l n="l9">Cespite sub viridi leporem audit scalpere terram,</l>
-               <l n="l10">Tum miser ille, fero serpente ferocior ante,		<note n="note1" type="numvers">95</note>
+               <l n="l5">Hic heros olim, sed nunc non amplius heros,</l>
+               <l n="l6">Sed calamus tenuis, qui flamine quoque movetur.</l>
+               <l n="l7">Si iuxta callem serpentem serpere, sive</l>
+               <l n="l8">Cespite sub viridi leporem audit scalpere terram,</l>
+               <l n="l9">Tum miser ille, fero serpente ferocior ante,		<note n="note1" type="numvers">95</note>
                </l>
-               <l n="l11">Hic trepidare fere plus quam lepus ipse videtur.</l>
-               <l n="l12">Et motum putat esse lupum, vel deteriorem</l>
-               <l n="l13">Isthoc ultorem Montanum, ideoque pavescit,</l>
-               <l n="l14">Ne caecae morti succumbat, cuncta priusquam</l>
-               <l n="l15">Obtineat, quae nunc eius praecordia vexant.		<note n="note1" type="numvers">100</note>
+               <l n="l10">Hic trepidare fere plus quam lepus ipse videtur.</l>
+               <l n="l11">Et motum putat esse lupum, vel deteriorem</l>
+               <l n="l12">Isthoc ultorem Montanum, ideoque pavescit,</l>
+               <l n="l13">Ne caecae morti succumbat, cuncta priusquam</l>
+               <l n="l14">Obtineat, quae nunc eius praecordia vexant.		<note n="note1" type="numvers">100</note>
                </l>
-               <l n="l16">Atque suum rutilum magni caput aestimat ille,</l>
-               <l n="l17">Ex auro non est et non circumdatur auro:</l>
-               <l n="l18">Conspicuum est illum non velle occumbere mortem,</l>
-               <l n="l19">Esse tamen quaedam, quae illum procedere cogant.</l>
-               <l n="l20">Estne vagans ultor, vel Turcicus explorator		<note n="note1" type="numvers">105</note>
+               <l n="l15">Atque suum rutilum magni caput aestimat ille,</l>
+               <l n="l16">Ex auro non est et non circumdatur auro:</l>
+               <l n="l17">Conspicuum est illum non velle occumbere mortem,</l>
+               <l n="l18">Esse tamen quaedam, quae illum procedere cogant.</l>
+               <l n="l19">Estne vagans ultor, vel Turcicus explorator		<note n="note1" type="numvers">105</note>
                </l>
-               <l n="l21">Explorans mandrasque boum pecudesque pilosas?</l>
-               <l n="l22">Ille nec est ultor, nec Turcicus explorator,</l>
-               <l n="l23">Stipator verum Smail-agae est, Novica fidus:</l>
-               <l n="l24">Turca ferus, Montis Nigri metus ac timor instans,</l>
-               <l n="l25">Et notus senibus puerisque; nequitur ab ipsis		<note n="note1" type="numvers">110</note>
+               <l n="l20">Explorans mandrasque boum pecudesque pilosas?</l>
+               <l n="l21">Ille nec est ultor, nec Turcicus explorator,</l>
+               <l n="l22">Stipator verum Smail-agae est, Novica fidus:</l>
+               <l n="l23">Turca ferus, Montis Nigri metus ac timor instans,</l>
+               <l n="l24">Et notus senibus puerisque; nequitur ab ipsis		<note n="note1" type="numvers">110</note>
                </l>
-               <l n="l26">Transferri nymphis et eo minus a pede firmo</l>
-               <l n="l27">Ipsius Nigrum per Montem luce diurna.</l>
-               <l n="l28">Ignivomam ballistam armo suspenderat ille,</l>
-               <l n="l29">In cinctu magnus culter binaeque pusillae</l>
-               <l n="l30">Ignivomae frendent ballistae saeva minantes,		<note n="note1" type="numvers">115</note>
+               <l n="l25">Transferri nymphis et eo minus a pede firmo</l>
+               <l n="l26">Ipsius Nigrum per Montem luce diurna.</l>
+               <l n="l27">Ignivomam ballistam armo suspenderat ille,</l>
+               <l n="l28">In cinctu magnus culter binaeque pusillae</l>
+               <l n="l29">Ignivomae frendent ballistae saeva minantes,		<note n="note1" type="numvers">115</note>
                </l>
-               <pb n="pb31"/>
-               <l n="l32">Vipereum nidum velat velamine tuto,</l>
-               <l n="l33">Taurea nudatis circumdat tegmina plantis</l>
-               <l n="l34">Et forti capiti nudum solitumque galerum;</l>
-               <l n="l35">Nec minimum cidaris signum observatur in illo.</l>
-               <l n="l36">Ecce tenax cidari sine cara Turca vagatur:			<note n="note1" type="numvers">120</note>
+               <pb n="pb1"/>
+               <l n="l30">Vipereum nidum velat velamine tuto,</l>
+               <l n="l31">Taurea nudatis circumdat tegmina plantis</l>
+               <l n="l32">Et forti capiti nudum solitumque galerum;</l>
+               <l n="l33">Nec minimum cidaris signum observatur in illo.</l>
+               <l n="l34">Ecce tenax cidari sine cara Turca vagatur:			<note n="note1" type="numvers">120</note>
                </l>
-               <l n="l37">Conspicuum est illum non velle occumbere mortem,</l>
-               <l n="l38">Esse tamen quaedam, quae illum procedere cogant.</l>
-               <l n="l39">Montes Cuce ferus caute pertransiit heros,</l>
-               <l n="l40">Posthac pugnaces quoque Bjelice, denique montes</l>
-               <l n="l41">Čekliće praeruptos attingit et hos attingit		<note n="note1" type="numvers">125</note>
+               <l n="l35">Conspicuum est illum non velle occumbere mortem,</l>
+               <l n="l36">Esse tamen quaedam, quae illum procedere cogant.</l>
+               <l n="l37">Montes Cuce ferus caute pertransiit heros,</l>
+               <l n="l38">Posthac pugnaces quoque Bjelice, denique montes</l>
+               <l n="l39">Čekliće praeruptos attingit et hos attingit		<note n="note1" type="numvers">125</note>
                </l>
-               <l n="l42">Auxilioque Deum vocat, ut transcendere possit</l>
-               <l n="l43">Hos quoque non visus, non exauditus ab ullo:</l>
-               <l n="l44">Conspicuum est illum non velle occumbere mortem,</l>
-               <l n="l45">Esse tamen quaedam, quae illum procedere cogant.</l>
-               <l n="l46">Novica ruc venit, cum in Cetinje rure secundo		<note n="note1" type="numvers">130</note>
+               <l n="l40">Auxilioque Deum vocat, ut transcendere possit</l>
+               <l n="l41">Hos quoque non visus, non exauditus ab ullo:</l>
+               <l n="l42">Conspicuum est illum non velle occumbere mortem,</l>
+               <l n="l43">Esse tamen quaedam, quae illum procedere cogant.</l>
+               <l n="l44">Novica ruc venit, cum in Cetinje rure secundo		<note n="note1" type="numvers">130</note>
                </l>
-               <l n="l47">Cantavit gallus, tertio cantavit in urbe</l>
-               <l n="l48">Cetinje gallus, ad hanc urbem cum Novica venit.</l>
-               <l n="l49">Illic fert vigili portantia verba salutem:</l>
-               <l n="l50">“Te Deus adiuvet, o vigil urbis!” Tum vigil illi</l>
-               <l n="l51">Suavius: “Et felix te sors, incognite fortis!		<note n="note1" type="numvers">135</note>
+               <l n="l45">Cantavit gallus, tertio cantavit in urbe</l>
+               <l n="l46">Cetinje gallus, ad hanc urbem cum Novica venit.</l>
+               <l n="l47">Illic fert vigili portantia verba salutem:</l>
+               <l n="l48">“Te Deus adiuvet, o vigil urbis!” Tum vigil illi</l>
+               <l n="l49">Suavius: “Et felix te sors, incognite fortis!		<note n="note1" type="numvers">135</note>
                </l>
-               <l n="l52">Unde domo tu es? Quae bona fors te duxerat istuc?</l>
-               <l n="l53">Cur huc venisti fortis fugientibus astris?”</l>
-               <l n="l54">Turca sagax, sibi sic putat hic nunc esse necesse,</l>
-               <l n="l55">Turca sagax reddit responsa sagaciter illi:</l>
-               <l n="l56">“A me cum quaeras, tibi verum dicere cogor:		<note n="note1" type="numvers">140</note>
+               <l n="l50">Unde domo tu es? Quae bona fors te duxerat istuc?</l>
+               <l n="l51">Cur huc venisti fortis fugientibus astris?”</l>
+               <l n="l52">Turca sagax, sibi sic putat hic nunc esse necesse,</l>
+               <l n="l53">Turca sagax reddit responsa sagaciter illi:</l>
+               <l n="l54">“A me cum quaeras, tibi verum dicere cogor:		<note n="note1" type="numvers">140</note>
                </l>
-               <l n="l57">Notus ego sum heros ex Morača, flumine claro,</l>
-               <l n="l58">Et sane rure ex parvo, cui Tušina nomen,</l>
-               <l n="l59">In radice sedet resonantis Durmitor alpis.</l>
-               <l n="l60">Haec tria tristia corde fero tormenta dolorum:</l>
-               <l n="l61">Corde fero primum tormentum, quod Smail-aga		<note n="note1" type="numvers">145</note>
+               <l n="l55">Notus ego sum heros ex Morača, flumine claro,</l>
+               <l n="l56">Et sane rure ex parvo, cui Tušina nomen,</l>
+               <l n="l57">In radice sedet resonantis Durmitor alpis.</l>
+               <l n="l58">Haec tria tristia corde fero tormenta dolorum:</l>
+               <l n="l59">Corde fero primum tormentum, quod Smail-aga		<note n="note1" type="numvers">145</note>
                </l>
-               <l n="l62">Nostrates caros violenta caede peremit;</l>
-               <l n="l63">Tormentum fero corde secundum, quod Smail-aga</l>
-               <l n="l64">Morte meum patrem damnaverat intemeratum;</l>
-               <pb n="pb65"/>
-               <l n="l66">Corde fero demum tormentum, ac hoc superare</l>
-               <l n="l67">Non valeo, quod adhuc trahit auras tortor acerbus.		<note n="note1" type="numvers">150</note>
+               <l n="l60">Nostrates caros violenta caede peremit;</l>
+               <l n="l61">Tormentum fero corde secundum, quod Smail-aga</l>
+               <l n="l62">Morte meum patrem damnaverat intemeratum;</l>
+               <pb n="pb2"/>
+               <l n="l63">Corde fero demum tormentum, ac hoc superare</l>
+               <l n="l64">Non valeo, quod adhuc trahit auras tortor acerbus.		<note n="note1" type="numvers">150</note>
                </l>
-               <l n="l68">Sed per supremum supplex te posco Tonantem,</l>
-               <l n="l69">Permittas dominum mihi adire tuumque meumque,</l>
-               <l n="l70">Ut de corde meo possit tormenta movere.”</l>
-               <l n="l71">Et vigil haec illi prudentius ore reportat:</l>
-               <l n="l72">“Arma repone, heros ignote, caputque deinde		<note n="note1" type="numvers">155</note>
+               <l n="l65">Sed per supremum supplex te posco Tonantem,</l>
+               <l n="l66">Permittas dominum mihi adire tuumque meumque,</l>
+               <l n="l67">Ut de corde meo possit tormenta movere.”</l>
+               <l n="l68">Et vigil haec illi prudentius ore reportat:</l>
+               <l n="l69">“Arma repone, heros ignote, caputque deinde		<note n="note1" type="numvers">155</note>
                </l>
-               <l n="l73">Ferre potes, quocumque trahit tua te ipsa voluptas.”</l>
-               <l n="l74">Tempore, magnificas quo Turca accesserat aedes,</l>
-               <l n="l75">Stella refugit, erat Smail-agae haec ultima stella.</l>
-               <pb n="pb76"/>
+               <l n="l70">Ferre potes, quocumque trahit tua te ipsa voluptas.”</l>
+               <l n="l71">Tempore, magnificas quo Turca accesserat aedes,</l>
+               <l n="l72">Stella refugit, erat Smail-agae haec ultima stella.</l>
+               <pb n="pb3"/>
             </div>
             <div n="div3" type="poesis-epica-liber">
                <head n="head1">AGMEN</head>
-               <l n="l2">In Cetinje, in Monte Nigro surrexerat agmen.</l>
-               <l n="l3">Exiguum numero, sed pugnis vivida virtus.		<note n="note1" type="numvers">160</note>
+               <l n="l1">In Cetinje, in Monte Nigro surrexerat agmen.</l>
+               <l n="l2">Exiguum numero, sed pugnis vivida virtus.		<note n="note1" type="numvers">160</note>
                </l>
-               <l n="l4">Vix numerat fortes centum, non, hercule, lectos</l>
-               <l n="l5">Ob formam faciemque decoram, sed cor ob acre;</l>
-               <l n="l6">Quisque petiturus non plures, ut dare possit</l>
-               <l n="l7">Terga fugae, verum binos, ut scindat eosdem,</l>
-               <l n="l8">Et moriturus quisque libens est pro cruce sacra,		<note n="note1" type="numvers">165</note>
+               <l n="l3">Vix numerat fortes centum, non, hercule, lectos</l>
+               <l n="l4">Ob formam faciemque decoram, sed cor ob acre;</l>
+               <l n="l5">Quisque petiturus non plures, ut dare possit</l>
+               <l n="l6">Terga fugae, verum binos, ut scindat eosdem,</l>
+               <l n="l7">Et moriturus quisque libens est pro cruce sacra,		<note n="note1" type="numvers">165</note>
                </l>
-               <l n="l9">Qua signat se, pro cruce libertateque cara.</l>
-               <l n="l10">Agmen inauditum! collectum non velut agmen</l>
-               <l n="l11">Colligitur solitum; veluti prius haud volitabat</l>
-               <l n="l12">Tunc super auras vox: “Ad fauces se ferat heros!”</l>
-               <l n="l13">Ac Echo resonans: “Ad fauces se ferat heros!”		<note n="note1" type="numvers">170</note>
+               <l n="l8">Qua signat se, pro cruce libertateque cara.</l>
+               <l n="l9">Agmen inauditum! collectum non velut agmen</l>
+               <l n="l10">Colligitur solitum; veluti prius haud volitabat</l>
+               <l n="l11">Tunc super auras vox: “Ad fauces se ferat heros!”</l>
+               <l n="l12">Ac Echo resonans: “Ad fauces se ferat heros!”		<note n="note1" type="numvers">170</note>
                </l>
-               <l n="l14">Ex latebris tunc non referebat ad aethera voces.</l>
-               <l n="l15">Ut vox mystica, qua Superi tantummodo fantur,</l>
-               <l n="l16">Huc illuc Nigrum per Montem murmur opacum</l>
-               <l n="l17">De saxo ruit ad saxum; mirabile dictu!</l>
-               <l n="l18">Per tenebras censes algentia saxa vigere:		<note n="note1" type="numvers">175</note>
+               <l n="l13">Ex latebris tunc non referebat ad aethera voces.</l>
+               <l n="l14">Ut vox mystica, qua Superi tantummodo fantur,</l>
+               <l n="l15">Huc illuc Nigrum per Montem murmur opacum</l>
+               <l n="l16">De saxo ruit ad saxum; mirabile dictu!</l>
+               <l n="l17">Per tenebras censes algentia saxa vigere:		<note n="note1" type="numvers">175</note>
                </l>
-               <l n="l19">Haec trepidant, cupiunt, tollunt caput, ex scopulisque</l>
-               <l n="l20">Immotis sensim monstrant pugnumque virilem</l>
-               <l n="l21">Robustumque pedem; per nervos sanguine caldum</l>
-               <l n="l22">Algentes horum flumen transire videtur.</l>
-               <l n="l23">Ignivomam longamque superbe deinde petentem		<note n="note1" type="numvers">180</note>
+               <l n="l18">Haec trepidant, cupiunt, tollunt caput, ex scopulisque</l>
+               <l n="l19">Immotis sensim monstrant pugnumque virilem</l>
+               <l n="l20">Robustumque pedem; per nervos sanguine caldum</l>
+               <l n="l21">Algentes horum flumen transire videtur.</l>
+               <l n="l22">Ignivomam longamque superbe deinde petentem		<note n="note1" type="numvers">180</note>
                </l>
-               <l n="l24">Sidera ballistam cernis; tua lumina fida</l>
-               <l n="l25">Haec non aspiciunt, quae in cinctu paenula celat...</l>
-               <l n="l26">Sed tenebrae densae nocturnum ens eripuerunt</l>
-               <l n="l27">Omne tibi; se illuc miles tulit unde volat vox.</l>
-               <l n="l28">Nox multa est, tenebris data, nubes astra recondit		<note n="note1" type="numvers">185</note>
+               <l n="l23">Sidera ballistam cernis; tua lumina fida</l>
+               <l n="l24">Haec non aspiciunt, quae in cinctu paenula celat...</l>
+               <l n="l25">Sed tenebrae densae nocturnum ens eripuerunt</l>
+               <l n="l26">Omne tibi; se illuc miles tulit unde volat vox.</l>
+               <l n="l27">Nox multa est, tenebris data, nubes astra recondit		<note n="note1" type="numvers">185</note>
                </l>
-               <l n="l29">Lucida, resplendens quoque ferrum paenula noxque.</l>
-               <pb n="pb30"/>
-               <l n="l31">Agmen it obscurum, nocturnum et id anteit heros</l>
-               <l n="l32">Insignis. Si illum summissa voce vocaret</l>
-               <l n="l33">Ex sociis quisquam, tunc illum “Mirko” vocaret.</l>
-               <l n="l34">Agmen it obscurum, sed frustra quaeris ab illo:		<note n="note1" type="numvers">190</note>
+               <l n="l28">Lucida, resplendens quoque ferrum paenula noxque.</l>
+               <pb n="pb1"/>
+               <l n="l29">Agmen it obscurum, nocturnum et id anteit heros</l>
+               <l n="l30">Insignis. Si illum summissa voce vocaret</l>
+               <l n="l31">Ex sociis quisquam, tunc illum “Mirko” vocaret.</l>
+               <l n="l32">Agmen it obscurum, sed frustra quaeris ab illo:		<note n="note1" type="numvers">190</note>
                </l>
-               <l n="l35">Quo? Sicut quaeres frustra a fulgore caduco</l>
-               <l n="l36">Ac a terrifico tonitru, quo praecipitare</l>
-               <l n="l37">Approperent, tibi cum semper responsa remittant:</l>
-               <l n="l38">“Haec nihil ad nos! Haec a summo quaere Tonante,</l>
-               <l n="l39">Cuius in obsequium mortales se dare debent.”		<note n="note1" type="numvers">195</note>
+               <l n="l33">Quo? Sicut quaeres frustra a fulgore caduco</l>
+               <l n="l34">Ac a terrifico tonitru, quo praecipitare</l>
+               <l n="l35">Approperent, tibi cum semper responsa remittant:</l>
+               <l n="l36">“Haec nihil ad nos! Haec a summo quaere Tonante,</l>
+               <l n="l37">Cuius in obsequium mortales se dare debent.”		<note n="note1" type="numvers">195</note>
                </l>
-               <l n="l40">Agmen it, ast: Quonam, qua pergit? Cognita tantum</l>
-               <l n="l41">Haec supra caelum stanti sunt. Sed sceleratus</l>
-               <l n="l42">Est certe gravis, in quem desuper iniectura</l>
-               <l n="l43">Est vim iustitiae eius sententia talem.</l>
-               <l n="l44">Agmen it et tacitum et surdum sub nocte per umbras.		<note n="note1" type="numvers">200</note>
+               <l n="l38">Agmen it, ast: Quonam, qua pergit? Cognita tantum</l>
+               <l n="l39">Haec supra caelum stanti sunt. Sed sceleratus</l>
+               <l n="l40">Est certe gravis, in quem desuper iniectura</l>
+               <l n="l41">Est vim iustitiae eius sententia talem.</l>
+               <l n="l42">Agmen it et tacitum et surdum sub nocte per umbras.		<note n="note1" type="numvers">200</note>
                </l>
-               <l n="l45">Nemo sonos, carmen, vel risum fundit ab ore:</l>
-               <l n="l46">Vox non percipitur centum de vocibus una.</l>
-               <l n="l47">Vero gelata velut nuber horrenda flagella</l>
-               <l n="l48">In gremio celat, stillat mussansque minatur</l>
-               <l n="l49">Perniciem diram regioni, quam petit: agmen		<note n="note1" type="numvers">205</note>
+               <l n="l43">Nemo sonos, carmen, vel risum fundit ab ore:</l>
+               <l n="l44">Vox non percipitur centum de vocibus una.</l>
+               <l n="l45">Vero gelata velut nuber horrenda flagella</l>
+               <l n="l46">In gremio celat, stillat mussansque minatur</l>
+               <l n="l47">Perniciem diram regioni, quam petit: agmen		<note n="note1" type="numvers">205</note>
                </l>
-               <l n="l50">Sic tenebris cinctum, dextrae velut assimilatum</l>
-               <l n="l51">Aeternae, tacitum procedit, ut impius ex his</l>
-               <l n="l52">Addiscat, fulmen si protinus ad scelerata</l>
-               <l n="l53">Responsum non det, se culpa haud esse solutum:</l>
-               <l n="l54">Hoc gravius feriet, quo tardius incutit ictus.		<note n="note1" type="numvers">210</note>
+               <l n="l48">Sic tenebris cinctum, dextrae velut assimilatum</l>
+               <l n="l49">Aeternae, tacitum procedit, ut impius ex his</l>
+               <l n="l50">Addiscat, fulmen si protinus ad scelerata</l>
+               <l n="l51">Responsum non det, se culpa haud esse solutum:</l>
+               <l n="l52">Hoc gravius feriet, quo tardius incutit ictus.		<note n="note1" type="numvers">210</note>
                </l>
-               <l n="l55">Arma micantia non crepitant, nec murmure montes</l>
-               <l n="l56">Ignivomae replent ballistae, nec radiantes</l>
-               <l n="l57">Ad facilem gressum bullae tinnire suerunt:</l>
-               <l n="l58">Sed veluti gnari, quem gestent, sub pede prolis</l>
-               <l n="l59">Decrescunt Montes ac aspera fiunt plana.		<note n="note1" type="numvers">215</note>
+               <l n="l53">Arma micantia non crepitant, nec murmure montes</l>
+               <l n="l54">Ignivomae replent ballistae, nec radiantes</l>
+               <l n="l55">Ad facilem gressum bullae tinnire suerunt:</l>
+               <l n="l56">Sed veluti gnari, quem gestent, sub pede prolis</l>
+               <l n="l57">Decrescunt Montes ac aspera fiunt plana.		<note n="note1" type="numvers">215</note>
                </l>
-               <l n="l60">Cum socio fido socius procedit eodem,</l>
-               <l n="l61">Constanti fidoque gradu velut astra gemella,</l>
-               <l n="l62">Subducto cum sole polus convolvitur umbra.</l>
-               <pb n="pb63"/>
-               <l n="l64">Komljani, Zagarač, Bjelopavlić arduus illis</l>
-               <l n="l65">Iam dudum post terga manent, modo Rovce refertos		<note n="note1" type="numvers">220</note>
+               <l n="l58">Cum socio fido socius procedit eodem,</l>
+               <l n="l59">Constanti fidoque gradu velut astra gemella,</l>
+               <l n="l60">Subducto cum sole polus convolvitur umbra.</l>
+               <pb n="pb2"/>
+               <l n="l61">Komljani, Zagarač, Bjelopavlić arduus illis</l>
+               <l n="l62">Iam dudum post terga manent, modo Rovce refertos		<note n="note1" type="numvers">220</note>
                </l>
-               <l n="l66">Conculcant saxis; post hos, ubi flava fugatis</l>
-               <l n="l67">Nocturnis umbris aurora rubescere visa est,</l>
-               <l n="l68">Agmen ad illustrem fluvium, cui Morača nomen,</l>
-               <l n="l69">Venit, ab hoc nomen regioni educitur illi.</l>
-               <l n="l70">Hic transire diem validum consederat agmen.		<note n="note1" type="numvers">225</note>
+               <l n="l63">Conculcant saxis; post hos, ubi flava fugatis</l>
+               <l n="l64">Nocturnis umbris aurora rubescere visa est,</l>
+               <l n="l65">Agmen ad illustrem fluvium, cui Morača nomen,</l>
+               <l n="l66">Venit, ab hoc nomen regioni educitur illi.</l>
+               <l n="l67">Hic transire diem validum consederat agmen.		<note n="note1" type="numvers">225</note>
                </l>
-               <l n="l71">Hic madido iacuit revolutus gramine, somno</l>
-               <l n="l72">Ut recrearet iam fessas in corpore vires:</l>
-               <l n="l73">Hic autem ignerium ballistae cernit acerbum</l>
-               <l n="l74">Ac accurate plumbum letale recenset,</l>
-               <l n="l75">Cote sui fidum vel laevigat ensis acumen:		<note n="note1" type="numvers">230</note>
+               <l n="l68">Hic madido iacuit revolutus gramine, somno</l>
+               <l n="l69">Ut recrearet iam fessas in corpore vires:</l>
+               <l n="l70">Hic autem ignerium ballistae cernit acerbum</l>
+               <l n="l71">Ac accurate plumbum letale recenset,</l>
+               <l n="l72">Cote sui fidum vel laevigat ensis acumen:		<note n="note1" type="numvers">230</note>
                </l>
-               <l n="l76">Hic chalibe ex saxo scintillam excudit et illam</l>
-               <l n="l77">In foliis siccis capit et dein accumulatis</l>
-               <l n="l78">Termitibus forti flatu flammam excitat acrem:</l>
-               <l n="l79">Arietis hic quartam partem oblatam a grege miti</l>
-               <l n="l80">In nuceo parvoque veru conversat ad ignem,		<note n="note1" type="numvers">235</note>
+               <l n="l73">Hic chalibe ex saxo scintillam excudit et illam</l>
+               <l n="l74">In foliis siccis capit et dein accumulatis</l>
+               <l n="l75">Termitibus forti flatu flammam excitat acrem:</l>
+               <l n="l76">Arietis hic quartam partem oblatam a grege miti</l>
+               <l n="l77">In nuceo parvoque veru conversat ad ignem,		<note n="note1" type="numvers">235</note>
                </l>
-               <l n="l81">Vel de ventre trahit perae sibi caseolum album.</l>
-               <l n="l82">Ardescitne siti? Non distat Morača flumen.</l>
-               <l n="l83">Estne calix opus huic? Palmas adhibebit utrasque.</l>
-               <l n="l84">Interea caelum sine nube rubescere coepit,</l>
-               <l n="l85">Pastor oves vigil in vicina convocat alpe,		<note n="note1" type="numvers">240</note>
+               <l n="l78">Vel de ventre trahit perae sibi caseolum album.</l>
+               <l n="l79">Ardescitne siti? Non distat Morača flumen.</l>
+               <l n="l80">Estne calix opus huic? Palmas adhibebit utrasque.</l>
+               <l n="l81">Interea caelum sine nube rubescere coepit,</l>
+               <l n="l82">Pastor oves vigil in vicina convocat alpe,		<note n="note1" type="numvers">240</note>
                </l>
-               <l n="l86">Et ducis arietis aes huic dat responsa sonoro.</l>
-               <l n="l87">Ecce gregem proprium visurum cernis euntem</l>
-               <l n="l88">Nunc alium mitem pastorem. Non decor eius</l>
-               <l n="l89">Aurum ac argentum, sed virtus et toga nigra.</l>
-               <l n="l90">Cum funalibus et facibus non hunc comitantur		<note n="note1" type="numvers">245</note>
+               <l n="l83">Et ducis arietis aes huic dat responsa sonoro.</l>
+               <l n="l84">Ecce gregem proprium visurum cernis euntem</l>
+               <l n="l85">Nunc alium mitem pastorem. Non decor eius</l>
+               <l n="l86">Aurum ac argentum, sed virtus et toga nigra.</l>
+               <l n="l87">Cum funalibus et facibus non hunc comitantur		<note n="note1" type="numvers">245</note>
                </l>
-               <l n="l91">Illustres comites, et nec de turribus altis</l>
-               <l n="l92">Aera, sed occiduus sol est comes illius ac aes</l>
-               <l n="l93">Arietis adveniens clemens de monte propinquo.</l>
-               <l n="l94">Illius templum est spatium omne sub aetheris axe,</l>
-               <l n="l95">Ara verenda et mons et vallis, thus odor ille,		<note n="note1" type="numvers">250</note>
+               <l n="l88">Illustres comites, et nec de turribus altis</l>
+               <l n="l89">Aera, sed occiduus sol est comes illius ac aes</l>
+               <l n="l90">Arietis adveniens clemens de monte propinquo.</l>
+               <l n="l91">Illius templum est spatium omne sub aetheris axe,</l>
+               <l n="l92">Ara verenda et mons et vallis, thus odor ille,		<note n="note1" type="numvers">250</note>
                </l>
-               <pb n="pb96"/>
-               <l n="l97">Qui sese defert ad caelum ex floribus, albo</l>
-               <l n="l98">Ex mundo necnon ex sanguine pro cruce fuso.</l>
-               <l n="l99">Cum melioris heri famulus bonus agmen adiisset,</l>
-               <l n="l100">Auxilium Domini optavit, et inde vocatis</l>
-               <l n="l101">Fortibus ut iuvenis saxum conscendit in algens,		<note n="note1" type="numvers">255</note>
+               <pb n="pb3"/>
+               <l n="l93">Qui sese defert ad caelum ex floribus, albo</l>
+               <l n="l94">Ex mundo necnon ex sanguine pro cruce fuso.</l>
+               <l n="l95">Cum melioris heri famulus bonus agmen adiisset,</l>
+               <l n="l96">Auxilium Domini optavit, et inde vocatis</l>
+               <l n="l97">Fortibus ut iuvenis saxum conscendit in algens,		<note n="note1" type="numvers">255</note>
                </l>
-               <l n="l102">(Algebat saxum, sed cor fervebat) honestus</l>
-               <l n="l103">Et bonus ista senex tunc verba ferebat ad agmen:</l>
-               <l n="l104">“Tutores patriae, soboles mea, vos generavit</l>
-               <l n="l105">Haec regio, vere praerupta, sed aurea vobis.</l>
-               <l n="l106">Haec et avis vestris vitales tradidit auras,		<note n="note1" type="numvers">260</note>
+               <l n="l98">(Algebat saxum, sed cor fervebat) honestus</l>
+               <l n="l99">Et bonus ista senex tunc verba ferebat ad agmen:</l>
+               <l n="l100">“Tutores patriae, soboles mea, vos generavit</l>
+               <l n="l101">Haec regio, vere praerupta, sed aurea vobis.</l>
+               <l n="l102">Haec et avis vestris vitales tradidit auras,		<note n="note1" type="numvers">260</note>
                </l>
-               <l n="l107">Haec patribus vestris vitales tradidit auras,</l>
-               <l n="l108">Haec vobis ipsis vitales tradidit auras:</l>
-               <l n="l109">Pulchrior hac vobis ulla haud existit in orbe.</l>
-               <l n="l110">“Semper avi vestri fundebant pro hacce cruorem,</l>
-               <l n="l111">Usque patres vestri fundebant pro hacce cruorem,		<note n="note1" type="numvers">265</note>
+               <l n="l103">Haec patribus vestris vitales tradidit auras,</l>
+               <l n="l104">Haec vobis ipsis vitales tradidit auras:</l>
+               <l n="l105">Pulchrior hac vobis ulla haud existit in orbe.</l>
+               <l n="l106">“Semper avi vestri fundebant pro hacce cruorem,</l>
+               <l n="l107">Usque patres vestri fundebant pro hacce cruorem,		<note n="note1" type="numvers">265</note>
                </l>
-               <l n="l112">Vos quoque prompti estis nunc fundere pro hacce cruorem:</l>
-               <l n="l113">Carior hac vobis ulla haud existit in orbe.</l>
-               <l n="l114">Veloces aquilae super alto vertice nidos</l>
-               <l n="l115">Aedificant, quoniam libertas vallibus absit.</l>
-               <l n="l116">“Cum sueti sitis moderatam ducere vitam,		<note n="note1" type="numvers">270</note>
+               <l n="l108">Vos quoque prompti estis nunc fundere pro hacce cruorem:</l>
+               <l n="l109">Carior hac vobis ulla haud existit in orbe.</l>
+               <l n="l110">Veloces aquilae super alto vertice nidos</l>
+               <l n="l111">Aedificant, quoniam libertas vallibus absit.</l>
+               <l n="l112">“Cum sueti sitis moderatam ducere vitam,		<note n="note1" type="numvers">270</note>
                </l>
-               <l n="l117">Cui vestrum cordi est, an vinum saxa refundant?</l>
-               <l n="l118">Cui vestrum cordi est, an fruges saxa refundant?</l>
-               <l n="l119">Cui vestrum cordi est, an serica saxa refundant?</l>
-               <l n="l120">Donec prosiliunt gelidae de fontibus undae,</l>
-               <l n="l121">Donec terrificis reboant mugitibus agri,		<note n="note1" type="numvers">275</note>
+               <l n="l113">Cui vestrum cordi est, an vinum saxa refundant?</l>
+               <l n="l114">Cui vestrum cordi est, an fruges saxa refundant?</l>
+               <l n="l115">Cui vestrum cordi est, an serica saxa refundant?</l>
+               <l n="l116">Donec prosiliunt gelidae de fontibus undae,</l>
+               <l n="l117">Donec terrificis reboant mugitibus agri,		<note n="note1" type="numvers">275</note>
                </l>
-               <l n="l122">Donec balatus dulces per saxa resultant.</l>
-               <l n="l123">“Pulveris est tibi sat, satis et super est tibi plumbi:</l>
-               <l n="l124">Herois manus est fortis; sub fronte coruscat</l>
-               <l n="l125">Falconis lumen; cor in eius pectore fervet;</l>
-               <l n="l126">Firma fides, hanc non vertes; te frater amore		<note n="note1" type="numvers">280</note>
+               <l n="l118">Donec balatus dulces per saxa resultant.</l>
+               <l n="l119">“Pulveris est tibi sat, satis et super est tibi plumbi:</l>
+               <l n="l120">Herois manus est fortis; sub fronte coruscat</l>
+               <l n="l121">Falconis lumen; cor in eius pectore fervet;</l>
+               <l n="l122">Firma fides, hanc non vertes; te frater amore		<note n="note1" type="numvers">280</note>
                </l>
-               <l n="l127">Prosequitur fratrem; te fidum amplectitur uxor</l>
-               <l n="l128">Fida; sit his pro actis munus tibi nobile carmen;</l>
-               <pb n="pb129"/>
-               <l n="l130">Estne tibi ferris opus? Affert haec tibi Turca:</l>
-               <l n="l131">En tibi, quae votis optas, sunt omnia praesto!</l>
-               <l n="l132">“Ast super omnia, quae decorant haec culmina montis,		<note n="note1" type="numvers">285</note>
+               <l n="l123">Prosequitur fratrem; te fidum amplectitur uxor</l>
+               <l n="l124">Fida; sit his pro actis munus tibi nobile carmen;</l>
+               <pb n="pb4"/>
+               <l n="l125">Estne tibi ferris opus? Affert haec tibi Turca:</l>
+               <l n="l126">En tibi, quae votis optas, sunt omnia praesto!</l>
+               <l n="l127">“Ast super omnia, quae decorant haec culmina montis,		<note n="note1" type="numvers">285</note>
                </l>
-               <l n="l133">Crux est, quae super haec effert se; roborat haec vos</l>
-               <l n="l134">In cruciatibus et caelo vos protegit alto.</l>
-               <l n="l135">“Ah! si ex planitie, prospectus unde vetantur,</l>
-               <l n="l136">Et reliquae gentes hanc nullo tempore victam</l>
-               <l n="l137">Illustremque crucem de vertice Lovćen ad astra		<note n="note1" type="numvers">290</note>
+               <l n="l128">Crux est, quae super haec effert se; roborat haec vos</l>
+               <l n="l129">In cruciatibus et caelo vos protegit alto.</l>
+               <l n="l130">“Ah! si ex planitie, prospectus unde vetantur,</l>
+               <l n="l131">Et reliquae gentes hanc nullo tempore victam</l>
+               <l n="l132">Illustremque crucem de vertice Lovćen ad astra		<note n="note1" type="numvers">290</note>
                </l>
-               <l n="l138">Elatam aspicerent, et si innotesceret illis,</l>
-               <l n="l139">Quomodo Turca ferox constanter faucibus atris</l>
-               <l n="l140">Haud parvo glutire illam molimine tentet,</l>
-               <l n="l141">Et frustra dentes ad Montes quomodo frangat:</l>
-               <l n="l142">Non pigrarentur, dum sacra pro cruce vobis		<note n="note1" type="numvers">295</note>
+               <l n="l133">Elatam aspicerent, et si innotesceret illis,</l>
+               <l n="l134">Quomodo Turca ferox constanter faucibus atris</l>
+               <l n="l135">Haud parvo glutire illam molimine tentet,</l>
+               <l n="l136">Et frustra dentes ad Montes quomodo frangat:</l>
+               <l n="l137">Non pigrarentur, dum sacra pro cruce vobis		<note n="note1" type="numvers">295</note>
                </l>
-               <l n="l143">Crudelissima sunt crebro tormenta ferenda,</l>
-               <l n="l144">Nec vos barbaricos idcirco voce vocarent,</l>
-               <l n="l145">Quod, dum istae somno, morti vos membra dabatis.</l>
-               <l n="l146">“Pro cruce vos sacra prompti estis cedere vita.</l>
-               <l n="l147">Nunc etiam pro illa consurrexistis in arma,		<note n="note1" type="numvers">300</note>
+               <l n="l138">Crudelissima sunt crebro tormenta ferenda,</l>
+               <l n="l139">Nec vos barbaricos idcirco voce vocarent,</l>
+               <l n="l140">Quod, dum istae somno, morti vos membra dabatis.</l>
+               <l n="l141">“Pro cruce vos sacra prompti estis cedere vita.</l>
+               <l n="l142">Nunc etiam pro illa consurrexistis in arma,		<note n="note1" type="numvers">300</note>
                </l>
-               <l n="l148">Divae irae fortes ultores. Est opus illi,</l>
-               <l n="l149">Qui servire Deo mavult, ut corde polito</l>
-               <l n="l150">Serviat et sceleris purus sua debet obire</l>
-               <l n="l151">Munera qui promptus peragit mandata superna.</l>
-               <l n="l152">“Si fratrem verbo quis vestrum offenderit unquam;		<note n="note1" type="numvers">305</note>
+               <l n="l143">Divae irae fortes ultores. Est opus illi,</l>
+               <l n="l144">Qui servire Deo mavult, ut corde polito</l>
+               <l n="l145">Serviat et sceleris purus sua debet obire</l>
+               <l n="l146">Munera qui promptus peragit mandata superna.</l>
+               <l n="l147">“Si fratrem verbo quis vestrum offenderit unquam;		<note n="note1" type="numvers">305</note>
                </l>
-               <l n="l153">Vel scelerans animam vitam resecaverit hostis</l>
-               <l n="l154">Cuiusdam miseri; vel clauserit ostia fesso</l>
-               <l n="l155">Forte viatori; vel promissa atque fidem non</l>
-               <l n="l156">Addiderit dictis; vel quaesitum esurienti</l>
-               <l n="l157">Non dederit panem, nec laesi cinxerit ulcus;		<note n="note1" type="numvers">310</note>
+               <l n="l148">Vel scelerans animam vitam resecaverit hostis</l>
+               <l n="l149">Cuiusdam miseri; vel clauserit ostia fesso</l>
+               <l n="l150">Forte viatori; vel promissa atque fidem non</l>
+               <l n="l151">Addiderit dictis; vel quaesitum esurienti</l>
+               <l n="l152">Non dederit panem, nec laesi cinxerit ulcus;		<note n="note1" type="numvers">310</note>
                </l>
-               <l n="l158">Omnia sunt isthaec peccata, nefaria facta:</l>
-               <l n="l159">Crimina dimittuntur eis quos paenitet horum.</l>
-               <l n="l160">“Paeniteat vos, clara dies dum luce coruscat;</l>
-               <l n="l161">Dum tempus, pueri, decurrit, paeniteat vos;</l>
-               <pb n="pb162"/>
-               <l n="l163">Paeniteat vos iam nunc antequam ad Omnipotentem		<note n="note1" type="numvers">315</note>
+               <l n="l153">Omnia sunt isthaec peccata, nefaria facta:</l>
+               <l n="l154">Crimina dimittuntur eis quos paenitet horum.</l>
+               <l n="l155">“Paeniteat vos, clara dies dum luce coruscat;</l>
+               <l n="l156">Dum tempus, pueri, decurrit, paeniteat vos;</l>
+               <pb n="pb5"/>
+               <l n="l157">Paeniteat vos iam nunc antequam ad Omnipotentem		<note n="note1" type="numvers">315</note>
                </l>
-               <l n="l164">Se sistant animae vivaces; paeniteat vos,</l>
-               <l n="l165">Nam brevis est vitae cursus, brevis et celer una;</l>
-               <l n="l166">Paeniteat vos, nam multos aurora resurgens</l>
-               <l n="l167">Inveniet ducetque ubi standum est omne per aevum;</l>
-               <l n="l168">Paeniteat vos....” Tuncque seni vox faucibus haesit		<note n="note1" type="numvers">320</note>
+               <l n="l158">Se sistant animae vivaces; paeniteat vos,</l>
+               <l n="l159">Nam brevis est vitae cursus, brevis et celer una;</l>
+               <l n="l160">Paeniteat vos, nam multos aurora resurgens</l>
+               <l n="l161">Inveniet ducetque ubi standum est omne per aevum;</l>
+               <l n="l162">Paeniteat vos....” Tuncque seni vox faucibus haesit		<note n="note1" type="numvers">320</note>
                </l>
-               <l n="l169">Et supra niveam barbam eius gutta refulsit</l>
-               <l n="l170">Sole sub ardenti velut unio. Forsan amaro</l>
-               <l n="l171">Commemoratu illum nunc fortior increpat aetas,</l>
-               <l n="l172">Atque sui plagas medicans gregis ipse suarum</l>
-               <l n="l173">Forte recordatur iuvenilum tristitiarum:		<note n="note1" type="numvers">325</note>
+               <l n="l163">Et supra niveam barbam eius gutta refulsit</l>
+               <l n="l164">Sole sub ardenti velut unio. Forsan amaro</l>
+               <l n="l165">Commemoratu illum nunc fortior increpat aetas,</l>
+               <l n="l166">Atque sui plagas medicans gregis ipse suarum</l>
+               <l n="l167">Forte recordatur iuvenilum tristitiarum:		<note n="note1" type="numvers">325</note>
                </l>
-               <l n="l174">Hic bonus est pastor, nam aliis quae praedicat, ipse</l>
-               <l n="l175">Usque suis factis haec confirmare videtur.</l>
-               <l n="l176">Ad pia verba pii senis omnis turba stat illa</l>
-               <l n="l177">Aegra gravi tamquam morbo; mitesque videntur</l>
-               <l n="l178">Agni, qui fuerant silvestres ante leones:		<note n="note1" type="numvers">330</note>
+               <l n="l168">Hic bonus est pastor, nam aliis quae praedicat, ipse</l>
+               <l n="l169">Usque suis factis haec confirmare videtur.</l>
+               <l n="l170">Ad pia verba pii senis omnis turba stat illa</l>
+               <l n="l171">Aegra gravi tamquam morbo; mitesque videntur</l>
+               <l n="l172">Agni, qui fuerant silvestres ante leones:		<note n="note1" type="numvers">330</note>
                </l>
-               <l n="l179">Divinum tantum facit haec miracula verbum.</l>
-               <l n="l180">Quis stetis ante oculos mitis tunc agminis huius,</l>
-               <l n="l181">Cum subito palmae centum enses diripuerunt</l>
-               <l n="l182">Vagina centum? Vere mirabilis adstans!</l>
-               <l n="l183">De cursu ad caelum cum corda repellere centum		<note n="note1" type="numvers">335</note>
+               <l n="l173">Divinum tantum facit haec miracula verbum.</l>
+               <l n="l174">Quis stetis ante oculos mitis tunc agminis huius,</l>
+               <l n="l175">Cum subito palmae centum enses diripuerunt</l>
+               <l n="l176">Vagina centum? Vere mirabilis adstans!</l>
+               <l n="l177">De cursu ad caelum cum corda repellere centum		<note n="note1" type="numvers">335</note>
                </l>
-               <l n="l184">Atque voluntates valet unus perdere centum!</l>
-               <l n="l185">Novica, crudelis tortor prius, et modo liber,</l>
-               <l n="l186">Adstat et agmen adit properanter relligiosum</l>
-               <l n="l187">Accedensque seni dat constans ore loquelas:</l>
-               <l n="l188">“Per Dominum fratres, fortes ex Montibus istis,		<note n="note1" type="numvers">340</note>
+               <l n="l178">Atque voluntates valet unus perdere centum!</l>
+               <l n="l179">Novica, crudelis tortor prius, et modo liber,</l>
+               <l n="l180">Adstat et agmen adit properanter relligiosum</l>
+               <l n="l181">Accedensque seni dat constans ore loquelas:</l>
+               <l n="l182">“Per Dominum fratres, fortes ex Montibus istis,		<note n="note1" type="numvers">340</note>
                </l>
-               <l n="l189">Ferra micantia ne vagina diripiatis.</l>
-               <l n="l190">Novica notus ego sum, sed mutatus ab illo,</l>
-               <l n="l191">Non contra, vero cum vobis en eo flagrans</l>
-               <l n="l192">Sanguine Turcarum hasce meas modo tingere palmas.</l>
-               <l n="l193">Turca ferus dudum rapuit mihi quaeque tenebam,		<note n="note1" type="numvers">345</note>
+               <l n="l183">Ferra micantia ne vagina diripiatis.</l>
+               <l n="l184">Novica notus ego sum, sed mutatus ab illo,</l>
+               <l n="l185">Non contra, vero cum vobis en eo flagrans</l>
+               <l n="l186">Sanguine Turcarum hasce meas modo tingere palmas.</l>
+               <l n="l187">Turca ferus dudum rapuit mihi quaeque tenebam,		<note n="note1" type="numvers">345</note>
                </l>
-               <l n="l194">Dextra mihi tantum sospes fortisque remansit,</l>
-               <pb n="pb195"/>
-               <l n="l196">Quae posthac Montis Nigri tantummodo fiat.</l>
-               <l n="l197">Namque crucem, nisi rite lavatus, non decet heros,</l>
-               <l n="l198">Haec votis opto summe: me in fonte lavate;</l>
-               <l n="l199">Nos ad agendum nam tempus nunc ocius urget.”		<note n="note1" type="numvers">350</note>
+               <l n="l188">Dextra mihi tantum sospes fortisque remansit,</l>
+               <pb n="pb6"/>
+               <l n="l189">Quae posthac Montis Nigri tantummodo fiat.</l>
+               <l n="l190">Namque crucem, nisi rite lavatus, non decet heros,</l>
+               <l n="l191">Haec votis opto summe: me in fonte lavate;</l>
+               <l n="l192">Nos ad agendum nam tempus nunc ocius urget.”		<note n="note1" type="numvers">350</note>
                </l>
-               <l n="l200">Haec ad verba manus centum letalia ferra</l>
-               <l n="l201">Deposuere statim, centum quoque lumina, sicut</l>
-               <l n="l202">Per pluviam, formosam Irin pro sole videbant.</l>
-               <l n="l203">Cumque senex oculis dederat signum, ilicet illi</l>
-               <l n="l204">Porrexere galerum undae de Morača, deinde		<note n="note1" type="numvers">355</note>
+               <l n="l193">Haec ad verba manus centum letalia ferra</l>
+               <l n="l194">Deposuere statim, centum quoque lumina, sicut</l>
+               <l n="l195">Per pluviam, formosam Irin pro sole videbant.</l>
+               <l n="l196">Cumque senex oculis dederat signum, ilicet illi</l>
+               <l n="l197">Porrexere galerum undae de Morača, deinde		<note n="note1" type="numvers">355</note>
                </l>
-               <l n="l205">“Nate, fide viva Patrem sectare Supernum,</l>
-               <l n="l206">Eius ab aeterno Natum quoque , tertium Eum, qui</l>
-               <l n="l207">Spiritus est Sanctus: viva sectare fide, tum</l>
-               <l n="l208">Haecce fides et te salvum servabit in aevum.”</l>
-               <l n="l209">Dixit et hinc unda Turcam perfudit acerbum		<note n="note1" type="numvers">360</note>
+               <l n="l198">“Nate, fide viva Patrem sectare Supernum,</l>
+               <l n="l199">Eius ab aeterno Natum quoque , tertium Eum, qui</l>
+               <l n="l200">Spiritus est Sanctus: viva sectare fide, tum</l>
+               <l n="l201">Haecce fides et te salvum servabit in aevum.”</l>
+               <l n="l202">Dixit et hinc unda Turcam perfudit acerbum		<note n="note1" type="numvers">360</note>
                </l>
-               <l n="l210">Testibus excelsis, praeruptis Montibus atque</l>
-               <l n="l211">Illorum natis, hoc agmine in alpe morante.</l>
-               <l n="l212">Tumque senex oculos tollit venerandus in altum,</l>
-               <l n="l213">Mansuetos oculos, et brachia nix velut alba,</l>
-               <l n="l214">Ac agmen solvit peccatis. Deinde videtur		<note n="note1" type="numvers">365</note>
+               <l n="l203">Testibus excelsis, praeruptis Montibus atque</l>
+               <l n="l204">Illorum natis, hoc agmine in alpe morante.</l>
+               <l n="l205">Tumque senex oculos tollit venerandus in altum,</l>
+               <l n="l206">Mansuetos oculos, et brachia nix velut alba,</l>
+               <l n="l207">Ac agmen solvit peccatis. Deinde videtur		<note n="note1" type="numvers">365</note>
                </l>
-               <l n="l215">Hoc donare Deo: iuveni dat cuique superni</l>
-               <l n="l216">Particulam panis, sacram escam; cuique superni</l>
-               <l n="l217">Dat vini iuveni guttam quoque, pocula sacra.</l>
-               <l n="l218">Prodigium magnum rutilans sol lustrat ab alto:</l>
-               <l n="l219">Debilis annosus restaurat debilitatos		<note n="note1" type="numvers">370</note>
+               <l n="l208">Hoc donare Deo: iuveni dat cuique superni</l>
+               <l n="l209">Particulam panis, sacram escam; cuique superni</l>
+               <l n="l210">Dat vini iuveni guttam quoque, pocula sacra.</l>
+               <l n="l211">Prodigium magnum rutilans sol lustrat ab alto:</l>
+               <l n="l212">Debilis annosus restaurat debilitatos		<note n="note1" type="numvers">370</note>
                </l>
-               <l n="l220">Mortales, ut par Divo vis fiat eorum.</l>
-               <l n="l221">Sicque refecti inter se basia fida dederunt.</l>
-               <l n="l222">Immotum summo stetit agmen Numine plenum,</l>
-               <l n="l223">Nequamquam velut ensis inunctus sanguine, vulnus</l>
-               <l n="l224">Quo letale datur: sed ut aurea sanctaque penna,		<note n="note1" type="numvers">375</note>
+               <l n="l213">Mortales, ut par Divo vis fiat eorum.</l>
+               <l n="l214">Sicque refecti inter se basia fida dederunt.</l>
+               <l n="l215">Immotum summo stetit agmen Numine plenum,</l>
+               <l n="l216">Nequamquam velut ensis inunctus sanguine, vulnus</l>
+               <l n="l217">Quo letale datur: sed ut aurea sanctaque penna,		<note n="note1" type="numvers">375</note>
                </l>
-               <l n="l225">Qua Deus acta notat patrum pro posteritate.</l>
-               <l n="l226">Occiduus sol iam se vertice condidit alto;</l>
-               <l n="l227">Discessitque senex ac agmen se tulit ultra.</l>
-               <pb n="pb228"/>
+               <l n="l218">Qua Deus acta notat patrum pro posteritate.</l>
+               <l n="l219">Occiduus sol iam se vertice condidit alto;</l>
+               <l n="l220">Discessitque senex ac agmen se tulit ultra.</l>
+               <pb n="pb7"/>
             </div>
             <div n="div4" type="poesis-epica-liber">
                <head n="head1">TRIBUTUM</head>
-               <l n="l2">Tu, Gacko, campus pulcherrimus esse videris,</l>
-               <l n="l3">Cum te dira fames non servat sub ditione:		<note n="note1" type="numvers">380</note>
-               </l>
-               <l n="l4">Dira fames, miserae necnon incommoda sortis!</l>
-               <l n="l5">Ast hodie miserum iuvenes te sanguinolenti</l>
-               <l n="l6">Contexere, micans quoque ferrum, quadrupedesque</l>
-               <l n="l7">Belliferi, plures albentes papiliones,</l>
-               <l n="l8">Ferra gravis molis ferrugineaeque catenae.		<note n="note1" type="numvers">385</note>
-               </l>
-               <l n="l9">Quid iuvenes? quid equi? quid et arma et papiliones,</l>
-               <l n="l10">Ferra gravis molis ferrugineaeque catenae?</l>
-               <l n="l11">Ipsipsus (!) Smail-aga in Gacko finitimisque</l>
-               <l n="l12">Ruribus extorquet durum saevumque tributum.</l>
-               <l n="l13">In medio campo crudelis castra locavit,		<note n="note1" type="numvers">390</note>
-               </l>
-               <l n="l14">Ac exactores saevos huc misit et illuc,</l>
-               <l n="l15">O exactores, utinam sint praeda luporum:</l>
-               <l n="l16">Ex auro nummum stricte hic a quoque requirit,</l>
-               <l n="l17">Ac a quoque foco vult et iubet arietem opimum</l>
-               <l n="l18">Necnon alternam, iuvenem pro nocte puellam.		<note n="note1" type="numvers">395</note>
-               </l>
-               <l n="l19">En exactores equitant nunc ex oriente,</l>
-               <l n="l20">In caudis nudum ducunt miserabile vulgus,</l>
-               <l n="l21">En exactores equitant ex hespereo axe,</l>
-               <l n="l22">In caudis nudum ducunt miserabile vulgus,</l>
-               <l n="l23">Undique crudeles spectas equitare dracones,		<note n="note1" type="numvers">400</note>
-               </l>
-               <l n="l24">In caudis nudum ducunt miserabile vulgus,</l>
-               <l n="l25">Infelix vulgus manibus post terga ligatum</l>
-               <l n="l26">Funeque connexum sequitur vestigia equorum.</l>
-               <l n="l27">Care Deus, vulgus sceleris qua labe notatur?</l>
-               <l n="l28">Estne reum, quoniam Turcas lascivia mordet?		<note n="note1" type="numvers">405</note>
-               </l>
-               <l n="l29">Estne reum, quoniam Turcas ignavia rodit?</l>
-               <l n="l30">Ergo reum cur est? ... Quia vitae tempora ducit,</l>
-               <pb n="pb31"/>
-               <l n="l32">Et praestare nequit quae Turca requirit ab illo:</l>
-               <l n="l33">Aurea quippe talenta albescentemque placentam. </l>
-               <l n="l34">Interea Smail-aga acrem prope papiliones		<note n="note1" type="numvers">410</note>
-               </l>
-               <l n="l35">Vertit equum huc illuc et in hasta coniicienda</l>
-               <l n="l36">Exercet claros oculos dextramque virilem.</l>
-               <l n="l37">Nunc socios superat saltu, nunc praestat in hasta</l>
-               <l n="l38">Eiaculanda illis: gravis heros, sit homo talis!</l>
-               <l n="l39">Ut vidit, qualem ducunt o ruribus illi		<note n="note1" type="numvers">415</note>
-               </l>
-               <l n="l40">Praedam exactores, praeceps quasi fulmen in ipsam</l>
-               <l n="l41">Quadrupedis celeris quatiens terga irruit atrox,</l>
-               <l n="l42">Atque volans rapuit iaculum, quod, ad experiendum,</l>
-               <l n="l43">Versus Christiadam primum direxit euntem.</l>
-               <l n="l44">Sed quandoque manus fortis dormitat et armis		<note n="note1" type="numvers">420</note>
-               </l>
-               <l n="l45">Nobilis herois: sic et decreta superna</l>
-               <l n="l46">Tunc statuere: pedem quadrupes offendit alacrem</l>
-               <l n="l47">Et iaculum stridit: leve inaequalique volatu</l>
-               <l n="l48">Non agnum mitem, sed vero lupum icit atrocem</l>
-               <l n="l49">Et Saferi unum lumen de sede revellit,		<note n="note1" type="numvers">425</note>
-               </l>
-               <l n="l50">Qui tunc Christiadam vinctum ducebat ad Agam.</l>
-               <l n="l51">Prosiliit virides in glebas lumen ademptum</l>
-               <l n="l52">Et rorabatur tepefacto Turca cruore.</l>
-               <l n="l53">Ut serpens stridit privatus lumine Turca,</l>
-               <l n="l54">Exarsit Smail-aga furens ut vivida flamma:		<note n="note1" type="numvers">430</note>
-               </l>
-               <l n="l55">Dedecori tali forti est urgere tributum,</l>
-               <l n="l56">Non cumulare illud, vibrantem coniicere hastam</l>
-               <l n="l57">Et non icere metam, et eo magis obcaecare</l>
-               <l n="l58">Pro vulgo Turcas, ut vulgus rideat illum.</l>
-               <l n="l59">Exarsit Smail-aga furens ut vivida flamma.		<note n="note1" type="numvers">435</note>
-               </l>
-               <l n="l60">Eheu, care Deus, quae sunt ventura deinde,</l>
-               <l n="l61">Christiadae sceleris cum iam nunc labe notentur!</l>
-               <l n="l62">“Jašar, Omere, Chaso, Mujo, propago canina</l>
-               <l n="l63">Detractis frenis in aperto flectite campo</l>
-               <l n="l64">--20-- </l>
-               <l n="l65">Quadrupedes, ut iners vulgus videamus ibidem		<note n="note1" type="numvers">440</note>
-               </l>
-               <l n="l66">Currere!”Bos sicut furibundus mugiit Aga. </l>
-               <l n="l67">Veloces servi properanter iussa capessunt,</l>
-               <l n="l68">Quadrupedes flectunt sine frenis campo in aperto.</l>
-               <l n="l69">Alte servorum resonat clamoribus aether,</l>
-               <l n="l70">Gramineo fervere videntur equiria campo,		<note n="note1" type="numvers">445</note>
-               </l>
-               <l n="l71">Quadrupedum exululans sequitur vestigia vulgus.</l>
-               <l n="l72">Momento primo tibi vulgus-hirundo videtur</l>
-               <l n="l73">Quadrupedes-nymphas praecursurum esse; secundo</l>
-               <l n="l74">Momento nescis scernere, num citiores</l>
-               <l n="l75">Quadrupedes sint, an vulgus; propiore deinde		<note n="note1" type="numvers">450</note>
-               </l>
-               <l n="l76">Momento cernuntur equi secedere, vulgus</l>
-               <l n="l77">Infelix autem retro remanere videtur;</l>
-               <l n="l78">Illuc si quarto momento lumina vertis,</l>
-               <l n="l79">Cernis humi resupinatum miserabile vulgus,</l>
-               <l n="l80">Et celerem cursum paulo post cernis equorum,		<note n="note1" type="numvers">455</note>
-               </l>
-               <l n="l81">Qui per molle lutum necnon per pulverem opacum</l>
-               <l n="l82">Hoc raptant sicut circa Troiam Hectora pridem,</l>
-               <l n="l83">Postquam erat a Superis ipsis iam Troia relicta.</l>
-               <l n="l84">Aga stat, immoti quoque Turcae stant oculosque</l>
-               <l n="l85">Iratos haec in spectacula tristia figunt		<note n="note1" type="numvers">460</note>
-               </l>
-               <l n="l86">Flagrantemque cruore sitim cruciatibus atque</l>
-               <l n="l87">Sanguine Christiadarum illi depellere curant;</l>
-               <l n="l88">Et cum laetitia mens exultaverat horum,</l>
-               <l n="l89">Certatim plausu celebrarunt gaudia magna</l>
-               <l n="l90">Ad pictam effigiem, cum vulgus, turba canina,		<note n="note1" type="numvers">465</note>
-               </l>
-               <l n="l91">In terram cecidit. Plausu aequo exultat Avernus,</l>
-               <l n="l92">Dum pugnat peccans aeterno cum cruciatu.</l>
-               <l n="l93">Turca ferox non est defectus, viribus acres</l>
-               <l n="l94">Quadrupedes iam sunt occantes hurpice vivae</l>
-               <l n="l95">Carnis agrum planum defecti, viribus isti		<note n="note1" type="numvers">470</note>
-               </l>
-               <l n="l96">Defecti sunt et madidi sudore steterunt.</l>
-               <pb n="pb97"/>
-               <l n="l98">Tunc ait Aga suis: “Iuvenes, obeuntibus istis</l>
-               <l n="l99">Omne tributum obiit; vitam vos reddite vulgo,</l>
-               <l n="l100">Ut mihi pro vestra servetis parte tributum.”</l>
-               <l n="l101">Tum peioris heri servi nequam arripuerunt		<note n="note1" type="numvers">475</note>
-               </l>
-               <l n="l102">Saeva flagella; dehinc ab equis cito desilierunt</l>
-               <l n="l103">Vulgus adorturi tristi fere morte peremptum,</l>
-               <l n="l104">Ut miserum in lucem revocarent vulgus ab Orco.</l>
-               <l n="l105">Lora flagellorum a dextra vibrata perita</l>
-               <l n="l106">Per sensus auras expertes sibila tollunt,		<note n="note1" type="numvers">480</note>
-               </l>
-               <l n="l107">Et triplex mordax illorum dens cruciatam</l>
-               <l n="l108">Et surdam carnem corrodit: sanguineosque</l>
-               <l n="l109">Progenerat fontes; si offendit dextera sueta,</l>
-               <l n="l110">Serpentes atros tum dirus in artubus istis</l>
-               <l n="l111">Caeruleis pingit, sub eo dum victima languet.		<note n="note1" type="numvers">485</note>
-               </l>
-               <l n="l112">“Eia age, surge cito, vulgus, propago canina!”</l>
-               <l n="l113">Turcarum resonat magnis clamoribus aether.</l>
-               <l n="l114">Fortior effetas compulsus verbere vires</l>
-               <l n="l115">Colligit et pedibus fractis innititur aegre;.</l>
-               <l n="l116">Debilior sicut per somnum fine carentem		<note n="note1" type="numvers">490</note>
-               </l>
-               <l n="l117">Et detestandos clamores percipit aure</l>
-               <l n="l118">Et sensu capiens violentum calcar acuto</l>
-               <l n="l119">Semianimem vitam revocat, vix vixque movetur,</l>
-               <l n="l120">Per campum reptat: lacrimosum est hoc documentum</l>
-               <l n="l121">Postremum cornu solum resonare sepultos		<note n="note1" type="numvers">495</note>
-               </l>
-               <l n="l122">Ac in iudicium compellere non modo posse,</l>
-               <l n="l123">Cum faciant eadem nunc ac hic terna flagella.</l>
-               <l n="l124">Et miseris, quorum manat de corpore sanguis,</l>
-               <l n="l125">Qui tristes serpunt ad magnum papilionem,</l>
-               <l n="l126">Aga furore ardens velut horrida bellua rugit:		<note n="note1" type="numvers">500</note>
-               </l>
-               <l n="l127">“Eia age, vulgus, opus tibi sit conferre tributum,</l>
-               <l n="l128">Aut graviora tuum tergum mox flagra secabunt.”</l>
-               <pb n="pb129"/>
-               <l n="l130">Alitibus Dominus bonus auras et cava quercus,</l>
-               <l n="l131">Optatos nidos quoque,piscibus aequor aquamque,</l>
-               <l n="l132">Hospitium vitreum, quo possent usque vagari,		<note n="note1" type="numvers">505</note>
-               </l>
-               <l n="l133">Montanisque feris campos gelidasque cavernas,</l>
-               <l n="l134">Montes et virides silvas dedit. At miserando</l>
-               <l n="l135">Vulgo? Nec crustam panis porrexerat atri,</l>
-               <l n="l136">Ut lacrimis illam perfunderet. Ast ego fallor!</l>
-               <l n="l137">Ipse Deus dederat, sed iam abstulit omnia Turca. 		<note n="note1" type="numvers">510</note>
-               </l>
-               <l n="l138">„Eia.. tributum!“ Sed vulgo nunc unde tributum?</l>
-               <l n="l139">Unde talenta dabit propriam qui non habet aedem,</l>
-               <l n="l140">Aedem tranquillam, caput in quam abstrudere possit?</l>
-               <l n="l141">Unde talenda dabit proprium qui non habet agrum,</l>
-               <l n="l142">Sed Turcarum agros illi sudore rigandum est?		<note n="note1" type="numvers">515</note>
-               </l>
-               <l n="l143">Unde talenda dabit pecudes qui non habet, at cui</l>
-               <l n="l144">Sunt alienorum pecudes per saxa sequendae?</l>
-               <l n="l145">Unde talenta dabit qui non habet indumentum?</l>
-               <l n="l146">Unde talenda dabit qui non habet atrum panem?</l>
-               <l n="l147">„Esurientes et nudi sumus, ah here noster:		<note n="note1" type="numvers">520</note>
-               </l>
-               <l n="l148">Expecta nos quinque dies, sex, usque tributum</l>
-               <l n="l149">Dum ostiatim optatum tibi mendicemus egeni!“</l>
-               <l n="l150">„Quin age, vulgus, opus tibi sit conferre tributum!“</l>
-               <l n="l151">„Panem, here, panem, namque diu non vidimus illum!“</l>
-               <l n="l152">„Expecta, vulgus, caelo dum vespere stellans		<note n="note1" type="numvers">525</note>
-               </l>
-               <l n="l153">Nox cadat, et carnem dabo tunc pro pane perustam!...</l>
-               <l n="l154">Cum sint Christiadae sine soccis, figite, servi,</l>
-               <l n="l155">His soleam bene, maecha canis sit mater eorum!“</l>
-               <l n="l156">Adiunxit Smail-aga, ac intrat papilionem.</l>
-               <l n="l157">Experti servi miserabile vulgus inuncant		<note n="note1" type="numvers">530</note>
-               </l>
-               <l n="l158">Et praecellit in his Saferus luminis orbus,</l>
-               <l n="l159">Quem subit ad plausum maiorem laetitiamque</l>
-               <l n="l160">Cunctorum rabies ulcisci lumen ademptum.</l>
-               <pb n="pb161"/>
-               <l n="l162">Vincla fremunt, ut bos Saferus mugit agrestis:</l>
-               <l n="l163">„Eia age, vulgus, opus tibi sit conferre tributum!“		<note n="note1" type="numvers">535</note>
-               </l>
-               <l n="l164">Et miserum vulgus gemitus de pectore ducit:</l>
-               <l n="l165">„Panem, here, panem, namque diu non vidimus illum!“</l>
-               <l n="l166">„Expecta, vulgus, caelo dum vespere stellans</l>
-               <l n="l167">Nox cadat, et carnem dabo tunc pro pane perustam!“</l>
-               <l n="l168">Execrabilis hic dicta execranda resumit.		<note n="note1" type="numvers">540</note>
-               </l>
-               <l n="l169">Sed quisnam latos angores explicet? Aequo</l>
-               <l n="l170">Quisnam animo possit tristes audire dolores?</l>
-               <l n="l171">Lapsa dies est, huic vesper successit et alto</l>
-               <l n="l172">Post illum tristis caelo nox praecipitavit,</l>
-               <l n="l173">Sicut acu pictum caelum est rutilantibus astris,		<note n="note1" type="numvers">545</note>
-               </l>
-               <l n="l174">Occasum tantum nubes convolverat atra,</l>
-               <l n="l175">In medio caeli decrescens luna refulget</l>
-               <l n="l176">Et tristi scaenae sua tristia lumina praebet.</l>
-               <l n="l177">In medio campo longe lateque patenti</l>
-               <l n="l178">Provecti crescit tilia aevi. Papiliones		<note n="note1" type="numvers">550</note>
-               </l>
-               <l n="l179">Se tollunt plures circum illam; pulchrior istis,</l>
-               <l n="l180">Pulchrior et maior, Smail-agae papilio exstat</l>
-               <l n="l181">Praecellitque aliis veluti candore columbis,</l>
-               <l n="l182">His albis avibus, praecellit candidus ales.</l>
-               <l n="l183">Papiliones hic illic in lumine lunae		<note n="note1" type="numvers">555</note>
-               </l>
-               <l n="l184">Albescunt sicut subter nive magna sepulcra,</l>
-               <l n="l185">Circum quae nequam multa de nocte vagatur</l>
-               <l n="l186">Spiritus, et larvis gradientem terret ineptis,</l>
-               <l n="l187">Vel fictis terit aurem huic rugituque leonis</l>
-               <l n="l188">Latratuque canis moriturorumque querelis.		<note n="note1" type="numvers">560</note>
-               </l>
-               <l n="l189">Slavorum patrum censes haec esse sepulcra,</l>
-               <l n="l190">Inclita quos olim laudabat fama per orbem,</l>
-               <l n="l191">Circum quae Turcae foedati luce diurna</l>
-               <l n="l192">Nocteque concubia gradiuntur fulmineumque</l>
-               <pb n="pb193"/>
-               <l n="l194">Detorquent cerebrum, quis necnon quomodo flentem		<note n="note1" type="numvers">565</note>
-               </l>
-               <l n="l195">Disperdant sobolem, ne supra sortis amicae</l>
-               <l n="l196">Relliquias fundat lacrimas curetque dolores.</l>
-               <l n="l197">Nunc velut in somnis audis rugire leones,</l>
-               <l n="l198">Nunc velut in somnis audis latrare lyciscas,</l>
-               <l n="l199">Nunc gemitus, fletus, ploratus ac ululatus		<note n="note1" type="numvers">570</note>
-               </l>
-               <l n="l200">Discruciatorum miserorum percipis aure,</l>
-               <l n="l201">Nuncque catenarum strepitum vocemque vocantem</l>
-               <l n="l202">Auxilio auscultas: dicas mihi, suavis amice,</l>
-               <l n="l203">Somnia suntne isti fletus? et somnia suntne</l>
-               <l n="l204">Hi strepitus? Quaeso, dicas.. Haec somnia non sunt,		<note n="note1" type="numvers">575</note>
-               </l>
-               <l n="l205">Nam video magni tibi causam haec esse doloris ...</l>
-               <l n="l206">Quid? Tu fles..? Tu fles..? Haec vere somnia non sunt,</l>
-               <l n="l207">Haud dubie, minime tu propter somnia fleres.</l>
-               <l n="l208">Aestuat interea prae papilionibus ignis, </l>
-               <l n="l209">Qui curae Turcis est. Hic nova porrigit igni		<note n="note1" type="numvers">580</note>
-               </l>
-               <l n="l210">Nutrimenta, ambas buccas hic inflat et illum,</l>
-               <l n="l211">Ut melius flagret, spiramine concitat oris;</l>
-               <l n="l212">Hic pedibusque decussatis ad humumque retortus</l>
-               <l n="l213">In longoque veru conversans arietem opimum</l>
-               <l n="l214">Iuxta illum sidit. Sevosus stillat et ingens		<note n="note1" type="numvers">585</note>
-               </l>
-               <l n="l215">Ad prunas aries stridet, dum lucida flamma</l>
-               <l n="l216">Hunc leviter tangens vivaci lumine replet</l>
-               <l n="l217">Sub cidari frontem Turcae sudore fluentem.</l>
-               <l n="l218">Sat cum aries erat a Turca versatus, ab axe</l>
-               <l n="l219">Est ingens tereti devulsus depositusque 		<note n="note1" type="numvers">590</note>
-               </l>
-               <l n="l220">In mensa magno quoque cultro dilaniatus.</l>
-               <l n="l221">Non secus atque lupi silvestres esurientes</l>
-               <l n="l222">Ad mensam subito Turcae sedere paratam,</l>
-               <l n="l223">Unguibus et praedam coeperunt arripere illam.</l>
-               <l n="l224">Tum frustum Smail-aga velut prior arripit unum,		<note n="note1" type="numvers">595</note>
-               </l>
-               <l n="l225">Post illum Bauk, et reliqui dein more luporum.</l>
-               <l n="l226">Iamque placentam albam, plenum quoque cuique triental</l>
-               <l n="l227">Ardescentis aquae curarunt; atque placenta</l>
-               <l n="l228">Carneque se recreant Stygioque furore rigantur.</l>
-               <pb n="pb229"/>
-               <l n="l230">Cum Smail-aga famem saturaverat atque furorem 		<note n="note1" type="numvers">600</note>
-               </l>
-               <l n="l231">Viventem geminaverat hocce sequente furore,</l>
-               <l n="l232">Exarsit rursus furians ut vivida flamma:</l>
-               <l n="l233">Dedecori tali forti est urgere tributum,</l>
-               <l n="l234">Non cumulare illud, vibrantem coniicere hastam</l>
-               <l n="l235">Et non icere metam, et eo magis obcaecare		<note n="note1" type="numvers">605</note>
-               </l>
-               <l n="l236">Pro vulgo Turcas, ut vulgus rideat illum:</l>
-               <l n="l237">Exarsit Smail-aga furens ut vivida flamma,</l>
-               <l n="l238">Et posthinc servis: „En exuberantia carnis,</l>
-               <l n="l239">Nuda fame presso vulgo vos proiicite ossa,</l>
-               <l n="l240">Proiicite ossa, alio carnem transferte perustam,			<note n="note1" type="numvers">610</note>
-               </l>
-               <l n="l241">Omnia, dum voco vos, debent haec esse peracta.“</l>
-               <l n="l242">Mugiit Aga, tulit se dein ad papilionem.</l>
-               <l n="l243">Ad coenam necnon delectamenta paranda</l>
-               <l n="l244">Sunt servi gressi; funem paleamque perustam</l>
-               <l n="l245">Sole paraverunt, qua vulgus mente superbum		<note n="note1" type="numvers">615</note>
-               </l>
-               <l n="l246">Inversis capite et pedibus de termite pendens</l>
-               <l n="l247">Sunt suffituri, ac ex vulgo, veste carenti</l>
-               <l n="l248">Atque fame presso, qua proment fulva talenta.</l>
-               <l n="l249">Et vulgus? Quaenam faciat miserabile vulgus!</l>
-               <l n="l250">Terra silex est, sunt alte caelestia tecta;		<note n="note1" type="numvers">620</note>
-               </l>
-               <l n="l251">Instrumenta videt saevissima corde dolenti,</l>
-               <l n="l252">Cor dolet, ast oculus lacrimarum non madet unda.</l>
-               <l n="l253">Cum servi fuerant ad iussa obeunda parati,</l>
-               <l n="l254">Illorum rapuit fervens insania mentem,</l>
-               <l n="l255">Imprimis mentem Saferi lumine laesi,		<note n="note1" type="numvers">625</note>
-               </l>
-               <l n="l256">Ut Smail-aga furens illos clamore moveret:</l>
-               <l n="l257">„O iuvenes, ehodum, confestim desidiosos</l>
-               <l n="l258">Christiadas fragilis tiliae suspendite ramo!“</l>
-               <l n="l259">Interea Smail-aga sedet sub papilione </l>
-               <l n="l260">Et Bauk, astutus dux, cum illo, Mustapa, scriba		<note n="note1" type="numvers">630</note>
-               </l>
-               <l n="l261">Fidus, et innumeri praestantes nomine Turcae.</l>
-               <pb n="pb262"/>
-               <l n="l263">Hic illic sub papilione venusta tapeta,</l>
-               <l n="l264">Et super illa leves culcitrae, extensa videntur,</l>
-               <l n="l265">Quae corpus blande invitant viribus audax</l>
-               <l n="l266">In luxum, mollem luxum somnumque quietum;		<note n="note1" type="numvers">635</note>
-               </l>
-               <l n="l267">Angulo in occulto rami super igne minuto</l>
-               <l n="l268">Vix scissi crepitant aut strident: carmina flentes</l>
-               <l n="l269">Cara canunt, tristes flent carmina cara canentes.</l>
-               <l n="l270">Intus de trunco, de quo protenditur albus</l>
-               <l n="l271">Papilio circum, multa arma micantia pendent:		<note n="note1" type="numvers">640</note>
-               </l>
-               <l n="l272">Ferra timenda, tubi letales, de urbe Damasci</l>
-               <l n="l273">Innumeri gladii falcati, qui maculati</l>
-               <l n="l274">Multoties fuerant iam sanguine Christiadarum,</l>
-               <l n="l275">Maiores octo cultri multique minores,</l>
-               <l n="l276">Ignivomae plures ballistae, quas tegit aurum, 		<note n="note1" type="numvers">645</note>
-               </l>
-               <l n="l277">Et minimae facile non possunt dinumerari.</l>
-               <l n="l278">Sed quidnam clava ferrata innititur illic,</l>
-               <l n="l279">Prodigium pulchrum nec lapso tempore visum,</l>
-               <l n="l280">Nonne lupo torvo clemens innititur agnus?</l>
-               <l n="l281">Nonne dracone truci innititur inclita musa?		<note n="note1" type="numvers">650</note>
-               </l>
-               <l n="l282">Hercle, fides cernis, sed, amice, timere caveto,</l>
-               <l n="l283">Ne ferrata terat clava illas, neve catenas</l>
-               <l n="l284">In rigidas nervos, in ballistam atque sagittas</l>
-               <l n="l285">Arcum, in equum pugnacem equulum convertat inermem.</l>
-               <l n="l286">Non trepidant Slavae musae decedere vita		<note n="note1" type="numvers">655</note>
-               </l>
-               <l n="l287">Ad clavam; vero bene tu haec in mente repone:</l>
-               <l n="l288">Clava ubi non exstat, neque carmina Slava coluntur.</l>
-               <l n="l289">Atque foris caelum pictum convolvitur umbris,</l>
-               <l n="l290">Et, si trans densas nubes tu cernere posses,</l>
-               <l n="l291">Pleiades, parvas stellas, trepidare videres		<note n="note1" type="numvers">660</note>
-               </l>
-               <l n="l292">Supra papilionem et te stans ante corusca</l>
-               <l n="l293">Sidera cerneret ex occasu luna bicornis,</l>
-               <l n="l294">Ut te dux aries cernit stans prae grege miti.</l>
-               <l n="l295">Caeca foris nox est et surda nec ulla sonat vox,</l>
-               <l n="l296">Sed tantum sensim mussat tenuissimus imber, 		<note n="note1" type="numvers">665</note>
-               </l>
-               <pb n="pb297"/>
-               <l n="l298">Caelum ut si doleat. Devicta luce tenebrae</l>
-               <l n="l299">Involvunt densae campos et culmina montis,</l>
-               <l n="l300">Ut digitos haud ante oculos discernere possis,</l>
-               <l n="l301">Nedum ea, quae offendis gradiens per opaca viarum.</l>
-               <l n="l302">Vae misero, quem, dum graditur, nox arripit ista, 		<note n="note1" type="numvers">670</note>
-               </l>
-               <l n="l303">Nec locus est illi, caput in quem abstrudere possit!</l>
-               <l n="l304">Oppositi venti caelo certamina ducunt,</l>
-               <l n="l305">Ac exinde micat repetitis ignibus aether:</l>
-               <l n="l306">Nunc perstringuntur nimia tua lumina luce,</l>
-               <l n="l307">Nunc tenebris, lapsis nigrioribus, illa teguntur.		<note n="note1" type="numvers">675</note>
-               </l>
-               <l n="l308">Et posthaec audis resonare tonitrua caelo,</l>
-               <l n="l309">Ex longe crepitant prius atque deinde gradatim</l>
-               <l n="l310">Approperant terramque horrendo murmure replent.</l>
-               <l n="l311">Et caelum campusque tremiscunt; culmina montis</l>
-               <l n="l312">Et valles resonant: impendet grandinis imber.		<note n="note1" type="numvers">680</note>
-               </l>
-               <l n="l313">Vae misero, quem, dum graditur, nox arripit ista.</l>
-               <l n="l314">Nec locus est illi, caput in quem abstrudere possit!</l>
-               <l n="l315">Si vento vertis tu terga micanteque nube</l>
-               <l n="l316">Igne repentino si figis lumina clara</l>
-               <l n="l317">Per campum deorsum, magnam turbam ire videbis;		<note n="note1" type="numvers">685</note>
-               </l>
-               <l n="l318">Nox illos tristis seiungit, sunt tamen una.</l>
-               <l n="l319">Nunc illis callem collustrat fulguris ignis,</l>
-               <l n="l320">Nunc illam nox atra rapit; sed nocte per umbras</l>
-               <l n="l321">Ulterius facile gradiuntur et ocius illi</l>
-               <l n="l322">Inter se spatium capiunt et papiliones:			<note n="note1" type="numvers">690</note>
-               </l>
-               <l n="l323">Nox atra est, summe cupiunt succedere tectis;</l>
-               <l n="l324">Idcirco miseri curant transire per umbras.</l>
-               <l n="l325">Praecipiti rursus micuerunt nubila flamma.</l>
-               <l n="l326">Turba propinquat iamque potes discernere clare,</l>
-               <l n="l327">Quis sit dux huius necnon quis sit comes eius.		<note n="note1" type="numvers">695</note>
-               </l>
-               <l n="l328">Agminis est alter prudens dux, alter amicus</l>
-               <l n="l329">Ductor et hic, cum sit campis clivisque peritus,</l>
-               <l n="l330">Per loca procedens agmen comitatur opaca;</l>
-               <pb n="pb331"/>
-               <l n="l332">Quo gressu facili procedit, respice, frater,</l>
-               <l n="l333">Per perturbatas velut auras nare videtur - 		<note n="note1" type="numvers">700</note>
-               </l>
-               <l n="l334">Ulterius censes illum procedere cogi - </l>
-               <l n="l335">Dum pedibus nocturna ducentis cetera turba</l>
-               <l n="l336">Alipedis gressus eius vestigia calcat.</l>
-               <l n="l337">Forsitan ille timet terrorem noctis opacae</l>
-               <l n="l338">Et cupit hospitii comis contingere portam.		<note n="note1" type="numvers">705</note>
-               </l>
-               <l n="l339">Sed iam tunc fulgor vibratus ab aethere primus</l>
-               <l n="l340">Aspexit latitans agmen post papiliones</l>
-               <l n="l341">In stationes tres positum, quo fortius esset.</l>
-               <l n="l342">Ac illic stetit agmen opacum fulmen ut instans,</l>
-               <l n="l343">Aut exardescens veluti Vulcania spuma,			<note n="note1" type="numvers">710</note>
-               </l>
-               <l n="l344">Quae ruit in vallem de ignitis montibus hora,</l>
-               <l n="l345">Qua nil curantes homines dant membra quieti.</l>
-               <l n="l346">Immotum manet et voces aure aucupat agmen,</l>
-               <l n="l347">Ut cognoscat ubi dominus det lumina somno,</l>
-               <l n="l348">Sed nullam vocem captat, nisi quod petulanter		<note n="note1" type="numvers">715</note>
-               </l>
-               <l n="l349">Et propere notus Safer sociique cachinnant</l>
-               <l n="l350">Praelibantque graves cruciatus Christiadarum.</l>
-               <l n="l351">Aga sedet magno sub papilione: tabacum,</l>
-               <l n="l352">Coffeam ac auras alternis haurit Averni.</l>
-               <l n="l353">Sub cidari fronti rugas induxerat atras,		<note n="note1" type="numvers">720</note>
-               </l>
-               <l n="l354">Et sub ea quasi nube heroica lumina texit</l>
-               <l n="l355">Atque silet mutus. Permulta recogitat Aga:</l>
-               <l n="l356">Ornatos gladios, pulchras iuvenesque puellas,</l>
-               <l n="l357">Venatus, aurum, falcones bellaque saeva,</l>
-               <l n="l358">Heroes Montis Nigri palosque tremendos,		<note n="note1" type="numvers">725</note>
-               </l>
-               <l n="l359">Subtiles hastas quoque letiferasque sagittas;</l>
-               <l n="l360">Exarsitque deinde furens ut vivida flamma:</l>
-               <l n="l361">Dedecori tali forti est urgere tributum,</l>
-               <l n="l362">Non cumulare illud, vibrantem coniicere hastam</l>
-               <l n="l363">Et non icere metam, et eo magis obcaecare		<note n="note1" type="numvers">730</note>
-               </l>
-               <l n="l364">Pro vulgo Turcas, ut vulgus rideat illum.</l>
-               <l n="l365">Exarsit Smail-aga furens ut vivida flamma;</l>
-               <pb n="pb366"/>
-               <l n="l367">Ast ubi pendentes de trunco viderat heros</l>
-               <l n="l368">Inter ferra fides blandas, violentia flagrans</l>
-               <l n="l369">Sanguine repressa est aliquantum et sanguis amarus		<note n="note1" type="numvers">735</note>
-               </l>
-               <l n="l370">Dulcuit instanter fidium modulamine divo;</l>
-               <l n="l371">Quae sitis ante cruoris erat, tum est facta poësis:</l>
-               <l n="l372">En qualis dulcedo ex divo carmine prodit!</l>
-               <l n="l373">Deinde duci Bauk haec Smail-aga est verba locutus:</l>
-               <l n="l374">„Dux Bauk, a nobis heros tu clarus haberis,		<note n="note1" type="numvers">740</note>
-               </l>
-               <l n="l375">Sed si Montani mures nos aggrediantur,</l>
-               <l n="l376">Dic mihi, quot mures Montanos solus et unus</l>
-               <l n="l377">Tu Bauk, insignis noster dux, vulnere perdas?“</l>
-               <l n="l378">„Sex saltem, ductor noster!“ „Foedata canis, tu</l>
-               <l n="l379">„Dux Bauk, insignem te ferris ante tenebam.		<note n="note1" type="numvers">745</note>
-               </l>
-               <l n="l380">Et si viginti Montani nos peterent nunc,</l>
-               <l n="l381">Nostra fides Mahometica me sic adiuvet, unus</l>
-               <l n="l382">Ex humeris illis caput omnibus eriperem ense…</l>
-               <l n="l383">Sed quasi curarum mea mens fluitaverat aestu</l>
-               <l n="l384">Me meditante e festucaque bibente tabacum,		<note n="note1" type="numvers">750</note>
-               </l>
-               <l n="l385">Quod nos deterret nox, ne nos exhilaremus</l>
-               <l n="l386">Thus vulgo dantes. Tu cantor es, hercule, notus,</l>
-               <l n="l387">Ast ego sum valde cupidus cantusque fidisque:</l>
-               <l n="l388">Eia cane, ut fervens de corde cupido recedat.“</l>
-               <l n="l389">Tum stetit evellitque Bauk de cardine chordas,		<note n="note1" type="numvers">755</note>
-               </l>
-               <l n="l390">Deinde decussatis pedibus mitisque resedit</l>
-               <l n="l391">Sede priore fideque canora ad molle cubile</l>
-               <l n="l392">Admota plectrum per caudam duxit equinam</l>
-               <l n="l393">Huc illuc; posthac cum clavus terque quaterque</l>
-               <l n="l394">Versatus crepuit, fallax sic cantor ab ore		<note n="note1" type="numvers">760</note>
-               </l>
-               <l n="l395">Carmen ad aptatas chordas effundere coepit:</l>
-               <l n="l396">„Care Deus, dictu mirabile! quam potis heros</l>
-               <l n="l397">Rizvan-aga erat et gladio teloque vibranti,</l>
-               <pb n="pb398"/>
-               <l n="l399">Ignivoma saeva ballista ac ense cruento</l>
-               <l n="l400">Et palmis et equo veloci! Kosovo campum		<note n="note1" type="numvers">765</note>
-               </l>
-               <l n="l401">Aga adit, ut quaerat saevum imperiale tributum:</l>
-               <l n="l402">Ex auro nummum stricte hic a quoque requirit,</l>
-               <l n="l403">Ac a quoque foco vult et iubet arietem opimum</l>
-               <l n="l404">Necnon alternam, iuvenem pro nocte puellam.</l>
-               <l n="l405">„Aga requirit ubique tributum, at vulgus avarum		<note n="note1" type="numvers">770</note>
-               </l>
-               <l n="l406">Et dat et haud illud dat, et unde talenta requirit</l>
-               <l n="l407">Aurea, non recipit saepe illa ex aere reducta;</l>
-               <l n="l408">Unde a quoque foco cupit arietem habere refertum,</l>
-               <l n="l409">Hunc illi tradunt, macies huic contrahit artus;</l>
-               <l n="l410">Unde puellam vult iuvenem pro nocte, nec atram		<note n="note1" type="numvers">775</note>
-               </l>
-               <l n="l411">Pestiferamque potest sperare exinde Megaeram.</l>
-               <l n="l412">„Aga capit vulgus durae cervicis et inde</l>
-               <l n="l413">Per latum campum seorsum hic disponit et illic.</l>
-               <l n="l414">Deinceps coepit equi saltu transmittere vulgus,</l>
-               <l n="l415">Aga decem primos transimiserat atque secundos		<note n="note1" type="numvers">780</note>
-               </l>
-               <l n="l416">Aga decem transmiserat et, cum tertia posthac</l>
-               <l n="l417">Transmittenda decas fuit illi, tunc equus acer</l>
-               <l n="l418">Est usus cervice sua saltumque peregit:</l>
-               <l n="l419">Cingula dirupta est et humi ruit Aga virilis.</l>
-               <l n="l420">„Temporis effluxit spatium breve; per spatiosum		<note n="note1" type="numvers">785</note>
-               </l>
-               <l n="l421">Kosovo percurrit murmur, qui prodit ab ore,</l>
-               <l n="l422">Transit ad os, longe procedens crescit eundo:</l>
-               <l n="l423">Sic vulgi nugae necnon derisio crescunt,</l>
-               <l n="l424">Ex fidibus donec deductum est carmen amoenis</l>
-               <l n="l425">Ac hodie caecus cantor per Kosovo cantat:		<note n="note1" type="numvers">790</note>
-               </l>
-               <l n="l426">„Rizvan-aga potens certe semissis erat vir.“</l>
-               <l n="l427">Dum fatale melos vafri resonabat ab ore</l>
-               <l n="l428">Cantoris Bauk ut tonitrus, qui fixit in Aga</l>
-               <l n="l429">Et non in cantore oculos, hic eius in ore</l>
-               <l n="l430">Angores, luctus, iras rabiemque furentem		<note n="note1" type="numvers">795</note>
-               </l>
-               <l n="l431">Et centum Furias alias agnoscere quibat,</l>
-               <pb n="pb432"/>
-               <l n="l433">Quae motae zephyro risus in corde superbo</l>
-               <l n="l434">Iucundos fodiunt sibi nidos ungue cruento.</l>
-               <l n="l435">Flamma cruenta prius tumidas exarsit in iras</l>
-               <l n="l436">Illo in corde calens adversum ignobile vulgus,		<note n="note1" type="numvers">800</note>
-               </l>
-               <l n="l437">Contra Christiadas viles haud quippe merentes,</l>
-               <l n="l438">Ut iuxta Turcas calefiant solis ab aestu.</l>
-               <l n="l439">Ferra, venena, capistra, truces palos gladiosque</l>
-               <l n="l440">Fervescens oleum, flammam tormentaque centum</l>
-               <l n="l441">Momento minimo tunc heros mente reponit,		<note n="note1" type="numvers">805</note>
-               </l>
-               <l n="l442">Ut compungentis risus vestigia tollat</l>
-               <l n="l443">Atque sono fidium famae praeconia servet.</l>
-               <l n="l444">Atra tegit nubes austera supercilia eius;</l>
-               <l n="l445">Ardescunt oculi sicut Vulcanius ignis;</l>
-               <l n="l446">Illius malas allambit flamma rubescens;		<note n="note1" type="numvers">810</note>
-               </l>
-               <l n="l447">Atque furore tument nares illius acerbo;</l>
-               <l n="l448">Sub nivea spuma inferna videtur in ore</l>
-               <l n="l449">Significatio, quae clare quasi dicat: iniqui</l>
-               <l n="l450">Christiadae pereant, et carmina sola cavenda!</l>
-               <l n="l451">Cum Bauk effudit postremum pectore verbum,		<note n="note1" type="numvers">815</note>
-               </l>
-               <l n="l452">Ut fulgur celebrum subiere haec eius inane:</l>
-               <l n="l453">Dedecori testis non est tantummodo vulgus,</l>
-               <l n="l454">Non est os, non sunt oculi tantummodo vulgo;</l>
-               <l n="l455">Percute vulgus, eho! cum vulgo percute Turcas</l>
-               <l n="l456">Et cures servare tuum spectabile nomen.		<note n="note1" type="numvers">820</note>
-               </l>
-               <l n="l457">Interea mergit trux Aga in pectoris ima</l>
-               <l n="l458">Consilium; vultus ductus et mulcet et arcet</l>
-               <l n="l459">Et frenat, saevi sed semper flamma furoris</l>
-               <l n="l460">Acrius in vultu flagrat; se ferre quietum</l>
-               <l n="l461">Vult mundo, verum tremor eius concutit artus.		<note n="note1" type="numvers">825</note>
-               </l>
-               <l n="l462">Cum demum minime magnum celare furorem</l>
-               <l n="l463">Amplius adstantes potuisset, surgit et edit</l>
-               <l n="l464">Clamorem furians: „Iuvenes, estote parati!</l>
-               <pb n="pb465"/>
-               <l n="l466">Ut pereat vulgus, fulgentes sumite cultros,</l>
-               <l n="l467">Ardescens oleum, gladios palosque tremendos,		<note n="note1" type="numvers">830</note>
-               </l>
-               <l n="l468">Urite flammis et Stygias dissolvite vires!</l>
-               <l n="l469">Carmina me dicent heroem: ut victima cuncti</l>
-               <l n="l470">Ad finem debent istum decedere vita!“…</l>
-               <l n="l471">Vix Smail-aga furens finem dedit ore loquendi, </l>
-               <l n="l472">Cum ballista foris explosa superstes in umbras		<note n="note1" type="numvers">835</note>
-               </l>
-               <l n="l473">Saferi lumen sparsit, qui promptus ad Agam</l>
-               <l n="l474">Venerat; ac hodie, iaculum quae coepit acerbum,</l>
-               <l n="l475">Mortiferum plumbum tristem dedit his modo finem.</l>
-               <l n="l476">„Christiadae, vulgus!“ colles clamore resultant.</l>
-               <l n="l477">Prima ex ballistis statio tum papiliones		<note n="note1" type="numvers">840</note>
-               </l>
-               <l n="l478">Glandibus aggressa est. „Vulgus!“ clamoribus aurae</l>
-               <l n="l479">Turcarum replentur: „equum!“ conclamat et Aga.</l>
-               <l n="l480">Deinde faces statio saevas iaculata secunda est.</l>
-               <l n="l481">„Undique Christiadae! Mucrones ignivomasque</l>
-               <l n="l482">Ballistas!“ „Equum! equum confestim duc mihi, Chaso!“		<note n="note1" type="numvers">845</note>
-               </l>
-               <l n="l483">Ballistas statio quoque tertia tunc vacuavit</l>
-               <l n="l484">Et Chasan, cane qui velocior est leporino,</l>
-               <l n="l485">Illi duxit equum. Momento, quo Smail-aga</l>
-               <l n="l486">Ascensurus equum fuerat, de nubibus ignis</l>
-               <l n="l487">Fulserat, et calidum plumbum prostravit eundem.		<note n="note1" type="numvers">850</note>
-               </l>
-               <l n="l488">Nox atra est, nescis, quisnam prostraverit illum, </l>
-               <l n="l489">Ast illic ballistam explodit Mirko propinque…</l>
-               <l n="l490">Ac anima obscuram per noctem corporis orba,</l>
-               <l n="l491">Moesta, dolens, fortis, spoliata repente cucurrit!...</l>
-               <l n="l492">Occubuit Smail-aga, tamen contendere Turcae		<note n="note1" type="numvers">855</note>
-               </l>
-               <l n="l493">Continuant, tantum tenebris modo tu prohiberis, </l>
-               <l n="l494">Congredientum ne mireris strenua gesta.</l>
-               <l n="l495">Prospectum tenebrae prohibent: cum a nubibus autem</l>
-               <pb n="pb496"/>
-               <l n="l497">Aut a ballista socii perfunditur ignis,</l>
-               <l n="l498">Ad captum cultri vulgus Turcaeque frequenter		<note n="note1" type="numvers">860</note>
-               </l>
-               <l n="l499">Inveniuntur, ubi se tam distare putabant;</l>
-               <l n="l500">Et collo circum supponunt brachia dura</l>
-               <l n="l501">Ac inter se dant ferratis oscula rostris</l>
-               <l n="l502">Christiadae necnon Turcae, dum concidat unus:</l>
-               <l n="l503">Tale odium saevum praecordia torret eorum!		<note n="note1" type="numvers">865</note>
-               </l>
-               <l n="l504">Veste nigrae noctis cita mors induta cucurrit</l>
-               <l n="l505">Per campum necnon se mergit sanguine fuso;</l>
-               <l n="l506">Fulminis igne micant illius lumina saeva</l>
-               <l n="l507">Et glaciale furit flamen nudata per ossa;</l>
-               <l n="l508">Terribilis tonitrus strepitu nunc aethera replet:		<note n="note1" type="numvers">870</note>
-               </l>
-               <l n="l509">„Heu mihi!“ nunc: „Medet, medet!“ nunc: „Auxiliare,</l>
-               <l n="l510">O mitis Iesu!“ Suspirat, sibilat atque</l>
-               <l n="l511">Singultat; dein nunc Turcas et Christiadas nunc</l>
-               <l n="l512">Praeripit atque sua veste horum lumina velat.</l>
-               <l n="l513">Hic auras fidus Smail-agae scriba reliquit,		<note n="note1" type="numvers">875</note>
-               </l>
-               <l n="l514">Hic cecidit Mujo, Chasan quoque, Jašar et Omer</l>
-               <l n="l515">Et triginta alii Turcae. A morte reduxit</l>
-               <l n="l516">Tunc Bauk et reliquos fugientes nox latebrosa.</l>
-               <l n="l517">Ille quis est, qui iuxta Agam iacet exanimisque</l>
-               <l n="l518">Bile tumens frendet crudelis in exanimatum?		<note n="note1" type="numvers">880</note>
-               </l>
-               <l n="l519">Novica adest notus: Chaso prostraverat illum,</l>
-               <l n="l520">Cum heros incurrit per Turcas morte leonem</l>
-               <l n="l521">Iam stratum, a collo caput ut divelleret illi.</l>
-               <l n="l522">Exitiosa tubis ex saevis grando quievit,</l>
-               <l n="l523">Dein se grando furens ex aethere rupit: et agmen		<note n="note1" type="numvers">885</note>
-               </l>
-               <l n="l524">Immisit pernox se papilionibus albis.</l>
-               <l n="l525">Nox horrenda, nigra est, obscura et sanguine sparsa;</l>
-               <l n="l526">O felix agmen, quod se tulit in loca tuta!</l>
-               <pb n="pb527"/>
+               <l n="l1">Tu, Gacko, campus pulcherrimus esse videris,</l>
+               <l n="l2">Cum te dira fames non servat sub ditione:		<note n="note1" type="numvers">380</note>
+               </l>
+               <l n="l3">Dira fames, miserae necnon incommoda sortis!</l>
+               <l n="l4">Ast hodie miserum iuvenes te sanguinolenti</l>
+               <l n="l5">Contexere, micans quoque ferrum, quadrupedesque</l>
+               <l n="l6">Belliferi, plures albentes papiliones,</l>
+               <l n="l7">Ferra gravis molis ferrugineaeque catenae.		<note n="note1" type="numvers">385</note>
+               </l>
+               <l n="l8">Quid iuvenes? quid equi? quid et arma et papiliones,</l>
+               <l n="l9">Ferra gravis molis ferrugineaeque catenae?</l>
+               <l n="l10">Ipsipsus (!) Smail-aga in Gacko finitimisque</l>
+               <l n="l11">Ruribus extorquet durum saevumque tributum.</l>
+               <l n="l12">In medio campo crudelis castra locavit,		<note n="note1" type="numvers">390</note>
+               </l>
+               <l n="l13">Ac exactores saevos huc misit et illuc,</l>
+               <l n="l14">O exactores, utinam sint praeda luporum:</l>
+               <l n="l15">Ex auro nummum stricte hic a quoque requirit,</l>
+               <l n="l16">Ac a quoque foco vult et iubet arietem opimum</l>
+               <l n="l17">Necnon alternam, iuvenem pro nocte puellam.		<note n="note1" type="numvers">395</note>
+               </l>
+               <l n="l18">En exactores equitant nunc ex oriente,</l>
+               <l n="l19">In caudis nudum ducunt miserabile vulgus,</l>
+               <l n="l20">En exactores equitant ex hespereo axe,</l>
+               <l n="l21">In caudis nudum ducunt miserabile vulgus,</l>
+               <l n="l22">Undique crudeles spectas equitare dracones,		<note n="note1" type="numvers">400</note>
+               </l>
+               <l n="l23">In caudis nudum ducunt miserabile vulgus,</l>
+               <l n="l24">Infelix vulgus manibus post terga ligatum</l>
+               <l n="l25">Funeque connexum sequitur vestigia equorum.</l>
+               <l n="l26">Care Deus, vulgus sceleris qua labe notatur?</l>
+               <l n="l27">Estne reum, quoniam Turcas lascivia mordet?		<note n="note1" type="numvers">405</note>
+               </l>
+               <l n="l28">Estne reum, quoniam Turcas ignavia rodit?</l>
+               <l n="l29">Ergo reum cur est? ... Quia vitae tempora ducit,</l>
+               <pb n="pb1"/>
+               <l n="l30">Et praestare nequit quae Turca requirit ab illo:</l>
+               <l n="l31">Aurea quippe talenta albescentemque placentam. </l>
+               <l n="l32">Interea Smail-aga acrem prope papiliones		<note n="note1" type="numvers">410</note>
+               </l>
+               <l n="l33">Vertit equum huc illuc et in hasta coniicienda</l>
+               <l n="l34">Exercet claros oculos dextramque virilem.</l>
+               <l n="l35">Nunc socios superat saltu, nunc praestat in hasta</l>
+               <l n="l36">Eiaculanda illis: gravis heros, sit homo talis!</l>
+               <l n="l37">Ut vidit, qualem ducunt o ruribus illi		<note n="note1" type="numvers">415</note>
+               </l>
+               <l n="l38">Praedam exactores, praeceps quasi fulmen in ipsam</l>
+               <l n="l39">Quadrupedis celeris quatiens terga irruit atrox,</l>
+               <l n="l40">Atque volans rapuit iaculum, quod, ad experiendum,</l>
+               <l n="l41">Versus Christiadam primum direxit euntem.</l>
+               <l n="l42">Sed quandoque manus fortis dormitat et armis		<note n="note1" type="numvers">420</note>
+               </l>
+               <l n="l43">Nobilis herois: sic et decreta superna</l>
+               <l n="l44">Tunc statuere: pedem quadrupes offendit alacrem</l>
+               <l n="l45">Et iaculum stridit: leve inaequalique volatu</l>
+               <l n="l46">Non agnum mitem, sed vero lupum icit atrocem</l>
+               <l n="l47">Et Saferi unum lumen de sede revellit,		<note n="note1" type="numvers">425</note>
+               </l>
+               <l n="l48">Qui tunc Christiadam vinctum ducebat ad Agam.</l>
+               <l n="l49">Prosiliit virides in glebas lumen ademptum</l>
+               <l n="l50">Et rorabatur tepefacto Turca cruore.</l>
+               <l n="l51">Ut serpens stridit privatus lumine Turca,</l>
+               <l n="l52">Exarsit Smail-aga furens ut vivida flamma:		<note n="note1" type="numvers">430</note>
+               </l>
+               <l n="l53">Dedecori tali forti est urgere tributum,</l>
+               <l n="l54">Non cumulare illud, vibrantem coniicere hastam</l>
+               <l n="l55">Et non icere metam, et eo magis obcaecare</l>
+               <l n="l56">Pro vulgo Turcas, ut vulgus rideat illum.</l>
+               <l n="l57">Exarsit Smail-aga furens ut vivida flamma.		<note n="note1" type="numvers">435</note>
+               </l>
+               <l n="l58">Eheu, care Deus, quae sunt ventura deinde,</l>
+               <l n="l59">Christiadae sceleris cum iam nunc labe notentur!</l>
+               <l n="l60">“Jašar, Omere, Chaso, Mujo, propago canina</l>
+               <l n="l61">Detractis frenis in aperto flectite campo</l>
+               <l n="l62">--20-- </l>
+               <l n="l63">Quadrupedes, ut iners vulgus videamus ibidem		<note n="note1" type="numvers">440</note>
+               </l>
+               <l n="l64">Currere!”Bos sicut furibundus mugiit Aga. </l>
+               <l n="l65">Veloces servi properanter iussa capessunt,</l>
+               <l n="l66">Quadrupedes flectunt sine frenis campo in aperto.</l>
+               <l n="l67">Alte servorum resonat clamoribus aether,</l>
+               <l n="l68">Gramineo fervere videntur equiria campo,		<note n="note1" type="numvers">445</note>
+               </l>
+               <l n="l69">Quadrupedum exululans sequitur vestigia vulgus.</l>
+               <l n="l70">Momento primo tibi vulgus-hirundo videtur</l>
+               <l n="l71">Quadrupedes-nymphas praecursurum esse; secundo</l>
+               <l n="l72">Momento nescis scernere, num citiores</l>
+               <l n="l73">Quadrupedes sint, an vulgus; propiore deinde		<note n="note1" type="numvers">450</note>
+               </l>
+               <l n="l74">Momento cernuntur equi secedere, vulgus</l>
+               <l n="l75">Infelix autem retro remanere videtur;</l>
+               <l n="l76">Illuc si quarto momento lumina vertis,</l>
+               <l n="l77">Cernis humi resupinatum miserabile vulgus,</l>
+               <l n="l78">Et celerem cursum paulo post cernis equorum,		<note n="note1" type="numvers">455</note>
+               </l>
+               <l n="l79">Qui per molle lutum necnon per pulverem opacum</l>
+               <l n="l80">Hoc raptant sicut circa Troiam Hectora pridem,</l>
+               <l n="l81">Postquam erat a Superis ipsis iam Troia relicta.</l>
+               <l n="l82">Aga stat, immoti quoque Turcae stant oculosque</l>
+               <l n="l83">Iratos haec in spectacula tristia figunt		<note n="note1" type="numvers">460</note>
+               </l>
+               <l n="l84">Flagrantemque cruore sitim cruciatibus atque</l>
+               <l n="l85">Sanguine Christiadarum illi depellere curant;</l>
+               <l n="l86">Et cum laetitia mens exultaverat horum,</l>
+               <l n="l87">Certatim plausu celebrarunt gaudia magna</l>
+               <l n="l88">Ad pictam effigiem, cum vulgus, turba canina,		<note n="note1" type="numvers">465</note>
+               </l>
+               <l n="l89">In terram cecidit. Plausu aequo exultat Avernus,</l>
+               <l n="l90">Dum pugnat peccans aeterno cum cruciatu.</l>
+               <l n="l91">Turca ferox non est defectus, viribus acres</l>
+               <l n="l92">Quadrupedes iam sunt occantes hurpice vivae</l>
+               <l n="l93">Carnis agrum planum defecti, viribus isti		<note n="note1" type="numvers">470</note>
+               </l>
+               <l n="l94">Defecti sunt et madidi sudore steterunt.</l>
+               <pb n="pb2"/>
+               <l n="l95">Tunc ait Aga suis: “Iuvenes, obeuntibus istis</l>
+               <l n="l96">Omne tributum obiit; vitam vos reddite vulgo,</l>
+               <l n="l97">Ut mihi pro vestra servetis parte tributum.”</l>
+               <l n="l98">Tum peioris heri servi nequam arripuerunt		<note n="note1" type="numvers">475</note>
+               </l>
+               <l n="l99">Saeva flagella; dehinc ab equis cito desilierunt</l>
+               <l n="l100">Vulgus adorturi tristi fere morte peremptum,</l>
+               <l n="l101">Ut miserum in lucem revocarent vulgus ab Orco.</l>
+               <l n="l102">Lora flagellorum a dextra vibrata perita</l>
+               <l n="l103">Per sensus auras expertes sibila tollunt,		<note n="note1" type="numvers">480</note>
+               </l>
+               <l n="l104">Et triplex mordax illorum dens cruciatam</l>
+               <l n="l105">Et surdam carnem corrodit: sanguineosque</l>
+               <l n="l106">Progenerat fontes; si offendit dextera sueta,</l>
+               <l n="l107">Serpentes atros tum dirus in artubus istis</l>
+               <l n="l108">Caeruleis pingit, sub eo dum victima languet.		<note n="note1" type="numvers">485</note>
+               </l>
+               <l n="l109">“Eia age, surge cito, vulgus, propago canina!”</l>
+               <l n="l110">Turcarum resonat magnis clamoribus aether.</l>
+               <l n="l111">Fortior effetas compulsus verbere vires</l>
+               <l n="l112">Colligit et pedibus fractis innititur aegre;.</l>
+               <l n="l113">Debilior sicut per somnum fine carentem		<note n="note1" type="numvers">490</note>
+               </l>
+               <l n="l114">Et detestandos clamores percipit aure</l>
+               <l n="l115">Et sensu capiens violentum calcar acuto</l>
+               <l n="l116">Semianimem vitam revocat, vix vixque movetur,</l>
+               <l n="l117">Per campum reptat: lacrimosum est hoc documentum</l>
+               <l n="l118">Postremum cornu solum resonare sepultos		<note n="note1" type="numvers">495</note>
+               </l>
+               <l n="l119">Ac in iudicium compellere non modo posse,</l>
+               <l n="l120">Cum faciant eadem nunc ac hic terna flagella.</l>
+               <l n="l121">Et miseris, quorum manat de corpore sanguis,</l>
+               <l n="l122">Qui tristes serpunt ad magnum papilionem,</l>
+               <l n="l123">Aga furore ardens velut horrida bellua rugit:		<note n="note1" type="numvers">500</note>
+               </l>
+               <l n="l124">“Eia age, vulgus, opus tibi sit conferre tributum,</l>
+               <l n="l125">Aut graviora tuum tergum mox flagra secabunt.”</l>
+               <pb n="pb3"/>
+               <l n="l126">Alitibus Dominus bonus auras et cava quercus,</l>
+               <l n="l127">Optatos nidos quoque,piscibus aequor aquamque,</l>
+               <l n="l128">Hospitium vitreum, quo possent usque vagari,		<note n="note1" type="numvers">505</note>
+               </l>
+               <l n="l129">Montanisque feris campos gelidasque cavernas,</l>
+               <l n="l130">Montes et virides silvas dedit. At miserando</l>
+               <l n="l131">Vulgo? Nec crustam panis porrexerat atri,</l>
+               <l n="l132">Ut lacrimis illam perfunderet. Ast ego fallor!</l>
+               <l n="l133">Ipse Deus dederat, sed iam abstulit omnia Turca. 		<note n="note1" type="numvers">510</note>
+               </l>
+               <l n="l134">„Eia.. tributum!“ Sed vulgo nunc unde tributum?</l>
+               <l n="l135">Unde talenta dabit propriam qui non habet aedem,</l>
+               <l n="l136">Aedem tranquillam, caput in quam abstrudere possit?</l>
+               <l n="l137">Unde talenda dabit proprium qui non habet agrum,</l>
+               <l n="l138">Sed Turcarum agros illi sudore rigandum est?		<note n="note1" type="numvers">515</note>
+               </l>
+               <l n="l139">Unde talenda dabit pecudes qui non habet, at cui</l>
+               <l n="l140">Sunt alienorum pecudes per saxa sequendae?</l>
+               <l n="l141">Unde talenta dabit qui non habet indumentum?</l>
+               <l n="l142">Unde talenda dabit qui non habet atrum panem?</l>
+               <l n="l143">„Esurientes et nudi sumus, ah here noster:		<note n="note1" type="numvers">520</note>
+               </l>
+               <l n="l144">Expecta nos quinque dies, sex, usque tributum</l>
+               <l n="l145">Dum ostiatim optatum tibi mendicemus egeni!“</l>
+               <l n="l146">„Quin age, vulgus, opus tibi sit conferre tributum!“</l>
+               <l n="l147">„Panem, here, panem, namque diu non vidimus illum!“</l>
+               <l n="l148">„Expecta, vulgus, caelo dum vespere stellans		<note n="note1" type="numvers">525</note>
+               </l>
+               <l n="l149">Nox cadat, et carnem dabo tunc pro pane perustam!...</l>
+               <l n="l150">Cum sint Christiadae sine soccis, figite, servi,</l>
+               <l n="l151">His soleam bene, maecha canis sit mater eorum!“</l>
+               <l n="l152">Adiunxit Smail-aga, ac intrat papilionem.</l>
+               <l n="l153">Experti servi miserabile vulgus inuncant		<note n="note1" type="numvers">530</note>
+               </l>
+               <l n="l154">Et praecellit in his Saferus luminis orbus,</l>
+               <l n="l155">Quem subit ad plausum maiorem laetitiamque</l>
+               <l n="l156">Cunctorum rabies ulcisci lumen ademptum.</l>
+               <pb n="pb4"/>
+               <l n="l157">Vincla fremunt, ut bos Saferus mugit agrestis:</l>
+               <l n="l158">„Eia age, vulgus, opus tibi sit conferre tributum!“		<note n="note1" type="numvers">535</note>
+               </l>
+               <l n="l159">Et miserum vulgus gemitus de pectore ducit:</l>
+               <l n="l160">„Panem, here, panem, namque diu non vidimus illum!“</l>
+               <l n="l161">„Expecta, vulgus, caelo dum vespere stellans</l>
+               <l n="l162">Nox cadat, et carnem dabo tunc pro pane perustam!“</l>
+               <l n="l163">Execrabilis hic dicta execranda resumit.		<note n="note1" type="numvers">540</note>
+               </l>
+               <l n="l164">Sed quisnam latos angores explicet? Aequo</l>
+               <l n="l165">Quisnam animo possit tristes audire dolores?</l>
+               <l n="l166">Lapsa dies est, huic vesper successit et alto</l>
+               <l n="l167">Post illum tristis caelo nox praecipitavit,</l>
+               <l n="l168">Sicut acu pictum caelum est rutilantibus astris,		<note n="note1" type="numvers">545</note>
+               </l>
+               <l n="l169">Occasum tantum nubes convolverat atra,</l>
+               <l n="l170">In medio caeli decrescens luna refulget</l>
+               <l n="l171">Et tristi scaenae sua tristia lumina praebet.</l>
+               <l n="l172">In medio campo longe lateque patenti</l>
+               <l n="l173">Provecti crescit tilia aevi. Papiliones		<note n="note1" type="numvers">550</note>
+               </l>
+               <l n="l174">Se tollunt plures circum illam; pulchrior istis,</l>
+               <l n="l175">Pulchrior et maior, Smail-agae papilio exstat</l>
+               <l n="l176">Praecellitque aliis veluti candore columbis,</l>
+               <l n="l177">His albis avibus, praecellit candidus ales.</l>
+               <l n="l178">Papiliones hic illic in lumine lunae		<note n="note1" type="numvers">555</note>
+               </l>
+               <l n="l179">Albescunt sicut subter nive magna sepulcra,</l>
+               <l n="l180">Circum quae nequam multa de nocte vagatur</l>
+               <l n="l181">Spiritus, et larvis gradientem terret ineptis,</l>
+               <l n="l182">Vel fictis terit aurem huic rugituque leonis</l>
+               <l n="l183">Latratuque canis moriturorumque querelis.		<note n="note1" type="numvers">560</note>
+               </l>
+               <l n="l184">Slavorum patrum censes haec esse sepulcra,</l>
+               <l n="l185">Inclita quos olim laudabat fama per orbem,</l>
+               <l n="l186">Circum quae Turcae foedati luce diurna</l>
+               <l n="l187">Nocteque concubia gradiuntur fulmineumque</l>
+               <pb n="pb5"/>
+               <l n="l188">Detorquent cerebrum, quis necnon quomodo flentem		<note n="note1" type="numvers">565</note>
+               </l>
+               <l n="l189">Disperdant sobolem, ne supra sortis amicae</l>
+               <l n="l190">Relliquias fundat lacrimas curetque dolores.</l>
+               <l n="l191">Nunc velut in somnis audis rugire leones,</l>
+               <l n="l192">Nunc velut in somnis audis latrare lyciscas,</l>
+               <l n="l193">Nunc gemitus, fletus, ploratus ac ululatus		<note n="note1" type="numvers">570</note>
+               </l>
+               <l n="l194">Discruciatorum miserorum percipis aure,</l>
+               <l n="l195">Nuncque catenarum strepitum vocemque vocantem</l>
+               <l n="l196">Auxilio auscultas: dicas mihi, suavis amice,</l>
+               <l n="l197">Somnia suntne isti fletus? et somnia suntne</l>
+               <l n="l198">Hi strepitus? Quaeso, dicas.. Haec somnia non sunt,		<note n="note1" type="numvers">575</note>
+               </l>
+               <l n="l199">Nam video magni tibi causam haec esse doloris ...</l>
+               <l n="l200">Quid? Tu fles..? Tu fles..? Haec vere somnia non sunt,</l>
+               <l n="l201">Haud dubie, minime tu propter somnia fleres.</l>
+               <l n="l202">Aestuat interea prae papilionibus ignis, </l>
+               <l n="l203">Qui curae Turcis est. Hic nova porrigit igni		<note n="note1" type="numvers">580</note>
+               </l>
+               <l n="l204">Nutrimenta, ambas buccas hic inflat et illum,</l>
+               <l n="l205">Ut melius flagret, spiramine concitat oris;</l>
+               <l n="l206">Hic pedibusque decussatis ad humumque retortus</l>
+               <l n="l207">In longoque veru conversans arietem opimum</l>
+               <l n="l208">Iuxta illum sidit. Sevosus stillat et ingens		<note n="note1" type="numvers">585</note>
+               </l>
+               <l n="l209">Ad prunas aries stridet, dum lucida flamma</l>
+               <l n="l210">Hunc leviter tangens vivaci lumine replet</l>
+               <l n="l211">Sub cidari frontem Turcae sudore fluentem.</l>
+               <l n="l212">Sat cum aries erat a Turca versatus, ab axe</l>
+               <l n="l213">Est ingens tereti devulsus depositusque 		<note n="note1" type="numvers">590</note>
+               </l>
+               <l n="l214">In mensa magno quoque cultro dilaniatus.</l>
+               <l n="l215">Non secus atque lupi silvestres esurientes</l>
+               <l n="l216">Ad mensam subito Turcae sedere paratam,</l>
+               <l n="l217">Unguibus et praedam coeperunt arripere illam.</l>
+               <l n="l218">Tum frustum Smail-aga velut prior arripit unum,		<note n="note1" type="numvers">595</note>
+               </l>
+               <l n="l219">Post illum Bauk, et reliqui dein more luporum.</l>
+               <l n="l220">Iamque placentam albam, plenum quoque cuique triental</l>
+               <l n="l221">Ardescentis aquae curarunt; atque placenta</l>
+               <l n="l222">Carneque se recreant Stygioque furore rigantur.</l>
+               <pb n="pb6"/>
+               <l n="l223">Cum Smail-aga famem saturaverat atque furorem 		<note n="note1" type="numvers">600</note>
+               </l>
+               <l n="l224">Viventem geminaverat hocce sequente furore,</l>
+               <l n="l225">Exarsit rursus furians ut vivida flamma:</l>
+               <l n="l226">Dedecori tali forti est urgere tributum,</l>
+               <l n="l227">Non cumulare illud, vibrantem coniicere hastam</l>
+               <l n="l228">Et non icere metam, et eo magis obcaecare		<note n="note1" type="numvers">605</note>
+               </l>
+               <l n="l229">Pro vulgo Turcas, ut vulgus rideat illum:</l>
+               <l n="l230">Exarsit Smail-aga furens ut vivida flamma,</l>
+               <l n="l231">Et posthinc servis: „En exuberantia carnis,</l>
+               <l n="l232">Nuda fame presso vulgo vos proiicite ossa,</l>
+               <l n="l233">Proiicite ossa, alio carnem transferte perustam,			<note n="note1" type="numvers">610</note>
+               </l>
+               <l n="l234">Omnia, dum voco vos, debent haec esse peracta.“</l>
+               <l n="l235">Mugiit Aga, tulit se dein ad papilionem.</l>
+               <l n="l236">Ad coenam necnon delectamenta paranda</l>
+               <l n="l237">Sunt servi gressi; funem paleamque perustam</l>
+               <l n="l238">Sole paraverunt, qua vulgus mente superbum		<note n="note1" type="numvers">615</note>
+               </l>
+               <l n="l239">Inversis capite et pedibus de termite pendens</l>
+               <l n="l240">Sunt suffituri, ac ex vulgo, veste carenti</l>
+               <l n="l241">Atque fame presso, qua proment fulva talenta.</l>
+               <l n="l242">Et vulgus? Quaenam faciat miserabile vulgus!</l>
+               <l n="l243">Terra silex est, sunt alte caelestia tecta;		<note n="note1" type="numvers">620</note>
+               </l>
+               <l n="l244">Instrumenta videt saevissima corde dolenti,</l>
+               <l n="l245">Cor dolet, ast oculus lacrimarum non madet unda.</l>
+               <l n="l246">Cum servi fuerant ad iussa obeunda parati,</l>
+               <l n="l247">Illorum rapuit fervens insania mentem,</l>
+               <l n="l248">Imprimis mentem Saferi lumine laesi,		<note n="note1" type="numvers">625</note>
+               </l>
+               <l n="l249">Ut Smail-aga furens illos clamore moveret:</l>
+               <l n="l250">„O iuvenes, ehodum, confestim desidiosos</l>
+               <l n="l251">Christiadas fragilis tiliae suspendite ramo!“</l>
+               <l n="l252">Interea Smail-aga sedet sub papilione </l>
+               <l n="l253">Et Bauk, astutus dux, cum illo, Mustapa, scriba		<note n="note1" type="numvers">630</note>
+               </l>
+               <l n="l254">Fidus, et innumeri praestantes nomine Turcae.</l>
+               <pb n="pb7"/>
+               <l n="l255">Hic illic sub papilione venusta tapeta,</l>
+               <l n="l256">Et super illa leves culcitrae, extensa videntur,</l>
+               <l n="l257">Quae corpus blande invitant viribus audax</l>
+               <l n="l258">In luxum, mollem luxum somnumque quietum;		<note n="note1" type="numvers">635</note>
+               </l>
+               <l n="l259">Angulo in occulto rami super igne minuto</l>
+               <l n="l260">Vix scissi crepitant aut strident: carmina flentes</l>
+               <l n="l261">Cara canunt, tristes flent carmina cara canentes.</l>
+               <l n="l262">Intus de trunco, de quo protenditur albus</l>
+               <l n="l263">Papilio circum, multa arma micantia pendent:		<note n="note1" type="numvers">640</note>
+               </l>
+               <l n="l264">Ferra timenda, tubi letales, de urbe Damasci</l>
+               <l n="l265">Innumeri gladii falcati, qui maculati</l>
+               <l n="l266">Multoties fuerant iam sanguine Christiadarum,</l>
+               <l n="l267">Maiores octo cultri multique minores,</l>
+               <l n="l268">Ignivomae plures ballistae, quas tegit aurum, 		<note n="note1" type="numvers">645</note>
+               </l>
+               <l n="l269">Et minimae facile non possunt dinumerari.</l>
+               <l n="l270">Sed quidnam clava ferrata innititur illic,</l>
+               <l n="l271">Prodigium pulchrum nec lapso tempore visum,</l>
+               <l n="l272">Nonne lupo torvo clemens innititur agnus?</l>
+               <l n="l273">Nonne dracone truci innititur inclita musa?		<note n="note1" type="numvers">650</note>
+               </l>
+               <l n="l274">Hercle, fides cernis, sed, amice, timere caveto,</l>
+               <l n="l275">Ne ferrata terat clava illas, neve catenas</l>
+               <l n="l276">In rigidas nervos, in ballistam atque sagittas</l>
+               <l n="l277">Arcum, in equum pugnacem equulum convertat inermem.</l>
+               <l n="l278">Non trepidant Slavae musae decedere vita		<note n="note1" type="numvers">655</note>
+               </l>
+               <l n="l279">Ad clavam; vero bene tu haec in mente repone:</l>
+               <l n="l280">Clava ubi non exstat, neque carmina Slava coluntur.</l>
+               <l n="l281">Atque foris caelum pictum convolvitur umbris,</l>
+               <l n="l282">Et, si trans densas nubes tu cernere posses,</l>
+               <l n="l283">Pleiades, parvas stellas, trepidare videres		<note n="note1" type="numvers">660</note>
+               </l>
+               <l n="l284">Supra papilionem et te stans ante corusca</l>
+               <l n="l285">Sidera cerneret ex occasu luna bicornis,</l>
+               <l n="l286">Ut te dux aries cernit stans prae grege miti.</l>
+               <l n="l287">Caeca foris nox est et surda nec ulla sonat vox,</l>
+               <l n="l288">Sed tantum sensim mussat tenuissimus imber, 		<note n="note1" type="numvers">665</note>
+               </l>
+               <pb n="pb8"/>
+               <l n="l289">Caelum ut si doleat. Devicta luce tenebrae</l>
+               <l n="l290">Involvunt densae campos et culmina montis,</l>
+               <l n="l291">Ut digitos haud ante oculos discernere possis,</l>
+               <l n="l292">Nedum ea, quae offendis gradiens per opaca viarum.</l>
+               <l n="l293">Vae misero, quem, dum graditur, nox arripit ista, 		<note n="note1" type="numvers">670</note>
+               </l>
+               <l n="l294">Nec locus est illi, caput in quem abstrudere possit!</l>
+               <l n="l295">Oppositi venti caelo certamina ducunt,</l>
+               <l n="l296">Ac exinde micat repetitis ignibus aether:</l>
+               <l n="l297">Nunc perstringuntur nimia tua lumina luce,</l>
+               <l n="l298">Nunc tenebris, lapsis nigrioribus, illa teguntur.		<note n="note1" type="numvers">675</note>
+               </l>
+               <l n="l299">Et posthaec audis resonare tonitrua caelo,</l>
+               <l n="l300">Ex longe crepitant prius atque deinde gradatim</l>
+               <l n="l301">Approperant terramque horrendo murmure replent.</l>
+               <l n="l302">Et caelum campusque tremiscunt; culmina montis</l>
+               <l n="l303">Et valles resonant: impendet grandinis imber.		<note n="note1" type="numvers">680</note>
+               </l>
+               <l n="l304">Vae misero, quem, dum graditur, nox arripit ista.</l>
+               <l n="l305">Nec locus est illi, caput in quem abstrudere possit!</l>
+               <l n="l306">Si vento vertis tu terga micanteque nube</l>
+               <l n="l307">Igne repentino si figis lumina clara</l>
+               <l n="l308">Per campum deorsum, magnam turbam ire videbis;		<note n="note1" type="numvers">685</note>
+               </l>
+               <l n="l309">Nox illos tristis seiungit, sunt tamen una.</l>
+               <l n="l310">Nunc illis callem collustrat fulguris ignis,</l>
+               <l n="l311">Nunc illam nox atra rapit; sed nocte per umbras</l>
+               <l n="l312">Ulterius facile gradiuntur et ocius illi</l>
+               <l n="l313">Inter se spatium capiunt et papiliones:			<note n="note1" type="numvers">690</note>
+               </l>
+               <l n="l314">Nox atra est, summe cupiunt succedere tectis;</l>
+               <l n="l315">Idcirco miseri curant transire per umbras.</l>
+               <l n="l316">Praecipiti rursus micuerunt nubila flamma.</l>
+               <l n="l317">Turba propinquat iamque potes discernere clare,</l>
+               <l n="l318">Quis sit dux huius necnon quis sit comes eius.		<note n="note1" type="numvers">695</note>
+               </l>
+               <l n="l319">Agminis est alter prudens dux, alter amicus</l>
+               <l n="l320">Ductor et hic, cum sit campis clivisque peritus,</l>
+               <l n="l321">Per loca procedens agmen comitatur opaca;</l>
+               <pb n="pb9"/>
+               <l n="l322">Quo gressu facili procedit, respice, frater,</l>
+               <l n="l323">Per perturbatas velut auras nare videtur - 		<note n="note1" type="numvers">700</note>
+               </l>
+               <l n="l324">Ulterius censes illum procedere cogi - </l>
+               <l n="l325">Dum pedibus nocturna ducentis cetera turba</l>
+               <l n="l326">Alipedis gressus eius vestigia calcat.</l>
+               <l n="l327">Forsitan ille timet terrorem noctis opacae</l>
+               <l n="l328">Et cupit hospitii comis contingere portam.		<note n="note1" type="numvers">705</note>
+               </l>
+               <l n="l329">Sed iam tunc fulgor vibratus ab aethere primus</l>
+               <l n="l330">Aspexit latitans agmen post papiliones</l>
+               <l n="l331">In stationes tres positum, quo fortius esset.</l>
+               <l n="l332">Ac illic stetit agmen opacum fulmen ut instans,</l>
+               <l n="l333">Aut exardescens veluti Vulcania spuma,			<note n="note1" type="numvers">710</note>
+               </l>
+               <l n="l334">Quae ruit in vallem de ignitis montibus hora,</l>
+               <l n="l335">Qua nil curantes homines dant membra quieti.</l>
+               <l n="l336">Immotum manet et voces aure aucupat agmen,</l>
+               <l n="l337">Ut cognoscat ubi dominus det lumina somno,</l>
+               <l n="l338">Sed nullam vocem captat, nisi quod petulanter		<note n="note1" type="numvers">715</note>
+               </l>
+               <l n="l339">Et propere notus Safer sociique cachinnant</l>
+               <l n="l340">Praelibantque graves cruciatus Christiadarum.</l>
+               <l n="l341">Aga sedet magno sub papilione: tabacum,</l>
+               <l n="l342">Coffeam ac auras alternis haurit Averni.</l>
+               <l n="l343">Sub cidari fronti rugas induxerat atras,		<note n="note1" type="numvers">720</note>
+               </l>
+               <l n="l344">Et sub ea quasi nube heroica lumina texit</l>
+               <l n="l345">Atque silet mutus. Permulta recogitat Aga:</l>
+               <l n="l346">Ornatos gladios, pulchras iuvenesque puellas,</l>
+               <l n="l347">Venatus, aurum, falcones bellaque saeva,</l>
+               <l n="l348">Heroes Montis Nigri palosque tremendos,		<note n="note1" type="numvers">725</note>
+               </l>
+               <l n="l349">Subtiles hastas quoque letiferasque sagittas;</l>
+               <l n="l350">Exarsitque deinde furens ut vivida flamma:</l>
+               <l n="l351">Dedecori tali forti est urgere tributum,</l>
+               <l n="l352">Non cumulare illud, vibrantem coniicere hastam</l>
+               <l n="l353">Et non icere metam, et eo magis obcaecare		<note n="note1" type="numvers">730</note>
+               </l>
+               <l n="l354">Pro vulgo Turcas, ut vulgus rideat illum.</l>
+               <l n="l355">Exarsit Smail-aga furens ut vivida flamma;</l>
+               <pb n="pb10"/>
+               <l n="l356">Ast ubi pendentes de trunco viderat heros</l>
+               <l n="l357">Inter ferra fides blandas, violentia flagrans</l>
+               <l n="l358">Sanguine repressa est aliquantum et sanguis amarus		<note n="note1" type="numvers">735</note>
+               </l>
+               <l n="l359">Dulcuit instanter fidium modulamine divo;</l>
+               <l n="l360">Quae sitis ante cruoris erat, tum est facta poësis:</l>
+               <l n="l361">En qualis dulcedo ex divo carmine prodit!</l>
+               <l n="l362">Deinde duci Bauk haec Smail-aga est verba locutus:</l>
+               <l n="l363">„Dux Bauk, a nobis heros tu clarus haberis,		<note n="note1" type="numvers">740</note>
+               </l>
+               <l n="l364">Sed si Montani mures nos aggrediantur,</l>
+               <l n="l365">Dic mihi, quot mures Montanos solus et unus</l>
+               <l n="l366">Tu Bauk, insignis noster dux, vulnere perdas?“</l>
+               <l n="l367">„Sex saltem, ductor noster!“ „Foedata canis, tu</l>
+               <l n="l368">„Dux Bauk, insignem te ferris ante tenebam.		<note n="note1" type="numvers">745</note>
+               </l>
+               <l n="l369">Et si viginti Montani nos peterent nunc,</l>
+               <l n="l370">Nostra fides Mahometica me sic adiuvet, unus</l>
+               <l n="l371">Ex humeris illis caput omnibus eriperem ense…</l>
+               <l n="l372">Sed quasi curarum mea mens fluitaverat aestu</l>
+               <l n="l373">Me meditante e festucaque bibente tabacum,		<note n="note1" type="numvers">750</note>
+               </l>
+               <l n="l374">Quod nos deterret nox, ne nos exhilaremus</l>
+               <l n="l375">Thus vulgo dantes. Tu cantor es, hercule, notus,</l>
+               <l n="l376">Ast ego sum valde cupidus cantusque fidisque:</l>
+               <l n="l377">Eia cane, ut fervens de corde cupido recedat.“</l>
+               <l n="l378">Tum stetit evellitque Bauk de cardine chordas,		<note n="note1" type="numvers">755</note>
+               </l>
+               <l n="l379">Deinde decussatis pedibus mitisque resedit</l>
+               <l n="l380">Sede priore fideque canora ad molle cubile</l>
+               <l n="l381">Admota plectrum per caudam duxit equinam</l>
+               <l n="l382">Huc illuc; posthac cum clavus terque quaterque</l>
+               <l n="l383">Versatus crepuit, fallax sic cantor ab ore		<note n="note1" type="numvers">760</note>
+               </l>
+               <l n="l384">Carmen ad aptatas chordas effundere coepit:</l>
+               <l n="l385">„Care Deus, dictu mirabile! quam potis heros</l>
+               <l n="l386">Rizvan-aga erat et gladio teloque vibranti,</l>
+               <pb n="pb11"/>
+               <l n="l387">Ignivoma saeva ballista ac ense cruento</l>
+               <l n="l388">Et palmis et equo veloci! Kosovo campum		<note n="note1" type="numvers">765</note>
+               </l>
+               <l n="l389">Aga adit, ut quaerat saevum imperiale tributum:</l>
+               <l n="l390">Ex auro nummum stricte hic a quoque requirit,</l>
+               <l n="l391">Ac a quoque foco vult et iubet arietem opimum</l>
+               <l n="l392">Necnon alternam, iuvenem pro nocte puellam.</l>
+               <l n="l393">„Aga requirit ubique tributum, at vulgus avarum		<note n="note1" type="numvers">770</note>
+               </l>
+               <l n="l394">Et dat et haud illud dat, et unde talenta requirit</l>
+               <l n="l395">Aurea, non recipit saepe illa ex aere reducta;</l>
+               <l n="l396">Unde a quoque foco cupit arietem habere refertum,</l>
+               <l n="l397">Hunc illi tradunt, macies huic contrahit artus;</l>
+               <l n="l398">Unde puellam vult iuvenem pro nocte, nec atram		<note n="note1" type="numvers">775</note>
+               </l>
+               <l n="l399">Pestiferamque potest sperare exinde Megaeram.</l>
+               <l n="l400">„Aga capit vulgus durae cervicis et inde</l>
+               <l n="l401">Per latum campum seorsum hic disponit et illic.</l>
+               <l n="l402">Deinceps coepit equi saltu transmittere vulgus,</l>
+               <l n="l403">Aga decem primos transimiserat atque secundos		<note n="note1" type="numvers">780</note>
+               </l>
+               <l n="l404">Aga decem transmiserat et, cum tertia posthac</l>
+               <l n="l405">Transmittenda decas fuit illi, tunc equus acer</l>
+               <l n="l406">Est usus cervice sua saltumque peregit:</l>
+               <l n="l407">Cingula dirupta est et humi ruit Aga virilis.</l>
+               <l n="l408">„Temporis effluxit spatium breve; per spatiosum		<note n="note1" type="numvers">785</note>
+               </l>
+               <l n="l409">Kosovo percurrit murmur, qui prodit ab ore,</l>
+               <l n="l410">Transit ad os, longe procedens crescit eundo:</l>
+               <l n="l411">Sic vulgi nugae necnon derisio crescunt,</l>
+               <l n="l412">Ex fidibus donec deductum est carmen amoenis</l>
+               <l n="l413">Ac hodie caecus cantor per Kosovo cantat:		<note n="note1" type="numvers">790</note>
+               </l>
+               <l n="l414">„Rizvan-aga potens certe semissis erat vir.“</l>
+               <l n="l415">Dum fatale melos vafri resonabat ab ore</l>
+               <l n="l416">Cantoris Bauk ut tonitrus, qui fixit in Aga</l>
+               <l n="l417">Et non in cantore oculos, hic eius in ore</l>
+               <l n="l418">Angores, luctus, iras rabiemque furentem		<note n="note1" type="numvers">795</note>
+               </l>
+               <l n="l419">Et centum Furias alias agnoscere quibat,</l>
+               <pb n="pb12"/>
+               <l n="l420">Quae motae zephyro risus in corde superbo</l>
+               <l n="l421">Iucundos fodiunt sibi nidos ungue cruento.</l>
+               <l n="l422">Flamma cruenta prius tumidas exarsit in iras</l>
+               <l n="l423">Illo in corde calens adversum ignobile vulgus,		<note n="note1" type="numvers">800</note>
+               </l>
+               <l n="l424">Contra Christiadas viles haud quippe merentes,</l>
+               <l n="l425">Ut iuxta Turcas calefiant solis ab aestu.</l>
+               <l n="l426">Ferra, venena, capistra, truces palos gladiosque</l>
+               <l n="l427">Fervescens oleum, flammam tormentaque centum</l>
+               <l n="l428">Momento minimo tunc heros mente reponit,		<note n="note1" type="numvers">805</note>
+               </l>
+               <l n="l429">Ut compungentis risus vestigia tollat</l>
+               <l n="l430">Atque sono fidium famae praeconia servet.</l>
+               <l n="l431">Atra tegit nubes austera supercilia eius;</l>
+               <l n="l432">Ardescunt oculi sicut Vulcanius ignis;</l>
+               <l n="l433">Illius malas allambit flamma rubescens;		<note n="note1" type="numvers">810</note>
+               </l>
+               <l n="l434">Atque furore tument nares illius acerbo;</l>
+               <l n="l435">Sub nivea spuma inferna videtur in ore</l>
+               <l n="l436">Significatio, quae clare quasi dicat: iniqui</l>
+               <l n="l437">Christiadae pereant, et carmina sola cavenda!</l>
+               <l n="l438">Cum Bauk effudit postremum pectore verbum,		<note n="note1" type="numvers">815</note>
+               </l>
+               <l n="l439">Ut fulgur celebrum subiere haec eius inane:</l>
+               <l n="l440">Dedecori testis non est tantummodo vulgus,</l>
+               <l n="l441">Non est os, non sunt oculi tantummodo vulgo;</l>
+               <l n="l442">Percute vulgus, eho! cum vulgo percute Turcas</l>
+               <l n="l443">Et cures servare tuum spectabile nomen.		<note n="note1" type="numvers">820</note>
+               </l>
+               <l n="l444">Interea mergit trux Aga in pectoris ima</l>
+               <l n="l445">Consilium; vultus ductus et mulcet et arcet</l>
+               <l n="l446">Et frenat, saevi sed semper flamma furoris</l>
+               <l n="l447">Acrius in vultu flagrat; se ferre quietum</l>
+               <l n="l448">Vult mundo, verum tremor eius concutit artus.		<note n="note1" type="numvers">825</note>
+               </l>
+               <l n="l449">Cum demum minime magnum celare furorem</l>
+               <l n="l450">Amplius adstantes potuisset, surgit et edit</l>
+               <l n="l451">Clamorem furians: „Iuvenes, estote parati!</l>
+               <pb n="pb13"/>
+               <l n="l452">Ut pereat vulgus, fulgentes sumite cultros,</l>
+               <l n="l453">Ardescens oleum, gladios palosque tremendos,		<note n="note1" type="numvers">830</note>
+               </l>
+               <l n="l454">Urite flammis et Stygias dissolvite vires!</l>
+               <l n="l455">Carmina me dicent heroem: ut victima cuncti</l>
+               <l n="l456">Ad finem debent istum decedere vita!“…</l>
+               <l n="l457">Vix Smail-aga furens finem dedit ore loquendi, </l>
+               <l n="l458">Cum ballista foris explosa superstes in umbras		<note n="note1" type="numvers">835</note>
+               </l>
+               <l n="l459">Saferi lumen sparsit, qui promptus ad Agam</l>
+               <l n="l460">Venerat; ac hodie, iaculum quae coepit acerbum,</l>
+               <l n="l461">Mortiferum plumbum tristem dedit his modo finem.</l>
+               <l n="l462">„Christiadae, vulgus!“ colles clamore resultant.</l>
+               <l n="l463">Prima ex ballistis statio tum papiliones		<note n="note1" type="numvers">840</note>
+               </l>
+               <l n="l464">Glandibus aggressa est. „Vulgus!“ clamoribus aurae</l>
+               <l n="l465">Turcarum replentur: „equum!“ conclamat et Aga.</l>
+               <l n="l466">Deinde faces statio saevas iaculata secunda est.</l>
+               <l n="l467">„Undique Christiadae! Mucrones ignivomasque</l>
+               <l n="l468">Ballistas!“ „Equum! equum confestim duc mihi, Chaso!“		<note n="note1" type="numvers">845</note>
+               </l>
+               <l n="l469">Ballistas statio quoque tertia tunc vacuavit</l>
+               <l n="l470">Et Chasan, cane qui velocior est leporino,</l>
+               <l n="l471">Illi duxit equum. Momento, quo Smail-aga</l>
+               <l n="l472">Ascensurus equum fuerat, de nubibus ignis</l>
+               <l n="l473">Fulserat, et calidum plumbum prostravit eundem.		<note n="note1" type="numvers">850</note>
+               </l>
+               <l n="l474">Nox atra est, nescis, quisnam prostraverit illum, </l>
+               <l n="l475">Ast illic ballistam explodit Mirko propinque…</l>
+               <l n="l476">Ac anima obscuram per noctem corporis orba,</l>
+               <l n="l477">Moesta, dolens, fortis, spoliata repente cucurrit!...</l>
+               <l n="l478">Occubuit Smail-aga, tamen contendere Turcae		<note n="note1" type="numvers">855</note>
+               </l>
+               <l n="l479">Continuant, tantum tenebris modo tu prohiberis, </l>
+               <l n="l480">Congredientum ne mireris strenua gesta.</l>
+               <l n="l481">Prospectum tenebrae prohibent: cum a nubibus autem</l>
+               <pb n="pb14"/>
+               <l n="l482">Aut a ballista socii perfunditur ignis,</l>
+               <l n="l483">Ad captum cultri vulgus Turcaeque frequenter		<note n="note1" type="numvers">860</note>
+               </l>
+               <l n="l484">Inveniuntur, ubi se tam distare putabant;</l>
+               <l n="l485">Et collo circum supponunt brachia dura</l>
+               <l n="l486">Ac inter se dant ferratis oscula rostris</l>
+               <l n="l487">Christiadae necnon Turcae, dum concidat unus:</l>
+               <l n="l488">Tale odium saevum praecordia torret eorum!		<note n="note1" type="numvers">865</note>
+               </l>
+               <l n="l489">Veste nigrae noctis cita mors induta cucurrit</l>
+               <l n="l490">Per campum necnon se mergit sanguine fuso;</l>
+               <l n="l491">Fulminis igne micant illius lumina saeva</l>
+               <l n="l492">Et glaciale furit flamen nudata per ossa;</l>
+               <l n="l493">Terribilis tonitrus strepitu nunc aethera replet:		<note n="note1" type="numvers">870</note>
+               </l>
+               <l n="l494">„Heu mihi!“ nunc: „Medet, medet!“ nunc: „Auxiliare,</l>
+               <l n="l495">O mitis Iesu!“ Suspirat, sibilat atque</l>
+               <l n="l496">Singultat; dein nunc Turcas et Christiadas nunc</l>
+               <l n="l497">Praeripit atque sua veste horum lumina velat.</l>
+               <l n="l498">Hic auras fidus Smail-agae scriba reliquit,		<note n="note1" type="numvers">875</note>
+               </l>
+               <l n="l499">Hic cecidit Mujo, Chasan quoque, Jašar et Omer</l>
+               <l n="l500">Et triginta alii Turcae. A morte reduxit</l>
+               <l n="l501">Tunc Bauk et reliquos fugientes nox latebrosa.</l>
+               <l n="l502">Ille quis est, qui iuxta Agam iacet exanimisque</l>
+               <l n="l503">Bile tumens frendet crudelis in exanimatum?		<note n="note1" type="numvers">880</note>
+               </l>
+               <l n="l504">Novica adest notus: Chaso prostraverat illum,</l>
+               <l n="l505">Cum heros incurrit per Turcas morte leonem</l>
+               <l n="l506">Iam stratum, a collo caput ut divelleret illi.</l>
+               <l n="l507">Exitiosa tubis ex saevis grando quievit,</l>
+               <l n="l508">Dein se grando furens ex aethere rupit: et agmen		<note n="note1" type="numvers">885</note>
+               </l>
+               <l n="l509">Immisit pernox se papilionibus albis.</l>
+               <l n="l510">Nox horrenda, nigra est, obscura et sanguine sparsa;</l>
+               <l n="l511">O felix agmen, quod se tulit in loca tuta!</l>
+               <pb n="pb15"/>
             </div>
             <div n="div5" type="poesis-epica-liber">
                <head n="head1">FATUM</head>
-               <l n="l2">Mons Lovćen caput ad rutilantia sidera tollit,</l>
-               <l n="l3">Campus ad illius radicem extenditur amplus,		<note n="note1" type="numvers">890</note>
+               <l n="l1">Mons Lovćen caput ad rutilantia sidera tollit,</l>
+               <l n="l2">Campus ad illius radicem extenditur amplus,		<note n="note1" type="numvers">890</note>
                </l>
-               <l n="l4">In campo domus est et in ista parvula cella,</l>
-               <l n="l5">In medio cellae valde miranda videntur:</l>
-               <l n="l6">Turca crucem furiis actus cervice salutat.</l>
-               <l n="l7">Turca stat ornatus cidari cultroque cruento,</l>
-               <l n="l8">Ignivoma necnon ballista ac ense minaci:		<note n="note1" type="numvers">895</note>
+               <l n="l3">In campo domus est et in ista parvula cella,</l>
+               <l n="l4">In medio cellae valde miranda videntur:</l>
+               <l n="l5">Turca crucem furiis actus cervice salutat.</l>
+               <l n="l6">Turca stat ornatus cidari cultroque cruento,</l>
+               <l n="l7">Ignivoma necnon ballista ac ense minaci:		<note n="note1" type="numvers">895</note>
                </l>
-               <l n="l9">Tu trepidas, tibi ne caput a cervice revellat.</l>
-               <l n="l10">Ne timeas, frater carissime, Turca benignos</l>
-               <l n="l11">Et placidos mores tenet, haud te vulnere perdet;</l>
-               <l n="l12">Turcam humilem facile terrere est. Si pede terram</l>
-               <l n="l13">Percutis, ille manus clemens utrasque decussat		<note n="note1" type="numvers">900</note>
+               <l n="l8">Tu trepidas, tibi ne caput a cervice revellat.</l>
+               <l n="l9">Ne timeas, frater carissime, Turca benignos</l>
+               <l n="l10">Et placidos mores tenet, haud te vulnere perdet;</l>
+               <l n="l11">Turcam humilem facile terrere est. Si pede terram</l>
+               <l n="l12">Percutis, ille manus clemens utrasque decussat		<note n="note1" type="numvers">900</note>
                </l>
-               <l n="l14">Et caput inclinat, dextram sensim evehit ante os</l>
-               <l n="l15">Et suspendit eam postremo fronte remissa.</l>
-               <l n="l16">Nunc accede; dehinc, frater, mihi vaticinare,</l>
-               <l n="l17">Haec cuius cidaris veneranda est? "Haec Smail-agae</l>
-               <l n="l18">Est cidaris, sed nunc caput eius triste coronat."		<note n="note1" type="numvers">905</note>
+               <l n="l13">Et caput inclinat, dextram sensim evehit ante os</l>
+               <l n="l14">Et suspendit eam postremo fronte remissa.</l>
+               <l n="l15">Nunc accede; dehinc, frater, mihi vaticinare,</l>
+               <l n="l16">Haec cuius cidaris veneranda est? "Haec Smail-agae</l>
+               <l n="l17">Est cidaris, sed nunc caput eius triste coronat."		<note n="note1" type="numvers">905</note>
                </l>
-               <l n="l19">Et cuius caput hoc est? “Hoc caput est Smail-agae,</l>
-               <l n="l20">Sed nunc luce carent illius lumina torva.”</l>
-               <l n="l21">Ornatus cuius mucro hic est? "Est Smail-agae</l>
-               <l n="l22">Mucro, sed illius costis modo tristis adhaeret."</l>
-               <l n="l23">"Aurea cuiusnam sunt arma haec? "Sunt Smail-agae		<note n="note1" type="numvers">910</note>
+               <l n="l18">Et cuius caput hoc est? “Hoc caput est Smail-agae,</l>
+               <l n="l19">Sed nunc luce carent illius lumina torva.”</l>
+               <l n="l20">Ornatus cuius mucro hic est? "Est Smail-agae</l>
+               <l n="l21">Mucro, sed illius costis modo tristis adhaeret."</l>
+               <l n="l22">"Aurea cuiusnam sunt arma haec? "Sunt Smail-agae		<note n="note1" type="numvers">910</note>
                </l>
-               <l n="l24">Arma, sed in cinctu rubigo conterit illa."</l>
-               <l n="l25">Haec vestis cuius pretiosa est? "Est Smail-agae</l>
-               <l n="l26">Vestis, at haec nunc non radiatur lumine solis.”</l>
+               <l n="l23">Arma, sed in cinctu rubigo conterit illa."</l>
+               <l n="l24">Haec vestis cuius pretiosa est? "Est Smail-agae</l>
+               <l n="l25">Vestis, at haec nunc non radiatur lumine solis.”</l>
             </div>
          </div>
       </body>

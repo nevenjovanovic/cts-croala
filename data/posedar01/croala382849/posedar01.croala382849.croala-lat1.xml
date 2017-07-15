@@ -50,57 +50,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="6"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="24" withId="1"/>
-          <tagUsage gi="placeName" occurs="14"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -164,12 +114,12 @@
         <body xml:lang="lat" n="body1">
             <div n="div1" type="prosa-oratio">
             <pb n="pb1"/>
-                <head n="head2">Oratio <persName n="persName1">Stephani Possidarski</persName>, habita apud <persName n="persName2">Leonem Decimum, Pontificem Maximum</persName>, pro
+                <head n="head1">Oratio <persName n="persName1">Stephani Possidarski</persName>, habita apud <persName n="persName2">Leonem Decimum, Pontificem Maximum</persName>, pro
                     <persName n="persName3">Domino Joanne Torquato Comite <placeName n="placeName1">Corbaviae</placeName> defensore <placeName n="placeName2">Crovaciae</placeName>
                </persName>.</head>
-            <opener n="opener3">Beatissime Pater, semper in divinis Beatissime, in humanis autem vix audeo dicere,
+            <opener n="opener1">Beatissime Pater, semper in divinis Beatissime, in humanis autem vix audeo dicere,
                     cum rempublicam Christianam a ferocissimis hostibus lacerari et ludibrio iri animadverto.</opener>
-                <p n="p4">
+                <p n="p1">
                     Quod idem Sanctitati tuae cognitum esse, cum ex nunciis <persName n="persName1">Domini mei Joannis Torquati</persName> deuotissimi servuli tui, Corbaviae infelicissimi Comitis, tum ex legatis tuis ad illas provincias missis
                     exploratum esse judicamus, quod omnibus fere Christianis, non sine magno terrore cognitum
                     est, immanem illam Bestiam in Apocalypsi figuratam, idest Turcarum regem, septem
@@ -186,17 +136,17 @@
                     affectus sit, quomodo sibi constet, ut facile appareat non sine numine tam diu posse subsistere.
                     Utcumque tamen vigilat et observat quantum fieri potest in angusto, et in regione prope
                     desolata, ut exclamare possit, unde mihi auxilium nisi a Domino. <persName n="persName4">Venetorum</persName> provinciae
-                    <placeName n="placeName5">Dalmatia</placeName> et <placeName n="placeName6">Liburnia</placeName> prope mare quum naturali munimento defensae tum foedere facto tutae
-                    aliquandiu a faucibus <persName n="persName7">Turcarum</persName> fuerunt. Ceterae Mediterraneae provinciae, aut quia longius ab ipsis hostibus, aut quia prope flumina sunt, negligentius de nobis agere videntur; sed
-                    <persName n="persName8">Joanni Torquato</persName> ista necessitas imposita est, ut non solum se finesque suos, sed alienos etiam
-                    tutari cogatur; nam in <placeName n="placeName9">Tinium</placeName>, et <placeName n="placeName10">Clissiam</placeName>, et Regulorum castella, quae ab aliis custodiri deberent, et maxima quidem vigilia, idem Dominus meus semper oculos intendit, et saepe castella sua, et bellicis tormentis, et militibus exarmat ut illis opem ferat. Caeteri omnes Reguli et <persName n="persName11">Frangipanes</persName>, qui a tergo sunt, illius fortunam opperiuntur, in casu ejus omnino casuri. Banus in penetralia <placeName n="placeName12">Sclavoniae</placeName> secessit, et in foribus <placeName n="placeName13">Crovatiae</placeName> hostes non curat. Sed quid
-                    <pb n="pb14"/>
+                    <placeName n="placeName1">Dalmatia</placeName> et <placeName n="placeName2">Liburnia</placeName> prope mare quum naturali munimento defensae tum foedere facto tutae
+                    aliquandiu a faucibus <persName n="persName5">Turcarum</persName> fuerunt. Ceterae Mediterraneae provinciae, aut quia longius ab ipsis hostibus, aut quia prope flumina sunt, negligentius de nobis agere videntur; sed
+                    <persName n="persName6">Joanni Torquato</persName> ista necessitas imposita est, ut non solum se finesque suos, sed alienos etiam
+                    tutari cogatur; nam in <placeName n="placeName3">Tinium</placeName>, et <placeName n="placeName4">Clissiam</placeName>, et Regulorum castella, quae ab aliis custodiri deberent, et maxima quidem vigilia, idem Dominus meus semper oculos intendit, et saepe castella sua, et bellicis tormentis, et militibus exarmat ut illis opem ferat. Caeteri omnes Reguli et <persName n="persName7">Frangipanes</persName>, qui a tergo sunt, illius fortunam opperiuntur, in casu ejus omnino casuri. Banus in penetralia <placeName n="placeName5">Sclavoniae</placeName> secessit, et in foribus <placeName n="placeName6">Crovatiae</placeName> hostes non curat. Sed quid
+                    <pb n="pb1"/>
                     
-                    plura dicam, quum nemo ignoret <persName n="persName15">Joannem Torquatum</persName> 
-               <num n="num16" value="30">xxx.</num> annos in foribus <placeName n="placeName17">Corbaviae</placeName> vigilantissimum custodem excubare, et contermina <persName n="persName18">Turcis</persName> loca intrepido animo defendere. Ibi non legationibus neque verborum disceptationibus de principatu agitur; sed cruentatis ensibus de fide, libertate, ac de salute contenditur; sed circumcirca, undique terror undique fuga est; quas pulcherrimas et fecundissimas terras ipsa natura constituit, saevitia hostium et cultorum desolatio turpissimas et infecundissimas reddidit. Non possum tibi, Pater Sancte, tot arces natura munitissimas, tot nobiles et strenuissimos equites <placeName n="placeName19">Crovatia</placeName> fugatos nonnisi Banorum incuria et negligentia recensere. Non possum tibi omnes <persName n="persName20">Turcarum</persName> astus et insidias, taceo crudelitates quas contra nos faciunt, enarrare. Ambiguum est an majus nos potentia an dolis et fraudibus urgeant. Waiwodas captis arcibus et Castellis praeficiunt qui sponsionibus et possessionibus Christianos subditos alliciunt ut sibi obnoxii sint. Proh dolor, Beatissime Pater, jamjam cum <persName n="persName21">Turcis</persName> vicini Christiani <sic n="sic22">matrimoniam</sic> contrahunt, atque ita conveniunt ut Domino meo inter Christianos et subditos agenti debito dubitandum sit. Affirmare tibi possum, clementissime Pater, illum hostium fraudes multo majus quam arma timere. Hostium tributarius effectus est, ut quoquomodo possit effugiat et salutem sibi et miserrimae <placeName n="placeName23">Crovatiae</placeName> tam diu producat, quoad divina miseratio faverit. Videt enim omnem furorem <persName n="persName24">Turcarum</persName> totas in se vires effundere; ut nisi tu, Beatissime Pater, qui summi Dei Vicarium agis, solita providentia Domino meo prospexeris, de rebus suis, et de tota <placeName n="placeName25">Crovatia</placeName> propediem interitum nunciet. Si prospicere, Pater sanctissime, vis, aut <persName n="persName26">Joannem Torquatum</persName> militem Ecclesiae restitue de <persName n="persName27">Turcarum</persName> tributario, et sicut optat, propugnatorem effice, aut aliquem de ducibus tuis mitte, cujus armis et ope <persName n="persName28">Turcis</persName> vicinis secum obstare valeat, et latrocinio latrocinia repellere, aut saltem aliquem virum religiosum ad illos populos mitte, cujus autoritate a fuga contineantur, et ad fidem <persName n="persName29">Christi</persName> corroborentur, aut, Sanctitas tua, dic novissima verba. 
+                    plura dicam, quum nemo ignoret <persName n="persName8">Joannem Torquatum</persName> 
+               <num n="num1" value="30">xxx.</num> annos in foribus <placeName n="placeName7">Corbaviae</placeName> vigilantissimum custodem excubare, et contermina <persName n="persName9">Turcis</persName> loca intrepido animo defendere. Ibi non legationibus neque verborum disceptationibus de principatu agitur; sed cruentatis ensibus de fide, libertate, ac de salute contenditur; sed circumcirca, undique terror undique fuga est; quas pulcherrimas et fecundissimas terras ipsa natura constituit, saevitia hostium et cultorum desolatio turpissimas et infecundissimas reddidit. Non possum tibi, Pater Sancte, tot arces natura munitissimas, tot nobiles et strenuissimos equites <placeName n="placeName8">Crovatia</placeName> fugatos nonnisi Banorum incuria et negligentia recensere. Non possum tibi omnes <persName n="persName10">Turcarum</persName> astus et insidias, taceo crudelitates quas contra nos faciunt, enarrare. Ambiguum est an majus nos potentia an dolis et fraudibus urgeant. Waiwodas captis arcibus et Castellis praeficiunt qui sponsionibus et possessionibus Christianos subditos alliciunt ut sibi obnoxii sint. Proh dolor, Beatissime Pater, jamjam cum <persName n="persName11">Turcis</persName> vicini Christiani <sic n="sic1">matrimoniam</sic> contrahunt, atque ita conveniunt ut Domino meo inter Christianos et subditos agenti debito dubitandum sit. Affirmare tibi possum, clementissime Pater, illum hostium fraudes multo majus quam arma timere. Hostium tributarius effectus est, ut quoquomodo possit effugiat et salutem sibi et miserrimae <placeName n="placeName9">Crovatiae</placeName> tam diu producat, quoad divina miseratio faverit. Videt enim omnem furorem <persName n="persName12">Turcarum</persName> totas in se vires effundere; ut nisi tu, Beatissime Pater, qui summi Dei Vicarium agis, solita providentia Domino meo prospexeris, de rebus suis, et de tota <placeName n="placeName10">Crovatia</placeName> propediem interitum nunciet. Si prospicere, Pater sanctissime, vis, aut <persName n="persName13">Joannem Torquatum</persName> militem Ecclesiae restitue de <persName n="persName14">Turcarum</persName> tributario, et sicut optat, propugnatorem effice, aut aliquem de ducibus tuis mitte, cujus armis et ope <persName n="persName15">Turcis</persName> vicinis secum obstare valeat, et latrocinio latrocinia repellere, aut saltem aliquem virum religiosum ad illos populos mitte, cujus autoritate a fuga contineantur, et ad fidem <persName n="persName16">Christi</persName> corroborentur, aut, Sanctitas tua, dic novissima verba. 
                     
                     </p>
-                <closer n="closer5">Vale.</closer>
+                <closer n="closer1">Vale.</closer>
             </div>
             <div n="div2" type="poesis-epigramma" met="elegiacum">
                 <l n="l1">Manlius arces Romanas et templa repulso,</l>

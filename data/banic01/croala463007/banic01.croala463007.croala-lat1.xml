@@ -52,63 +52,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="8"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="addrLine" occurs="1"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="8"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="49"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -187,25 +131,25 @@
          <div n="div1" type="prosa-epistula" corresp="#banicevicdantiscus15160106">
             <opener n="opener1">
                <abbr n="abbr1">+ IC XC</abbr>
-               <salute n="salute2">Spectabilis et egregie domine <expan n="expan1">honorande</expan>, <expan n="expan2">comendationem</expan> plurimam.</salute>
+               <salute n="salute1">Spectabilis et egregie domine <expan n="expan1">honorande</expan>, <expan n="expan2">comendationem</expan> plurimam.</salute>
             </opener>    
-            <p n="p2">Mittitur <abbr n="abbr1">D. V.</abbr> expeditio sua, per <expan n="expan2">Caesaream</expan> Maiestatem et prouidetur pridem ei de viatico; ego etiam mitto priuilegium suum expeditum. Si qua alia in re possum seruire <abbr n="abbr3">D. V.</abbr>, faciam libentissimo animo. Si commode potest <abbr n="abbr4">D. V.</abbr> secum <sic n="sic5">defere</sic> scorpionem, uel balistam illam regie Maiestati, faciet mihi rem singulariter gratam. Quam commendando me Regie sue Clementie offeret ei; munus quidem tanto Rege indignum, sed in signum seruitutis et sincere fidei mee ad maiestatem suam erit pro venatione. et si potest eam <sic n="sic6">defere</sic> 
-               <abbr n="abbr7">D. V.</abbr> exhibeat annexas Domino Cabrieli de Tasis, Magistro postarum in Insprug, qui eumdem scorpionem consignabit <abbr n="abbr8">D. V.</abbr>. Que itidem me plurimum <expan n="expan9">comendet</expan> Reuerendissimo Domino <expan n="expan10">Plociensi</expan> et suis <sic n="sic11">colegis</sic> qui fuerunt cum eo apud <expan n="expan12">Caesarem</expan> et similiter domino Vicecancellario, et Magnifico Domino Cancellario, et Domino Bernardino Gallo <sic n="sic13">conteraneo</sic> meo. 
+            <p n="p1">Mittitur <abbr n="abbr1">D. V.</abbr> expeditio sua, per <expan n="expan1">Caesaream</expan> Maiestatem et prouidetur pridem ei de viatico; ego etiam mitto priuilegium suum expeditum. Si qua alia in re possum seruire <abbr n="abbr2">D. V.</abbr>, faciam libentissimo animo. Si commode potest <abbr n="abbr3">D. V.</abbr> secum <sic n="sic1">defere</sic> scorpionem, uel balistam illam regie Maiestati, faciet mihi rem singulariter gratam. Quam commendando me Regie sue Clementie offeret ei; munus quidem tanto Rege indignum, sed in signum seruitutis et sincere fidei mee ad maiestatem suam erit pro venatione. et si potest eam <sic n="sic2">defere</sic> 
+               <abbr n="abbr4">D. V.</abbr> exhibeat annexas Domino Cabrieli de Tasis, Magistro postarum in Insprug, qui eumdem scorpionem consignabit <abbr n="abbr5">D. V.</abbr>. Que itidem me plurimum <expan n="expan2">comendet</expan> Reuerendissimo Domino <expan n="expan3">Plociensi</expan> et suis <sic n="sic3">colegis</sic> qui fuerunt cum eo apud <expan n="expan4">Caesarem</expan> et similiter domino Vicecancellario, et Magnifico Domino Cancellario, et Domino Bernardino Gallo <sic n="sic4">conteraneo</sic> meo. 
         
         
         
     </p> 
-            <closer n="closer3">Si aliquando scripserit ad me <abbr n="abbr1">D. V.</abbr> ex patria semper rescribam sibi; et me ad omnia vota sua offero.  
+            <closer n="closer1">Si aliquando scripserit ad me <abbr n="abbr1">D. V.</abbr> ex patria semper rescribam sibi; et me ad omnia vota sua offero.  
         
-        <dateline n="dateline2">Auguste, <date n="date1" when="1516-01-06">Die VI. Mensis Januarii. Anno Domini MDXVI</date>.</dateline> 
-               <signed n="signed3">
+        <dateline n="dateline1">Auguste, <date n="date1" when="1516-01-06">Die VI. Mensis Januarii. Anno Domini MDXVI</date>.</dateline> 
+               <signed n="signed1">
                   <abbr n="abbr1">E. D. V.</abbr>
             Semper ad vota
             Jacobus de Bannissis.</signed>
-               <address n="address4">
+               <address n="address1">
                   <addrLine n="addrLine1">Spectabili et egregio Domino Ioanni de Curijs Dantisco <expan n="expan1">Serenissimi</expan> 
-                     <gap n="gap2"/> Polonię Secretario
-Domino <expan n="expan3">honorando</expan>
+                     <gap n="gap1"/> Polonię Secretario
+Domino <expan n="expan2">honorando</expan>
                   </addrLine>
 
                </address>

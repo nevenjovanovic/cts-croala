@@ -45,59 +45,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="12"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="39"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="del" occurs="3"/>
-          <tagUsage gi="div" occurs="4"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="item" occurs="34"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="list" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="10"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="5"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="45"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -165,41 +113,41 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-fabula">
             <head n="head1">De abbatissa et febre ac pulice </head>
-            <p n="p2">
+            <p n="p1">
                <pb n="pb1"/>
             Exemplariter dicitur de pulice et febre. Quod mutuo loquebantur de hospicijs que nocte
             precedente habuerant. Conquerendo dicebat pulex: Ego hospitata sum in lecto cuiusdam abbatisse
-            inter duo lintheamina alba super piomacium <corr n="corr2">molle</corr> et credebam <pb n="pb3"/> habere optimum hospicium, quod
+            inter duo lintheamina alba super piomacium <corr n="corr1">molle</corr> et credebam <pb n="pb2"/> habere optimum hospicium, quod
             habebat abbatissa carnes pingues quibus optime fuissem saciata. In primo autem morsu cepit abbatissa
             clamare et uocare ancillas. Egoque me abscondi. Set illis recedentibus, iterum ad abbatissam reuersa
-            et quocies redii, tocies cum lumine me fecit queri. sic hac nocte non quieui. et vix <sic n="sic4">eufugii</sic>. Febris
+            et quocies redii, tocies cum lumine me fecit queri. sic hac nocte non quieui. et vix <sic n="sic1">eufugii</sic>. Febris
             autem dixit: Ego hospitata sum in domo cuiusdam mulieris pauperis, quam cum arripuissem, statim
             surrexit et facta lisciuia pannos fortiter percuciendo abluebat, et super humeros ad fluuium portabat.
             Itaque febris afflicta frigore in fluuio diu suffocata. 
          </p>
-            <p n="p3">
+            <p n="p2">
             Tunc pulex ait: comutemus in hac nocte hospicia nostra. Quibus mutatis mane rediens pulex ait: Optimum hospicium hac nocte habui. Nam mulierem illam, que hospita tua fuerat, ita fatigatam et dormientem inueni, quod secure quieui aput eam
             et quantum volui commedi.
             </p>
-            <p n="p4">
+            <p n="p3">
             Cui febris respondit: optimum conscilium dedisti mihi. Nam <pb n="pb1"/> abbatissa
-            illa cum griseo coopertorio et lintheaminibus delicatis tota nocte me calefaciens fouebat. et licet stimularem eam, <corr n="corr2">ipsa</corr> cum in lecto moli abscondita nunquam me turbauit. 
+            illa cum griseo coopertorio et lintheaminibus delicatis tota nocte me calefaciens fouebat. et licet stimularem eam, <corr n="corr1">ipsa</corr> cum in lecto moli abscondita nunquam me turbauit. 
             </p>
-            <p n="p5">
+            <p n="p4">
             Vnde ab eius hospicio quamdiu me ita amicabiliter tractabit <corr n="corr1">nolo</corr> recedere. Haec et videlicet ad hoc quod delicati frequentius
             influantur, et peius quiescunt. pauperes autem sunt saniores, et melius quiescunt.
             </p>
          </div>
          <div n="div2" type="prosa-fabula">
             <head n="head1">Miraculum de uno rustico mortuo.</head>
-            <p n="p2">Rusticus quidam nunqam uolebat aliquid audire de deo. Mortuus est. Cum autem ad ecclesiam esset delatus, Sacerdos et alii clerici officia legendo et cantando circa corpus peragerent. Fatentes quod ymago crucifixi cepit obturare aures suas manibus a cruce separatis. Quod cum omnes circumstantes aspicerent mirabantur. Tunc sacerdos ait ad populum: Scitis quale signum est hoc. vos
+            <p n="p1">Rusticus quidam nunqam uolebat aliquid audire de deo. Mortuus est. Cum autem ad ecclesiam esset delatus, Sacerdos et alii clerici officia legendo et cantando circa corpus peragerent. Fatentes quod ymago crucifixi cepit obturare aures suas manibus a cruce separatis. Quod cum omnes circumstantes aspicerent mirabantur. Tunc sacerdos ait ad populum: Scitis quale signum est hoc. vos
             scitis, quod iste qui hic iacet nunquam voluit audire verbum dei. et ideo modo est in manu dyaboli. Idcirco sic obturavit aures suas ne audiat preces quas pro eo fundimus. Et cessaverunt omnes orare, <corr n="corr1">quia</corr> preces vel orationes pro dampnatis deus non exaudit.</p> 
-            <closer n="closer3">Explicit.</closer>
+            <closer n="closer1">Explicit.</closer>
          </div>
          <div n="div3" type="prosa-colophon">
             
             <p n="p1">Iste liber est mei fratris Stephani Bilicich, abbatis monasterii sancti Nicolai portus Sibenicensis, quem scripsi manu propria.</p> 
-            <dateline n="dateline2">
+            <dateline n="dateline1">
                <date n="date1" when="1449-06-04">Sub millesimo CCCC-o XLVIIII-o. Die uero quarto mensis Junij.</date>
             </dateline>
          </div>
@@ -226,7 +174,7 @@
                   <date n="date1" when="1444-09-26">1444. die 26 mensis septembris.</date> Consecrata fuit ecclesia in nomine sancti Petri in villa Grebac</item> 
             
                <item n="item7">
-                  <date n="date1" when="1444-10-11">1444. die 11 mensis octobris.</date> Consecrata <pb n="pb2"/> fuit ecclesia in monte supra Sibenicum in nomine sancti Johannis baptiste.</item> 
+                  <date n="date1" when="1444-10-11">1444. die 11 mensis octobris.</date> Consecrata <pb n="pb1"/> fuit ecclesia in monte supra Sibenicum in nomine sancti Johannis baptiste.</item> 
             
                <item n="item8">
                   <date n="date1" when="1444-11-14">1445. die 14. mensis nouembris.</date> Consecrata fuit ecclesia in Barchagno in nomine sancti Martini.</item> 
@@ -235,7 +183,7 @@
                   <date n="date1" when="1448-04-08">1448. die 8 mensis aprilis.</date> Consecrata fuit ecclesia in insula Zlarin in nomine sanctae matris Christi.</item> 
             
                <item n="item10">
-                  <date n="date1" when="1450">1450.</date> fuit mortalitas maxima in Sibenico et in dicto <corr n="corr2">millesimo</corr> fuit jubileus tempore pape Nicolai quinti.</item>
+                  <date n="date1" when="1450">1450.</date> fuit mortalitas maxima in Sibenico et in dicto <corr n="corr1">millesimo</corr> fuit jubileus tempore pape Nicolai quinti.</item>
             
                <item n="item11">
                   <date n="date1" when="1445-04-19">1445. die 19 mensis aprilis.</date> Ego frater Stephanus Bilicich fui positus in corporalem possessionem in abbacia appelata sancti Nicolai portus Sibenicensis. tempore reverendi patris domini fratris Georgij Sisgorich, episcopi Sibenicensis ac magnifici domini
@@ -262,11 +210,11 @@
             
                <item n="item18">
                   <date n="date1" when="1450-05-01">1450. die prima <corr n="corr1">madij</corr> 
-                     <del n="del2">aprilis</del>.</date> Obijt presbyter Georgius pronomine Zec.</item> 
+                     <del n="del1">aprilis</del>.</date> Obijt presbyter Georgius pronomine Zec.</item> 
             
                <item n="item19">
                   <date n="date1" when="1444-05-06">1450. die VI-a mensis <corr n="corr1">madij</corr> 
-                     <del n="del2">aprilis</del>.</date> Obijt presbyter Jacobus qui claudicabat. </item>
+                     <del n="del1">aprilis</del>.</date> Obijt presbyter Jacobus qui claudicabat. </item>
             
                <item n="item20">
                   <date n="date1">148. die. 8 mensis madij.</date> fuit combusta civitas Sibenicensis quasi in totum.</item> 
@@ -276,9 +224,9 @@
             
                <item n="item22">
                   <date n="date1" when="1412-10-28">1412. die 28 mensis octobris.</date> 
-                  <corr n="corr2">dominium</corr> 
-                  <corr n="corr3">Veneciani</corr> 
-                  <corr n="corr4">habuerunt</corr> Sibenicum.</item> 
+                  <corr n="corr1">dominium</corr> 
+                  <corr n="corr2">Veneciani</corr> 
+                  <corr n="corr3">habuerunt</corr> Sibenicum.</item> 
             
                <item n="item23">
                   <date n="date1" when="1423-09-30">1423. die 30 septembris.</date> Ego frater Stephanus abbas sibenicensis, existens monachus simplex, fui ordinatus ad ordinem presbyteratus.</item>
@@ -291,10 +239,10 @@
             
                <item n="item26">
                   <date n="date1" when="1451-05-22">1451. die 22 mensis madij.</date> 
-                  <corr n="corr2">Dobroyus</corr> filius Georgij Chasalouich de Sibenicho recepit habitum monachalem sancti Benedicti in monasterio sancti Stephani de pinis diocesis Spalatensis, et illo tunc sibi fuit inpositum nomen Arsenius.</item>
+                  <corr n="corr1">Dobroyus</corr> filius Georgij Chasalouich de Sibenicho recepit habitum monachalem sancti Benedicti in monasterio sancti Stephani de pinis diocesis Spalatensis, et illo tunc sibi fuit inpositum nomen Arsenius.</item>
             
                <item n="item27">
-                  <date n="date1" when="1451-11-04">1451. a di 4 nouembris.</date> Ego frater Stephanus Bilicich abbas Sibenicensis aplicui Spalatum pro visitando in monasterio sancti Stephani de pinis, <corr n="corr2">vice et</corr> nomine reverendissimi in Christo patris domini Niceni Cardinalis 12 sanctorum apostolorum.</item>
+                  <date n="date1" when="1451-11-04">1451. a di 4 nouembris.</date> Ego frater Stephanus Bilicich abbas Sibenicensis aplicui Spalatum pro visitando in monasterio sancti Stephani de pinis, <corr n="corr1">vice et</corr> nomine reverendissimi in Christo patris domini Niceni Cardinalis 12 sanctorum apostolorum.</item>
             
                <item n="item28">Obijt Simon Matafarich de Jadra <date n="date1" when="1452-04-09">die 9 aprilis 1452.</date>
                </item>
@@ -304,17 +252,17 @@
             
                <item n="item30">
                   <date n="date1" when="1408-08-24">14VIII. mensis augusti die XXIIII in festo sancti Bartolome apostoli</date> civitas Sibenici fuit combusta maiori parte aborea.</item>
-               <pb n="pb31"/>
-               <item n="item32">Dominus Jacobinus Baduario natione venetus, arciepiscopus Spalatensis obijt <date n="date1" when="1452-04-18">die 18. aprilis 1452.</date>
+               <pb n="pb1"/>
+               <item n="item31">Dominus Jacobinus Baduario natione venetus, arciepiscopus Spalatensis obijt <date n="date1" when="1452-04-18">die 18. aprilis 1452.</date>
                </item> 
             
-               <item n="item33">deinde creatus est dominus Laurentius Zanni Venetus et positus fuit in corporalem possessionem <date n="date1" when="1452-06-26">die 26 Junij 1452.</date>
+               <item n="item32">deinde creatus est dominus Laurentius Zanni Venetus et positus fuit in corporalem possessionem <date n="date1" when="1452-06-26">die 26 Junij 1452.</date>
                </item> 
             
-               <item n="item34">Pater Andreas recepit habitum monachalem in ecclesia sancti Stephani de pinis diocesis Spalatensis <date n="date1" when="1453-03-12">sub 1453 die 12 marcij.</date>
+               <item n="item33">Pater Andreas recepit habitum monachalem in ecclesia sancti Stephani de pinis diocesis Spalatensis <date n="date1" when="1453-03-12">sub 1453 die 12 marcij.</date>
                </item>
             
-               <item n="item35">Dominus Michael de Scibenico obiit nescio quando.</item>
+               <item n="item34">Dominus Michael de Scibenico obiit nescio quando.</item>
             </list>
          </div>
       </body>

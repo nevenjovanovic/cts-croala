@@ -45,61 +45,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="addrLine" occurs="1"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="event" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="8"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="15"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="placeName" occurs="9"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="10"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="3"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -187,56 +133,56 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistola">
             <opener n="opener1">Reverende domine, domine honorande,</opener>
-            <p n="p2">Credo tue reverende dominationi cognitos esse meos omnes casus usque ad reditum ex
+            <p n="p1">Credo tue reverende dominationi cognitos esse meos omnes casus usque ad reditum ex
                   <placeName n="placeName1">Constantinopoli</placeName>. Quam primum veni in
                   <placeName n="placeName2">Hungariam</placeName> rege adhuc extorre, subita et ancipiti egritudine
                corrui sumque morbo vexatus menses tres semper morti propior quam vite. Interim regia
                maiestas rediit ex <placeName n="placeName3">Polonia</placeName>; narravi necessitates tue reverende
                dominationis, quas et ipse noveram et tua reverenda dominatio perscripserat in
                literis, quas ad me dederat in <placeName n="placeName4">Turciam</placeName>. Regia maiestas iniquo
-               animo tullit <sic n="sic5">infortuniam</sic> tue reverende dominationis, propter temporum
+               animo tullit <sic n="sic1">infortuniam</sic> tue reverende dominationis, propter temporum
                difficultates, ceterum affirmavit, se postea providisse tue reverendissime
                dominationi de expensis. Hoc eciam possum polliceri tue reverendissime dominationi,
                quod tua reverendissima dominatio amplificata dignitate auctisque fortunis reditura
-               sit in <placeName n="placeName6">Hungariam</placeName>.</p>
+               sit in <placeName n="placeName5">Hungariam</placeName>.</p>
 
-            <p n="p3">Regia maiestas aliquot in locis alit magnas copias, iam plerasque provincias subegit
+            <p n="p2">Regia maiestas aliquot in locis alit magnas copias, iam plerasque provincias subegit
                et arces expugnavit. Hic <ref n="ref1">potentissimus princeps Turcus</ref> mittit regie
-               maiestati in subsidium sex sanzachos et ipse cum validissimo <sic n="sic2">excercitu</sic>
+               maiestati in subsidium sex sanzachos et ipse cum validissimo <sic n="sic1">excercitu</sic>
                contra hostes nostros adulto vere profecturus. Me huc venire mutatis equis adhuc
                imbecillem opportuit iussu regie maiestatis; his diebus octo credo me expeditum ex
-               sentencia rediturum ad regiam maiestatem. Magnificus dominus <persName n="persName3">Ludovicus
+               sentencia rediturum ad regiam maiestatem. Magnificus dominus <persName n="persName1">Ludovicus
                   Gritti</persName> strennue ac fideliter procurat negocia regia et ipse laturus est
                amplissimum fructum sue fidei atque laboris, quemadmodum puto intellexisse tuam
                reverendissimam dominationem ex literis, quas tua reverendissima dominatio proxime ad
-               ipsum magnificum dominum <persName n="persName4">Gritti</persName> misit. Ingens me cura invasit de
-               reverendissimo domino <persName n="persName5">Statilio</persName> et magnifico
-                  <persName n="persName6">Rincone</persName>, oratore <ref n="ref7">regis
+               ipsum magnificum dominum <persName n="persName2">Gritti</persName> misit. Ingens me cura invasit de
+               reverendissimo domino <persName n="persName3">Statilio</persName> et magnifico
+                  <persName n="persName4">Rincone</persName>, oratore <ref n="ref2">regis
                   <placeName n="placeName1">Frantie</placeName>
                </ref>, si expediti sunt et quod nondum redierint;
                timeo, ne quid eis accident. Sed utinam deus nostras curas in melius mutet.</p>
-            <closer n="closer4">
+            <closer n="closer1">
                <salute n="salute1">Cupio, ut tua reverendissima dominatio recte valeat, cui me unice
                   commendo.</salute>
-               <dateline n="dateline2">Ex <placeName n="placeName1">Constantinopoli</placeName>, <date n="date2" when="1529-02-15">15.
+               <dateline n="dateline1">Ex <placeName n="placeName1">Constantinopoli</placeName>, <date n="date1" when="1529-02-15">15.
                         <sic n="sic1">marcii</sic> 1529</date>.</dateline>
-               <signed n="signed3">
+               <signed n="signed1">
                   <persName n="persName1">Tranquillus</persName> manu propria</signed>
             </closer>
-            <postscript n="postscript5">
+            <postscript n="postscript1">
                <p n="p1">
                   <persName n="persName1">Radul</persName> wayvoda, omnium bipedum ingratissimus, a suis
-                  trucidatus est cum filio, cuius morte credimus fractos esse <ref n="ref2">animos
+                  trucidatus est cum filio, cuius morte credimus fractos esse <ref n="ref1">animos
                      Transsilvanenses</ref>.</p>
             </postscript>
 
-            <note n="note6">Suprascriptio et copia literarum ut continent.</note>
-            <closer n="closer7">
+            <note n="note1">Suprascriptio et copia literarum ut continent.</note>
+            <closer n="closer2">
                <address n="address1">
                   <addrLine n="addrLine1">Reverendo domino, domino <persName n="persName1">Iohanni Bonzano</persName>,
-                        <ref n="ref2">preposito Varadiensi</ref> et <ref n="ref3">oratori serenissimi domini
+                        <ref n="ref1">preposito Varadiensi</ref> et <ref n="ref2">oratori serenissimi domini
                            <persName n="persName1">Iohannis regis Ungarie</persName> ad excellentissimum
-                           <ref n="ref2">dominum <persName n="persName1">Venetorum</persName>
+                           <ref n="ref1">dominum <persName n="persName1">Venetorum</persName>
                         </ref>
                      </ref>, domino meo
                      honorando.</addrLine>

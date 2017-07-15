@@ -45,62 +45,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -186,13 +131,13 @@
       <body xml:lang="lat" n="body1">
          <div type="prosa-epistula" n="div1" corresp="#bfrankopanklementvii15250215">
             <milestone n="milestone1" unit="page"/>
-            <head n="head2">VIII/1. <date n="date1" when="1525-02-15">1525. 15. Februarii</date>, Modrusii Bernardinus de Frangepanibus Clementi papae VII.
-            <note n="note2" resp="BJ">Segr. Stato, Principi, 3, f. 38, 47. Fragmento sigilli. Editio: THEINER
+            <head n="head1">VIII/1. <date n="date1" when="1525-02-15">1525. 15. Februarii</date>, Modrusii Bernardinus de Frangepanibus Clementi papae VII.
+            <note n="note1" resp="BJ">Segr. Stato, Principi, 3, f. 38, 47. Fragmento sigilli. Editio: THEINER
             1860, n. DCCCXLVII, p. 648-649.</note>
             </head>
-            <opener n="opener3">Beatissime ac clementissime in Christo pater et domine, domine mihi gratiosissime!
+            <opener n="opener1">Beatissime ac clementissime in Christo pater et domine, domine mihi gratiosissime!
           Post pedum oscula beatorum et commendationem. </opener>
-            <p n="p4">Ego enim et filii mei una cum subditis nostris Sanctitati Vestre gratias agimus
+            <p n="p1">Ego enim et filii mei una cum subditis nostris Sanctitati Vestre gratias agimus
           immortales ob suffragio et subsidio, quod eadem Sanctitas Vestra dignata est nobis
           praestare. Indigebamus valde, in hiis confinibus Turchi timent nomen Sanctitatis Vestre et
           nunc presertim, quum inter Christianorum principes (Deo et Sanctitate Vestra mediante)
@@ -222,20 +167,20 @@
           pro defensione rei publice Christianae contra Turchas infuso sicut cronice et iam
           Sanctitas Vestra scit. Scit etiam, qualiter sum pauper, et propterea omnibus mihi
           servientibus satisfacere non valeo. Extat enim de continuo ad Sanctitatis Vestre pedes
-          Ioannes Andreas, procurator meus, et servitiis meis, <sic n="sic2">qui</sic> etiam sunt pro fide
+          Ioannes Andreas, procurator meus, et servitiis meis, <sic n="sic1">qui</sic> etiam sunt pro fide
           Catholica, insistit, nullam a me, iam est annus, laboris et stipendii sui habuit mercedem.
           Igitur supplex deprecor, quod eadem Sanctitas Vestra dignetur mandare, ut sibi de aliquali
           provisione vel officio provideatur ita, ut vivat et bene more suo solito deservire valeat.
           Item, ut animarum salute senium, invalitudine infirmorum et pauperum impotentium in hiis
           partibus consulatur, dignetur eadem Sanctitas Vestra iubuleum ad minus per mensem nobis
           misericorditer concedere. </p>
-            <closer n="closer5">
+            <closer n="closer1">
                <salute n="salute1">Cuius pedibus me et filios meos devotissime commendamus.</salute>
-               <dateline n="dateline2">Datum Modrusii, XXmo Februarii. MDXXV..</dateline>
-               <signed n="signed3">Eiusdem Sanctitatis Vestre devotissimus et obsequentissimus servitor Bernardinus
+               <dateline n="dateline1">Datum Modrusii, XXmo Februarii. MDXXV..</dateline>
+               <signed n="signed1">Eiusdem Sanctitatis Vestre devotissimus et obsequentissimus servitor Bernardinus
             de Frangepanibus <abbr n="abbr1">etc.</abbr> comes manu propria </signed>
             </closer>
-            <note n="note6" resp="BJ">Annotatio: Responsio: Arm. XLIV, 9. f. 165r. Editio: BALAN 1885, n. 85, p.
+            <note n="note1" resp="BJ">Annotatio: Responsio: Arm. XLIV, 9. f. 165r. Editio: BALAN 1885, n. 85, p.
           115. Subscriptio manu propria.</note>
          </div>
       </body>

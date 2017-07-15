@@ -51,58 +51,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="5"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="8"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -186,16 +135,16 @@
             <div type="prosa-epistula" n="div1">
 
                 <milestone n="milestone1" unit="page"/>
-                <head n="head2">XIV/8 <date n="date1" when="1526-07-27">1526. 27. Julii</date>, ex castris regiis prope Erd ad Danubium positis
+                <head n="head1">XIV/8 <date n="date1" when="1526-07-27">1526. 27. Julii</date>, ex castris regiis prope Erd ad Danubium positis
                     Stephanus Brodericus cancellarius Clementi papae VII.</head>
 
-                <note n="note3" resp="BJ">Segr. Stato, Principi, 4, f. 122. Editio: THEINER 1860, n.
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 4, f. 122. Editio: THEINER 1860, n.
                     DCCCLXXXIV, p. 674–675.</note>
 
 
-                <opener n="opener4">Beatissime pater ac domine, domine clementissime! Servitutis meę humillimam
+                <opener n="opener1">Beatissime pater ac domine, domine clementissime! Servitutis meę humillimam
                     ad oscula pedum Sanctitatis Vestre commendationem.</opener>
-                <p n="p5">Quod ad Vestram Sanctitatem rarius scribo, id duabus de causis accidere solet:
+                <p n="p1">Quod ad Vestram Sanctitatem rarius scribo, id duabus de causis accidere solet:
                     et, quod parcendum mihi existimo Vestre Sanctitatis occupationibus, et, quod
                     ipse, quam soleo esse, plusquam satis occupatus. Accedit et illud, quod non
                     ignoro dominum baronem omnia perscribere ita, ut nihil supersit mihi scribendum.
@@ -216,20 +165,20 @@
                     oneri, sed durabo adhuc, quicquid sors ferat. Vestra Sanctitas, suplico
                     humilime, dignetur me rebus omnibus, quibus potest, adiuvare, qua de re rogavi
                     dominum baronem, ut apertius ad Vestram Sanctitatem scribat.</p>
-                <closer n="closer6">Servitutem meam humilimam in gratiam eiusdem suplex commendo. Quam Deus
+                <closer n="closer1">Servitutem meam humilimam in gratiam eiusdem suplex commendo. Quam Deus
                     conservet felicissimam et incolumem. Ex castris regiis prope Erd ad Danubium
                     positis. XXVII. Julii, 1526. Vestrae Sanctitatis devota creatura et humilimus
                     servulus Stephanus Brodericus cancellarius </closer>
-                <postscript n="postscript7">
+                <postscript n="postscript1">
                     <p n="p1">Illud preterieram me ex episcopo Sirmiensi rursus prepositum
                         Quinqueecclesiensem esse factum. Quia castella, villę episcopatus illius
                         tota diocesis est in hostium potestate. Non remansit ex VIIC vasallis
                         unicus.</p>
                 </postscript>
-                <note n="note8" resp="BJ">31 Clementissime Clemens: iocus verborum e nomine Latino et
+                <note n="note2" resp="BJ">31 Clementissime Clemens: iocus verborum e nomine Latino et
                     significatione eius constans.</note>
 
-                <milestone n="milestone9" unit="page"/>
+                <milestone n="milestone2" unit="page"/>
             </div>
         </body>
     </text>

@@ -64,67 +64,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="locus" occurs="1"/>
-          <tagUsage gi="msContents" occurs="1"/>
-          <tagUsage gi="msDesc" occurs="1"/>
-          <tagUsage gi="msIdentifier" occurs="1"/>
-          <tagUsage gi="msItem" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="1"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="repository" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="settlement" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="53"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -203,9 +143,9 @@
     
         <body xml:lang="lat" n="body1">
             <pb n="pb1"/>
-            <div n="div2" type="epistula" corresp="#andreislaski15300617">
+            <div n="div1" type="epistula" corresp="#andreislaski15300617">
                 <opener n="opener1">Reverendissime domine, salve!</opener> 
-                <p n="p2"> Magnificus dominus Stanislaus de Lasco, frater Vestrae Reverendae Dominationis,
+                <p n="p1"> Magnificus dominus Stanislaus de Lasco, frater Vestrae Reverendae Dominationis,
                     discedens hinc, commendavit mihi iuvenem Witoslawski, quem redemit
                     Constantinopoli, ut eum ducerem mecum Hungariam, inde mitterem ad Vestram
                     Dominationem Reverendissimam. Arbitrabamur enim me ineunte vere in Hungariam
@@ -224,11 +164,11 @@
                     Gnesnensibus et Plocensibus cupio a Vestra Reverendissima Dominatione, si
                     commodum erit, commendari. Aniano et Caligulae item iucundo ordine. 
                      </p>
-                <closer n="closer3">
+                <closer n="closer1">
                     <salute n="salute1">Deus fortunet omnes cogitationes Vestrae Reverendissimae Dominationis,
                         cui me unice commendo.</salute>
-                    <dateline n="dateline2">Constantinopoli, <date n="date1" when="1530-06-17">postridie Corporis Christi 1530</date>. </dateline>
-                    <signed n="signed3">Vestrae Reverendissimae Dominationis servitor Tranquillus.</signed>
+                    <dateline n="dateline1">Constantinopoli, <date n="date1" when="1530-06-17">postridie Corporis Christi 1530</date>. </dateline>
+                    <signed n="signed1">Vestrae Reverendissimae Dominationis servitor Tranquillus.</signed>
                 </closer>
                             </div>
 

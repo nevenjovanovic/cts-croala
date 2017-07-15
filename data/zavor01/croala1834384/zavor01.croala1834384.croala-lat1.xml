@@ -42,60 +42,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="corr" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="3"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="6"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="2"/>
-          <tagUsage gi="opener" occurs="3"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="17"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -160,17 +107,17 @@
    <text xml:base="urn:cts:croala:zavor01.croala1834384.croala-lat1:" xml:lang="lat">
       <front xml:lang="lat" n="front1">
         <milestone unit="page" n="milestone1"/>
-        <docAuthor n="docAuthor2">Dominici Zavorei</docAuthor>
-        <docTitle n="docTitle3">
+        <docAuthor n="docAuthor1">Dominici Zavorei</docAuthor>
+        <docTitle n="docTitle1">
             <titlePart n="titlePart1">De rebus Dalmaticis libri octo</titlePart>
          </docTitle>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistola">
             <opener n="opener1">Admodum illustri ac reverendissimo domino domino Fausto Verantio,
     episcopo Chanadiensi, sacrae caesareae regiaeque maiestatis consiliario, cognato
     et domino meo <sic n="sic1">obsservandissimo</sic>.</opener>
-            <p n="p2">Cum aliquot ab hinc annis mihi ab hac nostra Sicensi urbe, praeter meam
+            <p n="p1">Cum aliquot ab hinc annis mihi ab hac nostra Sicensi urbe, praeter meam
     opinionem abesse meoque ab ea non exiguo incommodo exulare contigisset, ut
     huic intestino dolori medelam aliquam afferrem, variarum historiarum lectione
     operam nauare coepi, a qua magna ex parte sum ea molestia levatus, quę solet eos
@@ -180,8 +127,8 @@
     attulit labori commentariolus, qui de Dalmatiae regibus inscribitur e Slovina a
     Marco Marulo in Latinam linguam conversus. Quę quidem historia sicut tum ex
     hoc, tum ex illo probato auctore excepta est, ita facilius et dulcius in parvum volumen redacta leguntur, quae sparsim hinc inde <sic n="sic2">colecta</sic> sunt at praeterea 
-    <milestone unit="page" n="milestone3"/>
-    clarius et uberius. Si quidem ex variis nostrae <sic n="sic4">provintiae</sic> privilegiis et literis
+    <milestone unit="page" n="milestone1"/>
+    clarius et uberius. Si quidem ex variis nostrae <sic n="sic3">provintiae</sic> privilegiis et literis
     publicisque instrumentis addidi plurima, quae et uberiorem et pulchriorem meum
     hunc laborem reddidere fidemque auctoribus a me citatis, unde descripta sunt haec
     certiorem attulere. Quibus cum tantum mea consentiat sententia, reliquos ab his
@@ -190,15 +137,15 @@
     et reverendissimo vir, meo uti singulari patrono tuoque mihi sanguine coniuncto,
     opus hoc magnitudine sane exiguum, verum labore in eo construendo non parvum
     dicatum volui. Aequum etenim visum est, ut tu, qui claros ortus tui dies e Dalmatia
-    <sic n="sic5">provintia</sic> susceperas, eiusdem quoque provinciae res gestas, quae ad hunc usque
+    <sic n="sic4">provintia</sic> susceperas, eiusdem quoque provinciae res gestas, quae ad hunc usque
     diem sparsę ac egregiis aliarum gentium facinoribus veluti opertae, nullius proinde
-    famae iacuerant, in unum a me <sic n="sic6">colectas</sic>, legendas fovendasque susciperes meque,
+    famae iacuerant, in unum a me <sic n="sic5">colectas</sic>, legendas fovendasque susciperes meque,
     ut facis, amare pergeres. Vale.</p>
          </div>
-         <milestone unit="page" n="milestone2"/>
-         <div n="div3" type="prosa-epistola">
+         <milestone unit="page" n="milestone1"/>
+         <div n="div2" type="prosa-epistola">
             <opener n="opener1">Admodum reverendo domino Thomę Surichievich, archipresbitero Sibenicensi, sacrae theologiae doctori, Dominicus Zavoreus salutem plurimam dicit</opener>
-            <p n="p2">Sępe evenit, ut ex malo bonum eliciamus et ex incommodo utilitatem
+            <p n="p1">Sępe evenit, ut ex malo bonum eliciamus et ex incommodo utilitatem
         reportemus, ut mihi quatuor iam fere anni sunt, <sic n="sic1">acidet</sic>. Siquidem cum in hanc
         civitatem advenisset homo quidam staturae mediocris, aetatis quinquaginta
         annorum, facie rubicundus, <sic n="sic2">canicie</sic> conspersus, nomine Rubertus Bonaventura
@@ -211,14 +158,14 @@
         rerumque in ea gestarum mire studiosum demonstrabat. Quare, cum quadam die
         a me inter deambulandum efflagitasset, ut libros decem, quos de rebus huius
         <sic n="sic5">provintiae</sic> lucubraveram illi ostenderem, ego qui talem virum plurimi ducebam,
-        facere non potui, quin eos illi lustrandos simulatque <milestone unit="page" n="milestone6"/> aliquibus mendis
+        facere non potui, quin eos illi lustrandos simulatque <milestone unit="page" n="milestone1"/> aliquibus mendis
         scatentes traderem corrigendos, quos ubi mihi restitueret summopere me hortabatur
-        ut illos <sic n="sic7">tipis</sic> darem, sed mihimet parum fidens illos prodire in lucem verebar, quod
+        ut illos <sic n="sic6">tipis</sic> darem, sed mihimet parum fidens illos prodire in lucem verebar, quod
         in causa quoque fuit, ut sex libros denuo illi emendandos concederem, sed quoniam
         fingebat, se Surium insulam Spalatensis ditionis profecturum, ubi in ecclesia Sanctę
         Mariae, apud villam maiorem, Marcum Marulum quosdam libros in quibusdam
         muris reposuisse (ut scripta eiusdem, quae penes se retinere dicebat testabantur)
-        affirmabat. <sic n="sic8">Cleocem</sic> propterea quae Venetias <sic n="sic9">proficiscibatur</sic> (me presente)
+        affirmabat. <sic n="sic7">Cleocem</sic> propterea quae Venetias <sic n="sic8">proficiscibatur</sic> (me presente)
         ingressus, quod diceret extra portum huius ciuitatis cymbam, quae illum erat Surium
         ductura expectare, illi dictos sex libros reliqui, ut secum corrigendos (ut dixit)
         asportaret, qui tamen Venetias profectus, haud amplius a me visus est. Unde illusus
@@ -227,34 +174,34 @@
         veriorem totum reformavi. Reliquos, qui novem fuerant, multis quae superflua mihi
         videbantur, expurgatis, in septem libros congessi. Hinc sese mihi obtulit occasio
         legendi multos variosque libros atque proinde opus universum factis memoria
-        dignis <sic n="sic10">provintiae</sic> huius, ut <milestone unit="page" n="milestone11"/> inter legendum facile tibi futurum arbitror omnia
+        dignis <sic n="sic9">provintiae</sic> huius, ut <milestone unit="page" n="milestone2"/> inter legendum facile tibi futurum arbitror omnia
         animadvertere, exorandi. Quare omnino in animum induxi (tuo tamen consilio)
         illud in lucem edere, ut quę a tot gravissimis auctoribus fuerunt litteris commendata
         sparsim, in unum redactis bonarum artium studiosi valeant facilius frui. Tuam
         igitur hac de re sententiam expecto.</p> 
-            <closer n="closer3">Vale. <dateline n="dateline1">Sibenici <date n="date1" when="1602-07-07">die septima mensis Iulii <num n="num1" value="1602">MDCII</num>.</date>
+            <closer n="closer1">Vale. <dateline n="dateline1">Sibenici <date n="date1" when="1602-07-07">die septima mensis Iulii <num n="num1" value="1602">MDCII</num>.</date>
                </dateline>
             </closer>
         
          </div>
-         <div n="div4" type="prosa-epistola">
+         <div n="div3" type="prosa-epistola">
             <opener n="opener1">Nobili ac studioso viro domino Dominico Zavoreo, Thomas Surichievich,
         archipresbyter. Salutem.</opener>
-            <p n="p2">Satis profecto sum miratus, quod vir religiosus eiusque aetatis ac doctrinę,
+            <p n="p1">Satis profecto sum miratus, quod vir religiosus eiusque aetatis ac doctrinę,
         tot annos distulerit ea domino restituere, quae bona fide possidere non potest.
         Scripta enim, de rebus Dalmaticis apud illum ea lege dimiseras, ut tibi quam
         primum redderet. Sed, quid miratus dixerim? Mirum enim non est, si homo hic
         vafer, qui sibi vestes mentitus erat, <corr n="corr1">fuerit</corr> tibi quoque ementitus libros. Quare factum est, ut qui tuis nunc lingua solutiore atque eloquentiori conspiceris. Age igitur,
         ut da praelo opus, quod prae manibus habes. Sic enim, et <corr n="corr2">hominis</corr> 
-               <sic n="sic3">audatiam</sic>
+               <sic n="sic1">audatiam</sic>
         compesces et illustri ac tua commemoratione ac studiosa variarum rerum
         collectione, te apud viros studiosos gratum tuaeque patriae non immemorem
-        declarabis. Haec tibi non suaderem <milestone unit="page" n="milestone4"/> Dominice mihi colendissime, nisi
+        declarabis. Haec tibi non suaderem <milestone unit="page" n="milestone1"/> Dominice mihi colendissime, nisi
         tui facillimi suavissimique mores, doctrina ac animi candor mihi essent perscripta.
         Proinde, si velis tranquillo esse animo et difficultatem istam, quae non tuo, sed
         fortunae vitio apud te est, tua industria superare, mente concipito, quod labor, quo
-        difficilior est, eo <sic n="sic5">charior</sic> et laudabilior duci solet. </p> 
-            <closer n="closer3">Vale et me, uti conservisti, dilige.
+        difficilior est, eo <sic n="sic2">charior</sic> et laudabilior duci solet. </p> 
+            <closer n="closer1">Vale et me, uti conservisti, dilige.
             <date n="date1">Nonis Iulii <num n="num1" value="1602">MDCII</num>
                </date>.</closer>
         

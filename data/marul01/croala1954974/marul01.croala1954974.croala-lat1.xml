@@ -38,63 +38,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="7"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="9"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="72"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="13"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="52"/>
-          <tagUsage gi="div1" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="52"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="29"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="9" withId="9"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="109"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="13"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="80"/>
-          <tagUsage gi="ref" occurs="21" withId="9"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="3"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="25"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="49"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -203,13 +147,13 @@
          <div n="div1" type="epistula">
             <opener n="opener1">
                <salute n="salute1">Iesus Christus</salute>
-               <dateline n="dateline2">
+               <dateline n="dateline1">
                   <date n="date1" when-iso="1510-08-22">MCCCCCX, die XXII Augusti.</date>
                </dateline>
-               <salute n="salute3">Thomae Nigro, canonico archipresbyteroqve Spalatensi, Marcvs Marvlvs in Domino salvtem
+               <salute n="salute2">Thomae Nigro, canonico archipresbyteroqve Spalatensi, Marcvs Marvlvs in Domino salvtem
      </salute>
             </opener>
-            <p n="p2"> Quoniam per figuras quasdam et similitudines ueri simplicium animis efficacius influere
+            <p n="p1"> Quoniam per figuras quasdam et similitudines ueri simplicium animis efficacius influere
      soleant pręcepta uirtutum, eisdem ego aliquid spiritalis utilitatis insinuare cupiens
      quinquaginta parabolas nuper mecum meditando composui, maxime Domini nostri exemplo prouocatus,
      quem hoc dicendi genere ad plebem usum Euangelia testantur. Hunc morem a Syris et pręcipue
@@ -221,26 +165,26 @@
      archipresbyteratus dignitate prędito, parabolę nostrę placuerint, satis me ab omni aliorum
      iniuria tutum putabo. Cum ergo rudi plebeculę, id est mei similibus, in his loquar, Tua mihi
      autoritate opus est, ut ab illis, quibus scriptę sunt, minus grauate suscipiantur.</p>
-            <p n="p3">Quanti enim non solum Tui sed etiam exteri te faciant, dicerem, nisi uererer, nequis me
+            <p n="p2">Quanti enim non solum Tui sed etiam exteri te faciant, dicerem, nisi uererer, nequis me
      existimet hoc, quod a Te <milestone unit="page" n="milestone1"/> impliciter postulo, callide eblandiri
-     uelle. <corr n="corr2">Quamobrem</corr> rogo, ad proferendam de nostra lucubratiuncula sententiam nihil
+     uelle. <corr n="corr1">Quamobrem</corr> rogo, ad proferendam de nostra lucubratiuncula sententiam nihil
      aliud Te moueat nisi syncera illa animi Tui in omnes fides, et in eos pręcipue, quos omni ex
      parte correctos emendatosque fieri exoptas. In quorum numero me esse non dubito; ita me amas. </p>
-            <closer n="closer4">
+            <closer n="closer1">
                <salute n="salute1">Vale!</salute>
             </closer>
          </div>
   
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa"> 
             <head n="head1">MARCI MARVLI QVINQVAGINTA PARABOLAE INCIPIVNT </head>
 
-            <div type="parabola" n="div2">
+            <div type="parabola" n="div1">
 
                <head n="head1">De fide Christiana. Parabola I</head>
 
-               <p n="p2">Erant puellae tres, quarum nomina haec: Veritas, Dubietas, Falsitas. His occurrens homo
+               <p n="p1">Erant puellae tres, quarum nomina haec: Veritas, Dubietas, Falsitas. His occurrens homo
       quaesiuit uti sibi iter ostenderent Hierosolymam uersus pergere uolenti, ne ignarus erraret.
       Veritas uiam, quae rectissima certissimaque erat, monstrauit, monens ut neque ad dexteram
       neque ad sinistram declinaret si deuiare nollet. Dubietas uero fronte paululum suspensa
@@ -249,7 +193,7 @@
       nescius cui de tribus tam uarie sentientibus crederet, postquam rogando singularum nomina
       didicit, prudenter profecto soli Veritati fidem adhibendam esse iudicauit. Igitur iter
       ingressus eo, quo uolebat, peruenit. </p>
-               <p n="p3">Haec parabola fidei est. Qui Christo credunt, non errant, quia Christus ueritas est.
+               <p n="p2">Haec parabola fidei est. Qui Christo credunt, non errant, quia Christus ueritas est.
       Dubitare autem philosophorum est, qui nihil certi affirmant. Contraria uero sentire gentilium
       fuit, non unum deum sed plurimos confitentium atque colentium. Solus itaque recti uiam tenet
       qui ueritati, quae Christus est, credit. In Christum credendo ad caelestem Hierosolymam, quo
@@ -258,10 +202,10 @@
       minister est, non Christi. </p>
             </div> 
 
-            <div type="parabola" n="div3">
+            <div type="parabola" n="div2">
                <head n="head1">DE ILLO QVI DE FIDE DVBITAT Parabola II</head>
 
-               <p n="p2">Homo turrim aedificaturus partem fundamenti posuit supra petram, partem supra harenam. Iacto
+               <p n="p1">Homo turrim aedificaturus partem fundamenti posuit supra petram, partem supra harenam. Iacto
       fundamento murum quadrato lapide cum jam satis alte eduxisset, pars illa, quae in molli solo
       fundata fuerat, subsidendo totum aedificium traxit in ruinam, ita ut etiam pars altera, quae
       in petra collocata fortis admodum solidaque uidebatur, una concideret. Quicquid enim ruinosis
@@ -269,7 +213,7 @@
       quae habebat, in extruendo opere impendisset, nequiuit collapsa reparare pecunia deficiente.
       Tunc demum ad inopiam redactus, casso <sic n="sic2">dolore</sic> grauiter animo angi coepit, quod in
       fundamento ponendo parum prudenter egisset. </p>
-               <p n="p3">Talis est ille, qui ea, quae fidei christianae sunt, partim uera esse sibi persuadet, partim
+               <p n="p2">Talis est ille, qui ea, quae fidei christianae sunt, partim uera esse sibi persuadet, partim
       dubitat. Interim licet uirtutum cumulandarum studio multum incumbat et in finem usque uitae in
       eo perseueret seque plurimum profecisse existimet et iam ad capienda beatitudinis praemia
       iturum confidat, postquam tamen uita ista defunctus ad alteram transmigrauerit, uehementer se
@@ -281,10 +225,10 @@
       cum scriptum sit: <q n="q1">Spes impiorum peribit.</q>
                </p>
             </div> 
-            <div type="parabola" n="div4">
+            <div type="parabola" n="div3">
                <head n="head1">DE IVDEORVM PERFIDIA Parabola <num n="num1" value="3">III</num> 
                </head>
-               <p n="p2">Rege absente regnum occupauerat tyrannus. Rex plebi seruitute oppressae nuncios misit
+               <p n="p1">Rege absente regnum occupauerat tyrannus. Rex plebi seruitute oppressae nuncios misit
       significans propediem uenturum se eosque liberaturum. Velle tamen hoc ab eis, donec ueniat,
       seruari: ut singulis diebus clamarent: Veni, ueni, qui uenturus es! Id quidem accurate
       diligenterque obseruarunt aduentum expectantes liberatoris. Caeterum cum tandem rex uenisset
@@ -295,7 +239,7 @@
       erga se ingratitudinis scelus ulciscerentur. Homines ergo hii patriis sedibus pulsi meritas
       poenas dederunt. Nec tamen sic afflicti ab illo expectationis errore resipisci uoluerunt. </p>
 
-               <p n="p3">Haec parabola Iudeorum arguit incredulitatem. Qui cum ob primorum parentum culpam libertate
+               <p n="p2">Haec parabola Iudeorum arguit incredulitatem. Qui cum ob primorum parentum culpam libertate
       exuti sub maledicto Legis essent, liberatorem Christum expectarunt, quem illis uenturum
       prophetae praedixerant. Eius itaque futurum aduentum quotidianis sacrificiis
        <sic n="sic1">cerimoniisque</sic> significabant. Sed postquam uenit et, quaecunque de illo in
@@ -307,41 +251,41 @@
       praestolantur, cum ipso simul peribunt. </p>
             </div>
 
-            <div type="parabola" n="div5">
+            <div type="parabola" n="div4">
                <head n="head1">DE HERETICO FIDEM SIMVLANTE, VT FALLAT Parabola IV </head>
 
-               <p n="p2">Lupus, ut ouium gregi insidiaretur, ouinam pellem indutus pecudem se esse simulabat. Fraudis
+               <p n="p1">Lupus, ut ouium gregi insidiaretur, ouinam pellem indutus pecudem se esse simulabat. Fraudis
       insciae oues consortium ferae non deuitabant, eam suum genus esse credentes. Dum ergo parum
       sibi cauerent, rapiebantur. Pastor uero, cui ouilis sui multa cura erat, cum pecudum numerum
        <sic n="sic1">indies</sic> deficere miraretur <sic n="sic2">sollicitusque</sic> inquireret, deprehendit lupi
-      dolos. Iacebat ille humi prouolutus <corr n="corr3">et</corr> pelle tectus aliena, sed caudam sub ea
+      dolos. Iacebat ille humi prouolutus <corr n="corr1">et</corr> pelle tectus aliena, sed caudam sub ea
       condere non ualens, quis esset, apparuit. Mox pastoris fuste percussus, dimissa pelle quam
       induerat, ululando effugit nec postea est ausus misellas lacessere oues uerbera metuens
       pastoris. Quem tanto plus timebat, quanto fortiorem in uulnere sibi inflicto expertus fuerat. </p>
 
-               <p n="p3">Lupus hereticus est, qui se ouem mentitur, dum nobiscum sentire simulat. Caudam autem
-       <sic n="sic1">caelare</sic> non potest, quia sermonis <corr n="corr2">eius</corr> finis, cum semper falsum
+               <p n="p2">Lupus hereticus est, qui se ouem mentitur, dum nobiscum sentire simulat. Caudam autem
+       <sic n="sic1">caelare</sic> non potest, quia sermonis <corr n="corr1">eius</corr> finis, cum semper falsum
       concludat, quantum ipse a ueritate deuiet, ostendit. Denique ubi cum aliquo erudito ecclesiae
       praeside disputatione contendens uictus discesserit, ueretur iterum congredi, ne, dum ab eodem
       euidentioribus adhuc repercutitur argumentis, coram multis confusus cogatur erubescere. Porro
-      oues, quae illius <sic n="sic3">preda</sic> fuere, simplices erant, prudentes non erant. Ille autem
+      oues, quae illius <sic n="sic2">preda</sic> fuere, simplices erant, prudentes non erant. Ille autem
       huiusmodi luporum mortiferos morsus non timet, qui non solum simplicitatem columbarum habet,
       sed etiam serpentis prudentiam. Vis ergo esse a periculo tutus, simplex esto in credendo,
-      prudens in cauendo, dicente Domino: <q n="q4">Attendite a falsis prophetis, qui ueniunt ad uos in
+      prudens in cauendo, dicente Domino: <q n="q1">Attendite a falsis prophetis, qui ueniunt ad uos in
        uestimentis ouium, intrinsecus autem sunt lupi rapaces. A fructibus eorum cognoscetis
       eos.</q>
                </p>
             </div> 
 
-            <div type="parabola" n="div6">
+            <div type="parabola" n="div5">
                <head n="head1">DE SPE IN DEO HABENDA Parabola V </head>
 
-               <p n="p2">Quidam nauis gubernator, cum in medio mari deprehensus procellarum uim ferre nequiret
+               <p n="p1">Quidam nauis gubernator, cum in medio mari deprehensus procellarum uim ferre nequiret
       discissis uelis fractoque remigio et amisso clauo, ad anchoram stetit. Iactabatur nauis
       fluctibus, fortissimi tamen anchorarii rudentes eam tenebant, ne scopulis illisa diffinderetur
       et cum ipsis, quos uehebat, periret. His alligata tantam tempestatis molem fortiter perferendo
       superauit. Cum enim reliqua <sic n="sic1">pene</sic> defecissent, una anchora illi saluti fuit. </p>
-               <p n="p3">Haec est spei nostrae anchora. Quam si in Deo fixam et locatam habuerimus, nihil in nobis
+               <p n="p2">Haec est spei nostrae anchora. Quam si in Deo fixam et locatam habuerimus, nihil in nobis
       ipsis confidentes, quia imbecilles et infirmi sumus, ipsius auxilio subleuati, superatis mundi
       huius turbinibus, portum intrabimus salutis. <q n="q1">Si peccauimus, aduocatum habemus</q> (ut
       Ioannes inquit) <q n="q2">apud Patrem Iesum Christum <corr n="corr1">iustum</corr>; et ipse est propiciatio pro
@@ -354,11 +298,11 @@
                </p>
             </div> 
 
-            <div type="parabola" n="div7"> 
+            <div type="parabola" n="div6"> 
                <head n="head1">DE CHARITATE ERGA
 DEVM ET PROXIMVM Parabola VI </head>
 
-               <p n="p2">Erat cuidam
+               <p n="p1">Erat cuidam
 regi seruus, qui tota animi intentione, totis uiribus dominum suum
 diligebat, Et dum in omnibus obsequi illi cuperet, nullum laborem
 suscipere, nullum uitae discrimen adire recusabat. Cunque tam ardenter
@@ -371,7 +315,7 @@ tantam erga se fidem, tam singularem beniuolentiam remunerare uolens,
 primum ei post se dignitatis locum tribuit, caeteris ipsum praeferens, a
 quo plus quam a caeteris diligi se intellexit. </p> 
 
-               <p n="p3">Talis
+               <p n="p2">Talis
 est omnis, qui mandatum illud implet: <q n="q1">Diliges Dominum Deum tuum
 ex toto corde tuo, et ex tota anima tua, et ex totis uiribus tuis, et
 proximum tuum sicut teipsum!</q> Qui multum dilexerit, multum
@@ -382,20 +326,20 @@ charitas est, et qui manet in charitate, in Deo manet, et Deus in
 eo. </p> 
             </div> 
   
-            <div type="parabola" n="div8">
+            <div type="parabola" n="div7">
                <head n="head1">DE DILIGENDIS INIMICIS Parabola VII </head>
 
-               <p n="p2">Mirum in modum quidam rosarum odore delectabatur. Cunque illas non satis caute iniectis
+               <p n="p1">Mirum in modum quidam rosarum odore delectabatur. Cunque illas non satis caute iniectis
       rosario digitis carperet, earum aculeis manum cruentauit. Neque tamen iccirco minus auide
       naribus applicatas odorabat. Id cernens alius: Miror te, inquit, rosas diligere, quae te tam
       foede <corr n="corr1">laeserunt</corr>. Ad quem ille: Si ob hoc ipsas relecissem, respondit, nunquid
       ista suaueolentiae iocunditate perfrui possem? Has itaque aequo animo feram, a quibus plus
       uoluptatis quam iniuriae capio. </p>
 
-               <p n="p3">Haec parabola docet juxta Euangelium et inimicos diligere. <q n="q1">Diligite, </q> inquit Dominus,
+               <p n="p2">Haec parabola docet juxta Euangelium et inimicos diligere. <q n="q1">Diligite, </q> inquit Dominus,
        <q n="q2">inimicos uestros, benefacite his qui oderunt uos, et orate pro persequentibus et
        calumniantibus uos, ut sitis filii Patris uestri, qui in caelis est.</q> Cum ergo
-      incomparabiliter plus boni in hoc existat, ut simus filii <corr n="corr3">Dei</corr>, quam mali in
+      incomparabiliter plus boni in hoc existat, ut simus filii <corr n="corr1">Dei</corr>, quam mali in
       quauis hominum iniuria, diligamus inimicos. Nunquam illi tantum obesse nobis possunt, dum
       oderint, quantum prosunt, si diligantur. Pungunt quidem eorum iniuriae, sed repensum pro
       iniuria beneficium odorem aeternae remunerationis fragrat. Filii enim erimus Dei Patris, si
@@ -405,16 +349,16 @@ eo. </p>
       efficere non possumus, saltem ne deterius peccet. </p>
             </div> 
   
-            <div type="parabola" n="div9">
+            <div type="parabola" n="div8">
                <head n="head1">DE PACE CVM ALIIS ET SECVM HABENDA Parabola VIII </head>
 
-               <p n="p2">Fuit aliquando annus, in quo nihil aduersi, sed omnia laeta sensit humanum genus. Non grando
+               <p n="p1">Fuit aliquando annus, in quo nihil aduersi, sed omnia laeta sensit humanum genus. Non grando
       uineta laesit, non rubigo frugibus nocuit, non reliquos fructus aliqua caeli intemperies
       uexauit. Suis temporibus fluxit imber uentique flauerunt. Ne in mari quidem quisquam ullius
       tempestatis passus est iniuriam. <corr n="corr1" resp="NJ">Prosperis</corr> nauigationibus usi nautae
       maria omnia laeti percurrerunt. Bella quoque per id tempus conquieuerant. In summa, aureum
-      illud <sic n="sic2">seculum</sic> a poetis decantatum tunc redisse nonnulli crediderunt. </p>
-               <p n="p3">Quid sibi uult istaec parabola? Quam rem tam felici anno comparabimus? Talis est profecto
+      illud <sic n="sic1">seculum</sic> a poetis decantatum tunc redisse nonnulli crediderunt. </p>
+               <p n="p2">Quid sibi uult istaec parabola? Quam rem tam felici anno comparabimus? Talis est profecto
       bonorum inter se hominum pax, talis mutuae concordiae tranquillitas, quam non turbat
       contentio, non inquietat lis, non diuellit inuidia, non dissipat ira, non fallit malignae
       mentis callida simulatio, sed iungit consensus, ligat beneficium, mulcet comitas, sustentat
@@ -424,14 +368,14 @@ eo. </p>
       ille monuit, praecepit, iussit, hoc tu pro uiribus perficere cures. Audi Prophetam dicentem:
        <q n="q1">Pax multa <corr n="corr1">diligentibus</corr> Legem Tuam, et non est illis scandalum.</q> Hanc pacem
       si habueris, nihil triste senties, Apostolo testante, qui ait: <q n="q2">Scimus, quoniam diligentibus
-       Deum omnia cooperantur in bonum.</q> Itaque etiam illa, quae aduersa <corr n="corr3">putantur</corr> ,
+       Deum omnia cooperantur in bonum.</q> Itaque etiam illa, quae aduersa <corr n="corr1">putantur</corr> ,
       tibi proderunt. </p>
             </div> 
   
-            <div type="parabola" n="div10">
+            <div type="parabola" n="div9">
                <head n="head1">DE IIS QVI CHRISTVM SEQVVNTVR ET QVI MVNDVM Parabola IX </head>
 
-               <p n="p2">Pastor optimus, cum uidisset gregem suum macie confectum, scabie morbidum, uagum
+               <p n="p1">Pastor optimus, cum uidisset gregem suum macie confectum, scabie morbidum, uagum
       dispersumque et luporum faucibus expositum, uehementer de salute eius solicitus, ad pascua
       magis herbida tutioraque oues suas traducere decreuit. Itaque prospiciens ultra collem quendam
       aditu difficilem uixque peruium amoenissimam patere planiciem, in qua nihil omnino, quod
@@ -444,16 +388,16 @@ eo. </p>
       perire praeoptantes, ubi primum consederant, quam per tribulos et uastas rupes pastorem
       insequendo ad locum salubriorem fertilioremque transire. </p>
 
-               <p n="p3">Parabola ista corpus respicit Ecclesiae, cuius caput est Christus. Hic miseratus humanum
+               <p n="p2">Parabola ista corpus respicit Ecclesiae, cuius caput est Christus. Hic miseratus humanum
       genus primorum parentum culpa disperire, pastor aeternus ad oues uenit, mundi huius angustias
       pati uoluit, ut homines de angustiis eriperet peccati. Effuso interim sanguine necem
       sustinuit, ut nos uiuificaret. Resurgens a mortuis caelum ascendit. Inde, ut se sequamur,
       clamat dicens: <q n="q1">Venite ad me omnes, qui laboratis et onerati estis, et ego reficiam uos</q>;
       non pane terreno neque cibo corruptibili, sed pabulo immortalitatis epulisque beatitudinis
-      aeternae. Ea <corr n="corr2">uocantis</corr> uox <corr n="corr3">aliis</corr> tam dulcis est, ut, dum ipsum adire
+      aeternae. Ea <corr n="corr1">uocantis</corr> uox <corr n="corr2">aliis</corr> tam dulcis est, ut, dum ipsum adire
       contendunt, itineris asperitatem ne sentire quidem uidentur spe tam immensi boni, quod a
       Domino accepturi sunt, sustentati. Alii autem econtrario nec uocem pastoris audire uolunt nec,
-      quanta sibi <corr n="corr4">promittantur</corr>, attendere terrenarumque rerum curis impliciti caelestia
+      quanta sibi <corr n="corr3">promittantur</corr>, attendere terrenarumque rerum curis impliciti caelestia
       contemptui habent. Proinde relicto uitae pastore necesse est eos fame sitique perire, nihil in
       se habentes, quo recreentur, et cum interierint, ad inferna delabi, nunquam de ascensu
       cogitantes, in quo saluari potuissent. Dum ergo breuem modicumque laborem subire nolunt
@@ -461,14 +405,14 @@ eo. </p>
       manet, qui mundum magis quam mundi dominum diligunt. </p>
             </div> 
   
-            <div type="parabola" n="div11">
+            <div type="parabola" n="div10">
                <head n="head1">DE SECVLI CONTEMPTORIBVS AMATORIBVSQUE Parabola X </head>
-               <p n="p2">Quidam dum piscarentur, alii in mari magnos optimosque pisces capiebant, aliis in littore
+               <p n="p1">Quidam dum piscarentur, alii in mari magnos optimosque pisces capiebant, aliis in littore
       stantibus algam tantum colligere curae erat. Et hi quidem omnium stultissimi reputabantur, dum
       inutiliter laborare putarentur. At uero postquam algam illam miscendo euertendoque auri massam
       inuenissent, apparuit non esse stultos, qui multo plus lucri fecerant in algae collectione
       quam illi <corr n="corr1">alteri</corr> in piscium captura. </p>
-               <p n="p3">Haec parabola partim ad amatores seculi, partim ad contemptores pertinet. Seculi amatores in
+               <p n="p2">Haec parabola partim ad amatores seculi, partim ad contemptores pertinet. Seculi amatores in
       mari fluctuant, quia bona <corr n="corr1">instabilia</corr> diligunt. Seculi autem contemptores in
       littore stant, quia illa duntaxat, quae firma stabiliaque sunt, consequi affectant. Seculi
       amatoribus placent diuitiae, honores, luxuria, libido caeteraeque uoluptates, prospera etiam
@@ -479,24 +423,24 @@ eo. </p>
       humilitate, non honoribus, continentia et castitate, non luxuria neque libidine, et honestis
       laboribus, non turpi uoluptate. Mentem quoque sanam a Deo sibi optant, non corpus, animi
       constantis robur, non uirium, uitae integritatem, non sensuum, purique cordis, non formae
-      pulchritudinem, et ea quae spiritus sunt, non carnis. Quam <sic n="sic2">obrem</sic> insanire quidem
+      pulchritudinem, et ea quae spiritus sunt, non carnis. Quam <sic n="sic1">obrem</sic> insanire quidem
       mundi hominibus uidentur. Sed postquam hac sancta stulticia caelestem thesaurum assecuti
       fuerint, tunc demum perspicuum fit eos solos fuisse sapientes, qui mundo stulti uidebantur, et
-       <corr n="corr3">ediuerso</corr> illos uere fuisse stultissimos, quos mundus imprimis sapere iudicabat.
-      Sicque in his dictum illud apostolicum impletur: <q n="q4">Stulta mundi elegit Deus, ut sapientes
+       <corr n="corr2">ediuerso</corr> illos uere fuisse stultissimos, quos mundus imprimis sapere iudicabat.
+      Sicque in his dictum illud apostolicum impletur: <q n="q1">Stulta mundi elegit Deus, ut sapientes
        confunderet.</q>
                </p>
             </div> 
-            <div type="parabola" n="div12">
+            <div type="parabola" n="div11">
                <head n="head1">DE SERVIS DEI ET SERVIS DIABOLI Parabola XI </head>
-               <p n="p2">Duo reges erant contrariae penitus inter se naturae propositique diuersi. Alter seruos suos
+               <p n="p1">Duo reges erant contrariae penitus inter se naturae propositique diuersi. Alter seruos suos
       die una omnibus affluere faciebat deliciis, ita ut nihil ab eis desyderaretur, quod caro
       concupisceret. Reliquo uero uitae tempore omni prorsus uoluptate exutos nunquam conquiescere
       sinebat, <sic n="sic1">semper</sic> infestans, semper ab eis poenas exigens, magis quam dici queat
       atroces. Alter econtrario per diem unum suos multum uexabat, sed deinceps per omnes reliquos
       bona cuncta illis ad uotum suppeditabat. Quis adeo imprudentis ingenii est, ut nesciat, cui
       regum istorum seruire magis expediat? </p>
-               <p n="p3">Duo reges Deus et demon sunt. Regnat hic super peccatores, ille dominatur justis. Malus
+               <p n="p2">Duo reges Deus et demon sunt. Regnat hic super peccatores, ille dominatur justis. Malus
       demon eos, qui sibi seruiunt, quandiu uiuunt, in deliciis habet; cum decesserint, inaeternum
       cruciat. Deus autem seruos suos uitae huius tempore, quod, quia breuissimum, quasi dies una
       est, in angustiis laboribusque uersari gaudet, ut postea uerae beatitudinis bonis felicitet
@@ -512,10 +456,10 @@ eo. </p>
       manebimus, et Deus in nobis. </p>
             </div>
 
-            <div type="parabola" n="div13">
+            <div type="parabola" n="div12">
                <head n="head1">DE ILLO QVI PROPONIT MONACHVM PROFITERI, ET CVNCTATVR Parabola XII </head>
 
-               <p n="p2">Quidam quotidie iactanter praedicabat se nauim onerariam sibi fabricaturum daturumque operam
+               <p n="p1">Quidam quotidie iactanter praedicabat se nauim onerariam sibi fabricaturum daturumque operam
       mercaturae, ita ut speraret breui se imprimis diuitem fore. Multum in deliberando temporis
       consumpsit, dum alios consulit, cuius potissime opera in fabricanda naui uteretur, quibus in
       siluis aptiorem ad id materiam caederet, quantum ferri ad contignationem nexusque compagum
@@ -525,26 +469,26 @@ eo. </p>
       ocio, quo talia tractabat, inutiliter consenuit. Neque peculium suum, ut promittere solebat,
       auxit, sed <corr n="corr1">imminuit</corr>. </p>
 
-               <p n="p3">Tales profecto et illi sunt, qui iuxta Euangelium relinquere omnia et Christo seruire saepe
+               <p n="p2">Tales profecto et illi sunt, qui iuxta Euangelium relinquere omnia et Christo seruire saepe
       decernunt, nunquam incipiunt. Quicquid sibi in religione seruandum sit, ante ediscunt, et cum
       se ad eam rem satis expedierint, semper restat aliquid, <corr n="corr1">quod</corr> excusent, quo se
       impediri dicant. Hoc autem fit, quia semiplenam habent charitatem. Quam si perfectam haberent,
       nihil timerent. Charitas enim foras mittit timorem. Quid uereris, o homo, ne tibi uictus aut
       uestitus deficiat, si Deo seruieris, et non <corr n="corr2">uereris</corr>, si seruieris mundo? Deseri
       ab illo formidas, qui uolucres quoque pascit et terrae flosculos uariis uestit coloribus, et
-      in mundo, qui, nisi ab eodem sustentaretur, statim rueret, confidis? <q n="q3">Quaerite, </q> inquit,
-       <q n="q4">primum regnum Dei et iustitiam eius, et haec omnia adiicientur uobis.</q> Et tu tibi
-      aliquid defuturum putas? Idem alibi ait: <q n="q5">Tollite iugum meum super uos! Iugum enim meum
+      in mundo, qui, nisi ab eodem sustentaretur, statim rueret, confidis? <q n="q1">Quaerite, </q> inquit,
+       <q n="q2">primum regnum Dei et iustitiam eius, et haec omnia adiicientur uobis.</q> Et tu tibi
+      aliquid defuturum putas? Idem alibi ait: <q n="q3">Tollite iugum meum super uos! Iugum enim meum
        suaue est, et onus meum leue.</q> Quid ergo illo inuitante, illo hortante, qui solus potest
       omnia, iugum eius subire cunctaris, quid procrastinas? Nulla tanti est libertas, quanti
       seruitus Christi. In qua una certissima spes est felicitatis aeternae. Tu igitur, qui iam in
       limine uitae perfectioris pedem posuisti, uide, ne referas, sed audacter ingredere! Nemo Deo
       seruiuit, et deceptus est, nemo mundo, et non conquestus est. </p>
             </div> 
-            <div type="parabola" n="div14">
+            <div type="parabola" n="div13">
                <head n="head1"> DE ILLO QVI DE MONASTERIO REDIT AD SECVLVM Parabola XIII</head>
 
-               <p n="p2">Quidam in plebe minus quam satis diues peregre proficiscens longinquae regionis regem adiit.
+               <p n="p1">Quidam in plebe minus quam satis diues peregre proficiscens longinquae regionis regem adiit.
       Inter aulicos receptus cum bene laudabiliterque suo fungeretur officio, breui charissimus regi
       eiusque beneficiis omnium opulentissimus euasit. Caeterum ad illa, quae reliquerat, mentem
       reflectere et eadem iam felicioris fortunae oblitus concupiscere eoque redire uelle, ubi natum
@@ -553,7 +497,7 @@ eo. </p>
       inter municipes suos multo sibi minus et rei et honoris esse, quam apud regem fuerat, grauiter
       ingemiscens dementiae seipsum incusabat, quod magnam fecisset iacturam, tum haec, quibus olim
       assuetus fuerat, concupiscendo, tum illa, quae nuper sibi parauerat, dimittendo. </p>
-               <p n="p3">Haec est eorum parabola, qui seculum relinquentes monasteriumque ingressi caelesti regi
+               <p n="p2">Haec est eorum parabola, qui seculum relinquentes monasteriumque ingressi caelesti regi
       ministrare incipiunt, et iam uirtutibus diuites facti, quibus ante carebant, pristinarum
       uoluptatum, quas abiecerant, recordatione retrocedunt et ad seculum, unde uenerant, redeunt.
       Post haec anima aliquantulum resipiscentes erroris conscientia dolent, quod de tutissimo
@@ -570,9 +514,9 @@ eo. </p>
       in monasterio perseuerasse poeniteret, neminem, qui se ad seculum redisse non aliquando
       doleret. </p>
             </div> 
-            <div type="parabola" n="div15">
+            <div type="parabola" n="div14">
                <head n="head1"> DE IMPARI MERITO PARIS BONITATIS MONACHI ET SECVLARIS Parabola XIV </head>
-               <p n="p2">Pagi cuiusdam colono iam aetate fracto duo liberi erant, ambo agriculturae studiosi. Sed
+               <p n="p1">Pagi cuiusdam colono iam aetate fracto duo liberi erant, ambo agriculturae studiosi. Sed
       alter secedens a patre sui iuris factus, alter cum patre manens paternae se totum potestati
       dedit. Ambo pari labore in praedio colendo occupati erant parique amore obsequebantur patri,
       sed tamen impari frugum prouentu abundabant, cum multo plus colligeret, qui patris imperio
@@ -580,7 +524,7 @@ eo. </p>
       seniores pagi illius interrogarentur, responderunt matrem plus ei filio debere, qui se sua
       sponte patris seruum fecisset quam qui libertate adhuc uteretur, licet et ipse de patre bene
       meritus esset; matrem autem omnium esse tellurem, quae omnes aleret. </p>
-               <p n="p3">Haec parabola hoc modo explananda mihi uidetur. Omnes quidem nos per fidei adoptionem Dei et
+               <p n="p2">Haec parabola hoc modo explananda mihi uidetur. Omnes quidem nos per fidei adoptionem Dei et
       ecclesiae filii sumus. Sed si ab ea quaesierimus, cur monachi et secularis, cum aeque in
       excolendis uirtutibus desudarint, non aequalia merita sint, nonne respondebit plus ei se
       debere, qui Deo patri obtulit in sacrificio cum uirtutibus libertatem, quam qui solas donauit
@@ -597,19 +541,19 @@ eo. </p>
       totum perpetuo alterius dedicat uoluntati. </p>
             </div> 
 
-            <div type="parabola" n="div16">
+            <div type="parabola" n="div15">
 
                <head n="head1"> DE FVGIENDA FEMINARVM CONSVETVDINE PROFESSORIBVS CASTITATIS Parabola XV</head>
 
-               <p n="p2">Quidam in Sicilia montem Aethnam flammas eructantem cum inscenderet, igni propior factus
+               <p n="p1">Quidam in Sicilia montem Aethnam flammas eructantem cum inscenderet, igni propior factus
       ardorem sentire coepit. Tum, quo proximior flagranti iugo accesserat, eo magis aestuabat.
       Postremo cupiditate scrutandi naturae secreta tam ultra processit, ut cinere prunisque
       repentina quadam montis respiratione ueluti uento effusis inuolutus periret. Qui uero procul
       inde considentes huic spectaculo aderant, ut uiderunt quod contigit, detestati sunt hominis
       temeritatem, qui tam <corr n="corr1">praesenti</corr> periculo uitam committere ausus fuisset nulla
-      compulsus necessitate. Quam <sic n="sic2">obrem</sic> ipsi retro cessere atque ad tutiora loca, unde
+      compulsus necessitate. Quam <sic n="sic1">obrem</sic> ipsi retro cessere atque ad tutiora loca, unde
       uix fumum portentosi ardoris cernere ualerent, raptim sese transtulerunt. </p>
-               <p n="p3">Huius parabolae similitudinem explicare poterit, qui nouit, in quanto amittendae castitatis
+               <p n="p2">Huius parabolae similitudinem explicare poterit, qui nouit, in quanto amittendae castitatis
       uersentur periculo, qui se ultro ingerunt aspectibus feminarum. Illis arridere, cum illis
       confabulari, illas tangere Aethneis ignibus proximare est. Tunc si licentior intercesserit
       familiaritas, libidinis incendiis conflagrabit sanctioris propositi pudor, et turpi seruire
@@ -620,18 +564,18 @@ eo. </p>
       angelorum uitam uixit in terris. </p>
             </div>
 
-            <div type="parabola" n="div17">
+            <div type="parabola" n="div16">
                <head n="head1"> DE IIS QVOS TENTATIO SVPERAT ET A QVIBVS SVPERATVR Parabola XVI </head>
-               <p n="p2">Rex exercitu in aciem educto proposuit uictoribus praemium, uictis poenam. Cum hoste
+               <p n="p1">Rex exercitu in aciem educto proposuit uictoribus praemium, uictis poenam. Cum hoste
       congressi praeliabantur. Diu dubio Marte pugnatum est. Qui tandem obnixius pertinaciusque
       restitere, uicerunt. In his tamen quidam saepe humi effusi rursum resurgendo decertabant, ita
       ut eosdem, a quibus deiecti fuerant, superarent. Qui uero per ignauiam hostibus cessere,
       plurimi inuenti sunt. Quorum alii, cum primum acriter obstitissent, postremo pugnandi
        <sic n="sic1">tedio</sic> magis quam ui aliqua superati manum aduersariis dedere. Alii uero ante
-      pugnam transfugae facti iugum subiere <corr n="corr2">inimicorum</corr>. De his, qui uicti sunt, regi
+      pugnam transfugae facti iugum subiere <corr n="corr1">inimicorum</corr>. De his, qui uicti sunt, regi
       tandem redditis supplicium sumptum est. Illis autem, qui cum uictoriae laude rediere,
-      triumphus datus et cum rege simul considendi et conuiuendi <ref type="nota" xml:id="rd0e413" target="nd0e413" n="ref3"/> locus. </p>
-               <p n="p3">Haec parabola nos omnes respicit. Quibus in hac uita assidue pugnandum est et, ut uincere
+      triumphus datus et cum rege simul considendi et conuiuendi <ref type="nota" xml:id="rd0e413" target="nd0e413" n="ref1"/> locus. </p>
+               <p n="p2">Haec parabola nos omnes respicit. Quibus in hac uita assidue pugnandum est et, ut uincere
       ualeamus, nunquam conquiescendum. Qui semper fortes sunt, semper uincunt uirtutumque armis
       muniti nullum in se uitio <corr n="corr1">locum</corr> relinquunt. Qui prostrati resurgunt, hi sunt quos
       peccati poenitet, et post lapsum cautiores facti malarum cupidinum laqueos diabolique insidias
@@ -646,36 +590,36 @@ eo. </p>
       irrogantur. O, quanto igitur, quandiu hic uiuimus, praeferendus est ocio labor, mollitudini
       uitae rigor, deliciis asperitas et, breuiter, uitio uirtus! </p>
             </div> 
-            <div type="parabola" n="div18">
+            <div type="parabola" n="div17">
                <head n="head1"> DE DIABOLI PISCATIONE Parabola XVII </head>
-               <p n="p2">Piscator callidissimus, cum uarii saporis escas tranquillo mari effudisset, multa piscium
+               <p n="p1">Piscator callidissimus, cum uarii saporis escas tranquillo mari effudisset, multa piscium
       genera uno superiectae fundae sinu comprehendebat, comprehensos mactabat. Si qui autem
       illorum, antequam reticulum in sicco traheretur, maculis illis, quibus implicatus fuerat, sese
       expedisset, fuga salutem petebat. Post haec malebat herbis, quae in imo fundo nascuntur,
       secure pasci quam praedulces cibos illos, qui in summo fluitarent, cum periculo rapere. </p>
-               <p n="p3">Piscator hic diabolus est. Varia uoluptatum genera proponit hominibus, quos fallere quaerit.
+               <p n="p2">Piscator hic diabolus est. Varia uoluptatum genera proponit hominibus, quos fallere quaerit.
       Superbis offert inanis <sic n="sic1">glorie</sic> iactantiam, auaris illicitum lucrum, lasciuis
       nefarios concubitus, inuidis alienae famae sugillationem, gulosis crapulam, iracundis nocendi
       appetitum, ociosis ignauiam inutilemque torporem. Cunque talibus blandimentis incautos
       lactauerit, captos perimit. Morti enim aeternae destinatos perpetuo cruciat. Porro, siquis
       ante mortem laqueis eius per poenitentiam sese liberauerit, memor, in quanto salutis suae
       discrimine uersatus sit, mauult humilitate deiici, egestate premi, caste uiuere, omnes
-      diligere, ieiuniis extenuari, iniuriam <corr n="corr2">remittere</corr>, in bonis operibus quotidie
+      diligere, ieiuniis extenuari, iniuriam <corr n="corr1">remittere</corr>, in bonis operibus quotidie
       exerceri quam in omnibus corporis uoluptatibus perfrui . Quarum breuem dulcedinem subsequitur
-      aeterni <corr n="corr3">supplicii</corr> amaritudo. Quisquis autem uitio aliquo ex his, quae supra
+      aeterni <corr n="corr2">supplicii</corr> amaritudo. Quisquis autem uitio aliquo ex his, quae supra
       memorauimus, delectatur, diaboli hamo captus est. Peribit, nisi, priusquam pereat,
       poenitentiam egerit et, quae uoluptate illectus commisit, dolendo deleuerit. </p>
             </div> 
-            <div type="parabola" n="div19">
+            <div type="parabola" n="div18">
                <head n="head1"> DE DIABOLI AVCVPIO Parabola XVIII </head>
-               <p n="p2">Auceps in medio campi posita noctua, sepibus quaqua uersum fusis pulchreque uirescentibus,
+               <p n="p1">Auceps in medio campi posita noctua, sepibus quaqua uersum fusis pulchreque uirescentibus,
       septem uirgas uisco illitas <corr n="corr1">apposuerat</corr>
-                  <ref type="nota" xml:id="rd0e449" target="nd0e449" n="ref2"/> ad auicularum capturam, ipsas e
+                  <ref type="nota" xml:id="rd0e449" target="nd0e449" n="ref1"/> ad auicularum capturam, ipsas e
       proximo nemore stridula sibilatione conuocando. Illae mirabundae circa noctuam uolitare et in
       acre pendulae ludere, uirgis postremo insidere tenacibus. Quarum aliae ita penitus
       inhaeserunt, ut accurrentis aucupis manu captae perimerentur; aliae tam leuiter, ut, antequam
       caperentur, inde expeditae auolarent aucupemque eluderent. </p>
-               <p n="p3">Auceps iste diabolus est. Noctua, quae iocunda quadam gesticulatione aues ad se allicit,
+               <p n="p2">Auceps iste diabolus est. Noctua, quae iocunda quadam gesticulatione aues ad se allicit,
       corpori nostro blandiens uoluptas est. Hac illecti uisco septem capitalium peccatorum
       comprehendimur: alius uana superbit elatione, alius feruet iracundia, alius pecuniae
       cupiditate trahitur, alius fornicatione sordescit, alius torquetur inuidia, alius uentri,
@@ -685,24 +629,24 @@ eo. </p>
       identidem remordetur et mores per poenitentiam emendat. Peccata relinquit ac saluti suae
       consulens operi accingitur uirtutis. Auidis ergo diaboli faucibus elapsus, eum, a quo deceptus
       fuerat, decipit. Quem enim ille delinquentem suam putabat predam, conrectum dimittere cogitur.
-      Quisquis ita se correctum senserit, Deo gratias agat et cum Propheta concinat dicens: <q n="q2">Anima
+      Quisquis ita se correctum senserit, Deo gratias agat et cum Propheta concinat dicens: <q n="q1">Anima
        nostra sicut passer erepta est de laqueo uenantium; laqueus contritus est, et nos liberati
        sumus. Adiutorium nostrum in nomine Domini, qui fecit caelum et terram.</q>
                </p>
 
             </div> 
 
-            <div type="parabola" n="div20">
+            <div type="parabola" n="div19">
 
                <head n="head1"> DE DIABOLI IN SERVOS SVOS IMPIETATE Parabola XIX</head>
 
-               <p n="p2">Est quidam tyrannus prae caeteris impius atque crudelis. Illos enim, qui sibi omni prorsus
+               <p n="p1">Est quidam tyrannus prae caeteris impius atque crudelis. Illos enim, qui sibi omni prorsus
       obsequio famulantur, omni studio parent, in uincula tandem coniectos perpetuis afficit
       suppliciis, ueluti si semper suo nomini infidi infensique extitissent. Rebelles autem et
       inimicos ire sinit illaesos, quin <sic n="sic1">immo</sic> blanditiis lactat, benignitate allicit, ut,
       cum sibi seruire coeperint, et ipsos repente perdat. Non enim aliis nocet, nisi quos sibi
       amicos fecerit; adeo peruersi animi est malignaeque naturae. </p>
-               <p n="p3">Tyrannus <corr n="corr1">iste</corr> diabolus est, notae impietatis. Ei sane obsequuntur et
+               <p n="p2">Tyrannus <corr n="corr1">iste</corr> diabolus est, notae impietatis. Ei sane obsequuntur et
       obtemperant, qui uitiis seruiunt. Quid enim aliud ab hominibus exigit, nisi ut superbiant,
       oderint, rixentur, crapulam impudicitiamque sequantur, rapiant, decipiant, detrahant,
        <corr n="corr2">occidant</corr>, mala denique omnia committere ne dubitent neue erubescant? Et id
@@ -713,17 +657,17 @@ eo. </p>
       diabolo semper aduersarii simus, amici nunquam. </p>
             </div>
 
-            <div type="parabola" n="div21">
+            <div type="parabola" n="div20">
                <head n="head1"> DE QVINQVE SENSVVM PVGNA Parabola XX</head>
 
-               <p n="p2">Erat metropolis nominatissima, Irenen uocabant, in qua cum summa animorum tranquillitate
+               <p n="p1">Erat metropolis nominatissima, Irenen uocabant, in qua cum summa animorum tranquillitate
       degebatur. Nihil discors, nihil turbulentum aderat. Sed in uia, quae ad eam ducit, quinque
       diuersi generis bestiae insederant, omnes quidem magnarum uirium horrendaeque ferocitatis. Cum
       his certandum erat cuicunque ad pacis urbem transire collibuisset neque omnino nisi ferarum
       uictoribus dabatur accessus. Qui uicerant, reliquum uitae tempus iocunde agebant. Victi
       belluinis morsibus atque ungibus laniabantur. Tantumque incommodi succumbentibus accedebat,
       quantum uincentibus gloriae. </p>
-               <p n="p3">Nobis texitur haec parabola. Cum quinque corporis nostri sensibus assidue nobis pugnandum
+               <p n="p2">Nobis texitur haec parabola. Cum quinque corporis nostri sensibus assidue nobis pugnandum
       est, et ita pugnandum, ut uincamus, si caelestis beatitudinis pace frui uolumus. Visus,
       auditus, odoratus, gustus, tactus uim menti nostrae ingerunt et ad illicita prouocant. Si
       assenserimus, malarum cupidinum morsu dilacerati peribimus. Sin uero fortiter constanterque
@@ -735,10 +679,10 @@ eo. </p>
       uincamus. </p>
             </div> 
 
-            <div type="parabola" n="div22">
+            <div type="parabola" n="div21">
                <head n="head1">DE POENITENTIA ET OBSTINATIONE Parabola XXI</head>
 
-               <p n="p2">Cuidam patrifamilias duo liberi erant, quibus ille ingentia quidem contulerat beneficia, sed
+               <p n="p1">Cuidam patrifamilias duo liberi erant, quibus ille ingentia quidem contulerat beneficia, sed
       multo maiora adhuc se collaturum spoponderat, tanto eos amore complexus, quantus in nullo
       fortasse alio patre erga optimos filios queat reperiri. At ipsi omnium ingratissimi nec
       paternorum erga se beneficiorum nec suae prorsus humanitatis memores, pro bono malum, pro
@@ -752,8 +696,8 @@ eo. </p>
       uindictam tanta non mereatur ingratitudo? <corr n="corr2">Commouit</corr> plane alterum ex filiis cum
       mira patris benignitas tum futurae poenae, quam ille denunciabat, metus. Atque ad genitorem
       suum conuersus coramque prostratus, flens gemensque: Talia, <corr n="corr3">inquit</corr>
-                  <ref type="nota" xml:id="rd0e496" target="nd0e496" n="ref4"/>, in te commisi, pater, ut iam non
-      sum <ref type="nota" xml:id="rd0e501" target="nd0e501" n="ref5"/> dignus uocari filius tuus. Vnum
+                  <ref type="nota" xml:id="rd0e496" target="nd0e496" n="ref1"/>, in te commisi, pater, ut iam non
+      sum <ref type="nota" xml:id="rd0e501" target="nd0e501" n="ref2"/> dignus uocari filius tuus. Vnum
       oro, praeterita delicta mihi remittas et cum futuro compenses obsequio, quod posthac me tibi
       spondeo praestiturum. Extemplo iste ueniam meruit, amplexu osculoque exceptus a patre, et cum
       illud, quod pollicitus fuerat, sedulo implesset, haeres factus bonis omnibus affluere coepit.
@@ -762,7 +706,7 @@ eo. </p>
       inueteratae maliciae proposito discedere uoluit, patre post diuturnam patientiam in
       indignationem tandem concitato meritas tanta obstinatione poenas dedit, non modo ab eo
       exhaeredatus uerum etiam teterrimo carceri uinculisque aeternis traditus. </p>
-               <p n="p3">Hanc parabolam magis apertam esse reor, quam ut expositione indigeat. Quis enim ignorat Deum
+               <p n="p2">Hanc parabolam magis apertam esse reor, quam ut expositione indigeat. Quis enim ignorat Deum
       Patrem nobis in filios adoptatis et multa bona contulisse et plura promisisse, nos uero erga
       eum non solum esse ingratos sed etiam iniurios, dum neque, quae iubentur, facimus, neque, quae
       prohibentur, cauemus? Et tamen ille pientissimus Dominus non continuo delinquentes punit, sed,
@@ -775,9 +719,9 @@ eo. </p>
                </p>
 
             </div> 
-            <div type="parabola" n="div23">
+            <div type="parabola" n="div22">
                <head n="head1"> DE POENITENTIA ET CONFESSIONE Parabola XXII </head>
-               <p n="p2">Imperator quidam singulari pietate insignis, cum plurimos in ciuitate conspiceret, qui
+               <p n="p1">Imperator quidam singulari pietate insignis, cum plurimos in ciuitate conspiceret, qui
       leges, quas ipse tulerat, minime obseruarent, noluit continuo ad ulciscendum scelus animum
       conuertere, sed interim aliam rogauit legem, ut, siquis suo ore se deliquisse fateretur,
       ueniam precatus impetraret, soli autem poenam penderent, qui crimen confiteri et impunitatem
@@ -787,7 +731,7 @@ eo. </p>
       cauere decernant; ut scilicet sponte susceptus peccatorum dolor dolorem supplicii, qui
        <corr n="corr1">peccantibus</corr> debebatur, submoueret sontesque ad innocentiae statum poenitentiae
       merito reformarentur. </p>
-               <p n="p3">Talis in Ecclesia lex Dei est. Nihilque factu facilius poenam perennem uitare uolentibus
+               <p n="p2">Talis in Ecclesia lex Dei est. Nihilque factu facilius poenam perennem uitare uolentibus
       quam ut eos et peccati poeniteat et fateri peccata non pigeat. Non hic pecunia exigitur, non
       peregrinationis labor, non nauigationis periculum, non mundanae militiae studium, non aliqua
        <corr n="corr1">exterior</corr> corporis fatigatio; absque impensa, absque mora peragi potest, quod
@@ -798,25 +742,25 @@ eo. </p>
       tamen <corr n="corr2">aliquos</corr>, qui ne hoc quidem praestare uolunt poenamque illam, omnibus, quae
       hic inferri queunt, acerbiorem, subire malunt quam a delinquendi obstinatione resipiscere, tam
       in seipsos crudeles quam erga clementissimum legislatorem Deum iniqui. </p>
-               <p n="p4">Haec ergo parabola illos respicit, qui poenitentiae confessionisque sacramentum ex diuina
+               <p n="p3">Haec ergo parabola illos respicit, qui poenitentiae confessionisque sacramentum ex diuina
       largitate fideli populo indultum contemptui habent. Et, si id, quia peccare
       <corr n="corr1">delectat</corr>, agunt, imprudentissimi sunt, cum non animaduertant neque quam breuis
       ista delectatio sit neque quam longa illi succedant tormenta, utique quorum nullus finis. Sin
       uero, quia, quod in occulto commiserint, nemini manifestum uolunt, ualde ridiculi sunt.
-       <corr n="corr2">Vt quid</corr> enim rubor <ref type="nota" xml:id="rd0e530" target="nd0e530" n="ref3"/>
+       <corr n="corr2">Vt quid</corr> enim rubor <ref type="nota" xml:id="rd0e530" target="nd0e530" n="ref1"/>
       est ea homini reuelare, quae Deo spectante non puduit facere, ea uni nunc confiteri, quae,
-      nisi confiteare, omnibus postea nota erunt in die iudicii, dicente Naum propheta: <q n="q4">Ecce ego
+      nisi confiteare, omnibus postea nota erunt in die iudicii, dicente Naum propheta: <q n="q1">Ecce ego
        ad te, dicit Dominus Deus exercituum, et reuelabo pudenda tua in facie tua, et ostendam in
        gentibus nuditatem tuam, et regnis ignominiam tuam.</q> Quanto igitur melius est, quanto
       optabilius nunc uni sacerdoti commissa dicere hisque expiatis caelo se dignum praestare quam
       tunc uniuersis non modo hominibus uerum etiam angelis manifestum fieri et, quod
-      incomparabiliter peius est, aeternis mancipari suppliciis <ref type="nota" xml:id="rd0e538" target="nd0e538" n="ref5"/>. </p>
+      incomparabiliter peius est, aeternis mancipari suppliciis <ref type="nota" xml:id="rd0e538" target="nd0e538" n="ref2"/>. </p>
             </div> 
 
-            <div type="parabola" n="div24">
+            <div type="parabola" n="div23">
                <head n="head1">DE FVTVRORVM BONORVM MALORVMQVE CONTEMPLATIONE Parabola XXIII</head>
 
-               <p n="p2"> Rex quidam in omni laudis genere praestantissimus omniumque, quae desyderari queunt,
+               <p n="p1"> Rex quidam in omni laudis genere praestantissimus omniumque, quae desyderari queunt,
       locuples lege decreuit ita unumquenque ciuium suorum bonis honoreque afficere, si illis dignum
       inuenisset, sin contra, in exilium perenne relegare. Itaque quosdam ex praestantioribus in
       ciuitate retinuit, ut una secum regni bonis fruerentur feliciterque uiuerent. Reliquos in
@@ -834,8 +778,8 @@ eo. </p>
       aliquem de turba illa ad se euocatum, quid in uita egisset, inquirebat. Aderant scribae. Pro
       illo stabat, qui benefacta eius conscripserat. Sed qui peccata notauerat, acriter accusabat.
       Tunc homo ille aut premium aut exilium ex sententia regis accipiebat. </p>
-               <p n="p3">Parabolae huius intelligentia haec est. Rex et iudex noster est Christus, ciuitas paradisus. </p>
-               <p n="p4">Qui cum rege bonis aeternis perfruuntur, angeli atque sanctorum animae sunt. Insula, in qua
+               <p n="p2">Parabolae huius intelligentia haec est. Rex et iudex noster est Christus, ciuitas paradisus. </p>
+               <p n="p3">Qui cum rege bonis aeternis perfruuntur, angeli atque sanctorum animae sunt. Insula, in qua
       nobis laborandum est, terra mortalium est. In hac, qui propositam sibi uel beatitudinem uel
       miseriam contemplantur, ocia fugiunt, uoluptuosam uitam detestantur, libenter laboribus
       exercentur, quibus et bonum futurum consequi et malum uitare sperant. At uero illi, quibus
@@ -849,15 +793,15 @@ eo. </p>
       si digni effici uolumus, magnitudinem eorum atque gloriam iugiter meditemur. Non potest
       terrenis uoluptatibus mens illici caelestium contemplatione occupata.</p>
             </div>
-            <milestone unit="page" n="milestone25"/>
-            <div type="parabola" n="div26"> 
+            <milestone unit="page" n="milestone1"/>
+            <div type="parabola" n="div24"> 
                <head n="head1">DE LIBRORVM SECVLARIVM LECTIONE Parabola XXIV</head> 
 
-               <p n="p2">Bonus agricola maturis messibus cum aream
+               <p n="p1">Bonus agricola maturis messibus cum aream
 repleuerat, totum simul aceruum uerberat atque contundit. Post haec
 paleas a frumento separans, hoc sibi colligit in horrea, illas pabulum
 iumentis relinquit. </p> 
-               <p n="p3">Haud aliter agendum existimo litterarum
+               <p n="p2">Haud aliter agendum existimo litterarum
 studiosis, quoties uel gentilium uel nostrorum euoluerint libros. Quae
 inutilia sunt, respuant, quae uero bene uiuendi institutionem iuuare
 quent, excerpant. Non est uitium omnia legere, sed sine delectu
@@ -867,38 +811,38 @@ Euangelio zizania cum tritico colligere iubet, sed hoc usui seruare,
 illa igni urenda tradere. </p> 
             </div> 
 
-            <div type="parabola" n="div27"> 
+            <div type="parabola" n="div25"> 
                <head n="head1">DE INSTANTIA
 ORATIONIS Parabola XXV </head>  
 
-               <p n="p2">Quidam paupertate compulsus
+               <p n="p1">Quidam paupertate compulsus
 mendicare coepit. Et primo hostiatim panem petens abunde sibi alimenta
 comparabat. Deinde diuitum conciliabula circumiens non modicam
 colligebat pecuniam. Igitur elemosinis tandem diues factus dicere
 solebat mendicos prius oportet fieri, qui diuites euadere
 cupiunt. </p> 
-               <p n="p3">Haec parabola orare nos admonet et quasi mendicos in
+               <p n="p2">Haec parabola orare nos admonet et quasi mendicos in
 omni loco omnique die sublatis in caelum manibus Deum deprecari, si
 pane illo uesci uolumus, quem gustando nunquam esuriemus, si opibus
 illis ditari, quas nec fur <corr n="corr1">surripere</corr> nec tinea potest
-corrumpere. <q n="q2">Petite, </q> inquit, <q n="q3">et accipietis;
+corrumpere. <q n="q1">Petite, </q> inquit, <q n="q2">et accipietis;
 quaerite, et inuenietis; pulsate, et aperietur uobis. </q> Quid ergo
 cunctamur? Ipse iubet poscere, qui solus potest dare, et nisi paratus
 esset tribuere, postulare non praecepisset. </p>
             </div>
 
-            <milestone unit="page" n="milestone28"/>
+            <milestone unit="page" n="milestone2"/>
 
-            <div type="parabola" n="div29"> 
+            <div type="parabola" n="div26"> 
                <head n="head1">DE ELEMOSINARVM FRVCTV Parabola XXVI </head> 
 
 
-               <p n="p2">Rex iustissimus usuras lege interdixit, et tamen foeneratores
+               <p n="p1">Rex iustissimus usuras lege interdixit, et tamen foeneratores
 diligebat, qui uidelicet sibi, non aliis foenerarent. Multi itaque
 offerebant illi decem et recipiebant centum, quantoque plus
 impendebant, tanto plus multiplicato foenore lucrabantur. Sed nemo a
 rege usuras exigere poterat, qui non ante aliquid tribueret. </p>
-               <p n="p3">Haec parabola elemosinae fructum commendat. <q n="q1">Qui  enim
+               <p n="p2">Haec parabola elemosinae fructum commendat. <q n="q1">Qui  enim
 miseretur pauperis </q> (ut ait Scriptura), <q n="q2">Domino
 foenerat. Date, </q> inquit, <q n="q3">et dabitur uobis, mensuram
 bonam, et confertam, et coagitatam, et supereffluentem dabunt in sinum
@@ -909,55 +853,55 @@ caelestis thesauri pariat obliuionem. Cuius quidem thesauri precium qui
 recte consyderauerit, facile caetera omnia contemnet. </p> 
             </div> 
 
-            <div type="parabola" n="div30">
+            <div type="parabola" n="div27">
                <head n="head1">DE AVARITIAE VITIO Parabola XXVII</head> 
 
-               <p n="p2">Quidam domi
+               <p n="p1">Quidam domi
 suae largo igne delectatus ligna lignis cumulando magnum conflauit
 incendium, ita ut domus quoque flammis repente crescentibus correpta
 conflagraret. Quo incendio ipse etiam circumdatus nec effugere ualens
 periit. </p> 
-               <p n="p3">Talis est omnis auarus, qui cumulandarum opum nulla
+               <p n="p2">Talis est omnis auarus, qui cumulandarum opum nulla
 congestione satiatus, quantum potest, aceruo addere non
 cessat. Caeterum, dum foenore, rapinis fraudibusque minus abstinet
 (caeca enim auaritia est, in omnia illicita impetu ruit) poenam, quae
 talibus debetur, elabi nullo modo potest. Et cuncta, quae
 congregauerat, relinquere et gehennae incendia nudus subire
 compellitur. Talis quippe erat ille, <milestone unit="page" n="milestone1"/>de quo in
-Euangelio dictum est: <q n="q2">Mortuus est diues, et sepultus est in
+Euangelio dictum est: <q n="q1">Mortuus est diues, et sepultus est in
 inferno.</q> 
                </p> 
             </div> 
   
-            <div type="parabola" n="div31"> 
+            <div type="parabola" n="div28"> 
                <head n="head1">DE MALORVM CONSORTIO FVGIENDO
 Parabola XXVIII</head>
 
-               <p n="p2">Fullo et carbonarius conducta domo una habitabant. Sed quicquid fullonis cura candificasset
+               <p n="p1">Fullo et carbonarius conducta domo una habitabant. Sed quicquid fullonis cura candificasset
       expollissetque, hoc totum carbonum iuxta iacentium contrectatio nigram diffundens puluisculi
       fuliginem deturpabat. Iam nemo fulloni pannos credere, nemo inertiam eius non culpare. Cunque
       nullum artis suae quaestum facere coepisset, contubernalis exercitio prouocatus ad carbonariam
       animum <corr n="corr1">conuertit</corr>. Igitur de fullone factus et ipse carbonarius, misere uitam
       sustentauit. Tantum illi mali contulit abiectissimi sibique diuersi artificis commune
       habitaculum. </p>
-               <p n="p3">Haec parabola docet perditorum hominum conuersationem probatae uitae uiris esse
+               <p n="p2">Haec parabola docet perditorum hominum conuersationem probatae uitae uiris esse
        <corr n="corr1">perniciosissimam</corr>. Nam cum affectus nostri ad malum magis quam ad bonum proni
       sint, modicum fermentum totam massam corrumpit. Paulatim ad <corr n="corr2">eorum</corr> transferimur
       prauitatem, quorum consortio usi fuerimus. Vnde Apostolus ad Thessalonicenses scribens:
-       <q n="q3">Abstinete uos</q>, inquit, <q n="q4">ab omni fratre ambulante inordinate!</q> Fit enim plerunque,
+       <q n="q1">Abstinete uos</q>, inquit, <q n="q2">ab omni fratre ambulante inordinate!</q> Fit enim plerunque,
       ut, cuius quis uel colloquio uel conuictu delectatur, eius imitetur et mores. Hoc Propheta
-      testatur dicens: <q n="q5">Cum sancto sanctus eris, et cum homine innocente innocens eris, et cum
+      testatur dicens: <q n="q3">Cum sancto sanctus eris, et cum homine innocente innocens eris, et cum
        electo electus eris, et cum peruerso peruerteris</q>. Qui ergo innocentiae suae munditiem
       integram illibatamque conseruare desyderat, flagitiosorum consortia deuitet et sui similium
       accessibus copuletur. </p>
             </div>  
-            <milestone unit="page" n="milestone32"/>
+            <milestone unit="page" n="milestone3"/>
 
  
-            <div type="parabola" n="div33">
+            <div type="parabola" n="div29">
                <head n="head1">DE OCIOSITATE CAVENDA Parabola XXIX</head>
 
-               <p n="p2"> Quidam
+               <p n="p1"> Quidam
 ocio ignauiaeque deditus paupertate grauari coepit angebaturque animo
 se inopem factum. Nec tamen excitari ad agendum aliquid poterat, quo
 sibi uictum <corr n="corr1">compararet</corr>. Somniauit se thesaurum reperisse, quem auide
@@ -969,7 +913,7 @@ fieri uellet, uero labore exerceretur meminissetque ociosi esse
 somniando rem quaerere, industrii uigilando, atque ideo <corr n="corr2">quidem</corr> alterum
 nihil facere lucri, alterum multum.</p>
 
-               <p n="p3"> Haec parabola satis aperte ociosorum arguit stulticiam. Quibus cum
+               <p n="p2"> Haec parabola satis aperte ociosorum arguit stulticiam. Quibus cum
 omnis labor molestus sit, mirantur, quod uitae necessariis
 indigeant. Sed sicut hi, nullo negocio intenti, frustra aliquid
 adipisci sperant, ita et illi profecto, quibus religiosae uitae
@@ -988,28 +932,28 @@ bonitatem!</q>
             </div>
 
 
-            <div type="parabola" n="div34"> 
+            <div type="parabola" n="div30"> 
                <head n="head1">DE MENDACIO
 VITANDO Parabola XXX</head>
 
-               <p n="p2">Quidam fingere solitus dum incederet, quod repentino lapsu crus confregisset, edito eiulatu
+               <p n="p1">Quidam fingere solitus dum incederet, quod repentino lapsu crus confregisset, edito eiulatu
       opem aliorum, ut <milestone unit="page" n="milestone1"/> subleuaretur, implorabat. Multi miserando
-      protinus accurrebant erigebantque iacentem. At ille mox inde exiliens <sic n="sic2">chachinansque</sic>
+      protinus accurrebant erigebantque iacentem. At ille mox inde exiliens <sic n="sic1">chachinansque</sic>
       se illis illusisse iactabat. Plurimis ita deceptis uanitas hominis iam fere nota erat, cum
       forte contigit, ut in itinere pede lapidi incusso concideret coxamque uehementer elideret nec
       sese attollere ualeret. Iccirco humi prouolutus frustra, ut adiuuaretur, diu clamitauit nullo
       non putante id illum, sicuti consueuerat, deridiculi causa simulare. Tum demum intellexit,
       quam male sua sibi cessisset simulatio, cum ibidem aut moriendum foret nemine opem ferente aut
       soli se erigendum. </p> 
-               <p n="p3">Haec parabola nos admonet, ne mendaciis assuescamus. Nam etiam cum uera narrabimus,
+               <p n="p2">Haec parabola nos admonet, ne mendaciis assuescamus. Nam etiam cum uera narrabimus,
       nequaquam uerbis fidem praestabit, quisquis ante fuerit deceptus. Ab illo <corr n="corr1">maxime</corr>
       mendacio declinandum est, quo uel uera religio peruerti posset uel proximus offendi. De
-      eiusmodi genere mendacii dictum est: <q n="q2">Os, quod mentitur, occidit animam.</q>
+      eiusmodi genere mendacii dictum est: <q n="q1">Os, quod mentitur, occidit animam.</q>
                </p> 
             </div> 
-            <div type="parabola" n="div35">
+            <div type="parabola" n="div31">
                <head n="head1">DE ALIIS NON IVDICANDIS Parabola XXXI </head>
-               <p n="p2">Rusticus omnium insulsissimus asellum cum oue in pascuis relictum
+               <p n="p1">Rusticus omnium insulsissimus asellum cum oue in pascuis relictum
 cum non inuenisset, ab ouicula putauit deglutitum et in furorem uersus
 fuste protinus arrepto male acceptam delumbauit atque abiit. Postea,
 ne saltem pellem humano usui aptam perderet, eodem loci rediens
@@ -1017,7 +961,7 @@ asellum, qui dudum aberrauerat, iuxta pascentem reperit et mirabundus
 ac stupens: Ecce mihi, inquit, castigata ouis asellum, quem comederat,
 uiuum euomuit. </p> 
 
-               <p n="p3">O ridiculum et plus quam rusticanae fatuitatis
+               <p n="p2">O ridiculum et plus quam rusticanae fatuitatis
 hominem! Quis unquam audiuit iumentum aliquod ouino ore uel uoratum
 uel editum? Caeterum hec parabola eo spectat, ut credamus non minus
 desipere eos, qui dubiis in rebus certam proferunt sententiam, cum
@@ -1031,11 +975,11 @@ immerito detrahere non uerentur. </p>
             </div> 
 
 
-            <div type="parabola" n="div36"> 
+            <div type="parabola" n="div32"> 
                <head n="head1">DE VICTVS
 MODERATIONE Parabola XXXII </head>
 
-               <p n="p2">Duo rustici suum quisque
+               <p n="p1">Duo rustici suum quisque
 iumentum onerauerant frumento ac uino iter habentes urbem uersus, ut
 his ibi diuenditis pecuniam secum referrent. Sed unius iumentum plus
 iusto pondere pressum prae lassitudine uix incedere poterat gradatimque
@@ -1045,7 +989,7 @@ resedit. Quem etiam latrones inuadentes despoliatum trucidarunt. Alter
 uero, cuius iumento tantum oneris impositum erat, quantum ferre
 poterat, ad nundinas in tempus occurrens plurimum lucri fecit laetusque
 et incolumis domum rediit. </p> 
-               <p n="p3">Haec parabola partim parasitis
+               <p n="p2">Haec parabola partim parasitis
 ganeonibusque partim uictu modico utentibus canitur, ut appareat,
 quantum utrorumque sors inter se distet. Illi, qui esculentis
 poculentisque, supra quam satis est, uentrem inferciunt, iumentum plus
@@ -1053,25 +997,25 @@ aequo onerant. Proinde tardi ad bonum, proni ad malum identidem in
 flagitia prolabendo beatitudinis aeternae mercedem amittunt et ad
 tormentorum loca protinus deuoluti demonum perniciosissimorum, humani
 generis latronum, afficiuntur <corr n="corr1" resp="IK">iniuriis</corr> 
-                  <ref type="nota" xml:id="rd0e725" target="nd0e725" n="ref2"/>. Nempe hoc illud est, quod in Euangelio a Veritate dicitur:
-<q n="q3">Vae uobis, qui saturati estis, quoniam esurietis! </q> Qui
+                  <ref type="nota" xml:id="rd0e725" target="nd0e725" n="ref1"/>. Nempe hoc illud est, quod in Euangelio a Veritate dicitur:
+<q n="q1">Vae uobis, qui saturati estis, quoniam esurietis! </q> Qui
 uero non plus quam naturae necessitas postulauerit uentri indulgent, hi
 iumentum, quantum ferre praeualet, onerant. Inde rationis compotes
 appetitum frenant, uitiis abstinent, uirtutum quaestu ditantur et ad
 caelestem patriam hilares redeunt iam nunquam non beati futuri. De his
-enim dictum est: <q n="q4">Beati, qui nunc esuritis, quoniam <ref type="nota" xml:id="rd0e735" target="nd0e735" n="ref1"/> 
-                     <milestone unit="page" n="milestone2"/>
+enim dictum est: <q n="q2">Beati, qui nunc esuritis, quoniam <ref type="nota" xml:id="rd0e735" target="nd0e735" n="ref1"/> 
+                     <milestone unit="page" n="milestone1"/>
 saturabimini! </q> Cauenda est igitur intemperata libido, quae
 cupiditatibus seruit, ipsumque corporis nostri iumentum ieiunii
-castigatione domandum, ne rectae <corr n="corr5">recalcitret</corr> rationi, sed pareat uel
+castigatione domandum, ne rectae <corr n="corr2">recalcitret</corr> rationi, sed pareat uel
 inuitum. </p> 
             </div>
 
-            <div type="parabola" n="div37"> 
+            <div type="parabola" n="div33"> 
                <head n="head1">DE BONORVM MALORVMQUE HOMINVM VITA
 Parabola XXXIII </head>
 
-               <p n="p2">Est mons quidam asper sane et
+               <p n="p1">Est mons quidam asper sane et
 arduus adituque difficilis. Caeterum in summo patet planities omnis
 generis fructibus exhuberans aquisque irriguis amoenissima et in qua
 nihil omnino, quod animum oblectare possit, desyderatur. Plerique
@@ -1097,13 +1041,13 @@ labore, cum nihil inueniant. Sed hoc quoque mali patiuntur, quod
 diuersarum ferarum, quibus ager ille abundat, morsibus patent: hunc
 leones, illum lupi, alium ursi comprehensum laniant atque alios aliae
 bestiae carptim lacerando interimunt. Cunque hoc ita sit, caeteri
-perinde ac <milestone unit="page" n="milestone2"/> si ab omni prorsus periculo procul
+perinde ac <milestone unit="page" n="milestone1"/> si ab omni prorsus periculo procul
 sint, inter se ludunt, rident, iocantur, uoluptatibus indulgent nec
 ante eidem exitio se obnoxios animaduertunt, quam experimento
 didicerint. Adeo mens uitiis dedita nihil, quod cauendum sit,
 prospicit, nisi forte cum iam caueri non possit. </p> 
 
-               <p n="p3">Haec parabola
+               <p n="p2">Haec parabola
 bonorum malorumque hominum uitam comprehendit. Arduus est et
 difficilis uirtutum ascensus, at in summo beatae quietis merces
 est. Campi autem, qui ima montis tenent, latas uias habent, quae ducunt
@@ -1130,23 +1074,23 @@ colle superato iam summa attigere, beati exultant. Alteros breuis
 labor ad aeternam prouexit quietem, alteros breuis uoluptas
 inextinguibilis ignis oppressit ardoribus. Vtrorunque finem cogitet,
 qui nosse cupit, qualiter sibi inter mortales uiuendum sit.</p> 
-               <milestone unit="page" n="milestone4"/> 
+               <milestone unit="page" n="milestone1"/> 
             </div> 
 
-            <div type="parabola" n="div38"> 
+            <div type="parabola" n="div34"> 
                <head n="head1">DE PERSEVERANTIA BONI Parabola
 XXXIV</head>
 
-               <p n="p2">Duo lini textores erant, satis uterque artis periti, sed
+               <p n="p1">Duo lini textores erant, satis uterque artis periti, sed
 ingenio diuersi. Alter enim opus suum ardenter accelerabat, alter
 moderate admodum exercebatur. Ille ergo festinus, cum multum una
 alteraque die operis confecisset, lapsus demum <sic n="sic1">resedit</sic> factusque est
 remissior, et laborem pertesus telam, cui texendae tanto studio
-incubuerat, imperfectam <corr n="corr2">dimissit</corr>. Hic autem, qui in eiusmodi negocio
+incubuerat, imperfectam <corr n="corr1">dimissit</corr>. Hic autem, qui in eiusmodi negocio
 minus strenuus uidebatur, quia tamen coepto operi manum nunquam
 subtraxerat, eo peracto boni prudentisque textoris laudem
 reportauit. </p> 
-               <p n="p3">Haec parabola admonet saepe contingere, ut religiosae
+               <p n="p2">Haec parabola admonet saepe contingere, ut religiosae
 uitae propositum mutent, qui, dum proficere immodestius affectant,
 supra uires sese laboribus grauant. Ediuerso autem moderate
 laborantium temperies constans ac firma permanet, et cum semper eodem
@@ -1157,10 +1101,10 @@ currunt, metam citius attingunt et adepti uictoriam coronantur. </p>
             </div> 
 
 
-            <div type="parabola" n="div39"> 
+            <div type="parabola" n="div35"> 
                <head n="head1">DE HVMILITATE ET SVPERBIA Parabola XXXV </head>
 
-               <p n="p2">Obsidebatur ciuitas Gygantum ab exercitu hominum Gyganteae
+               <p n="p1">Obsidebatur ciuitas Gygantum ab exercitu hominum Gyganteae
 proceritati pene aequalium, ab ea murorum parte, quae occidentem
 spectat. Eam uero, quae orientem respicit, oppugnabant exigui quidem
 corporis, sed uirium robore uiri praestantes atque inuicti. Igitur
@@ -1170,12 +1114,12 @@ ampla corpora directi. Hi ergo, quia imprimis magnae staturae erant, ad
 unum perierunt cadaueraque eorum coruis pabulum fuere. <milestone unit="page" n="milestone1"/>
                </p> 
 
-               <p n="p3">Illi autem pusilli et pomilionibus pares, cum ad certamen
+               <p n="p2">Illi autem pusilli et pomilionibus pares, cum ad certamen
 progrederentur, facile uitatis ictibus acriter instabant. Itaque
 proxime subeundo per subterraneos cuniculos urbem irrumpentes, ciuibus
 partim caesis, partim in uincula coniectis, rerum potiti sunt, tanto
 celsiorem adepti gloriam, quanto statura minores erant. </p> 
-               <p n="p4">Haec
+               <p n="p3">Haec
 parabola superbiam premit, humilitatem extollit. Ciuitas Gygantum
 <corr n="corr1">potentia</corr> demonum est. Sub ea superbi sedent, humiles pugnant. Diaboli
 iaculis homines arrogantia elati feriuntur, dum uitiorum offendicula
@@ -1185,28 +1129,28 @@ uiribus fortiores sunt, non muros illos scandunt, in quibus
 aduersariorum superbiam stare uideant, ne pari cum illis uitio
 notentur. Sed uerae humilitatis cuniculos prudenter subeundo uictores
 euadunt et dominari incipiunt. Laeti deinde iam ad caelestem prouecti
-gloriam illum de Euangelio uersiculum decantant: <q n="q3">Deposuit
+gloriam illum de Euangelio uersiculum decantant: <q n="q1">Deposuit
 Dominus potentes de sede et exaltauit humiles. </q> His oritur sol
 iustitiae, illis occidit, quia Deus et superbis resistit et humilibus
 dat gratiam. Ideo alteri orientem uersus stare dicuntur, alteri
 occidentem. In lumine igitur ueritatis manent, qui humiliantur, et in
-tenebris erroris excutiuntur, qui superbiunt. Quid multa? <corr n="corr4">Deiecta</corr> de
+tenebris erroris excutiuntur, qui superbiunt. Quid multa? <corr n="corr3">Deiecta</corr> de
 caelo superbia corruit in infernum, de inferno sublata humilitas
-ascendit in caelum. Et adhuc aliquis uel <corr n="corr5">superbire</corr> audet uel humiliari
+ascendit in caelum. Et adhuc aliquis uel <corr n="corr4">superbire</corr> audet uel humiliari
 negligit? Profecto nihil est illo stultius, qui ex his duobus inter se
 contrariis, quid sibi eligat, nescit. </p> 
             </div> 
 
 
-            <div type="parabola" n="div40"> 
+            <div type="parabola" n="div36"> 
                <head n="head1">DE
 PATIENTIA INIVRIAE Parabola XXXVI </head> 
 
-               <p n="p2">Quidam conditum in arca thesaurum seruo suo tradidit seruandum
+               <p n="p1">Quidam conditum in arca thesaurum seruo suo tradidit seruandum
 iubens, ut, sicuti acceperat, illaesum ita, cum posceretur,
 restitueret. <sic n="sic1">Seruae</sic> ergo multa cum solicitudine obseruabat illum,
 nequis uel per uim eriperet uel furto surriperet. Interea, dum
-custoditur, arcam, quia lignea <milestone unit="page" n="milestone2"/> erat, caries uitiare
+custoditur, arcam, quia lignea <milestone unit="page" n="milestone1"/> erat, caries uitiare
 coepit, teredines exedere. Iam parum aberat, ut quaqua uersum corrupta
 opulentiam illam detegeret, quam intra se occultabat. Cum igitur
 cerneret seruus arculam indies deperire atque absumi, nihil id pensi
@@ -1216,7 +1160,7 @@ laetebatur, quod arcae labes ipsam probatura esset seruantis fidem, cum
 is fatiscente quoque repositorio domini thesaurum dispergi
 dissiparique non permiserit. </p>
 
-               <p n="p3">Haec parabola nos ad patientiam iniuriarum
+               <p n="p2">Haec parabola nos ad patientiam iniuriarum
 hortatur, quae nobis quandoque indigne irrogantur, si quicquam irrogari
 indigne peccatoribus potest. Igitur aequo animo tolleremus, siquis nos
 contumeliis carpat, rapinis exhauriat, maledictis lacessat, siquis nos
@@ -1238,20 +1182,20 @@ uestra copiosa est in caelis! </q> Quis ergo tam insipiens rerum
 existimator est, ut non anteponat aeternam patientiae mercedem cuicunque
 iniuriae uindictae? </p> 
             </div>
-            <milestone unit="page" n="milestone41"/>   
+            <milestone unit="page" n="milestone4"/>   
 
-            <div type="parabola" n="div42"> 
+            <div type="parabola" n="div37"> 
                <head n="head1">DE INIVRIA QVAE
 NEMINI MAGIS NOCET QVAM SVO AVTORI Parabola XXXVII </head> 
 
-               <p n="p2">Fuit quidam tam irae impatiens, ut, cum in alios commotus fuisset,
+               <p n="p1">Fuit quidam tam irae impatiens, ut, cum in alios commotus fuisset,
 seipsum diuerberaret, neque uerbera solum, sed etiam uulnera quandoque
 infligere sibimet uisus. Etenim indignationis Furiis uelut rabidus
 canis agitatus, quoties aduersus quempiam furere coepisset, stricto
 repente gladio corpus suum sauciabat. 
 </p> 
 
-               <p n="p3">
+               <p n="p2">
  Talis est quilibet malignae mentis improbique ingenii uir. Quoties
 alium laedere parat, semper seipsum grauius offendit; dum alterum
 uerbis petulantibus lacessit, plus sibi quam illi nocet; iisdem
@@ -1273,14 +1217,14 @@ mundo? Nolite ergo contemnere animam (ut Apostolus inquit) <q n="q1">pro
 qua Christus mortuus est. </q> Nam suam contemnit, non solum qui
 proximum odit, sed etiam ille qui non diligit. </p>
             </div> 
-            <milestone unit="page" n="milestone43"/>
+            <milestone unit="page" n="milestone5"/>
 
 
-            <div type="parabola" n="div44"> 
+            <div type="parabola" n="div38"> 
                <head n="head1">DE BONO OPERE PERMANENTIS IN PECCATO Parabola
 XXXVIII</head> 
 
-               <p n="p2">Arborem frugiferam agricola fouere uolens, multo
+               <p n="p1">Arborem frugiferam agricola fouere uolens, multo
 labore et fimum ei apponebat et aquam quotidie trunco infundebat. Nec
 tamen efficere potuit, quin illa liuescentibus primo foliis, deinde
 collabentibus pene tota aresceret, quia radici uermis inerat, cuius
@@ -1291,7 +1235,7 @@ sanata radice arbor paulatim reuixit et humore accepto folia emisit,
 florem fecit, fructus ad maturitatem usque perduxit, reliqui quoque
 temporis hubertate suo fauit cultori. </p> 
 
-               <p n="p3">Haec parabola eos
+               <p n="p2">Haec parabola eos
 respicit, qui, cum multum in uirtutibus capessendis desudent, parum
 tamen aut nihil proficiunt, quandiu crimen aliquod intra se
 fouent. Scriptum est enim: <q n="q1">Qui in uno peccauerit, multa bona
@@ -1307,10 +1251,10 @@ salutem.
 </p> 
             </div>
 
-            <div type="parabola" n="div45"> 
+            <div type="parabola" n="div39"> 
                <head n="head1">DE MORTE OMNIBVS COMMVNI Parabola XXXIX</head>
 
-               <p n="p2">Villicus, cum fenum meteret solo tenus, pratenses herbas tam quae
+               <p n="p1">Villicus, cum fenum meteret solo tenus, pratenses herbas tam quae
 maturae erant, quam quae adhuc lactentes tenellaeque, simul
 collegit. Cunctae denique pariter siccatae <milestone unit="page" n="milestone1"/> sunt. Quidam
 uillicarum rerum ignari incusabant eum imprudentiae, quod herbiculas
@@ -1322,7 +1266,7 @@ auribus caret, nihil audit, et quia ferrea est, nulli omnino herbae
 parcit; quocunque aciem suam uerterit, demetit omnia. 
 </p>
 
-               <p n="p3">
+               <p n="p2">
  Haec parabola uitae mortisque nostrae similitudinem
 tenet. Hodie iuuenes, cras senes sumus. Mors autem nemini parcens
 nullum aetatis facit discrimen, nullum sexus, nullum fortunae, nullum
@@ -1332,15 +1276,15 @@ infirmos. Insipienter itaque de illa <corr n="corr1">querimur</corr>, cuius ea n
 nullum habeat hominum delectum. Omnibus quippe se praebet communem. Et
 cum una uitae mortalium conditio sit, profecto, qui aliquem <corr n="corr2">mori</corr> dolet,
 genitum quoque fuisse dolere debuit. Nam uerissimum est, quod quidam
-ait: <q n="q3">Nascentes morimur finisque ab origine pendet.</q> 
+ait: <q n="q1">Nascentes morimur finisque ab origine pendet.</q> 
                   <!-- Manil. 4,16 -->
                </p>
             </div> 
 
-            <div type="parabola" n="div46"> 
+            <div type="parabola" n="div40"> 
                <head n="head1">DE MORTE ALIORVM NON LVGENDA Parabola XL </head>
 
-               <p n="p2">
+               <p n="p1">
  Mulier quaedam filium peregre proficiscentem non sine lachrymis
 dimisit. Ille, ut moestam matrem consolaretur: Bono animo esto,
 inquit, ero iterum tecum citius quam putas. Putabat autem illa non
@@ -1350,9 +1294,9 @@ breui posset expediri. Caeterum anno nondum elapso casu contigit, ut
 illa inimicorum ui natali solo pulsa eo abiret, quo filium
 praemiserat. Atque ipsum <sic n="sic1">arctius</sic> amplexa nihilominus <sic n="sic2">ferre</sic> coepit. Tunc
 ad eam filius: Indigna res est, o mater, ut, quo absente tristabare,
-eo praesente gaudere uel saltem non dolere nolle. <milestone unit="page" n="milestone3"/> 
+eo praesente gaudere uel saltem non dolere nolle. <milestone unit="page" n="milestone1"/> 
                </p>
-               <p n="p3">
+               <p n="p2">
  Haec parabola innuit ridiculos esse, qui suos uita decedentes nimis
 immoderate deplorant, cum ipsi incessanter post illos gradu
 <corr n="corr1">inreuocabili</corr> properent, cum omni spe citius fato compellente eos, quos
@@ -1361,14 +1305,14 @@ eodem loci <corr n="corr2">quam</corr> celerrime conueniant. Praeter haec, si be
 apostolus eos, qui in Domino moriuntur, nonne pios bonosque lugere
 beatudinem illis inuidere est? Infideles autem et iniquos deflere
 quidem, non quod moriantur, debemus, sed quod in peccato
-moriantur. Scriptum est enim: <q n="q3">Mors peccatorum pessima</q>. </p> 
+moriantur. Scriptum est enim: <q n="q1">Mors peccatorum pessima</q>. </p> 
             </div> 
 
-            <div type="parabola" n="div47"> 
+            <div type="parabola" n="div41"> 
                <head n="head1">DE HORA MORTIS INCERTA, VT SEMPER PARATI
 SIMVS Parabola XLI </head> 
 
-               <p n="p2">
+               <p n="p1">
  Imperator confecto bello, cum
 uictor in patriam remeasset, donatiuum militibus erogaturus edixit,
 quod, qua die in forum ipse descendisset, uenienti sibi omnes cum
@@ -1382,7 +1326,7 @@ imperator die, qua non putabant, in forum improuisus affuisset,
 donauit omnes, quos offendit armatos, quos autem inermes <corr n="corr1">reperit</corr>,
 mulctauit. 
 </p> 
-               <p n="p3">Haec ad omnes pertinet parabola. Omnibus enim ab
+               <p n="p2">Haec ad omnes pertinet parabola. Omnibus enim ab
 imperatore caelesti praedictum est: <q n="q1">Estote parati, quia, qua hora
 non putatis, Dominus uester uenturus est. </q> Tunc uenit Dominus,
 cum morte sublatos suo nos tribunali sisti iubet. Si pietatis
@@ -1391,16 +1335,16 @@ praemiis donandos laetus excipiet. Sin autem animi bonis exutos uiderit,
 supplicio afficiendos iratus deputabit. Igitur, quoniam diem uitae
 nostrae ultimum nosse non possumus, hunc semper hodiernum esse
 existimemus. Talesque semper simus, quales in fine futuros esse 
-<milestone unit="page" n="milestone2"/>cupimus. Quotidie quippe uigilandum nobis est, quibus
-praecipitur: <q n="q3">Vigilate, quia nescitis diem neque horam!</q>
+<milestone unit="page" n="milestone1"/>cupimus. Quotidie quippe uigilandum nobis est, quibus
+praecipitur: <q n="q2">Vigilate, quia nescitis diem neque horam!</q>
                </p> 
             </div> 
 
 
-            <div type="parabola" n="div48"> 
+            <div type="parabola" n="div42"> 
                <head n="head1">DE DOCTORIS ECCLESIASTICI MERITO Parabola XLII</head>
 
-               <p n="p2">
+               <p n="p1">
  Rex uidens regni sui populos absque lege non
 satis ciuiliter degere, legationem in omnes misit, uiuendi formulas
 praebuit, eas obseruantibus proposuit praemium, non obseruantibus
@@ -1411,7 +1355,7 @@ numerus esset eorum, qui recti aequique normam non receperant, legatos
 tamen illos rex, cum redissent, quia probe officio suo defunctos
 constabat, dignis honoribus bonisque affecit. 
 </p> 
-               <p n="p3">
+               <p n="p2">
   Haec parabola
 euangelici doctoris munus commendat, qui caeteris uiam ostendit
 salutis, et ut per uirtutum gradus caelum conscendant, hortatur. Licet
@@ -1421,34 +1365,34 @@ opere compleuerint, quod audiendo didicissent. Neque enim doctori
 fraudi esse debet auditorum culpa. Non est ideo neganda merces
 <corr n="corr1">operario</corr>, qui sementem facit, quia infoecunda humus minus frugis domino
 reddat. Vnde ipsis, qui ad docendam ueritatem destinabantur, praeceptum
-est: <q n="q2">In quamcunque domum intraueritis, primum dicite: Pax domui
+est: <q n="q1">In quamcunque domum intraueritis, primum dicite: Pax domui
 huic! Et si ibi fuerit filius pacis, requiescet super eum pax uestra;
 sin minus, ad uos reuertetur.</q> Porro, qui docendi officium
 suscipiunt, si, quemadmodum debent, docere neglexerint, quicquid de
 populo perierit, illis imputabitur, dicente Domino per Ezechielem:
-<q n="q3">Speculatorem dedi te domui Israhel: et audies de ore meo uerbum,
+<q n="q2">Speculatorem dedi te domui Israhel: et audies de ore meo uerbum,
 et annunciabis eis ex me. Si, dicente me ad impium: Morte morieris,
 non annunciaueris ei neque locutus fueris, ut auertatur a uia sua
 impia et uiuat, ipse impius in iniquitate sua morietur, sanguinem
 autem eius de manu tua requiram.</q>
                </p> 
             </div>
-            <milestone unit="page" n="milestone49"/>  
+            <milestone unit="page" n="milestone6"/>  
 
 
-            <div type="parabola" n="div50">
+            <div type="parabola" n="div43">
                <head n="head1">DE INANI GLORIA ET AVARITIA DOCTORI CAVENDA Parabola
 XLIII</head> 
 
-               <p n="p2">
+               <p n="p1">
  Pastori mandauerat gregis dominus ad pascua laeta agere
 oues herbisque optimis pastas ad caulam reducere diligenterque
 custodire. Et ille, ut bene pastae essent, curauit quidem, sed aliis
 earum lac, aliis lanam surripere non erubuit. Cunque dominus partim
 emulsas, partim deglabratas esse uidisset, in pastorem iratus <sic n="sic1">intantum</sic>
-                  <corr n="corr2">illi</corr> pactam pro labore mercedem soluere noluit, ut etiam male pro
+                  <corr n="corr1">illi</corr> pactam pro labore mercedem soluere noluit, ut etiam male pro
 temeritatis crimine mulctatum dimitteret. </p> 
-               <p n="p3">Terreat haec parabola
+               <p n="p2">Terreat haec parabola
 Ecclesiae doctores, ut, cum diuini uerbi pabulo Domini sui ouile bene
 nutrierint, nihil inde sibi uenari praesumant. Ille enim lac ouium
 mulget, qui ab iis, quos docet, plausum laudis captat, dum quaestionum
@@ -1466,17 +1410,17 @@ concupiscit.
             </div> 
 
 
-            <div type="parabola" n="div51"> 
+            <div type="parabola" n="div44"> 
                <head n="head1">DE DOCTORE QVI ALITER DOCET,
 ALITER VIVIT Parabola XLIV </head> 
 
-               <p n="p2">Dux a rege in
+               <p n="p1">Dux a rege in
 expeditionem missus magno animo certamen mire suos hortabatur
 tantumque prae se ferebat audaciae, ut primus cum hoste congressurus
 uideretur. Cum autem in aduersariorum copias repente incidisset,
 castra quidem muniit et nihilominus alios in aciem descendere et manum
 conserere iussit, sed ipse in tuto residens, postquam uidit <corr n="corr1">clamore</corr>
-utrinque sublato acies concurrere, arma <milestone unit="page" n="milestone2"/>misceri et
+utrinque sublato acies concurrere, arma <milestone unit="page" n="milestone1"/>misceri et
 iam digladiantium cruore solum passim spargi, non expectato belli
 euentu primus tergum uertit. Deinde milites quoque duce destitutos
 fudit hostis. Qui periculum elapsi fuerant, adito rege ducis ignauiam
@@ -1485,28 +1429,28 @@ dixerunt, in pedibus metum; ideo uictoriam aduersariis
 reliquisse. Rex, ubi accepit ducis culpa rem male gestam, urbe electum
 exilio mulctauit. </p> 
 
-               <p n="p3">Haec parabola illos respicit praedicatores,
+               <p n="p2">Haec parabola illos respicit praedicatores,
 qui, quod uerbis aedificant, exemplo destruunt, et quod alios
 exposcunt, ipsi minime praestant. Aliis onera grauia imponunt, ipsi ne
 digito quidem ea tangere uolunt. Longe enim dissimiliter uiuunt atque
 uiuendum <corr n="corr1">praecipiunt</corr>. Moresque eorum cum oratione, cum dictis facta
 repugnant. Proindeque illud, quod suadent, non persuadent. Cum enim ad
-<sic n="sic2">capescendam</sic> uirtutem caeteros hortati fuerint, ludere putantur et quasi
+<sic n="sic1">capescendam</sic> uirtutem caeteros hortati fuerint, ludere putantur et quasi
 deridiculi causa plebi praecipere, quod ipsi non faciunt. Quoniam autem
 acerrime uitia reprehendunt, quae ipsi committere non uerentur, nonne
 semetipsos propria uoce damnant? Quid igitur obstat, ne a iusto Iudice
 damnentur, quando quidem suo se praeiudicio iam condemnarunt? Auditorum
-tamen saluti consulens Dominus: <q n="q3">Omnia</q> , inquit,
-<q n="q4">quaecunque dixerint uobis, facite, secundum uero
+tamen saluti consulens Dominus: <q n="q1">Omnia</q> , inquit,
+<q n="q2">quaecunque dixerint uobis, facite, secundum uero
 opera eorum nolite facere. Dicunt enim, et non faciunt</q>. 
 </p>
             </div> 
   
-            <div type="parabola" n="div52"> 
+            <div type="parabola" n="div45"> 
                <head n="head1">DE DOCTORE QVI, QVEMADMODVM DOCET, ITA VIVIT
 Parabola XLV </head> 
 
-               <p n="p2">Vir quidam imprimis diues conductis ad
+               <p n="p1">Vir quidam imprimis diues conductis ad
 excolendum agrum operariis famulum suum praefecit, qui laborantibus
 instaret. Ille uidens tandem, quod uerbis urgendo adhortandoque parum
 proficeret, sumpto manibus ligone operi sese ardenter accinxit, parem
@@ -1521,20 +1465,20 @@ excusationis locum. Qualem enim ipse corporis fatigationem ultro subit
 ac sustinet, talem etiam omnes reliquos ferre posse certissime
 testatur. </p> 
 
-               <p n="p3">Haud aliter conuenit ei, qui in ecclesia ad <corr n="corr1">populum</corr>
+               <p n="p2">Haud aliter conuenit ei, qui in ecclesia ad <corr n="corr1">populum</corr>
 declamat. Talem ergo se exibeat, quales uult reliquos esse, quos
 docet; nec solum uerbis instruat, sed etiam exemplo. Ille denique
 arguat alios, qui ipse redargui non possit. Coepit nempe Iesus facere
 et docere; sic apostoli, sic euangelistae, sic omnes nuncii Christi
-fideles. <q n="q2">Qui autem fecerit et docuerit sic, hic magnus uocabitur
+fideles. <q n="q1">Qui autem fecerit et docuerit sic, hic magnus uocabitur
 in regno caelorum, </q> ait Dominus. </p> 
             </div> 
   
-            <div type="parabola" n="div53"> 
+            <div type="parabola" n="div46"> 
                <head n="head1">DE
 PASSIONE DOMINI PRO SERVIS SVSCEPTA Parabola XLVI </head> 
 
-               <p n="p2">In ciuitate omnium praecipua rex erat prae caeteris
+               <p n="p1">In ciuitate omnium praecipua rex erat prae caeteris
 praestantissimus. Huic serui prope innumerabiles et quidem egregii
 summa cum ueneratione atque fide obsequebantur ac parabant. Dignus
 enim erat, qui ab omnibus coleretur et obseruaretur ob singularem in
@@ -1566,7 +1510,7 @@ clemens. Nam si peccare non cessantes impunitos dimisisset, non
 ignoscere peccantibus uideretur, sed fauere, quod ab omni prorsus
 bonitate alienum foret. </p> 
 
-               <p n="p3">Longiusculo ambitu recitata parabola, quoniam ipsa se pandit, a
+               <p n="p2">Longiusculo ambitu recitata parabola, quoniam ipsa se pandit, a
 nobis breuiter explicabitur. Rex regum Christus e caelo in terram
 delapsus mori uoluit, ut nos a morte redimeret. Tertia die uiuus
 resurrexit et in caelum ascendit, ut nobis resurrecturis in caelo
@@ -1584,22 +1528,22 @@ damnat, quia et misericors et iustus est Dominus.
   
   
 
-            <div type="parabola" n="div54"> 
+            <div type="parabola" n="div47"> 
                <head n="head1">DE PVRGATORIO Parabola XLVII </head> 
 
-               <p n="p2">Rex
+               <p n="p1">Rex
 inter potentissimos primus mensam habet decore egregiam et
 electissimorum ferculorum semper plenam. <milestone unit="page" n="milestone1"/> Quam uasa
 auri purissimi mirabilique fulgore radiantia exornant. Nihil in ea
 infertur pollutum, nihil aliqua in parte maculatum. Huic regi lances
-aureae, et hae quidem <sic n="sic2">affabre</sic> factae aliquando oblatae cum non satis
+aureae, et hae quidem <sic n="sic1">affabre</sic> factae aliquando oblatae cum non satis
 purgati metalli apparuissent, remittendas artificibus curauit, ut igni
 excoquerentur reficerenturque et omni demum consumpta scoria dignae
 fierent conuiuii sui uasis annumerari. Itaque multo cum labore
 purificatum metallum elegantiorique forme, quam antea fuerat,
 redditum, ad mensam tandem regis est receptum et in deliciis aeque ac
 caetera habitum. </p> 
-               <p n="p3">Haec parabola liquido ostendit eos, qui
+               <p n="p2">Haec parabola liquido ostendit eos, qui
 caelestis mensae uasa effici cupiunt, oportere ut omni prorsus
 expurgentur peccatorum spurcicia utque nihil in animo residui sit,
 quod maiestatis diuinae conspectum offendat. Quicunque igitur ex hac
@@ -1610,7 +1554,7 @@ sit. Cum autem omni penitus animi labe ablata omni auro purior
 <corr n="corr1">euaserit</corr>, ad regis regum mensam uitae aeternae nectare alendus feliciter
 transferetur. Et cum gustare coeperit, quam suauis est Dominus,
 ineffabili gaudio perfusus pro tantae beatitudinis beneficio gratias
-aget gestiensque et exultans cum sanctis decantabit: <q n="q2">Transiuimus
+aget gestiensque et exultans cum sanctis decantabit: <q n="q1">Transiuimus
 per ignem et aquam, et eduxisti nos, Domine, in refrigerium. </q>
 Quanuis autem purgatorii poena omnium catholicorum iudicio grauissima
 sit, cum tamen stabilem firmamque futuri boni spem habeat, aequo animo
@@ -1622,10 +1566,10 @@ salute conferenda.
  </p> 
             </div> 
 
-            <div type="parabola" n="div55"> 
+            <div type="parabola" n="div48"> 
                <head n="head1">DE INFERNO Parabola XLVIII</head>
 
-               <p n="p2">Est specus quaedam monti omnium maximo
+               <p n="p1">Est specus quaedam monti omnium maximo
 subiecta et ipsa ingens intusque latissime patens atque in labyrinthi
  <milestone unit="page" n="milestone1"/> more uiarum ambagibus ita implicata, ut, qui semel
 introierit, exitum nesciat reperire. Scrupeae interius asperrimaeque
@@ -1658,7 +1602,7 @@ uertices et uerbere perfringit et flammigero ustulat ardore. Quid
 moror in singulis? Omnia illic mala sunt, quaecunque ubique sunt, boni
 nihil. Quis ergo ea uel fando explicet uel cogitando comprehendat?
 </p> 
-               <p n="p3">Nunc reliquum est, ut uideamus, utrum parabolam fingimus, an,
+               <p n="p2">Nunc reliquum est, ut uideamus, utrum parabolam fingimus, an,
 ut res se habeat, narramus. Iam primum, sub terra tormentorum locum
 esse Scripturae ueritatis aperte testantur, crebro inferni et inferorum
 mentionem facientes. In his quoque discimus ea, quae modo a me dicta
@@ -1668,28 +1612,28 @@ queat. Quod enim locus ille teter et obscurus sit, inde habemus, ubi
 in Euangelio domini iussu seruus nequam in tenebras mittitur
 exteriores. Quod autem ignis in malorum supplicium diro semper ardeat
 incendio, terribilis illa Iudicis sententia ostendit dicentis:
-<q n="q2">Discedite a me maledicti in ignem aeternum! </q> Quod ibi
-fumus etiam tedio sit, ex Apocalypsi Ioannis constat: <q n="q3">De puteo,
-</q> inquit, <q n="q4">ascendit fumus sicut fumus fornacis
-magnae. </q> Et iterum: <q n="q5">Fumus tormentorum eorum ascendet in
+<q n="q1">Discedite a me maledicti in ignem aeternum! </q> Quod ibi
+fumus etiam tedio sit, ex Apocalypsi Ioannis constat: <q n="q2">De puteo,
+</q> inquit, <q n="q3">ascendit fumus sicut fumus fornacis
+magnae. </q> Et iterum: <q n="q4">Fumus tormentorum eorum ascendet in
 secula seculorum. </q> Quod praeterea poenas intollerabilis grauet
-foetor, eorum libro legitur: <q n="q6">Pars illorum erit in stagno ardenti
+foetor, eorum libro legitur: <q n="q5">Pars illorum erit in stagno ardenti
 igne et sulphure. </q> Non solum autem ignis, uerum etiam frigoris
-tormenta ibidem esse credimus, quia in Iob scriptum est: <q n="q7">Ad
+tormenta ibidem esse credimus, quia in Iob scriptum est: <q n="q6">Ad
 calorem nimium <corr n="corr1">transibunt</corr> ab aquis niuis. </q> Et in Euangelio:
-<q n="q8">Ibi erit fletus et stridor dentium. </q> Fletum fumus
+<q n="q7">Ibi erit fletus et stridor dentium. </q> Fletum fumus
 excitat, stridorem dentium frigus. Ventos uero et ignitam grandinem et
-procellas psalmista indicat, dum ait: <q n="q9">Pluet super peccatores
+procellas psalmista indicat, dum ait: <q n="q8">Pluet super peccatores
 laqueos; ignis et sulphur, et spiritus procellarum, pars calicis
 eorum. </q> Porro, quod plurimi ad inferna descendant nec inde
 exire possint quodque prae magnitudine cruciatus mortem optent et mori
-nequeant, partim ab Esaia discimus, ubi ait: <q n="q10">Congregabuntur
+nequeant, partim ab Esaia discimus, ubi ait: <q n="q9">Congregabuntur
 congregatione unius fascis in lacum et claudentur ibi in carcere,
-</q> partim a Ioanne in Apocalypsi dicente: <q n="q11">Quaerent mortem,
+</q> partim a Ioanne in Apocalypsi dicente: <q n="q10">Quaerent mortem,
 et non inuenient eam; et desyderabunt mori, et fugiet mors ab
 eis. </q> Quod postremo ibi serpentes bestiaeque habitent, id est
 infensi humano generi spiritus, Dominus in Euangelio de aeterno inferni
-igne loquens omnibus manifestum fecit, cum dixit: <q n="q12">Qui
+igne loquens omnibus manifestum fecit, cum dixit: <q n="q11">Qui
 paratus est diabolo et angelis eius. </q> Sexcenta talia in libris
 diuinis conscripta et multi legunt et plurimi, dum leguntur,
 audiunt. Nec tamen uitam corrigere curant, quasi qui ea uera esse
@@ -1698,9 +1642,9 @@ proderit. Dum ergo licet, dum datur, operemur bonum, ne talia deinde
 subire cogamur, qualia meminisse, nedum pati, supplicium est. </p>
             </div> 
 
-            <div type="parabola" n="div56"> 
+            <div type="parabola" n="div49"> 
                <head n="head1">DE PARADISO Parabola XLIX </head>
-               <p n="p2">Quoniam autem similitudines, id est parabolae, semper minus aliquid
+               <p n="p1">Quoniam autem similitudines, id est parabolae, semper minus aliquid
 habent quam res ipsa, quae per illas designatur, quicquid inferno
 diximus, parabola est. Eadem profecto ratione, quicquid nunc de
 paradiso, hoc est caelesti regno, dicturus sum, erit parabola. Quia
@@ -1719,7 +1663,7 @@ rex Dauid, cum diceret: <q n="q2">Domine, dilexi decorem domus tuae, et
 locum habitationis gloriae tuae. </q> Et alibi: <q n="q3">Quam dilecta
 tabernacula tua, Domine Deus uirtutum! Concupiscit et deficit anima
 mea in atrio Domini. </q> Merito magnificentiae regni sui
-<corr n="corr4">obliuiscitur</corr>, dum paradisi pulchritudinem miratur. Merito terrena
+<corr n="corr1">obliuiscitur</corr>, dum paradisi pulchritudinem miratur. Merito terrena
 omnia contemnit, dum caelestia animo metitur. Si enim illic domus Dei
 est et habitatio gloriae eius et tabernacula atriumque Domini Dei
 uirtutum, nonne, sicuti Deo maius nihil est, ita paradisi loco nullus
@@ -1727,13 +1671,13 @@ omnino locus excellentior, nulla gloriosior sedes, nullum felicius
 domicilium? Illic se uidendam praebet Sancta Trinitas, Deus unus, Pater
 in Filio et Filius in Patre, et cum utroque Spiritus Sanctus, non in
 aenygmate per speculum, sed facie ad faciem. Ad quem psalmista ait:
-<q n="q5">Adimplebis me laetitia cum uultu tuo. </q>
+<q n="q4">Adimplebis me laetitia cum uultu tuo. </q>
 Etenim, quia Deus lux est, illic angelos hominesque sua illuminat
 claritate. Et quia uita est, omnibus illic immortalitatem
 incorruptionemque impartit. Et quia charitas est, omnes unum Ecclesiae
 corpus efficit. Et quia denique bonorum omnium fons est, bonis
-omnibus illos, quos ad se recipit, <milestone unit="page" n="milestone6"/> implet, ita ut
- nihil maius optent, nihil suauius gustent, nihil melius desyderent,<ref type="nota" xml:id="rd0e1107" target="nd0e1107" n="ref7"/> nihil appetant
+omnibus illos, quos ad se recipit, <milestone unit="page" n="milestone1"/> implet, ita ut
+ nihil maius optent, nihil suauius gustent, nihil melius desyderent,<ref type="nota" xml:id="rd0e1107" target="nd0e1107" n="ref1"/> nihil appetant
 beatius, nihil perennius incommutabiliusque cupiant. Nam nulla esse
 potest ultra uotorum progressio, cum is habetur, in quo uno sunt
 omnia, et a quo omnia, et per quem omnia. Ipsum solum possidere,
@@ -1754,7 +1698,7 @@ eminentius bonum illud, quod a reliquis rebus diuina prouidentia ita
 separauit, ut nulli alii nisi angelis, qui in ueritate steterunt, et
 hominibus, qui pie iusteque uixerunt, proprium esset et peculiare?
 Hoc certe illud est, ad quod capiendum fruendumque suos duntaxat
-electos inuitabit Saluator dicens: <q n="q8">Venite benedicti Patris mei,
+electos inuitabit Saluator dicens: <q n="q5">Venite benedicti Patris mei,
 possidete paratum uobis regnum a constitutione mundi! </q> O,
 prouocet saltem ad bene agendum tam immensae tamque inaestimabilis
 beatitudinis certa promissio, quos a uitiis terribilium suppliciorum
@@ -1766,13 +1710,13 @@ praesentis uitae uoluptatibus diffluere quam Deo seruire maluerit.
 </p>
             </div>
 
-            <milestone unit="page" n="milestone57"/>   
+            <milestone unit="page" n="milestone7"/>   
 
 
-            <div type="parabola" n="div58">
+            <div type="parabola" n="div50">
                <head n="head1">DE VLTIMO IVDICIO Parabola L </head>
 
-               <p n="p2">
+               <p n="p1">
 Lex erat a rege lata, ut, quicunque septuagesimum aetatis suae annum
 peregisset, cuncta eius acta rite diligenterque examinarentur, et
 ille, in quo plus uitii quam uirtutis extitisse apparuisset, capite
@@ -1790,7 +1734,7 @@ ille flere et miserabiliter uociferari, donec caesus uitam cum
 lachrymis finiuit. 
 </p> 
 
-               <p n="p3">
+               <p n="p2">
  Si parabola ista tantum trepidationis habet ob uitae fragilis et
 caducae periculum, quid nos, quaeso, facere oporteat in periculo uitae
 aeternae? Si capitis iudicium subiturus reus, dum in dubio est,
@@ -1809,15 +1753,15 @@ meremur, perpetrauerimus. Vnde igitur tantus mentis stupor, tanta
 animi stulticia? Friuolis nihilque ad nos pertinentibus periculis
 terremur, et futurae aeternitatis iudicium non reformidamus! In 
 meditullio infiniti boni et infiniti mali fluctuat nostra mortalitas, et
-magis cure nobis est cauere,  <milestone unit="page" n="milestone2"/> nequid aduersi
+magis cure nobis est cauere,  <milestone unit="page" n="milestone1"/> nequid aduersi
 in hac uitae breuitate patiamur quam ne poenam aeternam
 sustineamus. Plus etiam operae impendimus in quaerendis diuitiis cito
 perituris, quam ut perennem illam et inaestimabilem regni caelestis
 gloriam assequamur. Annus parabolae huius septuagesimus tunc agitur,
-cum ad finem uitae peruentum est. <q n="q3">Dies enim annorum nostrorum,
-</q> ut psalmista ait, <q n="q4">in ipsis septuaginta anni.</q> 
+cum ad finem uitae peruentum est. <q n="q2">Dies enim annorum nostrorum,
+</q> ut psalmista ait, <q n="q3">in ipsis septuaginta anni.</q> 
 Sed uitae nostrae finis hodie esse potest aut cras aut postridie. Ideo
-dictum est: <q n="q5">Vigilate, quia nescitis diem neque horam! </q>
+dictum est: <q n="q4">Vigilate, quia nescitis diem neque horam! </q>
 Et si usque ad decrepitam profertur aetatem, nihilominus aduentat,
 currit, uolat, iam in ianuis est. Quotidie ad finem suum uita nostra
 properat et ad uitam illam, quae non habet finem, transmigrare nos
@@ -1829,14 +1773,14 @@ terribilem et expauescendum extremi iudicii diem, qui, antequam
 uenerit, haec praemissurus est signa: bella, fames, pestilentiae saeuient;
 pseudoprophetae surgent et seducent multos; abundabit iniquitas et
 refrigescet charitas; dominabitur Antichristus; flagellabuntur
-christiani et per uaria <corr n="corr6">tormentorum</corr> genera sanguis innoxius
+christiani et per uaria <corr n="corr1">tormentorum</corr> genera sanguis innoxius
 effundetur; magno terraemotu agitabitur; sol in tenebras, luna in
 sanguinem conuertetur; stellae cadent, homines arescent prae timore;
 eleuabitur mare, rugient fluctus; uentorum procellarumque tempestas
 debacchabitur; crucis signum apparebit in caelo. Postremo furentis uis
 ignis caelum, terram, pontum uno inuoluet incendio nihilque relinquet
 uiuum, quod morti fuit obnoxium. Post haec aetere ab alto descendet Dei
-Filius Iesus Christus, <corr n="corr7">maiestatem</corr> Patris prae se ferens, innumeris
+Filius Iesus Christus, <corr n="corr2">maiestatem</corr> Patris prae se ferens, innumeris
 angelorum comitatus choris agminibusque sanctorum, uiuos ac mortuos
 diiudicaturus. Mox ad uocem archangeli tubaeque caelestis clangorem
 resurgent mortui, ad iudicium uenient; nihil erit occultum, quod non
@@ -1845,9 +1789,9 @@ ita iubente oues ab haedis, iusti ab iniustis. O, quantus occupabit
 damnatorum corda moeror, quantos attollent eiulatus! Quam miserabilis
 lamentantium audietur uox, cum uiderint alios ascendere cum Christo ad
 caelestem regnum et se depelli in interiora terrae, in abyssum 
- <milestone unit="page" n="milestone8"/> horribilium poenarum calamitatisque sempiternae, alios
+ <milestone unit="page" n="milestone2"/> horribilium poenarum calamitatisque sempiternae, alios
 cum angelis gloriam in excelsis Deo canentibus ferri in paradisum
-<corr n="corr9">incomparabilis</corr> beatitatis atque infinitae, se autem cum spiritibus
+<corr n="corr3">incomparabilis</corr> beatitatis atque infinitae, se autem cum spiritibus
 immundis detrudi in infernum ignis inextinguibilis et uermis
 immortalis! Quis nunc talia mente secum uoluens non cum ingenti uiuat
 pauore, non semper trepidet, non quotidie totis uiribus contendat,
@@ -1858,37 +1802,37 @@ proposuit, sententia diuini iudicii est. Deus morte aeterna peccatores
 punit, iustos autem uitae immortalis felicitate remunerat. In tanto
 ergo uitae necisque periculo constricti, ita metuamus, ut non
 desperemus, ita speremus, ut nunquam sine metu simus, dicente
-Propheta: <q n="q10">Seruite Domino in timore, et exultate ei cum
+Propheta: <q n="q5">Seruite Domino in timore, et exultate ei cum
 tremore!</q> 
 
                </p> 
 
-               <milestone unit="page" n="milestone4"/>  
+               <milestone unit="page" n="milestone1"/>  
             </div>
          </div> 
 
  
 
       </body> 
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div1 n="div11" type="notes">
             <head n="head1">Notae</head>
-            <note n="note2" place="foot" xml:id="nd0e413" target="rd0e413">post conuiuendi punctum (.) in <abbr n="abbr1">KK</abbr>!</note>
-                    <note n="note3" place="foot" xml:id="nd0e449" target="rd0e449">?</note>
-                    <note n="note4" place="foot" xml:id="nd0e496" target="rd0e496">inguit <abbr n="abbr1">KK</abbr>
+            <note n="note1" place="foot" xml:id="nd0e413" target="rd0e413">post conuiuendi punctum (.) in <abbr n="abbr1">KK</abbr>!</note>
+                    <note n="note2" place="foot" xml:id="nd0e449" target="rd0e449">?</note>
+                    <note n="note3" place="foot" xml:id="nd0e496" target="rd0e496">inguit <abbr n="abbr1">KK</abbr>
             </note>
-                    <note n="note5" place="foot" xml:id="nd0e501" target="rd0e501">sim
+                    <note n="note4" place="foot" xml:id="nd0e501" target="rd0e501">sim
 corr. <abbr n="abbr1">KK</abbr>
             </note>
-                    <note n="note6" place="foot" xml:id="nd0e530" target="rd0e530">corr. ex robur <abbr n="abbr1">KK</abbr>
+                    <note n="note5" place="foot" xml:id="nd0e530" target="rd0e530">corr. ex robur <abbr n="abbr1">KK</abbr>
             </note>
-                    <note n="note7" place="foot" xml:id="nd0e538" target="rd0e538">supliciis <abbr n="abbr1">KK</abbr>
+                    <note n="note6" place="foot" xml:id="nd0e538" target="rd0e538">supliciis <abbr n="abbr1">KK</abbr>
             </note>
-                    <note n="note8" place="foot" xml:id="nd0e725" target="rd0e725">corr. ex iniuriiss <abbr n="abbr1">KK</abbr>
+                    <note n="note7" place="foot" xml:id="nd0e725" target="rd0e725">corr. ex iniuriiss <abbr n="abbr1">KK</abbr>
             </note>
-                    <note n="note9" place="foot" xml:id="nd0e735" target="rd0e735">*
+                    <note n="note8" place="foot" xml:id="nd0e735" target="rd0e735">*
 corr. ex remoratus </note>
-                    <note n="note10" place="foot" xml:id="nd0e1107" target="rd0e1107">*corr. ex desyderant <abbr n="abbr1">KK</abbr>
+                    <note n="note9" place="foot" xml:id="nd0e1107" target="rd0e1107">*corr. ex desyderant <abbr n="abbr1">KK</abbr>
             </note>
                     </div1>
       </back>

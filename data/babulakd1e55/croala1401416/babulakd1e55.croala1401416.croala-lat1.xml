@@ -45,62 +45,7 @@
          
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="cit" occurs="2"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="3"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="epigraph" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="104"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3" withId="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="quote" occurs="2"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="signed" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -167,7 +112,7 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="poesis-elegia">
             <head n="head1">ELEGOS HONORIBUS A. R. P. IOSEPHI MATZEK VERE DIVI SACRA IOSEPHI VENIENTE TURBAE CAPISTRANAE PROVINCIALIS DIGNISSIMI, VERE NOVO LAETUS, LAETANTE EA, INFRA NUNCUPATUS NOMINE REGIAE PALAESTRAE ESSEKINENSIS 14° KAL. APRILIS PIE DEVOVET</head>
-            <epigraph n="epigraph2">
+            <epigraph n="epigraph1">
                <cit n="cit1">
                   <quote n="quote1">
                      <l n="l1"> Di Tibi se tribuant .... Amicos </l>
@@ -175,7 +120,7 @@
                      <l n="l2"> Non poterit Votum plenius esse meum </l>
              
                   </quote>
-                  <bibl n="bibl2"> Ovid Trist. l. 4<note n="note1" resp="IG">c. 9, V.21-22</note> 
+                  <bibl n="bibl1"> Ovid Trist. l. 4<note n="note1" resp="IG">c. 9, V.21-22</note> 
                   </bibl>
                </cit>
                <cit n="cit2">
@@ -185,11 +130,11 @@
                      <l n="l2"> Pectore quam Pietas sit Tua pulsa meo. </l>
              
                   </quote>
-                  <bibl n="bibl2"> Idem de Ponto.<note n="note1" resp="IG">1. <num n="num1" value="3">III</num>, XI, ver.5-6</note> 
+                  <bibl n="bibl1"> Idem de Ponto.<note n="note1" resp="IG">1. <num n="num1" value="3">III</num>, XI, ver.5-6</note> 
                   </bibl>
                </cit>
             </epigraph>
-            <div n="div3" type="poesis-elegia" met="elegiacum">
+            <div n="div1" type="poesis-elegia" met="elegiacum">
                <l n="l1">Quid, miror, turbat mea membra quiete sopita,</l>
 
                <l n="l2"> Nuper ut expertus nocte silente fui?</l>
@@ -387,11 +332,11 @@
                <l n="l98"> Effundatque suis Vota repens animis.</l>
 
             </div>
-            <div n="div4" type="poesis-epigramma" met="elegiacum">
+            <div n="div2" type="poesis-epigramma" met="elegiacum">
                <l n="l1">ParVa fero Magno, parVo TIBI qVaeqVe DeCenter</l>
                <l n="l2">	PeCtore saCrantVr Vota benIgne Pater!</l>
             </div>
-            <closer n="closer5">
+            <closer n="closer1">
                <signed n="signed1">P. Otho Babulák
                II. HUM. Profess.</signed>
             </closer>
@@ -399,10 +344,10 @@
             
          </div>
                </body>
-      <back xml:lang="lat" n="back2">
+      <back xml:lang="lat" n="back1">
          <closer n="closer1">
             <dateline n="dateline1">ESZEKINI,</dateline>
-            <signed n="signed2" ana="colophon">TYPIS MARTINI ALOYSII DIVALD, CAES. REG. TYPOGRAPHI</signed>
+            <signed n="signed1" ana="colophon">TYPIS MARTINI ALOYSII DIVALD, CAES. REG. TYPOGRAPHI</signed>
          </closer>
       </back>
    </text>

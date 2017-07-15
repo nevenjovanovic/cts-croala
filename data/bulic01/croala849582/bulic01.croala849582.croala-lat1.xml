@@ -40,53 +40,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lb" occurs="6"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="4"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -170,16 +124,16 @@
     MARTYRVM SALONITANORVM <lb n="lb4"/>
     SERVANS REVERENDA LIMINA SANCTORVM <lb n="lb5"/>
             </p>
-            <l n="l2" met="hexameter">OMNIPOTENSQVE DEVS QVI ME FORMAVIT ET AVFERT</l>
-            <l n="l3" met="hexameter">CLEMENS EXCIPIAT SERVETQVE AD GAVDIA MEMBRVM</l>
-                <p n="p4"> NAT. <date n="date1" when="1846-10-04">
+            <l n="l1" met="hexameter">OMNIPOTENSQVE DEVS QVI ME FORMAVIT ET AVFERT</l>
+            <l n="l2" met="hexameter">CLEMENS EXCIPIAT SERVETQVE AD GAVDIA MEMBRVM</l>
+                <p n="p2"> NAT. <date n="date1" when="1846-10-04">
                   <num n="num1">IV</num> NON OCT A <num n="num2">MDCCCXLVI</num>
                </date>
                     OBIIT <date n="date2" when="1934-07-29">
                   <num n="num1">IV</num> KAL AVG A <num n="num2">MCMXXXIV</num>
                </date>
-                    <lb n="lb3"/>
-                    <expan n="expan4">Hoc Monumentum Heredem Non Sequitur</expan>
+                    <lb n="lb1"/>
+                    <expan n="expan1">Hoc Monumentum Heredem Non Sequitur</expan>
                 </p>
         
 

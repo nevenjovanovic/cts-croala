@@ -38,61 +38,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="addrLine" occurs="5"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="byline" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="7" withId="1"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="3"/>
-          <tagUsage gi="placeName" occurs="6"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -187,18 +133,18 @@
                   <addrLine n="addrLine5"> 
         N. 1, <num n="num1" value="3">III</num>. St.</addrLine>
                </address>
-                    <dateline n="dateline2">Salonis <date n="date1">8/VI 1913 hora 8 1/2 pomer.</date>
+                    <dateline n="dateline1">Salonis <date n="date1">8/VI 1913 hora 8 1/2 pomer.</date>
                </dateline>
             </opener>
 
-                <p n="p2">Cum hodie hora sexta post meridiem equo (parvulo, <num n="num1" type="ordinal" value="3">III-o</num> huius nominis) insidens, ruinas <placeName n="placeName2">Salonarum</placeName> peragrarem, prope
-                    fundum <persName n="persName3">Mikelić</persName>, ubi ille optimus <bibl n="bibl4">titulus n. 4429 A</bibl> repertus est,
-                    cecidit equus et super eius caput <sic n="sic5">eques</sic> qui Deo <abbr n="abbr6">Opt.</abbr>
-                    <abbr n="abbr7">Max.</abbr> gratias illaesus evasit.</p>
-                <salute n="salute3">Salutem plurimam.</salute>
-                <pb n="pb4"/>
-                <salute n="salute5">SALVTEM PLVRIMAM E RVINIS SALONAE</salute>
-                <byline n="byline6">TVSCVLVM DIRECTORIS EFFOSIONVM BVLIĆ</byline>
+                <p n="p1">Cum hodie hora sexta post meridiem equo (parvulo, <num n="num1" type="ordinal" value="3">III-o</num> huius nominis) insidens, ruinas <placeName n="placeName1">Salonarum</placeName> peragrarem, prope
+                    fundum <persName n="persName1">Mikelić</persName>, ubi ille optimus <bibl n="bibl1">titulus n. 4429 A</bibl> repertus est,
+                    cecidit equus et super eius caput <sic n="sic1">eques</sic> qui Deo <abbr n="abbr1">Opt.</abbr>
+                    <abbr n="abbr2">Max.</abbr> gratias illaesus evasit.</p>
+                <salute n="salute1">Salutem plurimam.</salute>
+                <pb n="pb1"/>
+                <salute n="salute2">SALVTEM PLVRIMAM E RVINIS SALONAE</salute>
+                <byline n="byline1">TVSCVLVM DIRECTORIS EFFOSIONVM BVLIĆ</byline>
 
             </div>
     

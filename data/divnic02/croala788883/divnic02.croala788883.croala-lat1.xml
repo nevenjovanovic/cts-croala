@@ -55,57 +55,7 @@
             
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="3"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="6"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -178,24 +128,24 @@
                 <body xml:lang="lat" n="body1">
                     <gap n="gap1" resp="NJ" reason="irrelevant"/>
                     
-                    <div n="div2" type="poesis-epigramma" met="elegiacum">
+                    <div n="div1" type="poesis-epigramma" met="elegiacum">
                         
             <milestone unit="page" n="milestone1"/>
 
 
 
-                        <head n="head2">In librum statutorum <corr n="corr1">Sibenicensium</corr>.
-                            <expan n="expan2">Ioannis</expan> Baptistae Diphnici archidiaconi et nobilis Sibenicensis Sacrę Theologię Doctoris. Epigramma.
+                        <head n="head1">In librum statutorum <corr n="corr1">Sibenicensium</corr>.
+                            <expan n="expan1">Ioannis</expan> Baptistae Diphnici archidiaconi et nobilis Sibenicensis Sacrę Theologię Doctoris. Epigramma.
                         </head> 
-                        <l n="l3">Aspera te rupes, Siccum, te moenia seruant,</l>
-                        <l n="l4" met="pentameter">Turribus et gemina tutius arce micas.</l>
-                        <l n="l5">Ast nihil haec prosunt interna ut pace fruatur</l>
-                        <l n="l6" met="pentameter">Incola, ni legum fulgeat usque iubar:</l>
-                        <l n="l7">En tibi conscriptas leges, has corde reconde</l>
-                        <l n="l8" met="pentameter">In te ut sit semper pacis amica quies.</l>
+                        <l n="l1">Aspera te rupes, Siccum, te moenia seruant,</l>
+                        <l n="l2" met="pentameter">Turribus et gemina tutius arce micas.</l>
+                        <l n="l3">Ast nihil haec prosunt interna ut pace fruatur</l>
+                        <l n="l4" met="pentameter">Incola, ni legum fulgeat usque iubar:</l>
+                        <l n="l5">En tibi conscriptas leges, has corde reconde</l>
+                        <l n="l6" met="pentameter">In te ut sit semper pacis amica quies.</l>
                     </div>
                     
-                    <gap n="gap3" resp="NJ" reason="irrelevant"/>
+                    <gap n="gap2" resp="NJ" reason="irrelevant"/>
 
                     
                     

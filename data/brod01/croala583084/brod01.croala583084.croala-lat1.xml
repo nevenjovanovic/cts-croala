@@ -43,60 +43,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="14"/>
-          <tagUsage gi="person" occurs="4"/>
-          <tagUsage gi="place" occurs="3"/>
-          <tagUsage gi="placeName" occurs="6"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -191,17 +138,17 @@
          <div n="div1" type="epistula">
             <opener n="opener1">
                <expan n="expan1">Clarissimo</expan> uiro Domino Aldo Manucio Romano, impressorum summo, fratri et amico optimo.
-            <salute n="salute2">Excellentissime uir, amice obseruande, salutem ac prosperitatem.</salute>
+            <salute n="salute1">Excellentissime uir, amice obseruande, salutem ac prosperitatem.</salute>
             </opener>    
-            <p n="p2"> 
+            <p n="p1"> 
         
-         Iusseram cuidam librario Alemanno, <persName n="persName1">Iordano</persName> nomine, <placeName n="placeName2">Veneciis</placeName> agenti sexto iam circiter abhinc anno, tum uidelicet cum ego ex gymnasio Patauino in patriam redirem, ut quaedam opuscula <persName n="persName3">Ioannis</persName> illius <persName n="persName4">Pannonii</persName>, pro quorum impressione et ego tunc et herus meus preterea apud te egerat, in manus tuae dominationi daret. Quod si factum ab illo est, rogo tuam dominationem uelit libellos ipsos ad manus magnifici ac reuerendi domini oratoris Regis nostri, qui tibi praesentes reddet, dare. Ne enim uir tantus perpetuo carie obsitus lateat, decreui opuscula eius omnino in lucem emitti curare, idque auxilio ac uoluntate domini mei.  
+         Iusseram cuidam librario Alemanno, <persName n="persName1">Iordano</persName> nomine, <placeName n="placeName1">Veneciis</placeName> agenti sexto iam circiter abhinc anno, tum uidelicet cum ego ex gymnasio Patauino in patriam redirem, ut quaedam opuscula <persName n="persName2">Ioannis</persName> illius <persName n="persName3">Pannonii</persName>, pro quorum impressione et ego tunc et herus meus preterea apud te egerat, in manus tuae dominationi daret. Quod si factum ab illo est, rogo tuam dominationem uelit libellos ipsos ad manus magnifici ac reuerendi domini oratoris Regis nostri, qui tibi praesentes reddet, dare. Ne enim uir tantus perpetuo carie obsitus lateat, decreui opuscula eius omnino in lucem emitti curare, idque auxilio ac uoluntate domini mei.  
         </p> 
-            <closer n="closer3">In quo et ipsi <gap n="gap1" resp="Abel"/>anco<note n="note2">
+            <closer n="closer1">In quo et ipsi <gap n="gap1" resp="Abel"/>anco<note n="note1">
                   <add n="add1" resp="Nolhac">[domino]</add>
-               </note> meo et mihi rem gratissimam tua dominatio faciet, quae optime ualeat. <dateline n="dateline3">Ex Buda. <date n="date1" when-iso="1512-09-14">xvij Kal. Octobr. M.D.XII-o.</date>
+               </note> meo et mihi rem gratissimam tua dominatio faciet, quae optime ualeat. <dateline n="dateline1">Ex Buda. <date n="date1" when-iso="1512-09-14">xvij Kal. Octobr. M.D.XII-o.</date>
                </dateline> Bonus frater ac deditissimus,</closer> 
-            <signed n="signed4">
+            <signed n="signed1">
         Stephanus Brodariich dd. secretarius <abbr n="abbr1">R-mi D.</abbr> Quinquecclesiensis cancellarii Regis Hungariae.</signed> 
  
          </div>

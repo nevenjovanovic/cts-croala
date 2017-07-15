@@ -40,57 +40,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="11"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="6"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="4"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="unclear" occurs="7"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -159,34 +109,34 @@
    <text xml:base="urn:cts:croala:petrov01.croala1487029.croala-lat1:" xml:lang="lat" type="prosa">
       <body xml:lang="lat" n="body1">
         <gap n="gap1" reason="irrelevant" resp="NJ"/>
-        <milestone unit="page" n="milestone2"/>
-        <div n="div3" type="prosaOratio-oratio">
+        <milestone unit="page" n="milestone1"/>
+        <div n="div1" type="prosaOratio-oratio">
             <head n="head1">Nicolai Petrei oratio salutatoria Ad Rhagusinum senatum cum primum se ad illorum Vrbem contulit.
             </head>
-            <p n="p2"> 
+            <p n="p1"> 
                 
                 Isocrates ille, unus ex ea insigni Rhetorum decade, qui eius tempestate Athenis floruerunt, magnifici prestantesque domini, ad instituendos mores adolescentium per quos in praeclaros euadere uiros, ac bene beateque uiuere posset celeberrimus, in illa, quam ad Demonicum Hipponici filium hortatoriam orationem perscripsit, imprimis nobis curandum precaepit, ut omni humanitate <add n="add1" resp="auctor">obsequio</add> gratia salutandi officium exhiberemus amicis atque obuijs quo beneuolentiae nostrae, ac uenerationis argu-
+                <milestone unit="page" n="milestone1"/>
+                menta <add n="add2" resp="auctor">non</add> amicis solum, <add n="add3" resp="auctor">sed pluribus item perspecta,</add> testataque redderentur. Quae et <unclear n="unclear1">si</unclear> in singulos nobis priuatos peragenda, quasi necessitate quadam huius sapientissimi Rhetoris sententia impendent, maiore quidem ratione me hoc tempore in hoc consessu uestro prestantissimi patres hoc officii genere erga uos omnes uti debere, operepretium existimaui ut, a quibus me abscentem non mediocriter exornatum esse sciam, in primo hoc congressu aliquid gratiae reposuisse perspiceretis. Et quum in ea re plurima mihi sese offerunt, in quibus celebrandis oratio nostra immorari optima ratione posset, dum huius uestrae celeberrimae Vrbis mores, instituta, leges, fortunas denique ipsas in Illustri admodum loco collocari apud omnes gentes audiam: Cum sim mihi huius obeundi muneris meliorem temporis oportunitatem alias, quasi proprio quodam iure, uendicaturus: Ad ea tantummodo nunc sese oratio nostra conuertet, quae et praesentis rei propositum exigit, et meas esse partes complecti necessarium existimaui. Quamobrem, cum ego ex antiquis historiarum monumentis plurimas nobilissimas Vrbes, potentissimosque populos, a paruis, exilibusque iniciis, ad summum celsitudinis gradum euectos, mecum animo repeterem, nihil aliud in causa extitisse comperio, quod ad innumera saecula celebritatis suae, ac gloriae immortalis nomen propagarint,
                 <milestone unit="page" n="milestone2"/>
-                menta <add n="add3" resp="auctor">non</add> amicis solum, <add n="add4" resp="auctor">sed pluribus item perspecta,</add> testataque redderentur. Quae et <unclear n="unclear5">si</unclear> in singulos nobis priuatos peragenda, quasi necessitate quadam huius sapientissimi Rhetoris sententia impendent, maiore quidem ratione me hoc tempore in hoc consessu uestro prestantissimi patres hoc officii genere erga uos omnes uti debere, operepretium existimaui ut, a quibus me abscentem non mediocriter exornatum esse sciam, in primo hoc congressu aliquid gratiae reposuisse perspiceretis. Et quum in ea re plurima mihi sese offerunt, in quibus celebrandis oratio nostra immorari optima ratione posset, dum huius uestrae celeberrimae Vrbis mores, instituta, leges, fortunas denique ipsas in Illustri admodum loco collocari apud omnes gentes audiam: Cum sim mihi huius obeundi muneris meliorem temporis oportunitatem alias, quasi proprio quodam iure, uendicaturus: Ad ea tantummodo nunc sese oratio nostra conuertet, quae et praesentis rei propositum exigit, et meas esse partes complecti necessarium existimaui. Quamobrem, cum ego ex antiquis historiarum monumentis plurimas nobilissimas Vrbes, potentissimosque populos, a paruis, exilibusque iniciis, ad summum celsitudinis gradum euectos, mecum animo repeterem, nihil aliud in causa extitisse comperio, quod ad innumera saecula celebritatis suae, ac gloriae immortalis nomen propagarint,
-                <milestone unit="page" n="milestone6"/>
-                quam administrantium principum prudentiam, uirtutesque praestabiles et eximias. Quibus uero ea defuerant, breui temporis spatio corruisse. Nequa autem id me fugit: quod, si singulos, quosque recensere uellem, me temporis prius, ac uocis, et ingenii uires, quam rei materia deficeret. Ad uos me nunc potius egregii patres conuertam: dum circumspicere, scrutari, indagare diligentius singula compellor, quibus moribus, quibusque consiliis uos hanc rempublicam uestram curare, gubernare, instituere fama per totam orbem haud quidem obscura fertur, nihil omnino esse me Hercule crediderim, in quo ipsa cum alia quantumlibet insigni, ac celeberrima conferri merito ac comparari non possit. Sed quod ulterius me de fama ipsa disserere attinet? cum praesentibus oculis ipsam Vrbem intueri licet. Si templa, si delubra: si fora, si priuatas domos, ac publicas considerem, atque contempler, non mihi minorem admirationem incuciant, quam Telemaco Vlisis filio (ut apud Homerum est) Spartanas Menelai Aedes inspicienti. Quae quidem a sapientissimis regi atque gubernari illud esse <add n="add7" resp="auctor">argumento</add> omnibus potest quod usurpatum ex sapientis dicta circumfertur, Talem penitus domum esse, quale Matris familias ingenium fuerit. Ex quibus facilis conjectura resultat, hanc Vrbem
-                <milestone unit="page" n="milestone8"/>
-                uestram sanctissimis iustissimisque legibus fulciri: ob idque foelicem iuxta illud Biantis esse, qui optimam illam rempublicam asseruit, in qua omnes leges ipsas, ut Tyrannum pertimescunt. Et cum inter alios egregios mores huius Reipublicae uestrae <add n="add9" resp="auctor">(ut audio)</add> praestantissimi patres <unclear n="unclear10">peruetus</unclear> iste atque sanctus sit ut liberi uestri liberalibus artibus atque disciplinis bonisque moribus imbuerentur, hac de causa huiusmodi artium praeceptores honestissimis propositis praemiis, celebratissimos accersere undique consueuistis, rati illam Diogenis sententiam uerissimam esse, qui terram nihil grauius sustinere quam hominem disciplina carentem asseruit. Nemini igitur mirum uideri debet, dum his artibus atque institutis liberis uestris quasi per manus administrandam regendamque Rem publicam Vestram traditis, si eam securam a uariantis fortunae impetu insignemque perpetuis temporibus apud omnes gentes ac memorabilem constituatis. Quid enim ab animis luxu atque desidia marcescentibus praeclarum ac memorabile expectari potest? Cum itaque pro more uestro ac uetere instituto de praeceptore liberis uestris <unclear n="unclear11">comparando</unclear> in communi consuleretis, tametsi fortassis in omni scientiarum genere uiri praestantissimi non defuissent, in me tamen animum adiecistis, mihique per uestras iucundissimas literas hanc curam demandastis et significastis. Quibus acceptis diu mecum cogitare coepi quantum
+                quam administrantium principum prudentiam, uirtutesque praestabiles et eximias. Quibus uero ea defuerant, breui temporis spatio corruisse. Nequa autem id me fugit: quod, si singulos, quosque recensere uellem, me temporis prius, ac uocis, et ingenii uires, quam rei materia deficeret. Ad uos me nunc potius egregii patres conuertam: dum circumspicere, scrutari, indagare diligentius singula compellor, quibus moribus, quibusque consiliis uos hanc rempublicam uestram curare, gubernare, instituere fama per totam orbem haud quidem obscura fertur, nihil omnino esse me Hercule crediderim, in quo ipsa cum alia quantumlibet insigni, ac celeberrima conferri merito ac comparari non possit. Sed quod ulterius me de fama ipsa disserere attinet? cum praesentibus oculis ipsam Vrbem intueri licet. Si templa, si delubra: si fora, si priuatas domos, ac publicas considerem, atque contempler, non mihi minorem admirationem incuciant, quam Telemaco Vlisis filio (ut apud Homerum est) Spartanas Menelai Aedes inspicienti. Quae quidem a sapientissimis regi atque gubernari illud esse <add n="add4" resp="auctor">argumento</add> omnibus potest quod usurpatum ex sapientis dicta circumfertur, Talem penitus domum esse, quale Matris familias ingenium fuerit. Ex quibus facilis conjectura resultat, hanc Vrbem
+                <milestone unit="page" n="milestone3"/>
+                uestram sanctissimis iustissimisque legibus fulciri: ob idque foelicem iuxta illud Biantis esse, qui optimam illam rempublicam asseruit, in qua omnes leges ipsas, ut Tyrannum pertimescunt. Et cum inter alios egregios mores huius Reipublicae uestrae <add n="add5" resp="auctor">(ut audio)</add> praestantissimi patres <unclear n="unclear2">peruetus</unclear> iste atque sanctus sit ut liberi uestri liberalibus artibus atque disciplinis bonisque moribus imbuerentur, hac de causa huiusmodi artium praeceptores honestissimis propositis praemiis, celebratissimos accersere undique consueuistis, rati illam Diogenis sententiam uerissimam esse, qui terram nihil grauius sustinere quam hominem disciplina carentem asseruit. Nemini igitur mirum uideri debet, dum his artibus atque institutis liberis uestris quasi per manus administrandam regendamque Rem publicam Vestram traditis, si eam securam a uariantis fortunae impetu insignemque perpetuis temporibus apud omnes gentes ac memorabilem constituatis. Quid enim ab animis luxu atque desidia marcescentibus praeclarum ac memorabile expectari potest? Cum itaque pro more uestro ac uetere instituto de praeceptore liberis uestris <unclear n="unclear3">comparando</unclear> in communi consuleretis, tametsi fortassis in omni scientiarum genere uiri praestantissimi non defuissent, in me tamen animum adiecistis, mihique per uestras iucundissimas literas hanc curam demandastis et significastis. Quibus acceptis diu mecum cogitare coepi quantum
                 
-                <milestone unit="page" n="milestone12"/>
+                <milestone unit="page" n="milestone4"/>
                 
-                oneris hoc munus agredienti sustinendum foret, quantoque labori, ac uigiliis incumbendum, ne aliqua ex parte ab optimi praeceptoris officio cesasse opera nostra uideretur. Quae non literatura tantum ac multarum rerum cognitione, sed inocentia, patientia, continentia religone egregie <unclear n="unclear13">praeditum</unclear> esse oporteret. Ob id quoque hesitabam uero, ne tanto a uobis inuicto mihi muneri parum me fortassis idoneum exhibeam. Occurebat praeterea Romanae Vrbis praesentia, totius orbis dominae, a qua procul abesse cogebar. Occurebant in ipsa assiduę maximorum principum consuetudines, tot eruditissimorum uirorum in omni scientiarum genere cotidiani congressus, et quod a nemine non paulo nobiliore expetitur, summi pontificis praesentia, quem saepenumero cernere, nonnumquam alloqui, haud alienum a foelicitate putabam. Quibus omnibus carere cum permolestum uidebatur, deprecandam mihi omnino esse hanc prouinciam, auersandumque hoc munus, penitus statuebam. Verum diligentius hoc mecum ipse reputans, cum his quae ad doctrinam ac mores ipsos attinent, nullis proprii ingenii uiribus, caducis <unclear n="unclear14">alioqui</unclear>, atque imbecillibus, sed summi ac clementissimi Dei auxilio, a quo omne datum optimum, et omne donum perfectum desursum est descendens, adnitendum foret. Tum pertimescerem ne mihi obiiceretur in ipsa Vrbe cupidine potius atque honorum letali ambitu, qui plerosque infatuat,
-                <milestone unit="page" n="milestone15"/>
-                <add n="add16" resp="auctor">hac in aetate <unclear n="unclear1">constituere</unclear>
-               </add> quam tot honestarum rationum causis contineri. <sic n="sic17">Vinci</sic> tandem illas ambigui animi mei fluctuationes ab honestissimo desyderio uestro <add n="add18" resp="auctor">ac <unclear n="unclear1">plurimorum</unclear> uestri amantium</add> passus sum. Nam, cum mihi exploratum sit, superioribus annis plures in hac uestra Vrbe eruditissimos huiusce facultatis professores extitisse, sub quibus iuuenes uestri et doctrina et probis moribus atque exemplis aucti egregie fuere foelicyssimos illos ac fortunatissimos esse dixerim quibus sapientissimorum parentum cura atque uigiliis non illis tantummodo quae ad alimenta atque fortunas pertinet, quae natura a parentibus liberis debentur, sed eis item in quibus fortuna nullum ius habebat <add n="add19" resp="auctor">uirtutibus inquam ipsis</add> abunde prospiciatur. Quorum cum me successorem in hoc obeundo munere propositum esse uideam: omnis boni exempli <add n="add20" resp="auctor">et omnium laudabilium morum</add> iuuentuti ipsi auctorem, hortatorem, suasoremque futurum polliceor. Et ne me illis aliqua ex parte inferiorem praebeam, cura, fide, amore, atque diligentia quibus maxime fieri poterit, optimos quosque autores tum Graecę, tum Latinae linguae euoluendo, quibus pluribus annis operam non segne dedi pro uirili <add n="add21" resp="auctor">explicare</add> impensissime nitar. Quod et Vrbi huic uestrae praestantissimae, ac <add n="add22" resp="auctor">omnibus eius</add> Ciuibus, mihique ipsi, Dei optimi Maximi, benignitate fauore atque gratia foelix, faustumque eueniat precor.
+                oneris hoc munus agredienti sustinendum foret, quantoque labori, ac uigiliis incumbendum, ne aliqua ex parte ab optimi praeceptoris officio cesasse opera nostra uideretur. Quae non literatura tantum ac multarum rerum cognitione, sed inocentia, patientia, continentia religone egregie <unclear n="unclear4">praeditum</unclear> esse oporteret. Ob id quoque hesitabam uero, ne tanto a uobis inuicto mihi muneri parum me fortassis idoneum exhibeam. Occurebat praeterea Romanae Vrbis praesentia, totius orbis dominae, a qua procul abesse cogebar. Occurebant in ipsa assiduę maximorum principum consuetudines, tot eruditissimorum uirorum in omni scientiarum genere cotidiani congressus, et quod a nemine non paulo nobiliore expetitur, summi pontificis praesentia, quem saepenumero cernere, nonnumquam alloqui, haud alienum a foelicitate putabam. Quibus omnibus carere cum permolestum uidebatur, deprecandam mihi omnino esse hanc prouinciam, auersandumque hoc munus, penitus statuebam. Verum diligentius hoc mecum ipse reputans, cum his quae ad doctrinam ac mores ipsos attinent, nullis proprii ingenii uiribus, caducis <unclear n="unclear5">alioqui</unclear>, atque imbecillibus, sed summi ac clementissimi Dei auxilio, a quo omne datum optimum, et omne donum perfectum desursum est descendens, adnitendum foret. Tum pertimescerem ne mihi obiiceretur in ipsa Vrbe cupidine potius atque honorum letali ambitu, qui plerosque infatuat,
+                <milestone unit="page" n="milestone5"/>
+                <add n="add6" resp="auctor">hac in aetate <unclear n="unclear1">constituere</unclear>
+               </add> quam tot honestarum rationum causis contineri. <sic n="sic1">Vinci</sic> tandem illas ambigui animi mei fluctuationes ab honestissimo desyderio uestro <add n="add7" resp="auctor">ac <unclear n="unclear1">plurimorum</unclear> uestri amantium</add> passus sum. Nam, cum mihi exploratum sit, superioribus annis plures in hac uestra Vrbe eruditissimos huiusce facultatis professores extitisse, sub quibus iuuenes uestri et doctrina et probis moribus atque exemplis aucti egregie fuere foelicyssimos illos ac fortunatissimos esse dixerim quibus sapientissimorum parentum cura atque uigiliis non illis tantummodo quae ad alimenta atque fortunas pertinet, quae natura a parentibus liberis debentur, sed eis item in quibus fortuna nullum ius habebat <add n="add8" resp="auctor">uirtutibus inquam ipsis</add> abunde prospiciatur. Quorum cum me successorem in hoc obeundo munere propositum esse uideam: omnis boni exempli <add n="add9" resp="auctor">et omnium laudabilium morum</add> iuuentuti ipsi auctorem, hortatorem, suasoremque futurum polliceor. Et ne me illis aliqua ex parte inferiorem praebeam, cura, fide, amore, atque diligentia quibus maxime fieri poterit, optimos quosque autores tum Graecę, tum Latinae linguae euoluendo, quibus pluribus annis operam non segne dedi pro uirili <add n="add10" resp="auctor">explicare</add> impensissime nitar. Quod et Vrbi huic uestrae praestantissimae, ac <add n="add11" resp="auctor">omnibus eius</add> Ciuibus, mihique ipsi, Dei optimi Maximi, benignitate fauore atque gratia foelix, faustumque eueniat precor.
                 
                 
                 
                 
             </p>
-            <closer n="closer3">Dixi.</closer>
+            <closer n="closer1">Dixi.</closer>
         </div>
-        <gap n="gap4" reason="irrelevant" resp="NJ"/>
+        <gap n="gap2" reason="irrelevant" resp="NJ"/>
       </body>
    </text>
 </TEI>

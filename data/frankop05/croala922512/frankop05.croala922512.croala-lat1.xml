@@ -46,55 +46,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="286"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="pb" occurs="6"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="19"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -152,7 +104,7 @@
                     uni suo Amori. Franciscus Christophorus Comes de Frangipanibus,
                     Humillimus,  ac Obsequentissimus Cliens, et Famulus.</titlePart>
             </titlePage>
-            <div n="div2" type="epistula-dedicatio">
+            <div n="div1" type="epistula-dedicatio">
                 <p n="p1">Una Miserorum felicitas est infelicem esse, quando vel ipsa prae
                 quolibet solatio dulciter iis sapit <sic n="sic1">lacryma</sic>; una hac, ditissimo veluti
                 munere, et se, et alios donare consuerunt. Quocirca immania auri,
@@ -174,307 +126,307 @@
                 
             </div>
         </front>
-        <body xml:lang="lat" n="body2">
+        <body xml:lang="lat" n="body1">
             <div n="div1" type="poesis-elegia" met="elegiacum">
                 <head n="head1">ELEGIA.</head>
                 
-                <l n="l2">Flete meos casus, mea tristia fata, sodales, </l>
-                <l n="l3" met="pentameter">Flete, mei si quis pectora tangit Amor.</l>
-                <l n="l4">Una meos luctus solatur, sola dolores </l>
-                <l n="l5" met="pentameter">Unda oculi lenit, sola beat <sic n="sic1">lacryma</sic>;</l>
-                <l n="l6">5 Flete, perennantis date munera grata doloris, </l>
-                <l n="l7" met="pentameter">O socii; <sic n="sic1">lacrymas</sic>, qui negat, ille ferus.</l>
-                <pb n="pb8"/>
-                <l n="l9">Virgineae ipse Domus toto non immemor aevo </l>
-                <l n="l10" met="pentameter">Flens dixi: "Heu votis fata inimica meis!"</l>
-                <l n="l11">Maesta repercussa sonuerunt littora voce </l>
-                <l n="l12" met="pentameter">Non semel: "Heu votis fata inimica meis!"</l>
-                <l n="l13">Illyrici flevere lacus, tuque, Histria, flesse </l>
-                <l n="l14" met="pentameter">Diceris, Alma Domus cum raperetur agris.</l>
-                <l n="l15">Adriacae testor plorantis murmura lymphae, </l>
-                <l n="l16" met="pentameter">Testor Dalmaticis cognita saxa fretis:</l>
-                <l n="l17">Luximus, et nunquam tantum luxisse pigebit!</l>
-                <l n="l18" met="pentameter">Quis modus in luctu, quis, precor, in <sic n="sic1">lacrymis</sic>?</l>
-                <l n="l19">Sunt oculis <sic n="sic1">lacrymae</sic>, sunt et sua flumina nostris </l>
-                <l n="l20" met="pentameter">Luminibus, madidas en rigat unda genas.</l>
-                <l n="l21">Irrigat unda genas? Praeceps quin flumen ocellos </l>
-                <l n="l22" met="pentameter">Obruit et mersis innatat unda genis:</l>
-                <l n="l23">Pectore - quis credat? - suspiria ducere nostro,</l>
-                <l n="l24" met="pentameter">Et Superum pietas cogit et Alma Parens.</l>
-                <l n="l25">Antiquum pia Virgo jubet renovare dolorem, </l>
-                <l n="l26" met="pentameter">Provocat et maestum carmina divus amor.</l>
-                <l n="l27">Tecta augusta Dei nostros exosa Penates </l>
-                <l n="l28" met="pentameter">Rapta queror; fletus reddite Rapta mei.</l>
-                <l n="l29">Triste placet carmen ductum per Saecula terna: </l>
+                <l n="l1">Flete meos casus, mea tristia fata, sodales, </l>
+                <l n="l2" met="pentameter">Flete, mei si quis pectora tangit Amor.</l>
+                <l n="l3">Una meos luctus solatur, sola dolores </l>
+                <l n="l4" met="pentameter">Unda oculi lenit, sola beat <sic n="sic1">lacryma</sic>;</l>
+                <l n="l5">5 Flete, perennantis date munera grata doloris, </l>
+                <l n="l6" met="pentameter">O socii; <sic n="sic1">lacrymas</sic>, qui negat, ille ferus.</l>
+                <pb n="pb1"/>
+                <l n="l7">Virgineae ipse Domus toto non immemor aevo </l>
+                <l n="l8" met="pentameter">Flens dixi: "Heu votis fata inimica meis!"</l>
+                <l n="l9">Maesta repercussa sonuerunt littora voce </l>
+                <l n="l10" met="pentameter">Non semel: "Heu votis fata inimica meis!"</l>
+                <l n="l11">Illyrici flevere lacus, tuque, Histria, flesse </l>
+                <l n="l12" met="pentameter">Diceris, Alma Domus cum raperetur agris.</l>
+                <l n="l13">Adriacae testor plorantis murmura lymphae, </l>
+                <l n="l14" met="pentameter">Testor Dalmaticis cognita saxa fretis:</l>
+                <l n="l15">Luximus, et nunquam tantum luxisse pigebit!</l>
+                <l n="l16" met="pentameter">Quis modus in luctu, quis, precor, in <sic n="sic1">lacrymis</sic>?</l>
+                <l n="l17">Sunt oculis <sic n="sic1">lacrymae</sic>, sunt et sua flumina nostris </l>
+                <l n="l18" met="pentameter">Luminibus, madidas en rigat unda genas.</l>
+                <l n="l19">Irrigat unda genas? Praeceps quin flumen ocellos </l>
+                <l n="l20" met="pentameter">Obruit et mersis innatat unda genis:</l>
+                <l n="l21">Pectore - quis credat? - suspiria ducere nostro,</l>
+                <l n="l22" met="pentameter">Et Superum pietas cogit et Alma Parens.</l>
+                <l n="l23">Antiquum pia Virgo jubet renovare dolorem, </l>
+                <l n="l24" met="pentameter">Provocat et maestum carmina divus amor.</l>
+                <l n="l25">Tecta augusta Dei nostros exosa Penates </l>
+                <l n="l26" met="pentameter">Rapta queror; fletus reddite Rapta mei.</l>
+                <l n="l27">Triste placet carmen ductum per Saecula terna: </l>
+                <l n="l28" met="pentameter">"Blanda redi Virgo, Virgo Maria redi!"</l>
+                <l n="l29">Non audituris carmen deducimus astris:</l>
                 <l n="l30" met="pentameter">"Blanda redi Virgo, Virgo Maria redi!"</l>
-                <l n="l31">Non audituris carmen deducimus astris:</l>
-                <l n="l32" met="pentameter">"Blanda redi Virgo, Virgo Maria redi!"</l>
-                <l n="l33">Felices recolit Picenus laetior annos,</l>
-                <l n="l34" met="pentameter">Et petit advectae Templa superba Deae.</l>
-                <l n="l35">Templa pius repetit Divino numine plena </l>
-                <l n="l36" met="pentameter">Aethereis referens munera muneribus.</l>
-                <l n="l37">Ad sua sacra manus properant, altaria donis </l>
-                <l n="l38" met="pentameter">Addunt; thuricremis addite dona focis;</l>
-                <l n="l39">Arae florifero virides de germine fiant,</l>
-                <l n="l40" met="pentameter">Et velet Divae nexa corona lares.</l>
-                <l n="l41">Munera, Arabs, funde et redolentes funde corollas, </l>
-                <l n="l42" met="pentameter">Mitte Ebur, Inde, tuum; <sic n="sic1">thura</sic>, Sabaee, tua!</l>
-                <l n="l43">Undique collectae properant ad limina gentes, </l>
-                <l n="l44" met="pentameter">Sydereas gratae devenerantur opes.</l>
-                <l n="l45">Conclamant omnes: "Veniens Regina triumphet, </l>
-                <l n="l46" met="pentameter">Regnet, io, revolans Virgo! triumphet, io!"</l>
-                <l n="l47">Blandisonis laetum concentibus aera mulcet </l>
-                <l n="l48" met="pentameter">Turba repercussum fundere sueta melos:</l>
-                <l n="l49">Argutam movet ille lyram plectroque coercet,</l>
-                <l n="l50" met="pentameter">Hic lituos animat, personat ille tubis;</l>
-                <l n="l51">Alter sollicitas edocta repellere curas</l>
-                <l n="l52" met="pentameter">Praepetibus digitis organa blanda premit.</l>
-                <l n="l53">Ille canit: "Venit Coeli Regina, Maria!"</l>
-                <l n="l54" met="pentameter">"Ad nos venit, io, venit!" et ille canit;</l>
-                <l n="l55">Plaudentesque tubae centenoque aera boatu </l>
-                <l n="l56" met="pentameter">Templa salutarunt, mista dedere sonos.</l>
-                <l n="l57">55 Sacratae rutilos flammae cinxere penates,</l>
-                <l n="l58" met="pentameter">Cinxeruntque faces, sydera lapsa putes.</l>
-                <l n="l59">Lampade Virginei micuerunt culmina Tecti,</l>
-                <l n="l60" met="pentameter">Altus et innocuo fulsit ab igne tholus.</l>
-                <l n="l61">Plaudit humus, ridet; pariter juvenesque senesque </l>
-                <l n="l62" met="pentameter">60 Risere, et risus pignus amoris erant</l>
-                <l n="l63">Quis tua, Lauretum, quo nil <sic n="sic1">foelicius</sic> orbis </l>
-                <l n="l64" met="pentameter">Vidit, Piceni gaudia quis referat?</l>
-                <l n="l65">Me tamen - ah pietas! - justas miscere querelas, </l>
-                <l n="l66" met="pentameter">Mistaque cum <sic n="sic1">lacrymis</sic> fundere verba juvat.</l>
-                <l n="l67">65 Ite, mei fletus, rorantes, ite, dolores:</l>
-                <l n="l68" met="pentameter">Vos eritis cordis pignora chara mei!</l>
-                <l n="l69">Ite, meae lacrimae, gemitus tacitique doloris </l>
-                <l n="l70" met="pentameter">Ite, Oratrices, tristia verba date!</l>
-                <l n="l71">Sol meus Illyrici sine me revolavit ab undis;</l>
-                <l n="l72" met="pentameter">70 Exui ego aeterna nocte sepultus agor.</l>
-                <l n="l73">Sol mihi Virgo fuit quondam; fuit illa, nec ultra est, </l>
-                <l n="l74" met="pentameter">Dalmaticas ultra non beat illa plagas.</l>
-                <l n="l75">Lauretae tenet ille solum, beat illa feraces </l>
-                <l n="l76" met="pentameter">Piceni colles, culmina laeta beat.</l>
-                <l n="l77">75 Me miserum! Nostris oculis procul ergo fugatam</l>
-                <l n="l78" met="pentameter">Virgineo vetitum est ducere ab ore diem?</l>
-                <l n="l79">Sol formose, vale! Nullos amo cernere Soles; </l>
-                <l n="l80" met="pentameter">Virgine non visa, cuncta videre grave est.</l>
-                <l n="l81">Quid sine Sole suo, quid tellus nostra videbit,</l>
-                <l n="l82" met="pentameter">80 Ni formosa suae Virginis ora videt?</l>
-                <l n="l83">Quid Frangipanum mendax decora alta recenses </l>
-                <l n="l84" met="pentameter">Fama? Sile proavos, stemmata clara sile!</l>
-                <l n="l85">Ah genus invisum! Meret domus inclyta quondam: </l>
-                <l n="l86" met="pentameter">Quale erit erepta Virgine grande decus?</l>
-                <l n="l87">85 Sol erat, ah, Virgo; solemque imitata refugit</l>
-                <l n="l88" met="pentameter">Oris, Lauretum, pulchrior orta tuis.</l>
-                <l n="l89">Qui semel occiderant, potuere resurgere Soles; </l>
-                <l n="l90" met="pentameter">Nocturnisque dies surgit ab exequiis:</l>
-                <l n="l91">En semel occubuit nostro lux publica regno,</l>
-                <l n="l92" met="pentameter">90 Nec dabitur tantam posse videre diem.</l>
-                <l n="l93">Nempe nova renuunt de sede remittere Divam,</l>
-                <l n="l94" met="pentameter">Et praedam Cives, quam rapuere, tenent.</l>
-                <l n="l95">Esse quid hoc dicam? tantumne Italia furax </l>
-                <l n="l96" met="pentameter">Ausa nefas? Tantum? Barbara, saeva, ferox!</l>
-                <l n="l97">95 Regna petis? Pelagi tumidas pete regna per undas,</l>
-                <l n="l98" met="pentameter">I, rape Pactoli seu Garamantis opes,</l>
-                <l n="l99">Ultro ubi gemmiferis funduntur munera ripis, </l>
-                <l n="l100" met="pentameter">Flavaque <sic n="sic1">littoreos</sic> ditat arena sinus,</l>
-                <pb n="pb101"/>
+                <l n="l31">Felices recolit Picenus laetior annos,</l>
+                <l n="l32" met="pentameter">Et petit advectae Templa superba Deae.</l>
+                <l n="l33">Templa pius repetit Divino numine plena </l>
+                <l n="l34" met="pentameter">Aethereis referens munera muneribus.</l>
+                <l n="l35">Ad sua sacra manus properant, altaria donis </l>
+                <l n="l36" met="pentameter">Addunt; thuricremis addite dona focis;</l>
+                <l n="l37">Arae florifero virides de germine fiant,</l>
+                <l n="l38" met="pentameter">Et velet Divae nexa corona lares.</l>
+                <l n="l39">Munera, Arabs, funde et redolentes funde corollas, </l>
+                <l n="l40" met="pentameter">Mitte Ebur, Inde, tuum; <sic n="sic1">thura</sic>, Sabaee, tua!</l>
+                <l n="l41">Undique collectae properant ad limina gentes, </l>
+                <l n="l42" met="pentameter">Sydereas gratae devenerantur opes.</l>
+                <l n="l43">Conclamant omnes: "Veniens Regina triumphet, </l>
+                <l n="l44" met="pentameter">Regnet, io, revolans Virgo! triumphet, io!"</l>
+                <l n="l45">Blandisonis laetum concentibus aera mulcet </l>
+                <l n="l46" met="pentameter">Turba repercussum fundere sueta melos:</l>
+                <l n="l47">Argutam movet ille lyram plectroque coercet,</l>
+                <l n="l48" met="pentameter">Hic lituos animat, personat ille tubis;</l>
+                <l n="l49">Alter sollicitas edocta repellere curas</l>
+                <l n="l50" met="pentameter">Praepetibus digitis organa blanda premit.</l>
+                <l n="l51">Ille canit: "Venit Coeli Regina, Maria!"</l>
+                <l n="l52" met="pentameter">"Ad nos venit, io, venit!" et ille canit;</l>
+                <l n="l53">Plaudentesque tubae centenoque aera boatu </l>
+                <l n="l54" met="pentameter">Templa salutarunt, mista dedere sonos.</l>
+                <l n="l55">55 Sacratae rutilos flammae cinxere penates,</l>
+                <l n="l56" met="pentameter">Cinxeruntque faces, sydera lapsa putes.</l>
+                <l n="l57">Lampade Virginei micuerunt culmina Tecti,</l>
+                <l n="l58" met="pentameter">Altus et innocuo fulsit ab igne tholus.</l>
+                <l n="l59">Plaudit humus, ridet; pariter juvenesque senesque </l>
+                <l n="l60" met="pentameter">60 Risere, et risus pignus amoris erant</l>
+                <l n="l61">Quis tua, Lauretum, quo nil <sic n="sic1">foelicius</sic> orbis </l>
+                <l n="l62" met="pentameter">Vidit, Piceni gaudia quis referat?</l>
+                <l n="l63">Me tamen - ah pietas! - justas miscere querelas, </l>
+                <l n="l64" met="pentameter">Mistaque cum <sic n="sic1">lacrymis</sic> fundere verba juvat.</l>
+                <l n="l65">65 Ite, mei fletus, rorantes, ite, dolores:</l>
+                <l n="l66" met="pentameter">Vos eritis cordis pignora chara mei!</l>
+                <l n="l67">Ite, meae lacrimae, gemitus tacitique doloris </l>
+                <l n="l68" met="pentameter">Ite, Oratrices, tristia verba date!</l>
+                <l n="l69">Sol meus Illyrici sine me revolavit ab undis;</l>
+                <l n="l70" met="pentameter">70 Exui ego aeterna nocte sepultus agor.</l>
+                <l n="l71">Sol mihi Virgo fuit quondam; fuit illa, nec ultra est, </l>
+                <l n="l72" met="pentameter">Dalmaticas ultra non beat illa plagas.</l>
+                <l n="l73">Lauretae tenet ille solum, beat illa feraces </l>
+                <l n="l74" met="pentameter">Piceni colles, culmina laeta beat.</l>
+                <l n="l75">75 Me miserum! Nostris oculis procul ergo fugatam</l>
+                <l n="l76" met="pentameter">Virgineo vetitum est ducere ab ore diem?</l>
+                <l n="l77">Sol formose, vale! Nullos amo cernere Soles; </l>
+                <l n="l78" met="pentameter">Virgine non visa, cuncta videre grave est.</l>
+                <l n="l79">Quid sine Sole suo, quid tellus nostra videbit,</l>
+                <l n="l80" met="pentameter">80 Ni formosa suae Virginis ora videt?</l>
+                <l n="l81">Quid Frangipanum mendax decora alta recenses </l>
+                <l n="l82" met="pentameter">Fama? Sile proavos, stemmata clara sile!</l>
+                <l n="l83">Ah genus invisum! Meret domus inclyta quondam: </l>
+                <l n="l84" met="pentameter">Quale erit erepta Virgine grande decus?</l>
+                <l n="l85">85 Sol erat, ah, Virgo; solemque imitata refugit</l>
+                <l n="l86" met="pentameter">Oris, Lauretum, pulchrior orta tuis.</l>
+                <l n="l87">Qui semel occiderant, potuere resurgere Soles; </l>
+                <l n="l88" met="pentameter">Nocturnisque dies surgit ab exequiis:</l>
+                <l n="l89">En semel occubuit nostro lux publica regno,</l>
+                <l n="l90" met="pentameter">90 Nec dabitur tantam posse videre diem.</l>
+                <l n="l91">Nempe nova renuunt de sede remittere Divam,</l>
+                <l n="l92" met="pentameter">Et praedam Cives, quam rapuere, tenent.</l>
+                <l n="l93">Esse quid hoc dicam? tantumne Italia furax </l>
+                <l n="l94" met="pentameter">Ausa nefas? Tantum? Barbara, saeva, ferox!</l>
+                <l n="l95">95 Regna petis? Pelagi tumidas pete regna per undas,</l>
+                <l n="l96" met="pentameter">I, rape Pactoli seu Garamantis opes,</l>
+                <l n="l97">Ultro ubi gemmiferis funduntur munera ripis, </l>
+                <l n="l98" met="pentameter">Flavaque <sic n="sic1">littoreos</sic> ditat arena sinus,</l>
+                <pb n="pb2"/>
                 
-                <l n="l102">Aut ubi puniceis argentea lympha coraliis </l>
-                <l n="l103" met="pentameter">Mixta coruscanti turbine saxa beat.</l>
-                <l n="l104">Invida quid nostros gestis praedarier agros?</l>
-                <l n="l105" met="pentameter">Quidve huc evectis insidiare opibus?</l>
-                <l n="l106">Insidiosa suos ad Divae nobile furtum </l>
-                <l n="l107" met="pentameter">Erudiitque oculos erudiitque manus.</l>
-                <l n="l108">Nunc mihi fas litem regnis intendere vestris </l>
-                <l n="l109" met="pentameter">Piceni et querula voce ciere forum.</l>
-                <l n="l110">Nunc mihi furaces Italos fas dicere et omnem </l>
-                <l n="l111" met="pentameter">Ausoniam furti sollicitare ream.</l>
-                <l n="l112">Haec mihi dona Deus, mihi dexter misit Olympus:</l>
-                <l n="l113" met="pentameter">Nec rapere aethereae dona verere manus?</l>
-                <l n="l114">Sed quid, stulte, minas? Quidve haec incondita fundo? </l>
-                <l n="l115" met="pentameter">Numinis aeterni munera falsa putem?</l>
-                <l n="l116">Fallis, Olympe, tuos nunquam neque falleris ipse: </l>
-                <l n="l117" met="pentameter">Astra fefellistis? Fallere at Astra pudet!</l>
-                <l n="l118">Virgo suos, vereor, vana spe lusit amantes.</l>
-                <l n="l119" met="pentameter">Ah, sic non solitis ludis imaginibus?</l>
-                <l n="l120">Parce precor Virgo, nostro laetata dolore!</l>
-                <l n="l121" met="pentameter">Anne meis hauris gaudia de <sic n="sic1">lacrymis</sic>?</l>
-                <l n="l122">Tu furtum suades, Italum spolia ampla referre </l>
-                <l n="l123" met="pentameter">Annuis, heu nostras nil miserata preces!</l>
-                <l n="l124">Non is bella minax movit, non ille carinis </l>
-                <l n="l125" met="pentameter">Vexit in Illyricas, agmina mille, plagas.</l>
-                <l n="l126">Non miles patriam, non moenia terruit hostis, </l>
-                <l n="l127" met="pentameter">Armisono nusquam murmure pavit humus.</l>
-                <l n="l128">Ipsi hostes; nostris exarsit laeva triumphis </l>
-                <l n="l129" met="pentameter">Dextera! Proh, nostrae te pepulere manus!</l>
-                <l n="l130">Te noster, Virgo, pepulit malus ardor, avaros,</l>
-                <l n="l131" met="pentameter">Virgo, fugis, fateor: sprevimus immeriti!</l>
-                <l n="l132">Hinc igitur faciles raperis, mea Diva, per auras </l>
-                <l n="l133" met="pentameter">Lauretae silvis impositura pedes.</l>
-                <l n="l134">Tersactum linquis, quondam juga amata, colonis </l>
-                <l n="l135" met="pentameter">Nunc deflenda suis: non reditura fugis!</l>
-                <l n="l136">Heu dolor! Et tantos quisnam exaequare dolores </l>
-                <l n="l137" met="pentameter">Fando queat? Pylii tempora longa petat.</l>
-                <l n="l138">Non me fuit satius nunquam vidisse Penates </l>
-                <l n="l139" met="pentameter">Numinis, aut vultus, Virgo decora tuos?</l>
-                <l n="l140">Quem non aspexit, clausum non novit Olympum </l>
-                <l n="l141" met="pentameter">Lucis egens, fleret sidera visa semel.</l>
-                <l n="l142">Risimus incolumes cum nostris appulit oris </l>
-                <l n="l143" met="pentameter">Virgo Palaestinis aequore vecta jugis.</l>
-                <l n="l144">Vidimus Adriacis Nereum nova ponere lymphis,</l>
-                <l n="l145" met="pentameter">Iratis lymphis, jura jubente Deo.</l>
-                <l n="l146">Saxifragae siluere undae, siluere procellae:</l>
-                <l n="l147" met="pentameter">Arsit Neptunus subdere colla Domo.</l>
+                <l n="l99">Aut ubi puniceis argentea lympha coraliis </l>
+                <l n="l100" met="pentameter">Mixta coruscanti turbine saxa beat.</l>
+                <l n="l101">Invida quid nostros gestis praedarier agros?</l>
+                <l n="l102" met="pentameter">Quidve huc evectis insidiare opibus?</l>
+                <l n="l103">Insidiosa suos ad Divae nobile furtum </l>
+                <l n="l104" met="pentameter">Erudiitque oculos erudiitque manus.</l>
+                <l n="l105">Nunc mihi fas litem regnis intendere vestris </l>
+                <l n="l106" met="pentameter">Piceni et querula voce ciere forum.</l>
+                <l n="l107">Nunc mihi furaces Italos fas dicere et omnem </l>
+                <l n="l108" met="pentameter">Ausoniam furti sollicitare ream.</l>
+                <l n="l109">Haec mihi dona Deus, mihi dexter misit Olympus:</l>
+                <l n="l110" met="pentameter">Nec rapere aethereae dona verere manus?</l>
+                <l n="l111">Sed quid, stulte, minas? Quidve haec incondita fundo? </l>
+                <l n="l112" met="pentameter">Numinis aeterni munera falsa putem?</l>
+                <l n="l113">Fallis, Olympe, tuos nunquam neque falleris ipse: </l>
+                <l n="l114" met="pentameter">Astra fefellistis? Fallere at Astra pudet!</l>
+                <l n="l115">Virgo suos, vereor, vana spe lusit amantes.</l>
+                <l n="l116" met="pentameter">Ah, sic non solitis ludis imaginibus?</l>
+                <l n="l117">Parce precor Virgo, nostro laetata dolore!</l>
+                <l n="l118" met="pentameter">Anne meis hauris gaudia de <sic n="sic1">lacrymis</sic>?</l>
+                <l n="l119">Tu furtum suades, Italum spolia ampla referre </l>
+                <l n="l120" met="pentameter">Annuis, heu nostras nil miserata preces!</l>
+                <l n="l121">Non is bella minax movit, non ille carinis </l>
+                <l n="l122" met="pentameter">Vexit in Illyricas, agmina mille, plagas.</l>
+                <l n="l123">Non miles patriam, non moenia terruit hostis, </l>
+                <l n="l124" met="pentameter">Armisono nusquam murmure pavit humus.</l>
+                <l n="l125">Ipsi hostes; nostris exarsit laeva triumphis </l>
+                <l n="l126" met="pentameter">Dextera! Proh, nostrae te pepulere manus!</l>
+                <l n="l127">Te noster, Virgo, pepulit malus ardor, avaros,</l>
+                <l n="l128" met="pentameter">Virgo, fugis, fateor: sprevimus immeriti!</l>
+                <l n="l129">Hinc igitur faciles raperis, mea Diva, per auras </l>
+                <l n="l130" met="pentameter">Lauretae silvis impositura pedes.</l>
+                <l n="l131">Tersactum linquis, quondam juga amata, colonis </l>
+                <l n="l132" met="pentameter">Nunc deflenda suis: non reditura fugis!</l>
+                <l n="l133">Heu dolor! Et tantos quisnam exaequare dolores </l>
+                <l n="l134" met="pentameter">Fando queat? Pylii tempora longa petat.</l>
+                <l n="l135">Non me fuit satius nunquam vidisse Penates </l>
+                <l n="l136" met="pentameter">Numinis, aut vultus, Virgo decora tuos?</l>
+                <l n="l137">Quem non aspexit, clausum non novit Olympum </l>
+                <l n="l138" met="pentameter">Lucis egens, fleret sidera visa semel.</l>
+                <l n="l139">Risimus incolumes cum nostris appulit oris </l>
+                <l n="l140" met="pentameter">Virgo Palaestinis aequore vecta jugis.</l>
+                <l n="l141">Vidimus Adriacis Nereum nova ponere lymphis,</l>
+                <l n="l142" met="pentameter">Iratis lymphis, jura jubente Deo.</l>
+                <l n="l143">Saxifragae siluere undae, siluere procellae:</l>
+                <l n="l144" met="pentameter">Arsit Neptunus subdere colla Domo.</l>
                 
-                <pb n="pb148"/>
-                <l n="l149">Tecta ferebantur mites calcantia fluctus,</l>
-                <l n="l150" met="pentameter">Tuta per aequoreas Virgo regebat aquas.</l>
-                <l n="l151">Non surgit malus, remis, velisque carebat,</l>
-                <l n="l152" met="pentameter">Remige non moto navigat illa Deo.</l>
-                <l n="l153">Virginis ardentes gaudent tetigisse volantis </l>
-                <l n="l154" met="pentameter">Aligeri tectum <sic n="sic1">subjiciuntque</sic> manus.</l>
-                <l n="l155">Subjecit Raphael, humeroque insignis eburno </l>
-                <l n="l156" met="pentameter">Subjecit Michael: pondera amata placent.</l>
-                <l n="l157">Et vehit et vehitur Domus alma silentibus umbris; </l>
-                <l n="l158" met="pentameter">Astra fuere faces, nox fuit ipsa dies.</l>
-                <l n="l159">Sidera per tacitae tremuere silentia Lunae </l>
-                <l n="l160" met="pentameter">Exulis admirata aequore solis iter.</l>
-                <l n="l161">Quin placido resonant maria alta fragore: "Maria" </l>
-                <l n="l162" met="pentameter">Reddidit et gratos unda marina sonos.</l>
-                <l n="l163">Miramur navis genus, inscia pectora terror </l>
-                <l n="l164" met="pentameter">Cum subit, audaces non jubet esse timor.</l>
-                <l n="l165">Quid plura? En tandem nostris allabitur oris </l>
-                <l n="l166" met="pentameter">Sacra Domus, votis o memoranda Domus!</l>
-                <l n="l167">Littora nulla tenent, non mordax anchora cursus </l>
-                <l n="l168" met="pentameter">Sistit, desertis fluctibus illa volat.</l>
-                <l n="l169">Alta ubi Tersacti tolluntur culmina et umbris </l>
-                <l n="l170" met="pentameter">Densior excelso germine sylva viret,</l>
-                <l n="l171">Est locus immensum spatio deductus aprico </l>
-                <l n="l172" met="pentameter">Desuper Adriacis imperiosus aquis.</l>
-                <l n="l173">Grandia sublimem decorare cacumina gaudent, </l>
-                <l n="l174" met="pentameter">Gaudent et lucus, planitiesque patens.</l>
-                <l n="l175">Huc vectae pavidi veneramur templa Parentis. </l>
-                <l n="l176" met="pentameter">Limina quisque timet tangere fixa Domus.</l>
-                <l n="l177">Cernimus, haeremus, nec visis credimus ipsi: </l>
-                <l n="l178" met="pentameter">Tecta quis in nostros intulit ista sinus?</l>
-                <l n="l179">O Pietas! O Sacra Fides! Spectacula mira!</l>
-                <l n="l180" met="pentameter">Est Polus an Domus haec? Regia tecta Dei!</l>
-                <l n="l181">Ergo Palestinis, superi, vexistis ab aruis </l>
-                <l n="l182" met="pentameter">Augustale decus, Numinis imperium?</l>
-                <l n="l183">Illyris o felix! Felix o Histria! Felix</l>
-                <l n="l184" met="pentameter">Dalmata! Victrici jam cape dona manu!</l>
-                <l n="l185">Fortunate, tuis, Croas, quantus Deus agris </l>
-                <l n="l186" met="pentameter">Insedit! Nescis? Limina sacra tenes!</l>
-                <l n="l187">Limina marmoreis quondam venerata columnis </l>
-                <l n="l188" met="pentameter">Ipsa Helenae sanctae grandis alumna Domus:</l>
-                <l n="l189">Hic quondam rutilis delapsum Numen ab Astris </l>
-                <l n="l190" met="pentameter">Virgineo clausum Carcere delituit.</l>
-                <l n="l191">Hic Deus Infantis mortales induit artus.</l>
-                <l n="l192" met="pentameter">Mira cano: hic olim fit Deus ipse Caro.</l>
-                <l n="l193">Frangipane, novos ter felix indue sensus:</l>
-                <l n="l194" met="pentameter">Te duce Dalmaticos hospita Virgo petit!</l>
-                <pb n="pb195"/>
+                <pb n="pb3"/>
+                <l n="l145">Tecta ferebantur mites calcantia fluctus,</l>
+                <l n="l146" met="pentameter">Tuta per aequoreas Virgo regebat aquas.</l>
+                <l n="l147">Non surgit malus, remis, velisque carebat,</l>
+                <l n="l148" met="pentameter">Remige non moto navigat illa Deo.</l>
+                <l n="l149">Virginis ardentes gaudent tetigisse volantis </l>
+                <l n="l150" met="pentameter">Aligeri tectum <sic n="sic1">subjiciuntque</sic> manus.</l>
+                <l n="l151">Subjecit Raphael, humeroque insignis eburno </l>
+                <l n="l152" met="pentameter">Subjecit Michael: pondera amata placent.</l>
+                <l n="l153">Et vehit et vehitur Domus alma silentibus umbris; </l>
+                <l n="l154" met="pentameter">Astra fuere faces, nox fuit ipsa dies.</l>
+                <l n="l155">Sidera per tacitae tremuere silentia Lunae </l>
+                <l n="l156" met="pentameter">Exulis admirata aequore solis iter.</l>
+                <l n="l157">Quin placido resonant maria alta fragore: "Maria" </l>
+                <l n="l158" met="pentameter">Reddidit et gratos unda marina sonos.</l>
+                <l n="l159">Miramur navis genus, inscia pectora terror </l>
+                <l n="l160" met="pentameter">Cum subit, audaces non jubet esse timor.</l>
+                <l n="l161">Quid plura? En tandem nostris allabitur oris </l>
+                <l n="l162" met="pentameter">Sacra Domus, votis o memoranda Domus!</l>
+                <l n="l163">Littora nulla tenent, non mordax anchora cursus </l>
+                <l n="l164" met="pentameter">Sistit, desertis fluctibus illa volat.</l>
+                <l n="l165">Alta ubi Tersacti tolluntur culmina et umbris </l>
+                <l n="l166" met="pentameter">Densior excelso germine sylva viret,</l>
+                <l n="l167">Est locus immensum spatio deductus aprico </l>
+                <l n="l168" met="pentameter">Desuper Adriacis imperiosus aquis.</l>
+                <l n="l169">Grandia sublimem decorare cacumina gaudent, </l>
+                <l n="l170" met="pentameter">Gaudent et lucus, planitiesque patens.</l>
+                <l n="l171">Huc vectae pavidi veneramur templa Parentis. </l>
+                <l n="l172" met="pentameter">Limina quisque timet tangere fixa Domus.</l>
+                <l n="l173">Cernimus, haeremus, nec visis credimus ipsi: </l>
+                <l n="l174" met="pentameter">Tecta quis in nostros intulit ista sinus?</l>
+                <l n="l175">O Pietas! O Sacra Fides! Spectacula mira!</l>
+                <l n="l176" met="pentameter">Est Polus an Domus haec? Regia tecta Dei!</l>
+                <l n="l177">Ergo Palestinis, superi, vexistis ab aruis </l>
+                <l n="l178" met="pentameter">Augustale decus, Numinis imperium?</l>
+                <l n="l179">Illyris o felix! Felix o Histria! Felix</l>
+                <l n="l180" met="pentameter">Dalmata! Victrici jam cape dona manu!</l>
+                <l n="l181">Fortunate, tuis, Croas, quantus Deus agris </l>
+                <l n="l182" met="pentameter">Insedit! Nescis? Limina sacra tenes!</l>
+                <l n="l183">Limina marmoreis quondam venerata columnis </l>
+                <l n="l184" met="pentameter">Ipsa Helenae sanctae grandis alumna Domus:</l>
+                <l n="l185">Hic quondam rutilis delapsum Numen ab Astris </l>
+                <l n="l186" met="pentameter">Virgineo clausum Carcere delituit.</l>
+                <l n="l187">Hic Deus Infantis mortales induit artus.</l>
+                <l n="l188" met="pentameter">Mira cano: hic olim fit Deus ipse Caro.</l>
+                <l n="l189">Frangipane, novos ter felix indue sensus:</l>
+                <l n="l190" met="pentameter">Te duce Dalmaticos hospita Virgo petit!</l>
+                <pb n="pb4"/>
                 
-                <l n="l196">Tecta beata subi, Divinam agnosce Parentem, </l>
-                <l n="l197" met="pentameter">Utere sorte tua, dona superba cape!</l>
-                <l n="l198">Quam bene coelestis properant miracula amoris, </l>
-                <l n="l199" met="pentameter">Pulsaque liminibus Virgo pericla fugat!</l>
-                <l n="l200">195 Ponderibus connixa suis stat Virginis Aedes,</l>
-                <l n="l201" met="pentameter">Nec labat antiquo cardine vulsa suo.</l>
-                <l n="l202">Distincti circum curvati fornicis arcus </l>
-                <l n="l203" met="pentameter">Aeternae sobolis grandia gesta notant.</l>
-                <l n="l204">Hic jacet exiguo tuguri sub culmine Bethles,</l>
-                <l n="l205" met="pentameter">200 Et paleas inter regia corda trahit.</l>
-                <l n="l206">Hic saxo de more sacro pretiosa puelli</l>
-                <l n="l207" met="pentameter">Membra secant; tristis figitur ense Parens.</l>
-                <l n="l208">Hic pia tergemino distendunt corpora clavo, </l>
-                <l n="l209" met="pentameter">Funereque injusto percita Terra gemit.</l>
-                <l n="l210">205 Explicat auratis paries spectacla Theatris,</l>
-                <l n="l211" met="pentameter">Parietibus pictis vivere cuncta putes.</l>
-                <l n="l212">Quaque perangusto fumabat flamma camino </l>
-                <l n="l213" met="pentameter">Desuper incurvo fornice Virgo stetit,</l>
-                <l n="l214">Virgo, quam cedrino Lucas effinxerat olim </l>
-                <l n="l215" met="pentameter">210 Trunco, incorruptae signa decora Deae.</l>
-                <l n="l216">Antiqui rara vivunt in imagine vultus:</l>
-                <l n="l217" met="pentameter">Aligerum credas composuisse manus.</l>
-                <l n="l218">Majestate nitent oculi, diademata frontem </l>
-                <l n="l219" met="pentameter">Gemmea cinxerunt, ignea gemma oculos.</l>
-                <l n="l220">215 Tempora Hydaspaeis arserunt clara pyropis,</l>
-                <l n="l221" met="pentameter">Luminibus media nocte dies micuit,</l>
-                <l n="l222">Ore nigra horrebat, sed nigro candidus ore </l>
-                <l n="l223" met="pentameter">Et lepor et decus et gratia ridet ovans,</l>
-                <l n="l224">Aurea perque humeros coma diffluit, aurea crine </l>
-                <l n="l225" met="pentameter">220 Spicula vibrabat, tela capillus erant.</l>
-                <l n="l226">Brachiolis nixus sedet Infans, alma Propago; </l>
-                <l n="l227" met="pentameter">Orbem laeva gerit, munera dextra refert.</l>
-                <l n="l228">Saxea parietibus mediisque Penatibus ara </l>
-                <l n="l229" met="pentameter">Bis senum Procerum Principis ara Petri.</l>
-                <l n="l230">225 "O, nos", clamamus, nos terque, quaterque beatos!</l>
-                <l n="l231" met="pentameter">O, bene littoribus cognita Diva meis!</l>
-                <l n="l232">Tu mihi prima salus, tu spes, tu gloria, Virgo:</l>
-                <l n="l233" met="pentameter">Jam regnasse mihi - sceptra capesse! - satis.</l>
-                <l n="l234">Clamat: "Io!" Tellus! Resonant arbusta piorum </l>
-                <l n="l235" met="pentameter">230 Votis; "Io!" clamant aequora, sylva, juga!</l>
-                <l n="l236">Venit, io Virgo, Solymorum littore venit;</l>
-                <l n="l237" met="pentameter">Dicite: "Io!", populi; dicite: "Venit io!"</l>
-                <l n="l238">Nusquam Sol mediis risit formosior astris,</l>
-                <l n="l239" met="pentameter">Nec toto fulsit pulchrior orbe dies.</l>
-                <l n="l240">235 Laeta dies, formosa dies, si longior esset!</l>
-                <l n="l241" met="pentameter">Imminet, ah, nimium temporis hora brevis!</l>
-                <pb n="pb242"/>
+                <l n="l191">Tecta beata subi, Divinam agnosce Parentem, </l>
+                <l n="l192" met="pentameter">Utere sorte tua, dona superba cape!</l>
+                <l n="l193">Quam bene coelestis properant miracula amoris, </l>
+                <l n="l194" met="pentameter">Pulsaque liminibus Virgo pericla fugat!</l>
+                <l n="l195">195 Ponderibus connixa suis stat Virginis Aedes,</l>
+                <l n="l196" met="pentameter">Nec labat antiquo cardine vulsa suo.</l>
+                <l n="l197">Distincti circum curvati fornicis arcus </l>
+                <l n="l198" met="pentameter">Aeternae sobolis grandia gesta notant.</l>
+                <l n="l199">Hic jacet exiguo tuguri sub culmine Bethles,</l>
+                <l n="l200" met="pentameter">200 Et paleas inter regia corda trahit.</l>
+                <l n="l201">Hic saxo de more sacro pretiosa puelli</l>
+                <l n="l202" met="pentameter">Membra secant; tristis figitur ense Parens.</l>
+                <l n="l203">Hic pia tergemino distendunt corpora clavo, </l>
+                <l n="l204" met="pentameter">Funereque injusto percita Terra gemit.</l>
+                <l n="l205">205 Explicat auratis paries spectacla Theatris,</l>
+                <l n="l206" met="pentameter">Parietibus pictis vivere cuncta putes.</l>
+                <l n="l207">Quaque perangusto fumabat flamma camino </l>
+                <l n="l208" met="pentameter">Desuper incurvo fornice Virgo stetit,</l>
+                <l n="l209">Virgo, quam cedrino Lucas effinxerat olim </l>
+                <l n="l210" met="pentameter">210 Trunco, incorruptae signa decora Deae.</l>
+                <l n="l211">Antiqui rara vivunt in imagine vultus:</l>
+                <l n="l212" met="pentameter">Aligerum credas composuisse manus.</l>
+                <l n="l213">Majestate nitent oculi, diademata frontem </l>
+                <l n="l214" met="pentameter">Gemmea cinxerunt, ignea gemma oculos.</l>
+                <l n="l215">215 Tempora Hydaspaeis arserunt clara pyropis,</l>
+                <l n="l216" met="pentameter">Luminibus media nocte dies micuit,</l>
+                <l n="l217">Ore nigra horrebat, sed nigro candidus ore </l>
+                <l n="l218" met="pentameter">Et lepor et decus et gratia ridet ovans,</l>
+                <l n="l219">Aurea perque humeros coma diffluit, aurea crine </l>
+                <l n="l220" met="pentameter">220 Spicula vibrabat, tela capillus erant.</l>
+                <l n="l221">Brachiolis nixus sedet Infans, alma Propago; </l>
+                <l n="l222" met="pentameter">Orbem laeva gerit, munera dextra refert.</l>
+                <l n="l223">Saxea parietibus mediisque Penatibus ara </l>
+                <l n="l224" met="pentameter">Bis senum Procerum Principis ara Petri.</l>
+                <l n="l225">225 "O, nos", clamamus, nos terque, quaterque beatos!</l>
+                <l n="l226" met="pentameter">O, bene littoribus cognita Diva meis!</l>
+                <l n="l227">Tu mihi prima salus, tu spes, tu gloria, Virgo:</l>
+                <l n="l228" met="pentameter">Jam regnasse mihi - sceptra capesse! - satis.</l>
+                <l n="l229">Clamat: "Io!" Tellus! Resonant arbusta piorum </l>
+                <l n="l230" met="pentameter">230 Votis; "Io!" clamant aequora, sylva, juga!</l>
+                <l n="l231">Venit, io Virgo, Solymorum littore venit;</l>
+                <l n="l232" met="pentameter">Dicite: "Io!", populi; dicite: "Venit io!"</l>
+                <l n="l233">Nusquam Sol mediis risit formosior astris,</l>
+                <l n="l234" met="pentameter">Nec toto fulsit pulchrior orbe dies.</l>
+                <l n="l235">235 Laeta dies, formosa dies, si longior esset!</l>
+                <l n="l236" met="pentameter">Imminet, ah, nimium temporis hora brevis!</l>
+                <pb n="pb5"/>
                 
-                <l n="l243">Risimus incauti. Sed quid risisse, sodales,</l>
-                <l n="l244" met="pentameter">Juvit? Proh nullo gaudia firma loco!</l>
-                <l n="l245">Nam vix Illyricos jam quarta beaverat aestas,</l>
-                <l n="l246" met="pentameter">Cum Domus e nostro vellitur ipsa solo.</l>
-                <l n="l247">Heu iterum tenues rapiuntur tecta per auras,</l>
-                <l n="l248" met="pentameter">Et spretis fugiunt nocte silente fretis!</l>
-                <l n="l249">Prima pium furtum surgens Aurora retexit;</l>
-                <l n="l250" met="pentameter">O nunquam nobis afforet illa dies!</l>
-                <l n="l251">Quaerere Templa juvat neque Templa videre dabatur, </l>
-                <l n="l252" met="pentameter">Templa peregrinis rapta cacuminibus.</l>
-                <l n="l253">Lauretae nemora alta tenent. Quid quaerere tentas, </l>
-                <l n="l254" met="pentameter">Dalmata? Si quid amas, Itala Regna pete!</l>
-                <l n="l255">Illyris infelix felicia tempora defle:</l>
-                <l n="l256" met="pentameter">Quae dedit una Domum, nox rapit una Domum!</l>
-                <l n="l257">Cum subit illius maestissima noctis imago </l>
-                <l n="l258" met="pentameter">Nunc quoque luminibus fervida gutta fluit.</l>
-                <l n="l259">Cum noctem repeto, qua nil mihi tristius usquam </l>
-                <l n="l260" met="pentameter">Accidit, heu qualis corripit unda genas!</l>
-                <l n="l261">Ut vidi relegens taciti vestigia furti </l>
-                <l n="l262" met="pentameter">Finibus ereptae tristia signa Domus,</l>
-                <l n="l263">Non aliter stupui quam qui stupet ignibus ictus </l>
-                <l n="l264" met="pentameter">Aetheris et vivus funera falsa timet.</l>
-                <l n="l265">Alloquor, at <sic n="sic1">mestae</sic> responsant murmura vocis:</l>
-                <l n="l266" met="pentameter">"Fugit Virgo lares, hospita Virgo tuos!"</l>
-                <l n="l267">Aedes ter tetigi, ter sum deceptus, et ipsum </l>
-                <l n="l268" met="pentameter">Arguo me fraudis nescius ipse meae;</l>
-                <l n="l269">"Ite," inquam tandem, fugientia limina regnis, </l>
-                <l n="l270" met="pentameter">Luminibus nunquam tecta videnda meis!"</l>
-                <l n="l271">Este Salutati per saecula mille Penates,</l>
-                <l n="l272" met="pentameter">Omnia, queis raptis, procubuere mea!</l>
-                <l n="l273">Este salutata incunabula dulcia Matris,</l>
-                <l n="l274" met="pentameter">Quando nec extremum fundere verba datis!</l>
-                <l n="l275">Chara Domus, nostrae pretiosa Palatia Divae,</l>
-                <l n="l276" met="pentameter">Quae vos ora tenet? Quae rapuere manus?</l>
-                <l n="l277">Invida gens Italum, nostros rapuistis Amores:</l>
-                <l n="l278" met="pentameter">Quam satius nostrum cor rapuisse foret!</l>
-                <l n="l279">Nunc ego praepetibus superarem fervidus alis </l>
-                <l n="l280" met="pentameter">Fluctivagas undas, Adria saeve, tuas,</l>
-                <l n="l281">Ut facile ereptae cedente volatibus unda </l>
-                <l n="l282" met="pentameter">Virginis aspicerem tecta fugata meae;</l>
-                <l n="l283">Saltem oculis mihi spes abeuntis et umbra maneret! </l>
-                <l n="l284" met="pentameter">Tota semel misero nunc mihi rapta fuit.</l>
-                <l n="l285">Hunc cordi impactum Virgo dolor inserit alte,</l>
-                <l n="l286" met="pentameter">Solus adest dolor et causa doloris abest.</l>
-                <l n="l287">Hanc animam exanimem tecum, Dea, tolle per auras, </l>
-                <l n="l288" met="pentameter">Tolle, precor! Sera est crastina, tolle hodie!</l>
-                <pb n="pb289"/>
+                <l n="l237">Risimus incauti. Sed quid risisse, sodales,</l>
+                <l n="l238" met="pentameter">Juvit? Proh nullo gaudia firma loco!</l>
+                <l n="l239">Nam vix Illyricos jam quarta beaverat aestas,</l>
+                <l n="l240" met="pentameter">Cum Domus e nostro vellitur ipsa solo.</l>
+                <l n="l241">Heu iterum tenues rapiuntur tecta per auras,</l>
+                <l n="l242" met="pentameter">Et spretis fugiunt nocte silente fretis!</l>
+                <l n="l243">Prima pium furtum surgens Aurora retexit;</l>
+                <l n="l244" met="pentameter">O nunquam nobis afforet illa dies!</l>
+                <l n="l245">Quaerere Templa juvat neque Templa videre dabatur, </l>
+                <l n="l246" met="pentameter">Templa peregrinis rapta cacuminibus.</l>
+                <l n="l247">Lauretae nemora alta tenent. Quid quaerere tentas, </l>
+                <l n="l248" met="pentameter">Dalmata? Si quid amas, Itala Regna pete!</l>
+                <l n="l249">Illyris infelix felicia tempora defle:</l>
+                <l n="l250" met="pentameter">Quae dedit una Domum, nox rapit una Domum!</l>
+                <l n="l251">Cum subit illius maestissima noctis imago </l>
+                <l n="l252" met="pentameter">Nunc quoque luminibus fervida gutta fluit.</l>
+                <l n="l253">Cum noctem repeto, qua nil mihi tristius usquam </l>
+                <l n="l254" met="pentameter">Accidit, heu qualis corripit unda genas!</l>
+                <l n="l255">Ut vidi relegens taciti vestigia furti </l>
+                <l n="l256" met="pentameter">Finibus ereptae tristia signa Domus,</l>
+                <l n="l257">Non aliter stupui quam qui stupet ignibus ictus </l>
+                <l n="l258" met="pentameter">Aetheris et vivus funera falsa timet.</l>
+                <l n="l259">Alloquor, at <sic n="sic1">mestae</sic> responsant murmura vocis:</l>
+                <l n="l260" met="pentameter">"Fugit Virgo lares, hospita Virgo tuos!"</l>
+                <l n="l261">Aedes ter tetigi, ter sum deceptus, et ipsum </l>
+                <l n="l262" met="pentameter">Arguo me fraudis nescius ipse meae;</l>
+                <l n="l263">"Ite," inquam tandem, fugientia limina regnis, </l>
+                <l n="l264" met="pentameter">Luminibus nunquam tecta videnda meis!"</l>
+                <l n="l265">Este Salutati per saecula mille Penates,</l>
+                <l n="l266" met="pentameter">Omnia, queis raptis, procubuere mea!</l>
+                <l n="l267">Este salutata incunabula dulcia Matris,</l>
+                <l n="l268" met="pentameter">Quando nec extremum fundere verba datis!</l>
+                <l n="l269">Chara Domus, nostrae pretiosa Palatia Divae,</l>
+                <l n="l270" met="pentameter">Quae vos ora tenet? Quae rapuere manus?</l>
+                <l n="l271">Invida gens Italum, nostros rapuistis Amores:</l>
+                <l n="l272" met="pentameter">Quam satius nostrum cor rapuisse foret!</l>
+                <l n="l273">Nunc ego praepetibus superarem fervidus alis </l>
+                <l n="l274" met="pentameter">Fluctivagas undas, Adria saeve, tuas,</l>
+                <l n="l275">Ut facile ereptae cedente volatibus unda </l>
+                <l n="l276" met="pentameter">Virginis aspicerem tecta fugata meae;</l>
+                <l n="l277">Saltem oculis mihi spes abeuntis et umbra maneret! </l>
+                <l n="l278" met="pentameter">Tota semel misero nunc mihi rapta fuit.</l>
+                <l n="l279">Hunc cordi impactum Virgo dolor inserit alte,</l>
+                <l n="l280" met="pentameter">Solus adest dolor et causa doloris abest.</l>
+                <l n="l281">Hanc animam exanimem tecum, Dea, tolle per auras, </l>
+                <l n="l282" met="pentameter">Tolle, precor! Sera est crastina, tolle hodie!</l>
+                <pb n="pb6"/>
                 
-                <l n="l290">Et vos, fida manus, comitesque, ducesque laborum, </l>
-                <l n="l291" met="pentameter">Aeterno casus tempore flete meos!</l>
-                <l n="l292">285 Horreat omne nemus rauco clangore tubarum: </l>
-                <l n="l293" met="pentameter">Flete tubae, <sic n="sic1">lacrymas</sic> classica flete pias!</l>
+                <l n="l283">Et vos, fida manus, comitesque, ducesque laborum, </l>
+                <l n="l284" met="pentameter">Aeterno casus tempore flete meos!</l>
+                <l n="l285">285 Horreat omne nemus rauco clangore tubarum: </l>
+                <l n="l286" met="pentameter">Flete tubae, <sic n="sic1">lacrymas</sic> classica flete pias!</l>
                 
                             </div>
         </body>

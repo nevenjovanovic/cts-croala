@@ -38,57 +38,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="16"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="head" occurs="15"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="80" withId="80"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="122"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="ptr" occurs="70"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -155,7 +105,7 @@
             <titlePart n="titlePart1">M. MARVLI DELMATAE</titlePart> 
             <titlePart n="titlePart2">TROPOLOGICA DAVIDIADIS EXPOSITIO</titlePart> 
          </docTitle>
-         <div n="div2">
+         <div n="div1">
             <p n="p1">
    Sub<ptr n="ptr1" target="bilj1"/> Veteris instrumenti historiis Noui latere mysteria Apostolus testatur 
     dicens: Omnia illis contingebant in figuram.<ptr n="ptr2" target="bilj2"/> Ostendere igitur aggrediar Spiritu 
@@ -168,12 +118,12 @@
    contineri utriusque Legis autoritatem.</p>
          </div>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
 
 
          <div n="div1">
             <head n="head1">I.</head>
-            <p n="p2">
+            <p n="p1">
 
 
 Igitur per Samuelem prophetam arguitur Saul inobedientię 
@@ -182,7 +132,7 @@ succedit in regno; quia Iudeis Euangelio non credentibus, quos utriusque Scriptu
 redarguit autoritas, Christus incipit regnare cum tribu Iuda, id est cum his qui ipsum 
 confitentur Dei Filium mundique Dominum ac Saluatorem. 
 </p>
-            <p n="p3">
+            <p n="p2">
 
 
 Samuel autem qui interpretatur audiens Deum in frusta concidit<ptr n="ptr1" target="bilj3"/> Agag regem 
@@ -196,13 +146,13 @@ uestra.<ptr n="ptr2" target="bilj4"/> Translatum est regnum de tribu Beniamin ad
 amaritudinis ad filios confitentes Christum regem et glorificantes. Vtrumque enim 
 significat Iuda. 
 
-<note n="note3" xml:id="bilj1"> 137r </note>
+<note n="note1" xml:id="bilj1"> 137r </note>
 
-               <note n="note4" xml:id="bilj2"> I Cor 10,11 </note>
+               <note n="note2" xml:id="bilj2"> I Cor 10,11 </note>
 
-               <note n="note5" xml:id="bilj3"> 137v </note>
+               <note n="note3" xml:id="bilj3"> 137v </note>
 
-               <note n="note6" xml:id="bilj4"> Verba Daniheli prophetae ascribuntur (cf. Dan 9.24--26), leguntur autem apud pseudo-Augustinum (PL 42.1124ff.), in medio aevo apud Ptolomaeum Lucensem 
+               <note n="note4" xml:id="bilj4"> Verba Daniheli prophetae ascribuntur (cf. Dan 9.24--26), leguntur autem apud pseudo-Augustinum (PL 42.1124ff.), in medio aevo apud Ptolomaeum Lucensem 
   (Bartolomeo Fiadoni, 1240--1327) in Continuatione S. Thomae De regno, Johannem Duns 
   Scotum (1266--1308) in Ordinationis Prologi parte secunda, De sufficientia sacrae Scripturae Quaestione unica: Utrum cognitio supernaturalis necessaria viatori sit 
   sufficienter tradita in sacra Scriptura. Sententia postea usi sunt e. g. William Langland in 
@@ -213,26 +163,26 @@ significat Iuda.
  
 
 
-            <p n="p4">
+            <p n="p3">
 
 
 Saul agitatur spiritu immundo, et Dauide cytharam pulsante refocillatur; hoc 
 est Iudei in immunditia infidelitatis uersantes desipiunt, quidam tamen Christum 
 audiendo conuertuntur. 
 </p>
-            <p n="p5">
+            <p n="p4">
 
 
 Iam primum Dauid fit armiger Saulis; quia Christus primum docuit Iudeos, 
 et crucem quę eius arma sunt, inter illos portauit, ut Ioannes testatur.<ptr n="ptr1" target="bilj5"/> 
             </p>
-            <p n="p6">
+            <p n="p5">
 
 
 Goliam inter idolatras Palestinos fortissimum interemit. Christus diabolum 
 qui gentibus dominabatur, Euangelii uulgatione contriuit. 
 </p>
-            <p n="p7">
+            <p n="p6">
 
 
 Palestini Dauidem fugiunt, ut in illum rursum armentur. Gentiles<ptr n="ptr1" target="bilj6"/> ecclesię 
@@ -245,7 +195,7 @@ persecutionum maleis tundere aggressi sunt.
          </div>
          <div n="div2">
             <head n="head1">II.</head>
-            <p n="p2">
+            <p n="p1">
 Dauid cum Ionatha Saulis filio init amiciciam, et eius reuelationibus a Saulis 
 inuidia saluatur. Ionathas columbę 
 donum interpretatur, quod Spiritus Sancti 
@@ -260,38 +210,38 @@ uitamus, et
 spiritui qui uiuificat adhęremus.<ptr n="ptr1" target="bilj7"/> Ob hoc Ionathas, id est Spiritus Sancti<ptr n="ptr2" target="bilj8"/> donum 
 nostrę fidei fauet, et eorum reprobat perfidiam. 
 </p>
-            <p n="p3">
+            <p n="p2">
 Saul tamen Dauidem pręficit militibus. Et Iudei initio patiuntur ut plebem 
 doceat Christus et magister eorum sit. 
 </p>
-            <p n="p4">
+            <p n="p3">
 Quum autem Saul uidisset pręferri sibi Dauidem laude uirtutis, odio eum habuit, 
 et uitę 
 illius insidiari coepit. Sic Iudeorum principes quum cernerent plebem 
 abire post Christum, et miracula<ptr n="ptr1" target="bilj9"/> eius prędicare,10 inuidentes quęsierunt eum 
 interficere. 
 
-<note n="note2" xml:id="bilj5"> cf. Io 10 </note>
+<note n="note1" xml:id="bilj5"> cf. Io 10 </note>
 
-               <note n="note3" xml:id="bilj6"> 138r </note>
+               <note n="note2" xml:id="bilj6"> 138r </note>
 
-               <note n="note4" xml:id="bilj7"> cf. littera enim occidit Spiritus autem vivificat II Cor 3,6 </note>
+               <note n="note3" xml:id="bilj7"> cf. littera enim occidit Spiritus autem vivificat II Cor 3,6 </note>
 
-               <note n="note5" xml:id="bilj8"> sancti corr. ex sancto MS </note>
+               <note n="note4" xml:id="bilj8"> sancti corr. ex sancto MS </note>
 
-               <note n="note6" xml:id="bilj9"> 138v </note>
+               <note n="note5" xml:id="bilj9"> 138v </note>
 
-               <note n="note7" xml:id="bilj10"> praeditare MS </note>
+               <note n="note6" xml:id="bilj10"> praeditare MS </note>
             </p>
 
 
-            <p n="p5">
+            <p n="p4">
 
 
 Sępenumero cum Dauide in gratiam se redire simulat Saul, et Iudei Christum 
 tentantes blandius interrogant, non ut discant, sed ut accusent. 
 </p>
-            <p n="p6">
+            <p n="p5">
 
 
 Saul despondit Dauidi filiam Michol pro prępuciis Palestinorum. Michol 
@@ -302,19 +252,19 @@ Christo plena fide adhęserimus, baptisma nihil nobis proderit. Saulis autem fil
 dicitur, quia a Iudeis coepit baptizante eos Ioanne et postea discipulis Christi, qui 
 et ipsi Iudei erant. 
 </p>
-            <p n="p7">
+            <p n="p6">
 
 
 Dauid pro sponsa Michol numerat Palestinorum prępucia; quia Christus 
 incircumcisos conuersos baptismo purificat. 
 </p>
-            <p n="p8">
+            <p n="p7">
 
 
 Saulem fugit; fugit Christus Iudeorum persecutionem, donec ueniat hora eius 
 regnandi in cruce. 
 </p>
-            <p n="p9">
+            <p n="p8">
 
 
 Qui quęrebant Dauidem a Michola delusi re infecta reuertuntur ad Saulem. 
@@ -326,16 +276,16 @@ et illi spe sua decepti ad infidelitatem suam redeunt.
          <div n="div3">
             <head n="head1">
                <num n="num1" value="3">III</num>.</head>
-            <p n="p2">
+            <p n="p1">
 Dauid fugiens uenit ad Samuelem. Christus litteram occidentem uitans<ptr n="ptr1" target="bilj11"/> aperit 
 spiritalem sensum prophetarum, qui aduentum suum prędixerant.<ptr n="ptr2" target="bilj12"/> 
             </p>
-            <p n="p3">
+            <p n="p2">
 Missi Dauidem comprehendere, coeperunt prophetare. Et satellites Iudeorum 
 missi ut Christum capiant, uerbis eius stupefacti redeunt et aiunt: Nunquam homo 
 sic locutus est.<ptr n="ptr1" target="bilj13"/> 
             </p>
-            <p n="p4">
+            <p n="p3">
 Dauid fugiens ab<ptr n="ptr1" target="bilj14"/> Achimelech sacerdote accipit panes sanctos et gladium 
 Golię 
 Gethei. Christus fugiens Iudeorum perfidiam, a sacerdotio eorum amouet 
@@ -343,15 +293,15 @@ gratiam panis in corpore suo sanctificati, porrigitque discipulis; accipit gladi
 quo Golias periit, ut in eo uincat etiam nationes idolis deditas, et Iudeis incredulis 
 nihil prosit ablata diabolo potestas. 
 
-<note n="note2" xml:id="bilj11"> cf. II Cor 3,6, ut supra </note>
+<note n="note1" xml:id="bilj11"> cf. II Cor 3,6, ut supra </note>
 
-               <note n="note3" xml:id="bilj12"> 139r </note>
-               <note n="note4" xml:id="bilj13"> numquam sic locutus est homo Io 7,46 </note>
-               <note n="note5" xml:id="bilj14"> ab corr. ex ad MS </note>
+               <note n="note2" xml:id="bilj12"> 139r </note>
+               <note n="note3" xml:id="bilj13"> numquam sic locutus est homo Io 7,46 </note>
+               <note n="note4" xml:id="bilj14"> ab corr. ex ad MS </note>
 
 
             </p>
-            <p n="p5">
+            <p n="p4">
 
 
 Dauid fugiens ad Achim Getheorum regem insaniam simulat. Et discipuli 
@@ -362,7 +312,7 @@ in cęlis est, hic frater meus et soror et mater mea est.<ptr n="ptr2" target="b
 quia gentiles conuersi fuderunt sanguinis sui mustum pro confessione nominis 
 Christiani instar torculorum. 
 </p>
-            <p n="p6">
+            <p n="p5">
 
 
 Venit Dauid ad speluncam Odollam. Illic sui ad ipsum conueniunt. Deinde a 
@@ -374,14 +324,14 @@ populum confitentem se et Nouę
 legi adhęrentem; ad quam sui conueniunt. Sui 
 enim sunt qui in ipsum credunt. 
 </p>
-            <p n="p7">
+            <p n="p6">
 
 
 Sacerdotes Nobę 
 a Saule cęduntur; quia Christo in carne ueniente perire 
 debebat Iudeorum sacerdotium. 
 </p>
-            <p n="p8">
+            <p n="p7">
 
 
 Abiathar Achimelechi filius fugit ad Dauidem et ab eo benigne est susceptus; 
@@ -393,16 +343,16 @@ nemini claudens ianuam salutis.
             <head n="head1">IIII.</head>
 
 
-            <p n="p2">
+            <p n="p1">
 Ceila a Palestinis obsidetur, a Dauide liberatur. Ceila interpretatur sustollens 
 se ipsam. Fideles persecutionem passi ab idolatris a Christo liberantur et ad cęlum 
 tolluntur donati corona martyrii. 
 </p>
-            <p n="p3">
+            <p n="p2">
 Dauid uenit in Ziph. Ziph dicitur flores germinans. Quia ad quem uenit 
 Christus, hic affectibus floret piis, et germinat operibus uirtutum. 
 </p>
-            <p n="p4">
+            <p n="p3">
 Sed quoniam multi etiam a perfectionis culmine corruunt, Dauid a Zipheis 
 proditur, et a Saule circumdatur. Sed Saul quum audisset hostes in regnum irruisse 
 a Dauide recessit. Christus ad Iudeos uenerat, ex quibus Iudas Zipheus erat, dum 
@@ -419,14 +369,14 @@ hominibus I Cor 1,25
 
             </p>
 
-            <p n="p5">
+            <p n="p4">
 
 
 Dauid uenit in Engadi; quod interpretatur<ptr n="ptr1" target="bilj18"/> oculus tentationis. Et Christus 
 Dominus ductus est in desertum ut tentaretur a diabolo; tunc diabolus tentauit illum 
 per oculum tentationis, quum ostenderet ei regna mundi. 
 </p>
-            <p n="p6">
+            <p n="p5">
 
 
 Dauid latet in spelunca, Sauli oram clamidis abscindit, et Saul desinit eum 
@@ -434,14 +384,14 @@ persequi. Christus latebat in obscuritate Veteris scripturę, in qua Iudei cęcu
 Sed illis quos conuertit ostendit oram clamidis abscissam id est sensum Scripturę 
 spiritalem, et agnoscere coeperunt Saluatorem. 
 </p>
-            <p n="p7">
+            <p n="p6">
 
 
 Samuel moritur, et Dauid uenit in Pharam. Vaticinia de Christo finem 
 accipiunt, et Euangelium inter ferocissimas gentes uulgatur. Phara enim ferocitas 
 interpretatur. 
 </p>
-            <p n="p8">
+            <p n="p7">
 
 
 Dauid in Nabalem iratus, per Abigailem eius coniugem placatur. Nabal stultum 
@@ -453,7 +403,7 @@ Christus, et conuerteretur mundus, et fatuitas in sapientiam mutaretur.
          </div>
          <div n="div5">
             <head n="head1">V.</head>
-            <p n="p2">
+            <p n="p1">
 
 
 Mortuo Nabale Dauid Abigailem sibi coniunxit. Extirpata idolorum<ptr n="ptr1" target="bilj19"/> stultitia 
@@ -461,35 +411,35 @@ Christus ecclesiam sibi sponsam fecit, et quę
 demoniis seruiebat, facta est uxor 
 Christi per fidem. 
 </p>
-            <p n="p3">
+            <p n="p2">
 Dauid superinduxit<ptr n="ptr1" target="bilj20"/> Achinoen; hęc interpretatur fratris decus. Fratres Christi 
 Iudei erant; ex his elegit apostolos, qui ipsum prędicando et exaltando facti sunt 
 eius decus. 
 </p>
-            <p n="p4">
+            <p n="p3">
 Saul iratus Dauidi Micholam eius sponsam tradidit Phalto. Diximus per Michol 
 baptismum significari. Phalti autem interpretatur liberatus. Iudei ergo quanuis 
 Christo infensi auertere ab illo niterentur sponsam eius ecclesiam baptismo 
 consecratam, tradere tamen illam non poterant nisi per baptismum liberato. 
 Fidelium enim coetu constat Christi ecclesia. 
 </p>
-            <p n="p5">
+            <p n="p4">
 Saul Zipheis prodentibus Dauidem obsedit in colle Achillę. Achila<ptr n="ptr1" target="bilj21"/> 
 interpretatur susceptio eius. Ziphei ergo id est florentes non uirtute sed malicia 
 
-<note n="note2" xml:id="bilj18"> 140r </note>
-               <note n="note3" xml:id="bilj19"> idolorum corr. ex Iudeorum MS </note>
-               <note n="note4" xml:id="bilj20"> 140v </note>
+<note n="note1" xml:id="bilj18"> 140r </note>
+               <note n="note2" xml:id="bilj19"> idolorum corr. ex Iudeorum MS </note>
+               <note n="note3" xml:id="bilj20"> 140v </note>
 
 
-               <note n="note5" xml:id="bilj21"> sic </note>
+               <note n="note4" xml:id="bilj21"> sic </note>
 
 
 accusant Christum coram principibus Iudeorum, et illi uitę 
 eius insidiantur, et 
 eiusdem susceptores persequuntur. 
 </p>
-            <p n="p6">
+            <p n="p5">
 
 
 Dauid noctu ingressus tentorium Saulis, tulit cyphum et hastam, ipsum uero 
@@ -502,7 +452,7 @@ qui<ptr n="ptr1" target="bilj22"/> adhuc non credunt. Saul hoc uidens placatus a
 placari nequeunt: qui uident, illi placantur. Non enim uiderent, nisi crederent: 
 increduli cęci sunt. 
 </p>
-            <p n="p7">
+            <p n="p6">
 
 
 Dauid proficiscitur ad Achim in Palestinam et habitat in Sicelech et ipsos 
@@ -513,20 +463,20 @@ deorum cultu, et errorum suorum fecem expurgantes, ueritatis puritatem admittunt
 Tum autem Dauid occulte prędatur Palestinos, quum Christus intimis inspirationibus 
 ad se trahit peccatores, siue incredulos gentiles. 
 </p>
-            <p n="p8">
+            <p n="p7">
 
 
 Palestini armantur in Saulem, Romani in Iudeam. 
 </p>
-            <p n="p9">
+            <p n="p8">
 Periit Saul cum filiis. Infideles Iudei, non recipientes Christum, lapsi sunt in 
 interitum sempiternum. 
 </p>
-            <p n="p10">
+            <p n="p9">
 Fleuit Christus pręuidens eorum euersionem, sicut Dauid Saulis necem et 
 Israhelitarum cladem. 
 </p>
-            <p n="p11">
+            <p n="p10">
 Palestini ascendunt in Iezrahel, id est gentiles accesserunt ad uidentes Deum. 
 Sic enim interpretatur Iezrahel. Videntes autem Deum dicuntur prophetę. Porro 
 uincere aliter Iudeorum errorem non potuissent, nisi Scripturarum ueterum 
@@ -535,14 +485,14 @@ autoritate eos refellissent. Suo illos telo confoderunt.
          </div>
          <div n="div6">
             <head n="head1">VI.</head>
-            <p n="p2">
+            <p n="p1">
 Dauid rediens in Sicelech comperit eam<ptr n="ptr1" target="bilj23"/> ab Amalechitis uastatam, et uxores 
 suas inde captiuas abductas; currit post inimicos, et recuperat prędam. Sicelech 
 interpretauimus esse gentiles conuersos. Ad quos Christus rediens inuenit heresum 
 incursionibus subuersos; et uxores suas id est ecclesias, alias abisse post Arrium, 
 
-<note n="note2" xml:id="bilj22"> 141r </note>
-               <note n="note3" xml:id="bilj23"> 141v </note>
+<note n="note1" xml:id="bilj22"> 141r </note>
+               <note n="note2" xml:id="bilj23"> 141v </note>
 
 
 
@@ -552,12 +502,12 @@ monstra. Sed cum ueritatis
 prędicatoribus consurgens subiugauit errores et recuperauit prędam, et ecclesię 
 quę iam dicebantur Arrianę, factę sunt Christianę. 
 </p>
-            <p n="p3">
+            <p n="p2">
 
 
 Et reuersus est in Sicelech id est ad conuersos suos in fide solidandos. 
 </p>
-            <p n="p4">
+            <p n="p3">
 
 
 Israhelitę 
@@ -579,7 +529,7 @@ Saulem et filios eius sepelierunt: quia gentiles Scripturę
 sensum bene intelligendo 
 dixerunt, Lex et prophetę usque ad Ioannem.<ptr n="ptr1" target="bilj24"/> 
             </p>
-            <p n="p5">
+            <p n="p4">
 
 
 Dauid dolore afficitur ob interitum Saulis et Ionathę 
@@ -590,7 +540,7 @@ autorem<ptr n="ptr1" target="bilj25"/> diabolum interimi iubet dum eius potestat
          </div>
          <div n="div7">
             <head n="head1">VII.</head>
-            <p n="p2">
+            <p n="p1">
 
 
 Dauid ascendit in Hebron, ungitur in regem, benedicit Iabitis, qui sepelierunt 
@@ -599,7 +549,7 @@ Euangelii doctoribus, qui finem statuerunt Legi, quę
 ipsum uenturum significabat 
 quęque finiri debuit, quum ipse uenisset. 
 </p>
-            <p n="p3">
+            <p n="p2">
 Filius interim Saulis Isboseth biennium regnat in Ierusalem Abnero autore. 
 Quia Iudei post Christi passionem regnarunt, donec a Romanis deleti sunt. Et hoc 
 Abnero autore, id est diabolo, qui regnantes obcęcabat, ne Christo crederent. Abner 
@@ -607,11 +557,11 @@ enim interpretatur lapis lucidus. Lucidus quippe erat ante peccatum, postea
 obstinatione induruit ut lapis. Iesboseth autem interpretatur coęquatus mihi. Quia 
 Iudei submittere se Christo noluerunt, quasi pares illi. 
 </p>
-            <p n="p4">
+            <p n="p3">
 Dauid regnat in Hebron annos septem. Per septenarium uniuersorum summa 
 denotatur. Semper enim Christus in uisione regnat ęterna, quod est in Hebron. 
 </p>
-            <p n="p5">
+            <p n="p4">
 Adduntur menses sex, fortasse quia in sexta ętate apparuit nobis in homine 
 assumpto. 
 
@@ -620,14 +570,14 @@ assumpto.
                <note n="note2" xml:id="bilj25"> 142r </note>
 
             </p>
-            <p n="p6">
+            <p n="p5">
 
 
 Abner, Isbosethi dux, et Ioabus, dux Dauidis, inter se pugnant. Superior tamen 
 euadit Ioabus, quia Legi pręualet Euangelium. Neque enim Ioab semper in malam 
 partem est accipiendus.<ptr n="ptr1" target="bilj26"/> 
             </p>
-            <p n="p7">
+            <p n="p6">
 
 
 Azahel tamen, frater Ioabi, ab Abnero interficitur. Azahel uidens Deum 
@@ -635,25 +585,25 @@ designat. Multi enim fidei oculis uident Deum, sed uoluptatibus superati pręcep
 fidei non sequuntur. Hos Abner, id est diabolus, in ęternum trahit interitum, si in 
 tempore non se correxerint. 
 </p>
-            <p n="p8">
+            <p n="p7">
 
 
 Sepelitur in Bethlem, id est in ecclesia tanquam fidelis. Quia de occultis 
 ecclesia non iudicat,27 licet ille Dei iudicio damnetur. 
 </p>
-            <p n="p9">
+            <p n="p8">
 
 
 Ioab reuertitur in Hebron, id est fidelis post carnis uel diaboli pugnam uictor 
 ad cęlestium contemplationem redit. 
 </p>
-            <p n="p10">
+            <p n="p9">
 
 
 In Hebron Dauidi nascuntur filii. Qui enim Christi diuinitatem humanitatemque 
 recipiunt, filii Dei uocabuntur, non ex sanguinibus, sed ex Deo nati.<ptr n="ptr1" target="bilj28"/> 
             </p>
-            <p n="p11">
+            <p n="p10">
 
 
 Isboseth cum Abnero rixatus restituit Dauidi Micholam et Abnero autore Israel, 
@@ -665,7 +615,7 @@ Micholam. Et Abner, qui hoc loco Legem significat, quum et ipsa sit lapis lucidu
 in tabulis lapideis digito Dei descripta, omnibus per spiritalem sui sensum suadet, 
 ut se Christo regi submittant, si salui esse cupiunt. 
 </p>
-            <p n="p12">
+            <p n="p11">
 Isbosethum filii Renon dormientem interimunt, caput afferunt Dauidi<ptr n="ptr1" target="bilj29"/> in 
 Hebron et ipsi Dauidis iussu interficiuntur. Et caput Isbosethi in Hebron sepelitur. 
 Isbosethum Iudeum ad Christum conuersum diximus, sed plerique conuersi 
@@ -678,17 +628,17 @@ multiplicatione iactant. Sed ob hoc iustius ipsi Christi iudicio damnantur.
 Tunc autem et caput interempti sepelitur, quum error illorum finem accipit. Et id 
 quidem in Hebron, ut ubi Deus uidetur, inde fugiat diabolus. 
 
-<note n="note3" xml:id="bilj26"> 142v </note>
-               <note n="note4" xml:id="bilj27"> CIC Decr. Grat. IX, lib. 5, tit. 3, <abbr n="abbr1">cap</abbr>. 34 </note>
-               <note n="note5" xml:id="bilj28"> cf. Io 1,13 </note>
-               <note n="note6" xml:id="bilj29"> 143r </note>
+<note n="note1" xml:id="bilj26"> 142v </note>
+               <note n="note2" xml:id="bilj27"> CIC Decr. Grat. IX, lib. 5, tit. 3, <abbr n="abbr1">cap</abbr>. 34 </note>
+               <note n="note3" xml:id="bilj28"> cf. Io 1,13 </note>
+               <note n="note4" xml:id="bilj29"> 143r </note>
 
 
-               <note n="note7" xml:id="bilj30"> Ps 25(26),5 </note>
+               <note n="note5" xml:id="bilj30"> Ps 25(26),5 </note>
 
             </p>
 
-            <p n="p13">
+            <p n="p12">
 
 
 Dauid uenit in Hierusalem, expulit Iebuseos, arcem Syon muniuit et appellata 
@@ -703,7 +653,7 @@ ueritatis doctrina firmauit, et uocari coepit ecclesia Christi.
          </div>
          <div n="div8">
             <head n="head1">VIII.</head>
-            <p n="p2">
+            <p n="p1">
 
 
 Hyram, rex Tyri, mittit Dauidi materiam ad domum ędificandam. Hyram 
@@ -711,13 +661,13 @@ uigilantem significat, Tyrus fortitudinem. Qui Christo uigilat, rex<ptr n="ptr1"
 in tentationibus fortis est. Pręmittit Christo materiam bonorum operum ad 
 construendam ęternam domum in cęlis. 
 </p>
-            <p n="p3">
+            <p n="p2">
 
 
 Dauid accipit adhuc alias uxores. Quia Christus multas nationes fidei unius 
 consortio sibi copulauit. 
 </p>
-            <p n="p4">
+            <p n="p3">
 
 
 Palestinos uicit in Raphidim. Iterum eos in se insurgentes eodem loco concidit. 
@@ -729,29 +679,29 @@ Christo mori non dubitarent. Et qui multos contra Christum occiderant, iam et ip
 pro Christo mortem subire non detrectabant. 
 
 </p>
-            <p n="p5">
+            <p n="p4">
 Dauid reduxit arcam a Palestinis redditam. Quia Christus reparauit gratiam, 
 primorum parentum culpa amissam. Tunc autem arca a Palestinis Dauidi redditur, 
 quum gentiles conuersi Christo obedire incipiunt. 
 
 </p>
-            <p n="p6">
+            <p n="p5">
 Oza arcam tetigit et mortuus est. Quia sacra manibus contrectare sacerdotibus 
 licet, aliis non licet. Qui non consecratus hostiam sanctam palpat, animę 
 mortem 
 incurrit, sicut Oza corporis. 
 
 </p>
-            <p n="p7">
+            <p n="p6">
 Arca primum ducitur in domum<ptr n="ptr1" target="bilj32"/> Obededon, et ei prospere cędunt omnia. 
 Quando Christi sacramentum reponitur in domo cordis Obededon, id est seruientis 
 ruffo, id enim Obededon interpretatur, in domo animę 
 seruientis Christo ruffo, 
 cui dicitur : Quare rubrum est indumentum tuum?33 — tunc anima illa uirtute 
 
-<note n="note2" xml:id="bilj31"> 143v </note>
-               <note n="note3" xml:id="bilj32"> 144r </note>
-               <note n="note4" xml:id="bilj33"> Quare ergo rubrum est indumentum tuum Is 63,2 </note>
+<note n="note1" xml:id="bilj31"> 143v </note>
+               <note n="note2" xml:id="bilj32"> 144r </note>
+               <note n="note3" xml:id="bilj33"> Quare ergo rubrum est indumentum tuum Is 63,2 </note>
 
 
 
@@ -759,7 +709,7 @@ sacramenti illius prosperatur. Nam a peccatis pręteritis purgatur, a pręsentib
 abstinet, a futuris cauet et uirtutibus proficit. 
 
 </p>
-            <p n="p8">
+            <p n="p7">
 
 
 Demum arca ducta est in Hierusalem et postea sub Salomone pacifico in 
@@ -767,7 +717,7 @@ templo collocata. Quia de Christi sacramento est dictum: In pace inuentus est lo
 eius,34 et: Beati pacifici quoniam filii Dei uocabuntur.<ptr n="ptr1" target="bilj35"/> 
 
             </p>
-            <p n="p9">
+            <p n="p8">
 
 
 Regem ante arcam Domini ludentem derisit uxor et sterilitate damnatur. 
@@ -775,7 +725,7 @@ Christum irriserunt Iudei, et bonorum fonte contempto uirtutis fructum proferre
 nequiuerunt. 
 
 </p>
-            <p n="p10">
+            <p n="p9">
 
 
 Templum Dei ędificare non Dauidi permittitur, sed eius filio Salomoni. Quia 
@@ -786,7 +736,7 @@ cum gentibus: in Salomone in cruce moriens, ut corporis sui sacrificio nos Deo
 reconciliet et in triduo excitet templum Iudeorum perfidia destructum. 
 
 </p>
-            <p n="p11">
+            <p n="p10">
 
 
 Et pulchre hoc quidem Nathan nunciare inducitur. Nathan<ptr n="ptr1" target="bilj36"/> enim interpretatur 
@@ -795,7 +745,7 @@ per gratiam Spiritus Sancti diuinęque largitatis donum. Sed nunc ad Dauidem und
 discesserat redeat oratio. 
 
 </p>
-            <p n="p12">
+            <p n="p11">
 Dauid cecidit Palestinos, a Moabitis exegit tributum et a Syris; fregit Adadezerum 
 regem Sobę, equos eius subneruauit, et cum spoliis uictor Hierosolymam 
 rediit. Palestini ore contundentes interpretantur; hos Dauid cędit quia Christus 
@@ -817,18 +767,18 @@ uim, qua nixa stare possent; et cum spoliis id est cum conuersis, qui<ptr n="ptr
 erant, rediit in domum pacis, destructo errore qui ueritati repugnabat. Tunc conuersi 
 Deo gratias agunt. 
 
-<note n="note2" xml:id="bilj34"> et factus est in pace locus eius Ps 75(76),3 </note>
+<note n="note1" xml:id="bilj34"> et factus est in pace locus eius Ps 75(76),3 </note>
 
-               <note n="note3" xml:id="bilj35"> Mt 5,9 </note>
+               <note n="note2" xml:id="bilj35"> Mt 5,9 </note>
 
-               <note n="note4" xml:id="bilj36"> 144v </note>
-               <note n="note5" xml:id="bilj37"> 145r </note>
+               <note n="note3" xml:id="bilj36"> 144v </note>
+               <note n="note4" xml:id="bilj37"> 145r </note>
 
 
 
 
             </p>
-            <p n="p13">
+            <p n="p12">
 
 
 Ideo Thou rex Emath gratulatum misisse Dauidi dicitur de uictoria aduersus 
@@ -837,7 +787,7 @@ formidinis et erroris erant; postquam resipuerunt, iam non erant thou neque emat
 sed ueraces in credendo, et audaces in Christum confitendo. 
 
 </p>
-            <p n="p14">
+            <p n="p13">
 
 
 Dauid percussit Idumeos. Idumei interpretantur ruffi, rubei, terreni, sanguinei; 
@@ -851,7 +801,7 @@ damnat.
             <head n="head1">VIIII.</head>
 
 
-            <p n="p2">
+            <p n="p1">
 
 
 Dauid Miphibosetum Ionathę 
@@ -871,34 +821,34 @@ Christi efficimur participes, corpori
 et sanguini eius communicantes. 
 
 </p>
-            <p n="p3">
+            <p n="p2">
 Annon Ammonitarum rex male accipit Dauidis legatos. Ioab aduersus eum 
 missus percussit Syros eius conductitios. Dauid quoque percussit Syros, ab 
 Adadozero<ptr n="ptr1" target="bilj40"/> missos, et Sobabum principem militię 
 interemit. Christus Dauid noster 
 misit legatos suos apostolos ad gentiles conuertendos; sed Annon, qui interpretatur 
 gratificationi murmurans, Ammonitis autem imperans, qui interpretantur 
-comprimentes me <gap n="gap2"/> murmurare infideles coeperunt, et eos persequi et per milites 
+comprimentes me <gap n="gap1"/> murmurare infideles coeperunt, et eos persequi et per milites 
 suos comprimere. Sed Ioab, qui interpretatur inimicus, hoc est diabolus, percussit 
 Syros, id est superbos. Syria enim in superbiam uertitur. Quia persecutores 
 aduersum Christianos potestati diaboli traditi erant. Hos et Dauid noster damnat; 
 ideo et ipse cęcidisse Syros refertur, qui ab Adadozero missi erant, id est a 
 separatore, qui a Christo separat. Hi sunt uel heretici uel demones uel idolatrę 
-persecutores. Sobabum<ptr n="ptr3" target="bilj41"/> Adadozeri ducem interimit. Damnat enim Christus morte 
+persecutores. Sobabum<ptr n="ptr2" target="bilj41"/> Adadozeri ducem interimit. Damnat enim Christus morte 
 ęterna eos, qui suppliciis afficiunt Christianos, nisi et ipsi conuertantur. Soba enim 
 serra secans interpretatur. 
 
-<note n="note4" xml:id="bilj38"> sic in MS-to </note>
+<note n="note1" xml:id="bilj38"> sic in MS-to </note>
 
-               <note n="note5" xml:id="bilj39"> 145v </note>
+               <note n="note2" xml:id="bilj39"> 145v </note>
 
-               <note n="note6" xml:id="bilj40"> Adadozero sic; idem infra; sed in Adadezero em. Marcovich et post eum alii </note>
+               <note n="note3" xml:id="bilj40"> Adadozero sic; idem infra; sed in Adadezero em. Marcovich et post eum alii </note>
 
-               <note n="note7" xml:id="bilj41"> 146r </note>
+               <note n="note4" xml:id="bilj41"> 146r </note>
 
 
             </p>
-            <p n="p4">
+            <p n="p3">
 
 
 Ioab uastat fines Ammonitarum et obsidet Rabbam. Quia diabolus humani 
@@ -907,7 +857,7 @@ interpretatur iudicium. Nam et illos diabolus infestat, qui iudicio in bonis mal
 discernendis utuntur, dum nititur mentem eorum peruertere. 
 
 </p>
-            <p n="p5">
+            <p n="p4">
 
 
 Dauid cum Bersaba Vrię 
@@ -937,12 +887,12 @@ enim sunt
 quę testimonium perhibent de me.<ptr n="ptr4" target="bilj45"/> 
 
             </p>
-            <p n="p6">
+            <p n="p5">
 Huius primogenitus filius mortuus est, secundus regnauit. Primi Iudei 
 incredulitate perierunt, secundi gentiles in fide Christi dominantur. 
 
 </p>
-            <p n="p7">
+            <p n="p6">
 Amisit ipsa primum uirum Iudeos, et secundo iuncta est Christo, qui non uenit 
 soluere Legem, sed adimplere. Seponamus interim crimen adulterii et homicidii 
 a Dauide nostro, et inueniemus: quia Bersabe adultera erat sub Iudeis, ipsam non 
@@ -951,11 +901,11 @@ est Christo Domino, et per eum genuit filios, qui in illa Christum prophetatum
 fide receperunt. 
 
 </p>
-            <p n="p8">
+            <p n="p7">
 Aduersa patitur Dauid: et Christus a iuuentute sua in laboribus fuit. 
 
 </p>
-            <p n="p9">
+            <p n="p8">
 Ex hac genitus est Salomon pacificus, quia ipsa nasciturum prędixit saluatorem. 
 
 <note n="note1" xml:id="bilj42"> sic in MS-to </note>
@@ -971,7 +921,7 @@ quae testimonium perhibent de me Io 5,39
 
 
 </p>
-            <p n="p10">
+            <p n="p9">
 
 
 Ioab expugnaturus<ptr n="ptr1" target="bilj46"/> Rabbam uocat Dauidem, illi cędens uictorię 
@@ -981,7 +931,7 @@ nisi ipsi consenserint, ut uincantur. Christus autem tunc conuersos superat, quu
 ipsi non sinunt superari se a diabolo. 
 
 </p>
-            <p n="p11">
+            <p n="p10">
 
 
 Hinc Dauid tulit regis diadema, populum serra disecuit et carpentis contriuit. 
@@ -994,7 +944,7 @@ martyribus suis largitur pacis ęternę coronam.
          <div n="div10">
             <head n="head1">X.</head>
 
-            <p n="p2">
+            <p n="p1">
 
 
 Ammon, Dauidis filius, uitiat Thamaram, Absalonis sororem, et rex ex eo 
@@ -1010,7 +960,7 @@ me.<ptr n="ptr2" target="bilj48"/> Displicuit Christo suscitata seditio aduersus
 sinite hos abire.<ptr n="ptr3" target="bilj49"/> 
 
             </p>
-            <p n="p3">
+            <p n="p2">
 Absalon id est pharisei fugiunt in Gessur; quę 
 interpretatur applicans lumen. 
 Hęc est Lex, quę 
@@ -1019,7 +969,7 @@ tenebras erroris. Tunc ergo Iudei fugerunt in Gessur, quum nihil spiritaliter
 intelligentes clamabant: Legem habemus, et secundum legem nostram debet mori.<ptr n="ptr1" target="bilj50"/> 
 
             </p>
-            <p n="p4">
+            <p n="p3">
 Ioab, qui dicitur inimicus, blanditur Absaloni, id est Iudeos per blandimenta 
 decipit et eos per mulierem Thecuitem cum Christo reconciliare nititur: per somnia 
 terrens uxorem Pilati, ita ut illa suaderet marito dimittere Christum. Thecua tuba 
@@ -1036,7 +986,7 @@ Ioabi messem, quando Iudei non consenserunt dimitti Christum, sed cruci figi.
 
 
             </p>
-            <p n="p5">
+            <p n="p4">
 
 
 Absalon deinde regnum auferre nititur Dauidi patri. Quia Iudei de Christo 
@@ -1047,28 +997,28 @@ Absalonem; et Christus Iudeos fugiens per medium illorum ibat, quia nondum uener
 hora eius.<ptr n="ptr4" target="bilj55"/> 
 
             </p>
-            <p n="p6">
+            <p n="p5">
 
 
 Mittitur Ioab cum exercitu contra Absalonem. Semper Ioab contra impios 
 mittitur: quia impii semper sub potestate diaboli sunt. 
 
 </p>
-            <p n="p7">
+            <p n="p6">
 
 
 Defecit Absalonis uirtus, et per capillos implicatus a Ioabo transfigitur. Iudei 
 erroribus implicati diabolo subduntur. 
 
 </p>
-            <p n="p8">
+            <p n="p7">
 
 
 Dauid luget Absalonem: Christus deflet Iudeos et pro illis solicitus orat patrem, 
 ut ignoscat eis. 
 
 </p>
-            <p n="p9">
+            <p n="p8">
 
 
 Et quoniam Christi mysteria diuino succedebant consilio, ideo Absalon secutus 
@@ -1076,7 +1026,7 @@ dicitur consilium Chusi, qui interpretatur arcanum siue profunditas. Iudicia eni
 Dei abyssus multa.<ptr n="ptr1" target="bilj56"/> 
 
             </p>
-            <p n="p10">
+            <p n="p9">
 
 
 Achitophel uero, quia Chusi consilium suo pręlatum uidit, suspendio sibi uitam 
@@ -1087,7 +1037,7 @@ sed etiam nomine. Interpretatur enim frater meus ruens. Nam qui apostolus Christ
 erat, proditor factus est Christi et corruit in infernum. 
 
 </p>
-            <p n="p11">
+            <p n="p10">
 Cęterum, quum fugeret Absalonem, Dauid cliuum oliuarum flens ascendisse 
 dicitur; et Christus fleuit<ptr n="ptr1" target="bilj58"/> super Hierusalem uidens futurum eius excidium. 
 </p>
@@ -1095,7 +1045,7 @@ dicitur; et Christus fleuit<ptr n="ptr1" target="bilj58"/> super Hierusalem uide
          <div n="div11">
             <head n="head1">XI.</head>
 
-            <p n="p2">
+            <p n="p1">
 Venit ad Dauidem Siba cum muneribus, et dominum suum Miphibosetum 
 accusauit defectionis. Quamobrem Dauid asscripsit ei bona domini sui. Sibam 
 diximus interpretationem conuersi habere. Conuersus ad Christum sortitur domini 
@@ -1121,7 +1071,7 @@ Iudeos Miphiboseth hoc loco figurauit. Os enim confusum interpretatur. Est autem
 confusio etiam ad mortem,59 ut ait Scriptura. 
 
 </p>
-            <p n="p3">
+            <p n="p2">
 
 
 Dauid uenit in Baurim et patitur maledicta Semei. Baurim interpretatur electi. 
@@ -1130,7 +1080,7 @@ designat Semeus, quia interpretatur: audi mihi. Hoc illis congruit, qui suam, no
 Dei uoluntatem sequuntur. 
 
 </p>
-            <p n="p4">
+            <p n="p3">
 
 
 Victo Absalone Dauid reuertitur in Hierusalem. Christus confusis Iudeis per 
@@ -1140,7 +1090,7 @@ resurrectionem suam redit ad patrem, ascendens in cęlum.
          <div n="div12">
             <head n="head1">XII.</head>
 
-            <p n="p2">
+            <p n="p1">
 
 
 Dauidi a pręlio uictori reuertenti prima occurrit tribus Iuda. Et Christo gentiles, 
@@ -1148,13 +1098,13 @@ per prędicationem apostolorum conuersi, primi occurrerunt non passibus, sed
 fidei confessione, quę dicitur Iuda. 
 
 </p>
-            <p n="p3">
+            <p n="p2">
 
 
 Occurrit et Siba cum filiis, qui et ipse (ut dictum est) interpretatur conuersus. 
 
 </p>
-            <p n="p4">
+            <p n="p3">
 
 
 Occurrit et Miphiboseth, sed habitu tristis, et expostulauit in Sibam seruum, 
@@ -1165,7 +1115,7 @@ suam translatam esse ad gentiles. Christus uero, qui non erat acceptor personaru
 sed meritorum, ibi diuidi iubet hęreditatem, ubi ęqualem uidet fidem. 
 
 </p>
-            <p n="p5">
+            <p n="p4">
 Berzelaum Galaditem, ut secum habitaret, inuitauit Dauid, sed ille excusauit 
 se et reliquit ei Chamaam filium, quem Dauid gratanter accepit. Berzelai dicitur 
 fortitudo mea, Chamaan fidelis uel fidelitas populi interpretatur. Fortitudinis quippe 
@@ -1174,12 +1124,12 @@ uincit
 mundum, fides nostra.<ptr n="ptr1" target="bilj62"/> Et talem quidem Christus amplexatur, ut Dauid Chamaam. 
 
 </p>
-            <p n="p6">
+            <p n="p5">
 Altercantur tribus Israel cum tribu Iuda. Hodie quoque infideles Iudei cum 
 Christianis contendunt. Iuda est quicunque confitetur Christum. 
 
 </p>
-            <p n="p7">
+            <p n="p6">
 Seba seditionem mouit contra Dauidem. Seba interpretatur eloquentia. Seba 
 igitur heresiarchę sunt, qui eloquentię suę uiribus freti aduersus Euangelii fidem 
 latrabant. 
@@ -1195,7 +1145,7 @@ Ier 3,24-25
 
 
             </p>
-            <p n="p8">
+            <p n="p7">
 
 
 Rex ingressus Hierosolymam concubinas ab Absalone pollutas a se separat. 
@@ -1204,7 +1154,7 @@ plerisque<ptr n="ptr1" target="bilj63"/> Iudeorum male intellectum erat, ab Absa
 Christus Euangelio succedente exclusit. 
 
 </p>
-            <p n="p9">
+            <p n="p8">
 
 
 Dauid ducibus pręcipit, ut persequantur Sebam, seditionis autorem. Et Christus 
@@ -1214,7 +1164,7 @@ doctores dedit, qui ueritatis argumentis persecuti sunt hereticorum
 errorem. 
 
 </p>
-            <p n="p10">
+            <p n="p9">
 
 
 Ioab Amasam per amicicię 
@@ -1227,7 +1177,7 @@ interpretatur commissio eius. Tunc hereticus in Abela
 obsidetur, quum ab his, quibus diuino nutu commissum est, impugnatur. 
 
 </p>
-            <p n="p11">
+            <p n="p10">
 
 
 Mulieris prudentis suasu occiditur, quum Diuinę 
@@ -1236,14 +1186,14 @@ conuincitur
 testimoniis. 
 
 </p>
-            <p n="p12">
+            <p n="p11">
 
 
 Et tunc ab eius persecutione Ioab recedit, quum iam illum sua obstinatione 
 damnatum uidet. 
 
 </p>
-            <p n="p13">
+            <p n="p12">
 Famem triennem sustinet populus pro Saulis crimine, qui contra Iosuę 
 iusiurandum occidit Gabaonitas. Dauidis iussu satisfactum est Gabaonitis, septem 
 hominibus traditis de genere Saulis, in quibus duo filii erant Saulis ex Respha 
@@ -1262,16 +1212,16 @@ usque ad suspendium eos comitatur. Quibus damnatis fames cessat in populo, quia
 sublata usura et illicitis contractibus legis poena repressis, cessat auri sacra fames,66 
 ex qua omne malum oriri solet. 
 
-<note n="note2" xml:id="bilj63"> 149v </note>
-               <note n="note3" xml:id="bilj64"> cf. stultum interficit iracundia Iob 5,2 </note>
-               <note n="note4" xml:id="bilj65"> 150r </note>
-               <note n="note5" xml:id="bilj66"> Verg. A. 3,57 </note>
+<note n="note1" xml:id="bilj63"> 149v </note>
+               <note n="note2" xml:id="bilj64"> cf. stultum interficit iracundia Iob 5,2 </note>
+               <note n="note3" xml:id="bilj65"> 150r </note>
+               <note n="note4" xml:id="bilj66"> Verg. A. 3,57 </note>
 
 
 
 
             </p>
-            <p n="p14">
+            <p n="p13">
 
 
 In pręlio cum Palestinis commisso Iesbonedob<ptr n="ptr1" target="bilj67"/> Palestinus percussurus 
@@ -1282,14 +1232,14 @@ imperator Christianos cędendo putabat se ęqualem<ptr n="ptr2" target="bilj68"/
 qui est pater salutis, percussus periit, ob errorem et sęuitiam ad inferos damnatus. 
 
 </p>
-            <p n="p15">
+            <p n="p14">
 
 
 Dauid ultra non est permissus ire in pręlium, id est Christianorum persecutio 
 ab idolatris fuit aliquantisper intermissa. 
 
 </p>
-            <p n="p16">
+            <p n="p15">
 
 
 Secundo bello Sabochus<ptr n="ptr1" target="bilj69"/> interemit Zaphum. Saboch interpretatur irretinens 
@@ -1299,7 +1249,7 @@ conuersio dicitur, et fidei lumen, quod est Zaph, in se interimit. Quia fides si
 operibus mortua est,70 et de fide dubitans infidelis est.<ptr n="ptr2" target="bilj71"/> 
 
             </p>
-            <p n="p17">
+            <p n="p16">
 
 
 Tertio bello Adeodatus interimit Goliam. Adeodatus Latinum nomen esse, non 
@@ -1307,7 +1257,7 @@ Hebreum puto, et eos significare, qui per fidem ex Deo nati dicuntur. Hi Goliam
 interimunt, dum superatis diaboli tentationibus Deo uiuunt. 
 
 </p>
-            <p n="p18">
+            <p n="p17">
 
 
 Quarto bello Ionathas, Samę 
@@ -1322,7 +1272,7 @@ et, tantum necessariis contentus, Deo seruit.<ptr n="ptr1" target="bilj72"/>
          <div n="div13">
             <head n="head1">XIII.</head>
 
-            <p n="p2">
+            <p n="p1">
 Dauid ab omnibus inimicis liber gratias agit Domino: morti proximus psalmos 
 decantat, futura de Christo prędicit. Et Christus in Euangelio: Gratias tibi inquit 
 ago, Pater, qui abscondisti hęc a sapientibus terrę 
@@ -1330,24 +1280,24 @@ et reuelasti ea paruulis.<ptr n="ptr1" target="bilj73"/> Idem
 hymno dicto ascendit in Montem oliuarum et de sua passione et resurrectione futura 
 discipulos pręmonet et de secundo suo ad iudicium aduentu. 
 
-<note n="note2" xml:id="bilj67"> sic; em. Marcovich in Iesbenodob </note>
+<note n="note1" xml:id="bilj67"> sic; em. Marcovich in Iesbenodob </note>
 
-               <note n="note3" xml:id="bilj68"> 150v </note>
+               <note n="note2" xml:id="bilj68"> 150v </note>
 
-               <note n="note4" xml:id="bilj69"> corr. MS ex Sadochus </note>
+               <note n="note3" xml:id="bilj69"> corr. MS ex Sadochus </note>
 
-               <note n="note5" xml:id="bilj70"> Iac 2,26 </note>
+               <note n="note4" xml:id="bilj70"> Iac 2,26 </note>
 
-               <note n="note6" xml:id="bilj71"> cf. Extra, De haereticis, c. 1 Dubius in fide infidelis est </note>
+               <note n="note5" xml:id="bilj71"> cf. Extra, De haereticis, c. 1 Dubius in fide infidelis est </note>
 
-               <note n="note7" xml:id="bilj72"> 151r </note>
+               <note n="note6" xml:id="bilj72"> 151r </note>
 
-               <note n="note8" xml:id="bilj73"> cf. confiteor tibi Pater Domine caeli et terrae quia abscondisti haec a sapientibus et </note>
+               <note n="note7" xml:id="bilj73"> cf. confiteor tibi Pater Domine caeli et terrae quia abscondisti haec a sapientibus et </note>
 prudentibus et revelasti ea parvulis Mt 11,25 
 
 
 </p>
-            <p n="p3">
+            <p n="p2">
 
 
 Dauid numerando populos peccat, et pestilentia uastat regnum: penitendo et 
@@ -1357,7 +1307,7 @@ pestilentia fidei illustratione
 fugatur. 
 
 </p>
-            <p n="p4">
+            <p n="p3">
 
 
 Dauid statuit altare Domino in area Areunę, quam emit. Obtulit holocausta, 
@@ -1368,7 +1318,7 @@ area, id est in hoc mundo, quem a Deo alienatum Christus suo sanguine redemit
 et ecclesiam suam in eo ędificauit. 
 
 </p>
-            <p n="p5">
+            <p n="p4">
 
 
 Dauidem senectute frigentem Abisach, Sunamitis puella, suis amplexibus 
@@ -1385,7 +1335,7 @@ post partum permansit.
          <div n="div14">
             <head n="head1">XIIII.</head>
 
-            <p n="p2">
+            <p n="p1">
 Postremo Adonias, Dauidis filius ex Agita, appetit regnum, sed uota eius 
 frustrantur, Salomone in regnum succedente. Adonias Domini donatio interpretatur, 
 Agith festiua uel solemnis, Salomon pacificus uel retributor. Adonias Iudeos 
@@ -1403,20 +1353,20 @@ Dauidis et inter credentes regnare coepit, Dauide iubente, id est Christi uirtut
 qui talem nouitatem dedit nobis.<ptr n="ptr2" target="bilj77"/> Fugit igitur Adonias, cessarunt uetera, et 
 Salomon sedit in solio, noua facta sunt omnia.<ptr n="ptr3" target="bilj78"/> 
 
-               <note n="note4" xml:id="bilj74"> 151v </note>
+               <note n="note1" xml:id="bilj74"> 151v </note>
 
-               <note n="note5" xml:id="bilj75"> Ps 140 (141),2 </note>
+               <note n="note2" xml:id="bilj75"> Ps 140 (141),2 </note>
 
-               <note n="note6" xml:id="bilj76"> 152r </note>
-               <note n="note7" xml:id="bilj77"> nobis corr. MS ex hominibus </note>
-               <note n="note8" xml:id="bilj78"> cf. si qua ergo in Christo nova creatura vetera transierunt ecce facta sunt nova II </note>
+               <note n="note3" xml:id="bilj76"> 152r </note>
+               <note n="note4" xml:id="bilj77"> nobis corr. MS ex hominibus </note>
+               <note n="note5" xml:id="bilj78"> cf. si qua ergo in Christo nova creatura vetera transierunt ecce facta sunt nova II </note>
 
 Cor 5,17 
 
 
 
 </p>
-            <p n="p3">
+            <p n="p2">
 
 
 Dauid moriens dat pręcepta Salomoni, ut Deum colat, ut Ioabum puniat, ut 
@@ -1435,7 +1385,7 @@ nouę, quę data est in fine sęculorum.</p>
             <head n="head1">(Epilogus)</head> 
 
 
-            <p n="p2">Sic mihi Dauidis historiam<ptr n="ptr1" target="bilj79"/> quam carmine complexus sum, exponere libuit. 
+            <p n="p1">Sic mihi Dauidis historiam<ptr n="ptr1" target="bilj79"/> quam carmine complexus sum, exponere libuit. 
 Siquis huic Scripturę 
 magis congrua monstrauerit, eius sententię 
 adhęrere non me 
@@ -1445,10 +1395,10 @@ parcant, et ad diuina altius quam a me explanata sunt contemplanda suopte ingeni
 insurgant. Talibus enim occupari, in Deo uiuere est. Cui laus et gloria semper.<ptr n="ptr2" target="bilj80"/>
             </p> 
 
-            <p n="p3">AMEN. </p>
+            <p n="p2">AMEN. </p>
 
-            <note n="note4" xml:id="bilj79"> 152v </note>
-            <note n="note5" xml:id="bilj80"> dummodo... semper. notatum in codice </note>
+            <note n="note1" xml:id="bilj79"> 152v </note>
+            <note n="note2" xml:id="bilj80"> dummodo... semper. notatum in codice </note>
          </div>
 
 

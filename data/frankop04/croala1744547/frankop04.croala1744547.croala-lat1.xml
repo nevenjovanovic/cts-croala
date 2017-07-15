@@ -39,70 +39,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="5"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="8"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="5"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="epigraph" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="3"/>
-          <tagUsage gi="hi" occurs="1"/>
-          <tagUsage gi="item" occurs="17"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="4"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="list" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="opener" occurs="3"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="30"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="7"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="2"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="supplied" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="56"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -172,55 +109,55 @@
          <titlePage n="titlePage1">
             <docAuthor n="docAuthor1">Bernardini de Frangepanibus comitis Segniae, Vegliae, Modrusiique <abbr n="abbr1">etc.</abbr> 
             </docAuthor>
-            <titlePart n="titlePart2">Oratio pro
+            <titlePart n="titlePart1">Oratio pro
           Croatia Nürenbergae in Senatu Principum Germaniae habita XIII. Cal. Decemb. An. Ch.
           M.D.XXII.</titlePart>
-            <epigraph n="epigraph3">
+            <epigraph n="epigraph1">
                <l n="l1">Excidium veluti romanae Maximus urbi</l>
                <l n="l2">avertit, patriae sic iuga dira comes.</l>
-               <p n="p3">
+               <p n="p1">
                   <abbr n="abbr1">R.</abbr> Sbrulius </p>
             </epigraph>
          </titlePage>
       
-        <pb n="pb2"/>
-         <div n="div3" type="prosa-epistula-dedicatio">
+        <pb n="pb1"/>
+         <div n="div1" type="prosa-epistula-dedicatio">
             <head n="head1">Ad Adrianum VI., pontificem maximum.</head>
-            <opener n="opener2">Beatissime pater et domine, post beatorum oscula pedum. </opener>
-            <p n="p3"> Providens iam exitiale discrimen, quod a barbaris, orthodoxe fidei hostibus, non misere
+            <opener n="opener1">Beatissime pater et domine, post beatorum oscula pedum. </opener>
+            <p n="p1"> Providens iam exitiale discrimen, quod a barbaris, orthodoxe fidei hostibus, non misere
           tantum Croacie, verum etiam finitimis provinciis Carniolae, Styriae, Carinthiae, Foroiulii
           Istriaeque impendet, ipse hac ingravescenti aetate in Norenbergam ad generalem Sacri
           Imperii principum conventum me contuli, petitum, si non tam salubre fructuosumque, quam
           necessarium auxilium, quemadmodum superioribus diebus Beatitudini Tuae significavi.</p>
-            <p n="p4"> Hic ego Deum optimum maximum testor summa me dexteritate diligentiaque usum, ut ipsum
+            <p n="p2"> Hic ego Deum optimum maximum testor summa me dexteritate diligentiaque usum, ut ipsum
           Sacrum Imperium ad tuendam christianam rempublicam excitarem; necdum satis scio, quod
           profecerim, quamvis subscripti omnes qui affuere principes eo nunc esse animo videantur,
           ut nihil malint quam communi christiani generis saluti consulere. </p>
-            <p n="p5"> Quam igitur pro tam pia in Turcas expeditione habui oratiunculam cui melius dicem quam
+            <p n="p3"> Quam igitur pro tam pia in Turcas expeditione habui oratiunculam cui melius dicem quam
           Sanctitati Tuae, quae ut est beatissimum christiani nominis caput, ita summam humanitatem
           summae coniunxit sapientiae, ut quasi quidam novus Moyses afflictos Christi populos a dira
           Aegypto, atque adeo a barbarica liberet foeditate.</p>
-            <p n="p6"> Optimam quippe de te apud omnes concitasti opinionem, quam reverendus pater et dominus
+            <p n="p4"> Optimam quippe de te apud omnes concitasti opinionem, quam reverendus pater et dominus
           Franciscus Cheregatus orator tuus, ut omnium est horarum homo, mirifice secundat augetque,
           ut maxima sit spes vel solo tuo ductu posse immanem Turcarum contundi tyrannum. Non enim
           (quod sacrae testantur literae) in multitudine dominica consistit virtus, neque in equorum
           viribus eius voluntas.</p>
-            <p n="p7"> Accipe itaque, sanctissime pater, qualecumque hoc clientis Tui munus, meae in Te
+            <p n="p5"> Accipe itaque, sanctissime pater, qualecumque hoc clientis Tui munus, meae in Te
           observantiae testem ac <supplied n="supplied1" resp="NJ">pro natiua</supplied> benignitate Tua me Tibi addictissimum una cum misera
           Croatia suscipe, protege, tuere. Deus optimus maximus diu in terris servet incolumem
           Beatitudinem Tuam, cui me humilime commendo.</p>
-            <signed n="signed8"> Bernardinus de Frangepanibus, Segniae, Vegliae, Modrusiique comes <abbr n="abbr1">etc.</abbr>
+            <signed n="signed1"> Bernardinus de Frangepanibus, Segniae, Vegliae, Modrusiique comes <abbr n="abbr1">etc.</abbr>
             </signed>
-            <pb n="pb9"/>
+            <pb n="pb1"/>
          </div>
       
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
       
          <div n="div1" type="prosa-oratio">
             <opener n="opener1">Serenissime, illustrissimi reverendissimique principes, domini mei
           observandissimi.</opener>
-            <p n="p2"> Grato recolentes animo vestra erga nos, immo erga christianam rempublicam, merita magni
+            <p n="p1"> Grato recolentes animo vestra erga nos, immo erga christianam rempublicam, merita magni
           illa quidem momenti immensas et immortales celsitudinibus vestris ex imo pectore gratias
           agimus piis necessariis auxiliis; quae iussu et auctoritate vestra superioribus diebus ad
           nos missa communem sacrosancte<note place="foot" n="note1" resp="VM">Correxi ex
@@ -237,7 +174,7 @@
           peterem, ut necessaria admodum auxilia implorarem. Et precipue illud in memoriam vobis
           redigerem Croatiam ipsam christianorum scutum esse ac portam, qua capta nihil in universo
           Sacro Imperio Romano satis a periculo et exitio tutum esse.</p>
-            <p n="p3"> Quapropter, optimi principes, vos iterum atque iterum nomine totius Croatiae, nomine
+            <p n="p2"> Quapropter, optimi principes, vos iterum atque iterum nomine totius Croatiae, nomine
           universi generis christiani obsecro, laboranti Croatiae tandem subvenire et succurrere
           statuatis; qua supra sexaginta annos, ex quo Constantinopolis in Turcarum venit potestatem
           (mirabile et miserabile dictu), quod nulli adhuc regno contigit, sine aliquo christianorum
@@ -248,7 +185,7 @@
           qui tum et ipsi bis ac ter a Turcis venundati et redempti sunt; ita ut argentum, divitiae
           ac facultates defecerint. Spes unica nobis primum in Deo, deinde in celsitudinibus vestris
           sita est.</p>
-            <p n="p4"> Sacra Regia Maiestas Dei gratia Ludovicus, 
+            <p n="p3"> Sacra Regia Maiestas Dei gratia Ludovicus, 
         <pb n="pb1"/>
         Hungarie rex, dominus noster gratiosissimus amisso optimo ac munitissimo castro
           Nanderalbam nec iuvare nos nec tueri potest. Ex quo fit, ut sine auxilio vestro in
@@ -257,7 +194,7 @@
           pariter ac vires tanquam crevere, ut iure optimo metuendus sit. Nanque (proh dolor ac
           dedecus nostrum) supra mille Hungarica milliaria imperium suum auxit iamque christianis
           omnibus crudele iugum horrendaque supplicia minitatur.</p>
-            <p n="p5"> Memoria dolenter repeto supra centum arces, castella, oppida ab illo esse nobis tum
+            <p n="p4"> Memoria dolenter repeto supra centum arces, castella, oppida ab illo esse nobis tum
           deleta, tum adempta; iamque omnia deserta. Et lachrymabundus refero illas immanes belluas
           (quod his oculis vidi) saepenumero miserabili nostrorum strage omnia conplesse: liberos
           ante ora parentum, viros ante uxorum conspectum obtruncasse, abduxisse uxoresque
@@ -266,20 +203,20 @@
             spiritus superesset, atrociter pertraxisse illisque afflictis onera humeris
           imposuisse, puerosque portandos dedisse in eosque tantorum impatientes laborum agmine
           facto, ut animam exhalarent, deseviisse; omni denique crudelitatis genere usos fuisse.</p>
-            <p n="p6"> Cogitent quaeso celsitudines vestrae: si Croatia in Turcarum ditionem (quod Deus optimus
+            <p n="p5"> Cogitent quaeso celsitudines vestrae: si Croatia in Turcarum ditionem (quod Deus optimus
           avertat) deveniret, quae miseris christianis laborum ac malorum meta foret.
           Profecto nulla. Pateret illis belluis pro libidine aditus non difficilis in quascunque
           terras. Possent quascunque depopulari provincias, quaecunque celsitudinibus
           vestris subiecta oppida diripere et cremare. Et tua res agitur, paries <corr n="corr1">quum</corr> proximus
-            ardet.<note place="foot" n="note2">Hor. <bibl n="bibl1">Epist. 18, 84.</bibl>: 
-              <q n="q2">
+            ardet.<note place="foot" n="note1">Hor. <bibl n="bibl1">Epist. 18, 84.</bibl>: 
+              <q n="q1">
                      <l n="l1">Nam tua res agitur,
                 paries cum proximus ardet</l>
                      <l n="l2">et neglecta solent incendia sumere uires.</l>
                   </q>
                </note>
             </p>
-            <p n="p7"> Ad haec sciant celsitudines vestrae superioribus mensibus Turcarum ductorem, quem bassa
+            <p n="p6"> Ad haec sciant celsitudines vestrae superioribus mensibus Turcarum ductorem, quem bassa
           appellant, proprium ad me misisse nuncium, qui referret, velle eum faedus mecum et pacem
           inire. Itaque ille apud me orsus est: <q n="q1">Scis te, o comes, in Croatia unum et solum
           superesse, caetera omnia amissa sunt. Te ipse satis defendere non potes. <corr n="corr1">Quum</corr> enim
@@ -291,13 +228,13 @@
           potest a principe Ferdinando tuum dividit territorium. Hoc solum petit imperator noster:
           nullius christiani custodem ac speculatorem in terris tuis teneas, nec bombardarum
           horrisono strepitu adesse 
-        <pb n="pb2"/>
+        <pb n="pb1"/>
         nos aliis significes, sed nostris alimenta pro suis pecuniis praebeas; nihil
           caesari nostro pendas ac des, nisi parvum aliquod honoratum munus, quo ille suum te
           tributarium agnoscat. Promitto tibi cesaris nomine, omnia tua tuta fore, et super his a
           caesare ipso te confirmatorias literas accepturum.</q>
             </p>
-            <p n="p8"> Tum mihi undique angustie erant, et quid ad ea responderem, ex tempore vix in
+            <p n="p7"> Tum mihi undique angustie erant, et quid ad ea responderem, ex tempore vix in
           mentem veniebat. Collegi tamen me et annuente numine recusavi (ut debui) me cum eo ullo
           modo foedus initurum. Unde quamprimum equites aliquot et mille pedites, qui nominantur
           martolossi ex istis nostre religionis hostibus, mea invadere caeperunt,
@@ -308,11 +245,11 @@
           discrimini huc ad serenissimum conspectum vestrum, optimi et maximi principes, veni.
           Nomine totius Croatiae, nomine vestro, nomine universae reipublicae christianae opem
           imploro. Res nostra non eget mora. Maturate, maturate auxilium.</p>
-            <p n="p9"> Me, quaeso, qui in fide permanere, qui parentum meorum, qui inter senatores et optimates
+            <p n="p8"> Me, quaeso, qui in fide permanere, qui parentum meorum, qui inter senatores et optimates
           Romanos semper claruerunt quique huic Sacro Imperio deditissimi fuerunt, qui quicquid in
           Dalmacia, Croatia et Sclavonia possederunt, hoc valida solum manu, multo sanguine ac
           caede, et secundo contra communes <corr n="corr1">sacrosancte</corr>
-               <note place="foot" n="note2" resp="VM">Correxi ex <sic n="sic1">sacrosanctem</sic>
+               <note place="foot" n="note1" resp="VM">Correxi ex <sic n="sic1">sacrosanctem</sic>
                </note> religionis hostes Marte quaesierunt,
           si fas fuerit, ac divina concesserit gratia insistere vestigiis opto, ab imminenti
           periculo ac pernicie defendite. Etenim si Croatia (quod Deus avertat) amitteretur, propter
@@ -321,15 +258,15 @@
           sumptibus et plurima sanguinis effusione eam recuperaret. Nos certe mendicare nolimus,
           quemadmodum ipse Romae Graecos, Misos, Servianos, Albanenses plerosque magnos ac principes
           viros mendicare vidi, et in paupertate mori.</p>
-            <p n="p10"> Proinde Celsitudinibus Vestris coram intimamus, significamus, pronunciamus, non absque
+            <p n="p9"> Proinde Celsitudinibus Vestris coram intimamus, significamus, pronunciamus, non absque
           ingenti altae mentis cruciatu, gravissima haec atque communia pericula. Vos, pro sapientia
           vestra ac opulentia instanti ruinae (quod potestis), nos, Croatiam et finitimas eripite
           provincias vestras. Ne patiamini nos nostraque crudelissimis hostibus praede esse. Satis
           iniuriarum et cladum plus quam credi possit hucusque ab illis perpessi sumus. Vos, inquam,
           ut veri <sic n="sic1">legittimique</sic> principes christiani orthodoxae fidei protectores ac propugnatores
           misereamini, misereamini nostri. </p>
-            <pb n="pb11"/>
-            <p n="p12">Tangantur pectora vestra lachrymis nostris. Universa afflicta Croacia ad sacra genua
+            <pb n="pb1"/>
+            <p n="p10">Tangantur pectora vestra lachrymis nostris. Universa afflicta Croacia ad sacra genua
           vestra profusa per Christum servatorem perque eius sacratissimum sanguinem, quo omnes
           salvi sumus, orat, obtestatur: ferte opem periclitantibus, pereuntium exaudite preces, ne
           dicatis vobis non esse praedictum grave hoc et exitiale imminens malum. Ego (quantum ad me
@@ -339,35 +276,35 @@
           salva fide (ut ipsi petunt) se submittet, aut sedes suas relinquere, et per christianas
           urbes mendicando fugere cogetur<hi n="hi1">,</hi> ne perditissimis hostibus miserrime venditi
           serviant, eorumque sclavi (ut dicunt) perpetuo maneant.</p>
-            <p n="p13"> Celsitudinibus ergo vestris nos <corr n="corr1">humillime</corr> commendamus, easdem obsecrantes, ut citum ac
+            <p n="p11"> Celsitudinibus ergo vestris nos <corr n="corr1">humillime</corr> commendamus, easdem obsecrantes, ut citum ac
           gratiosum ob imminentem necessitatem et periculum nobis responsum dent. Miseri etenim
           Croati a celsitudinibus vestris me ad se revertentem non aliter expectant quam pie olim in
           purgatorio animae Christum optimum maximum a devicta morte expectabant.</p>
-            <closer n="closer14">Dixi.</closer>
+            <closer n="closer1">Dixi.</closer>
          </div>
          <div n="div2" type="prosa-oratio">
             <head n="head1">Serenissime, illustrissimi, reverendissimi principes, domini mei
           observandissimi.</head>
-            <p n="p2"> Ex quo nudius tertius supplici oratione quanto in discrimine rerum misera versaretur
+            <p n="p1"> Ex quo nudius tertius supplici oratione quanto in discrimine rerum misera versaretur
           Croatia quamque in extremis laboraret celsitudinibus vestris satis (ut opinor) aperui et
           auxilium petii, necdum responsum accepi. Iam amplius expectare nequeo: tum quia tamdiu ad quatuor fere menses domo absum, relictis oppidis meis et arcibus non
           satis munitis bombardis, sulphure, aliisque bellicis instrumentis ad propugnationem
           ipsorum credens fore, ut citius reverterer.</p>
-            <p n="p3"> Que quidem omnia si hic mihi nunc adessent parata, ea tempore adhuc mittere
+            <p n="p2"> Que quidem omnia si hic mihi nunc adessent parata, ea tempore adhuc mittere
           nequirem, et si solus ipse eo redire velim, quotidie equitando vix per unius mensis
           spacium pervenire possem (distat enim hinc illa patria ultra centum Hungarica milliaria)
           eoque minus si bombardas et eiusmodi bellicas machinas curru mitterem. Et quoniam ille
           Turcarum ductor, quem bassa dicunt, mihi infestus est, propterea quod iis quae mihi ipse
           sui caesaris nomine intimaverat acquiescere nolui, primus ero cuius obsidebuntur
           oppida ac castella.</p>
-            <p n="p4"> Et quia breve est tempus, nam transactis tribus mensibus hostes de more Croaciam
+            <p n="p3"> Et quia breve est tempus, nam transactis tribus mensibus hostes de more Croaciam
           igredientur, vix me adhuc preparare possem. Si omnia parata haberem, et si permanere
           diutius 
         <pb n="pb1"/>
         hic velim, non possum. Hic siquidem iam quicquid attuli mecum argenti pro sumptibus
           quotidianis erogavi, expendi, pignori dedi. Nec hucusque me hic continere potuissem, nisi
           me serenissimus princeps Ferdinandus aliquibus sumptibus adiuvisset.</p>
-            <p n="p5"> Nec satis scio quibus erga miseros Croatos verbis, quibus modis, qua consolatione uti
+            <p n="p4"> Nec satis scio quibus erga miseros Croatos verbis, quibus modis, qua consolatione uti
             debeam, <corr n="corr1">quum</corr> me sine certo auxilio rediisse viderint. Quae cum ita sint,
           <corr n="corr2">excellentissimas</corr> celsitudines vestras <corr n="corr3">humillime</corr> rogo dignentur mihi quodcunque dare
           responsum, ut ad infelicem patriam reverti eique tristem hunc nuncium atque funestum
@@ -376,7 +313,7 @@
          </div>
          <div n="div3" type="prosa-oratio">
             <opener n="opener1">Illustrissimi, reverendissimi principes, domini mei observandissimi.</opener>
-            <p n="p2"> Ex quo novissimum hoc a Celsitudinibus Vestris responsum mihi datum est: quam primum
+            <p n="p1"> Ex quo novissimum hoc a Celsitudinibus Vestris responsum mihi datum est: quam primum
           totus Sancti Imperii principum senatus hic affuerit, qui quotidie expectentur iamque in
           itinere sint, fore, ut certum miserae Croatiae decretum mittatur auxilium, expectavi
           hucusque, sperans solicitus caeterorum principum adventum. Intellexique interim in hoc
@@ -384,49 +321,49 @@
           Proinde <corr n="corr1">excellentissimas</corr> celsitudines vestras toto pectore oro mihi intimare dignentur
           cuiusmodi ipsi Croaciae prestare auxilium decreverint, ut ego illis eo solidiorem spem
           aptiusque solatium afferre possim.</p>
-            <p n="p3"> Praeterea simul cum predicto gratioso responso celsitudinum vestrarum nomine quingenti aurei Rhenenses, quibus me ex hospiciis redimere valeam, et a Serenissimo
+            <p n="p2"> Praeterea simul cum predicto gratioso responso celsitudinum vestrarum nomine quingenti aurei Rhenenses, quibus me ex hospiciis redimere valeam, et a Serenissimo
           Principe Ferdinando ter centum mihi dati sunt. Insuper ab inclyto Nurenbergensi senatu (ut
           ipse est christianae religionis observantissimus) viginti bombardae quas archibusos vulgo
           dicunt et tanquam sulphuris mihi specialiter pro defensione castellorum meorum muneris
           nomine allatum est, quantum sedecim onerarii equi portare queant.</p>
-            <p n="p4"> Pro quibus ingentes ago gratias: relaturus <sic n="sic1">quaqunque</sic> potero via, precipueque quemadmodum
+            <p n="p3"> Pro quibus ingentes ago gratias: relaturus <sic n="sic1">quaqunque</sic> potero via, precipueque quemadmodum
           et parentes mei et ego ab ineunte aetate ad hanc usque diem feci, non modo fortunas
           facultatesque sed etiam sanguinem contra atroces orthodoxe fidei hostes effundendo, donec
           omnipotens Deus me ex hac avocaverit vita, polliceorque me cum impiis Turcis nullum
           initurum foedus.</p>
-            <p n="p5"> Ibo tamen et ad sanctissimum Adrianum Pontificem Maximum et ad alios christianos reges,
+            <p n="p4"> Ibo tamen et ad sanctissimum Adrianum Pontificem Maximum et ad alios christianos reges,
           principes ac dominia pro comitatus mei tutela ac custodia auxilia petitum quousque ipsum
           Sacrum Imperium provideat ut supra. Ego enim illum a Turcarum vi solus protegere
           nequeo.</p>
-            <pb n="pb6"/>
+            <pb n="pb1"/>
         
          </div>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1">
             <list n="list1">
                <head n="head1">Orationi huic in consilio Nurembergensi interfuere principes infrascripti.</head>
-               <item n="item2"> Serenissimus Ferdinandus princeps Hispaniae, Archidux Austriae <abbr n="abbr1">etc.</abbr> In Germania
+               <item n="item1"> Serenissimus Ferdinandus princeps Hispaniae, Archidux Austriae <abbr n="abbr1">etc.</abbr> In Germania
             caesareae maiestatis locum tenens.</item>
-               <item n="item3">Albertus cardinalis Moguntinus.</item>
-               <item n="item4">Matthaeus cardinalis Saltzpurgensis.</item>
-               <item n="item5">Albertus Brandenburgensis, dux et magister Prussiae.</item>
-               <item n="item6">Bigandus episcopus Bambergensis.</item>
-               <item n="item7">Conradus episcopus Herbipolensis.</item>
-               <item n="item8">Gabriel episcopus Eystetensis.</item>
-               <item n="item9">Vilhelmus episcopus Argentinensis.</item>
-               <item n="item10">Christophorus episcopus Augustensis.</item>
-               <item n="item11">Philippus Palatinus episcopus Freysingensis.</item>
-               <item n="item12">Ernestus Bavariae dux episcopus Pataviensis.</item>
-               <item n="item13">Bernardus episcopus Tridentinus.</item>
-               <item n="item14">Fridericus comes palatinus <abbr n="abbr1">etc.</abbr>
+               <item n="item2">Albertus cardinalis Moguntinus.</item>
+               <item n="item3">Matthaeus cardinalis Saltzpurgensis.</item>
+               <item n="item4">Albertus Brandenburgensis, dux et magister Prussiae.</item>
+               <item n="item5">Bigandus episcopus Bambergensis.</item>
+               <item n="item6">Conradus episcopus Herbipolensis.</item>
+               <item n="item7">Gabriel episcopus Eystetensis.</item>
+               <item n="item8">Vilhelmus episcopus Argentinensis.</item>
+               <item n="item9">Christophorus episcopus Augustensis.</item>
+               <item n="item10">Philippus Palatinus episcopus Freysingensis.</item>
+               <item n="item11">Ernestus Bavariae dux episcopus Pataviensis.</item>
+               <item n="item12">Bernardus episcopus Tridentinus.</item>
+               <item n="item13">Fridericus comes palatinus <abbr n="abbr1">etc.</abbr>
                </item>
-               <item n="item15">Ludovicus dux Bavariae.</item>
-               <item n="item16">Casimirus Brandenburgensis princeps.</item>
-               <item n="item17">Heinricus dux Mechelburgensis.</item>
-               <item n="item18">Joannes lantgravius Leuchtenburgensis.</item>
+               <item n="item14">Ludovicus dux Bavariae.</item>
+               <item n="item15">Casimirus Brandenburgensis princeps.</item>
+               <item n="item16">Heinricus dux Mechelburgensis.</item>
+               <item n="item17">Joannes lantgravius Leuchtenburgensis.</item>
             </list>
-            <p n="p2">Nescia torporis virtus.</p>
+            <p n="p1">Nescia torporis virtus.</p>
          </div>
       </back>
   </text>

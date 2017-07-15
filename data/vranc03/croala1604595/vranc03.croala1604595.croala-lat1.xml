@@ -61,66 +61,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="2"/>
-          <tagUsage gi="addrLine" occurs="1"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="analytic" occurs="1"/>
-          <tagUsage gi="author" occurs="3"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="7"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="52"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="3"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -195,20 +136,20 @@
             <titlePart n="titlePart1">Oratio pro Q. Ligario</titlePart>
          </titlePage>
       </front>
-        <body xml:lang="lat" n="body2">
+        <body xml:lang="lat" n="body1">
             <gap n="gap1" reason="irrelevant"/>
-            <div n="div2" type="poesis-epigramma" met="hendecasyllabus">
+            <div n="div1" type="poesis-epigramma" met="hendecasyllabus">
                 <head n="head1">Michael Wrancius Dalmata ad lectorem</head>
-                <l n="l2">Istac ut Cicero actione vitam</l>
-                <l n="l3">Quinti Ligarii Charonte ab ipso</l>
-                <l n="l4">Divini eloquii tuba evocavit:</l>
-                <l n="l5">Sic vos, o juvenes, labore multo</l>
-                <l n="l6">Saevam barbariem jugo prementes</l>
-                <l n="l7">Hoc Marci auxilio evocemus orco</l>
-                <l n="l8">Musaque eloquiumque Tullianum.</l>
+                <l n="l1">Istac ut Cicero actione vitam</l>
+                <l n="l2">Quinti Ligarii Charonte ab ipso</l>
+                <l n="l3">Divini eloquii tuba evocavit:</l>
+                <l n="l4">Sic vos, o juvenes, labore multo</l>
+                <l n="l5">Saevam barbariem jugo prementes</l>
+                <l n="l6">Hoc Marci auxilio evocemus orco</l>
+                <l n="l7">Musaque eloquiumque Tullianum.</l>
 
             </div>
-            <gap n="gap3" reason="irrelevant"/>
+            <gap n="gap2" reason="irrelevant"/>
         </body>
 
     

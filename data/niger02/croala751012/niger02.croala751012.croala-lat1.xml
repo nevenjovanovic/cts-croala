@@ -38,56 +38,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="6"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="7"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="3"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="3"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="64"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="3"/>
-          <tagUsage gi="persName" occurs="4" withId="1"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6" withId="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="18"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="42"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -150,163 +101,163 @@
   <text xml:base="urn:cts:croala:niger02.croala751012.croala-lat1:" xml:lang="lat">
       <body xml:lang="lat" n="body1">
          <pb n="pb1"/>
-         <div n="div2" type="poesis-elegia" met="elegiacum">
+         <div n="div1" type="poesis-elegia" met="elegiacum">
             <head n="head1">
                <add n="add1">12. </add>Thomas Nigro episcopus Scardonensis apostolicus ad Regem Polonie Sigismundum nuncius Andree Cricio episcopo Premisliensi <add n="add2">k. 297a-297b</add>
             </head>
             
-            <l n="l2">Vir sacer et nostro presul memorabilis euo</l>
+            <l n="l1">Vir sacer et nostro presul memorabilis euo</l>
              
-            <l n="l3" met="pentameter">O decus et patrii stella serena soli.</l>
+            <l n="l2" met="pentameter">O decus et patrii stella serena soli.</l>
              
-            <l n="l4">Gloria nam laudum tanta est veneranda tuarum</l>
+            <l n="l3">Gloria nam laudum tanta est veneranda tuarum</l>
              
-            <l n="l5" met="pentameter">Ut qui te solo nomine norit amet.</l>
+            <l n="l4" met="pentameter">Ut qui te solo nomine norit amet.</l>
              
-            <l n="l6">Te neque <sic n="sic1">conteritum</sic> vix solo nomine notum</l>
+            <l n="l5">Te neque <sic n="sic1">conteritum</sic> vix solo nomine notum</l>
              
-            <l n="l7" met="pentameter">Prosequor et laudes cogor inire tuas.</l>
+            <l n="l6" met="pentameter">Prosequor et laudes cogor inire tuas.</l>
              
-            <l n="l8">Immo tuos doctus quicumque relegerit <sic n="sic1">orsus</sic>
+            <l n="l7">Immo tuos doctus quicumque relegerit <sic n="sic1">orsus</sic>
             </l>
              
-            <l n="l9" met="pentameter">Cogitur haec Phebo precipiente loqui.</l>
+            <l n="l8" met="pentameter">Cogitur haec Phebo precipiente loqui.</l>
              
-            <l n="l10">Mantua Virgilium, Ciceronem Romana sileto</l>
+            <l n="l9">Mantua Virgilium, Ciceronem Romana sileto</l>
              
-            <pb n="pb11"/>
-            <l n="l12" met="pentameter">En Cicero nostri <corr n="corr1" resp="#NJ">temporis</corr> atque Maro</l>
+            <pb n="pb1"/>
+            <l n="l10" met="pentameter">En Cicero nostri <corr n="corr1" resp="#NJ">temporis</corr> atque Maro</l>
              
-            <l n="l13">Nasonem Sulmo taceat, Verona Catullum</l>
+            <l n="l11">Nasonem Sulmo taceat, Verona Catullum</l>
              
-            <l n="l14" met="pentameter">Et sileat vates Itala terra suos.</l>
+            <l n="l12" met="pentameter">Et sileat vates Itala terra suos.</l>
              
-            <l n="l15">Ne ferat in celum Milesia terra poetas</l>
+            <l n="l13">Ne ferat in celum Milesia terra poetas</l>
              
-            <l n="l16" met="pentameter">Tuque tuos sileas, Creta diserta, sales</l>
+            <l n="l14" met="pentameter">Tuque tuos sileas, Creta diserta, sales</l>
              
-            <l n="l17">
-               <sic n="sic1">Destinat</sic> insipiens sapientes Grecia <corr n="corr2" resp="#NJ">septem</corr>
+            <l n="l15">
+               <sic n="sic1">Destinat</sic> insipiens sapientes Grecia <corr n="corr1" resp="#NJ">septem</corr>
             </l>
              
-            <l n="l18" met="pentameter">Iactare; octavi nos meminisse iuvat.</l>
+            <l n="l16" met="pentameter">Iactare; octavi nos meminisse iuvat.</l>
              
-            <l n="l19">Hec quicumque tuas vidit legitque Camenas</l>
+            <l n="l17">Hec quicumque tuas vidit legitque Camenas</l>
              
-            <l n="l20" met="pentameter">Personat et Cricii nomen ad astra levat.</l>
+            <l n="l18" met="pentameter">Personat et Cricii nomen ad astra levat.</l>
              
-            <l n="l21">Et merito; quis enim nisi vera probanda <sic n="sic1">fatur</sic>
+            <l n="l19">Et merito; quis enim nisi vera probanda <sic n="sic1">fatur</sic>
             </l>
              
-            <l n="l22" met="pentameter">Cogitur hec eadem vate iubente loqui.</l>
+            <l n="l20" met="pentameter">Cogitur hec eadem vate iubente loqui.</l>
              
-            <l n="l23">Nam cui nota magis fuerit Parnasia <sic n="sic1">ruppes</sic>?</l>
+            <l n="l21">Nam cui nota magis fuerit Parnasia <sic n="sic1">ruppes</sic>?</l>
              
-            <l n="l24" met="pentameter">Cui dederit Latiam Caliopea Chelym?</l>
+            <l n="l22" met="pentameter">Cui dederit Latiam Caliopea Chelym?</l>
              
-            <l n="l25">Quis veneranda <sic n="sic1">nomen</sic> coluit magis antra sororum?</l>
+            <l n="l23">Quis veneranda <sic n="sic1">nomen</sic> coluit magis antra sororum?</l>
              
-            <l n="l26" met="pentameter">Cui dedit auratam doctus Apollo lyram</l>
+            <l n="l24" met="pentameter">Cui dedit auratam doctus Apollo lyram</l>
              
-            <l n="l27">Quam tibi? Qui tumido cantas fera <sic n="sic1">bello</sic> cothurno.</l>
+            <l n="l25">Quam tibi? Qui tumido cantas fera <sic n="sic1">bello</sic> cothurno.</l>
              
-            <l n="l28" met="pentameter">Seu leuibus numeris nectis amoris opus</l>
+            <l n="l26" met="pentameter">Seu leuibus numeris nectis amoris opus</l>
              
-            <l n="l29">
+            <l n="l27">
                <corr n="corr1" resp="#NJ">Sive</corr> Sophocleo iuvat arma referre cothurno</l>
              
-            <l n="l30" met="pentameter">
-               <corr n="corr1" resp="#NJ">Sevaque</corr> non humili condere<ref n="ref2">[a]</ref> bella tuba </l>
+            <l n="l28" met="pentameter">
+               <corr n="corr1" resp="#NJ">Sevaque</corr> non humili condere<ref n="ref1">[a]</ref> bella tuba </l>
              
-            <l n="l31">Sive per alternos Venerem tibi ponere versus.</l>
+            <l n="l29">Sive per alternos Venerem tibi ponere versus.</l>
              
-            <l n="l32" met="pentameter">Seu placet ad lyrici carminis ire pedem.</l>
+            <l n="l30" met="pentameter">Seu placet ad lyrici carminis ire pedem.</l>
              
-            <l n="l33">Cum sis ergo sacre censor venerandus <sic n="sic1">pagine</sic>
+            <l n="l31">Cum sis ergo sacre censor venerandus <sic n="sic1">pagine</sic>
             </l>
              
-            <l n="l34" met="pentameter">Cum te Phebus <corr n="corr1" resp="#NJ">amet</corr>, Pieridesque colant.</l>
+            <l n="l32" met="pentameter">Cum te Phebus <corr n="corr1" resp="#NJ">amet</corr>, Pieridesque colant.</l>
              
-            <l n="l35">Cesar Apollinea cinxit tua tempora lauro</l>
+            <l n="l33">Cesar Apollinea cinxit tua tempora lauro</l>
              
-            <l n="l36" met="pentameter">Judicium equali cum dare <sic n="sic1">Laure</sic> vales.</l>
+            <l n="l34" met="pentameter">Judicium equali cum dare <sic n="sic1">Laure</sic> vales.</l>
              
-            <l n="l37">Carmina nostra refer tibi si subiecta probantur</l>
+            <l n="l35">Carmina nostra refer tibi si subiecta probantur</l>
              
-            <l n="l38" met="pentameter">Si nostram docte laudaveris <sic n="sic1">ode</sic> 
+            <l n="l36" met="pentameter">Si nostram docte laudaveris <sic n="sic1">ode</sic> 
                <sic n="sic2">thaliam</sic>
             </l>
              
-            <l n="l39">Contingam summis sydera verticibus;</l>
+            <l n="l37">Contingam summis sydera verticibus;</l>
              
-            <l n="l40" met="pentameter">Protinus<ref n="ref1">[b]</ref> 
-               <sic n="sic2">lex</sic> triplicem spargam tua gesta per orbem</l>
+            <l n="l38" met="pentameter">Protinus<ref n="ref1">[b]</ref> 
+               <sic n="sic1">lex</sic> triplicem spargam tua gesta per orbem</l>
              
-            <l n="l41">Syderibusque meo carmine notus eris.</l>
+            <l n="l39">Syderibusque meo carmine notus eris.</l>
              
-            <l n="l42" met="pentameter">At si forte meos, presul, damnaveris orsus</l>
+            <l n="l40" met="pentameter">At si forte meos, presul, damnaveris orsus</l>
              
-            <l n="l43">Accipiet nostros flamma vel unda modos</l>
+            <l n="l41">Accipiet nostros flamma vel unda modos</l>
              
-            <l n="l44" met="pentameter">Hactenus haec; brevibus peragetur pagina verbis,</l>
+            <l n="l42" met="pentameter">Hactenus haec; brevibus peragetur pagina verbis,</l>
              
-            <l n="l45">Posthac carminibus vir celebrande meis.</l>
+            <l n="l43">Posthac carminibus vir celebrande meis.</l>
              
-            <note n="note46">a: corr. ex contendere</note>
-            <note n="note47">b: del. Syderibusque meo</note>
+            <note n="note1">a: corr. ex contendere</note>
+            <note n="note2">b: del. Syderibusque meo</note>
          </div>
-         <div n="div3" type="poesis-epigramma" met="elegiacum">
+         <div n="div2" type="poesis-epigramma" met="elegiacum">
             <head n="head1">
                <add n="add1">13. [Thomas Nigro]</add> episcopus Scardonensis ad Leonem papam X<add n="add2">, k. 297b-297bv</add>
             </head>
-            <l n="l2">Dic, rogo, Leo papa faciat quid hypocrita prestans</l>
+            <l n="l1">Dic, rogo, Leo papa faciat quid hypocrita prestans</l>
              
-            <l n="l3" met="pentameter">Egidius? Cur non, Graeca pariterque Latina</l>
+            <l n="l2" met="pentameter">Egidius? Cur non, Graeca pariterque Latina</l>
              
-            <l n="l4">Necnon Hebrea, Caldea, Arabaque disertus</l>
+            <l n="l3">Necnon Hebrea, Caldea, Arabaque disertus</l>
              
-            <l n="l5" met="pentameter">Lingua, declaret fratrem nil scire Lutherum?</l>
+            <l n="l4" met="pentameter">Lingua, declaret fratrem nil scire Lutherum?</l>
              
-            <l n="l6">Quid Gaietanus tribuens sibi cuncta Thomista?</l>
+            <l n="l5">Quid Gaietanus tribuens sibi cuncta Thomista?</l>
              
-            <l n="l7" met="pentameter">Cur tuus, Augusta quando legatus in Urbe</l>
+            <l n="l6" met="pentameter">Cur tuus, Augusta quando legatus in Urbe</l>
              
-            <l n="l8">Cesaris obstabat velis versansque Lutherum,</l>
+            <l n="l7">Cesaris obstabat velis versansque Lutherum,</l>
              
-            <l n="l9" met="pentameter">Non illum solitos spretum conclusit ad ignes?</l>
+            <l n="l8" met="pentameter">Non illum solitos spretum conclusit ad ignes?</l>
              
-            <l n="l10">
+            <l n="l9">
                <sic n="sic1">Quid nam</sic> Christophorus nodosus et ille Scholista</l>
              
-            <l n="l11" met="pentameter">Lignipedum nactus <sic n="sic1">qui pileum qui</sic> labe Simonis</l>
+            <l n="l10" met="pentameter">Lignipedum nactus <sic n="sic1">qui pileum qui</sic> labe Simonis</l>
              
-            <l n="l12">Cur nunc <sic n="sic1">veniis</sic> tot opes quibus ipse paravit</l>
+            <l n="l11">Cur nunc <sic n="sic1">veniis</sic> tot opes quibus ipse paravit</l>
              
-            <l n="l13" met="pentameter">Non stat contra unum, quem spernit et ipse, Lutherum?</l>
+            <l n="l12" met="pentameter">Non stat contra unum, quem spernit et ipse, Lutherum?</l>
              
-            <l n="l14">Sed scio cur isti muti surdique videntur;</l>
+            <l n="l13">Sed scio cur isti muti surdique videntur;</l>
              
-            <l n="l15" met="pentameter">Quod papam cernunt et mente et lumine castum.</l>
+            <l n="l14" met="pentameter">Quod papam cernunt et mente et lumine castum.</l>
              
-            <pb n="pb16"/>
-            <l n="l17">Nunc tibi consilium si vis <corr n="corr1" resp="#NJ">prebebo</corr> salubre:</l>
+            <pb n="pb1"/>
+            <l n="l15">Nunc tibi consilium si vis <corr n="corr1" resp="#NJ">prebebo</corr> salubre:</l>
              
-            <l n="l18" met="pentameter">Ut scribant rursus <sic n="sic1">rersusque</sic> loquantur ut isti,</l>
+            <l n="l16" met="pentameter">Ut scribant rursus <sic n="sic1">rersusque</sic> loquantur ut isti,</l>
              
-            <l n="l19">Deme illis rubeos pileos et redde cucullos.</l>
+            <l n="l17">Deme illis rubeos pileos et redde cucullos.</l>
              
          </div>
-         <div n="div4" type="poesis-epigramma" met="elegiacum">
+         <div n="div3" type="poesis-epigramma" met="elegiacum">
             <head n="head1">
                <add n="add1">14. </add>Thomas Nigro episcopus Scardonensis ad Andream Cricium episcopum<add n="add2">[a], k. 297bv</add>
             </head>
-            <l n="l2">Si tua sic <corr n="corr1" rend="NJ">vulgo</corr> Cricii monumenta leguntur</l>
+            <l n="l1">Si tua sic <corr n="corr1" rend="NJ">vulgo</corr> Cricii monumenta leguntur</l>
              
-            <l n="l3" met="pentameter">Post obitum <sic n="sic1">quantum</sic> cum laude superstes eris!</l>
+            <l n="l2" met="pentameter">Post obitum <sic n="sic1">quantum</sic> cum laude superstes eris!</l>
              
-            <l n="l4">Postera quin etiam longe <sic n="sic1">mirabiliter</sic> etas</l>
+            <l n="l3">Postera quin etiam longe <sic n="sic1">mirabiliter</sic> etas</l>
              
-            <l n="l5" met="pentameter">Sarmatico Latinum cedere pene solo.</l>
+            <l n="l4" met="pentameter">Sarmatico Latinum cedere pene solo.</l>
                 
          </div>
       </body>

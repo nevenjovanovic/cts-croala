@@ -50,62 +50,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -191,17 +136,17 @@
         <body xml:lang="lat" n="body1">
             <div type="prosa-epistula" n="div1">
                 <milestone n="milestone1" unit="page"/>
-                <head n="head2">I/1. <date n="date1" when="1518-04-10">1518. 10. Aprilis</date>, Zlobochynae Petrus Berislavus episcopus Vespriminensis
-                    Leoni papae X. <note n="note2" resp="BJ">Segr. Stato, Principi, 5, f. 162., 165v. Sigillo
+                <head n="head1">I/1. <date n="date1" when="1518-04-10">1518. 10. Aprilis</date>, Zlobochynae Petrus Berislavus episcopus Vespriminensis
+                    Leoni papae X. <note n="note1" resp="BJ">Segr. Stato, Principi, 5, f. 162., 165v. Sigillo
                         annulari. Editio: FRAKNÓI–LUKCSICS 1896–1907, IV, p. 251–253.</note>
                 </head>
 
 
-                <opener n="opener3">Sanctissimo ac beatissimo domino nostro Leoni pape, domino meo
+                <opener n="opener1">Sanctissimo ac beatissimo domino nostro Leoni pape, domino meo
                     clementissimo</opener>
 
 
-                <p n="p4">Sanctissime ac Beatissime Pater et Domine, Domine mihi Clementissime! Pedum
+                <p n="p1">Sanctissime ac Beatissime Pater et Domine, Domine mihi Clementissime! Pedum
                     Sanctitatis Vestre beatorum et mei devotionisque mee humillimam commendationem
                     ad pedes Sanctitatis Vestre. Beatissime Pater! Nudius quartus accepi breve
                     Sanctitatis Vestre, quibus scribit inter omnes alias curas, que mentem suam
@@ -229,7 +174,7 @@
                     absumptis non video, quo pacto illa defendere queam, quum et serenissimus
                     dominus rex meus regnique proceres, ut ipsi aiunt, defensioni eorundem non
                     sufficiant, et Sanctitas Vestra suppetias auxiliaque sua usque ad generalem
-                        <milestone n="milestone2" unit="page"/> expedicionem differt. Audivi cognovique, Beatissime
+                        <milestone n="milestone1" unit="page"/> expedicionem differt. Audivi cognovique, Beatissime
                     Pater, tum ex breve Sanctitatis Vestre, tum ex aliorum litteris abunde, quo
                     studio, qua cura quantaque animi aviditate sanctissimam expedicionem sollicitet,
                     sed vereor, ne aut ob principum Christianorum discordias non sequatur, aut
@@ -245,7 +190,7 @@
                     subveniat opemque ferat, neque, quemadmodum sese facturam scribit, exitum rei de
                     ipsa expedicione expectet. Nam, si id fecerit, vereor, ne, quod premisi, in
                     manus hostium deveniant. Quod si futurum est (quod Deus Optimus Maximus
-                    avertat), non solum victorias Sanctitatis Vestre vel <sic n="sic3">immorabuntur,</sic>
+                    avertat), non solum victorias Sanctitatis Vestre vel <sic n="sic1">immorabuntur,</sic>
                     verum etiam forte ipsam expeditionem frustrabunt. Ita sunt loca pleraque non
                     manu modo, sed etiam natura munita, ut vix ulla vis hominum, ut ipsi castra
                     tenere solent, illa expugnare possit, quemadmodum etiam antea Beatissimi Vestre
@@ -256,7 +201,7 @@
                     abominor, merorem insidat, in quem ille praedecessor Sanctitatis Vestre tempore
                     amissionis Constantinopolitani imperii insiderat. Ego iam sepius et predixi et
                     predico, utinam falsus vates sim, libenter enim in hac re mentirer, sed certe
-                    mihi quam primum et quantissime<note n="note4" resp="BJ">2 In originali: quam
+                    mihi quam primum et quantissime<note n="note2" resp="BJ">2 In originali: quam
                         citissime.</note> Sanctitas Vestra opem ferat. Actum erit de his regnis,
                     quibus ad reliquas calamitates periculaque hoc quoque accedit, quod incole
                     eorundem hostium iam non habitum solum, sed eciam mores inbiberunt, adeo, ut vix
@@ -266,15 +211,15 @@
                     supplico, quoniam, si amittentur, non minorem cladem calamitatemque
                     Christianitati sunt allatura, quam olim amissio Constantinopolitani imperii
                     attulerat.</p>
-                <closer n="closer5">
+                <closer n="closer1">
                <salute n="salute1">Commendo me et devocionem meam ad pedes Sanctitatis Vestre, quam
                         Deus Optimus Maximus pro Christiane religionis incremento multos annos
                         felicissimum conservet.</salute>
-                    <dateline n="dateline2">Ex Zlobochyna, Xa Aprilis MDXVIIIo.</dateline>
-                    <signed n="signed3">Eiusdem Sanctitatis Vestre¸ humilllimus et devotus creatura
+                    <dateline n="dateline1">Ex Zlobochyna, Xa Aprilis MDXVIIIo.</dateline>
+                    <signed n="signed1">Eiusdem Sanctitatis Vestre¸ humilllimus et devotus creatura
                             <expan n="expan1">Petrus</expan> Vespremiensis</signed>
             </closer>
-                <note n="note6" resp="BJ">Annotatio: Responsio: Arm. XLIV, 5, f. 211v. Editio: NANNI 1992, n.
+                <note n="note1" resp="BJ">Annotatio: Responsio: Arm. XLIV, 5, f. 211v. Editio: NANNI 1992, n.
                     1008.</note>
 
 

@@ -47,64 +47,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="emph" occurs="6"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="12"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -196,33 +139,33 @@
       <front xml:lang="lat" n="front1">
          <head n="head1">5. Zagrabiae, 10. Decembris 1794.</head>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistula">
             <opener n="opener1">
     
                <salute n="salute1">Chare amice!</salute>
             </opener>
-            <p n="p2"> Cum necessitates aedificii xenodochialis urgeant, ipse quoque raptim
+            <p n="p1"> Cum necessitates aedificii xenodochialis urgeant, ipse quoque raptim
     respondeo.  Gratiam tibi habeo pro grato nuncio oroque te maiorem in modum,
     ut per Bedek. urgeas quo resolutio haec quo ocius expediatur.  Nisi enim
     pecuniam Buda ad summum usque finem Februarii accipiamus, non poterimus debito tempore
     continuationi aedificii manum admovere.</p>
-            <p n="p3"> Galyuff iam heri rediit.  De Vukasovichio an Viennae vel
+            <p n="p2"> Galyuff iam heri rediit.  De Vukasovichio an Viennae vel
     <pb n="pb1"/>
     alicubi in via remanserit, necdum potui explorare.  Prior graves cum suo
     statim adventu obiectiones passus est, quod res Capituli segniter curaverint.
-     At ille omnem culpam in <abbr n="abbr2">Vukass.</abbr> reiecit eumque neglectis Capituli rebus
+     At ille omnem culpam in <abbr n="abbr1">Vukass.</abbr> reiecit eumque neglectis Capituli rebus
     matrimonia tantumque cognatorum, resque suae familiae et Directoratum studiorum curasse
     affirmavit; atque ita prima, quam ego in antecessum ominabar, scaena iam evenit.
-     Superest altera ut, si <abbr n="abbr3">Taisp.</abbr> prostratum videant, hunc tanquam omnium
+     Superest altera ut, si <abbr n="abbr2">Taisp.</abbr> prostratum videant, hunc tanquam omnium
     malorum authorem gravibus criminationibus universi insectentur.  Videbis quod
     hanc quoque scaenam adhuc ludent.</p>
-            <p n="p4"> De instantia Gotscianae, si ita, ut scribis, se res habet, bene est.
+            <p n="p3"> De instantia Gotscianae, si ita, ut scribis, se res habet, bene est.
      Quamquam ille longe alia huc scriptitet.  Nempe iam quod
     illa exclusivum privilegium pro civitate sit obtentura, iam vero quod nulla prorsus resolutio
     adhuc emanaverit.  Si rem ad primum recisuram esse observaveris, author tibi
     sum ut praevenias tuamque typographiam<note n="note1" place="foot">
-                  <p n="p1">5,13 typographiam <name n="name1">Kolanović</name> ] typogr. <emph n="emph2">MS</emph>
+                  <p n="p1">5,13 typographiam <name n="name1">Kolanović</name> ] typogr. <emph n="emph1">MS</emph>
                   </p>
                </note> sponte ad tuum fundum transferas.  Quoad secundum, scire cuperem an
     resolutio, qua ipsi proba imponitur, iam effective — et si ita, quando — publicata, et an
@@ -235,28 +178,28 @@
     subiungas quod Brig. praeterea haec et haec in publicum et forte etiam altissimo loco
     sparserit et, calumnias licet, has aliquam etiam impressionem fecisse observes, ideo quod
     illas quoque elidere necessarium existimaveris.</p>
-            <p n="p5"> Quaeso, informa te an ex <emph n="emph1">Historia episcoporum
+            <p n="p4"> Quaeso, informa te an ex <emph n="emph1">Historia episcoporum
     Quinqueeclesiarum</emph> Kollerii ultra tomum tertium aliquod prodiverit, praesertim vero eius
-    <emph n="emph2">Prologomena</emph> ?<note n="note3" place="foot">
+    <emph n="emph2">Prologomena</emph> ?<note n="note1" place="foot">
                   <p n="p1">5,19 Prologomena] <emph n="emph1">sic</emph>
                   </p>
                </note>
             </p>
-            <pb n="pb6"/>
-            <p n="p7"> Si ita, quaeso, procura mihi.  Ita etiam, an e Stephani
+            <pb n="pb1"/>
+            <p n="p5"> Si ita, quaeso, procura mihi.  Ita etiam, an e Stephani
     Horvath <emph n="emph1">Bibliotheca iurisconsultorum Hungariae</emph> ultra tomum tertium quid
     prodiverit?  Videtur mihi quod tomus quartus re ipsa prodiverit.
      Quare et hunc et si quis ultra prodiit, mihi adferri peto.</p>
-            <p n="p8"> 
+            <p n="p6"> 
                <emph n="emph1">Hamburger Journal</emph> pro mense Septembri, Octobri et Novembri
     non legi.  Cum et tu et Philippus (cui salutem ex me deferri peto) illud
     teneatis, quaeso, dirige tuum ad Franciscum Raffay et, ut illud mihi communicet, eidem
     committe.</p>
-            <closer n="closer9">
+            <closer n="closer1">
                <salute n="salute1"> Mea te humanissime reveretur.  Vale meque ut facis ama.</salute>
-               <dateline n="dateline2">Zagrabiae, 1794. 10. Decembris </dateline>
+               <dateline n="dateline1">Zagrabiae, 1794. 10. Decembris </dateline>
             </closer>
-            <postscript n="postscript10"> 
+            <postscript n="postscript1"> 
                <p n="p1"> Hic aliquis sparserat lectorem ex alio capitulo nominatum et Taisp. eo
     translatum esse propterea quod in instantia 13 canonicorum allegetur nullum officii huius
     capacem esse.  Res haec adversarios tuos mirum in modum torsit donec
@@ -264,7 +207,7 @@
             </postscript>
          </div>
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="notes">
             <p n="p1">
                <bibl n="bibl1">(NAZ, EAE, vol. 113, nr. 132.)</bibl>

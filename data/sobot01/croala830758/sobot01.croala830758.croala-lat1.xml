@@ -78,60 +78,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="4"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="12"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1" withId="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="4"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="3"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="15"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="5"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="11"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="6"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -231,8 +178,8 @@
             <div n="div1" xml:id="sob1454d" type="prosa-epistula">
                 <head n="head1">
                <date n="date1" when="1454-07-27">1454-07-27</date>, Tragurio</head>
-                <opener n="opener2">Joannis Sobote Dalmate epistola.</opener>
-                <p n="p3">Superioribus diebus literis significavi illa, que rumore quodam ad nos referri
+                <opener n="opener1">Joannis Sobote Dalmate epistola.</opener>
+                <p n="p1">Superioribus diebus literis significavi illa, que rumore quodam ad nos referri
                     videbantur: secundum Macometum, Teucrorum principem superbissimum, ingenti cum
                     audacia Serviam invasisse. Parvo deinde interjecto tempore non rumore, sed veris
                     auctoribus hoc declaratum est; qui rei <milestone n="milestone1" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA153"/> novitate
@@ -243,7 +190,7 @@
                     audacissimos. Dux insolentissimus horum virtute fretus et prospero eventu
                     superioris belli, quo Bizantium expugnaverat tantum illatus dicitur, ut orbem
                     spe amplexus est; trecentos currus, quibus machine expugnandarum urbium gratia
-                        <sic n="sic2">comparte</sic> deferuntur, eum habere, sunt nonulli, qui affirmant.
+                        <sic n="sic1">comparte</sic> deferuntur, eum habere, sunt nonulli, qui affirmant.
                     Illustris despotus, desperata regni tutella traiecto Danubio ad Panones, veluti
                     ad unicam arcem recepisse dicitur. Incredibile dictu profecto est, quantum
                     argenti facti infective detulerit, equidem plura transcribo quam credo; nec
@@ -268,7 +215,7 @@
                     ipsos audacissime persecuti sunt; hostes et fuga et proelio fracti belluarum
                     more in flumen se praecipitavere. Dux Hesibeg cum quatuor militibus evassise
                     dicitur; preclari facinoris gradus factus est. Macometus, postquam ab Esibego
-                    male pugnatum fuit, contractis undique omnibus copiis, <milestone n="milestone3" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA154"/>
+                    male pugnatum fuit, contractis undique omnibus copiis, <milestone n="milestone2" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA154"/>
                     diligentius diurnas nocturnasque excubias facere imperavit; totis viribus molem
                     tanti belli adire statuit. Panones tantum novitate hujus periculi commoti
                     traduntur adeo, ut numquam in ducibus legendis, nec in exercitu scribendo
@@ -279,19 +226,19 @@
                     ingentem de principatu contentionem esse, mulieris ritu inter se desides
                     altercantur. Haec sunt, quae mihi digna relatu visa sunt.</p>
 
-                <p n="p4">Audio Johanem Albertum iurisconsultum a senatu praetorem Traguriensem designatum
+                <p n="p2">Audio Johanem Albertum iurisconsultum a senatu praetorem Traguriensem designatum
                     esse. Hortare virum dignissimum, ut veniat, expectatus mihi crede veniet in
                     praesentiarum. Apud nos aer saluberrimus est, valetudo optima, urbs pristine
                     sanitati restituta est; nihil est, quod formidandum sit. Paulo <abbr n="abbr1">M.</abbr>
                     me commendatum facito. <abbr n="abbr2">M. A.</abbr>
                     <abbr n="abbr3">S.</abbr> dicito. Coriolanus tanquam claudus sutor ruri, domi se continet,
                     equino calce sibi crus percussum.</p>
-                <closer n="closer5">
+                <closer n="closer1">
                <salute n="salute1">Vale et me amare persevera.</salute>
-                    <dateline n="dateline2">Ex <placeName n="placeName1">
+                    <dateline n="dateline1">Ex <placeName n="placeName1">
                      <abbr n="abbr1">Trag.</abbr>
                   </placeName>
-                        <date n="date2" when="1454-07-27">Kal. VI. Sextilis (1454)</date>.</dateline>
+                        <date n="date1" when="1454-07-27">Kal. VI. Sextilis (1454)</date>.</dateline>
             </closer>
             </div>
         </body>

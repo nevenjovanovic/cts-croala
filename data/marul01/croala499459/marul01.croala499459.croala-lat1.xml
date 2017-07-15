@@ -41,55 +41,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="ptr" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -169,7 +121,7 @@
      plurimum honorem. Venetiis. <salute n="salute1">Iacobo Grassolario, iuris pontificii consulto, Marcus
       Marulus salutem.</salute>
             </opener>
-            <p n="p2">Frater meus Valerius istinc reuersus mihi retulit opus nostrum de imitatione Christi apud Te
+            <p n="p1">Frater meus Valerius istinc reuersus mihi retulit opus nostrum de imitatione Christi apud Te
      se reliquisse, Tua opera (sicut ipsi pollicitus es) imprimendum. Quam ob rem magna quidem
      afficior lętitia, quia per Te, uirum egregium atque doctissimum, lucubrationes meę in lucem
      tandem uenient. Spero enim plus illis ex Tua autoritate existimationis gratięque accessurum
@@ -182,15 +134,15 @@
      uirtutis gratia perennisque beatitatis consequendę, non dubita, quin multi talia a nobis ędita
      auidius legent, postquam etiam Tibi, exacti iudicii sinceręque fidei uiro, placuisse
      intellexerint. </p>
-            <p n="p3">Quare gratissimum mihi erit, si me quamprimum per litteras feceris certiorem, quo loco res
+            <p n="p2">Quare gratissimum mihi erit, si me quamprimum per litteras feceris certiorem, quo loco res
      ista sese habeat, id est, si pręfatum opus jam imprimi coeptum sit, si iam breui ad nos, unde
      profectum est, rediturum sit. Quando quidem non pauci ex nostris, qui illud olim legerunt, nunc
      ab impręssoribus exscriptum absolutumque desiderant, et eo quidem magis, quia Tua cura Tuaque
      diligentia emendatissimum se habituros sperant. Siquid interim Marulus Tuus Tuis in rebus Tibi
      commodare poterit, libere ipso utere; dicto audientem inuenies. </p>
-            <closer n="closer4">
+            <closer n="closer1">
                <salute n="salute1">Vale.</salute>
-               <dateline n="dateline2">Ex oppido Spalato, <date n="date1" when-iso="1515-04-26">anno Saluatoris MDXV, VI. Kalendas
+               <dateline n="dateline1">Ex oppido Spalato, <date n="date1" when-iso="1515-04-26">anno Saluatoris MDXV, VI. Kalendas
        Maias.</date>
                </dateline>
             </closer>

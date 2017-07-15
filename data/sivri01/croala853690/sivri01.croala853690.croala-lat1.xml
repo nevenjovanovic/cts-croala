@@ -37,65 +37,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="225"/>
-          <tagUsage gi="docImprint" occurs="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="59"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="1434"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lg" occurs="83"/>
-          <tagUsage gi="milestone" occurs="140"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="13"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="13"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="5"/>
-          <tagUsage gi="persName" occurs="3"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="1"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="32"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="51"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="8"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="unclear" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -176,35 +118,35 @@ Početak rada
                   s'incontrerà tradotta altresì la seconda Anacreontica di Ludovico Savioli
                   Fontana</titlePart>
             </docTitle>
-            <docImprint n="docImprint2">Ragusa
+            <docImprint n="docImprint1">Ragusa
                presso Antonio Martecchini
                <date n="date1" when="1803">MDCCCIII</date>.</docImprint>
          </titlePage>
-         <pb n="pb2"/>
-         <div n="div3" type="praefatio">
+         <pb n="pb1"/>
+         <div n="div1" type="praefatio">
             <head n="head1">PREFAZIONE.</head>
-            <p n="p2">
+            <p n="p1">
                Quanto è squisito il piacere, che recano i buoni Sonetti, altrettanto è grave il tedio, che producono i difettosi. Anzi dove s’incontrano questi confusi con quelli, quel che c’è di vizioso negli uni suole infastidirci a segno, che non assaggiamo piu quel che v' è di buono negli altri. Il diletto viene distrutto per così dire dal disgusto, e la soavità rimane oppressa da un amaro veleno. Non così succedeva a Tantalo, il quale se non toccava i buoni frutti , non era obbligato almeno a mangiarne degli aspri, ed avvelenati.</p>
-            <p n="p3">
-               Non può ben dunque concepirsi sin a qual segno sia capace d’allettarci il bello di tali componimenti, se non vengono scelti, separati, e schierati da parte i buoni; onde si vegga brillar liberamente, e svilupparsi il loro splendore, senza essere avvilito, ed offuscato dalla caligine , e dalle macchie. Per questo motivo mi sono proposto di scegliere i migliori tra quelli, che furono pubblicati in italiano . Se io sapessi sceglierli veramente bene, Giovanni de la <pb n="pb1"/> Bruyere mi loderebbe assai; il quale disse, che <q n="q2" xml:lang="fra">choisir c’ est inventer</q>, cioè a dire , che lo scegliere è un inventare. Comunque sia bramerei , che questa scelta potesse meritare il nome di scelta; affine di promuovere quel salubre, delicato, e prezioso piacere, che somministra la poesia , dono sublime , e generoso, che il Cielo ha saputo concedere agli uomini.</p>
-            <p n="p4">Io ammetto quei Sonetti, che sono scherzevoli , e spiritosi a guisa di certi Epigrammi , ovvero quelli, che sanno porgere una certa unzione allo spirito, e non altri. Senza una di queste due doti non mi sembra già , che possano essere di grande preggio. Questo sia detto in genere. Sarei in caso , quando occorresse, d' assegnare in particolare la ragione rispettiva, per la quale ho escluso qualsisia di quelli, che ho creduto a proposito d’escludere. Questo però formerebbe non già l’ opera , che faccio; ma bensì un altra, che io non prometto d’intraprendere. Mi piace più esercitarmi a lodare di quello che a criticare . Qui si tratta d’ impiegare una maniera la più sicura, e la più efficace per aguzzare, e svegliare quell’ appetito , che gli uomini tutti naturalmente hanno per il bello , e per il buono; ma che suole <pb n="pb1"/> purtroppo addormentarsi, o rendersi ottuso in essi, e questa maniera consiste appunto nel raccogliere insieme, e mettere in vista questo bello, e questo buono; onde possa produrre vive impressioni; le quali da nessuna altra cosa vengono tanto disturbate, e soppresse, quanto dal brutto, e dal guasto, che faccia nell’ istesso tempo delle impressioni opposte.</p>
-            <p n="p5">
+            <p n="p2">
+               Non può ben dunque concepirsi sin a qual segno sia capace d’allettarci il bello di tali componimenti, se non vengono scelti, separati, e schierati da parte i buoni; onde si vegga brillar liberamente, e svilupparsi il loro splendore, senza essere avvilito, ed offuscato dalla caligine , e dalle macchie. Per questo motivo mi sono proposto di scegliere i migliori tra quelli, che furono pubblicati in italiano . Se io sapessi sceglierli veramente bene, Giovanni de la <pb n="pb1"/> Bruyere mi loderebbe assai; il quale disse, che <q n="q1" xml:lang="fra">choisir c’ est inventer</q>, cioè a dire , che lo scegliere è un inventare. Comunque sia bramerei , che questa scelta potesse meritare il nome di scelta; affine di promuovere quel salubre, delicato, e prezioso piacere, che somministra la poesia , dono sublime , e generoso, che il Cielo ha saputo concedere agli uomini.</p>
+            <p n="p3">Io ammetto quei Sonetti, che sono scherzevoli , e spiritosi a guisa di certi Epigrammi , ovvero quelli, che sanno porgere una certa unzione allo spirito, e non altri. Senza una di queste due doti non mi sembra già , che possano essere di grande preggio. Questo sia detto in genere. Sarei in caso , quando occorresse, d' assegnare in particolare la ragione rispettiva, per la quale ho escluso qualsisia di quelli, che ho creduto a proposito d’escludere. Questo però formerebbe non già l’ opera , che faccio; ma bensì un altra, che io non prometto d’intraprendere. Mi piace più esercitarmi a lodare di quello che a criticare . Qui si tratta d’ impiegare una maniera la più sicura, e la più efficace per aguzzare, e svegliare quell’ appetito , che gli uomini tutti naturalmente hanno per il bello , e per il buono; ma che suole <pb n="pb1"/> purtroppo addormentarsi, o rendersi ottuso in essi, e questa maniera consiste appunto nel raccogliere insieme, e mettere in vista questo bello, e questo buono; onde possa produrre vive impressioni; le quali da nessuna altra cosa vengono tanto disturbate, e soppresse, quanto dal brutto, e dal guasto, che faccia nell’ istesso tempo delle impressioni opposte.</p>
+            <p n="p4">
                Questi Sonetti saranno accompagnati dalla traduzione latina. Ho atteso a renderla fedele; ho atteso ciò non ostante a renderla tale , che tutto sembri nato dalle viscere stesse di quella lingua , nella quale traduco; ho atteso a mettere in contrasto le forze della lingua latina con quelle dell’ italiana; ed essendo immenso il bello, ed immense le sue modificazioni , ho atteso, che il mio stile nè Catulliano precisamente fosse, nè Tibulliano, nè Properziano, nè Ovidiano, ma vario, ed appropriato all’ indole varia degli argomenti, di cui tratto. Questo è stato il mio dissegno; i savi Lettori giudicheranno, se ho saputo adempirlo.</p>
-            <p n="p6">
+            <p n="p5">
                Talvolta nelle note propongo qualche cambiamento del testo; perché un sol neo è capace togliere molto del preggio ad un bel Sonetto. Ma questo io faccio, <pb n="pb1"/>  quando ho genio di farlo, ne intendo contrarre l’ obbligo di farlo sempre. </p>
-            <p n="p7">
+            <p n="p6">
                Tutta questa scelta sarà divisa in vari libretti; in fine dei quali potrà avere luogo qualche altra mia poesia. Non porteranno il titolo di tomo primo, nè  secondo; giacchè intendo, che ciascuno faccia un opuscolo separato. Ma capitando che io dia altre cose in luce , darò sempre un’ indice delle cose antecedentemente stampate col mio nome.</p>
-            <p n="p8">
+            <p n="p7">
                Attualmente presento un certo numero di Sonetti ricavato da alcuni autori, che ne hanno scritto pochi. Porgo pure la traduzione delle Anacreontiche di Vittorelli , le quali tutte hanno dell’ Epigrammatico. Non avrò difficoltà d’ inserire tra i Sonetti, quando si darà l’ occasione , anche i Madrigali, o altro genere di corte composizioni. Ciascun Sonetto avrà il suo titolo , affinché l’attenzione s' impieghi tutta quanta a gustarlo, senza perdere il tempo a indagare di che tratta. Quando tal titolo sia tralasciato dall’ autore, e venga proposto da me, porterà il seguente segno. <sic n="sic1">❦</sic> Gradisca il pubblico , e gradiscano gli amici miei la Dedica, che intendo lor fare di queste mie occupazioni.
         </p>
          </div>
       </front>
     
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1">
             <div type="poesis-versio" n="div1">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">               Cinto le bionde chiome</l>
                      <l n="l2">               De la materna rosa</l>
@@ -230,8 +172,8 @@ Početak rada
                      <l n="l4">               D' esprimer la tua fe.</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">   Rorifero surgente die mea tecta subivit</l>
                   <l n="l2">   Parvus amor cinctus tempora pulchra rosis.</l>
                   <l n="l3">   Blanda voce mihi, vates, qui carmine molli</l>
@@ -244,7 +186,7 @@ Početak rada
          
             <div type="poesis-versio" n="div2">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Vegliai la notte intera</l>
                      <l n="l2">Su le nojose piume.</l>
@@ -270,8 +212,8 @@ Početak rada
                      <l n="l4">Lo brami estinto? Ah no.</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Insomnis tota vigilavi nocte, molesto</l>
                   <l n="l2">Languida nec potui membra levare toro.</l>
                   <l n="l3">Conspexi lucem, licuitque recedere lecto,</l>
@@ -287,7 +229,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div3">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Io non invidio i fiori</l>
                      <l n="l2">Al molle Anacreonte:</l>
@@ -313,8 +255,8 @@ Početak rada
                      <l n="l4">Che ne le guance hai tu.</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Non Tej vatis flores ego lavdo, nec ipsos</l>
                   <l n="l2">Invidus exposco: nam rosa nulla caput</l>
                   <l n="l3">Illius ornavit, qua non praestantior haec sit;</l>
@@ -328,7 +270,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div4">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Stamane per vederti,</l>
                      <l n="l2">O bella Irene mia,</l>
@@ -354,8 +296,8 @@ Početak rada
                      <l n="l4">Quel cattivel d' Amor?</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Tramite me solito mea pergere vota jubebant,</l>
                   <l n="l2">Dum cupio Irenem mane videre meam.</l>
                   <l n="l3">Speravi dulcem procurrens cernere vultum,</l>
@@ -370,7 +312,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div5">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Ecco di Gnido il tempio,</l>
                      <l n="l2">Ecco le aurate porte:</l>
@@ -396,8 +338,8 @@ Početak rada
                      <l n="l4">Vendicheranno Amor.</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Hic Gnidus, en sacras portas, en aurea templa;</l>
                   <l n="l2">Tam dubiae sortis nolo timere vices.</l>
                   <l n="l3">Has mihi amicitiam nitidas promittito ad aras,</l>
@@ -411,7 +353,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div6">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">I carmi lodatori</l>
                      <l n="l2">Fille a richieder viene,</l>
@@ -437,8 +379,8 @@ Početak rada
                      <l n="l4">Quel nome replicar.</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Phillida queis celebrem, nequicquam carmina Phillis</l>
                   <l n="l2">Postulat; Irenem carmina nostra canunt.</l>
                   <l n="l3">Accipiat flores, sive herbas Phillis olentes;</l>
@@ -452,7 +394,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div7">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Pace: su questo altare</l>
                      <l n="l2">Una colomba uccido,</l>
@@ -478,8 +420,8 @@ Početak rada
                      <l n="l4">Passar la gioventù!</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Parcito amor; thuris do munera, parcito clemens,</l>
                   <l n="l2">Irenem fletus non tetigere mei.</l>
                   <l n="l3">Has aras veneror supplex, ferioque columbam;</l>
@@ -493,7 +435,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div8">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">La terza notte è questa,</l>
                      <l n="l2">Che il sonno, oh Dio! mi lascia,</l>
@@ -519,8 +461,8 @@ Početak rada
                      <l n="l4">Tutta l' altrui pietà?</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Deficio, vigilem me nox jam tertia cernit;</l>
                   <l n="l2">Mordacem curam non levat ulla quies.</l>
                   <l n="l3">Fallaces oculi me vestra fatigat imago;</l>
@@ -534,7 +476,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div9">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Recidasi il tuo nome</l>
                      <l n="l2">Da i faggi, e da gli allori.</l>
@@ -560,8 +502,8 @@ Početak rada
                      <l n="l4">Che non è mio quel cor.</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Non lavrus, fagusve tuo me nomine captet;</l>
                   <l n="l2">Exosas ferrum cogat abire notas.</l>
                   <l n="l3">Me frustra vultu simulato, perfida, mulces;</l>
@@ -579,7 +521,7 @@ Početak rada
          
             <div type="poesis-versio" n="div10">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Dischiusa è la finestra,</l>
                      <l n="l2">E il Sol co' raggi lieti</l>
@@ -605,8 +547,8 @@ Početak rada
                      <l n="l4">Resistere chi può?</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">En Phoebus radiis Dominae penetralia lustrat;</l>
                   <l n="l2">En splendet multa luce fenestra patens.</l>
                   <l n="l3">Mens mea corde metum quamvis agitata fugabat;</l>
@@ -621,7 +563,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div11">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Se vedi che germoglia</l>
                      <l n="l2">Ne' più silvestri dumi</l>
@@ -647,8 +589,8 @@ Početak rada
                      <l n="l4">E quella erbetta io son.</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Si rosa, quam cernas, ridens revirescit, et halat;</l>
                   <l n="l2">Sit licet hirsutis undique septa rubis;</l>
                   <l n="l3">Si zephyrus gaudet ludens occurrere eunti,</l>
@@ -661,7 +603,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div12">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Lascia, che questo labbro,</l>
                      <l n="l2">O Irene mia, lo dica: </l>
@@ -670,8 +612,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Vera loqui, sit fas, Irenem diligo; nemo,</l>
                   <l n="l2">Dulcis amica, magis diligit ex animo.</l>
                   <!-- gap -->
@@ -679,7 +621,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div13">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Spesso a narrare intesi,</l>
                      <l n="l2">Che il vedovo poeta</l>
@@ -688,8 +630,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Maerentem Orpheum saevos flexisse leones,</l>
                   <l n="l2">Flexisse et tigres carmine fama refert.</l>
                   <!-- gap -->
@@ -697,7 +639,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div14">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Da l' invocato sonno</l>
                      <l n="l2"/>
@@ -706,8 +648,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Jam valeo, jam membra vigent, solitoque colore,</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -715,7 +657,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div15">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Fingi, vezzosa Irene,</l>
                      <l n="l2"/>
@@ -724,8 +666,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Formosam Irenes faciem levis asperet ira,</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -733,7 +675,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div16">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Ecco ritorna il mese</l>
                      <l n="l2"/>
@@ -742,8 +684,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Qui vallem, et collem, camposque virescere cogit,</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -751,7 +693,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div17">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Seppi, che al dubbio lume</l>
                      <l n="l2"/>
@@ -760,8 +702,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Te scio, lanigeras duxisse in prata bidentes,</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -769,7 +711,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div18">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Irene, siedi a l’ombra</l>
                      <l n="l2">Di questo ameno faggio,</l>
@@ -798,8 +740,8 @@ Početak rada
                   </lg>
 
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Irene, fagi dulces has conside ad umbras,</l>
                   <l n="l2">Dum fugere infesto solis ab igne juvat.</l>
                   <l n="l3">Interea teneris agni pascentur, et agnae</l>
@@ -813,7 +755,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div19">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Lucido vago io mando</l>
                      <l n="l2"/>
@@ -822,8 +764,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Vas tibi odorifero repletum mitto liquore</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -831,7 +773,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div20">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Ascolta, o infida, un sogno</l>
                      <l n="l2"/>
@@ -840,8 +782,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Nox elapsa mihi tulerit quae somnia, dicam!</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -849,7 +791,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div21">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Guarda che bianca luna!</l>
                      <l n="l2">Guarda che notte azzurra!</l>
@@ -877,8 +819,8 @@ Početak rada
                      <l n="l4">rispondermi così!</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Caeruleos caeli tractus, noctemque serenam</l>
                   <l n="l2">Aspice. Quam puro candida luna nitet</l>
                   <l n="l3">Lumine! nec frondes ullis agitantur ab avris;</l>
@@ -895,7 +837,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div22">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Siedi, mi disse Amore,</l>
                      <l n="l2"/>
@@ -904,8 +846,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Nuper laetus amor dixit mihi, conside mecum</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -913,7 +855,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div23">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Aveva due canestri</l>
                      <l n="l2"/>
@@ -922,8 +864,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Praebuit Ireni varios mea dextera flores,</l>
                   <l n="l2">Caeruleo plenum flore dedit calathum;</l>
                   <l n="l3">Et dedit, albenti, calathum, qui flore nitebat. <note n="note1" type="numvers">12</note>
@@ -939,7 +881,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div24">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Pur t' afferrai nel collo,</l>
                      <l n="l2"/>
@@ -948,8 +890,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">O Satyre, arrepto teneo te denique collo;</l>
                   <l n="l2">Non rapiet nostris te fuga de manibus .</l>
                   <l n="l3">Haec te mulctabit fustis, tibi donec ab armo</l>
@@ -964,7 +906,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div25">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">La vidi (oh che portento!</l>
                      <l n="l2"/>
@@ -973,8 +915,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">O genus eximium pulchri, mirumque decorem!</l>
                   <l n="l2">Glauca chlamys corpus picta tegebat acu.</l>
                   <l n="l3">O Venus, hanc spectans ego te spectare videbar:</l>
@@ -992,7 +934,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div26">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Zitto. Que' due labbrucci,</l>
                      <l n="l2">Che vagliono un tesoro,</l>
@@ -1019,8 +961,8 @@ Početak rada
                   </lg>
 
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Quae propria Venus alma manu formasse videtur</l>
                   <l n="l2">E labijs cantus aethereos referens</l>
                   <l n="l3">Vox exit; nemo nunc hiscat; gaudia colles,</l>
@@ -1036,7 +978,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div27">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">I primi fior son questi</l>
                      <l n="l2">Del Maggio, che ritorna.</l>
@@ -1062,8 +1004,8 @@ Početak rada
                      <l n="l4">Abita un Dio maggior.</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Hos flores majus primos mihi protulit; his tu</l>
                   <l n="l2">Cinge tibi pulchras, nympha venusta, comas.</l>
                   <l n="l3">Numinibus nemoris flores donare solebam</l>
@@ -1079,7 +1021,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div28">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Non t' accostare a l' Urna,</l>
                      <l n="l2">Che l' ossa mie rinserra,</l>
@@ -1105,8 +1047,8 @@ Početak rada
                      <l n="l4">E lasciala dormir.</l>
                   </lg>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Haec pia terra, meum te non stimulare dolorem,</l>
                   <l n="l2">Terra tegens gelidi corporis ossa jubet.</l>
                   <l n="l3">Huc nunquam accedas . Hyacinthos ipse recuso,</l>
@@ -1124,7 +1066,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div29">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Il cagnolin vezzoso</l>
                      <l n="l2"/>
@@ -1133,8 +1075,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Formosam catulus liquit formosus amicam;</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -1142,7 +1084,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div30">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">O Platano felice,</l>
                      <l n="l2"/>
@@ -1151,8 +1093,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">O felix, quotquot conspexi surgere in auras,</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -1160,7 +1102,7 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div31">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <lg n="lg1">
                      <l n="l1">Tacete, o versi miei,</l>
                      <l n="l2"/>
@@ -1169,8 +1111,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Carmina conticeant, nil carmina posse, fatemur;</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -1178,9 +1120,9 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div32">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <head n="head1">A Dori, che prende le acque di Recoaro. Canzonetta.</head>
-                  <lg n="lg2">
+                  <lg n="lg1">
                      <l n="l1">Or che le medich' acque</l>
                      <l n="l2"/>
                      <l n="l3"/>
@@ -1188,8 +1130,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Nunc medica Doris lympha recreatur. Amores</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -1197,9 +1139,9 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div33">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <head n="head1">A Dori, che prendendo le acque andò al passeggio, e fu sorpresa dal vento. Canzonetta.</head>
-                  <lg n="lg2">
+                  <lg n="lg1">
                      <l n="l1">Dunque Costei non bada</l>
                      <l n="l2"/>
                      <l n="l3"/>
@@ -1207,8 +1149,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Sic medico jussu neglecto deseris aedem,</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -1216,9 +1158,9 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div34">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <head n="head1">A Dori risanata dopo le acque. Canzonetta.</head>
-                  <lg n="lg2">
+                  <lg n="lg1">
                      <l n="l1">Su l' ara d' Esculapio</l>
                      <l n="l2"/>
                      <l n="l3"/>
@@ -1226,8 +1168,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Nunc gemina Phoebi donetur turture natus:</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -1235,9 +1177,9 @@ Početak rada
             </div>
             <div type="poesis-versio" n="div35">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" type="poesis-anacreontica" xml:lang="ita">
+               <div n="div1" type="poesis-anacreontica" xml:lang="ita">
                   <head n="head1">A Nice in villa, perchè si renda alla Città. Canzonetta</head>
-                  <lg n="lg2">
+                  <lg n="lg1">
                      <l n="l1">Bianchieggia il piano, e il monte</l>
                      <l n="l2"/>
                      <l n="l3"/>
@@ -1245,8 +1187,8 @@ Početak rada
                   </lg>              
                   <!-- gap -->
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat" type="poesis-versio">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat" type="poesis-versio">
                   <l n="l1">Albescunt montes, albescunt prata pruinis;</l>
                   <l n="l2"/>
                   <!-- gap -->
@@ -1255,30 +1197,30 @@ Početak rada
          </div>
          <div n="div2">
             <head n="head1">SCELTA DEI SONETTI.</head>
-            <pb n="pb2"/>
-            <div n="div3">
+            <pb n="pb1"/>
+            <div n="div1">
                <head n="head1">Di Giacomo Vittorelli</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Essendo eletto canonico arciprete di Bassano il signor Abate Golini, il quale da Gesuita educò l' Autore in Brescia.</head>
-                     <l n="l2">Questa, che l' aure molce, e per cui sono</l>
-                     <l n="l3">Tra cantori Febei cantor non vile;</l>
-                     <l n="l4">Questa, che a me risponde in vario stile</l>
-                     <l n="l5">Aurea cetra, o Golin, questa è tuo dono.</l>
-                     <l n="l6">Tu m' insegnasti a ricercarne il suono</l>
-                     <l n="l7">De gli anni miei sul giovinetto aprile,</l>
-                     <l n="l8">Ed or che a te si affida il patrio ovile,</l>
-                     <l n="l9">Di festosi amaranti io la incorono.</l>
-                     <l n="l10">Oh me beato, se quest' alma impetra,</l>
-                     <l n="l11">Tolto ogni neo, che il suo candore appanna,</l>
-                     <l n="l12">Di seguir i tuoi passi infino a l' etra!</l>
-                     <l n="l13">Ore, gustando teco ambrosia, e manna,</l>
-                     <l n="l14">Tu darai nuove corde a la mia cetra,</l>
-                     <l n="l15">E la mia cetra a Dio novelli Osanna.</l>
+                     <l n="l1">Questa, che l' aure molce, e per cui sono</l>
+                     <l n="l2">Tra cantori Febei cantor non vile;</l>
+                     <l n="l3">Questa, che a me risponde in vario stile</l>
+                     <l n="l4">Aurea cetra, o Golin, questa è tuo dono.</l>
+                     <l n="l5">Tu m' insegnasti a ricercarne il suono</l>
+                     <l n="l6">De gli anni miei sul giovinetto aprile,</l>
+                     <l n="l7">Ed or che a te si affida il patrio ovile,</l>
+                     <l n="l8">Di festosi amaranti io la incorono.</l>
+                     <l n="l9">Oh me beato, se quest' alma impetra,</l>
+                     <l n="l10">Tolto ogni neo, che il suo candore appanna,</l>
+                     <l n="l11">Di seguir i tuoi passi infino a l' etra!</l>
+                     <l n="l12">Ore, gustando teco ambrosia, e manna,</l>
+                     <l n="l13">Tu darai nuove corde a la mia cetra,</l>
+                     <l n="l14">E la mia cetra a Dio novelli Osanna.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Qua vates inter numeror non ultimus, auras</l>
                      <l n="l2">Quae mulcet, varios quae mihi pulchra sonos,</l>
                      <l n="l3">Dat cithara, est munus, mihi quod, Goline dedisti;</l>
@@ -1295,27 +1237,27 @@ Početak rada
                      <l n="l14">Caelicolum Regi porriget illa novos.</l>
                   </div>
                </div>
-               <div n="div3">
+               <div n="div2">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">L' Autore a Bassano sua Patria</head>
-                     <l n="l2">Che fiume è questo di bei colli adorno,</l>
-                     <l n="l3">E di gran ponte, che raffrena l' onde,</l>
-                     <l n="l4">Su le cui vaghe ed onorate sponde</l>
-                     <l n="l5">Jacopo nacque, e Ferracino un giorno?</l>
-                     <l n="l6">Che gente è questa, a cui più liete intorno</l>
-                     <l n="l7">Ridono le campagne, e più feconde;</l>
-                     <l n="l8">Ove il commercio animator diffonde</l>
-                     <l n="l9">L' operoso suo genio, e vuota il corno?</l>
-                     <l n="l10">Che cielo è questo, in cui vapor non sale</l>
-                     <l n="l11">Tetro, maligno; e in cui su lievi piume</l>
-                     <l n="l12">Trascorre dolcemente aura vitale?</l>
-                     <l n="l13">Quante grazie ti rendo, amico nume,</l>
-                     <l n="l14">Che pietoso segnasti al mio natale</l>
-                     <l n="l15">Questo ciel, questa gente, e questo fiume.</l>
+                     <l n="l1">Che fiume è questo di bei colli adorno,</l>
+                     <l n="l2">E di gran ponte, che raffrena l' onde,</l>
+                     <l n="l3">Su le cui vaghe ed onorate sponde</l>
+                     <l n="l4">Jacopo nacque, e Ferracino un giorno?</l>
+                     <l n="l5">Che gente è questa, a cui più liete intorno</l>
+                     <l n="l6">Ridono le campagne, e più feconde;</l>
+                     <l n="l7">Ove il commercio animator diffonde</l>
+                     <l n="l8">L' operoso suo genio, e vuota il corno?</l>
+                     <l n="l9">Che cielo è questo, in cui vapor non sale</l>
+                     <l n="l10">Tetro, maligno; e in cui su lievi piume</l>
+                     <l n="l11">Trascorre dolcemente aura vitale?</l>
+                     <l n="l12">Quante grazie ti rendo, amico nume,</l>
+                     <l n="l13">Che pietoso segnasti al mio natale</l>
+                     <l n="l14">Questo ciel, questa gente, e questo fiume.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">O Flumen pulchris ornatum collibus, arcu</l>
                      <l n="l2">Cui pons ingenti claudere non dat iter; <note n="note1" type="numvers">19</note>
                      </l>
@@ -1333,27 +1275,27 @@ Početak rada
                      </l>
                   </div>
                </div>
-               <div n="div4">
+               <div n="div3">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">All' applauditissimo Sign. Ab. Parise, che andava a predicare in Roma.</head>
-                     <l n="l2">Vedrai, Parise, i lidi Tiberini</l>
-                     <l n="l3">Di sculte logge, e di gran tempi onusti,</l>
-                     <l n="l4">Albergo già de' fortunati Augusti,</l>
-                     <l n="l5">E de' guerrieri cavalier Latini.</l>
-                     <l n="l6">Vedrai cento famosi e peregrini</l>
-                     <l n="l7">Monumenti de' secoli vetusti;</l>
-                     <l n="l8">Le colonne, le terme, e i sacri busti</l>
-                     <l n="l9">De' Pompei, de gli Scauri, e de Flamini,</l>
-                     <l n="l10">E se l' aspro involò destin nemico</l>
-                     <l n="l11">Le reliquie del foro, ove sì spesso</l>
-                     <l n="l12">Tullio convinse il reo, salvò l' amico;</l>
-                     <l n="l13">D' accusare il destin non t' è permesso,</l>
-                     <l n="l14">Poichè de i rostri, e de lo stile antico</l>
-                     <l n="l15">La reliquia miglior vive in te stesso.</l>
+                     <l n="l1">Vedrai, Parise, i lidi Tiberini</l>
+                     <l n="l2">Di sculte logge, e di gran tempi onusti,</l>
+                     <l n="l3">Albergo già de' fortunati Augusti,</l>
+                     <l n="l4">E de' guerrieri cavalier Latini.</l>
+                     <l n="l5">Vedrai cento famosi e peregrini</l>
+                     <l n="l6">Monumenti de' secoli vetusti;</l>
+                     <l n="l7">Le colonne, le terme, e i sacri busti</l>
+                     <l n="l8">De' Pompei, de gli Scauri, e de Flamini,</l>
+                     <l n="l9">E se l' aspro involò destin nemico</l>
+                     <l n="l10">Le reliquie del foro, ove sì spesso</l>
+                     <l n="l11">Tullio convinse il reo, salvò l' amico;</l>
+                     <l n="l12">D' accusare il destin non t' è permesso,</l>
+                     <l n="l13">Poichè de i rostri, e de lo stile antico</l>
+                     <l n="l14">La reliquia miglior vive in te stesso.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Atria, caesareas aulas, et splendida tecta,</l>
                      <l n="l2">Quae Latii veteres incoluere Duces,</l>
                      <l n="l3">Templaque, Parisis, praeclari Tibris ad undam,</l>
@@ -1368,27 +1310,27 @@ Početak rada
                      <l n="l12">Vox tua dum superest, temporis haud periit.</l>
                   </div>
                </div>
-               <div n="div5">
+               <div n="div4">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Sonetto Pastorale.</head>
-                     <l n="l2">Ora che teco in su l' erboso letto</l>
-                     <l n="l3">Di questo ameno e rustico pendio</l>
-                     <l n="l4">Sediamo, o pastorella, Alcone ed io,</l>
-                     <l n="l5">Mentre pascola il gregge entro al boschetto;</l>
-                     <l n="l6">Tu, che inesperta non conosci affetto,</l>
-                     <l n="l7">Odi, tenera Nice, il parlar mio.</l>
-                     <l n="l8">Due pastori or contempli, e un sol desio</l>
-                     <l n="l9">Pensi che l' uno e l' altro accolga in petto.</l>
-                     <l n="l10">Io miro il tuo bel labbro, e le tue chiome,</l>
-                     <l n="l11">Nè cangio volto, nè mi batte il core;</l>
-                     <l n="l12">E questa, o Nice, indifferenza ha nome.</l>
-                     <l n="l13">Or volgiti ad Alcon. Guarda il rossore,</l>
-                     <l n="l14">Che tutto lo invermiglia. Osserva come</l>
-                     <l n="l15">Palpita nel mirarti: e quello è amore.</l>
+                     <l n="l1">Ora che teco in su l' erboso letto</l>
+                     <l n="l2">Di questo ameno e rustico pendio</l>
+                     <l n="l3">Sediamo, o pastorella, Alcone ed io,</l>
+                     <l n="l4">Mentre pascola il gregge entro al boschetto;</l>
+                     <l n="l5">Tu, che inesperta non conosci affetto,</l>
+                     <l n="l6">Odi, tenera Nice, il parlar mio.</l>
+                     <l n="l7">Due pastori or contempli, e un sol desio</l>
+                     <l n="l8">Pensi che l' uno e l' altro accolga in petto.</l>
+                     <l n="l9">Io miro il tuo bel labbro, e le tue chiome,</l>
+                     <l n="l10">Nè cangio volto, nè mi batte il core;</l>
+                     <l n="l11">E questa, o Nice, indifferenza ha nome.</l>
+                     <l n="l12">Or volgiti ad Alcon. Guarda il rossore,</l>
+                     <l n="l13">Che tutto lo invermiglia. Osserva come</l>
+                     <l n="l14">Palpita nel mirarti: e quello è amore.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">In colle herboso tecum consedimus Alcon,</l>
                      <l n="l2">Atque ego, dum viridi grex manet in nemore.</l>
                      <l n="l3">Quae loquar, avdito: mollis te decipit aetas; <ref n="ref1">(22)</ref>
@@ -1403,29 +1345,29 @@ Početak rada
                   </div>
                </div>
             </div>
-            <div n="div4">
+            <div n="div2">
                <head n="head1">Di Onofrio Minzoni.</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Per Monaca.</head>
-                     <l n="l2">Stolti stolti, fuggite: è giunta ormai</l>
-                     <l n="l3">La saggia Verginella all' ara innante;</l>
-                     <l n="l4">Entro un mischio di nuvole e di rai</l>
-                     <l n="l5">Per man la tiene il suo celeste Amante.</l>
-                     <l n="l6">Stuol d' Angeletti intorno a quel sembiante</l>
-                     <l n="l7">E guizza, e vola, nè riposo ha mai</l>
-                     <l n="l8">Chi l' umil fronte, chi le luci sante,</l>
-                     <l n="l9">Chi gli atti ammira onestamente gai.</l>
-                     <l n="l10">Già sovra l' ali un se ne scrisse il nome,</l>
-                     <l n="l11">Un di fiori l' ha sparsa, ed un le ha tolti</l>
-                     <l n="l12">I ricchi panni, e le increspate chiome.</l>
-                     <l n="l13">Qual di bende la copre in cielo ordite,</l>
-                     <l n="l14">Qual arpeggia, qual canta, e dice: stolti,</l>
-                     <l n="l15">Qui sol regna virtù, stolti, fuggite.</l>
+                     <l n="l1">Stolti stolti, fuggite: è giunta ormai</l>
+                     <l n="l2">La saggia Verginella all' ara innante;</l>
+                     <l n="l3">Entro un mischio di nuvole e di rai</l>
+                     <l n="l4">Per man la tiene il suo celeste Amante.</l>
+                     <l n="l5">Stuol d' Angeletti intorno a quel sembiante</l>
+                     <l n="l6">E guizza, e vola, nè riposo ha mai</l>
+                     <l n="l7">Chi l' umil fronte, chi le luci sante,</l>
+                     <l n="l8">Chi gli atti ammira onestamente gai.</l>
+                     <l n="l9">Già sovra l' ali un se ne scrisse il nome,</l>
+                     <l n="l10">Un di fiori l' ha sparsa, ed un le ha tolti</l>
+                     <l n="l11">I ricchi panni, e le increspate chiome.</l>
+                     <l n="l12">Qual di bende la copre in cielo ordite,</l>
+                     <l n="l13">Qual arpeggia, qual canta, e dice: stolti,</l>
+                     <l n="l14">Qui sol regna virtù, stolti, fuggite.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Eja agite, amentes, templum vitate, profani;</l>
                      <l n="l2">Accessit sapiens virgo dicanda Deo.</l>
                      <l n="l3">Nubibus, et radiis cinctam caelestis amator <ref n="ref1">(25)</ref>
@@ -1448,27 +1390,27 @@ Početak rada
                      <l n="l18">Quidam ait; hic cithara personat; ille canit.</l>
                   </div>
                </div>
-               <div n="div3">
+               <div n="div2">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Essendo scelto a Protettore Degli argonauti di Ferrara il Cardinale Marcello Crescenzi.</head>
-                     <l n="l2">Pianta che presso le tessalic' onde</l>
-                     <l n="l3">Spiegasti in prima le ramose braccia,</l>
-                     <l n="l4">E tratta poscia alle Romulee sponde</l>
-                     <l n="l5">L' aria segnasti di odorosa traccia;</l>
-                     <l n="l6">S' egli avverrà, che dell' eterne fronde</l>
-                     <l n="l7">Onorato sudor degno mi faccia,</l>
-                     <l n="l8">Da quel tuo nume, che le chiome ha bionde,</l>
-                     <l n="l9">No, non le voglio, ed ei sel oda, e taccia,</l>
-                     <l n="l10">Sulla ripa real dell' Eridano</l>
-                     <l n="l11">Siede Marcel, che le virtù divine</l>
-                     <l n="l12">Tutte dimostra nel sembiante umano.</l>
-                     <l n="l13">Egli la cetra mi sospende al collo,</l>
-                     <l n="l14">Egli di lauro fregerammi il crine,</l>
-                     <l n="l15">Mio non bugiardo, e non profano Apollo.</l>
+                     <l n="l1">Pianta che presso le tessalic' onde</l>
+                     <l n="l2">Spiegasti in prima le ramose braccia,</l>
+                     <l n="l3">E tratta poscia alle Romulee sponde</l>
+                     <l n="l4">L' aria segnasti di odorosa traccia;</l>
+                     <l n="l5">S' egli avverrà, che dell' eterne fronde</l>
+                     <l n="l6">Onorato sudor degno mi faccia,</l>
+                     <l n="l7">Da quel tuo nume, che le chiome ha bionde,</l>
+                     <l n="l8">No, non le voglio, ed ei sel oda, e taccia,</l>
+                     <l n="l9">Sulla ripa real dell' Eridano</l>
+                     <l n="l10">Siede Marcel, che le virtù divine</l>
+                     <l n="l11">Tutte dimostra nel sembiante umano.</l>
+                     <l n="l12">Egli la cetra mi sospende al collo,</l>
+                     <l n="l13">Egli di lauro fregerammi il crine,</l>
+                     <l n="l14">Mio non bugiardo, e non profano Apollo.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Thessalicas primum quae ramos arbor ad undas</l>
                      <l n="l2">Umbriferis laetos frondibus extuleras,</l>
                      <l n="l3">Quae ducta ad ripas Romani Tibris odore</l>
@@ -1485,27 +1427,27 @@ Početak rada
                      <l n="l14">Nec lavrum tribuat vanus Apollo mihi.</l>
                   </div>
                </div>
-               <div n="div4">
+               <div n="div3">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Sullo stesso argomento avendo già ricevuto l' Autore dallo stesso Cardinale la Tonsura e gli Ordini.</head>
-                     <l n="l2">La sacra man, che mi recise il crine,</l>
-                     <l n="l3">E trastullo dell' aure il crin divenne,</l>
-                     <l n="l4">Quella, che poi sulle mie tempie inchine</l>
-                     <l n="l5">Con gran mistero aperta s' intertenne;</l>
-                     <l n="l6">Dessa pur è, che la mia cetra alfine</l>
-                     <l n="l7">Arma di corde, e 'l dosso mio di penne</l>
-                     <l n="l8">Use a posarsi o sulle vette alpine,</l>
-                     <l n="l9">O sulla punta dell' eccelse antenne.</l>
-                     <l n="l10">Or dove sei tu, che riprendi il suono,</l>
-                     <l n="l11">Che dolce io traggo dalle fila aurate,</l>
-                     <l n="l12">Ed al franco mio vol neghi perdono?</l>
-                     <l n="l13">Deh! cessa ormai dalle rampogne usate,</l>
-                     <l n="l14">E riconosci infin, come non sono</l>
-                     <l n="l15">Contrari nomi Sacerdote e Vate.</l>
+                     <l n="l1">La sacra man, che mi recise il crine,</l>
+                     <l n="l2">E trastullo dell' aure il crin divenne,</l>
+                     <l n="l3">Quella, che poi sulle mie tempie inchine</l>
+                     <l n="l4">Con gran mistero aperta s' intertenne;</l>
+                     <l n="l5">Dessa pur è, che la mia cetra alfine</l>
+                     <l n="l6">Arma di corde, e 'l dosso mio di penne</l>
+                     <l n="l7">Use a posarsi o sulle vette alpine,</l>
+                     <l n="l8">O sulla punta dell' eccelse antenne.</l>
+                     <l n="l9">Or dove sei tu, che riprendi il suono,</l>
+                     <l n="l10">Che dolce io traggo dalle fila aurate,</l>
+                     <l n="l11">Ed al franco mio vol neghi perdono?</l>
+                     <l n="l12">Deh! cessa ormai dalle rampogne usate,</l>
+                     <l n="l13">E riconosci infin, come non sono</l>
+                     <l n="l14">Contrari nomi Sacerdote e Vate.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Sacra manus, crinem levibus quae tradidit avris,</l>
                      <l n="l2">De nostro sectus vertice qui cecidit:</l>
                      <l n="l3">Grandia quae referens mysteria rite patebat</l>
@@ -1521,27 +1463,27 @@ Početak rada
                      <l n="l12">An sacrum vates munus obire nequit?</l>
                   </div>
                </div>
-               <div n="div5">
+               <div n="div4">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Essendo scelto a Protettore Degli argonauti di Ferrara il Cardinale Marcello Crescenzi.</head>
-                     <l n="l2">Pianta che presso le tessalic' onde</l>
-                     <l n="l3">Spiegasti in prima le ramose braccia,</l>
-                     <l n="l4">E tratta poscia alle Romulee sponde</l>
-                     <l n="l5">L' aria segnasti di odorosa traccia;</l>
-                     <l n="l6">S' egli avverrà, che dell' eterne fronde</l>
-                     <l n="l7">Onorato sudor degno mi faccia,</l>
-                     <l n="l8">Da quel tuo nume, che le chiome ha bionde,</l>
-                     <l n="l9">No, non le voglio, ed ei sel oda, e taccia,</l>
-                     <l n="l10">Sulla ripa real dell' Eridano</l>
-                     <l n="l11">Siede Marcel, che le virtù divine</l>
-                     <l n="l12">Tutte dimostra nel sembiante umano.</l>
-                     <l n="l13">Egli la cetra mi sospende al collo,</l>
-                     <l n="l14">Egli di lauro fregerammi il crine,</l>
-                     <l n="l15">Mio non bugiardo, e non profano Apollo.</l>
+                     <l n="l1">Pianta che presso le tessalic' onde</l>
+                     <l n="l2">Spiegasti in prima le ramose braccia,</l>
+                     <l n="l3">E tratta poscia alle Romulee sponde</l>
+                     <l n="l4">L' aria segnasti di odorosa traccia;</l>
+                     <l n="l5">S' egli avverrà, che dell' eterne fronde</l>
+                     <l n="l6">Onorato sudor degno mi faccia,</l>
+                     <l n="l7">Da quel tuo nume, che le chiome ha bionde,</l>
+                     <l n="l8">No, non le voglio, ed ei sel oda, e taccia,</l>
+                     <l n="l9">Sulla ripa real dell' Eridano</l>
+                     <l n="l10">Siede Marcel, che le virtù divine</l>
+                     <l n="l11">Tutte dimostra nel sembiante umano.</l>
+                     <l n="l12">Egli la cetra mi sospende al collo,</l>
+                     <l n="l13">Egli di lauro fregerammi il crine,</l>
+                     <l n="l14">Mio non bugiardo, e non profano Apollo.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Thessalicas primum quae ramos arbor ad undas</l>
                      <l n="l2">Umbriferis laetos frondibus extuleras,</l>
                      <l n="l3">Quae ducta ad ripas Romani Tibris odore</l>
@@ -1558,27 +1500,27 @@ Početak rada
                      <l n="l14">Nec lavrum tribuat vanus Apollo mihi.</l>
                   </div>
                </div>
-               <div n="div6">
+               <div n="div5">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Essendo scelto a Prottetore de' Fluttuanti d' Argenta il Cardinale Corsini si allude all' Insegna e alle vicende dell' Accademia.</head>
-                     <l n="l2">Nave, che fra l' orror di lampi e tuoni</l>
-                     <l n="l3">Finor dolente e sconosciuta andasti,</l>
-                     <l n="l4">Se pur non ti conobbero i Tritoni,</l>
-                     <l n="l5">Che spesso mezzo naufraga invocasti,</l>
-                     <l n="l6">Orsù restaura gli albori e i timoni,</l>
-                     <l n="l7">Che teco porti inonorati e guasti,</l>
-                     <l n="l8">Insulta i minaccevoli aquiloni,</l>
-                     <l n="l9">Da cui più volte in van tregua implorasti,</l>
-                     <l n="l10">Ecco apparisce, ecco le spume indora</l>
-                     <l n="l11">L' Astro benigno: gli susurra accanto</l>
-                     <l n="l12">La più tranquilla favorevol Ora.</l>
-                     <l n="l13">Lieti potranno i tuoi nocchieri intanto</l>
-                     <l n="l14">Sulla poppa sdraiarsi o sulla prora,</l>
-                     <l n="l15">E Ninfe e Glauchi innamorar col canto.</l>
+                     <l n="l1">Nave, che fra l' orror di lampi e tuoni</l>
+                     <l n="l2">Finor dolente e sconosciuta andasti,</l>
+                     <l n="l3">Se pur non ti conobbero i Tritoni,</l>
+                     <l n="l4">Che spesso mezzo naufraga invocasti,</l>
+                     <l n="l5">Orsù restaura gli albori e i timoni,</l>
+                     <l n="l6">Che teco porti inonorati e guasti,</l>
+                     <l n="l7">Insulta i minaccevoli aquiloni,</l>
+                     <l n="l8">Da cui più volte in van tregua implorasti,</l>
+                     <l n="l9">Ecco apparisce, ecco le spume indora</l>
+                     <l n="l10">L' Astro benigno: gli susurra accanto</l>
+                     <l n="l11">La più tranquilla favorevol Ora.</l>
+                     <l n="l12">Lieti potranno i tuoi nocchieri intanto</l>
+                     <l n="l13">Sulla poppa sdraiarsi o sulla prora,</l>
+                     <l n="l14">E Ninfe e Glauchi innamorar col canto.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Quas petere optabas, ripis incognita navis,</l>
                      <l n="l2">Cui turbata maris fecerat unda metum;</l>
                      <l n="l3">Cognita quae solis dudum Dis aequoris ibas,</l>
@@ -1596,27 +1538,27 @@ Početak rada
                      <l n="l14">Mulcebit Glaucum Nereidasque sono.</l>
                   </div>
                </div>
-               <div n="div7">
+               <div n="div6">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Essendo scelto a Protettore Degli argonauti di Ferrara il Cardinale Marcello Crescenzi.</head>
-                     <l n="l2">Pianta che presso le tessalic' onde</l>
-                     <l n="l3">Spiegasti in prima le ramose braccia,</l>
-                     <l n="l4">E tratta poscia alle Romulee sponde</l>
-                     <l n="l5">L' aria segnasti di odorosa traccia;</l>
-                     <l n="l6">S' egli avverrà, che dell' eterne fronde</l>
-                     <l n="l7">Onorato sudor degno mi faccia,</l>
-                     <l n="l8">Da quel tuo nume, che le chiome ha bionde,</l>
-                     <l n="l9">No, non le voglio, ed ei sel oda, e taccia,</l>
-                     <l n="l10">Sulla ripa real dell' Eridano</l>
-                     <l n="l11">Siede Marcel, che le virtù divine</l>
-                     <l n="l12">Tutte dimostra nel sembiante umano.</l>
-                     <l n="l13">Egli la cetra mi sospende al collo,</l>
-                     <l n="l14">Egli di lauro fregerammi il crine,</l>
-                     <l n="l15">Mio non bugiardo, e non profano Apollo.</l>
+                     <l n="l1">Pianta che presso le tessalic' onde</l>
+                     <l n="l2">Spiegasti in prima le ramose braccia,</l>
+                     <l n="l3">E tratta poscia alle Romulee sponde</l>
+                     <l n="l4">L' aria segnasti di odorosa traccia;</l>
+                     <l n="l5">S' egli avverrà, che dell' eterne fronde</l>
+                     <l n="l6">Onorato sudor degno mi faccia,</l>
+                     <l n="l7">Da quel tuo nume, che le chiome ha bionde,</l>
+                     <l n="l8">No, non le voglio, ed ei sel oda, e taccia,</l>
+                     <l n="l9">Sulla ripa real dell' Eridano</l>
+                     <l n="l10">Siede Marcel, che le virtù divine</l>
+                     <l n="l11">Tutte dimostra nel sembiante umano.</l>
+                     <l n="l12">Egli la cetra mi sospende al collo,</l>
+                     <l n="l13">Egli di lauro fregerammi il crine,</l>
+                     <l n="l14">Mio non bugiardo, e non profano Apollo.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Thessalicas primum quae ramos arbor ad undas</l>
                      <l n="l2">Umbriferis laetos frondibus extuleras,</l>
                      <l n="l3">Quae ducta ad ripas Romani Tibris odore</l>
@@ -1633,27 +1575,27 @@ Početak rada
                      <l n="l14">Nec lavrum tribuat vanus Apollo mihi.</l>
                   </div>
                </div>
-               <div n="div8">
+               <div n="div7">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Essendo eletto dal Popolo in Venezia un novello Piovano che fuor dell' usato non ebbe verun competitore.</head>
-                     <l n="l2">Greggia, che di custode orba sen resta,</l>
-                     <l n="l3">Ove sparger dovria lacrime amare,</l>
-                     <l n="l4">Bolle sovente, romoreggia, e desta</l>
-                     <l n="l5">Entro il bosco natio fervido gare.</l>
-                     <l n="l6">O sacra verga, o maestosa vesta,</l>
-                     <l n="l7">A troppi ingordi, oimì, siete voi care!</l>
-                     <l n="l8">Ed a partirsi in duo la turba è presta,</l>
-                     <l n="l9">Qual gonfio flutto in tempestoso mare.</l>
-                     <l n="l10">Ond' è pertanto, che te solo or chiede</l>
-                     <l n="l11">A suo duce, o Signor, la greggia intera</l>
-                     <l n="l12">E che niun teco gareggiar si vede?</l>
-                     <l n="l13">Ah! troppo il tuo l' altrui valore eccede:</l>
-                     <l n="l14">Egli tutti inamora, o li dispera,</l>
-                     <l n="l15">E lieto, o taciturno ognun gli cede.</l>
+                     <l n="l1">Greggia, che di custode orba sen resta,</l>
+                     <l n="l2">Ove sparger dovria lacrime amare,</l>
+                     <l n="l3">Bolle sovente, romoreggia, e desta</l>
+                     <l n="l4">Entro il bosco natio fervido gare.</l>
+                     <l n="l5">O sacra verga, o maestosa vesta,</l>
+                     <l n="l6">A troppi ingordi, oimì, siete voi care!</l>
+                     <l n="l7">Ed a partirsi in duo la turba è presta,</l>
+                     <l n="l8">Qual gonfio flutto in tempestoso mare.</l>
+                     <l n="l9">Ond' è pertanto, che te solo or chiede</l>
+                     <l n="l10">A suo duce, o Signor, la greggia intera</l>
+                     <l n="l11">E che niun teco gareggiar si vede?</l>
+                     <l n="l12">Ah! troppo il tuo l' altrui valore eccede:</l>
+                     <l n="l13">Egli tutti inamora, o li dispera,</l>
+                     <l n="l14">E lieto, o taciturno ognun gli cede.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Grex quam saepe sui custodis funus acerbum</l>
                      <l n="l2">Non ita sollicitis prossequitur lacrymis,</l>
                      <l n="l3">Ut lites abeant! sed certat garrula sylvam</l>
@@ -1670,29 +1612,29 @@ Početak rada
                </div>
                
             </div>
-            <div n="div5">
+            <div n="div3">
                <head n="head1">Di Pietro Metastasio</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Sulla vanità della vita umana.</head>
-                     <l n="l2">Sogni, e favole io fingo: e pure in carte,</l>
-                     <l n="l3">Mentre favole, e sogni orno, e disegno,</l>
-                     <l n="l4">In lor, folle ch' io son! prendo tal parte,</l>
-                     <l n="l5">Deh del mal, che inventai, piango, e mi sdegno.</l>
-                     <l n="l6">Ma forse, allor che non m' inganna l' arte,</l>
-                     <l n="l7">Più saggio io sono? E l' agitato ingegno</l>
-                     <l n="l8">Forse allor più tranquillo? O forse parte</l>
-                     <l n="l9">Da più salda cagion l' amor, lo sdegno?</l>
-                     <l n="l10">Ah che non sol quelle, ch' io canto, o scrivo,</l>
-                     <l n="l11">Favole son, ma quanto temo, o spero</l>
-                     <l n="l12">Tutto è menzogna, e delirando io vivo!</l>
-                     <l n="l13">Sogno della mia vita è il corso intero.</l>
-                     <l n="l14">Deh, tu, Signor, quando a destarmi arrivo,</l>
-                     <l n="l15">Fa, ch' io trovi riposo in sen del vero.</l>
+                     <l n="l1">Sogni, e favole io fingo: e pure in carte,</l>
+                     <l n="l2">Mentre favole, e sogni orno, e disegno,</l>
+                     <l n="l3">In lor, folle ch' io son! prendo tal parte,</l>
+                     <l n="l4">Deh del mal, che inventai, piango, e mi sdegno.</l>
+                     <l n="l5">Ma forse, allor che non m' inganna l' arte,</l>
+                     <l n="l6">Più saggio io sono? E l' agitato ingegno</l>
+                     <l n="l7">Forse allor più tranquillo? O forse parte</l>
+                     <l n="l8">Da più salda cagion l' amor, lo sdegno?</l>
+                     <l n="l9">Ah che non sol quelle, ch' io canto, o scrivo,</l>
+                     <l n="l10">Favole son, ma quanto temo, o spero</l>
+                     <l n="l11">Tutto è menzogna, e delirando io vivo!</l>
+                     <l n="l12">Sogno della mia vita è il corso intero.</l>
+                     <l n="l13">Deh, tu, Signor, quando a destarmi arrivo,</l>
+                     <l n="l14">Fa, ch' io trovi riposo in sen del vero.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Scribere quae soleo quid sunt nisi somnia? tangunt</l>
                      <l n="l2">Me tamen, ac iram subdola saepe mihi,</l>
                      <l n="l3">Saepe ciet largos, quam finxi, fabula fletus:</l>
@@ -1707,27 +1649,27 @@ Početak rada
                      <l n="l12">Cernere; tunc sapiens, tunc ego laetus ero.</l>
                   </div>
                </div>
-               <div n="div3">
+               <div n="div2">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Per Monaca.</head>
-                     <l n="l2">Onda, che senza legge il corso affretta,</l>
-                     <l n="l3">Benchè limpida nasca in erta balza,</l>
-                     <l n="l4">S’ intorbida per via, perdesi , o balza</l>
-                     <l n="l5">In cupa valle a ristagnar negletta.</l>
-                     <l n="l6">Ma se in chiuso canal geme ristretta ,</l>
-                     <l n="l7">Prende vigor, mentre se stessa incalza;</l>
-                     <l n="l8">Al fin libera in fronte al Ciel s’inalza ,</l>
-                     <l n="l9">E varia, e vaga i riguardanti alletta .</l>
-                     <l n="l10">Ah quell’ onda son io, che mal sicura</l>
-                     <l n="l11">Dal raggio ardente , o dall’ acuto gelo,</l>
-                     <l n="l12">Lenta impaluda in questa valle oscura.</l>
-                     <l n="l13">Tu , che saggia t’ avvolgi in sacro velo,</l>
-                     <l n="l14">Quell’ onda sei, che cristallina , e pura</l>
-                     <l n="l15">Scorre le vie, per cui si poggia al cielo. </l>
+                     <l n="l1">Onda, che senza legge il corso affretta,</l>
+                     <l n="l2">Benchè limpida nasca in erta balza,</l>
+                     <l n="l3">S’ intorbida per via, perdesi , o balza</l>
+                     <l n="l4">In cupa valle a ristagnar negletta.</l>
+                     <l n="l5">Ma se in chiuso canal geme ristretta ,</l>
+                     <l n="l6">Prende vigor, mentre se stessa incalza;</l>
+                     <l n="l7">Al fin libera in fronte al Ciel s’inalza ,</l>
+                     <l n="l8">E varia, e vaga i riguardanti alletta .</l>
+                     <l n="l9">Ah quell’ onda son io, che mal sicura</l>
+                     <l n="l10">Dal raggio ardente , o dall’ acuto gelo,</l>
+                     <l n="l11">Lenta impaluda in questa valle oscura.</l>
+                     <l n="l12">Tu , che saggia t’ avvolgi in sacro velo,</l>
+                     <l n="l13">Quell’ onda sei, che cristallina , e pura</l>
+                     <l n="l14">Scorre le vie, per cui si poggia al cielo. </l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Quae ripis fluit unda carens, sit limpida quamvis,</l>
                      <l n="l2"> Et celso montis vertice prosiliat ,</l>
                      <l n="l3">Disperit huc illuc migrans turbata; vel, imam</l>
@@ -1747,27 +1689,27 @@ Početak rada
                   </div>
                
                </div>
-               <div n="div4">
+               <div n="div3">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Per Monaca , ovvero per qualche illustre persona amante del ritiro.</head>
-                     <l n="l2">Questo fiume real, che le bell' onde</l>
-                     <l n="l3">Da illustre derivò limpida vena,</l>
-                     <l n="l4">Non scorre aperti campi, o valle amena,</l>
-                     <l n="l5">Ma fra concavi sassi il corso asconde.</l> 
-                     <l n="l6">Così non teme il Sol, se i rai diffonde,</l>
-                     <l n="l7">E fa dell' ampia Libia arder l'arena;</l>
-                     <l n="l8">Nè l'intorbida mai turgida piena</l>
-                     <l n="l9">Di sciolto gel , che le campagne inonde.</l>
-                     <l n="l10">E pago d' esser sì tranquillo, e puro,</l>
-                     <l n="l11">Ogn' aprico sentier posto in oblio,</l>
-                     <l n="l12">Va sol noto a se stesso , agli altri oscuro;</l>
-                     <l n="l13">Spiegando col sommesso mormorio,</l>
-                     <l n="l14">Che ad unirsi egli va lieto, e sicuro</l>
-                     <l n="l15">All' immenso Oceano, onde partìo.</l>
+                     <l n="l1">Questo fiume real, che le bell' onde</l>
+                     <l n="l2">Da illustre derivò limpida vena,</l>
+                     <l n="l3">Non scorre aperti campi, o valle amena,</l>
+                     <l n="l4">Ma fra concavi sassi il corso asconde.</l> 
+                     <l n="l5">Così non teme il Sol, se i rai diffonde,</l>
+                     <l n="l6">E fa dell' ampia Libia arder l'arena;</l>
+                     <l n="l7">Nè l'intorbida mai turgida piena</l>
+                     <l n="l8">Di sciolto gel , che le campagne inonde.</l>
+                     <l n="l9">E pago d' esser sì tranquillo, e puro,</l>
+                     <l n="l10">Ogn' aprico sentier posto in oblio,</l>
+                     <l n="l11">Va sol noto a se stesso , agli altri oscuro;</l>
+                     <l n="l12">Spiegando col sommesso mormorio,</l>
+                     <l n="l13">Che ad unirsi egli va lieto, e sicuro</l>
+                     <l n="l14">All' immenso Oceano, onde partìo.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Nobilis hic fluvius placida <sic n="sic1">pulcherimus</sic> unda,</l>
                      <l n="l2">Qui fluit illimi fulgidus e scatebra, </l>
                      <l n="l3">Non rure aprico, non vallibus errat amaenis;</l>
@@ -1782,27 +1724,27 @@ Početak rada
                      <l n="l12">Aequora, queis abii, rursus adire licet.</l> 
                   </div>
                </div>
-               <div n="div5">
+               <div n="div4">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Per una dimostrazione anatomica .</head>
-                     <l n="l2">Illustre mano a esaminare eletta</l> 
-                     <l n="l3">La spoglia , onde superbo è il nostro niente , </l>
-                     <l n="l4">Qual di te man più fida, e più perfecta</l> 
-                     <l n="l5">L' orme seguì, che le segnò la mente?</l> 
-                     <l n="l6">Vedete come il breve acciar lucente</l> 
-                     <l n="l7">Nelle latebre più riposte affretta ,</l> 
-                     <l n="l8">Dove la morte sqallida , e dolente</l> 
-                     <l n="l9">L' amaro dì del suo trionfo aspetta.</l> 
-                     <l n="l10">Ah se m' additi, quanto il nodo è frale , </l>
-                     <l n="l11">A cui s' attiene il fin de' giorni miei, </l>
-                     <l n="l12">Il cor m' ingombri di terror mortale!</l> 
-                     <l n="l13">Ma quel che puoi, se mostri, e quel, che sei,</l> 
-                     <l n="l14">Veggo, che al fato il tuo saper prevale,</l> 
-                     <l n="l15">E acquisto più valor, che non perdei.</l> 
+                     <l n="l1">Illustre mano a esaminare eletta</l> 
+                     <l n="l2">La spoglia , onde superbo è il nostro niente , </l>
+                     <l n="l3">Qual di te man più fida, e più perfecta</l> 
+                     <l n="l4">L' orme seguì, che le segnò la mente?</l> 
+                     <l n="l5">Vedete come il breve acciar lucente</l> 
+                     <l n="l6">Nelle latebre più riposte affretta ,</l> 
+                     <l n="l7">Dove la morte sqallida , e dolente</l> 
+                     <l n="l8">L' amaro dì del suo trionfo aspetta.</l> 
+                     <l n="l9">Ah se m' additi, quanto il nodo è frale , </l>
+                     <l n="l10">A cui s' attiene il fin de' giorni miei, </l>
+                     <l n="l11">Il cor m' ingombri di terror mortale!</l> 
+                     <l n="l12">Ma quel che puoi, se mostri, e quel, che sei,</l> 
+                     <l n="l13">Veggo, che al fato il tuo saper prevale,</l> 
+                     <l n="l14">E acquisto più valor, che non perdei.</l> 
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">O quae scis partes humani corporis, et quae</l> 
                      <l n="l2">Vincla ligant partes dinumerare manus;</l> 
                      <l n="l3">Mira licet fragilis nos haec structura superbos</l> 
@@ -1823,29 +1765,29 @@ Početak rada
                </div>
             
             </div>
-            <div n="div6">
+            <div n="div4">
                <head n="head1">Di Stefano Benedetto Pallavicini</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Per la Accademia delle bell' arti in Roma.</head>
-                     <l n="l2">Al braccio di colui, che tutto doma</l>
-                     <l n="l3">Ove la falce mietitrice inarchi,</l>
-                     <l n="l4">Ceduto, è <unclear n="unclear1">veto</unclear>, an le memorie, e gli archi</l>
-                     <l n="l5">Pochi degli anni a sostener la soma;</l>
-                     <l n="l6">Nè per l' ampie tue vie rasi la chioma,</l>
-                     <l n="l7">E di catene, e di vergogna carchi,</l>
-                     <l n="l8">Nè trascinati i Barbari Monarchi</l>
-                     <l n="l9">Dietro a' Consoli tuoi più vedi, o Roma.</l>
-                     <l n="l10">Pure agli onori, e alle vittorie nata,</l>
-                     <l n="l11">Per farti eterna alle innocenti, e belle</l>
-                     <l n="l12">Arti, che nudri in sen, possanza è data;</l>
-                     <l n="l13">E in produr maraviglie ognor novelle</l>
-                     <l n="l14">Qual già del Mondo trionfasti armata,</l>
-                     <l n="l15">Così del Tempo oggi trionfi imbelle</l>
+                     <l n="l1">Al braccio di colui, che tutto doma</l>
+                     <l n="l2">Ove la falce mietitrice inarchi,</l>
+                     <l n="l3">Ceduto, è <unclear n="unclear1">veto</unclear>, an le memorie, e gli archi</l>
+                     <l n="l4">Pochi degli anni a sostener la soma;</l>
+                     <l n="l5">Nè per l' ampie tue vie rasi la chioma,</l>
+                     <l n="l6">E di catene, e di vergogna carchi,</l>
+                     <l n="l7">Nè trascinati i Barbari Monarchi</l>
+                     <l n="l8">Dietro a' Consoli tuoi più vedi, o Roma.</l>
+                     <l n="l9">Pure agli onori, e alle vittorie nata,</l>
+                     <l n="l10">Per farti eterna alle innocenti, e belle</l>
+                     <l n="l11">Arti, che nudri in sen, possanza è data;</l>
+                     <l n="l12">E in produr maraviglie ognor novelle</l>
+                     <l n="l13">Qual già del Mondo trionfasti armata,</l>
+                     <l n="l14">Così del Tempo oggi trionfi imbelle</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Tempus edax, avido quod deterit omnia dente,</l>
                      <l n="l2">Resque secat victor praelia falce gerens, <note n="note1" type="numvers">33</note>
                      </l>
@@ -1862,28 +1804,28 @@ Početak rada
                      <l n="l12">Aevum enses duri vincere non poterant.</l>
                   </div>
                </div>
-               <div n="div3">
+               <div n="div2">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Sull‘ indole vitrosa di Fille.</head>
                      
-                     <l n="l2">Pronta a spuntar le mattutine squille ,</l>
-                     <l n="l3">Salutavano l' alba, e di letea</l>
-                     <l n="l4">Rugiada sparse un lieve sonno avea</l>
-                     <l n="l5">Le mie di lacrimar stanche pupille.</l>
-                     <l n="l6">Nè dormia già , che in mille guisa, e mille</l>
-                     <l n="l7">Deste nella mia mente Amor tenea</l>
-                     <l n="l8">Le immagini del giorno; e mi parea</l>
-                     <l n="l9">Di trovarmi per anche a piè di Fille</l>
-                     <l n="l10">Piaceami sì, che con sospiri accesi</l>
-                     <l n="l11">A' suoi vaghi rivolto occhi omicidi,</l>
-                     <l n="l12">Qualche del mio servir mercè le chiesi.</l>
-                     <l n="l13">Nascer a un tratto in lei pietade io vidi;</l>
-                     <l n="l14">Usò dolci parole, atti cortesi ,</l>
-                     <l n="l15">E ch' un sogno era il mio, da ciò m' avvidi.</l>
+                     <l n="l1">Pronta a spuntar le mattutine squille ,</l>
+                     <l n="l2">Salutavano l' alba, e di letea</l>
+                     <l n="l3">Rugiada sparse un lieve sonno avea</l>
+                     <l n="l4">Le mie di lacrimar stanche pupille.</l>
+                     <l n="l5">Nè dormia già , che in mille guisa, e mille</l>
+                     <l n="l6">Deste nella mia mente Amor tenea</l>
+                     <l n="l7">Le immagini del giorno; e mi parea</l>
+                     <l n="l8">Di trovarmi per anche a piè di Fille</l>
+                     <l n="l9">Piaceami sì, che con sospiri accesi</l>
+                     <l n="l10">A' suoi vaghi rivolto occhi omicidi,</l>
+                     <l n="l11">Qualche del mio servir mercè le chiesi.</l>
+                     <l n="l12">Nascer a un tratto in lei pietade io vidi;</l>
+                     <l n="l13">Usò dolci parole, atti cortesi ,</l>
+                     <l n="l14">E ch' un sogno era il mio, da ciò m' avvidi.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Nocte abeunte <ref n="ref1">(36)</ref> levis clausit mea lumina somnus , </l>
                      <l n="l2">Languida quae multis torpuerant lacrymis.</l> 
                      <l n="l3">Subrepens pingebat amor <ref n="ref1">(37)</ref> mihi plurima, queis me</l> 
@@ -1897,29 +1839,29 @@ Početak rada
                   </div>
                </div>
             </div>
-            <div n="div7">
+            <div n="div5">
                <head n="head1">Di Benedetto Menzini</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Pittura.</head>
-                     <l n="l2">Tolse all' Aurora i suoi purpurei fiori,</l>
-                     <l n="l3">E il lor Zaffiro alle celesti rote,</l>
-                     <l n="l4">L' oro de' crini al Sole, e alle remote</l>
-                     <l n="l5">Cimmerie grotte i lor noturni orrori.</l>
-                     <l n="l6">Tenebre, e viva luce, ombre, e fulgori</l>
-                     <l n="l7">Indi temprò con arti a se ben note;</l>
-                     <l n="l8">E sù tela erudita, ancorchè immote</l>
-                     <l n="l9">Le immagini ebber moto, atti, e colori.</l>
-                     <l n="l10">Alto stupore i riguardanti impiglia,</l>
-                     <l n="l11">E intente alla si nobile fattura</l>
-                     <l n="l12">Giove infin di lassù china le ciglia.</l>
-                     <l n="l13">Tal con umana industriosa cura,</l>
-                     <l n="l14">L' arte divenne amabil meraviglia;</l>
-                     <l n="l15">E d' esser vinta s' allegrò Natura.</l>
+                     <l n="l1">Tolse all' Aurora i suoi purpurei fiori,</l>
+                     <l n="l2">E il lor Zaffiro alle celesti rote,</l>
+                     <l n="l3">L' oro de' crini al Sole, e alle remote</l>
+                     <l n="l4">Cimmerie grotte i lor noturni orrori.</l>
+                     <l n="l5">Tenebre, e viva luce, ombre, e fulgori</l>
+                     <l n="l6">Indi temprò con arti a se ben note;</l>
+                     <l n="l7">E sù tela erudita, ancorchè immote</l>
+                     <l n="l8">Le immagini ebber moto, atti, e colori.</l>
+                     <l n="l9">Alto stupore i riguardanti impiglia,</l>
+                     <l n="l10">E intente alla si nobile fattura</l>
+                     <l n="l11">Giove infin di lassù china le ciglia.</l>
+                     <l n="l12">Tal con umana industriosa cura,</l>
+                     <l n="l13">L' arte divenne amabil meraviglia;</l>
+                     <l n="l14">E d' esser vinta s' allegrò Natura.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Splendorem rapuit stellis, avrique colorem,</l>
                      <l n="l2">Et soli radios, purpureumque decus</l>
                      <l n="l3">Aurorae vigili, latebrisque ars pulchra tenebras</l>
@@ -1938,28 +1880,28 @@ Početak rada
                      <l n="l14">Hanc artem solers protulit ingenium.</l>
                   </div>
                </div>
-               <div n="div3">
+               <div n="div2">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Architettura .</head>
                      
-                     <l n="l2">Io che le genti dissipate, e sparte</l>
-                     <l n="l3">Raccolsi in lieti alberghi, e da selvose</l> 
-                     <l n="l4">Spelonche, e da montagne aspre e sassose</l> 
-                     <l n="l5">Le richiamai d' ozio civile a parte;</l> 
-                     <l n="l6">Io poi ben mille incontro al fiero Marte</l> 
-                     <l n="l7">Alzai ripari, e per le vie spumose</l> 
-                     <l n="l8">Le sonanti del Mare onde orgogliose</l>
-                     <l n="l9">Rispinsi indietro, e le domai per arte.</l>
-                     <l n="l10">Vada or Gradivo, e la sua face avventi,</l> 
-                     <l n="l11">E Nettuno di nembi, e d’ ira pregno</l> 
-                     <l n="l12">All' orrida congiura inviti i venti.</l> 
-                     <l n="l13">Schernir la forza, e disprezzar lo sdegno</l> 
-                     <l n="l14">Vedrem dei numi in terra, e in mar possenti</l> 
-                     <l n="l15">E in alta Rocca torreggiar l’ingegno.</l>
+                     <l n="l1">Io che le genti dissipate, e sparte</l>
+                     <l n="l2">Raccolsi in lieti alberghi, e da selvose</l> 
+                     <l n="l3">Spelonche, e da montagne aspre e sassose</l> 
+                     <l n="l4">Le richiamai d' ozio civile a parte;</l> 
+                     <l n="l5">Io poi ben mille incontro al fiero Marte</l> 
+                     <l n="l6">Alzai ripari, e per le vie spumose</l> 
+                     <l n="l7">Le sonanti del Mare onde orgogliose</l>
+                     <l n="l8">Rispinsi indietro, e le domai per arte.</l>
+                     <l n="l9">Vada or Gradivo, e la sua face avventi,</l> 
+                     <l n="l10">E Nettuno di nembi, e d’ ira pregno</l> 
+                     <l n="l11">All' orrida congiura inviti i venti.</l> 
+                     <l n="l12">Schernir la forza, e disprezzar lo sdegno</l> 
+                     <l n="l13">Vedrem dei numi in terra, e in mar possenti</l> 
+                     <l n="l14">E in alta Rocca torreggiar l’ingegno.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Hirsutam, gentemque vagam juga celsa colentem,</l> 
                      <l n="l2">Et nemora , et valles, antraque magnificis</l>
                      <l n="l3">Excepi hospitiis, civiliaque otia jussi</l> 
@@ -1975,29 +1917,29 @@ Početak rada
                   </div>
                </div>
             </div>
-            <div n="div8">
+            <div n="div6">
                <head n="head1">Di Francesco Puricelli.</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Per Monaca chiamata come pare, Giuditta.</head>
-                     <l n="l2">Questa in tenera età forte Donzella,</l>
-                     <l n="l3">C' oggi del Mondo trionfar si vede</l>
-                     <l n="l4">E d' umil Chiostro a solitaria cella,</l>
-                     <l n="l5">Mover con presti passi ardito il piede,</l>
-                     <l n="l6">Di Betulia mi par la Vedovella,</l>
-                     <l n="l7">O del suo nome, e di sua gloria erede,</l>
-                     <l n="l8">Quando, compiuta l' opra illustre, e bella,</l>
-                     <l n="l9">Tornava lieta a la paterna sede.</l>
-                     <l n="l10">Ma quella per dar morte al suo Nemico</l>
-                     <l n="l11">Abbandonò la mesta usata spoglia;</l>
-                     <l n="l12">E ornò di gemme il crine, e il sen pudico.</l>
-                     <l n="l13">Questa lo vince allor, quando s' invoglia</l>
-                     <l n="l14">Di vestir rozze lane, e in Chiostro amico</l>
-                     <l n="l15">D' ogni terrena vanità si spoglia.</l>
+                     <l n="l1">Questa in tenera età forte Donzella,</l>
+                     <l n="l2">C' oggi del Mondo trionfar si vede</l>
+                     <l n="l3">E d' umil Chiostro a solitaria cella,</l>
+                     <l n="l4">Mover con presti passi ardito il piede,</l>
+                     <l n="l5">Di Betulia mi par la Vedovella,</l>
+                     <l n="l6">O del suo nome, e di sua gloria erede,</l>
+                     <l n="l7">Quando, compiuta l' opra illustre, e bella,</l>
+                     <l n="l8">Tornava lieta a la paterna sede.</l>
+                     <l n="l9">Ma quella per dar morte al suo Nemico</l>
+                     <l n="l10">Abbandonò la mesta usata spoglia;</l>
+                     <l n="l11">E ornò di gemme il crine, e il sen pudico.</l>
+                     <l n="l12">Questa lo vince allor, quando s' invoglia</l>
+                     <l n="l13">Di vestir rozze lane, e in Chiostro amico</l>
+                     <l n="l14">D' ogni terrena vanità si spoglia.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Te, de fallaci quae daemone <ref n="ref1">(54)</ref> laeta triumphas,</l>
                      <l n="l2">Et loca sollicito quae pede sacra subis,</l>
                      <l n="l3">Te victrix sua tecta petens fortissima Judith <ref n="ref1">(55)</ref>
@@ -2013,28 +1955,28 @@ Početak rada
                      <l n="l12">Et quae decipiunt gaudia cuncta fugis.</l>
                   </div>
                </div>
-               <div n="div3">
+               <div n="div2">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Femmina, che si vanta di saper innamorare, 
                         ed altro non sa che innamorarsi.</head>
-                     <l n="l2">Lucrina di se stessa ognor favella ,</l> 
-                     <l n="l3">E vanta i pregi suoi più, che non lice , </l>
-                     <l n="l4">Con dir che sola tra le Ninfe è bella,</l> 
-                     <l n="l5">Qual sola tra gli augelli è la Fenice;</l>
-                     <l n="l6">Che splende al par de l' amorosa stella,</l>
-                     <l n="l7">E de la chioma in Ciel di Berenice;</l>
-                     <l n="l8">Che strali avvegrta in questa parte, e in quella;</l>
-                     <l n="l9">Ma ciò, tranne lei sola, altri nol dice:</l>
-                     <l n="l10">Che al sol girar di sue pupille accorte</l>
-                     <l n="l11">Fra mille affanni, e dolorosi omei</l>
-                     <l n="l12">Già condotto à più d' un vicino a morte.</l>
-                     <l n="l13">Io rido in ascoltarla; e giurarei,</l>
-                     <l n="l14">Ch’ ella vaneggia, e che l’amor si forte,</l>
-                     <l n="l15">Che va in altri sognando, è tutto in lei.</l>
+                     <l n="l1">Lucrina di se stessa ognor favella ,</l> 
+                     <l n="l2">E vanta i pregi suoi più, che non lice , </l>
+                     <l n="l3">Con dir che sola tra le Ninfe è bella,</l> 
+                     <l n="l4">Qual sola tra gli augelli è la Fenice;</l>
+                     <l n="l5">Che splende al par de l' amorosa stella,</l>
+                     <l n="l6">E de la chioma in Ciel di Berenice;</l>
+                     <l n="l7">Che strali avvegrta in questa parte, e in quella;</l>
+                     <l n="l8">Ma ciò, tranne lei sola, altri nol dice:</l>
+                     <l n="l9">Che al sol girar di sue pupille accorte</l>
+                     <l n="l10">Fra mille affanni, e dolorosi omei</l>
+                     <l n="l11">Già condotto à più d' un vicino a morte.</l>
+                     <l n="l12">Io rido in ascoltarla; e giurarei,</l>
+                     <l n="l13">Ch’ ella vaneggia, e che l’amor si forte,</l>
+                     <l n="l14">Che va in altri sognando, è tutto in lei.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Garrula vult nunquam de se Lucrina silere;</l>
                      <l n="l2">Dat laudis , quantum non licet, ipsa sibi;</l>
                      <l n="l3">Et nymphas inter pulchram se judicat unam; </l>
@@ -2052,29 +1994,29 @@ Početak rada
                      </l>
                   </div>
                </div>
-               <div n="div4">
+               <div n="div3">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Sogno di Femmina , che non si tiene troppo 
                         lontana dagli uomini.</head>
                         
-                        <l n="l2">Lilla mi disse un di: che fatto avea</l> 
-                        <l n="l3">Un sogno stravagante oltre misura;</l> 
-                        <l n="l4">Esser tutta di vetro le parea,</l> 
-                        <l n="l5">E gli Uomini di sasso aver figura.</l> 
-                        <l n="l6">E mentre in sogno un tal pensier volgea,</l> 
-                        <l n="l7">Ogn’ incontro fugia con somma cura,</l> 
-                        <l n="l8">Nè che se gli appressasse alcun volea,</l>
-                        <l n="l9">Che di cadere infranta avea paura.</l>
-                        <l n="l10">Anzi desta di poi gran pena ancora</l>
-                        <l n="l11">D' un tal sogno le fea l' immagin vana;</l>
-                        <l n="l12">Io sorridendo le risposi allora:</l>
-                        <l n="l13">O buon per te, se vision si strana</l>
-                        <l n="l14">Ancor vegliando ti durasse ogn' ora;</l>
-                        <l n="l15">Che staresti dagli Uomini lontana.</l> 
+                        <l n="l1">Lilla mi disse un di: che fatto avea</l> 
+                        <l n="l2">Un sogno stravagante oltre misura;</l> 
+                        <l n="l3">Esser tutta di vetro le parea,</l> 
+                        <l n="l4">E gli Uomini di sasso aver figura.</l> 
+                        <l n="l5">E mentre in sogno un tal pensier volgea,</l> 
+                        <l n="l6">Ogn’ incontro fugia con somma cura,</l> 
+                        <l n="l7">Nè che se gli appressasse alcun volea,</l>
+                        <l n="l8">Che di cadere infranta avea paura.</l>
+                        <l n="l9">Anzi desta di poi gran pena ancora</l>
+                        <l n="l10">D' un tal sogno le fea l' immagin vana;</l>
+                        <l n="l11">Io sorridendo le risposi allora:</l>
+                        <l n="l12">O buon per te, se vision si strana</l>
+                        <l n="l13">Ancor vegliando ti durasse ogn' ora;</l>
+                        <l n="l14">Che staresti dagli Uomini lontana.</l> 
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Sic, dum commemorat, quae somnia Morpheus illi</l> 
                      <l n="l2">Subdolus attulerit, Lilla loquuta mihi est:</l> 
                      <l n="l3">E fragili vitro constans mihi tota videbar;</l> 
@@ -2086,27 +2028,27 @@ Početak rada
                      <l n="l8">Credere te , cupias ut procul esse viris.</l>
                   </div>
                </div>
-               <div n="div5">
+               <div n="div4">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">I travagli d’ Orfeo in grazia della Moglie.</head>
-                     <l n="l2">Poichè tolse ad Orfeo l’ invida Parca</l>
-                     <l n="l3">La diletta Euridice, egli non teme</l>
-                     <l n="l4">Por il pie negli abissi, e gire insieme</l>
-                     <l n="l5">Con l’ ombre ignude ne la stigia barca .</l>
-                     <l n="l6">Del rigido nocchier, che il ciglio inarca</l>
-                     <l n="l7">Al nuovo pondo, e alto minaccia, e freme ,</l>
-                     <l n="l8">Tempra l’ ire coi carmi, e pien di speme</l>
-                     <l n="l9">Tocca la cetra; e il negro fiume ei varca.</l>
-                     <l n="l10">E sceso di Cocito a l’altra riva</l>
-                     <l n="l11">Scorre le piagge de l’eterno pianto ,</l>
-                     <l n="l12">Finché di Pluto a la magione arriva.</l>
-                     <l n="l13">Ivi Cerbero placa , indi col canto</l>
-                     <l n="l14">Ottien, che torni la sua Donna viva,</l>
-                     <l n="l15">Per una Moglie chi faria mai tanto?</l>
+                     <l n="l1">Poichè tolse ad Orfeo l’ invida Parca</l>
+                     <l n="l2">La diletta Euridice, egli non teme</l>
+                     <l n="l3">Por il pie negli abissi, e gire insieme</l>
+                     <l n="l4">Con l’ ombre ignude ne la stigia barca .</l>
+                     <l n="l5">Del rigido nocchier, che il ciglio inarca</l>
+                     <l n="l6">Al nuovo pondo, e alto minaccia, e freme ,</l>
+                     <l n="l7">Tempra l’ ire coi carmi, e pien di speme</l>
+                     <l n="l8">Tocca la cetra; e il negro fiume ei varca.</l>
+                     <l n="l9">E sceso di Cocito a l’altra riva</l>
+                     <l n="l10">Scorre le piagge de l’eterno pianto ,</l>
+                     <l n="l11">Finché di Pluto a la magione arriva.</l>
+                     <l n="l12">Ivi Cerbero placa , indi col canto</l>
+                     <l n="l13">Ottien, che torni la sua Donna viva,</l>
+                     <l n="l14">Per una Moglie chi faria mai tanto?</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Non Orci timuit fauces Orpheus adire ,</l>
                      <l n="l2">Quam subit umbrarum turba , subire ratem</l>
                      <l n="l3">Non timuit, manes postquam descendere ad imos</l>
@@ -2123,27 +2065,27 @@ Početak rada
                      <l n="l14">Quisnam adeo cupidus coniugis esse velit?</l>
                   </div>
                </div>
-               <div n="div6">
+               <div n="div5">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Amore obbligato a ferire con nuovi dardi.</head>
-                        <l n="l2">Stanco di saettare Amore un dì</l>
-                        <l n="l3">Sul margine d' un rio si riposò,</l>
-                        <l n="l4">E per qualche ragion, che dir non sò,</l>
-                        <l n="l5">Amor , che veglia sempre, allor dormì.</l>
-                        <l n="l6">E mentre cheto egli dormia così,</l>
-                        <l n="l7">Una Vecchia bruttissima passò ,</l>
-                        <l n="l8">Chiamata l’Avarizia, e a lui cangiò</l>
-                        <l n="l9">L' arco, e gli strali d’oro, e poi fuggì.</l>
-                        <l n="l10">S' avvide Amor, quando svegliato fù,</l>
-                        <l n="l11">Che quell’ armi tremende più non à:</l>
-                        <l n="l12">Che di piagar i Numi avean virtù.</l>
-                        <l n="l13">Disperato ne piange; e d’ indi in qua</l>
-                        <l n="l14">Amor non è più Amor , nè fere più,</l>
-                        <l n="l15">O sol con l’ armi d’ Avarizia il fa.</l>
+                        <l n="l1">Stanco di saettare Amore un dì</l>
+                        <l n="l2">Sul margine d' un rio si riposò,</l>
+                        <l n="l3">E per qualche ragion, che dir non sò,</l>
+                        <l n="l4">Amor , che veglia sempre, allor dormì.</l>
+                        <l n="l5">E mentre cheto egli dormia così,</l>
+                        <l n="l6">Una Vecchia bruttissima passò ,</l>
+                        <l n="l7">Chiamata l’Avarizia, e a lui cangiò</l>
+                        <l n="l8">L' arco, e gli strali d’oro, e poi fuggì.</l>
+                        <l n="l9">S' avvide Amor, quando svegliato fù,</l>
+                        <l n="l10">Che quell’ armi tremende più non à:</l>
+                        <l n="l11">Che di piagar i Numi avean virtù.</l>
+                        <l n="l12">Disperato ne piange; e d’ indi in qua</l>
+                        <l n="l13">Amor non è più Amor , nè fere più,</l>
+                        <l n="l14">O sol con l’ armi d’ Avarizia il fa.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Fuderat immitis quamplurima tela Cupido;</l>
                      <l n="l2">Sed somno tandem languida membra dedit</l>
                      <l n="l3">Fluminis in ripa fessus. Foedissima vultu</l>
@@ -2157,29 +2099,29 @@ Početak rada
                   </div>
                </div>
             </div>
-            <div n="div9">
+            <div n="div7">
                <head n="head1">Sonetti pastorali</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Sul merito della costanza.</head>
-                     <l n="l2">Tu stupisci, Euristeo, perchè tra tanti</l>
-                     <l n="l3">Arbor diversi, che ne diê Pomona,</l>
-                     <l n="l4">Il Nespol tardo di produr si vanti</l>
-                     <l n="l5">Suoi frutti adorni di regal corona?</l>
-                     <l n="l6">Questo, se al Sole, o a quell' aspetto il pianti,</l>
-                     <l n="l7">D' onde i freddi Aquiloni Eolo sprigiona,</l>
-                     <l n="l8">O in terren secco, o pur tra le stagnanti</l>
-                     <l n="l9">Acque, il natìo vigor non abbandona.</l>
-                     <l n="l10">Del Giardinier non chiede industre cura,</l>
-                     <l n="l11">E a l' inguiurie de tempi il forte legno</l>
-                     <l n="l12">Nutre i suoi pomi, e la corteccia indura.</l>
-                     <l n="l13">Tal, chi d' avverso Ciel soffre lo sdegno,</l>
-                     <l n="l14">Nè virtù perde, e i bei pensier matura,</l>
-                     <l n="l15">Quegli è l' Uom saggio, e di corona è degno.</l>
+                     <l n="l1">Tu stupisci, Euristeo, perchè tra tanti</l>
+                     <l n="l2">Arbor diversi, che ne diê Pomona,</l>
+                     <l n="l3">Il Nespol tardo di produr si vanti</l>
+                     <l n="l4">Suoi frutti adorni di regal corona?</l>
+                     <l n="l5">Questo, se al Sole, o a quell' aspetto il pianti,</l>
+                     <l n="l6">D' onde i freddi Aquiloni Eolo sprigiona,</l>
+                     <l n="l7">O in terren secco, o pur tra le stagnanti</l>
+                     <l n="l8">Acque, il natìo vigor non abbandona.</l>
+                     <l n="l9">Del Giardinier non chiede industre cura,</l>
+                     <l n="l10">E a l' inguiurie de tempi il forte legno</l>
+                     <l n="l11">Nutre i suoi pomi, e la corteccia indura.</l>
+                     <l n="l12">Tal, chi d' avverso Ciel soffre lo sdegno,</l>
+                     <l n="l13">Nè virtù perde, e i bei pensier matura,</l>
+                     <l n="l14">Quegli è l' Uom saggio, e di corona è degno.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Plantarum ex numero magno, quas terra ministrat,</l>
                      <l n="l2">Eurysthee, stupes, mespilus alma suis</l>
                      <l n="l3">Quidnam serta paret seris gratissima pomis?</l>
@@ -2197,27 +2139,27 @@ Početak rada
                      <l n="l14">Illius cingat pulchra corona caput.</l>
                   </div>
                </div>
-               <div n="div3">
+               <div n="div2">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Risposta d‘ un Pastore ad una femmina poco bella troppo occupata ad abbellirsi .</head>
-                        <l n="l2">Il pastorel Carino ogni pensiero </l>
-                        <l n="l3">Posto in un Capro avea di negro vello,</l>
-                        <l n="l4">Che di sua greggia era il più forte, e snello,</l>
-                        <l n="l5">Ed ogn’altro vincea col corno altero.</l>
-                        <l n="l6">Pazzerel gli era intorno il giorno intero ,</l>
-                        <l n="l7">Per farlo bianco , e renderlo più bello:</l>
-                        <l n="l8">Spesso il lavava a un limpido ruscello,</l>
-                        <l n="l9">Ma lavandolo più, lo fea più nero.</l>
-                        <l n="l10">Clori, che giunse, e rimirollo attenta</l>
-                        <l n="l11">Disse: quest’ opra tua nulla ti frutta ,</l>
-                        <l n="l12">Perchè il Capro più nero ognor diventa,</l>
-                        <l n="l13">Il Pastor le rispose: e tu ben tutta</l>
-                        <l n="l14">Stai la mattina ad abbellirti intenta,</l>
-                        <l n="l15">Pur ti veggo ogni dì sempre più brutta .</l>
+                        <l n="l1">Il pastorel Carino ogni pensiero </l>
+                        <l n="l2">Posto in un Capro avea di negro vello,</l>
+                        <l n="l3">Che di sua greggia era il più forte, e snello,</l>
+                        <l n="l4">Ed ogn’altro vincea col corno altero.</l>
+                        <l n="l5">Pazzerel gli era intorno il giorno intero ,</l>
+                        <l n="l6">Per farlo bianco , e renderlo più bello:</l>
+                        <l n="l7">Spesso il lavava a un limpido ruscello,</l>
+                        <l n="l8">Ma lavandolo più, lo fea più nero.</l>
+                        <l n="l9">Clori, che giunse, e rimirollo attenta</l>
+                        <l n="l10">Disse: quest’ opra tua nulla ti frutta ,</l>
+                        <l n="l11">Perchè il Capro più nero ognor diventa,</l>
+                        <l n="l12">Il Pastor le rispose: e tu ben tutta</l>
+                        <l n="l13">Stai la mattina ad abbellirti intenta,</l>
+                        <l n="l14">Pur ti veggo ogni dì sempre più brutta .</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Carini quo non aderat przstantior alter <note n="note1" type="numvers">70</note>
                      </l>
                      <l n="l2">In grege , Carini maxima cura caper</l>
@@ -2234,30 +2176,30 @@ Početak rada
                   </div>
                </div>
             </div>
-            <div n="div10">
+            <div n="div8">
                <head n="head1">Di Eustachio Manfredi</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Per la professione d' una Monaca.</head>
-                     <l n="l2">Qual' uom, che per trovar scoscesa, e torta</l>
-                     <l n="l3">La via, pur non s' arresti, e il cammin segua,</l>
-                     <l n="l4">Perchè speme l' aita , e lo conforta</l> 
-                     <l n="l5">A gir fin là, dov' il sentier s' adegua;</l> 
-                     <l n="l6">Così costei, non perchè dura ha scorta</l> 
-                     <l n="l7">Sua grande impresa, al buon desir fa tregua ,</l> 
-                     <l n="l8">Ma si forte ei la preme, e la trasporta,</l> 
-                     <l n="l9">Che al fin da gli occhi altrui pur si dilegua.</l> 
-                     <l n="l10">Gran tempo è già, che generosa il piede</l> 
-                     <l n="l11">Pose , ov’ altri smarrirsi ha per usanza,</l> 
-                     <l n="l12">E rare pel sentiero orme già vede;</l> 
-                     <l n="l13">Pur poco quel, che scorse, e quel che avanza</l> 
-                     <l n="l14">Poco ella stima ancor, se al desir crede;</l> 
-                     <l n="l15">Sì dolce de la meta è la speranza.</l>
+                     <l n="l1">Qual' uom, che per trovar scoscesa, e torta</l>
+                     <l n="l2">La via, pur non s' arresti, e il cammin segua,</l>
+                     <l n="l3">Perchè speme l' aita , e lo conforta</l> 
+                     <l n="l4">A gir fin là, dov' il sentier s' adegua;</l> 
+                     <l n="l5">Così costei, non perchè dura ha scorta</l> 
+                     <l n="l6">Sua grande impresa, al buon desir fa tregua ,</l> 
+                     <l n="l7">Ma si forte ei la preme, e la trasporta,</l> 
+                     <l n="l8">Che al fin da gli occhi altrui pur si dilegua.</l> 
+                     <l n="l9">Gran tempo è già, che generosa il piede</l> 
+                     <l n="l10">Pose , ov’ altri smarrirsi ha per usanza,</l> 
+                     <l n="l11">E rare pel sentiero orme già vede;</l> 
+                     <l n="l12">Pur poco quel, che scorse, e quel che avanza</l> 
+                     <l n="l13">Poco ella stima ancor, se al desir crede;</l> 
+                     <l n="l14">Sì dolce de la meta è la speranza.</l>
 
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Aede sua quandoque procul salebrosa viator</l>
                      <l n="l2">Ut loca conscendit, nec revocare gradum</l> 
                      <l n="l3">Cogitur, emineat quamvis mons arduus, et quas</l> 
@@ -2274,28 +2216,28 @@ Početak rada
                      <l n="l14">Nil dulci meta dulcius esse putans.</l>
                   </div>
                </div>
-               <div n="div3">
+               <div n="div2">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Se sia più malagevole mantenersi l’ altrui amore, che aquistarselo problema proposto nell' Accademia de' Gelati .</head>
-                        <l n="l2">Storge ilbuon cacciator da sua capanna</l> 
-                        <l n="l3">Augelin vago, e vuol' uscirne in traccia,</l> 
-                        <l n="l4">E dietro a lui, ch' errando oltre si caccia,</l>
-                        <l n="l5">Per dura alpestra via suda, e s' alfanna.</l>
-                        <l n="l6">E tal con l' occhio il siegue, e si procaccia</l> 
-                        <l n="l7">Oprando or laccio,or rete , or vischio , or canna ,</l>
-                        <l n="l8">Che pure al fin lui mal’ accorto inganna ,</l>
-                        <l n="l9">E lieto l’imprigiona, e il piè gli allaccia.</l>
-                        <l n="l10">Ma sì con unghia, e rosrro ei s' affatica,</l>
-                        <l n="l11">Che sciolti i nodi, e rotto il carcer tristo,</l>
-                        <l n="l12">Batte le penne inver la selva antica;</l>
-                        <l n="l13">E il meschin piagne, troppo tardi avvisto ,</l>
-                        <l n="l14">Che sua preda serbar cura, e fatica</l>
-                        <l n="l15">Più grave era per lui del primo acquisto.</l>
+                        <l n="l1">Storge ilbuon cacciator da sua capanna</l> 
+                        <l n="l2">Augelin vago, e vuol' uscirne in traccia,</l> 
+                        <l n="l3">E dietro a lui, ch' errando oltre si caccia,</l>
+                        <l n="l4">Per dura alpestra via suda, e s' alfanna.</l>
+                        <l n="l5">E tal con l' occhio il siegue, e si procaccia</l> 
+                        <l n="l6">Oprando or laccio,or rete , or vischio , or canna ,</l>
+                        <l n="l7">Che pure al fin lui mal’ accorto inganna ,</l>
+                        <l n="l8">E lieto l’imprigiona, e il piè gli allaccia.</l>
+                        <l n="l9">Ma sì con unghia, e rosrro ei s' affatica,</l>
+                        <l n="l10">Che sciolti i nodi, e rotto il carcer tristo,</l>
+                        <l n="l11">Batte le penne inver la selva antica;</l>
+                        <l n="l12">E il meschin piagne, troppo tardi avvisto ,</l>
+                        <l n="l13">Che sua preda serbar cura, e fatica</l>
+                        <l n="l14">Più grave era per lui del primo acquisto.</l>
                   </div>
                </div>
-               <milestone unit="page" n="milestone4"/>
-               <div n="div5" xml:lang="lat">
+               <milestone unit="page" n="milestone1"/>
+               <div n="div3" xml:lang="lat">
                   <l n="l1">Pulchram venator volucrem dum prospicit, illam</l>
                   <l n="l2">Vult capere , et tecto sedulus egreditur.</l>
                   <l n="l3">Illa fugit, profugam sequitur tamen ille, locumque,</l>
@@ -2313,28 +2255,28 @@ Početak rada
                
             </div>
             <!-- gap -->
-            <div n="div11">
+            <div n="div9">
                <milestone unit="page" n="milestone1"/>
-               <div n="div2" xml:lang="ita">
+               <div n="div1" xml:lang="ita">
                   <head n="head1">Sentimenti di stima verso una Donzella.</head>
                      
-                     <l n="l2">Vaga Angioletta , che in sì dolce, e puro</l>
-                     <l n="l3">Leggiadro velo a noi dal Ciel scendesti,</l>
-                     <l n="l4">Ed or beando vai quest' aure, e questi</l>
-                     <l n="l5">Colli, che di tal don degni non furo;</l> 
-                  <l n="l6">Per quella man, per quelle labbra io giuro,</l>
-                     <l n="l7">Per quei tuoi schivi atti cortesi, onesti,</l>
-                     <l n="l8">Per gli occhi, onde tal piaga al cor mi festi,</l>
-                     <l n="l9">Che già morronne, e sorte altra non curo;</l> 
-                  <l n="l10">Sebbene gelosia del suo veneno</l>
-                     <l n="l11">M’ asperse, mai non naque entro il mio petto</l>
-                     <l n="l12">Pensier , che al tuo candor recasse oltraggio;</l> 
-                  <l n="l13">E se nube talor di reo sospetto</l>
-                     <l n="l14">Alzarsi osò, per dileguarla appieno</l>
-                     <l n="l15">Del divin volto tuo bastò un sol raggio.</l>
+                     <l n="l1">Vaga Angioletta , che in sì dolce, e puro</l>
+                     <l n="l2">Leggiadro velo a noi dal Ciel scendesti,</l>
+                     <l n="l3">Ed or beando vai quest' aure, e questi</l>
+                     <l n="l4">Colli, che di tal don degni non furo;</l> 
+                  <l n="l5">Per quella man, per quelle labbra io giuro,</l>
+                     <l n="l6">Per quei tuoi schivi atti cortesi, onesti,</l>
+                     <l n="l7">Per gli occhi, onde tal piaga al cor mi festi,</l>
+                     <l n="l8">Che già morronne, e sorte altra non curo;</l> 
+                  <l n="l9">Sebbene gelosia del suo veneno</l>
+                     <l n="l10">M’ asperse, mai non naque entro il mio petto</l>
+                     <l n="l11">Pensier , che al tuo candor recasse oltraggio;</l> 
+                  <l n="l12">E se nube talor di reo sospetto</l>
+                     <l n="l13">Alzarsi osò, per dileguarla appieno</l>
+                     <l n="l14">Del divin volto tuo bastò un sol raggio.</l>
                </div>
-               <milestone unit="page" n="milestone3"/>
-               <div n="div4" xml:lang="lat">
+               <milestone unit="page" n="milestone2"/>
+               <div n="div2" xml:lang="lat">
                   <l n="l1">O quae venisti formae celebranda nitore , </l>
                   <l n="l2">Ceu nube, aut velo corpore amicta latens</l>
                   <l n="l3">Ad nos de caeli regionibus , alma puella ,</l>
@@ -2351,58 +2293,58 @@ Početak rada
                   <l n="l14">Sic nebulae fugiunt, sic levis umbra fugit.</l>
                </div>
             </div>
-            <div n="div12">
+            <div n="div10">
                <head n="head1">Scelta dei Sonetti pubblicati per la morte dell' Abate Francesco Puricelli.</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Di Arsillo Calavriense P. A.</head>
-                     <l n="l2">Se perchè nostro duol si tempri in parte,</l>
+                     <l n="l1">Se perchè nostro duol si tempri in parte,</l>
                      <!-- gap -->
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Ut quaedam dolor accipiat solatia noster,</l>
                      <!-- gap -->
                   </div>
                </div>
             </div>
-            <div n="div13">
+            <div n="div11">
                <head n="head1">Sonetti Per la morte d' Eustachio Manfredi</head>
-               <div n="div2">
+               <div n="div1">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Atelmo, o sia il Marchese Ubertino Landi.</head>
-                     <l n="l2">Dov' è Mirtilo, ed Aci? Invano ognora</l>
+                     <l n="l1">Dov' è Mirtilo, ed Aci? Invano ognora</l>
                      <!-- gap -->
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Acis ubi est? Mirtilus ubi? me vana cupido</l>
                      <!-- gap -->
                   </div>
                </div>
-               <div n="div3">
+               <div n="div2">
                   <milestone unit="page" n="milestone1"/>
-                  <div n="div2" xml:lang="ita">
+                  <div n="div1" xml:lang="ita">
                      <head n="head1">Cluento Nettunio, ossia Arciprete Gierolamo Baruffaldi.</head>
-                     <l n="l2">Questa eccelsa Piramide, ch' io pianto</l>
-                     <l n="l3">Sul destro fianco de l' ingordo Reno,</l>
-                     <l n="l4">Dove la Città sorge, in sito ameno,</l>
-                     <l n="l5">Che per scienza è gloriosa tanto;</l>
-                     <l n="l6">Io quì innalzo a questo fiume accanto,</l>
-                     <l n="l7">Per suo dispetto, e suo terror non meno,</l>
-                     <l n="l8">Che per su' eterno insuperabil freno</l>
-                     <l n="l9">Da rattemprar le antiche furie alquanto.</l>
-                     <l n="l10">Aci coll' ombra sua, che già disperse</l>
-                     <l n="l11">Quest' Acque, altre fiate, e che da pria</l>
-                     <l n="l12">L' incostanza di lui vinse, e scoperse;</l>
-                     <l n="l13">Far potrà, che qualor nuova follia</l>
-                     <l n="l14">Lo prenda, le pupille in lei converse</l>
-                     <l n="l15">Freni 'l su' orgoglio, e al Mar s' apra la via.</l>
+                     <l n="l1">Questa eccelsa Piramide, ch' io pianto</l>
+                     <l n="l2">Sul destro fianco de l' ingordo Reno,</l>
+                     <l n="l3">Dove la Città sorge, in sito ameno,</l>
+                     <l n="l4">Che per scienza è gloriosa tanto;</l>
+                     <l n="l5">Io quì innalzo a questo fiume accanto,</l>
+                     <l n="l6">Per suo dispetto, e suo terror non meno,</l>
+                     <l n="l7">Che per su' eterno insuperabil freno</l>
+                     <l n="l8">Da rattemprar le antiche furie alquanto.</l>
+                     <l n="l9">Aci coll' ombra sua, che già disperse</l>
+                     <l n="l10">Quest' Acque, altre fiate, e che da pria</l>
+                     <l n="l11">L' incostanza di lui vinse, e scoperse;</l>
+                     <l n="l12">Far potrà, che qualor nuova follia</l>
+                     <l n="l13">Lo prenda, le pupille in lei converse</l>
+                     <l n="l14">Freni 'l su' orgoglio, e al Mar s' apra la via.</l>
                   </div>
-                  <milestone unit="page" n="milestone3"/>
-                  <div n="div4" xml:lang="lat">
+                  <milestone unit="page" n="milestone2"/>
+                  <div n="div2" xml:lang="lat">
                      <l n="l1">Hic ubi Palladijs studijs urbs inclita surgit</l>
                      <l n="l2">Ad Rheni ripas hanc ego pyramidem</l>
                      <l n="l3">Constituo, ponat quae frena voracibus undis.</l>
@@ -2413,57 +2355,57 @@ Početak rada
                   </div>
                </div>
             </div>
-            <div n="div14" xml:lang="ita">
+            <div n="div12" xml:lang="ita">
                <head n="head1">Avertenza del traduttore.</head>
-               <p n="p2">Avendo io fatto la scelta dei sonetti qui tradotti senza aver tralasciato di stamparne l' originale Italiano, ho ben potuto indirizzare agli Italiani in lingua Italiana il frontispizio, e la prefazione.</p>
+               <p n="p1">Avendo io fatto la scelta dei sonetti qui tradotti senza aver tralasciato di stamparne l' originale Italiano, ho ben potuto indirizzare agli Italiani in lingua Italiana il frontispizio, e la prefazione.</p>
             </div>
-            <milestone unit="page" n="milestone15"/>
-            <div n="div16" xml:lang="lat">
+            <milestone unit="page" n="milestone1"/>
+            <div n="div13" xml:lang="lat">
                <head n="head1">Adnotationes.</head>
-               <note n="note2">(76) Hic funebria quaedam subjunxi; sed nemo propterea judicet, id mihi ingenium esse, ut funebria caeteris anteferam. Accidit enim , ut Eustachii Manfredi, et Francisci Puricelli scripta legens inciderim in ea, quæ vates aliquot horum in morte conscripserunt, ex quibus ea jure merito non esse prætermitenda duxi quae poterant elegantiae causa placere.</note>
-               <milestone unit="page" n="milestone3"/>
+               <note n="note1">(76) Hic funebria quaedam subjunxi; sed nemo propterea judicet, id mihi ingenium esse, ut funebria caeteris anteferam. Accidit enim , ut Eustachii Manfredi, et Francisci Puricelli scripta legens inciderim in ea, quæ vates aliquot horum in morte conscripserunt, ex quibus ea jure merito non esse prætermitenda duxi quae poterant elegantiae causa placere.</note>
+               <milestone unit="page" n="milestone1"/>
             </div>
          </div>
-         <milestone unit="page" n="milestone3"/>
-         <div n="div4" xml:lang="lat">
+         <milestone unit="page" n="milestone1"/>
+         <div n="div3" xml:lang="lat">
             <head n="head1">Ex versibus Antonii Sivrich quaedam alia.</head>
-            <div n="div2" xml:lang="lat">
+            <div n="div1" xml:lang="lat">
                <head n="head1">Ad praestantissimam pulchritudine feminam.</head>
-               <l n="l2">Si grajas inter pictor te forte puellas</l>
-               <l n="l3">Vidisset Grajus; <ref n="ref1">(a)</ref> sufficit ista mihi;</l>
-               <l n="l4">Non alia est pulchri pictor dixisset imago;</l>
-               <l n="l5">Haec est ipsa Venus, pulchrior aut Venere.</l>
-               <note n="note6">Notum est, grajum pictorem, cum pingere Venerem vellet, multas pulchritudine praestantes puellas inspicere voluisse, ut ex tot pulchris unum aliquid pulcherrimum effingeret.</note>
+               <l n="l1">Si grajas inter pictor te forte puellas</l>
+               <l n="l2">Vidisset Grajus; <ref n="ref1">(a)</ref> sufficit ista mihi;</l>
+               <l n="l3">Non alia est pulchri pictor dixisset imago;</l>
+               <l n="l4">Haec est ipsa Venus, pulchrior aut Venere.</l>
+               <note n="note1">Notum est, grajum pictorem, cum pingere Venerem vellet, multas pulchritudine praestantes puellas inspicere voluisse, ut ex tot pulchris unum aliquid pulcherrimum effingeret.</note>
+            </div>
+            <div n="div2" xml:lang="lat">
+               <head n="head1">Ad eamdem.</head>
+               <l n="l1">Forte aliam post plura parem tibi saecula finget;</l>
+               <l n="l2">At natura nequit fingere quid melius.</l>
             </div>
             <div n="div3" xml:lang="lat">
-               <head n="head1">Ad eamdem.</head>
-               <l n="l2">Forte aliam post plura parem tibi saecula finget;</l>
-               <l n="l3">At natura nequit fingere quid melius.</l>
-            </div>
-            <div n="div4" xml:lang="lat">
                <head n="head1">In ima reductae vallis parte locus erat protensa rupe tectus a vento pluviisque tutus. Qui Phillidem huc adduxerat, ut improvisam insurgentis nimbi vim evitaret, humum pedo signavit inscribens epigramma, quod sequitur.</head>
-               <l n="l2">Phillidis hic maneat signatus nomine pulvis;</l>
-               <l n="l3">Cura sit, has, hospes, non violare notas.</l>
-               <l n="l4">His euri parcent, his te quoque parcere fas est;</l>
-               <l n="l5">Ni vento, ac nimbis saevior esse velis.</l>
+               <l n="l1">Phillidis hic maneat signatus nomine pulvis;</l>
+               <l n="l2">Cura sit, has, hospes, non violare notas.</l>
+               <l n="l3">His euri parcent, his te quoque parcere fas est;</l>
+               <l n="l4">Ni vento, ac nimbis saevior esse velis.</l>
             </div>
-            <milestone unit="page" n="milestone5"/>
-            <div n="div6" xml:lang="lat">
+            <milestone unit="page" n="milestone1"/>
+            <div n="div4" xml:lang="lat">
                <head n="head1">Quid rarum florem carpenti nymphae Pastor dixerit.</head>
-               <l n="l2">Carpenti nymphae rarum sub gramine florem</l>
-               <l n="l3">Terra novos flores dat tibi pastor ait.</l>
+               <l n="l1">Carpenti nymphae rarum sub gramine florem</l>
+               <l n="l2">Terra novos flores dat tibi pastor ait.</l>
             </div>
-            <div n="div7" xml:lang="lat">
+            <div n="div5" xml:lang="lat">
                <head n="head1">Ad speciosam feminam sine naevo depictam, qui naturae dono faciem illius pulcherime exornabat.</head>
-               <l n="l2"> Luminibus careat quisquis te pinxit , et istum</l>
-               <l n="l3">Non pinxit naevum , quem venus ipsa dedit.</l>
+               <l n="l1"> Luminibus careat quisquis te pinxit , et istum</l>
+               <l n="l2">Non pinxit naevum , quem venus ipsa dedit.</l>
             </div>
-            <div n="div8" xml:lang="lat">
+            <div n="div6" xml:lang="lat">
                <head n="head1">Ad puellam, quae joci causa <sic n="sic1">floscolum</sic> labiis aprehensum gerebat.</head>
-               <l n="l2">Non satis est pulcher, tam pulchro dicere ut ore</l>
-               <l n="l3">Enatum florem, quem geris ore queam. <ref n="ref1">(a)</ref>
+               <l n="l1">Non satis est pulcher, tam pulchro dicere ut ore</l>
+               <l n="l2">Enatum florem, quem geris ore queam. <ref n="ref1">(a)</ref>
                </l>
-               <note n="note4">Sive.
+               <note n="note1">Sive.
                <quote n="quote1">
                      <l n="l1">Non satis est pulcher: labiis ut dicere natum</l>
                      <l n="l2">Ipse tuis florem, quem geris ore, queam.</l>
@@ -2471,117 +2413,117 @@ Početak rada
                </note>
             </div>
          </div>
-         <milestone unit="page" n="milestone5"/>
-         <div n="div6" xml:lang="ita">
+         <milestone unit="page" n="milestone2"/>
+         <div n="div4" xml:lang="ita">
             <head n="head1">Il passeggio di Savioli</head>
-            <l n="l2">Già già sentendo all' auree</l>
-            <l n="l3">Briglie allentar la mano</l>
-            <l n="l4">Correan d’Apollo i fervidi</l>
-            <l n="l5">4Cavalli all’oceano.</l>
+            <l n="l1">Già già sentendo all' auree</l>
+            <l n="l2">Briglie allentar la mano</l>
+            <l n="l3">Correan d’Apollo i fervidi</l>
+            <l n="l4">4Cavalli all’oceano.</l>
             
-            <l n="l6">Me i passi incerti trassero</l>
-            <l n="l7">Pel noto altrui cammino,</l>
-            <l n="l8">Che alla città di Romolo</l>
-            <l n="l9">8Conduce il pellegrino.</l>
+            <l n="l5">Me i passi incerti trassero</l>
+            <l n="l6">Pel noto altrui cammino,</l>
+            <l n="l7">Che alla città di Romolo</l>
+            <l n="l8">8Conduce il pellegrino.</l>
             
-            <l n="l10">Dall’una parte gli arbori</l>
-            <l n="l11">Al piano suol fann’ombra,</l>
-            <l n="l12">L’altra devoto portico</l>
-            <l n="l13">12Per lungo tratto ingombra.</l>
-            
-            
-            <l n="l14">La tua, gran padre Ovidio,</l>
-            <l n="l15">Scorrea difficil arte,</l>
-            <l n="l16">Pascendo i guardi, e l’animo</l>
-            <l n="l17">16Sulle maestre carte;</l>
-            
-            <l n="l18">Quando improvviso scossemi</l>
-            <l n="l19">L’avvicinar d’un cocchio,</l>
-            <l n="l20">E ratto addietro volgere</l>
-            <l n="l21">20Mi fece il cupid’occhio.</l>
-            
-            <l n="l22">Su i piè m’arresto immobile,</l>
-            <l n="l23">E il cocchio aureo trapassa,</l>
-            <l n="l24">Che per la densa polvere</l>
-            <l n="l25">24Orma profonda lassa.</l>
-            
-            <l n="l26">Sola su i drappi serici</l>
-            <l n="l27">Con maestà sedea</l>
-            <l n="l28">Tal che in quel punto apparvemi</l>
-            <l n="l29">28Men donna assai che Dea.</l>
+            <l n="l9">Dall’una parte gli arbori</l>
+            <l n="l10">Al piano suol fann’ombra,</l>
+            <l n="l11">L’altra devoto portico</l>
+            <l n="l12">12Per lungo tratto ingombra.</l>
             
             
-            <l n="l30">Più bello il volto amabile,</l>
-            <l n="l31">Più bello il sen parere</l>
-            <l n="l32">Fean pel color contrario</l>
-            <l n="l33">32L’opposte vesti nere.</l>
+            <l n="l13">La tua, gran padre Ovidio,</l>
+            <l n="l14">Scorrea difficil arte,</l>
+            <l n="l15">Pascendo i guardi, e l’animo</l>
+            <l n="l16">16Sulle maestre carte;</l>
             
-            <l n="l34">Tal sul suo carro Venere</l>
-            <l n="l35">Forse scorrea Citera,</l>
-            <l n="l36">Da poi che Adon le tolsero</l>
-            <l n="l37">36Denti d’ingorda fera.</l>
+            <l n="l17">Quando improvviso scossemi</l>
+            <l n="l18">L’avvicinar d’un cocchio,</l>
+            <l n="l19">E ratto addietro volgere</l>
+            <l n="l20">20Mi fece il cupid’occhio.</l>
             
-            <l n="l38">La bella intanto i lucidi</l>
-            <l n="l39">Percote ampi cristalli;</l>
-            <l n="l40">L’auriga intende, e posano</l>
-            <l n="l41">40I docili cavalli.</l>
+            <l n="l21">Su i piè m’arresto immobile,</l>
+            <l n="l22">E il cocchio aureo trapassa,</l>
+            <l n="l23">Che per la densa polvere</l>
+            <l n="l24">24Orma profonda lassa.</l>
             
-            <l n="l42">Tosto m’appresso, e inchinomi</l>
-            <l n="l43">A quel leggiadro viso,</l>
-            <l n="l44">Che s’adornò d’un facile</l>
-            <l n="l45">44Conquistator sorriso.</l>
-            
-            
-            <l n="l46">Amor, di tua vittoria</l>
-            <l n="l47">Come vorrei lagnarmi?</l>
-            <l n="l48">Chi mai dovea resistere,</l>
-            <l n="l49">48Potendo, a tue bell’armi?</l>
-            
-            <l n="l50">In noi t’accrebbe imperio</l>
-            <l n="l51">La destra man cortese,</l>
-            <l n="l52">Che mossa dalle Grazie</l>
-            <l n="l53">52A’ baci miei si stese.</l>
-            
-            <l n="l54">Risvegliator di zefiri</l>
-            <l n="l55">Ventaglio avea la manca,</l>
-            <l n="l56">Onde solea percotere</l>
-            <l n="l57">56Lieve la gota bianca.</l>
-            
-            <l n="l58">Ne’ moti or lenti, or rapidi,</l>
-            <l n="l59">Arte apparía maestra;</l>
-            <l n="l60">Lo Spettator dell’Anglia</l>
-            <l n="l61">60Così le belle addestra.</l>
+            <l n="l25">Sola su i drappi serici</l>
+            <l n="l26">Con maestà sedea</l>
+            <l n="l27">Tal che in quel punto apparvemi</l>
+            <l n="l28">28Men donna assai che Dea.</l>
             
             
-            <l n="l62">O man, che d’Ebe uguagliano</l>
-            <l n="l63">Per lor bianchezza il seno,</l>
-            <l n="l64">Ove fissando allegrasi</l>
-            <l n="l65">64Giove di cure pieno.</l>
+            <l n="l29">Più bello il volto amabile,</l>
+            <l n="l30">Più bello il sen parere</l>
+            <l n="l31">Fean pel color contrario</l>
+            <l n="l32">32L’opposte vesti nere.</l>
             
-            <l n="l66">Forse sì fatte in Caria</l>
-            <l n="l67">Endimíon stringea,</l>
-            <l n="l68">Quando dal carro argenteo</l>
-            <l n="l69">68Diana a lui scendea.</l>
+            <l n="l33">Tal sul suo carro Venere</l>
+            <l n="l34">Forse scorrea Citera,</l>
+            <l n="l35">Da poi che Adon le tolsero</l>
+            <l n="l36">36Denti d’ingorda fera.</l>
             
-            <l n="l70">Quei vaghi occhi cerulei</l>
-            <l n="l71">Movea frattanto Amore;</l>
-            <l n="l72">Rette per lui scendevano</l>
-            <l n="l73">72Le dolci note al core.</l>
+            <l n="l37">La bella intanto i lucidi</l>
+            <l n="l38">Percote ampi cristalli;</l>
+            <l n="l39">L’auriga intende, e posano</l>
+            <l n="l40">40I docili cavalli.</l>
             
-            <l n="l74">Come potrei ripetere</l>
-            <l n="l75">Quel ch’ a me udir fu dato?</l>
-            <l n="l76">Dal novo foco insolito</l>
-            <l n="l77">76Troppo era il cor turbato.</l>
+            <l n="l41">Tosto m’appresso, e inchinomi</l>
+            <l n="l42">A quel leggiadro viso,</l>
+            <l n="l43">Che s’adornò d’un facile</l>
+            <l n="l44">44Conquistator sorriso.</l>
+            
+            
+            <l n="l45">Amor, di tua vittoria</l>
+            <l n="l46">Come vorrei lagnarmi?</l>
+            <l n="l47">Chi mai dovea resistere,</l>
+            <l n="l48">48Potendo, a tue bell’armi?</l>
+            
+            <l n="l49">In noi t’accrebbe imperio</l>
+            <l n="l50">La destra man cortese,</l>
+            <l n="l51">Che mossa dalle Grazie</l>
+            <l n="l52">52A’ baci miei si stese.</l>
+            
+            <l n="l53">Risvegliator di zefiri</l>
+            <l n="l54">Ventaglio avea la manca,</l>
+            <l n="l55">Onde solea percotere</l>
+            <l n="l56">56Lieve la gota bianca.</l>
+            
+            <l n="l57">Ne’ moti or lenti, or rapidi,</l>
+            <l n="l58">Arte apparía maestra;</l>
+            <l n="l59">Lo Spettator dell’Anglia</l>
+            <l n="l60">60Così le belle addestra.</l>
+            
+            
+            <l n="l61">O man, che d’Ebe uguagliano</l>
+            <l n="l62">Per lor bianchezza il seno,</l>
+            <l n="l63">Ove fissando allegrasi</l>
+            <l n="l64">64Giove di cure pieno.</l>
+            
+            <l n="l65">Forse sì fatte in Caria</l>
+            <l n="l66">Endimíon stringea,</l>
+            <l n="l67">Quando dal carro argenteo</l>
+            <l n="l68">68Diana a lui scendea.</l>
+            
+            <l n="l69">Quei vaghi occhi cerulei</l>
+            <l n="l70">Movea frattanto Amore;</l>
+            <l n="l71">Rette per lui scendevano</l>
+            <l n="l72">72Le dolci note al core.</l>
+            
+            <l n="l73">Come potrei ripetere</l>
+            <l n="l74">Quel ch’ a me udir fu dato?</l>
+            <l n="l75">Dal novo foco insolito</l>
+            <l n="l76">76Troppo era il cor turbato.</l>
          </div>
          </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          
          
          
          <milestone unit="page" n="milestone1"/>
-         <div n="div2">
+         <div n="div1">
             <head n="head1">Errata.</head>
-            <p n="p2">pag. 17. Vers. 21 jacrymae lege lacrymae</p>
+            <p n="p1">pag. 17. Vers. 21 jacrymae lege lacrymae</p>
          </div>
           </back>
   </text>

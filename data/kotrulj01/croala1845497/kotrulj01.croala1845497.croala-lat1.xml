@@ -40,65 +40,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="3"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="org" occurs="1"/>
-          <tagUsage gi="orgName" occurs="2"/>
-          <tagUsage gi="p" occurs="8"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="2"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="3"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="supplied" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="51"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -184,32 +126,32 @@
       <front xml:lang="lat" n="front1">
          <titlePage n="titlePage1">
             <docAuthor n="docAuthor1">BENEDICTUS DE COTRULLIS EQUITIS</docAuthor>
-            <titlePart n="titlePart2">AD INCLITUM SENATUM VENETORUM DE NAVIGATIONE LIBER INCIPIT</titlePart>
+            <titlePart n="titlePart1">AD INCLITUM SENATUM VENETORUM DE NAVIGATIONE LIBER INCIPIT</titlePart>
          </titlePage>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-praefatio">
             <head n="head1">PROHEMIUM PRIMUM FOELICITER</head>
-            <p n="p2">
-               <supplied n="supplied1">Immortalis</supplied> est hominum cura, serenissime princeps et vos clarissimi patritii cives Veneti, quę non solum servire sibi, sed propagare posteris morem habet. Idcirco non parum debemus vetustis scriptoribus, qui elaborata ingenio non solum sibi in pabulum<note place="foot" n="note2">
+            <p n="p1">
+               <supplied n="supplied1">Immortalis</supplied> est hominum cura, serenissime princeps et vos clarissimi patritii cives Veneti, quę non solum servire sibi, sed propagare posteris morem habet. Idcirco non parum debemus vetustis scriptoribus, qui elaborata ingenio non solum sibi in pabulum<note place="foot" n="note1">
                   <p n="p1"> 7 in pabulum] impabulum | 15 principum] principium </p>
-               </note> esse voluerunt verum etiam nobis ea legentibus tantum doctrinę tantumque scientię pręstant, ut eo doctiores, immo eo solo homines dici possimus. Neque enim ętas neque ingenium neque vires aliter suppeterent nobis id, si licet, consequi ac invenire posse et nobis quod legentes intelligimus et quo perlegentes docti eruditique dicimur. O munus deorum, o beneficium inmortale fęlicissimique sudores, quibus nihil incassum umquam fuit. Ipsi nanque solis et lunę cursum, rationem planetarum, signorum ordinem, stellarum numerum, latitudinem terrę, maris profunditatem, revolutionem cęlorum, inclinationes hominum, herbarum virtutes, egritudinum curas, scientiarum omnium dignitates, hystorias bene gestarum rerum, magnatum ac principum vitas, mores hominum et servandę sanitatis ac <milestone unit="page" n="milestone3"/> religionis ritus diligentissime nobis et propter nos ediderunt. Neque enim solis Cretensibus Minos neque Atheniensibus Solon neque Lacedemoniis Ligurgus leges condidere, aut Romani et Numma Pompilius eas sibi tantum in XII redegerunt tabulas, neque Iustinianus eas sibi per <bibl n="bibl4">Digesta</bibl> distinxit. Vobis sunt, inquam, illę conditę leges, Veneti cives, vobis dedicatę, qui eis non uti Cretenses, Lacedemones seu Athenienses usi estis, sed miro quodam modo apud senatum et rem publicam vestram floruerunt et ipsę leges et earum magistratus, ut tandem vos in hoc omnium regionum populos antecesisse - vera celerque fama est - non ambigo. </p>
-            <p n="p3">Quam ob rem, cum semel inter tot tantas variasque ętatis nostrę navigationes assiduosque tranandi maris transitus in violentas quorundam navigantium manus incidissem, quam fragili consuetudine rusticitati deperditorum hominum facile confidimus, agnovi, quibus adeo caram vitam tam temerarie inconsultoque committimus, qui non solum in rerum agnoscendarum, que tabachis etiam, ut nautarum terminis utar, plana sunt, verum in ipsa<note place="foot" n="note1">
+               </note> esse voluerunt verum etiam nobis ea legentibus tantum doctrinę tantumque scientię pręstant, ut eo doctiores, immo eo solo homines dici possimus. Neque enim ętas neque ingenium neque vires aliter suppeterent nobis id, si licet, consequi ac invenire posse et nobis quod legentes intelligimus et quo perlegentes docti eruditique dicimur. O munus deorum, o beneficium inmortale fęlicissimique sudores, quibus nihil incassum umquam fuit. Ipsi nanque solis et lunę cursum, rationem planetarum, signorum ordinem, stellarum numerum, latitudinem terrę, maris profunditatem, revolutionem cęlorum, inclinationes hominum, herbarum virtutes, egritudinum curas, scientiarum omnium dignitates, hystorias bene gestarum rerum, magnatum ac principum vitas, mores hominum et servandę sanitatis ac <milestone unit="page" n="milestone1"/> religionis ritus diligentissime nobis et propter nos ediderunt. Neque enim solis Cretensibus Minos neque Atheniensibus Solon neque Lacedemoniis Ligurgus leges condidere, aut Romani et Numma Pompilius eas sibi tantum in XII redegerunt tabulas, neque Iustinianus eas sibi per <bibl n="bibl1">Digesta</bibl> distinxit. Vobis sunt, inquam, illę conditę leges, Veneti cives, vobis dedicatę, qui eis non uti Cretenses, Lacedemones seu Athenienses usi estis, sed miro quodam modo apud senatum et rem publicam vestram floruerunt et ipsę leges et earum magistratus, ut tandem vos in hoc omnium regionum populos antecesisse - vera celerque fama est - non ambigo. </p>
+            <p n="p2">Quam ob rem, cum semel inter tot tantas variasque ętatis nostrę navigationes assiduosque tranandi maris transitus in violentas quorundam navigantium manus incidissem, quam fragili consuetudine rusticitati deperditorum hominum facile confidimus, agnovi, quibus adeo caram vitam tam temerarie inconsultoque committimus, qui non solum in rerum agnoscendarum, que tabachis etiam, ut nautarum terminis utar, plana sunt, verum in ipsa<note place="foot" n="note1">
                   <p n="p1"> 1 ipsa] ipsam 3 ignaris] ingaris 12 dominium] domminum </p>
-               </note> miliarium calculatione tam rustice pręliabant, adeo ut septies septem in <num n="num2" value="35">XXXIIIII</num> connumerabant. Dolui profecto vitam homminum carnificibus hiis ignaris<note place="foot" n="note3"/> continuo committendam, quibus nihil ordinis est pręter quidam naturę cursus et, ut proprie dicam, rerum causalis eventus, cumque cernerem eam disciplinam admodum necessariam et ad negociationes et rerum <milestone unit="page" n="milestone4"/> publicarum statum ac vitam oportunissimam, quę nullę essent si navigatio de medio tolleretur, ut in primis ętatibus <q n="q5">sua quisque</q>, ut ait <sic n="sic6">trogicus</sic>, <q n="q7">norat maria</q>
-               <ref n="ref8">1</ref>
-               <note place="foot" n="note9">
+               </note> miliarium calculatione tam rustice pręliabant, adeo ut septies septem in <num n="num1" value="35">XXXIIIII</num> connumerabant. Dolui profecto vitam homminum carnificibus hiis ignaris<note place="foot" n="note2"/> continuo committendam, quibus nihil ordinis est pręter quidam naturę cursus et, ut proprie dicam, rerum causalis eventus, cumque cernerem eam disciplinam admodum necessariam et ad negociationes et rerum <milestone unit="page" n="milestone1"/> publicarum statum ac vitam oportunissimam, quę nullę essent si navigatio de medio tolleretur, ut in primis ętatibus <q n="q1">sua quisque</q>, ut ait <sic n="sic1">trogicus</sic>, <q n="q2">norat maria</q>
+               <ref n="ref1">1</ref>
+               <note place="foot" n="note3">
                   <p n="p1">1 <bibl n="bibl1">Sen. <title n="title1">Phaedr.</title> 531</bibl>
                   </p>
                </note> et in propriis littoribus sepelliebantur. </p>
-            <p n="p4">Magnorum siquidem animorum est multas vidisse terras et diversos homminum mores, multos domasse populos diversisque provinciis leges dedisse et ab eis annua tributa reperisse. Committendam litteris eiusdem navigationis disciplinam instituimus vobisque eam destinare curavimus, serenissime dux et inclite senatus, vobis, inquam, quibus maritimarum rerum cura omnis et dominium est, ita ut Veneti maris domini merito nuncupemini mareque undique vestrum est. Quę enim civitas unquam antea fuit post inclinatam, ne iam dicam extinctamque Atheniensium urbem, quę satis late quondam mare tenuisse dicitur - aut Carthaginensium, qui permultum classe maritimisque rebus valuerunt, aut <sic n="sic1">Ethodorum</sic>, quorum usque ad Romanos disciplina navalis et gloria remansit, aut Romanorum - quę gloriose nomen invictum ita uti vestra gloriosissima civitas in mari triumphando servavit. Adeo non solum infestos et contra quos arma classesque instituistis ruinę dedistis, verum etiam nomen vestrum a prędonibus ita timetur, ut non solum Italię oram imo totum fere Occeanum tute navigatis. Recte enim ad eos unamquamque disciplinam ac leges edi oportere existimavimus, qui eiusmodi studiorum oblectari solent. Vobis itaque id operis dedicandum inprimis censeo, <milestone unit="page" n="milestone2"/> non tanquam rerum maritimarum ignaris sed ad viros qui rerum terra marique bene gestarum instituti sunt navigationisque scientia pręditi, ut, quę alii bene honesteque gesserunt, probe cognoscere et eque iudicare possitis. Quo fit, ut ea, quę conscribere institui, iam multo ante vobis excogitata et penitus cognita esse non dubito. Non tamen ob id ipsum terrear, quominus institutum ad finem prosequar. Quin immo alacrior ire pergam, ut ea, quę Veneti virtute ac industria duce preclare studioseque <sic n="sic3">gexissent</sic>, idoneus ipse existimer qui oratione amplectar. Quis est, inquam, tam ebetis ingenii et immemor, qui delirans dignitatem gloriamque nominis vestri existimare non debeat virtutumque ac morum quin immo legum vestrarum non magni faciat ordines. Quare, ducum inclite gloriosissimeque senatus, hanc maritimam institutionem vobis caram accipite oro, vulgari tamen idiomate conscriptam, ut ob dignitatem ac gloriam nominis vestri illi etiam discant, quibus est solum materna lingua communis, quorum potior est numerus. Sed iam ipsam navigationem seriosius audiamus.</p>
+            <p n="p3">Magnorum siquidem animorum est multas vidisse terras et diversos homminum mores, multos domasse populos diversisque provinciis leges dedisse et ab eis annua tributa reperisse. Committendam litteris eiusdem navigationis disciplinam instituimus vobisque eam destinare curavimus, serenissime dux et inclite senatus, vobis, inquam, quibus maritimarum rerum cura omnis et dominium est, ita ut Veneti maris domini merito nuncupemini mareque undique vestrum est. Quę enim civitas unquam antea fuit post inclinatam, ne iam dicam extinctamque Atheniensium urbem, quę satis late quondam mare tenuisse dicitur - aut Carthaginensium, qui permultum classe maritimisque rebus valuerunt, aut <sic n="sic1">Ethodorum</sic>, quorum usque ad Romanos disciplina navalis et gloria remansit, aut Romanorum - quę gloriose nomen invictum ita uti vestra gloriosissima civitas in mari triumphando servavit. Adeo non solum infestos et contra quos arma classesque instituistis ruinę dedistis, verum etiam nomen vestrum a prędonibus ita timetur, ut non solum Italię oram imo totum fere Occeanum tute navigatis. Recte enim ad eos unamquamque disciplinam ac leges edi oportere existimavimus, qui eiusmodi studiorum oblectari solent. Vobis itaque id operis dedicandum inprimis censeo, <milestone unit="page" n="milestone1"/> non tanquam rerum maritimarum ignaris sed ad viros qui rerum terra marique bene gestarum instituti sunt navigationisque scientia pręditi, ut, quę alii bene honesteque gesserunt, probe cognoscere et eque iudicare possitis. Quo fit, ut ea, quę conscribere institui, iam multo ante vobis excogitata et penitus cognita esse non dubito. Non tamen ob id ipsum terrear, quominus institutum ad finem prosequar. Quin immo alacrior ire pergam, ut ea, quę Veneti virtute ac industria duce preclare studioseque <sic n="sic2">gexissent</sic>, idoneus ipse existimer qui oratione amplectar. Quis est, inquam, tam ebetis ingenii et immemor, qui delirans dignitatem gloriamque nominis vestri existimare non debeat virtutumque ac morum quin immo legum vestrarum non magni faciat ordines. Quare, ducum inclite gloriosissimeque senatus, hanc maritimam institutionem vobis caram accipite oro, vulgari tamen idiomate conscriptam, ut ob dignitatem ac gloriam nominis vestri illi etiam discant, quibus est solum materna lingua communis, quorum potior est numerus. Sed iam ipsam navigationem seriosius audiamus.</p>
          </div>
 
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1">
             <head n="head1">Finito prohemio INCIPIT TRACTATVS Benedicti de Cotrullis Tractatus de nauigatione feliciter incipit.</head>
-            <gap n="gap2" reason="omissum-italice" resp="NJ"/>
+            <gap n="gap1" reason="omissum-italice" resp="NJ"/>
          </div>
       </back>
   </text>

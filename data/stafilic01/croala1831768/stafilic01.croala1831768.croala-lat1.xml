@@ -46,58 +46,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="8"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="app" occurs="47"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="3"/>
-          <tagUsage gi="persName" occurs="29" withId="1"/>
-          <tagUsage gi="placeName" occurs="20"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="rdg" occurs="82"/>
-          <tagUsage gi="ref" occurs="34"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="10"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -169,110 +118,110 @@
          <titlePage n="titlePage1">
             <titlePart n="titlePart1">ORATIO JOANNIS STAPHILEI auditoris et NUNTIJ 
                APOSTOLICI Ad SIGISMUNDUM PRIMUM REGEM POLONIAE habita.</titlePart>
-            <titlePart n="titlePart2">T XIX. Oratio Staphilei, <sic n="sic1">Nuncii</sic> Julii II. <sic n="sic2">Pape</sic>, ad Sigismundum Regem. Qua vocatur ad Concilium Lateranense. <abbr n="abbr3">Cod. G. Op.</abbr>
+            <titlePart n="titlePart2">T XIX. Oratio Staphilei, <sic n="sic1">Nuncii</sic> Julii II. <sic n="sic2">Pape</sic>, ad Sigismundum Regem. Qua vocatur ad Concilium Lateranense. <abbr n="abbr1">Cod. G. Op.</abbr>
             </titlePart>
          </titlePage>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-oratio">
             <p n="p1">Nihil est quod magis deceat Christianum Principem <ref n="ref1">
                   <persName n="persName1">Sigismunde</persName> Rex
             Potentissime</ref>, quam pacem colere, et non solum Regna, verum etiam
             privatas domos in pace conservare, quia tempore pacis bene colitur
             Author Pacis, qui proximus passioni, pacem veluti locupletissimam
-            haereditatem fidelibus reliquit, et propterea haeres <persName n="persName2">Christi</persName> non est
-            qui pacem illius testamento relictam non amat. Hinc <ref n="ref3">beatus <persName n="persName1">Paulus</persName>
-            Apostolus</ref> sciens non esse ulterius nobis bella carnaliter <app n="app4">
+            haereditatem fidelibus reliquit, et propterea haeres <persName n="persName1">Christi</persName> non est
+            qui pacem illius testamento relictam non amat. Hinc <ref n="ref2">beatus <persName n="persName1">Paulus</persName>
+            Apostolus</ref> sciens non esse ulterius nobis bella carnaliter <app n="app1">
                   <rdg n="rdg1">agenda</rdg> 
                   <rdg n="rdg2" wit="T">peragenda</rdg>
                </app>, sed
-            animae certamina contra Spirituales Adversarios <app n="app5">
+            animae certamina contra Spirituales Adversarios <app n="app2">
                   <rdg n="rdg1">desudando</rdg> 
                   <rdg n="rdg2" wit="T">desudanda</rdg>
-               </app>, <app n="app6">
+               </app>, <app n="app3">
                   <rdg n="rdg1">veluti</rdg>
                   <rdg n="rdg2" wit="T">velut</rdg>
                </app>
-            magister militiae praeceptum dat militibus <persName n="persName7">Christi</persName> dicens: Induite
-            Vos armaturam <ref n="ref8">Dei</ref>, ut possitis stare fortes in bello adversus astutias
-            <ref n="ref9">Diaboli</ref>
-               <app n="app10">
+            magister militiae praeceptum dat militibus <persName n="persName2">Christi</persName> dicens: Induite
+            Vos armaturam <ref n="ref3">Dei</ref>, ut possitis stare fortes in bello adversus astutias
+            <ref n="ref4">Diaboli</ref>
+               <app n="app4">
                   <rdg n="rdg1">. Quis</rdg>
                   <rdg n="rdg2" wit="T">, qui</rdg>
-               </app> est sator zizaniae<app n="app11">
+               </app> est sator zizaniae<app n="app5">
                   <rdg n="rdg1">?</rdg>
                   <rdg n="rdg2" wit="T">,</rdg>
                </app> Pater scandali et perturbator
-            pacis. Et ideo quemadmodum omnes pacifici, beati et filii <ref n="ref12">Dei</ref> in
-            <ref n="ref13">Evangelio</ref> appellantur, ita inquieti, dissensiones et scandala
-            sectantes, filii <ref n="ref14">Diaboli</ref>, et ministri tenebrarum rectissime
-            nuncupantur. Quod exemplo <ref n="ref15">
+            pacis. Et ideo quemadmodum omnes pacifici, beati et filii <ref n="ref5">Dei</ref> in
+            <ref n="ref6">Evangelio</ref> appellantur, ita inquieti, dissensiones et scandala
+            sectantes, filii <ref n="ref7">Diaboli</ref>, et ministri tenebrarum rectissime
+            nuncupantur. Quod exemplo <ref n="ref8">
                   <app n="app1">
                      <rdg n="rdg1">
                         <persName n="persName1">Polycarpi</persName> 
-                        <abbr n="abbr2">Ssmi.</abbr>
+                        <abbr n="abbr1">Ssmi.</abbr>
                      </rdg>
                      <rdg n="rdg2" wit="T">
                         <persName n="persName1">Polycarpi</persName> 
-                        <abbr n="abbr2">sanctmi.</abbr>
+                        <abbr n="abbr1">sanctmi.</abbr>
                      </rdg>
                   </app> Martyris</ref> eleganter
-            comprobatur, qui cum obviaret <ref n="ref16">
+            comprobatur, qui cum obviaret <ref n="ref9">
                   <persName n="persName1">Martiano</persName> Schismatico</ref> eidem dicenti:
-            <app n="app17">
+            <app n="app6">
                   <rdg n="rdg1">cognoscisne</rdg>
                   <rdg n="rdg2" wit="T">agnoscisne</rdg>
-               </app> me? respondit, <app n="app18">
+               </app> me? respondit, <app n="app7">
                   <rdg n="rdg1">cognosco</rdg>
                   <rdg n="rdg2" wit="T">agnosco</rdg>
-               </app> Primogenitum <persName n="persName19">Sathanae</persName>. <persName n="persName20">Cicero</persName>
-            quoque in <bibl n="bibl21">Philippicis</bibl> contra ejusmodi homines sic inquit: nec privatos
+               </app> Primogenitum <persName n="persName3">Sathanae</persName>. <persName n="persName4">Cicero</persName>
+            quoque in <bibl n="bibl1">Philippicis</bibl> contra ejusmodi homines sic inquit: nec privatos
             focos, nec publicas leges, nec libertatis jura videtur chara habere,
             quem dissensiones ac scandala delectant, eumque ex numero hominum
             ejiciendum, et extra terminos humanae naturae exterminandum
             putant. Nihil hoc cive, nihil hoc homine deterius, non autem civis aut
-            homo habendus est, qui bellum aut discordias <app n="app22">
+            homo habendus est, qui bellum aut discordias <app n="app8">
                   <rdg n="rdg1">concupiscat</rdg>
                   <rdg n="rdg2" wit="T">concupiscit</rdg>
                </app>. Rursus idem
-            <bibl n="bibl23">
+            <bibl n="bibl2">
                   <persName n="persName1">Cicero</persName> de amicitia</bibl>: quae domus tam stabilis? quae civitas tam firma
-            est, quae non odiis <app n="app24">
+            est, quae non odiis <app n="app9">
                   <rdg n="rdg1">possit funditus</rdg>
                   <rdg n="rdg2" wit="T">funditus possit</rdg>
                </app> everti.  Haec modo scandala, has
             dissensiones, haec odia, hujusmodi homines non una domus, non certa
-            civitas, sed tota <ref n="ref25">
+            civitas, sed tota <ref n="ref10">
                   <ref n="ref1">Dei</ref> Ecclesia</ref> patitur, plurimumque passura est (quod
-            absit) nisi per tuam Majestatem una cum aliis Regibus <app n="app26">
+            absit) nisi per tuam Majestatem una cum aliis Regibus <app n="app10">
                   <rdg n="rdg1">et</rdg>
                   <rdg n="rdg2" wit="T">ac</rdg>
                </app> Principibus
-            Christianis, praecipue <ref n="ref27">
-                  <persName n="persName1">Vladislao</persName> Serenissimo Rege <placeName n="placeName2">Hungariae</placeName>
-                  <placeName n="placeName3">Bohemiae</placeName>que fratre tuo</ref>, his malis, hujusmodi incommodis, ac futuris
-            scandalis quam celerrime occurratur<app n="app28">
+            Christianis, praecipue <ref n="ref11">
+                  <persName n="persName1">Vladislao</persName> Serenissimo Rege <placeName n="placeName1">Hungariae</placeName>
+                  <placeName n="placeName2">Bohemiae</placeName>que fratre tuo</ref>, his malis, hujusmodi incommodis, ac futuris
+            scandalis quam celerrime occurratur<app n="app11">
                   <rdg n="rdg1">. Et</rdg>
                   <rdg n="rdg2" wit="T">; et</rdg>
-               </app> propterea jussit me <ref n="ref29">
+               </app> propterea jussit me <ref n="ref12">
                   <abbr n="abbr1">Ssmus</abbr>
-            Dominus <persName n="persName2">Julius</persName> Divina providentia Papa II.</ref> Majestatem Tuam adire, et
+            Dominus <persName n="persName1">Julius</persName> Divina providentia Papa II.</ref> Majestatem Tuam adire, et
             Tibi sanctam benedictionem ac pacem elargiri; tecumque de rebus tam ad
             communem Reipublicae Christianae salutem, quam ad tuum specialiter
-            commodum, <app n="app30">
+            commodum, <app n="app12">
                   <rdg n="rdg1">utilitatemque et honorem</rdg>
                   <rdg n="rdg2" wit="T">et utilitatem honoremque</rdg>
                </app> 
-               <pb n="pb31"/> communicare. Verum
+               <pb n="pb1"/> communicare. Verum
             quam difficillimum est in tanto bellorum turbine, tantaque
             Christianorum Principum discordia, ac quorundam Cardinalium periculosa
             admodum scissura bene communi Reipublicae saluti consulere. Te imprimis
-            hortatur, et per viscera misericordiae <ref n="ref32">Dei</ref> nostri deprecatur, ut
-            quantum in te consilii <app n="app33">
+            hortatur, et per viscera misericordiae <ref n="ref13">Dei</ref> nostri deprecatur, ut
+            quantum in te consilii <app n="app13">
                   <rdg n="rdg1">ac</rdg>
                   <rdg n="rdg2" wit="T">atque</rdg>
-               </app> prudentiae <ref n="ref34">
-                  <persName n="persName1">Christus</persName> ipse <app n="app2">
+               </app> prudentiae <ref n="ref14">
+                  <persName n="persName1">Christus</persName> ipse <app n="app1">
                      <rdg n="rdg1">Author et Fundator
             pacis</rdg> 
                      <rdg n="rdg2" wit="T">auctor pacis et fundator</rdg>
@@ -282,26 +231,26 @@
             procurante Christiani Principes modo inter se gravissime dissidentes
             sanctam pacem amplectantur, et spiritualia membra Ecclesiae, quae
             turpiter a suo capite recesserunt, ad debitam obedientiam (ut par est)
-            revertantur, quo et Ecclesia <ref n="ref35">Dei</ref>, quae debet esse sine macula et sine
-            ruga, per sanctam reformationem in charitate <ref n="ref36">Dei</ref>, et proximi fundatam,
+            revertantur, quo et Ecclesia <ref n="ref15">Dei</ref>, quae debet esse sine macula et sine
+            ruga, per sanctam reformationem in charitate <ref n="ref16">Dei</ref>, et proximi fundatam,
             ad pristinum decus et veram Religionem reformetur, et tandem
             universae Christianorum vires pacatis inter eosdem rebus adversus
             Christiani nominis hostes studiosissime ac unanimiter
             convertantur. Nulli enim dubium esse potest Christianorum Regum partes
-            esse <app n="app37">
+            esse <app n="app14">
                   <rdg n="rdg1">et</rdg>
                   <rdg n="rdg2" wit="T">ac</rdg>
                </app> ad eorum officium et dignitatem pertinere Rempublicam
             Christianam, contra ejusdem Adversarios, et fidei nostrae inimicos
             protegere atque tutari, nec diutius pati terrestre illorum
-            <ref n="ref38">
-                  <placeName n="placeName1">Hierosolymorum</placeName> Regnum</ref>, ac <app n="app39">
+            <ref n="ref17">
+                  <placeName n="placeName1">Hierosolymorum</placeName> Regnum</ref>, ac <app n="app15">
                   <rdg n="rdg1">
                      <abbr n="abbr1">Ssmi</abbr>
                   </rdg>
                   <rdg n="rdg2" wit="T">sanctissimum</rdg>
                </app> Salvatoris nostri sepulchrum perfidis
-            Nationibus deservire, <ref n="ref40">Deum</ref> Christianorum ab ipsis contemni, fidem
+            Nationibus deservire, <ref n="ref18">Deum</ref> Christianorum ab ipsis contemni, fidem
             despici, sanctam Religionem ab ipsis violari.</p>
             <p n="p2">
             Libet hoc loco, Rex
@@ -309,93 +258,93 @@
             quas hactenus ab infidelibus passi sumus, lamentabiliter deplorare;
             quot virgines ingenua nobiliaque corpora retroactis temporibus eisdem
             infidelibus ludibrio fuere; capti Episcopi, interfecti <sic n="sic1">Praesbyteri</sic>, et
-            diversorum officia Clericorum, ad altaria <persName n="persName2">Christi</persName> stabulati equi,
+            diversorum officia Clericorum, ad altaria <persName n="persName1">Christi</persName> stabulati equi,
             Martyrum effossae reliquiae, ubique luctus ubique gemitus, et plurima
-            mortis imago. Amiserunt Christiani Principes temporibus nostris <pb n="pb3"/>
-            nobilissima Regna, <app n="app4">
+            mortis imago. Amiserunt Christiani Principes temporibus nostris <pb n="pb1"/>
+            nobilissima Regna, <app n="app1">
                   <rdg n="rdg1">amplissimasque</rdg> 
                   <rdg n="rdg2" wit="T">amplissimas latissimasque</rdg>
-               </app> Provincias: <placeName n="placeName5">Mysiam</placeName>, <placeName n="placeName6">Thraciam</placeName>,
-            <placeName n="placeName7">Macedoniam</placeName>, <placeName n="placeName8">
+               </app> Provincias: <placeName n="placeName1">Mysiam</placeName>, <placeName n="placeName2">Thraciam</placeName>,
+            <placeName n="placeName3">Macedoniam</placeName>, <placeName n="placeName4">
                   <sic n="sic1">Epyrum</sic>
-               </placeName>, totamque <placeName n="placeName9">Graeciam</placeName>, quibus omnibus nunc imperat
-            <persName n="persName10">Ottomannus</persName>. Restabant solae maritimae civitates <placeName n="placeName11">Dalmatiae</placeName> Provinciae
-            nostrae, quae solae in illis partibus sub fide <persName n="persName12">Christi</persName> remanserunt,
+               </placeName>, totamque <placeName n="placeName5">Graeciam</placeName>, quibus omnibus nunc imperat
+            <persName n="persName2">Ottomannus</persName>. Restabant solae maritimae civitates <placeName n="placeName6">Dalmatiae</placeName> Provinciae
+            nostrae, quae solae in illis partibus sub fide <persName n="persName3">Christi</persName> remanserunt,
             quas modo impii hostes vastant, trahunt, rapiunt; ita ut vix incolis
             nostris muros urbium exire liceat. Foris vastata sunt omnia,
-            apparetque ingens ubique solitudo.  <ref n="ref13">Christianus orbis</ref> ruit, et tamen
+            apparetque ingens ubique solitudo.  <ref n="ref1">Christianus orbis</ref> ruit, et tamen
             Reges et Principes nostri inter se gravissima bella gerunt, et, quod
-            <app n="app14">
+            <app n="app2">
                   <rdg n="rdg1">detestabilius</rdg>
                   <rdg n="rdg2" wit="T">majus</rdg>
-               </app> est, adversus <ref n="ref15">Sacrosanctam Sedem Apostolicam</ref> cornua
+               </app> est, adversus <ref n="ref2">Sacrosanctam Sedem Apostolicam</ref> cornua
             erigunt, ejusque terras ac civitates hostiliter invadere occupareque
-            non verentur; nec non <ref n="ref16">
-                  <abbr n="abbr1">Ssmum</abbr> Dominum Nostrum <persName n="persName2">Julium</persName> Papam secundum</ref>
-            oppugnare, ac <sic n="sic17">injuriosė</sic> prosequi non erubescunt, <app n="app18">
+            non verentur; nec non <ref n="ref3">
+                  <abbr n="abbr1">Ssmum</abbr> Dominum Nostrum <persName n="persName1">Julium</persName> Papam secundum</ref>
+            oppugnare, ac <sic n="sic2">injuriosė</sic> prosequi non erubescunt, <app n="app3">
                   <rdg n="rdg1">authoritatemque</rdg> 
                   <rdg n="rdg2" wit="T">Auctoritatem</rdg>
                </app> ac
-            potestatem convocandi et celebrandi Generalis concilii <app n="app19">
+            potestatem convocandi et celebrandi Generalis concilii <app n="app4">
                   <rdg n="rdg1">vendicare</rdg>
                   <rdg n="rdg2" wit="T">vindicare</rdg>
                </app> ipsis
             solis contendunt, insciis et inconsultis aliis Regibus et Principibus
             Christianis, quasi soli videantur habere omnimodam potestatem,
-            <app n="app20">
+            <app n="app5">
                   <rdg n="rdg1">authoritatem</rdg>
                   <rdg n="rdg2" wit="T">auctoritatemque</rdg>
-               </app> supra omnes alios <app n="app21">
+               </app> supra omnes alios <app n="app6">
                   <rdg n="rdg1">
                      <sic n="sic1">Potentates</sic>
                   </rdg>
                   <rdg n="rdg2" wit="T">potentatos</rdg>
                </app> Christianos. Exurge igitur
-            tandem, exurge saltem tu, Rex Potentissime, in defensionem <app n="app22">
+            tandem, exurge saltem tu, Rex Potentissime, in defensionem <app n="app7">
                   <rdg n="rdg1" wit="T">matris tue <sic n="sic1">ecclesie</sic> ac protectionem sanctissimi</rdg> 
                   <rdg n="rdg2">
                      <abbr n="abbr1">Ssmi</abbr>
                   </rdg>
                </app> Domini
-            Nostri <app n="app23">
+            Nostri <app n="app8">
                   <rdg n="rdg1" wit="T">patris</rdg>
-               </app> Parentisque tui dilectissimi, qui te Regnumque tuum <app n="app24">
+               </app> Parentisque tui dilectissimi, qui te Regnumque tuum <app n="app9">
                   <rdg n="rdg1">in</rdg>
                </app> miro
-            amore, paternaque charitate prosequitur, <sic n="sic25">indiesque</sic> magis ac magis ob
+            amore, paternaque charitate prosequitur, <sic n="sic3">indiesque</sic> magis ac magis ob
             tua praeclara facinora, egregiumque animum, ac maximam devotionem,
             quam geris ad Sedem Apostolicam, ejusque Sanctitatem,
-            prosequitur. Imitare <persName n="persName26">Ferdinandum Arragonum</persName> et <ref n="ref27">utriusque Siciliae <app n="app1">
+            prosequitur. Imitare <persName n="persName4">Ferdinandum Arragonum</persName> et <ref n="ref4">utriusque Siciliae <app n="app1">
                      <rdg n="rdg1">Regem
             Catholicum</rdg>
                      <rdg n="rdg2" wit="T">catholicum regem</rdg>
                   </app>
                </ref>, qui validissimis copiis, terra marique comparatis,
-            opposuit se tanquam murum inexpugnabilem <pb n="pb28"/> Adversariis
-            Sedis Apostolicae, et <ref n="ref29">
-                  <abbr n="abbr1">Ssmi</abbr> Domini Nostri</ref>, <app n="app30">
+            opposuit se tanquam murum inexpugnabilem <pb n="pb2"/> Adversariis
+            Sedis Apostolicae, et <ref n="ref5">
+                  <abbr n="abbr1">Ssmi</abbr> Domini Nostri</ref>, <app n="app10">
                   <rdg n="rdg1">quam</rdg>
                   <rdg n="rdg2" wit="T">qui</rdg>
-               </app> jure merito, <app n="app31">
+               </app> jure merito, <app n="app11">
                   <rdg n="rdg1">quae</rdg>
                   <rdg n="rdg2" wit="T">meritoque</rdg>
                </app> vos
-            ambos, <app n="app32">
+            ambos, <app n="app12">
                   <rdg n="rdg1">scilicet</rdg>
                </app> simul Majestatem Tuam et Suam consuevit acerrimos
             propugnatores, propagatoresque fidei et Religionis Christianae
-            appellare, nec immerito quidem; nam sicut <persName n="persName33">Ferdinandus</persName> continua bella
-            gerit adversus <persName n="persName34">Mauros</persName>, et <persName n="persName35">Afros</persName>, ita et tu incessanter in illis
-               occuparis contra <persName n="persName36">Scythas</persName> sive <persName n="persName37">Tartaros</persName>, ac perfidos <app n="app38">
+            appellare, nec immerito quidem; nam sicut <persName n="persName5">Ferdinandus</persName> continua bella
+            gerit adversus <persName n="persName6">Mauros</persName>, et <persName n="persName7">Afros</persName>, ita et tu incessanter in illis
+               occuparis contra <persName n="persName8">Scythas</persName> sive <persName n="persName9">Tartaros</persName>, ac perfidos <app n="app13">
                   <rdg n="rdg1">Turcas,</rdg> 
                   <rdg n="rdg2" wit="T">Turcos.</rdg>
                </app> et sicut
-            ille Regnum <placeName n="placeName39">
+            ille Regnum <placeName n="placeName7">
                   <app n="app1">
                      <rdg n="rdg1">Bohiae</rdg>
                      <rdg n="rdg2" wit="T">Betice</rdg>
                   </app>
-               </placeName> sive <placeName n="placeName40">Granatae</placeName>, et quam plures <placeName n="placeName41">
+               </placeName> sive <placeName n="placeName8">Granatae</placeName>, et quam plures <placeName n="placeName9">
                   <app n="app1">
                      <rdg n="rdg1" wit="T">Africe</rdg>
                   </app>
@@ -403,49 +352,49 @@
             gloriosissime devicit, et jugo Christi subjecit, ita et tu duobus
             Principatibus, duabus victoriis Deo favente cum maxima tua laude
             apud omnes Principes Christianos imprimis es potitus. Adesto ergo
-            alacer <app n="app42">
+            alacer <app n="app14">
                   <rdg n="rdg1">
                      <persName n="persName1">Julio II.</persName>
                   </rdg>
                </app> Pontifici Maximo, ejusdemque partes ac protectionem
             viriliter suscipe, ut tandem compositis rebus Ecclesiae, sedatisque
-            discordiis Principum <app n="app43">
+            discordiis Principum <app n="app15">
                   <rdg n="rdg1">Christianorum</rdg>
                </app> possit quiete, et cum pace
-             <app n="app44">
+             <app n="app16">
                   <rdg n="rdg1" wit="T">congregare ac</rdg>
                </app> celebrare hoc sacrosanctum concilium futurum; in quo de sanctissima
             contra infideles expeditione imprimis agendum erit, quam Sua
             Sanctitas et in hoc suo Pontificatu, et adhuc in minoribus constituta
             continue incessanterque procuravit. Quam quidem expeditionem
-            Majestas Tua <app n="app45">
+            Majestas Tua <app n="app17">
                   <rdg n="rdg1">ac</rdg>
                   <rdg n="rdg2" wit="T">et</rdg>
-               </app> Serenissimi Fratris <app n="app46">
+               </app> Serenissimi Fratris <app n="app18">
                   <rdg n="rdg1">Sui</rdg>
                </app> sponte vestra totisque
             viribus expetere, efflagitareque debetis; plus enim Vestra interest,
-            vestrorumque Regnorum, <app n="app47">
+            vestrorumque Regnorum, <app n="app19">
                   <rdg n="rdg1">quibus imperatis,</rdg>
                </app> quam aliorum Regum et
-            Principum <placeName n="placeName48">Europae</placeName>, quia <placeName n="placeName49">Italia</placeName>, <app n="app50">
+            Principum <placeName n="placeName10">Europae</placeName>, quia <placeName n="placeName11">Italia</placeName>, <app n="app20">
                   <rdg n="rdg1" wit="T">
                      <placeName n="placeName1">Gallia</placeName>
                   </rdg>
-               </app> et <ref n="ref51">utraque <placeName n="placeName1">Hispania</placeName>
+               </app> et <ref n="ref6">utraque <placeName n="placeName1">Hispania</placeName>
                </ref>, caeteraque Regna
             Occidentalia intacta sunt hactenus ab infidelibus, vestra vero in
             finibus hostium constituta quotidie incessanterque vastantur,
-               <app n="app52">
+               <app n="app21">
                   <rdg n="rdg1">destruuntur, urbes comburuntur, castra</rdg> 
                   <rdg n="rdg2" wit="T">destruuntur urbes, comburuntur castra</rdg>
-               </app> et agri, incolae, <sic n="sic53">vasalli</sic>, et
+               </app> et agri, incolae, <sic n="sic4">vasalli</sic>, et
             subditi vestri partim ferro necantur, partim captivi
-            abducuntur<app n="app54">
+            abducuntur<app n="app22">
                   <rdg n="rdg1">. Caeteri</rdg> 
                   <rdg n="rdg2" wit="T">, ceteri</rdg>
                </app> vero et quidem pauci, qui in sylvis et cavernis
-            <app n="app55">
+            <app n="app23">
                   <rdg n="rdg1">tempore</rdg>
                   <rdg n="rdg2" wit="T">terre</rdg>
                </app> latitando cruentas manus hostium effugiunt, jam omnibus
@@ -464,16 +413,16 @@
                   <rdg n="rdg1" wit="T">ac</rdg>
                </app> Proceres invitat, ac in Domino
             hortatur. Praelatis vero Regnorum tuorum authoritate, qua in terris
-            fungitur, mandat ac praecipit ut <placeName n="placeName3">Romae</placeName> in <placeName n="placeName4">Ecclesia Lateranensi</placeName>
-            tempore constituto conveniant celebraturi hoc sacrosanctum <app n="app5">
+            fungitur, mandat ac praecipit ut <placeName n="placeName1">Romae</placeName> in <placeName n="placeName2">Ecclesia Lateranensi</placeName>
+            tempore constituto conveniant celebraturi hoc sacrosanctum <app n="app3">
                   <rdg n="rdg1">Romanicum</rdg>
                   <rdg n="rdg2" wit="T">
                      <sic n="sic1">ecumenicum</sic>
                   </rdg>
                </app>
             concilium generale, ad honorem, conservationem, et augmentum totius
-            <ref n="ref6">Ecclesiae <ref n="ref1">Dei</ref>
-               </ref> ac <ref n="ref7">Reipublicae Christianae</ref>. Quod praestare dignetur <ref n="ref8">DEUS
+            <ref n="ref1">Ecclesiae <ref n="ref1">Dei</ref>
+               </ref> ac <ref n="ref2">Reipublicae Christianae</ref>. Quod praestare dignetur <ref n="ref3">DEUS
             Optimus Maximus, qui est benedictus in saecula <app n="app1">
                      <rdg n="rdg1" wit="T">seculorum. Amen</rdg>
                   </app>.</ref>

@@ -45,65 +45,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="addrLine" occurs="1"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="51"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -186,15 +128,15 @@
             <titlePart n="titlePart1">Epistula Stephani Broderici ad Francescum di Nobili dictum Cheream (25. Ianuarii 1531.)</titlePart>
          </docTitle>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="epistula">
             <head n="head1">A di 21 ditto. Copia di vna lettera da Buda di 25 Zener 1531 per il reverendo domino
           Broderico, eletto sirmiense, consiliario regio, a domino Francesco di Nobili ditto
           Cherea.</head>
-            <pb n="pb2"/>
-            <opener n="opener3">Magnifice domine et amice honorande salutem et seruiciorum comendationem.</opener>
+            <pb n="pb1"/>
+            <opener n="opener1">Magnifice domine et amice honorande salutem et seruiciorum comendationem.</opener>
 
-            <p n="p4">Ego post meum a Vestra dominatione discessum, licet fuerim in multis et diversis
+            <p n="p1">Ego post meum a Vestra dominatione discessum, licet fuerim in multis et diversis
           difficultatibus et periculis in mari et in terra, omnibus tamen Deo duce superatis perueni
           tandem huc ad Majestatem regiam, dominum meum clementissimum, quem reperi hic Bude optime
           sanum et incolumem. De statu vero sue Majestatis id possum Vestrae dominationi scribere,
@@ -229,14 +171,14 @@
           ad Vestram dominationem perscribere, ut serenissimo Principi et domino domino duci
           Venetiarum, domino nostro gratioso, Vestra dominatio ostendere velit, et etiam dominis
           meis observandissimis oratoribus regum Francie et Anglie. </p>
-            <closer n="closer5">
+            <closer n="closer1">
                <salute n="salute1">Dominationem vestram felicissime valere opto. </salute>
-               <dateline n="dateline2">Datum Bude xxv Jannuarij anno Domini 1531.</dateline>
-               <signed n="signed3">
+               <dateline n="dateline1">Datum Bude xxv Jannuarij anno Domini 1531.</dateline>
+               <signed n="signed1">
                   <add n="add1">Sottoscritta</add>
-                  <abbr n="abbr2">E. V. magce.</abbr> amicus et frater S. Brodericus, electus Sirmiensis,
+                  <abbr n="abbr1">E. V. magce.</abbr> amicus et frater S. Brodericus, electus Sirmiensis,
             consiliarius regius.</signed>
-               <address n="address4">
+               <address n="address1">
                   <addrLine n="addrLine1">A tergo: Al nobile ms. Francesco di Nobili di Luca, ditto el Cherea, amico et come fratello honorando.</addrLine>
                </address>
             </closer>

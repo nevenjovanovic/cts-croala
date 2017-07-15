@@ -39,58 +39,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="byline" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="corr" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="epigraph" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="190"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="3"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="13"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="4"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -159,51 +108,51 @@
         <body xml:lang="lat" n="body1">
             <div n="div1" type="poesis-epica" met="hexameter">
                 <head n="head1">Šala. Viator Zagorianus Jožko Hranjec</head>
-            <byline n="byline2">Versibus macaronicis celebratus. Od + Franje Milašinovića.</byline>
-                <epigraph n="epigraph3">
+            <byline n="byline1">Versibus macaronicis celebratus. Od + Franje Milašinovića.</byline>
+                <epigraph n="epigraph1">
                <quote n="quote1">Arma virumque cano.</quote>
             </epigraph>
-                <l n="l4">Aestus erat, ljudi sudabant, vrane ziabant,</l>
-                <l n="l5">Ipse senex Hranjec prae žedja, praeque vrućina</l>
-                <l n="l6">Bogme perivisset, nisi dobro vince bibisset.</l>
-                <l n="l7">Zagrabiae nemoguć tantos perferre calores</l>
-                <l n="l8">Ad peregrinandum se vu Zagorje resolvit.</l>
-                <l n="l9">Illa volens još pred smrtjum loca grata videre,</l>
-                <l n="l10">In quibus u dobroj volji cmokare puellas</l>
-                <l n="l11">Atque snehas olim bene podkovare solebat.</l>
-                <l n="l12">Ergo parabat na put sve, što je potrebno.</l>
-                <l n="l13">Prot podagri grandes iz škrljačine coturni</l>
-                <l n="l14">Prot gonagri caligae jarčina e pelle sašite,</l>
-                <l n="l15">Una kučma, unum bekeš cum duplice bunda,</l>
-                <l n="l16">Cuncta proti prehladjenju contraque catharum</l>
-                <l n="l17">Pro victu skrb su vzele stare semper amicae</l>
-                <l n="l18">Jula makovnjačam spekla mu, Dora pogačam;</l>
-                <l n="l19">Librarumque decem lepa Neža prekuhala šunkicu,</l>
-                <l n="l20">Ast kosmatačam čuturam plusquam unius urnae</l>
-                <l n="l21">Implevit vrhom generoso Jalžica vinom.</l>
-                <l n="l22">Tandem iz Jaruna venit Pavliša fiaker</l>
-                <l n="l23">Cum lojtris et carpento, quod Dreka vocatur,</l>
-                <l n="l24">Quodve duo suhi jedva traxere cabelli.</l>
-                <l n="l25">Currus erat sine tecto, ideo Mihalinka debela</l>
-                <l n="l26">Desuper expandit crinolinam krovaque fecit</l>
-                <l n="l27">Ac intus posuit vanjkušce nadevene perjem.</l>
-                <l n="l28">Huc ubi consedit naš Hranjec Jožko viator,</l>
-                <l n="l29">Protinus objačen modico Pavliša cremato,</l>
-                <l n="l30">Coepit equos žegetare bičem, žegetare bičalom</l>
-                <l n="l31">Tunc illi hrzabant et sicut strele volabant.</l>
-                <l n="l32">Prospexit patulis Novaves zvedljiva fenestris</l>
-                <milestone n="milestone33" unit="column"/>
-                <l n="l34">Sed nil jam vidit nisis gustam ex pulvere maglam</l>
-                <l n="l35">Ac in utroque polo bliskos gromosque frequentes.</l>
-                <l n="l36">Vectum u oblakih Klempek exclamat Eliam.</l>
-                <l n="l37">Conspectas dixit vu zraku Jagica sagas</l>
-                <l n="l38">Ter Tončina crucem formabat, Miško devicas,</l>
-                <l n="l39">Magnus in auxilium mučenicas Imbro vocabat.</l>
-                <l n="l40">Nunc mihi vos omnes Zagorske dicite Vile,</l>
-                <l n="l41">Quas Hranjec noster potepando transiit ora?</l>
-                <l n="l42">Quae mala sustinuit, quid ubique hvale vrednoga fecit?</l>
-                <l n="l43">Prima inter reliquas sic inquit vila zlatarska:</l>
-                <sp n="sp44">
+                <l n="l1">Aestus erat, ljudi sudabant, vrane ziabant,</l>
+                <l n="l2">Ipse senex Hranjec prae žedja, praeque vrućina</l>
+                <l n="l3">Bogme perivisset, nisi dobro vince bibisset.</l>
+                <l n="l4">Zagrabiae nemoguć tantos perferre calores</l>
+                <l n="l5">Ad peregrinandum se vu Zagorje resolvit.</l>
+                <l n="l6">Illa volens još pred smrtjum loca grata videre,</l>
+                <l n="l7">In quibus u dobroj volji cmokare puellas</l>
+                <l n="l8">Atque snehas olim bene podkovare solebat.</l>
+                <l n="l9">Ergo parabat na put sve, što je potrebno.</l>
+                <l n="l10">Prot podagri grandes iz škrljačine coturni</l>
+                <l n="l11">Prot gonagri caligae jarčina e pelle sašite,</l>
+                <l n="l12">Una kučma, unum bekeš cum duplice bunda,</l>
+                <l n="l13">Cuncta proti prehladjenju contraque catharum</l>
+                <l n="l14">Pro victu skrb su vzele stare semper amicae</l>
+                <l n="l15">Jula makovnjačam spekla mu, Dora pogačam;</l>
+                <l n="l16">Librarumque decem lepa Neža prekuhala šunkicu,</l>
+                <l n="l17">Ast kosmatačam čuturam plusquam unius urnae</l>
+                <l n="l18">Implevit vrhom generoso Jalžica vinom.</l>
+                <l n="l19">Tandem iz Jaruna venit Pavliša fiaker</l>
+                <l n="l20">Cum lojtris et carpento, quod Dreka vocatur,</l>
+                <l n="l21">Quodve duo suhi jedva traxere cabelli.</l>
+                <l n="l22">Currus erat sine tecto, ideo Mihalinka debela</l>
+                <l n="l23">Desuper expandit crinolinam krovaque fecit</l>
+                <l n="l24">Ac intus posuit vanjkušce nadevene perjem.</l>
+                <l n="l25">Huc ubi consedit naš Hranjec Jožko viator,</l>
+                <l n="l26">Protinus objačen modico Pavliša cremato,</l>
+                <l n="l27">Coepit equos žegetare bičem, žegetare bičalom</l>
+                <l n="l28">Tunc illi hrzabant et sicut strele volabant.</l>
+                <l n="l29">Prospexit patulis Novaves zvedljiva fenestris</l>
+                <milestone n="milestone1" unit="column"/>
+                <l n="l30">Sed nil jam vidit nisis gustam ex pulvere maglam</l>
+                <l n="l31">Ac in utroque polo bliskos gromosque frequentes.</l>
+                <l n="l32">Vectum u oblakih Klempek exclamat Eliam.</l>
+                <l n="l33">Conspectas dixit vu zraku Jagica sagas</l>
+                <l n="l34">Ter Tončina crucem formabat, Miško devicas,</l>
+                <l n="l35">Magnus in auxilium mučenicas Imbro vocabat.</l>
+                <l n="l36">Nunc mihi vos omnes Zagorske dicite Vile,</l>
+                <l n="l37">Quas Hranjec noster potepando transiit ora?</l>
+                <l n="l38">Quae mala sustinuit, quid ubique hvale vrednoga fecit?</l>
+                <l n="l39">Prima inter reliquas sic inquit vila zlatarska:</l>
+                <sp n="sp1">
                     <l n="l1">Heu multum longumque foret pripovedat ab ovo,</l>
                     <l n="l2">Quomodo Zagrabia profugus Zagorska subivit</l>
                     <l n="l3">Haec loca, nil ab aquis sed totum od kapljice vinske</l>
@@ -225,144 +174,144 @@
                     <l n="l18">Hanc tenet e censu. Taj židov ubique notus</l>
                     <l n="l19">Veselje i radost habuit dum nuper <sic n="sic1">cidem</sic>
                </l>
-                    <milestone n="milestone20" unit="page"/>
-                    <l n="l21">Filius est natus; pak to se razme vocavit</l>
-                    <l n="l22">Vicinos omnes, kad se obrezavalo dete.</l>
-                    <l n="l23">Tunc illis coenam pripravit dal je solennem,</l>
-                    <l n="l24">Multos melitas, za obleznut prste placentas</l>
-                    <l n="l25">Et frixos pullos, pečenaque guskina jetra,</l>
-                    <l n="l26">Lactucas dulces et kuhana duriter ova,</l>
-                    <l n="l27">I janjca i srnu, sed nil de carne suila.</l>
-                    <l n="l28">Ergo die veneris, kad bi jur zapalo sunce,</l>
-                    <l n="l29">Festivi sensim concurrunt undique gosti,</l>
-                    <l n="l30">Curribus ac in equis, bližnji pešicando profecti</l>
-                    <l n="l31">Sed tamen haud segnes ad tempus omnes se sistunt.</l>
-                    <l n="l32">Egregius putnik Hranjec hoc tempore laeto</l>
-                    <l n="l33">Jam fuit in Zlatar et sederat ante popinam,</l>
-                    <l n="l34">Atque premišljabat, quae sit mundana čalarnost.</l>
-                    <l n="l35">Cumque foret veoma zamišljen, saepe falernum</l>
-                    <l n="l36">Dulce piuckabat. Penes illum transiit omnis.</l>
-                    <l n="l37">Illuc qui venit, već ni ga nitko prepoznal,</l>
-                    <l n="l38">Sic mutavit ei veram putna haljina formam.</l>
-                    <l n="l39">Et quia brada illi putem <sic n="sic1">sucreverat</sic> alba,</l>
-                    <l n="l40">Zrašćena cum brkis, nec multis tonsa diebus</l>
-                    <l n="l41">Illum spectabant gosti et pro šahter habebant,</l>
-                    <l n="l42">Pro Šahter puerum qui circumcidere venit.</l>
-                    <l n="l43">Accedunt ergo turmatim seque ponizno</l>
-                    <l n="l44">Inclinant cupidi noža cum škarje videre,</l>
-                    <l n="l45">Hasque ut meštrias ipsis ostenderet urgent</l>
-                    <l n="l46">Faeminae ac exquirunt ab eo, kak prave turice</l>
-                    <l n="l47">Quomodo maturas solet obrezare puellas.</l>
-                    <l n="l48">Hranjec <sic n="sic1">irratus</sic> Šahterum se esse negabat</l>
-                    <l n="l49">Jurabatque simul per goras perque planinas.</l>
-                    <l n="l50">Nemo credebat, sed facta est maxima larma,</l>
-                    <l n="l51">Insurgunt omnes in eum, pars ruke ligabat</l>
-                    <l n="l52">Pars oculos obvelabat, pars noge tenebat</l>
-                    <l n="l53">Suspectum volunt ad selskam ducere kladam.</l>
-                    <l n="l54">Ille autem primo coepit drage duše rogare,</l>
-                    <l n="l55">Sed postquam penitus junačka efferbuit ira,</l>
-                    <l n="l56">Dirupit funes sad sim sad versus onamo</l>
-                    <l n="l57">Dušmane quassakat manibus, pedibusque ritabat</l>
-                    <l n="l58">Quove magis spotant illum, magis ille vudira,</l>
-                    <l n="l59">Praecipue balas validis ferit ictibus heros.</l>
-                    <l n="l60">Interea Ferkuljka senex klafrando perorat,</l>
-                    <l n="l61">Desinite o, inquit kumi kumeque feroci</l>
-                    <l n="l62">Concertare viro. Sit špas a parte, docebo,</l>
-                    <l n="l63">Vos ego brez krvi kaplje <sic n="sic1">infalibile</sic> signum</l>
-                    <l n="l64">Quo quis homo hic? brzo bez najmanje dvojbe.</l>
-                    <l n="l65">Solvite ei caligas, ipsas odvežite gaćas,</l>
-                    <l n="l66">Ut liceat plene sokolovo cernere gnjezdo,</l>
-                    <l n="l67">Proputio integro jest kršćen. At secus ipse</l>
-                    <l n="l68">Si circumcisus est šahterum esse putate.</l>
-                    <l n="l69">Dixerat. <sic n="sic1">Accurunt</sic> i v jednom temporis hipu</l>
-                    <l n="l70">Expediunt quod erat <sic n="sic1">suosum</sic>. Ferkuljka deinde</l>
-                    <l n="l71">Te skrovne inspexit per magna ocularia kute,</l>
-                    <l n="l72">Ac exclamavit: Ni to Šahter, at ingens</l>
-                    <l n="l73">Virtutis castae. Dok sviet se ljubil, amatum</l>
-                    <l n="l74">Agnosco veterem pred let trideset amicum,</l>
-                    <l n="l75">Hi pulchri bistrique oculi kak zviezde micantes</l>
-                    <l n="l76">Haec facies kak cikla rubens, haec vasta ramena</l>
-                    <l n="l77">Hic nasus kak krumpirec okrugel, et amplus,</l>
-                    <l n="l78">Hoc što sam vidla, tam delectabile pondus,</l>
-                    <l n="l79">Omnia ljubavi su ut blažena rudera nostrae.</l>
-                    <l n="l80">O Jožko Jožko! quae nos felicia fata</l>
-                    <l n="l81">Conjunxere danas. — Dragomu sic illa locuta,</l>
-                    <l n="l82">Na vrat se rukami suspendit et oscula fixit.</l>
-                    <l n="l83">Ista vident alii mox larma desiit omnis,</l>
-                    <l n="l84">Plaudebant omnes, ac oprošćenje rogantes,</l>
-                    <l n="l85">Ex plenis flašis fundum usque bibere mirovno.</l>
-                    <l n="l86">Haecque ita praeclare vu selu gesta Zlataru</l>
-                    <milestone n="milestone87" unit="column"/>
-                    <l n="l88">Baš zlatimi slovami nigro inscripsere camino.</l>
+                    <milestone n="milestone1" unit="page"/>
+                    <l n="l20">Filius est natus; pak to se razme vocavit</l>
+                    <l n="l21">Vicinos omnes, kad se obrezavalo dete.</l>
+                    <l n="l22">Tunc illis coenam pripravit dal je solennem,</l>
+                    <l n="l23">Multos melitas, za obleznut prste placentas</l>
+                    <l n="l24">Et frixos pullos, pečenaque guskina jetra,</l>
+                    <l n="l25">Lactucas dulces et kuhana duriter ova,</l>
+                    <l n="l26">I janjca i srnu, sed nil de carne suila.</l>
+                    <l n="l27">Ergo die veneris, kad bi jur zapalo sunce,</l>
+                    <l n="l28">Festivi sensim concurrunt undique gosti,</l>
+                    <l n="l29">Curribus ac in equis, bližnji pešicando profecti</l>
+                    <l n="l30">Sed tamen haud segnes ad tempus omnes se sistunt.</l>
+                    <l n="l31">Egregius putnik Hranjec hoc tempore laeto</l>
+                    <l n="l32">Jam fuit in Zlatar et sederat ante popinam,</l>
+                    <l n="l33">Atque premišljabat, quae sit mundana čalarnost.</l>
+                    <l n="l34">Cumque foret veoma zamišljen, saepe falernum</l>
+                    <l n="l35">Dulce piuckabat. Penes illum transiit omnis.</l>
+                    <l n="l36">Illuc qui venit, već ni ga nitko prepoznal,</l>
+                    <l n="l37">Sic mutavit ei veram putna haljina formam.</l>
+                    <l n="l38">Et quia brada illi putem <sic n="sic1">sucreverat</sic> alba,</l>
+                    <l n="l39">Zrašćena cum brkis, nec multis tonsa diebus</l>
+                    <l n="l40">Illum spectabant gosti et pro šahter habebant,</l>
+                    <l n="l41">Pro Šahter puerum qui circumcidere venit.</l>
+                    <l n="l42">Accedunt ergo turmatim seque ponizno</l>
+                    <l n="l43">Inclinant cupidi noža cum škarje videre,</l>
+                    <l n="l44">Hasque ut meštrias ipsis ostenderet urgent</l>
+                    <l n="l45">Faeminae ac exquirunt ab eo, kak prave turice</l>
+                    <l n="l46">Quomodo maturas solet obrezare puellas.</l>
+                    <l n="l47">Hranjec <sic n="sic1">irratus</sic> Šahterum se esse negabat</l>
+                    <l n="l48">Jurabatque simul per goras perque planinas.</l>
+                    <l n="l49">Nemo credebat, sed facta est maxima larma,</l>
+                    <l n="l50">Insurgunt omnes in eum, pars ruke ligabat</l>
+                    <l n="l51">Pars oculos obvelabat, pars noge tenebat</l>
+                    <l n="l52">Suspectum volunt ad selskam ducere kladam.</l>
+                    <l n="l53">Ille autem primo coepit drage duše rogare,</l>
+                    <l n="l54">Sed postquam penitus junačka efferbuit ira,</l>
+                    <l n="l55">Dirupit funes sad sim sad versus onamo</l>
+                    <l n="l56">Dušmane quassakat manibus, pedibusque ritabat</l>
+                    <l n="l57">Quove magis spotant illum, magis ille vudira,</l>
+                    <l n="l58">Praecipue balas validis ferit ictibus heros.</l>
+                    <l n="l59">Interea Ferkuljka senex klafrando perorat,</l>
+                    <l n="l60">Desinite o, inquit kumi kumeque feroci</l>
+                    <l n="l61">Concertare viro. Sit špas a parte, docebo,</l>
+                    <l n="l62">Vos ego brez krvi kaplje <sic n="sic1">infalibile</sic> signum</l>
+                    <l n="l63">Quo quis homo hic? brzo bez najmanje dvojbe.</l>
+                    <l n="l64">Solvite ei caligas, ipsas odvežite gaćas,</l>
+                    <l n="l65">Ut liceat plene sokolovo cernere gnjezdo,</l>
+                    <l n="l66">Proputio integro jest kršćen. At secus ipse</l>
+                    <l n="l67">Si circumcisus est šahterum esse putate.</l>
+                    <l n="l68">Dixerat. <sic n="sic1">Accurunt</sic> i v jednom temporis hipu</l>
+                    <l n="l69">Expediunt quod erat <sic n="sic1">suosum</sic>. Ferkuljka deinde</l>
+                    <l n="l70">Te skrovne inspexit per magna ocularia kute,</l>
+                    <l n="l71">Ac exclamavit: Ni to Šahter, at ingens</l>
+                    <l n="l72">Virtutis castae. Dok sviet se ljubil, amatum</l>
+                    <l n="l73">Agnosco veterem pred let trideset amicum,</l>
+                    <l n="l74">Hi pulchri bistrique oculi kak zviezde micantes</l>
+                    <l n="l75">Haec facies kak cikla rubens, haec vasta ramena</l>
+                    <l n="l76">Hic nasus kak krumpirec okrugel, et amplus,</l>
+                    <l n="l77">Hoc što sam vidla, tam delectabile pondus,</l>
+                    <l n="l78">Omnia ljubavi su ut blažena rudera nostrae.</l>
+                    <l n="l79">O Jožko Jožko! quae nos felicia fata</l>
+                    <l n="l80">Conjunxere danas. — Dragomu sic illa locuta,</l>
+                    <l n="l81">Na vrat se rukami suspendit et oscula fixit.</l>
+                    <l n="l82">Ista vident alii mox larma desiit omnis,</l>
+                    <l n="l83">Plaudebant omnes, ac oprošćenje rogantes,</l>
+                    <l n="l84">Ex plenis flašis fundum usque bibere mirovno.</l>
+                    <l n="l85">Haecque ita praeclare vu selu gesta Zlataru</l>
+                    <milestone n="milestone2" unit="column"/>
+                    <l n="l86">Baš zlatimi slovami nigro inscripsere camino.</l>
                 </sp>
-                    <l n="l45">Vertite paulisper židovskoj terga večeri</l>
-                    <l n="l46">Jamque audite novum casum, quem vila Sutinska</l>
-                    <l n="l47">Vezda per valles canit et juga zagoriana</l>
-                    <l n="l48">Temporibus quae canet cunctis do sudnjega dana.</l>
-                    <l n="l49">Nunquam, ait, hic fuerat tam lustig živoque družtvo,</l>
-                    <l n="l50">Quam postquam putnik Hranjec ad balnea venit,</l>
-                    <l n="l51">Nemo sic novit vu dobru ponere volju</l>
-                    <l n="l52">Ac mensas condire šalam condire šalatum,</l>
-                    <l n="l53">Quando colloquium bika narravit et osla,</l>
-                    <l n="l54">Magnus risus erat, quo žene crepare volebant.</l>
-                    <l n="l55">Attamen u kupelji quod eidem contigit, et quas</l>
-                    <l n="l56">Sustinuit, stiskas, mukas, mortisque timores,</l>
-                    <l n="l57">Non risu dignum est, sed strašno et golemo čudo.</l>
-                    <l n="l58">Hoc equidem breviter, kak stvar se dogodila dicam.</l>
-                        <l n="l59">Dum fuerat rano jutro modiceque fenestris</l>
-                        <l n="l60">Prospexit bela zora suis: Laetissimus Hranjec</l>
-                        <l n="l61">Descendit calidas prvi se kupat in undas,</l>
-                        <l n="l62">Et postquam dulci je objačil nectare grlce,</l>
-                        <l n="l63">Grandia mu postavi cornua scarificator,</l>
-                        <l n="l64">Et veluti leporem našpika, vel sicut adulto</l>
-                        <l n="l65">Cervo dispungit fixis gola pleća sagittis.</l>
-                        <l n="l66">Sic tamquam martyr za sve grehe tortus abunde</l>
-                        <l n="l67">Delituit tactus kak duh sine corpore v kutu.</l>
-                        <l n="l68">Interea cviliunt motae de cardine portae.</l>
-                        <l n="l69">Et subeunt selske et šumske haec ad balnea nymphae</l>
-                        <l n="l70">Ad dexteram partem stare pergunt, mlađe sinistram</l>
-                        <l n="l71">Nudaque rite lavant vu toploj corpora vodi,</l>
-                        <l n="l72">Et <sic n="sic1">eclauda</sic> viris na glas secreta loquentes</l>
-                        <l n="l73">Exultant in aquis <sic n="sic1">lastae</sic>. Sed jao pomagaj!</l>
-                        <l n="l74">Quando vident subito mužkarca sakritoga v kutu</l>
-                        <l n="l75">Ut furiae currunt sim tam trgantque capillos,</l>
-                        <l n="l76">Et quasi perdiderant vocem, samo jedna profatur</l>
-                        <l n="l77">Fortiter ad reliquas: Sestrice! quis iste profanus?</l>
-                        <l n="l78">Nos spectat nudas, pak ovde reconditus audit?</l>
-                        <l n="l79">O pudor! an liceat toliku <sic n="sic1">perfere</sic> sramotu?</l>
-                        <l n="l80">Aut hic non vivat, crna aut nos zemljica vivas</l>
-                        <l n="l81">Deglutiat. Dixit. Cito na njeg turba nahrupi.</l>
-                        <l n="l82">Hae žegetant, illae šćipant, hae cornua raptant</l>
-                        <l n="l83">Illae zagutire volunt, pars jedna vtopiti,</l>
-                        <l n="l84">Pars alia inclamat dicens hoćemo ga škopiti,</l>
-                        <l n="l85">Omnes pod pupkom za rog certare videntur.</l>
-                        <l n="l86">Haec inter ženske krvave pericula zlobe;</l>
-                        <l n="l87">Infelix Hranjec vix sapu od muke trahebat,</l>
-                        <l n="l88">Insuper ingentem on hip post et ab ante catharum</l>
-                        <l n="l89">Accepit, simul et resonam gore doljeque <sic n="sic1">tusim</sic>
+                    <l n="l40">Vertite paulisper židovskoj terga večeri</l>
+                    <l n="l41">Jamque audite novum casum, quem vila Sutinska</l>
+                    <l n="l42">Vezda per valles canit et juga zagoriana</l>
+                    <l n="l43">Temporibus quae canet cunctis do sudnjega dana.</l>
+                    <l n="l44">Nunquam, ait, hic fuerat tam lustig živoque družtvo,</l>
+                    <l n="l45">Quam postquam putnik Hranjec ad balnea venit,</l>
+                    <l n="l46">Nemo sic novit vu dobru ponere volju</l>
+                    <l n="l47">Ac mensas condire šalam condire šalatum,</l>
+                    <l n="l48">Quando colloquium bika narravit et osla,</l>
+                    <l n="l49">Magnus risus erat, quo žene crepare volebant.</l>
+                    <l n="l50">Attamen u kupelji quod eidem contigit, et quas</l>
+                    <l n="l51">Sustinuit, stiskas, mukas, mortisque timores,</l>
+                    <l n="l52">Non risu dignum est, sed strašno et golemo čudo.</l>
+                    <l n="l53">Hoc equidem breviter, kak stvar se dogodila dicam.</l>
+                        <l n="l54">Dum fuerat rano jutro modiceque fenestris</l>
+                        <l n="l55">Prospexit bela zora suis: Laetissimus Hranjec</l>
+                        <l n="l56">Descendit calidas prvi se kupat in undas,</l>
+                        <l n="l57">Et postquam dulci je objačil nectare grlce,</l>
+                        <l n="l58">Grandia mu postavi cornua scarificator,</l>
+                        <l n="l59">Et veluti leporem našpika, vel sicut adulto</l>
+                        <l n="l60">Cervo dispungit fixis gola pleća sagittis.</l>
+                        <l n="l61">Sic tamquam martyr za sve grehe tortus abunde</l>
+                        <l n="l62">Delituit tactus kak duh sine corpore v kutu.</l>
+                        <l n="l63">Interea cviliunt motae de cardine portae.</l>
+                        <l n="l64">Et subeunt selske et šumske haec ad balnea nymphae</l>
+                        <l n="l65">Ad dexteram partem stare pergunt, mlađe sinistram</l>
+                        <l n="l66">Nudaque rite lavant vu toploj corpora vodi,</l>
+                        <l n="l67">Et <sic n="sic1">eclauda</sic> viris na glas secreta loquentes</l>
+                        <l n="l68">Exultant in aquis <sic n="sic1">lastae</sic>. Sed jao pomagaj!</l>
+                        <l n="l69">Quando vident subito mužkarca sakritoga v kutu</l>
+                        <l n="l70">Ut furiae currunt sim tam trgantque capillos,</l>
+                        <l n="l71">Et quasi perdiderant vocem, samo jedna profatur</l>
+                        <l n="l72">Fortiter ad reliquas: Sestrice! quis iste profanus?</l>
+                        <l n="l73">Nos spectat nudas, pak ovde reconditus audit?</l>
+                        <l n="l74">O pudor! an liceat toliku <sic n="sic1">perfere</sic> sramotu?</l>
+                        <l n="l75">Aut hic non vivat, crna aut nos zemljica vivas</l>
+                        <l n="l76">Deglutiat. Dixit. Cito na njeg turba nahrupi.</l>
+                        <l n="l77">Hae žegetant, illae šćipant, hae cornua raptant</l>
+                        <l n="l78">Illae zagutire volunt, pars jedna vtopiti,</l>
+                        <l n="l79">Pars alia inclamat dicens hoćemo ga škopiti,</l>
+                        <l n="l80">Omnes pod pupkom za rog certare videntur.</l>
+                        <l n="l81">Haec inter ženske krvave pericula zlobe;</l>
+                        <l n="l82">Infelix Hranjec vix sapu od muke trahebat,</l>
+                        <l n="l83">Insuper ingentem on hip post et ab ante catharum</l>
+                        <l n="l84">Accepit, simul et resonam gore doljeque <sic n="sic1">tusim</sic>
                   </l>
-                        <l n="l90">Undique sic presens kad bi jur pričel hriputat,</l>
-                        <l n="l91">Jamque propinquaret zla sudbina, spesque salutis</l>
-                        <l n="l92">Nulla refulgeret, na pomoć ecce dolosa</l>
-                        <l n="l93">Ferkuljka u kutu skrita ut zelotypa Juno</l>
-                        <l n="l94">Advolat et postquam nikomu nevidjena Amatum</l>
-                        <l n="l95">Induerat caligis jarčina ex pelle paratis</l>
-                        <l n="l96">
+                        <l n="l85">Undique sic presens kad bi jur pričel hriputat,</l>
+                        <l n="l86">Jamque propinquaret zla sudbina, spesque salutis</l>
+                        <l n="l87">Nulla refulgeret, na pomoć ecce dolosa</l>
+                        <l n="l88">Ferkuljka u kutu skrita ut zelotypa Juno</l>
+                        <l n="l89">Advolat et postquam nikomu nevidjena Amatum</l>
+                        <l n="l90">Induerat caligis jarčina ex pelle paratis</l>
+                        <l n="l91">
                      <corr n="corr1" resp="NJ">Mox</corr> illum (tko bi veruval) mutavit in hircum.</l>
-                        <l n="l97">Hoc nymphae videre animal od strašnoga smeha</l>
-                        <l n="l98">Ferme disruptae. Nit su već dvojile visum</l>
-                        <l n="l99">Ante virum pravi i živi phantasma fuisse</l>
-                        <l n="l100">Ergo sedatae rubačis pečisque resumtis</l>
-                        <l n="l101">Exibant thermis ac brege i jarke petebant</l>
-                        <l n="l102">Veloces cursu ut srne hrtique banatski.</l>
-                        <l n="l103">
+                        <l n="l92">Hoc nymphae videre animal od strašnoga smeha</l>
+                        <l n="l93">Ferme disruptae. Nit su već dvojile visum</l>
+                        <l n="l94">Ante virum pravi i živi phantasma fuisse</l>
+                        <l n="l95">Ergo sedatae rubačis pečisque resumtis</l>
+                        <l n="l96">Exibant thermis ac brege i jarke petebant</l>
+                        <l n="l97">Veloces cursu ut srne hrtique banatski.</l>
+                        <l n="l98">
                      <corr n="corr1">At</corr> Hranjec ita delusis srećno omine nymphis</l>
-                        <l n="l104">Deposuit larvam: egressus kak golub amoenus,</l>
-                        <l n="l105">Nec circumcisa sed cielom in stipite kožom</l>
-                        <l n="l106">Virtute ingenti junačko srce probavit</l>
-                        <l n="l107">Perpetuumque spolu mužkomu fecit honorem.</l>
-                        <l n="l108">Sed satis est. Jam musa liram suspendit. Odičan</l>
-                        <l n="l109">Caetera pri dobroj volji canet ipse viator.</l>
+                        <l n="l99">Deposuit larvam: egressus kak golub amoenus,</l>
+                        <l n="l100">Nec circumcisa sed cielom in stipite kožom</l>
+                        <l n="l101">Virtute ingenti junačko srce probavit</l>
+                        <l n="l102">Perpetuumque spolu mužkomu fecit honorem.</l>
+                        <l n="l103">Sed satis est. Jam musa liram suspendit. Odičan</l>
+                        <l n="l104">Caetera pri dobroj volji canet ipse viator.</l>
                     
                 
             </div>

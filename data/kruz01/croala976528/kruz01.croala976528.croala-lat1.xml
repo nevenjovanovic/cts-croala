@@ -52,61 +52,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="2"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -192,17 +138,17 @@
                     papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 3, f. 307. Fragmento sigilli annularis.
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 3, f. 307. Fragmento sigilli annularis.
                     Editio: THEINER 1860, n. DCCCLXII, p. 656.</note>
 
 
-                <opener n="opener3">
+                <opener n="opener1">
                <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
                     in Christo patri et domino, domino Clementi providentia pape sacrosancto
-                        <expan n="expan2">pontifici</expan> maximo, <expan n="expan3">domino</expan> observandissimo <note n="note4" resp="BJ">[Alia manu:] Petri Crusicz, capitanei Segnie, 5. Octobris.</note>
+                        <expan n="expan1">pontifici</expan> maximo, <expan n="expan2">domino</expan> observandissimo <note n="note2" resp="BJ">[Alia manu:] Petri Crusicz, capitanei Segnie, 5. Octobris.</note>
                     Sanctissime pater! Post beatorum pedum oscula, devotam ac humilem
                     commendationem.</opener>
-                <p n="p4">Per presentes meas Sanctitatem Tuam certam reddo, quemadmodum, dum Romę agerem,
+                <p n="p1">Per presentes meas Sanctitatem Tuam certam reddo, quemadmodum, dum Romę agerem,
                     eidem notificavi conditiones castri Clisii et angustias, imo extremitates, in
                     quibus populus Clissiensis versabatur ob assiduas incursiones et depopulationes,
                     quibus sine intermissione ab hostibus Christiani nominis premebatur, omnesque
@@ -219,7 +165,7 @@
                     vacuum hostibus mox facile capiendum relinquerent. Tandem receptis ab eis
                     pluribus litteris, quod amplius ibi moras trahere nec vellent nec possent sine
                     victui necessariis, divino fretus auxilio et promissis Sanctitatis Tuę ad eos me
-                    contuli. Quos fere omnes hinc <gap n="gap2" reason="lacuna"/>17 dispersos comperi et quos
+                    contuli. Quos fere omnes hinc <gap n="gap1" reason="lacuna"/>17 dispersos comperi et quos
                     maxima cum difficultate multa nomine Sanctitatis Tuę eisdem promittens ad
                     castrum revocavi, quod scilicet Sanctitas Tua et illos et castrum sub
                     protectione sua in posterum recipiet et tutabit tam in castro, quam extra.
@@ -227,9 +173,9 @@
                     nostri enixissime rogo, quantum subsidium (si quod habet in animo Sanctitas Tua
                     transmittere et in beneficium istius castri et populi conferre) cito
                     transmittat, quia periculum est in mora. Hostes in diu noctuque circa moenia
-                    insultant et hii miselli non habentes unde vivere <note n="note3" resp="BJ">17 Litterae
+                    insultant et hii miselli non habentes unde vivere <note n="note1" resp="BJ">17 Litterae
                         tres – in longitudine circiter 1 cm – sunt illegibiles. </note>
-                    <milestone n="milestone4" unit="page"/> diffugiunt per diversa loca victum quęritantes et sic
+                    <milestone n="milestone1" unit="page"/> diffugiunt per diversa loca victum quęritantes et sic
                     vereor, ne postea, cum Sanctitas Tua providere voluerit, occupato ab hostibus
                     castro conatus Sanctitatis Tuę frustrati depereant, prout omnia praemissa melius
                     declarabunt Georgius Heremita et nobilis civis Anchonitanus, dominus Gabriel de
@@ -237,12 +183,12 @@
                     viderunt et norunt. Insuper quęcunque nomine meo dictus Heremita Sanctitati Tuę
                     exponere voluerit, eidem tanquam nuntio meo plenariam fidem Sanctitas Tua
                     adhibere non dedignabitur.</p>
-                <closer n="closer5">Bene valeat Sanctitas Tua, <gap n="gap1" reason="lacuna"/> exhibitorem praesentium
+                <closer n="closer1">Bene valeat Sanctitas Tua, <gap n="gap1" reason="lacuna"/> exhibitorem praesentium
                     mittimus. Cui eadem pro beni[gnitati sua –– –]18, cui me, castrum ac populum
                     Clisiensem plurimum humiliter comendo, et eadem Sanctitas Tua vivat usque ad
-                    annos Petri et ultra <abbr n="abbr2">etc.</abbr> Datum Clisii, quinta Octobris MDXXV. Eiusdem
+                    annos Petri et ultra <abbr n="abbr1">etc.</abbr> Datum Clisii, quinta Octobris MDXXV. Eiusdem
                     Sanctitatis Vestre mancipium deditissimum Petrus Crusich, capitaneus Segnię et
-                    comes Clisii <abbr n="abbr3">etc.</abbr>
+                    comes Clisii <abbr n="abbr2">etc.</abbr>
             </closer>
 
             </div>

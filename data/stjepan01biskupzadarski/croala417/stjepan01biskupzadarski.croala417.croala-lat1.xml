@@ -50,55 +50,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="signatures" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -167,9 +119,9 @@
          <div n="div1" type="prosa-donatio">
     
             <p n="p1">Territorium sancti Crisogoni in insula in loco, qui antiquo nomine Flaueico dicitur, nunc uero Postimana nominatur, in quo loco Prestancius episcopus una cum Maio, fratre suo, priore, edificauerant ecclesiam ad honorem beati archangeli Michahelis, et, quibus ualuerant dotarunt beneficiis. Traso denique, qui illis diebus huic nostro cenobio preerat abbas, prospiciens hunc locum sibi suisque fratribus satis esse congruum et ad suam utilitatem nimis proficuum, uocauit ad se dictos fratres et petiuit illum disponens eis necessitatem suorum fratrum ac domus dei. Cuius uoluntatem ac peticionem consecuti sunt dictus presul et frater eius obtuleruntque in obsequio abbatis et fratrum tam ecclesiam, quam edificarant, quamque adiacencia territoria et ut perpetuo beati martiris cella fieret, tradentes eam legaliter coram nonnullis Iaderensium, stabiliunt et confirmant. Quod factum utique inconuulsum mansit temporibus ipsorum. Sed post obitum illorum quidam temptabant subtrahere aliquid de donatis iam ecclesie dei territoriis. Qua de causa ueniens ad insulam filius dicti prioris Gregorius, similiter Iaderensis prior et imperialis patrikyus ac tocius Dalmacie stratigo, ad insulam cum suis consobrinis <sic n="sic1">filii</sic> dicti episcopi, quatinus quis iam nunquam posset in aliquo seruos dei molestare, predicta territoria, sicut a suis patribus sacro cenobio donata fuerant, clarius propalauerunt confirmarunt et his terminis terminarunt: a mari uidelicet usque ad moncium summitates, et a fundo uallis, que in oriente post prefatam ecclesiam esse cernitur, in quo fossatus habetur, qui contra ipsos montes mitti uidetur usque maceriam, que ultra desertum oppidum in parte occidentali similiter habetur, quo eciam tunc ob sui facti memoriam lapidum pro signo pusillum statuunt aceruum. </p>
-            <closer n="closer2">
+            <closer n="closer1">
                <signatures n="signatures1">Et hec quippe nomina sunt eorum qui huius rei cum eo tunc adiutores, cooperatores et testes affuerunt, quorum iussu et uoluntate et hoc cyrographum scribere fecimus: inprimis <corr n="corr1">scilicet</corr> Prestancius tribunus, Dabro tribunus, Martinus tribunus, Cerneca tribunus, Andreas tribunus, qui postea prior effectus est, Dabro tribunus, Sergius tribunus, Georgius tribunus, Maius tribunus, Ursana tribunus, Petrus tribunus, Pancella tribunus et alii plurimi.</signatures>
-               <signed n="signed2">Ego Stephanus, Iaderensis episcopus, horum et aliorum nobilium plurimorum consilio et uoluntate, iussu et testificatione curis prepeditus nonnullis cyrographum hoc rustico sermone conscripsi.</signed>
+               <signed n="signed1">Ego Stephanus, Iaderensis episcopus, horum et aliorum nobilium plurimorum consilio et uoluntate, iussu et testificatione curis prepeditus nonnullis cyrographum hoc rustico sermone conscripsi.</signed>
             </closer>
          </div>
         </body>

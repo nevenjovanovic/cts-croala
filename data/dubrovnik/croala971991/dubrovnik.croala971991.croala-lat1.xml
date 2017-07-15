@@ -52,58 +52,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="org" occurs="1"/>
-          <tagUsage gi="orgName" occurs="3"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -193,21 +142,21 @@
                     VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 3, f. 68.</note>
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 3, f. 68.</note>
 
-                <opener n="opener3">Sanctissime in Christo pater, pater clementissime! Post pedum humilia oscula
+                <opener n="opener1">Sanctissime in Christo pater, pater clementissime! Post pedum humilia oscula
                     beatorum.</opener>
-                <p n="p4">Misimus ad pedes Sanctitatis Vestre <persName n="persName1">Bernardum de Binzola</persName>, unum de nobilibus
+                <p n="p1">Misimus ad pedes Sanctitatis Vestre <persName n="persName1">Bernardum de Binzola</persName>, unum de nobilibus
                     nostris, presentium exhibitorum pro quibusdam negociis nostris expediendis.
                     Supplicamus eidem Sanctitati Vestrae, ut his, quę nomine nostro ille exponet,
                     tantam fidem habere dignetur, quantam nobis, si coram loqueremur, haberet,
                     votivam pręterea illi expeditionem concedere, quam a Sanctitate Vestra speramus
                     et humiliter exoramus.</p>
-                <closer n="closer5">Cui nos nostraque omnia supliciter ac devote commendamus. Ex Ragusio, die
+                <closer n="closer1">Cui nos nostraque omnia supliciter ac devote commendamus. Ex Ragusio, die
                     25. Martii MDXXV. Eiusdem Sanctitatis Vestrę Devotissimi filii rector et
                     consilium Rhagusii</closer>
 
-                <milestone n="milestone6" unit="page"/>
+                <milestone n="milestone1" unit="page"/>
             </div>
         </body>
     </text>

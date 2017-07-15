@@ -49,57 +49,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="6"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="6"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="8"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="9"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -185,7 +135,7 @@
           RHACUS. EJUS OBSEQUII MONUMENTUM LUBENS OFFERT DEDICATQUE ORATIO</titlePart>
          </docTitle>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
       
          <div n="div1" type="oratio">
         
@@ -413,11 +363,11 @@
           describeret et metiretur trans Oceanum semotissimas regiones, quas cum Hispaniarum rege
           statuerat permutare. Illum denique Sylvii Cardinalis Valentii nobilissimi atque ad omnia
           magna nati, vestri<note place="foot" n="note1">Vide <bibl n="bibl1">Annali di Mantova scritti da
-              Scipione Agnello Maffei, l. II. c. 7. </bibl>ubi haec habentur: <q n="q2">
+              Scipione Agnello Maffei, l. II. c. 7. </bibl>ubi haec habentur: <q n="q1">
                      <foreign n="foreign1" xml:lang="it">Valenti famiglia
               detta dal Janelli nobilissima e discesa dall' antico Epidauro, oggi Ragusa</foreign>
                   </q>: ut
-            refert Rogerius ipse, <bibl n="bibl3">De Solis ac Lunae defectibus, lib. IV. ad
+            refert Rogerius ipse, <bibl n="bibl2">De Solis ac Lunae defectibus, lib. IV. ad
             vers. 855</bibl>.</note> origine civis, patres conscripti, quo utebatur ad sanctiora consilia,
           incitamento voluit adhibere ad astronomiae domicilium ponendum atque adornandum. Verum
           Sylvii primum, deinde Benedicti mors consequuta haec Romae ornamenta tunc invidit. Qui vero
@@ -534,19 +484,19 @@
           vobis jam factum gratulor, quo angustioribus ditionis terminis potentiaeque tenemur, eo
           latioribus sapientiae virtutisque finibus Rhacusinum nomen ac famam cum perpetua reipublicae
           incolumitate imposterum etiam propagent atque amplificent.</p>
-            <closer n="closer6">FINIS</closer>
+            <closer n="closer1">FINIS</closer>
          </div>
       
       </body>
-      <back xml:lang="lat" n="back3">
+      <back xml:lang="lat" n="back1">
          <div n="div1" type="epigramma">
             <head n="head1">EPIGRAMMA</head>
-            <l n="l2">Haec tibi ego, Rogeri, ingrato in funere solvi,</l>
-            <l n="l3"> Ne foret heu nostrae mutus amicitiae</l>
-            <l n="l4">Longa aetate dolor. Sed laudes non ego possim,</l>
-            <l n="l5"> Non alius quivis aequiparare tuas;</l>
-            <l n="l6">Qui, quantum omnigeno doctrinae lumine praestas,</l>
-            <l n="l7"> Tantum omne ingenium vincis et eloquium.</l>
+            <l n="l1">Haec tibi ego, Rogeri, ingrato in funere solvi,</l>
+            <l n="l2"> Ne foret heu nostrae mutus amicitiae</l>
+            <l n="l3">Longa aetate dolor. Sed laudes non ego possim,</l>
+            <l n="l4"> Non alius quivis aequiparare tuas;</l>
+            <l n="l5">Qui, quantum omnigeno doctrinae lumine praestas,</l>
+            <l n="l6"> Tantum omne ingenium vincis et eloquium.</l>
          </div>
       </back>
   </text>

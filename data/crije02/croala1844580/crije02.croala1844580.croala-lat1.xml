@@ -44,62 +44,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="2"/>
-          <tagUsage gi="addrLine" occurs="2"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="3" withId="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="7"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="keywords" occurs="4"/>
-          <tagUsage gi="langUsage" occurs="2"/>
-          <tagUsage gi="language" occurs="3"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="name" occurs="26"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="2"/>
-          <tagUsage gi="p" occurs="16"/>
-          <tagUsage gi="particDesc" occurs="2"/>
-          <tagUsage gi="persName" occurs="18"/>
-          <tagUsage gi="person" occurs="12"/>
-          <tagUsage gi="place" occurs="15"/>
-          <tagUsage gi="placeName" occurs="17"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="2"/>
-          <tagUsage gi="socecStatus" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="supplied" occurs="13"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="11"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -284,7 +229,7 @@
          <div n="div1" type="epistula" xml:id="Mar.Bon.1504">
             <div type="epistula-caput" n="div1">
                     <milestone unit="page" n="milestone1"/>
-                    <p n="p2">
+                    <p n="p1">
                             <address n="address1">
                                     <addrLine n="addrLine1">Nobili viro domino <name n="name1">Marino Nicolai Bono</name>, amico suo singulari</addrLine>
                                     <addrLine n="addrLine2">
@@ -295,22 +240,22 @@
             </div>
             <div type="epistula-textus" n="div2">
                <milestone unit="page" n="milestone1"/>
-                    <opener n="opener2">
+                    <opener n="opener1">
                   <name n="name1">Aelius</name> 
                   <name n="name2">Mario</name> salutem.</opener>
-               <p n="p3">Non quo habeam quid ad te scribam, sed ut absens tecum loquar, haec scribo. Nam cum eras in suburbano, licet alloqui te et videre saepius quatriduo non licuit, tamen non tanto tui desiderio afficiebar, qui prope in oculis eras, et te uidere uidebar, qui quotidie hoc facere poteram. Nunc postquam ad <num n="num1" value="300">xxx</num> lapidem semotus es, magis magisque in singulas horas in tuo ore et sermone conquiescere cupio; et quia non possum hoc facere moleste fero. Quare <name n="name2">Iunium</name> auunculum tuum crebro conuenio, quicum congresus, et deambulatiunculę per forum et mutui de te sermones, qui salibus et iocis habundant, mihi pergrati sunt. Qui cito redibis plena et onusta scapha conchiliis, quibus bimare <name n="name3">Stagnum</name> affluit. Tanti est illud custodire ne pereant tot deliciae, quibus nec <name n="name4">Lucrina littora</name>, nec amoenitas <name n="name5">Baiarum</name> aut insignes <name n="name6">Caprea<supplied n="supplied1">e</supplied>
-                  </name> praeferantur. Quare te tot habere uoluptates gaudeo, sed quia plenus et pinguis venter nihil sublime, nihil tenue cogitat, nec modo corpus, sed etiam mentem contaminat, fuge luxum, caue ingluuiem, detestere asotiam; hanc <name n="name7">Cyrcen</name>, has <name n="name8">Syrenas</name>, haec monstra ut <name n="name9">Ulysses</name> elucteris. Sint domi <name n="name10">Milesia</name>, nec <name n="name11">Capuam</name>, aut <name n="name12">Tarentum</name>, aut <name n="name13">Sybaritarum</name> mores sapias. Hinc maius periculum est quam ab hostibus; nec <name n="name14">Stagno</name> quam <name n="name15">Stagnum</name> time. Haec monentis boni consule, quae scis, tenes et observas. Scio enim te tanquam <name n="name16">Pisonem</name> frugi, quare laudo quando hortor quod facis ut facias, teque innitere rogo. Etsi bene currentibus nihil opus est admoueri calcaria, iuuatur tamen sonipes hortantium clamore. Sic tuo curriculo meae laudes nescio quas alas addiicient.</p>
-                    <p n="p4">Sed quia tibi non usum sed abusum scis esse interdictum, propterea ne graueris ad nos mittere <supplied n="supplied1">non</supplied> dico pira <name n="name2">Signina</name> aut <name n="name3">
-                     <supplied n="supplied1">Par</supplied>mensem</name> caseum, ne dicam <name n="name4">Docleatem</name>. Sed <gap n="gap5" reason="osteceno"/> 
-                  <supplied n="supplied6">a</supplied>d nos nobi<supplied n="supplied7">les</supplied> 
-                  <gap n="gap8" reason="osteceno"/> 
-                  <supplied n="supplied9">c</supplied>erasos <name n="name10">Ponicenses</name>, et <supplied n="supplied11">uuas pr</supplied>ecoquas <name n="name12">Stagnenses</name>, et ostrea e<supplied n="supplied13">dulia</supplied> 
-                  <name n="name14">Bistrice<supplied n="supplied1">nses</supplied>
-                  </name> et murias fossitias <gap n="gap15" reason="osteceno"/>is ad nos <gap n="gap16" reason="osteceno"/>as, et quando laudi tibi <gap n="gap17" reason="osteceno"/> mihi et auunculo tuo te non solu<supplied n="supplied18">m</supplied> 
-                  <gap n="gap19" reason="osteceno"/> 
-                  <supplied n="supplied20">faci</supplied>lem sed <supplied n="supplied21">etiam</supplied> prodigum esse. quamuis ti<gap n="gap22" reason="osteceno"/> 
-                  <supplied n="supplied23">sis</supplied> frugi et parcus, atque nobis tui desiderium his munusculis solabere. Quod si facies cito bis facies. </p>
-                    <closer n="closer5">
+               <p n="p1">Non quo habeam quid ad te scribam, sed ut absens tecum loquar, haec scribo. Nam cum eras in suburbano, licet alloqui te et videre saepius quatriduo non licuit, tamen non tanto tui desiderio afficiebar, qui prope in oculis eras, et te uidere uidebar, qui quotidie hoc facere poteram. Nunc postquam ad <num n="num1" value="300">xxx</num> lapidem semotus es, magis magisque in singulas horas in tuo ore et sermone conquiescere cupio; et quia non possum hoc facere moleste fero. Quare <name n="name1">Iunium</name> auunculum tuum crebro conuenio, quicum congresus, et deambulatiunculę per forum et mutui de te sermones, qui salibus et iocis habundant, mihi pergrati sunt. Qui cito redibis plena et onusta scapha conchiliis, quibus bimare <name n="name2">Stagnum</name> affluit. Tanti est illud custodire ne pereant tot deliciae, quibus nec <name n="name3">Lucrina littora</name>, nec amoenitas <name n="name4">Baiarum</name> aut insignes <name n="name5">Caprea<supplied n="supplied1">e</supplied>
+                  </name> praeferantur. Quare te tot habere uoluptates gaudeo, sed quia plenus et pinguis venter nihil sublime, nihil tenue cogitat, nec modo corpus, sed etiam mentem contaminat, fuge luxum, caue ingluuiem, detestere asotiam; hanc <name n="name6">Cyrcen</name>, has <name n="name7">Syrenas</name>, haec monstra ut <name n="name8">Ulysses</name> elucteris. Sint domi <name n="name9">Milesia</name>, nec <name n="name10">Capuam</name>, aut <name n="name11">Tarentum</name>, aut <name n="name12">Sybaritarum</name> mores sapias. Hinc maius periculum est quam ab hostibus; nec <name n="name13">Stagno</name> quam <name n="name14">Stagnum</name> time. Haec monentis boni consule, quae scis, tenes et observas. Scio enim te tanquam <name n="name15">Pisonem</name> frugi, quare laudo quando hortor quod facis ut facias, teque innitere rogo. Etsi bene currentibus nihil opus est admoueri calcaria, iuuatur tamen sonipes hortantium clamore. Sic tuo curriculo meae laudes nescio quas alas addiicient.</p>
+                    <p n="p2">Sed quia tibi non usum sed abusum scis esse interdictum, propterea ne graueris ad nos mittere <supplied n="supplied1">non</supplied> dico pira <name n="name1">Signina</name> aut <name n="name2">
+                     <supplied n="supplied1">Par</supplied>mensem</name> caseum, ne dicam <name n="name3">Docleatem</name>. Sed <gap n="gap1" reason="osteceno"/> 
+                  <supplied n="supplied2">a</supplied>d nos nobi<supplied n="supplied3">les</supplied> 
+                  <gap n="gap2" reason="osteceno"/> 
+                  <supplied n="supplied4">c</supplied>erasos <name n="name4">Ponicenses</name>, et <supplied n="supplied5">uuas pr</supplied>ecoquas <name n="name5">Stagnenses</name>, et ostrea e<supplied n="supplied6">dulia</supplied> 
+                  <name n="name6">Bistrice<supplied n="supplied1">nses</supplied>
+                  </name> et murias fossitias <gap n="gap3" reason="osteceno"/>is ad nos <gap n="gap4" reason="osteceno"/>as, et quando laudi tibi <gap n="gap5" reason="osteceno"/> mihi et auunculo tuo te non solu<supplied n="supplied7">m</supplied> 
+                  <gap n="gap6" reason="osteceno"/> 
+                  <supplied n="supplied8">faci</supplied>lem sed <supplied n="supplied9">etiam</supplied> prodigum esse. quamuis ti<gap n="gap7" reason="osteceno"/> 
+                  <supplied n="supplied10">sis</supplied> frugi et parcus, atque nobis tui desiderium his munusculis solabere. Quod si facies cito bis facies. </p>
+                    <closer n="closer1">
                   <salute n="salute1">Vale, et <name n="name1">Michaelem</name> nostrum et omnes reliquos tuos decuriones meo nomine saluta.</salute>
                </closer>
             

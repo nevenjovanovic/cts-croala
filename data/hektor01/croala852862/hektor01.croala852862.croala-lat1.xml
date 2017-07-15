@@ -42,54 +42,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="26"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="div" occurs="26"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="3"/>
-          <tagUsage gi="head" occurs="26"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="7"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lb" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="25"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4" withId="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="12"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -160,174 +113,174 @@
    <text xml:base="urn:cts:croala:hektor01.croala852862.croala-lat1:" xml:lang="lat">
       <body xml:lang="lat" n="body1">
          <gap n="gap1" resp="#NJ" reason="omissum-italice"/>
-         <div n="div2" type="poesis-inscriptio" met="pentameter">
+         <div n="div1" type="poesis-inscriptio" met="pentameter">
             <head n="head1">
                <add n="add1" resp="#NJ">2.</add>
             </head>
-            <l n="l2">Dulcidulus salsis hic latet imber aquis.</l>
+            <l n="l1">Dulcidulus salsis hic latet imber aquis.</l>
          </div>
-         <div n="div3" type="prosa-inscriptio">
+         <div n="div2" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">3.</add>
             </head>
-            <p n="p2">
-               <persName n="persName1">Petrus Hectoreus, Marini filius</persName>, <lb n="lb2"/>
-         proprio sumptu et industria <lb n="lb3"/>
+            <p n="p1">
+               <persName n="persName1">Petrus Hectoreus, Marini filius</persName>, <lb n="lb1"/>
+         proprio sumptu et industria <lb n="lb2"/>
          ad suum et amicorum usum construxit.</p>
          </div>
-         <div n="div4" type="prosa-inscriptio">
+         <div n="div3" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">4.</add>
             </head>
-            <p n="p2">
+            <p n="p1">
                <persName n="persName1">Virgo Maria, mater Dei sanctissima</persName>, sine labe originali concepta, ora pro nobis.</p>
          </div>
-         <div n="div5" type="prosa-inscriptio">
+         <div n="div4" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">5.</add>
             </head>
-            <p n="p2">Domine Iesu Christe, miserere nostri.</p>
+            <p n="p1">Domine Iesu Christe, miserere nostri.</p>
          </div>
-         <div n="div6" type="poesis-inscriptio" met="elegiacum">
+         <div n="div5" type="poesis-inscriptio" met="elegiacum">
             <head n="head1">
                <add n="add1" resp="#NJ">6.</add>
             </head>
-            <l n="l2">A quo principium, Christus bene coepta secundet,</l>
-            <l n="l3" met="pentameter">scandat et hic surgens in sua vota labor.</l>
+            <l n="l1">A quo principium, Christus bene coepta secundet,</l>
+            <l n="l2" met="pentameter">scandat et hic surgens in sua vota labor.</l>
          </div>
-         <div n="div7" type="prosa-inscriptio">
+         <div n="div6" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">7.</add>
             </head>
-            <p n="p2">Sancti Petre et Paule, orate pro nobis.</p>
+            <p n="p1">Sancti Petre et Paule, orate pro nobis.</p>
          </div>
-         <div n="div8" type="prosa-inscriptio">
+         <div n="div7" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">8.</add>
             </head>
-            <p n="p2">Omnium conditori.</p>
+            <p n="p1">Omnium conditori.</p>
          </div>
-         <gap n="gap9" reason="omissum-croatice"/>
-         <div n="div10" type="prosa-inscriptio">
+         <gap n="gap2" reason="omissum-croatice"/>
+         <div n="div8" type="prosa-inscriptio">
          
             <head n="head1">
                <add n="add1" resp="#NJ">10.</add>
             </head>
-            <p n="p2">Melior est obedientia quam victimae.</p>
+            <p n="p1">Melior est obedientia quam victimae.</p>
          </div>
-         <div n="div11" type="prosa-inscriptio">
+         <div n="div9" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">11.</add>
             </head>
-            <p n="p2">Porro unum est necessarium: si vis ad vitam ingredi, serva mandata.</p>
+            <p n="p1">Porro unum est necessarium: si vis ad vitam ingredi, serva mandata.</p>
          </div>
-         <div n="div12" type="prosa-inscriptio">
+         <div n="div10" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">12.</add>
             </head>
-            <p n="p2">
+            <p n="p1">
                <date n="date1" when="1520-02-23">Anno a salutifera Domini nostri Iesu Christi Incarnatione MCCCCCXX, die XXIII februarii.</date>
             </p>
          </div>
-         <div n="div13" type="prosa-inscriptio">
+         <div n="div11" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">13.</add>
             </head>
-            <p n="p2">Qui aliter sentiunt, videntur nescire scripturas neque virtutem Dei.</p>
+            <p n="p1">Qui aliter sentiunt, videntur nescire scripturas neque virtutem Dei.</p>
          </div>
-         <div n="div14" type="prosa-inscriptio">
+         <div n="div12" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">14.</add>
             </head>
-            <p n="p2">Res ex nomine</p>
+            <p n="p1">Res ex nomine</p>
          </div>
-         <div n="div15" type="prosa-inscriptio">
+         <div n="div13" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">15.</add>
             </head>
-            <p n="p2">Si te nosti, cur superbis?</p>
+            <p n="p1">Si te nosti, cur superbis?</p>
          </div>
-         <div n="div16" type="prosa-inscriptio">
+         <div n="div14" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">16.</add>
             </head>
-            <p n="p2">Nihil occultum</p>
+            <p n="p1">Nihil occultum</p>
          </div>
-         <div n="div17" type="poesis-inscriptio" met="elegiacum">
+         <div n="div15" type="poesis-inscriptio" met="elegiacum">
             <head n="head1">
                <add n="add1" resp="#NJ">17.</add>
             </head>
-            <l n="l2">Respice quod salvant nec opes nec gloria mundi, </l>
-            <l n="l3" met="pentameter">non decor aut aetas, mors quia cuncta rapit.</l>
+            <l n="l1">Respice quod salvant nec opes nec gloria mundi, </l>
+            <l n="l2" met="pentameter">non decor aut aetas, mors quia cuncta rapit.</l>
          </div>
-         <div n="div18" type="prosa-inscriptio">
+         <div n="div16" type="prosa-inscriptio">
 
             <head n="head1">
                <add n="add1" resp="#NJ">18.</add>
             </head>
-            <p n="p2">Connuentibus virtute et genio factum.</p>
+            <p n="p1">Connuentibus virtute et genio factum.</p>
          </div>
-         <div n="div19" type="prosa-inscriptio">
+         <div n="div17" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">19.</add>
             </head>
-            <p n="p2">Memorare novissima.</p>
+            <p n="p1">Memorare novissima.</p>
          </div>
-         <div n="div20" type="poesis-inscriptio" met="pentameter">
+         <div n="div18" type="poesis-inscriptio" met="pentameter">
             <head n="head1">
                <add n="add1" resp="#NJ">20.</add>
             </head>
-            <l n="l2">Heu, fugiunt fluxu non redeunte dies</l>
+            <l n="l1">Heu, fugiunt fluxu non redeunte dies</l>
          </div>
-         <div n="div21" type="poesis-inscriptio" met="pentameter">
+         <div n="div19" type="poesis-inscriptio" met="pentameter">
             <head n="head1">
                <add n="add1" resp="#NJ">21.</add>
             </head>
-            <l n="l2">Tempora labuntur more fluentis aquae.</l>
+            <l n="l1">Tempora labuntur more fluentis aquae.</l>
          </div>
-         <div n="div22" type="prosa-inscriptio">
+         <div n="div20" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">22.</add>
             </head>
-            <p n="p2">Qui bibit ex aqua hac, sitiet iterum.</p>
-            <gap n="gap3" reason="omissum-croatice"/>
+            <p n="p1">Qui bibit ex aqua hac, sitiet iterum.</p>
+            <gap n="gap1" reason="omissum-croatice"/>
          </div>
-         <div n="div23" type="prosa-inscriptio">
+         <div n="div21" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">24.</add>
             </head>
-            <p n="p2">Pro pauperibus</p>
+            <p n="p1">Pro pauperibus</p>
          </div>
-         <div n="div24" type="prosa-inscriptio">
+         <div n="div22" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">25.</add>
             </head>
-            <p n="p2">Pro itinerantibus</p>
+            <p n="p1">Pro itinerantibus</p>
          </div>
-         <div n="div25" type="prosa-inscriptio">
+         <div n="div23" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">26.</add>
             </head>
-            <p n="p2">Concordia fratrum</p>
+            <p n="p1">Concordia fratrum</p>
          </div>
-         <div n="div26" type="prosa-inscriptio">
+         <div n="div24" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">27.</add>
             </head>
-            <p n="p2">Si vis ad vitam ingredi, serva mandata.</p>
+            <p n="p1">Si vis ad vitam ingredi, serva mandata.</p>
          </div>
-         <div n="div27" type="prosa-inscriptio">
+         <div n="div25" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">28.</add>
             </head>
-            <p n="p2">Ad laudem Dei et honorem tuum, <persName n="persName1">Beate Roche</persName>, templum hoc edificavimus; ora eum pro nobis et protege nos. <date n="date2" when="1569">MDLXVIIII</date>
+            <p n="p1">Ad laudem Dei et honorem tuum, <persName n="persName1">Beate Roche</persName>, templum hoc edificavimus; ora eum pro nobis et protege nos. <date n="date1" when="1569">MDLXVIIII</date>
             </p>
          </div>
-         <div n="div28" type="prosa-inscriptio">
+         <div n="div26" type="prosa-inscriptio">
             <head n="head1">
                <add n="add1" resp="#NJ">29.</add>
             </head>
-            <p n="p2">Pavimentum musium thermarum Romanarum repertum <date n="date1" when="1898">anno MDCCCXCVIII</date> subest.</p>
+            <p n="p1">Pavimentum musium thermarum Romanarum repertum <date n="date1" when="1898">anno MDCCCXCVIII</date> subest.</p>
          </div>
       </body>
    </text>

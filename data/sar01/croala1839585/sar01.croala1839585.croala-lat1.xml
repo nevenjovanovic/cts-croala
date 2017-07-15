@@ -51,57 +51,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -187,26 +137,26 @@
                     papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 7, f. 512.</note>
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 7, f. 512.</note>
 
-                <opener n="opener3">
+                <opener n="opener1">
                <note n="note1" resp="BJ">[Inscriptio:]</note> Sanctissimo et beatissimo in Christo
                     patri et domino, domino Clementi divina providentia pape septimo, domino suo
                     gratiosissimo Sanctissime et beatissime in Christo pater et domine, domine mihi
                     gratiosissime! Post beatorum pedum oscula humilemque servitiorum meorum
                     commendationem.</opener>
-                <p n="p4">Ob quibusdam urgentissimis importantissimisque negotiis praesentium exhibitorem
+                <p n="p1">Ob quibusdam urgentissimis importantissimisque negotiis praesentium exhibitorem
                     nobilem Franciscum Zubranich, familiarem meum ad Sanctitatem Vestram mittere
                     decrevi. Quamobrem humiliter supplico Sanctitati Vestre, tanquam domino meo
                     gratiosissimo, quicquid idem nuntius meus Beatitudini Vestre meo nomine
                     retulerit, dignetur sibi Sanctitas Vestra fidem creditivam adhibere, ac si ego
                     personaliter ante pedes Sanctitatis Vestre adessem.</p>
-                <closer n="closer5">Cui sese humiliter et genuflexe commendo atque servitia offero. Saegnię die
+                <closer n="closer1">Cui sese humiliter et genuflexe commendo atque servitia offero. Saegnię die
                     XII Octobris MDXXXII Eiusdem Sanctitatis Vestre humilis servitor Erasmus Saÿrar
                     capitaneus Segnię</closer>
 
 
-                <milestone n="milestone6" unit="page"/>
+                <milestone n="milestone1" unit="page"/>
             </div>
         </body>
     </text>

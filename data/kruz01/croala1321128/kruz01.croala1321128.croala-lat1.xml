@@ -52,59 +52,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="9"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="45"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -190,11 +138,11 @@
                     Clementi papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 7, f. 324.</note>
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 7, f. 324.</note>
 
-                <opener n="opener3">Sanctissime ac beatissime in Christo pater et domine, domine colendissime!
+                <opener n="opener1">Sanctissime ac beatissime in Christo pater et domine, domine colendissime!
                     Post humilem commendacionem et pedum oscula beatorum.</opener>
-                <p n="p4">Novit Sanctitas Vestra, quatenus tempore discessus mei e domo mea ad urbem
+                <p n="p1">Novit Sanctitas Vestra, quatenus tempore discessus mei e domo mea ad urbem
                     miserant ad me Clissienses unanimes et concordes unum ex meis servitoribus cum
                     illis litteris Gritti, quas Sanctitati Vestre ostendimus. Alias etiam ad me
                     litteras scribendo, qualiter Clisium idem Grittus habere querit, servitores
@@ -217,20 +165,20 @@
                     eisdem et comemorando pristinam fidelitatem sanguinisque effusionem, honorabilem
                     pristinam famam ipsorum honoremque habitum, ipsis dare promittendo plurimas
                     peccunias mercesque et pannos suos, quibus traficabat. Et sic aliquot ex ipsis
-                    advenerunt ad ipsum et ubi in dicta civitate Spaleti ipsis <sic n="sic2">ostendidit</sic>
+                    advenerunt ad ipsum et ubi in dicta civitate Spaleti ipsis <sic n="sic1">ostendidit</sic>
                     annulum meum ac promisit ex parte nostra dare plures peccunias et pannos
                     libertatem fidemque perhibendo ac eosdem in gratiam recipiendo, et ipsi iterum
                     conversi promiserunt dare operam et ponere modum mihi restituere Clisium. Itaque
-                    in festo Sancti Stephani tertia die Augusti<ref n="ref3">21</ref> cum ivisset ad nundinas
+                    in festo Sancti Stephani tertia die Augusti<ref n="ref2">21</ref> cum ivisset ad nundinas
                     in Pogliciis ipse homo locumtenens supranominati Gritti Poglicianosque
                     octuaginta dimisisset pro custodia in Clisio. Clisienses vero habito consul- to
                     et firmato iuramento ordinaverunt in vigilia Sancti Stephani, ut crastina die
                     defferentes arma sub vestibus et, cum portas castri aperirent, sic intus
                     introirent – et ita fecerunt. Et cum auxilio omnipotentis Dei mediantibus
-                    orationibus Sanctitatis Vestrae occuparunt ci <note n="note4" resp="BJ">20 A. d. XV Cal.
+                    orationibus Sanctitatis Vestrae occuparunt ci <note n="note1" resp="BJ">20 A. d. XV Cal.
                         Iul. </note>
-                    <note n="note5" resp="BJ">21 Inventio Stephani protomartyris. </note>
-                    <milestone n="milestone6" unit="page"/> vitatem et castrum Clisii et omnibus Poglicanis
+                    <note n="note2" resp="BJ">21 Inventio Stephani protomartyris. </note>
+                    <milestone n="milestone1" unit="page"/> vitatem et castrum Clisii et omnibus Poglicanis
                     repulsam dederunt, relinquentes solum- modo duos, qui erant vicecapitanei
                     prenotati Gritti, et illo statim pro me miserunt et ego eram in occulto prope
                     Clisium circa quindecim stadiorum miliare et sic illa nocte introivi castrum
@@ -251,7 +199,7 @@
                     fideles milites et alios quinquaginta mittat Sanctitas Vestra et qui isti et
                     illi habeant stipendium solutum pro uno anno, et quod victualia ponantur in
                     castrum, pulveres et munitiones, quia ille traditor et infidelis exposuit totam
-                    pulverem leticiam faciendo, demum et panem <expan n="expan7">bischoctum</expan> consumpsit
+                    pulverem leticiam faciendo, demum et panem <expan n="expan1">bischoctum</expan> consumpsit
                     (quem Sanctitas Vestra ibi posuit) hinc inde per malas vias distribuendo. Itaque
                     pro passione Iesu Christi citissime provideat Sanctitas Vestra et ponatis
                     necessaria in dictum castrum, quia ille traditor iterum praeparat exercitum et
@@ -273,14 +221,14 @@
                     miraculose Deo placitum est, ut per- venit ad manus Christianas –, maxime, si
                     Turche intrassent, nulla vis eos ab inde expellere posset. De hoc vero oppido,
                     quod sub Chlisio Turche fabricarunt, si illo tunc, quum Clisium rehabui,
-                    habuissem secum trecentos archibuserios, ipsum Deo volente <milestone n="milestone8" unit="page"/> habuissem. Ideo Sanctitas Vestra provideat et modum ponat,
+                    habuissem secum trecentos archibuserios, ipsum Deo volente <milestone n="milestone2" unit="page"/> habuissem. Ideo Sanctitas Vestra provideat et modum ponat,
                     dictum oppidum Turcharum ruinetur, priusquam exercitus Turcharum non reversurus,
                     Deus faciat redisset, et hac de causa mittimus ad Sanctitatem Vestram familiares
                     et amicos nostros, nobiles viros, dominum Andream dictum Bucichlia et dominum
                     Anthonium, exhibitores praesentium, et quicquid ex parte nostra Sanctitati
                     Vestre dixerunt, ipsis amplam fidem praebere dignetur, quia sunt verba nostra,
                     et similiter Sanctitati Vestre me commendo, que felicis Petri annos videat.</p>
-                <closer n="closer5">Ex castro Clisii, die 28. mensis Augusti 1532. Devotissimus servitor Petrus
+                <closer n="closer1">Ex castro Clisii, die 28. mensis Augusti 1532. Devotissimus servitor Petrus
                     Crusich comes Clissie et Lepoglave</closer>
             </div>
         </body>

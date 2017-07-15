@@ -39,63 +39,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="7" withId="6"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="3"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="7"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="33"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lb" occurs="1"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="8"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="49"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -183,74 +127,74 @@
          <div n="div1" type="poesis">
             <head n="head1">Carmina Fausti Verantii in codice Traguriensi Variorum Dalmaticorum. Epistula eiusdem ad Antonium Verantium</head>
 
-            <pb n="pb2"/>
-            <div n="div3" type="poesis-epigramma" xml:id="fauvr-vd01" met="elegiacum">
+            <pb n="pb1"/>
+            <div n="div1" type="poesis-epigramma" xml:id="fauvr-vd01" met="elegiacum">
                <head n="head1"> In imaginem Christi crucifixi. Patauii, Faustus Verantius, 1569.</head>
-               <l n="l2">Respice mortalis genitoris, respice, uultus</l>
-               <l n="l3"> Faedatos, nostram quo lauet ipse luem.</l>
-               <l n="l4">Vincitur, quo nos Erebi dissoluat ab oris</l>
-               <l n="l5"> Irato gratos reddat et usque patri.</l>
+               <l n="l1">Respice mortalis genitoris, respice, uultus</l>
+               <l n="l2"> Faedatos, nostram quo lauet ipse luem.</l>
+               <l n="l3">Vincitur, quo nos Erebi dissoluat ab oris</l>
+               <l n="l4"> Irato gratos reddat et usque patri.</l>
             </div>
-            <div n="div4" type="poesis-hymnus" xml:id="fauvr-vd02" met="sapphicum">
+            <div n="div2" type="poesis-hymnus" xml:id="fauvr-vd02" met="sapphicum">
                <head n="head1"> Ad Deum carmen Saphicum, idem</head>
-               <l n="l2">Adsis, o summi fabricator orbis,</l>
-               <l n="l3">Tu pias aures aperi precanti,</l>
-               <l n="l4">Qui tuum semper coluit beatum</l>
-               <l n="l5"> Numen ubique.</l>
-               <l n="l6">Protegas longo numero dierum</l>
-               <l n="l7">Addito cari patrui seniles</l>
-               <l n="l8">Et simul fessi genitoris annos,</l>
-               <l n="l9"> Summe deorum.</l>
-               <l n="l10">Serua et tu matrem sobolis decorae,</l>
-               <l n="l11">Da pius, oro, mihi gratiamque,</l>
-               <l n="l12">Nomen ut possim generisque dignus</l>
-               <l n="l13"> Gerere famam.</l>
-               <pb n="pb14"/>
+               <l n="l1">Adsis, o summi fabricator orbis,</l>
+               <l n="l2">Tu pias aures aperi precanti,</l>
+               <l n="l3">Qui tuum semper coluit beatum</l>
+               <l n="l4"> Numen ubique.</l>
+               <l n="l5">Protegas longo numero dierum</l>
+               <l n="l6">Addito cari patrui seniles</l>
+               <l n="l7">Et simul fessi genitoris annos,</l>
+               <l n="l8"> Summe deorum.</l>
+               <l n="l9">Serua et tu matrem sobolis decorae,</l>
+               <l n="l10">Da pius, oro, mihi gratiamque,</l>
+               <l n="l11">Nomen ut possim generisque dignus</l>
+               <l n="l12"> Gerere famam.</l>
+               <pb n="pb1"/>
             </div>
-            <div n="div5" type="poesis-epigramma" xml:id="fauvr-vd03" met="elegiacum">
+            <div n="div3" type="poesis-epigramma" xml:id="fauvr-vd03" met="elegiacum">
                <head n="head1"> Ad reuerendum archiepiscopum Strigoniensem in electione sua
               <note place="foot" n="note1">
                      <p n="p1">
                         <emph n="emph1">Post </emph>sua <emph n="emph2">ommisi </emph>Patauii.</p>
                   </note> Nouembri 1569, Patauii, idem</head>
-               <l n="l2">Semper et ingentes dum uoluunt aethera caelos,</l>
-               <l n="l3"> Viuat fęlices transigat atque dies</l>
-               <l n="l4">Antonius, praestans animi uirtute beata,</l>
-               <l n="l5"> Vrantius, eloquio non minus ille potens, </l>
-               <l n="l6">Archus et inuigilans speculator Pannonis orae</l>
-               <l n="l7"> Strigonii fidus pastor et ipse gregis.</l>
+               <l n="l1">Semper et ingentes dum uoluunt aethera caelos,</l>
+               <l n="l2"> Viuat fęlices transigat atque dies</l>
+               <l n="l3">Antonius, praestans animi uirtute beata,</l>
+               <l n="l4"> Vrantius, eloquio non minus ille potens, </l>
+               <l n="l5">Archus et inuigilans speculator Pannonis orae</l>
+               <l n="l6"> Strigonii fidus pastor et ipse gregis.</l>
             </div>
-            <div n="div6" type="poesis-epigramma" xml:id="fauvr-vd04" met="elegiacum">
+            <div n="div4" type="poesis-epigramma" xml:id="fauvr-vd04" met="elegiacum">
                <head n="head1"> Ad Petrum Difnicum. Patauii, idem</head>
-               <l n="l2">Diffnice, Charchariae uates non infime diuae,</l>
-               <l n="l3"> Diffnice, Sicensis gloria flosque togae:</l>
-               <l n="l4">Si quid habere iuuat clarorum stemmata auorum,</l>
-               <l n="l5"> Si quid et ingenii munera pulchra ualent,</l>
-               <l n="l6">Te tua perpetuis decorat prosapia signis,</l>
-               <l n="l7"> Teque tuosque feris
+               <l n="l1">Diffnice, Charchariae uates non infime diuae,</l>
+               <l n="l2"> Diffnice, Sicensis gloria flosque togae:</l>
+               <l n="l3">Si quid habere iuuat clarorum stemmata auorum,</l>
+               <l n="l4"> Si quid et ingenii munera pulchra ualent,</l>
+               <l n="l5">Te tua perpetuis decorat prosapia signis,</l>
+               <l n="l6"> Teque tuosque feris
               <note place="foot" n="note1">Correxi e seris.</note>
              uindicat usque rogis;</l>
-               <l n="l8">At decus ingenii et sacrae te Palladis artes,</l>
-               <l n="l9">At uirtus diuis assimilari facit.</l>
+               <l n="l7">At decus ingenii et sacrae te Palladis artes,</l>
+               <l n="l8">At uirtus diuis assimilari facit.</l>
             </div>
-            <div n="div7" type="poesis-epigramma" xml:id="fauvr-vd05" met="hexameter">
+            <div n="div5" type="poesis-epigramma" xml:id="fauvr-vd05" met="hexameter">
                <head n="head1"> In insignia Veranciorum, idem</head>
-               <l n="l2">Lilia sex uernant quae de Verantia stirpe</l>
-               <l n="l3">Impiger Alcides seuit
+               <l n="l1">Lilia sex uernant quae de Verantia stirpe</l>
+               <l n="l2">Impiger Alcides seuit
               <note place="foot" n="note1">
                      <p n="p1">
                         <emph n="emph1">Correxi e </emph>seruit.</p>
                   </note>
              Pallasque rigauit,</l>
-               <l n="l4">At fouet ex alto qui conspicit omnia – Phaebus.</l>
+               <l n="l3">At fouet ex alto qui conspicit omnia – Phaebus.</l>
             </div>
          </div>
         <div n="div2" type="prosa-epistula" xml:id="fauvr-ep06">
             <head n="head1">Epistula Fausti Verantii ad Antonium Verantium, <date n="date1" when="1561-04-29">29. die Aprilis anno 1561</date>.</head>
-            <opener n="opener2">Reverendissime et Amplissime Domine, domine pater et patrue mihi gratiosissime!
+            <opener n="opener1">Reverendissime et Amplissime Domine, domine pater et patrue mihi gratiosissime!
           <salute n="salute1">Servitiorum meorum perpetuam et quam humillimam commendationem.</salute>
             </opener>
-            <p n="p3">
+            <p n="p1">
              Venit ad nos,
             Reverendissime et Amplissime domine Praesul, Andreas Dalmady, Vestrae Reverendissime
             Celsitudinis famulus VII-o kalendas Aprilis, qui est 28. dies <sic n="sic1">eiusdem</sic> mensis.
@@ -267,17 +211,17 @@
             Reverendissimam et Amplissimam Celsitudinem conservet ad multos annos, quod Vestra
             Reverendissima et Amplissima Celsitudo mihi talem praeceptorem constituerit, qui non
             solum animum, sed etiam animam curat.</p>
-            <closer n="closer4">
+            <closer n="closer1">
                <salute n="salute1">Valeat Vestra Reverendissima et Amplissima
             Celsitudo in multa saecula quaeque felicissima.</salute>
-               <dateline n="dateline2">Datum Posonii <date n="date1" when="1561-04-29">29. die Aprilis anno 1561.</date>
+               <dateline n="dateline1">Datum Posonii <date n="date1" when="1561-04-29">29. die Aprilis anno 1561.</date>
                </dateline>
             </closer>
-            <postscript n="postscript5">
+            <postscript n="postscript1">
                <p n="p1">Haec ego solus composui nesciente praeceptore Vestrae Reverendissimae et Amplissimae
           Celsitudinis</p>
             </postscript>
-            <signed n="signed6">perpetuus famulus <lb n="lb1"/>
+            <signed n="signed1">perpetuus famulus <lb n="lb1"/>
             Faustus Verantius</signed>
         </div>
       

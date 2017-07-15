@@ -54,58 +54,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="4"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="3"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="16"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -190,21 +139,21 @@
          <div n="div1" type="epistula">
             <opener n="opener1">
             Ut: Reverendo Domino Antonio Wranchio, Praeposito Ecclesiae albensis Transsylvaniae amico honorando.<note n="note1">W: Reverendo domino Antonio Wrancio praeposito ecclesiae Albensis Transsylvanae, amico honorando.</note>
-               <salute n="salute2">Reverende Domine, et amice honorandissime  <note n="note1">[W honorande]</note>! Salutem et mei plurimam commendationem.</salute>
+               <salute n="salute1">Reverende Domine, et amice honorandissime  <note n="note1">[W honorande]</note>! Salutem et mei plurimam commendationem.</salute>
             </opener>    
-            <p n="p2"> 
+            <p n="p1"> 
        Jucundae mihi fuerunt litterae Dominationis <abbr n="abbr1">V.</abbr> Reverendae, tum propter novarum rerum significationem, tum vero quod nomen meum in historiis, quas texere coepit, illustrare conetur, pro quo suo in me officio memorem me <abbr n="abbr2">D. V. R.</abbr> cognoscet atque gratum. Cumque nec patria nec parentes mei <abbr n="abbr3">D.</abbr> Vestrae Reverendae ignoti essent, brevi tamen narratione rem omnem litteris istis complecti volui. 
     </p>
-            <p n="p3">
+            <p n="p2">
         Ex nobili et antiqua stirpe Dominorum Croatiae sum oriundus. Patria mihi est Kamychaz <note n="note1">[W: Kamychacz]</note> insigni arce celebris, patrem habui Gregorium Wthyssenith <note n="note2">[W: Wthysenith]</note>, matrem vero Annam ex veteri et nobili prosapie <note n="note3">[W: prosapia]</note> Marthinusevitiorum <note n="note4">[W: Marthynusevitiorum]</note> natam. Octo igitur annos natus cum essem relicta patria in amplissimam Curiam Illustrissimi Joannis Corvini Ducis deductus sum, ab eoque in Transsylvaniam in arcem suam Hunyad missus, ubi tredecim annos non sine magna curialium miseria versatus sum, ad 20. vero aetatis annum in aulam honestissimam illustris, ac magnificae Dominae matris serenissimi quondam Principis mei Domini Joannis Regis Hungariae me contuli. Cumque <note n="note5">[W: Quumque]</note> aulica vita mihi displicere coepisset, religionem Heremitarum ingressus, quatuor annos in ordine eorum qui sine litteris erant vixi. Posteaquam vero in litteris opera cujusdam pij et eruditi Heremitae profecissem, susceptis sacris ordinibus sacerdoti <note n="note6">[W: sacerdotii]</note> non sine authoritate aliquot monasteriis praefui. Pater dum fortiter pro Patria <note n="note7">[W: paria]</note> dimicaret, manu Turcarum occubuit. Tres autem habebam fratres, ijsdem natos parentibus: Nicolaum, hominem in re militari non extremum, alterum Mathiam opinione omnium non infeliciter in litteris versatum; qui ambo naturali morte extincti sunt. Tertium 
-        <milestone n="milestone8" unit="page"/>
-        Jacobum hominem militarem, et qui non parvum specimen virtutis suae edidisset. Quum enim Nandor Alba ab Imperatore Turcarum anno dni 1521 obsessa opugnaretur graviter, praecipua huic turris, Kula (Kewles) <note n="note9">[W: Kewles]</note> quam lingua nostra vocant, pro ejus statione cesserat; ubi cum moenia pulveribus bombardarum eversa essent, asseribus tantum levissimis, unde medius ipse exstaret, ruinae locum obduxerat; tanta tamen in eo erat virtus, ea animi presentia, ut cum nec loco cederet, magnamque cladem lancea versatili hostibus ex eo loco daret, pyxidis tandem ictu interiret. Itaque Ludovico Rege in clade mohacziensi <note n="note10">[W: Mohachiensi]</note> exstincto, cum Joannes Rex in Regem Hungariae suffragio omnium ordinum Regni enuntiatus esset, Ferdinandique exercitu regia Budensi pulsus ac ad oppidum Zina <note n="note11">[W: Zyna]</note> profligatus esset, vocatus sum a Rege ex monasterio Laad ut res quasdam suas pretiosas mihi ad asservandum daret, quas recipere recusavi; deinde Rex Joannes desertus a suis in Poloniam profectus est; ultro in Poloniam usque eum secutus, terque ex Polonia iter pedibus causa Regis in Hungariam confeci, Regis inopiam ex liberalitate Dominorum Hungariae sustentans, adeoque ex Dominis Hungariae, inter quos primi nominis viri erant Jacobus de Thornalya <note n="note12">[W: Tharnalia]</note>, Stephanus Bathory de Somlyo, Paulus Arthandy et alij multi perduxerant <note n="note13">[sic; W: perduxeram]</note>, ut fidem Joannis Regis secuti, ex Hungaria officii gratia in Poloniam ad Regem venirent, et Regi in Hungariam iterum adventanti ad terminos usque Hungariae, honorifice <note n="note14">[W: eum add.]</note> excepturi, parato exercitu obviam ire non dubitarent. 
+        <milestone n="milestone1" unit="page"/>
+        Jacobum hominem militarem, et qui non parvum specimen virtutis suae edidisset. Quum enim Nandor Alba ab Imperatore Turcarum anno dni 1521 obsessa opugnaretur graviter, praecipua huic turris, Kula (Kewles) <note n="note8">[W: Kewles]</note> quam lingua nostra vocant, pro ejus statione cesserat; ubi cum moenia pulveribus bombardarum eversa essent, asseribus tantum levissimis, unde medius ipse exstaret, ruinae locum obduxerat; tanta tamen in eo erat virtus, ea animi presentia, ut cum nec loco cederet, magnamque cladem lancea versatili hostibus ex eo loco daret, pyxidis tandem ictu interiret. Itaque Ludovico Rege in clade mohacziensi <note n="note9">[W: Mohachiensi]</note> exstincto, cum Joannes Rex in Regem Hungariae suffragio omnium ordinum Regni enuntiatus esset, Ferdinandique exercitu regia Budensi pulsus ac ad oppidum Zina <note n="note10">[W: Zyna]</note> profligatus esset, vocatus sum a Rege ex monasterio Laad ut res quasdam suas pretiosas mihi ad asservandum daret, quas recipere recusavi; deinde Rex Joannes desertus a suis in Poloniam profectus est; ultro in Poloniam usque eum secutus, terque ex Polonia iter pedibus causa Regis in Hungariam confeci, Regis inopiam ex liberalitate Dominorum Hungariae sustentans, adeoque ex Dominis Hungariae, inter quos primi nominis viri erant Jacobus de Thornalya <note n="note11">[W: Tharnalia]</note>, Stephanus Bathory de Somlyo, Paulus Arthandy et alij multi perduxerant <note n="note12">[sic; W: perduxeram]</note>, ut fidem Joannis Regis secuti, ex Hungaria officii gratia in Poloniam ad Regem venirent, et Regi in Hungariam iterum adventanti ad terminos usque Hungariae, honorifice <note n="note13">[W: eum add.]</note> excepturi, parato exercitu obviam ire non dubitarent. 
     </p>
-            <p n="p4">
-        Caeteris vero rebus omnibus, quae subsequute sunt, <abbr n="abbr1">D. V.</abbr> Reverenda non solum interfuit verum etiam praefuit, ut existimem nec longa nec brevi narratione ad hanc rem cognoscendam opus esse, <note n="note2">[W: . L]</note> libellum vero recens editum et vidi libenter et legi jucundissime, omniaque illa exemplaria statim amicis distribuenda curavi.</p> 
-            <closer n="closer5">Dominationem Vestram Reverendam bene valere opto. <dateline n="dateline1">Varadini Sabatho ante Dominicam Reminiscere anno Domini 1545.</dateline>
+            <p n="p3">
+        Caeteris vero rebus omnibus, quae subsequute sunt, <abbr n="abbr1">D. V.</abbr> Reverenda non solum interfuit verum etiam praefuit, ut existimem nec longa nec brevi narratione ad hanc rem cognoscendam opus esse, <note n="note1">[W: . L]</note> libellum vero recens editum et vidi libenter et legi jucundissime, omniaque illa exemplaria statim amicis distribuenda curavi.</p> 
+            <closer n="closer1">Dominationem Vestram Reverendam bene valere opto. <dateline n="dateline1">Varadini Sabatho ante Dominicam Reminiscere anno Domini 1545.</dateline>
             </closer> 
-            <signed n="signed6">Frater Georgius Episcopus Varadiensis, Thesaurarius locumtenens et Judex Generalis.</signed> 
+            <signed n="signed1">Frater Georgius Episcopus Varadiensis, Thesaurarius locumtenens et Judex Generalis.</signed> 
  
          </div>
    

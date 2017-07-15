@@ -44,53 +44,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="5"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="4"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="supplied" occurs="15"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -159,14 +113,14 @@
             <p n="p1">
                <supplied n="supplied1">in hoc</supplied> 
                <supplied n="supplied2">tUMULO</supplied> 
-               <supplied n="supplied3">QuiESCIT</supplied> HELENA <supplied n="supplied4">FAMOsa quae fui</supplied> UXOR MICHAELI REGI <expan n="expan5">MATERQue</expan> STEFANI <expan n="expan6">Regis pacemque obtENUIT</expan> REGNI. VIII IDUS <expan n="expan7">Mensis OCTobris</expan> 
-               <supplied n="supplied8">in pacE</supplied> HIC <supplied n="supplied9">ORdinata</supplied> FUIT <supplied n="supplied10">ANno</supplied> AB <supplied n="supplied11">INCARNAtione Domini</supplied> DCCCCLXXVI <abbr n="abbr12">IND.</abbr> IV <supplied n="supplied13">CICLo</supplied> 
-               <supplied n="supplied14">
+               <supplied n="supplied3">QuiESCIT</supplied> HELENA <supplied n="supplied4">FAMOsa quae fui</supplied> UXOR MICHAELI REGI <expan n="expan1">MATERQue</expan> STEFANI <expan n="expan2">Regis pacemque obtENUIT</expan> REGNI. VIII IDUS <expan n="expan3">Mensis OCTobris</expan> 
+               <supplied n="supplied5">in pacE</supplied> HIC <supplied n="supplied6">ORdinata</supplied> FUIT <supplied n="supplied7">ANno</supplied> AB <supplied n="supplied8">INCARNAtione Domini</supplied> DCCCCLXXVI <abbr n="abbr1">IND.</abbr> IV <supplied n="supplied9">CICLo</supplied> 
+               <supplied n="supplied10">
                   <abbr n="abbr1">Lun.</abbr>
-               </supplied> V. <supplied n="supplied15">
+               </supplied> V. <supplied n="supplied11">
                   <abbr n="abbr1">ep.</abbr>
-               </supplied> XVII <supplied n="supplied16">ciclo <abbr n="abbr1">sol.</abbr>
-               </supplied> V <abbr n="abbr17">LUN.</abbr> V. <supplied n="supplied18">concURRENTE</supplied> VI. <expan n="expan19">ISTAQue</expan> VIVENS <supplied n="supplied20">FUit REGNi</supplied> MATER FUIT <supplied n="supplied21">PUPILORum TUTOrque VIDUARum</supplied> 
+               </supplied> XVII <supplied n="supplied12">ciclo <abbr n="abbr1">sol.</abbr>
+               </supplied> V <abbr n="abbr2">LUN.</abbr> V. <supplied n="supplied13">concURRENTE</supplied> VI. <expan n="expan4">ISTAQue</expan> VIVENS <supplied n="supplied14">FUit REGNi</supplied> MATER FUIT <supplied n="supplied15">PUPILORum TUTOrque VIDUARum</supplied> 
             </p>
             <p n="p2">ICQUE ASPICIENS VIR ANIME DIC MISERERE DEUS.</p>
          </div>    

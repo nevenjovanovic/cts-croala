@@ -44,62 +44,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="choice" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="451"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lg" occurs="17"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="3"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="4"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -188,9 +133,9 @@
             <titlePart n="titlePart2">Epithalamium in nuptias Vladislai Pannoniarum ac Boemiae regis et
 Annae Candaliae reginae</titlePart>
          </titlePage>
-         <div n="div2" type="prosa-epistula">
+         <div n="div1" type="prosa-epistula">
             <opener n="opener1"> Matthaeus Andronicus Tragurinus reverendissimo ac generosissimo domino Nicolao de Chiiak electo Chienadiensi perpetuam felicitatem.</opener>
-            <p n="p2">
+            <p n="p1">
   Omnes cuiuscunque notae auctores, praesul reverendissime, quos
   hactenus videre contigit, nullum opus, qualecunque id esset, sine
   dedicatione ediderunt, causam opinor esse livorem ac
@@ -211,9 +156,9 @@ Annae Candaliae reginae</titlePart>
   animi tui dotibus conferre velit, non episcopatum tibi, sed te
   episcopatui ornamento esse procul dubio inveniet.  Accedit his
   eximia Latinae linguae cognitio, quam annis quinque continuis in
-  Patavino <choice n="choice2">
+  Patavino <choice n="choice1">
                   <sic n="sic1">gymnasimo</sic>
-                  <corr n="corr2" resp="NJ">gymnasio</corr>
+                  <corr n="corr1" resp="NJ">gymnasio</corr>
                </choice> non absque summa totius
   studiosae iuventutis admiratione non hausisti modo, sed etiam
   exhausisti tanta omnium veneratione, quanta nulli unquam
@@ -226,17 +171,17 @@ Annae Candaliae reginae</titlePart>
   veriora unusquisque agnoscat, visum est hoc qualecunque opusculum
   meae summae erga celsitudinem tuam observantiae testem offerre,
   quod si tibi acceptum erit, mecum praeclarissime actum existimabo
-  omnes invidorum ac detrectatorum procellas <q n="q3">pili</q> (ut aiunt)
-  <q n="q4">facturus</q>.
+  omnes invidorum ac detrectatorum procellas <q n="q2">pili</q> (ut aiunt)
+  <q n="q3">facturus</q>.
 </p>
-            <closer n="closer3">Vale, virtutum omnium unicum columen.</closer>
+            <closer n="closer1">Vale, virtutum omnium unicum columen.</closer>
          </div>
       </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" type="poesis" met="hexameter">
             <head n="head1">Epithalamium Matthaei Andronici Tragurini in nuptias Vladislai invictissimi ac felicissimi Pannoniarum ac Boemiae regis et Annae Candaliae reginae serenissimae.
 </head>
-            <lg n="lg2">
+            <lg n="lg1">
                <l n="l1">  Nondum intemptatas pubes irruperat undas</l>
                <l n="l2">  Thessala Phrixei cognatum velleris aurum</l>
                <l n="l3">  Exposcens necdum refluo vada concita motu</l>
@@ -261,7 +206,7 @@ Annae Candaliae reginae</titlePart>
                <l n="l22">  Ossa Thetim resonant, Peneus sustinet undas</l>
                <l n="l23">  Cantibus attonitas stupefactaque flumina tardat.</l>
             </lg>
-            <lg n="lg3">
+            <lg n="lg2">
                <l n="l1">  Ecce iterum heroum redeunt felicia secla,</l>
                <l n="l2">  Rursus faustus Hymen et festae vincula taedae</l>
                <l n="l3">  Aspicis, aerea sonus ut prorumpat ab Alpe</l>
@@ -295,14 +240,14 @@ Annae Candaliae reginae</titlePart>
                <l n="l31">  Summittent cautes et saxa minantia caelo</l>
                <l n="l32">  Agnoscentque suae venientia numina divae.</l>
             </lg>
-            <lg n="lg4">
+            <lg n="lg3">
                <l n="l1">  Tu mihi legitimis facibus, Saturnia praeses,</l>
                <l n="l2">  Tu, Paphiae proles et casti cultor amoris,</l>
                <l n="l3">  Profer, Hymen, tantos quod numen iunxit amantes:</l>
                <l n="l4">  Quae festinati sacros Concordia nexit</l>
                <l n="l5">  Coniugii nodos, nexos quae Gratia sanxit.</l>
             </lg>
-            <lg n="lg5">
+            <lg n="lg4">
                <l n="l1">  Forte Dionaeos hortos sedesque petebat</l>
                <l n="l2">  Alma Venus Paphias pridem intermissa revisens</l>
                <l n="l3">  Regna sui manibus quondam fabrefacta mariti.</l>
@@ -316,7 +261,7 @@ Annae Candaliae reginae</titlePart>
                <l n="l11">  Quum Venus affata est puerum, cui plurimus ignis</l>
                <l n="l12">  Aestuat et nullos telum frustratur in ictus:</l>
             </lg>
-            <sp n="sp6" who="Venus">
+            <sp n="sp1" who="Venus">
                <lg n="lg1">
                   <l n="l1">  "Quid cessas, ignave puer? quid, lente, moraris?</l>
                   <l n="l2">  Quid non arma paras? num sat mugire iuvencos</l>
@@ -348,12 +293,12 @@ Annae Candaliae reginae</titlePart>
                   <l n="l28">  Ardeat arcanos refovens uxorius ignes!"</l>
                </lg>
             </sp>
-            <lg n="lg7">
+            <lg n="lg5">
                <l n="l1">  Dixit et ipsa suis manibus dea collocat arcum,</l>
                <l n="l2">  Suspendit nato pharetram selectaque ponit</l>
                <l n="l3">  Spicula et omnidomo succensas lampadas igne.</l>
             </lg>
-            <lg n="lg8">
+            <lg n="lg6">
                <l n="l1">  Evolat ille celer ripasque binominis Istri</l>
                <l n="l2">  Attigit armiferas, ubi Pannona terra cohortes</l>
                <l n="l3">  Explicat Othrysiae sese obiectura procellae.</l>
@@ -390,7 +335,7 @@ Annae Candaliae reginae</titlePart>
                <l n="l34">  Quoscunque in populos victricia signa movere</l>
                <l n="l35">  Et quocunque parat deterre ex hoste triumphum.</l>
             </lg>
-            <lg n="lg9">
+            <lg n="lg7">
                <l n="l1">  Regia selectis haec inter corda sagittis</l>
                <l n="l2">  Traicit acer Amor Paphiosque his addidit ignes.</l>
                <l n="l3">  Nec mora: Per teneras crescit nova flamma medullas,</l>
@@ -442,7 +387,7 @@ Annae Candaliae reginae</titlePart>
                <l n="l49">  Ignotae haud aliter flagravit amore Lacaenae</l>
                <l n="l50">  Iliaca quondam lectus Paris arbiter Ida.</l>
             </lg>
-            <lg n="lg10">
+            <lg n="lg8">
                <l n="l1">  Dumque morae impatiens amor est, dum fervidus alto</l>
                <l n="l2">  Aestuat igne vapor Sicula ferventius Aetna,</l>
                <l n="l3">  Seligit e numero procerum, cui plurimus extat</l>
@@ -468,7 +413,7 @@ Annae Candaliae reginae</titlePart>
                <l n="l23">  Inter tot tantasque nurus, quas obtulit orbis,</l>
                <l n="l24">  Anna placet: solam mens saucia cogitat Annam.</l>
             </lg>
-            <lg n="lg11">
+            <lg n="lg9">
                <l n="l1">  At Venus haec inter Paphia iam sede relicta</l>
                <l n="l2">  Tyrrhenas spectabat aquas cognataque circum</l>
                <l n="l3">  Numina Nereidas, quas inter caerula Glauce</l>
@@ -482,7 +427,7 @@ Annae Candaliae reginae</titlePart>
                <l n="l11">  Amplexu Glauci iam iamque apprensa sequentis.</l>
                <l n="l12">  Has ita formoso vultu est affata Cythera:</l>
             </lg>
-            <sp n="sp12" who="Venus">
+            <sp n="sp2" who="Venus">
                <lg n="lg1">
                   <l n="l1">  "Este, deae, mecum taedas celebrate iugales,</l>
                   <l n="l2">  Quales vix quondam stellantis regia caeli</l>
@@ -499,7 +444,7 @@ Annae Candaliae reginae</titlePart>
                   <l n="l13"> Terra, Calidonii sint, ultima regna, profundi."</l>
                </lg>
             </sp>
-            <lg n="lg13">
+            <lg n="lg10">
                <l n="l1"> Iam dea contigerat Romani moenia Planci,</l>
                <l n="l2"> Qua celeres Arar et Rhodanus sua flumina miscent,</l>
                <l n="l3"> Et iam regali constructa palatia luxu</l>
@@ -568,7 +513,7 @@ Annae Candaliae reginae</titlePart>
                <l n="l66"> Depopulata Getam positis agit otia bellis. —</l>
                <l n="l67"> Huic Venus haec roseo confestim prodidit ore:</l>
             </lg>
-            <sp n="sp14" who="Venus">
+            <sp n="sp3" who="Venus">
                <lg n="lg1">
                   <l n="l1"> "Ecquid perpetuam dulci sine coniuge vitam</l>
                   <l n="l2"> Nescia natorum, genialis nestia lecti</l>
@@ -630,12 +575,12 @@ Annae Candaliae reginae</titlePart>
                   <l n="l58"> Sidera sublimi caelestia vertice tanges."</l>
                </lg>
             </sp>
-            <lg n="lg15">
+            <lg n="lg11">
                <l n="l1"> Inde capit ceston, quo ventos illa furentes</l>
                <l n="l2"> Sistit et irati rapidos Iovis edomat ignes</l>
                <l n="l3"> Aspiratque faces et connubialia iura.</l>
             </lg>
-            <lg n="lg16" part="I">
+            <lg n="lg12" part="I">
                <l n="l1"> Senserat insolitos ignes non conscia amoris</l>
                <l n="l2"> Virgo prius; iam iam gaudet regina vocari,</l>
                <l n="l3"> Iam cupit e tanti collo pendere mariti</l>
@@ -691,7 +636,7 @@ Annae Candaliae reginae</titlePart>
                <l n="l53"> Reginae variis vernant cum casside crines</l>
                <l n="l54"> Floribus, Ismenios simulant hastilia thyrsos.</l>
             </lg>
-            <sp n="sp17" who="milites">
+            <sp n="sp4" who="milites">
                <lg n="lg1">
                   <l n="l1"> Gaudia miles agit festoque haec carmine iactat</l>
                   <l n="l2"> Militiae de more suae: "Quid, regia virgo,</l>
@@ -723,7 +668,7 @@ Annae Candaliae reginae</titlePart>
                </lg>
             </sp>
 
-            <lg n="lg18">
+            <lg n="lg13">
                <l n="l1"> Protulerat faustum miles praenuntius omen:</l>
                <l n="l2"> Assensit Lachesis, geminae assensere sorores</l>
                <l n="l3"> Cadmeoque parant saturatum murice pensum</l>

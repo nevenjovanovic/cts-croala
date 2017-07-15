@@ -48,65 +48,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="choice" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="10"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="docDate" occurs="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="11"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="2"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="5"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="51"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1" withId="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -193,19 +135,19 @@ Strukturalno označavanje potpuno.  Označen jedan tipfeler.  Bibliografski poda
   <text xml:base="urn:cts:croala:august01.croala1110472.croala-lat1:" xml:id="GAZ00" xml:lang="lat" type="epistula">
       <front xml:lang="lat" n="front1">
          <docAuthor n="docAuthor1">Georgius Augustinus Zagabriensis</docAuthor>
-         <docTitle n="docTitle2">
+         <docTitle n="docTitle1">
             <titlePart n="titlePart1">Epistola ad Nicolaum Ostphi. </titlePart>
          </docTitle>
-         <docDate n="docDate3">Bononia, <date n="date1">1454</date>.</docDate>
+         <docDate n="docDate1">Bononia, <date n="date1">1454</date>.</docDate>
       </front>
 
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1" corresp="#augustinusostphi14540708">
             <head n="head1">IV. GEORGIUS AUGUSTINUS ZAGABRIENSIS.  EPISTOLA AD NICOLAUM OSTPHI.</head>
-            <opener n="opener2">
+            <opener n="opener1">
 Georgius Augustinus Zagabriensis magnifico ac generoso domino Nicolao Ostphi praeposito Strigoniensi dignissimo s. p. d.
 </opener>
-            <p n="p3">
+            <p n="p1">
 Salvum ac incolumem te esse cupio. Quam permolesta mihi discessio mea abs te fuerit,
 nostrae consuetudinis diremptio, tuae generositati lubens, si mentem verba
 sequerentur, exponerem. Verum etiam, ne assentatoris officio fungi censerer,
@@ -234,7 +176,7 @@ hospitalitatis sibi coniunxissent: tantaeque venerationis id nomen ipsis erat, u
 foedius, nil turpius, nil denique taetrius admitti posse crederent, quam hospitem
 violare seu quavis affici molestia. Cuius rei et ipse Maro clarissimus omnium vates
 non ignarus ipsum Iovem summum deorum gentilium, etiam hospitio praefectum
-memorat. Inquit etenim: <q n="q2">Iupiter, hospitibus nam te dare iura loquuntur.</q>
+memorat. Inquit etenim: <q n="q1">Iupiter, hospitibus nam te dare iura loquuntur.</q>
 Unde et sanctum et inviolatum maximeque religionis ac observantiae
 nomen hospitii apud illos habebatur. Tua vero benignitas nos non ut
 hospites, immo ut amicos et maxima necessitudine tibi coniunctos
@@ -247,21 +189,21 @@ ac liberalem splendide accipiendo?  Tua suavitas adeo nos tibi
 coniunxit, comitas adeo devinxit, benignitas adeo obligavit, ut vix
 alicui mortalium magis astringi deberive cupierimus.  Nos exinde tua
 humanitate ac mansuetis moribus perspectis familiarius forte, quam
-convenisset, tecum egimus.  Verum etsi <sic n="sic3">nonnullas</sic> in ea,
+convenisset, tecum egimus.  Verum etsi <sic n="sic1">nonnullas</sic> in ea,
 quae tua dignitate ac amplitudine minus digna essent, incidimus, freti
 tua benivolentia ac familiaritate fortassis fines ac terminos nostri
 instituti transiebamus.  Si vero quavis in re prorsus inepti fuerimus,
 nobis persuademus, tuus etenim ingenuus animus, tua mansuetudo, tua
-facilitas hoc nobis pellicere videtur.  <corr n="corr4" resp="JA">Cumque</corr>
+facilitas hoc nobis pellicere videtur.  <corr n="corr2" resp="JA">Cumque</corr>
 tot dies permanserimus, unius tamen instar diei istic moram habuisse
 nobis creditum est. Sed quid te teneo verbis? Omnia nobis iocunda,
 omnia suavia, omnia, quae nos oblectabant, dies, quo a te abiimus,
-praecidit, ademit et <choice n="choice5">
+praecidit, ademit et <choice n="choice1">
                   <sic n="sic1">absiulit</sic>
-                  <corr n="corr2" resp="NJ">abstulit</corr>
+                  <corr n="corr1" resp="NJ">abstulit</corr>
                </choice>. Eius etenim consuetudinis usu, qua cottidie
 fruebamur quamque in noctem, quam maxime potis fuerat, protrahere
-conabamur, <sic n="sic6">abstracti,</sic> aegritudo animi non minima nobis
+conabamur, <sic n="sic2">abstracti,</sic> aegritudo animi non minima nobis
 intercessit. Nanque, uti te non fugit, nocte saepe et saepenumero in
 sermonibus conferendis producta vix separabamur. Ita vero in animum
 induco meum, nisi et somno suas partes tribuere oportuisset, ut hinc
@@ -270,10 +212,10 @@ ac caetera officia exequenda essemus, vesperam matutino crepusculo
 fando varia iunxissemus nosque dies noctis principio sermonem
 ingressos prius oppressisset, quam separaremur.
 </p>
-            <p n="p4">
+            <p n="p2">
                <choice n="choice1">
                   <corr n="corr1" resp="NJ">Discedentes</corr> 
-                  <sic n="sic2">Descedentes</sic>
+                  <sic n="sic1">Descedentes</sic>
                </choice> itaque tua ab
 humanitate, vir amplissime, tuaque nos consuetudine privari videntes,
 tametsi hoc nostra studia, quibus incumbimus, meaque praecipue exigere
@@ -287,7 +229,7 @@ visus es.  Quippe cum ea nocte in diversorio quodam constituti quieti
 dedissemus noxque plurima sui parte lapsa fuisset, quin potius iam
 aurora aderat, tota ferme cum nocte antea vigilassemus somnumque oculi
 non vidissent, tandem lumina defessa sopor ad diem vehementius
-oppressit moxque <corr n="corr2" resp="NJ">insomnium</corr> huius generis prae oculis se
+oppressit moxque <corr n="corr1" resp="NJ">insomnium</corr> huius generis prae oculis se
 obtulit, ut ipsa in visione ambigerem, anne Bononiae adhuc
 persisterem, qui tamen pridie ea excesseram.<!-- zarez --> an foris
 Bononiam pernoctarem. Tua nanque benignitas mihi adesse visa est orans
@@ -297,7 +239,7 @@ incommodi. Nobis vero tuis minime precibus acquiescere volentibus
 tuaque orata irrita linquentes navim conscendere visi sumus. Ecce
 autem nobis navigantibus subito tua optata rata fuere. Equidem magna
 vis aquae quibusdam rimis visa est in navigium irrumpere adeoque omnes
-magno timore perculsi trepidaremus <corr n="corr3">moxque</corr> ego experrectus
+magno timore perculsi trepidaremus <corr n="corr2">moxque</corr> ego experrectus
 totus sudore, quasi aqua perfunderer, dubitans, haesitans, incertus
 existens, ubinam locorum sim.  Haec quidem visio insomnii.  Verum
 aures adhibe parumper, quaeso, ut scias, quid et vigilantibus
@@ -305,19 +247,19 @@ contigerit.
 <!-- p -->
 Ego id insomnium
 nemini indicans, quippe quod non magni penderam, surgens una cum aliis navigium
-ingressus iter propositum conficere nitebamur. Cum vero trium <corr n="corr4" resp="NJ">quatuorve</corr>
+ingressus iter propositum conficere nitebamur. Cum vero trium <corr n="corr3" resp="NJ">quatuorve</corr>
                <!-- va --> 
-               <corr n="corr5">horarum</corr> 
+               <corr n="corr4">horarum</corr> 
                <!--  ocrarum? -->
 spatio per paludes immensas cursum satis felicem habuissemus, ubi nil aliud, aquas
 dumtaxat<!-- ex ai --> sub oculis, cannis circumquaque omnia referta caelumque desuper conspicere
-licebat, ut iure dixerim, <q n="q6">caelum undique et undique pontus</q>, nocturnas vigilias dorsis
+licebat, ut iure dixerim, <q n="q1">caelum undique et undique pontus</q>, nocturnas vigilias dorsis
 oppositis nonnulli, alii capita humeris adhaerentium reclinantes egregie
 restauravimus. Cumque in extremitate cursus iam affore videbamur terramque et eam
 limosam quemadmodum putredine cannarum confectam non longe abesse videntes diverso
 genere hominum, erant etenim diversi in eadem, constituto secundum varia ingenia et
 naturas aliis et aliis rebus vitiare coeperunt. Equidem nonnulli religiosi
-observantes de cultu dei conferentes religiosorum vitam paene in <corr n="corr7">caelum</corr>
+observantes de cultu dei conferentes religiosorum vitam paene in <corr n="corr5">caelum</corr>
                <!-- caeum --> extollebant
 adeo, ut uterque nostrum monachum sancti Dominici nobis deditum, ineptum quidem nobis
 hic adesse affectaret. Quidam vero conventuales largioris conscientiae de ieiuniis
@@ -345,20 +287,20 @@ habitibus ac quibusdam lagoenis vino Bononiensi plenis audientes cachinno paene
 dissolvebamur. Tandem alleviata restaurataque navi amplius trium miliariorum spatio
 pedibus viam conficere quidam nobiscum deliberavere<!-- dodana interpunkcija i novi red --> 
 </p>
-            <p n="p5">
+            <p n="p3">
 sicque casum, cui vicini fuimus,
 nobis evadere licuit, quem tibi recensere gestiebam, uti quem tuis precibus paene
 exauditis subiimus. Et forsitan, nisi quidam religiosi devotissimi nobiscum
 affuissent, — erant enim et alii procul ab <sic n="sic1">ea</sic> semoti, — poenas pro inobedientia
 etsi insomnio habita tibi luissemus. In eo vero <!-- corr. ex vere --> discrimine illico insomnii memini
-nocturnaeque visionis recordatus sum <corr n="corr2" resp="NJ">eamque</corr> obiter Heliae plurimum advertenti
+nocturnaeque visionis recordatus sum <corr n="corr1" resp="NJ">eamque</corr> obiter Heliae plurimum advertenti
 recensebam. Mirabamur vehementer, quemadmodum ipsi superi non modo tibi vigilanti,
 verum etiam sopori dedito, ut nobis persuademus, — scimus etenim, quod nondum ad
 divina officia peragenda surrexeras, — suas aures tam <!-- Tam --> faciles praebuerint, tua
 vota tam confestim exaudierunt. Certum vero habeas, nil me tibi in hac re finxisse,
 sed rem ordine actam memorasse. 
 </p>
-            <p n="p6">
+            <p n="p4">
 Demum Padum una cum navi rimis fatiscente attigeramus
 triaque milia itineris perficiendi Ferrariam usque supererant, ibi una lembo conducta
 Ferrariam sole iam ad occasum vergente adnavimus, urbem ac deinde habitationem
@@ -378,7 +320,7 @@ pectori, tua effigies nostro insculpta est cordi, urbanitas morum nostro insedit
 animo totosque nos tibi scias deditissimos, tui amantissimos, tui cupidissimos. Quod
 item erga nos tua ab humanitate fieri speramus. 
 </p>
-            <p n="p7">
+            <p n="p5">
 Haec hactenus. Ne etenim fastidium
 tuae amplitudini parare videar, finem faciam. Gratias prius immortales tuae
 magnificentiae de bona acceptione singularique humanitate, quam erga nos habueris,
@@ -388,7 +330,7 @@ oro atque obsecro, me tuam in benivolentiam ac amorem accipere velis. At ubivis
 gentium, ubivis terrarum fuero, tuo honori tuueque dignitati amplificandae Georgium
 Augustinum nunquam defuturum tibi persuadeas, velim. Etiam atque etiam vale.
 </p>
-            <p n="p8">
+            <p n="p6">
 Ianus nostro in reditu nondum reversus erat. Sabbato tamen proximo, qui est dies
 tertius Kalendas Iulias, rediit. Quam laeti eum viderimus, vix verbis explicare
 possem, uti eum, quem magnopere exoptaveramus. Illico eum convenientes tuo ei nomine
@@ -396,18 +338,18 @@ salutes diximus, quas gratissimas habuit eumque esse ac fore tibi coniunctissimu
 certo scias. Postquam commoditas temporum aderit, te visendum istuc accedere
 pollicitus est.
 </p>
-            <p n="p9">
+            <p n="p7">
  Tua me humanitas commendatum habeat, tuam praeterea magnificentiam
 oro, dominis Petro et Gregorio dominoque Marcello Romano nomine meo dic
 salutem. Marcello pro suis calamis, quibus me donaverat, age singulares gratiarum
 actiones dominoque Ioanni Treverensi me commenda. 
 </p>
-            <closer n="closer10">
+            <closer n="closer1">
                <salute n="salute1">
   Vale et salve. Ferrariae, octavo
   Idus Iulias.</salute>
             </closer>
-            <postscript n="postscript11">
+            <postscript n="postscript1">
                <p n="p1">
 Litteras iam dudum tuam ad amplitudinem dedissemus, si tabellarios, quibus eas fide
 committeremus, nos habere contigisset, verum plurimos metuentes, ne, si alicui nobis

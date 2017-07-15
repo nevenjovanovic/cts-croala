@@ -44,54 +44,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="16"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -161,31 +114,31 @@
 
          <div n="div1" type="poesis-epigramma" met="elegiacum">
             <milestone unit="page" n="milestone1"/>
-            <head n="head2" xml:lang="hr">3. 
+            <head n="head1" xml:lang="hr">3. 
   
   Versi gospodina Antuna Roženea doktura i vlastelina krkarskoga u hvalu knjige koju pisah ja Petri Ektoroviću vlastelinu hvarskomu, koja počinje: U 
   knjigah Čičeron.</head>
-            <note n="note3" xml:lang="hr">P. 3. stoji u rkp, pod br. 33 iza poslanice Nalješkovićeve koja je naštampana napried pod br. 25. Poslanicu Naljeskovićevu koja se spominje u nadpisu, vidi napried pod br. 16. Prema nadpisu na strani piše drugom rukom: Antonii Rosanei, doctoris ei patricii Corciolensis.B. rkp. HectordtLm. P. 4. stoji u rkp. ita one pod 3. 
+            <note n="note1" xml:lang="hr">P. 3. stoji u rkp, pod br. 33 iza poslanice Nalješkovićeve koja je naštampana napried pod br. 25. Poslanicu Naljeskovićevu koja se spominje u nadpisu, vidi napried pod br. 16. Prema nadpisu na strani piše drugom rukom: Antonii Rosanei, doctoris ei patricii Corciolensis.B. rkp. HectordtLm. P. 4. stoji u rkp. ita one pod 3. 
   </note>
   
-            <head n="head4">Ad Nicolaum Nalis Ragusinum illiricum poetam quam ornatissimum.</head> 
+            <head n="head2">Ad Nicolaum Nalis Ragusinum illiricum poetam quam ornatissimum.</head> 
   
-            <l n="l5">Carmina Caliopes natum cecinisse putabam,</l> 
-            <l n="l6" met="pentameter">Nicoleos, miror dum tua docta legens,</l> 
-            <l n="l7">in quibus, Hectoreum Petrum quo tollis in astra,</l> 
-            <l n="l8" met="pentameter">mellifluum Phoebi iure uidetur opus,</l> 
-            <l n="l9">quod curis affectum animum sic saepe relaxat</l>
-            <l n="l10" met="pentameter">ut lichnis Pallas lumina fusca refert. </l>
-            <l n="l11">Labitur ore tuo, uates, uberrimus amnis</l> 
-            <l n="l12" met="pentameter">quotquot Dalmatiae pinguia culta rigant</l> 
-            <l n="l13">quaeque deserta tuo facundia pectore manat,</l> 
-            <l n="l14" met="pentameter">non nisi castalis hausta putatus aquis.</l>
-            <l n="l15">Felicem te, <sic n="sic1">faustam</sic> Epidaurum, nosque beatos</l> 
-            <l n="l16" met="pentameter">efficit ingenium <sic n="sic1">digne poetam</sic> tuum.</l> 
-            <l n="l17">Pierides linguae, palmam seruate diserte,</l> 
-            <l n="l18" met="pentameter">nubila quam uincant saecula nulla situ,</l> 
-            <l n="l19">gloria praeterea, totum diffusa per orbem,</l> 
-            <l n="l20" met="pentameter">sublimis tandem scandat utrumque polum.</l> 
+            <l n="l1">Carmina Caliopes natum cecinisse putabam,</l> 
+            <l n="l2" met="pentameter">Nicoleos, miror dum tua docta legens,</l> 
+            <l n="l3">in quibus, Hectoreum Petrum quo tollis in astra,</l> 
+            <l n="l4" met="pentameter">mellifluum Phoebi iure uidetur opus,</l> 
+            <l n="l5">quod curis affectum animum sic saepe relaxat</l>
+            <l n="l6" met="pentameter">ut lichnis Pallas lumina fusca refert. </l>
+            <l n="l7">Labitur ore tuo, uates, uberrimus amnis</l> 
+            <l n="l8" met="pentameter">quotquot Dalmatiae pinguia culta rigant</l> 
+            <l n="l9">quaeque deserta tuo facundia pectore manat,</l> 
+            <l n="l10" met="pentameter">non nisi castalis hausta putatus aquis.</l>
+            <l n="l11">Felicem te, <sic n="sic1">faustam</sic> Epidaurum, nosque beatos</l> 
+            <l n="l12" met="pentameter">efficit ingenium <sic n="sic1">digne poetam</sic> tuum.</l> 
+            <l n="l13">Pierides linguae, palmam seruate diserte,</l> 
+            <l n="l14" met="pentameter">nubila quam uincant saecula nulla situ,</l> 
+            <l n="l15">gloria praeterea, totum diffusa per orbem,</l> 
+            <l n="l16" met="pentameter">sublimis tandem scandat utrumque polum.</l> 
          </div>
   
       </body>

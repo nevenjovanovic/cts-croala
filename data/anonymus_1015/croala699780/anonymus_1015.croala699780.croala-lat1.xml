@@ -38,54 +38,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="12"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="7"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="8"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lb" occurs="13"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="8"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -150,38 +103,38 @@
                 
                <l n="l1"> 
                <add n="add1">Crv</add>X VENERAND<add n="add2">a poli</add>
-               <lb n="lb3"/>
-                   <add n="add4">ren</add>ATOS MVNIAT <add n="add5">alm</add>OS<lb n="lb6"/>
+               <lb n="lb1"/>
+                   <add n="add3">ren</add>ATOS MVNIAT <add n="add4">alm</add>OS<lb n="lb2"/>
             </l>
                 <l n="l2">AVSTRALI DE PART<add n="add1">e mina</add>N<add n="add2">s</add>
-               <lb n="lb3"/>
-                    VT SIDVS AB A<add n="add4">ltis</add>
+               <lb n="lb1"/>
+                    VT SIDVS AB A<add n="add3">ltis</add>
             </l> 
             <l n="l3">
-               <add n="add1">coel</add>IS<lb n="lb2"/>
-                LV<add n="add3">ceb</add>IT C<expan n="expan4">er</expan>T<expan n="expan5">vs</expan> SVPER <add n="add6">omnia</add> 
-                <expan n="expan7">CHRistvS</expan>
-               <lb n="lb8"/>
+               <add n="add1">coel</add>IS<lb n="lb1"/>
+                LV<add n="add2">ceb</add>IT C<expan n="expan1">er</expan>T<expan n="expan2">vs</expan> SVPER <add n="add3">omnia</add> 
+                <expan n="expan3">CHRistvS</expan>
+               <lb n="lb2"/>
             </l> 
-            <l n="l4">EOI CRVX ALMA D<expan n="expan1">e</expan>I TVEATVR<lb n="lb2"/>
-                    AB <sic n="sic3">OSTE</sic>
+            <l n="l4">EOI CRVX ALMA D<expan n="expan1">e</expan>I TVEATVR<lb n="lb1"/>
+                    AB <sic n="sic1">OSTE</sic>
             </l> 
-            <l n="l5">INTRANTES <sic n="sic1">CVNTOS<lb n="lb1"/>QVE</sic> PIOS CONCORDIA NEC <add n="add2">tv<expan n="expan1">m</expan>
+            <l n="l5">INTRANTES <sic n="sic1">CVNTOS<lb n="lb1"/>QVE</sic> PIOS CONCORDIA NEC <add n="add1">tv<expan n="expan1">m</expan>
                </add>
-               <lb n="lb3"/>
+               <lb n="lb1"/>
             </l>
-                <l n="l6">VIR APOSTATA <sic n="sic1">SEDEN</sic> SIMVLA<add n="add2">bat</add>
-               <lb n="lb3"/>
-                    <sic n="sic4">ABERE</sic>
+                <l n="l6">VIR APOSTATA <sic n="sic1">SEDEN</sic> SIMVLA<add n="add1">bat</add>
+               <lb n="lb1"/>
+                    <sic n="sic2">ABERE</sic>
             </l> 
             <l n="l7">
-               <expan n="expan1">CHRistvS</expan> IN ARCE POLI REGIA<lb n="lb2"/>
-                        MOX <sic n="sic3">EXPVLLIT</sic> ILLVD</l> 
+               <expan n="expan1">CHRistvS</expan> IN ARCE POLI REGIA<lb n="lb1"/>
+                        MOX <sic n="sic1">EXPVLLIT</sic> ILLVD</l> 
             <l n="l8">
                <sic n="sic1">DOMNO</sic>
-               <lb n="lb2"/>
-                            PAVLVS <sic n="sic3">PRESVLVS</sic> OFERT<lb n="lb4"/>
-                            <sic n="sic5">VEXILLV</sic> ISTV<expan n="expan6">m</expan>.<lb n="lb7"/>
+               <lb n="lb1"/>
+                            PAVLVS <sic n="sic2">PRESVLVS</sic> OFERT<lb n="lb2"/>
+                            <sic n="sic3">VEXILLV</sic> ISTV<expan n="expan1">m</expan>.<lb n="lb3"/>
             </l>
             </div>
         </body>

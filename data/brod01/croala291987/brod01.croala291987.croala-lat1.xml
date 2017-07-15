@@ -53,58 +53,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="4"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -194,9 +143,9 @@
                     Clementi papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 3, f. 299.</note>
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 3, f. 299.</note>
 
-                <opener n="opener3">
+                <opener n="opener1">
                <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
                     domino nostro, domino Clementi VII pontifici maximo, domino mihi semper
                     clementissimo <note n="note2" resp="BJ">[Alia manu:] Stephani Broderici Buda
@@ -204,7 +153,7 @@
                         <expan n="expan2">Calendae</expan> Octobris</note> Beatissime pater ac domine, domine
                     mihi semper clementissime! Post oscula pedum Sanctitatis Vestrę beatorum et meę
                     humillime servitutis in gratiam eiusdem commendationem.</opener>
-                <p n="p4">De publicis rebus nostris scribit regia maiestas, dominus meus gratiosissimus,
+                <p n="p1">De publicis rebus nostris scribit regia maiestas, dominus meus gratiosissimus,
                     privatum autem rerum mearum statum intelliget Vestra Sanctitas ex litteris
                     domini baronis, nuncii sui. Si res habebit bonum exitum, sicut credo omnino
                     futurum, suplico Vestre Sanctitati humilime, dignetur me rebus omnibus, quibus
@@ -243,18 +192,18 @@
                     credo, Vestra etiam Sanctitas libenter videbit. Palatinus novus ostendit
                     mirabilem animum ad bene agendum, est nobiscum valde coniunctus. Vaÿvoda et ipse
                     singulari certe prudentia iuvenis. Denique habeo optimam spem res bene ac ex
-                    desiderio ac prescripto Vestrae Sanctitatis <expan n="expan2">curans</expan>, sed
-                    fundamentum nullum <expan n="expan3">firmum</expan> neque aliud plane video, quam quod ad
+                    desiderio ac prescripto Vestrae Sanctitatis <expan n="expan1">curans</expan>, sed
+                    fundamentum nullum <expan n="expan2">firmum</expan> neque aliud plane video, quam quod ad
                     dominum Franciscum perscripsi. Rege ipso nihil posset esse melius in veritate
                     neque ad omne bonum inclinatius flexibiliusque, sed est etate nimium adhuc
                     immature ad tantum onus. Deus nos iuvabit et post Deum eius vicarius
                     sanctissimus.</p>
-                <closer n="closer5">Me et meam servitutem in gratiam Vestrae Sanctitatis humilime commendo. Quam
+                <closer n="closer1">Me et meam servitutem in gratiam Vestrae Sanctitatis humilime commendo. Quam
                     Deus conservet semper felicissimam atque incolumem. Bude, pridie Kalendis
                     Octobris. 1525. Eiusdem Vestrae Sanctitatis creatura et minimus servulus
                     Stephanus Brodericus</closer>
 
-                <milestone n="milestone6" unit="page"/>
+                <milestone n="milestone1" unit="page"/>
             </div>
         </body>
     </text>

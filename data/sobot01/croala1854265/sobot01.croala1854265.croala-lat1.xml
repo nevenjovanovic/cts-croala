@@ -78,59 +78,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="12"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1" withId="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="4"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="3"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="15"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="5"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="11"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="45"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="6"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -230,8 +178,8 @@
             <div n="div1" type="prosa-epistula" xml:id="sob1453b">
                 <head n="head1">
                <date n="date1" when="1453-07-24">1453-07-24</date>, Tragurio</head>
-                <opener n="opener2">Joannes Sobote Clarissimo P. M. S. P. D.</opener>
-                <p n="p3">Postquam nobis nunciatum est, Bizancium urbem cristianissimam a Machometo
+                <opener n="opener1">Joannes Sobote Clarissimo P. M. S. P. D.</opener>
+                <p n="p1">Postquam nobis nunciatum est, Bizancium urbem cristianissimam a Machometo
                     Teucrorum principe ingenti cum iactura cristiane rei captam, tanquam ex percepto
                     vulnere vehementer consternati fuimus; tandem varie tumultatum est. Princeps
                     Bizantinus simul ac animadvertit eo ventum esse, ut nec fuge quidem locus esset,
@@ -251,12 +199,12 @@
                     tradat: Golumbac et Smedrovo, oppida munitissima, ex quibus facillimus aditus in
                     Panoniam est Georgius despotus vehementer trepidat. Hac tempestate dei
                     omnipotentis virtus invocanda est.</p>
-                <closer n="closer4">
+                <closer n="closer1">
                     <salute n="salute1">Vale et me ama.</salute>
-                    <dateline n="dateline2">Ex <placeName n="placeName1">
+                    <dateline n="dateline1">Ex <placeName n="placeName1">
                      <abbr n="abbr1">Trag.</abbr>
                   </placeName>
-                        <date n="date2" when="1453-07-24">die 24 Julii (1453).</date>
+                        <date n="date1" when="1453-07-24">die 24 Julii (1453).</date>
                </dateline>
                 </closer>
             </div>

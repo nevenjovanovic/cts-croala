@@ -49,60 +49,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4" withId="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -176,22 +123,22 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="prosa-epistula">
             <pb n="pb1"/>
-            <opener n="opener2">
+            <opener n="opener1">
                <abbr n="abbr1">Pr. S.</abbr> foelicitatem perpetuam <abbr n="abbr2">etc.</abbr>
             </opener>
-            <p n="p3">Cum essem iam ad
+            <p n="p1">Cum essem iam ad
                iter accinctus, relictis Ungaris Boëmis Moravis Slesistis
                Poloniam petiturus ac Lutuaniam, nuncius en latas Boemorum pertulit oras, nuncius inquam, non ingratus, sed
                jucundus et necessarius populis his, acerrimo hoste ex 
                <pb n="pb1"/>
                continua victoria attritis atque perculsis, videlicet vaivodam Transilvanum — unus est ex Hungariae ducibus in
                ultimis partibus, immo primis ab hoste Hungariae —, comparata non parva, nec temnenda manu equitum peditumque selectorum quindecim milium, penetrasse hostium
-               confinia et recuperasse quoddam castrum admodum necessarium, nomine <sic n="sic2">Buinaria</sic>, nuper ab hostibus occupatum,
+               confinia et recuperasse quoddam castrum admodum necessarium, nomine <sic n="sic1">Buinaria</sic>, nuper ab hostibus occupatum,
                concremasse multas hostium villas ac suburbia et multos
                mortalium trucidasse predamque hominum ac pecudum
                vim ingentem abegisse, qui quidem vaivodas Transilvanus
-               prosequitur victoriam persequitur hostem fugientem <sic n="sic3">Mirmerbazan</sic> et jam <sic n="sic4">Nicopilim</sic> versus in viscera hostium
-               penetravit. In <sic n="sic5">Jagzem</sic>, fortissimum quoddam est castrum,
+               prosequitur victoriam persequitur hostem fugientem <sic n="sic2">Mirmerbazan</sic> et jam <sic n="sic3">Nicopilim</sic> versus in viscera hostium
+               penetravit. In <sic n="sic4">Jagzem</sic>, fortissimum quoddam est castrum,
                quod tenetur ab Hungaris in visceribus pene Turcarum,
                sine obstaculo aliquot cibaria et subsidia apta sunt imposita; quod erat admodum nobis necessarium oppidum,
                Cluz vocatum, cum suburbio suo a servitoribus prioris
@@ -203,12 +150,12 @@
                minorem classem eiusdem generis hostium depopulantem,
                devastantem, quam nostrorum, fines aggressum fuisse,
                superasse, submersisse, venisse, vidisse, vicisse. Quaeso
-               <gap n="gap6"/> futurae victoriae. 
+               <gap n="gap1"/> futurae victoriae. 
                </p>
-            <closer n="closer4">
+            <closer n="closer1">
                <dateline n="dateline1">Ex Praga, regali sede Boëmiae,
                   <date n="date1">die 23 Novembris 1522</date>.</dateline>
-               <signed n="signed2">Thomas Nigro,
+               <signed n="signed1">Thomas Nigro,
                   nuncius apostolicus, episcopus Scardonensis.</signed>
             </closer>
                      </div>

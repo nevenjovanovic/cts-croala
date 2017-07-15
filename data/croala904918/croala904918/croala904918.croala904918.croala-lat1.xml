@@ -44,52 +44,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="29"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="40"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="38"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -156,11 +111,11 @@ Početak rada
          </div>
       </front>
     
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
          <div n="div1">
 
             <pb n="pb1"/>
-            <div type="poesis-epigramma" n="div2">
+            <div type="poesis-epigramma" n="div1">
                <div n="div1" xml:lang="hrv">
                   <l n="l1">Akote budde kad tkogodir pohvalit,</l>
                   <l n="l2">Spomense, jere tad tvoj sudaz imasc bit ;</l>
@@ -175,7 +130,7 @@ Početak rada
                </div>
             </div>
 
-            <div type="poesis-epigramma" n="div3">
+            <div type="poesis-epigramma" n="div2">
                <div n="div1" xml:lang="hrv">
                   <l n="l1">Imobi nauk svak od mrava uzeti,</l>
                   <l n="l2">Ki ljeti kuppi, pak o cemchje zcivjeti.</l>
@@ -186,7 +141,7 @@ Početak rada
                </div>
             </div>
 
-            <div type="poesis-epigramma" n="div4">
+            <div type="poesis-epigramma" n="div3">
                <div n="div1" xml:lang="hrv">
                   <l n="l1">Ne darzci na svjiti prjateglstvo druga stvar,</l>
                   <l n="l2">Neghli har primiti , i ucinit drugu har.</l>
@@ -197,7 +152,7 @@ Početak rada
                </div>
             </div>
 
-            <div type="poesis-epigramma" n="div5">
+            <div type="poesis-epigramma" n="div4">
                <div n="div1" xml:lang="hrv">
                   <l n="l1">Na tanze gljuvene , i pjesni ne hodi,</l>
                   <l n="l2">Jer rastu zelene travize pri voddi.</l>
@@ -208,7 +163,7 @@ Početak rada
                </div>
             </div>
 
-            <div type="poesis-epigramma" n="div6">
+            <div type="poesis-epigramma" n="div5">
                <div n="div1" xml:lang="hrv">
                   <l n="l1">Ne samo ubogh jes, ki blaga ne ima,</l>
                   <l n="l2">Nu, vele, ki, pjenez, hotilbi, da ima.</l>
@@ -219,7 +174,7 @@ Početak rada
                </div>
             </div>
 
-            <div type="poesis-epigramma" n="div7">
+            <div type="poesis-epigramma" n="div6">
                <div n="div1" xml:lang="hrv">
                   <l n="l1">Putnizi stanovaa zadosta imaju ,</l>
                   <l n="l2">Nu mallo tuj nova prjateglja stjezaju .</l>
@@ -230,7 +185,7 @@ Početak rada
                </div>
             </div>
 
-            <div type="poesis-epigramma" n="div8">
+            <div type="poesis-epigramma" n="div7">
                <div n="div1" xml:lang="hrv">
                   <l n="l1">Cjovjek ki od sebe necini spomene ,</l>
                   <l n="l2">Kako hoch' od tebe , dase kad spomene ?</l>
@@ -241,7 +196,7 @@ Početak rada
                </div>
             </div>
 
-            <div type="poesis-epigramma" n="div9">
+            <div type="poesis-epigramma" n="div8">
                <div n="div1" xml:lang="hrv">
                   <l n="l1">Na svjetu vechje dan', stvorilaje viscna ces,</l>
                   <l n="l2">Scto nje bil u jedan , u drughi neka jes . </l>
@@ -252,7 +207,7 @@ Početak rada
                </div>
             </div>
 
-            <div type="poesis-epigramma" n="div10">
+            <div type="poesis-epigramma" n="div9">
                <div n="div1" xml:lang="hrv">
                   <l n="l1">Staro uglje , i vino dobresu dvje stvari,</l>
                   <l n="l2">Nu prjategl nad ino najbogli jes stari.</l>
@@ -263,7 +218,7 @@ Početak rada
                </div>
             </div>
 
-            <pb n="pb11"/>
+            <pb n="pb2"/>
 
          </div>
       </body>

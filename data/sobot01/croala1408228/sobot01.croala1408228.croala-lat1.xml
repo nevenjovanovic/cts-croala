@@ -78,58 +78,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="12"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1" withId="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="4"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="3"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="15"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="5"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="11"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="6"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -226,9 +175,9 @@
             <div n="div1" xml:id="sob1453a" type="prosa-epistula">
                 <head n="head1">
                <date n="date1" when="1453-05-20">1453-05-20</date>, Tragurio</head>
-                <milestone n="milestone2" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA151"/>
-                <opener n="opener3">Johannes Sobote Clarissimo P. M. S. P. D.</opener>
-                <p n="p4">Ex Alobrogibus domum salvum te venisse magna laetitia affectus sum. Novi
+                <milestone n="milestone1" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA151"/>
+                <opener n="opener1">Johannes Sobote Clarissimo P. M. S. P. D.</opener>
+                <p n="p1">Ex Alobrogibus domum salvum te venisse magna laetitia affectus sum. Novi
                     excellens ingenium tuum et magnarum rerum cupidissimum; si quod priscarum
                     illustrium litterarum vel vetustatis insigne vestigium nactus es, rogo facito me
                     participem, ut extent tuae perpetuae in me benevolentiae signum et monimenta
@@ -238,10 +187,10 @@
                     sinito. Patricio Karolo Mauroceno meis verbis dicito: collectis viribus omnibus
                     dabo operam, ut pecunia sua quam celerrime exigatur; magnitudine aegritudinis
                     meae factum est, ut haec exactio in hunc usque diem differatur.</p>
-                <closer n="closer5">
+                <closer n="closer1">
                     <salute n="salute1">Vale et M. An. meis verbis salutem dicito.</salute>
-                    <dateline n="dateline2">Ex <placeName n="placeName1">Tragurio</placeName>
-                        <date n="date2" when="1453-05-20">Kal. XIII Junii 1453.</date>
+                    <dateline n="dateline1">Ex <placeName n="placeName1">Tragurio</placeName>
+                        <date n="date1" when="1453-05-20">Kal. XIII Junii 1453.</date>
                </dateline>
                 </closer>
             </div>

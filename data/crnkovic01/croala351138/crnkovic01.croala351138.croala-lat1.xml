@@ -37,53 +37,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="18"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="2"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="4"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -161,7 +115,7 @@
       <body xml:lang="lat" n="body1">
       
          <pb n="pb1"/>
-         <div n="div2" type="poesis-elegia-epistula" met="elegiacum" corresp="#crnkovicvitezovic17020928">
+         <div n="div1" type="poesis-elegia-epistula" met="elegiacum" corresp="#crnkovicvitezovic17020928">
             <l n="l1">Ritter Eques maestum renovasti Paule dolorem, </l>
              
             <l n="l2" met="pentameter">Dum plangis Patriam, deflet et ipsa suos. </l>
@@ -182,23 +136,23 @@
              
             <l n="l10" met="pentameter">Hunc librum quando pignora chara legent, </l>
              
-            <pb n="pb11"/>
-            <l n="l12">Quem tu fecisti, Patriae commotus amore : </l>
+            <pb n="pb1"/>
+            <l n="l11">Quem tu fecisti, Patriae commotus amore : </l>
              
-            <l n="l13" met="pentameter">Exemplum, speculum posteritatis erit. </l>
+            <l n="l12" met="pentameter">Exemplum, speculum posteritatis erit. </l>
              
-            <l n="l14">
+            <l n="l13">
                <persName n="persName1">Naso</persName> poeta tibi cedat qui se gemit, et flet </l>
              
-            <l n="l15" met="pentameter">Esto <persName n="persName1">Virgilius</persName> qui memor es Patriae. </l>
+            <l n="l14" met="pentameter">Esto <persName n="persName1">Virgilius</persName> qui memor es Patriae. </l>
              
-            <l n="l16">Et quia pro Patria scribis tu digna, laboras </l>
+            <l n="l15">Et quia pro Patria scribis tu digna, laboras </l>
              
-            <l n="l17" met="pentameter">Non minus, ipsa tibi praemia debet, Eques. </l>
+            <l n="l16" met="pentameter">Non minus, ipsa tibi praemia debet, Eques. </l>
              
-            <l n="l18">Plurima scripsisti, liber hic superasse videtur </l>
+            <l n="l17">Plurima scripsisti, liber hic superasse videtur </l>
              
-            <l n="l19" met="pentameter">Omnia; pro Patria scribito plura, Vale.</l>
+            <l n="l18" met="pentameter">Omnia; pro Patria scribito plura, Vale.</l>
              
               </div>
       </body>

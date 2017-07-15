@@ -40,61 +40,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="4"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="s" occurs="6"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="9"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -188,26 +134,26 @@
    <text xml:base="urn:cts:croala:crije02.croala818137.croala-lat1:" xml:lang="lat">
         <front xml:lang="lat" n="front1">
                 <milestone unit="page" n="milestone1"/>
-                <titlePart n="titlePart2">Praestanti viro Domino Marino Bonae suo amico singulari</titlePart>
-                <titlePart n="titlePart3">Venetiis</titlePart>
+                <titlePart n="titlePart1">Praestanti viro Domino Marino Bonae suo amico singulari</titlePart>
+                <titlePart n="titlePart2">Venetiis</titlePart>
         </front>
-      <body xml:lang="lat" n="body2">
+      <body xml:lang="lat" n="body1">
 
          <div n="div1" type="prosa-epistula" corresp="#crijevicbunic15060811">
             <milestone unit="page" n="milestone1"/>
             
-            <opener n="opener2">Aelius Lampridius Cervinus poeta laureatus Mario Bonae salutem. </opener>
-            <p n="p3">Noli me ex officio literam extimare: hoc enim vel inimicis praestatur, quod vel pueris vulgatum est, siquidem et illi cantant: <q n="q1">Inspicit acceptas hostis ab hoste notas</q>, sed meam fidem et illam veterem amicitiam, qua te nemini secundum dilexi, <sic n="sic2">cogita</sic> 
-               <s n="s3" type="versus">
+            <opener n="opener1">Aelius Lampridius Cervinus poeta laureatus Mario Bonae salutem. </opener>
+            <p n="p1">Noli me ex officio literam extimare: hoc enim vel inimicis praestatur, quod vel pueris vulgatum est, siquidem et illi cantant: <q n="q1">Inspicit acceptas hostis ab hoste notas</q>, sed meam fidem et illam veterem amicitiam, qua te nemini secundum dilexi, <sic n="sic1">cogita</sic> 
+               <s n="s1" type="versus">
                   <sic n="sic1">mutatus</sic>, neque enim possum aut mutarier unquam.</s> 
-               <s n="s4" type="versus">Non ego nunc alio mobilis axe volo;</s> 
-               <s n="s5" type="versus">magna fides nostro, constantia pectore magna est.</s> 
-               <s n="s6" type="versus">Desero nec subito, nec temere incipio;</s> 
-               <s n="s7" type="versus">te quoque mutari nequaquam posse putamus,</s> 
-               <s n="s8" type="versus">quilibet adfectus mutuus esse solet.</s> Si tamen in scribendis epistolis ut negligentiorem accusas, eo minus condemnari debeo, quod eiusdem criminis reus teneris. Sed quia res est inter amicos, facilior est venia quam culpa, praesertim quod ego te et tu me ita perhumane habuimus, ut alter in altero magis quam in se et accusari et condemnari posset. Sed quia veniae facilitas in hac re vix amicorum est, quod tam diu siluimus, non invicem redargui, non irasci, non est (ut opinor), non est vehementer amantium. Quare tibi succenseo, te familiarius accuso, eo magis, quo maior es amicus accusandum quod tandiu ne unam quidem litteram abs te. Quod crimen nihil est quod excusare possit praeter tuas et plures et longiores litteras. Quod officium non rependi non modo erit negligentis sed etiam ingrati. Neque me audias, neque te exorari sinas si non utriusque criminis vel solam suspitionem crebriores et copiosae litterae meae deprecabuntur atque ita (dii faxint) ut neque meum, neque tuum aliter possit redimi silentium. Quare ego incensus sum totis viribus operam dare quo litteris quas nunc multum desideras explearis. Interim de meis rebus paucis accipe: quod illud praediolum insulare ultra mille aureos vendiderim et hoc sorti meae accessit, immo tuae, nam mea tua sunt atque ideo tibi illa minus offero: quis enim tibi tua offerat? Quod si me iocari putas, periculum fac, videbis me totum et res meas in tuo censu esse. De publicis rebus habe: duas crinitas quas quidem cometas vocant sub septentrione moveri ex illo genere quas breviores et in mucrones fastigiatas xiphias appellant. Quid mali portendant nescio, tamen altera sese in partes orientis altera in meridiem iaculatur. Sunt qui dicant Imperatori Turcae mortem nunciari, nam eiusdem coloris est quo et stella, hoc est chryseus. Ita graviter aegrotat, neque Turcae a tumultu temperant. Duos etiam ex libertis quos Bassalarios vocant qui vestibulo regis assident et ad ipsum res quotidianas referunt a tribunali suo motos exauctoratosque crebri rumores dissipant et Arsacis Alisophi oratores non admissos. Reliquum est ut me <persName n="persName9">Marino Barbo</persName> et <persName n="persName10">Traiano Bollano</persName> meis patronis commendes. </p>
-            <closer n="closer4">
+               <s n="s2" type="versus">Non ego nunc alio mobilis axe volo;</s> 
+               <s n="s3" type="versus">magna fides nostro, constantia pectore magna est.</s> 
+               <s n="s4" type="versus">Desero nec subito, nec temere incipio;</s> 
+               <s n="s5" type="versus">te quoque mutari nequaquam posse putamus,</s> 
+               <s n="s6" type="versus">quilibet adfectus mutuus esse solet.</s> Si tamen in scribendis epistolis ut negligentiorem accusas, eo minus condemnari debeo, quod eiusdem criminis reus teneris. Sed quia res est inter amicos, facilior est venia quam culpa, praesertim quod ego te et tu me ita perhumane habuimus, ut alter in altero magis quam in se et accusari et condemnari posset. Sed quia veniae facilitas in hac re vix amicorum est, quod tam diu siluimus, non invicem redargui, non irasci, non est (ut opinor), non est vehementer amantium. Quare tibi succenseo, te familiarius accuso, eo magis, quo maior es amicus accusandum quod tandiu ne unam quidem litteram abs te. Quod crimen nihil est quod excusare possit praeter tuas et plures et longiores litteras. Quod officium non rependi non modo erit negligentis sed etiam ingrati. Neque me audias, neque te exorari sinas si non utriusque criminis vel solam suspitionem crebriores et copiosae litterae meae deprecabuntur atque ita (dii faxint) ut neque meum, neque tuum aliter possit redimi silentium. Quare ego incensus sum totis viribus operam dare quo litteris quas nunc multum desideras explearis. Interim de meis rebus paucis accipe: quod illud praediolum insulare ultra mille aureos vendiderim et hoc sorti meae accessit, immo tuae, nam mea tua sunt atque ideo tibi illa minus offero: quis enim tibi tua offerat? Quod si me iocari putas, periculum fac, videbis me totum et res meas in tuo censu esse. De publicis rebus habe: duas crinitas quas quidem cometas vocant sub septentrione moveri ex illo genere quas breviores et in mucrones fastigiatas xiphias appellant. Quid mali portendant nescio, tamen altera sese in partes orientis altera in meridiem iaculatur. Sunt qui dicant Imperatori Turcae mortem nunciari, nam eiusdem coloris est quo et stella, hoc est chryseus. Ita graviter aegrotat, neque Turcae a tumultu temperant. Duos etiam ex libertis quos Bassalarios vocant qui vestibulo regis assident et ad ipsum res quotidianas referunt a tribunali suo motos exauctoratosque crebri rumores dissipant et Arsacis Alisophi oratores non admissos. Reliquum est ut me <persName n="persName1">Marino Barbo</persName> et <persName n="persName2">Traiano Bollano</persName> meis patronis commendes. </p>
+            <closer n="closer1">
                     <salute n="salute1">Vale. </salute>
-                    <dateline n="dateline2">Datum Rhacusae <date n="date1" when="1506-08-11">MDVI <num n="num1" value="3">III</num> Idus Sextiles</date>.</dateline>
+                    <dateline n="dateline1">Datum Rhacusae <date n="date1" when="1506-08-11">MDVI <num n="num1" value="3">III</num> Idus Sextiles</date>.</dateline>
             </closer>
             
         </div>

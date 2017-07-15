@@ -54,58 +54,7 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="11"/>
-          <tagUsage gi="person" occurs="3"/>
-          <tagUsage gi="place" occurs="3"/>
-          <tagUsage gi="placeName" occurs="7"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -201,11 +150,11 @@
                     capitanei Segnie et comites Clisii Clementi papae VII.</head>
 
 
-                <note n="note2" resp="BJ">Segr. Stato, Principi, 3, f. 101. Fragmento sigilli annularis papyro
+                <note n="note1" resp="BJ">Segr. Stato, Principi, 3, f. 101. Fragmento sigilli annularis papyro
                     tecti. Editio: THEINER 1860, n. DCCCLI, p. 650.</note>
 
 
-                <opener n="opener3">
+                <opener n="opener1">
                <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
                     et beatissimo patri et domino, domino Clementi divina providentia pape VII
                     dominoque nostro nobis clementissimo <note n="note2" resp="BJ">[Alia manu:] <foreign n="foreign1" xml:lang="it">1525. di capitanei di Segna die XIX d Aprile di
@@ -213,7 +162,7 @@
                </note> Sanctissime et beatissime pater et domine, domine
                     nobis clementissime! Post beatorum pedum oscula humilemque servitiorum nostrorum
                     commendationem.</opener>
-                <p n="p4">Cum ob maximas incommoditates necessitatesque, quibus quottidie urgentur, isti
+                <p n="p1">Cum ob maximas incommoditates necessitatesque, quibus quottidie urgentur, isti
                     miserrimi pedites Clÿsiensi destinaverunt unum e medio ipsorum ad pedes
                     Sanctitatis Vestre mittere, ut eorum incommoda Sanctitati Vestre explicaret – in
                     maxima necessitate constituti sunt serviendo tam Beatitudini Vestre, quam
@@ -221,12 +170,12 @@
                     sunt pretii, qualiter vivere possint, ipsi soli ignorant, serviunt fideliter –,
                     ideo illos Sanctitati Vestre humiliter commendamus, nos quoque inter paucos dies
                     spetialem nuntium nostrum ad Sanctitatem Vestram destinabimus.</p>
-                <closer n="closer5">Bene valeat Sanctitas Vestra, cui sese humiliter commendamus atque
-                    offerimus. Datum <placeName n="placeName1">Segnie</placeName>, die <date n="date2" when="1525-04-19">XIX Aprilis MDXXV</date>. Eiusdem Sanctitatis Vestre
+                <closer n="closer1">Bene valeat Sanctitas Vestra, cui sese humiliter commendamus atque
+                    offerimus. Datum <placeName n="placeName1">Segnie</placeName>, die <date n="date1" when="1525-04-19">XIX Aprilis MDXXV</date>. Eiusdem Sanctitatis Vestre
                     deditissimi servitores Gregorius Horlovicz et Petrus Krusich, capitanei Segnie
                     et comites Clÿsii</closer>
 
-                <milestone n="milestone6" unit="page"/>
+                <milestone n="milestone1" unit="page"/>
 
             </div>
         </body>

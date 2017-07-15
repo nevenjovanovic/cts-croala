@@ -39,57 +39,7 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="6"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
+      
     <refsDecl n="CTS">
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
           <p>This pointer pattern extracts @n value of segment.</p>
@@ -165,15 +115,15 @@
       <body xml:lang="lat" n="body1">
          <div n="div1" type="epistula">
             <milestone unit="page" n="milestone1"/>
-            <opener n="opener2">
+            <opener n="opener1">
             Io<expan n="expan1">hannes</expan> Trag<expan n="expan2">uriensis</expan> suo suauisssimo M<expan n="expan3">apheo</expan> V<expan n="expan4">allaresso</expan> sal<expan n="expan5">utem</expan>
             </opener>    
-            <p n="p3"> 
+            <p n="p1"> 
         
         
-        Heri vesperi humanissimę tuę litterę mihi oblatę fuerunt: quas sane tanta cum voluptate lectitavi ut, etsi ea tempestate febris dolore aliquantisper commoverer, lectis tamen tuis suauissimis litteris non parum ex illo merore me <sic n="sic1">vendicavim</sic>. Quod autem scribis te magna <milestone unit="page" n="milestone2"/> lętitia affectum quod Tragurium diis continue secundis venerim: id crede mihi ob singularem tuam in me humanitatem etiam te tacente mihi persuasum erat. Ego vero et tibi abscenti congratulor et mihi ipsi gaudeo ac serio triumpho, quum intellexi te ab illis turbulentissimis Patavinis rebus abesse nec salutem tuam illis gravissimis periculis obiectare. Scis enim me sępenumero crebro sermone usurpare te non solum tibi natum esse, verum et patrię, parentibus et amicis. Pluribus verbis te hortarer ut in hac sententia persisteres, nisi pro tua innata prudentia confiderem te ita facturum ut fortem virum decet. Scribis etiam rem nostram totumque litterarum ordinem dirruptum ac prostratum esse, qui superiori tempore adeo florentissimus erat ut ad eius maiestatem, gloriam ac dignitatem nihil addi posse videbatur. Dabit Deus his quoque finem! Scribis etiam plures ex nostra disciplina viros illo execrando morbo esse consumptos, sed eos non nominas; qua ex re perlubens nomina eorum scire vellem. Reliquum est ut mihi significes quo in loco sit elloquentissimus <abbr n="abbr3">M.</abbr> Donato cęterique illi patritii viri. Clarissimum iuris consultum dominum Andream Ven<expan n="expan4">erium</expan> scio Venetiis in pręsentiarum esse. Cui si me diligentissime commendabis, mihi pergratum erit.       
+        Heri vesperi humanissimę tuę litterę mihi oblatę fuerunt: quas sane tanta cum voluptate lectitavi ut, etsi ea tempestate febris dolore aliquantisper commoverer, lectis tamen tuis suauissimis litteris non parum ex illo merore me <sic n="sic1">vendicavim</sic>. Quod autem scribis te magna <milestone unit="page" n="milestone1"/> lętitia affectum quod Tragurium diis continue secundis venerim: id crede mihi ob singularem tuam in me humanitatem etiam te tacente mihi persuasum erat. Ego vero et tibi abscenti congratulor et mihi ipsi gaudeo ac serio triumpho, quum intellexi te ab illis turbulentissimis Patavinis rebus abesse nec salutem tuam illis gravissimis periculis obiectare. Scis enim me sępenumero crebro sermone usurpare te non solum tibi natum esse, verum et patrię, parentibus et amicis. Pluribus verbis te hortarer ut in hac sententia persisteres, nisi pro tua innata prudentia confiderem te ita facturum ut fortem virum decet. Scribis etiam rem nostram totumque litterarum ordinem dirruptum ac prostratum esse, qui superiori tempore adeo florentissimus erat ut ad eius maiestatem, gloriam ac dignitatem nihil addi posse videbatur. Dabit Deus his quoque finem! Scribis etiam plures ex nostra disciplina viros illo execrando morbo esse consumptos, sed eos non nominas; qua ex re perlubens nomina eorum scire vellem. Reliquum est ut mihi significes quo in loco sit elloquentissimus <abbr n="abbr1">M.</abbr> Donato cęterique illi patritii viri. Clarissimum iuris consultum dominum Andream Ven<expan n="expan1">erium</expan> scio Venetiis in pręsentiarum esse. Cui si me diligentissime commendabis, mihi pergratum erit.       
     </p>
-            <closer n="closer4">Vale tu qui legis, et ama me mutuo amore. <dateline n="dateline1">
+            <closer n="closer1">Vale tu qui legis, et ama me mutuo amore. <dateline n="dateline1">
                   <date n="date1" when="--07-15">Die X. et quinta Iulii.</date>
                </dateline>
             </closer>
