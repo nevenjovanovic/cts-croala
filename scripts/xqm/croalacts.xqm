@@ -232,7 +232,7 @@ declare function cts:listeditionurns ($workcts) {
 declare function cts:getnodes ($urn){
   let $dbname := "croala-cts-1"
   let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
-  let $urn1 := $urn (: || ":" -- remove concat for better compliance with the CTS/Capitains spec :)
+  let $urn1 := if (ends-with($urn, ":")) then $urn else $urn || ":"
   let $head := if (collection($dbname)//*:text[matches(@xml:base, $urn1)]) then cts:tablecaption("Edition " || $urn || "; text nodes" , $dbname, $dateupdated) else element caption { "CTS URN deest in collectione." }
   let $theadrow := cts:returnheadrow("Nodus CTS URN", (), ())
   let $urnlist := cts:listnodesurns($urn1)
