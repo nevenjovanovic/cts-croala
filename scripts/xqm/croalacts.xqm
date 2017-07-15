@@ -16,7 +16,7 @@ declare function cts:tokenize-edition($edition){
 (: get xpath from @n as dot-concatenated string :)
 declare function cts:path-to-node
   ( $nodes ) {
-$nodes/string-join(ancestor-or-self::*[not(name()="TEI" or name()="text")]/@n, ".")
+$nodes/string-join(ancestor-or-self::*[@n]/@n, ".")
  } ;
  
  (: transform dot-concatenated cts urn into xpath, starting with asterisk for namespace :)
