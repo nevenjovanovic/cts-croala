@@ -188,7 +188,7 @@ declare function cts:listeditionurns ($workcts) {
     return normalize-space(data($a)), '; '
   )
   let $nodeshref := "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $editionurnstring
-  let $editionurnstring1 := $editionurnstring || ":"
+  let $editionurnstring1 := if (ends-with($editionurnstring, ":")) then $editionurnstring else  $editionurnstring || ":"
   let $nodecount := element a { 
   attribute href { $nodeshref } ,
   count(collection("croala-cts-1")//*:text[@xml:base=$editionurnstring1 ]//*) }
@@ -211,7 +211,7 @@ declare function cts:listeditionurns ($workcts) {
     return normalize-space(data($a)), '; '
   )
   let $nodeshref := "http://croala.ffzg.unizg.hr/basex/ctseditio/" || $editionurnstring
-  let $editionurnstring1 := $editionurnstring || ":"
+  let $editionurnstring1 := if (ends-with($editionurnstring, ":")) then $editionurnstring else  $editionurnstring || ":"
   let $nodecount := element a { 
   attribute href { $nodeshref } ,
   count(collection("croala-cts-1")//*:text[@xml:base=$editionurnstring1 ]//*) }
@@ -232,7 +232,7 @@ declare function cts:listeditionurns ($workcts) {
 declare function cts:getnodes ($urn){
   let $dbname := "croala-cts-1"
   let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
-  let $urn1 := $urn || ":"
+  let $urn1 := $urn (: || ":" -- remove concat for better compliance with the CTS/Capitains spec :)
   let $head := if (collection($dbname)//*:text[matches(@xml:base, $urn1)]) then cts:tablecaption("Edition " || $urn || "; text nodes" , $dbname, $dateupdated) else element caption { "CTS URN deest in collectione." }
   let $theadrow := cts:returnheadrow("Nodus CTS URN", (), ())
   let $urnlist := cts:listnodesurns($urn1)
