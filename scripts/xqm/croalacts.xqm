@@ -2,6 +2,32 @@ module namespace cts = "http://croala.ffzg.unizg.hr/cts";
 import module namespace functx = "http://www.functx.com" at "functx.xqm";
 declare namespace ti = "http://chs.harvard.edu/xmlns/cts";
 
+(: tokenize a CroALa CTS URN on colons :)
+declare function cts:tokenize-cts($cts) {
+  tokenize(substring-after($cts, "http://croala.ffzg.unizg.hr/basex/cts/"), ":")
+};
+
+(: tokenize / break down an edition name on dots :)
+declare function cts:tokenize-edition($edition){
+  tokenize($edition, "\.")
+};
+
+
+(: get xpath from @n as dot-concatenated string :)
+declare function cts:path-to-node
+  ( $nodes ) {
+$nodes/string-join(ancestor-or-self::*[not(name()="TEI" or name()="text")]/@n, ".")
+ } ;
+ 
+ (: transform dot-concatenated cts urn into xpath, starting with asterisk for namespace :)
+ declare function cts:urn-to-xpath($urn){
+   "*:" || string-join(
+   for $node in tokenize($urn, "\.")
+   let $name := if (matches($node, "[0-9]$")) then replace($node, "[0-9]+$", "") else $node
+   let $position := if (matches($node, "[0-9]$")) then replace($node, "^[a-zA-Z]+", "") else "1"
+   return ($name || "[" || $position || "]"),
+   "/*:")
+ };
 
 (: list all available CTS URNs of text elements :)
 declare function cts:getcapabilities(){
@@ -9,7 +35,7 @@ declare function cts:getcapabilities(){
   for $t in collection("croala-cts-1")//*:TEI/*:text
 let $urn := $t/@xml:base/string()
 for $node in $t//*
-let $cts := $urn || $node/@n/string()
+let $cts := $urn || cts:path-to-node($node)
 let $href := "http://croala.ffzg.unizg.hr/basex/cts/" || $cts
 return element tr {
   element td {
@@ -65,11 +91,15 @@ declare function cts:gettextgroups(){
   return $table
 };
 
-(: from a CTS URN, retrieve a single passage :)
+(: given a CTS URN, retrieve a passage it points to :)
 declare function cts:getpassage($ctsurn) {
-  let $edition := functx:substring-before-last($ctsurn, ":") || ":"
-  let $path := functx:substring-after-last($ctsurn, ":")
-  return collection("croala-cts-1")//*:text[@xml:base=$edition]//*[@n=$path]
+  let $edition := cts:tokenize-edition(
+    cts:tokenize-cts($ctsurn)[4])[1] || "/" ||
+    cts:tokenize-edition(
+    cts:tokenize-cts($ctsurn)[4])[2] || "/" ||
+    cts:tokenize-cts($ctsurn)[4] || ".xml"
+  let $path := "/*:TEI/*:text/" || cts:urn-to-xpath(cts:tokenize-cts($ctsurn)[5])
+  return xquery:eval($path , map { "" : db:open("croala-cts-1", $edition) } )
 };
 
 (: list available works :)
@@ -241,7 +271,7 @@ declare function cts:getnodes ($urn){
 
 declare function cts:listnodesurns($editionurn){
   for $node in collection("croala-cts-1")//*:text[matches(@xml:base, $editionurn)]//*
-  let $ctsurn := $node/@n/string()
+  let $ctsurn := cts:path-to-node($node)
   return element tr {
     element td {
       element a {
