@@ -85,7 +85,7 @@ declare function cts:gettextgroups(){
   let $label := "Label"
   let $ctsurn := "CTS URN"
   let $count := "Available works"
-  let $theadrow := cts:returnheadrow($label, $ctsurn, $count)
+  let $theadrow := cts:returnheadrow(($label, $ctsurn, $count))
   let $textgroupurns := cts:listtextgroupurns()
   return cts:returntable($head, $theadrow, $textgroupurns )
   return $table
@@ -111,7 +111,7 @@ declare function cts:getworks($workurn1){
   let $label := "Label"
   let $ctsurn := "CTS URN"
   let $count := "Editions available"
-  let $theadrow := cts:returnheadrow($label, $ctsurn, $count)
+  let $theadrow := cts:returnheadrow(($label, $ctsurn, $count))
   let $urnlist := cts:listworkurns ($workurn1)
   return cts:returntable($head, $theadrow, $urnlist )
 };
@@ -136,11 +136,9 @@ declare function cts:tablecaption($frbr, $dbname, $date){
   return $head
 };
 
-declare function cts:returnheadrow($label, $ctsurn, $count){
+declare function cts:returnheadrow($headlabels){
   element tr { 
-    element td { $label }, 
-    element td { $ctsurn }, 
-    element td { $count }
+    for $headlabel in $headlabels return element td { $headlabel }
   }
 };
 
@@ -199,7 +197,7 @@ declare function cts:geteditions($workcts){
   let $label := "Label"
   let $ctsurn := "CTS URN"
   let $count := "Nodes available"
-  let $theadrow := cts:returnheadrow($label, $ctsurn, $count)
+  let $theadrow := cts:returnheadrow(($label, $ctsurn, $count))
   let $urnlist := cts:listeditionurns ($workcts)
   return cts:returntable($head, $theadrow, $urnlist )
 };
@@ -264,7 +262,7 @@ declare function cts:getnodes ($urn){
   let $dateupdated := db:info($dbname)//databaseproperties/timestamp/string()
   let $urn1 := if (ends-with($urn, ":")) then $urn else $urn || ":"
   let $head := if (collection($dbname)//*:text[matches(@xml:base, $urn1)]) then cts:tablecaption("Edition " || $urn || "; text nodes" , $dbname, $dateupdated) else element caption { "CTS URN deest in collectione." }
-  let $theadrow := cts:returnheadrow("Nodus CTS URN", (), ())
+  let $theadrow := cts:returnheadrow("Nodus CTS URN")
   let $urnlist := cts:listnodesurns($urn1)
   return cts:returntable($head, $theadrow, $urnlist )
 };
