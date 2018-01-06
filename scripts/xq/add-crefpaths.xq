@@ -67,6 +67,6 @@ let $node := element refsDecl {
     for $ppaths in distinct-values ( local:getdistinctpaths($filename) )
     return local:makecref($ppaths)
   }
-return replace node $f//tei:encodingDesc/*:refsDecl with $node
+return replace node $f//tei:encodingDesc/*:refsDecl[@n="CTS"] with $node
 (: expression for testing :)
 (: return $node :)
