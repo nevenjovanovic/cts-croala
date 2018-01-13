@@ -1,0 +1,2502 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epistolarum metricarum liber 7, versio electronica</title>
+            <author ref="vitezov01">
+               <persName xml:lang="hr">Ritter Vitezović, Pavao</persName>
+               <date>1652–1713</date>
+            </author>
+            <author ref="domjan01">
+               <persName xml:lang="hr">Adam Žigmund Domjanić</persName>
+               <date>oko 1660 — 1717</date>
+            </author>
+            <author ref="beseredy01">
+               <persName xml:lang="lat">Adamus Beseredy</persName>
+               <date>fl. c. 1711</date>
+            </author>
+            <author ref="wanyeczi01">
+               <persName xml:lang="lat">Elias Wanyeczi</persName>
+               <date>fl. c. 1710</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="159839022">Violeta Moretti</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="305560370">Gorana Stepanić</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc versionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2017-09-18T08:27:00</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>
+            </publisher>
+            <authority>Znanstveni projekt Tekstualne mreže ranonovovjekovne Hrvatske (<placeName ref="3186886">Zagreb</placeName> Hrvatska).</authority>
+            <pubPlace>
+               <placeName ref="3186886">Zagreb</placeName>
+            </pubPlace>
+            <date>Prosinac 2017</date>
+
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/" notBefore="2017-12-25">
+                  <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence applies to
+                     this document.</p>
+                  <p>The licence was added on December 25, 2017.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <name>Neven Jovanović</name>
+               <date>2017-12-25T16:36:00</date> Dodao osnovno TEI XML formatiranje. </change>
+            <change>
+               <name>Gorana</name>
+               <date>2017-10-31T10:17:00</date>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:vitezov01.croala1136422.croala-lat1:" xml:lang="lat">
+      <body n="body1">
+            <p n="p1" rend="center">VII. Equitis Pauli Ritter <emph n="emph1">Otia metrica</emph> – 1710/12</p>
+            <milestone unit="page" n="milestone1"/>
+            <p n="p2">EQUITIS PAULI RITTER EPISTOLAE VINDEBONENSES ANNI MDCCX<note xml:id="ftn291" place="end" n="note1">
+                  <p n="p1">
+                     <hi n="hi1" rend="bold italic">OTIA METRICA MANUSCRIPTA ET IMPRESSA</hi> – NSK, <hi n="hi2" rend="italic">manuscr.</hi> 3460 (EQUITIS PAULI RITTER OTIA METRICA CURIS
+                     EXULARIBUS SURREPTA. Annis MDCCX, et XI Vindebonae). <hi n="hi3" rend="italic">In d.
+                        summa parte, apud numerum paginae, stat nota </hi>"V. Gaj | 1870"<hi n="hi4" rend="italic">, quae indicat hoc corpus ex libris Ludovici Gai</hi>
+                     <hi n="hi5" rend="italic">fuisse </hi>(<hi n="hi6" rend="italic">Zagrabia</hi>, 1875., <hi n="hi7" rend="italic">p.</hi> 203., <hi n="hi8" rend="italic">num. </hi>518.) (<hi n="hi9" rend="italic">Vide</hi>: Katalog rukopisa nacionalne i sveučilišne
+                     biblioteke u Zagrebu, knjiga 1., Nacionalna i Sveučilišna biblioteka, Zagreb
+                     1991, obradio prof. Šime Jurić, str. 201-202.)</p>
+                  <p n="p2">
+                     <hi n="hi1" rend="underline italic">Ritter propria manu sublineavit</hi>: 
+                     <hi n="hi2" rend="bold">8,50</hi>: Iuvans <hi n="hi3" rend="italic">atque</hi> Pater; <hi n="hi4" rend="bold">15,5</hi>: duae aquae; <hi n="hi5" rend="bold">15,7</hi>: AD <hi n="hi6" rend="italic">atque</hi> P; <hi n="hi7" rend="bold">15,8</hi>: Indomitatumque Ducem;
+                        <hi n="hi8" rend="bold">15,9</hi>: duo Castra, Duces; <hi n="hi9" rend="bold">15,10</hi>:
+                     Pugnabant me penes; <hi n="hi10" rend="bold">15,12</hi>: Vaniloquus <hi n="hi11" rend="italic">atque</hi> siluisse; <hi n="hi12" rend="bold">16,8</hi>: cari<hi n="hi13" rend="italic">et
+                     </hi>Carolus; <hi n="hi14" rend="bold">16,9</hi> Carmen; 
+                     <hi n="hi15" rend="bold">34a,5</hi>: viridis <hi n="hi16" rend="italic">atque</hi> senectus; <hi n="hi17" rend="bold">35,23</hi>: tuam suprà <hi n="hi18" rend="italic">et</hi> Sol non
+                     occidit, iram(?)); <hi n="hi19" rend="bold">42a,dat.</hi>: Forinsecus; <hi n="hi20" rend="bold">44,7</hi>: Ladislav; <hi n="hi21" rend="bold">44,9</hi>:
+                     Ladislav; <hi n="hi22" rend="bold">44,13</hi>: Iastrebarsko (<hi n="hi23" rend="italic">bis</hi>
+                     <hi n="hi24" rend="italic">subl.</hi>); <hi n="hi25" rend="bold">44,14</hi>:<hi n="hi26" rend="bold"> </hi>Carigradski (<hi n="hi27" rend="italic">bis
+                     subl.</hi>); <hi n="hi28" rend="bold">44,17</hi>: Otranto <hi n="hi29" rend="italic">et</hi>
+                        Hydrantum<hi n="hi30" rend="italic">atque </hi>Otranto; <hi n="hi31" rend="bold">45,54</hi>:
+                     charus Regibus atque Deo; <hi n="hi32" rend="bold">54,27</hi>: Haramia.</p>
+                  <p n="p3">
+                     <hi n="hi1" rend="italic">Omnia responsa sublineata sunt, ut sane credere possumus,
+                        manu Pauli Ritter. </hi>
+                  </p>
+                  <p n="p4">
+                     <hi n="hi1" rend="underline italic">Recentior manus sublineavit</hi>: <hi n="hi2" rend="bold">1,1</hi>: Iàm propè completum decurret; <hi n="hi3" rend="bold">1,2</hi>: assiduò
+                     Vindebonense; <hi n="hi4" rend="bold">1,5</hi>: per Styras emensum scilicet Alpes; <hi n="hi5" rend="bold">1,6</hi>; <hi n="hi6" rend="bold">1,7</hi>: propinqua; <hi n="hi7" rend="bold">1,11</hi>: Nullum; <hi n="hi8" rend="bold">1,12-16</hi>; <hi n="hi9" rend="bold">1,30</hi>:
+                     Pascha precor <hi n="hi10" rend="italic">et in d. marg. ann.</hi> 20/IV; <hi n="hi11" rend="bold">2,7-8</hi>; <hi n="hi12" rend="bold">45,25-26</hi>;<hi n="hi13" rend="bold">52,1</hi>:
+                     Cancropolis <hi n="hi14" rend="italic">et in d. marg. ann.</hi> Rakovec</p>
+                  <p n="p5">
+                     <hi n="hi1" rend="underline italic">Recentior manus addidit</hi>
+                     <hi n="hi2" rend="italic">: apud </hi>
+                     <hi n="hi3" rend="bold">34a,dat.</hi>
+                     <hi n="hi4" rend="italic">annum </hi>1710; <hi n="hi5" rend="italic">apud titulum </hi>Eq.
+                     PaVLI RItter EpIstoLae aD aMICos, et ab IIs.<hi n="hi6" rend="italic">in pagina 65
+                        manuscripti rec. m. ann. </hi>1711. <hi n="hi7" rend="italic">Rec. m. corr. numeros
+                        titulorum</hi>: <hi n="hi8" rend="bold">48,tit.</hi>
+                      47] <hi n="hi9" rend="italic">e </hi>2<hi n="hi10" rend="italic">in
+                     </hi>49; <hi n="hi11" rend="bold">49,tit. </hi>48] <hi n="hi12" rend="italic">in </hi>50; <hi n="hi13" rend="bold">50,tit,</hi> 49] <hi n="hi14" rend="italic">e</hi> [<gap n="gap1"/>] <hi n="hi15" rend="italic">corr. in </hi>3; <hi n="hi16" rend="bold">51a,tit.</hi> 50] <hi n="hi17" rend="italic">e </hi>5<hi n="hi18" rend="italic">in </hi>52; <hi n="hi19" rend="bold">52,tit.</hi> 51] <hi n="hi20" rend="italic">rec. m. e </hi>6<hi n="hi21" rend="italic">in
+                     </hi>53.</p>
+                  <p n="p6">
+                     <hi n="hi1" rend="italic">Vv.</hi>
+                     <hi n="hi2" rend="bold"> 9-14 </hi>
+                     <hi n="hi3" rend="italic">in l. marg. signati</hi>. <hi n="hi4" rend="italic">Rec. m. in l.
+                        marg. signo</hi> { <hi n="hi5" rend="italic">signavit versus</hi>
+                     <hi n="hi6" rend="bold">33,9-10</hi>;<hi n="hi7" rend="bold">33,15-17</hi>; <hi n="hi8" rend="bold">33,19-21</hi>.</p>
+               </note>
+            </p>
+            <div n="div1" type="poesis-epistula">
+               <head n="head1"> 1. Ad Dominum Proregem Illyrici, Comitem Ioannem Palffium de Erdeud <note xml:id="ftn292" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">1,</hi>
+                     <hi n="hi2" rend="bold">tit</hi>
+                     <hi n="hi3" rend="bold">. </hi>Ioannem] Iannem | <hi n="hi4" rend="bold">1,14</hi>
+                     <hi n="hi5" rend="italic">exp</hi>. cong <hi n="hi6" rend="italic">post</hi> natis</note>
+               </head>
+               <l n="l1">Iàm propè completum decurret Cynthia mensem, </l>
+               <l n="l2">Urbe quòd assiduò Vindebonense morer. </l>
+               <l n="l3">Nec tamen interea Posonica moenia visi,</l>
+               <l n="l4">Nec potui dextrae basia ferre tuae.</l>
+               <l n="l5">Tam me, per Styras emensum scilicet Alpes, 5</l>
+               <l n="l6">Defessum nuper debilitavit iter, </l>
+               <l n="l7">Aegrè ut, divini cultûs ratione, propinqua </l>
+               <l n="l8">Hospitio valeam visere templa meo.</l>
+               <l n="l9">Atque ideò charos revereri hucusque patronos</l>
+               <l n="l10">Neglexi, quos per tempora longa colo. 10</l>
+               <l n="l11">Nullum sic (quantum peragravimus hactenus orbis) </l>
+               <l n="l12">Fregit iter vires corporis (Hercle) mei.</l>
+               <l n="l13">Accedunt (fateor) senium, curaeque, laborque,</l>
+               <l n="l14">Fratribus et natis conjugeque orbus amor;</l>
+               <l n="l15">Injustae insidiae, numeroque carentia damna, 15</l>
+               <l n="l16">Singula quae vitam debilitare solent. </l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l17"> Quapropter veniam concedes, inclyte Prorex,</l>
+               <l n="l18">Atque pius famulo compatiêre tuo.</l>
+               <l n="l19">Sic mea fata volunt, quae cùm nec vincere possim,</l>
+               <l n="l20">Nec mutare, animo sunt toleranda bono. 20</l>
+               <l n="l21">At tu devotum non desere, quaeso, clientem,</l>
+               <l n="l22">Quin fatis contrà fortior esto meis.</l>
+               <l n="l23">Te quoniam multa Deus et Natura bearunt</l>
+               <l n="l24">Virtute, Heroëm constituendo virum.</l>
+               <l n="l25">Perfecêre armis et Regni juribus; aptum 25</l>
+               <l n="l26">Et Belli et Pacis tempore jura dare.</l>
+               <l n="l27">In quo confisus, nancisci spero levamen </l>
+               <l n="l28">Afflictis rebus justitiaeque mei.</l>
+               <l n="l29">Interea, melius dum vertent fata, propinquum</l>
+               <l n="l30">Ter felix, faustum ter Tibi Pascha precor. 30</l>
+               <l n="l31">Quod multos recolas pòst, ad tua vota, per annos</l>
+               <l n="l32">Incolumis, plenus gloria, honore. Vale.</l>
+               <closer n="closer1">Viennae 19. Aprilis 1710. </closer>
+            </div>
+            <div n="div2" type="poesis-epistula">
+               <head n="head1"> 2. Ad Dominum Cardinalem Ducem Saxoniae Archiepiscopum
+                     Strigon<supplied n="supplied1">iensem</supplied>
+                  <note xml:id="ftn293" place="foot" n="note1">
+                     <p n="p1">2,tit. <hi n="hi1" rend="italic">Cardinalem</hi>: ostrogonski nadbiskup Christian
+                        August von Sachsen-Zeitz.</p>
+                     <p n="p2">_____________________________ </p>
+                     <p n="p3">
+                        <hi n="hi1" rend="bold">2,12</hi>
+                        <hi n="hi2" rend="italic">exp.</hi> ut domini sup[.] <hi n="hi3" rend="italic">post</hi>
+                        Votis: </p>
+                  </note>
+               </head>
+               <l n="l1">Laeta resurgentis redeunt à morte Salutis</l>
+               <l n="l2">Christiaco summè Festa colenda gregi;</l>
+               <l n="l3">Omnibus faustis votisque assueta precari,</l>
+               <l n="l4">Mittere subque ovi nomine dona rubri.</l>
+               <l n="l5">Ad te me pietas devoti vera clientis, 5</l>
+               <l n="l6">Instructum quanquam non satìs, ire jubet.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l7"> Pauper enim factus, fortunis omnibus orbus,</l>
+               <l n="l8"> Exilium longo suffero tempore, Eques:</l>
+               <l n="l9">Impar ipse mihi turbam sociare coruscam,</l>
+               <l n="l10"> Et tanti, vereor, numen adire Ducis. 10</l>
+               <l n="l11">Hinc solùm nudis instructam mitto tabellam</l>
+               <l n="l12"> Votis: prona meas suppleat illa vices.</l>
+               <l n="l13">Sit felix hoc ergo tibi, Dux inclyte, Pascha,</l>
+               <l n="l14"> Faustaque sint post hoc Paschata multa tibi;</l>
+               <l n="l15">Ad tua, propitio redeant quae, vota, Iehova, 15</l>
+               <l n="l16"> Tuque ea ter felix incolumisque colas.</l>
+               <l n="l17">Exulem Apostolico Pacemque reducito Regno, </l>
+               <l n="l18"> Praesul, Apostolicis par pietate viris.</l>
+               <l n="l19">Tunc triplicem devota ferat tibi Roma tyaram,</l>
+               <l n="l20"> Dignum Orbi exaltet prona praeesse caput. 20</l>
+               <l n="l21">Sic tandem post sera satìs et prospera fata</l>
+               <l n="l22"> Ad nova Divorum proemia laetus abi. 
+                     <note xml:id="ftn294" place="foot" n="note1">
+                        <p n="p1">2,29 <hi n="hi1" rend="italic">Gabriel</hi>: Gábor Erdődy (1684-1744),
+                           ostrogonski kanonik.</p>
+                        <p n="p2">_____________________________ </p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">2,22</hi>
+                           <hi n="hi2" rend="italic">exp</hi>. Coel <hi n="hi3" rend="italic">post</hi> nova | <hi n="hi4" rend="bold">2,26</hi>
+                           <hi n="hi5" rend="italic">exp</hi>. prop <hi n="hi6" rend="italic">post</hi> innata</p>
+                     </note>
+                  
+               </l>
+               <l n="l23">Illic perpetuò laurus nacture virentes,</l>
+               <l n="l24">Hìc haerede tamen laude perennè vige.</l>
+               <l n="l25">Interea, velut ultrò soles, Auguste, clientes 25</l>
+               <l n="l26"> Servare, innata pro pietate, tuos:</l>
+               <l n="l27">Perge, novumque tui Cultorem reddito dignum</l>
+               <l n="l28"> Posse clientelae nomen habere tuae.</l>
+               <l n="l29">Ut Gabriel nuper pro me suffragia fecit,</l>
+               <l n="l30">Fac, mihi sit faustus Nuntius ille. Vale. 30</l>
+               <closer n="closer1">Viennae 19. Aprilis </closer>
+            </div>
+            <div n="div3" type="poesis-epistula">
+               <head n="head1"> 3. Ad Dominum Supremum Aulae Caesareae Camerarium, Comitem Carolum Ernestum de
+                  Waldstein </head>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l1">Nuper ùt Illyricis perveni fessus ab oris,</l>
+               <l n="l2"> Quas Savus rapidis irrigat amnis aquis,</l>
+               <l n="l3">Non potui veteri depromere vota Patrono,</l>
+               <l n="l4"> Tum mea, cùm Comitis nuntia vota Petri.</l>
+               <l n="l5">Mox tamen ad thermas te discessisse Bohemas, 5</l>
+               <l n="l6"> Audio, quando tuae limina tango domûs.</l>
+               <l n="l7">Indolui fatis, solito mihi more sinistris,</l>
+               <l n="l8"> At tibi ter felix mente precabar iter:</l>
+               <l n="l9">Et bene conducant calidarum balnea aquarum,</l>
+               <l n="l10"> Atque brevì totus sanus abinde redi. 10</l>
+               <l n="l11">Hinc, quod non possum praesens depromere munus,</l>
+               <l n="l12"> Littera devoti missa clientis agat.</l>
+               <l n="l13">Ipsa vèl affectûs mihi sit pro teste fidelis,</l>
+               <l n="l14"> Quo tua perpetuò nomina, Carle, colo.</l>
+               <l n="l15">Expertus, dignum, quem non modò Teutus et Illyr, 15</l>
+               <l n="l16"> Sed quovis Vates ritè sub axe colat,</l>
+               <l n="l17">Te genus illustrat, genius commendat, adornat</l>
+               <l n="l18"> Virtus, ingenium nomina magna parat.</l>
+               <l n="l19">Lumen consiliis es, norma in rebus agendis,</l>
+               <l n="l20"> Subventu facilis, cùm pietate gravis, 20</l>
+               <l n="l21">Iustitiae vindex, ingens probitatis amator,</l>
+               <l n="l22"> Styrpis honos, patriae fulgida stella tuae.</l>
+               <l n="l23">Nobile Amicorum columen, tutela clientum,</l>
+               <l n="l24"> Ipsius donum sic speciale Dei,</l>
+               <l n="l25">Ut meritò Princeps Equitum sis Caesaris Aulae, 25</l>
+               <l n="l26"> Quejs datur auratae clavis honore frui.</l>
+               <l n="l27">Hoc Genitor, Waldstejne, tuus clarebat honore,<note xml:id="ftn295" place="foot" n="note1">3,27 <hi n="hi1" rend="italic">Genitor</hi>: Karl Ferdinand von Waldstein
+                     (1634-1702); 4,tit.<hi n="hi2" rend="italic">Archiepiscopum:</hi> Christian Augustvon
+                     Sachsen-Zeitz.</note>
+               </l>
+               <l n="l28"> Patronus quondam magnus et ipse mihi,</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l29"> Cujus felicem recolunt mea pignora famam:</l>
+               <l n="l30"> Pignora, sic libros, non moritura, voco. 30</l>
+               <l n="l31">Legavit terris illam, te Caesaris Aulae,</l>
+               <l n="l32"> Cùm novus Elisios incola adisset agros.</l>
+               <l n="l33">Ille perennanti felix in pace quiescat,</l>
+               <l n="l34"> Tu salvus nobis, Carole, vive diu,</l>
+               <l n="l35">Atque, ùt magnanimam nutris in corpore mentem, 35</l>
+               <l n="l36"> Majoresque gradus semper honoris adi.</l>
+               <l n="l37">Keglevići Comitis tandem praemitto tabellam,</l>
+               <l n="l38"> Ejusque ad reditum vota reservo tuum.</l>
+               <l n="l39">Utque moram reditumque tuum Deus, oro, secundet</l>
+               <l n="l40"> Propitius: tibi me devoveoque. Vale. 40</l>
+               <closer n="closer1"> Viennae 11. Maij</closer>
+            </div>
+            <div n="div4" type="poesis-epistula">
+               <head n="head1">
+                  <supplied n="supplied1">4.</supplied> Ad Dominum Archiepiscopum Metropolitanum Regni Ungariae Primatem,
+                  Cardinalem Ducem Saxoniae </head>
+               <l n="l1">Dum Posoniaca certum solamen ab urbe</l>
+               <l n="l2"> Iam mihi spectandum spes generosa dabat,</l>
+               <l n="l3">En inopinus adest mihi nuntius à Gabriele,</l>
+               <l n="l4"> Spemque <abbr n="abbr1">&amp;</abbr> solamen sustulit omne mihi.</l>
+               <l n="l5">Nempè ad Fiscalem non posse venire senatum, 5</l>
+               <l n="l6"> Qui numero major dicitur esse suo.</l>
+               <l n="l7">Pace tua, Princeps, hoc annis antè duobus</l>
+               <l n="l8"> Effatum est summi Praesidis ore mihi,</l>
+               <l n="l9">Posonij quatuor, sex ad summumve, futuros:</l>
+               <l n="l10"> Attamen ex istis ipse quòd unus ero. 10</l>
+               <l n="l11">Scilicet exemplo, quo Cancellaria pollet,</l>
+               <l n="l12"> Unus de quatuor cuj tamen Illyr inest,</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l13"> Regnorum ratione trium, populique per omnes</l>
+               <l n="l14"> Ungariae latè nunc habitantis agros,</l>
+               <l n="l15">Qui suo ab Ungarico diversoque ore loquuntur: 15</l>
+               <l n="l16"> His alii mores atque graphia viris,</l>
+               <l n="l17">Quae, novisse probè, didici à puerilibus annis,</l>
+               <l n="l18"> Conscripsi et multis acta vetusta libris.</l>
+               <l n="l19">Ut, quae sint in eis sacratae jura Coronae,</l>
+               <l n="l20"> Uno me meliùs promere nemo potest. 20</l>
+               <l n="l21">Hinc quoque prae multis Fisco magìs utilis essem,</l>
+               <l n="l22"> Quique magìs Fisci quàm mea quaero bona.</l>
+               <l n="l23">Pro se divitias et honores quisque requirit,</l>
+               <l n="l24"> Solus pro Augusto Caesare pauper Eques.</l>
+               <l n="l25">Ter quinis ego jàm mereor pro Caesare lustris, 25</l>
+               <l n="l26"> Proque bono Fisci sumptibus ultrò meis,</l>
+               <l n="l27">Cùm sint vix per tres numerent qui praestita menses</l>
+               <l n="l28"> Servitia, hisque tamen praemia larga petant.</l>
+               <l n="l29">Sunt etiam, plures qui servivere per annos,</l>
+               <l n="l30"> Commoda sed Domini, non sua (quaeso) probent. 30</l>
+               <l n="l31">Servitium dulce est, certa mercede Patroni,</l>
+               <l n="l32"> A quo servitii non petitur ratio. 
+                     <note xml:id="ftn296" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">4,32</hi> servitii] serviti | <hi n="hi2" rend="bold">4,32</hi>
+                        <hi n="hi3" rend="italic">exp</hi>. s[.] <hi n="hi4" rend="italic">post</hi> serviti</note>
+                  
+               </l>
+               <l n="l33">Quot sunt, qui solo numerantur nomine servi,</l>
+               <l n="l34"> Idque illis nomen perbene solvit herus?</l>
+               <l n="l35">Quotque etiam, duros qui sustinuêre labores, 35</l>
+               <l n="l36"> Et mercede sua, quin pretioque, carent?</l>
+               <l n="l37">His ego me numero miratus fata profectò</l>
+               <l n="l38"> Saepè benigna malis, saepè nociva bonis!</l>
+               <l n="l39">Nec tamen ista, bonis indebita poena, movebit</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l40"> Mentem à virtutis tramite abire meam. 40</l>
+               <l n="l41">Insenui virtutis amans: hoc nomen amantis </l>
+               <l n="l42"> Haeredem mea post funera adopto mihi.</l>
+               <l n="l43">Divitias sprevi, priscorum more Sophorum,</l>
+               <l n="l44"> Quas, natis orbum, sed nec habere juvat.</l>
+               <l n="l45">Hoc unum (fateor) moriturus ritè dolerem, 45</l>
+               <l n="l46"> Si totum vellent me mea fata mori.</l>
+               <l n="l47">Si mecum, congesta diu, monimenta perirent,</l>
+               <l n="l48"> Durior haec ipsa mors mihi morte foret;</l>
+               <l n="l49">Quae tamen augusto quamplurima commoda Regi</l>
+               <l n="l50"> Et Patriae ornamen nobile, ritè ferunt. 50</l>
+               <l n="l51">His operam navato piam: communis id optat </l>
+               <l n="l52"> Res, te communi digna vigere Patre.</l>
+               <l n="l53">Promove apud Regem coeptos pro Rege labores,</l>
+               <l n="l54"> Et major fatis, fac, videare meis.</l>
+               <l n="l55">Nec, tantum periisse bonum patere, optime Princeps, 55</l>
+               <l n="l56"> Quod post non poterunt reddere mille boni:</l>
+               <l n="l57">Divitias aliis cedo, rerumque priorum</l>
+               <l n="l58"> Notitias cedat Patria tota mihi.</l>
+               <l n="l59">Necdum sic perii, quin me relevare nequires:</l>
+               <l n="l60"> Non opus est manibus, ore levare potes. 60</l>
+               <l n="l61">Sparge aliquot bona verba tui cultoris amore,</l>
+               <l n="l62"> Quodque velis juste, te quoque posse, proba.</l>
+               <l n="l63">Dij pro tutela te quippe dedere bonorum.</l>
+               <l n="l64"> Hac mihi succurras, Dijs placiture. Vale.</l>
+               <closer n="closer1"> Viennae 14. Maji</closer>
+            </div>
+            <div n="div5" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1"> 5. Ad Dominum Baronem Clajnburg, Camerae Aulicae Consiliarium </head>
+               <l n="l1">Quaesitum reperire domi te fata negarunt: 
+                     <note xml:id="ftn297" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">5,1 </hi>te] te Te<hi n="hi2" rend="bold">| 5,2</hi>
+                        <hi n="hi3" rend="italic">initio v. exp.</hi> Par</note>
+                  
+               </l>
+               <l n="l2"> Fortunata magìs littera forsan erit,</l>
+               <l n="l3">Quae, vice Patroni, tibi prospera Festa precatur,</l>
+               <l n="l4"> Salvo in Nestoreos usque colenda dies,</l>
+               <l n="l5">Utque tuum veteri serves in amore clientem, 5</l>
+               <l n="l6"> Qui, semel addictus, non sinit esse tuus.</l>
+               <l n="l7">Neglectae pridèm, inter mille incommoda, Musae </l>
+               <l n="l8"> Subjicio Musis otia pauca tuis.</l>
+               <l n="l9">Cùmque facultatem dederis mihi te reverendi,</l>
+               <l n="l10"> Exequar officium pluribus ipse meum. 10</l>
+               <l n="l11">Interea, certus cultoris, Paule, fidelis,</l>
+               <l n="l12"> Affectum grata percipe mente. Vale.</l>
+               <closer n="closer1">Viennae 9. Iunii</closer>
+            </div>
+            <div n="div6" type="poesis-epistula">
+               <head n="head1"> 6. Ad Dominum Summum Augustae Aulae Cancellarium Baronem Sejlerum </head>
+               <l n="l1">Devoti cultum licet aspernere clientis,</l>
+               <l n="l2"> Abstineo cultor non tamen esse tuus.</l>
+               <l n="l3">Ambitione carens genius contemnit honores:</l>
+               <l n="l4"> Est pretium Virtus, est honor ipsa sibi.</l>
+               <l n="l5">Ast ego Virtutem non possum non revereri, 5</l>
+               <l n="l6"> Ingentesque animi non celebrare Viros.</l>
+               <l n="l7">Hinc concede mihi studiis genialibus uti,</l>
+               <l n="l8"> Et parcas, eadem si minùs apta vides.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l9"> Nam, si perspiceres fluctus, quibus impetor insons,</l>
+               <l n="l10"> Ferrea censeres pectora inesse mihi. 10</l>
+               <l n="l11">At, si respiceres, cur fluctibus obruar istis,</l>
+               <l n="l12"> Protinus argueres ferrea fata mihi.</l>
+               <l n="l13">Quicquid enim patior, patior virtutis amore,</l>
+               <l n="l14"> Qua curo Patriae, Caesareumque bonum.</l>
+               <l n="l15">Huc omne impendi studium, cunctosque labores, 15</l>
+               <l n="l16"> Neglecta propriae commoditate domus.</l>
+               <l n="l17">Unicus in Patria, quin vasto rarus in orbe, </l>
+               <l n="l18"> Publica plùs propriis commoda semper amans,</l>
+               <l n="l19">Quiqúe alios dites et honoros reddere curans</l>
+               <l n="l20"> Non aspernabar pauperis ipse statum. 20</l>
+               <l n="l21">Hoc studium mercede sua pretioque careret,</l>
+               <l n="l22"> Non mea morderet viscera, crede, dolor.</l>
+               <l n="l23">Sed, quòd abinde malum, contemptus et odia crescant,</l>
+               <l n="l24"> Meqúe velint prorsus praecipitare; dolor!</l>
+               <l n="l25">Nec tanti facio mea damna meique ruinam, 25</l>
+               <l n="l26"> Quàm, mea si mecum scripta obitura forent,</l>
+               <l n="l27">Altior ùt dolor est genitori in funere nati,</l>
+               <l n="l28"> Quàm proprium gelido pectus ab ense peti.</l>
+               <l n="l29">Sic, qui librorum dulci capiuntur amore, </l>
+               <l n="l30"> Haud secus amissis indoluere libris. 30</l>
+               <l n="l31">Liberi, item libri, nomen fecere perenne,</l>
+               <l n="l32"> Saepèque per libros clarius esse solet.</l>
+               <l n="l33">Nunc, qui natorum deflevi funera, libros</l>
+               <l n="l34"> Deflendi, lachrymas vix mihi inesse, puto.</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l35"> Sic etenim totus morerer. Durissima mors haec! 35</l>
+               <l n="l36"> Ingenuoque nequit durior esse viro.</l>
+               <l n="l37">Impia fata queror, sortem detestor iniquam:</l>
+               <l n="l38"> Invida saepè bonis, prompta favere malis.</l>
+               <l n="l39">Quot sunt, qui nullis meritis paucisve profectò,</l>
+               <l n="l40"> Aut etiam fictis, proemia magna ferunt? 40</l>
+               <l n="l41">At mihi, qui solos quaero tractare labores,</l>
+               <l n="l42"> Hos ipsos mala sors, hos mihi fata negant.</l>
+               <l n="l43">Tu tamen es nostros potis alleviare dolores,</l>
+               <l n="l44"> In meliusque potis vertere fata mihi.</l>
+               <l n="l45">Sique tibi non sit devoti cura clientis, 45</l>
+               <l n="l46"> Caesareae curam et publicae habeto rei.</l>
+               <l n="l47">Intimus illius cùm sis, Fridrice, minister,</l>
+               <l n="l48"> Et Mundi Civem, more Platonis, agis,</l>
+               <l n="l49">Auxiliere tui fido et virtutis amanti </l>
+               <l n="l50"> Dum vivo: nam post funera tardus eris. 50</l>
+               <l n="l51">Tu mea clementi commendes vota Monarchae,</l>
+               <l n="l52"> His se propitium reddat ut ille, roges.</l>
+               <l n="l53">Postquam me Fisco non applicat, oro quietum </l>
+               <l n="l54"> Det perfecturo grandia coepta locum.</l>
+               <l n="l55">Sic referam meritis aliquando proemia primis, 55</l>
+               <l n="l56"> Atque eadem posthac emeruisse queam.</l>
+               <l n="l57">Quartus in hac mensis mihi volvitur urbe moranti,</l>
+               <l n="l58"> Nec fert majorem cassa crumena moram.</l>
+               <l n="l59">Acceleres pietate tua solamen egenti:</l>
+               <l n="l60"> Durius est etenim morte eguisse malum. 60</l>
+               <milestone unit="page" n="milestone3"/>
+               <l n="l61"> Exemplar submitto precum, quas redde secundas,</l>
+               <l n="l62"> Coelique ac Mundi Forte beande vale.</l>
+               <closer n="closer1">Viennae 7. Iulii </closer>
+            </div>
+            <div n="div7" type="poesis-epistula">
+               <head n="head1"> 7. Ad Dominum Comitem Bucellenium, intimum Augustae Aulae Consiliarium </head>
+               <l n="l1">Post summum spes una Deum, Fridrice, clienti</l>
+               <l n="l2"> Patronus postquam debeat esse bonus,</l>
+               <l n="l3">Hoc mihi jure tuos licet implorare favores,</l>
+               <l n="l4"> Qui tuus à longo tempore vivo cliens.</l>
+               <l n="l5">Hoc quoque sinceri nomen non pauca clientis, 5</l>
+               <l n="l6"> Coram ipso mundo, jàm monimenta probant.</l>
+               <l n="l7">Nullaque idem nomen mihi temporis auferet aetas:</l>
+               <l n="l8"> Mandatum scriptis cuncta per aeva manet.</l>
+               <l n="l9">Tu quoque Patroni justa pietate benigni,</l>
+               <l n="l10"> Desertum fausta me modò, Forte, fove, 10</l>
+               <l n="l11">Quem nosti rebus longè majoribus aptum,</l>
+               <l n="l12"> Quàm mihi quaesitas nunc mala fata negant.</l>
+               <l n="l13">Patronos veteres Lachesis nam tristis ademit,</l>
+               <l n="l14"> Nec facile est vetulo posse parare novos.</l>
+               <l n="l15">Conceptus finire meos, qui publica spirant 15</l>
+               <l n="l16"> Commoda, regalis sacraque jura throni,</l>
+               <l n="l17">Est animo, Fridrice, meo suprema cupido: </l>
+               <l n="l18"> Hi mihi sunt nati, coetera tempus edat.</l>
+               <l n="l19">Ergo adjutricem, cùm possis, porrige dextram:</l>
+               <l n="l20"> Non opus est dextra, voce juvare potes. 20</l>
+               <l n="l21">Fac, mea ne semper virtus ingloria ploret,</l>
+               <l n="l22"> Qui tantum cultor glorior esse tuus.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l23">Te magnum celebrat Mundus virtutis amantem:</l>
+               <l n="l24"> Virtutem noli deseruisse meam.</l>
+               <l n="l25">Si quod posteritas pretium coelive reservant 25</l>
+               <l n="l26"> Virtuti, hoc, spera, participare. Vale.</l>
+               <closer n="closer1"> Viennae 18. Iulii </closer>
+            </div>
+            <div n="div8" type="poesis-epistula">
+               <head n="head1"> 8. Ad Dominum Supremum Camerae Aulicae Praesidem, Gundaccarum Comitem à
+                  Stahrenberg </head>
+               <l n="l1">Bis sex completis, alter jàm, mensibus, annus</l>
+               <l n="l2"> Transiit, et cursum tertius annus agit,</l>
+               <l n="l3">Quòd mihi spem dederas, Comes Illustrissime, certam,</l>
+               <l n="l4"> Nacturo in Camera Posoniense locum.</l>
+               <l n="l5">Hunc fieri modò posse negas, cùm nuper eundem <note xml:id="ftn298" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">8,15</hi>
+                     <hi n="hi2" rend="italic">exp</hi>. <gap n="gap1"/>
+                     <hi n="hi3" rend="italic">post</hi> A</note> 5</l>
+               <l n="l6"> Dicitur Antolçich obtinuisse locum.</l>
+               <l n="l7">Ut nunc, spe cassus, quinis jàm mensibus isthìc,</l>
+               <l n="l8"> Nescio, qua possim fronte redire domum,</l>
+               <l n="l9">Postquam vulgavi per amicos atque patronos </l>
+               <l n="l10"> Vota mihi sponsô certa fuisse tuô. 10</l>
+               <l n="l11">Aut mihi non credent, aut admirabitur omnis</l>
+               <l n="l12"> Mutari heroëm sic potuisse virum!</l>
+               <l n="l13">Non me alia induxit Cameram <sic n="sic1">petiise</sic> cupido,</l>
+               <l n="l14"> Quàm Fisci lapsum posse juvare bonum.</l>
+               <l n="l15">A teneris etenim mihi mens ea perstitit annis: 15</l>
+               <l n="l16"> Hujc studio vires attribuique meas.</l>
+               <l n="l17">Cùm studeant alii propriis conducere rebus,</l>
+               <l n="l18"> Intentus rebus Caesaris ipse fui.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l19"> Divitiis alii tamen hinc et honoribus aucti:</l>
+               <l n="l20"> Cur ego neglectus, pauper inopsque gemam? 20</l>
+               <l n="l21">Congrua virtuti sperabam proemia quondam:</l>
+               <l n="l22"> Hej, soli pretio quòd caret illa mihi!</l>
+               <l n="l23">Quòd, meruisse diu fidum de Caesare servum,</l>
+               <l n="l24"> Nil juvet et, Fiscum velle juvare, nefas!</l>
+               <l n="l25">Hoc ego me fato damnatum cerno, querorque 25</l>
+               <l n="l26"> Mille videns alios prosperitate frui,</l>
+               <l n="l27">Quos neque commendat virtus, nec stemma paternum,</l>
+               <l n="l28"> Ficta sed à longis gesta relata plagis.</l>
+               <l n="l29">Me virtutis amor sincero lacte cibavit,</l>
+               <l n="l30"> Spes in patronis fixa Deoque fovet. <note xml:id="ftn299" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">8,30</hi>
+                     <hi n="hi2" rend="italic">initio v. exp.</hi> F</note> 30</l>
+               <l n="l31">Ergo ad eos tutum semper mihi pono recursum:</l>
+               <l n="l32"> Nil etiam dubitans in pietate tua.</l>
+               <l n="l33">Qui si jàm nolis, excellentissime Praeses,</l>
+               <l n="l34"> Fiscali per me consuluisse bono,</l>
+               <l n="l35">Ne caream prorsus mercede laboribus omni, 35</l>
+               <l n="l36"> Ne te patronum frustra habuisse querar,</l>
+               <l n="l37">Annue submissi precibus nunc, quaeso, libelli:</l>
+               <l n="l38"> Propitius precibus jàm bene Caesar erit.</l>
+               <l n="l39">Dum potes, et vivo, prosis. Post funera namque</l>
+               <l n="l40"> Sero èst cultorem velle juvare suum. 40</l>
+               <l n="l41">Vivens te laudem, nam (teste Davide beato)</l>
+               <l n="l42"> Non laudat summum mortua turba Deum.</l>
+               <l n="l43">Principibus natura viris innata, Deorum</l>
+               <l n="l44"> Naturam debet ritè imitata sequi.</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l45"> Gaudet nempe bonum faciens mortalibus illa: 45</l>
+               <l n="l46"> Sic homo, cùm possit, faxit et ipse bonum.</l>
+               <l n="l47">Non aliunde Iovi nomen dedit alma vetustas,</l>
+               <l n="l48"> Pro summo coluit non aliunde Deo,</l>
+               <l n="l49">Quàm quòd mortales juvet inter coetera primus</l>
+               <l n="l50"> Sidera: abinde <mentioned n="mentioned1">Iuvans</mentioned> dicitur esse <mentioned n="mentioned2">Pater</mentioned>. 50</l>
+               <l n="l51">Nam, bene ni faciat Numen, quis Numen adoret?</l>
+               <l n="l52"> Divorum proprium est, scilicet, esse pios.</l>
+               <l n="l53">Sic Dij, sic Homines laudem ex pietate merentur:</l>
+               <l n="l54"> Digna, Deum ac Hominum sunt benefacta, coli.</l>
+               <l n="l55">Sic tu, quem <corr n="corr1" resp="eds">magnum</corr> Deus et Natura dederunt, 55</l>
+               <l n="l56"> Cuj Sors ad nutus obsequiosa venit,</l>
+               <l n="l57">In cultore tuo, cujus monimenta perennant,</l>
+               <l n="l58"> Aeternas laudes edito, quaeso. Vale.</l>
+               <closer n="closer1">Viennae 7. Augusti </closer>
+            </div>
+            <div n="div9" type="poesis-epistula">
+               <head n="head1"> 9. Ad Dominum Iosephum, Romanum Imperatorem Semper Augustum </head>
+               <l n="l1">Iam nova ab Hesperiis victoria personat oris, 
+                     <note xml:id="ftn300" place="foot" n="note1">
+                        <p n="p1">9,1 <hi n="hi1" rend="italic">victoria</hi>: pobjeda međunarodne alijanse
+                           predvođene nadvojvodom Karlom VI. (III.), Josipovim bratom, u bitki kod
+                           Almenara (Lérida), 27. srpnja 1710., u sklopu Rata za španjolsko
+                           nasljeđe. <hi n="hi2" rend="italic">Cf</hi>. VII,11,3; 9,10 <hi n="hi3" rend="italic">quantum</hi>
+                           <hi n="hi4" rend="italic">fati nomina Regis habent:</hi> poslanice VII,9-12
+                           popratni su tekstovi uz Karlova <hi n="hi5" rend="italic">fata</hi> koja je
+                           Ritter spjevao povodom pobjede u Španjolskoj.</p>
+                        <p n="p2">_____________________________</p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">9,4</hi>
+                           <hi n="hi2" rend="italic">exp.</hi> hic <hi n="hi3" rend="italic">post</hi> est | <hi n="hi4" rend="bold">9,5</hi>
+                           <hi n="hi5" rend="italic">initio v. exp. </hi>Haec ego | <hi n="hi6" rend="bold">10,8</hi>
+                           <hi n="hi7" rend="italic">exp</hi>. sic <hi n="hi8" rend="italic">post</hi> fieri</p>
+                     </note>
+                  
+               </l>
+               <l n="l2"> De Gallis Aquilas quam retulisse ferunt.</l>
+               <l n="l3">Nil mirum, dices, Aquilam praecellere Gallo:</l>
+               <l n="l4"> Privati laris est ales hic, ille Iovis.</l>
+               <l n="l5">Sic est. Sed Superis regitur victoria fatis: 5</l>
+               <l n="l6"> Fata in temporibus nominibusque latent.</l>
+               <l n="l7">Haec ego non vana vatum scrutatus ab arte</l>
+               <l n="l8"> Deducta, ante tuum sisto legenda thronum.</l>
+               <l n="l9">Apparet quantum fuerat sub tempore fati,</l>
+               <l n="l10"> Et quantum fati nomina Regis habent. 10</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l11"> Quod, levidense licèt, studium laeto accipe vultu:</l>
+               <l n="l12"> Grata est, fraterni fama iterata boni.</l>
+               <l n="l13">Offero, quae possum; sed tu, augustissime Caesar,</l>
+               <l n="l14"> Fac me <sic n="sic1">offere</sic> potem plura deinde. Vale.</l>
+               <closer n="closer1">Viennae 24. Augusti </closer>
+            </div>
+            <div n="div10" type="poesis-epistula">
+               <head n="head1"> 10. Ad Dominum Carolum III., Hispaniarum et Indiarum Monarcham </head>
+               <l n="l1">Fama per Austriacas latè volat inclyta terras,</l>
+               <l n="l2"> Et petit Arctoum nuntia grata polum,</l>
+               <l n="l3">Victorem te certa canens de Principe Gallo, </l>
+               <l n="l4"> Ingresso regnum vique doloque tuum.</l>
+               <l n="l5">Fractum acie, Victor, memoranda clade fugasti: 5</l>
+               <l n="l6"> Nunc stabilem figens in tua regna pedem.</l>
+               <l n="l7">Id tua bellaci confecit milite virtus,</l>
+               <l n="l8"> Et fieri superi sic voluere Dii:</l>
+               <l n="l9">Scilicet est haec plena suis victoria fatis,</l>
+               <l n="l10"> Et tua sunt fatis nomina plena bonis. 10</l>
+               <l n="l11">Haec ego ab arcanis Naturae fata revelans</l>
+               <l n="l12"> Ante tuo Mundo sterno legenda pedes.</l>
+               <l n="l13">Quantum conveniunt rebus feliciter actis,</l>
+               <l n="l14"> Id tua sat promunt nomina, et ipsa dies.</l>
+               <l n="l15">Quin Superi majora tibi, Rex magne, reservant, 15</l>
+               <l n="l16"> Quaeqúe latent Vates, quaeqúe priùs cecini.</l>
+               <l n="l17">Facta brevì prodant Mundo, quod coelica tandem</l>
+               <l n="l18"> Fata diu spondent, Carole dive, tibi.</l>
+               <l n="l19">Idqúe bonum in Natos, et qui nascentur ab illis</l>
+               <l n="l20"> Mittens, aeterno Gloriae honore vige. 20</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l21"> Vota piis jungo fatis, pridèmque dicatum</l>
+               <l n="l22"> Me demum voveo, devoveoque. Vale.</l>
+               <closer n="closer1">Viennae 24. Augusti </closer>
+            </div>
+            <div n="div11" type="poesis-epistula">
+               <head n="head1"> 11. Ad Dominum Comitem Carolum Maximilianum de Turri, Viduae Imperatricis
+                  Summum Aulae Praefectum </head>
+               <l n="l1">Aeger, et affixus lecto, patiensque dolores,</l>
+               <l n="l2"> Tollere Galleni quos medicina nequit,</l>
+               <l n="l3">Audito ad Leridam fausto certamine Regis, </l>
+               <l n="l4"> Corde animoque imis exhilaratus eram.</l>
+               <l n="l5">Mox quoque fatorum super hoc arcana revolvens, 5</l>
+               <l n="l6"> Comperio Superos sic voluisse Deos.</l>
+               <l n="l7">Calculum, in annexo folio, decretaque Divûm,</l>
+               <l n="l8"> Praesidium Vatum, Maxmiliane, vides.</l>
+               <l n="l9">Hocqúe ter angustae, victoris, quaeso, Monarchae </l>
+               <l n="l10"> Praeberi Matri, te mediante, rogo. 10</l>
+               <l n="l11">Hinc pia forte aliquod Genitrix solamen habebit,</l>
+               <l n="l12"> Natum tam charum Dijs genuisse videns,</l>
+               <l n="l13">Quam Superi in Nato largè solentur utroque,</l>
+               <l n="l14"> Atque Aviam faciant Regìbus esse novis.</l>
+               <l n="l15">Tu verò veniam cultori fortè molesto, 
+                     <note xml:id="ftn301" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">11,15 </hi>cultori] <hi n="hi2" rend="italic">suprascr. pro</hi>
+                        molesto | <hi n="hi3" rend="bold">11,15</hi>
+                        <hi n="hi4" rend="italic">exp. </hi>clienti <hi n="hi5" rend="italic">post</hi> fortè</note>
+                   15</l>
+               <l n="l16"> Da, precor, et facias, quae peto, Carle. Vale.</l>
+               <closer n="closer1"> Viennae 24. Augusti </closer>
+            </div>
+            <div n="div12" type="poesis-epistula">
+               <head n="head1"> 12. Ad Dominum Carolum III., Hispaniarum et Indiarum Monarcham </head>
+               <l n="l1">Ecce tui, Rex Carle, novos ex Marte triumphos</l>
+               <l n="l2"> Excipit applausu laeta Vienna gravi,</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l3">Quos mea, quantumvis inculta rudisque senexque </l>
+               <l n="l4"> Fatidicis Musa est concomitata metris.</l>
+               <l n="l5">Talis enim mihi mens, animusque est talis, ut omni 5</l>
+               <l n="l6"> Fundere pro te animam tempore promptus agam.</l>
+               <l n="l7">Hinc, carmen quanquam rude sit, quia corde fideli<note xml:id="ftn302" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">12,7 </hi>carmen quanquam] <hi n="hi2" rend="italic">suprascribendo
+                        numeros mut</hi>. <hi n="hi3" rend="italic">e</hi> quanquam carmen | <hi n="hi4" rend="bold">14,2</hi> firmiter] <hi n="hi5" rend="italic">e d. marg. pro </hi>scilicet</note>
+               </l>
+               <l n="l8"> Depromptum, grata perlege fronte, precor.</l>
+               <l n="l9">Dijqúe tibi tribuant, quantum deposcis ab illis:</l>
+               <l n="l10"> Tu verò in charis vota clientis habe. 10</l>
+               <closer n="closer1">Viennae <gap n="gap1"/> Septembris </closer>
+            </div>
+            <div n="div13" type="poesis-epistula">
+               <head n="head1"> 13. Ad Dominum Episcopum Csanadiensem, Comitem Ladislavum de Nadast </head>
+               <l n="l1">Sole sub hesterno, post nonam scilicet horam,</l>
+               <l n="l2"> Quaesitum nequii te reperire domi.</l>
+               <l n="l3">Optabam solito revereri more patronum,</l>
+               <l n="l4"> Aerumnasque penes commemorare meas.</l>
+               <l n="l5">Nunc etiam incertus, num te deprendere possim: 5</l>
+               <p n="p1"> <pc n="pc1">***</pc>
+          <note xml:id="ftn303" place="end" n="note1"> Ritter <hi n="hi1" rend="italic">ipse
+                        signum *** hoc loco annotavit et post id alteram epistolam posuit</hi>
+                  </note>
+               </p>
+            </div>
+            <div n="div14" type="poesis-epistula">
+               <head n="head1"> 14. Ad Dominum Eliam Wanjecium </head>
+               <l n="l1">Quòd te pransurus non possit visere Ritter,</l>
+               <l n="l2"> Parce: alii verbum firmiter antè dedit.</l>
+               <l n="l3">Saepè favore tuo fruitur, quem, quando rependet</l>
+               <l n="l4"> Nescit: sic ipsum sors inimica premit.</l>
+               <l n="l5">Utere tu fatis melioribus: haec quia, Forsqúe, 5</l>
+               <l n="l6"> Ut meretrix, juveni prompta favere solent.</l>
+               <l n="l7">Prande cum reliquis ergo jucundus amicis,</l>
+               <l n="l8"> Visere post pransum te volo, Amice. Vale.</l>
+               <closer n="closer1">Viennae 19. Octobris </closer>
+            </div>
+            <milestone unit="page" n="milestone2"/>
+            <div n="div15" type="poesis-epistula">
+               <head n="head1"> 15. Ad Carmen Anonymi, Novalibus Viennae die 2. Mensis Augusti additum nomine
+                  Lycoli Duaco <note xml:id="ftn304" place="foot" n="note1">
+                     <p n="p1"> 15,tit. <hi n="hi1" rend="italic">Carmen Anonymi</hi>: latinski epigram «Expugnatio
+                        Duaci die 25. Junii 1710.» nepoznata autora, objavljen u bečkom listu Der
+                        Post-Tägliche Mercurius» 2. kolovoza 1710., čija je tema savezničko
+                        zauzimanje sjevernofrancuskog grada Douaia u Ratu za španjolsko nasljeđe.
+                        Bečka tiskovina «Der Post-Tägliche Mercurius» izlazila je od 1703. do 1724,
+                        a u godištu 1710. Ritter je u njoj tiskao više prigodnica, <hi n="hi2" rend="italic">geniticon</hi> (astrološko-numerološko tumačenje) imena nadvojvotkinje
+                        Marije Elizabete i dva anagrama povodom bitke kod Léride;16,tit. <hi n="hi3" rend="italic">die 23. Augusti</hi>: u tome broju «Mercurius» nije objavio
+                        nikakvih latinskih stihova; nije poznato na koje i čije pjesme, nastale
+                        povodom Karlove pobjede kod Léride (<hi n="hi4" rend="italic">Sicoris
+                           conflictus</hi>), Vitezović ovdje kritizira; 16,1 <hi n="hi5" rend="italic">Nuntie</hi>: Nuntius = Mercurius.</p>
+                     <p n="p2">___________________________</p>
+                     <p n="p3">
+                        <hi n="hi1" rend="bold">15,8</hi>
+                        <hi n="hi2" rend="italic">exp</hi>. ne[.] <hi n="hi3" rend="italic">post</hi> dicere, | <hi n="hi4" rend="bold">15,9-10</hi>
+                        <hi n="hi5" rend="italic">sic, claudicante versu </hi>| <hi n="hi6" rend="bold">16,4</hi>
+                        monstrat] montrat</p>
+                  </note>
+               </head>
+               <l n="l1">Legi, sed fusum nequiens cohibere cachinnum, </l>
+               <l n="l2"> Quisquis es, ingenii disticha quina tui.</l>
+               <l n="l3">Primum, te nescire probat, rudimenta Poësis,</l>
+               <l n="l4"> Quidqúe voles aliis dicere, nemo capit.</l>
+               <l n="l5">Si <mentioned n="mentioned1">duae aquae</mentioned> Duaco nomen gentile dedere, 5</l>
+               <l n="l6"> Syllaba erit Duaco ritè secunda brevis.</l>
+               <l n="l7">Turpiùs <mentioned n="mentioned1">AD</mentioned>, breviasse fuit <mentioned n="mentioned2">P</mentioned> nempè
+                  sequente;</l>
+               <l n="l8">
+                  <mentioned n="mentioned1">Indomitumque Ducem</mentioned> dicere nemo probat.</l>
+               <l n="l9">Nec tamen haec <mentioned n="mentioned1">duo Castra, Duces</mentioned> duo fulmina belli</l>
+               <l n="l10">
+                  <mentioned n="mentioned1">Pugnabant me penes</mentioned>; at Duacum. 10</l>
+               <l n="l11">A<supplied n="supplied1">r</supplied>ma togae cedunt? Canit ergo Psittacus? Erras;</l>
+               <l n="l12">
+                  <emph n="emph1">Vaniloquo</emph> probius quàm <emph n="emph2">siluisse</emph> foret! </l>
+               <l n="l13">Quòd tales alat Urbs, Orbis Regina Poëtas:</l>
+               <l n="l14"> Prodiga; nil decori consulit illa suo!</l>
+            </div>
+            <div n="div16" type="poesis-epistula">
+               <head n="head1"> 16. Ad Mercurium Viennensem ob quaedam carmina die 23. Augusti </head>
+               <l n="l1">Quod solamen habes, ò Nuntie Vindebonensis,</l>
+               <l n="l2"> Vaniloqui Vatis lurida metra ferens?</l>
+               <l n="l3">In Duaqui nuper casu, Sicorisque deinde</l>
+               <l n="l4"> Conflictu, monstrat, quàm rudis est, et iners.</l>
+               <l n="l5">In Carli Regis victricia praecinit arma, 5</l>
+               <l n="l6"> Carmen ad Andinum sed sonat omne Ducem.</l>
+               <l n="l7">Quis putet Andegavum Andino Civem esse Poëtae?</l>
+               <l n="l8"> Primam <mentioned n="mentioned1">cari</mentioned>, à quo <mentioned n="mentioned2">Carolus</mentioned>, esse
+                  brevem?</l>
+               <l n="l9">Hoc est indocti <emph n="emph1">Carmen</emph> miserabile Vatis:</l>
+               <l n="l10"> Caetera Virgilio reddat; inanis erit. 10</l>
+            </div>
+            <milestone unit="page" n="milestone3"/>
+            <div n="div17" type="poesis-epistula">
+               <head n="head1"> 17. Ad Dominum Proregem Chorvathiae, Ioannem Comitem Palffium </head>
+               <l n="l1">Quòd silui tantum jàm tempus, ò inclyte Prorex, <note xml:id="ftn305" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">17,1</hi> silui] <hi n="hi2" rend="italic">corr. e</hi> sileam</note>
+               </l>
+               <l n="l2"> Fortè mihi vitio, pigritiaeve dabis.</l>
+               <l n="l3">Aut credes, fatis functum <sic n="sic1">periise</sic> Viennae,</l>
+               <l n="l4"> Exilio Vates sors mala saepè premit.</l>
+               <l n="l5">Vivo equidem, sed adhuc inconsolatus ad Aulam 5</l>
+               <l n="l6"> Caesaris Augusti verna fidelis Eques,</l>
+               <l n="l7">At quamquàm studui magnos meruisse Patronos,</l>
+               <l n="l8"> Patroni et studium nil tamen usque juvant.</l>
+               <l n="l9">Sic est: quando aliquem fors prospera deserit, illum </l>
+               <l n="l10"> Deseruêre homines, deseruere Dii. 10</l>
+               <l n="l11">Hinc animum moeror conturbans reddit ineptum,</l>
+               <l n="l12"> Atque sui ipsius saepiùs immemorem.</l>
+               <l n="l13">Quem nunquam bona sors oculo prospexit amico,</l>
+               <l n="l14"> Quàm quem deseruit, laetior esse potest.</l>
+               <l n="l15">Isthìc septenum gratìs jàm transigo mensem: 15</l>
+               <l n="l16"> Quas non impensas erogo pauper Eques!</l>
+               <l n="l17">Quae non damna domi patior, post damna priora,</l>
+               <l n="l18"> Cuj natus, frater, sed nec amicus adest!</l>
+               <l n="l19">Interea et corpus morbi afflixêre senile,</l>
+               <l n="l20"> Ut tot plagarum vèl meminisse grave est! 20</l>
+               <l n="l21">Hinc, cùm nil habui jucundi scribere semper</l>
+               <l n="l22"> Abstinuit justus scribere moesta dolor.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l23"> Hunc modò, me, summum violare Necesse coëgit;</l>
+               <l n="l24"> Parces molesto: lege Necesse caret.</l>
+               <l n="l25">Tot tantisque malis licèt obrutus anxia spirem, 25</l>
+               <l n="l26"> Spero aliquod sed adhuc posse videre bonum.</l>
+               <l n="l27">Tandem, si nullum veniat, patienter habebor;</l>
+               <l n="l28"> Aerumnis finem mors dabit ipsa brevi.</l>
+               <l n="l29">Taedet in hoc animum, lassum jàm, vivere mundo: 
+                     <note xml:id="ftn306" place="foot" n="note1">
+                        <p n="p1">17,49-51 <hi n="hi1" rend="italic">spoliatus in aedibus hospes ... latronem</hi>:
+                           vjerojatno aluzija na izgubljenu parnicu oko posjeda šćitarjevskog imanja
+                           Ivana Jonate Ivanovića; «lopov» (51) je njegov protivnik i tužitelj,
+                           Ivanovićev nasljednik Ljudevit Vagić.</p>
+                        <p n="p2">__________________________</p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">17,29</hi> lassum] lasum<hi n="hi2" rend="bold">| 17,43</hi>
+                           nescio, ad ista] <hi n="hi3" rend="italic">suprascr. pro </hi>ad haec, ignoro |
+                              <hi n="hi4" rend="bold">17,43</hi> redacto] <hi n="hi5" rend="italic">corr. e</hi>
+                           redact[[us]] | <hi n="hi6" rend="bold">17,47</hi> actum est <hi n="hi7" rend="italic">pro
+                              exp</hi>. ùtque | <hi n="hi8" rend="bold">17,51</hi> in immitem] <hi n="hi9" rend="italic">pro exp.</hi> contra meum | <hi n="hi10" rend="bold">17,53
+                           </hi>vacuas ... aedes] <hi n="hi11" rend="italic">mut. e</hi> vacuam ... aedem</p>
+                     </note>
+                  
+               </l>
+               <l n="l30"> Fortunae taedet compita falsa sequi. 30</l>
+               <l n="l31">Is meus est error, quòd cunctos hactenus annos</l>
+               <l n="l32"> Vixi spontè aliis, immemor ipse mei.</l>
+               <l n="l33">Neglectum Fortuna modò me ridet, et aequè,</l>
+               <l n="l34"> Fata tamen mecum sic voluisse, reor.</l>
+               <l n="l35">At ridenda magìs mihi jam Fortuna videtur: 35</l>
+               <l n="l36"> Quae nitet ùt vitrum, frangitur ùtque vitrum.</l>
+               <l n="l37">Sola virum virtus à letho vindicat inde:</l>
+               <l n="l38"> Quid juvat aut noceat ditem inopemve mori?</l>
+               <l n="l39">Is miser est potiùs, quem non adversa probarunt:</l>
+               <l n="l40"> Humanas forti fert homo mente vices. 40</l>
+               <l n="l41">Da veniam, justas excedit epistola metas:</l>
+               <l n="l42"> Quae dolet, haec mentem pars trahit atque manum.</l>
+               <l n="l43">Iamque, quid expediat mihi nescio ad ista redacto?</l>
+               <l n="l44"> Et dolor et pudor est sic rediisse domum.</l>
+               <l n="l45">De me, deque meis tot Amicis atque Patronis, 45</l>
+               <l n="l46"> Quem faciet sensum turba inimica, puta.</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l47"> Transeat hic. Mala mens nunquam bene cogitat, actum est;</l>
+               <l n="l48"> Non bene consuevit lingua maligna loqui.</l>
+               <l n="l49">Sed quid agam solus, spoliatus in aedibus hospes? </l>
+               <l n="l50"> Ut vita spolier: non aliud superest. 50</l>
+               <l n="l51">Praestat in immitem procedere jure latronem: </l>
+               <l n="l52"> Belli idem et litis sed mihi nervus abest. </l>
+               <l n="l53">Atque ideò cunctis vacuas mihi reddidit aedes,</l>
+               <l n="l54"> Ne facilè in sontem cogere jura queam.</l>
+               <l n="l55">Isthìc interea concepta negotia prorsus 55</l>
+               <l n="l56"> Negligerem, nulla plùs revocanda die.</l>
+               <l n="l57">Durum iter et longum est Savano à rure Viennam:</l>
+               <l n="l58"> Aetati et bursae durius ultrò meae. 
+                     <note xml:id="ftn307" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">17,58 </hi>durius] <hi n="hi2" rend="italic">corr. e </hi>duri[[ù]]s
+                        | <hi n="hi3" rend="bold">17,59</hi> celsum] <hi n="hi4" rend="italic">mut. e </hi>[... ...]
+                        | <hi n="hi5" rend="bold">17,61</hi> Consilio] <hi n="hi6" rend="italic">corr. e</hi>
+                        consili[[um]] | <hi n="hi7" rend="bold">17,61</hi> jussu] <hi n="hi8" rend="italic">corr.
+                           e</hi> jussu[[m]] | <hi n="hi9" rend="bold">17,61</hi> tuo] <hi n="hi10" rend="italic">corr. e</hi> tu[[um]] | <hi n="hi11" rend="bold">17,61 </hi>illustrissime] <hi n="hi12" rend="italic">pro exp. </hi>Illustri | <hi n="hi13" rend="bold">17,65
+                        </hi>virtutem] <hi n="hi14" rend="italic">suprascr. pro</hi> magnum animum<hi n="hi15" rend="bold">| 18,13 </hi>tamen] <hi n="hi16" rend="italic">suprascr</hi>
+                        <hi n="hi17" rend="italic">. </hi>
+                        <hi n="hi18" rend="italic">p</hi>
+                        <hi n="hi19" rend="italic">ro</hi> Deus | <hi n="hi20" rend="bold">18,13 </hi>vitam]
+                        vivtam</note>
+                  
+               </l>
+               <l n="l59">Hinc paulisper adhuc celsam remorabor ad aulam,</l>
+               <l n="l60"> Donec pro votis aut abeam, aut obeam. 60</l>
+               <l n="l61">Consilio jussuque tuo, illustrissime Princeps,</l>
+               <l n="l62"> Subvenias famulo, pro pietate, tuo.</l>
+               <l n="l63">Quem si deseruit Fortuna, potentior illa</l>
+               <l n="l64"> Nitere monstrari: restituendo virum.</l>
+               <l n="l65">Dij tibi virtutem tribuerunt, Caesar honores: 65</l>
+               <l n="l66"> Aeternum Clio Nomen in Orbe dabit.</l>
+               <l n="l67">Dij te conservent salvum incolumemque, diuque</l>
+               <l n="l68"> Majori extollat Caesar honore. Vale.</l>
+               <closer n="closer1">Viennae 25. Octobris 1710. </closer>
+               <note xml:id="ftn308" place="end" n="note1">
+                  <hi n="hi1" rend="italic">In fine p. 21 et in p. 22 Ritter duas epistolas expunxit</hi>:
+                     <hi n="hi2" rend="underline">18. Ad D[......]</hi> / <hi n="hi3" rend="italic">(p.22) </hi>/
+                  Acc[......] / [......] / Viennae 25. 8br. / <hi n="hi4" rend="underline">19. Ad D(ominum)
+                     [......]</hi> / [......] / Accipe, neglectae pridèm, pauca otia Musae, / Cumque
+                  augustali participato Choro. / Si labor indigne tantum sit Principe in ipso / Mens
+                  devota tamen reficienda foret. / Tuque humilem Vatem non sperne, o maxime Vatum: /
+                  Quo magis est altus Sol magis ima fovet. / Augusto Nato Genitrix Augusta clientem
+                  / Commendet: cujus Fautor adesto. Vale. / Viennae 27. 8br.</note>
+
+            </div>
+            <milestone unit="page" n="milestone4"/>
+            <div n="div18" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">18.</corr>
+                     <sic n="sic1">19.</sic>
+                  </choice> 
+                   Ad Dominum Illyrici Proregem, Comitem Ioannem Palffium </head>
+               <l n="l1">Consilio mea vota tuo conformo, precorque,</l>
+               <l n="l2"> Illis heroa pro pietate fave.</l>
+               <l n="l3">Ut sic Istranis vigeam Philomusus in oris,</l>
+               <l n="l4"> Cuj infesta nimìs Savia terra fuit;</l>
+               <l n="l5">Tristia quaè primos mutavit in odia mores, 5</l>
+               <l n="l6"> Cultu hominis forsan jàm satiata probi.</l>
+               <l n="l7">Mutavit mores, meritorum oblita meorum:</l>
+               <l n="l8"> Quam sibi, Mundo, oevis, enituisse dedi.</l>
+               <l n="l9">Pro qua sustinui duros persaepè labores,</l>
+               <l n="l10"> Transtuleramque meos ad sua rura lares. 10</l>
+               <l n="l11">Omnia sed gratìs. Utinam tantummodo gratìs:</l>
+               <l n="l12"> Ne res et vitam tollere mota foret.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l13"> Privavit rebus; vitam tamen usque reservat,</l>
+               <l n="l14"> Quam pius eripuit mortis ab ore, Deus. </l>
+               <l n="l15">Tunc aliis dulcis labor est, cùm proemia spectent; 15</l>
+               <l n="l16"> Quàm meus heu recipit proemia iniqua labor!</l>
+               <l n="l17">Iudicet ipse meam, qui prospicit omnia, causam,</l>
+               <l n="l18"> Iudicet è contra corda maligna Deus.</l>
+               <l n="l19">Nec sinat hoc impune scelus, ne vel rude vulgus</l>
+               <l n="l20"> Ambigat aethereum cuncta videre Jovem. 20</l>
+               <l n="l21">Sustine, quaeso, tui, Prorex, lamenta clientis:</l>
+               <l n="l22"> Consilium superat jàm dolor iste meum.</l>
+               <l n="l23">Nunc a te spectare mihi solamina fas sit:</l>
+               <l n="l24"> Fortunae clemens arbiter esto meae,</l>
+               <l n="l25">Ut priùs exuto respirem forte dolore, 
+                     <note xml:id="ftn309" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">18,25</hi> Ut <hi n="hi2" rend="italic">suprascr</hi>
+                        <hi n="hi3" rend="italic">. </hi>
+                        <hi n="hi4" rend="italic">pro</hi> Qu[..]</note>
+                   25</l>
+               <l n="l26"> Supremum claudat quàm mihi Parca diem.</l>
+               <l n="l27">Sic propior tua jussa sequi, gratesque referre,</l>
+               <l n="l28"> Et laudem satiùs concelebrare, queam.</l>
+               <l n="l29">Ergo patrocinio sperans meliora potente,</l>
+               <l n="l30"> Lamentis finem pono proinde. Vale. 30</l>
+               <closer n="closer1">Viennae 1. Novembris </closer>
+            </div>
+            <div n="div19" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">19.</corr>
+                     <sic n="sic1">20.</sic>
+                  </choice> 
+                   Ad Sacram Catholicam Caroli III., Hispaniarum et Indiarum
+                  Majestatem </head>
+               <l n="l1">Quantus es, Hispanae Mars inclyte Gentis, in armis,</l>
+               <l n="l2"> In Populi, Princeps, quantus amore tui,</l>
+               <l n="l3">Non tantùm bellax Europa, vel Africa, novit,</l>
+               <l n="l4"> Nympha sed id toti vulgat Ibera solo.</l>
+               <l n="l5">Mirantur cuncti tua gesta. Forinsecus ista 5</l>
+               <l n="l6"> Quantus at internè es, vix vèl Apollo capit.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l7"> Actibus externis summos Heroas adaequas,</l>
+               <l n="l8"> Internis junctus nosceris esse Deo.</l>
+               <l n="l9">Quantum ego scrutatis potui deducere Fatis,</l>
+               <l n="l10"> Ante tuum pono, Carole magne, thronum. 10</l>
+               <l n="l11">Quanta sed ulteriùs Superi tibi dona reservant,</l>
+               <l n="l12"> Indocilis Vatis non capit ingenium.</l>
+               <l n="l13">Hoc tamen augusto, clemens Rex, accipe vultu,</l>
+               <l n="l14"> Devotique lubens vota clientis habe.</l>
+               <l n="l15">Imperium tibi Dij majestatemque dedêre: 15</l>
+               <l n="l16"> Has tueantur opes Dij tibi, quaeso. Vale.</l>
+               <closer n="closer1">Viennae 1. Novembris </closer>
+            </div>
+            <div n="div20" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">20.</corr>
+                     <sic n="sic1">21.</sic>
+                     <sic n="sic2">Transilvanae</sic>
+                  </choice> 
+                   Ad Dominum Aulae  Cancellarium,
+                  Sigismundum Baronem Kornis </head>
+               <l n="l1">Carminis, hesterna quod misi luce Monarchae</l>
+               <l n="l2"> Hesperidum, par hìc, inclyte Kornis, habes.</l>
+               <l n="l3">Hoc ideò mitto, quia te scio carminum amantem:</l>
+               <l n="l4"> Carmen amat, quisquis carmine digna gerit.</l>
+               <l n="l5">Utque fruar satiùs cultor praesente Patrono, 5</l>
+               <l n="l6"> Pransuro assistam, si lubet, atque sinis.</l>
+               <l n="l7">Non est conveniens, fateor, mos iste Croatis, <note xml:id="ftn310" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">20,7</hi> Croatis] <hi n="hi2" rend="italic">suprascr. pro</hi> Viennae
+                     2. Novemb. | <hi n="hi3" rend="bold">21,tit. </hi>22] <hi n="hi4" rend="italic">corr. e</hi> 21
+                     | <hi n="hi5" rend="bold">22,tit.</hi> 23] <hi n="hi6" rend="italic">corr. e</hi> 2[[4]]</note>
+               </l>
+               <l n="l8"> Sed sic assuevit celsa Vienna. Vale.</l>
+               <closer n="closer1">Viennae 2. Novembris</closer>
+            </div>
+            <div n="div21" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">21.</corr>
+                     <sic n="sic1">22.</sic>
+                  </choice> 
+                   Ad Dominum Emericum Ujvary </head>
+               <l n="l1">Sacra celebranti divini festa Patroni</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l2"> Salvo ac incolumi laetor, Amice, tibi,</l>
+               <l n="l3">Et voveo, celebres haec et quàm plurima posthac,</l>
+               <l n="l4"> Propitia votis Prosperitate tuis.</l>
+               <l n="l5">Totqúe novos, quot jàm vixisti, transige menses: 5</l>
+               <l n="l6"> Nunc pater, at posthac sis avus et proavus.</l>
+               <l n="l7">Tandem, nominibus Naturę ritè solutis,</l>
+               <l n="l8"> Patrono in coelis consociere tuo.</l>
+               <l n="l9">Sic vita felix ista longaevus, et illa</l>
+               <l n="l10"> Aeternùm felix, Ujvary chare, Vale. 10</l>
+               <closer n="closer1">Festô BeatI EMerICI DVCIs PannonIae,
+               <lb n="lb1"/>Ita AMICo sVo aDsCrIbIt RItter.</closer>
+            </div>
+            <div n="div22" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">22.</corr>
+                     <sic n="sic1">23.</sic>
+                  </choice> 
+                   Ad Dominum Archiepiscopum Colossensem, Comitem Emericum de
+                  Chak </head>
+               <l n="l1">Orto Sole dies haec Mensis quinta Novembris, </l>
+               <l n="l2"> Officii memorem me monet esse mei.</l>
+               <l n="l3">Scilicet Ungarico festum Duci adesse sacratum,</l>
+               <l n="l4"> Qui primus gentis sanctus, et ante patrem.</l>
+               <l n="l5">Esse tui festum, Princeps Emerice, Patroni, 5</l>
+               <l n="l6"> Ante tui cultor quippe parentis eram:</l>
+               <l n="l7">Hinc duplici titulo, Sanctique, Tuique colendi,</l>
+               <l n="l8"> Occurrit nobis haec celebranda dies.</l>
+               <l n="l9">In templo solitos Sancto recitabimus hymnos,</l>
+               <l n="l10"> Acturi grates pro ejus honore Deo. 10</l>
+               <l n="l11">In templo Superis pro te quoque vota daturi,</l>
+               <l n="l12"> Qui vitam ducis Sancto, Emerice, parem,</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l13"> Ut, postquam longos isthìc traduxeris annos,</l>
+               <l n="l14"> Ornatus mitris purpureaque toga,</l>
+               <l n="l15">Sanctorum felix adeas consortia Praesul, 15</l>
+               <l n="l16"> In templisque tui nomine terra colat.</l>
+               <l n="l17">Iungo piis votis, quanquam levidense poëma,</l>
+               <l n="l18"> Conveniens fatis attamen hocce tuis.</l>
+               <l n="l19">Meque tibi voveo, cultorem, Emerice, futurum,</l>
+               <l n="l20"> Hisce boni votis consule, quaeso. Vale. 20</l>
+               <closer n="closer1">DIe beatI EMerICI ConfessorIs Vngariae</closer>
+               <note xml:id="ftn311" place="end" n="note1">
+                  <hi n="hi1" rend="italic">In fine p. 26 Ritter expunxit epistolam </hi>
+                  <hi n="hi2" rend="underline">24. Ad D(ominum) E[......]</hi>
+                  <hi n="hi3" rend="italic">, quae 5 versibus constabat, sed qui haud legi possunt, et post
+                     eam 'Responsum' 7 versuum, quod itidem haud legitur</hi>
+               </note>
+
+            </div>
+            <milestone unit="page" n="milestone5"/>
+            <div n="div23" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">23.</corr>
+                     <sic n="sic1">24.</sic>
+                  </choice> 
+                   Domino Eliae Vanjecio <note xml:id="ftn312" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">23, tit.</hi> 23] <hi n="hi2" rend="italic">corr. e</hi> 2[.]<hi n="hi3" rend="italic">in</hi> 24 | <hi n="hi4" rend="bold">23,7</hi> non curo, ferasque
+                     volucres] <hi n="hi5" rend="italic">pro exp. </hi>et aves ego vito profectò</note>
+               </head>
+               <l n="l1">Cùm mihi sint tecum <sic n="sic1">nonulla</sic> necessè loquenda,</l>
+               <l n="l2"> Pransurus veniam, sic ut, Amice, jubes.</l>
+               <l n="l3">Ast, ne vel quicquam cures plus, quaeso, parari,</l>
+               <l n="l4"> Quàm tua pro solito carpere mensa solet.</l>
+               <l n="l5">Esto bovilla caro bene cocta, vitellaque tosta, 5</l>
+               <l n="l6"> Caules cum lardo prandia grata dabis.</l>
+               <l n="l7">Gallos eunuchos non curo, ferasque volucres: </l>
+               <l n="l8"> Ut veniam, noli condere plura. Vale.</l>
+               <closer n="closer1">Manè, In soLennItate sanCtI LeonarDI, 
+               <lb n="lb1"/>EqVes RItter.</closer>
+            </div>
+            <div n="div24" type="poesis-epistula">
+               <head n="head1"> 23a. Responsum <supplied n="supplied1">E. Wanyeczi</supplied>
+               </head>
+               <l n="l1">Accepi missam vultu saliente salutem,</l>
+               <l n="l2"> Paulò majorem, qùam mihi, Paule, dabas.</l>
+               <l n="l3">Hospes eris gratus, contentus sis modò nostrâ</l>
+               <l n="l4"> Vulgari, quam fert incola quisque dape.</l>
+               <l n="l5">Ergo, veni celeri committens membra veredo: 5</l>
+               <l n="l6"> Horas dum bis sex aenea nola feret.</l>
+               <closer n="closer1">
+                  <salute n="salute1">eXpeCtabo pro Certò aD Me.</salute>
+                  <signed n="signed1"> Elias Wanyeczi manu propria</signed>
+               </closer>
+            </div>
+            <div n="div25" type="poesis-epistula">
+               <head n="head1"> 23b. Responsum <supplied n="supplied1">Pauli Ritter</supplied>
+               </head>
+               <l n="l1">eXpeCta Me, Certè aDero.</l>
+               <closer n="closer1">
+                  <signed n="signed1"> Eques Paulus Ritter manu propria</signed>
+               </closer>
+            </div>
+               <milestone unit="page" n="milestone6"/>
+               <note xml:id="ftn313" place="end" n="note1">
+                     <hi n="hi1" rend="italic">P. 28 vacua</hi>
+                  </note>
+            <div n="div26" type="poesis-epistula">
+               <head n="head1">
+                   <choice n="choice1">
+                     <corr n="corr1" resp="eds">24.</corr>
+                     <sic n="sic1">25.</sic>
+                  </choice> 
+                   Ad Dominum Consiliarium Baronem Pataçich </head>
+               <l n="l1">Posoniam fato quasi raptum nuper ad urbem,</l>
+               <l n="l2"> Mirabar, post tres non rediisse dies.</l>
+               <l n="l3">Interea, falso pestis rumore Vienna</l>
+               <l n="l4"> Territa, praeclusit quaslibet inde vias.</l>
+               <l n="l5">Hinc per Danubium profectus ad ostia Dravi, 5</l>
+               <l n="l6"> Mursorum veterum castra novata petis.</l>
+               <l n="l7">Isthìc visisti fratrem, quem Bossnia tellus</l>
+               <l n="l8"> Pontificem Sanctè relligiosa colit.</l>
+               <l n="l9">A Mursis, jusso venerando fratre valere,</l>
+               <l n="l10"> Valkonis et Posegae rura beata terens, 
+                     <note xml:id="ftn314" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">24,10 </hi>terens <hi n="hi2" rend="italic">pro exp</hi>. petens |
+                           <hi n="hi3" rend="bold">24,12</hi>
+                        <hi n="hi4" rend="italic">initio v. exp. </hi>Summus ùt es</note>
+                   10</l>
+               <l n="l11">Venisti ad propriae Mavortia Castra Veruçae,</l>
+               <l n="l12"> Qua coleris princeps in regione Comes.</l>
+               <l n="l13">Iasiis nunc te residere audimus in agris, </l>
+               <l n="l14"> Quos Varasdinios dicere vulgus amat.</l>
+               <l n="l15">Emensum tot aquas, tanta intervallaque terrae, 15</l>
+               <l n="l16"> Salvum atque incolumem, lętor adîsse domum,</l>
+               <l n="l17">Ad votumque tui charam reperisse cohortem,</l>
+               <l n="l18"> Cum qua nunc hilares transigis ultrò dies.</l>
+               <l n="l19">Usque adeo laetor, penès et si causa dolendi est<note xml:id="ftn315" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">24,19</hi> Usque] <hi n="hi2" rend="italic">corr. e</hi> Usq[..] | <hi n="hi3" rend="bold">24,19</hi> penès et si causa dolendi est]<hi n="hi4" rend="italic">pro
+                        exp. </hi>licèt et doluisse decebat | <hi n="hi5" rend="bold">25,tit.</hi> 26] <hi n="hi6" rend="italic">corr. e</hi> 2[.] | <hi n="hi7" rend="bold">25,4</hi>
+                     <hi n="hi8" rend="italic">exp</hi>. in <hi n="hi9" rend="italic">post</hi> tua</note>
+               </l>
+               <l n="l20"> Me socium fieri non potuisse tibi. 20</l>
+               <l n="l21">Sed quia ex hoc perdura mihi mea fata negarunt,</l>
+               <l n="l22"> Quae contra niti vis mihi prorsus abest.</l>
+               <l n="l23">Svadebis vincat durum patientia fatum: </l>
+               <l n="l24"> Heu mihi! Nec Monachis haec medicina sapit.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l25"> Nunc, postquam mea spes redeundi ad propria cassa est, 25</l>
+               <l n="l26"> Hybernas isthìc debeo ferre dies.</l>
+               <l n="l27">Quae mihi quàm faciles aderunt, videt ipse Jehova:</l>
+               <l n="l28"> Et causam exilii judicet ipse mei.</l>
+               <l n="l29">Tu tamen esto mei memor, atque patronus, ùt olim</l>
+               <l n="l30"> Pollicitus fueras non semel ultrò mihi. 30</l>
+               <l n="l31">Cujus consilio crebrò, dapibusque fruebar,</l>
+               <l n="l32"> Verborum auxilium non, modò (quaeso) neges.</l>
+               <l n="l33">Exige, quaestores Regni quae ritè tenentur,</l>
+               <l n="l34"> Atque mihi celerem, quam potes, adfer opem.</l>
+               <l n="l35">Meque tui memorem, credas, gratumque, futurum: 35</l>
+               <l n="l36"> Restat adhuc misero, quod vir honestus amat.</l>
+               <l n="l37">Summe mei curam, tristem solere; benigni</l>
+               <l n="l38"> Sic faciles adsint ad tua vota Dii.</l>
+               <l n="l39">Dilectos fratres, agnatosque, oro, saluta,</l>
+               <l n="l40"> Cumque ipsis felix incolumisque Vale. 40</l>
+               <closer n="closer1"> Viennae 8. Novembris </closer>
+            </div>
+            <div n="div27" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">25.</corr>
+                     <sic n="sic1">26.</sic>
+                  </choice> 
+                   Ad Dominum Adamum Beseredium, Capitaneum in Frakno </head>
+               <l n="l1">Oblectat me saepe tuis Velçeius annis,</l>
+               <l n="l2"> Quos inter passim texere scripta soles.</l>
+               <l n="l3">Pace tuo dicam: peccas, Beseredi, profectò,</l>
+               <l n="l4"> In solidum tua si non legis acta librum.</l>
+               <l n="l5">Cuj Deus ingenium dedit, ut claresceret illo, 5</l>
+               <l n="l6"> Peccat, privatum si facit esse sibi.</l>
+               <l n="l7">Virtutes nostrae non sunt cum sanguine patrum, 
+                     <note xml:id="ftn316" place="foot" n="note1">
+                        <p n="p1">25,18 <hi n="hi1" rend="italic">Cf</hi>.: <emph n="emph1">Qui bona vina bibunt</emph>, <hi n="hi2" rend="italic">vates</hi>
+                           <emph n="emph2">bona</emph>
+                           <hi n="hi3" rend="italic">carmina</hi>
+                           <emph n="emph3">scribunt i Hor. Ep. I, 19, 2-3</emph>
+                           <emph n="emph4">, te ovdje</emph>
+                           <emph n="emph5"> </emph>
+                           <emph n="emph6">III,38,14.</emph>
+                        </p>
+                        <p n="p2">
+                           <emph n="emph1">___________________________</emph>
+                        </p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">25,7</hi>
+                           <hi n="hi2" rend="italic">exp</hi>. [<gap n="gap1"/>] <hi n="hi3" rend="italic">post</hi> Virtutes
+                           | <hi n="hi4" rend="bold">25,8</hi>
+                           <hi n="hi5" rend="italic">exp</hi>. muner <hi n="hi6" rend="italic">post</hi> sunt | <hi n="hi7" rend="bold">25,14</hi>
+                           <hi n="hi8" rend="italic">initio v.</hi>
+                           <hi n="hi9" rend="italic">exp.</hi> A | <hi n="hi10" rend="bold">26,tit.</hi> 27] <hi n="hi11" rend="italic">corr. e</hi> [2][.] | <hi n="hi12" rend="bold">26,5</hi>
+                           Cameralis] <hi n="hi13" rend="italic">corr. e</hi> Camera<gap n="gap2"/> | <hi n="hi14" rend="bold">26,9</hi> Illi, commemorans] <hi n="hi15" rend="italic">e l. marg. pro
+                           </hi>Hęc tu commemorans illi, fac | <hi n="hi16" rend="bold">26,9</hi> haec,
+                           grates] <hi n="hi17" rend="italic">s</hi>
+                           <hi n="hi18" rend="italic">uprascr</hi>. | <hi n="hi19" rend="bold">26,9</hi>
+                           <hi n="hi20" rend="italic">exp</hi>. grates <hi n="hi21" rend="italic">post</hi>
+                           reddito</p>
+                     </note>
+                  
+               </l>
+               <l n="l8"> Propitii sed sunt dona beata Dei.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l9"> Hinc merito laudatur homo virtutis amore,</l>
+               <l n="l10"> Autor virtutis sed magis ipse Deus. 10</l>
+               <l n="l11">Otia non desunt tibi jucundique recessus.</l>
+               <l n="l12"> Pierio Frakno est anteferenda jugo.</l>
+               <l n="l13">Illic aura recens, coeloque beata salubri:</l>
+               <l n="l14"> Frakno levat supra coetera castra caput.</l>
+               <l n="l15">Limpidus hìc fons est, dignus dare pocula Musis: 15</l>
+               <l n="l16"> Dulcius at vinum, laetificans homines.</l>
+               <l n="l17">Cede puellabus lymphas, tibi funde phalernum:</l>
+               <l n="l18"> Nunc meliùs scribunt, qui bona vina bibunt.</l>
+               <l n="l19">Laudo bonum vinum, sed non bibo: non quia nollem,</l>
+               <l n="l20"> Sed vacuata negat posse crumena mihi. 20</l>
+               <l n="l21">Tu, qui dispensas aliis generosa Lyaei</l>
+               <l n="l22"> Dona, tibi sumas, quae meliora probas,</l>
+               <l n="l23">Sic ut accedas Musas jucundior, et pòst</l>
+               <l n="l24"> Cum placido recrees membra sopore. Vale.</l>
+               <closer n="closer1">Viennae 8. Novembris </closer>
+               <closer n="closer2">aD CastrVM FraCno ferantVr </closer>
+            </div>
+            <div n="div28" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">26.</corr>
+                     <sic n="sic1">27.</sic>
+                     <sic n="sic2">Locumtenetem</sic>
+                  </choice> 
+                   Ad Dominum Petrum Comitem Keglević, Bani
+                     
+               </head>
+               <l n="l1">Iam libet inculto discurrere carmine, postquam</l>
+               <l n="l2"> Ad te, non pridèm, verba soluta dedi.</l>
+               <l n="l3">Scilicet hoc animi quodammodo taedia tollit,</l>
+               <l n="l4"> Et partim curas alleviare solet.</l>
+               <l n="l5">Accedit, quod herì Cameralis Praesidis aede 5</l>
+               <l n="l6"> Pleknerus de te grata locutus erat,</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l7"> Spemque dedit certam nupernis ille petitis,</l>
+               <l n="l8"> Caeperit ùt finem longa diaeta suum.</l>
+               <l n="l9">Illi, commemorans haec, grates reddito scriptis, <note xml:id="ftn317" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">27a,2</hi> erit] eris</note>
+               </l>
+               <l n="l10"> Sic bene facturus nam stimulatur amor. 10</l>
+               <l n="l11">Quae nuper scripto petii curanda clientis</l>
+               <l n="l12"> Commoda, nunc repeto, non dubitoque. Vale.</l>
+               <closer n="closer1">Viennae 8. Novembris </closer>
+            </div>
+            <div n="div29" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">27.</corr>
+                     <sic n="sic1">28.</sic>
+                  </choice> 
+                   Ad Dominum Wanjecium </head>
+               <l n="l1">Cùm te delectent quaecunque poëmata lectu,</l>
+               <l n="l2"> Hìc tibi transmitto pauca legenda. Vale. </l>
+               <closer n="closer1">
+                  <dateline n="dateline1">Viennae 12. Novembris</dateline>
+               </closer>
+            </div>
+            <div n="div30" type="poesis-epistula">
+               <head n="head1"> 27a. Responsum <supplied n="supplied1">E. Wanyeczi</supplied>
+               </head>
+               <l n="l1">Accepi grato transmissa Poëmata corde,</l>
+               <l n="l2"> Quae, dum tempus erit, nostra Thalia leget.</l>
+               <l n="l3">Omnino mihi sunt in carmine gaudia summa:</l>
+               <l n="l4"> Non ego sic carnem, sicuti carmen, amo!</l>
+               <l n="l5">His valeas, faveasque mihi; dabo signa vicissim 5</l>
+               <l n="l6"> Votaque, ne noster fiat inanis amor.</l>
+               <closer n="closer1">
+                  <signed n="signed1"> obsequentissimus servus <lb n="lb1"/>Elias Wanyeczi</signed>
+               </closer>
+            </div>
+            <div n="div31" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">28.</corr>
+                     <sic n="sic1">29.</sic>
+                  </choice> 
+                   Ad Dominum Ujvarium, Cancellariae Ungaricae Registratorem </head>
+               <l n="l1">Si prandes, Ujvari, domi et concedis adesse,</l>
+               <l n="l2"> Pransuro assistet Ritter, Amice. Vale.</l>
+               <closer n="closer1">
+                  <dateline n="dateline1">Viennae 16. Novembris</dateline>
+               </closer>
+            </div>
+            <div n="div32" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">29.</corr>
+                     <sic n="sic1">30.</sic>
+                  </choice> 
+                   Ad Dominum Meskonem Jacobum, Camerae Aulicae Austriacae
+                  Consiliarium Referendarium </head>
+               <l n="l1">Accipe Rittereae duo, Mesko, poëmata Musae,</l>
+               <l n="l2"> Parva, sed ad magnos emodulata thronos.</l>
+               <l n="l3">Quòd chartas mittam, veniam dabis: exuli in urbe hac</l>
+               <l n="l4"> Iàm mense octavo vix aliud superest.</l>
+               <l n="l5">Tu fac (quum possis) Te, Fisco et Caesare digna, 5</l>
+               <l n="l6"> Pòst valeam largè munera ferre. Vale.</l>
+               <closer n="closer1">
+                  <dateline n="dateline1">Viennae 16. Novembris</dateline>
+               </closer>
+            </div>
+            <div n="div33" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">30.</corr>
+                     <sic n="sic1">31.</sic>
+                  </choice> 
+                   Ad Serenissimam Principem Dominam, Dominam Mariam Elisabet
+                  Porphyrogenetam, Archi-ducissam Austriae </head>
+               <l n="l1">Parce humili (quaeso), Princeps Augusta, clienti</l>
+               <l n="l2"> Ad Te scripta rudi metra dedisse manu,</l>
+               <l n="l3">Quae fuerant fulvo scribenda decentiùs auro, 
+                     <note xml:id="ftn318" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">30,3</hi> Quae] <hi n="hi2" rend="italic">suprascr. pro</hi> Ad quam
+                        solari | <hi n="hi3" rend="bold">30,3</hi> fulvo <hi n="hi4" rend="italic">suprascr.
+                           pro</hi> scribend[.] metall[.] | <hi n="hi5" rend="bold">30,4</hi> ritè] <hi n="hi6" rend="italic">suprascr. pro</hi> antè | <hi n="hi7" rend="bold">30,5 </hi>
+                        <hi n="hi8" rend="italic">exp. </hi>
+                        <gap n="gap1"/>
+                        <hi n="hi9" rend="italic">post</hi> Fortunae | <hi n="hi10" rend="bold">31,7</hi>
+                        <hi n="hi11" rend="italic">initio v. exp.</hi> Ast</note>
+                  
+               </l>
+               <l n="l4"> Aut saltèm cultis ritè premenda typis.</l>
+               <l n="l5">Fortunae vitium est, Equiti Vatique novercae. 5</l>
+               <l n="l6"> Devota id pietas suppleat, oro. Vale.</l>
+               <closer n="closer1">Viennae 19. Novembris </closer>
+            </div>
+            <div n="div34" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">31.</corr>
+                     <sic n="sic1">32.</sic>
+                  </choice> 
+                   Ad Dominum Baronem Pataçich </head>
+               <l n="l1">Haud multos hinc ante dies, Comes inclyte Balther,</l>
+               <l n="l2"> Ad Te scripta mea est littera bina manu:</l>
+               <l n="l3">Prima quidèm metrico sermone, secunda soluto:</l>
+               <l n="l4"> Utraque, pro genio et tempore, crassa, rudis.</l>
+               <l n="l5">Candidus ast animus scribi dictabat utramque, 5</l>
+               <l n="l6"> Quo Te jam plùs quàm bis tria lustra colo.</l>
+               <l n="l7">Sic aspernatum neutram confido fuisse,</l>
+               <l n="l8"> In cujus dubito candido amore nihil.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l9"> Nam, quanto quis plura sapit, discernere plura</l>
+               <l n="l10"> Sensa hominum genio nobiliore potest. 10</l>
+               <l n="l11">Orabam nuper reddi mihi debita cures:</l>
+               <l n="l12"> Sic curaturus, posse redire domum.</l>
+               <l n="l13">Nunc, quia tempus abit, brumaeque approximat aetas,</l>
+               <l n="l14"> Hìc mihi hybernandum fata dedisse reor.</l>
+               <l n="l15">Quapropter concede tuum mihi (quaeso) cubile: 15</l>
+               <l n="l16"> Quando aliàs vacuum nullo habitante manet.</l>
+               <l n="l17">Sic fido custode tui res salva manebit,</l>
+               <l n="l18"> Exituro illic quando deinde voles.</l>
+               <l n="l19">Hoc peto nunc avidè, repetoque priora, supèrque </l>
+               <l n="l20"> Solari expecto proximè utroque. Vale. 20</l>
+               <closer n="closer1">Viennae 19. Novembris </closer>
+            </div>
+            <div n="div35" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">32.</corr>
+                     <sic n="sic1">33.</sic>
+                  </choice> 
+                   Ad Celsissimum Principem Paulum Estoras, Regni Ungariae
+                  Palatinum <note xml:id="ftn319" place="foot" n="note1">
+                     <p n="p1">32,5-6 <hi n="hi1" rend="italic">Ungaricae concepto Nobilitatis ... libro</hi>:
+                        vjerojatno nedovršeni grbovnik hrvatskog plemstva, «Magnatum et nobilium
+                        quorundam Croatiae Regni insignia», čiji se rkp. čuva u Fondu Marsigli
+                        Bolonjske sveučilišne knjižnice (vol 103, fol. 33-81).</p>
+                     <p n="p2">
+                        <hi n="hi1" rend="bold">____________________________</hi>
+                     </p>
+                     <p n="p3">
+                        <hi n="hi1" rend="bold">32,tit.</hi> 32] mut. e 3[[4]] <hi n="hi2" rend="italic">in</hi> 33
+                        | <hi n="hi3" rend="bold">32,3</hi> mutata] <hi n="hi4" rend="italic">corr. e</hi>
+                        mutata[[.]] | <hi n="hi5" rend="bold">32,10</hi> vel]<hi n="hi6" rend="italic">suprascr.
+                           pro</hi> sive de amore | <hi n="hi7" rend="bold">32,11</hi> ipsa]<hi n="hi8" rend="italic">corr. e</hi> ips[[us]] | <hi n="hi9" rend="bold">32,14</hi> Ne] <hi n="hi10" rend="italic">suprascr. pro</hi> Quae(?) | <hi n="hi11" rend="bold">32,14</hi>
+                           leget]<hi n="hi12" rend="italic">corr. e</hi> leg[[.]] | <hi n="hi13" rend="bold">32,15
+                           </hi>nos<hi n="hi14" rend="italic">pro exp.</hi> per</p>
+                  </note>
+               </head>
+               <l n="l1">Iàm tibi vix aliqua est antiqui cura clientis,</l>
+               <l n="l2"> Cultorisque diu ritè fidelis amor,</l>
+               <l n="l3">Non, quia mutata aversaris mente clientem,</l>
+               <l n="l4"> Sed quia tecum etiam sic mea fata volunt.</l>
+               <l n="l5">Obtuleram, Ungaricae concepto Nobilitatis 5</l>
+               <l n="l6"> Supremam libro ponere velle manum;</l>
+               <l n="l7">Qui nisi communes te vivo edatur in auras,</l>
+               <l n="l8"> Perpetuò infectum luce carebit opus.</l>
+               <l n="l9">Sed super oblato mandata nec ulla recepi,</l>
+               <l n="l10"> Ut de mej dubitem vel libri amore tui. 10</l>
+               <l n="l11">Inscia delicti mens me solatur, et ipsa 
+               </l>
+               <l n="l12"> Fata (inquam) mecum sic voluisse reor.</l>
+               <l n="l13">Ast opus authoris tanti periise dolerem,</l>
+               <l n="l14"> Ne leget aeternum Patria tota
+                  decus.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l15"> Nam, nisi nos patres de priscis erudiissent, 15</l>
+               <l n="l16"> Rarus de proprio dicere posset avo.</l>
+               <l n="l17">Gens venit, et transit: quanquam stat terra perennis,</l>
+               <l n="l18"> Aeternùm scriptis tradita fama manet.</l>
+               <l n="l19">Patriae amor cujvis est anteferendus amori:</l>
+               <l n="l20"> Quantus amor Patriae debeat esse patri! 20</l>
+               <l n="l21">Laude opus est dignum Patriae describere gentis</l>
+               <l n="l22"> Stemmata, et illustris nobilitatis avos;</l>
+               <l n="l23">Qui cùm pro patriae quondam vixêre salute, 
+                     <note xml:id="ftn320" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">32,23</hi> pro] <hi n="hi2" rend="italic">suprascr.</hi> | <hi n="hi3" rend="bold">32,26 </hi>Illorum]<hi n="hi4" rend="italic">corr. e
+                        </hi>Illor[[orum]] | <hi n="hi5" rend="bold">32,35 </hi>
+                        <hi n="hi6" rend="italic">exp</hi>. Ung <hi n="hi7" rend="italic">post</hi> gens | <hi n="hi8" rend="bold">33,tit.</hi> 33] corr. e 3[[.]]<hi n="hi9" rend="italic">in</hi> 34 |
+                           <hi n="hi10" rend="bold">33,2</hi> mihi] <hi n="hi11" rend="italic">suprascr. | </hi>
+                        <hi n="hi12" rend="bold">33,2 </hi>Wanjecio <hi n="hi13" rend="italic">corr</hi>. e
+                        Wanjecio[.] | <hi n="hi14" rend="bold">33,2</hi>
+                        <hi n="hi15" rend="italic">exp. </hi>littera <hi n="hi16" rend="italic">post</hi> Wanjecio[.]
+                        | <hi n="hi17" rend="bold">33,2 </hi>
+                        <hi n="hi18" rend="italic">exp.</hi> tulit <hi n="hi19" rend="italic">post</hi> missa | <hi n="hi20" rend="bold">33,5</hi> Insultus] <hi n="hi21" rend="italic">e l. marg | </hi>
+                        <hi n="hi22" rend="bold">33,5 </hi>
+                        <hi n="hi23" rend="italic">exp.</hi> insultus <hi n="hi24" rend="italic">post</hi> Vidisti |
+                           <hi n="hi25" rend="bold">33,6 </hi>
+                        <hi n="hi26" rend="italic">exp.</hi> malum <hi n="hi27" rend="italic">post</hi> prophana | <hi n="hi28" rend="bold">33,8</hi> Iustitiamque] Iustiamque </note>
+                  
+               </l>
+               <l n="l24"> Crebra etiam passi damna, pericla, neces,</l>
+               <l n="l25">Qui post se nobis legarunt nobile nomen, 25</l>
+               <l n="l26"> Illorum quoque nos vèl meminisse decet.</l>
+               <l n="l27">Majorum exemplo, virtutis amore tenemur:</l>
+               <l n="l28"> Nomina scripta movent effigiesque patrum.</l>
+               <l n="l29">Haec tibi non opus est numerare, ò inclyte Princeps:</l>
+               <l n="l30"> Sunt statuis domus ac atria plena tibi; 30</l>
+               <l n="l31">Sed reliqua illustres Patriae quoque stemmata gentis,</l>
+               <l n="l32"> Quem Superi Patriae constituêre Patrem.</l>
+               <l n="l33">A Sole accipiunt coelestia sydera lucem,</l>
+               <l n="l34"> Inter se et terris, qua rutilare solent;</l>
+               <l n="l35">Sic inter alias Mundi gens Pannona gentes 35</l>
+               <l n="l36"> Clara tua, Princeps Paule, coruscet ope.</l>
+               <l n="l37">Hinc decus augebis, quo vix praestantius ullum </l>
+               <l n="l38"> Linquere Pannonibus post tua fata potes.</l>
+               <l n="l39">Hujc addam dextram mox, te mandante, fidelem.</l>
+               <l n="l40"> Mandata expecto semper amata. Vale. 40</l>
+               <closer n="closer1">Viennae 26. Novembris </closer>
+            </div>
+            <div n="div36" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">33.</corr>
+                     <sic n="sic1">34.</sic>
+                  </choice> 
+                   Ad Dominum Sigismundum Adamum Domnyanić, Vice-Colonellum </head>
+               <l n="l1">Ritè tuam accepi, Vir ò generose, salutem,</l>
+               <l n="l2"> Quam mihi Wanjecio missa tabella tulit.</l>
+               <l n="l3">Illa ego non parvùm solor, pridèm exul in urbe</l>
+               <l n="l4"> Vindebona, in patria cùm malè visus eram.</l>
+               <l n="l5">Insultus vidisti in me audistique tumultus, 5</l>
+               <l n="l6"> Inqúe meum volvi sacra, prophana caput.</l>
+               <l n="l7">Quòd spoliatus eram fortunis omnibus insons,</l>
+               <l n="l8"> Iustitiamque petens: haec mea culpa fuit.</l>
+               <l n="l9">Quòd Patriam historiis, et Amicos laudibus ultrò</l>
+               <l n="l10"> Excolui scriptis, haec mea culpa fuit. 10</l>
+               <l n="l11">Impia justitiam mihi tandem Astręa negasset.</l>
+               <l n="l12"> Non fuerat durum hoc sustinuisse nefas: 
+                     <note xml:id="ftn321" place="foot" n="note1">
+                        <p n="p1">33,30 <hi n="hi1" rend="italic">adusque ad aras ... amicus</hi>: <hi n="hi2" rend="italic">cf. </hi>V,49,11 i VII,38a,7.</p>
+                        <p n="p2">____________________________</p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">33,12 </hi>hoc] <hi n="hi2" rend="italic">suprascr</hi>. | <hi n="hi3" rend="bold">33,12 </hi>
+                           <hi n="hi4" rend="italic">exp.</hi> mihi <hi n="hi5" rend="italic">post</hi> sustinuisse
+                           | <hi n="hi6" rend="bold">33,13 </hi>Scilicet experior, mutari cuncta per orbem] <hi n="hi7" rend="italic">pro exp. </hi>Scilicet
+                           experior, mutari an omnia in orbe | <hi n="hi8" rend="bold">33,14 </hi>Ipsam
+                           mutata re sic potuisse Deam] <hi n="hi9" rend="italic">pro exp.</hi> Ipsam
+                           mutatam quis neget esse Deam<hi n="hi10" rend="bold"> | 33,20 </hi>
+                           <hi n="hi11" rend="italic">exp</hi>
+                           <hi n="hi12" rend="italic">. </hi>sibi <hi n="hi13" rend="italic">post</hi> jure | <hi n="hi14" rend="bold">33,22 </hi>
+                           <hi n="hi15" rend="italic">exp</hi>. sors Pa <hi n="hi16" rend="italic">post</hi> mundu |
+                              <hi n="hi17" rend="bold">33,22</hi> jàm<hi n="hi18" rend="italic">mut. e</hi> cum</p>
+                     </note>
+                  
+               </l>
+               <l n="l13">Scilicet experior mutari cuncta per orbem:</l>
+               <l n="l14"> Ipsam mutata {re} sic potuisse Deam.</l>
+               <l n="l15">Sed quia me Civem, me cultoremque fidelem, 15</l>
+               <l n="l16"> Patria persequitur, perditum et esse cupit!</l>
+               <l n="l17">Hocce gravat, nimiumque gravat mea pectora vulnus, </l>
+               <l n="l18"> Pro patria ferrum prompta focumque pati.</l>
+               <l n="l19">Non ego, mercedem solùm benefacta mereri,</l>
+               <l n="l20"> Censebam: ast etiam praemia jure sua. 20</l>
+               <l n="l21">Nunc, quam mercedem retuli, quae praemia porto, </l>
+               <l n="l22"> Miratus mundum jàm Patriamque, vides.</l>
+               <l n="l23">Non ego fortunas verbis venalibus auxi,</l>
+               <l n="l24"> Ceu alii, quos nunc Slavnus adorat ager, </l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l25">
+                  <note xml:id="ftn322" place="end" n="note1">
+                     <hi n="hi1" rend="italic">P. sine reclamatione</hi>
+                  </note> Sed studui semper Patriae prodesse et Amicis, 25</l>
+               <l n="l26"> Divitem amicitiis pulchrius esse putans.<note xml:id="ftn323" place="end" n="note1">
+                     <hi n="hi1" rend="italic">Versus</hi> 33,26 <hi n="hi2" rend="italic">duas lineas supra exp. et
+                        hoc loco adhibuit </hi>
+                  </note>
+               </l>
+               <l n="l27">Nam, quas praebet, opes fortuna volubilis aufert:</l>
+               <l n="l28"> Aequi valet summas verus amicus opes.</l>
+               <l n="l29">Ast et amicitiis mea me fortuna fefellit, </l>
+               <l n="l30"> Qui sit adusque aras, rarus amicus adest. 30</l>
+               <l n="l31">Casibus humana est natura obnoxia multis,</l>
+               <l n="l32"> Nemoque tam prudens, qui sua fata regat.</l>
+               <l n="l33">Attamen in pejus culpa est mutarier unquam,</l>
+               <l n="l34"> Dummodo mortalis non ratione caret.</l>
+               <l n="l35">Quanta frequens imo duco suspiria corde, 35</l>
+               <l n="l36"> Ante oculos priscus cùm mihi sistit amor!</l>
+               <l n="l37">Hocque infelici jàm vivere tempore taedet,</l>
+               <l n="l38"> Quo video in maestum vergere cuncta chaos.</l>
+               <l n="l39">Majori est olim peregrinus cultus amore,</l>
+               <l n="l40"> Quàm quo nunc fratrem frater amore colit. 40</l>
+               <l n="l41">Quae vitii causa? Cumulandi plura libido.</l>
+               <l n="l42"> Vis, aliter dicam? Turpis avarities.</l>
+               <l n="l43">Quis tali Slavnos infecit peste penates?</l>
+               <l n="l44"> Rusticitas Latio grammate docta loqui.</l>
+               <l n="l45">Suscitat haec lites, leges et jura retorquet: 45</l>
+               <l n="l46"> Exulat, exosus has, Amor et Pietas.</l>
+               <l n="l47">Dicebat Mundus generosos antè Croatas,</l>
+               <l n="l48"> Proqúe sacra bellax relligione genus;</l>
+               <l n="l49">Veriùs at jam nunc dicturus litigiosos,</l>
+               <l n="l50"> Moribus à priscis degenerasse genus. 50</l>
+               <milestone unit="page" n="milestone3"/>
+               <l n="l51"> Nulla ego propterea Patriae mala deprecor: illos</l>
+               <l n="l52"> Sed, per quos patior, judicet ipse Deus.</l>
+               <l n="l53">Haec obiter scripsi patiens et tristia tristis; 
+                     <note xml:id="ftn324" place="foot" n="note1">
+                        <p n="p1">33,53 <hi n="hi1" rend="italic">tristia tristis</hi>: <hi n="hi2" rend="italic">cf.
+                           </hi>Ov. <hi n="hi3" rend="italic">Pont. </hi>3,9,35.</p>
+                        <p n="p2">__________________________ </p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">33,53 </hi>
+                           <hi n="hi2" rend="italic">exp</hi>. quidèm <hi n="hi3" rend="italic">post</hi> tristia |
+                              <hi n="hi4" rend="bold">33,54 </hi>prosperiora ]<hi n="hi5" rend="italic">suprascr.
+                              pro </hi>sed meliora</p>
+                     </note>
+                  
+               </l>
+               <l n="l54"> Tu mihi rescribas prosperiora. Vale. </l>
+               <closer n="closer1">Viennae 26. Novembris </closer>
+            </div>
+            <div n="div37" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1">34. <supplied n="supplied1">Epistola Adami Beseredy</supplied>
+                  <note xml:id="ftn325" place="end" n="note1">
+                     Epistola videlicet originalis cum responso Adami Beseredy,
+                        hoco loco inserta
+                  </note>
+               </head>
+               <head n="head2"> Spectabili ac Magnifico Domino Paulo Ritter, Libero Baroni et Equiti Aurato,
+                  Inclyti Comitatûs Segniensis Vice Comiti, Sacrae Caesareae Regiaeque Maiestatis
+                  Consiliario Salutem Plurimam Dicit Adamus Beseredy </head>
+               <l n="l1">Sentio me Telô distantis Apollinis ictum,</l>
+               <l n="l2"> Ast non fatali vulnere Musa putat.</l>
+               <l n="l3">Pharmaca Pierides Heliconia protinus aegro</l>
+               <l n="l4"> Non mihi tardabunt, ut revalere queam.</l>
+               <l n="l5">Maior eô dolor est (miser heu!) quod vexer ab annis, 5</l>
+               <l n="l6"> Quos Dominus Völcseŷ ferre referre solet.</l>
+               <l n="l7">Transeat interea, mea me patientia firmat;</l>
+               <l n="l8"> Absque tamen poenâ non erit ille diu.</l>
+               <l n="l9">Dùmmodo Fraknensem semel ingrediatur ad Arcem,</l>
+               <l n="l10"> Annorum Centum Vina vetusta bibet. 10</l>
+               <l n="l11">Insuper augebunt poënam hanc absÿnthia amara,</l>
+               <l n="l12"> Mixta mero dulci quale Keresʒtur habet.</l>
+               <l n="l13">Ad Te converto modo me, Divine Poeta:</l>
+               <l n="l14"> Eloquar an sileam, nescio. Musa, juva!</l>
+               <l n="l15">Est rudis Calamus mihi, rudis <abbr n="abbr1">&amp;</abbr> ipsa Minerva, 15</l>
+               <l n="l16"> Testor Parnassum, loripedemque Iovem.</l>
+               <l n="l17">Scribere quae soleo, Culinaria Carmina nam sunt,</l>
+               <l n="l18"> Tradunturque Coco, praecipitanda foco.</l>
+               <l n="l19">Dum tibi Pegazei fontes ac flumina currunt,</l>
+               <l n="l20"> Vix mihi guttatim parvula Vena favet. 20</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l21"> Millenis Titulis, meritis, Virtutibus amplis,</l>
+               <l n="l22"> Ut Verum fatear Tu mihi Apollo praees.</l>
+               <l n="l23">Jure igitur merito Laurus tua tempora cingit:</l>
+               <l n="l24"> Mille inter Musas denique Apollo viges.</l>
+               <l n="l25">Te veneratur enim cum Caesare tota Vienna, 25</l>
+               <l n="l26"> Per mare, per terras iam tua fama volat.</l>
+               <l n="l27">Vive diu foelix, vireat tua Laurea semper,</l>
+               <l n="l28"> Caesaris Augusti Te comitante manu. 
+                     <note xml:id="ftn326" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">34,28 </hi>manu] manum | <hi n="hi2" rend="bold">34a,3 </hi>negat]
+                        negeat | <hi n="hi3" rend="bold">34a,4</hi>
+                        <hi n="hi4" rend="italic">exp</hi>. annis diceris <hi n="hi5" rend="italic">post</hi>
+                        Quantumvis</note>
+                  
+               </l>
+               <l n="l29">Et mihi, Apollo, fave, dum Tibi dico vale.</l>
+               <l n="l30"> DabaM eX arCe fraCno. 30</l>
+               <closer n="closer1">Die 13. Novembr. </closer>
+            </div>
+            <div n="div38" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">34a.</corr>
+                     <sic n="sic1">35.</sic>
+                  </choice> 
+                   Ad Dominum Adamum Beseredyum, Commendantem in Frakno </head>
+               <l n="l1">Excelsa, Beseredy, mihi tua littera Frakno,</l>
+               <l n="l2"> Quàm docta et suavis, tam quoque grata fuit. </l>
+               <l n="l3">Illa animum dextramque tibi negat esse senilem,</l>
+               <l n="l4"> Quantumvis aetas ritè senilis adest.</l>
+               <l n="l5">Talis erat priscis <q n="q1">viridis</q> vocitata <q n="q2">senectus</q>: 5</l>
+               <l n="l6"> Digna sacros vates, digna fovere sophos.</l>
+               <l n="l7">Ad quam contribuit paucis obnoxia curis</l>
+               <l n="l8"> Mens, et tranquillus vitae hilarisque status.</l>
+               <l n="l9">Quod mea perpetuo mihi tempore fata negarunt,</l>
+               <l n="l10"> Quin me ultrò curis atque dolore premunt. 10</l>
+               <l n="l11">Si nosses quantum patior sine crimine pridèm,</l>
+               <l n="l12"> Mirarêre mihi posse manere cutem.</l>
+               <l n="l13">Quos mihi natorum pepererunt funera moestus!</l>
+               <l n="l14"> Tum patris et matris, cùm sociaeque thori! 
+                     <note xml:id="ftn327" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">34a,14</hi>
+                        <hi n="hi2" rend="italic">exp</hi>. M <hi n="hi3" rend="italic">post</hi> et | <hi n="hi4" rend="bold">34a,18 </hi>Propitiis] <hi n="hi5" rend="italic">corr. e</hi>
+                        Propit[<gap n="gap1"/>] <hi n="hi6" rend="italic">et post eo exp. </hi>quae mihi est
+                           reddita<hi n="hi7" rend="bold">| </hi>
+                        <hi n="hi8" rend="bold">34a,18 </hi>
+                        <hi n="hi9" rend="italic">exp.</hi> Deo <hi n="hi10" rend="italic">post</hi> vitam <hi n="hi11" rend="bold">| 34a,24 </hi>mala] <hi n="hi12" rend="italic">corr. e</hi> malis |
+                           <hi n="hi13" rend="bold">34a,25</hi> scripturo] <hi n="hi14" rend="italic">corr. e</hi>
+                        scri[b]... | <hi n="hi15" rend="bold">34a,26 </hi>te] <hi n="hi16" rend="italic">suprascr.</hi> | <hi n="hi17" rend="bold">34a,30 </hi>monere] <hi n="hi18" rend="italic">suprascr. pro </hi>splendor | <hi n="hi19" rend="bold">34a,33 </hi>Musarum
+                        praeses] <hi n="hi20" rend="italic">suprascr. pro </hi>vatum coryphoeus</note>
+                  
+               </l>
+               <l n="l15">Ignibus hìc combusta domus, latronibus illic 15</l>
+               <l n="l16"> In praedam, saepe et furibus, acta domus!</l>
+               <l n="l17">Fortunis, charis, et amicis omnibus orbus,</l>
+               <l n="l18"> Propitiis vitam vix modò servo Diis.</l>
+               <l n="l19">Olim carpento per compita suda vehebar,</l>
+               <l n="l20"> Caenosas cogor nunc pedes ire vias. 20</l>
+               <l n="l21">Antè bonos crebrò ducebam ad prandia amicos,</l>
+               <l n="l22"> Nunc aegrè famulum fata tenere sinunt.</l>
+               <l n="l23">Si tibi deberem cunctos memorare dolores,</l>
+               <l n="l24"> Et quibus oppugnor per duo lustra mala,</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l25"> Vix mihi sufficeret scripturo mensis et annus: 25</l>
+               <l n="l26"> Absque aerumna etenim non fuit ulla dies.</l>
+               <l n="l27">Ne tamen aerumnae tua laedant pectora nostrae,</l>
+               <l n="l28"> Scribere de proprio desino plura statu.</l>
+               <l n="l29">Hoc tamen admoneo, ne me tot honoribus ornes,</l>
+               <l n="l30"> Aut oneres: misero est, monere honoris, onus. 30</l>
+               <l n="l31">Quem bona deseruit fors, non juvat inclyta virtus,</l>
+               <l n="l32"> Spernitur haec, mundum sola sed illa regit.</l>
+               <l n="l33">Ipse licet veniat Musarum praeses Apollo,</l>
+               <l n="l34"> Profiet multo si caret aere, parum;</l>
+               <l n="l35">Aut, nisi aduletur, mentiri vel sciat aptè, 35</l>
+               <l n="l36"> Inter plebejos vix sciet ille loqui.</l>
+               <l n="l37">Sic ego fortunae submitto vela potenti:</l>
+               <l n="l38"> Non mea in hoc sola est naufraga cymba mari.</l>
+               <l n="l39">Et si sola foret tandem, si sola periret,</l>
+               <l n="l40"> Quid possum contrà? Sic voluêre Dei! 40</l>
+               <l n="l41">Quòd tibi Völçejus maturos objicit annos,</l>
+               <l n="l42"> Indignus verè nascitur inde dolor.</l>
+               <l n="l43">Nescio tam miserum, vel in ipso carcere vinctum,</l>
+               <l n="l44"> Quem vitae ingenitus deseruisset amor.</l>
+               <l n="l45">Quin jàm Völçejus legit annos ipse viriles: 45</l>
+               <l n="l46"> Vivere si cupiat plus, cupit esse senex.</l>
+               <l n="l47">Non tamen in Frakno sua jam solatia ponit:</l>
+               <l n="l48"> Charior est cunctis alma Vienna locis.</l>
+               <l n="l49">Haec etenim pulchras alit innumerasque puellas,</l>
+               <l n="l50"> Quorum non durè sollicitatur amor. 50</l>
+               <milestone unit="page" n="milestone3"/>
+               <l n="l51">
+                  <note xml:id="ftn328" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">34a,34 </hi>Profiet] <hi n="hi2" rend="italic">corr. e</hi> Profi<gap n="gap1"/>
+                     | <hi n="hi3" rend="bold">34a,38</hi> naufraga] navrafra | <hi n="hi4" rend="bold">34a,39</hi>
+                     <hi n="hi5" rend="italic">exp. </hi>
+                     <gap n="gap2"/>
+                     <hi n="hi6" rend="italic">post</hi> foret | <hi n="hi7" rend="bold">34a,40 </hi>
+                     <hi n="hi8" rend="italic">exp</hi>. D[<gap n="gap3"/>] <hi n="hi9" rend="italic">post</hi> voluêre | <hi n="hi10" rend="bold">34a,43</hi> ipso] opso<hi n="hi11" rend="bold">| 34a,50
+                     </hi>sollicitatur] <hi n="hi12" rend="italic">subscr. pro </hi>conciliatur | <hi n="hi13" rend="bold">34a,62</hi> sperabat] <hi n="hi14" rend="italic">corr</hi>
+                     <hi n="hi15" rend="italic">. e</hi> speraba[[.]] | <hi n="hi16" rend="bold">34a,68 </hi>
+                     <hi n="hi17" rend="italic">v</hi>
+                     <hi n="hi18" rend="italic">. </hi>
+                     <hi n="hi19" rend="italic">additus</hi>
+                     <hi n="hi20" rend="italic"> post epistolam pro </hi>[[Omnia sensa dolor corripit.
+                     <gap n="gap4"/>. Vale.]]</note> Hinc vinum Austricum melius putat esse Falerno,</l>
+               <l n="l52"> Nec centum annorum, nec Cruciense cupit.</l>
+               <l n="l53">Militat, ùt juvenis: pòst, adveniente senecta,</l>
+               <l n="l54"> Depositis armis, pacis amator erit.</l>
+               <l n="l55">Lugebitque suos nequiens cognoscere natos, 55</l>
+               <l n="l56"> Quejs dudum partas ritè relinquat opes.</l>
+               <l n="l57">Erramus crebrò (fateor) juvenilibus annis,</l>
+               <l n="l58"> Corrigere errorem lenta senecta nequit.</l>
+               <l n="l59">Attamen est melius, dulces non noscere natos,</l>
+               <l n="l60"> Solvere quàm natis tristia justa suis. 60</l>
+               <l n="l61">Infelix genitor, qui claudit lumina nati:</l>
+               <l n="l62"> Per quem sperabat, claudier ipse sua!</l>
+               <l n="l63">Prò, quàm altos gemitus, lacrymas quàm fundit amaras,</l>
+               <l n="l64"> Figit et in gelidas oscula moesta genas!</l>
+               <l n="l65">Hìc dolor est, dolor heu, quo nullus acerbior unquam 65</l>
+               <l n="l66"> Accidere ingenuo posset, Amice, viro.</l>
+               <l n="l67">Quina meo his dictis renovavi vulnera cordi: </l>
+               <l n="l68">Cuncta dolore tremunt jam mihi membra. Vale.</l> 
+               <closer n="closer1"> Viennae 26. Novembris 
+                  <lb n="lb1"/>FraCno VehantVr aD arCeM </closer>
+            </div>
+            <div n="div39" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">35.</corr>
+                     <sic n="sic1">36.</sic>
+                  </choice> 
+                   Ad Dominum Praepositum Majorem Ecclesiae Zagrabiensis <note xml:id="ftn329" place="foot" n="note1">
+                     <p n="p1">35,tit. <hi n="hi1" rend="italic">Praepositum majorem Ecclesiae Zagrabiensis</hi>:
+                        Pavao Antun Češković; 35,15 <hi n="hi2" rend="italic">mutatum</hi>: aludira na
+                        Češkovićevo neprijateljstvo prema sebi u parnici s Lj. Vagićem oko
+                        šćitarjevskog imanja. <hi n="hi3" rend="italic">Cf</hi>. Klaić 1914: 231; 35,27 <hi n="hi4" rend="italic">praelato Zagrabiensi – Ducis sancti festa</hi>: zagrebački
+                        biskup Imre Esterházy. Aludira na pismo koje mu je poslao 5.studenoga,
+                        povodom biskupova imendana. <hi n="hi5" rend="italic">Cf</hi>. Klaić 1914: 260</p>
+                     <p n="p2">_____________________________</p>
+                     <p n="p3">
+                        <hi n="hi1" rend="bold">35,15</hi>
+                        <hi n="hi2" rend="italic">exp</hi>. fuisse <hi n="hi3" rend="italic">post</hi> arce | <hi n="hi4" rend="bold">35,17</hi> quia] <hi n="hi5" rend="italic">suprascr. pro </hi>quod |
+                           <hi n="hi6" rend="bold">35,20</hi> Ut qui] <hi n="hi7" rend="italic">suprascr. pro
+                        </hi>Nunc quia | <hi n="hi8" rend="bold">35,21 </hi>homini] <hi n="hi9" rend="italic">corr.
+                           e</hi> homin[[em]] | <hi n="hi10" rend="bold">35,21</hi> malè] <hi n="hi11" rend="italic">suprascr. pro </hi>tam | <hi n="hi12" rend="bold">35,22 </hi>
+                        <hi n="hi13" rend="italic">exp.</hi> scruto <hi n="hi14" rend="italic">post</hi> judex | <hi n="hi15" rend="bold">35,23</hi>
+                        <hi n="hi16" rend="italic">exp.</hi> non <hi n="hi17" rend="italic">post</hi> quòd | <hi n="hi18" rend="bold">35,24</hi> sacros <hi n="hi19" rend="italic">e. l. marg. pro
+                        </hi>divos | <hi n="hi20" rend="bold">35,24 </hi>dia] <hi n="hi21" rend="italic">suprascr.
+                           pro</hi> sacra</p>
+                  </note>
+               </head>
+               <l n="l1">Non modico (Superos testor) nova fama dolore</l>
+               <l n="l2"> Pervasit pectus, Vir venerande, meum,</l>
+               <l n="l3"> – Pectusque expertum cunctos hucusque dolores,</l>
+               <l n="l4"> Qui sternunt fortes saepè premuntque viros –</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l5"> Quando tuum audivi defuncto ex fratre nepotem, 5</l>
+               <l n="l6"> Vix bene conspectam morte obiisse diem.</l>
+               <l n="l7">Excusus jacet, heu, de caudice surculus, ex quo</l>
+               <l n="l8"> Arbor avita domûs restituenda fuit.</l>
+               <l n="l9">Indolui primùm Patriae labantis amore,</l>
+               <l n="l10"> Quo magìs indigeat civibus illa probis. 10</l>
+               <l n="l11">Tum patris Petri, fraterno qui mihi semper</l>
+               <l n="l12"> In vita et letho cultus amore fuit.</l>
+               <l n="l13">Cùmque tui, pro quo quaecunque extrema subissem,</l>
+               <l n="l14"> In te alium, credens me, reperisse patrem.</l>
+               <l n="l15">Quanquàm, mutatum te nuper in arce videbam 15</l>
+               <l n="l16"> Cum magno cordis (juro) dolore mei;</l>
+               <l n="l17">Sed quia ab alterius flatu fuit impetus ille,</l>
+               <l n="l18"> Qui bene pro verbis ipse solutus erat,</l>
+               <l n="l19">Hinc ego te nunquam cesso reverenter amare,</l>
+               <l n="l20"> Ut qui sincerus semper amator eram. 20</l>
+               <l n="l21">Ast homini, qui scandali erat malè conscius auctor,</l>
+               <l n="l22"> Sit judex scrutans intima sensa Deus.</l>
+               <l n="l23">Spero, <emph n="emph1">tuam suprà</emph>, quòd <emph n="emph2"> Sol non
+                     occidit, iram</emph>,</l>
+               <l n="l24"> Ut sacros homines dogmata dia monent.</l>
+               <l n="l25">Atque ita respiciens primoevi jura favoris, 25</l>
+               <l n="l26"> Fidenter querulas jam tibi mitto notas.</l>
+               <l n="l27">Nuper enim nostro Praelato Zagrabiensi</l>
+               <l n="l28"> Fausta Ducis sancti festa precatus eram.</l>
+               <l n="l29">Orabamque penès reminisci vellet, ùt antè</l>
+               <l n="l30"> Obnixè per me saepè rogatus erat, 30</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l31">
+                  <note xml:id="ftn330" place="foot" n="note1">
+                     <p n="p1">35,36<hi n="hi1" rend="italic">de Banatûs ... honore librum:</hi> «Banologija».</p>
+                     <p n="p2">_____________________________ </p>
+                  </note> Curaret, tandem tribui condigna labori</l>
+               <l n="l32"> Praemia, in archivo qui labor actus erat;</l>
+               <l n="l33">Tum, cessę in Vico villae ratione Latino,</l>
+               <l n="l34"> Impensas solvi à Belle, jubere, mihi.</l>
+               <l n="l35">Commendavi etiam, remorata stipendia, spondens, 35<note xml:id="ftn331" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">35,35 </hi>remorata] <hi n="hi2" rend="italic">suprascr.</hi> re<hi n="hi3" rend="italic">pro exp.</hi> s<hi n="hi4" rend="italic">et ita corr. e</hi> morata<hi n="hi5" rend="bold">| 36,tit. </hi>
+                     <hi n="hi6" rend="italic">initio tit. exp.</hi> Reverendissimum </note>
+               </l>
+               <l n="l36"> Hinc de Banatûs edere honore librum.</l>
+               <l n="l37">Attamen in nullo respondet adusque petito,</l>
+               <l n="l38"> Nec, num vota illi complacuêre, scio.</l>
+               <l n="l39">Quapropter, quia prima duo te teste petebam,</l>
+               <l n="l40"> Deberi reliquum scis quoque ritè mihi, 40</l>
+               <l n="l41">Interpone, precor, tua vota, rogesque, faveret</l>
+               <l n="l42"> Cultori proprii nominis atque domûs.</l>
+               <l n="l43">Sic, pietatis opus vestrûm facturus uterque</l>
+               <l n="l44"> Manibus accendet lampada Brajkoviis.</l>
+               <l n="l45">Effice, quod posco, veterique faveto clienti: 45</l>
+               <l n="l46"> Qui moneo constans, qualis et antè. Vale.</l>
+               <closer n="closer1">Viennae 4. Decembris </closer>
+            </div>
+            <div n="div40" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">36.</corr>
+                     <sic n="sic1">37.</sic>
+                  </choice> 
+                   Ad Dominum Nicolaum Gradski, Canonicum Zagrabiensem,
+                  Collegii Croatici Alumnorum Viennae Rectorem </head>
+               <l n="l1">Fausta tibi sancti precor, ò Nicolaë, Patroni</l>
+               <l n="l2"> Incolumi ad multos Festa redire dies.</l>
+               <l n="l3">Et, qui donorum colitur largitor, ut (oro)</l>
+               <l n="l4"> Larga tibi semper conferat ille bona.</l>
+               <l n="l5">Hoc votum in charis habeas ab amico, ùt amicus: 5</l>
+               <l n="l6"> Propitium votis omnibus ultrò Deum.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l7"> Dona mihi desunt: spoliatus, hìc exulo pridèm:</l>
+               <l n="l8"> Affectum ergo boni consule. Vive. Vale.</l>
+               <closer n="closer1">Viennae 6. Decembris 1710. </closer>
+            </div>
+            <div n="div41" type="poesis-epistula">
+               <head n="head1"> 
+                  <choice n="choice1">
+                     <corr n="corr1" resp="eds">37.</corr>
+                     <sic n="sic1">38.</sic>
+                  </choice> 
+                   Ad Dominum Episcopum Seńensem et Corbaviensem Comitem
+                  Adamum Rattkajum <note xml:id="ftn332" place="foot" n="note1">
+                     <p n="p1">37,1 <hi n="hi1" rend="italic">Festa ... genitoris Adami:</hi> blagdan Adama i Eve
+                        (Badnjak); 37,2 <hi n="hi2" rend="italic">natae ... festa salutis:</hi> Božić.</p>
+                     <p n="p2">_____________________________</p>
+                     <p n="p3">
+                        <hi n="hi1" rend="bold">37,tit.</hi>
+                        <hi n="hi2" rend="italic"> exp.</hi> 40 | <hi n="hi3" rend="bold">37,9 </hi>
+                        <hi n="hi4" rend="italic">exp.</hi> ut <hi n="hi5" rend="italic">post</hi> quippè</p>
+                  </note>
+               </head>
+               <l n="l1">Festa simul primi redeunt genitoris Adami,</l>
+               <l n="l2"> Et natae in misera festa salutis humo:<note xml:id="ftn333" place="end" n="note1">
+                     <hi n="hi1" rend="italic">Post hunc v. exp.:</hi> Incolumisque colas ea festa et
+                     salvus, Adame:</note>
+               </l>
+               <l n="l3">Quae quoniam salvus colis incolumisque fideli</l>
+               <l n="l4"> Pectore laetandi copia facta mihi est.</l>
+               <l n="l5">Quin precor à Superis, quorum stant omnia nutu, 5</l>
+               <l n="l6"> Ad multos annos dent recolenda tibi,</l>
+               <l n="l7">Senoniamque mitram celsam splendore vetusto,</l>
+               <l n="l8"> Murice Romano condecorare brevì.</l>
+               <l n="l9">Hoc genii candor tuj quippè colore meretur</l>
+               <l n="l10"> Vestiri, et sacros inter adesse Patres. 10</l>
+               <l n="l11">Me dudum augustam mea fata morantur ad aulam:</l>
+               <l n="l12"> Dant nec, ad orbatam posse redire domum.</l>
+               <l n="l13">Quin neque tempestas sinit haec proficiscier ultrò,</l>
+               <l n="l14"> Auctaque non modico laeva dolore manus. </l>
+               <l n="l15">Hinc mihi hybernandum contra mea vota Viennae est: 15</l>
+               <l n="l16"> Optabant alium nam mea vota locum.</l>
+               <l n="l17">Si quicquam hìc possum tibi, Praesul, gratificari,</l>
+               <l n="l18"> Fidenter placeat mittere jussa. Vale.</l>
+               <closer n="closer1"> Viennae 18. Decembris </closer>
+            </div>
+            <div n="div42" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1">38. <supplied n="supplied1">Epistola Adami Domianich</supplied>
+                  <note xml:id="ftn334" place="end" n="note1">
+                     Epistola alia manu scripta
+                  </note>
+               </head>
+               <head n="head2"> Perillustri Nobilissimoque Domino, Equiti Paulo Ritter Adamus Sigismundus
+                  Domianich Vice-Colonellus Salutem Plurimam Dicit </head>
+               <l n="l1">Ritter Amice, tuam percepi ritè tabellam,</l>
+               <l n="l2"> Quam mihi Zagrabiae proxima posta tulit.</l>
+               <l n="l3">Illa tuae adversae declarat tempora sortis, </l>
+               <l n="l4"> Et mundana docet spernere, ut illa decet.</l>
+               <l n="l5">Aurea enim fallax proponit pocula mundus, 5</l>
+               <l n="l6"> Ast solet ad finem dira venena dare.</l>
+               <l n="l7">Falsus adulator floret, non patriae amator,</l>
+               <l n="l8"> Uni Gaza fluit, Gens Universa luit. 
+                     <note xml:id="ftn335" place="foot" n="note1">
+                        <p n="p1">38a,7 <hi n="hi1" rend="italic">amicus ad aras</hi>: <hi n="hi2" rend="italic">cf.</hi>
+                           V,52,11 i VII, 33,30.</p>
+                        <p n="p2">
+                           <hi n="hi1" rend="bold">___________________________</hi>
+                        </p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">38,8 </hi>
+                           <hi n="hi2" rend="italic">super </hi>Gens Universa<hi n="hi3" rend="italic">suprascriptum:</hi> Patria tota<hi n="hi4" rend="italic">, ut credo, manu
+                              ipsius Ritter</hi>
+                           <hi n="hi5" rend="bold"> | 38,23</hi> Acheronta] <hi n="hi6" rend="italic">corr. e</hi>
+                           a[.]eronta | <hi n="hi7" rend="bold">38a,tit.</hi> 38] <hi n="hi8" rend="italic">corr. e
+                           </hi>41. | <hi n="hi9" rend="bold">38a,2</hi>
+                            metro] <hi n="hi10" rend="italic">corr. e</hi> metr[[um]]
+                           | <hi n="hi11" rend="bold">38a,4 </hi>
+                           <hi n="hi12" rend="italic">exp. </hi>P <hi n="hi13" rend="italic">post</hi> In | <hi n="hi14" rend="bold">38a,4</hi> me] <hi n="hi15" rend="italic">corr. e</hi> [.]e</p>
+                     </note>
+                  
+               </l>
+               <l n="l9">Indigena hanc dexter, partim demulcet et exter:</l>
+               <l n="l10"> Nec solidi quidquam Mundus amarus habet. 10</l>
+               <l n="l11">Expertus satis es mutari cuncta per Orbem,</l>
+               <l n="l12"> Ipsam mutari sic potuisse Deam.</l>
+               <l n="l13">Ergo contemnas fortunam ac omnia spernas</l>
+               <l n="l14"> Cor simul ac oculos vertito ad Astra Dei!</l>
+               <l n="l15">Quem non induxit sors haec et Gloria mundi? 15</l>
+               <l n="l16"> Dulcis nunc currit, nunc truculenta furit.</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l17"> Blanda cui nimias sortes fortuna <sic n="sic1">procatur</sic>,</l>
+               <l n="l18"> Infelix ipsâ prosperitate ruit.</l>
+               <l n="l19">Cum Deus adversis charos castigat in Orbe,</l>
+               <l n="l20"> Talibus ad Coelos praeparat ipse viam. 20</l>
+               <l n="l21">Hoc est completum, comitantur dulcia fletum:</l>
+               <l n="l22"> Quid nî adiscamus dura et acerba pati?</l>
+               <l n="l23">Vidisti in memet quot non Acheronta moueri?</l>
+               <l n="l24"> Inque meum uerti tela inimica caput?</l>
+               <l n="l25">Qui tot pro patria subij manifesta perîcla; 25</l>
+               <l n="l26"> Dent utrique dulce leuamen. Amen.</l>
+               <closer n="closer1">
+                  <dateline n="dateline1">Zagrabiae 7. Decembris 1710.</dateline>
+               </closer>
+            </div>
+            <div n="div43" type="poesis-epistula">
+               <head n="head1"> 38a. Ad Dominum Vice-Colonellum Domjanit'ium </head>
+               <l n="l1">Extorrem tua me solatur epistola, docto,</l>
+               <l n="l2"> Ad vulgare meum reddita, Adame, metro,</l>
+               <l n="l3">Qua video tandem non omni prorsus amico</l>
+               <l n="l4"> In patrio absentem me caruisse solo.</l>
+               <l n="l5">Hinc satìs apparet veterem verumque Croatam, 5</l>
+               <l n="l6"> Clarorum mores non reprobare patrum,</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l7">Sed redamare probos, durareque amicus ad aras, </l>
+               <l n="l8"> Summa quod Illyricae gloria gentis erat.<note xml:id="ftn336" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">38a,8 </hi>quod Illyricae <hi n="hi2" rend="italic">suprascr. pro</hi>
+                     olim nostro | <hi n="hi3" rend="bold">38a,15</hi>
+                     <hi n="hi4" rend="italic"> exp.</hi> in me tellusque <hi n="hi5" rend="italic">post</hi>
+                     conspirent | <hi n="hi6" rend="bold">38a,15 </hi>cuncta <hi n="hi7" rend="italic">subscr</hi>.
+                        (<hi n="hi8" rend="italic">bis verbum expunxit: primum scripsit </hi>junctum(?)<hi n="hi9" rend="italic">, quod exp. et suprascr. </hi>
+                     <gap n="gap1"/>
+                     <hi n="hi10" rend="italic">,</hi>
+                     <hi n="hi11" rend="italic">et in fine </hi>cuncta<hi n="hi12" rend="italic">subscr.</hi>) <hi n="hi13" rend="italic">| </hi>
+                     <hi n="hi14" rend="bold">38a,18 </hi>
+                     <hi n="hi15" rend="italic">initio v. exp.</hi> Otia habens | <hi n="hi16" rend="bold">38a,18 </hi>
+                     <hi n="hi17" rend="italic">exp.</hi> atque <hi n="hi18" rend="italic">post</hi> lites | <hi n="hi19" rend="bold">38a,20 </hi>
+                     <hi n="hi20" rend="italic">exp.</hi>
+                     <gap n="gap2"/>
+                     <hi n="hi21" rend="italic">post</hi> profectò | <hi n="hi22" rend="bold">38a,21 </hi>
+                     <hi n="hi23" rend="italic">initio v. exp.</hi> Vel sic in <gap n="gap3"/> | <hi n="hi24" rend="bold">38a,22 </hi>
+                     <hi n="hi25" rend="italic">exp. </hi>potest(?) <hi n="hi26" rend="italic">post</hi> nemo | <hi n="hi27" rend="bold">38a,35 </hi>
+                     <hi n="hi28" rend="italic">exp.</hi>
+                     <gap n="gap4"/>
+                     <hi n="hi29" rend="italic">post</hi> aufert</note>
+               </l>
+               <l n="l9">Deflectunt alii procul hoc à tramite quodam,</l>
+               <l n="l10"> Non verè Horvato Sloviniove modo. 10</l>
+               <l n="l11">Sunt, quos pręcipuos inter venerabar amicos,</l>
+               <l n="l12"> Pro quejs ultrò pati multa paratus eram.</l>
+               <l n="l13">Attamen ad binas, quidam ternasque tabellas</l>
+               <l n="l14"> Nec verbum reddunt vel leve gramma mihi,</l>
+               <l n="l15">Ut quasi conspirent homines elementaque cuncta 15</l>
+               <l n="l16"> Eversura istud mite senexque caput,</l>
+               <l n="l17">Quod Patriam meritosque viros coluisse studebat,</l>
+               <l n="l18"> Evitans lites, jurgia, pacis amans.</l>
+               <l n="l19">Denique consistunt certis haec omnia fatis, </l>
+               <l n="l20"> Quejs eluctari nemo profectò valet. 20</l>
+               <l n="l21">Sic vel in humanis divina potentia rebus</l>
+               <l n="l22"> Ludit, quam penitùs prendere nemo potest.</l>
+               <l n="l23">Attamen infelix odiis civilibus omne</l>
+               <l n="l24"> Regnum. Hujc praesidium est nobile Civium amor.</l>
+               <l n="l25">Consiliis hominum fortuna est major, ut ultra 25</l>
+               <l n="l26"> Fortunae metas pergere nemo queat.</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l27"> Quot stulti panem comedunt! Sed quot sapientes</l>
+               <l n="l28"> Cernimus ùt passim panè perire fame!</l>
+               <l n="l29">Spreta jacet Virtus, Fortunam Mundus adorat,</l>
+               <l n="l30"> Nec tamen immeritò, pro ratione statûs: 30</l>
+               <l n="l31">Ast ego Fortunam video variabile numen,</l>
+               <l n="l32"> Quod dedit, hoc iterum tollere saepè solet.</l>
+               <l n="l33">Contrà sed, superis et amica et proxima Virtus,</l>
+               <l n="l34"> Perpetuae Laudis nomen ubique parat.</l>
+               <l n="l35">Divitias aufert ignis, fur, latro, vel haeres 35</l>
+               <l n="l36"> Dissipat, à proprio degener ille patre;</l>
+               <l n="l37">Aut alii rapiunt, haerede superstite nullo:</l>
+               <l n="l38"> Res non exemplis indiget ista novis. </l>
+               <l n="l39">Virtutis bona nec fur, nec latro, flammave tollit:</l>
+               <l n="l40"> Mercesque ac hęres est satìs ista sibi. 40</l>
+               <l n="l41">Vitam ego (crede mihi) quàm virtutem, antè relinquam: </l>
+               <l n="l42"> Virtus post obitum vivere sola facit.</l>
+               <l n="l43">Sed nec me à Patriae vis ulla avellet amore,</l>
+               <l n="l44"> Cujus et hìc priscum curo, coloque decus.</l>
+               <l n="l45">Retribuetque Deus, mecum malè agentibus olim, 45</l>
+               <l n="l46"> Et dabit, illorum posse videre malum.</l>
+               <milestone unit="page" n="milestone3"/>
+               <l n="l47"> Indurata, diu duris exercita rebus</l>
+               <l n="l48"> Mens odii perfert invidiaeque minas. 
+                     <note xml:id="ftn337" place="foot" n="note1">
+                        <p n="p1">38a, 51-52 <hi n="hi1" rend="italic">primi</hi>
+                           <hi n="hi2" rend="italic"> ... festa </hi>
+                           <hi n="hi3" rend="italic">parentis</hi>: blagdan Adama i Eve, Badnjak. <hi n="hi4" rend="italic">Induti humana carneque festa Dei</hi>: Božić.; 39,7 <hi n="hi5" rend="italic">tua praesumpsi scrutari nomina:</hi> poslao mu je <hi n="hi6" rend="italic">geniticon</hi> (<hi n="hi7" rend="italic">fata</hi>).</p>
+                        <p n="p2">____________________________</p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">38a,48 </hi>
+                           <hi n="hi2" rend="italic">exp.</hi>
+                           <gap n="gap1"/>
+                           <hi n="hi3" rend="italic">post</hi> invidiaeque | <hi n="hi4" rend="bold">38a,50</hi>
+                           <hi n="hi5" rend="italic">exp.</hi> Et <hi n="hi6" rend="italic">post</hi> Sìc(?) | <hi n="hi7" rend="bold">38a,51 </hi>recoles] <hi n="hi8" rend="italic">corr. e
+                           </hi>recol[[..]] | <hi n="hi9" rend="bold">38a,51 </hi>dominum primi sacra festa]
+                              <hi n="hi10" rend="italic">suprascr. pro</hi> festum primi genitoris Adami |
+                              <hi n="hi11" rend="bold">38a,57 </hi>veris salvus] <hi n="hi12" rend="italic">suprascr.</hi> | <hi n="hi13" rend="bold">38a,57 </hi>
+                           <hi n="hi14" rend="italic">exp.</hi> ubique per orbem <hi n="hi15" rend="italic">post</hi>
+                           Amicis | <hi n="hi16" rend="bold">39,tit.</hi> 39] <hi n="hi17" rend="italic">corr. e
+                           </hi>42 </p>
+                     </note>
+                  
+               </l>
+               <l n="l49">Ne tamen accumulem maestîs fastidia metrîs</l>
+               <l n="l50"> Plus tibi, cùm laetos excipis ultrò dies; 50</l>
+               <l n="l51">Et recoles dominum primi sacra festa parentis,<note xml:id="ftn338" place="end" n="note1">
+                     <hi n="hi1" rend="italic">Post hunc v. exp.:</hi> Induti <gap n="gap1"/> Cognati humana festaque
+                     <gap n="gap2"/>
+                  </note>
+               </l>
+               <l n="l52"> Induti humana carneque festa Dei.</l>
+               <l n="l53">Haec, Annique novi celebres primordia felix,</l>
+               <l n="l54"> Bis totidem lustris, quot modò lustra legis. </l>
+               <l n="l55">Perpetuumque tui cultorem, semper amicum, 55</l>
+               <l n="l56"> Constans, pro genio nobilitatis, ama.</l>
+               <l n="l57">Cumque tui charis, et veris salvus Amicis,</l>
+               <l n="l58"> Ad tua et illorum vota valeto. Vale.</l>
+               <closer n="closer1">Viennae 18. Decembris </closer>
+            </div>
+            <div n="div44" type="poesis-epistula">
+               <head n="head1"> 39. Ad Serenissimum Principem Ernestum Ludovicum Landgravium Hassiae </head>
+               <l n="l1">Ut causam res ipsa offert, mirabere, Princeps,</l>
+               <l n="l2"> Parvum et ab ignoto Vate poëma legens.</l>
+               <l n="l3">Ignotus Tibi sum, sed Tu notissimus orbi:</l>
+               <l n="l4"> Hinc volui cultor nominis esse tui.</l>
+               <l n="l5">Talem quippe mihi genium natura paravit, 5</l>
+               <l n="l6"> Quo Fata explorem, promeritosque colam.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l7">Hinc tua praesumpsi scrutari nomina: Fatis<note xml:id="ftn339" place="foot" n="note1">
+                     <p n="p1">40,2 <hi n="hi1" rend="italic">Purpureo ... Duci</hi>: nadvojvoda Karlo III
+                        Porfirogenet.</p>
+                     <p n="p2">__________________________</p>
+                  </note>
+               </l>
+               <l n="l8"> Aptaque Facta rudi concelebrare metro.</l>
+               <l n="l9">Dico rudi, quoniam juvenilis transiit aetas,</l>
+               <l n="l10"> Scandere Pierii promptior antra jugi. 10</l>
+               <l n="l11">Et quantum non mole sua gravat ipsa senectus,</l>
+               <l n="l12"> Tantum jàm pridem sors inimica premit.</l>
+               <l n="l13">Quare, decretos titulos à Mente superna<note xml:id="ftn340" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">39,13</hi> superna] superno | <hi n="hi2" rend="bold">39,17 </hi>ceu]
+                        <hi n="hi3" rend="italic">suprascr</hi>.<hi n="hi4" rend="bold">| 39,17 </hi>(quaeso)] <hi n="hi5" rend="italic">suprascr. pro</hi> pro sorte<hi n="hi6" rend="bold">| 39,19
+                     </hi>sacrata] <hi n="hi7" rend="italic">suprascr. pro</hi> ter sacra<hi n="hi8" rend="bold">|
+                        40,tit.</hi> 40] <hi n="hi9" rend="italic">corr. e</hi> 43 | <hi n="hi10" rend="bold">40,7</hi> respondet] respodet | <hi n="hi11" rend="bold">40,8 </hi>me] <hi n="hi12" rend="italic">suprascr</hi>. | <hi n="hi13" rend="bold">40,8 </hi>
+                     <hi n="hi14" rend="italic">exp</hi>. jam <hi n="hi15" rend="italic">post </hi>me | <hi n="hi16" rend="bold">40,9 </hi>Princeps <hi n="hi17" rend="italic">pro exp.</hi> Prorex <hi n="hi18" rend="bold">| 40,13</hi> mutila licèt, attamen apta <hi n="hi19" rend="italic">ipse e
+                        d. marg add.</hi>
+                     <hi n="hi20" rend="bold"> |</hi>
+                      
+                     <hi n="hi21" rend="bold">40,14 </hi>Res magnas] <hi n="hi22" rend="italic">corr. e
+                     </hi>Res[[que]] graves </note>
+               </l>
+               <l n="l14"> Sustine ab externo promere Vate tibi,</l>
+               <l n="l15">Ut, qui resplendes patria in tellure coruscus, 15</l>
+               <l n="l16"> Clarus in externis sis, Lodvice, plagis.</l>
+               <l n="l17">Hoc igitur xenium ceu gratum (quaeso) tributum</l>
+               <l n="l18"> A cultore habeas atque cliente novo.</l>
+               <l n="l19">Et felix sacrata colas natalia Christi,</l>
+               <l n="l20"> Atque novos Annos, ad tua vota. Vale. 20</l>
+               <closer n="closer1">Viennae 20. Decembris </closer>
+            </div>
+            <div n="div45" type="poesis-epistula">
+               <head n="head1"> 40. Ad Dominum Proregem Croatiae, Comitem Ioannem Palffium ab Erdeud </head>
+               <l n="l1">Grata mihi, Prorex, tua nuper epistola venit,</l>
+               <l n="l2"> Purpureoque sonans altera juncta Duci.</l>
+               <l n="l3">Hanc ego mox, propria comitatam ritè tabella,</l>
+               <l n="l4"> Posonium, ad Janum Sigraïumque, dedi</l>
+               <l n="l5">Tradendam, ùt par est, commendandamque Patrono, 5</l>
+               <l n="l6"> Quam sibi jàm certè praebitam adesse, scio.</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l7">Hactenus at neuter quicquam respondet eorum,<note xml:id="ftn341" place="end" n="note1">
+                     <hi n="hi1" rend="italic">Ante hunc v. exp.:</hi> Sed nec <gap n="gap1"/> responsum reddidit
+                     ullum,</note>
+               </l>
+               <l n="l8"> Ut super effectu me dubitare licet.</l>
+               <l n="l9">Sit, ceu fata volunt: sed tu, illustrissime Princeps, </l>
+               <l n="l10"> Non ideò famulum desine amare tuum. 10</l>
+               <l n="l11">Adversas fortuna vices licèt exerat in me,</l>
+               <l n="l12"> Fregit adhuc animum non tamen illa meum.<note xml:id="ftn342" place="end" n="note1">
+                     <hi n="hi1" rend="italic">Post hunc v. exp.:</hi> Hoc animo; hac dextra (hac dextra]
+                        <hi n="hi2" rend="italic">suprascr</hi>.) mutila qua licèt, attamen (attamen] <hi n="hi3" rend="italic">suprascr.</hi>) tamen app (app] <hi n="hi4" rend="italic">exp.</hi>):
+                     apta regendi (regendi] <hi n="hi5" rend="italic">exp.</hi>)</note>
+               </l>
+               <l n="l13">Hoc animo, hac dextra (mutila licèt, attamen apta </l>
+               <l n="l14"> Res magnas calamo commemorare levi) </l>
+               <l n="l15">Exsequar officium fidi gratique clientis, 
+                     <note xml:id="ftn343" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">40,15-16 </hi>
+                        <hi n="hi2" rend="italic">e d. marg.</hi>
+                        <hi n="hi3" rend="bold"> | 40,20 </hi>
+                        <hi n="hi4" rend="italic">initio v. exp</hi>. Omnia<hi n="hi5" rend="bold">| 40,20
+                        </hi>Christiaco <hi n="hi6" rend="italic">corr. e</hi> Christi[[acis]]<hi n="hi7" rend="bold">| 40,20 </hi>imprimis] <hi n="hi8" rend="italic">suprascr</hi>.<hi n="hi9" rend="bold">| 40,20 </hi>
+                        <hi n="hi10" rend="italic">exp</hi>. gregi <hi n="hi11" rend="italic">post</hi> colenda<hi n="hi12" rend="bold">| 40,21 </hi>salvusque] <hi n="hi13" rend="italic">suprascr. pro</hi>
+                           felixque<hi n="hi14" rend="bold">| 40,27</hi> Voti <hi n="hi15" rend="italic">corr. e</hi>
+                        vot[[orum]] | <hi n="hi16" rend="bold">40,27</hi> hujus] <hi n="hi17" rend="italic">suprascr</hi>. | <hi n="hi18" rend="bold">40,29 </hi>in charis] <hi n="hi19" rend="italic">corr. e</hi> in char[[um]] | <hi n="hi20" rend="bold">40,29 </hi>
+                        <hi n="hi21" rend="italic">exp.</hi>
+                        <gap n="gap1"/>
+                        <hi n="hi22" rend="italic">post</hi> candida | <hi n="hi23" rend="bold">40,30 </hi>
+                        <hi n="hi24" rend="italic">initio v. exp</hi>. Spiritus [..]scripsit | <hi n="hi25" rend="bold">41,4</hi> Civem] Civivem | <hi n="hi26" rend="bold">41,9</hi>
+                        <hi n="hi27" rend="italic">exp.</hi> qui pro <hi n="hi28" rend="italic">post</hi> crimine |
+                           <hi n="hi29" rend="bold">41,10</hi> Caesareumque bonum] <hi n="hi30" rend="italic">corr.
+                           e</hi> Caesare[.]que bon[..]</note>
+                   15</l>
+               <l n="l16"> Cuj facilè officio Parca nocere nequit.</l>
+               <l n="l17">Interea, quoniam humanae Natale salutis,</l>
+               <l n="l18"> Patronique dies imminet ultrò tui,</l>
+               <l n="l19">Ut novus antiquo succedit protinus anno,</l>
+               <l n="l20"> Christiaco imprimis festa colenda gregi. 20</l>
+               <l n="l21">Quae, precor, incolumis celebres salvusque per omnem</l>
+               <l n="l22"> Vitam felicem, Nestoreęque parem.</l>
+               <l n="l23">Ut tibi fortunas Coelum, tibi Caesar honores,</l>
+               <l n="l24"> Et Populus laudes augeat ultrò tibi.<note xml:id="ftn344" place="end" n="note1">
+                     <hi n="hi1" rend="italic"> Post hunc v. exp.:</hi> Ut (<gap n="gap1"/>
+                     <hi n="hi2" rend="italic">exp</hi>.) videas quam Patriae Pater inclyte pacem:</note>
+               </l>
+               <l n="l25">Optatam videas Patriae, Pater inclyte, pacem 25</l>
+               <l n="l26"> Deletîs, pulsîs Hostibûs, aut domitîs.</l>
+               <l n="l27">Voti hujus testem, simul obsequiique fidelis,</l>
+               <l n="l28"> Submitto folium sat leve pauper Eques.</l>
+               <l n="l29">Sed quod tu in charis habeas: nam candida in illo </l>
+               <l n="l30"> Subscripsit Fatis mens pia Vota. Vale. 30</l>
+               <closer n="closer1">Viennae 20. Decembris </closer>
+            </div>
+            <div n="div46" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1"> 41. Ad Patrem Marinum Seńensem Capucinum </head>
+               <l n="l1">Nec vidi te, nec longo jàm tempore visi</l>
+               <l n="l2"> Missilibus, fueram suetus ùt antè, notis.</l>
+               <l n="l3">Neglecti officii veterem culpabis amicum,</l>
+               <l n="l4"> Atque tuum Civem, Sennoniumque magìs,</l>
+               <l n="l5">Cùm mos Sennonibus sit amicos esse perennes: 5</l>
+               <l n="l6"> Utpote qui absentem, qui quoque mortuum amant.</l>
+               <l n="l7">Non mihi, fortunae id vitium transcribe sinistrae,</l>
+               <l n="l8"> Quae me jàm dudum vexat iniqua nimìs.</l>
+               <l n="l9">Si nosses, quantum patior sine crimine; quin pro </l>
+               <l n="l10"> Zelo erga Patriam, Caesareumque bonum, 10</l>
+               <l n="l11">Res inter miras reputares, chare Marine,</l>
+               <l n="l12"> Ossîbus his aliquam jàm superesse cutem.</l>
+               <l n="l13">Illeque persequitur, qui me debebat amare,</l>
+               <l n="l14"> Ut vix inveniam in relligione fidem.</l>
+               <l n="l15">Omnis ad ista mihi cùm sit mala questus in unis 15</l>
+               <l n="l16"> Desino voce, animô sat patiente, queri,</l>
+               <l n="l17">Sed ter fausta tibi precor hoc natalia Christi,</l>
+               <l n="l18"> Finem, anni veteris principiumque novi,</l>
+               <l n="l19">Haec et plura dein lustris reditura futuris</l>
+               <l n="l20"> Salvus et incolumis festa, Marine, colas. 
+                     <note xml:id="ftn345" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">41,20 </hi>
+                        <hi n="hi2" rend="italic">initio v. exp. </hi>Incolumis</note>
+                   20</l>
+               <l n="l21">Caetera sprevisti fallacis munera mundi,</l>
+               <l n="l22"> Divinis felix pro pietate tua.</l>
+               <l n="l23">Inqúe sacris precibus cùm sis memor ultrò tuorum,</l>
+               <l n="l24"> Quaeso, meiqúe memor sis aliquando. Vale.</l>
+               <closer n="closer1">
+          <dateline n="dateline1">Viennae 20. Decembris</dateline>
+        </closer>
+            </div>
+            <div n="div47" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1">42. <supplied n="supplied1">Epistola Adami Beseredy</supplied>
+               </head>
+               <head n="head2"> Spectabili ac Magnifico Domino Paulo Ritter, Libero Baroni, Equiti Aurato,
+                  Inclyti Comitatûs Likensis et Corbaviensis Vice-Comiti, Adamus Beseredi Salutem
+                  Plurimam Dicit </head>
+               <l n="l1">Salve Magnifico Titulo dignissime Vates!</l>
+               <l n="l2"> A Superis faveant prospera cuncta tibi.</l>
+               <l n="l3">Ad me Posonio tua venit epistola nuper,</l>
+               <l n="l4"> Circuitu longo tardigradoque pede.</l>
+               <l n="l5">Nescio, quis fatalis homo violare sigillum 5</l>
+               <l n="l6"> Ausus erat manibus forficibusque suis.</l>
+               <l n="l7">Nil tamen arcani petulans is lector habebat</l>
+               <l n="l8"> Inde, nec ad captum forsitan ejus erat.</l>
+               <l n="l9">Nam, cujus cerebrum vix ingredietur Apollo,</l>
+               <l n="l10"> Ni priùs à Musis doctus et aptus erit? 10</l>
+               <l n="l11">Sit quiscunque licet Turbo violentus apertor </l>
+               <l n="l12"> Ille, tamen poenas debet habere suas.</l>
+               <l n="l13">Charae Consortis dum Natorumque tuorum </l>
+               <l n="l14"> Tristia fata lego, tristor et ipse super.</l>
+               <l n="l15">Cordicitùs tibi condoleo, moestissime Vates! 15</l>
+               <l n="l16"> Dij consolentur teque, tuosque lares.</l>
+               <l n="l17">Hoc est consuetum; comitantur tristia laetum;</l>
+               <l n="l18"> Hoc exempla etenim quottidiana docent. 
+                     <note xml:id="ftn346" place="foot" n="note1">
+                        <hi n="hi1" rend="bold">42,18</hi> quottidiana] <hi n="hi2" rend="italic">corr. e</hi>
+                        quotidiana <hi n="hi3" rend="bold">| 42a,6 </hi>
+                        <hi n="hi4" rend="italic">initio v. exp.</hi> Nam </note>
+                  
+               </l>
+               <l n="l19">Tolle tamen, quaeso, moestum de corde dolorem:</l>
+               <l n="l20"> Exsiccare solet nam dolor ossa nimis. 20</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l21"> Necdum decrepitam sentis paterisque senectam:</l>
+               <l n="l22"> Uxor adhuc placeat chara secunda tibi.</l>
+               <l n="l23">Quae formosa sit ac dives, foecunda, pudica,</l>
+               <l n="l24"> Reddere quae valeat pignora chara nova.</l>
+               <l n="l25">Völçejus non audet adhuc ad Frakno venire, 25</l>
+               <l n="l26"> Nupernae culpae conscius ipse suae.</l>
+               <l n="l27">Nympha Viennensis vel quaedam detinet ipsum,</l>
+               <l n="l28"> Et quasi magnetis more petulca trahit.</l>
+               <l n="l29">Attamen interea sint castis omnia casta;</l>
+               <l n="l30"> Nec vitio vertas haec, mi Apollo. Vale. 30</l>
+               <closer n="closer1"> DatVM FraCno, Vespere faCto </closer>
+               <closer n="closer2">die 8. Decembris </closer>
+            </div>
+            <div n="div48" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1"> 42a. Ad Dominum Adamum Beseredium </head>
+               <l n="l1">Accepi votis plenam, Beseredy, salutem,</l>
+               <l n="l2"> Quam tua descripsit, corde movente, manus.</l>
+               <l n="l3">Pro tanto affectu summas tibi debeo grates,</l>
+               <l n="l4"> Quanquàm te verè diligam amore pari.</l>
+               <l n="l5">Posonii passam vim, non mirêre, tabellam: 5</l>
+               <l n="l6"> Sic quaevis illinc huc violata venit.</l>
+               <l n="l7">Pestifero venisse loco suspecta revulsa est</l>
+               <l n="l8"> Et, quod plus, acri littera tincta metro.</l>
+               <l n="l9">Congrua sedando praebes documenta dolori,</l>
+               <l n="l10"> Qui vires adimit corporis atque animi. 10</l>
+               <l n="l11">Hìnc, modò cum Musis studium juvenile revolvo;</l>
+               <l n="l12"> Nunc ex Historicis acta vetusta lego.</l>
+               <l n="l13">Sic mentem, sic cor ab edaci saepè dolore<note xml:id="ftn347" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">42a,13 </hi>
+                     <hi n="hi2" rend="italic">exp.</hi> salvo do <hi n="hi3" rend="italic">post</hi> edaci | <hi n="hi4" rend="bold">42a,14 </hi>
+                     <hi n="hi5" rend="italic">corr. e</hi> Subtrah[.] | <hi n="hi6" rend="bold">42a,15 </hi>
+                     <hi n="hi7" rend="italic">exp. </hi>is <hi n="hi8" rend="italic">post</hi> caput | <hi n="hi9" rend="bold">42a,25 </hi>prehenso] <hi n="hi10" rend="italic">corr. e</hi>.
+                     prehens[[um]] | <hi n="hi11" rend="bold">42a,26</hi>
+                     <hi n="hi12" rend="italic">initio v. exp.</hi> Gesti[.] | <hi n="hi13" rend="bold">42a,27</hi>
+                     At] <hi n="hi14" rend="italic">e l. marg. pro exp. </hi>Sed | <hi n="hi15" rend="bold">42a,35</hi> Austriacas] <hi n="hi16" rend="italic">suprascr. pro</hi>
+                     <gap n="gap1"/> | <hi n="hi17" rend="bold">42a,36</hi> blandula] <hi n="hi18" rend="italic">corr.</hi>
+                     <hi n="hi19" rend="italic">e</hi> blanda[[que]] | <hi n="hi20" rend="bold">42a,36 </hi>
+                     <hi n="hi21" rend="italic">exp.</hi> placent <hi n="hi22" rend="italic">post</hi> verba</note>
+               </l>
+               <l n="l14"> Subtraho: non semper sed modus ipse juvat.</l>
+               <l n="l15">Volvuntur plures circùm caput hocce procellae, 15</l>
+               <l n="l16"> Ad quas nil Clio, nilque Thalia juvat.</l>
+               <l n="l17">Ducere consortem suades, Beseredy, vovesque</l>
+               <l n="l18"> Bis gemina instructam dote venire mihi.</l>
+               <l n="l19">Foecundam, pulchram, ditem simul atque pudicam:</l>
+               <l n="l20"> Rara est haec mulier, fors magè rara seni. 20</l>
+               <l n="l21">An nescis pulchram pulchri, ditemque potentis, </l>
+               <l n="l22"> Non senis aut miseri semper amore capi?</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l23">
+                  <note xml:id="ftn348" place="end" n="note1">
+                     <hi n="hi1" rend="italic">In d. inferiore margine scripsit: </hi>forinsecus: aD FraCnVM
+                     CastrVM FraCnVs.,<hi n="hi2" rend="italic">sed expunxit et eodem chronogrammate partim
+                        mutato post </hi> P.s.<hi n="hi3" rend="italic">de novo usus est</hi>
+                  </note> Si qua foret, nec pulchra nimìs, nec dives abundè:</l>
+               <l n="l24"> Apta modò proli, et moribus usa bonis,</l>
+               <l n="l25">Non ego connubium fugerem, sed utraque 25</l>
+               <l n="l26"> Gestirem ad mortem lectus, Amice, manu.</l>
+               <l n="l27">At miror, cur tu socialia foedera spernis,</l>
+               <l n="l28"> Quodque mihi suades, effugis ipse bonum?</l>
+               <l n="l29">Non nosti, semper caelebs, muliebre levamen:</l>
+               <l n="l30"> Notîs quippe bonîs est caruisse dolor. 30</l>
+               <l n="l31">Velçejo facilè est optare et amare puellas:</l>
+               <l n="l32"> Non illi faciem ruga senilis arat.</l>
+               <l n="l33">Non alit illius Fraknensis curia amores,</l>
+               <l n="l34"> Nec fert cristatum Pannona virgo caput.</l>
+               <l n="l35">Austriacas cristae variataque vestis adornant, 35</l>
+               <l n="l36"> Incessus, gestus, blandula verba, lepor.</l>
+               <l n="l37">Sed satìs hìc dixi. Nunc, quae scribenda supersunt,</l>
+               <l n="l38"> Ut capiat finem littera, promo lubens.</l>
+               <l n="l39">Apprecor ergo tibi felicia festa patroni,</l>
+               <l n="l40"> Qui princeps hominum dicitur esse parens, 40</l>
+               <l n="l41">Festaque virginei, Mundo solemnia, partûs,</l>
+               <l n="l42"> Faustè ad Nestoreos concelebranda dies. 
+                     <note xml:id="ftn349" place="foot" n="note1">
+                        <p n="p1">43,tit. <hi n="hi1" rend="italic">Regni</hi>
+                            
+                           <hi n="hi2" rend="italic">Ungariae</hi>
+                            
+                           <hi n="hi3" rend="italic">Palatinum</hi>: Pál Esterházy.</p>
+                        <p n="p2">
+                           <hi n="hi1" rend="bold">______________________________</hi>
+                        </p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">42a,42 </hi>concelebranda] <hi n="hi2" rend="italic">corr. e</hi>
+                           quae celebrato | <hi n="hi3" rend="bold">42a,43 </hi>
+                           <hi n="hi4" rend="italic">exp.</hi>
+                           <gap n="gap1"/>
+                           <hi n="hi5" rend="italic">post</hi> cepisti | <hi n="hi6" rend="bold">42,dat. </hi>
+                           <hi n="hi7" rend="italic">exp.</hi> Vienna <hi n="hi8" rend="italic">e datatione et sub
+                              annagrama subscripsit</hi>
+                        </p>
+                     </note>
+                  
+               </l>
+               <l n="l43">Meque (ùt cepisti) fratrem, studiique sodalem</l>
+               <l n="l44"> Semper ama, quia amo semper et ipse. Vale.</l>
+               <closer n="closer1">DIe sanCtI AbrakaMI patrIarChae VIennae</closer>
+               <closer n="closer2">20. Decembris </closer>
+               <milestone unit="page" n="milestone3"/>
+               <postscript n="postscript1">
+                  <head n="head1">
+                     <abbr n="abbr1">P. S.</abbr>
+                  </head>
+                  <l n="l1">Accipe xeniolum, non quod misisse decebat, 45</l>
+                  <l n="l2"> Sed tibi quod poterat mittere egena penus.</l>
+                  <l n="l3">A spoliato istud simul exule munus amico;</l>
+                  <l n="l4"> Affectu plenum, consule (quaeso) boni.</l>
+                  <p n="p1">
+                     <supplied n="supplied1">Forinsecus</supplied>. aD CastrVM FraCnVs.
+                  </p>
+               </postscript>
+            </div>
+            <div n="div49" type="poesis-epistula">
+               <head n="head1"> 43. Ad Celsissimum Principem Regni Ungariae Palatinum </head>
+               <l n="l1">Annua virginei partûs nostraeque salutis</l>
+               <l n="l2"> Festa haec, quae summo Mundus honore colit,</l>
+               <l n="l3">Incolumis salvusque (precor) multosque per annos,</l>
+               <l n="l4"> Propitiis superis ad tua vota, colas,</l>
+               <l n="l5">Visurus, Patriae tranquilla pace fruenti 5</l>
+               <l n="l6"> Restituisse Deos aurea saecla tuae.</l>
+               <l n="l7">Hisque diu fruitus, tandem aeternante relictâ</l>
+               <l n="l8"> Famâ Orbi, felix coelica Regna petas.</l>
+               <l n="l9">Interea antiquum, Princeps excelse, clientem</l>
+               <l n="l10"> Pro tibi consueto dilige more. Vale. 10</l>
+               <closer n="closer1">
+          <dateline n="dateline1">Viennae 24. Decembris</dateline>
+        </closer>
+            </div>
+            <div n="div50" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1">44. Ad Amicum </head>
+               <l n="l1">Quae tibi credideram relegenda poëmata nuper,</l>
+               <l n="l2"> Ùt mea per menses acta diurna duos</l>
+               <l n="l3">A te lecta malè, et pejùs taxata recepi,</l>
+               <l n="l4"> Atque ideò flammis mox lacerata dedi.</l>
+               <l n="l5">Errorem luitura tuum periêre sub igni, 5</l>
+               <l n="l6"> Illorum quamvìs culpa nec ulla fuit.</l>
+               <l n="l7">Erras, qui <mentioned n="mentioned1">Ladislav</mentioned> longam vis esse secundam; 
+                     <note xml:id="ftn350" place="foot" n="note1">
+                        <p n="p1">45,tit. <hi n="hi1" rend="italic">Camerae Aulicae praesidem</hi>: Gundaker Thomas
+                           Starhemberg.</p>
+                        <p n="p2">____________________________</p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">44,7 </hi>
+                           <hi n="hi2" rend="italic">exp</hi>. [.] post Ladislav | <hi n="hi3" rend="bold">44,20</hi> viri] <hi n="hi4" rend="italic">suprascr. pro </hi>opus | <hi n="hi5" rend="bold">44,dat. </hi>1711: <hi n="hi6" rend="italic">sic.</hi> | <hi n="hi7" rend="bold">45,3 </hi>
+                           <hi n="hi8" rend="italic">initio v. exp. </hi>Hunc | <hi n="hi9" rend="bold">45,3
+                           </hi>pòst] <hi n="hi10" rend="italic">suprascr. pro </hi>rem | <hi n="hi11" rend="bold">45,3 </hi>longaeva] <hi n="hi12" rend="italic">corr. e </hi>longae | <hi n="hi13" rend="bold">45,10 </hi>
+                           <hi n="hi14" rend="italic">exp. </hi>sed <hi n="hi15" rend="italic">post</hi> Pauper</p>
+                     </note>
+                  
+               </l>
+               <l n="l8"> Non audit Latios Illyra lingua modos.</l>
+               <l n="l9">Turpe et monstrosum sentiret quisque, <mentioned n="mentioned1">Ladislav</mentioned>
+               </l>
+               <l n="l10"> Barbara tunc verè vox ea fanda foret. 10</l>
+               <l n="l11">Sic quaecunque brevis naturâ est littera nobis,</l>
+               <l n="l12"> Haud illam longam consona terna facit.</l>
+               <l n="l13">
+                  <mentioned n="mentioned1">Iastrebarsko</mentioned> pagum, non <mentioned n="mentioned2">Iastrebarsko</mentioned> vocamus:</l>
+               <l n="l14">
+                  <mentioned n="mentioned1">Carigradski</mentioned> Illyriis, non <mentioned n="mentioned2">Carigradski</mentioned>, placet.</l>
+               <l n="l15">Italus, ex una cognatus matre Latino, 15</l>
+               <l n="l16"> Fraterno vitat flectere verba modo.</l>
+               <l n="l17">
+                  <mentioned n="mentioned1">Otranto</mentioned> propterea <emph n="emph1">Hydrantum</emph>,
+                  non dicit <mentioned n="mentioned2">Otranto</mentioned>:</l>
+               <l n="l18"> Quae nos Ausoniis regula, quaeso, ligat?</l>
+               <l n="l19">Corrigere errantes, ignaros recta docere,</l>
+               <l n="l20"> Disce, pii esse viri hoc et sapientis opus. 20</l>
+               <l n="l21">Ut tamen excusem, puto, te indulsisse Lyęo:</l>
+               <l n="l22"> Utque probè sapias, sobrius esto. Vale.</l>
+               <closer n="closer1">Viennae 27. Decembris 1711. </closer>
+            </div>
+            <div n="div51" type="poesis-epistula">
+               <milestone unit="page" n="milestone1"/>
+               <head n="head1"> 45. Ad Excellentissimum Dominum Camerae Aulicae Praesidem </head>
+               <l n="l1">Effluit antiquus, cursum novus ordinat annus,</l>
+               <l n="l2"> Inchoet felix terminat iste tibi.</l>
+               <l n="l3">Quem pòst longaeva serie faustaque sequantur</l>
+               <l n="l4"> Ad tua vota anni, Vir pretiose, novi,</l>
+               <l n="l5">Donec, completô senis olim Nestoris aevô, 5</l>
+               <l n="l6"> Ad vitam migres coelico in axe novam;</l>
+               <l n="l7">Hìc immortalis famae splendore relicto,</l>
+               <l n="l8"> Immarcescibili gloria abundus ibi.</l>
+               <l n="l9">Haec tibi sincero promit de pectore vota</l>
+               <l n="l10"> Pauper, quadruplicis conditionis Eques. 10</l>
+               <l n="l11">Pauper: nam cunctis spoliatus et exul, ùt ipsam</l>
+               <l n="l12"> Vitam in iàm capto corpore vix tulerit. 
+                     <note xml:id="ftn351" place="foot" n="note1">
+                        <p n="p1">45,32 <hi n="hi1" rend="italic">praeside Christophoro</hi>: Otto Christoph
+                           Volkra.</p>
+                        <p n="p2">__________________________</p>
+                        <p n="p3">
+                           <hi n="hi1" rend="bold">45,12 </hi>iàm] <hi n="hi2" rend="italic">suprascr</hi>. | <hi n="hi3" rend="bold">45,12 </hi>
+                           <hi n="hi4" rend="italic">exp.</hi> vo <hi n="hi5" rend="italic">post</hi> capto | <hi n="hi6" rend="bold">45,20 </hi>pro] <hi n="hi7" rend="italic">suprascr</hi>. | <hi n="hi8" rend="bold">45,20 </hi>dicere magna] <hi n="hi9" rend="italic">suprascr.
+                              pro</hi> in se, magnificare | <hi n="hi10" rend="bold">45,21 </hi>
+                           <hi n="hi11" rend="italic">exp.</hi> scal <hi n="hi12" rend="italic">post</hi> Indignum |
+                              <hi n="hi13" rend="bold">45,21 </hi>
+                           <hi n="hi14" rend="italic">corr. e</hi> falle | <hi n="hi15" rend="bold">45,22 </hi>sacra
+                           iura vetent] <hi n="hi16" rend="italic">pro exp.</hi> vetitum esse sciam; | <hi n="hi17" rend="bold">45,23</hi> Sic] <hi n="hi18" rend="italic">corr. e</hi> sed | <hi n="hi19" rend="bold">45,24 </hi>queĵs]<hi n="hi20" rend="bold"> </hi>
+                           <hi n="hi21" rend="italic">corr. e</hi> qu[[.]]ĵs | <hi n="hi22" rend="bold">45,31 </hi>cuj
+                           me] <hi n="hi23" rend="italic">suprascr. pro</hi> ad quam <hi n="hi24" rend="bold">| 45,36 </hi>
+                           <hi n="hi25" rend="italic">e l. marg. pro exp. </hi>Ast aliud differs spem pro
+                           alio differs, magne Patrone, mihi<hi n="hi26" rend="bold">| 45,37 </hi>Cuj matura
+                           aetas] <hi n="hi27" rend="italic">suprascr. pro</hi> Cum nec vita seni | <hi n="hi28" rend="bold">45,37 </hi>jàm <hi n="hi29" rend="italic">suprascr. sed exp.
+                              post</hi> multos | <hi n="hi30" rend="bold">45,38 </hi>multos]<hi n="hi31" rend="italic">suprascr. | </hi>
+                           <hi n="hi32" rend="bold">45,38 </hi>vacua hic] <hi n="hi33" rend="italic">corr. e</hi>
+                           vacua[<gap n="gap1"/>] isthic | <hi n="hi34" rend="bold">45,38 </hi>
+                           <hi n="hi35" rend="italic">exp.</hi> multos<hi n="hi36" rend="italic">, quod erat suprascr.
+                              post </hi>hic | <hi n="hi37" rend="bold">45,38</hi>
+                           <hi n="hi38" rend="italic"> exp.</hi> sinit <hi n="hi39" rend="italic">post</hi>
+                           crumena</p>
+                     </note>
+                  
+               </l>
+               <l n="l13">Sic illi multos inimicos atque potentes</l>
+               <l n="l14"> Fiscalis peperit sedula cura boni.</l>
+               <l n="l15">Hìc quoquè Vindebonae denum jàm transigo mensem, 15</l>
+               <l n="l16"> Consumptis mediis, debita dura legens,</l>
+               <l n="l17">Sperans tot meritis quodcunque aliquando bravium</l>
+               <l n="l18"> Consequi ab Augusto Caesare posse mihi;</l>
+               <l n="l19">Qui non (ùt plerique solent) merita inscia fingo,</l>
+               <l n="l20"> Sed nec pro parvis dicere magna scio, 20</l>
+               <l n="l21">Indignum, crimenque putans grave fallere Regem,</l>
+               <l n="l22"> Fallere vicinum, cùm sacra iura vetent.</l>
+               <l n="l23">Sic neque magna peto meritis ego proemia magnis,</l>
+               <l n="l24"> Sed queĵs plura dein promeruisse queam:</l>
+               <milestone unit="page" n="milestone2"/>
+               <l n="l25"> Castellum Novi, quod Frankopanum extitit olim, 25</l>
+               <l n="l26"> Saxea in Adriaci stat regione maris:</l>
+               <l n="l27">Rure suo, portuque carens, vix annuus illi</l>
+               <l n="l28"> Ter centum scudos redditus omnis habet.</l>
+               <l n="l29">Quid foret, hôc donasse virum meritumque probumque,</l>
+               <l n="l30"> Et qui mille modis utilis esse potest? 30</l>
+               <l n="l31">Sede vel Vngaricae Camerae, cuj me Leopoldus</l>
+               <l n="l32"> Decrêrat coram Praeside Christophoro?</l>
+               <l n="l33">Alterutrum per te mihi specto venire levamen:</l>
+               <l n="l34"> Iàmque expectanti tertius annus adest.<note xml:id="ftn352" place="end" n="note1">
+                     <hi n="hi1" rend="italic">Post hunc v. exp.:</hi> Attamen ad primum nihil usque
+                     resolvis</note>
+               </l>
+               <l n="l35">Nil tamen ad primum decernis: pluribus annis 35</l>
+               <l n="l36"> Expectare aliud, spes ea dura seni est,</l>
+               <l n="l37">Cuj matura aetas multos <gap n="gap1"/> sustinet annos,</l>
+               <l n="l38"> Nec multos vacua hic stare crumena dies.</l>
+               <l n="l39">Si quod promerui, nunc impertire, bravium, </l>
+               <l n="l40"> Quo dum sum in vivis, indigeoque, fruar. <note xml:id="ftn353" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">45,40</hi> dum sum in] <hi n="hi2" rend="italic">suprascr. pro</hi>
+                     (facias) vivus | <hi n="hi3" rend="bold">45,42 </hi>mea] <hi n="hi4" rend="italic">corr. e</hi>
+                     me[.] | <hi n="hi5" rend="bold">45,49 </hi>animos] <hi n="hi6" rend="italic">suprascr. pro</hi>
+                     etenim | <hi n="hi7" rend="bold">45,49 </hi>
+                     <hi n="hi8" rend="italic">exp.</hi> affligit <hi n="hi9" rend="italic">post</hi> nil | <hi n="hi10" rend="bold">45,50 </hi>
+                     <hi n="hi11" rend="italic">exp. </hi>
+                     <gap n="gap1"/>
+                     <hi n="hi12" rend="italic">post</hi> contenta | <hi n="hi13" rend="bold">45,50 </hi>
+                     <hi n="hi14" rend="italic">suprascr. pro</hi>
+                     <hi n="hi15" rend="italic">v. exp. </hi>Contempto sese quam reperire statu mori | <hi n="hi16" rend="bold">45,58</hi> Te] <hi n="hi17" rend="italic">suprascr. pro </hi>sed | <hi n="hi18" rend="bold">45,dat. </hi>1710(?)] <hi n="hi19" rend="italic">corr. e</hi> 171[[1]]<hi n="hi20" rend="bold"> </hi>| <hi n="hi21" rend="bold">46,tit.</hi> (Viennae exuli) Zelinae,
+                     25. xii. 1710. <hi n="hi22" rend="italic">R 6683</hi>
+                  </note> 40</l>
+               <l n="l41">Caesareo Fisco si possim commodus esse,</l>
+               <l n="l42"> Utere, dum vivo, commoditate mea.</l>
+               <l n="l43">Si multi à divo sibi Caesare proemia poscant,</l>
+               <l n="l44"> Qui pane illius denique et aere merent, </l>
+               <l n="l45">Cur ego non poscam (vèl cùm me cogat egestas), 45</l>
+               <l n="l46"> Qui proprio semper Marte merebar ei?</l>
+               <l n="l47">Qui cuncta amisi pro Caesare, ut una superstes</l>
+               <l n="l48"> Sit modò vita mihi, taliter ipsa gravis.</l>
+               <l n="l49">Ingenuos animos magè nil afflixerit unquam, </l>
+               <milestone unit="page" n="milestone3"/>
+               <l n="l50"> Quàm se in contenta cernere sorte mori. 50</l>
+               <l n="l51">Cùmque tuo Caesar, Gundaccare, cuncta relinquit</l>
+               <l n="l52"> Arbitrio, ac per te praemiat ille probos:</l>
+               <l n="l53">Pro pietate tua, pro justitiaque quibuscum</l>
+               <l n="l54"> Excellis, <emph n="emph1">charus Regibus atque Deo</emph>: </l>
+               <l n="l55">Sis memor (oro) mei, citò consoleris egentem, 55</l>
+               <l n="l56"> Ne mea mors te in me, non sinat esse pium.</l>
+               <l n="l57">Qui tamen à multis jàm te colo sedulus annis,</l>
+               <l n="l58"> Fac, posthac fato Te meliore colam.</l>
+               <l n="l59">Ad tua clementes Dij te simul atque tuorum </l>
+               <l n="l60"> Vota diu servent magnificentque. Vale. 60</l>
+               <closer n="closer1">
+                  <dateline n="dateline1">Viennae 31. Decembris 1710</dateline>
+               </closer>
+            </div>
+            <div n="div52" type="poesis-epistula">
+               <head n="head1">46. <supplied n="supplied1">Epistola Adami Domianich</supplied>
+               </head>
+               <head n="head2"> Perillustri <sic n="sic1">Nobilisissimoque</sic> Domino Equiti Paulo Ritter, Adamus
+                  Sigismundus Domianich Vice-Colonellus Salutem Plurimam Dicit </head>
+               <l n="l1">In coena hesterna mihi venit epistola terna, </l>
+               <l n="l2"> Una ex his ternis et tua, Amice, fuit.</l>
+               <l n="l3">Signa tui satìs haec commonstrat amoris et oris: </l>
+               <l n="l4"> Dum mihi fausta cupit, me simul illa capit.</l>
+               <l n="l5">Exopto pariter Natalia talia festa 5</l>
+               <l n="l6"> Non infesta tibi det Polus atque Dii.</l>
+               <l n="l7">Annum praesentem claude, incipiasque sequentem</l>
+               <l n="l8"> Ter felix, plures continuato diu.</l>
+               <l n="l9">Nil timeas sortem, Superi dent dummodo mortem</l>
+               <l n="l10"> Felicem, qua tunc fors mala cuncta ruet. <note xml:id="ftn354" place="foot" n="note1">
+                     <hi n="hi1" rend="bold">46,10</hi> fors] sortem <hi n="hi2" rend="italic">R 6683 </hi>| <hi n="hi3" rend="bold">46,12</hi> praemit] premit <hi n="hi4" rend="italic">R 6683 </hi>| <hi n="hi5" rend="bold">46,22</hi> Has] Illas <hi n="hi6" rend="italic">R 6683 </hi>| <hi n="hi7" rend="bold">46,25</hi> virtutum] virtutem <hi n="hi8" rend="italic">R 6683 </hi>|
+                        <hi n="hi9" rend="bold">47,tit.</hi> 48] <hi n="hi10" rend="italic">corr. e</hi> 1) | <hi n="hi11" rend="bold">47,tit.</hi>
+                     <hi n="hi12" rend="italic">exp.</hi>
+                     <gap n="gap1"/>
+                     <hi n="hi13" rend="italic">post</hi> D(omi)num | <hi n="hi14" rend="bold">47,tit.</hi>
+                     <hi n="hi15" rend="italic">suprascr. pro</hi>: [......] Ad [......] Ad D(ominum)
+                     Episcopum Sibenicensem</note> 10</l>
+               <l n="l11">Est brevis atque levis mundana injuria quaevis,</l>
+               <milestone unit="page" n="milestone1"/>
+               <l n="l12"> Si praemit una hora: praeterit absque mora.</l>
+               <l n="l13">Non commota Dei cunis Sapientia nati</l>
+               <l n="l14"> Edocet haec, quod sit gloria summa, pati.</l>
+               <l n="l15">In Betlem plorat, quem totus Mundus adorat, 15</l>
+               <l n="l16"> Et quis mortalis vixerit absque malis?</l>
+               <l n="l17">Vult Dominus fortes in Coeli adscire cohortes</l>
+               <l n="l18"> Approbat illos, quos Sors inimica probat.</l>
+               <l n="l19">At quibus indulget, vix Coeli his gloria fulget:</l>
+               <l n="l20"> Cernent fors serò, qùod bonus augur ero. 20</l>
+               <l n="l21">Qui sunt addicti virtuti, sunt bene tuti:</l>
+               <l n="l22"> Has qui servat opes, quid sibi pluris opus?</l>
+               <l n="l23">Hoc tibi promitto, et pro parvo munere mitto,</l>
+               <l n="l24"> Quòd tibi non deero, ast fidus amicus ero.</l>
+               <l n="l25">Ut sis in tuto, virtutum te tege scuto, 25</l>
+               <l n="l26"> Nec rumpent scutum tela inimica tuum.</l>
+               <l n="l27">Virtutem laudo, simul his mea carmina claudo:</l>
+               <l n="l28"> In Mundi valle hac ad tua vota Vale.</l>
+               <closer n="closer1">Zelina ipso die Nativitatis Domini 1710. </closer>
+            </div>
+         </body>
+   </text>
+</TEI>
