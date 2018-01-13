@@ -1,0 +1,1604 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Odarum liber I, versio electronica</title>
+            <author ref="benes01">
+               <persName xml:lang="hr">Beneša, Damjan</persName>
+               <date>1476-1539</date>
+            </author>
+            <editor role="annotator" xml:id="viaf311814881">
+               <persName>
+                  <ref type="viaf" target="311814881">Antun Agić</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName xml:id="viaf2726561">
+                  <ref type="viaf" target="2726561">Vladimir Rezar</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>
+            </publisher>
+            <authority>Znanstveni projekt Tekstualne mreže ranonovovjekovne Hrvatske (<placeName ref="3186886">Zagreb</placeName> Hrvatska).</authority>
+            <pubPlace>
+               <placeName ref="3186886">Zagreb</placeName>
+            </pubPlace>
+            <date>Siječanj 2018</date>
+
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/" notBefore="2018-01-01">
+                  <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence applies to
+                     this document.</p>
+                  <p>The licence was added on January 1, 2018.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Created by the <ref target="http://cte.oeaw.ac.at/">Classical Text Editor</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>Rezar 2017</bibl>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:benes01.croala8221897.croala-lat1:" xml:lang="lat">
+      <front n="front1">
+         <docTitle n="docTitle1">
+            <titlePart n="titlePart1">CarminVm lyricorVm Damiani Benessę liber primVs</titlePart>
+         </docTitle>
+      </front>
+      <body n="body1">
+         <div type="poesis-ode" n="div1" met="asclepiadea4">
+            <head n="head1">Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w9">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode prima] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">circa a. 1515, quod non sit sibi curandum de
+                        futuris; Asclep. IV.</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w9">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode prima] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">)</hi>
+                     <hi n="hi4" rend="font-style:italic;">add</hi>. tricolos tetrastrophos, ad se ipsum non
+                     esse anxie curandum de futuris </p>
+               </note>
+               <seg n="seg1" xml:id="w9">prima</seg>
+            </head>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l1"> Quid frustra crucior quotidie miser?</l>
+            <l n="l2">Dum cras iam melius polliceor mihi,</l>
+            <l n="l3"> Velox labitur aetas,</l>
+            <l n="l4"> Nec lux, <orig n="orig1">quę</orig> periit, redit.</l>
+            <l n="l5">Et me spes macerat, conficit ac metus</l>
+            <l n="l6">Ca<supplied n="supplied1">n</supplied>is pauperiem temporibus pati,</l>
+            <l n="l7"> Illa et ferre timentem,</l>
+            <l n="l8">
+               <orig n="orig1">Quę</orig> mens tristia concipit.</l>
+            <l n="l9">Atqui degere nos noluit anxios,</l>
+            <l n="l10">Qui certis agitat tempora motibus,</l>
+            <milestone unit="page" n="milestone2"/>
+            <l n="l11"> Quiue et crescere <orig n="orig1">Pheben</orig>
+        </l>
+            <l n="l12"> Momentis minui ac iubet. </l>
+            <l n="l13">Num pennis uolucres aethera <orig n="orig1">quę</orig> secant,</l>
+            <l n="l14">
+          <orig n="orig1">Lęto</orig> siue pecus pascua gramine</l>
+            <l n="l15"> Rimans horrea condit,</l>
+            <l n="l16">
+               <orig n="orig1">Vitę</orig> aut crastina cogitat?</l>
+            <l n="l17">De qua non queritur nostra necessitas,</l>
+            <l n="l18">En natura bonis cuncta fouet suis,</l>
+            <l n="l19"> Fungens munere matris</l>
+            <l n="l20"> Propter pignora <orig n="orig1">prouidę</orig>.</l>
+            <l n="l21">Erumpunt gelidis flumina montibus,</l>
+            <l n="l22">Extinguant rabidam <orig n="orig1">quę</orig> miseris sitim,</l>
+            <l n="l23"> Glande et plurima campis</l>
+            <l n="l24"> Quercus sic <seg n="seg1" xml:id="w236">satiat</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w236">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">satiat] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">in marg. pro</hi> saturat</p>
+               </note> famem.</l>
+            <l n="l25">Hoc uictu ueteres terra aluit uiros,</l>
+            <l n="l26">Nullis cum fuerant <orig n="orig1">pręlia</orig> gentibus,</l>
+            <l n="l27"> Nec se polluit ulla</l>
+            <l n="l28"> Mortalis rabies nece.</l>
+            <l n="l29">At nunc regna, <orig n="orig1">nephas</orig>, per facinus parat,</l>
+            <l n="l30">Nec fratris metuit fundere sanguinem</l>
+            <l n="l31"> Aetas ultima, finem</l>
+            <l n="l32"> Rerum <orig n="orig1">quę</orig> properat <seg n="seg1" xml:id="w312">celer.</seg>
+               <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w312">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">celer] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc.</hi>
+                     <hi n="hi2" rend="font-style:italic;">femininum, aeque ac apud Liuium Andronicum teste
+                        Prisciano</hi>
+                  </p>
+               </note>
+            </l>
+            <l n="l33">Olim propterea Thesiphone furit</l>
+            <l n="l34">Bellonam exacuens, tollit et impia</l>
+            <l n="l35"> Terris omnibus arma,</l>
+            <l n="l36"> Reges de solio mouens.</l>
+         </div>
+         <div type="poesis-ode" n="div2" met="asclepiadea2">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w352">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode … Cęlium] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">circa a. 1515, amico Celio (v. Epigr. lib. II.)
+                        de noua inclinatione sua ad castam poesim lyricam scribendam; Asclep.
+                        II</hi>.</p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w352">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode … Cęlium] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">) add</hi>. dicolos distrophos</p>
+               </note>
+               <num n="num1">II.</num> ad <seg n="seg1" xml:id="w352">
+            <orig n="orig1">Cęlium</orig>
+          </seg>
+            </head>
+            <l n="l1"> Constans usque animi foret</l>
+            <l n="l2">O cui propositum rebus in arduis:</l>
+            <l n="l3"> Mittamus populo leues</l>
+            <l n="l4">Curas, quem<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w386">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">quem … dapes] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. Tantali dapes</hi>
+                  </p>
+               </note> fugiunt <orig n="orig1">appositę</orig>
+               <seg n="seg1" xml:id="w386">dapes,</seg>
+            </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l5"> Quiue <seg n="seg1" xml:id="w398">Ixionios</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w398">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ixionios] </mentioned>Ixionis <hi n="hi1" rend="font-style:italic;">Aghich</hi>
+                  </p>
+               </note> rotat</l>
+            <l n="l6">Orbes, pectore nec soluitur aestuans,</l>
+            <l n="l7"> Cum nox incubuit nigra,</l>
+            <l n="l8">Sed turbant sceleris somnia conscium.</l>
+            <l n="l9">
+               <orig n="orig1">Cęli</orig>, montibus Aonum</l>
+            <l n="l10">Conspexi, ueteres quos dederant choros:</l>
+            <l n="l11">
+               <orig n="orig1">Cętus</orig> Pieridum hinc mihi</l>
+            <l n="l12">Arrisit, choreis et monuit pedem</l>
+            <l n="l13"> Inferre atque ego barbiton</l>
+            <l n="l14">Sumpsi <seg n="seg1" xml:id="w468">Pindaricam</seg>
+               <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w468">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Pindaricam] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. castam et religiosam, non amatoriam ut
+                        prius</hi>
+                  </p>
+               </note> cum lyricis modis.</l>
+            <l n="l15"> Defendam hac tenebris meum</l>
+            <l n="l16">Nomen, sideribus clarus et inserar.</l>
+         </div>
+         <div type="poesis-ode" n="div3" met="alcaica">
+            <head n="head1">Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w491">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode III] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">circa a. 1515, patriam sua Musa claram facturus
+                        poeta Ragusam propitiam habere vult; stropha Alcaica</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w491">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode III] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">)</hi>
+                     <hi n="hi4" rend="font-style:italic;">add</hi>. tricolos tetrastrophos</p>
+               </note>
+               <seg n="seg1" xml:id="w491">
+            <num n="num1">III.</num>
+          </seg>
+            </head>
+            <l n="l1"> Vates fidis nempe <orig n="orig1">Aeolię</orig> nihil</l>
+            <l n="l2">Fasces morabor: transferat, ut lubet,</l>
+            <l n="l3"> Fortuna falsa et docta uersis</l>
+            <l n="l4"> Culminibus uariare summa.</l>
+            <l n="l5">
+               <seg n="seg1" xml:id="w529">Fallacis</seg>
+               <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w529">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Fallacis] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. fortunae</hi>
+                  </p>
+               </note> odi munera: postibus</l>
+            <l n="l6">Non mansit ullis, quos adiit semel,</l>
+            <l n="l7"> Ignara posthac et redire,</l>
+            <l n="l8"> Vt <seg n="seg1" xml:id="w563">lachrimas</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w563">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">lachrimas] </mentioned>lachrimans <hi n="hi1" rend="font-style:italic;">Aghich</hi>
+                  </p>
+               </note> fugiens reliquit.</l>
+            <l n="l9">Summi canentem consilium Iouis</l>
+            <l n="l10">Audire Musam <orig n="orig1">pręstiterit</orig> mihi,</l>
+            <l n="l11"> Et fata Manesque et profundam</l>
+            <l n="l12"> Persephonam arbitriumque fratrum.</l>
+            <l n="l13">Quod si benignus non renuat liram</l>
+            <l n="l14">
+          <orig n="orig1">Phebus</orig>, relatum protinus alitem</l>
+            <l n="l15"> Spectabit orbis nil timentem</l>
+            <l n="l16"> Aeria regione niti.</l>
+            <l n="l17">Rhacusa mecum tunc procul ultimis</l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l18">Notescet oris, qua plaga frigore</l>
+            <l n="l19"> Stat pigra inerti, quaque littus</l>
+            <l n="l20"> Funditur Oceano supremum,</l>
+            <l n="l21">Saxisque discent appositam mari</l>
+            <l n="l22">
+          <orig n="orig1">Hęrere</orig>, nomen non minimum <orig n="orig2">Adrię</orig>,</l>
+            <l n="l23"> Quantiue circumstant labores,</l>
+            <l n="l24"> Heu, lyrici patriam <orig n="orig1">poetę</orig>.</l>
+            <l n="l25">Aetas quotannis et renouabitur</l>
+            <l n="l26">Tunc nostra, qualis uel calidus nouo</l>
+            <l n="l27"> Cum uere prodiuit rubisque</l>
+            <l n="l28"> Pelle recens coluber relicta.</l>
+            <l n="l29">Victura mecum, deuehet erutos</l>
+            <l n="l30">Aruis arator cum cineres patrum,</l>
+            <l n="l31"> Non certa seruantis sepulchri</l>
+            <l n="l32"> Nomina nec titulos auorum,</l>
+            <l n="l33">Olim <orig n="orig1">iuuentę</orig> Pierios mihi</l>
+            <l n="l34">
+          <orig n="orig1">Pręsta</orig> recessus, atque animi bonum</l>
+            <l n="l35"> Conamen incestare <seg n="seg1" xml:id="w803">uita,</seg>
+               <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w803">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">uita] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. imperativus uerbi uitare</hi>
+                  </p>
+               </note>
+            </l>
+            <l n="l36"> O patria, o genitrixque nostra!</l>
+         </div>
+         <div type="poesis-ode" n="div4" met="iambicum">
+            <head n="head1">
+               <supplied n="supplied1">(4)</supplied> Deploratio<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w826">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Deploratio … Primi] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">a. 1519, post obitum Paschalis, Benessae filii
+                        primogeniti; metr. iamb.</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w826">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Deploratio … Primi] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">) add</hi>. iambicum</p>
+               </note> in morte Pascasii <seg n="seg1" xml:id="w826">Primi</seg>
+               <note resp="viaf311814881" place="end" type="n2" rend="visible" n="note3" target="#fn1" targetEnd="#fn1">
+                  <p n="p1" rendition="#rd-Text"> Ne putes, lector, Benessam heic deflere mortem Paschasii
+                     seu Paschalis cognomento Primi, quamuis Primorum familia Rhacusae extiterit,
+                     sed mortem Paschalis eius filii hoc nomine primi, cum et alterum habuerit
+                     eiusdem nominis filium. Ceterum iambicum hoc opusculum haud equidem lyricorum,
+                     quae in metro castigatissima est, sed comicorum forma in permutandis pedibus
+                     licentiosissima compositum esse facile animaduertes.</p>
+               </note>
+               <anchor n="anchor1" type="N2" xml:id="fn1"/>
+            </head>
+            <l n="l1"> Ocelle,<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w863">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ocelle … 6 pręsidem] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">Benessa praesidis Laphodae insulae officio
+                        semestri functus est a. 1518. </hi>
+                  </p>
+               </note> quas oberrat affluus Adria, </l>
+            <l n="l2"> Laphode, insularum, abiens uolo modo te alloqui </l>
+            <l n="l3"> Sermone leni maxime et mollissimo, </l>
+            <l n="l4"> Vt memoria diu resideat apud te mei, </l>
+            <l n="l5"> Ingrata nostrum hospitium aboleat ne dies </l>
+            <l n="l6"> Semestre, sedula quo fouebas <seg n="seg1" xml:id="w863">
+            <orig n="orig1">pręsidem</orig>.</seg>
+            </l>
+            <l n="l7"> Nam mihi nihil tecum extitit <orig n="orig1">querimonię</orig>, </l>
+            <l n="l8"> Vtrique nostrum nec quid unquam interfuit, </l>
+            <l n="l9"> Doleat parum, <orig n="orig1">pęniteat</orig> aut facti alterum. </l>
+            <l n="l10"> Sed fateor, ex animo moratus sum libens </l>
+            <l n="l11"> Tecum fruebarque simul aeris et maris, </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l12"> Qualem facit natura temperiem loco. </l>
+            <l n="l13"> Ista ob merita iure equidem amicus sum tibi </l>
+            <l n="l14"> Et debeo, quantum potest gnato pater </l>
+            <l n="l15"> Optare, caro casta seu mulier uiro, </l>
+            <l n="l16"> Et quanta concipere uel animo quis ualet, </l>
+            <l n="l17"> Solui at nequit, quod cuique supra opem est suam. </l>
+            <l n="l18"> Quicquid tamen fuerit facultatis <orig n="orig1">meę</orig>, </l>
+            <l n="l19"> Soluam libenter; ualde, seu potero parum, </l>
+            <l n="l20"> Totum id tibi dicabitur amico pectore. </l>
+            <l n="l21"> Sed te quod <seg n="seg1" xml:id="w958">exoratam,</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w958">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">exoratam] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">mut. ex</hi> exaratam</p>
+               </note> id est, mihi nunc uelim </l>
+            <l n="l22"> Et multa repeto ingressus iccirco loqui: </l>
+            <l n="l23"> Nil triste mihi tecum fuit, nisi id ultimum, </l>
+            <l n="l24"> Quod triste, quod amarum, graue et demum fuit. </l>
+            <l n="l25"> Non imputo tibi casus et fati hoc malum. </l>
+            <l n="l26"> Obiit mihi puer luce, nosti, usus breui: </l>
+            <l n="l27"> Erat unicum solatium, modo qui est dolor. </l>
+            <l n="l28"> Hunc, hunc sinu liqui tuo, cara hospita: </l>
+            <l n="l29"> Dixi male illum – ossa potius, cinerem et leuem. </l>
+            <l n="l30"> Lugubris ille dies mihi usque et flebilis: </l>
+            <l n="l31"> Heu, quos ciebam, care, singultus, puer, </l>
+            <l n="l32"> Lamenta quanta, elata cum pompa, heu, tui </l>
+            <l n="l33"> Est funeris! Lachrimis meis equidem haud fides, </l>
+            <l n="l34"> Semper <seg n="seg1" xml:id="w1052">recentes,</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w1052">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">recentes] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">mut. e</hi> recedentes</p>
+               </note> quis madent misero <orig n="orig1">genę</orig>. </l>
+            <l n="l35"> Amica, mollis esto ei, nec te grauem </l>
+            <l n="l36"> Sepultus ingestam sibi puer sentiat: </l>
+            <l n="l37"> Sic de me abunde merita tu fueris satis. </l>
+            <l n="l38"> Ac tu, uale aeternum, patris miseri memor, </l>
+            <l n="l39"> Tuaque ad Deum intercessio fac nos iuuet. </l>
+         </div>
+         <div type="poesis-ode" n="div5" met="alcaica">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w1093">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode V] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">de hominis imperium obtinentis malitia;</hi>
+                     <hi n="hi2" rend="font-style:italic;">stropha Alcaica</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w1093">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode V] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu</hi>
+                     <hi n="hi2" rend="font-style:italic;">(M</hi>
+                     <hi n="hi3" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi4" rend="font-style:italic;">)</hi>
+                     <hi n="hi5" rend="font-style:italic;">add</hi>. tricolos tetrastrophos, taxat
+                     opprimentem patriam tyrannide</p>
+               </note>
+               <seg n="seg1" xml:id="w1093">
+            <num n="num1">V.</num>
+          </seg>
+            </head>
+            <l n="l1"> Quicquid parentum flagitii nocens</l>
+            <l n="l2">
+               <seg n="seg1" xml:id="w1098">
+            <orig n="orig1">Commissit</orig>
+          </seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w1098">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Commissit] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ita</hi>
+                  </p>
+               </note> aetas, nos quid et auximus,</l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l3"> Congesta tamen nunc luemus,</l>
+            <l n="l4"> Peior auis male nata proles.</l>
+            <l n="l5">Ius fasque dudum <seg n="seg1" xml:id="w1137">
+            <orig n="orig1">poluimus</orig>
+          </seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w1137">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">poluimus] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ita</hi>
+                  </p>
+               </note> satis,</l>
+            <l n="l6">Inuisa cunctis <orig n="orig1">cęlitibus</orig> manus, </l>
+            <l n="l7"> Impune quamuis nostra nequam </l>
+            <l n="l8"> Facta diu tulerint inulti. </l>
+            <l n="l9">
+               <orig n="orig1">Quęso</orig>, quid ultra iam reliquum manet, </l>
+            <l n="l10"> Quo porro nostrum non adiit scelus? </l>
+            <l n="l11"> Priuata turpi parta lucro </l>
+            <l n="l12"> Perfricuit leuiter pudorem, </l>
+            <l n="l13"> Mox rapta more est publica res malo, </l>
+            <l n="l14"> Commune uertit <orig n="orig1">quę</orig> penitus bonum: </l>
+            <l n="l15"> Auso fuerunt tunc <orig n="orig1">habenę</orig>
+            </l>
+            <l n="l16"> Omne <orig n="orig1">nephas</orig> sceleri <orig n="orig2">remissę</orig>. </l>
+            <l n="l17"> Quod<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w1256">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Quod … 18 pater] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. Adam pater</hi>
+                  </p>
+               </note> poma carpens debuit addere, </l>
+            <l n="l18"> Tantum malorum credidit haud <seg n="seg1" xml:id="w1256">pater:</seg>
+            </l>
+            <l n="l19"> Excreuit inuectum parumper </l>
+            <l n="l20"> Sic uitium cumulo ruendum. </l>
+            <l n="l21"> Hostem nocenti cuncta libidine </l>
+            <l n="l22">
+               <seg n="seg1" xml:id="w1287">
+                  <orig n="orig1">Poluta</orig>
+               </seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w1287">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Poluta] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ita</hi>
+                  </p>
+               </note> nobis constituunt Deum: </l>
+            <l n="l23"> Omnis subinde extincta honestas, </l>
+            <l n="l24"> Ac ratio periitque uirtus. </l>
+            <l n="l25"> Quo fas referri, cum propriis fides </l>
+            <l n="l26"> Eiecta pridem finibus exulet, </l>
+            <l n="l27"> Cui terga <orig n="orig1">uersę</orig>
+               <orig n="orig2">fęda</orig> dictu </l>
+            <l n="l28"> Exitio subiere rerum? </l>
+            <l n="l29"> Hinc regnat olim uis temeraria, </l>
+            <l n="l30">
+               <orig n="orig1">Quę</orig>
+               <orig n="orig2">lęta</orig> multum fallere simplices </l>
+            <l n="l31"> Totius urbis fraude <orig n="orig1">pęnas</orig>
+            </l>
+            <l n="l32"> Poscit ab immeritis nocentum. </l>
+            <milestone unit="page" n="milestone2"/>
+            <l n="l33"> Sed te quis Orco debitus, heu, manet </l>
+            <l n="l34"> Diuum repostus iam locus hostibus, </l>
+            <l n="l35"> Infensus ut qui nil merenti </l>
+            <l n="l36"> Nunc patriam premis ut tyrannus? </l>
+            <l n="l37"> Impune credis num tibi tam male </l>
+            <l n="l38"> Excogitatus quod steterit dolus? </l>
+            <l n="l39"> Nescis apertum quodque diuis, </l>
+            <l n="l40"> Segne licet, tamen esse uindex </l>
+            <l n="l41"> Diuinum et omnem fortius imprimi </l>
+            <l n="l42"> Plagam, retardat quam magis ultio? </l>
+            <l n="l43"> Ni forte speras posse falli </l>
+            <l n="l44"> More leuis populi rudisque? </l>
+            <l n="l45"> Impure <orig n="orig1">pęnas</orig> pendet inutiles </l>
+            <l n="l46"> Non arbitratus iustitiam deum, </l>
+            <l n="l47"> Discitque sero, quanta spreuit, </l>
+            <l n="l48"> Iam proprio <seg n="seg1" xml:id="w1544">Phlegyas</seg>
+               <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w1544">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Phlegyas] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. Ixionis pater, qui Delphis Apollinis templum
+                        flammis dedit</hi>
+                  </p>
+               </note> dolore. </l>
+            <l n="l49"> Audi, quod Orco carmen hic integrat </l>
+            <l n="l50"> Multum monendis, sed monitis sibi </l>
+            <l n="l51"> Frustra, quod aeternum dolebit </l>
+            <l n="l52"> Haud pretio redimendus ullo. </l>
+         </div>
+         <div type="poesis-ode" n="div6" met="sapphica">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w1588">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode VI] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">Musae inuocatio; stropha Sapphica</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w1588">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode VI] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">) add.</hi> dicolos tetrastrophos, poeticae sibi
+                     uacandum</p>
+               </note>
+               <seg n="seg1" xml:id="w1588">
+            <num n="num1">VI.</num>
+          </seg>
+            </head>
+            <l n="l1"> Non deos supplex Orientis aurum </l>
+            <l n="l2"> Posco, non multam segetem feracis </l>
+            <l n="l3">
+               <orig n="orig1">Daunię</orig>, sumptus<note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w1603">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">sumptus … parco] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">pro</hi> nihil ultra sumptus</p>
+               </note> nihil ultra <seg n="seg1" xml:id="w1603">parco</seg>
+            </l>
+            <l n="l4"> Crastina <orig n="orig1">curę</orig>, </l>
+            <l n="l5"> Spiritum nobis modo si <orig n="orig1">Camęna</orig>
+            </l>
+            <l n="l6"> Donet et dulcem strepitum modosque </l>
+            <l n="l7"> Lesbios: <orig n="orig1">Phębus</orig> mihi namque uoti </l>
+            <l n="l8"> Summa precesque. </l>
+            <l n="l9"> Vatibus <orig n="orig1">cęlos</orig> animumque <orig n="orig2">prębet</orig>
+            </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l10">
+               <orig n="orig1">Iupiter</orig>, quicquid meditantur, aeuum </l>
+            <l n="l11"> Instruit, terras obit et perennat </l>
+            <l n="l12"> Alite fausto. </l>
+            <l n="l13"> Me iuuat circum liquidos uagari </l>
+            <l n="l14"> Amnium lapsus uacuum remota </l>
+            <l n="l15"> Valle, secessus nemorum petentem </l>
+            <l n="l16"> Non sine cantu, </l>
+            <l n="l17"> Qua Deum sacras memorare laudes </l>
+            <l n="l18"> Audiar <orig n="orig1">cęlo</orig> superis et ipsis, </l>
+            <l n="l19"> Iamque terrarum resonante nostris </l>
+            <l n="l20"> Vocibus orbe. </l>
+            <l n="l21"> Grata mortali generi Diisque, </l>
+            <l n="l22"> Non iners, quicquid positum fuisset, </l>
+            <l n="l23"> Musa, delectis decorare uerbis </l>
+            <l n="l24"> Prouehe <orig n="orig1">cępta</orig>. </l>
+         </div>
+         <div type="poesis-ode" n="div7" met="asclepiadea2">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w1756">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode VII] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">Stagni bimaris laudatio ad Michaelem Marini Bonum
+                        (obiit a. 1528), qui adulescens circa a. 1519. uix incepto studio
+                        philosophiae renuntiauit, et postea, ut ex testamento eius liquet, Patauii
+                        religionem diui Benedicti induit; Asclep. II.</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w1756">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode VII] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">) add.</hi> dicolos distrophos, ad Michaelem
+                     Bonum Marini filium </p>
+               </note>
+               <seg n="seg1" xml:id="w1756">
+            <num n="num1">VII.</num>
+          </seg>
+            </head>
+            <l n="l1">
+               <orig n="orig1">Cęptum</orig> uix <orig n="orig2">sapientię</orig>
+            </l>
+            <l n="l2"> Intermittere iam quod studium doles, </l>
+            <l n="l3"> Absis interea domo </l>
+            <l n="l4"> Dum<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w1816">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Dum … 7 pedem] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">utrum de philosophia an de doctrina Christiana
+                        loquatur, haud satis certum</hi>
+                  </p>
+               </note> doctore procul luceque <orig n="orig1">pręuia</orig>, </l>
+            <l n="l5"> Aspris sentibus explicat </l>
+            <l n="l6">
+               <orig n="orig1">Quę</orig> gressum, dociles ponere semita </l>
+            <l n="l7"> Dum recta instituit <seg n="seg1" xml:id="w1816">pedem,</seg>
+            </l>
+            <l n="l8"> Non est, ut nimium hoc excruciet, modo </l>
+            <l n="l9"> Non te <orig n="orig1">pęniteat</orig> sequi, </l>
+            <l n="l10"> Quo dictat ratio nescia decipi. </l>
+            <l n="l11"> Stagni<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w1851">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Stagni … bimaris] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">hodie Ston</hi>
+                  </p>
+               </note> nam <seg n="seg1" xml:id="w1851">bimaris</seg> sinum </l>
+            <l n="l12"> Inuises, refugit tuta petens deum </l>
+            <l n="l13">
+               <orig n="orig1">
+                  <supplied n="supplied1">Cę</supplied>tus</orig> quo pelagi minor, </l>
+            <l n="l14"> Exurgit quoties Adria turbidus </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l15"> Tollens funditus aequora. </l>
+            <l n="l16"> Id semper tacitum namque silet latus, </l>
+            <l n="l17"> Atque altum parat ocium </l>
+            <l n="l18"> Circum omni populo segnis <orig n="orig1">inertię</orig>
+            </l>
+            <l n="l19"> A turbis procul urbium, </l>
+            <l n="l20"> Quas miscet temere, heu, ciuicus impetus. </l>
+            <l n="l21"> Hic<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w1988">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Hic … 27 graui] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. uitam mortemque aeternam animo
+                        contemplari</hi>
+                  </p>
+               </note> secreta deum potes </l>
+            <l n="l22"> Rimari uacua mente, quid et niger </l>
+            <l n="l23"> Intro Tartarus abdidit, </l>
+            <l n="l24"> Humani statuens criminis arbitros </l>
+            <l n="l25"> Fratres non faciles prece </l>
+            <l n="l26"> Molliri, quoties impia uindicant </l>
+            <l n="l27">
+               <orig n="orig1">Pęna</orig> facta hominum <seg n="seg1" xml:id="w1988">graui.</seg>
+            </l>
+            <l n="l28"> Depasci solitos hic nihil auocat </l>
+            <l n="l29"> Rerum materia leui, </l>
+            <l n="l30"> Suspendisse animumque aetherea plaga, </l>
+            <l n="l31"> Et post terga relinquere </l>
+            <l n="l32"> Mundum, quo tenebris ulterius Deum </l>
+            <l n="l33"> Vestigent uegeti face </l>
+            <l n="l34"> Diuina. O utinam liberius uacet </l>
+            <l n="l35"> His errare locis mihi! </l>
+            <l n="l36"> Sublatus peterem protinus aethera, </l>
+            <l n="l37"> Sentiretque procul modos </l>
+            <l n="l38"> Nostri iam regio pectinis ultima. </l>
+         </div>
+         <div type="poesis-ode" n="div8" met="alcaica">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w2078">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode … Cęlium] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;"> circa a. 1520, laudatio uitae rusticae, quam
+                        uidelicet Celius degebat; stropha Alcaica</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w2078">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode … Cęlium] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">) add. </hi>tricolos tetrastrophos</p>
+               </note>
+               <num n="num1">VIII.</num> Ad <seg n="seg1" xml:id="w2078">
+            <orig n="orig1">Cęlium</orig>
+          </seg>
+            </head>
+            <l n="l1"> Mens sana tandem quid potius sibi </l>
+            <l n="l2"> Optarit a diis optima dantibus, </l>
+            <l n="l3"> Si rusticetur fraude nulla </l>
+            <l n="l4">
+               <orig n="orig1">Hęc</orig> proprii genii laborans? </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l5"> Primum indigenti commoda prouidens </l>
+            <l n="l6">
+               <orig n="orig1">Vitę</orig> parabit, degere scilicet </l>
+            <l n="l7"> Curis seorsum quo ualeret, </l>
+            <l n="l8"> Si minimum timeat futuro. </l>
+            <l n="l9"> Duratque<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w2339">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Duratque … 28 uolucris] </mentioned> cf.
+                        <bibl n="bibl1">Hor. Carm. I, 1</bibl>
+                  </p>
+               </note> nostrum robur at interim, </l>
+            <l n="l10"> Aptos et acri <orig n="orig1">militię</orig> facit. </l>
+            <l n="l11"> Vt publicam rem, non ita ullum </l>
+            <l n="l12"> Sustineat studium decenter; </l>
+            <l n="l13"> Aut hostem oportet comminus aggredi, </l>
+            <l n="l14"> Perferre muro seu uigilum uices, </l>
+            <l n="l15"> Expertum utroque afflicta tandem </l>
+            <l n="l16"> Restituit columen futurum. </l>
+            <l n="l17"> Non ille contra turpiter auserit </l>
+            <l n="l18">
+               <orig n="orig1">Pręferre</orig> honestis uilia, quin fidem </l>
+            <l n="l19"> Nec mentis abiurare sanctam </l>
+            <l n="l20"> Inuigilans opibus struendis. </l>
+            <l n="l21"> Ius fasque nouit scilicet hic suis </l>
+            <l n="l22">
+               <orig n="orig1">Pręscripta</orig> seruans omnia finibus, </l>
+            <l n="l23"> Exempla morum sic rescribit </l>
+            <l n="l24"> Cuncta docens melius uetustis, </l>
+            <l n="l25"> Secreta <orig n="orig1">quęrit</orig> seu quoties deum, </l>
+            <l n="l26"> Et nemo <orig n="orig1">cęlos</orig> hoc leuior petat, </l>
+            <l n="l27"> Vt terga pennis mox opertus </l>
+            <l n="l28"> Sidera iam subeat <seg n="seg1" xml:id="w2339">uolucris.</seg>
+            </l>
+            <l n="l29">
+               <orig n="orig1">Cęli</orig>, quod olim iam bene cognitum, </l>
+            <l n="l30"> Alto recessu te <seg n="seg1" xml:id="w2349">Sipari</seg>
+               <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w2349">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Sipari] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. Iuppana insula prope Ragusium, ubi familia de
+                        Gradis uineas possidebat</hi>
+                  </p>
+               </note> tenet, </l>
+            <l n="l31"> Hoc ocio heroas sequentem </l>
+            <l n="l32"> Esse deos meritis adeptos: </l>
+            <l n="l33"> Docto recondis pectore seculi </l>
+            <l n="l34">
+               <orig n="orig1">Quęcunque</orig> prisci scripta <seg n="seg1" xml:id="w2385">reliquerit,</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w2385">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">reliquerit] </mentioned>reliquerint <hi n="hi1" rend="font-style:italic;">Aghich</hi>
+                  </p>
+               </note>
+            </l>
+            <milestone unit="page" n="milestone2"/>
+            <l n="l35"> Sic instruens aeuum futurum, </l>
+            <l n="l36"> Canities ueneranda patrum. </l>
+            <l n="l37"> Non hinc profectum segnities capit, </l>
+            <l n="l38"> Paruo sed alter mox labor excipit </l>
+            <l n="l39"> De more piscantem phaselo, </l>
+            <l n="l40"> Siue operas potius reuisis, </l>
+            <l n="l41"> Quascunque ponit uillicus impiger, </l>
+            <l n="l42"> Vates et ad nos tu, quoties libet, </l>
+            <l n="l43"> Non imperitus ducis artis </l>
+            <l n="l44"> Collibus Aoniis <orig n="orig1">Camęnas</orig>. </l>
+            <l n="l45"> Hinc<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w2526">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Hinc … 48 Latinis] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">Celius aliquot Demosthenis orationes et
+                        Xenophontis Anabasim Latine reddidit</hi>
+                  </p>
+               </note> Graia tellus et Latium simul </l>
+            <l n="l46"> Debent labori non minimum tuo, </l>
+            <l n="l47"> Quod factus interpres Pelasgis </l>
+            <l n="l48"> Reddis eos celebres <seg n="seg1" xml:id="w2526">Latinis.</seg>
+            </l>
+         </div>
+         <div type="poesis-ode" n="div9" met="asclepiadea3">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w2529">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode IX] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ode ad Virginem; Asclep. III.</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w2529">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode IX] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">) add. </hi>dicolos tetrastrophos, ad Beatam
+                     Virginem</p>
+               </note>
+               <seg n="seg1" xml:id="w2529">
+            <num n="num1">IX.</num>
+          </seg>
+            </head>
+            <l n="l1"> Stratis exiliens dicere carmina </l>
+            <l n="l2">
+               <orig n="orig1">Quę</orig> nunc digna tuis laudibus ordiar, </l>
+            <l n="l3">Dum sol iam reuehit purpureum diem</l>
+            <l n="l4"> Promens Oceano iubar?</l>
+            <l n="l5">Quam late radios urbibus et iugis</l>
+            <l n="l6">Diffundit roseo uertice largiens</l>
+            <l n="l7">Tam dulci populos munere perfrui</l>
+            <l n="l8"> Exposcitque operas uiros,</l>
+            <l n="l9">Ingens, Virgo, tui gloria nominis,</l>
+            <l n="l10">Grandem post genitum terra hominum genus</l>
+            <l n="l11">Et grandem referens aethere permeat</l>
+            <l n="l12"> Vox una ac eadem omnium:</l>
+            <l n="l13">Qua condit nitidum sub pelago diem,</l>
+            <l n="l14">Et qua sol oriens gentibus emicat,</l>
+            <l n="l15">Ac duro Boreas unde uenit gelu,</l>
+            <l n="l16"> Auster quoue recesserit,</l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l17">Flammis perpetuis Aethiopas fouens,</l>
+            <l n="l18">Te matrem <seg n="seg1" xml:id="w2661">celebrat,</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w2661">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">celebrat] </mentioned>celebrant <hi n="hi1" rend="font-style:italic;">Aghich</hi>
+                  </p>
+               </note> uirgineum decus,</l>
+            <l n="l19">Cui partu sobolis restitit <orig n="orig1">aedito</orig>
+        </l>
+            <l n="l20">
+               <orig n="orig1">Diuinę</orig> solida fide. </l>
+            <l n="l21"> Te cuncti uocitant matrem inopum, Dea, </l>
+            <l n="l22"> Tu sontum columenque, unica tu salus </l>
+            <l n="l23"> Terrarum et mediis fluctibus anchora </l>
+            <l n="l24"> Turbantis populos maris, </l>
+            <l n="l25"> Et <orig n="orig1">pręconia</orig> cum millia suppetant </l>
+            <l n="l26"> Tot laudum, unde tamen protinus auspicer, </l>
+            <l n="l27"> Mens incerta quidem nutat et ambigit </l>
+            <l n="l28"> Lasso diuite copia. </l>
+            <l n="l29"> Mirari potius num libeat modo </l>
+            <l n="l30"> Ortus, Virgo, tuos, plurima cum licet, </l>
+            <l n="l31"> Prorsus <orig n="orig1">quęue</orig> parentum probitas fuit, </l>
+            <l n="l32">
+               <orig n="orig1">Quę</orig> gentis series <orig n="orig2">tuę</orig>? </l>
+            <l n="l33"> Te<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w2807">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Te … 36 satam] </mentioned> cf.
+                        <bibl n="bibl1">disputationem de immaculata conceptione Beatae Mariae Virginis</bibl>
+                  </p>
+               </note>
+               <orig n="orig1">culpę</orig> maculis tersit ab omnibus </l>
+            <l n="l34"> Vis sancti aligeri matris in alueo, </l>
+            <l n="l35"> Defensam potius credere seu iuuat </l>
+            <l n="l36"> A casu nocuo <seg n="seg1" xml:id="w2807">satam.</seg>
+            </l>
+            <l n="l37"> Vtcunque eximiis <orig n="orig1">prędita</orig> dotibus </l>
+            <l n="l38"> Magno deligeris candida muneri, </l>
+            <l n="l39"> Summi conciperes <orig n="orig1">quę</orig> sobolem Dei </l>
+            <l n="l40"> Mater, cuius eras opus. </l>
+            <l n="l41"> Salue, <orig n="orig1">cęlitibus</orig> uel uenerabilis, </l>
+            <l n="l42"> Exorsi auspiciis te canimus bonis, </l>
+            <l n="l43"> Quam matrem incolumis virginitas tulit. </l>
+            <l n="l44">
+               <orig n="orig1">Terrę</orig> non semel at mihi </l>
+            <l n="l45"> Et regina poli, Virgo, uocabere, </l>
+            <l n="l46"> Vt certa populos nunc ope sospites, </l>
+            <l n="l47"> Tollas Christicolis <orig n="orig1">pręlia</orig> gentibus, </l>
+            <l n="l48"> Tandem pace frui sinas. </l>
+            <l n="l49"> Iam iam, Diua, precor, respice <seg n="seg1" xml:id="w2901">suplices</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w2901">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">suplices] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ita</hi>
+                  </p>
+               </note>
+            </l>
+            <milestone unit="page" n="milestone2"/>
+            <l n="l50"> Afflictos populos, qui miseri iacent, </l>
+            <l n="l51"> Totque et tam uariis cladibus obruti, </l>
+            <l n="l52"> Et <orig n="orig1">pęnas</orig> scelerum luunt, </l>
+            <l n="l53"> Infensum sibi quis reddiderant Deum, </l>
+            <l n="l54"> Et<note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w2937">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Et … si] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ita, metri causa pro </hi>etiamsi</p>
+               </note> iam <seg n="seg1" xml:id="w2937">si</seg> memores quotidie iuuat </l>
+            <l n="l55"> Voto tam tenero, Virgo, salus tua, </l>
+            <l n="l56"> Vt non dicere desinant: </l>
+            <l n="l57"> O cunctis penitus <orig n="orig1">prędita</orig> gratiis, </l>
+            <l n="l58"> Sexus <orig n="orig1">fęminei</orig> denique gloria, </l>
+            <l n="l59"> Aequum cui uigeat par neque germini </l>
+            <l n="l60"> Torquenti omnia dextera, </l>
+            <l n="l61"> Hos tu, Virgo potens, neu modo deseras, </l>
+            <l n="l62"> Da tandem sceleris <orig n="orig1">pęniteat</orig> sui, </l>
+            <l n="l63"> Quos Martis furor exercuit hactenus, </l>
+            <l n="l64"> Et cuncta hinc prohibe mala! </l>
+         </div>
+         <div type="poesis-ode" n="div10" met="alcaica">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w3026">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode X] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">precatio ad Virginem; stropha Alcaica</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w3026">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode X] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">) add.</hi> tricolos tetrastrophos, ad eandem</p>
+               </note>
+               <seg n="seg1" xml:id="w3026">
+            <num n="num1">X.</num>
+          </seg>
+            </head>
+            <l n="l1"> Mutaris etsi, barbite, tu modos, </l>
+            <l n="l2"> At non habebis, quod melius feras, </l>
+            <l n="l3">
+               <orig n="orig1">Quę</orig> Spiritu <orig n="orig2">fęcunda</orig> sancto </l>
+            <l n="l4"> Virgo manens peperit Tonantem. </l>
+            <l n="l5"> Terraque grandis, grandior aethere </l>
+            <l n="l6"> Sublimis inter <orig n="orig1">cęlicolas</orig> sedet </l>
+            <l n="l7"> Haustos tot incassum labores </l>
+            <l n="l8"> Inde diu miserata nostros, </l>
+            <l n="l9"> Non iure seruato ordine pergere </l>
+            <l n="l10"> Humana nullo, uim dominarier, </l>
+            <l n="l11"> Atque ima misceri supremis, </l>
+            <l n="l12"> Inde tamen ruitura sensim. </l>
+            <l n="l13"> Et nunc tuentem tot mala gentium, </l>
+            <l n="l14"> Succurre terris, o genitrix Dei, </l>
+            <l n="l15"> Iam fas sit implorare tandem, </l>
+            <l n="l16"> Rebus opem dederisque lapsis. </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l17"> Has Diua uoces o utinam audiat, </l>
+            <l n="l18"> Vt uim retundens comprimat hostium </l>
+            <l n="l19"> Et claudat Orco <seg n="seg1" xml:id="w3199">iam</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w3199">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">iam] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">pro</hi> tot</p>
+               </note> repulsos, </l>
+            <l n="l20"> Quo retrahunt animas nocentum. </l>
+            <l n="l21"> Exorsus at nunc te, Dea, quam ualent </l>
+            <l n="l22"> Vires, citabo, te quoque desinens: </l>
+            <l n="l23"> Si negligas, spes nulla restat </l>
+            <l n="l24"> Et miseri penitus perimus. </l>
+         </div>
+         <div type="poesis-ode" n="div11" met="sapphica">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w3259">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode XI] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ode ad Virginem; stropha Sapphica</hi>
+                  </p>
+               </note>
+               <seg n="seg1" xml:id="w3259">
+            <num n="num1">XI.</num>
+          </seg>
+            </head>
+            <l n="l1"> Si leui pluma posita per armos, </l>
+            <l n="l2"> Longum iter quo te minimum fatiget, </l>
+            <l n="l3"> Transigas auras tenues repente </l>
+            <l n="l4"> Redditus ales, </l>
+            <l n="l5"> Inde mox terras peragraris omnes, </l>
+            <l n="l6"> Moxque <orig n="orig1">cęlestes</orig> adeas recessus, </l>
+            <l n="l7"> Nactus haud usquam fueris <seg n="seg1" xml:id="w3302">Parenti</seg>
+               <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w3302">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Parenti] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. Beatae Virgini</hi>
+                  </p>
+               </note>
+            </l>
+            <l n="l8"> Par neque maius. </l>
+            <l n="l9">
+               <orig n="orig1">Quę</orig> nouem menses utero Tonantem </l>
+            <l n="l10"> Gessit, o toti ueneranda mundo, </l>
+            <l n="l11"> Da tuas nobis celebrare digno </l>
+            <l n="l12"> Carmine laudes! </l>
+            <l n="l13"> Da modis partum lyricis referre, </l>
+            <l n="l14"> Vt sinu fundis, Dea, uirginali, </l>
+            <l n="l15"> Qui Patri aeterno generatus ortu </l>
+            <l n="l16"> Prodit, et ambo </l>
+            <l n="l17"> Mutuo ut rursus redeunt eodem, </l>
+            <l n="l18"> Et par ac unum penitus manendo </l>
+            <l n="l19"> Iam uices seruent bene prorsus esse </l>
+            <l n="l20"> Alter et idem. </l>
+            <l n="l21"> Vnico spirant simul inde riuo, </l>
+            <l n="l22"> Protinus rerum pene <orig n="orig1">fędus</orig> unde </l>
+            <l n="l23"> Omne sancitur, propriosque ductus </l>
+            <l n="l24"> Tertius addit. </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l25"> O salutandum mihi numen usque, </l>
+            <l n="l26"> Cognitam nulli speciem reconde </l>
+            <l n="l27"> Nunc tui uultus animo precantis, </l>
+            <l n="l28"> Corque refinge. </l>
+            <l n="l29"> Nube qua nostro generi remota </l>
+            <l n="l30"> Certus appares, liquidoque prorsus </l>
+            <l n="l31"> Summa purgatis animis potestas </l>
+            <l n="l32"> Nosceris ipse. </l>
+            <l n="l33">
+               <orig n="orig1">Cęlitus</orig> quin et uarii redundant </l>
+            <l n="l34"> Lucis <orig n="orig1">aduectę</orig> radii subinde, </l>
+            <l n="l35"> Mentis et maior solito resurgit </l>
+            <l n="l36"> Captus amantis, </l>
+            <l n="l37"> Inseri <orig n="orig1">sacrę</orig>
+               <orig n="orig2">choreę</orig> deorum. </l>
+            <l n="l38"> Tunc, licet, mirans superos tuebor, </l>
+            <l n="l39"> Sed Dei matrem dominamque mundi </l>
+            <l n="l40"> Amplius unam </l>
+            <l n="l41">
+               <orig n="orig1">Cęteris</orig> sublime feram canendo: </l>
+            <l n="l42"> Maximam <orig n="orig1">cęlo</orig> memorabo uates, </l>
+            <l n="l43"> Maximam rursus repetamque totis </l>
+            <l n="l44"> Te, Dea, terris. </l>
+         </div>
+         <div type="poesis-ode" n="div12" met="asclepiadea2">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w3569">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode XII] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ode ad Virginem; Asclep. II.</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w3569">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode XII] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">1</hi>
+                     <hi n="hi3" rend="font-style:italic;">) add.</hi> dicolos distrophos</p>
+               </note>
+               <seg n="seg1" xml:id="w3569">
+            <num n="num1">XII.</num>
+          </seg>
+            </head>
+            <l n="l1"> O qui me statuat choris </l>
+            <l n="l2">
+               <orig n="orig1">Cęlestum</orig>, ut liquido conspicerem, latent </l>
+            <l n="l3">
+               <orig n="orig1">Quęcunque</orig> abdita sensibus, </l>
+            <l n="l4"> Non me deficeret uox adamantina, </l>
+            <l n="l5"> Omnis sub <orig n="orig1">cytharę</orig> modis </l>
+            <l n="l6"> Mundi ut protinus et carmine Lesbio </l>
+            <l n="l7"> Dictis machina perstrepat </l>
+            <l n="l8"> Accentusque meos ultima sentiant. </l>
+            <l n="l9"> Illustri positus loco </l>
+            <l n="l10"> Cantarem: miseri, tramite qui poli </l>
+            <l n="l11"> Diuertunt stabili bono </l>
+            <l n="l12"> Fraudati, ah miseri, qualia linquitis, </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l13"> Dum fortuna fugacibus </l>
+            <l n="l14"> Imponit stolidis decipiens bonis! </l>
+            <l n="l15"> Hic, hic uera uigent bona, </l>
+            <l n="l16"> Mortalem exsaturant <orig n="orig1">quę</orig> penitus famem, </l>
+            <l n="l17"> Erroresque potentia </l>
+            <l n="l18"> Humanis uarios pellere mentibus. </l>
+            <l n="l19"> Sed quo uis rapit insita </l>
+            <l n="l20"> Illapso stupidum lumine numinis, </l>
+            <l n="l21"> Certo condita robore, </l>
+            <l n="l22"> Quod primo posuit, quodque tenet modo, </l>
+            <l n="l23"> Iam iam pergere nos iuuat, </l>
+            <l n="l24"> Quo iam non leuium mens hominum capit. </l>
+            <l n="l25"> Prodest abdita persequi, </l>
+            <l n="l26"> Vrgent quo choreas agmina <orig n="orig1">cęlitum</orig>. </l>
+            <l n="l27"> Raptus protinus inferor, </l>
+            <l n="l28"> Claro proluitur mens ubi lumine: </l>
+            <l n="l29"> Hic terna facie Deus </l>
+            <l n="l30"> Miris attonitum cum radiis trahat. </l>
+            <l n="l31"> Factum suspicio nouum, </l>
+            <l n="l32"> Vestiri fragili carne hominis Deum, </l>
+            <l n="l33"> Qui claustra addidit inferis, </l>
+            <l n="l34"> Vectes oppositos quique adimens polo </l>
+            <l n="l35"> Mox signo posuit crucem, </l>
+            <l n="l36"> Quo uirtus studeat tendere peruicax. </l>
+            <l n="l37"> Cerno hic non aliud minus, </l>
+            <l n="l38"> M<supplied n="supplied1">ens</supplied> tota imbuitur Virginis ut Deo, </l>
+            <l n="l39"> Cui manans uterum boni </l>
+            <l n="l40"> Repleuit subito gratia Spiritus. </l>
+            <l n="l41"> Mater substitit hinc simul </l>
+            <l n="l42"> Et Virgo maculis protinus omnibus </l>
+            <l n="l43"> Defensa ac misera lue, </l>
+            <l n="l44"> Vt concepta fuit matris in alueo. </l>
+            <milestone unit="page" n="milestone2"/>
+            <l n="l45">
+               <orig n="orig1">Hęc</orig> nos ceu clipeus tegit, </l>
+            <l n="l46"> Hostili quoties aggredimur dolo, </l>
+            <l n="l47">
+               <orig n="orig1">Cęlo</orig> docta reducere </l>
+            <l n="l48"> Destructi sceleris compede liberos. </l>
+            <l n="l49"> O nostri generis decus, </l>
+            <l n="l50"> Per tete et numerus iam didicit deum </l>
+            <l n="l51"> Augeri, est hominum simul </l>
+            <l n="l52"> Gens inter superos reddita clarior. </l>
+            <l n="l53"> Salue, haud dicta mihi semel, </l>
+            <l n="l54"> Et dicenda quidem post quoque <orig n="orig1">sępius</orig>, </l>
+            <l n="l55"> Sensus si modo rexeris </l>
+            <l n="l56"> Tu uatis, tenui et uim dederis sono, </l>
+            <l n="l57"> Vt <orig n="orig1">pręsentibus</orig>
+               <orig n="orig2">hęc</orig> fiant<note resp="viaf311814881" place="end" type="n2" rend="visible" n="note1" target="#fn2" targetEnd="#fn2">
+                  <p n="p1" rendition="#rd-Text"> Videantur notata sub hac eadem littera ad paginam 22.</p>
+               </note>
+               <anchor n="anchor1" type="N2" xml:id="fn2"/>
+            </l>
+            <l n="l58"> Et iucunda simul carmina posteris! </l>
+         </div>
+         <div type="poesis-ode" n="div13" met="phalaecium">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w4069">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode XIII] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ode ad Virginem; metr. Phalaec.</hi>
+                  </p>
+               </note>
+               <note n="note2" place="foot" type="a1" rend="visible bracket" targetEnd="#w4069">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode XIII] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">alia manu (M</hi>
+                     <hi n="hi2" rend="font-style:italic;vertical-align:super;font-size:smaller;">3</hi>
+                     <hi n="hi3" rend="font-style:italic;">) add. </hi>de Virgine</p>
+               </note>
+               <seg n="seg1" xml:id="w4069">
+            <num n="num1">XIII</num>:</seg>
+               <orig n="orig1">phaleution</orig>
+        </head>
+            <l n="l1"> O nostri generis nitor decusque, </l>
+            <l n="l2"> Vellem, Virgo, tuas referre laudes, </l>
+            <l n="l3"> Et quam pectora, quam ualentque uires, </l>
+            <l n="l4"> Te totis hodie sonare terris </l>
+            <l n="l5"> Et <orig n="orig1">cęlo</orig> lepido uocare uersu. </l>
+            <l n="l6"> O nostros miserata iam labores, </l>
+            <l n="l7"> Tot succurre malis benigna clemens, </l>
+            <l n="l8"> Ac circum improuidi quibus, tuere, </l>
+            <l n="l9"> Hostis cingimur artibus maligni! </l>
+            <l n="l10"> Astus tu, Dea, dissipa dolosos, </l>
+            <l n="l11"> Quis nos exitio malo feroque </l>
+            <l n="l12"> Irretire modo <seg n="seg1" xml:id="w4128">impetit</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w4128">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">impetit] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">pro</hi> petit</p>
+               </note> misellos, </l>
+            <l n="l13"> Et tutos dederis frui quiete. </l>
+            <l n="l14">
+               <orig n="orig1">Quę</orig> iam compositos Deo reducat, </l>
+            <l n="l15"> O quicquid fere conditum potenti </l>
+            <l n="l16"> Stat dextra, nitet et decenter ore, </l>
+            <l n="l17"> Regina et domina, expedi periclis, </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l18"> Quis dudum premimur tot inter aestus. </l>
+            <l n="l19"> Fac tandem reduces locis piorum </l>
+            <l n="l20"> Te plena resonare uoce, Virgo! </l>
+            <l n="l21"> O spes unica, mater o reorum, </l>
+            <l n="l22">
+               <orig n="orig1">Quę</orig> nos e mediis rapis <seg n="seg1" xml:id="w4185">
+            <orig n="orig1">procelis</orig>,</seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w4185">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">procelis] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ita</hi>
+                  </p>
+               </note>
+            </l>
+            <l n="l23"> Lassos sedibus et locas beatis, </l>
+            <l n="l24"> Cuius nunc ope liberamur Orco, </l>
+            <l n="l25"> Atque his inserimur deum <orig n="orig1">choręis</orig>, </l>
+            <l n="l26"> Omni o <orig n="orig1">prędita</orig> dote gratiisque </l>
+            <l n="l27"> Nobis perpetuoque, Diua, salue, </l>
+            <l n="l28"> Et regno foueas Dei receptos! </l>
+         </div>
+         <div type="poesis-ode" n="div14" met="asclepiadea4">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w4216">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode XIV] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ode ad Virginem; Asclep. IV.</hi>
+                  </p>
+               </note>
+               <seg n="seg1" xml:id="w4216">
+            <num n="num1">XIV.</num>
+          </seg>
+            </head>
+            <l n="l1"> Regum progenies, sanguis et <orig n="orig1">inclytę</orig>
+            </l>
+            <l n="l2"> Gentis, <orig n="orig1">quę</orig> meritis exsuperas auos, </l>
+            <l n="l3"> Et quam Tartarus horret </l>
+            <l n="l4">
+               <orig n="orig1">Cęlesti</orig> positam throno, </l>
+            <l n="l5"> Sedem <orig n="orig1">celitibus</orig> celsior omnibus </l>
+            <l n="l6"> Nunc euecta tenes aethereis plagis </l>
+            <l n="l7"> Circum lumine multo </l>
+            <l n="l8">
+               <orig n="orig1">Pręcinctam</orig> et propria die. </l>
+            <l n="l9">
+               <orig n="orig1">Hęsit</orig> principio qui tibi Spiritus, </l>
+            <l n="l10"> Nunquam uisceribus, Virgo, tuis abit, </l>
+            <l n="l11"> Et tete Deus ipse </l>
+            <l n="l12"> C<supplied n="supplied1">a</supplied>ptus haurit in abditos, </l>
+            <l n="l13"> Quo tu rapta quidem protinus in Deum </l>
+            <l n="l14"> Tota absorberis, examina <orig n="orig1">cęlitum</orig>, </l>
+            <l n="l15"> Hinc est, quod tibi laudes </l>
+            <l n="l16"> Tam raris recinunt modis; </l>
+            <l n="l17"> Hinc est, continuo quod populos iuuas, </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l18"> Hinc <orig n="orig1">quęcunque</orig> malis <orig n="orig2">pręhensa</orig> periculis </l>
+            <l n="l19"> Pugnat turba <orig n="orig1">procelis</orig>, </l>
+            <l n="l20"> Quod pandis <orig n="orig1">miserę</orig> sinum. </l>
+            <l n="l21"> Nunc accepta sacris o thalamis Dei </l>
+            <l n="l22"> Sis tutela <orig n="orig1">meę</orig>, Virgo, precor, domus. </l>
+            <l n="l23"> Solers consule nostris </l>
+            <l n="l24"> Rebus commoda prouidens, </l>
+            <l n="l25">
+               <orig n="orig1">Vitę</orig> ut, quicquid opus, deficiat nihil, </l>
+            <l n="l26"> Et nostri teneris liberi ab unguibus </l>
+            <l n="l27"> Recto assuescere discant, </l>
+            <l n="l28"> Ac omni abstineant malo, </l>
+            <l n="l29"> Castis solliciti moribus imbui, </l>
+            <l n="l30"> Vt uera dociles educet in fide </l>
+            <l n="l31"> Vsque ecclesia mater, </l>
+            <l n="l32"> Dux mortalibus, aetheris </l>
+            <l n="l33"> Quo summo ualeant <orig n="orig1">quę</orig> posita est iugo </l>
+            <l n="l34"> Palmam non facili tramite persequi, </l>
+            <l n="l35"> Dum uictoria tempus </l>
+            <l n="l36"> Hoc certaminis admonet. </l>
+            <l n="l37"> In quo curriculi puluere sordidis </l>
+            <l n="l38"> Spectator Deus est et simul arbiter, </l>
+            <l n="l39"> Functus Marte supremo </l>
+            <l n="l40"> Qui nos prouocat instruens </l>
+            <l n="l41"> Ostentatque graui, <orig n="orig1">pręmia</orig>
+               <orig n="orig2">quę</orig> tulit, </l>
+            <l n="l42"> Servati erga suos officii cruce, </l>
+            <l n="l43"> Rumpentique iter alto </l>
+            <l n="l44"> Quam magno steterit sibi, </l>
+            <l n="l45">
+               <orig n="orig1">Cęlestem</orig> patriam nempe petentium, </l>
+            <l n="l46"> Quod duris teritur rite laboribus, </l>
+            <l n="l47"> Qui <orig n="orig1">pręscripta</orig> Magistri </l>
+            <l n="l48"> Obseruant stabili fide. </l>
+         </div>
+         <div type="poesis-ode" n="div15" met="alcmanica">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w4661">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode XV] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ode ad Virginem; stropha Alcmanica</hi>
+                  </p>
+               </note>
+               <seg n="seg1" xml:id="w4661">
+            <num n="num1">XV.</num>
+          </seg>
+            </head>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l1"> Diuino uellem purgari lumine uates, </l>
+            <l n="l2"> Aetherios ut protinus haustus </l>
+            <l n="l3"> Mens caperet, subeatque meos uis enthea sensus, </l>
+            <l n="l4">
+               <seg n="seg1" xml:id="w4696">Ieseidem</seg>
+               <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w4696">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ieseidem] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. Beatam Virginem Mariam</hi>
+                  </p>
+               </note> tunc qualis adibat, </l>
+            <l n="l5"> Cum caneret neruis et grandi uoce Tonantem </l>
+            <l n="l6"> Certa aeuo <orig n="orig1">pręscribere</orig> fata. </l>
+            <l n="l7"> Namque sono pondus si nostro accesserit unquam, </l>
+            <l n="l8"> Vt ualeam sublimia ferre, </l>
+            <l n="l9"> Indictum atque recens <orig n="orig1">presens</orig> mirabitur aetas </l>
+            <l n="l10"> Me lyrico depromere cantu, </l>
+            <l n="l11"> Et prorsus sumi laudes ac Virginis acta </l>
+            <l n="l12"> Materiam mihi pectinis arti. </l>
+            <l n="l13"> Scilicet inde Deo suscepta exordia rerum, </l>
+            <l n="l14"> Vt proles <orig n="orig1">primęua</orig> uetusto </l>
+            <l n="l15"> Demitti solio uoluit supplexque Parenti </l>
+            <l n="l16"> Sic altaria ponere terris. </l>
+            <l n="l17"> Illo delectam Mariam Deus ipse parauit, </l>
+            <l n="l18"> Quali nil <orig n="orig1">pręstantius</orig> esset, </l>
+            <l n="l19"> Humanum fieret concepta in Virginis aluo </l>
+            <l n="l20"> Quo germen Sapientia cana. </l>
+            <l n="l21"> Huic<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w4900">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Huic … 26 mundi] </mentioned> cf. <bibl n="bibl1">Gen
+                        1, 1-16</bibl>
+                  </p>
+               </note> igitur nitidos <orig n="orig1">cęli</orig> contexuit orbes, </l>
+            <l n="l22"> Firmauit fundamina <orig n="orig1">terrę</orig>: </l>
+            <l n="l23"> Diffudit tumidis huic fluctibus Amphitriten, </l>
+            <l n="l24"> Atque leues circum ligat auras, </l>
+            <l n="l25"> Et super influxit decurrens purior ignis, </l>
+            <l n="l26"> Ac structa est sic machina <seg n="seg1" xml:id="w4900">mundi.</seg>
+            </l>
+            <l n="l27"> Quin<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w4996">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Quin … 36 pręstat] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. de angelis loquitur</hi>
+                  </p>
+               </note> acies etiam duxerunt ordine iusso </l>
+            <l n="l28"> Sub propriis superum agmina signis, </l>
+            <l n="l29">
+               <orig n="orig1">Quę</orig> solido constant per mutua uincula nexu </l>
+            <l n="l30"> In uarias diducta cohortes. </l>
+            <milestone unit="page" n="milestone2"/>
+            <l n="l31"> Inde <seg n="seg1" xml:id="w4940">
+            <orig n="orig1">cohit</orig>
+          </seg> tribus castris
+               exercitus unus </l>
+            <l n="l32"> Ingenio <orig n="orig1">pręsignis</orig> et armis, </l>
+            <l n="l33"> Qui pulsu simul ad clipeos et uoce perenni </l>
+            <l n="l34"> Exceptam te, Diua, secutus </l>
+            <l n="l35"> Sedis <seg n="seg1" xml:id="w4980">
+            <orig n="orig1">inaccesę</orig>
+          </seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w4980">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">inaccesę] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ita</hi>
+                  </p>
+               </note> ad solium terrestribus ultro </l>
+            <l n="l36"> Multa plagis suffragia <seg n="seg1" xml:id="w4996">
+            <orig n="orig1">pręstat</orig>.</seg>
+            </l>
+            <l n="l37"> Hinc passim manat <orig n="orig1">prędiuite</orig> copia cornu </l>
+            <l n="l38"> Et tellus <orig n="orig1">fęcunda</orig> redundat. </l>
+            <l n="l39"> Inde canunt: »Salue, cui germinat ubere, quicquid </l>
+            <l n="l40"> Omnipotens produxit in auras«, </l>
+            <l n="l41"> Atque »Deo <orig n="orig1">hęc</orig> ingens hodie sit gloria prorsus, </l>
+            <l n="l42"> Quod remanes, quem gignis, alumna!« </l>
+         </div>
+         <div type="poesis-ode" n="div16" met="alcaica">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w5066">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode … obeuntis] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">circa a. 1527, post obitum Augustini Putei
+                        (1498-1527), qui frater fuit Iacominae de Puteis, Benessae uxoris; stropha
+                        Alcaica</hi>
+                  </p>
+               </note>
+               <num n="num1">XVI.</num> In obitu Augustini Putei cognati mei in Britannia <seg n="seg1" xml:id="w5066">obeuntis</seg>
+            </head>
+            <l n="l1"> Nobis ademptum uenit ab ultimis </l>
+            <l n="l2"> Rumor Britannis te, <orig n="orig1">miserę</orig> luis, </l>
+            <l n="l3"> Ereptus Augustine, frustra </l>
+            <l n="l4"> Exitio patrioque <orig n="orig1">cęlo</orig>: </l>
+            <l n="l5">
+               <orig n="orig1">Nostrę</orig>
+          <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w5139">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Nostrę … 8 peremptis] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">pestis a. 1527. Ragusae quoque multos ciues
+                        occidit</hi>
+                  </p>
+               </note> quod annum pestiferum inuehit </l>
+            <l n="l6"> Vrbi, sub umbras mors eadem tulit </l>
+            <l n="l7"> Gentes ad extremas remotum </l>
+            <l n="l8"> Ciuibus annumerans <seg n="seg1" xml:id="w5139">peremptis.</seg>
+            </l>
+            <l n="l9"> Nil cautum in horas est homini satis: </l>
+            <l n="l10"> Fors <orig n="orig1">cęca</orig> uersat terrigenum uices, </l>
+            <l n="l11"> Gnauum ac inertem miscet una </l>
+            <l n="l12">
+               <orig n="orig1">Pręcipitans</orig> pariter necansque. </l>
+            <l n="l13"> Impubis urges tendere, quo prius </l>
+            <l n="l14"> Virtus uocabat mascula, prospicis </l>
+            <l n="l15"> Dum mente prudenti futura, </l>
+            <l n="l16"> Remque domus satagis <orig n="orig1">paternę</orig>
+            </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l17"> Augere solers; hinc Venetos petis, </l>
+            <l n="l18"> Insigne nomen unde domum refers, </l>
+            <l n="l19"> Peculium commune ditans </l>
+            <l n="l20"> Composita<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w5251">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Composita … fratrum] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">fratres eius Dominicus et Bernardus memorati in
+                        Damiani Benessae testamento sunt</hi>
+                  </p>
+               </note> ratione <seg n="seg1" xml:id="w5251">fratrum.</seg>
+            </l>
+            <l n="l21">
+               <orig n="orig1">Pręnsus</orig> procellis Santonico mari </l>
+            <l n="l22"> Vt frater alto naufragus enatat, </l>
+            <l n="l23">
+               <orig n="orig1">Postac</orig> iter longum peroso </l>
+            <l n="l24"> Hospitium Venetum relinquis, </l>
+            <l n="l25"> Illoque migras, arbitrio quidem </l>
+            <l n="l26"> Rebus gerendis, si bene iuueris, </l>
+            <l n="l27"> Iam promoueri posse <orig n="orig1">quęstus</orig>. </l>
+            <l n="l28"> Satque ita consuluisse proli </l>
+            <l n="l29">
+               <orig n="orig1">Paruę</orig> nepotum, quo recidit tamen </l>
+            <l n="l30"> Spes tanta nobis, omnia gaudia </l>
+            <l n="l31"> En mors inexpectata uertit, </l>
+            <l n="l32"> In misero posuitque luctu </l>
+            <l n="l33"> Longum dolentes, <orig n="orig1">quę</orig> neque terminum </l>
+            <l n="l34">
+               <orig n="orig1">Sęuo</orig> dolori nouerit addere </l>
+            <l n="l35"> Deflentibus casus tuos, ceu </l>
+            <l n="l36"> Compare flet uiduata turtur. </l>
+            <l n="l37">
+               <orig n="orig1">Hęc</orig> et futuro mors memorabitur </l>
+            <l n="l38"> Aeuo, chelis dum pulsa remurmuret, </l>
+            <l n="l39"> Questusque nostros ad nepotes </l>
+            <l n="l40"> Fletus atrox <orig n="orig1">cythara</orig> remittet. </l>
+            <l n="l41"> Conatus ingens, o generosa mens, </l>
+            <l n="l42">
+               <supplied n="supplied1">Tor</supplied>pere segni nescius ocio, </l>
+            <l n="l43"> Contendis, Augustine, ad Anglos, </l>
+            <l n="l44"> Hoc animo memorande multum, </l>
+            <l n="l45"> Complexus olim quo decus inclytum </l>
+            <l n="l46"> Non <orig n="orig1">pęnitendis</orig> uincere gloriam </l>
+            <l n="l47"> Factis peroptabas auorum, </l>
+            <l n="l48"> Clarus opum celebrisque <orig n="orig1">famę</orig>. </l>
+            <milestone unit="page" n="milestone2"/>
+            <l n="l49"> Quin et <seg n="seg1" xml:id="w5508">
+                  <hi n="hi1">Rigusse</hi>
+               </seg>
+               <note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w5508">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Rigusse] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">poeta, ad etymologiam nominis Ragusae exponendam,
+                        fictam urbis et gentium eius conditricem Rigussen excogitauit</hi>
+                  </p>
+               </note> proposito tuo </l>
+            <l n="l50"> Gaudebat, olim <orig n="orig1">quę</orig>
+               <orig n="orig2">Puteę</orig> dedit </l>
+            <l n="l51"> Cognomen hoc illustre genti, </l>
+            <l n="l52"> Ingenuam peperitque prolem. </l>
+            <l n="l53"> Congressa<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w5578">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Congressa … 56 Phorci] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">genus Phorci sunt tres Gorgonae, quarum
+                        notissimae, Medusae, Perseus caput abscidit </hi>
+                  </p>
+               </note> non<note n="note2" place="foot" type="n1" rend="visible bracket" targetEnd="#w5545">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">non … diriguit] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">prout illud uetus »lucus a non lucendo«, ita
+                        forsan apud Benessam Rigusse a non rigendo (non riguisse) suum nomen
+                        ducit</hi>
+                  </p>
+               </note>
+               <orig n="orig1">hęc</orig>
+               <seg n="seg1" xml:id="w5545">diriguit</seg> uiro, </l>
+            <l n="l54"> Vultus ferebat dum clipeo feros, </l>
+            <l n="l55"> A <orig n="orig1">cęde</orig> natarum reuerso, </l>
+            <l n="l56"> Aethiopis<note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w5578">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Aethiopis … Phorci] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">in marg. pro</hi> Aethiopis natione Pherci</p>
+               </note> genus usque <seg n="seg1" xml:id="w5578">Phorci.</seg>
+            </l>
+            <l n="l57">
+               <orig n="orig1">Hęrebat</orig> olli consilio comes </l>
+            <l n="l58"> Pallasque nec non Mercurius celer, </l>
+            <l n="l59"> Forma Rigusses quando captus </l>
+            <l n="l60"> Totus iners rediitque mollis. </l>
+            <l n="l61"> Hinc pectus audax rebus in arduis </l>
+            <l n="l62"> Et sensus ingens post genitis uenit, </l>
+            <l n="l63"> Multos iuuandi tum uoluntas, </l>
+            <l n="l64">
+               <orig n="orig1">Segnitię</orig> impatiensque uirtus. </l>
+            <l n="l65"> In<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w5662">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">In … 66 originis] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">forsan Perseus et Medusa in hanc a Benessa
+                        inuentam fabulam inserti sunt propter signum scuti gentis Puteae, in quo
+                        caput galeatum reperitur</hi>
+                  </p>
+               </note> prolis, inquam, more fideliter </l>
+            <l n="l66">
+               <orig n="orig1">Priscę</orig> refertur semen <seg n="seg1" xml:id="w5662">originis:</seg>
+            </l>
+            <l n="l67"> Virtutis exemplo esto macte, </l>
+            <l n="l68"> Tarde nepos uenienti in aeuo! </l>
+         </div>
+         <div type="poesis-ode" n="div17" met="asclepiadea1">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w5693">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode XVII] </mentioned> nomen destinatarii,
+                     uidelicet docti Benessae laudatoris, deest, sed, ut uidetur, Apulus origine
+                     fuit (cf. <bibl n="bibl1">vv. 20-21</bibl>); Asclep. I. </p>
+               </note>
+               <seg n="seg1" xml:id="w5693">
+            <num n="num1">XVII.</num>
+          </seg>
+            </head>
+            <l n="l1"> Dum tu carmina testudine personas, </l>
+            <l n="l2"> Perdulcem strepitum sic fidibus ciens, </l>
+            <l n="l3"> Vt dudum lyricen pectine suscites </l>
+            <l n="l4"> Oblitam, tenuis tollis ad aethera </l>
+            <l n="l5"> Laudes ingenii, sideribus meum </l>
+            <l n="l6"> Cantu Pindarico nomen et inseris. </l>
+            <l n="l7"> Maioresque tamen quis meritis ferat </l>
+            <l n="l8"> Laudes, ut superis infima misceas, </l>
+            <l n="l9"> Componasque hominum <orig n="orig1">cęlitibus</orig> genas? </l>
+            <l n="l10"> Sed nos exigui, ut <orig n="orig1">cętera</orig>, <orig n="orig2">Lesbię</orig>
+            </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l11"> Indocti <orig n="orig1">citharę</orig> uix tulimus graui </l>
+            <l n="l12"> Pertentare modos insolitos lyra, </l>
+            <l n="l13"> Vt simplex animum significem tibi, </l>
+            <l n="l14"> Et semper memorem pollicear fore </l>
+            <l n="l15"> Ardentis celebrem carmine reddere, </l>
+            <l n="l16"> Et quamuis oneres plus quam humeri ferunt. </l>
+            <l n="l17"> Sed qui me subito nunc rapit impetus? </l>
+            <l n="l18"> O si mente noua quis modo redditum </l>
+            <l n="l19"> Sublimem statuat Castalio iugo! </l>
+            <l n="l20"> Seclis eruerim protinus, Apuli<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w5797">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Apuli … 21 Insignes] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. et inter eos primus Horatius ipse</hi>
+                  </p>
+               </note>
+            </l>
+            <l n="l21">
+               <seg n="seg1" xml:id="w5797">
+                  <hi n="hi1">Insignes</hi>
+               </seg> animi ut floruerint bonis, </l>
+            <l n="l22"> Et quam tu nebulis altius exeras </l>
+            <l n="l23">
+               <orig n="orig1">Pręcinctum</orig> uiridi nunc hedera caput. </l>
+         </div>
+         <div type="poesis-ode" n="div18" met="alcaica">
+            <head n="head1"> Ode<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w5815">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Ode XVIII] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">circa a. 1527, ad principes Christianos; stropha
+                        Alcaica</hi>
+                  </p>
+               </note>
+               <seg n="seg1" xml:id="w5815">
+            <num n="num1">XVIII.</num>
+          </seg>
+            </head>
+            <l n="l1"> Non, si <orig n="orig1">leęnam</orig> saltibus abditis </l>
+            <l n="l2"> Ad tempus olim detinet ocium, </l>
+            <l n="l3"> Dum <orig n="orig1">fęta</orig> languescit putatque </l>
+            <l n="l4"> Dum soboli <orig n="orig1">tenerę</orig> timendum, </l>
+            <l n="l5"> Sic usque tutum post fuerit quoque </l>
+            <l n="l6"> Errare siluis inualido gregi, </l>
+            <l n="l7"> Durarit ut dentes iuuenta, </l>
+            <l n="l8"> Exacuat positos et ungues. </l>
+            <l n="l9"> At stabit ultro non modicus timor, </l>
+            <l n="l10"> Horrescat altum quo fremitu nemus, </l>
+            <l n="l11"> Dum strage iam multa docebit </l>
+            <l n="l12">
+               <orig n="orig1">Cęde</orig> suos satiasse natos. </l>
+            <l n="l13"> Vir perspicaci consilio uigens </l>
+            <l n="l14"> Pridem latenti prospiciet malo, </l>
+            <l n="l15"> Rebusque opem <orig n="orig1">quęret</orig> remotis, </l>
+            <l n="l16"> Ne <orig n="orig1">subitę</orig> feriant <orig n="orig2">ruinę</orig>. </l>
+            <milestone unit="page" n="milestone1"/>
+            <l n="l17"> O <orig n="orig1">sępe</orig> multum iam moniti mihi, </l>
+            <l n="l18"> Quid quale pectus non geritis decet? </l>
+            <l n="l19"> Vngue haud recedentes honesto, </l>
+            <l n="l20">
+               <orig n="orig1">Pręnitidi</orig> pietate et armis, </l>
+            <l n="l21"> Sat iam furori, proh facinus, datum, </l>
+            <l n="l22"> Iusti sat haustum sanguinis insuper, </l>
+            <l n="l23"> A quo abstineri lex iubebat, </l>
+            <l n="l24"> Sat penitus male temperatum. </l>
+            <l n="l25"> Itum per omne est flagitium licet, </l>
+            <l n="l26"> Primumque sacris <seg n="seg1" xml:id="w6052">
+            <orig n="orig1">poluerit</orig>
+          </seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w6052">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">poluerit] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ita</hi>
+                  </p>
+               </note> manum </l>
+            <l n="l27"> Infamis aetas, nec subinde </l>
+            <l n="l28"> Publica res tenuit rapacem, </l>
+            <l n="l29"> Atque arma <orig n="orig1">fędo</orig> sunt sceleri data, ut </l>
+            <l n="l30"> Insigne munus conciderit simul, </l>
+            <l n="l31"> Ex quo decusque nominumque </l>
+            <l n="l32"> Tot tituli prodiere pridem. </l>
+            <l n="l33">
+               <orig n="orig1">Quę</orig> culpa quanti iam miseris stetit, </l>
+            <l n="l34"> Non lege quando debita uindici </l>
+            <l n="l35"> Ausu proteruo impurus arma </l>
+            <l n="l36">
+               <orig n="orig1">Iusticię</orig> male rapta cinxit? </l>
+            <l n="l37"> Nam<note n="note1" place="foot" type="n1" rend="visible bracket" targetEnd="#w6179">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Nam … 39 necisque] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">sc. Ianua (Genoa) a. 1527. a Gallis capta est, et
+                        mense Maio eiusdem anni Roma ab exercitu caesareo expugnata et uastata est
+                     </hi>
+                  </p>
+               </note> testis horum Ianua turpiter </l>
+            <l n="l38"> Exposta <orig n="orig1">prędę</orig> Romaque, cum modus </l>
+            <l n="l39"> Seruatus haud rapti <seg n="seg1" xml:id="w6179">necisque.</seg>
+            </l>
+            <l n="l40"> Non habita est ratio pudoris: </l>
+            <l n="l41"> Capta quid intactum urbe remanserat? </l>
+            <l n="l42"> Ipso relatu uel miserabile, </l>
+            <l n="l43"> Abducitur phanis sacerdos, </l>
+            <l n="l44"> Obsequio meruitque turpi. </l>
+            <l n="l45"> Ast, oro, tandem quid reliqui fuit? </l>
+            <l n="l46"> Quo uis feratur barbara, restitit </l>
+            <l n="l47"> Nil integrum <orig n="orig1">Turcę</orig> furenti, </l>
+            <l n="l48">
+               <orig n="orig1">Lęderet</orig> ut grauius fideles. </l>
+            <milestone unit="page" n="milestone2"/>
+            <l n="l49"> Non ergo mirum, regna subegerit </l>
+            <l n="l50"> Si Christiani tot modo limitis </l>
+            <l n="l51"> Maumetus, et peiora semper </l>
+            <l n="l52"> Horribilis, ferus et minetur. </l>
+            <l n="l53"> Nam pulsa terris Iustitia et Fides </l>
+            <l n="l54"> Fas omne secum protinus abstulit: </l>
+            <l n="l55"> Exinde coniurata plebes </l>
+            <l n="l56"> Currit in exitium uicissim. </l>
+            <l n="l57">
+               <seg n="seg1" xml:id="w6344">
+                  <orig n="orig1">Opleta</orig>
+               </seg>
+               <note n="note1" place="foot" type="a1" rend="visible bracket" targetEnd="#w6344">
+                  <p n="p1" rendition="#rd-Text" rend="text-align:left;">
+                     <mentioned n="mentioned1" rend="visible bracket">Opleta] </mentioned>
+                     <hi n="hi1" rend="font-style:italic;">ita</hi>
+                  </p>
+               </note> nuper <orig n="orig1">cędibus</orig> omnia, </l>
+            <l n="l58"> Stragem nec unam uidimus urbium </l>
+            <l n="l59"> Et <orig n="orig1">fęda</orig> tot dictu patrata </l>
+            <l n="l60"> Scilicet opprobrio deorum. </l>
+            <l n="l61"> Ac ut futuro prouideas semel, </l>
+            <l n="l62"> Refert id, inquam, rebus et expedit, </l>
+            <l n="l63"> Impulsa sustentes sagaci </l>
+            <l n="l64"> Consilio et teneas ruinam. </l>
+            <l n="l65"> Atque hoc adorto quamlibet arduum, </l>
+            <l n="l66"> Sed Christianis ni pietas tamen </l>
+            <l n="l67">
+               <orig n="orig1">Sincęra</orig>, ni desit fidesque, </l>
+            <l n="l68"> Pollicear fore cuncta prompta. </l>
+            <l n="l69"> Dum tempus ergo, ni bene consulas, </l>
+            <l n="l70"> Hauri hoc uel unum, nobilium cohors </l>
+            <l n="l71"> O principum consulta, posthac </l>
+            <l n="l72"> Forte diu dolitura frustra! </l>
+         </div>
+      </body>
+   </text>
+</TEI>
