@@ -1,5 +1,6 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace functx = "http://www.functx.com";
+declare variable $db := "ben_add";
 declare function functx:path-to-node
   ( $nodes ) {
 $nodes/string-join(ancestor-or-self::*[@n]/name(.), "/tei:")
@@ -30,7 +31,7 @@ return string-join($sequence, "/")
 (: below TEI/text :)
 declare function local:getdistinctpaths($file){
   let $paths :=
-    let $cr := db:open("vitsplitrad", $file)
+    let $cr := db:open($db, $file)
     let $els := for $e in $cr/tei:TEI[*:teiHeader[not(*:encodingDesc)]]/tei:text//*
           return functx:path-to-node($e)
     return distinct-values($els)
@@ -60,7 +61,7 @@ declare function local:makecref ($commonpath){
 (: change db name as necessary :)
 (: insert the actual refsDecl node into encodingDesc :)
 (: make sure that the collection has no refsDecl/@n="CTS" already :)
-for $f in collection("vitsplitrad")//tei:TEI/tei:teiHeader[not(tei:encodingDesc)]
+for $f in collection($db)//tei:TEI/tei:teiHeader[not(tei:encodingDesc)]
 let $filename := db:path($f)
 let $node := element encodingDesc{
   element refsDecl {
