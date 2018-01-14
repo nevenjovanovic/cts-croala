@@ -1,6 +1,6 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace functx = "http://www.functx.com";
-declare variable $dbname := "ben_add";
+declare variable $dbname := "bart_add";
 declare function functx:escape-for-regex
   ( $arg as xs:string? )  as xs:string {
 

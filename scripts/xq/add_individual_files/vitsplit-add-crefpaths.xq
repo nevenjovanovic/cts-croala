@@ -1,6 +1,6 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace functx = "http://www.functx.com";
-declare variable $db := "ben_add";
+declare variable $db := "bart_add";
 declare function functx:path-to-node
   ( $nodes ) {
 $nodes/string-join(ancestor-or-self::*[@n]/name(.), "/tei:")

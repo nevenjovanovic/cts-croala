@@ -1,5 +1,5 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
-declare variable $db := "ben_add";
+declare variable $db := "bart_add";
 for $f in db:open($db)//tei:TEI[tei:teiHeader[not(*:encodingDesc)]]/tei:text//*
 let $n := $f/@n
 let $name := $f/name()

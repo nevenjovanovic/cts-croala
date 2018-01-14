@@ -37,7 +37,7 @@ declare function local:titemplate($workid, $label, $title){
 };
 
 
-let $path := "/home/neven/Repos/ctscroalapriv/bart_add/bart01"
+let $path := "/home/neven/Repos/ctscroalapriv/bart_add/bart01/"
 let $vitlist := file:list($path, xs:boolean('true'), '*-lat1.xml')
 
 for $v in $vitlist 

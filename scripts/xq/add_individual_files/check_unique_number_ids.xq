@@ -1,4 +1,5 @@
 (: check if a random number is unique in croala ids :)
+declare variable $textgroup := "bart01";
 let $list :=
 for $d in db:open("croala-cts-1")//*:TEI
 return xs:integer(
@@ -10,7 +11,7 @@ return xs:integer(
         '/'), 
         'croala')
         )
-for $n in 1 to 8
+for $n in 1 to 2
 let $random := random:integer(9999999)
 return if ($list=$random) then "Need a new number!"
-else "croala" || $random || ".croala-lat1"
+else $textgroup || ".croala" || $random || ".croala-lat1"
