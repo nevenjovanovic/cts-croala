@@ -1,0 +1,141 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ad Michaelem Peregrinum dicentem se in visione amicae felicem, versio
+               electronica</title>
+            <author ref="bart01">
+               <persName xml:lang="hr">Bartučević, Jeronim</persName>
+               <date>1500 - post 1557, ante 1560</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="22180722">Darko Novaković</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editionem electronicam praeparavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               Moderno znanstveno izdanje.
+               <date>2018-01-13</date>
+            </edition>
+         </editionStmt>
+         <extent ana="B">Mg:B 153 verborum, 22 versus</extent>
+         <publicationStmt>
+            <publisher>
+               <orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>
+            </publisher>
+            <pubPlace>
+               <placeName ref="3186886">Zagreb</placeName>
+            </pubPlace>
+            <date when-iso="2018-01">Siječnja 2018</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/" notBefore="2017-12-25">
+                  <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence applies to
+                     this document.</p>
+                  <p>The licence was added on January 13, 2018.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Darko Novaković, "Prvi pisani trag hvarskoga Atika: dvije nepoznate latinske elegije
+               Jeronima Bartučevića", U krilu vile latinke: Rasprave o hrvatskom humanizmu, Zagreb
+               2015. Latinski tekst prema Vat. lat. 5227, 191v.</p>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1560" precision="low" period="15xx_2_third">ante 1560</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - elegia</term>
+               <term>poesis - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               Prva XML verzija.
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+               <date>2018-01-13T19:08:32.786777700</date>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:bart01.croala3870928.croala-lat1:" xml:lang="lat" type="poesis-epistula">
+      <body n="body1">
+         <head n="head1">Ad Michaelem Peregrinum dicentem se in visione amicae felicem. Hieronymus Bertucius
+            Atticus.</head>
+         <l n="l1"> Sola tuae mentis, sic fers, Peregrine, voluptas</l>
+         <l n="l2"> Est faciem <orig n="orig1">Dominę</orig> posse videre <orig n="orig2">tuę</orig>.</l>
+         <l n="l3"> Lumina sidereas cernis superantia flammas</l>
+         <l n="l4"> Et roseo fusas usque colore genas.</l>
+         <l n="l5"> Et iactas frontem <orig n="orig1">Phoebęa</orig> luce nitentem,</l>
+         <l n="l6"> Oscula coraliis aemula purpureis,</l>
+         <l n="l7"> Et nigros crines laudas et eburnea colla,</l>
+         <l n="l8"> Brachia Caucasea candidiora nive.</l>
+         <l n="l9"> Quid si sub tenui latitantia veste videres?</l>
+         <l n="l10"> Quae summa traherent, ut puto, ab arce Iovem:</l>
+         <l n="l11"> Iunonem possent si iam tot furta latere,</l>
+         <l n="l12"> Hanc quoque, qua Danaen, falleret arte Deus.</l>
+         <l n="l13"> Felicem Veneris primam te reddere dicis</l>
+         <l n="l14"> Partem: dic nomen quod tibi quinta daret?</l>
+         <l n="l15"> Te dea divino gratum donaret honore:</l>
+         <l n="l16"> Moribus et forma hanc quis neget esse deam?</l>
+         <l n="l17"> Marte fores, summo nec non Iove <orig n="orig1">lętior</orig> ipso:</l>
+         <l n="l18"> Namque Venus Veneri cederet alma tuae.</l>
+         <l n="l19"> Tu tamen ipsius supplex fac numen adores,</l>
+         <l n="l20"> Aligerum precibus sollicitesque deum.</l>
+         <l n="l21"> Promittas aris flores et <orig n="orig1">thura</orig> 
+            <orig n="orig2">Sabęa</orig>
+         </l>
+         <l n="l22"> Vt compos voti sis, Peregrine, tui.</l>
+      </body>
+   </text>
+</TEI>
