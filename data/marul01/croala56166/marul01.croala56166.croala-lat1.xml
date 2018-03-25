@@ -50,17 +50,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -132,9 +124,9 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:marul01.croala56166.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" xml:id="C190" met="hexameter" type="poesis-epica-versio-fragmentum">
-            <head n="head1">190. Principium operis Dantis Aligerii de Fluentino sermone in Latinum conuersum</head>
+      <body xml:lang="lat">
+         <div xml:id="C190" met="hexameter" type="poesis-epica-versio-fragmentum">
+            <head n="head">190. Principium operis Dantis Aligerii de Fluentino sermone in Latinum conuersum</head>
             <l n="l1">Humanę spacium uitę concesserat ętas </l>
             <l n="l2">Iam medium tenerosque mihi subduxerat annos,</l>
             <l n="l3">Per loca quum tenebris obscura atque aspera siluis </l>
@@ -221,7 +213,7 @@
             <l n="l80">Hic aditus primus, cunctorum hic causa bonorum est.« </l>
       
             <l n="l81">
-               <q n="q1">»Tu ne Maro, tu ne ille Maro«</q> (sic dicere uatis </l>
+               <q n="q">»Tu ne Maro, tu ne ille Maro«</q> (sic dicere uatis </l>
             <l n="l82" part="I">Occursu attonitus coepi), »tu ne ille diserti </l>
             <l n="l83">Oris inexhaustus torrens? O gloria uatum, </l>
             <l n="l84">Prosit honos prositque tuę mihi cura Camenę, </l>

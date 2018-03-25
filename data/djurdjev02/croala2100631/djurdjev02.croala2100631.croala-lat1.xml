@@ -58,17 +58,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -138,12 +130,12 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:djurdjev02.croala2100631.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="poesis-epica" met="hexameter" xml:id="c026">
-                <head n="head1">XXVI. B. STANISLAI KOSTKAE OBITUS
+        <body xml:lang="lat">
+            <div type="poesis-epica" met="hexameter" xml:id="c026">
+                <head n="head">XXVI. B. STANISLAI KOSTKAE OBITUS
                     POEMA</head>
-                    <argument n="argument1">
-               <p n="p1">Mors pie a viris sanctissimis obita non modo praeteritam exactae aetatis
+                    <argument n="argument">
+               <p n="p">Mors pie a viris sanctissimis obita non modo praeteritam exactae aetatis
                         gloriam sancit, verum etiam peculiarem sibi laudem comparat egregiis
                         facinoribus in ipso sui articulo editis. Quae enim mens iam vicinae
                         felicitatis cognitione erecta et ab illo aeternitatis caelique confinio
@@ -188,7 +180,7 @@
              
                     <l n="l15">Dedidicitque repente hominem terrisque relictis </l>
              
-                    <milestone unit="page" n="milestone1"/>
+                    <milestone unit="page"/>
                     <l n="l16">Se dominae in gremium calcata morte recepit? </l>
              
                     <l n="l17">Illum hyemes patriae totoque Aquilone Bootes </l>
@@ -269,7 +261,7 @@
              
                     <l n="l55">Et recinet festos plaudentum pugna canores, </l>
              
-                    <milestone unit="page" n="milestone2"/>
+                    <milestone unit="page"/>
                     <l n="l56">Etherei pars esse fori, seu plausor ovantem </l>
              
                     <l n="l57">Sive sequi captivus heram, sperare quod optas </l>
@@ -350,7 +342,7 @@
              
                     <l n="l95">Tecum, Diva, preces potuit tentare secundas? </l>
              
-                    <milestone unit="page" n="milestone3"/>
+                    <milestone unit="page"/>
                     <l n="l96">Nemo iterat tecum, nisi qui, ne vota novaret, </l>
              
                     <l n="l97">Formidans meruit merito timuisse timendo. </l>
@@ -431,7 +423,7 @@
              
                     <l n="l135">Sum tuus, inclusum plenae genitricis in alvo </l>
              
-                    <milestone unit="page" n="milestone4"/>
+                    <milestone unit="page"/>
                     <l n="l136">Me tibi stigma rubens et sacrum nomen inussit. </l>
              
                     <l n="l137">Quin famulum repetis, quid lux me possidet ultra, </l>
@@ -512,7 +504,7 @@
              
                     <l n="l175">Affusus solio, mecum quicumque diei </l>
              
-                    <milestone unit="page" n="milestone5"/>
+                    <milestone unit="page"/>
                     <l n="l176">Vel frontem vel terga vident, tibi mundus uterque </l>
              
                     <l n="l177">Supplicat et mundo cum supplice Borgia poscit: </l>
@@ -593,7 +585,7 @@
              
                     <l n="l215">In volucres abitura rotas, iubar omne serenis </l>
              
-                    <milestone unit="page" n="milestone6"/>
+                    <milestone unit="page"/>
                     <l n="l216">Accendunt oculis atque ornant cuncta tuendo, </l>
              
                     <l n="l217">Cum cita Fama tulit, dominae quod fata iubenti </l>
@@ -674,7 +666,7 @@
              
                     <l n="l255">Cypridos auditis, hinc, formosissime, palles, </l>
              
-                    <milestone unit="page" n="milestone7"/>
+                    <milestone unit="page"/>
                     <l n="l256">Dum te, Kostka, pudet, quin et rubuisse timebas, </l>
              
                     <l n="l257">Nam Paphiae rubuere rosae. Mihi debita tantae est </l>
@@ -755,7 +747,7 @@
              
                     <l n="l295">Adventum testata Deae. Mox ipsa revolvit </l>
              
-                    <milestone unit="page" n="milestone8"/>
+                    <milestone unit="page"/>
                     <l n="l296">Scissa e nube pedes et quod praeluserat iili </l>
              
                     <l n="l297">Estinxit fictum maior praesentia caelum. </l>
@@ -836,7 +828,7 @@
              
                     <l n="l335">Haud secus obiecto formosi Hiperionis igne </l>
              
-                    <milestone unit="page" n="milestone9"/>
+                    <milestone unit="page"/>
                     <l n="l336">Uritur Iris amans, postquam difusa per auras </l>
              
                     <l n="l337">Versicolorato praecinxit nubila gyro, </l>

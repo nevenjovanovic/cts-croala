@@ -34,14 +34,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -99,10 +94,10 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:alb02.croala1409684.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
+        <body xml:lang="lat">
             
-                <div n="div1" type="epigramma" xml:id="nicalb-c03">
-                    <head n="head1">14  Nicolaus Albertus ad lectorem</head>
+                <div type="epigramma" xml:id="nicalb-c03">
+                    <head n="head">14  Nicolaus Albertus ad lectorem</head>
                     <l n="l1">Qui Maruli formam, patriam, dictamina, mores,</l>
                     <l n="l2">    Et tanti qui uult noscere facta uiri,</l>
                     <l n="l3">Quis genitor genitrixque sibi, quibus aeditus annis,</l>

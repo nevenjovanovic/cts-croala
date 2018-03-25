@@ -51,20 +51,9 @@
                 </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -148,16 +137,16 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:bol01.croala408190.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-            <div n="div1" type="poesis-epica">
-                    <head n="head1"> DESCRIPTIO
-         SINUS ET URBIS ASCRIVIENSIS.<note n="note1" place="foot">1) Urbs Ascriviensis = id est Ascrivium recte Acruvium, sive Catharus</note>
+      <body xml:lang="lat">
+            <div type="poesis-epica">
+                    <head n="head"> DESCRIPTIO
+         SINUS ET URBIS ASCRIVIENSIS.<note n="note" place="foot">1) Urbs Ascriviensis = id est Ascrivium recte Acruvium, sive Catharus</note>
             </head> 
 
-            <byline n="byline1">Per <abbr n="abbr1">D.</abbr> Ioannem Bonam de Boliris nobilem Catharensem ad Heliam Zagurium <corr n="corr1">concivem</corr> suum.</byline> 
+            <byline n="byline">Per <abbr n="abbr">D.</abbr> Ioannem Bonam de Boliris nobilem Catharensem ad Heliam Zagurium <corr n="corr">concivem</corr> suum.</byline> 
             <!-- invocatio -->
             <l n="l1">Ascraei quae sacra senis, quae flumina, quaeque, </l>
-            <l n="l2">Vermanos  <note n="note1" place="foot">2) Vermanus, mons = <abbr n="abbr1">ital.</abbr> 
+            <l n="l2">Vermanos  <note n="note" place="foot">2) Vermanus, mons = <abbr n="abbr1">ital.</abbr> 
                   <foreign n="foreign1" xml:lang="ita">Vermano</foreign>, <abbr n="abbr2">sl.</abbr> 
                   <foreign n="foreign2" xml:lang="hrv">Vrmac</foreign>; mons altissimus contra Catharum</note> colitis saltus, vallesque reductas, </l>
             <l n="l3">Illyrides Musae, liceat mihi munere vestro </l>
@@ -167,7 +156,7 @@
             <l n="l7">Aemula flaminibus, mox excipit Adria vastus. </l>
             <l n="l8">Fas mihi vos duxisse Deae per saxa, per ipsos </l>
             <l n="l9">Anfractus, rupesque cauas, perque horrida tesqua </l>
-            <l n="l10">Lefteni  <note n="note1" place="foot">3) Leftenus, <abbr n="abbr1">ital.</abbr> "<foreign n="foreign1" xml:lang="ita">monte sella</foreign>", <abbr n="abbr2">sl.</abbr> 
+            <l n="l10">Lefteni  <note n="note" place="foot">3) Leftenus, <abbr n="abbr1">ital.</abbr> "<foreign n="foreign1" xml:lang="ita">monte sella</foreign>", <abbr n="abbr2">sl.</abbr> 
                   <foreign n="foreign2" xml:lang="hrv">Lovcen</foreign>, prope Catharum</note> montis, niuibusque cacumina cana, </l>
             <l n="l11">Inuia quae audaci cupio tentare iuuenta.</l>
             <!-- ad Zagurium -->
@@ -181,78 +170,78 @@
             <l n="l18">Est in secessu longo sinus, Adria qua se </l>
             <l n="l19">Vertit ad Eoos fluctus, ac littora radit </l>
             <l n="l20">Illyridos, longe ante alios, pulcherrimus omnes, </l>
-            <l n="l21">Rizonicum  <note n="note1" place="foot">4) Sinus Rizonicus = <abbr n="abbr1">ital.</abbr> 
-                  <foreign n="foreign1" xml:lang="ita">Bocche di Cattaro</foreign>
+            <l n="l21">Rizonicum  <note n="note" place="foot">4) Sinus Rizonicus = <abbr n="abbr">ital.</abbr> 
+                  <foreign n="foreign" xml:lang="ita">Bocche di Cattaro</foreign>
                </note> appellant: hic primo in limine, et ipsis</l>
-            <milestone unit="page" n="milestone1"/>
+            <milestone unit="page"/>
             <!-- urbs Castri Novi -->
             <l n="l22">Faucibus ad laeuam attollunt se protinus vrbis </l>
-            <l n="l23">Moenia  <note n="note1" place="foot">5) Oppid. Castri novi, vulgo <foreign n="foreign1" xml:lang="ita">Castelnuovo</foreign>.</note>, quae quondam fatis Herzegus  <note n="note2" place="foot">6) Herzegus <abbr n="abbr1">i. e.</abbr> Stephanus Cosaccia, dux Sancti Sabae.</note> iniquis </l>
+            <l n="l23">Moenia  <note n="note1" place="foot">5) Oppid. Castri novi, vulgo <foreign n="foreign" xml:lang="ita">Castelnuovo</foreign>.</note>, quae quondam fatis Herzegus  <note n="note2" place="foot">6) Herzegus <abbr n="abbr">i. e.</abbr> Stephanus Cosaccia, dux Sancti Sabae.</note> iniquis </l>
             <l n="l24">Condidit, atque nouum dixit cognomine castrum. </l>
             <!-- urbs debellata saepe -->
             <l n="l25">Proh, quantas, vrbs illa, acies, quae praelia vidit, </l>
             <l n="l26">Quas olim Illyrij hic Turcis, quas Turca vicissim </l>
             <l n="l27">Illyriis strages dedit, Hispanaeque cohorti! </l>
             <l n="l28">Vel cum Xerzegum propriis Mahumetus ab oris </l>
-            <l n="l29">Expulit hinc, longo vel cum post tempore  <note n="note1" place="foot">7) <abbr n="abbr1">a. d.</abbr> 1538.</note> Turcam </l>
+            <l n="l29">Expulit hinc, longo vel cum post tempore  <note n="note" place="foot">7) <abbr n="abbr">a. d.</abbr> 1538.</note> Turcam </l>
             <l n="l30">Clauigeri arma patris, Caesar, Venetique fugarunt. </l>
-            <l n="l31">Aut mox Hispanas dum Barbarussa  <note n="note1" place="foot">8) Ariadenus aenobardus recte Hair-Eddin Barbarossa, summus <sic n="sic1">turicae</sic> classis imperator <abbr n="abbr1">a.</abbr> 1539.</note> phalanges </l>
+            <l n="l31">Aut mox Hispanas dum Barbarussa  <note n="note" place="foot">8) Ariadenus aenobardus recte Hair-Eddin Barbarossa, summus <sic n="sic">turicae</sic> classis imperator <abbr n="abbr">a.</abbr> 1539.</note> phalanges </l>
             <l n="l32">Ejicit, atque vrbi vexilla Othomanna reponit. </l>
             <!-- descriptio sinus continuatur -->
             <l n="l33">Hinc longo haud tractu, recto tamen ordine opaci </l>
-            <l n="l34">Assurgunt montes, arrident pascua laeta,  <note n="note1" place="foot">ad <abbr n="abbr1">s.</abbr> Petrum in albis, vulgo la Bianca (<abbr n="abbr2">sl.</abbr> Bijela).</note> 
+            <l n="l34">Assurgunt montes, arrident pascua laeta,  <note n="note" place="foot">ad <abbr n="abbr1">s.</abbr> Petrum in albis, vulgo la Bianca (<abbr n="abbr2">sl.</abbr> Bijela).</note> 
             </l>
             <l n="l35">Pascua turcaici quae vomer scindit aratri, </l>
             <l n="l36">Teque petunt latis, praepinguis Maesia, campis, </l>
             <l n="l37">Donec in obliquum mox se, vallemque reducunt. </l>
             <l n="l38">Qua nimium saevis Boreas circumstrepit armis. </l>
             <!-- flumen Rizon -->
-            <l n="l39">Hic flumen Rizon, fluuii quoque nomine dicta  <note n="note1" place="foot">10) Cfr. Pollyb.</note> 
+            <l n="l39">Hic flumen Rizon, fluuii quoque nomine dicta  <note n="note" place="foot">10) Cfr. Pollyb.</note> 
             </l>
-            <l n="l40">Nunc arx,  <note n="note1" place="foot">11) Cfr. Strabo, Ptolom. Plin. <abbr n="abbr1">etc.</abbr>
+            <l n="l40">Nunc arx,  <note n="note" place="foot">11) Cfr. Strabo, Ptolom. Plin. <abbr n="abbr">etc.</abbr>
                </note> sed magnae quae vrbis vestigia seruat, </l>
             <l n="l41">Vnde sinum nostri quondam dixere priores; </l>
             <!-- Teuta et Agron -->
-            <l n="l42">Theutae  <note n="note1" place="foot">12) Theuta regina Illyridum.</note> olim sedes, postquam fata impia tandem </l>
-            <l n="l43">Agronem  <note n="note1" place="foot">12) Rex Illyrici, conjux Theutae.</note> rapuere suum, fortunaque cessit. </l>
+            <l n="l42">Theutae  <note n="note" place="foot">12) Theuta regina Illyridum.</note> olim sedes, postquam fata impia tandem </l>
+            <l n="l43">Agronem  <note n="note" place="foot">12) Rex Illyrici, conjux Theutae.</note> rapuere suum, fortunaque cessit. </l>
             <!-- scopuli -->
             <l n="l44">Ast tractu maris in medio mox vnus, et alter </l>
-            <l n="l45">Erigitur scopulus, Virgo hunc,  <note n="note1" place="foot">13) Scopulus, in quo aedes <abbr n="abbr1">B. M. V.</abbr> de Scopello, vulgo "<foreign n="foreign1" xml:lang="ita">de Scarpello</foreign>" nuncupatae.</note> et Mater : at illum </l>
-            <l n="l46">Vectus  <note n="note1" place="foot">14) Scopulus in quo aedes <abbr n="abbr1">S.</abbr> Georgii, ubi olim et Monasterium <abbr n="abbr2">S.</abbr> Benedicti.</note> equo valida tutatur belliger hasta. </l>
-            <milestone unit="page" n="milestone2"/>
+            <l n="l45">Erigitur scopulus, Virgo hunc,  <note n="note" place="foot">13) Scopulus, in quo aedes <abbr n="abbr">B. M. V.</abbr> de Scopello, vulgo "<foreign n="foreign" xml:lang="ita">de Scarpello</foreign>" nuncupatae.</note> et Mater : at illum </l>
+            <l n="l46">Vectus  <note n="note" place="foot">14) Scopulus in quo aedes <abbr n="abbr1">S.</abbr> Georgii, ubi olim et Monasterium <abbr n="abbr2">S.</abbr> Benedicti.</note> equo valida tutatur belliger hasta. </l>
+            <milestone unit="page"/>
             <!-- comparatio -->
             <l n="l47">Ac veluti Aonii nuper per cerula olores </l>
             <l n="l48">Maeandri seu forte vadis, seu forte Caystri </l>
             <l n="l49">Se attollunt, summaque apparent eminus vnda. </l>
             <!-- Perastes -->
-            <l n="l50">Hos recte contra Perastes  <note n="note1" place="foot">15) Vulgo Perasto ad radices montis vulgo dicti "Monte Cavallo", et "Monte Cassone".</note> nautica surgit, </l>
+            <l n="l50">Hos recte contra Perastes  <note n="note" place="foot">15) Vulgo Perasto ad radices montis vulgo dicti "Monte Cavallo", et "Monte Cassone".</note> nautica surgit, </l>
             <l n="l51">Quae sibi radices montis, montanaque saxa </l>
-            <l n="l52">Delegit, posuitque suas in littore <sic n="sic1">saedes</sic>. </l>
+            <l n="l52">Delegit, posuitque suas in littore <sic n="sic">saedes</sic>. </l>
             <l n="l53">Huic mox ad Boream Rizon spectatur, ad Eurum </l>
-            <l n="l54">Excelsi montis, donec <sic n="sic1">iugantur amaenis</sic> 
+            <l n="l54">Excelsi montis, donec <sic n="sic">iugantur amaenis</sic> 
             </l>
-            <l n="l55">Dulcidiae  <note n="note1" place="foot">16) Nunc Ljuta, recte ad <abbr n="abbr1">S.</abbr> Petrum.</note> campis, Bonninaque  <note n="note2" place="foot">17) Bona <abbr n="abbr1">i. d.</abbr> Possessiones, <abbr n="abbr2">sl.</abbr> Dobrota Catharinorum.</note> iugera tangant. </l>
+            <l n="l55">Dulcidiae  <note n="note1" place="foot">16) Nunc Ljuta, recte ad <abbr n="abbr">S.</abbr> Petrum.</note> campis, Bonninaque  <note n="note2" place="foot">17) Bona <abbr n="abbr1">i. d.</abbr> Possessiones, <abbr n="abbr2">sl.</abbr> Dobrota Catharinorum.</note> iugera tangant. </l>
 
             <l n="l56">Hic tractus laeui lateris, sunt haec loca portus, </l>
             <l n="l57">Mons dextra Lustiza sedens lapidosus, et asper </l>
-            <l n="l58">Vergit ad Auroram ductus longo  <note n="note1" place="foot">18) Ljesevic.</note> ordine fratrum, </l>
+            <l n="l58">Vergit ad Auroram ductus longo  <note n="note" place="foot">18) Ljesevic.</note> ordine fratrum, </l>
             <l n="l59">Qui mox continui procero vertice surgunt </l>
             <l n="l60">Vsque ad celsa iugis vmbrosa cacumina; quae quod </l>
             <l n="l61">Fulmine iam toties arsere Ceraunia dicunt. </l>
             <l n="l62">Sed tamen hunc vallis curuata intersecat, atque </l>
-            <l n="l63">Planities Augusta loci,  <note n="note1" place="foot">19) vulgo "Pianura di Cattaro".</note> campique patentes, </l>
-            <l n="l64">Queis elata procul respondet Zuppa  <note n="note1" place="foot">20) vulgo "Carbalia" antiq. comitatus "de Gripulis" &#x97; <abbr n="abbr1">sl.</abbr> Grbalj.</note> rebellis </l>
+            <l n="l63">Planities Augusta loci,  <note n="note" place="foot">19) vulgo "Pianura di Cattaro".</note> campique patentes, </l>
+            <l n="l64">Queis elata procul respondet Zuppa  <note n="note" place="foot">20) vulgo "Carbalia" antiq. comitatus "de Gripulis" &#x97; <abbr n="abbr">sl.</abbr> Grbalj.</note> rebellis </l>
             <l n="l65">Eoum ad solem: namque Austri ex parte resedit </l>
             <l n="l66">Vermanus, medioque sinu se maximus offert </l>
             <l n="l67">Lauricomus mons Vermanus, qui tramite recto </l>
             <l n="l68">Ad laevi lateris montes procurrit, et arctum </l>
-            <l n="l69">Vix aditum nautis,  <note n="note1" place="foot">21) Stretto delle Catene.</note> pontoque relinquit aperto. </l>
+            <l n="l69">Vix aditum nautis,  <note n="note" place="foot">21) Stretto delle Catene.</note> pontoque relinquit aperto. </l>
             <l n="l70">Continuo ad zefiros contra est Lustiza supinus, </l>
             <l n="l71">Scilicet et mediis se se erigit aequoris vndis </l>
-            <l n="l72">Saedes Lignipedum  <note n="note1" place="foot">22) Scopulum in quo aedes <abbr n="abbr1">B. M. V.</abbr> et Coenobium olim <abbr n="abbr2">S.</abbr> Benedicti, dein <abbr n="abbr3">Canonicor. Caelest.</abbr>, postea <abbr n="abbr4">O. M. S. Francisci</abbr> &#x97; recte "<foreign n="foreign1" xml:lang="ita">Madonna degli Stradioti</foreign>".</note> longe acceptissima patrum; </l>
-            <l n="l73">Quam iuxta placido diues salit insula ponto  <note n="note1" place="foot">23) Insula <abbr n="abbr1">S.</abbr> Gabrielis <abbr n="abbr2">it.</abbr> "<foreign n="foreign1" xml:lang="ita">dell' Arcangelo</foreign>", "<foreign n="foreign2" xml:lang="ita">degli Stradioti</foreign>".</note> 
+            <l n="l72">Saedes Lignipedum  <note n="note" place="foot">22) Scopulum in quo aedes <abbr n="abbr1">B. M. V.</abbr> et Coenobium olim <abbr n="abbr2">S.</abbr> Benedicti, dein <abbr n="abbr3">Canonicor. Caelest.</abbr>, postea <abbr n="abbr4">O. M. S. Francisci</abbr> &#x97; recte "<foreign n="foreign" xml:lang="ita">Madonna degli Stradioti</foreign>".</note> longe acceptissima patrum; </l>
+            <l n="l73">Quam iuxta placido diues salit insula ponto  <note n="note" place="foot">23) Insula <abbr n="abbr1">S.</abbr> Gabrielis <abbr n="abbr2">it.</abbr> "<foreign n="foreign1" xml:lang="ita">dell' Arcangelo</foreign>", "<foreign n="foreign2" xml:lang="ita">degli Stradioti</foreign>".</note> 
             </l>
-            <milestone unit="page" n="milestone3"/>
+            <milestone unit="page"/>
             <l n="l74">Hic vbi turma equitum vigilat custodia pernox,</l>
             <l n="l75">Et late aduerso campos tutatur ab hoste. </l>
             <!-- ad Ascriuium -->
@@ -276,7 +265,7 @@
             <l n="l92">Nulla obex restat, quin moenia scilicet vrbis </l>
             <l n="l93">Tota videre queas, turresque, ac tecta domorum. </l>
             <!-- naues Turcicae inuadunt -->
-            <l n="l94">Hinc quoque tercentumque  <note n="note1" place="foot">24) Anno 1539.</note> rates, numerosaque gentis </l>
+            <l n="l94">Hinc quoque tercentumque  <note n="note" place="foot">24) Anno 1539.</note> rates, numerosaque gentis </l>
             <l n="l95">Agminaque Turcaicae quondam furor impius egit </l>
             <l n="l96">Nostra in damna, Noui post diruta moenia Castri </l>
             <l n="l97">Namque vltra, nec ferre pedem, nec scindere remis</l>
@@ -291,15 +280,15 @@
             <l n="l104">Teque, tuamque ratem, longe timor omnis abesto </l>
             <l n="l105">Si conferre manum, pugnaeque insistere mens est. </l>
             <!-- templa laeua et dextra -->
-            <l n="l106">Ergo huc prouecto laeua est Theloneus, et mox  <note n="note1" place="foot">25) Aedes <abbr n="abbr1">S.</abbr> Matthaei de Dobrota.</note> 
+            <l n="l106">Ergo huc prouecto laeua est Theloneus, et mox  <note n="note" place="foot">25) Aedes <abbr n="abbr">S.</abbr> Matthaei de Dobrota.</note> 
             </l>
-            <l n="l107">Helias ignifero raptus super aethera curru,  <note n="note1" place="foot">26) Aedes <abbr n="abbr1">S.</abbr> Heliae proph.</note>
+            <l n="l107">Helias ignifero raptus super aethera curru,  <note n="note" place="foot">26) Aedes <abbr n="abbr">S.</abbr> Heliae proph.</note>
             </l>
-            <milestone unit="page" n="milestone4"/>
+            <milestone unit="page"/>
             <l n="l108">Porrecta qui in rupe sedens, ponto imminet arcto.</l>
 
             <!-- agri laus Vergiliana -->
-            <l n="l109">At quonam Lustiza  <note n="note1" place="foot">27) Agri Catharenis laus, faecunditas, amoenitas.</note> tuas, quo carmine dicam,</l>
+            <l n="l109">At quonam Lustiza  <note n="note" place="foot">27) Agri Catharenis laus, faecunditas, amoenitas.</note> tuas, quo carmine dicam,</l>
             <l n="l110">Siluasque, saltusque et pinguia gramina, campos? </l>
             <l n="l111">Quoue tuas Vermane modo, quoue, Orpine, laudes</l>
             <l n="l112">Aut dabitur, tot prata simul, tot pascua, totque</l>
@@ -308,7 +297,7 @@
             <l n="l115">Fertilis hic frugum Cereri gratissima tellus, </l>
             <l n="l116">Arbor et omnigena, hic longum depascitur agmen</l>
             <l n="l117">Quadrupedum genus omne; hic pisces coerula complent,</l>
-            <l n="l118">Tot pagi, villaeque habitant, pars <sic n="sic1">littota</sic> circum</l>
+            <l n="l118">Tot pagi, villaeque habitant, pars <sic n="sic">littota</sic> circum</l>
             <l n="l119">Radices montis circum pars altera, pars et</l>
             <l n="l120">Summa tenet, petit haec syluas, immensaque lustra. </l>
 
@@ -316,7 +305,7 @@
             <l n="l121">Sed iam me portus, turres, et moenia, et vrbis </l>
             <l n="l122">Tecta vocant, vocat ipse suo mons vertice celsus </l>
             <l n="l123">Leftenus, rupesque cauae, praeruptaque tesqua </l>
-            <l n="l124">Pestigradi montis,  <note n="note1" place="foot">28) Peštingrad mons.</note> qui proximus assidet vrbi. </l>
+            <l n="l124">Pestigradi montis,  <note n="note" place="foot">28) Peštingrad mons.</note> qui proximus assidet vrbi. </l>
             <!-- Musarum inuocatio -->
             <l n="l125">Quare, agite, o mihi grata cohors, mea numina Musae </l>
             <l n="l126">Vos me per iuga celsa, et inhospita montis euntem </l>
@@ -326,26 +315,26 @@
             <!-- urbs, mons, portus -->
             <l n="l129">Ac primum, montis iacet in radicibus imis</l>
             <l n="l130">Vrbs conclusa mari, mons est sine nomine, at ipsa </l>
-            <l n="l131">Ascriuium dicta est. Arx celsa  <note n="note1" place="foot">29) vulgo "Il Castello di <abbr n="abbr1">S.</abbr> Giovanni".</note> in vertice montis </l>
+            <l n="l131">Ascriuium dicta est. Arx celsa  <note n="note" place="foot">29) vulgo "Il Castello di <abbr n="abbr">S.</abbr> Giovanni".</note> in vertice montis </l>
             <l n="l132">Assurgit, montemque suum sua moenia cingunt. </l>
             <l n="l133">Area lata patens ante urbem montis opaci </l>
             <l n="l134">Obiectu curuo portum efficit, hic furor omnis, </l>
             <l n="l135">Ventorumque silent flatus, placida aequora nullam </l>
             <l n="l136">Admittunt rabiem, tutaque in sede quiescunt. </l>
             <!-- rura suburbana -->
-            <l n="l137">Rura suburbana hinc, atque hinc. Haec Tirsiger <sic n="sic1">Euam</sic>, </l>
+            <l n="l137">Rura suburbana hinc, atque hinc. Haec Tirsiger <sic n="sic">Euam</sic>, </l>
             <l n="l138">Haec Pomona tamen sibi vendicat, ordine longo. </l>
-            <l n="l139">Mox gemini montes procero vertice <corr n="corr1">lambunt</corr> 
+            <l n="l139">Mox gemini montes procero vertice <corr n="corr">lambunt</corr> 
             </l>
             <!-- montium comparatio -->
             <l n="l140">Sydera, Leftenus laeuum latus occupat vrbis, </l>
             <l n="l141">Pestigradus dextrum, non illis altior Ossa,</l>
-            <milestone unit="page" n="milestone5"/>
+            <milestone unit="page"/>
             <l n="l142">Aut Rhodope, aut celsi iuga verticis Appennini.</l>
 
             <!-- antrum in medio; cacumen -->
             <l n="l143">Lefteni in medio antrum ingens, vastaeque cauernae, </l>
-            <l n="l144">Vndique praeruptus vertex, sublime cacumen <note n="note1" place="foot">30) Vulgo "&#x8E;iljev kamen".</note>
+            <l n="l144">Vndique praeruptus vertex, sublime cacumen <note n="note" place="foot">30) Vulgo "&#x8E;iljev kamen".</note>
             </l>
             <l n="l145">Occupat, vnde sedens partes speculatur in omnes, </l>
             <l n="l146">Scilicet, hinc Corciram, illincque Ceraunia saxa, </l>
@@ -364,14 +353,14 @@
             <l n="l157">Lephteni, hoc longe frondosior, et mage multo </l>
             <l n="l158">Fertilior, lateque suis se frondibus ornans. </l>
             <!-- templum et monasterium Franciscanorum -->
-            <l n="l159">Lignipedes hic tecta patres in margine ripae  <note n="note1" place="foot">31) Templum <abbr n="abbr1">S.</abbr> Bernardini et Coenobium Fratrum Ord. <abbr n="abbr2">S.</abbr> Francisci.</note>
+            <l n="l159">Lignipedes hic tecta patres in margine ripae  <note n="note" place="foot">31) Templum <abbr n="abbr1">S.</abbr> Bernardini et Coenobium Fratrum Ord. <abbr n="abbr2">S.</abbr> Francisci.</note>
             </l>
             <l n="l160">Atque aedem statuunt, vbi diuae Virginis ara </l>
             <l n="l161">Erigitur, celsusque tholus, venerandaque templi </l>
             <l n="l162">Maiestas, nouum opus, pario de marmore surgit. </l>
             <!-- fons -->
             <l n="l163">Hic dulces voluens latices et arundine, et aluo </l>
-            <l n="l164">Frondenti caput incinctus fons Pucius exit,  <note n="note1" place="foot">32) Vulgo "Il Pozzo", recte "Ad Puteos". <abbr n="abbr1">Sl.</abbr> Puc.</note> 
+            <l n="l164">Frondenti caput incinctus fons Pucius exit,  <note n="note" place="foot">32) Vulgo "Il Pozzo", recte "Ad Puteos". <abbr n="abbr">Sl.</abbr> Puc.</note> 
             </l>
             <l n="l165">Vnde haustum e tota semper concurritur vrbe, </l>
             <!-- comparatio puellarum cum formicis -->
@@ -380,28 +369,28 @@
             <l n="l168">Discurrunt dum forte hyemi noua grana recondunt, </l>
             <l n="l169">Hae veniunt, redeunt, illae, et sub pondere gaudent. </l>
             <!-- OFM -->
-            <l n="l170">Seraphici hinc coetus diui pia <sic n="sic1">tuba</sic> Minores </l>
+            <l n="l170">Seraphici hinc coetus diui pia <sic n="sic">tuba</sic> Minores </l>
             <l n="l171">Diruta tecta parant ipsis sub moenibus urbis </l>
-            <l n="l172">Erigere, atque suas iterato hic ponere sedes.  <note n="note1" place="foot">33) Templum <abbr n="abbr1">S.</abbr> Francisci et Coenobium Fratr. eiusdem Ordinis.</note> 
+            <l n="l172">Erigere, atque suas iterato hic ponere sedes.  <note n="note" place="foot">33) Templum <abbr n="abbr">S.</abbr> Francisci et Coenobium Fratr. eiusdem Ordinis.</note> 
             </l>
             <!-- bellorum molestiae -->
             <l n="l173">Heu qua parte ferox nobis belli impetus olim </l>
-            <milestone unit="page" n="milestone6"/>
+            <milestone unit="page"/>
             <l n="l174">Non saeuit, bellique furor, dextra, atque sinistra </l>
             <l n="l175">Templa iacent prostrata Deum, plantaribus horti </l>
-            <l n="l176">Excisi, domus ante vrbem non vlla relicta est.  <note n="note1" place="foot">34) Ad securitatem urbis suburbana aedificia diruta.</note> 
+            <l n="l176">Excisi, domus ante vrbem non vlla relicta est.  <note n="note" place="foot">34) Ad securitatem urbis suburbana aedificia diruta.</note> 
             </l>
 
             <!-- urbs ipsa -->
             <l n="l177">Forma triquetra vrbis sulco concluditur arcto, </l>
-            <l n="l178">Qua Boream spectat, sulcum amnis Scordus  <note n="note1" place="foot">35) Lo Scurda &#x97; (fiumera).</note> inundat </l>
+            <l n="l178">Qua Boream spectat, sulcum amnis Scordus  <note n="note" place="foot">35) Lo Scurda &#x97; (fiumera).</note> inundat </l>
             <l n="l179">Hic vbi vel pelles Sycionis vincit aluta; </l>
             <!-- turres -->
             <l n="l180">Tot pariter turres, tot propugnacula belli </l>
-            <l n="l181">Tuta sedent, molisque nouae noua moenia surgunt.  <note n="note1" place="foot">36) Il bastion Bembo.</note> 
+            <l n="l181">Tuta sedent, molisque nouae noua moenia surgunt.  <note n="note" place="foot">36) Il bastion Bembo.</note> 
             </l>
             <!-- Gurdi laus -->
-            <l n="l182">Ast Eurum versus Gurdus perlabitur  <note n="note1" place="foot">37) Amnis Gurtus, ad Gurgitem, De Gurto, Gordichio.</note> amnis, </l>
+            <l n="l182">Ast Eurum versus Gurdus perlabitur  <note n="note" place="foot">37) Amnis Gurtus, ad Gurgitem, De Gurto, Gordichio.</note> amnis, </l>
             <l n="l183">Lefteno qui e monte vagus procurrit in aequor, </l>
             <l n="l184">Gurdus amor Nympharum, et Doridos vltima cura, </l>
             <l n="l185">Nereidum quo saepe chorus leuis, vdaque crines </l>
@@ -409,9 +398,9 @@
 
             <!-- moenia, porta, portus -->
             <l n="l187">Moenia celsa vrbis turres celsae vndique cingunt, </l>
-            <l n="l188">Porta ingens  <note n="note1" place="foot">38) Porta della Marina.</note> aperit portum, ripamque recludit </l>
+            <l n="l188">Porta ingens  <note n="note" place="foot">38) Porta della Marina.</note> aperit portum, ripamque recludit </l>
             <l n="l189">
-               <sic n="sic1">Aquoream</sic>, strata haec spatioso limite serpit. </l>
+               <sic n="sic">Aquoream</sic>, strata haec spatioso limite serpit. </l>
             <l n="l190">Hic centum quandoque rates, longo ordine cernas, </l>
             <l n="l191">Hae varias merces, longinquo ex orbe reportant, </l>
             <l n="l192">Hae dulces Bacchi latices, hae denique aceruos </l>
@@ -424,18 +413,18 @@
             <l n="l198">Causidicum dum forte hic clamat, et ille reclamat. </l>
 
             <!-- ingresso area panditur; praetorium, curia, horologium -->
-            <l n="l199">Hinc vrbem ingresso mox area panditur <sic n="sic1">inges</sic> 
+            <l n="l199">Hinc vrbem ingresso mox area panditur <sic n="sic">inges</sic> 
             </l>
             <l n="l200">Custodes aditum seruant; in fronte renident </l>
-            <l n="l201">Aurea Praetoris palatia;  <note n="note1" place="foot">39) Praetorium, aliaeque publicae aedes.</note> Curia dexteram </l>
+            <l n="l201">Aurea Praetoris palatia;  <note n="note" place="foot">39) Praetorium, aliaeque publicae aedes.</note> Curia dexteram </l>
             <l n="l202">Degrauat, ast laeuam Quaestoris regia partem. </l>
             <l n="l203">Hic et militibus Praefecti moenibus vrbis </l>
             <l n="l204">Stat subnixa domus, surgunt ambita vetustis </l>
-            <milestone unit="page" n="milestone7"/>
+            <milestone unit="page"/>
             <!-- epigrammatice -->
-            <l n="l205">Atria porticibus; strepit hic  <note n="note1" place="foot">40) Turris horaria vulgo "La Torre dell'orologio".</note> qui rebus agendis </l>
+            <l n="l205">Atria porticibus; strepit hic  <note n="note" place="foot">40) Turris horaria vulgo "La Torre dell'orologio".</note> qui rebus agendis </l>
             <l n="l206">
-               <sic n="sic1">Tempera</sic> praescribens, noctis quoque diuidit horas, </l>
+               <sic n="sic">Tempera</sic> praescribens, noctis quoque diuidit horas, </l>
             <l n="l207">Inclamatque procul, procul atque auditur, at ipse </l>
             <l n="l208">Se ipsum audire nequit, nec quicquam sentit, vbi se </l>
             <l n="l209">Conficiat toties repetito vulneris ictu. </l>
@@ -447,21 +436,21 @@
             <!-- templa tantum -->
             <l n="l213">Sat mihi sit, si tecta Patrum, si templa Deorum </l>
             <l n="l214">Complectar. Quis namque breui queat omnia versu </l>
-            <l n="l215">Dicere? Perge igitur: prima est Alpheia proles,  <note n="note1" place="foot">41) Templum SS. Philippi et Jacobi, Ap., vulgo "San Giacomo de Loggia".</note> 
+            <l n="l215">Dicere? Perge igitur: prima est Alpheia proles,  <note n="note" place="foot">41) Templum SS. Philippi et Jacobi, Ap., vulgo "San Giacomo de Loggia".</note> 
             </l>
             <l n="l216">Obiiciat quae templa tibi; si tendere pergis </l>
-            <l n="l217">Ad Diui patrii plateam, Patareius heros,  <note n="note1" place="foot">42) San Nicolo dei Marineri sive "Della Marinezza".</note> 
+            <l n="l217">Ad Diui patrii plateam, Patareius heros,  <note n="note" place="foot">42) San Nicolo dei Marineri sive "Della Marinezza".</note> 
             </l>
             <l n="l218">Sidus grande maris, propior sibi vendicat aram. </l>
-            <l n="l219">Hunc prope virgo sedet,  <note n="note1" place="foot">43) Sant' Agata.</note> sparsis post terga capillis </l>
+            <l n="l219">Hunc prope virgo sedet,  <note n="note" place="foot">43) Sant' Agata.</note> sparsis post terga capillis </l>
             <l n="l220">Distractasque manus tibi, distractasque papillas </l>
             <l n="l221">Ostentat, templique sui penetrale recludit. </l>
             <l n="l222">Protinus hinc fora lata patent, tecta ardua circum </l>
             <l n="l223">Vndique conspicias, primoque occurrit ibi ingens </l>
-            <l n="l224">Maiestas templi phrygio sacrata Tryphoni.  <note n="note1" place="foot">44) Eccl. Cathedr. <abbr n="abbr1">S.</abbr> Tryphonis.</note> 
+            <l n="l224">Maiestas templi phrygio sacrata Tryphoni.  <note n="note" place="foot">44) Eccl. Cathedr. <abbr n="abbr">S.</abbr> Tryphonis.</note> 
             </l>
             <!-- loggia pubblica -->
-            <l n="l225">Porticus  <note n="note1" place="foot">45) Vulgo "Loggia pubblica".</note> erigitur dextra suffulta columnis </l>
+            <l n="l225">Porticus  <note n="note" place="foot">45) Vulgo "Loggia pubblica".</note> erigitur dextra suffulta columnis </l>
             <l n="l226">Marmoreis vbi saepe senes spatiantur anheli, </l>
             <l n="l227">Conueniuntque Patres, tumque hic, seu publica tractant, </l>
             <l n="l228">Siue sedent celsa ad subsellia, iuraque reddunt </l>
@@ -471,13 +460,13 @@
             <l n="l231">Vrbs fuit haec, durum non vnquam pertulit olim </l>
             <l n="l232">Seruitium: nunc compositis laeto ordine rebus </l>
             <!-- Venetis addicti -->
-            <l n="l233">Sponte sua,  <note n="note1" place="foot">46) Id contigit anno 1420.</note> non vi, non bello victa, nec armis, </l>
+            <l n="l233">Sponte sua,  <note n="note" place="foot">46) Id contigit anno 1420.</note> non vi, non bello victa, nec armis, </l>
             <l n="l234">Sub curam aligeri fouet otia grata Leonis. </l>
 
-            <milestone unit="page" n="milestone8"/>
+            <milestone unit="page"/>
         
             <!-- columna cum vexillo Veneto -->
-            <l n="l235">Inde hic in medio plateae stat celsa columna  <note n="note1" place="foot">47) Columna Publica, etiam et hasta et carrus dicta.</note> 
+            <l n="l235">Inde hic in medio plateae stat celsa columna  <note n="note" place="foot">47) Columna Publica, etiam et hasta et carrus dicta.</note> 
             </l>
             <l n="l236">Qua Veneti vexilla Ducis, magnique Senatus </l>
             <l n="l237">Erigimus, laetique illis applaudimus omnes. </l>
@@ -489,11 +478,11 @@
             <l n="l242">Res proprias efferre tamen, vel plenius aequo. </l>
 
             <!-- eccl. cathedralis -->
-            <l n="l243">Ast Templi facies,  <note n="note1" place="foot">48) Descriptio Ecclesiae Cathedralis.</note> cuius fastigia Graio </l>
+            <l n="l243">Ast Templi facies,  <note n="note" place="foot">48) Descriptio Ecclesiae Cathedralis.</note> cuius fastigia Graio </l>
             <l n="l244">More extructa nitent, dextra simul, atque sinistra </l>
             <l n="l245">Quadratas praefert turres, quae vertice tandem </l>
             <l n="l246">Piramides imitantur, quo alti culmina coeli </l>
-            <l n="l247">Contingunt, <sic n="sic1">resonanque</sic> simul, dicuntque vicissim </l>
+            <l n="l247">Contingunt, <sic n="sic">resonanque</sic> simul, dicuntque vicissim </l>
             <l n="l248">Concentu grato laudes, tibi, Maxime Rector, </l>
             <l n="l249">Aetheris, atque vocant, ad Christi mistica plebem. </l>
             <l n="l250">Quatuor hic gradibus spatioso, et in orbe redactis </l>
@@ -517,80 +506,80 @@
             <l n="l267">Eximiam in molem passim radiantia cernas: </l>
             <l n="l268">Argento, atque auro, pendent laquearibus aureis </l>
             <!-- reliquiae -->
-            <l n="l269">Lampades igniferi: penetralia celsa Tryphonis  <note n="note1" place="foot">49) Sacellum SS. Reliquiarum.</note> 
+            <l n="l269">Lampades igniferi: penetralia celsa Tryphonis  <note n="note" place="foot">49) Sacellum SS. Reliquiarum.</note> 
             </l>
-            <milestone unit="page" n="milestone9"/>
+            <milestone unit="page"/>
             <l n="l270">Ossa tenent, cineresque sacros, quos aurea vestit </l>
             <l n="l271">Lamina, et argenti pretiosa thoreumata claudunt. </l>
             <!-- biuium in platea -->
-            <l n="l272">In platea duplex biuium, sed quae via Gurdum  <note n="note1" place="foot">50) Vulgo "Gordichio."</note>
+            <l n="l272">In platea duplex biuium, sed quae via Gurdum  <note n="note" place="foot">50) Vulgo "Gordichio."</note>
             </l>
             <l n="l273">Recta petit, primo haec maculosa nebride cinctum </l>
-            <l n="l274">Et duro toties plangentem <sic n="sic1">poctora</sic> saxo </l>
-            <l n="l275">Ostentat Diuum.  <note n="note1" place="foot">51) Templum Sancti Hieronymi Doct. Max.</note> Mox et templa ardua Marci  <note n="note2" place="foot">52) Templum <abbr n="abbr1">S.</abbr> Marci Ev.</note> 
+            <l n="l274">Et duro toties plangentem <sic n="sic">poctora</sic> saxo </l>
+            <l n="l275">Ostentat Diuum.  <note n="note1" place="foot">51) Templum Sancti Hieronymi Doct. Max.</note> Mox et templa ardua Marci  <note n="note2" place="foot">52) Templum <abbr n="abbr">S.</abbr> Marci Ev.</note> 
             </l>
             <l n="l276">Quae subito contra (nam diuidit area parua) </l>
             <l n="l277">Praeuius ille Dei, quo nullum secla tulere </l>
-            <l n="l278">Maiorem, veteris defensat culmina templi.  <note n="note1" place="foot">53) Templ. <abbr n="abbr1">S.</abbr> Johannis Baptistae vulgo "Del Portello".</note> 
+            <l n="l278">Maiorem, veteris defensat culmina templi.  <note n="note" place="foot">53) Templ. <abbr n="abbr">S.</abbr> Johannis Baptistae vulgo "Del Portello".</note> 
             </l>
             <l n="l279">Longa via est, Vrbis cum se se in portibus effert </l>
-            <l n="l280">Duplex ara tibi, Christi huic Mater,  <note n="note1" place="foot">54) Templa <abbr n="abbr1">S.</abbr> Mariae et <abbr n="abbr2">S.</abbr> Luciae <abbr n="abbr3">Virg.</abbr> et <abbr n="abbr4">M.</abbr> dicta "De Gordichio".</note> at illi </l>
+            <l n="l280">Duplex ara tibi, Christi huic Mater,  <note n="note" place="foot">54) Templa <abbr n="abbr1">S.</abbr> Mariae et <abbr n="abbr2">S.</abbr> Luciae <abbr n="abbr3">Virg.</abbr> et <abbr n="abbr4">M.</abbr> dicta "De Gordichio".</note> at illi </l>
             <l n="l281">Astat cui rapuit coelo deuota volenti </l>
-            <l n="l282">Lumina virginitas: lapidum  <note n="note1" place="foot">55) Templum abbatiale <abbr n="abbr1">S.</abbr> Stephani protm.</note> mole obrutus ipsum </l>
+            <l n="l282">Lumina virginitas: lapidum  <note n="note" place="foot">55) Templum abbatiale <abbr n="abbr">S.</abbr> Stephani protm.</note> mole obrutus ipsum </l>
             <l n="l283">Delegit montem supra hinc, si suspicis, altum. </l>
 
-            <l n="l284">Vertis iter, primusque tibi sua limina Paulus  <note n="note1" place="foot">56) Templ. et Monast. Monialium <abbr n="abbr1">S.</abbr> Dominici ad <abbr n="abbr2">S.</abbr> Paulum.</note> 
+            <l n="l284">Vertis iter, primusque tibi sua limina Paulus  <note n="note" place="foot">56) Templ. et Monast. Monialium <abbr n="abbr1">S.</abbr> Dominici ad <abbr n="abbr2">S.</abbr> Paulum.</note> 
             </l>
             <l n="l285">Augustamque aedem pandit; tum maximus ille </l>
-            <l n="l286">Obiicitur Benedictus.  <note n="note1" place="foot">57) Templ. <abbr n="abbr1">S.</abbr> Benedicti.</note> Crux huic proxima sedem  <note n="note2" place="foot">58) Templ. <abbr n="abbr1">S.</abbr> Crucis.</note> 
+            <l n="l286">Obiicitur Benedictus.  <note n="note1" place="foot">57) Templ. <abbr n="abbr">S.</abbr> Benedicti.</note> Crux huic proxima sedem  <note n="note2" place="foot">58) Templ. <abbr n="abbr">S.</abbr> Crucis.</note> 
             </l>
-            <l n="l287">Vendicat, atque noui reserat sacraria Coetus.  <note n="note1" place="foot">59) Monasterium Monialium <abbr n="abbr1">S.</abbr> Joseph.</note> 
+            <l n="l287">Vendicat, atque noui reserat sacraria Coetus.  <note n="note" place="foot">59) Monasterium Monialium <abbr n="abbr">S.</abbr> Joseph.</note> 
             </l>
-            <l n="l288">Hic vbi et Andreas  <note n="note1" place="foot">60) Templ. <abbr n="abbr1">S.</abbr> Andreae Apostoli supra fontem <abbr n="abbr2">S.</abbr> Crucis, quondam in Clausura <abbr n="abbr3">S.</abbr> Joseph reseratum est.</note> extrema in parte recondit </l>
+            <l n="l288">Hic vbi et Andreas  <note n="note" place="foot">60) Templ. <abbr n="abbr1">S.</abbr> Andreae Apostoli supra fontem <abbr n="abbr2">S.</abbr> Crucis, quondam in Clausura <abbr n="abbr3">S.</abbr> Joseph reseratum est.</note> extrema in parte recondit </l>
             <l n="l289">Non ingens templum, at plenis altaria donis. </l>
             <l n="l290">Cui propriore tholo, sed non subducta tuetur </l>
-            <l n="l291">Templa Senex,  <note n="note1" place="foot">61) Templ. <abbr n="abbr1">S.</abbr> Antonii Abatis.</note> ipsoque viae se limite claudit: </l>
-            <l n="l292">Hic et Magdali de nomine Magdalena.  <note n="note1" place="foot">62) Templ. <abbr n="abbr1">S.</abbr> Mariae Magdalenae sub Eccl. <abbr n="abbr2">S.</abbr> Joseph.</note> 
+            <l n="l291">Templa Senex,  <note n="note" place="foot">61) Templ. <abbr n="abbr">S.</abbr> Antonii Abatis.</note> ipsoque viae se limite claudit: </l>
+            <l n="l292">Hic et Magdali de nomine Magdalena.  <note n="note" place="foot">62) Templ. <abbr n="abbr1">S.</abbr> Mariae Magdalenae sub Eccl. <abbr n="abbr2">S.</abbr> Joseph.</note> 
             </l>
-            <l n="l293">Tum Virgo stat cincta rotis,  <note n="note1" place="foot">63) Templ. <abbr n="abbr1">S.</abbr> Catharinae.</note> irasque minaces </l>
-            <milestone unit="page" n="milestone10"/>
+            <l n="l293">Tum Virgo stat cincta rotis,  <note n="note" place="foot">63) Templ. <abbr n="abbr">S.</abbr> Catharinae.</note> irasque minaces </l>
+            <milestone unit="page"/>
             <l n="l294">Negligit. Ast arcem quae te hinc via ducit ad ipsam </l>
             <l n="l295">Erigitur medio tractu, medioque recumbit. </l>
-            <l n="l296">Templum in monte sacrum,  <note n="note1" place="foot">64) <abbr n="abbr1">Templ. B. M. V.</abbr> in monte vulgo "<foreign n="foreign1" xml:lang="ita">Del Riposo</foreign>", nunc et "<foreign n="foreign2" xml:lang="ita">Madonna della Salute</foreign>" nuncupatum.</note> quod Diua Puerpera </l>
-            <l n="l297">Incolit; haec eadem  <note n="note1" place="foot">65) Templ. <abbr n="abbr1">S.</abbr> Mariae Infunariae, etiam et "De Flumine", ubi abatia collegiata.</note> partes tutatur et Vrbis <del n="del1">[Coeli]</del> 
+            <l n="l296">Templum in monte sacrum,  <note n="note" place="foot">64) <abbr n="abbr">Templ. B. M. V.</abbr> in monte vulgo "<foreign n="foreign1" xml:lang="ita">Del Riposo</foreign>", nunc et "<foreign n="foreign2" xml:lang="ita">Madonna della Salute</foreign>" nuncupatum.</note> quod Diua Puerpera </l>
+            <l n="l297">Incolit; haec eadem  <note n="note" place="foot">65) Templ. <abbr n="abbr">S.</abbr> Mariae Infunariae, etiam et "De Flumine", ubi abatia collegiata.</note> partes tutatur et Vrbis <del n="del">[Coeli]</del> 
             </l>
             <!-- platea angusta ubi mercatur -->
             <l n="l298">Scorde a parte sitas, platea hic angusta, sed omni </l>
             <l n="l299">Merce referta tamen, quam victu rustica nostro </l>
-            <l n="l300">Suppeditat plebes, foraque inde  <note n="note1" place="foot">66) Vulgo "<foreign n="foreign1" xml:lang="ita">Piazza della Madonnetta</foreign>".</note> boaria dicunt. </l>
+            <l n="l300">Suppeditat plebes, foraque inde  <note n="note" place="foot">66) Vulgo "<foreign n="foreign" xml:lang="ita">Piazza della Madonnetta</foreign>".</note> boaria dicunt. </l>
             <!-- templum et coenobium S. Nicolai OP -->
-            <l n="l301">Pontificis hinc tecta senis  <note n="note1" place="foot">67) Templum et coenobium <abbr n="abbr1">S.</abbr> Nicolai Ord. Praedicatorum.</note> noua condit ab imo </l>
+            <l n="l301">Pontificis hinc tecta senis  <note n="note" place="foot">67) Templum et coenobium <abbr n="abbr">S.</abbr> Nicolai Ord. Praedicatorum.</note> noua condit ab imo </l>
             <l n="l302">Calua cohors, cui pulla toga est, tunicaeque niuales. </l>
-            <l n="l303">At caetu stipata suo, stipata puellis  <note n="note1" place="foot">68) Templum nunc <abbr n="abbr1">S.</abbr> Clarae nuncupatum et Monasterium FF. Min. Ord. <abbr n="abbr2">S.</abbr> Francisci &#x97; Ab origine <abbr n="abbr3">S.</abbr> Mariae noncupatum, et Monast. Monialium <abbr n="abbr4">S.</abbr> Benedicti, dein <abbr n="abbr5">S.</abbr> Clarae.</note>
+            <l n="l303">At caetu stipata suo, stipata puellis  <note n="note" place="foot">68) Templum nunc <abbr n="abbr1">S.</abbr> Clarae nuncupatum et Monasterium FF. Min. Ord. <abbr n="abbr2">S.</abbr> Francisci &#x97; Ab origine <abbr n="abbr3">S.</abbr> Mariae noncupatum, et Monast. Monialium <abbr n="abbr4">S.</abbr> Benedicti, dein <abbr n="abbr5">S.</abbr> Clarae.</note>
             </l>
             <l n="l304">Clara sedet, prolisque suae Zebedeia coniux </l>
             <l n="l305">Prospectat phanum proprii de limine templi. </l>
 
             <!-- s. Michael et eius templum, alia templa et coenobia -->
             <l n="l306">Prouehor in medium latus Vrbis, hic ilicet acri </l>
-            <l n="l307">Vectus equo occurrit, qui pallia diuidit orco,  <note n="note1" place="foot">69) Templum <abbr n="abbr1">S.</abbr> Michaelis, deinde "La Madonna del Carmine".</note> 
+            <l n="l307">Vectus equo occurrit, qui pallia diuidit orco,  <note n="note" place="foot">69) Templum <abbr n="abbr">S.</abbr> Michaelis, deinde "La Madonna del Carmine".</note> 
             </l>
-            <l n="l308">Et medicus Lucas,  <note n="note1" place="foot">70) Templ. <abbr n="abbr1">S.</abbr> Lucae Evang.</note> Pauli sectator, et ipse </l>
-            <l n="l309">Aliger  <note n="note1" place="foot">71) Templ. <abbr n="abbr1">S.</abbr> Michaelis.</note> eiectum pedibus qui subiicit hostem. </l>
-            <l n="l310">Quem prope nuda pedes, et fune <sic n="sic1">incicta</sic> retorto </l>
+            <l n="l308">Et medicus Lucas,  <note n="note" place="foot">70) Templ. <abbr n="abbr">S.</abbr> Lucae Evang.</note> Pauli sectator, et ipse </l>
+            <l n="l309">Aliger  <note n="note" place="foot">71) Templ. <abbr n="abbr">S.</abbr> Michaelis.</note> eiectum pedibus qui subiicit hostem. </l>
+            <l n="l310">Quem prope nuda pedes, et fune <sic n="sic">incicta</sic> retorto </l>
             <l n="l311">Turba puellarum, quam nullus coniugis olim </l>
-            <l n="l312">Flexit amor, sacrae famulatur Virginis arae.  <note n="note1" place="foot">72) Templ. et coenobium Monialium <abbr n="abbr1">S.</abbr> Mariae de Angelis.</note> 
+            <l n="l312">Flexit amor, sacrae famulatur Virginis arae.  <note n="note" place="foot">72) Templ. et coenobium Monialium <abbr n="abbr">S.</abbr> Mariae de Angelis.</note> 
             </l>
-            <l n="l313">Mox amor  <note n="note1" place="foot">73) Templ. <abbr n="abbr1">S.</abbr> Spiritus ubi et coenobium Fr. Min. <abbr n="abbr2">S.</abbr> Francisci strictioris Observantiae. Nunc Seminarium Leoninum.</note> aetherei Regis, quem penna columbae </l>
+            <l n="l313">Mox amor  <note n="note" place="foot">73) Templ. <abbr n="abbr1">S.</abbr> Spiritus ubi et coenobium Fr. Min. <abbr n="abbr2">S.</abbr> Francisci strictioris Observantiae. Nunc Seminarium Leoninum.</note> aetherei Regis, quem penna columbae </l>
             <l n="l314">Circundat radiis, fulgentique igne coruscum </l>
             <l n="l315">Celsa tenet delubra, et plenis ignibus aram. </l>
-            <l n="l316">Ac demum  <note n="note1" place="foot">74) Templ. <abbr n="abbr1">S.</abbr> Bartolomaei Ap.</note> exutus pelle, et quem gallica vestit</l>
-            <milestone unit="page" n="milestone11"/>
-            <l n="l317">Penula,  <note n="note1" place="foot">75) Templ. <abbr n="abbr1">S.</abbr> Rochi.</note> ne dirae latitent saeua vlcera pestis.</l>
+            <l n="l316">Ac demum  <note n="note" place="foot">74) Templ. <abbr n="abbr">S.</abbr> Bartolomaei Ap.</note> exutus pelle, et quem gallica vestit</l>
+            <milestone unit="page"/>
+            <l n="l317">Penula,  <note n="note" place="foot">75) Templ. <abbr n="abbr">S.</abbr> Rochi.</note> ne dirae latitent saeua vlcera pestis.</l>
 
             <!-- conclusio, origo urbis -->
             <l n="l318">Haec Vrbis sedes, situs hic, haec denique forma est, </l>
-            <l n="l319">Ascraei  <note n="note1" place="foot">76) Ascraei, fundatores ascriviensis urbis.</note> quondam quam fundauere coloni.</l>
+            <l n="l319">Ascraei  <note n="note" place="foot">76) Ascraei, fundatores ascriviensis urbis.</note> quondam quam fundauere coloni.</l>
             <l n="l320">Namque ferunt (longis fama est obscurior annis) </l>
             <l n="l321">Ascraeos olim, postquam fata impia Vatem </l>
             <l n="l322">Ascraeum rapuere suum, tum protinus omnes </l>
@@ -605,8 +594,8 @@
             <l n="l330">Posteritas, gentisque suae primordia monstrat, </l>
             <l n="l331">Nunc ideo Catharum grati dixere minores.</l>
 
-            <closer n="closer1">
-               <abbr n="abbr1">F. S. R. Rescr.</abbr> Finis. <dateline n="dateline1">
+            <closer n="closer">
+               <abbr n="abbr">F. S. R. Rescr.</abbr> Finis. <dateline n="dateline">
                   <date n="date1" when="1589-04-06">1589.</date> Ascriuij <date n="date2">6. Aprilis</date>.</dateline>
             </closer>
 

@@ -38,23 +38,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -104,14 +90,14 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:vranc01.croala839485.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-            <div n="div1" type="prosa-epistula">
-                <opener n="opener1">Antonius Wrancius Petro Royzio Maureae S. D.</opener>
+      <body xml:lang="lat">
+         <pb/>
+            <div type="prosa-epistula">
+                <opener n="opener">Antonius Wrancius Petro Royzio Maureae S. D.</opener>
 
-                <p n="p1">Erasmus meus necessarius, vir in me non mediocriter semper officiosus, nimis
+                <p n="p">Erasmus meus necessarius, vir in me non mediocriter semper officiosus, nimis
                     festinanter, et me inscio, ineptos hos, et tumultuarie dudum factos versiculos
-                    dedit in lucem et Gamrato Praesuli amplissimo <pb n="pb1"/> dedicavit, tamquam
+                    dedit in lucem et Gamrato Praesuli amplissimo <pb/> dedicavit, tamquam
                     fortasse meruissem ego a doctis legi, qui vix aspici dignus sim. Equidem vereor,
                     ne hoc officio offecerit potius, ac detraxerit meo nomini, quam profuerit, aut
                     quippiam commendationis addiderit; quippe quod versus hi aliquot mendis non
@@ -125,9 +111,9 @@
                     hominem doctissimum meique amantissimum mitto. Eos tui, Mauree suavissime, ubi
                     tua quoque littera et iudicio examinaveris gravissimo, Praesuli tuo Gamrato
                     velim reddito. Me vero, ut coepisti diligito. </p>
-                <closer n="closer1">
-                    <salute n="salute1">Vale. </salute>
-                    <dateline n="dateline1">Cracoviae <date n="date1" when="1542-01-10">X. die mensis <corr n="corr1">Januarii</corr>
+                <closer n="closer">
+                    <salute n="salute">Vale. </salute>
+                    <dateline n="dateline">Cracoviae <date n="date" when="1542-01-10">X. die mensis <corr n="corr">Januarii</corr>
                             M. D. XLII.</date>
                </dateline>
                 </closer>

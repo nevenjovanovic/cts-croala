@@ -46,20 +46,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -128,20 +117,20 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:frankop04.croala24797.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div type="prosa-epistula" n="div1" corresp="#bfrankopanklementvii15250215">
-            <milestone n="milestone1" unit="page"/>
-            <head n="head1">VIII/1. <date n="date1" when="1525-02-15">1525. 15. Februarii</date>, Modrusii Bernardinus de Frangepanibus Clementi papae VII.
-            <note n="note1" resp="BJ">Segr. Stato, Principi, 3, f. 38, 47. Fragmento sigilli. Editio: THEINER
+      <body xml:lang="lat">
+         <div type="prosa-epistula" corresp="#bfrankopanklementvii15250215">
+            <milestone unit="page"/>
+            <head n="head">VIII/1. <date n="date" when="1525-02-15">1525. 15. Februarii</date>, Modrusii Bernardinus de Frangepanibus Clementi papae VII.
+            <note n="note" resp="BJ">Segr. Stato, Principi, 3, f. 38, 47. Fragmento sigilli. Editio: THEINER
             1860, n. DCCCXLVII, p. 648-649.</note>
             </head>
-            <opener n="opener1">Beatissime ac clementissime in Christo pater et domine, domine mihi gratiosissime!
+            <opener n="opener">Beatissime ac clementissime in Christo pater et domine, domine mihi gratiosissime!
           Post pedum oscula beatorum et commendationem. </opener>
-            <p n="p1">Ego enim et filii mei una cum subditis nostris Sanctitati Vestre gratias agimus
+            <p n="p">Ego enim et filii mei una cum subditis nostris Sanctitati Vestre gratias agimus
           immortales ob suffragio et subsidio, quod eadem Sanctitas Vestra dignata est nobis
           praestare. Indigebamus valde, in hiis confinibus Turchi timent nomen Sanctitatis Vestre et
           nunc presertim, quum inter Christianorum principes (Deo et Sanctitate Vestra mediante)
-          prope est bellorum <milestone n="milestone1" unit="page"/> extinctio. Et nunc est tempus vestrum, Pater
+          prope est bellorum <milestone unit="page"/> extinctio. Et nunc est tempus vestrum, Pater
           Sanctissime et Sapientissime, et nunc potentia vestra in Jesu Christi nomine erit nota.
           Indiget tamen celeri expedictione, quia Turchi in continuo paratu exercitus existunt, mala
           super mala imminent. Turchi deliberaverunt absorbere me et comitatum meum. Circumvicini
@@ -167,20 +156,20 @@
           pro defensione rei publice Christianae contra Turchas infuso sicut cronice et iam
           Sanctitas Vestra scit. Scit etiam, qualiter sum pauper, et propterea omnibus mihi
           servientibus satisfacere non valeo. Extat enim de continuo ad Sanctitatis Vestre pedes
-          Ioannes Andreas, procurator meus, et servitiis meis, <sic n="sic1">qui</sic> etiam sunt pro fide
+          Ioannes Andreas, procurator meus, et servitiis meis, <sic n="sic">qui</sic> etiam sunt pro fide
           Catholica, insistit, nullam a me, iam est annus, laboris et stipendii sui habuit mercedem.
           Igitur supplex deprecor, quod eadem Sanctitas Vestra dignetur mandare, ut sibi de aliquali
           provisione vel officio provideatur ita, ut vivat et bene more suo solito deservire valeat.
           Item, ut animarum salute senium, invalitudine infirmorum et pauperum impotentium in hiis
           partibus consulatur, dignetur eadem Sanctitas Vestra iubuleum ad minus per mensem nobis
           misericorditer concedere. </p>
-            <closer n="closer1">
-               <salute n="salute1">Cuius pedibus me et filios meos devotissime commendamus.</salute>
-               <dateline n="dateline1">Datum Modrusii, XXmo Februarii. MDXXV..</dateline>
-               <signed n="signed1">Eiusdem Sanctitatis Vestre devotissimus et obsequentissimus servitor Bernardinus
-            de Frangepanibus <abbr n="abbr1">etc.</abbr> comes manu propria </signed>
+            <closer n="closer">
+               <salute n="salute">Cuius pedibus me et filios meos devotissime commendamus.</salute>
+               <dateline n="dateline">Datum Modrusii, XXmo Februarii. MDXXV..</dateline>
+               <signed n="signed">Eiusdem Sanctitatis Vestre devotissimus et obsequentissimus servitor Bernardinus
+            de Frangepanibus <abbr n="abbr">etc.</abbr> comes manu propria </signed>
             </closer>
-            <note n="note1" resp="BJ">Annotatio: Responsio: Arm. XLIV, 9. f. 165r. Editio: BALAN 1885, n. 85, p.
+            <note n="note" resp="BJ">Annotatio: Responsio: Arm. XLIV, 9. f. 165r. Editio: BALAN 1885, n. 85, p.
           115. Subscriptio manu propria.</note>
          </div>
       </body>

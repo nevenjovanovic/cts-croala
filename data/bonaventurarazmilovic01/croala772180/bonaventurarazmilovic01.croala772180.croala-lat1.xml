@@ -37,20 +37,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -97,10 +86,10 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:bonaventurarazmilovic01.croala772180.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="poesis-elegia" met="elegiacum">
-            <head n="head1">ADMODVM REVERENDO PATRI
+      <body xml:lang="lat">
+         <pb/>
+         <div type="poesis-elegia" met="elegiacum">
+            <head n="head">ADMODVM REVERENDO PATRI
                BERNARDINO TISSIÇICH
                VVLGO NICOLANDA
                OLIM PROVINCIALI DIGNISSIMO.</head>
@@ -142,7 +131,7 @@
             <l n="l17">Hesperidum procul hinc, vigiles procul este Dracones,</l>
              
             <l n="l18" met="pentameter">
-               <sic n="sic1">Squammigeras</sic> iactent aurea mala feras.</l>
+               <sic n="sic">Squammigeras</sic> iactent aurea mala feras.</l>
              
             <l n="l19">Respuit ignivomos pariter mea pagina tauros</l>
              
@@ -164,7 +153,7 @@
              
             <l n="l28" met="pentameter">Seraphici merito crederis esse Patris.</l>
              
-            <l n="l29">Seu doceas, seu verba <sic n="sic1">tonas</sic> divina per orbem,</l>
+            <l n="l29">Seu doceas, seu verba <sic n="sic">tonas</sic> divina per orbem,</l>
              
             <l n="l30" met="pentameter">Seu regis, Angelica conditione nites.</l>
              
@@ -185,10 +174,10 @@
             <l n="l38" met="pentameter">TE CVSTODE, bonae Pagina Sortis erit.</l>
              
             
-            <closer n="closer1">
-               <signed n="signed1">Paternitatis tuae Admodum Reverendae
+            <closer n="closer">
+               <signed n="signed">Paternitatis tuae Admodum Reverendae
             Compatriota addictisimus
-            Frater Bonaventura de Spalato, <abbr n="abbr1">etc.</abbr>
+            Frater Bonaventura de Spalato, <abbr n="abbr">etc.</abbr>
                </signed>
             </closer>
             

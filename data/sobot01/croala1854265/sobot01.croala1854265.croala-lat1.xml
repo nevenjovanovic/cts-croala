@@ -79,23 +79,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -174,12 +160,12 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot01.croala1854265.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula" xml:id="sob1453b">
-                <head n="head1">
-               <date n="date1" when="1453-07-24">1453-07-24</date>, Tragurio</head>
-                <opener n="opener1">Joannes Sobote Clarissimo P. M. S. P. D.</opener>
-                <p n="p1">Postquam nobis nunciatum est, Bizancium urbem cristianissimam a Machometo
+        <body xml:lang="lat">
+            <div type="prosa-epistula" xml:id="sob1453b">
+                <head n="head">
+               <date n="date" when="1453-07-24">1453-07-24</date>, Tragurio</head>
+                <opener n="opener">Joannes Sobote Clarissimo P. M. S. P. D.</opener>
+                <p n="p">Postquam nobis nunciatum est, Bizancium urbem cristianissimam a Machometo
                     Teucrorum principe ingenti cum iactura cristiane rei captam, tanquam ex percepto
                     vulnere vehementer consternati fuimus; tandem varie tumultatum est. Princeps
                     Bizantinus simul ac animadvertit eo ventum esse, ut nec fuge quidem locus esset,
@@ -193,18 +179,18 @@
                     interfuisse tradunt, affirmant, urbem illam sine cujusque controversia
                     defecisse, 30.000 Grecorum ex Byzancio in Asiam, ut servirent, missa esse,
                     dicunt: urbem suo praesidio munitam, vestes et nonulla vasa christianis
-                    sacrificiis dedicata Georgio despoti missa dono, seu insignia rei <milestone n="milestone1" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA152"/> bene
+                    sacrificiis dedicata Georgio despoti missa dono, seu insignia rei <milestone unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA152"/> bene
                     geste. Quare nobis abunde persuasum est, urbem illam defecisse; praeterea, quod
                     gravius longe, imperator Teucorum a Georgio despote petit, ut duo oppida sibi
                     tradat: Golumbac et Smedrovo, oppida munitissima, ex quibus facillimus aditus in
                     Panoniam est Georgius despotus vehementer trepidat. Hac tempestate dei
                     omnipotentis virtus invocanda est.</p>
-                <closer n="closer1">
-                    <salute n="salute1">Vale et me ama.</salute>
-                    <dateline n="dateline1">Ex <placeName n="placeName1">
-                     <abbr n="abbr1">Trag.</abbr>
+                <closer n="closer">
+                    <salute n="salute">Vale et me ama.</salute>
+                    <dateline n="dateline">Ex <placeName n="placeName">
+                     <abbr n="abbr">Trag.</abbr>
                   </placeName>
-                        <date n="date1" when="1453-07-24">die 24 Julii (1453).</date>
+                        <date n="date" when="1453-07-24">die 24 Julii (1453).</date>
                </dateline>
                 </closer>
             </div>

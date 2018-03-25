@@ -52,17 +52,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -131,32 +123,32 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:sar01.croala1839585.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <head n="head1">XXVII/2 <date n="date1" when="1532-10-12">1532. 12. Octobris</date>, Segniae Erasmus Sayrar capitaneus Segniae Clementi
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">XXVII/2 <date n="date" when="1532-10-12">1532. 12. Octobris</date>, Segniae Erasmus Sayrar capitaneus Segniae Clementi
                     papae VII.</head>
 
 
-                <note n="note1" resp="BJ">Segr. Stato, Principi, 7, f. 512.</note>
+                <note n="note" resp="BJ">Segr. Stato, Principi, 7, f. 512.</note>
 
-                <opener n="opener1">
-               <note n="note1" resp="BJ">[Inscriptio:]</note> Sanctissimo et beatissimo in Christo
+                <opener n="opener">
+               <note n="note" resp="BJ">[Inscriptio:]</note> Sanctissimo et beatissimo in Christo
                     patri et domino, domino Clementi divina providentia pape septimo, domino suo
                     gratiosissimo Sanctissime et beatissime in Christo pater et domine, domine mihi
                     gratiosissime! Post beatorum pedum oscula humilemque servitiorum meorum
                     commendationem.</opener>
-                <p n="p1">Ob quibusdam urgentissimis importantissimisque negotiis praesentium exhibitorem
+                <p n="p">Ob quibusdam urgentissimis importantissimisque negotiis praesentium exhibitorem
                     nobilem Franciscum Zubranich, familiarem meum ad Sanctitatem Vestram mittere
                     decrevi. Quamobrem humiliter supplico Sanctitati Vestre, tanquam domino meo
                     gratiosissimo, quicquid idem nuntius meus Beatitudini Vestre meo nomine
                     retulerit, dignetur sibi Sanctitas Vestra fidem creditivam adhibere, ac si ego
                     personaliter ante pedes Sanctitatis Vestre adessem.</p>
-                <closer n="closer1">Cui sese humiliter et genuflexe commendo atque servitia offero. Saegnię die
+                <closer n="closer">Cui sese humiliter et genuflexe commendo atque servitia offero. Saegnię die
                     XII Octobris MDXXXII Eiusdem Sanctitatis Vestre humilis servitor Erasmus Saÿrar
                     capitaneus Segnię</closer>
 
 
-                <milestone n="milestone1" unit="page"/>
+                <milestone unit="page"/>
             </div>
         </body>
     </text>

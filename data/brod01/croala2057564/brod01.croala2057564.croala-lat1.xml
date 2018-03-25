@@ -53,17 +53,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -132,9 +124,9 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:brod01.croala2057564.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <head n="head1">XIV/9 <date n="date1" when="1526-09-10">1526. 10. Septembris</date>, Posonii Stephanus Brodericus cancellarius Clementi
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">XIV/9 <date n="date" when="1526-09-10">1526. 10. Septembris</date>, Posonii Stephanus Brodericus cancellarius Clementi
                     papae VII.</head>
 
 
@@ -142,11 +134,11 @@
                     BRODARICS 1985, p. 77.</note>
 
 
-                <opener n="opener1">
-               <note n="note1" resp="BJ">[Inscriptio:]</note> Sanctissimo domino nostro pontifici
+                <opener n="opener">
+               <note n="note" resp="BJ">[Inscriptio:]</note> Sanctissimo domino nostro pontifici
                     maximo, domino mihi clementissimo Sanctissime pater, domine clementissime!
                     Servitutis nostrę perpetuę humilimam commendationem.</opener>
-                <p n="p1">Sanctitas Vestra iam intellexit nostrum infelicem cum Thurca conflictum. Utinam
+                <p n="p">Sanctitas Vestra iam intellexit nostrum infelicem cum Thurca conflictum. Utinam
                     non adeo audaces fuissemus ac non adeo in apertum periculum ruissemus temere!
                     Sed ista quomodo cuius consilio vel quorum pocius temeritate sint acta, Vestra
                     Sanctitas ex domino barone clarius intelliget, qui novit omnia, quę in hunc diem
@@ -161,12 +153,12 @@
                     servitiorum ipsius, quę prestitit, memorem futuram rationemque habituram et
                     sortis miserę, in quam legatio ejus regno cadente incidit, miserturam una cum
                     dominis meis observandissimis, sacro reverendissimorum patrum collegio.</p>
-                <closer n="closer1">Me, dominum baronem, mecum perpetuam servitutem in gratiam Vestre
+                <closer n="closer">Me, dominum baronem, mecum perpetuam servitutem in gratiam Vestre
                     Sanctitatis humilime commendo. Quę felicissime valeat. Ex Posonio, X. Septembris
                     1526. Vestrę Sanctitatis miserimus servulus et capellanus Stepanus Brodericus pp
                     cancellarius</closer>
-                <postscript n="postscript1">
-                    <p n="p1">Venit ad Vestram Sanctitatem vel cum domino barone vel non tarde post ipsum
+                <postscript n="postscript">
+                    <p n="p">Venit ad Vestram Sanctitatem vel cum domino barone vel non tarde post ipsum
                         Statilius prepositus Budensis, secretarius regius bonus et sufficiens vir,
                         nepos episcopi olim Vesprimiensis, bani Croacię32 a Thurcis interempti.
                         Supplico, sit Vestrę Sanctitati commendatus, meretur aliquid vel memoria
@@ -180,7 +172,7 @@
 
                 <note n="note3" resp="BJ">32 Iohannes Statileus vere nepos Petri Berislavi fuit.</note>
 
-                <milestone n="milestone1" unit="page"/>
+                <milestone unit="page"/>
             </div>
         </body>
     </text>

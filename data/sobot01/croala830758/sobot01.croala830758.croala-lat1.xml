@@ -79,23 +79,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -174,15 +160,15 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot01.croala830758.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" xml:id="sob1454d" type="prosa-epistula">
-                <head n="head1">
-               <date n="date1" when="1454-07-27">1454-07-27</date>, Tragurio</head>
-                <opener n="opener1">Joannis Sobote Dalmate epistola.</opener>
+        <body xml:lang="lat">
+            <div xml:id="sob1454d" type="prosa-epistula">
+                <head n="head">
+               <date n="date" when="1454-07-27">1454-07-27</date>, Tragurio</head>
+                <opener n="opener">Joannis Sobote Dalmate epistola.</opener>
                 <p n="p1">Superioribus diebus literis significavi illa, que rumore quodam ad nos referri
                     videbantur: secundum Macometum, Teucrorum principem superbissimum, ingenti cum
                     audacia Serviam invasisse. Parvo deinde interjecto tempore non rumore, sed veris
-                    auctoribus hoc declaratum est; qui rei <milestone n="milestone1" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA153"/> novitate
+                    auctoribus hoc declaratum est; qui rei <milestone unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA153"/> novitate
                     et periculi magnitudine exteriti ad nos venere affirmant tantas copias agrum
                     eius despoti invasisse, quantas vix unquam aut legimus aut vidimus. Traditum
                     est, ipsum praeter domesticas gentes X. legiones mercenarias in armis habere, ex
@@ -190,7 +176,7 @@
                     audacissimos. Dux insolentissimus horum virtute fretus et prospero eventu
                     superioris belli, quo Bizantium expugnaverat tantum illatus dicitur, ut orbem
                     spe amplexus est; trecentos currus, quibus machine expugnandarum urbium gratia
-                        <sic n="sic1">comparte</sic> deferuntur, eum habere, sunt nonulli, qui affirmant.
+                        <sic n="sic">comparte</sic> deferuntur, eum habere, sunt nonulli, qui affirmant.
                     Illustris despotus, desperata regni tutella traiecto Danubio ad Panones, veluti
                     ad unicam arcem recepisse dicitur. Incredibile dictu profecto est, quantum
                     argenti facti infective detulerit, equidem plura transcribo quam credo; nec
@@ -215,7 +201,7 @@
                     ipsos audacissime persecuti sunt; hostes et fuga et proelio fracti belluarum
                     more in flumen se praecipitavere. Dux Hesibeg cum quatuor militibus evassise
                     dicitur; preclari facinoris gradus factus est. Macometus, postquam ab Esibego
-                    male pugnatum fuit, contractis undique omnibus copiis, <milestone n="milestone2" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA154"/>
+                    male pugnatum fuit, contractis undique omnibus copiis, <milestone unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA154"/>
                     diligentius diurnas nocturnasque excubias facere imperavit; totis viribus molem
                     tanti belli adire statuit. Panones tantum novitate hujus periculi commoti
                     traduntur adeo, ut numquam in ducibus legendis, nec in exercitu scribendo
@@ -233,12 +219,12 @@
                     me commendatum facito. <abbr n="abbr2">M. A.</abbr>
                     <abbr n="abbr3">S.</abbr> dicito. Coriolanus tanquam claudus sutor ruri, domi se continet,
                     equino calce sibi crus percussum.</p>
-                <closer n="closer1">
-               <salute n="salute1">Vale et me amare persevera.</salute>
-                    <dateline n="dateline1">Ex <placeName n="placeName1">
-                     <abbr n="abbr1">Trag.</abbr>
+                <closer n="closer">
+               <salute n="salute">Vale et me amare persevera.</salute>
+                    <dateline n="dateline">Ex <placeName n="placeName">
+                     <abbr n="abbr">Trag.</abbr>
                   </placeName>
-                        <date n="date1" when="1454-07-27">Kal. VI. Sextilis (1454)</date>.</dateline>
+                        <date n="date" when="1454-07-27">Kal. VI. Sextilis (1454)</date>.</dateline>
             </closer>
             </div>
         </body>

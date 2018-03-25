@@ -51,17 +51,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -130,21 +122,21 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:utjes02.croala906117.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <head n="head1">XXXV/1. <date n="date1" when="1547-02-07">1547. 7. Februarii</date>, Varadino Frater Georgius episcopus Varadiensis
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">XXXV/1. <date n="date" when="1547-02-07">1547. 7. Februarii</date>, Varadino Frater Georgius episcopus Varadiensis
                     cardinali Alessandro Farnese</head>
 
 
-                <note n="note1" resp="BJ">Segr. Stato, Principi, 14, f. 382–383. Copia. Editio: THEINER 1863,
+                <note n="note" resp="BJ">Segr. Stato, Principi, 14, f. 382–383. Copia. Editio: THEINER 1863,
                     n. DCCCCI, p. 659–660. ETE IV, n. 507, p. 531–534.</note>
 
-                <opener n="opener1">
-               <note n="note1" resp="BJ">[Inscriptio:]</note> Reverendissimo in Christo patri et
+                <opener n="opener">
+               <note n="note" resp="BJ">[Inscriptio:]</note> Reverendissimo in Christo patri et
                     domino, Alexando Francisco, titulato Sancti Laurentii in Damaso, Sanctae Romanae
                     Ecclesie vicecancellario, domino meo illustrissimo et observandissimo.
                     Reverendissime in Christo Pater et Domine, Domine mihi Observandissime!</opener>
-                <p n="p1">Obsequiorum meorum in benevolentiam Dominationis Vestre Reverendissime diligentem
+                <p n="p">Obsequiorum meorum in benevolentiam Dominationis Vestre Reverendissime diligentem
                     commendationem. Frater Augustinus ex Dalmatia ordinis fratrum praedicatorum anno
                     pręterito ex urbe rediens litteras Dominationis Vestre Reverendissime Albę
                     Julie, sede episcopali regni Transilvanensis mihi reddidit, quibus – tum propter
@@ -164,7 +156,7 @@
                     profecta sit, non potest mihi non esse gratissima. Et si meam in ambiendis
                     honoribus voluntatem Dominatio Vestra Reverendissima cognosceret, non dubito,
                     quin aliter longe de me esset iudicatura. Ego enim mea conditione (quae etiam me
-                    invito a serenissimo quondam principe meo, domino Joanne rege Ungarie <abbr n="abbr1">etc.</abbr>,
+                    invito a serenissimo quondam principe meo, domino Joanne rege Ungarie <abbr n="abbr">etc.</abbr>,
                     domino et benefactore meo clementissimo mihi delata est) ita sum contentus, ut
                     praeter hanc nihil omnino quaeram amplius. Illum vero episcopatum, de quo
                     accusor immerito, usque adeo non attigi, ut, cum administratio tantum regni mihi
@@ -172,7 +164,7 @@
                     curandum assumerem. Verum - cum post illius quondam Maiestatis obitum regnum
                     Ungarię in hanc calamitatem incidisset et regia quoque illa Budensi amissa has
                     tantum reliquias regni tenere cogeremur redditusque regni ita essent in angustum
-                    redacti, ut <milestone n="milestone1" unit="page"/> non modo ad solutionem tributi, quod
+                    redacti, ut <milestone unit="page"/> non modo ad solutionem tributi, quod
                     singulis annis imperatori Turcarum pendimus, sed ne ad sustentationem quidem
                     Reginalis Maiestatis eiusque illustrissimi filii pro dignitate istarum
                     Maiestatum satis esse viderentur – pro illa fidei constantia, quam subditi etiam
@@ -215,7 +207,7 @@
                     autem episcopatum huius regni cum a Sanctissimo Domino Nostro per reverendum
                     dominum Hieronimum Rorarium, illius Sanctae Sedis Apostolicae fidelem nuntium
                     considerata tanta regni huius calamitate nobis episcopis, qui in hisce
-                    regionibus sumus, sine ulla solucione paternum in nos animum Eius <milestone n="milestone2" unit="page"/> Sanctitas in hoc ostensura, gratis semel oblata esset, causam,
+                    regionibus sumus, sine ulla solucione paternum in nos animum Eius <milestone unit="page"/> Sanctitas in hoc ostensura, gratis semel oblata esset, causam,
                     quominus littere ipse per nuntium nobis reddite sint, scire non potui. Ut igitur
                     et pro confimatione episcopatus mei Varadiensis litteras necessarias Dominatio
                     Vestra Reverendissima ab ipso Sanctissimo Domino Nostro impetrare velit,
@@ -223,7 +215,7 @@
                     Dominationi Vestre Reverendissime meo nomine dicturus est, cuius verbis ut
                     Dominatio Vestra Reverendissima fidem adhibere velit, ipsam diligentissime
                     rogo.</p>
-                <closer n="closer1">Deus pater domini nostri Jesu Christi Dominationem Vestram Reverendissimam
+                <closer n="closer">Deus pater domini nostri Jesu Christi Dominationem Vestram Reverendissimam
                     sanam et incolumem conservet. Varadini, septima die mensis Februarii, anno
                     Domini MDXLVII. Eiusdem Dominationis Vestrae Reverendissimae deditissimus
                     servitor Frater Georgius episcopus Varadiensis</closer>

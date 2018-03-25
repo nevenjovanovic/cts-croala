@@ -42,20 +42,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -133,21 +122,21 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:draskov01.croala977054.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula" corresp="#jdraskovichorvat15560814">
+        <body xml:lang="lat">
+            <div type="prosa-epistula" corresp="#jdraskovichorvat15560814">
                 
-                <milestone n="milestone1" unit="page" facs="jurajdraskovic/episthorv/1557draskovicepisthorv.jpeg"/>
-                 <opener n="opener1">
-               <salute n="salute1">Egregie domine et amice nobis honorande, salutem et nostri commendationem.</salute>
+                <milestone unit="page" facs="jurajdraskovic/episthorv/1557draskovicepisthorv.jpeg"/>
+                 <opener n="opener">
+               <salute n="salute">Egregie domine et amice nobis honorande, salutem et nostri commendationem.</salute>
             </opener> 
-            <p n="p1">Conservationi arcis <placeName n="placeName1">Zygeth</placeName> et omnium in ea existentium valde gratulor, sed tanto magis, quia <expan n="expan1">Dominationem</expan> vestram videmus esse florem nostrae nationis, eo quod eadem Croata est. Decoravit enim Dominatio vestra non solum se hoc suo celebri facto, sed et nos omnes Croatas. Quamobrem cum Deus optimus maximus eandem huc adtulerit, si qua in re eadem nostra opera uti voluerit, nos semper sibi paratissimos habebit, quęque eiusdem causa subire. Quam una cum reliquis isthic existentibus feliciter conservari optamus.</p> 
-            <closer n="closer1">
-               <dateline n="dateline1">Datum Viennę 14 Augusti 1556.</dateline> 
+            <p n="p">Conservationi arcis <placeName n="placeName">Zygeth</placeName> et omnium in ea existentium valde gratulor, sed tanto magis, quia <expan n="expan">Dominationem</expan> vestram videmus esse florem nostrae nationis, eo quod eadem Croata est. Decoravit enim Dominatio vestra non solum se hoc suo celebri facto, sed et nos omnes Croatas. Quamobrem cum Deus optimus maximus eandem huc adtulerit, si qua in re eadem nostra opera uti voluerit, nos semper sibi paratissimos habebit, quęque eiusdem causa subire. Quam una cum reliquis isthic existentibus feliciter conservari optamus.</p> 
+            <closer n="closer">
+               <dateline n="dateline">Datum Viennę 14 Augusti 1556.</dateline> 
                 
-                <signed n="signed1">Vestre dominationis 
+                <signed n="signed">Vestre dominationis 
                 frater et amicus 
                 Georgius Draskowyth 
-                <abbr n="abbr1">m. p.</abbr>
+                <abbr n="abbr">m. p.</abbr>
                </signed>
             </closer> 
                 

@@ -41,14 +41,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -95,12 +90,12 @@
   </teiHeader>
   <text xml:base="urn:cts:croala:alienus_macedo.croala816750.croala-lat1:" xml:lang="lat">
     
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <milestone unit="page" n="milestone1"/>
-        <div n="div1" type="poesis-epigramma" met="elegiacum">
-            <head n="head1">Ad Dominicum Aurium equitem ornatissimum.</head>
-            <byline n="byline1">Stanislaus Marullus Macedo.</byline>
+      <body xml:lang="lat">
+         <pb/>
+         <milestone unit="page"/>
+        <div type="poesis-epigramma" met="elegiacum">
+            <head n="head">Ad Dominicum Aurium equitem ornatissimum.</head>
+            <byline n="byline">Stanislaus Marullus Macedo.</byline>
           
             <l n="l1">Pyramon et Thisben, victuri exemplar amoris,</l>
             <l n="l2" met="pentameter">dum resonas patriis, Dalmata, carminibus,</l>

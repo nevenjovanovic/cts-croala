@@ -42,20 +42,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -116,8 +105,8 @@
         </revisionDesc>
     </teiHeader>
    <text xml:base="urn:cts:croala:anonymus_1268.croala226942.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-inscriptio-epitaphium" met="rhythmus-elegiacus">
+      <body xml:lang="lat">
+         <div type="poesis-inscriptio-epitaphium" met="rhythmus-elegiacus">
                 <!-- Nadgrobni natpis Tome Arhiđakona († 1268) -->
                 
                 <l n="l1">Doctrinam, Christe, docet Archidiaconus iste</l>
@@ -129,8 +118,8 @@
                 <l n="l7">Hic me vermis edit, sic iuri mortis obedit,</l>
                 <l n="l8">Corpus quod ledit, animamve qui sibi credit.</l>
                 
-                <p n="p1">
-               <date n="date1" when="1268-05-08">A. D. <num n="num1" value="1268">MCCLXVIII</num>, mense Madii octavo die intrante.</date>
+                <p n="p">
+               <date n="date" when="1268-05-08">A. D. <num n="num" value="1268">MCCLXVIII</num>, mense Madii octavo die intrante.</date>
             </p>
                 
             </div>

@@ -42,20 +42,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -121,27 +110,27 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:marul01.croala1828810.croala-lat1:" xml:lang="lat" type="prosa">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula">
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
 
-            <opener n="opener1"> Reuerendo in Christo Domino <persName n="persName1">Iacobo Grassolario</persName>, domino meo, plurimum honorem. <placeName n="placeName1">Venetiis</placeName>.
-      <salute n="salute1">
+            <opener n="opener"> Reuerendo in Christo Domino <persName n="persName">Iacobo Grassolario</persName>, domino meo, plurimum honorem. <placeName n="placeName">Venetiis</placeName>.
+      <salute n="salute">
                   <persName n="persName1">Iacobo Grassolario</persName> 
                   <persName n="persName2">Marcus Marulus</persName> salutem.</salute>
             </opener>
-            <p n="p1"> Cum scriptorum meorum studiosus, optime uir <persName n="persName1">Iacobe</persName>, cures inprimis cum impręssoribus Tuis,
+            <p n="p1"> Cum scriptorum meorum studiosus, optime uir <persName n="persName">Iacobe</persName>, cures inprimis cum impręssoribus Tuis,
      ut illa in lucem ueniant, exegisti, ut hęc etiam commentaria, quorum de imitatione Christi
      titulus est, ad Te mitterem. Tu, si dignum opus publica impressione iudicaueris (plurimi enim
      facio iudicium Tuum), cura, ut imprimatur! Mercedem siquam a Domino pro labore mereor, Tecum
      partibor. Ius fasque enim est, ut, sicut, qui bene beateque uiuendi disciplinam conscribunt,
      pręmii aliquid a Deo expectant, ita idem et illi sibi sperent, qui eam publicandam curant. </p>
             <p n="p2">Ista, quę nunc mitto archetypa nostra, postquam impręssorum typis exscripta fuerint, nobis
-     restitue, simul etiam aliquot exemplaria Euangelistarii nostri ad me mitte meque <persName n="persName1">Francisco
+     restitue, simul etiam aliquot exemplaria Euangelistarii nostri ad me mitte meque <persName n="persName">Francisco
      Lucensi</persName> nostro, cui ipsum Euangelistarium iampridem dono misi quique plus etiam remisit, ne
      ingratus uideretur, plurimum commenda! </p>
-            <closer n="closer1">
-               <salute n="salute1">Vale, et cum ista impręssa fuerint, alia expecta!</salute>
-               <date n="date1" when-iso="08-25">VIII. Kalendas Septembres.</date>
+            <closer n="closer">
+               <salute n="salute">Vale, et cum ista impręssa fuerint, alia expecta!</salute>
+               <date n="date" when-iso="08-25">VIII. Kalendas Septembres.</date>
             </closer>
 
          </div>

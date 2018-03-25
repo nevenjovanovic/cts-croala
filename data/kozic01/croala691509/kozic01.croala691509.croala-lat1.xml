@@ -41,20 +41,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -118,13 +107,13 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:kozic01.croala691509.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="epistula" corresp="#kozicicbenjabuca15280227">
-            <head n="head1">Elogium reuerendissimi in Christo patris et domini domini Simonis Begnii, Dei et Apostolice sedis gratia episcopi Modrusiensis, in Etymon reuerendi patris magistri Dominici Buchie ordinis predicatorum.</head>
-            <opener n="opener1">Simon Begnius, Dei et Apostolice sedis gratia episcopus Modrusiensis, uniuersis presentes nostras litteras inspecturis salutem.</opener>
-            <p n="p1"> Quoniam laus uirtutis est premium, illa uera laus est que Domini et Seruatoris nostri uoce commendatur; is autem minimum in celorum regno eum uocandum dixit qui minimum unum de mandatis eius soluerit et docuerit sic homines.<note place="foot" n="note1">Cf. <emph n="emph1">Mt</emph> 5,19</note> Cuius rei gratia uenerandus pater frater <persName n="persName1">Dominicus Buchia</persName> Catharensis ordinis predicatorum, sacre theologie magister, sciensque se ad reddendam rationem de credito sibi talento teneri, ne tanquam malus seruus defodisse illud a suo domino coarguatur,<note place="foot" n="note2">Cf. <emph n="emph1">Mt</emph> 25,26</note> uigiliarum et studiorum suorum participes eos esse omnes uoluit qui libenter que uera sunt audiunt, ideoque Etymon scripsit in septem psalmos qui penitentiales appellantur, opus eruditum sane et Christianis auribus dignum. Quod si quis iniustior fortassis arbiter illud obiiciat: "In syluam ne ligna feras"<note place="foot" n="note3">Cf. Hor. <emph n="emph1">Serm.</emph> 1,10,34</note> et bone mentis hominem calumnietur quod tot et sanctissimis et doctissimis uiris qui psalmos sunt interpretati inserere se se non dubitauerit, sciat illud opusculum hoc ideo composuisse ut animi sui testimonium exhiberet, ne uacuus scilicet ad aream redeat,<note place="foot" n="note4">"ne… redeat" cf. Greg. Magn. <emph n="emph1">Hom.</emph> 22,1</note> memineritque et pauperculam illam a Seruatore nostro commendatam que duo era minuta misit in gazophilacium.<note place="foot" n="note5">Cf. <emph n="emph1">Mc</emph> 12,42; <emph n="emph2">Lc</emph> 21,1</note> Nobis quod talem uirum habeamus letandum est non immerito, quando quidem futurum speramus ut simpliciores quoque et doctiores etiam non modicam ex hac lectione commoditatem assequantur, si modo opus ipsum in lucem prodeat. Quod ut fieri debeat, et magistrum Dominicum et reuerendum patrem priorem prouincialem prouincie nostre <placeName n="placeName1">Dalmatie</placeName> hortamur et rogamus. Erit enim proculdubio ut multis et prosit et placeat. </p>
+      <body xml:lang="lat">
+         <div type="epistula" corresp="#kozicicbenjabuca15280227">
+            <head n="head">Elogium reuerendissimi in Christo patris et domini domini Simonis Begnii, Dei et Apostolice sedis gratia episcopi Modrusiensis, in Etymon reuerendi patris magistri Dominici Buchie ordinis predicatorum.</head>
+            <opener n="opener">Simon Begnius, Dei et Apostolice sedis gratia episcopus Modrusiensis, uniuersis presentes nostras litteras inspecturis salutem.</opener>
+            <p n="p1"> Quoniam laus uirtutis est premium, illa uera laus est que Domini et Seruatoris nostri uoce commendatur; is autem minimum in celorum regno eum uocandum dixit qui minimum unum de mandatis eius soluerit et docuerit sic homines.<note place="foot" n="note1">Cf. <emph n="emph">Mt</emph> 5,19</note> Cuius rei gratia uenerandus pater frater <persName n="persName">Dominicus Buchia</persName> Catharensis ordinis predicatorum, sacre theologie magister, sciensque se ad reddendam rationem de credito sibi talento teneri, ne tanquam malus seruus defodisse illud a suo domino coarguatur,<note place="foot" n="note2">Cf. <emph n="emph">Mt</emph> 25,26</note> uigiliarum et studiorum suorum participes eos esse omnes uoluit qui libenter que uera sunt audiunt, ideoque Etymon scripsit in septem psalmos qui penitentiales appellantur, opus eruditum sane et Christianis auribus dignum. Quod si quis iniustior fortassis arbiter illud obiiciat: "In syluam ne ligna feras"<note place="foot" n="note3">Cf. Hor. <emph n="emph">Serm.</emph> 1,10,34</note> et bone mentis hominem calumnietur quod tot et sanctissimis et doctissimis uiris qui psalmos sunt interpretati inserere se se non dubitauerit, sciat illud opusculum hoc ideo composuisse ut animi sui testimonium exhiberet, ne uacuus scilicet ad aream redeat,<note place="foot" n="note4">"ne… redeat" cf. Greg. Magn. <emph n="emph">Hom.</emph> 22,1</note> memineritque et pauperculam illam a Seruatore nostro commendatam que duo era minuta misit in gazophilacium.<note place="foot" n="note5">Cf. <emph n="emph1">Mc</emph> 12,42; <emph n="emph2">Lc</emph> 21,1</note> Nobis quod talem uirum habeamus letandum est non immerito, quando quidem futurum speramus ut simpliciores quoque et doctiores etiam non modicam ex hac lectione commoditatem assequantur, si modo opus ipsum in lucem prodeat. Quod ut fieri debeat, et magistrum Dominicum et reuerendum patrem priorem prouincialem prouincie nostre <placeName n="placeName">Dalmatie</placeName> hortamur et rogamus. Erit enim proculdubio ut multis et prosit et placeat. </p>
             <p n="p2">In quorum fidem presentibus manu nostra exaratis sigillum nostrum paruum apponi iussimus.</p>
-            <closer n="closer1">Iadere in edibus nostris, <date n="date1" when="1528-02-27">die XXVII. Februarii, anno a Christo nato MDXXVIII.</date>
+            <closer n="closer">Iadere in edibus nostris, <date n="date" when="1528-02-27">die XXVII. Februarii, anno a Christo nato MDXXVIII.</date>
             </closer>
          </div>
       </body>

@@ -44,14 +44,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -96,11 +91,11 @@
      </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:palikuc01.croala1332110.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <milestone unit="page" n="milestone1"/>
-         <gap n="gap1" reason="non-necesse"/>
-         <div n="div1" met="elegiacum" type="poesis-epigramma">
-            <head n="head1">EIVSDEM IN SVAM PATRIAM ENCOMIASTICON.</head>
+      <body xml:lang="lat">
+         <milestone unit="page"/>
+         <gap reason="non-necesse"/>
+         <div met="elegiacum" type="poesis-epigramma">
+            <head n="head">EIVSDEM IN SVAM PATRIAM ENCOMIASTICON.</head>
 
             <l n="l1">Quae iacet Illyricis Elaphite nobilis undis</l>
              
@@ -122,7 +117,7 @@
              
             <l n="l10" met="pentameter">Dentes ni cesses experiere meos.</l>
              
-            <gap n="gap1" reason="non-necesse"/>
+            <gap reason="non-necesse"/>
          </div>
       </body>
    </text>

@@ -42,20 +42,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -114,14 +103,14 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:marul01.croala877008.croala-lat1:" xml:lang="lat" type="prosa">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula">
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
 
 
 
 
-            <opener n="opener1"> Reuerendo in Christo pręsbitero Iacobo Grasolario, uiro uirtute ac eruditione prędito,
-     mei amantissimo mihique charissimo. Venetiis. <salute n="salute1">Iacobo Grasolario, pręsbitero, Marcus
+            <opener n="opener"> Reuerendo in Christo pręsbitero Iacobo Grasolario, uiro uirtute ac eruditione prędito,
+     mei amantissimo mihique charissimo. Venetiis. <salute n="salute">Iacobo Grasolario, pręsbitero, Marcus
       Marulus salutem.</salute>
             </opener>
 
@@ -145,7 +134,7 @@
      qui in cęlis est. Vbi enim sunt duo uel tres congregati in nomine meo, ibi sum in medio eorum.
      Congregemur igitur, Iacobe charissime, non obuio passuum accessu, quanuis id quoque mihi esset
      gratissimum, sed potius pari mutuaque cordium uoluntate. Et medius inter nos Christus erit.
-     Amor noster non alio nos dirigat quam in Dei amorem. Cuius <milestone n="milestone1" unit="page"/> prorsus
+     Amor noster non alio nos dirigat quam in Dei amorem. Cuius <milestone unit="page"/> prorsus
      ignara ethnicorum antiquitas nescio quę quattuor paria amicorum iactanter effert ac celebrat.
      Sed quid illa ad nostrorum charitatem? Esto ardenter, fideliter, constanter amarint, sed
      quousque quęso? Non ultra certe, nisi quoad uixerunt, quod perbreue fuit. Cita mors dissidium
@@ -180,10 +169,10 @@
      illecebra delinitus obtorpescam. Si me amas, cura, ut meliorem efficias, non ut plus mihi
      laudis addas. Ego te non solum amo ut optimum uirum, sed etiam ut optimum sacerdotem ueneror.
      Totus Tuus sum, quia Tu totus Christi. </p>
-            <closer n="closer1">
-               <salute n="salute1">Vale!</salute>
-               <dateline n="dateline1">
-                  <date n="date1" when-iso="1502-03-03">Anno christianę salutis MDII, quinto Nonas Martias.</date>
+            <closer n="closer">
+               <salute n="salute">Vale!</salute>
+               <dateline n="dateline">
+                  <date n="date" when-iso="1502-03-03">Anno christianę salutis MDII, quinto Nonas Martias.</date>
       Spalati.</dateline>
             </closer>
 

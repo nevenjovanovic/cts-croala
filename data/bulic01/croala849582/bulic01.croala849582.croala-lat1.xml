@@ -41,20 +41,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -114,15 +103,15 @@
 
 	
 
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosimetrum-inscriptio">
+      <body xml:lang="lat">
+         <div type="prosimetrum-inscriptio">
         
             <p n="p1">
-    HIC IACET FRANCISCVS BVLIĆ PECCATOR ET INDIGNVS / PRESBYTER <lb n="lb1"/>
-    EXPLETO ANNORVM CIRCVLO QVINTO / HOC SIBI <lb n="lb2"/>
-    SEPVLCRVM FRANCISCVS CONDERE IVSSIT / <lb n="lb3"/>
-    MARTYRVM SALONITANORVM <lb n="lb4"/>
-    SERVANS REVERENDA LIMINA SANCTORVM <lb n="lb5"/>
+    HIC IACET FRANCISCVS BVLIĆ PECCATOR ET INDIGNVS / PRESBYTER <lb/>
+    EXPLETO ANNORVM CIRCVLO QVINTO / HOC SIBI <lb/>
+    SEPVLCRVM FRANCISCVS CONDERE IVSSIT / <lb/>
+    MARTYRVM SALONITANORVM <lb/>
+    SERVANS REVERENDA LIMINA SANCTORVM <lb/>
             </p>
             <l n="l1" met="hexameter">OMNIPOTENSQVE DEVS QVI ME FORMAVIT ET AVFERT</l>
             <l n="l2" met="hexameter">CLEMENS EXCIPIAT SERVETQVE AD GAVDIA MEMBRVM</l>
@@ -132,8 +121,8 @@
                     OBIIT <date n="date2" when="1934-07-29">
                   <num n="num1">IV</num> KAL AVG A <num n="num2">MCMXXXIV</num>
                </date>
-                    <lb n="lb1"/>
-                    <expan n="expan1">Hoc Monumentum Heredem Non Sequitur</expan>
+                    <lb/>
+                    <expan n="expan">Hoc Monumentum Heredem Non Sequitur</expan>
                 </p>
         
 

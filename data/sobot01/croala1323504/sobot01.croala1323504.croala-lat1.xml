@@ -79,23 +79,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -174,14 +160,14 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot01.croala1323504.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula">
-                <head n="head1">
-               <date n="date1" when="1452-08-02">1452-08-02</date>, Tragurio, ad M. Vallaressum</head>
-                <milestone unit="page" xml:id="sob1898-48" n="milestone1" facs="images/sobota-48.png"/>
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">
+               <date n="date" when="1452-08-02">1452-08-02</date>, Tragurio, ad M. Vallaressum</head>
+                <milestone unit="page" xml:id="sob1898-48" facs="images/sobota-48.png"/>
 
-                <opener n="opener1">Johannes Sobotae Mapheo archiepiscopo Hyadrensi.</opener>
-                <p n="p1"> Omnes qui excellens ingenium tuum novere, clara voce et predicant et fatentur,
+                <opener n="opener">Johannes Sobotae Mapheo archiepiscopo Hyadrensi.</opener>
+                <p n="p"> Omnes qui excellens ingenium tuum novere, clara voce et predicant et fatentur,
                     te iustitiae esse accerimum patronum, nec unquam ullius auctoritas tantum
                     efficere potuit; ut a dignitate, splendoreve tuo discederes; qua ex re virtute
                     tua et animi magnitudine fretus, Luciano sacerdoti modestissimo illa de te
@@ -202,12 +188,12 @@
                     sequestrari, quae ille et patronatus iure et apostolica auctoritate possidet.
                     Maiorem in modum rogo, ita rem suam suscipias, ut ipse intelligat me ad te hac
                     de re non frustra scripsisse. </p>
-                <closer n="closer1">
-                    <salute n="salute1">Vale.</salute>
-                    <dateline n="dateline1"> Ex <placeName n="placeName1">
-                            <abbr n="abbr1">Tragur.</abbr>
+                <closer n="closer">
+                    <salute n="salute">Vale.</salute>
+                    <dateline n="dateline"> Ex <placeName n="placeName">
+                            <abbr n="abbr">Tragur.</abbr>
                         </placeName>
-                        <date n="date1" when="1452-08-02">IIII. nonas Sextilis MCCCCLII.</date>
+                        <date n="date" when="1452-08-02">IIII. nonas Sextilis MCCCCLII.</date>
                </dateline>
                 </closer>
             </div>

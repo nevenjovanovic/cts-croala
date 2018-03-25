@@ -50,25 +50,10 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1']/*[@n='$2'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -132,36 +117,36 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:madij01.croala1919303.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-historia">
-            <gap n="gap1" resp="NJ" reason="irrelevant"/>
-            <head n="head1">De gestis Romanorum imperatorum atque pontificum (excerptum de urbe Spalati)</head>
+        <body xml:lang="lat">
+            <div type="prosa-historia">
+            <gap resp="NJ" reason="irrelevant"/>
+            <head n="head">De gestis Romanorum imperatorum atque pontificum (excerptum de urbe Spalati)</head>
 
-            <div type="caput" n="div1">
+            <div type="caput" n="div">
 
-                <milestone unit="page" n="milestone1"/>
+                <milestone unit="page"/>
 
-                <milestone unit="column" n="milestone2"/>
+                <milestone unit="column"/>
 
-                <head n="head1">Caput XV. De Origine Civium Civitatis Spaleti. </head>
-
-
+                <head n="head">Caput XV. De Origine Civium Civitatis Spaleti. </head>
 
 
 
 
-                <p n="p1">Sciendum est igitur quod Civitas Spalatina contraxit originem a famosa et antiqua
+
+
+                <p n="p">Sciendum est igitur quod Civitas Spalatina contraxit originem a famosa et antiqua
                     ac Nobili Civitate Salonae, quae Salona fuit tempore Trojanorum, et dominabatur
                     totam Dalmatiam et Croatiam usque in Vngariam et dicitur per historias, et
                     Chronicas antiquas ipsam Civitatis Salonae tempore sui status dedisse ad
                     destructionem Trojanorum contra Regem Priamum in subsidium Graecorum galeas
                     armatas numero LXXII. nam Spaletum secundum veram etymologiam, et
                     interpretationem nominis ipsius Civitatis dicitur proprie Spaletum
-                    <abbr n="abbr1">i.</abbr> Salonae Palatium laetum, vel Salonae Palatium latum a
+                    <abbr n="abbr">i.</abbr> Salonae Palatium laetum, vel Salonae Palatium latum a
                     Diocletiano Imperatore mirabiliter fabricatum, et ut habetur in Chronicis
                     antiquis Romanis quod iste Imperator Diocletianus ut dicitur fuit natione, et
                     oriundus de Dalmatia id est, de Civitate Salonae, et ideo in sigillo Civitatis
-                    Spalati continetur versiculus <q n="q1">Palatium laetum Spalatum Salonae quietum</q>.
+                    Spalati continetur versiculus <q n="q">Palatium laetum Spalatum Salonae quietum</q>.
                     post destructionem vero Salonae a Totila Duce Polonorum, Principes, Comites, et
                     Barones, et alii milites Nobiles dictae Civitatis Salonae ad Insulas fugientes,
                     et ibidem aliquo tempore permanentes, postea major pars Nobilium Salonae
@@ -174,10 +159,10 @@
                     Nobiles habuerunt antiquam originem eorum a Trojanis, et aliis Nobilibus hujus
                     orbis, de antiqua et Nobili Civitate Salonae fit mentio in jure Canonico, et in
                     multis decretis investigatis per sapientes, similiter de dicta Civitate Salonae
-                    fit mentio <quote n="quote1">
-                        <bibl n="bibl1">per Lucanum Poetam in lib. IIII. in Arenga Vulteij ubi dicit:</bibl>
+                    fit mentio <quote n="quote">
+                        <bibl n="bibl">per Lucanum Poetam in lib. IIII. in Arenga Vulteij ubi dicit:</bibl>
 
-                        <q n="q1">
+                        <q n="q">
                             <l n="l1">Qua maris Adriaci longas ferit unda Salonas</l>
                             <l n="l2">Et tepidum in molles Zephiros excurrit Iader.</l>
                         </q>
@@ -186,7 +171,7 @@
                     circuibat totam Civitatem Salonae, et consolabatur omnes ibi stantes in ea. Et
                     usque Spaletum per conductos discurrebat, fuit impositum ipsi nomen fluvii
                     Iader. Licet igitur quod Civitas Spaleti sit depressa in temporalibus, tamen in
-                    spiritualibus superat, <milestone unit="column" n="milestone1"/> et excellit omnes
+                    spiritualibus superat, <milestone unit="column"/> et excellit omnes
                     Civitates de Dalmatia honore, et dignitate, eo quod Archiepiscopus Spalatinus
                     vocatur Primas totius Dalmatiae habens sub se suffraganeos suos Episcopos X. id
                     est, Traguriensem Sibenicensem Scardonensem Tiniensem Corbauiensem Nonensem
@@ -201,7 +186,7 @@
                     Civitas de honore sui status non modicum amisit.</p>
             </div>
 
-            <gap n="gap2" resp="NJ" reason="irrelevant"/>
+            <gap resp="NJ" reason="irrelevant"/>
 
 
          </div>

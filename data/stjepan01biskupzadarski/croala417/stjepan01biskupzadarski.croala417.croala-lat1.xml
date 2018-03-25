@@ -51,20 +51,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -115,13 +104,13 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:stjepan01biskupzadarski.croala417.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-donatio">
+        <body xml:lang="lat">
+         <div type="prosa-donatio">
     
-            <p n="p1">Territorium sancti Crisogoni in insula in loco, qui antiquo nomine Flaueico dicitur, nunc uero Postimana nominatur, in quo loco Prestancius episcopus una cum Maio, fratre suo, priore, edificauerant ecclesiam ad honorem beati archangeli Michahelis, et, quibus ualuerant dotarunt beneficiis. Traso denique, qui illis diebus huic nostro cenobio preerat abbas, prospiciens hunc locum sibi suisque fratribus satis esse congruum et ad suam utilitatem nimis proficuum, uocauit ad se dictos fratres et petiuit illum disponens eis necessitatem suorum fratrum ac domus dei. Cuius uoluntatem ac peticionem consecuti sunt dictus presul et frater eius obtuleruntque in obsequio abbatis et fratrum tam ecclesiam, quam edificarant, quamque adiacencia territoria et ut perpetuo beati martiris cella fieret, tradentes eam legaliter coram nonnullis Iaderensium, stabiliunt et confirmant. Quod factum utique inconuulsum mansit temporibus ipsorum. Sed post obitum illorum quidam temptabant subtrahere aliquid de donatis iam ecclesie dei territoriis. Qua de causa ueniens ad insulam filius dicti prioris Gregorius, similiter Iaderensis prior et imperialis patrikyus ac tocius Dalmacie stratigo, ad insulam cum suis consobrinis <sic n="sic1">filii</sic> dicti episcopi, quatinus quis iam nunquam posset in aliquo seruos dei molestare, predicta territoria, sicut a suis patribus sacro cenobio donata fuerant, clarius propalauerunt confirmarunt et his terminis terminarunt: a mari uidelicet usque ad moncium summitates, et a fundo uallis, que in oriente post prefatam ecclesiam esse cernitur, in quo fossatus habetur, qui contra ipsos montes mitti uidetur usque maceriam, que ultra desertum oppidum in parte occidentali similiter habetur, quo eciam tunc ob sui facti memoriam lapidum pro signo pusillum statuunt aceruum. </p>
-            <closer n="closer1">
-               <signatures n="signatures1">Et hec quippe nomina sunt eorum qui huius rei cum eo tunc adiutores, cooperatores et testes affuerunt, quorum iussu et uoluntate et hoc cyrographum scribere fecimus: inprimis <corr n="corr1">scilicet</corr> Prestancius tribunus, Dabro tribunus, Martinus tribunus, Cerneca tribunus, Andreas tribunus, qui postea prior effectus est, Dabro tribunus, Sergius tribunus, Georgius tribunus, Maius tribunus, Ursana tribunus, Petrus tribunus, Pancella tribunus et alii plurimi.</signatures>
-               <signed n="signed1">Ego Stephanus, Iaderensis episcopus, horum et aliorum nobilium plurimorum consilio et uoluntate, iussu et testificatione curis prepeditus nonnullis cyrographum hoc rustico sermone conscripsi.</signed>
+            <p n="p">Territorium sancti Crisogoni in insula in loco, qui antiquo nomine Flaueico dicitur, nunc uero Postimana nominatur, in quo loco Prestancius episcopus una cum Maio, fratre suo, priore, edificauerant ecclesiam ad honorem beati archangeli Michahelis, et, quibus ualuerant dotarunt beneficiis. Traso denique, qui illis diebus huic nostro cenobio preerat abbas, prospiciens hunc locum sibi suisque fratribus satis esse congruum et ad suam utilitatem nimis proficuum, uocauit ad se dictos fratres et petiuit illum disponens eis necessitatem suorum fratrum ac domus dei. Cuius uoluntatem ac peticionem consecuti sunt dictus presul et frater eius obtuleruntque in obsequio abbatis et fratrum tam ecclesiam, quam edificarant, quamque adiacencia territoria et ut perpetuo beati martiris cella fieret, tradentes eam legaliter coram nonnullis Iaderensium, stabiliunt et confirmant. Quod factum utique inconuulsum mansit temporibus ipsorum. Sed post obitum illorum quidam temptabant subtrahere aliquid de donatis iam ecclesie dei territoriis. Qua de causa ueniens ad insulam filius dicti prioris Gregorius, similiter Iaderensis prior et imperialis patrikyus ac tocius Dalmacie stratigo, ad insulam cum suis consobrinis <sic n="sic">filii</sic> dicti episcopi, quatinus quis iam nunquam posset in aliquo seruos dei molestare, predicta territoria, sicut a suis patribus sacro cenobio donata fuerant, clarius propalauerunt confirmarunt et his terminis terminarunt: a mari uidelicet usque ad moncium summitates, et a fundo uallis, que in oriente post prefatam ecclesiam esse cernitur, in quo fossatus habetur, qui contra ipsos montes mitti uidetur usque maceriam, que ultra desertum oppidum in parte occidentali similiter habetur, quo eciam tunc ob sui facti memoriam lapidum pro signo pusillum statuunt aceruum. </p>
+            <closer n="closer">
+               <signatures n="signatures">Et hec quippe nomina sunt eorum qui huius rei cum eo tunc adiutores, cooperatores et testes affuerunt, quorum iussu et uoluntate et hoc cyrographum scribere fecimus: inprimis <corr n="corr">scilicet</corr> Prestancius tribunus, Dabro tribunus, Martinus tribunus, Cerneca tribunus, Andreas tribunus, qui postea prior effectus est, Dabro tribunus, Sergius tribunus, Georgius tribunus, Maius tribunus, Ursana tribunus, Petrus tribunus, Pancella tribunus et alii plurimi.</signatures>
+               <signed n="signed">Ego Stephanus, Iaderensis episcopus, horum et aliorum nobilium plurimorum consilio et uoluntate, iussu et testificatione curis prepeditus nonnullis cyrographum hoc rustico sermone conscripsi.</signed>
             </closer>
          </div>
         </body>

@@ -43,17 +43,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -99,9 +91,9 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:vranc03.croala890288.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-elegia" met="elegiacum">
-            <head n="head1">ERROR DEVIUS VIRGINIS RUTHENAE</head>
+      <body xml:lang="lat">
+         <div type="poesis-elegia" met="elegiacum">
+            <head n="head">ERROR DEVIUS VIRGINIS RUTHENAE</head>
             <l n="l1">Qua patet in latos prępinguis Ruscia campos</l>
 
             <l n="l2" met="pentameter"> Sylua iacet densis ampla vetusque comis.</l>
@@ -110,7 +102,7 @@
 
             <l n="l4" met="pentameter"> Subdita sic molli gramine vernat humus.</l>
 
-            <l n="l5">Si spectes pulchro concordes ordine quercus <note n="note1" type="numvers">5</note>
+            <l n="l5">Si spectes pulchro concordes ordine quercus <note n="note" type="numvers">5</note>
             </l>
 
             <l n="l6" met="pentameter"> Ex vna dices arbore stare nemus.</l>
@@ -121,7 +113,7 @@
 
             <l n="l9">Sunt tamen et densi frutices caecique meatus,</l>
 
-            <l n="l10" met="pentameter"> Quos viridis condit vertice sylua suo. <note n="note1" type="numvers">10</note>
+            <l n="l10" met="pentameter"> Quos viridis condit vertice sylua suo. <note n="note" type="numvers">10</note>
             </l>
 
             <l n="l11">Huc studio florum, tectis egressa paternis</l>
@@ -132,7 +124,7 @@
 
             <l n="l14" met="pentameter"> Cuius adhuc mentem florea serta tenent?</l>
 
-            <l n="l15">Non bene conspecto sale parcit ouicula linguę, <note n="note1" type="numvers">15</note>
+            <l n="l15">Non bene conspecto sale parcit ouicula linguę, <note n="note" type="numvers">15</note>
             </l>
 
             <l n="l16" met="pentameter"> Non bene conspectis abstinet vrsa fauis;</l>
@@ -143,19 +135,19 @@
 
             <l n="l19">Ergo vbi sublustri sic sola vagatur in vmbra</l>
 
-            <l n="l20" met="pentameter"> Et pulchros flores, pulchrior ipsa, legit. <note n="note1" type="numvers">20</note>
+            <l n="l20" met="pentameter"> Et pulchros flores, pulchrior ipsa, legit. <note n="note" type="numvers">20</note>
             </l>
 
             <l n="l21">Suauibus incingit violis frontemque comamque,</l>
 
             <l n="l22" met="pentameter"> Auribus ornandis proxima cura fuit.</l>
 
-            <pb n="pb1"/>
+            <pb/>
             <l n="l23">Inde rosas nectit qua pectus parte papillas</l>
 
             <l n="l24" met="pentameter"> Prodit et e stricta trudere veste solet.</l>
 
-            <l n="l25">Nec caruere manus alternis floribus, illis <note n="note1" type="numvers">25</note>
+            <l n="l25">Nec caruere manus alternis floribus, illis <note n="note" type="numvers">25</note>
             </l>
 
             <l n="l26" met="pentameter"> Fert calathos plenos, fert tumidosque sinus.</l>
@@ -166,7 +158,7 @@
 
             <l n="l29">Tum quo lenta magis profert vestigia, tanto</l>
 
-            <l n="l30" met="pentameter"> Hos fragrare magis hosque rubere putat. <note n="note1" type="numvers">30</note>
+            <l n="l30" met="pentameter"> Hos fragrare magis hosque rubere putat. <note n="note" type="numvers">30</note>
             </l>
 
             <l n="l31">Interdum laetas extollit ad aethera voces,</l>
@@ -177,7 +169,7 @@
 
             <l n="l34" met="pentameter"> Progreditur, semper lilia sparsa legens.</l>
 
-            <l n="l35">Hac ratione subit sensim dumeta rubosque <note n="note1" type="numvers">35</note>
+            <l n="l35">Hac ratione subit sensim dumeta rubosque <note n="note" type="numvers">35</note>
             </l>
 
             <l n="l36" met="pentameter"> (Ah loca non illi sed magis apta feris!)</l>
@@ -188,7 +180,7 @@
 
             <l n="l39">Iam medium Titan dudum transmiserat orbem</l>
 
-            <l n="l40" met="pentameter"> Surgebatque humili Cynthia pura face. <note n="note1" type="numvers">40</note>
+            <l n="l40" met="pentameter"> Surgebatque humili Cynthia pura face. <note n="note" type="numvers">40</note>
             </l>
 
             <l n="l41">En miserae primum redeundi cura subintrat,</l>
@@ -199,7 +191,7 @@
 
             <l n="l44" met="pentameter"> Qua sub circumstans iuerat ante nemus.</l>
 
-            <l n="l45">Illa quidem notos iam iam se cernere fumos, <note n="note1" type="numvers">45</note>
+            <l n="l45">Illa quidem notos iam iam se cernere fumos, <note n="note" type="numvers">45</note>
             </l>
 
             <l n="l46" met="pentameter"> Et quibus exierat, proxima septa, putat.</l>
@@ -213,11 +205,11 @@
             </l>
 
             <l n="l50" met="pentameter">
-               <emph n="emph1"> Quo feror? aut quo me deuius error agit? </emph>
-               <note n="note1" type="numvers">50</note>
+               <emph n="emph"> Quo feror? aut quo me deuius error agit? </emph>
+               <note n="note" type="numvers">50</note>
             </l>
 
-            <pb n="pb2"/>
+            <pb/>
             <l n="l51">Nec mora, conuertit passus, saltuque remenso</l>
 
             <l n="l52" met="pentameter"> Diuersum frustra saepe retexit iter.</l>
@@ -226,18 +218,18 @@
 
             <l n="l54" met="pentameter"> Aut quercum aut pinum noscere forte queat.</l>
 
-            <l n="l55">Sed nec quercus adest vsquam, nec cognita pinus, <note n="note1" type="numvers">55</note>
+            <l n="l55">Sed nec quercus adest vsquam, nec cognita pinus, <note n="note" type="numvers">55</note>
             </l>
 
             <l n="l56" met="pentameter"> Nec calcata recens signa dat herba pedis.</l>
 
             <l n="l57">Credo ego quod latebras nemo penetrarit ad illas,</l>
 
-            <l n="l58" met="pentameter"> Solas <corr n="corr1">praeter</corr> aues, praecipitesque feras.</l>
+            <l n="l58" met="pentameter"> Solas <corr n="corr">praeter</corr> aues, praecipitesque feras.</l>
 
             <l n="l59">Fixa igitur trunco similis stetit, et grauis illi</l>
 
-            <l n="l60" met="pentameter"> A summo fluxit vertice ad ima pauor; <note n="note1" type="numvers">60</note>
+            <l n="l60" met="pentameter"> A summo fluxit vertice ad ima pauor; <note n="note" type="numvers">60</note>
             </l>
 
             <l n="l61">Contremit vt lino circundata cerua doloso,</l>
@@ -248,7 +240,7 @@
 
             <l n="l64" met="pentameter"> Virga venenato perlita melle tenet.</l>
 
-            <l n="l65">Quid faciat? <corr n="corr1">Solum</corr> quod restat, pectora palmis <note n="note1" type="numvers">65</note>
+            <l n="l65">Quid faciat? <corr n="corr">Solum</corr> quod restat, pectora palmis <note n="note" type="numvers">65</note>
             </l>
 
             <l n="l66" met="pentameter"> tundit et effuso proluit imbre genas.</l>
@@ -259,19 +251,19 @@
 
             <l n="l69">Indignum, faciem quod cernat virginis vllam,</l>
 
-            <l n="l70" met="pentameter"> Aut quod serta legens vlla puella petat. <note n="note1" type="numvers">70</note>
+            <l n="l70" met="pentameter"> Aut quod serta legens vlla puella petat. <note n="note" type="numvers">70</note>
             </l>
 
             <l n="l71">Nec puto florilegas habitare hęc lustra Napaeas,</l>
 
-            <l n="l72" met="pentameter">inquit<emph n="emph1">, at incertum his, vt mihi, noctis iter.</emph>
+            <l n="l72" met="pentameter">inquit<emph n="emph">, at incertum his, vt mihi, noctis iter.</emph>
             </l>
 
             <l n="l73">O mihi si vltrices quis flammas porrigat, ater</l>
 
             <l n="l74" met="pentameter"> Fronde sua fieret iam nemus omne cinis! </l>
 
-            <l n="l75">Talia collacrymans nequicquam verba profundit <note n="note1" type="numvers">75</note>
+            <l n="l75">Talia collacrymans nequicquam verba profundit <note n="note" type="numvers">75</note>
             </l>
 
             <l n="l76" met="pentameter"> Suspensamque tenent ira, timor, tenebrae.</l>
@@ -280,10 +272,10 @@
 
             <l n="l78" met="pentameter"> Et modo quod pergit, postmodo sistit iter.</l>
 
-            <pb n="pb3"/>
+            <pb/>
             <l n="l79">Nunc fratres lassa implorat nunc voce parentes,</l>
 
-            <l n="l80" met="pentameter"> Voce sua rursus territa facta silet. <note n="note1" type="numvers">80</note>
+            <l n="l80" met="pentameter"> Voce sua rursus territa facta silet. <note n="note" type="numvers">80</note>
             </l>
 
             <l n="l81">Floribus at quoties accensos flexit ocellos,</l>
@@ -295,9 +287,9 @@
             </l>
 
             <l n="l84" met="pentameter">
-               <emph n="emph1"> Ite sinu, </emph>et similis deijcientis erat.</l>
+               <emph n="emph"> Ite sinu, </emph>et similis deijcientis erat.</l>
 
-            <l n="l85">Nec tamen illa sinus, licet irritata, remisit, <note n="note1" type="numvers">85</note>
+            <l n="l85">Nec tamen illa sinus, licet irritata, remisit, <note n="note" type="numvers">85</note>
             </l>
 
             <l n="l86" met="pentameter"> Corde libet poenas sumere, dextra nequit.</l>
@@ -308,7 +300,7 @@
 
             <l n="l89">Dumque ita, cuncta pauens, tacita se continet vmbra,</l>
 
-            <l n="l90" met="pentameter"> Latrantis sonitum percipit aure canis. <note n="note1" type="numvers">90</note>
+            <l n="l90" met="pentameter"> Latrantis sonitum percipit aure canis. <note n="note" type="numvers">90</note>
             </l>
 
             <l n="l91">Spe sumpta ad sonitum totos exporrigit artus</l>
@@ -322,8 +314,8 @@
             <l n="l94" met="pentameter"> Aut ferus infirmum seruat ouile canis.</l>
 
             <l n="l95">
-               <emph n="emph1">Aut me non reducem fratrum pia turba requirit,</emph> 
-               <note n="note1" type="numvers">95</note>
+               <emph n="emph">Aut me non reducem fratrum pia turba requirit,</emph> 
+               <note n="note" type="numvers">95</note>
             </l>
 
             <l n="l96" met="pentameter"> Aut aliquis caecis errat vt ipsa locis.</l>
@@ -334,7 +326,7 @@
 
             <l n="l99">Imo cauet nequis se cernere possit euntem,</l>
 
-            <l n="l100" met="pentameter"> Vtque feras metuit, sic timet aegra viros. <note n="note1" type="numvers">100</note>
+            <l n="l100" met="pentameter"> Vtque feras metuit, sic timet aegra viros. <note n="note" type="numvers">100</note>
             </l>
 
             <l n="l101">Conspicit in modico veluti tentoria prato</l>
@@ -345,19 +337,19 @@
 
             <l n="l104" met="pentameter"> Namque dabat fessis praeda ferina dapes.</l>
 
-            <l n="l105">Participes operis, polluti sanguine rictus <note n="note1" type="numvers">105</note>
+            <l n="l105">Participes operis, polluti sanguine rictus <note n="note" type="numvers">105</note>
             </l>
 
             <l n="l106" met="pentameter"> Hinc stando spectant inde iacendo canes.</l>
 
-            <pb n="pb4"/>
+            <pb/>
             <l n="l107">Exoritur formido noua et noua cura resurgit.</l>
 
             <l n="l108" met="pentameter"> Debeat ignotos, nescit adire homines.</l>
 
             <l n="l109">In partes animum varias rapit, omnia tandem</l>
 
-            <l n="l110" met="pentameter"> Versans, vna timet quinque puella mares. <note n="note1" type="numvers">110</note>
+            <l n="l110" met="pentameter"> Versans, vna timet quinque puella mares. <note n="note" type="numvers">110</note>
             </l>
 
             <l n="l111">Sed timet et syluas et densa silentia noctis,</l>
@@ -369,8 +361,8 @@
             <l n="l114" met="pentameter"> Vltra suscipiat, quid fugiatue tenet.</l>
 
             <l n="l115">
-               <emph n="emph1">Hinc si iter arripio et tentoria viso propinqua </emph>
-               <note n="note1" type="numvers">115</note>
+               <emph n="emph">Hinc si iter arripio et tentoria viso propinqua </emph>
+               <note n="note" type="numvers">115</note>
             </l>
 
             <l n="l116" met="pentameter">
@@ -384,8 +376,8 @@
             <l n="l119">Ante lupi lanient igitur mea membra voraces</l>
 
             <l n="l120" met="pentameter">
-               <emph n="emph1"> Aut secet in partes mille cruentus aper,</emph> 
-               <note n="note1" type="numvers">120</note>
+               <emph n="emph"> Aut secet in partes mille cruentus aper,</emph> 
+               <note n="note" type="numvers">120</note>
             </l>
 
             <l n="l121">Quam mea virginitas totos seruata per annos</l>
@@ -397,8 +389,8 @@
             <l n="l124" met="pentameter"> Quippe frui censent virginitate iocum.</l>
 
             <l n="l125">
-               <emph n="emph1">Et nox ipsa nihil suadet moderabile, noctis </emph>
-               <note n="note1" type="numvers">125</note>
+               <emph n="emph">Et nox ipsa nihil suadet moderabile, noctis </emph>
+               <note n="note" type="numvers">125</note>
             </l>
 
             <l n="l126" met="pentameter"> 'Tu quoque', clamabunt, 'praeda cupita venis.'</l>
@@ -410,8 +402,8 @@
             <l n="l129">Stulta prius dentes metui moritura ferarum:</l>
 
             <l n="l130" met="pentameter">
-               <emph n="emph1"> Plus puto nunc homines posse nocere feris.</emph> 
-               <note n="note1" type="numvers">130</note>
+               <emph n="emph"> Plus puto nunc homines posse nocere feris.</emph> 
+               <note n="note" type="numvers">130</note>
             </l>
 
             <l n="l131">Sed fera nec verbis nec fletibus vlla mouetur,</l>
@@ -422,24 +414,24 @@
 
             <l n="l134" met="pentameter"> Verba, dolor, gemitus, cordolium, lacrymae.</l>
 
-            <pb n="pb5"/>
+            <pb/>
             <l n="l135">
-               <emph n="emph1">Accedam supplex, homines insana verebor?</emph> 
-               <note n="note1" type="numvers">135</note>
+               <emph n="emph">Accedam supplex, homines insana verebor?</emph> 
+               <note n="note" type="numvers">135</note>
             </l>
 
             <l n="l136" met="pentameter"> An melius saeuis hisce perire locis?</l>
 
             <l n="l137">
-               <corr n="corr1">Forsitan</corr> infelix vitam seruabo, sed illa</l>
+               <corr n="corr">Forsitan</corr> infelix vitam seruabo, sed illa</l>
 
             <l n="l138" met="pentameter"> Incustodito corpore qualis erit?</l>
 
             <l n="l139">Cuncta mihi potius sunt experienda priusquam</l>
 
             <l n="l140" met="pentameter">
-               <emph n="emph1"> Excludant summum lumina nostra diem.</emph> 
-               <note n="note1" type="numvers">140</note>
+               <emph n="emph"> Excludant summum lumina nostra diem.</emph> 
+               <note n="note" type="numvers">140</note>
             </l>
 
             <l n="l141">Excludant, peream, sperno violata salutem.</l>
@@ -451,8 +443,8 @@
             <l n="l144" met="pentameter"> Errori posset parcere quisque meo.</l>
 
             <l n="l145">
-               <emph n="emph1">At si sponte petam iuuenes tot sola, putabunt</emph> 
-               <note n="note1" type="numvers">145</note>
+               <emph n="emph">At si sponte petam iuuenes tot sola, putabunt</emph> 
+               <note n="note" type="numvers">145</note>
             </l>
 
             <l n="l146" met="pentameter"> Quaesitum Veneris me in nemus isse iocos.</l>
@@ -464,8 +456,8 @@
             <l n="l149">O facies, quae me laedet, si ignobilis esset:</l>
 
             <l n="l150" met="pentameter">
-               <emph n="emph1"> Vae miserae, contra me mea forma facit! </emph>
-               <note n="note1" type="numvers">150</note>
+               <emph n="emph"> Vae miserae, contra me mea forma facit! </emph>
+               <note n="note" type="numvers">150</note>
             </l>
 
             <l n="l151">Vt formosa suo facies fert tempore fructus</l>
@@ -477,8 +469,8 @@
             <l n="l154" met="pentameter"> Turpe facit corpus mens scelerata suum.</l>
 
             <l n="l155">
-               <emph n="emph1">Ah modo ne ante diem virides mors auferat annos,</emph> 
-               <note n="note1" type="numvers">155</note>
+               <emph n="emph">Ah modo ne ante diem virides mors auferat annos,</emph> 
+               <note n="note" type="numvers">155</note>
             </l>
 
             <l n="l156" met="pentameter"> Quod vitare nequis dissimulare licet.</l>
@@ -490,22 +482,22 @@
             <l n="l159">Fingere fac possim, noscent mea crimina quinque:</l>
 
             <l n="l160" met="pentameter">
-               <emph n="emph1"> Quinque sciant, totus conscius orbis erit!</emph> 
-               <note n="note1" type="numvers">160</note>
+               <emph n="emph"> Quinque sciant, totus conscius orbis erit!</emph> 
+               <note n="note" type="numvers">160</note>
             </l>
 
             <l n="l161">Vt taceant homines — volucres scelus esse querentur;</l>
 
             <l n="l162" met="pentameter"> Gramina me prodent arboreaeque comae.</l>
 
-            <pb n="pb6"/>
+            <pb/>
             <l n="l163">Proh, qui cuncta vides, celsi regnator Olympi,</l>
 
             <l n="l164" met="pentameter"> Aspice quo mea sint vita pudorque loco.</l>
 
             <l n="l165">
-               <emph n="emph1">Sylua tenet clausam, laeso candore patebit,</emph> 
-               <note n="note1" type="numvers">165</note>
+               <emph n="emph">Sylua tenet clausam, laeso candore patebit,</emph> 
+               <note n="note" type="numvers">165</note>
             </l>
 
             <l n="l166" met="pentameter"> Hinc mors, morte premit durius inde nefas.</l>
@@ -517,8 +509,8 @@
             <l n="l169">Quin non vlla salus, non est mihi Ruscia tanti,</l>
 
             <l n="l170" met="pentameter">
-               <emph n="emph1"> Ducar vt in thalamum post, viciata, nouum.</emph> 
-               <note n="note1" type="numvers">170</note>
+               <emph n="emph"> Ducar vt in thalamum post, viciata, nouum.</emph> 
+               <note n="note" type="numvers">170</note>
             </l>
 
             <l n="l171">Casta faue castae Virgo, cum virgine Nato,</l>
@@ -530,8 +522,8 @@
             <l n="l174" met="pentameter"> Saxa pudicitiae, candor, honor, probitas.</l>
 
             <l n="l175">
-               <emph n="emph1">Praestat in his totum syluis errare per aeuum </emph>
-               <note n="note1" type="numvers">175</note>
+               <emph n="emph">Praestat in his totum syluis errare per aeuum </emph>
+               <note n="note" type="numvers">175</note>
             </l>
 
             <l n="l176" met="pentameter"> Vna quam bona tot perdere nocte simul.</l>

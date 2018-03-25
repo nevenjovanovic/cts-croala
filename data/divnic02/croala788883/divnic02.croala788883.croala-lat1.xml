@@ -56,17 +56,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -125,17 +117,17 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:divnic02.croala788883.croala-lat1:" xml:lang="lat" type="poesis">
-                <body xml:lang="lat" n="body1">
-                    <gap n="gap1" resp="NJ" reason="irrelevant"/>
+                <body xml:lang="lat">
+                    <gap resp="NJ" reason="irrelevant"/>
                     
-                    <div n="div1" type="poesis-epigramma" met="elegiacum">
+                    <div type="poesis-epigramma" met="elegiacum">
                         
-            <milestone unit="page" n="milestone1"/>
+            <milestone unit="page"/>
 
 
 
-                        <head n="head1">In librum statutorum <corr n="corr1">Sibenicensium</corr>.
-                            <expan n="expan1">Ioannis</expan> Baptistae Diphnici archidiaconi et nobilis Sibenicensis Sacrę Theologię Doctoris. Epigramma.
+                        <head n="head">In librum statutorum <corr n="corr">Sibenicensium</corr>.
+                            <expan n="expan">Ioannis</expan> Baptistae Diphnici archidiaconi et nobilis Sibenicensis Sacrę Theologię Doctoris. Epigramma.
                         </head> 
                         <l n="l1">Aspera te rupes, Siccum, te moenia seruant,</l>
                         <l n="l2" met="pentameter">Turribus et gemina tutius arce micas.</l>
@@ -145,7 +137,7 @@
                         <l n="l6" met="pentameter">In te ut sit semper pacis amica quies.</l>
                     </div>
                     
-                    <gap n="gap2" resp="NJ" reason="irrelevant"/>
+                    <gap resp="NJ" reason="irrelevant"/>
 
                     
                     

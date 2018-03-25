@@ -46,29 +46,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -130,9 +110,9 @@
       </revisionDesc>
   </teiHeader>
    <text xml:base="urn:cts:croala:and02.croala904367.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistola">
-            <opener n="opener1">Reverende domine, domine honorande,</opener>
+      <body xml:lang="lat">
+         <div type="prosa-epistola">
+            <opener n="opener">Reverende domine, domine honorande,</opener>
             <p n="p1">Credo tue reverende dominationi cognitos esse meos omnes casus usque ad reditum ex
                   <placeName n="placeName1">Constantinopoli</placeName>. Quam primum veni in
                   <placeName n="placeName2">Hungariam</placeName> rege adhuc extorre, subita et ancipiti egritudine
@@ -140,7 +120,7 @@
                maiestas rediit ex <placeName n="placeName3">Polonia</placeName>; narravi necessitates tue reverende
                dominationis, quas et ipse noveram et tua reverenda dominatio perscripserat in
                literis, quas ad me dederat in <placeName n="placeName4">Turciam</placeName>. Regia maiestas iniquo
-               animo tullit <sic n="sic1">infortuniam</sic> tue reverende dominationis, propter temporum
+               animo tullit <sic n="sic">infortuniam</sic> tue reverende dominationis, propter temporum
                difficultates, ceterum affirmavit, se postea providisse tue reverendissime
                dominationi de expensis. Hoc eciam possum polliceri tue reverendissime dominationi,
                quod tua reverendissima dominatio amplificata dignitate auctisque fortunis reditura
@@ -148,7 +128,7 @@
 
             <p n="p2">Regia maiestas aliquot in locis alit magnas copias, iam plerasque provincias subegit
                et arces expugnavit. Hic <ref n="ref1">potentissimus princeps Turcus</ref> mittit regie
-               maiestati in subsidium sex sanzachos et ipse cum validissimo <sic n="sic1">excercitu</sic>
+               maiestati in subsidium sex sanzachos et ipse cum validissimo <sic n="sic">excercitu</sic>
                contra hostes nostros adulto vere profecturus. Me huc venire mutatis equis adhuc
                imbecillem opportuit iussu regie maiestatis; his diebus octo credo me expeditum ex
                sentencia rediturum ad regiam maiestatem. Magnificus dominus <persName n="persName1">Ludovicus
@@ -158,31 +138,31 @@
                ipsum magnificum dominum <persName n="persName2">Gritti</persName> misit. Ingens me cura invasit de
                reverendissimo domino <persName n="persName3">Statilio</persName> et magnifico
                   <persName n="persName4">Rincone</persName>, oratore <ref n="ref2">regis
-                  <placeName n="placeName1">Frantie</placeName>
+                  <placeName n="placeName">Frantie</placeName>
                </ref>, si expediti sunt et quod nondum redierint;
                timeo, ne quid eis accident. Sed utinam deus nostras curas in melius mutet.</p>
             <closer n="closer1">
-               <salute n="salute1">Cupio, ut tua reverendissima dominatio recte valeat, cui me unice
+               <salute n="salute">Cupio, ut tua reverendissima dominatio recte valeat, cui me unice
                   commendo.</salute>
-               <dateline n="dateline1">Ex <placeName n="placeName1">Constantinopoli</placeName>, <date n="date1" when="1529-02-15">15.
-                        <sic n="sic1">marcii</sic> 1529</date>.</dateline>
-               <signed n="signed1">
-                  <persName n="persName1">Tranquillus</persName> manu propria</signed>
+               <dateline n="dateline">Ex <placeName n="placeName">Constantinopoli</placeName>, <date n="date" when="1529-02-15">15.
+                        <sic n="sic">marcii</sic> 1529</date>.</dateline>
+               <signed n="signed">
+                  <persName n="persName">Tranquillus</persName> manu propria</signed>
             </closer>
-            <postscript n="postscript1">
-               <p n="p1">
-                  <persName n="persName1">Radul</persName> wayvoda, omnium bipedum ingratissimus, a suis
-                  trucidatus est cum filio, cuius morte credimus fractos esse <ref n="ref1">animos
+            <postscript n="postscript">
+               <p n="p">
+                  <persName n="persName">Radul</persName> wayvoda, omnium bipedum ingratissimus, a suis
+                  trucidatus est cum filio, cuius morte credimus fractos esse <ref n="ref">animos
                      Transsilvanenses</ref>.</p>
             </postscript>
 
-            <note n="note1">Suprascriptio et copia literarum ut continent.</note>
+            <note n="note">Suprascriptio et copia literarum ut continent.</note>
             <closer n="closer2">
-               <address n="address1">
-                  <addrLine n="addrLine1">Reverendo domino, domino <persName n="persName1">Iohanni Bonzano</persName>,
+               <address n="address">
+                  <addrLine n="addrLine">Reverendo domino, domino <persName n="persName">Iohanni Bonzano</persName>,
                         <ref n="ref1">preposito Varadiensi</ref> et <ref n="ref2">oratori serenissimi domini
-                           <persName n="persName1">Iohannis regis Ungarie</persName> ad excellentissimum
-                           <ref n="ref1">dominum <persName n="persName1">Venetorum</persName>
+                           <persName n="persName">Iohannis regis Ungarie</persName> ad excellentissimum
+                           <ref n="ref">dominum <persName n="persName">Venetorum</persName>
                         </ref>
                      </ref>, domino meo
                      honorando.</addrLine>

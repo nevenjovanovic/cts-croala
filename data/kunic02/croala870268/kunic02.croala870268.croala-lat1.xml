@@ -50,7 +50,7 @@
                   <extent>XLVII + 611 pag. ; 2o </extent>
                </monogr>
                <note>Orig.: 'Ilias.</note>
-               <idno type="other">Xb * Jurić. Scriptores</idno>
+               <note type="other">Xb * Jurić. Scriptores</note>
                <relatedItem type="primjerak">
                   <ref type="signatura">NSK Zagreb RIIF-2o-28</ref>
                </relatedItem>
@@ -69,17 +69,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -126,15 +118,15 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:kunic02.croala870268.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-epigramma" met="hexameter">
+      <body xml:lang="lat">
+         <div type="poesis-epigramma" met="hexameter">
             <head n="head1">ARGUMENTA SINGULORUM LIBRORUM SINGULIS VERSIBUS</head>
             <head n="head2" type="sub">AB INTERPRETE COMPREHENSA.</head>
             <l n="l1">I. Iratus bello sociali absistit Achilles. </l>
             <l n="l2">II. Falsa Mycenaeum ludunt insomnia regem. </l>
             <l n="l3">B. Quo duce, qui populi, quotnam venere carinis. </l>
             <l n="l4">
-               <num n="num1" value="3">III</num>. Ergo Helenae soli pugnant Paris et Menelaus. </l>
+               <num n="num" value="3">III</num>. Ergo Helenae soli pugnant Paris et Menelaus. </l>
             <l n="l5">IV. Confundit foedus Pallas, pugna aspera surgit.</l>
             <l n="l6">V. Tydides Venerem, dehinc Martem vulnerat hasta. </l>
             <l n="l7">VI. Urbem adit, Andromachen affatur Martius Hector. </l>

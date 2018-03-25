@@ -53,19 +53,10 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1']/*[@n='$2'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -124,40 +115,40 @@
   </teiHeader>
   <text xml:base="urn:cts:croala:galopa01.croala1586332.croala-lat1:" xml:lang="lat">
     
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="prosa-iuridica">
-            <head n="head1">CONFIRMATIO ET AUGMENTATIO STATUTORUM
+      <body xml:lang="lat">
+         <pb/>
+         <div type="prosa-iuridica">
+            <head n="head">CONFIRMATIO ET AUGMENTATIO STATUTORUM
           CIVITATIS AC INSULAE CURZULAE,
           TEMPORE MARSILIJ GEORGIJ COMITIS FACTA.</head>
                 
-            <div n="div1" type="poesis-carmen" met="elegiacum">
-               <head n="head1">SANCTI SPIRITUS ADSIT NOBIS GRATIA. ANNO DOMINI MCCLXV, INDICTIONE
+            <div n="div" type="poesis-carmen" met="elegiacum">
+               <head n="head">SANCTI SPIRITUS ADSIT NOBIS GRATIA. ANNO DOMINI MCCLXV, INDICTIONE
             VIII. DIE XIII. INTRANTE MENSIS APRILIS.</head>
           
                <l n="l1">Annus millenus bis centum pentaque denus</l>
-               <l n="l2">Quatuor adiunctis dum petit yma <corr n="corr1" resp="NJ">Deus</corr>
+               <l n="l2">Quatuor adiunctis dum petit yma <corr n="corr" resp="NJ">Deus</corr>
                </l>
                <l n="l3">Curzura legatos mittens affectat honores,</l>
                <l n="l4">Ragusij comitem postulat ipsa sibi.</l>
                <l n="l5">Tunc retinebat sibi comitatus sceptra sonora</l>
-               <l n="l6">Vindex et prudens iura dabat <gap n="gap1" resp="NJ" reason="ignoscitur"/>
+               <l n="l6">Vindex et prudens iura dabat <gap resp="NJ" reason="ignoscitur"/>
                </l>
                <l n="l7">Nomine Marsilius Georgij Venetusque fatetur;</l>
                <l n="l8">Colla sibi subdunt omnibus atque suis.</l>
                <l n="l9">
-                  <sic n="sic1">Tempus elapso venit gemino probus anno</sic>
+                  <sic n="sic">Tempus elapso venit gemino probus anno</sic>
                </l>
-               <l n="l10">Urbem <sic n="sic1">construxit</sic> plurima tela ferrens</l>
+               <l n="l10">Urbem <sic n="sic">construxit</sic> plurima tela ferrens</l>
                <l n="l11">Plurima tela ferrens tunc ostibus intus et extra;</l>
                <l n="l12">Tandem pervenit ethere vera salus</l>
                <l n="l13">Marsilius dictus post nonos condidit annos</l>
-               <l n="l14">Jura <sic n="sic1">salutifera quisque</sic> regatur eis.</l>
+               <l n="l14">Jura <sic n="sic">salutifera quisque</sic> regatur eis.</l>
                <l n="l15">Qui scelus atque nefas expellens intus ab urbe</l>
-               <l n="l16">Conservat populum, menia <sic n="sic1">lauda</sic> dei</l>
+               <l n="l16">Conservat populum, menia <sic n="sic">lauda</sic> dei</l>
                <l n="l17">Nobilis ex villi factus, de paupere dives</l>
                <l n="l18">Hic populus sparsus pluribus inde locis</l>
-               <l n="l19">Congeritur quod loco <sic n="sic1">digne sit septus</sic> in ymo</l>
+               <l n="l19">Congeritur quod loco <sic n="sic">digne sit septus</sic> in ymo</l>
                <l n="l20">Namque fides aberat per loca sparsa mala</l>
                <l n="l21">Presbiter Antonius finxit nec plurima metra</l>
                <l n="l22">Mandato domini posteritasque sciat.</l>
@@ -165,7 +156,7 @@
                <l n="l24">Fidus amicus erat, si quis amabat eum.</l>
           
                   </div>
-            <gap n="gap1" reason="nondum-paratum" resp="NJ"/>
+            <gap reason="nondum-paratum" resp="NJ"/>
          </div>
       </body>
   </text>

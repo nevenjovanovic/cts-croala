@@ -53,17 +53,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -135,23 +127,23 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:brod01.croala1830752.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <head n="head1">XIV/1 <date n="date1" when="1525-09-13">1525. 13. Septembris</date>, Budae Stephanus Brodericus secretarius regius
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">XIV/1 <date n="date" when="1525-09-13">1525. 13. Septembris</date>, Budae Stephanus Brodericus secretarius regius
                     Clementi papae VII.</head>
 
 
-                <note n="note1" resp="BJ">Segr. Stato, Principi, 3, f. 279. Sigillo annulari. Editio: THEINER
+                <note n="note" resp="BJ">Segr. Stato, Principi, 3, f. 279. Sigillo annulari. Editio: THEINER
                     1860, n. DCCCLVII, p. 653-654.</note>
 
 
-                <opener n="opener1">
+                <opener n="opener">
                <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
                     domino nostro pape, domino mihi clementissimo <note n="note2" resp="BJ">[Alia manu:]
                         Stephani Broderici XIII Septembris</note> Beatissime pater ac domine, domine
                     clementissime! Post pedum Vestre Sanctitatis oscula beatorum et meę servitutis
                     humillimam commendationem.</opener>
-                <p n="p1">Ego, postquam a Vestra Sanctitate discessi, XXImo die <placeName n="placeName1">Budam</placeName> perveni, ubi cum
+                <p n="p">Ego, postquam a Vestra Sanctitate discessi, XXImo die <placeName n="placeName">Budam</placeName> perveni, ubi cum
                     maiestatem regiam non reperiissem – quę ad insulam Chepel animi causa
                     secesserat, illic maiestatem suam et serenissimam dominam meam, reginam conveni.
                     Benigne ab eis exceptus quibus cum mandata Vestre Sanctitatis exposuissem,
@@ -180,8 +172,8 @@
                         Mohach acceptam subsequentibus relinquens a. d. X Cal. Nov. Romam pervenit.
                         Postea et in Siciliam Britanniamque legationes duxit.</note>
                     <note n="note4" resp="BJ">25 Christophorus de Frangepanibus. </note>
-                    <milestone n="milestone1" unit="page"/> litteris domini baronis factam esse certiorem.</p>
-                <closer n="closer1">Meam humilimam servitutem ad pedum pulveres Vestrae Sanctitatis suplex
+                    <milestone unit="page"/> litteris domini baronis factam esse certiorem.</p>
+                <closer n="closer">Meam humilimam servitutem ad pedum pulveres Vestrae Sanctitatis suplex
                     humilime commendo. Quam Deus semper felicem atque incolumem conservet. Ex Buda
                     XIII. Septembris 1525. Eiusdem Vestrae Sanctitatis creatura et humilimus
                     servulus Stephanus Brodericus</closer>

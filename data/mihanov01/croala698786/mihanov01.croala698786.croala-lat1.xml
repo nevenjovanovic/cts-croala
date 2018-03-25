@@ -48,20 +48,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -121,12 +110,12 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:mihanov01.croala698786.croala-lat1:" xml:lang="lat">
     
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <milestone unit="page" n="milestone1"/>
-         <div n="div1" type="prosa-epistula">
+      <body xml:lang="lat">
+         <pb/>
+         <milestone unit="page"/>
+         <div type="prosa-epistula">
          
-            <head n="head1">Literarum patriique sermonis amicis 
+            <head n="head">Literarum patriique sermonis amicis 
         a Mihanović a Petropolje Croata S.</head> 
             <p n="p1">Sunt qui scripto sermone alloqui Concives ingratum sentiunt. 
         Ipse ni fallor, non errant. Aliquibus enim, qui scribit, multis, quod 
@@ -137,7 +126,7 @@
             <p n="p2">Venetiis anno superiore commoratus bibliothecas perscrutabar 
         solicite, Illyrica volumina requirens. Eventus spem vicit: Codicem 
         MS. Osmanidos J. Gondolae nostri sors inter varia obtulit. Gaudium 
-        <milestone unit="page" n="milestone1"/> tenui, cursimque paginis aliquot inspectis, visa scripturae venustate 
+        <milestone unit="page"/> tenui, cursimque paginis aliquot inspectis, visa scripturae venustate 
         assidua, quaesito pretio emi; subinde Patavii composito magis animo 
         solers evolvi, et quantumvis, an autographum esset, negare mallem, 
         quam dubitare, doctam certe MS. curantis diligentiam cognovi uberius. 
@@ -145,7 +134,7 @@
         longe seculum excedere persuaserunt.</p> 
         
             <p n="p3">Summi huius Illyrici Poematis editionem MDCCCII anno I. 
-        L. Volanti Ragusinus<ref n="ref1">*</ref> parabat, quae tamen (causas nescio) lucem 
+        L. Volanti Ragusinus<ref n="ref">*</ref> parabat, quae tamen (causas nescio) lucem 
         necdum vidit. Ac ne diutius opus haud abunde pro merito cognitum 
         notis MScriptorum vicissitudinibus relinquatur, ideam ejus edendi 
         concepi, svadente rerum patriarum amore, cui saepius exterorum 
@@ -155,11 +144,11 @@
         edendi nos anteirent. Equidem plurima possidemus digna e latebris 
         in orbem emitti, avorum ingenia manifestatura, ut gesta historiae 
         servant.</p>
-            <note n="note1">V. Appendini Notizie Istorico-Critiche ec. Ragusa 1803, pag. 265. </note>
-            <pb n="pb1"/>
+            <note n="note">V. Appendini Notizie Istorico-Critiche ec. Ragusa 1803, pag. 265. </note>
+            <pb/>
         
             <p n="p4">Libro titulus erit: Osmannus I. Gondolae Patritii Ragusini, 
-            <milestone unit="page" n="milestone1"/> 
+            <milestone unit="page"/> 
         Poema Epicum, nunc primum ex antiquo Codice MS. editum.</p> 
         
             <p n="p5">De Poeta judicium ferre, aut aliis eum aequiparare, abstineo. 
@@ -171,10 +160,10 @@
         folia XVI studiose excudenda complectetur. Has divulgantes nomina 
         Sociorum dato pretio notabunt, exemplaria jam compacta iidem loco 
         desiderato reddent, Calendis Julii a. c. parata futura.</p> 
-            <closer n="closer1">
-               <dateline n="dateline1">Patavii <date n="date1" when="1818-01-01">Cal. Januarii MDCCCXVIII</date>.</dateline>
+            <closer n="closer">
+               <dateline n="dateline">Patavii <date n="date" when="1818-01-01">Cal. Januarii MDCCCXVIII</date>.</dateline>
             </closer>
-            <gap n="gap1"/>
+            <gap/>
         
          </div>
       </body>

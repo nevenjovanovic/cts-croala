@@ -41,17 +41,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -107,10 +99,10 @@
 
    <text xml:base="urn:cts:croala:sabolov01.croala806245.croala-lat1:" xml:lang="lat">
 
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-satura" met="hexameter">
+      <body xml:lang="lat">
+         <div type="poesis-satura" met="hexameter">
   
-            <head n="head1">
+            <head n="head">
    Carmen macaronicum in Crisienses 1792.
 </head>
             <l n="l1">Forte per horvacko Marcus Trbuša viator</l>
@@ -143,7 +135,7 @@
             <l n="l28">Carmina, dum kefkant rabidi, sprotimque tacebunt.</l>
             <l n="l29">Hoc Marcus sequitur monitum, i nut desinit av, vav,</l>
             <l n="l30">Unum omnes kolec erecto crure spirantes</l>
-            <l n="l31">Mirni contractis kundris v <corr n="corr1">koprivje</corr> redibant.</l>
+            <l n="l31">Mirni contractis kundris v <corr n="corr">koprivje</corr> redibant.</l>
          </div>
       </body>
    </text>

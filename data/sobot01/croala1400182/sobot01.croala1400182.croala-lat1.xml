@@ -79,20 +79,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -171,18 +160,18 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot01.croala1400182.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula">
-                <head n="head1">
-               <date n="date1" when="1451-06-28">1451-06-28</date>, Venetiis, ad M. Vallaressum</head>
-                <milestone unit="page" xml:id="sob1898-44" n="milestone1" facs="images/sobota-44.png"/>
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">
+               <date n="date" when="1451-06-28">1451-06-28</date>, Venetiis, ad M. Vallaressum</head>
+                <milestone unit="page" xml:id="sob1898-44" facs="images/sobota-44.png"/>
 
-                <opener n="opener1">Johannes Sobotae Mapheo archiepiscopo Hyadrensi.</opener>
+                <opener n="opener">Johannes Sobotae Mapheo archiepiscopo Hyadrensi.</opener>
 
-                <note n="note1">
-                    <add n="add1">Bona est epistola et cuilibet legenti digna</add>
+                <note n="note">
+                    <add n="add">Bona est epistola et cuilibet legenti digna</add>
                 </note>
-                <p n="p1">Novi excellens ingenium tuum, quam cupidissimus sis magnarum rerum, praecipue
+                <p n="p">Novi excellens ingenium tuum, quam cupidissimus sis magnarum rerum, praecipue
                     strenue ac magnifice gestarum. Hoc insigne ac memorabile facinus, quod hisce
                     diebus ex sententia Senatus non minus prudenter quam fortiter gestum est, ad te,
                     vir ornatissime, impresentiarum scribere constitui. <persName n="persName1">Bartholomeus Colionus</persName> vir in
@@ -202,24 +191,24 @@
                     imperata negligere, nimis alta ac immoderata petere, cum hoste sentire. Hac
                     indignitate rei<corr n="corr3" resp="Seg">publicae</corr> decemvirum severissimus ordo
                     compulsus more maiorum in <persName n="persName2">Colionum</persName> tamquam in improbum et audacem animadvertere
-                    statuit, <persName n="persName3">N<expan n="expan1">icolao</expan> Canalio</persName>, qui hac tempestate decreto Senatus una
+                    statuit, <persName n="persName3">N<expan n="expan">icolao</expan> Canalio</persName>, qui hac tempestate decreto Senatus una
                     cum magnanimo <persName n="persName4">Gentile</persName> in castris erat mandat omni studio quam diligentissime
                     curaret, ut <persName n="persName5">Bartolomeus</persName> cum omnibus suae factionis militibus in praedam ac
                     dirreptionem traderetur. Susceptis litteris, nulla interiecta mora, <persName n="persName6">Gentilem</persName>
-                    proconsulem et magnificum <persName n="persName7">Jacobum Picen<expan n="expan1">inum</expan>
+                    proconsulem et magnificum <persName n="persName7">Jacobum Picen<expan n="expan">inum</expan>
                </persName> fortissimos et
                     amantissimos reipublicae viros vocat; omnem rem exponit; que voluntas sit
                     Senatus, ostendit. Illi autem qui omnia de republica praeclara ac egregia
                     sentirent, sine recusatione et sine ulla mora negocium suscipiunt. Et cum
                     advesperasceret cum circiter <num n="num1" value="5000">
-                  <num n="num1" value="5">V</num>
-                        <corr n="corr1" resp="Seg">milibus</corr>
+                  <num n="num" value="5">V</num>
+                        <corr n="corr" resp="Seg">milibus</corr>
                </num> electissimorum equitum, composito
                     exercitu, prout temporis angustiae patiebantur, ad stationem <persName n="persName8">Bartholomei</persName> (erat
-                    enim in agro Veronensi) incredibili celeritate <milestone unit="page" xml:id="sob1898-45" n="milestone1" facs="images/sobota-45.png"/>contendunt, ut illum
+                    enim in agro Veronensi) incredibili celeritate <milestone unit="page" xml:id="sob1898-45" facs="images/sobota-45.png"/>contendunt, ut illum
                     nihil suspicantem facilius opprimerent. Ea nocte confecto maximo itinere ferme
                         <num n="num2" value="55000">
-                  <num n="num1" value="55">LV</num> milia</num> passuum, sunt
+                  <num n="num" value="55">LV</num> milia</num> passuum, sunt
                     nonnulli qui tradunt, sole oriente, sublato clamore militari de more, stationes
                     Colionensium militum audacissime et cupidisime invadunt ac diripiunt, nihil
                     preter libera corpora relinquunt. <persName n="persName9">Bartholomeus</persName> novitate rei <corr n="corr4" resp="Seg">exterritus</corr> fuga saluti consuluisse dicitur; ornatissimis armis,
@@ -236,22 +225,22 @@
                     tumultuarie ex itinere dimicare coguntur; tandem captis non amplius <num n="num4" value="14">XIIII.</num> equitibus, caeteri incolumes tum fugiendo, tum
                     strenue dimicando, inter maenia et valum consistunt pretoris fidei sua omnia
                     divina et humana permittunt, pro vallo pugnant. Pretor <persName n="persName12">Carolum</persName> monet, ne
-                        dedititios<note n="note1">deditiosos [Segarizzi]</note> oppugnet, tandem ab urbanis
+                        dedititios<note n="note">deditiosos [Segarizzi]</note> oppugnet, tandem ab urbanis
                     peditibus reiectus est, susceptis duobus periculosissimis vulneribus, ad suam
                     stacionem defertur; quid de militibus statuendum sit, Senatus haec animadversio
-                    est. <persName n="persName13">Bartholo<expan n="expan1">meus</expan>
+                    est. <persName n="persName13">Bartholo<expan n="expan">meus</expan>
                </persName> in quodam agri Mantuani oppido se continet, erepta etiam omni spe,
                     quae homines sola in miseriis consolari solet, publicatis bonis hostis a Senatu
                     iudicatus est. Nihil praeter haec relatu dignum gestum est.</p>
-                <closer n="closer1">
-                    <salute n="salute1">Vale vir ornatissime et me tibi commenda <note n="note1">commendo
+                <closer n="closer">
+                    <salute n="salute">Vale vir ornatissime et me tibi commenda <note n="note">commendo
                             [Segarizzi]</note>.</salute>
-                    <dateline n="dateline1">Ex <placeName n="placeName1"> Venetiis,</placeName>
-                        <date n="date1" when="1451-06-28">IIII. kalendas Julii 1451.</date>
+                    <dateline n="dateline">Ex <placeName n="placeName"> Venetiis,</placeName>
+                        <date n="date" when="1451-06-28">IIII. kalendas Julii 1451.</date>
                </dateline>
                 </closer>
-                <postscript n="postscript1">
-                    <p n="p1">Post scriptas et obsignatas litteras nunciatum est <persName n="persName1">Bartholomeum</persName> ex agro
+                <postscript n="postscript">
+                    <p n="p">Post scriptas et obsignatas litteras nunciatum est <persName n="persName">Bartholomeum</persName> ex agro
                         Mantuano ad Ducem Mediolani se contulisse.</p>
                 </postscript>
             </div>

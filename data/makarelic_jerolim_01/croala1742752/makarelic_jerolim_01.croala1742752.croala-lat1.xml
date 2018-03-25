@@ -46,14 +46,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -98,10 +93,10 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:makarelic_jerolim_01.croala1742752.croala-lat1:" xml:lang="lat" type="poesis">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
 
-         <div n="div1" type="poesis-epigramma" met="elegiacum">
-            <head n="head1">
+         <div type="poesis-epigramma" met="elegiacum">
+            <head n="head">
         Carmen Hieronymi Macarelli Archipresbyteri Traguriensis.
       </head>
 

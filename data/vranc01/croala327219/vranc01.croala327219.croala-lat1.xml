@@ -38,20 +38,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -101,15 +90,15 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:vranc01.croala327219.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula">
-            <opener n="opener1">Antonius Verancius Petro Francisco Parrhisio suo S.</opener>
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
+            <opener n="opener">Antonius Verancius Petro Francisco Parrhisio suo S.</opener>
         
-            <p n="p1">Proxime quum Belgradi essem, dedi ad te litteras cuidam nobili viro, Josepho nomine, qui se dicebat in patriam profecturum.  Iis litteris quoniam latius refricavi inter nos mutuam nostri memoriam, non est quod his plura scribam, intentus alioqui etiam itineri, cujus vel horam praeter nocturnas non intermitto.  Ignosces itaque, et me vel spiritu tuo tecum amplectere, quum ipse meo te etiam exosculer, quoties in mentem venis.  Venis autem quam saepissime, hoc praesertim itinere, in quo dum passim in homines Ragusinos incido, nequeo quin tecum et somnos et vigilias exigam.  Verum quoniam avocor ab auriga,  qui jam junxit meos jugales et insedit, finire epistolam cogor.  Rogo itaque te, ut has inclusas ad patrem meum charissimum quamprimum mittere cures, in quo facturus es mihi rem pergratam.  </p>
-            <closer n="closer1">
-               <salute n="salute1">Vale.</salute> 
-               <dateline n="dateline1">
-                  <date n="date1" when="1553-08-12">Duodecima Augusti, 1553.</date>  Zophiae apud Tracas.</dateline>
+            <p n="p">Proxime quum Belgradi essem, dedi ad te litteras cuidam nobili viro, Josepho nomine, qui se dicebat in patriam profecturum.  Iis litteris quoniam latius refricavi inter nos mutuam nostri memoriam, non est quod his plura scribam, intentus alioqui etiam itineri, cujus vel horam praeter nocturnas non intermitto.  Ignosces itaque, et me vel spiritu tuo tecum amplectere, quum ipse meo te etiam exosculer, quoties in mentem venis.  Venis autem quam saepissime, hoc praesertim itinere, in quo dum passim in homines Ragusinos incido, nequeo quin tecum et somnos et vigilias exigam.  Verum quoniam avocor ab auriga,  qui jam junxit meos jugales et insedit, finire epistolam cogor.  Rogo itaque te, ut has inclusas ad patrem meum charissimum quamprimum mittere cures, in quo facturus es mihi rem pergratam.  </p>
+            <closer n="closer">
+               <salute n="salute">Vale.</salute> 
+               <dateline n="dateline">
+                  <date n="date" when="1553-08-12">Duodecima Augusti, 1553.</date>  Zophiae apud Tracas.</dateline>
             </closer>
          </div>
       </body>    

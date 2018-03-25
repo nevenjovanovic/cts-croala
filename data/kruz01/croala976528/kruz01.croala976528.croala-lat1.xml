@@ -53,17 +53,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -132,30 +124,30 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:kruz01.croala976528.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <head n="head1">XII/2 <date n="date1" when="1525-10-05">1525. 5. Octobris</date>, Clisio Petrus Crusich capitaneus Segniae Clementi
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">XII/2 <date n="date" when="1525-10-05">1525. 5. Octobris</date>, Clisio Petrus Crusich capitaneus Segniae Clementi
                     papae VII.</head>
 
 
-                <note n="note1" resp="BJ">Segr. Stato, Principi, 3, f. 307. Fragmento sigilli annularis.
+                <note n="note" resp="BJ">Segr. Stato, Principi, 3, f. 307. Fragmento sigilli annularis.
                     Editio: THEINER 1860, n. DCCCLXII, p. 656.</note>
 
 
-                <opener n="opener1">
+                <opener n="opener">
                <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
                     in Christo patri et domino, domino Clementi providentia pape sacrosancto
                         <expan n="expan1">pontifici</expan> maximo, <expan n="expan2">domino</expan> observandissimo <note n="note2" resp="BJ">[Alia manu:] Petri Crusicz, capitanei Segnie, 5. Octobris.</note>
                     Sanctissime pater! Post beatorum pedum oscula, devotam ac humilem
                     commendationem.</opener>
-                <p n="p1">Per presentes meas Sanctitatem Tuam certam reddo, quemadmodum, dum Romę agerem,
+                <p n="p">Per presentes meas Sanctitatem Tuam certam reddo, quemadmodum, dum Romę agerem,
                     eidem notificavi conditiones castri Clisii et angustias, imo extremitates, in
                     quibus populus Clissiensis versabatur ob assiduas incursiones et depopulationes,
                     quibus sine intermissione ab hostibus Christiani nominis premebatur, omnesque
                     maximam spem concoeperant me apud Sanctitatem Tuam ita profecturum, quod in
                     posterum possent in dicto castro tuti tum ab hostium metu, tum a fame pariter
                     comorari, quia pecunię (quas Maiestas Regia pro dandis stipendiis militibus, quę
-                    iam meruerant et pro <sic n="sic1">restauro</sic> populi miserat) in itinere occisis Suę
+                    iam meruerant et pro <sic n="sic">restauro</sic> populi miserat) in itinere occisis Suę
                     Maiestatis nuntiis a latronibus direptę fuerunt et ab eo tempore citra nullum
                     subsidium a Regia Maiestate usque in hodiernum aut militibus aut populo
                     exhibitum fuit. Et dum ego Segnię aliquod praesidium regium aut Sanctitatis Tuę
@@ -165,7 +157,7 @@
                     vacuum hostibus mox facile capiendum relinquerent. Tandem receptis ab eis
                     pluribus litteris, quod amplius ibi moras trahere nec vellent nec possent sine
                     victui necessariis, divino fretus auxilio et promissis Sanctitatis Tuę ad eos me
-                    contuli. Quos fere omnes hinc <gap n="gap1" reason="lacuna"/>17 dispersos comperi et quos
+                    contuli. Quos fere omnes hinc <gap reason="lacuna"/>17 dispersos comperi et quos
                     maxima cum difficultate multa nomine Sanctitatis Tuę eisdem promittens ad
                     castrum revocavi, quod scilicet Sanctitas Tua et illos et castrum sub
                     protectione sua in posterum recipiet et tutabit tam in castro, quam extra.
@@ -173,9 +165,9 @@
                     nostri enixissime rogo, quantum subsidium (si quod habet in animo Sanctitas Tua
                     transmittere et in beneficium istius castri et populi conferre) cito
                     transmittat, quia periculum est in mora. Hostes in diu noctuque circa moenia
-                    insultant et hii miselli non habentes unde vivere <note n="note1" resp="BJ">17 Litterae
+                    insultant et hii miselli non habentes unde vivere <note n="note" resp="BJ">17 Litterae
                         tres – in longitudine circiter 1 cm – sunt illegibiles. </note>
-                    <milestone n="milestone1" unit="page"/> diffugiunt per diversa loca victum quęritantes et sic
+                    <milestone unit="page"/> diffugiunt per diversa loca victum quęritantes et sic
                     vereor, ne postea, cum Sanctitas Tua providere voluerit, occupato ab hostibus
                     castro conatus Sanctitatis Tuę frustrati depereant, prout omnia praemissa melius
                     declarabunt Georgius Heremita et nobilis civis Anchonitanus, dominus Gabriel de
@@ -183,7 +175,7 @@
                     viderunt et norunt. Insuper quęcunque nomine meo dictus Heremita Sanctitati Tuę
                     exponere voluerit, eidem tanquam nuntio meo plenariam fidem Sanctitas Tua
                     adhibere non dedignabitur.</p>
-                <closer n="closer1">Bene valeat Sanctitas Tua, <gap n="gap1" reason="lacuna"/> exhibitorem praesentium
+                <closer n="closer">Bene valeat Sanctitas Tua, <gap reason="lacuna"/> exhibitorem praesentium
                     mittimus. Cui eadem pro beni[gnitati sua –– –]18, cui me, castrum ac populum
                     Clisiensem plurimum humiliter comendo, et eadem Sanctitas Tua vivat usque ad
                     annos Petri et ultra <abbr n="abbr1">etc.</abbr> Datum Clisii, quinta Octobris MDXXV. Eiusdem

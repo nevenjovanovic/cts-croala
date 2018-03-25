@@ -57,26 +57,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -142,30 +125,30 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:and02.croala107163.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula" xml:id="fta-av05" corresp="#andreisvrancic15700202">
-                <pb n="pb1"/>
+        <body xml:lang="lat">
+            <div type="prosa-epistula" xml:id="fta-av05" corresp="#andreisvrancic15700202">
+                <pb/>
 
-                <gap n="gap1" reason="irrelevant"/>
+                <gap reason="irrelevant"/>
 
 
 
-                <head n="head1">
-                    <add n="add1" resp="#editor">XX. Verancsics Antalnak Andronicus Tranquillus.</add>
+                <head n="head">
+                    <add n="add" resp="#editor">XX. Verancsics Antalnak Andronicus Tranquillus.</add>
                 </head>
 
-                <note n="note1">
-                    <date n="date1">1570. febr. 2.</date>
+                <note n="note">
+                    <date n="date">1570. febr. 2.</date>
                 </note>
-                <opener n="opener1">
-                    <address n="address1">
-                  <addrLine n="addrLine1">
-                     <add n="add1" resp="#editor">
-                        <foreign n="foreign1" xml:lang="hu">Kivül:</foreign>
+                <opener n="opener">
+                    <address n="address">
+                  <addrLine n="addrLine">
+                     <add n="add" resp="#editor">
+                        <foreign n="foreign" xml:lang="hu">Kivül:</foreign>
                      </add> Reverendissimo et observandissimo domino, Domino meo Antonio Verantio Archiepiscopo 
-                        Strigoniensi <abbr n="abbr1">etc.</abbr> in Hungaria.</addrLine>
+                        Strigoniensi <abbr n="abbr">etc.</abbr> in Hungaria.</addrLine>
                </address>
-                    <salute n="salute1">Reverendissime et observandissime Domine salutem.</salute>
+                    <salute n="salute">Reverendissime et observandissime Domine salutem.</salute>
                 </opener>
                 <p n="p1"> Etsi mirifice me delectat ac etiam confirmat tenuitas mearum fortunarum, quae
                     singulari Dei dono mihi contigit, mihi inquam, post tot labores exhaustos
@@ -181,7 +164,7 @@
                     docendo ad recta studia laudatosque mores, vel defendendis ab iniuria
                     mortalibus, vel quomodocunque communibus commodis invehendis. Hos coelo
                     terraque, ut iubar solis, claros esse splendereque in perpetuas aethernitates,
-                    ac proxime accedere ad Deum <pb n="pb1"/> conditorem et conservatorem omnium,
+                    ac proxime accedere ad Deum <pb/> conditorem et conservatorem omnium,
                     quem et nos ob beneficia agnoscimus et veneramur, et veteres Optimum
                     appellaverunt. Nam qui malis artibus aut insanientis fortunae indalgentia
                     provehantur ad opes, dignitates , principatus; nihil minus quam ut cuiquam
@@ -196,7 +179,7 @@
                     fluxa et inania famae non anteponat et immortalitati. In hoc Stoici videri
                     volunt non commiserescendo malorum ullius, et cum Catone sentiunt, quem dicere
                     solitum accepimus, hoc turpe verbum vincat utilitas. Amicitias sacra et profana
-                    utilitate <corr n="corr1">metiuntur</corr>, aequi et honesti esse vana nomina existimant.
+                    utilitate <corr n="corr">metiuntur</corr>, aequi et honesti esse vana nomina existimant.
                     Idcirco misericordia coelestium alumna et supremi luminis assistrix turpiter
                     expulsa nostras sedes reliquit. Tantum autem abest, ut honestati sit relictus
                     aliquis locus, ut illi ipsi omnis pene aditus interclusus esse videatur
@@ -204,7 +187,7 @@
                     convellitur, incubuitque in ruinam cum externis hostibus, per nostram ignaviam
                     assidue impuneque extrema illius <sic n="sic1">faede</sic> lacerantibus; tum quod nulla
                     virtutem praemia consequantur, vitia quidem ad summum pervasere; quippe flagitii
-                    laus <pb n="pb2"/> et impunitas videntur esse proposita. Proinde ne quis
+                    laus <pb/> et impunitas videntur esse proposita. Proinde ne quis
                     existimet nos in has temporum angustias incidisse ant fatorum serie, aut
                     conversione syderum, aut coelorum influxu. Nostra certe culpa, nostra
                     infidelitate pertrahimur in mala omnia; et nisi rationes vivendi commutemus in
@@ -226,7 +209,7 @@
                     nefarie, quae ad reipublicae defensionem et ornamenta superior aetas sapienter
                     constituerat. Hoc igitur Pontifice moderante rempublicam magnae mutationes
                     factae snnt in moribus et vero cultu Christi servatoris. Videmus Romam, urbem
-                    gentium ac terrarum <pb n="pb3"/> principem, quae diu sentina flagitiorum omnium
+                    gentium ac terrarum <pb/> principem, quae diu sentina flagitiorum omnium
                     et serva idolorum fuit; unde tanquam ex equo Troiano semina malorum errumpebant
                     in omnes partes orbis Christiani, magno repente miraculo in summam pietatem
                     conversam, exemplum ceteris omnibus caste sancteque vivendi dedisse. Quod si
@@ -248,7 +231,7 @@
                     eos appetiisses, nemo tibi vitio verteret, laudi potius ascriberent omnes. Non
                     enim instituisti vitam ad imitationem eorum, qui suas facultates ad pompam et
                     luxum prodigunt, aut suos thesauros iniuria multorum indigne conquisitos et
-                    centum obseratos clavibus <pb n="pb4"/> recondunt; ipsi nec sibi nec cuiquam
+                    centum obseratos clavibus <pb/> recondunt; ipsi nec sibi nec cuiquam
                     utiles, evidenti significatione mollis et abiecti animi, neque memoris suae
                     dignitatis. Ceterum, spretis privatis commoditatibus et inani favore vulgi,
                     omnes tuas opes, quod imprimis magnanimum virum decet, profundis ad pios tantum
@@ -270,9 +253,9 @@
                     neque te huiusmodi peccandi minutiis prorsus libero, licet in horchestra laudis
                     constitisse videaris. Quid autem sit istud negligentiae, quod in te
                     animadvertimus, iam ostendam. Imposuit tibi fortuna, vel potius Deus, magni
-                    personam antistitis; quae sane <pb n="pb5"/> dignitas tantum antecellit regum
-                    infulas, quantum praestant anima corpori, coelum terrae, humana Divinis <note n="note1" resp="#editor">
-                        <foreign n="foreign1" xml:lang="hu">(igy)</foreign>
+                    personam antistitis; quae sane <pb/> dignitas tantum antecellit regum
+                    infulas, quantum praestant anima corpori, coelum terrae, humana Divinis <note n="note" resp="#editor">
+                        <foreign n="foreign" xml:lang="hu">(igy)</foreign>
                     </note>, et aeterna fluxis. Sacerdotis enimvero muneris scopus est, populos ad
                     quietem et sempiternam securitatem adducere, quam Reges non praestant nisi
                     temporariam, saepe etiam multis amaritudinibus permixtam. Proinde quum tantam
@@ -293,7 +276,7 @@
                     duntaxat agendo, vilescere autem, si in consultatione quemvis prudentiorem
                     adhibeant; quo fit, ut temeritatis saepe dent poenas, suoque consilio proprio
                     subvertantur. Eorum vero res gestae floruerunt, qui humanae infirmitatis conscii
-                    sapientioribus sese <pb n="pb6"/> dederunt regendos et recoquendos, et nihil iis
+                    sapientioribus sese <pb/> dederunt regendos et recoquendos, et nihil iis
                     inconsultis de rebus maximis deliberarunt. Quos omnes supervacuum est ad
                     praesens recensere; quippe sunt innumerabiles, nec ad nostram rem attinet.
                     Referam tamen unum exemplum in omni vita memorabile, ac viris insignibus semper
@@ -316,7 +299,7 @@
                     non leve adiumentum esse futurum.</p>
 
                 <p n="p2">Assiduis nunciis fama percrebuit, Thurcum instruere classem multo maximam, cui
-                    adiecit centum <pb n="pb1"/> pontones ad traiiciendos equos mirae magnitudinis.
+                    adiecit centum <pb/> pontones ad traiiciendos equos mirae magnitudinis.
                     Eam ob rem multis oborta est sollicitudo et pavor, et eorum quisque timet, ne
                     tam gravis tempestas in suam perniciem evolvatur. Quae res praecipue Venetos
                     maxime urget, eosque timere, ne Cyprus illis adimatur, insula praedives et paene
@@ -334,13 +317,13 @@
                     negligentes <sic n="sic1">uostros</sic> Principes, qui in tanta oportunitate facile
                     possent se asserere in libertatem; sed <sic n="sic2">atoniti</sic> expectant, ut Thurcus
                     ab expeditionibus victor et gravis hostis redeat, atque ipsos excindat.</p>
-                <closer n="closer1">
-                    <salute n="salute1">Vale felix.</salute>
-                    <dateline n="dateline1">
-                        <placeName n="placeName1">Tragurii</placeName>
-                        <date n="date1" when="1570-02-02">2-a Februarii M.D.LXX.</date>
+                <closer n="closer">
+                    <salute n="salute">Vale felix.</salute>
+                    <dateline n="dateline">
+                        <placeName n="placeName">Tragurii</placeName>
+                        <date n="date" when="1570-02-02">2-a Februarii M.D.LXX.</date>
                     </dateline>
-                    <signed n="signed1">Tranquillus servitor mp.</signed>
+                    <signed n="signed">Tranquillus servitor mp.</signed>
                 </closer>
 
 

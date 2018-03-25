@@ -51,23 +51,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -125,21 +111,21 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:banic01.croala497725.croala-lat1:" xml:lang="lat" type="prosa">
     
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula" corresp="#banicevicdantiscus15160110">
-            <opener n="opener1">
-               <abbr n="abbr1">+ IC XC</abbr>
-               <salute n="salute1">Spectabilis et eximie domine honorande. Commendationem plurimam.</salute>
+      <body xml:lang="lat">
+         <div type="prosa-epistula" corresp="#banicevicdantiscus15160110">
+            <opener n="opener">
+               <abbr n="abbr">+ IC XC</abbr>
+               <salute n="salute">Spectabilis et eximie domine honorande. Commendationem plurimam.</salute>
             </opener>    
-            <p n="p1">
-        Arbitrabar iam perlatam fuisse expeditionem et cum ea privilegium Dominationis Vestrae quam omni studio curavi apud caesarem et ita fuit facta per dominum Sperantium et provisum de viatico. Tamen forte postea eadem vel altera die debuit accepisse totum etiam privilegium cum litteris meis. Postquam Dominatio Vestra <corr n="corr1">censet</corr> scorpionem illum dignum regia maiestate, si sine incommodo suo potest illud suae maiestati deferre et eum nomine meo suae serenitati offerre, faciet mihi rem valde gratam, etiam si me admonebit, in qua re ulterius celsitudini suae posset rem gratam facere. Habeo autem ingentes gratias Dominationi Vestrae, quod me per suas commendare dignata est. Itidem obsecro faciat praesens et declaret ac devoveat ei omne studium et affectum meum. Et itidem illis reverendissimis et magnificis dominis, de quibus prioribus meis scripsi et si aliquando ad me scripserit Dominatio Vestra, semper ei rescribam et si poterit sumptibus meis mihi mittere Cosmographiam Partium Septentrionalium et commendo me Dominationi Vestrae, quae diu feliciter valeat et incolumem Dominus conducat.
+            <p n="p">
+        Arbitrabar iam perlatam fuisse expeditionem et cum ea privilegium Dominationis Vestrae quam omni studio curavi apud caesarem et ita fuit facta per dominum Sperantium et provisum de viatico. Tamen forte postea eadem vel altera die debuit accepisse totum etiam privilegium cum litteris meis. Postquam Dominatio Vestra <corr n="corr">censet</corr> scorpionem illum dignum regia maiestate, si sine incommodo suo potest illud suae maiestati deferre et eum nomine meo suae serenitati offerre, faciet mihi rem valde gratam, etiam si me admonebit, in qua re ulterius celsitudini suae posset rem gratam facere. Habeo autem ingentes gratias Dominationi Vestrae, quod me per suas commendare dignata est. Itidem obsecro faciat praesens et declaret ac devoveat ei omne studium et affectum meum. Et itidem illis reverendissimis et magnificis dominis, de quibus prioribus meis scripsi et si aliquando ad me scripserit Dominatio Vestra, semper ei rescribam et si poterit sumptibus meis mihi mittere Cosmographiam Partium Septentrionalium et commendo me Dominationi Vestrae, quae diu feliciter valeat et incolumem Dominus conducat.
     </p> 
-            <closer n="closer1">
-               <dateline n="dateline1">Augustae, <date n="date1" when="1516-01-10">die X Ianuarii anno Domini MDXVI.</date>.</dateline> 
-               <signed n="signed1">
-                  <expan n="expan1">Eiusdem Dominationis Vestrae</expan> semper ad vota Iacobus de Bannissis.</signed>
-               <address n="address1">
-                  <addrLine n="addrLine1">Magnifico domino Ioanni de Curiis Dantisco, <supplied n="supplied1">serenissimi</supplied> regis Poloniae secretario, domino honorando </addrLine>
+            <closer n="closer">
+               <dateline n="dateline">Augustae, <date n="date" when="1516-01-10">die X Ianuarii anno Domini MDXVI.</date>.</dateline> 
+               <signed n="signed">
+                  <expan n="expan">Eiusdem Dominationis Vestrae</expan> semper ad vota Iacobus de Bannissis.</signed>
+               <address n="address">
+                  <addrLine n="addrLine">Magnifico domino Ioanni de Curiis Dantisco, <supplied n="supplied">serenissimi</supplied> regis Poloniae secretario, domino honorando </addrLine>
 
                </address>
             </closer>

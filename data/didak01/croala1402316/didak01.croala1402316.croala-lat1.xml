@@ -40,14 +40,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -103,11 +98,11 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:didak01.croala1402316.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
 
-         <div n="div1" type="prosa-epistula" corresp="#didakpirmense">
-            <opener n="opener1">Michaeli Mensio, senatori gravissimo et aerarii IIIviro S. D.</opener>
-            <p n="p1">
+         <div type="prosa-epistula" corresp="#didakpirmense">
+            <opener n="opener">Michaeli Mensio, senatori gravissimo et aerarii IIIviro S. D.</opener>
+            <p n="p">
       Tandem promissum carmen exhibeo, non invite quidem, sed laboriose
       a me compositum. Raro enim Musae et puellae et virgines singularem
       illam et a multis frustra expetitam canendi facilitatem provectioris
@@ -127,7 +122,7 @@
       
       
     </p>
-            <closer n="closer1">Bene vale.</closer>
+            <closer n="closer">Bene vale.</closer>
          </div>
       </body>
    </text>

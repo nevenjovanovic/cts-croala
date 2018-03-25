@@ -38,20 +38,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -103,16 +92,16 @@
         
     </teiHeader>
    <text xml:base="urn:cts:croala:vranc03.croala701909.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="prosa-epistula"> 
+      <body xml:lang="lat">
+         <pb/>
+         <div type="prosa-epistula"> 
         
-            <p n="p1">Video, frater charissime, fortunam hanc meam infaustissimam qualibet hora, quolibet momento transformare se in pejorem, et in dies quaerere viam ac modum, quo me in novas indignationes avunculi nostri, Joannis Statilii, immergat. Non ignoras, arbitror, me anno elapso ea de causa Hungariam reliquisse, ut locum huic fortunae adversae darem, et quum gratiam acquirere non potuissem, odium saltem evitare pro lucro duxeram. Quum velut ex insidiis iter Gallicum mihi objicitur, mel pro veneno, album pro nigro. Parui. Quid, negassemne? Profectus nihil illorum reperi, quae mihi large fuerant promissa, neque quod ad profectum nostrum futurum fuerat. Quare elegi, satius esse eo reverti, unde discesseram, quam in aula regis tam magni mendicati vivere. En, hic sum, sed in magna indignatione avunculi qui ex pulice, ut scis, elephantos gignit. Gratia Deo Optimo Maximo, in cujus potestate sto, quod regiam majestatem, dominum meum clementissimum, pro me habeam ; quique me de manu leonis eripuit. Illud autem vehementer admiror, quod tantus dominus cum hoc pulice tanta contentione contendat, et quasi immortale bellum gerat. Sed mihi ista eo faciliora videntur, quanto assuetiora. Pro triumpho habeo, quod mihi Deus in eo misericors fuit, quod nullius sceleris mihi sum conscius. Jam ut omittam mea, ad tua venio. Iste meus 
-            <pb n="pb1"/> 
+            <p n="p">Video, frater charissime, fortunam hanc meam infaustissimam qualibet hora, quolibet momento transformare se in pejorem, et in dies quaerere viam ac modum, quo me in novas indignationes avunculi nostri, Joannis Statilii, immergat. Non ignoras, arbitror, me anno elapso ea de causa Hungariam reliquisse, ut locum huic fortunae adversae darem, et quum gratiam acquirere non potuissem, odium saltem evitare pro lucro duxeram. Quum velut ex insidiis iter Gallicum mihi objicitur, mel pro veneno, album pro nigro. Parui. Quid, negassemne? Profectus nihil illorum reperi, quae mihi large fuerant promissa, neque quod ad profectum nostrum futurum fuerat. Quare elegi, satius esse eo reverti, unde discesseram, quam in aula regis tam magni mendicati vivere. En, hic sum, sed in magna indignatione avunculi qui ex pulice, ut scis, elephantos gignit. Gratia Deo Optimo Maximo, in cujus potestate sto, quod regiam majestatem, dominum meum clementissimum, pro me habeam ; quique me de manu leonis eripuit. Illud autem vehementer admiror, quod tantus dominus cum hoc pulice tanta contentione contendat, et quasi immortale bellum gerat. Sed mihi ista eo faciliora videntur, quanto assuetiora. Pro triumpho habeo, quod mihi Deus in eo misericors fuit, quod nullius sceleris mihi sum conscius. Jam ut omittam mea, ad tua venio. Iste meus 
+            <pb/> 
             dolor nihil est respectu illius, quem capio ex tuis adversitatibus. Tuae etiam rationes apud ipsum avunculum pessimo loco sunt, propterea quod Petrus Croata palam et gravissime conquestus sit de te illi. Quare? puto, intelligis. Avunculus ob id miris modis in te excandescit et implacabiliter irascitur. Hoc eodem momento ferme contigit, quo nuncius de adventu meo ad eum fuisset perlatus. Adeo studet fortuna, nos aequalibus calamitatibus obruere et in hisce miseriis conjungere. Hae tamen omnes nihil essent, si solum ira avunculi evitari aut mitigari posset.  </p> 
-            <closer n="closer1">
-               <salute n="salute1">Vale.</salute>
-               <dateline n="dateline1">Budae, <date n="date1" when="1540-03-01">kal. Martii MDXL.</date>
+            <closer n="closer">
+               <salute n="salute">Vale.</salute>
+               <dateline n="dateline">Budae, <date n="date" when="1540-03-01">kal. Martii MDXL.</date>
                </dateline>
             </closer>
          </div>

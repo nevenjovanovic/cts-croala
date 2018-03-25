@@ -51,17 +51,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -139,20 +131,20 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:dubrovnik.croala696484.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1" corresp="#dubrovnikklementvii15321111">
+        <body xml:lang="lat">
+            <div type="prosa-epistula" corresp="#dubrovnikklementvii15321111">
 
-                <head n="head1">XI/3. <date n="date1" when="1532-11-11">1532. 11. Novembris</date>, Rhagusio Rector et consilium Rhagusii Clementi
+                <head n="head">XI/3. <date n="date" when="1532-11-11">1532. 11. Novembris</date>, Rhagusio Rector et consilium Rhagusii Clementi
                     papae VII. </head>
 
 
-                <note n="note1" resp="BJ">Segr. Stato, Principi, 7, f. 549. Sigillo papyro tecto.</note>
+                <note n="note" resp="BJ">Segr. Stato, Principi, 7, f. 549. Sigillo papyro tecto.</note>
 
-                <opener n="opener1">
-               <note n="note1" resp="BJ">[Inscriptio:]</note> Sanctissimo patri, domino nostro
+                <opener n="opener">
+               <note n="note" resp="BJ">[Inscriptio:]</note> Sanctissimo patri, domino nostro
                     Beatissime pater!</opener>
-                <p n="p1">Defuncto his diebus <persName n="persName1">episcopo Mercanensi et Tribunensi</persName>
-               <ref n="ref1">16</ref> in eius locum
+                <p n="p">Defuncto his diebus <persName n="persName1">episcopo Mercanensi et Tribunensi</persName>
+               <ref n="ref">16</ref> in eius locum
                     in hoc ipso episcopatu elegimus reverendissimum dominum fratrem <persName n="persName2">Thomam Cervinum</persName>,
                     patricium nostrum ordinis divi <persName n="persName3">Dominici</persName>, virum sane et morum sanctitate et aliis
                     animi dotibus, quibus maxime excellit, huiuscemodi dignitate haud indignum.
@@ -162,12 +154,12 @@
                     vix, qui ipsam episcopalem dignitatem substinet, se pro sua dignitate alere
                     substentareque valeat – supplicamus Sanctitati Vestrae, sic ipsum episcopum a
                     nobis electum in sua confirmatione fovendum iuvandumque suscipiat, ut nos ei
-                    benignitatem Sanctitatis Vestre, quam <note n="note1" resp="BJ">16 Id est episcopus
+                    benignitatem Sanctitatis Vestre, quam <note n="note" resp="BJ">16 Id est episcopus
                         Macarensis et Tribunensis. </note>
-                    <milestone n="milestone1" unit="page"/> omnes sentiunt, predicant et admirantur, non defuisse
+                    <milestone unit="page"/> omnes sentiunt, predicant et admirantur, non defuisse
                     intelligamus et Sanctitati Vestrae precamur a Deo Optimo Maximo felicitatem
                     atque incolumitatem.</p>
-                <closer n="closer1">Datum Rhagusii, die XI Novembris 1532. Eiusdem Sanctitatis Vestrae Rector et
+                <closer n="closer">Datum Rhagusii, die XI Novembris 1532. Eiusdem Sanctitatis Vestrae Rector et
                     consilium Rhagusii devotissimi servitores</closer>
 
             </div>

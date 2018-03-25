@@ -54,13 +54,7 @@
       </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -109,14 +103,14 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:bart01.croala3870928.croala-lat1:" xml:lang="lat" type="poesis-epistula">
-      <body n="body1">
-         <head n="head1">Ad Michaelem Peregrinum dicentem se in visione amicae felicem. Hieronymus Bertucius
+      <body>
+         <head n="head">Ad Michaelem Peregrinum dicentem se in visione amicae felicem. Hieronymus Bertucius
             Atticus.</head>
          <l n="l1"> Sola tuae mentis, sic fers, Peregrine, voluptas</l>
          <l n="l2"> Est faciem <orig n="orig1">Dominę</orig> posse videre <orig n="orig2">tuę</orig>.</l>
          <l n="l3"> Lumina sidereas cernis superantia flammas</l>
          <l n="l4"> Et roseo fusas usque colore genas.</l>
-         <l n="l5"> Et iactas frontem <orig n="orig1">Phoebęa</orig> luce nitentem,</l>
+         <l n="l5"> Et iactas frontem <orig n="orig">Phoebęa</orig> luce nitentem,</l>
          <l n="l6"> Oscula coraliis aemula purpureis,</l>
          <l n="l7"> Et nigros crines laudas et eburnea colla,</l>
          <l n="l8"> Brachia Caucasea candidiora nive.</l>
@@ -128,7 +122,7 @@
          <l n="l14"> Partem: dic nomen quod tibi quinta daret?</l>
          <l n="l15"> Te dea divino gratum donaret honore:</l>
          <l n="l16"> Moribus et forma hanc quis neget esse deam?</l>
-         <l n="l17"> Marte fores, summo nec non Iove <orig n="orig1">lętior</orig> ipso:</l>
+         <l n="l17"> Marte fores, summo nec non Iove <orig n="orig">lętior</orig> ipso:</l>
          <l n="l18"> Namque Venus Veneri cederet alma tuae.</l>
          <l n="l19"> Tu tamen ipsius supplex fac numen adores,</l>
          <l n="l20"> Aligerum precibus sollicitesque deum.</l>

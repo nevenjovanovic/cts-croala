@@ -59,28 +59,13 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1']/*[@n='$2'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -146,18 +131,18 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:perceval01.croala848800.croala-lat1:" xml:lang="lat" type="prosimetrum">
-                <body xml:lang="lat" n="body1">
-                    <div n="div1">
-                        <milestone unit="page" n="milestone1"/>
-                        <head n="head1">I.
+                <body xml:lang="lat">
+                    <div n="div">
+                        <milestone unit="page"/>
+                        <head n="head">I.
                             
                             Statutum uetus.</head>
                     
-                    <gap n="gap1" resp="NJ" reason="irrelevant"/>
+                    <gap resp="NJ" reason="irrelevant"/>
                     
                     
                     <div n="div1" type="prosa-praefatio">
-                        <head n="head1">Incipit prohemium statutorum Spalati.</head>
+                        <head n="head">Incipit prohemium statutorum Spalati.</head>
                         
 
                         
@@ -166,37 +151,37 @@
                         
                         <p n="p1">Hęc sunt statuta et ordinamenta communitatis et hominum ciuitatis Spalati, facta, edita et condita per nobilem et sapientem uirum, dominum Perceualum Johannis, de nobili et honorabili ciuitate Firmana, peritum in iure canonico et ciuili, honorabilem potestatem ciuitatis Spalati sub anno domini Millesimo trecentesimo duodecimo, indictione decima; tempore sanctissimi principis domini Clementis papę quinti, ad laudem et reuerentiam omnipotentis Dei et beatę Marię semper uirginis, specialiter beati Domnij martiris et sancti Anastasij, patronorum dictę ciuitatis, quorum pręsidio et defensione Spalatina ciuitas in pacifico statu gubernatur, et aliorum omnium sanctorum et sanctarum Dei, quorum intercessionibus diuina maiestas misericorditer inclinetur ad illuminandum mentes et animos hominum ciuitatis prędictę, ut honeste uiuant, alterum non ledant et ius suum unicuique tribuant cum effectu et ut debita iusticia ęqualiter obseruetur, per quam mundus uniuersaliter secundum rectum ordinem gubernatur.</p>
                         
-                        <p n="p2">Scriptum est enim: <q n="q1">per me reges regnant et potentes scribunt iusticiam</q>.</p>
+                        <p n="p2">Scriptum est enim: <q n="q">per me reges regnant et potentes scribunt iusticiam</q>.</p>
                         
                         <p n="p3">Et ad hoc ut pręfata ciuitas Spalatina diuino semper auxilio suffragante perpetuo conseruari ualeat in statu pacifico et tranquillo: nam Roma tam diu mundi tenuit monarchiam, quam diu uiguit iusticia in Romanis; deficiente autem in eis iusticia, defecit dominium Romanorum.</p>
                         </div>
                         
-                        <milestone unit="page" n="milestone2"/>
+                        <milestone unit="page"/>
                         
                         <div n="div2" type="prosimetrum-proemium">
-                            <head n="head1">Exordium.</head>
+                            <head n="head">Exordium.</head>
                         
-                        <p n="p1">Diuina sapientia cuncta prospiciens ab ęterno, humanam condidit creaturam, sibi omnia subiciens mundana ratione ac etiam intellectu eam feliciter decorando. Concessit etiam eidem liberum arbitrium, ut ipso uteretur in bonum ac propter dona sibi celitus attributa, uicia fugeret et praue agere formidaret et non solum a uicijs abstineret, sed puris et sinceris affectibus cum reuerentia creatoris exercere uirtutes et benefacere solicite procuraret. Verum ex arbitrio libero ipsorum hominum cupiditas effrenata, pacis emula, diuina beneficia nullatenus recognoscens, lites, contentiones et discordias cotidie generat inter gentes, ut, nisi iusticia conatus eius reprimeret, non posset mundus secundum rectum ordinem gubernari. Ideoque leges sunt proditae, ut mali homines ab eorum malicijs et erroribus conpescantur et boni iustique homines uiuere ualeant pacifice et quiete. Scriptum est enim: <q n="q1">Ante Dei uultum nihil pertransit inultum</q>. Lex enim non fuit necessaria propter bonos, quum sibi est lex quilibet probus homo et si a nemine puniretur, tum ex sua industria natali propter Deum male agere propensius euitaret. Scriptum est enim: Oderunt peccare boni uirtutis amore. Oderunt peccare mali formidine pęnę. Cum igitur quod quisque populus sibi legem constituit, sapienter hoc pro lege debeat obseruare, ac nobilis ciuitas Spalatina, quę a famosa ciuitate Salona traxit originem, cupiens feliciter uiuere ordinate, quantum ad Deum, quantum ad se et quantum ad proximos iuxta sanctissimam euangelicam ueritatem: infrascriptas leges municipales edere procurauit, secundum formam inferius declaratam, et ipsas leges municipales, statuta et ordinamenta sub congruis titulis collocare, nec non in sex libros ea uniuersaliter et singulariter collocando.</p>
+                        <p n="p1">Diuina sapientia cuncta prospiciens ab ęterno, humanam condidit creaturam, sibi omnia subiciens mundana ratione ac etiam intellectu eam feliciter decorando. Concessit etiam eidem liberum arbitrium, ut ipso uteretur in bonum ac propter dona sibi celitus attributa, uicia fugeret et praue agere formidaret et non solum a uicijs abstineret, sed puris et sinceris affectibus cum reuerentia creatoris exercere uirtutes et benefacere solicite procuraret. Verum ex arbitrio libero ipsorum hominum cupiditas effrenata, pacis emula, diuina beneficia nullatenus recognoscens, lites, contentiones et discordias cotidie generat inter gentes, ut, nisi iusticia conatus eius reprimeret, non posset mundus secundum rectum ordinem gubernari. Ideoque leges sunt proditae, ut mali homines ab eorum malicijs et erroribus conpescantur et boni iustique homines uiuere ualeant pacifice et quiete. Scriptum est enim: <q n="q">Ante Dei uultum nihil pertransit inultum</q>. Lex enim non fuit necessaria propter bonos, quum sibi est lex quilibet probus homo et si a nemine puniretur, tum ex sua industria natali propter Deum male agere propensius euitaret. Scriptum est enim: Oderunt peccare boni uirtutis amore. Oderunt peccare mali formidine pęnę. Cum igitur quod quisque populus sibi legem constituit, sapienter hoc pro lege debeat obseruare, ac nobilis ciuitas Spalatina, quę a famosa ciuitate Salona traxit originem, cupiens feliciter uiuere ordinate, quantum ad Deum, quantum ad se et quantum ad proximos iuxta sanctissimam euangelicam ueritatem: infrascriptas leges municipales edere procurauit, secundum formam inferius declaratam, et ipsas leges municipales, statuta et ordinamenta sub congruis titulis collocare, nec non in sex libros ea uniuersaliter et singulariter collocando.</p>
                         
-                        <gap n="gap1" reason="irrelevant" resp="NJ"/>
-                            <milestone unit="page" n="milestone1"/>
+                        <gap reason="irrelevant" resp="NJ"/>
+                            <milestone unit="page"/>
                         <p n="p2">Pręfatus autem Perceualus potestas dictę ciuitatis Spalati ad memoriam sempiternam studuit per scripturas antiquas iuris canonici et ciuilis et per morales philosophos et poetas inuestigare ac rationabiliter conprobare nobilitatem ciuitatis Spalati, ut ciues Spalatini de antiqua nobilitate ipsorum habeant noticiam manifestam.</p>
                         
                         <p n="p3">Sciendum est igitur, quod ciuitas Spalatina traxit originem a famosa et nobili ciuitate Salona. Nam Spalatum secundum ueram ethimologiam et interpretationem nominis ipsius ciuitatis dicitur proprie Spalatum, id est Salonę palatium lętum uel Salonę palatium latum a Diocliciano imperatore mirabiliter fabricatum. Et ideo dictus dominus Perceualus fecit uersum in sigillo ciuitatis Spalati: Palatium lętum, Spalatum Salonę quietum. Post destructionem autem Salonę principes, comites, barones, milites et alij nobiles dictę ciuitatis Salonę in insulis fugientes accesserunt prudenter ad palatium Spalatinum et ibi postmodum habitauerunt. Ex quibus Salonitanis ciuibus nati sunt Deo auctore successiuis temporibus nobiles Spalatini. Et ideo uero sunt nobiles et uera fama nobilitatis eorum, quum ortum a nobilibus habuerunt, sicut Veneti, Paduani et alij quam plures nobiles habuerunt eorum antiquam originem a Troyanis et alijs nobilibus huius orbis.</p>
                         
                         <p n="p4">De nobili autem ciuitate Salona fit mentio in iure canonico in multis decretis inuestigatis per ipsum dominum Perceualum, ut <bibl n="bibl1">in decretis Lxxiiij distinctione in capitulo honoratus</bibl> et <bibl n="bibl2">Lxiij
                         
-                            <milestone unit="page" n="milestone1"/>
+                            <milestone unit="page"/>
                         
                         distinctione, capitulo Salonitanę</bibl> et <bibl n="bibl3">Lxxxxiij distinctione miratus ualde</bibl>. Et <bibl n="bibl4">xj, quęstione iij, rogo</bibl>; et <bibl n="bibl5">xj, quęstione ultima, cum aliquis ad finem</bibl>; et <bibl n="bibl6">ij, quęstione v, quarto et capitulo sequenti</bibl>; et <bibl n="bibl7">xxiij, de illicita</bibl>.</p>
                         
-                        <p n="p5">Et Spalatini etiam debent esse naturaliter sapientes et iusti, quum Salon primus leges Atheniensibus tradidit, ut probatur <bibl n="bibl1">in decretis, prima, distinctione vij, Moyses</bibl>. et fit etiam mentio de Salona et legibus eius instituta de iure natali gentium et ciuili paragrapho: sed ius quidem ciuile. Valerius autem recitat de Salone philosopho, quum in senectute sua et ętate decrepita scienciam discere non cessabat et in ultimo die suae uitę euntibus amicis ad Salonem philosophum et conferentibus coram eo de quadam quęstione, quę creditur fuisse de conseruatione rei publicę ciuitatis Salonę, per quem modum ciuitas Salonę posset melius et salubrius in statu pacifico gubernari: Salon in continenti caput errexit; interrogatus autem ab amicis astantibus, quare hoc fecisset, respondit, ut cum istud, quod disceptatis, audiero perfecte determinari cum gaudio pro statu rei publicę, in pace moriar et quiescam.</p>
+                        <p n="p5">Et Spalatini etiam debent esse naturaliter sapientes et iusti, quum Salon primus leges Atheniensibus tradidit, ut probatur <bibl n="bibl">in decretis, prima, distinctione vij, Moyses</bibl>. et fit etiam mentio de Salona et legibus eius instituta de iure natali gentium et ciuili paragrapho: sed ius quidem ciuile. Valerius autem recitat de Salone philosopho, quum in senectute sua et ętate decrepita scienciam discere non cessabat et in ultimo die suae uitę euntibus amicis ad Salonem philosophum et conferentibus coram eo de quadam quęstione, quę creditur fuisse de conseruatione rei publicę ciuitatis Salonę, per quem modum ciuitas Salonę posset melius et salubrius in statu pacifico gubernari: Salon in continenti caput errexit; interrogatus autem ab amicis astantibus, quare hoc fecisset, respondit, ut cum istud, quod disceptatis, audiero perfecte determinari cum gaudio pro statu rei publicę, in pace moriar et quiescam.</p>
                         
                         <p n="p6">Similiter de dicta ciuitate Salona fit mentio per Lucanum:
-                        <quote n="quote1">
-                     <q n="q1">
+                        <quote n="quote">
+                     <q n="q">
                         <l n="l1">Qua maris Adriaci longas ferit unda Salonas</l>
-                        <l n="l2">Et trepidum in <sic n="sic1">mole</sic> Zephyros excurit Yader.</l>
+                        <l n="l2">Et trepidum in <sic n="sic">mole</sic> Zephyros excurit Yader.</l>
                      </q>
                   </quote>
                </p>
@@ -215,21 +200,21 @@
                         <l n="l9">Exaltat uirtus nobilitando genus</l>
                         <l n="l10">Nobilitas animi sola est, quę moribus ornat</l>
                         <l n="l11">Non eget exterius, qui moribus intus habundat;</l>
-                        <pb n="pb1"/>
+                        <pb/>
                         <l n="l12">Virtus nobilitat animum; uirtute remota</l>
                         <l n="l13">Migrat in exilium nobilitatis honor</l>
                         <l n="l14">Nobilitas, hominis uirtus, deitatis ymago,</l>
                         <l n="l15">Nobilitas hominis uirtutum clara propago.</l>
                         <l n="l16">Nobilitas animi sola est atque unica uirtus.</l>
-                        <l n="l17">Credis opes solas te posse <sic n="sic1">carine</sic> beare?</l>
+                        <l n="l17">Credis opes solas te posse <sic n="sic">carine</sic> beare?</l>
                         <l n="l18">Virtus est sola, quę te beare potest.</l>
                         <l n="l19">Quem uirtus extollit, habet, quod pręferat auro.</l>
                         </div>
                         
                         <div n="div2">
-                  <p n="p1">Debent esse Spalatini perspicaciter sapientes, Salonę casum et periculum intuendo et aliarum ciuitatum propinquarum et etiam remotarum.</p>
+                  <p n="p">Debent esse Spalatini perspicaciter sapientes, Salonę casum et periculum intuendo et aliarum ciuitatum propinquarum et etiam remotarum.</p>
                         
-                            <div n="div1" type="poesis-carmen" met="hexameter">
+                            <div n="div" type="poesis-carmen" met="hexameter">
                             <l n="l1">Felix, quem faciunt aliena pericula cautum;</l>
                         <l n="l2">Nam tua res agitur, paries cum proximus ardet,</l>
                         <l n="l3">Ignibus afflari proxima quęque solent,</l>
@@ -242,9 +227,9 @@
                </div>
                         
                         <div n="div3">
-                  <p n="p1">Diligunt itaque iusticiam Spalatini, ut cum ordine iusticię perpetuo ualeant honorabiliter gubernari: cum iusticia sit famę perpetuę stabile fundamentum.</p>
+                  <p n="p">Diligunt itaque iusticiam Spalatini, ut cum ordine iusticię perpetuo ualeant honorabiliter gubernari: cum iusticia sit famę perpetuę stabile fundamentum.</p>
                         
-                            <div n="div1" type="poesis-carmen" met="hexameter">
+                            <div n="div" type="poesis-carmen" met="hexameter">
                      <l n="l1">Si lis inciderit te iudice, dirige libram</l>
                         <l n="l2">Justicię, nec flectat amor, nec munera palpent;</l>
                         <l n="l3">Munus enim a norma recti distorquet acumen</l>
@@ -254,14 +239,14 @@
                </div>
                         
                         <div n="div4">
-                  <p n="p1">Propter quę Spalatini statuta eorum ordinari et componi uoluerunt secundum formam inferius declaratam, ab omnipotente Deo ac uenerabilibus ecclesijs initium assumendo. Scriptum est enim: <q n="q1">primum quęrite regnum Dei et iusticiam eius et hęc omnia adicientur uobis</q>.</p>
+                  <p n="p">Propter quę Spalatini statuta eorum ordinari et componi uoluerunt secundum formam inferius declaratam, ab omnipotente Deo ac uenerabilibus ecclesijs initium assumendo. Scriptum est enim: <q n="q">primum quęrite regnum Dei et iusticiam eius et hęc omnia adicientur uobis</q>.</p>
                         
-                            <div n="div1" type="poesis-carmen" met="hexameter">
+                            <div n="div" type="poesis-carmen" met="hexameter">
                                 <l n="l1">Si timeas dominum, te cuncta creata timebunt,</l>
                         <l n="l2">Obsequium regni regis amicus habet;</l>
                         <l n="l3">Non reuerens dominum, reuereberis omne creatum;</l>
                         <l n="l4">Regi suspectus, fronde cadente tremet;</l>
-                        <pb n="pb1"/>
+                        <pb/>
                         <l n="l5">Proficit absque Deo nullus in orbe labor,</l>
                         <l n="l6">Omnia prętereunt pręter amare Deum;</l>
                         <l n="l7">Non nisi dante Deo sapientia discitur ulla</l>
@@ -278,7 +263,7 @@
                </div>
             </div>
                         
-                        <gap n="gap2" reason="irrelevant" resp="NJ"/>
+                        <gap reason="irrelevant" resp="NJ"/>
                         
 
          </div>

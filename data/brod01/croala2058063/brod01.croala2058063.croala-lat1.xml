@@ -52,20 +52,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -134,14 +123,14 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:brod01.croala2058063.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula">
-                <head n="head1">Neapoli <date n="date1" when="1536-02-26">26-a Februarii anno a Christo nato 1536</date>.</head>
-                <pb n="pb1"/>
-                <opener n="opener1">S. Brodericus Episcopus Quinqueecclesiensis Nicolao Olao suo
-                        <expan n="expan1">salutem</expan>
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">Neapoli <date n="date" when="1536-02-26">26-a Februarii anno a Christo nato 1536</date>.</head>
+                <pb/>
+                <opener n="opener">S. Brodericus Episcopus Quinqueecclesiensis Nicolao Olao suo
+                        <expan n="expan">salutem</expan>
             </opener>
-                <p n="p1"> Charissime Domine et frater, salutem plurimam et commendationem! Tamdiu nec tu
+                <p n="p"> Charissime Domine et frater, salutem plurimam et commendationem! Tamdiu nec tu
                     quicquam ad me scribis nec ego ad te; licet et ego te ut fratrem amem, et eundem
                     affectum in te esse erga me non dubitem. Statum rerum nostrarum aperte
                     intelligis. Tamdiu tractata est pax Viennae, ut huc nunc sit translata. Hic,
@@ -149,17 +138,17 @@
                     largitor, fortuna caesaris et fratris. Rogo te domine, ut meam humillimam
                     seruitutem in gratiam sacrae reginalis maiestatis dominae meae clementissimae
                     commendare velis. Cui si ob meum ex Posonio a se et a vobis discessum adhuc
-                    indignatur, possem vere illud dicere, quod est apud poëtam: <quote n="quote1">
+                    indignatur, possem vere illud dicere, quod est apud poëtam: <quote n="quote">
                   <l n="l1">Inuitus
                             regina tuo de limine cessi,</l>
                         <l n="l2">Sed me fata Deum, quae nunc has ire per undas</l>
                         <l n="l3">Imperiis egere suis.</l>
                </quote>
                 </p>
-                <closer n="closer1">
-               <salute n="salute1">Scribe iam tandem aliquid ad me saltem prouocatus, et optime
+                <closer n="closer">
+               <salute n="salute">Scribe iam tandem aliquid ad me saltem prouocatus, et optime
                         vale.</salute>
-                    <dateline n="dateline1">Neapoli 26-a Februarii anno a Christo nato 1536.</dateline>
+                    <dateline n="dateline">Neapoli 26-a Februarii anno a Christo nato 1536.</dateline>
             </closer>
             </div>
         </body>

@@ -48,20 +48,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -130,15 +119,15 @@
   </teiHeader>
   <text xml:base="urn:cts:croala:brod01.croala2106629.croala-lat1:" xml:lang="lat">
     
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula">
-            <head n="head1">Posonii <date n="date1" when="1533-03-08">8-a Martii 1533</date>.</head>
-            <pb n="pb1"/>
-            <opener n="opener1">Stephanus Brodericus Episcopus Sirmiensis Nicolao Olao
-          <expan n="expan1">salutem</expan>
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
+            <head n="head">Posonii <date n="date" when="1533-03-08">8-a Martii 1533</date>.</head>
+            <pb/>
+            <opener n="opener">Stephanus Brodericus Episcopus Sirmiensis Nicolao Olao
+          <expan n="expan">salutem</expan>
             </opener>
 
-            <p n="p1">Gratissimae mihi fuerunt tuae litterae, quas Joannes Cegledinus mihi reddidit, qui et
+            <p n="p">Gratissimae mihi fuerunt tuae litterae, quas Joannes Cegledinus mihi reddidit, qui et
           antequam tuas litteras accepissem, mecum de his aliisque negociis diligenter fuerat
           locutus. Et ego illi operam meam liberaliter fueram pollicitus. Quid enim mihi pro tali
           fratre et amico etiam non rogato faciendum non erat? Cuius probitatem et multiplices
@@ -153,7 +142,7 @@
             D.</abbr> hic quoque mea opera, sicut in posterum quoque non deerit, ubicunque talia
           negotia agantur. Nam absque hoc iam non deerit, quantum intelligere possum, quin et pax
           fiat inter principes nostros, et talia inter subditos non transigantur; de quo Deo optimo
-          maximo sunt ab omnibus gratiae agendae; et de his hactenus. Reliqui tuos <pb n="pb1"/>
+          maximo sunt ab omnibus gratiae agendae; et de his hactenus. Reliqui tuos <pb/>
           omnes saluos, apud quos fui in mense Maio anno superiore. Rogo autem <abbr n="abbr2">T. D.</abbr> ut
           obsequia mea humillima in gratiam maiestatis reginalis dominae nostrae clementissimae
           commendare per omnes occasiones velit; non possum ego quomodocunque negotia publica
@@ -169,16 +158,16 @@
           Rogo autem <abbr n="abbr3">V. D.</abbr> velit mihi significare, et in quali me gratia esse sentit
           apud maiestatem suam reginalem, et de hoc exspecto fieri omnino certior a tua dominatione;
           est enim mihi in praecipuis votis esse in gratia suae serenissimae maiestatis, et possum
-          in veritate dicere illud, quod apud Virgilium Aeneas: <quote n="quote1">
+          in veritate dicere illud, quod apud Virgilium Aeneas: <quote n="quote">
                   <l n="l1">per sidera iuro,</l>
                   <l n="l2">Per superos, et si qua fides tellure sub ima est,</l>
                   <l n="l3">Inuitus Regina tuo de littore cessi.</l>
                </quote>
             </p>
-            <closer n="closer1">
-               <salute n="salute1">Me vestrae dominationi et aliis amicis, si qui adhuc istic nostri sunt memores,
-            commendo plurimum, et <abbr n="abbr1">V. D.</abbr> felicem ac semper sanam esse cupio.</salute>
-               <dateline n="dateline1">Posonii 8-a Martii 1533.</dateline>
+            <closer n="closer">
+               <salute n="salute">Me vestrae dominationi et aliis amicis, si qui adhuc istic nostri sunt memores,
+            commendo plurimum, et <abbr n="abbr">V. D.</abbr> felicem ac semper sanam esse cupio.</salute>
+               <dateline n="dateline">Posonii 8-a Martii 1533.</dateline>
             </closer>
          </div>
       </body>

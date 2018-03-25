@@ -39,22 +39,14 @@
       </fileDesc>
       <encodingDesc>
          <!-- CTS for a single poem in document -->
-         <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+         
+      
+    
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
-      
-    
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -99,18 +91,18 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:kunic02.croala1111096.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-elegia-paraphrasis" met="elegiacum">
+      <body xml:lang="lat">
+         <div type="poesis-elegia-paraphrasis" met="elegiacum">
             
             <l n="l1">Maecenas, Regum sanguis, quo nitor et unde</l>
             <l n="l2" met="pentameter">Hoc quodcumque mei nominis omne venit,</l>
-            <l n="l3">Sunt quos <sic n="sic1">Alphaeae</sic> bijugus prope flumina Pisae</l>
+            <l n="l3">Sunt quos <sic n="sic">Alphaeae</sic> bijugus prope flumina Pisae</l>
             <l n="l4" met="pentameter">Cursus, et elati pulveris unda juvat,</l>
             <l n="l5">Et vitata rotis ferventibus obvia meta,</l>
             <l n="l6" met="pentameter">Et palma ad summos evehit usque deos.</l>
             <l n="l7">Hunc si mobilior fluctuque, et nube Quiritum</l>
             <l n="l8" met="pentameter">Tollere tergemino certet honore favor,</l>
-            <l n="l9">Illum si <sic n="sic1">Lybicas</sic> congessit in horrea messes</l>
+            <l n="l9">Illum si <sic n="sic">Lybicas</sic> congessit in horrea messes</l>
             <l n="l10" met="pentameter">Gaudentem patrios findere sarculo agros.</l>
             <l n="l11">Non raro Attalicae labefactes munere vertis,</l>
             <l n="l12" met="pentameter">Non auro aut cari deliciis lapidis,</l>
@@ -135,7 +127,7 @@
             <l n="l31">Seu celerem catuli cervam videre fideles.</l>
             <l n="l32" met="pentameter">Obvia seu rupit retia Marsus aper.</l>
             <l n="l33">Me superis miscent, doctorum praemia vatum,</l>
-            <l n="l34" met="pentameter">Lauri, me molles, <sic n="sic1">bacchica</sic> serta, hederae;</l>
+            <l n="l34" met="pentameter">Lauri, me molles, <sic n="sic">bacchica</sic> serta, hederae;</l>
             <l n="l35">Me nemus abducit Populo, me frigida rupes,</l>
             <l n="l36" met="pentameter">Nympharumque leves cum Satyris choreae;</l>
             <l n="l37">Si mihi Lesborum dulcis Polyhymnia tendit</l>

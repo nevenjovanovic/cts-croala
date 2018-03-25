@@ -56,14 +56,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -120,11 +115,11 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:tihic02.croala1410080.croala-lat1:" xml:lang="lat" type="poesis">
-                <body xml:lang="lat" n="body1">
-                    <gap n="gap1" resp="NJ" reason="irrelevant"/>
-         <milestone unit="page" n="milestone1"/>
-                    <div n="div1" type="poesis-epigramma" met="elegiacum">
-                        <head n="head1">Ad nobilissimam urbem Sici Nicolai Tranquilli nobilis Sicensis.</head>
+                <body xml:lang="lat">
+                    <gap resp="NJ" reason="irrelevant"/>
+         <milestone unit="page"/>
+                    <div type="poesis-epigramma" met="elegiacum">
+                        <head n="head">Ad nobilissimam urbem Sici Nicolai Tranquilli nobilis Sicensis.</head>
                         <l n="l1">Curia te maior, Michaelis maxima diui</l>
                         <l n="l2" met="pentameter">Te tutela facit non nituisse minus</l>
                         <l n="l3">Inclita quam uirtus Donati et gloria, caelum</l>
@@ -132,7 +127,7 @@
                         <l n="l5">Vrbs o fortunata, beat custodia tanti</l>
                         <l n="l6" met="pentameter">En te Donati, te iubar esse canam.</l>
                     </div>
-                    <gap n="gap2" resp="NJ" reason="irrelevant"/>
+                    <gap resp="NJ" reason="irrelevant"/>
 
                     
                     

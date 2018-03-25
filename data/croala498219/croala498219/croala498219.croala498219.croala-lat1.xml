@@ -42,19 +42,10 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1']/*[@n='$2'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -104,11 +95,11 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:croala498219.croala498219.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-epica-fragmentum-versio" met="hexameter">
-            <head n="head1">Ex libro primo Italici poematis Torquati Tassi</head>
+      <body xml:lang="lat">
+         <div type="poesis-epica-fragmentum-versio" met="hexameter">
+            <head n="head">Ex libro primo Italici poematis Torquati Tassi</head>
             <div n="div1" type="poesis-epica-octava">
-               <head n="head1">I.</head>
+               <head n="head">I.</head>
                <l n="l1">Bella cano pia gesta duci, quo vindice, pulsa</l>
              
                <l n="l2">Barbarie, Christi libertas parta sepulcro est.</l>
@@ -117,10 +108,10 @@
              
                <l n="l4">Consilio, multa et passus, dum promovet ingens</l>
              
-               <l n="l5">Propositum. Stygius frustra furor obstitit, omnis		<note n="note1" type="numvers">5</note>
+               <l n="l5">Propositum. Stygius frustra furor obstitit, omnis		<note n="note" type="numvers">5</note>
                </l>
              
-               <l n="l6">Frustra Asiae ac <sic n="sic1">Lybiae</sic> pubes in bella coorta est.</l>
+               <l n="l6">Frustra Asiae ac <sic n="sic">Lybiae</sic> pubes in bella coorta est.</l>
              
                <l n="l7">Ipse duci propior deus adfuit et sua tandem</l>
              
@@ -128,10 +119,10 @@
              
             </div>
             <div n="div2" type="poesis-epica-octava">
-               <head n="head1">II.</head>
+               <head n="head">II.</head>
                <l n="l1">Musa, comam cui mos non est vincire caduca</l>
              
-               <l n="l2">Lauro, <sic n="sic1">Cyrrham</sic> humilem parvumque Helicona colenti,	<note n="note1" type="numvers">10</note>
+               <l n="l2">Lauro, <sic n="sic">Cyrrham</sic> humilem parvumque Helicona colenti,	<note n="note" type="numvers">10</note>
                </l>
              
                <l n="l3">Sed divum celebrare choros, gestare sed aureis</l>
@@ -142,22 +133,22 @@
              
                <l n="l6">Ardorem inspira: da clarum condere carmen;</l>
              
-               <l n="l7">Da veniam, si forte ausim suffundere vero			<note n="note1" type="numvers">15</note>
+               <l n="l7">Da veniam, si forte ausim suffundere vero			<note n="note" type="numvers">15</note>
                </l>
              
                <l n="l8">Fuci aliquid chartisque inspergere non tua mella.</l>
              
             </div>
             <div n="div3" type="poesis-epica-octava">
-               <head n="head1">
-                  <num n="num1" value="3">III</num>.</head>
+               <head n="head">
+                  <num n="num" value="3">III</num>.</head>
                <l n="l1">Scis cantu duci vulgus ferrique gregatim,</l>
              
-               <l n="l2">Fundit ubi blandum rupes <sic n="sic1">Parnassia</sic> nectar</l>
+               <l n="l2">Fundit ubi blandum rupes <sic n="sic">Parnassia</sic> nectar</l>
              
                <l n="l3">Largius, et molli conditum carmine verum</l>
              
-               <l n="l4">Illexisse animos resides aversaque corda.			<note n="note1" type="numvers">20</note>
+               <l n="l4">Illexisse animos resides aversaque corda.			<note n="note" type="numvers">20</note>
                </l>
              
                <l n="l5">Sic aegro quondam puero contacta liquore</l>
@@ -170,8 +161,8 @@
              
             </div>
             <div n="div4" type="poesis-epica-octava">
-               <head n="head1">IV.</head>
-               <l n="l1">Huc, Alfonse, gravi fortunae turbine pressum		<note n="note1" type="numvers">25</note>
+               <head n="head">IV.</head>
+               <l n="l1">Huc, Alfonse, gravi fortunae turbine pressum		<note n="note" type="numvers">25</note>
                </l>
              
                <l n="l2">Qui servas tutosque aperis mihi denique portus,</l>
@@ -182,7 +173,7 @@
              
                <l n="l5">Huc ades, o, placidoque bonus mea carmina vultu</l>
              
-               <l n="l6">Excipe, sacra fero votivum quae tibi munus.			<note n="note1" type="numvers">30</note>
+               <l n="l6">Excipe, sacra fero votivum quae tibi munus.			<note n="note" type="numvers">30</note>
                </l>
              
                <l n="l7">Fors et tempus erit, de te cum scribere possim,</l>
@@ -191,12 +182,12 @@
              
             </div>
             <div n="div5" type="poesis-epica-octava">
-               <head n="head1">V.</head>
+               <head n="head">V.</head>
                <l n="l1">Nam tibi (Christiadae si quando bella perosi</l>
              
                <l n="l2">Impia fraternas iungent in foedera dextras</l>
              
-               <l n="l3">Atque ferum turmis et classibus ire parabunt		<note n="note1" type="numvers">35</note>
+               <l n="l3">Atque ferum turmis et classibus ire parabunt		<note n="note" type="numvers">35</note>
                </l>
              
                <l n="l4">In Thracem et male rapta reposcere regna, beatas</l>
@@ -207,12 +198,12 @@
              
                <l n="l7">Aemule Gotfredi; interea mea carmina prona</l>
              
-               <l n="l8">Aure bibe incoeptisque animos ingentibus apta.		<note n="note1" type="numvers">40</note>
+               <l n="l8">Aure bibe incoeptisque animos ingentibus apta.		<note n="note" type="numvers">40</note>
                </l>
              
             </div>
             <div n="div6" type="poesis-epica-octava">
-               <head n="head1">VI.</head>
+               <head n="head">VI.</head>
                <l n="l1">Iam sexta Aurorae in populis hiberna videbant</l>
              
                <l n="l2">Christiadas bello intentos; Nicaeaque capta</l>
@@ -221,21 +212,21 @@
              
                <l n="l4">Dein etiam innumeros ingenti mole ferentes</l>
              
-               <l n="l5">Auxilium, contra Persas defensa; subacta			<note n="note1" type="numvers">45</note>
+               <l n="l5">Auxilium, contra Persas defensa; subacta			<note n="note" type="numvers">45</note>
                </l>
              
                <l n="l6">Antarados, quam nunc Tortosam nomine dicunt.</l>
              
-               <l n="l7">Inde <sic n="sic1">hyemi</sic> cessere loco sparsique per urbes</l>
+               <l n="l7">Inde <sic n="sic">hyemi</sic> cessere loco sparsique per urbes</l>
              
                <l n="l8">Vernam expectabant auram Zephyrosque tepentes.</l>
              
             </div>
             <div n="div7" type="poesis-epica-octava">
-               <head n="head1">VII.</head>
-               <l n="l1">Iamque <sic n="sic1">hyemis</sic> prope finis erat nimbisque fugatis</l>
+               <head n="head">VII.</head>
+               <l n="l1">Iamque <sic n="sic">hyemis</sic> prope finis erat nimbisque fugatis</l>
              
-               <l n="l2">Instabat duro tempestas commoda bello,			<note n="note1" type="numvers">50</note>
+               <l n="l2">Instabat duro tempestas commoda bello,			<note n="note" type="numvers">50</note>
                </l>
              
                <l n="l3">Cum rerum pater e solio, quod parte locavit</l>
@@ -244,23 +235,23 @@
              
                <l n="l5">Astriferumque orbem supra tantum extulit, orbis</l>
              
-               <l n="l6">Astrifer obscuro quantum se <sic n="sic1">attolit</sic> ab Orco;</l>
+               <l n="l6">Astrifer obscuro quantum se <sic n="sic">attolit</sic> ab Orco;</l>
              
-               <l n="l7">Despexit terras, uno simul omnia cernens			<note n="note1" type="numvers">55</note>
+               <l n="l7">Despexit terras, uno simul omnia cernens			<note n="note" type="numvers">55</note>
                </l>
              
                <l n="l8">Intuitu, diversa locis quae continet orbis.</l>
              
             </div>
             <div n="div8" type="poesis-epica-octava">
-               <head n="head1">VIII.</head>
+               <head n="head">VIII.</head>
                <l n="l1">Vidit cuncta pater, Syriae dein lumina terris</l>
              
                <l n="l2">Defixit penitusque animos atque alta suorum</l>
              
                <l n="l3">Sensa tuens regum lustravit lumine, mentes</l>
              
-               <l n="l4">Quo subit, humanique intrat penetralia cordis:		<note n="note1" type="numvers">60</note>
+               <l n="l4">Quo subit, humanique intrat penetralia cordis:		<note n="note" type="numvers">60</note>
                </l>
              
                <l n="l5">Gotfredum sancta gentem exturbare profanam</l>
@@ -273,8 +264,8 @@
              
             </div>
             <div n="div9" type="poesis-epica-octava">
-               <head n="head1">IX.</head>
-               <l n="l1">At Baldovinum flagrare cupidine dira,			<note n="note1" type="numvers">65</note>
+               <head n="head">IX.</head>
+               <l n="l1">At Baldovinum flagrare cupidine dira,			<note n="note" type="numvers">65</note>
                </l>
              
                <l n="l2">Mirantem quae vana homines mirantur et optant;</l>
@@ -285,7 +276,7 @@
              
                <l n="l5">Regna Bohemundum sua condere, magna locantem</l>
              
-               <l n="l6">Fundamenta, alias leges imponere victae			<note n="note1" type="numvers">70</note>
+               <l n="l6">Fundamenta, alias leges imponere victae			<note n="note" type="numvers">70</note>
                </l>
              
                <l n="l7">Et mores alios genti, quas postulat usus,</l>
@@ -294,12 +285,12 @@
              
             </div>
             <div n="div10" type="poesis-epica-octava">
-               <head n="head1">X.</head>
+               <head n="head">X.</head>
                <l n="l1">Idque animo versare unum, Solymaeque videri</l>
              
                <l n="l2">Securum magnique oblitum exordia belli;</l>
              
-               <l n="l3">Rinaldum bellique avidum, nec lenta ferentem		<note n="note1" type="numvers">75</note>
+               <l n="l3">Rinaldum bellique avidum, nec lenta ferentem		<note n="note" type="numvers">75</note>
                </l>
              
                <l n="l4">Otia. Non auri, non regni fulgor, at ardens</l>
@@ -312,8 +303,8 @@
              
             </div>
             <div n="div11" type="poesis-epica-octava">
-               <head n="head1">XI.</head>
-               <l n="l1">Quae postquam magni vidit rex omnia mundi		<note n="note1" type="numvers">80</note>
+               <head n="head">XI.</head>
+               <l n="l1">Quae postquam magni vidit rex omnia mundi		<note n="note" type="numvers">80</note>
                </l>
              
                <l n="l2">Atque hos atque alios inspexit pectore in imo,</l>
@@ -322,9 +313,9 @@
              
                <l n="l4">Qui fratres, primum si demas, anteit omnes.</l>
              
-               <l n="l5">Ille dei interpres et <sic n="sic1">nuncius</sic> ille Tonantis</l>
+               <l n="l5">Ille dei interpres et <sic n="sic">nuncius</sic> ille Tonantis</l>
              
-               <l n="l6">Heroas felix ad magnos aethere ab alto			<note n="note1" type="numvers">85</note>
+               <l n="l6">Heroas felix ad magnos aethere ab alto			<note n="note" type="numvers">85</note>
                </l>
              
                <l n="l7">Fert mandata dei; supera inde ad templa revertens</l>
@@ -333,12 +324,12 @@
              
             </div>
             <div n="div12" type="poesis-epica-octava">
-               <head n="head1">XII.</head>
+               <head n="head">XII.</head>
                <l n="l1">Hunc Genitor vocat ad sese, dein talia mandat:</l>
              
                <l n="l2">“I, pete Gotfredum, Gabriel, nostroque rogato</l>
              
-               <l n="l3">Nomine cur cessant, cur nondum bella, gementique		<note n="note1" type="numvers">90</note>
+               <l n="l3">Nomine cur cessant, cur nondum bella, gementique		<note n="note" type="numvers">90</note>
                </l>
              
                <l n="l4">Auxilium instaurant Solymae. Dic, regibus ille</l>
@@ -349,12 +340,12 @@
              
                <l n="l7">Sic placitum: heic illum caeli rex deligo, terris</l>
              
-               <l n="l8">Inde legent socii quondam iam ad bella ministri.”		<note n="note1" type="numvers">95</note>
+               <l n="l8">Inde legent socii quondam iam ad bella ministri.”		<note n="note" type="numvers">95</note>
                </l>
              
             </div>
             <div n="div13" type="poesis-epica-octava">
-               <head n="head1">XIII.</head>
+               <head n="head">XIII.</head>
                <l n="l1">Sic ait; ille celer dictis parere parabat.</l>
              
                <l n="l2">Ergo suam primum formam, quam cernere nulli est</l>
@@ -363,7 +354,7 @@
              
                <l n="l4">Subiectam visu mortali humanaque verba</l>
              
-               <l n="l5">Et speciem humanae similem sibi finxit; at almo		<note n="note1" type="numvers">100</note>
+               <l n="l5">Et speciem humanae similem sibi finxit; at almo		<note n="note" type="numvers">100</note>
                </l>
              
                <l n="l6">Maiorem humana maiestatem indidit ori.</l>
@@ -374,10 +365,10 @@
              
             </div>
             <div n="div14" type="poesis-epica-octava">
-               <head n="head1">XIV.</head>
+               <head n="head">XIV.</head>
                <l n="l1">Tum niveas humeris aptat candentibus alas,</l>
              
-               <l n="l2">Extremasque auro pingit, quas nulla fatigat			<note n="note1" type="numvers">105</note>
+               <l n="l2">Extremasque auro pingit, quas nulla fatigat			<note n="note" type="numvers">105</note>
                </l>
              
                <l n="l3">Vis agilesque citasque magis pernicibus Euris.</l>
@@ -386,24 +377,24 @@
              
                <l n="l5">Ac terram supra sublimis et aequora fertur.</l>
              
-               <l n="l6">Tali se cultu caelestis <sic n="sic1">nuncius</sic> imam</l>
+               <l n="l6">Tali se cultu caelestis <sic n="sic">nuncius</sic> imam</l>
              
-               <l n="l7">Demisit mundi ad partem, paribusque retentans		<note n="note1" type="numvers">110</note>
+               <l n="l7">Demisit mundi ad partem, paribusque retentans		<note n="note" type="numvers">110</note>
                </l>
              
                <l n="l8">Sese alis, Libani frondoso in vertice primum</l>
              
             </div>
             <div n="div15" type="poesis-epica-octava">
-               <head n="head1">XV.</head>
+               <head n="head">XV.</head>
                <l n="l1">Constitit: hinc toto praeceps se corpore misit</l>
              
                <l n="l2">
-                  <sic n="sic1">Tortosaeque</sic> volans cursum direxit ad oras.</l>
+                  <sic n="sic">Tortosaeque</sic> volans cursum direxit ad oras.</l>
              
-               <l n="l3">Sol novus <sic n="sic1">eois</sic> surgebat fluctibus ortus</l>
+               <l n="l3">Sol novus <sic n="sic">eois</sic> surgebat fluctibus ortus</l>
              
-               <l n="l4">Parte sui: maior pars undis mersa latebat.			<note n="note1" type="numvers">115</note>
+               <l n="l4">Parte sui: maior pars undis mersa latebat.			<note n="note" type="numvers">115</note>
                </l>
              
                <l n="l5">Gotfredus de more deum veniente vocabat</l>
@@ -416,8 +407,8 @@
              
             </div>
             <div n="div16" type="poesis-epica-octava">
-               <head n="head1">XVI.</head>
-               <l n="l1">Tum sic mirantem alloquitur: “Gotfrede, gerendo		<note n="note1" type="numvers">120</note>
+               <head n="head">XVI.</head>
+               <l n="l1">Tum sic mirantem alloquitur: “Gotfrede, gerendo		<note n="note" type="numvers">120</note>
                </l>
              
                <l n="l2">Iam rediit bello tempestas commoda; bellum</l>
@@ -428,7 +419,7 @@
              
                <l n="l5">Fertis opem? Proceres oblitos ipse moneto,</l>
              
-               <l n="l6">Concilium indice ac stimulos cessantibus adde!		<note n="note1" type="numvers">125</note>
+               <l n="l6">Concilium indice ac stimulos cessantibus adde!		<note n="note" type="numvers">125</note>
                </l>
              
                <l n="l7">Cunctorum deus ipse ducem te deligit: illi</l>
@@ -437,12 +428,12 @@
              
             </div>
             <div n="div17" type="poesis-epica-octava">
-               <head n="head1">XVII.</head>
+               <head n="head">XVII.</head>
                <l n="l1">Haec tibi me vacuas iussit mandata per auras</l>
              
                <l n="l2">Ferre poli rex ille, suis haec dicere verbis.</l>
              
-               <l n="l3">Fide, decet, tali auxilio; magnumque capesse		<note n="note1" type="numvers">130</note>
+               <l n="l3">Fide, decet, tali auxilio; magnumque capesse		<note n="note" type="numvers">130</note>
                </l>
              
                <l n="l4">Imperium atque ducis primi iam concipe curas.”</l>
@@ -453,12 +444,12 @@
              
                <l n="l7">Gotfredum gravibus dictis et luce corusca</l>
              
-               <l n="l8">Attonitumque animi, perstrictum et lumina linquens.		<note n="note1" type="numvers">135</note>
+               <l n="l8">Attonitumque animi, perstrictum et lumina linquens.		<note n="note" type="numvers">135</note>
                </l>
              
             </div>
             <div n="div18" type="poesis-epica-octava">
-               <head n="head1">XVIII.</head>
+               <head n="head">XVIII.</head>
                <l n="l1">Redditus inde sibi postquam est ac mente volutat</l>
              
                <l n="l2">Quis venit, cuius missu, quae verba locutus,</l>
@@ -467,7 +458,7 @@
              
                <l n="l4">Incoepto finem dux ipse imponere bello;</l>
              
-               <l n="l5">Non aliis quod se praelatum sentit ab ipso			<note n="note1" type="numvers">140</note>
+               <l n="l5">Non aliis quod se praelatum sentit ab ipso			<note n="note" type="numvers">140</note>
                </l>
              
                <l n="l6">Numine cor tumidum dulcedine tactus inani,</l>

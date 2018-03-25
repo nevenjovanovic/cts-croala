@@ -38,14 +38,9 @@
 	     </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -83,9 +78,9 @@
       </profileDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:benes01.croala512181.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-epigramma" met="hendecasyllabus">
-            <head n="head1">Ad Alesum Abbatem</head>
+      <body xml:lang="lat">
+         <div type="poesis-epigramma" met="hendecasyllabus">
+            <head n="head">Ad Alesum Abbatem</head>
             <l n="l1">        Quotquot littore uel fuere nostro,</l>
              
             <l n="l2">        Vel sunt, aut aliis erunt in annis,</l>

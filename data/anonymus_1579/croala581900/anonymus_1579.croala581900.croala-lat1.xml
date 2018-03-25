@@ -54,17 +54,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -117,9 +109,9 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_1579.croala581900.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="poesis-inscriptio" met="elegiacum">
-                <head n="head1">EPITAPHIVM MAGNIFICI DOMINI SIMONIS KEGLEWICH DE
+        <body xml:lang="lat">
+            <div type="poesis-inscriptio" met="elegiacum">
+                <head n="head">EPITAPHIVM MAGNIFICI DOMINI SIMONIS KEGLEWICH DE
                 BVSIN XVII DIE DECEMBRIS ANNO MDLXXIX KRAPYNE
                     <corr n="corr1" resp="editor">DEMORTVi</corr>  ET <corr n="corr2" resp="editor">SEPVLTi</corr> XXII DIE DECEMBRIS.</head>
                 <l n="l1">PARCE HOSPES TVMVLO: SIMON KEGLOWICH HIC SVM</l>
@@ -135,7 +127,7 @@
                 <l n="l11">NVNC QVOQVE FLENS MORIOR: NE QVID NON FLEBILE RESTET</l>
                 <l n="l12" met="pentameter">HEC EST HVMANI CONDITIO GENERIS</l>
                 <l n="l13">INVICTVS POTVI NISI MORS VICISSET HABERI</l>
-                <l n="l14" met="pentameter">HEC QVOQVE NON VICIT SED POCIVS <corr n="corr1" resp="editor">SOLVIt</corr>.</l>
+                <l n="l14" met="pentameter">HEC QVOQVE NON VICIT SED POCIVS <corr n="corr" resp="editor">SOLVIt</corr>.</l>
             </div>
         </body>
     </text>

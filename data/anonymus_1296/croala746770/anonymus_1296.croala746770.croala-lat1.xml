@@ -43,17 +43,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -114,8 +106,8 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_1296.croala746770.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="poesis-inscriptio-epitaphium" met="hexameter-leoninus">
+        <body xml:lang="lat">
+            <div type="poesis-inscriptio-epitaphium" met="hexameter-leoninus">
                 <!-- Nadgrobni natpis Lava Cacete [?] ("Lava de Albertis") († 1296) -->
 
                 <l n="l1">Quam miser est et erit qui gaudia mundi querit,</l>
@@ -123,16 +115,16 @@
                 <l n="l3">Prebet sub mellis dulcedine pocula fellis.</l>
                 <l n="l4">Cuncta relinquentur nec plus hic invenientur.</l>
                 <l n="l5">Nonne vides mundum miserum et in omnibus nudum?</l>
-                <note n="note1">[correxi ex undum]</note>
+                <note n="note">[correxi ex undum]</note>
                 <l n="l6">Omnibus hoc Leo dico ne se dent inimico,</l>
                 <l n="l7">Nam sic viventes facit et miseros et egentes.</l>
                 <l n="l8">Cordis in aure repone me moriente Leone</l>
                 <l n="l9">Abiectoque foris ceno carnalis amoris.</l>
 
-                <p n="p1">Dominus Leo <unclear n="unclear1">Cacete</unclear> istum elegit locum sue quietis pro se et suo filio
+                <p n="p">Dominus Leo <unclear n="unclear">Cacete</unclear> istum elegit locum sue quietis pro se et suo filio
                     Stephano ac suis omnibus heredibus, in quo loco et quiescit sepultus.</p>
-                <closer n="closer1">
-               <date n="date1">Anno Domini MCCXCVI, mense Decembri, die XX.</date>
+                <closer n="closer">
+               <date n="date">Anno Domini MCCXCVI, mense Decembri, die XX.</date>
             </closer>
             </div>
         </body>

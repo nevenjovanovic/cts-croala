@@ -45,17 +45,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -109,17 +101,17 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:rosan01.croala1831276.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-epigramma" met="elegiacum">
-            <head n="head1" xml:lang="hr">4. 
+      <body xml:lang="lat">
+         <div type="poesis-epigramma" met="elegiacum">
+            <head n="head" xml:lang="hr">4. 
   
   Versi gospodina Antuna rečenoga koji pisa meni vrhu jednoga štapa od trsti indijane, zakovana gori avorijon a doli rogom, koji ja poslah gospodinu Petri Hektoroviću vlastelinu hvarskomu.</head> 
   
             <l n="l1">Nicoleos uates uati sua munera Petro</l> 
             <l n="l2" met="pentameter">transmisit baculum, quo leve carpat iter.</l> 
             <l n="l3">Is baculus teres est, Memphitica prorsus arundo,</l> 
-            <milestone unit="page" n="milestone1"/>
-            <l n="l4" met="pentameter">cui ebur in capulo, cuspide <sic n="sic1">cornus</sic> inest.</l> 
+            <milestone unit="page"/>
+            <l n="l4" met="pentameter">cui ebur in capulo, cuspide <sic n="sic">cornus</sic> inest.</l> 
             <l n="l5">Argumenta, puto, lateant sub munere que sic</l> 
             <l n="l6" met="pentameter">plerumque in fictis uera poeta canat.</l> 
             <l n="l7">  Fictus eburna gerit successus, cornea uerus </l>
@@ -136,7 +128,7 @@
             <l n="l18" met="pentameter">  sphingiaci monuit tempus adesse pedis. </l>
             <l n="l19">  Et decus Illiriae per commoda quaeque fouendo </l>
             <l n="l20" met="pentameter">  hac onerosa leui tempora fulsit ope.</l>
-            <l n="l21">  Quiquid id est, non mittere <corr n="corr1">munus</corr> amicus amico </l>
+            <l n="l21">  Quiquid id est, non mittere <corr n="corr">munus</corr> amicus amico </l>
             <l n="l22" met="pentameter">  longeuo senior gratius hoc potuit. </l>
   
          </div>  

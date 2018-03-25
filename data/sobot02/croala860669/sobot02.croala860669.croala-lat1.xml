@@ -45,17 +45,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -107,17 +99,17 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot02.croala860669.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
 
-            <div n="div1" type="inscriptio">
-                <p n="p1">Ioanni Sobbotte iuris <expan n="expan1">consulto</expan>
+            <div type="inscriptio">
+                <p n="p">Ioanni Sobbotte iuris <expan n="expan1">consulto</expan>
                     <expan n="expan2">clarissimo</expan>
                     <expan n="expan3">oratorique</expan> eximio et Simeoni Sobbotte adolescenti omnibus
                     virtutibus predito quorum alter acerbo funere interemptus, alter ferro per
-                    insidias aggressus impie inimicis violenta morte vita <corr n="corr1" resp="NJ">privatus</corr> Catterina Sobotta mulierum miserrima <expan n="expan4">coniugi</expan>
+                    insidias aggressus impie inimicis violenta morte vita <corr n="corr" resp="NJ">privatus</corr> Catterina Sobotta mulierum miserrima <expan n="expan4">coniugi</expan>
                     et <expan n="expan5">filio</expan>
                     <expan n="expan6">ob memoriam perfecit</expan>
-                    <date n="date1" when="1469">MCCCCLXVIIII</date>
+                    <date n="date" when="1469">MCCCCLXVIIII</date>
             </p>
 
             </div>

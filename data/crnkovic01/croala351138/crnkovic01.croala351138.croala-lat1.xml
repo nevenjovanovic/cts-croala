@@ -38,17 +38,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -112,10 +104,10 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:crnkovic01.croala351138.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
       
-         <pb n="pb1"/>
-         <div n="div1" type="poesis-elegia-epistula" met="elegiacum" corresp="#crnkovicvitezovic17020928">
+         <pb/>
+         <div type="poesis-elegia-epistula" met="elegiacum" corresp="#crnkovicvitezovic17020928">
             <l n="l1">Ritter Eques maestum renovasti Paule dolorem, </l>
              
             <l n="l2" met="pentameter">Dum plangis Patriam, deflet et ipsa suos. </l>
@@ -136,15 +128,15 @@
              
             <l n="l10" met="pentameter">Hunc librum quando pignora chara legent, </l>
              
-            <pb n="pb1"/>
+            <pb/>
             <l n="l11">Quem tu fecisti, Patriae commotus amore : </l>
              
             <l n="l12" met="pentameter">Exemplum, speculum posteritatis erit. </l>
              
             <l n="l13">
-               <persName n="persName1">Naso</persName> poeta tibi cedat qui se gemit, et flet </l>
+               <persName n="persName">Naso</persName> poeta tibi cedat qui se gemit, et flet </l>
              
-            <l n="l14" met="pentameter">Esto <persName n="persName1">Virgilius</persName> qui memor es Patriae. </l>
+            <l n="l14" met="pentameter">Esto <persName n="persName">Virgilius</persName> qui memor es Patriae. </l>
              
             <l n="l15">Et quia pro Patria scribis tu digna, laboras </l>
              

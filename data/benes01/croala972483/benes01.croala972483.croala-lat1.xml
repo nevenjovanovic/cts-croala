@@ -39,14 +39,9 @@
 	     </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -85,9 +80,9 @@
       </profileDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:benes01.croala972483.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-carmen" met="hexameter">
-            <head n="head1">Epicedion in morte Jacobi Boni.</head> 
+      <body xml:lang="lat">
+         <div type="poesis-carmen" met="hexameter">
+            <head n="head">Epicedion in morte Jacobi Boni.</head> 
         
         
             <l n="l1">Indictos obitus infletaque funera linquam </l>
@@ -141,7 +136,7 @@
              
             <l n="l25">Eoas merces, nec non longe orta Britannis </l>
              
-            <pb n="pb1"/>
+            <pb/>
             <l n="l26">Dum spectanda sinit, simul ac ditescit ab arte, </l>
              
             <l n="l27">Quam Maia genitus mortales edocuit olim. </l>
@@ -236,7 +231,7 @@
              
             <l n="l72">Sic virtus experta virum quodcunque ferebat </l>
              
-            <pb n="pb2"/>
+            <pb/>
             <l n="l73">Tempus, et impulsu fortunae haud mota ruebat. </l>
              
             <l n="l74">Sed prior insanos furibundae intercipit ictus</l>
@@ -334,7 +329,7 @@
              
             <l n="l120">Consiliis habitus, toties Rectorque Senatus. </l>
              
-            <pb n="pb3"/>
+            <pb/>
             <l n="l121">Quin etiam ut melius civilis degeret aevum,</l>
              
             <l n="l122">Non sine iam thalami consorte senescere visum. </l>
@@ -430,7 +425,7 @@
              
             <l n="l167">Et priscis alter quondam fere creditus orbis, </l>
              
-            <pb n="pb4"/>
+            <pb/>
             <l n="l168">Indole nativa regio ditissima prorsus — </l>
              
             <l n="l169">Hinc sua cunctae hominum gentes commercia poscunt, </l>
@@ -522,7 +517,7 @@
              
             <l n="l212">Et Patria heu! luxit, doctae luxere sorores. </l>
              
-            <pb n="pb5"/>
+            <pb/>
             <l n="l213">Quid plorem? frustra vel domum conquerar unde? </l>
              
             <l n="l214">Seu male cum mutis positos animalibus una </l>
@@ -621,7 +616,7 @@
              
             <l n="l260">Eia parentari qua fasque piumque fideli </l>
              
-            <pb n="pb6"/>
+            <pb/>
             <l n="l261">Haec vultu tandem celebremus iusta sereno, </l>
              
             <l n="l262">Exilio certi nos hinc abscedere longo,</l>

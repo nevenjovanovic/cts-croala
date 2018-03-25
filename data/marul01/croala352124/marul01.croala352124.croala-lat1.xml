@@ -42,23 +42,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -143,19 +129,19 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:marul01.croala352124.croala-lat1:" xml:lang="lat" type="prosa">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula" xml:id="Georg.Sisgor">
-            <opener n="opener1">
-               <signed n="signed1">
+      <body xml:lang="lat">
+         <div type="prosa-epistula" xml:id="Georg.Sisgor">
+            <opener n="opener">
+               <signed n="signed">
                   <name n="name1">
-                     <abbr n="abbr1">M.</abbr> Marulus</name> adolescens <name n="name2">Dalmata</name>
+                     <abbr n="abbr">M.</abbr> Marulus</name> adolescens <name n="name2">Dalmata</name>
                </signed>
             </opener>
             <p n="p1"> Ignotus ad te litteras scribo, quem et si nunquam viderim, amavi tamen, antequam viderim.
      Virtus hoc quidem tua effecit ingenii, quippe que non solum eos, quos non vidimus, sed etiam
-     qui multo ante nos fuerunt, amabiles <choice n="choice1">
-                  <corr n="corr1" resp="VG-VV">nobis reddat</corr> 
-                  <orig n="orig1" resp="ed1477">nos
+     qui multo ante nos fuerunt, amabiles <choice n="choice">
+                  <corr n="corr" resp="VG-VV">nobis reddat</corr> 
+                  <orig n="orig" resp="ed1477">nos
       reddunt</orig>
                </choice> Vellem tamen, suavissime <name n="name1">Georgi Sisgoree</name>, ut me tui tam studiosum mutuo
      complecti non fastidires amore. Quod si tibi inest par doctrine tue humanitas, hoc certe, quod
@@ -166,13 +152,13 @@
      sententias, qui priscis illis sanctisque vatibus propius accederet videtur nemo. Teque non
      nostre etatis modo poetis prefero, sed etiam <name n="name3">Nasoni</name>, <name n="name4">Propertio</name>, <name n="name5">Tibullo</name> simillimum iudico. Hi
      enim exactissime ornatissimeque elegiam scripsisse putantur. </p>
-            <p n="p2"> Tu igitur, iucundissime <name n="name1">Georgi Sisgoree</name> - sic tibi dii omnia bene vertant - facias, ut
+            <p n="p2"> Tu igitur, iucundissime <name n="name">Georgi Sisgoree</name> - sic tibi dii omnia bene vertant - facias, ut
      quemadmodum ingenii tui, ita mansuetudinis et humanitatis nomen vigeat et celebritas, hoc est
      talem iam mihi te prestes, qualem me quoque erga te esse cernis. Et si in hoc nimis forte
      temerarius ferar, quod te, disertissimum iuvenem, mea exili oratione alloqui ausim, conciliandi
      tui defendar cupiditate. </p>
-            <closer n="closer1">
-               <salute n="salute1">Vale.</salute>
+            <closer n="closer">
+               <salute n="salute">Vale.</salute>
             </closer>
          </div>
       </body>

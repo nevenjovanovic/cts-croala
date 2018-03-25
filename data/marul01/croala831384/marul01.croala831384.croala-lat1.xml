@@ -43,20 +43,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -121,11 +110,11 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:marul01.croala831384.croala-lat1:" xml:lang="lat" type="prosa">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula">
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
 
-            <opener n="opener1">Reuerendo in Christo Domino <persName n="persName1">Iacobo Grassolario</persName>, domino meo charissimo. Venetiis.
-            <salute n="salute1">Venerande domine,</salute>
+            <opener n="opener">Reuerendo in Christo Domino <persName n="persName">Iacobo Grassolario</persName>, domino meo charissimo. Venetiis.
+            <salute n="salute">Venerande domine,</salute>
             </opener>
             <p n="p1">de opere nostro Tua cura nuper impresso Tibi gratias ago. In quo componendo siquid meus
           meruit labor, Deum oro, Tecum mihi commune sit.</p>
@@ -145,18 +134,18 @@
           dedit ore rotundo Musa loqui (ut <persName n="persName2">Oratius</persName> inquit), nostro exemplo prouocatus, idem et
           exquisitiore stilo et sententiis grauioribus efficiet. Tunc ego ista nostratia libenter
           aboleri patiar. Nihil enim in uita tam cupide cupio, quam ut quis de hoc sancto, cuius ego
-            <milestone n="milestone1" unit="page"/> studiosissimus sum, aliquid scribat pro dignitate, quod me
+            <milestone unit="page"/> studiosissimus sum, aliquid scribat pro dignitate, quod me
           fateor nequaquam assecutum. Itaque in scribendo copiam mihi defuisse noueris, non
           uoluntatem. </p>
-            <closer n="closer1">
-               <salute n="salute1">Vale!</salute>
-               <dateline n="dateline1">Spalati, <date n="date1" when-iso="1507-04-04">pridie Nonas Apriles, anno Domini
+            <closer n="closer">
+               <salute n="salute">Vale!</salute>
+               <dateline n="dateline">Spalati, <date n="date" when-iso="1507-04-04">pridie Nonas Apriles, anno Domini
               MDVII.</date>
                </dateline>
-               <signed n="signed1">Marcus Marulus Tuus</signed>
+               <signed n="signed">Marcus Marulus Tuus</signed>
             </closer>
-            <postscript n="postscript1">
-               <p n="p1">Reuerendo pręsbitero Francisco Lucensi meo nomine gratias age! Octo codices opusculi
+            <postscript n="postscript">
+               <p n="p">Reuerendo pręsbitero Francisco Lucensi meo nomine gratias age! Octo codices opusculi
             nostri Te curante impressi mihi dono misit, implens illud in Ecclesiaste dictum: Da
             partes septem necnon et octo. Det ei Deus peracto uitę huius tempore, quod septenario
             numero censetur, ad ogdoadem uitę ęternę peruenire. Nihil est, quod maius meliusue illi

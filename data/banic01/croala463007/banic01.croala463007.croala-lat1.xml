@@ -53,23 +53,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -127,28 +113,28 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:banic01.croala463007.croala-lat1:" xml:lang="lat" type="prosa">
     
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula" corresp="#banicevicdantiscus15160106">
-            <opener n="opener1">
-               <abbr n="abbr1">+ IC XC</abbr>
-               <salute n="salute1">Spectabilis et egregie domine <expan n="expan1">honorande</expan>, <expan n="expan2">comendationem</expan> plurimam.</salute>
+      <body xml:lang="lat">
+         <div type="prosa-epistula" corresp="#banicevicdantiscus15160106">
+            <opener n="opener">
+               <abbr n="abbr">+ IC XC</abbr>
+               <salute n="salute">Spectabilis et egregie domine <expan n="expan1">honorande</expan>, <expan n="expan2">comendationem</expan> plurimam.</salute>
             </opener>    
-            <p n="p1">Mittitur <abbr n="abbr1">D. V.</abbr> expeditio sua, per <expan n="expan1">Caesaream</expan> Maiestatem et prouidetur pridem ei de viatico; ego etiam mitto priuilegium suum expeditum. Si qua alia in re possum seruire <abbr n="abbr2">D. V.</abbr>, faciam libentissimo animo. Si commode potest <abbr n="abbr3">D. V.</abbr> secum <sic n="sic1">defere</sic> scorpionem, uel balistam illam regie Maiestati, faciet mihi rem singulariter gratam. Quam commendando me Regie sue Clementie offeret ei; munus quidem tanto Rege indignum, sed in signum seruitutis et sincere fidei mee ad maiestatem suam erit pro venatione. et si potest eam <sic n="sic2">defere</sic> 
+            <p n="p">Mittitur <abbr n="abbr1">D. V.</abbr> expeditio sua, per <expan n="expan1">Caesaream</expan> Maiestatem et prouidetur pridem ei de viatico; ego etiam mitto priuilegium suum expeditum. Si qua alia in re possum seruire <abbr n="abbr2">D. V.</abbr>, faciam libentissimo animo. Si commode potest <abbr n="abbr3">D. V.</abbr> secum <sic n="sic1">defere</sic> scorpionem, uel balistam illam regie Maiestati, faciet mihi rem singulariter gratam. Quam commendando me Regie sue Clementie offeret ei; munus quidem tanto Rege indignum, sed in signum seruitutis et sincere fidei mee ad maiestatem suam erit pro venatione. et si potest eam <sic n="sic2">defere</sic> 
                <abbr n="abbr4">D. V.</abbr> exhibeat annexas Domino Cabrieli de Tasis, Magistro postarum in Insprug, qui eumdem scorpionem consignabit <abbr n="abbr5">D. V.</abbr>. Que itidem me plurimum <expan n="expan2">comendet</expan> Reuerendissimo Domino <expan n="expan3">Plociensi</expan> et suis <sic n="sic3">colegis</sic> qui fuerunt cum eo apud <expan n="expan4">Caesarem</expan> et similiter domino Vicecancellario, et Magnifico Domino Cancellario, et Domino Bernardino Gallo <sic n="sic4">conteraneo</sic> meo. 
         
         
         
     </p> 
-            <closer n="closer1">Si aliquando scripserit ad me <abbr n="abbr1">D. V.</abbr> ex patria semper rescribam sibi; et me ad omnia vota sua offero.  
+            <closer n="closer">Si aliquando scripserit ad me <abbr n="abbr">D. V.</abbr> ex patria semper rescribam sibi; et me ad omnia vota sua offero.  
         
-        <dateline n="dateline1">Auguste, <date n="date1" when="1516-01-06">Die VI. Mensis Januarii. Anno Domini MDXVI</date>.</dateline> 
-               <signed n="signed1">
-                  <abbr n="abbr1">E. D. V.</abbr>
+        <dateline n="dateline">Auguste, <date n="date" when="1516-01-06">Die VI. Mensis Januarii. Anno Domini MDXVI</date>.</dateline> 
+               <signed n="signed">
+                  <abbr n="abbr">E. D. V.</abbr>
             Semper ad vota
             Jacobus de Bannissis.</signed>
-               <address n="address1">
-                  <addrLine n="addrLine1">Spectabili et egregio Domino Ioanni de Curijs Dantisco <expan n="expan1">Serenissimi</expan> 
-                     <gap n="gap1"/> Polonię Secretario
+               <address n="address">
+                  <addrLine n="addrLine">Spectabili et egregio Domino Ioanni de Curijs Dantisco <expan n="expan1">Serenissimi</expan> 
+                     <gap/> Polonię Secretario
 Domino <expan n="expan2">honorando</expan>
                   </addrLine>
 

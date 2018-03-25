@@ -56,23 +56,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -138,12 +124,12 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:and02.croala939495.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula" xml:id="fta-av04" corresp="#andreisvrancic15691019">
-                <opener n="opener1">Ad Reverendissimum dominum Antonium Verantium Archiepiscopum Strigoniensem
+        <body xml:lang="lat">
+            <div type="prosa-epistula" xml:id="fta-av04" corresp="#andreisvrancic15691019">
+                <opener n="opener">Ad Reverendissimum dominum Antonium Verantium Archiepiscopum Strigoniensem
                     Tranquillus Andronicus.</opener>
 
-                <note n="note1">(19. Octobris 1569; ed. Wenzel 10, 1, pp. 3--11)</note>
+                <note n="note">(19. Octobris 1569; ed. Wenzel 10, 1, pp. 3--11)</note>
 
                 <p n="p1">Non possum oblivisci tuae benevolentiae quam saepe perspexi erga me singularem,
                     sed tunc evidentius sese exeruit quum Viennae proxima aestate legens quoddam
@@ -160,7 +146,7 @@
                     suscepti negotii, spero cognitis rationibus omni crimine me absolves. Legimus
                     Socrati bonum a puero daemonem aspirasse qui addebat calcaria viro impigro et ad
                     bona studia sua ipsius natura sponte currenti; contra vero me genius meus ut
-                    desidem <corr n="corr1">cunctabundumque</corr> statim ab adolescentia coepit incitare
+                    desidem <corr n="corr">cunctabundumque</corr> statim ab adolescentia coepit incitare
                     atque impellere ut in communia commoda pro viribus incumbam. Ego vero qui sum ut
                     Deo maxime salutaria praecipienti resistam? Essem equidem culpae affinis si
                     contumeliis et maledictis temere per memet ipsum iactatis quemquam proscinderem.
@@ -194,7 +180,7 @@
 
                 <p n="p2">Restat diluere quorundam satis ineptas criminationes. Requirunt a me cum convicio
                     quonam privilegio tam licenter deplorem conditionem nostri temporis, tacite
-                    vellicando Principes immerita de causa? Ad haec subsannantes inquiunt: <q n="q1">Nisi
+                    vellicando Principes immerita de causa? Ad haec subsannantes inquiunt: <q n="q">Nisi
                         tu temperes a maledictis, statim respublica corruet, instar Amiclarum quae
                         tacendo perierunt. Non es huiusmodi ut mundus tuam auctoritatem sequatur. Si
                         sapis, continebis te intra tuam pelliculam.</q>
@@ -207,7 +193,7 @@
                     suffragia putabo.</p>
 
                 <p n="p4">Haud equidem inficior ingenium mihi perquam tenue contigisse. Quamobrem summo
-                    studio quaesivi <pb n="pb1"/> subsidia meae imbecillitati; non domi tantum, sed
+                    studio quaesivi <pb/> subsidia meae imbecillitati; non domi tantum, sed
                     longe lateque in exteris nationibus, praesertim quae tunc fama percrebuerat
                     florere clarissimis ingeniis in optimo genere disciplinarum, atque cum
                     eminentissimis nostri aevi familiariter conversatus sum. Postea immiscui me
@@ -230,7 +216,7 @@
                     scrutator intimus omnia novit momenta quibus cuique mercedem suam, ut quisque
                     meritus est, abunde opportuneque referat. Siquidem rerum ac temporum eventus in
                     sua servat potestate; mortales omnino latere voluit, ne Apostolis quidem, quos
-                    tantopere <pb n="pb1"/> dilexit, patefecit quando restituet Regnum Israel.</p>
+                    tantopere <pb/> dilexit, patefecit quando restituet Regnum Israel.</p>
 
                 <p n="p6">Proinde nostri muneris est nostrum pensum fideliter persolvere. Successus in manu
                     Domini sunt, nec agricola, qui seminat, dat incrementum sementi; nec medicus
@@ -252,7 +238,7 @@
                     servos torpentes et rebelles nequicquam ad bonam frugem excitaveris. Atque ista
                     fex hominum, quod execrabilius est, praeclaris cuiuscunque conatibus, quae ipsi
                     ne digito quidem attingunt, invident atque adeo infesti sunt. Ad haec omnem
-                    auctoritatem <pb n="pb1"/> detrahere moliuntur, somniantes auctoritatem contineri
+                    auctoritatem <pb/> detrahere moliuntur, somniantes auctoritatem contineri
                     dignitate personarum, nec sapientiam habitare in pannoso amictu tenuibusque
                     fortunis, verum in splendidis titulis et in his qui longo famulitio stipantur.
                     Qua re nihil absurdius fingi potuit. Quippe sapientia, quae domicilium in optima
@@ -277,7 +263,7 @@
                     ab ergastulis excepti. Hi enim spiritu Dei aguntur qui veritatem palam in animis
                     hominum inserunt nulla spe praemiorum neque metu poenae.</p>
 
-                <p n="p9">Dicam aliquid maius quam imperiti opinantur. <pb n="pb1"/> Spiritus Paracletus ex
+                <p n="p9">Dicam aliquid maius quam imperiti opinantur. <pb/> Spiritus Paracletus ex
                     sua bonitate vel impiis auctor esse creditur vera loquendi. Cum scelere Caypha
                     sacerdotum principis nihil tam nefarium, tam immane conferri potest. Ipse
                     interficiendi Christi, mundi Principis et salvatoris, praecipuus consultor et
@@ -287,7 +273,7 @@
                     invictum adversus pecuniam subegit. Huius, inquam, orationi spiritum Dei
                     virtutem abundius suppeditavisse, praesertim de communibus commodis anxii, atque
                     ad gloriam Dei cogitantis. Nam illo haeret aqua quod malevoli obiiciunt
-                    usurpantes illam pervulgatam sententiam: <q n="q1">Omni vitio carere debet qui paratus
+                    usurpantes illam pervulgatam sententiam: <q n="q">Omni vitio carere debet qui paratus
                         est in alium dicere.</q>
             </p>
 
@@ -297,12 +283,12 @@
                     excitant. Alioqui criminis arguantur et Apostoli et orationis viri Dei qui
                     desiderio nostae salutis acerbius in scelera invecti sunt. Quippe nec iidem ipsi
                     nec quisquam mortalium expers omnis culpae fuit; solus Dominus Christus peccatum
-                    non fecit. Et sane peccare privatos homines a paucis <sic n="sic1">advertitur</sic>
+                    non fecit. Et sane peccare privatos homines a paucis <sic n="sic">advertitur</sic>
                     itaque non est magni exempli; quibus autem in eminenti collocatis procuratio
                     rerum humanarum contigit, quum conspicui sint oculis omnium, nihil potest in iis
                     abscondi atque dissimulari. Quilibet vel tenuissimus naevus illustrius cernitur
                     ac multitudinem laedit et proinde in dignitate provocat ad maledicendum. Quodsi
-                    grassantur <pb n="pb1"/> ad publicam perniciem, credis eos qui maiore animo
+                    grassantur <pb/> ad publicam perniciem, credis eos qui maiore animo
                     praediti sunt temperaturos ab execrationibus ipsorum ex quorum somnolentia
                     respublica omnis in interitum ruit?</p>
 
@@ -325,18 +311,18 @@
                     securitatem nobis perpetuo partam esse; ideo de futuro bello nihil cogitant et
                     inter se tumultuantur et caedibus strenue saeviunt. Atqui sperent quod barbari
                     more suo defluxis breve induciis et suis rebus compositis nos imparatos et
-                    exhaustos viribus atque pecunia magno copiarum apparatu invadent; <pb n="pb1"/>
+                    exhaustos viribus atque pecunia magno copiarum apparatu invadent; <pb/>
                     ac nisi tantam pestem Deus avertat, <sic n="sic4">excindere</sic> conabuntur.</p>
 
-                <closer n="closer1">
-               <salute n="salute1">Utinam sim falsus vates et nostra respublica externorum hostium
+                <closer n="closer">
+               <salute n="salute">Utinam sim falsus vates et nostra respublica externorum hostium
                         secura gaudeat pace sempiterna. Quod antea non fiet (ut mihi persuadeo) quam
                         nos ipsi mutatione vitae redierimus in gratiam cum Deo.</salute>
-                    <dateline n="dateline1">
-                        <add n="add1">
-                            <note n="note1">(Redditae)</note>
-                            <placeName n="placeName1">Posonii</placeName>
-                            <date n="date1" when="1569-10-19">die 19. Octobris 1569.</date>
+                    <dateline n="dateline">
+                        <add n="add">
+                            <note n="note">(Redditae)</note>
+                            <placeName n="placeName">Posonii</placeName>
+                            <date n="date" when="1569-10-19">die 19. Octobris 1569.</date>
                         </add>
                     </dateline>
             </closer>

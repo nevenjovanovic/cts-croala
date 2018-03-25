@@ -41,20 +41,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -114,24 +103,24 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:draskovic02.croala695608.croala-lat1:" xml:lang="lat">
     
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="prosa-epistula" corresp="#draskovicozegovic18390506">
-            <opener n="opener1">
-               <dateline n="dateline1">
-                  <abbr n="abbr1">Rech.</abbr>: <date n="date1" when="1839-05-06">6/5 1839.</date>
+      <body xml:lang="lat">
+         <pb/>
+         <div type="prosa-epistula" corresp="#draskovicozegovic18390506">
+            <opener n="opener">
+               <dateline n="dateline">
+                  <abbr n="abbr">Rech.</abbr>: <date n="date" when="1839-05-06">6/5 1839.</date>
                </dateline>
-               <salute n="salute1">Dilecte Metelle!</salute>
+               <salute n="salute">Dilecte Metelle!</salute>
             </opener>
-            <p n="p1">Spe fretus, quod tibi Patriae salus, Municipaliumque conservatio cordi sit; praesumo tibi ideas meas comunicare, teque petere, ut velis apud Vos eas vulgare, et usum earum procurare - -</p> 
-            <closer n="closer1">
-               <salute n="salute1">Haec interea, una cum intimi cordis salutatione tibi, fili mi submitto, donec habuero solatium te coram videndi, et oretenus convincendi, quod semper sim tuus adictissimus amicus</salute>
+            <p n="p">Spe fretus, quod tibi Patriae salus, Municipaliumque conservatio cordi sit; praesumo tibi ideas meas comunicare, teque petere, ut velis apud Vos eas vulgare, et usum earum procurare - -</p> 
+            <closer n="closer">
+               <salute n="salute">Haec interea, una cum intimi cordis salutatione tibi, fili mi submitto, donec habuero solatium te coram videndi, et oretenus convincendi, quod semper sim tuus adictissimus amicus</salute>
     
-               <signed n="signed1">Joanes Drask.</signed>
+               <signed n="signed">Joanes Drask.</signed>
             </closer>
     
-            <postscript n="postscript1">
-               <p n="p1">
+            <postscript n="postscript">
+               <p n="p">
                   <abbr n="abbr1">P. S.</abbr> Perscribe quaeso, quid apud Vos obtineat, et an vester <abbr n="abbr2">sup. com.</abbr> pertigerit.</p>
             </postscript> 
          </div>

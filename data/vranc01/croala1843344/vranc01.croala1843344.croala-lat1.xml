@@ -53,17 +53,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -122,17 +114,17 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:vranc01.croala1843344.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <head n="head1">XXXI/2 <date n="date1" when="1567-04-05">1567. 5. Aprilis</date>, Pragae Antonius Verantius episcopus Agriensis
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">XXXI/2 <date n="date" when="1567-04-05">1567. 5. Aprilis</date>, Pragae Antonius Verantius episcopus Agriensis
                     cardinali Commendone</head>
 
 
                 <note n="note1" resp="BJ">Segr. Stato, Principi, 27, f. 319.</note>
 
-                <opener n="opener1">Illustrissime ac Reverendissime Domine mihi semper colendissime! Salutem
+                <opener n="opener">Illustrissime ac Reverendissime Domine mihi semper colendissime! Salutem
                     servitiorumque meorum commendationem.</opener>
-                <p n="p1">Mense Maio anni superioris Illustrissima Amplitudo Vestra dederat ad me litteras
+                <p n="p">Mense Maio anni superioris Illustrissima Amplitudo Vestra dederat ad me litteras
                     Augusta, quibus singulari studio doctorem Illicinum, virum sane magno ingenio
                     excellentique doctrina mihi commendaverat eo nimirum nomine, ut, quantum per eum
                     favorem fieri possit, quem apud Reverendissimum Dominum Strigoniensem
@@ -153,8 +145,8 @@
                     largiore epistola respondi obiter eandem edocens de utriusque ingenio ac
                     moribus, de causis ipsorum controversiae, de difficultatibus compositionis
                     eiusdem. Item, quod ego non essem defuturus provinciae mihi demandatae quodque
-                    sperare me in posterum idem negocium felicius tractaturus et ex sen <note n="note1" resp="BJ">57 In originali: Hec.</note>
-                    <milestone n="milestone1" unit="page"/> tentia confecturus accessione nominis Illustrissimae
+                    sperare me in posterum idem negocium felicius tractaturus et ex sen <note n="note" resp="BJ">57 In originali: Hec.</note>
+                    <milestone unit="page"/> tentia confecturus accessione nominis Illustrissimae
                     Amplitudinis Vestrae et Illustrissimi cardinalis Augustani – quo praecipue
                     utendum mihi esse proposueram –, et demum, quod, quicquid profecisse, haud mora
                     easdem Illustrissimas Amplitudines Vestras essem facturus certiores. Igitur
@@ -188,7 +180,7 @@
                     quantulacunque illa esse poterunt, crebrius uti non dedignetur, quae quidem tam
                     propensa semper est habitura, quam quae propensissima. Nec ego quicquam habebo
                     gratius, quam quod eius gratia facere ac praestare potero.</p>
-                <closer n="closer1">Deus Illustrissimam Amplitudinem Vestram felicitet et incolumem servet.
+                <closer n="closer">Deus Illustrissimam Amplitudinem Vestram felicitet et incolumem servet.
                     Pragae, V. Aprilis. M. D. LXVII. Illustrissimae et Reverendissimae Amplitudinis
                     Vestrae Benevolus servitor Antonius Verancius episcopus Agriensis
                     propria</closer>
@@ -196,8 +188,8 @@
                 <note n="note2" resp="BJ">Annotatio: Pars datum subsequens ipso ab Antonio Verantio scripta
                     est.</note>
 
-                <milestone n="milestone1" unit="page"/>
-                <milestone n="milestone2" unit="page"/>
+                <milestone unit="page"/>
+                <milestone unit="page"/>
             </div>
         </body>
     </text>

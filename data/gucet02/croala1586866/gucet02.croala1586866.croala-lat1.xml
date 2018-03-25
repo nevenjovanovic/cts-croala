@@ -40,14 +40,9 @@ Prima editio electronica.
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -93,11 +88,11 @@ Prima editio electronica.
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:gucet02.croala1586866.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-            <div n="div1" type="poesis-epigramma" met="elegiacum">
-                <milestone unit="page" n="milestone1"/>
+      <body xml:lang="lat">
+            <div type="poesis-epigramma" met="elegiacum">
+                <milestone unit="page"/>
 
-                <head n="head1">Ioannes Gotius Ragusinus</head>
+                <head n="head">Ioannes Gotius Ragusinus</head>
 
                 <l n="l1">Flete nouem sacrę decima cum Pallade Musae,</l>
                 <l n="l2" met="pentameter">(Nam decet) incomptis nunc ululate comis:</l>

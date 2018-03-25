@@ -56,20 +56,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -138,16 +127,16 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:and02.croala844834.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula" xml:id="fta-av03" corresp="#andreisvrancic15500225">
-                <opener n="opener1">Antonio Verantio Tranquillus Andronicus, <placeName n="placeName1">Tragurii</placeName>,
-                        <date n="date1" when="1550-02-25">1550. febr. 25</date>
+        <body xml:lang="lat">
+            <div type="prosa-epistula" xml:id="fta-av03" corresp="#andreisvrancic15500225">
+                <opener n="opener">Antonio Verantio Tranquillus Andronicus, <placeName n="placeName">Tragurii</placeName>,
+                        <date n="date" when="1550-02-25">1550. febr. 25</date>
             </opener>
 
-                <note n="note1">(25. Februarii 1550; Szalay 7, 24, pp. 42--43)</note>
+                <note n="note">(25. Februarii 1550; Szalay 7, 24, pp. 42--43)</note>
 
                 <p n="p1">Reverende domine et amice honorandissime, salve. Ex tuis et illustrissimi domini
-                    et patroni mei, domini <name n="name1">Nadasdini</name> litteris intellexi te apud istum virum
+                    et patroni mei, domini <name n="name">Nadasdini</name> litteris intellexi te apud istum virum
                     magnanimum impraesentiarum agere, illique praecipue ob tuam virtutem acceptum
                     esse; quae sane res delectavit me plurimum, quod forte oblata est illi occasio
                     exercendae suae solitae liberalitatis in hominem conjunctione studiorum mihi
@@ -162,16 +151,16 @@
                     tueare.</p>
 
                 <p n="p2">Litteras tuas extemplo ut accepi curavi reddendas fratri tuo a quo exspectabaris
-                    hac aestate summo <pb n="pb1"/> cum desiderio. Si aliis in rebus putabis me tibi
+                    hac aestate summo <pb/> cum desiderio. Si aliis in rebus putabis me tibi
                     gratificari posse, significes velim: non fallam, ut spero, tuam de me
                     exspectationem. </p>
-                <closer n="closer1">
-                    <salute n="salute1">Bene vale.</salute>
-                    <dateline n="dateline1">
-                        <placeName n="placeName1">Tragurii</placeName>
-                        <date n="date1" when="1550-02-25">25. Februarii 1550.</date>
+                <closer n="closer">
+                    <salute n="salute">Bene vale.</salute>
+                    <dateline n="dateline">
+                        <placeName n="placeName">Tragurii</placeName>
+                        <date n="date" when="1550-02-25">25. Februarii 1550.</date>
                     </dateline>
-                    <signed n="signed1">Tui dilectissimus Tranquillus.</signed>
+                    <signed n="signed">Tui dilectissimus Tranquillus.</signed>
                 </closer>
             </div>
         </body>

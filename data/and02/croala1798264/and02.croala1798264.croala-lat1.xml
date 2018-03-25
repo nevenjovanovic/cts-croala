@@ -65,20 +65,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -141,11 +130,11 @@
 
    <text xml:base="urn:cts:croala:and02.croala1798264.croala-lat1:" xml:lang="lat" type="prosa">
     
-        <body xml:lang="lat" n="body1">
-            <pb n="pb1"/>
-            <div n="div1" type="epistula" corresp="#andreislaski15300617">
-                <opener n="opener1">Reverendissime domine, salve!</opener> 
-                <p n="p1"> Magnificus dominus Stanislaus de Lasco, frater Vestrae Reverendae Dominationis,
+        <body xml:lang="lat">
+            <pb/>
+            <div type="epistula" corresp="#andreislaski15300617">
+                <opener n="opener">Reverendissime domine, salve!</opener> 
+                <p n="p"> Magnificus dominus Stanislaus de Lasco, frater Vestrae Reverendae Dominationis,
                     discedens hinc, commendavit mihi iuvenem Witoslawski, quem redemit
                     Constantinopoli, ut eum ducerem mecum Hungariam, inde mitterem ad Vestram
                     Dominationem Reverendissimam. Arbitrabamur enim me ineunte vere in Hungariam
@@ -156,7 +145,7 @@
                     fratris sui et omnem statum meum cognoscet. Hoc autem adfirmo me vestrae
                     familiae addictum et cupidissimum esse, optavique occasionem declarandae huiusce
                     meae voluntatis. Hic ferme nihil novi est, nisi quod iste potentissimus
-                    Imperator circumcidit tres liberos <corr n="corr1" resp="NJ">solemnibus</corr> ludis et
+                    Imperator circumcidit tres liberos <corr n="corr" resp="NJ">solemnibus</corr> ludis et
                     commessationibus, affirmaturque certis auctoribus in sequentem aetatem facturum
                     esse novam expeditionem contra Carolum. Magnificus Dominus Gritti ad tres dies
                     paucis comitibus mutatis equis summa celeritate contendit in Hungariam, quam
@@ -164,11 +153,11 @@
                     Gnesnensibus et Plocensibus cupio a Vestra Reverendissima Dominatione, si
                     commodum erit, commendari. Aniano et Caligulae item iucundo ordine. 
                      </p>
-                <closer n="closer1">
-                    <salute n="salute1">Deus fortunet omnes cogitationes Vestrae Reverendissimae Dominationis,
+                <closer n="closer">
+                    <salute n="salute">Deus fortunet omnes cogitationes Vestrae Reverendissimae Dominationis,
                         cui me unice commendo.</salute>
-                    <dateline n="dateline1">Constantinopoli, <date n="date1" when="1530-06-17">postridie Corporis Christi 1530</date>. </dateline>
-                    <signed n="signed1">Vestrae Reverendissimae Dominationis servitor Tranquillus.</signed>
+                    <dateline n="dateline">Constantinopoli, <date n="date" when="1530-06-17">postridie Corporis Christi 1530</date>. </dateline>
+                    <signed n="signed">Vestrae Reverendissimae Dominationis servitor Tranquillus.</signed>
                 </closer>
                             </div>
 

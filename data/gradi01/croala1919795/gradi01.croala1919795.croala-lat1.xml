@@ -42,14 +42,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -95,12 +90,12 @@
      </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:gradi01.croala1919795.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
 
-         <gap n="gap1" reason="alterius"/>
-         <pb n="pb1"/>
-         <div n="div1" type="poesis-elegia">
-            <head n="head1">Stephanus Gradius Junio Palmottae S. P. D.</head>
+         <gap reason="alterius"/>
+         <pb/>
+         <div type="poesis-elegia">
+            <head n="head">Stephanus Gradius Junio Palmottae S. P. D.</head>
             <l n="l1">Non ita Penelopen laetus respexit Ulysses</l>
              
             <l n="l2">Dardania et crudo victor ab Antiphate;</l>
@@ -185,7 +180,7 @@
              
             <l n="l42">Dicitur aurifero non renuisse Jovi. </l>
              
-            <pb n="pb1"/>
+            <pb/>
             <l n="l43">Auro etiam poscente Notos in vela vocavit</l>
              
             <l n="l44">Argus, et invitum per mare fecit iter,</l>

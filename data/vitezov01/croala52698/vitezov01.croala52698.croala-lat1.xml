@@ -38,19 +38,14 @@
       </fileDesc>
      <encodingDesc>
         <!-- CTS for a single poem in document -->
-        <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        
+     
+    
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
-     
-    
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -94,12 +89,12 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:vitezov01.croala52698.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
       
-         <pb n="pb1"/>
-         <div n="div1" type="poesis-elegia">
+         <pb/>
+         <div type="poesis-elegia">
         
-            <head n="head1">Ad comitem Marsilium, caesareum legatum.</head> 
+            <head n="head">Ad comitem Marsilium, caesareum legatum.</head> 
         
             <l n="l1">Post tot Bellorum motus faustosque triumphos. </l>
              
@@ -109,7 +104,7 @@
              
             <l n="l4">Propria cedo illi, te mediante, loca. </l>
              
-            <pb n="pb1"/>
+            <pb/>
             <l n="l5">Dura mihi (fateor) sunt oscula, cessio dura : </l>
              
             <l n="l6">Rarus amor nimis hic, insolitusque modus. </l>
@@ -201,7 +196,7 @@
             <l n="l49">Si tamen hac aliquid sperandum Pace supersit: </l>
              
         
-            <pb n="pb2"/>
+            <pb/>
         
             <l n="l50">Quam vix condicto tempore stare putem : </l>
              

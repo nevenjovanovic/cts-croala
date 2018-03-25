@@ -48,14 +48,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -111,9 +106,9 @@
         
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_1600.croala2073967.croala-lat1:" xml:lang="lat">
-                <body xml:lang="lat" n="body1">
-                        <div n="div1" type="poesis-elegia" met="elegiacum">
-                                <head n="head1">In laudem Spalati</head>
+                <body xml:lang="lat">
+                        <div type="poesis-elegia" met="elegiacum">
+                                <head n="head">In laudem Spalati</head>
                                 <l n="l1">Si qua manent ueterum non diruta męnia regum,</l>
                                 <l n="l2" met="pentameter">Dant primum Spalato nobilitate locum.</l>
                                 <l n="l3">Nobilis hic locus est, ubi sponte Dioclitianum</l>
@@ -122,7 +117,7 @@
                                 <l n="l6" met="pentameter">Et mundi domitor facta per alta fuit.</l>
                                 <l n="l7">Hic tria templa iacent magnis miranda columnis</l>
                                 <l n="l8" met="pentameter">Et turres circum sidera celsa petunt.</l>
-                                <gap n="gap1" reason="opus imperfectum"/>
+                                <gap reason="opus imperfectum"/>
                                 
                         </div>
                         

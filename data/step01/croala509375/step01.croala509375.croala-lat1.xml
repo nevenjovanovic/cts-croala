@@ -42,23 +42,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -125,30 +111,30 @@
         </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:step01.croala509375.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-          <div n="div1" type="prosa-epistula" xml:id="stepanic-n-02-1593">
-                <opener n="opener1">Illustrissime ac magnifice domine et fautor mihi obseruandissime!
+      <body xml:lang="lat">
+          <div type="prosa-epistula" xml:id="stepanic-n-02-1593">
+                <opener n="opener">Illustrissime ac magnifice domine et fautor mihi obseruandissime!
                     Salutem.</opener>
 
                 <p n="p1"> Salvus quidem atque incolumis Deo propitio, domum appuli, uerum dulcissimam
                     patriam hostilibus flammis ardentem, omniaque ingenti formidine perculsa inueni.
                     Postquam enim nostri ab obsidione fatalis <ref n="ref1">castri
-                            <placeName n="placeName1">Petrinia</placeName>
+                            <placeName n="placeName">Petrinia</placeName>
                </ref>, re infecta, sola aduentantis
                     beglerbeghi fama perterriti, nemine sane persequente, relictis in castris
                     aliquot nostris navibus, tentoriis, et comeatu profugerunt, ac ad propria
                     dilapsi sunt. Mox hostis nostrorum fuga animadversa, infelix
                         <placeName n="placeName1">Siscium</placeName> grauissima obsidione cingit. Aggeres ex
-                    opposito castri in <ref n="ref2">ulteriori <placeName n="placeName1">Colapis</placeName> ripa</ref>
+                    opposito castri in <ref n="ref2">ulteriori <placeName n="placeName">Colapis</placeName> ripa</ref>
                     celerrime excitat, bellica admouet tormenta, arcis recens a Capitulo restaurata
                     moenia, crebris bombardarum ictibus dirruit, propugnacula ualidissime concutit,
-                    pontem e regione ecclesiae <ref n="ref3">oppidi <placeName n="placeName1">Sisciensi</placeName>
+                    pontem e regione ecclesiae <ref n="ref3">oppidi <placeName n="placeName">Sisciensi</placeName>
                </ref> in
                         <placeName n="placeName2">Colapi</placeName> extruit, exercitum traducit, et ex continenti
                     agminatim castrum aggreditur, irrumpit, ac acerrime oppugnat. Arcem tunc, non
-                    nisi quinquaginta <persName n="persName1">Germani</persName> et totidem capituli homines cum
+                    nisi quinquaginta <persName n="persName">Germani</persName> et totidem capituli homines cum
                     duobus canonicis praefectis, fortiter defendebant. Haramiae autem, quos
-                        <ref n="ref4">domini <persName n="persName1">Stiriaci</persName>
+                        <ref n="ref4">domini <persName n="persName">Stiriaci</persName>
                </ref> in antemurali pro praesidio
                     collocauerant, metu correpti derelictis stationibus omnes diffugerant. Sex
                     diebus durauit isthac oppugnatio adeo, ut nulla pars temporis ad laborem sit
@@ -157,7 +143,7 @@
                     habebatur numerus) globis, cathenis, <sic n="sic1">frustris</sic> ferreis, ac plumbeis
                     repleta, in confertissimum hostem explodunt, non ingenti hostium strage ac
                     cruenta clade. Quo facto, nimium exarcebatus hostis, denuo oppugnationem
-                    adornat, moenia circumdat, <pb n="pb1"/> scalas admouet. Nostri interea, nihil
+                    adornat, moenia circumdat, <pb/> scalas admouet. Nostri interea, nihil
                     eorum quae ad reprimendos hostium conatus spectare uidebantur, intermittebant,
                     ruinas repparabant, collapsa restaurabant, eminus pugnabant, et sese strenue
                     defendebant, adeo ut hostis ipsemet miraretur, non <sic n="sic2">fani fide</sic>
@@ -166,45 +152,45 @@
                     fide Christiana ac amore dulcisimae patriae dimicantes, mortem oppetiere. </p>
                 <p n="p2">
                     <ref n="ref1">
-                  <persName n="persName1">Andreas Fabricius</persName> canonicus Zagrabiensis</ref> cum
+                  <persName n="persName">Andreas Fabricius</persName> canonicus Zagrabiensis</ref> cum
                     paucis aliis vivus captus, alter uero <ref n="ref2">
-                  <persName n="persName1">Gaspar Granija</persName>,
+                  <persName n="persName">Gaspar Granija</persName>,
                         suus collega</ref>, capite truncatus cum aliis ibi occubuit.
-                        <persName n="persName1">Turca</persName> nunc <placeName n="placeName1">Sciscii</placeName> rerum
+                        <persName n="persName">Turca</persName> nunc <placeName n="placeName1">Sciscii</placeName> rerum
                     potitur, diruta reficit, ac castrum ligno et terra communit. Propugnaculum
-                    ligneum triangulare in <ref n="ref3">montanis <placeName n="placeName1">Colapianis</placeName>
+                    ligneum triangulare in <ref n="ref3">montanis <placeName n="placeName">Colapianis</placeName>
                </ref> ex
                     opposite castri, ubi est ilia turris, pro excubiis erexit. <ref n="ref4">Citeriorem
-                        partem <placeName n="placeName1">Saui</placeName>
+                        partem <placeName n="placeName">Saui</placeName>
                </ref>, villas populosissimas, circa
                         <placeName n="placeName2">Bosiako</placeName> et <placeName n="placeName3">Kraliowez</placeName> prope
                         <placeName n="placeName4">Zagrabiam</placeName> heri fero ignique deuastauit, quinque
                     circiter millia animarum in grauissimam servitutem abegit. Jam nunc
                         <placeName n="placeName5">Zagrabiae</placeName> obsidionem, et totius regni deuastationem
                     minatur. Hic praesidia fere nulla sunt, exceptis <ref n="ref5">paucis
-                            <persName n="persName1">Germanis</persName> peditibus</ref>, alii omnes domum dilapsi
+                            <persName n="persName">Germanis</persName> peditibus</ref>, alii omnes domum dilapsi
                     sunt. Discordia belliducum pereunt istae perexiguae regni reliquiae, peribunt
                     certe et aliae uicinae prouinciae, nisi mature nobis succursum fuerit. Dux nobis
                     et author opus est, antequam et hyemes ingruat et
                         <placeName n="placeName6">Sciscium</placeName> magis communiatur, pellendusque esset illinc
                     hostis, expugnanda <placeName n="placeName7">Petrinia</placeName>, recuperanda amissa.
-                    Beglerbegus enim hic diu non morabitur, sed <sic n="sic1">ei</sic> unde venit discedet. A
-                    solo autem <ref n="ref6">bassa <placeName n="placeName1">Bosnensi</placeName>
+                    Beglerbegus enim hic diu non morabitur, sed <sic n="sic">ei</sic> unde venit discedet. A
+                    solo autem <ref n="ref6">bassa <placeName n="placeName">Bosnensi</placeName>
                </ref>, modo simus
-                    concordes et uniti, non est quod timeamus, sed haec Vestrae <abbr n="abbr1">Ill-mae</abbr>
+                    concordes et uniti, non est quod timeamus, sed haec Vestrae <abbr n="abbr">Ill-mae</abbr>
                     et Magnificae Dominationis iudicio relinquo, cui etiam ista confinia ut sint
                     commendata enixe peto. </p>
-                <closer n="closer1">
-                    <salute n="salute1">Valeat foeliciter.</salute>
-                    <dateline n="dateline1"> Datum <placeName n="placeName1">Zagrabiae</placeName>
-                        <date n="date1" when="1593-09-09">die 9. Septembris 1593.</date>
+                <closer n="closer">
+                    <salute n="salute">Valeat foeliciter.</salute>
+                    <dateline n="dateline"> Datum <placeName n="placeName">Zagrabiae</placeName>
+                        <date n="date" when="1593-09-09">die 9. Septembris 1593.</date>
                     </dateline>
-                    <address n="address1">
-                        <addrLine n="addrLine1">Domino <persName n="persName1">Davidi Ungnad</persName>.</addrLine>
+                    <address n="address">
+                        <addrLine n="addrLine">Domino <persName n="persName">Davidi Ungnad</persName>.</addrLine>
                     </address>
-                    <signed n="signed1">
-                  <ref n="ref1">
-                     <persName n="persName1">Nicolaus Zelniceij</persName>. Electus
+                    <signed n="signed">
+                  <ref n="ref">
+                     <persName n="persName">Nicolaus Zelniceij</persName>. Electus
                         Sirmiensis.</ref>
                </signed>
                 </closer>

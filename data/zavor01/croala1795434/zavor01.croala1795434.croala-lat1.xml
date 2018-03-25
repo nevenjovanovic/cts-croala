@@ -39,20 +39,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -98,18 +87,18 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:zavor01.croala1795434.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-inscriptio">
-            <p n="p1">
-               <lb n="lb1"/>
+      <body xml:lang="lat">
+         <div type="prosa-inscriptio">
+            <p n="p">
+               <lb/>
                <persName n="persName1">Dominicus Zavoreus</persName>         
-               <lb n="lb2"/>
+               <lb/>
                <persName n="persName2">
                   <expan n="expan1">Ioannis</expan> 
                   <expan n="expan2">Baptistae</expan>
                </persName> 
-               <expan n="expan1">filius</expan> commodi causa        <lb n="lb3"/>
-        anno <expan n="expan2">infaecundissimo</expan> sibi         <lb n="lb4"/>
+               <expan n="expan1">filius</expan> commodi causa        <lb/>
+        anno <expan n="expan2">infaecundissimo</expan> sibi         <lb/>
                <expan n="expan3">suisque</expan> a lege permissis
     </p> 
          </div>

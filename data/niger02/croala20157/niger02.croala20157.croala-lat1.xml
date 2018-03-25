@@ -49,7 +49,7 @@
                <note>
                   Segnatura: A-D4. - Nome dell'autore dall'intitolazione a c. A2r. - Note tipografiche dal colophon a c D4r. - Stemma silografico a c. A2r. - 21 cm. - Esemplare legato con altre 3 opere. - Indice delle opere contenute nel volume miscellaneo sulla risguardia anteriore. - Vecchie collocazioni sul dorso: KK.IV.45; sulla risguardia anteriore: KK.IV.45 e, depennate, KK.IV.39, KK.VI.40, 24, 25, KK.VI.2; e, depennate, sulla carta di guardia anteriore: E.1.12, E.1.15. - Legatura in pergamena su cartoni, tagli sbruffati
                   [16] c. ; 4°</note>
-               <idno type="other">III * Jurić. Scriptores</idno>
+               <note type="other">III * Jurić. Scriptores</note>
                <relatedItem type="primjerak">
                   <ref type="signatura">NSK Zagreb /sine sign./</ref>
                </relatedItem>
@@ -64,22 +64,14 @@
       </fileDesc>
      <encodingDesc>
         <!-- CTS for a single poem in document -->
-        <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        
+     
+    
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
-     
-    
     </encodingDesc>
      <profileDesc>
          <abstract>
@@ -122,18 +114,18 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:niger02.croala20157.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="poesis-epigramma" met="elegiacum">
-            <head n="head1">
+      <body xml:lang="lat">
+         <pb/>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head n="head">
                <persName n="persName1">Thomae Nigri Dalmatae</persName>, protonotarii Apostolici, 
                in piam curam <persName n="persName2">Ioannis Statilii Traguritae</persName>
             </head>
-            <l n="l1">Hoc tibi, diue pater praesul, uenerande <persName n="persName1">Ioannes</persName>,</l>
+            <l n="l1">Hoc tibi, diue pater praesul, uenerande <persName n="persName">Ioannes</persName>,</l>
              
             <l n="l2" met="pentameter">            Statilius propriis sumptibus optat opus,</l>
              
-            <l n="l3">            Vt tua quae fuerint miracula facta <placeName n="placeName1">Traguri</placeName>
+            <l n="l3">            Vt tua quae fuerint miracula facta <placeName n="placeName">Traguri</placeName>
             </l>
              
             <l n="l4" met="pentameter">            Hic liber excussus testis in orbe foret.</l>

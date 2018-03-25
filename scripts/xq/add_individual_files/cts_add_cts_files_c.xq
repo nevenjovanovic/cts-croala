@@ -1,6 +1,6 @@
 declare namespace ti="http://chs.harvard.edu/xmlns/cts";
 
-declare variable $groupname := "bart01";
+declare variable $groupname := "caboga01";
 
 declare function local:titemplate($workid, $label, $title){
   let $groupurn := "urn:cts:croala:" || $groupname
@@ -30,14 +30,14 @@ declare function local:titemplate($workid, $label, $title){
     },
     element ti:description {
       attribute xml:lang { 'hrv' },
-      "Moderno znanstveno izdanje (2015)."
+      "Moderno znanstveno izdanje (2016)."
     }
   }
   }
 };
 
 
-let $path := "/home/neven/Repos/ctscroalapriv/bart_add/bart01/"
+let $path := "/home/neven/Documents/documents/latinisti/kaboga_e/data/caboga01/"
 let $vitlist := file:list($path, xs:boolean('true'), '*-lat1.xml')
 
 for $v in $vitlist 
@@ -49,6 +49,6 @@ let $label := data(doc($dpath)//*:titleStmt/*:title)
 let $title := substring-before($label, ', versio')
 let $ctsfile := local:titemplate($workurn, $label, $title)
 let $ctspath := $path || $workurn || '/__cts__.xml'
-(: return file:write($ctspath,$ctsfile) :)
-return if (not($cref)) then file:write($ctspath, $ctsfile)
-else ()
+return file:write($ctspath,$ctsfile)
+(: return if (not($cref)) then file:write($ctspath, $ctsfile)
+else () :)

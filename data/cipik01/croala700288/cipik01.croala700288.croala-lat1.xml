@@ -38,20 +38,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -99,14 +88,14 @@
         </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:cipik01.croala700288.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-inscriptio">
-            <p n="p1">CORIOLANVS <pc n="pc1">•</pc> CEPIO <pc n="pc2">•</pc> 
+      <body xml:lang="lat">
+         <div type="prosa-inscriptio">
+            <p n="p">CORIOLANVS <pc n="pc1">•</pc> CEPIO <pc n="pc2">•</pc> 
                <expan n="expan1">Petri Filius</expan> SVB <expan n="expan2">FELICISSimo IMPeratore Petro</expan> MOCENICO PRAEFECTVS TRIREMIS EX MANVBIIS ASIATICIS HANC VILLAM AEDIFICAVIT  
-        <date n="date1" when="1481">
-                  <num n="num1" value="1481">MCCCCLXXXI</num>
+        <date n="date" when="1481">
+                  <num n="num" value="1481">MCCCCLXXXI</num>
                </date>
-               <g n="g1">ϯ</g>
+               <g n="g">ϯ</g>
             </p>
          </div> 
       </body>   

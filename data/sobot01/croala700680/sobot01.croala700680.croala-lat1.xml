@@ -79,23 +79,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -174,12 +160,12 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot01.croala700680.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula">
-                <head n="head1">
-               <date n="date1" when="1453-06-30">1453-06-30</date>, Tragurio, ad M. Vallaressum</head>
-                <opener n="opener1">Johannes Sobotae Mapheo archiepiscopo Hyadrensi.</opener>
-                <p n="p1"> Multis de causis, vir clarissime, Stephanus Cige a me et diligitur et amatur;
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">
+               <date n="date" when="1453-06-30">1453-06-30</date>, Tragurio, ad M. Vallaressum</head>
+                <opener n="opener">Johannes Sobotae Mapheo archiepiscopo Hyadrensi.</opener>
+                <p n="p"> Multis de causis, vir clarissime, Stephanus Cige a me et diligitur et amatur;
                     qua ex re maiorem in modum te rogo atque etiam rogo, ita illum suscipias, ut
                     intelligat meam commendationem apud te tantum et ponderis et auctoritatis
                     habuisse, quantum scribens confidebam. Habet causam (ut opinio mea fert) iustam
@@ -187,16 +173,16 @@
                     quia virtus tua preclara, in multis magnisque rebus mihi cognita ac spectata
                     est, sibi suasi ut omnem spem in singulari ac prope divina virtute tua ponat,
                     nec aliunde auxilium presidiumve speret. </p>
-                <closer n="closer1">
-                    <salute n="salute1">Vale, et vivens gloria tua fruere.</salute>
-                    <dateline n="dateline1">Ex <placeName n="placeName1">
-                            <abbr n="abbr1">Trag.</abbr>
+                <closer n="closer">
+                    <salute n="salute">Vale, et vivens gloria tua fruere.</salute>
+                    <dateline n="dateline">Ex <placeName n="placeName">
+                            <abbr n="abbr">Trag.</abbr>
                         </placeName>
-                        <date n="date1" when="1453-06-30">pridie kalendas Julias
-                        <add n="add1">[1453.]</add>
+                        <date n="date" when="1453-06-30">pridie kalendas Julias
+                        <add n="add">[1453.]</add>
                   </date>
                </dateline>
-                    <note n="note1">Str. 57.</note>
+                    <note n="note">Str. 57.</note>
                 </closer>
             </div>
         </body>

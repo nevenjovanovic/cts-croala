@@ -39,23 +39,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -120,10 +106,10 @@
 
 	
 
-      <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosaOratio-epistula" corresp="#bulickubitschek19130608">
-                <opener n="opener1">
-               <address n="address1">
+      <body xml:lang="lat">
+            <div type="prosaOratio-epistula" corresp="#bulickubitschek19130608">
+                <opener n="opener">
+               <address n="address">
                   <addrLine n="addrLine1">Dr Hochwohlgeboren Reg. Rat J. W. Kubitschek</addrLine>
                   <addrLine n="addrLine2">Univ. Prof.</addrLine>
                   <addrLine n="addrLine3">
@@ -131,20 +117,20 @@
                   <addrLine n="addrLine4">
         II, Pichlergasse</addrLine>
                   <addrLine n="addrLine5"> 
-        N. 1, <num n="num1" value="3">III</num>. St.</addrLine>
+        N. 1, <num n="num" value="3">III</num>. St.</addrLine>
                </address>
-                    <dateline n="dateline1">Salonis <date n="date1">8/VI 1913 hora 8 1/2 pomer.</date>
+                    <dateline n="dateline">Salonis <date n="date">8/VI 1913 hora 8 1/2 pomer.</date>
                </dateline>
             </opener>
 
-                <p n="p1">Cum hodie hora sexta post meridiem equo (parvulo, <num n="num1" type="ordinal" value="3">III-o</num> huius nominis) insidens, ruinas <placeName n="placeName1">Salonarum</placeName> peragrarem, prope
-                    fundum <persName n="persName1">Mikelić</persName>, ubi ille optimus <bibl n="bibl1">titulus n. 4429 A</bibl> repertus est,
-                    cecidit equus et super eius caput <sic n="sic1">eques</sic> qui Deo <abbr n="abbr1">Opt.</abbr>
+                <p n="p">Cum hodie hora sexta post meridiem equo (parvulo, <num n="num" type="ordinal" value="3">III-o</num> huius nominis) insidens, ruinas <placeName n="placeName">Salonarum</placeName> peragrarem, prope
+                    fundum <persName n="persName">Mikelić</persName>, ubi ille optimus <bibl n="bibl">titulus n. 4429 A</bibl> repertus est,
+                    cecidit equus et super eius caput <sic n="sic">eques</sic> qui Deo <abbr n="abbr1">Opt.</abbr>
                     <abbr n="abbr2">Max.</abbr> gratias illaesus evasit.</p>
                 <salute n="salute1">Salutem plurimam.</salute>
-                <pb n="pb1"/>
+                <pb/>
                 <salute n="salute2">SALVTEM PLVRIMAM E RVINIS SALONAE</salute>
-                <byline n="byline1">TVSCVLVM DIRECTORIS EFFOSIONVM BVLIĆ</byline>
+                <byline n="byline">TVSCVLVM DIRECTORIS EFFOSIONVM BVLIĆ</byline>
 
             </div>
     

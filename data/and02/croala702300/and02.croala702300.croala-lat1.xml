@@ -61,20 +61,13 @@
             pag. 5209, nr. 19381. - Continetur: Tranquillus Parthenius
             Andronicus Dalmata lectori verum describit philosophum.
             /Carmen/.</note>
-               <idno type="other">II * Jurić. Scriptores</idno>
+               <note type="other">II * Jurić. Scriptores</note>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -127,9 +120,9 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:and02.croala702300.croala-lat1:" xml:lang="lat" type="poesis">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" met="hendecasyllabus">
-            <head n="head1">Tranquillus Parthenius Andronicus Dalmata lectori verum describit philosophum.</head>
+      <body xml:lang="lat">
+         <div met="hendecasyllabus">
+            <head n="head">Tranquillus Parthenius Andronicus Dalmata lectori verum describit philosophum.</head>
 
 
 

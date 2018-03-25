@@ -42,20 +42,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -107,20 +96,20 @@
         
     </teiHeader>
    <text xml:base="urn:cts:croala:vranc03.croala506995.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="prosa-epistula"> 
-            <opener n="opener1">Reverendissimo domino domino Antonio Verancio, episcopo Agriensi, perpetuo comiti Hevesiensi, s. caesareae majestatis consiliario <abbr n="abbr1">etc.</abbr> domino observandissimo. <salute n="salute1">Salutem et felicitatem.</salute>
+      <body xml:lang="lat">
+         <pb/>
+         <div type="prosa-epistula"> 
+            <opener n="opener">Reverendissimo domino domino Antonio Verancio, episcopo Agriensi, perpetuo comiti Hevesiensi, s. caesareae majestatis consiliario <abbr n="abbr">etc.</abbr> domino observandissimo. <salute n="salute">Salutem et felicitatem.</salute>
             </opener>
-            <p n="p1">Dominationem vestram reverendissimam et exspectant omnes hic, et simul admirantur neque litteras neque nuncios de reditu suo aut diuturniori mora ab ea transmitti. Ego autem etiam rarius quam soleam, domo egredior; quid enim interrogantibus de ejus mora responderem nil habeo; certe, et pudet et taedet. Tamen si factor hic essem tantum, aequum esset ut domini mei litteras frequentiores haberem, ut tantum sciretur me suum esse hominem. Vereor ne locum det proverbio: honores mutant <abbr n="abbr1">etc.</abbr> Nam ex Constantinopoli frequentiores recepi, nondum enim equitibus et peditibus stipabatur. Nos, quia nostro gradu continemur, contemnimur. Extra jocum, mirantur omnes de ejus taciturnitate. Hic amissa Tata, quies ut antea, solus scit princeps quid agendum fuerit. Sua majestas etsi non sine sua tertiana sit, tamen a periculo longe abest; dominus palatinus cum ad extrema pericula devenisset, utcunque convaluit, et semisanus certe invalido corpore huc se contulit; sic enim res postulant. Rex Maximilianus adhuc fruitur balneis in Bolchyr una cum serenissima regina. De reverendissima dominatione vestra jam aliquoties caesarea majestas interrogavit, quod retulit mihi
-            <pb n="pb1"/>
+            <p n="p">Dominationem vestram reverendissimam et exspectant omnes hic, et simul admirantur neque litteras neque nuncios de reditu suo aut diuturniori mora ab ea transmitti. Ego autem etiam rarius quam soleam, domo egredior; quid enim interrogantibus de ejus mora responderem nil habeo; certe, et pudet et taedet. Tamen si factor hic essem tantum, aequum esset ut domini mei litteras frequentiores haberem, ut tantum sciretur me suum esse hominem. Vereor ne locum det proverbio: honores mutant <abbr n="abbr">etc.</abbr> Nam ex Constantinopoli frequentiores recepi, nondum enim equitibus et peditibus stipabatur. Nos, quia nostro gradu continemur, contemnimur. Extra jocum, mirantur omnes de ejus taciturnitate. Hic amissa Tata, quies ut antea, solus scit princeps quid agendum fuerit. Sua majestas etsi non sine sua tertiana sit, tamen a periculo longe abest; dominus palatinus cum ad extrema pericula devenisset, utcunque convaluit, et semisanus certe invalido corpore huc se contulit; sic enim res postulant. Rex Maximilianus adhuc fruitur balneis in Bolchyr una cum serenissima regina. De reverendissima dominatione vestra jam aliquoties caesarea majestas interrogavit, quod retulit mihi
+            <pb/>
             reverendissimus Strigoniensis, me autem idem, ego me nil scire retuli. Sed, ut fertur, non dabitur dominationi vestrae reverendissimae quietis locus, et ad meridiem, puto, paratur legatio. Nos omnes hic bene valemus qui reliqui sumus. E Dalmatia nil habeo. Oratores duo veneti exspectantur, Capellus quidam et Navagerius, qui fuerunt capita decem. Classis turcica petit Melitam magna vi, quam tamen reperient bene munitam neapolitanis militibus. Gallus et rex Philippus in castris sunt. Fruges Venetiis minuerunt pretium.   
         </p>
-            <closer n="closer1">
-               <salute n="salute1">Opto dominationem vestram reverendissimam bene valere. Omnes suos meo nomine salutare faciat.</salute>
-               <dateline n="dateline1">Viennae, <date n="date1" when="1558-05-25">25. Maji 1558.</date>
+            <closer n="closer">
+               <salute n="salute">Opto dominationem vestram reverendissimam bene valere. Omnes suos meo nomine salutare faciat.</salute>
+               <dateline n="dateline">Viennae, <date n="date" when="1558-05-25">25. Maji 1558.</date>
                </dateline>
-               <signed n="signed1">Michael Verancius frater et servitor.</signed>
+               <signed n="signed">Michael Verancius frater et servitor.</signed>
             </closer>
          </div>
       </body>

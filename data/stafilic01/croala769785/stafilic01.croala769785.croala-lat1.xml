@@ -47,23 +47,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -111,17 +97,17 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:stafilic01.croala769785.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-oratio">
-            <milestone unit="column" n="milestone1"/>
-            <head n="head1">238 <ref n="ref1">
-                  <persName n="persName1">
-                     <abbr n="abbr1">Io.</abbr> Stafilei</persName> episcopi Sibinicensis
-                        <ref n="ref1">
-                     <persName n="persName1">Iulii II.</persName> Pontificis maximi</ref> oratoris,</ref>
-               oratio habita ad <ref n="ref2">Dominium Venetum</ref>, <placeName n="placeName1">Venetiis</placeName> in
+      <body xml:lang="lat">
+         <div type="prosa-oratio">
+            <milestone unit="column"/>
+            <head n="head">238 <ref n="ref1">
+                  <persName n="persName">
+                     <abbr n="abbr">Io.</abbr> Stafilei</persName> episcopi Sibinicensis
+                        <ref n="ref">
+                     <persName n="persName">Iulii II.</persName> Pontificis maximi</ref> oratoris,</ref>
+               oratio habita ad <ref n="ref2">Dominium Venetum</ref>, <placeName n="placeName">Venetiis</placeName> in
                   <ref n="ref3">Collegio</ref>
-               <date n="date1" when="1512-12-27">die XXVII Decembris M.D.XII.</date>
+               <date n="date" when="1512-12-27">die XXVII Decembris M.D.XII.</date>
             </head>
             <p n="p1"> Nihil est quod magis expediat <ref n="ref1">Reipublicae Christianae</ref>, <ref n="ref2">Serenissime
                   Princeps</ref> ac <ref n="ref3">patres conscripti</ref>, quam pacem colere et a bellis,
@@ -136,19 +122,19 @@
                <sic n="sic2">juremerito</sic> possunt <sic n="sic3">noncupari</sic>, qui est sator zizaniae, pater
                scandali ac perturbator pacis. Quod exemplo
                      <ref n="ref9">
-                  <persName n="persName1">
-                     <sic n="sic1">Policarpi</sic>
+                  <persName n="persName">
+                     <sic n="sic">Policarpi</sic>
                   </persName> sanctissimi
-                  <sic n="sic1">martiris</sic>
+                  <sic n="sic">martiris</sic>
                </ref> eleganter comprobatur, qui cum obviaret
                      <ref n="ref10">
-                  <persName n="persName1">Martiano</persName> schismatico</ref> eidem interroganti :
-                  <q n="q2">Agnoscis ne me, <persName n="persName1">
-                     <sic n="sic1">Policarpe</sic>
+                  <persName n="persName">Martiano</persName> schismatico</ref> eidem interroganti :
+                  <q n="q2">Agnoscis ne me, <persName n="persName">
+                     <sic n="sic">Policarpe</sic>
                   </persName>?</q>
                <sic n="sic4">Respondit</sic>: <q n="q3">Agnosco primogenitum
-                     <persName n="persName1">
-                     <sic n="sic1">Sathanae</sic>
+                     <persName n="persName">
+                     <sic n="sic">Sathanae</sic>
                   </persName> et filium perditionis.</q>
             </p>
             <p n="p2">
@@ -167,14 +153,14 @@
                ac suorum populorum quietem oderunt, caedibus autem, ruinis et incommodis hominum
                studiosissime delectantur. Sunt qui <sic n="sic1">Christianisimi</sic> dici nominarique
                volunt, et tamen <sic n="sic2">christianissimorum</sic>
-               <milestone unit="column" n="milestone1"/> nominibus operibusque contradicunt. Dum, non
+               <milestone unit="column"/> nominibus operibusque contradicunt. Dum, non
                contenti suis amplissimis regnis ac propriis terminis finibusque, aliena longaevo
                tempore parta ac quiete possessa vastant, trahunt ac hostiliter invadunt; hinc
                subversiones <sic n="sic3">dirreptionesque</sic> plurimarum urbium; hinc caedes innumerabilium
                populorum; hinc uberrima flumina humano cruore fluentia; hinc violatio fidei datae;
                hinc transgressio jurisiurandi: hinc contemptus deorum; hinc perfidia plus quam
                punica. Impletum est temporibus nostris <ref n="ref2">vaticinium illud evangelicum</ref>:
-                  <q n="q3">Surget gens contra gentem et regnum adversus regnum et <sic n="sic1">terremotus</sic>
+                  <q n="q3">Surget gens contra gentem et regnum adversus regnum et <sic n="sic">terremotus</sic>
                   erunt magni per loca, pestilentiae, et fames, terroresque de caelo, quae sunt
                   evidentissima signa et initia malorum.</q> Proh dolor! libet hoc loco miserias
                temporum nostrorum prosequi et calamitates quas hactenus <sic n="sic4">substinuimus</sic>
@@ -188,10 +174,10 @@
                reconditum, praedae cupiditate in terram collisum, pedibusque calcatum! Deerat
                extremum malorum omnium, quod nihilominus attentatum est, ac <sic n="sic9">pene</sic>
                confectum. <sic n="sic10">Dirripuerunt</sic>
-               <ref n="ref5">Patrimonium <persName n="persName1">Beati Petri</persName>
+               <ref n="ref5">Patrimonium <persName n="persName">Beati Petri</persName>
                </ref>, obsederunt hostiliter
                   <ref n="ref6">civitatem Bononiensem</ref>, incluserunt oppugnaruntque <ref n="ref7">Vicarium
-                     <persName n="persName1">Jesus Christi</persName>
+                     <persName n="persName">Jesus Christi</persName>
                </ref> ibidem cum sua curia residentem,
                captivumque turpiter abduxissent, nisi <ref n="ref8">Deus Optimus Maximus</ref> causae suae et
                   <ref n="ref9">Ecclesiae</ref> in tempore affuisset, qui eosdem oppugnatores sacrilegos et
@@ -205,7 +191,7 @@
                obstinatioresque, more <ref n="ref11">Pharaonis</ref> in flagellis, rursus tentant irrumpere in
                   <placeName n="placeName2">Italiam</placeName>, rursus aliena rapere, et crudeliores caedes quas
                fecerunt hactenus perpetrare vosque, <ref n="ref12">optimos Patres</ref>, cultores pacis et
-               quietis, et bonae fidei, ut aiunt, possessores in <milestone unit="column" n="milestone2"/>
+               quietis, et bonae fidei, ut aiunt, possessores in <milestone unit="column"/>
                eorum errorem allicere student, et secum in perditionem multis variisque subdolis
                sollicitationibus seducere satagunt; quod si, peccatis nostris exigentibus efficere
                poterunt, profecto novissimus error pejor priore. Nam dum inter nos bella gerimus et
@@ -213,13 +199,13 @@
                dubio animamus, eis <sic n="sic11">sque</sic> cervices nostras feriendas sponte exhibemus. Ob
                praeteritas etenim dissensiones et bella intestina <ref n="ref13">Christianorum</ref> amisimus
                amplissima regna, latissimasque provincias, <placeName n="placeName3">
-                  <sic n="sic1">Misiam</sic>
+                  <sic n="sic">Misiam</sic>
                </placeName>,
                   <placeName n="placeName4">Thraciam</placeName>, <placeName n="placeName5">
-                  <sic n="sic1">Macaedoniam</sic>
+                  <sic n="sic">Macaedoniam</sic>
                </placeName>,
                      <placeName n="placeName6">
-                  <sic n="sic1">Aepirum</sic>
+                  <sic n="sic">Aepirum</sic>
                </placeName> totamque
                   <placeName n="placeName7">Graeciam</placeName>, ac caeteras innumeras urbes, quibus nunc imperat
                   <persName n="persName4">Ottomanus</persName>. </p>
@@ -234,10 +220,10 @@
                proderunt, tanquam debilitatae, imo pene <sic n="sic1">exaustae</sic> ob praeteritas
                dissensiones. <sic n="sic2">Hic</sic> malis futurisque incommodis ac minis <ref n="ref3">Reipublicae
                   Christianae</ref> cupiens occurrere, <ref n="ref4">
-                  <persName n="persName1">Julius secundus</persName>
+                  <persName n="persName">Julius secundus</persName>
                   Pontifex maximus</ref> percussit foedus, inivitque amicitiam cum
                      <ref n="ref5">
-                  <persName n="persName1">Maximiliano</persName> Romanorum Imperatore electo</ref>, nec
+                  <persName n="persName">Maximiliano</persName> Romanorum Imperatore electo</ref>, nec
                non cum <ref n="ref6">Catholica Majestate</ref>, ut junctis simul viribus sint potentiores
                fortioresque adversus rapacissimum lupum, communem omnium hostem et inimicum, quo
                domito et fortissimis nodis religato, pacatis rebus in <placeName n="placeName3">Italia</placeName>
@@ -252,19 +238,19 @@
                ipse vester necessitate constrictus cogatur deserere vos fìlios, immo in vos armis
                spiritualibus et temporalibus acriter insurgere, sicut et <persName n="persName2">Brutus</persName>
                insurrexit in mortem filii, et <persName n="persName3">Saul</persName> in
-                  <persName n="persName4">Jonatham</persName> primogenitum ob neglecta praecepta. <milestone unit="column" n="milestone1"/> Dicet forte quispiam vestrum praecepta haec nimis dura
+                  <persName n="persName4">Jonatham</persName> primogenitum ob neglecta praecepta. <milestone unit="column"/> Dicet forte quispiam vestrum praecepta haec nimis dura
                sunt, et conditiones pacis quae nobis offeruntur admodum graves. </p>
-            <p n="p4"> Huic ego respondeo: durum graveque <persName n="persName1">Romanis</persName> videbatur dimittere
-                  <placeName n="placeName1">Siciliam</placeName> fertilissimam insulam uberrimum horreum
+            <p n="p4"> Huic ego respondeo: durum graveque <persName n="persName">Romanis</persName> videbatur dimittere
+                  <placeName n="placeName">Siciliam</placeName> fertilissimam insulam uberrimum horreum
                   <ref n="ref1">populi Romani</ref>, quam tamen in conditionibus pacis adversariis dimittere
-               sunt coacti. Durum insuper est <ref n="ref2">illud evangelicum</ref>: <q n="q1">si quis voluerit
-                  tecum in <sic n="sic1">juditio</sic> contendere et petierit a te tunicam, dimitte ei
+               sunt coacti. Durum insuper est <ref n="ref2">illud evangelicum</ref>: <q n="q">si quis voluerit
+                  tecum in <sic n="sic">juditio</sic> contendere et petierit a te tunicam, dimitte ei
                   pallium.</q> Dura quoque lex <sic n="sic1">multotiens</sic> promulgatur; sed ex
                   <sic n="sic2">cauxa</sic> necessaria <sic n="sic3">tolleratur</sic> et fertur. Verum, quia haec
                quaestio altiores radices habet secretioraque ac magis minuta consilia expostulat,
                ideo illam et quaedam alia quae in mandatis habeo in diem sequentem vel alias, pro
                vestra commoditate differo. </p>
-            <closer n="closer1">Dixi.</closer>
+            <closer n="closer">Dixi.</closer>
          </div>
       </body>
    </text>

@@ -39,20 +39,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -109,12 +98,12 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:niger02.croala356975.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula">
-            <pb n="pb1"/>
-            <opener n="opener1">Beatissime Pater, post oscula et pulveres pedum beatorum ac humilem
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
+            <pb/>
+            <opener n="opener">Beatissime Pater, post oscula et pulveres pedum beatorum ac humilem
                commendationem et salutem in omnium Salvatori.</opener>
-            <p n="p1">
+            <p n="p">
                
                Dum Venetias me contulissem Clisii, per Beatitudinem Tuam hucusque conservati
                et nunc prorsus peccatis nostris pereuntis ac <sic n="sic1">pereclitantis</sic>, causa eiusdem a
@@ -143,10 +132,10 @@
                
                 
                </p>
-            <closer n="closer1">
-               <dateline n="dateline1">Venetiis, <date n="date1">in solemnitate Divi Joannis Baptistae, millesimo D XXXII</date>.</dateline>
-               <signed n="signed1">
-                  <expan n="expan1">Eiusdem</expan> Sanctitatis Vestrae
+            <closer n="closer">
+               <dateline n="dateline">Venetiis, <date n="date">in solemnitate Divi Joannis Baptistae, millesimo D XXXII</date>.</dateline>
+               <signed n="signed">
+                  <expan n="expan">Eiusdem</expan> Sanctitatis Vestrae
                   
                   Devotus orator et capellanus Thomas
                   Nigro alias episcopus Scardonensis et

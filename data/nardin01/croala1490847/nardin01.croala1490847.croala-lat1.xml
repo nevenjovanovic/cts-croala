@@ -54,17 +54,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -128,10 +120,10 @@
       </revisionDesc>
   </teiHeader>
     <text xml:base="urn:cts:croala:nardin01.croala1490847.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-        <div n="div1" type="poesis-elegia" met="elegiacum">
-            <head n="head1">
-               <add n="add1">Elegia de laudibus Sibenici</add>
+        <body xml:lang="lat">
+        <div type="poesis-elegia" met="elegiacum">
+            <head n="head">
+               <add n="add">Elegia de laudibus Sibenici</add>
             </head>
             <l n="l1">Solus honor, Sibenice, tuus, tua gloria sola est,</l>
              
@@ -194,7 +186,7 @@
             <l n="l30" met="pentameter">            Sice, Duci Veneto, moenia tuta manent;</l>
              
             <l n="l31">
-               <orig n="orig1">Hic</orig> trino dicata Deo dum festa refulgent</l>
+               <orig n="orig">Hic</orig> trino dicata Deo dum festa refulgent</l>
              
             <l n="l32" met="pentameter">Civis in hac sceptrum nobilis urbe tenet.</l>
               
@@ -218,16 +210,16 @@
              
             <l n="l42" met="pentameter">            Hic sua Neptunus sceptra superba tenet.</l>
              
-            <gap n="gap1" reason="fragmentum" resp="NJ"/>
+            <gap reason="fragmentum" resp="NJ"/>
             
 
             
             
 
-            <gap n="gap2" reason="fragmentum" resp="NJ"/>
+            <gap reason="fragmentum" resp="NJ"/>
             </div>
         
-            <gap n="gap1" reason="irrelevant" resp="NJ"/>
+            <gap reason="irrelevant" resp="NJ"/>
         </body>
     </text>
 </TEI>

@@ -41,20 +41,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -123,22 +112,22 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:draskovic02.croala505180.croala-lat1:" xml:lang="lat">
     
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="prosa-epistula" corresp="#draskovicozegovic18391112">
-            <opener n="opener1">
-               <dateline n="dateline1">
-                  <abbr n="abbr1">Rec.</abbr>: <date n="date1" when="1839-11-12">12/11 1839.</date>
+      <body xml:lang="lat">
+         <pb/>
+         <div type="prosa-epistula" corresp="#draskovicozegovic18391112">
+            <opener n="opener">
+               <dateline n="dateline">
+                  <abbr n="abbr">Rec.</abbr>: <date n="date" when="1839-11-12">12/11 1839.</date>
                </dateline>
-               <salute n="salute1">Dilectissime Metelle!</salute>
+               <salute n="salute">Dilectissime Metelle!</salute>
             </opener>
-            <p n="p1">Multa accidunt, quae sumopere <sic n="sic1">conbinationem</sic> mediorum indigent, ut res nostrae tueri, et fulciri valeant — prae ceteris autem interest scire, quae sit probior opinio in publico: Hinc te obtestor, fac ut usque meum adventum ad vos te genuine informare valeas de opinionibus. <placeName n="placeName1">Zagrabiae</placeName> multi optant ut lingua hungarica cesset esse studium ordinarium siquidem mancipatus iste turpis, inoperosus, et ingratis hungaris tributus exstiterit. Ceterum consectaria conclusorum dietalium majorem nobis adhuc (si regimen accesserit) mancipatum parant — quid ergo eatenus sentiatur? An non in concursu Slavonitarum, salvo <persName n="persName1">Verböcio</persName>, consilium separatum petere, cum pecunias sufficientes habeamus, illudque restaurare, approbationem majoritatis consequi valeat? Si te circa <date n="date1" when="1839-11-20">20.</date> usque <date n="date2" when="1839-11-22">22.</date> 
+            <p n="p">Multa accidunt, quae sumopere <sic n="sic">conbinationem</sic> mediorum indigent, ut res nostrae tueri, et fulciri valeant — prae ceteris autem interest scire, quae sit probior opinio in publico: Hinc te obtestor, fac ut usque meum adventum ad vos te genuine informare valeas de opinionibus. <placeName n="placeName1">Zagrabiae</placeName> multi optant ut lingua hungarica cesset esse studium ordinarium siquidem mancipatus iste turpis, inoperosus, et ingratis hungaris tributus exstiterit. Ceterum consectaria conclusorum dietalium majorem nobis adhuc (si regimen accesserit) mancipatum parant — quid ergo eatenus sentiatur? An non in concursu Slavonitarum, salvo <persName n="persName">Verböcio</persName>, consilium separatum petere, cum pecunias sufficientes habeamus, illudque restaurare, approbationem majoritatis consequi valeat? Si te circa <date n="date1" when="1839-11-20">20.</date> usque <date n="date2" when="1839-11-22">22.</date> 
                <placeName n="placeName2">Varasdini</placeName> futurum scivero, sic veniam, et super his consultaturi. —</p> 
-            <closer n="closer1">
-               <salute n="salute1">Vale, amaque <sic n="sic1">te</sic>
+            <closer n="closer">
+               <salute n="salute">Vale, amaque <sic n="sic">te</sic>
                </salute>
     
-               <signed n="signed1">Amantem tuum Joannem.</signed>
+               <signed n="signed">Amantem tuum Joannem.</signed>
             </closer>
          </div>
    

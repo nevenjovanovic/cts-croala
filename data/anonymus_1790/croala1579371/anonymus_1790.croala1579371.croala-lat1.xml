@@ -52,20 +52,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -114,21 +103,21 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:anonymus_1790.croala1579371.croala-lat1:" xml:lang="lat">
     
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
     
-         <pb n="pb1"/>
-         <div n="div1" type="prosa-acta">
+         <pb/>
+         <div type="prosa-acta">
         
-            <head n="head1">
-               <address n="address1">
-                  <addrLine n="addrLine1">Ad Inclytos Dominos Status et Ordines Regnorum Dalmatiae, Croatiae 
+            <head n="head">
+               <address n="address">
+                  <addrLine n="addrLine">Ad Inclytos Dominos Status et Ordines Regnorum Dalmatiae, Croatiae 
         et Sclavoniae generaliter congregatos.</addrLine>
                </address>
             </head>
-            <opener n="opener1">Inclyti Domini Status et Ordines.</opener> 
+            <opener n="opener">Inclyti Domini Status et Ordines.</opener> 
             <p n="p1">Dum singulae Communitates Inclytorum horum regnorum 
         antiqua jura sua, quae sibi adempta, vel quoquo modo labefactata 
-        sentiunt, medio <expan n="expan1">Inclytorum</expan> 
+        sentiunt, medio <expan n="expan">Inclytorum</expan> 
                <abbr n="abbr1">SS. et OO.</abbr> recuperare, ac firmare student, 
         aut novas etiam statui suo Convenientes praerogativas per Eosdem 
         <abbr n="abbr2">I. SS. et OO.</abbr> expetunt, par esse existimamus, ut nos quoque opportuno hoc tempore, quo non solum de revehenda pristina libertate, 
@@ -142,21 +131,21 @@
         Zagrabiensi Academiae pridem concessam esse palam ostendi posset, 
         in praesens producere nequeamus, quod illud Archivo literariae 
         Directionis Zagrabiensis nunquam illatum sit, se cum reliquis literariis documentis hujatis Collegii abolitae Societatis Jesu, ut par est, 
-        credere, per Commissionem <corr n="corr1">Aulicam quae</corr> Opere abolitionis tunc 
+        credere, per Commissionem <corr n="corr">Aulicam quae</corr> Opere abolitionis tunc 
         occupabatur, compositum, atque ad destinatum locum transmissum 
         esse suspicari liceat; Adeo tamen indubitatum est, illud reapse extitisse, atque Universitatis praerogativam cum aliis privilegiis huic 
         Academiae indultam continuisse, ut eorum Virorum, qui tale legerunt, 
         quique adhuc vivunt testimoniis facile comprobari possit; sed neque 
         absque fundamento supponi potest, ejus si non Authenticum 
-        <pb n="pb1"/>
+        <pb/>
         Apographum, saltem certa vestigia in Archivo Regni latere debere, 
-        quemadmodum ex actis regnicolaribus de anno <num n="num1" type="ordinal" value="1671">1671-o</num> id erui posse 
+        quemadmodum ex actis regnicolaribus de anno <num n="num" type="ordinal" value="1671">1671-o</num> id erui posse 
         percipimus.</p> 
         
             <p n="p3">Quanta iam inde, si universitas Scientiarum cum concernentibus 
         privilegiis, atque idoneis emolumentis hic loci stabiliatur, in Inclyta 
-        haec Regna dimanatura utilitas, quantus Patriae accessurus sit <corr n="corr1">decor</corr>, 
-        <abbr n="abbr1">I. SS.</abbr> et Ordines magis perspicient, quam ut pluribus id deducere, 
+        haec Regna dimanatura utilitas, quantus Patriae accessurus sit <corr n="corr">decor</corr>, 
+        <abbr n="abbr">I. SS.</abbr> et Ordines magis perspicient, quam ut pluribus id deducere, 
         ac demonstrare oporteat. Profecto si praesentes rerum circumstantias, 
         in quibus non modo de amovendis obicibus literarum, sed etiam 
         de solis Patriae civibus ad quaeque munera in his Regnis applicandis 
@@ -166,22 +155,22 @@
         cepimus, augurari licet, recuperata, taliterque haec inclyta regna quasi 
         dilatata fuerint, paululum contemplemur: ejusmodi Universitatem, 
         ubi domestica pubes remotis omnibus literarum impedimentis, et 
-        <sic n="sic1">suppetitatis</sic> eas prosequendi mediis, copiosissimo numero confluxura 
+        <sic n="sic">suppetitatis</sic> eas prosequendi mediis, copiosissimo numero confluxura 
         pro diversis in patria obeundis muniis in omnigenis scientiis atque 
-        liberalibus artibus erudiatur, in medio sui possidere <expan n="expan1">non</expan> modo 
+        liberalibus artibus erudiatur, in medio sui possidere <expan n="expan">non</expan> modo 
         decorum et utile, sed plane necessarium esse judicamus.</p> 
-            <closer n="closer1">
-               <salute n="salute1">Dum itaque 
+            <closer n="closer">
+               <salute n="salute">Dum itaque 
         nos velut cives parte qua licet in bonum publicum intentos haec 
-        inclytis <abbr n="abbr1">SS.</abbr> et Ordinibus demisse proponendo, muneri nostro <sic n="sic1">quadamtemus</sic> satisfecisse arbitramur, potenti protectioni enixe commendati 
+        inclytis <abbr n="abbr">SS.</abbr> et Ordinibus demisse proponendo, muneri nostro <sic n="sic">quadamtemus</sic> satisfecisse arbitramur, potenti protectioni enixe commendati 
         omni venerationis cum cultu emorimur.</salute> 
-               <signed n="signed1">Inclijtorum Statuum et Ordinum 
+               <signed n="signed">Inclijtorum Statuum et Ordinum 
         Servi Humillimi
-        Superior studiorum Director, <corr n="corr1">caeterique</corr> Professores regiae Academiae in districtu Zagrabiensi.</signed> 
+        Superior studiorum Director, <corr n="corr">caeterique</corr> Professores regiae Academiae in districtu Zagrabiensi.</signed> 
         
          
         
-               <dateline n="dateline1">Datum Zagrabiae Die 19a Maji 1790</dateline> 
+               <dateline n="dateline">Datum Zagrabiae Die 19a Maji 1790</dateline> 
             </closer> 
         
          

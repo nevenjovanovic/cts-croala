@@ -39,32 +39,17 @@
             <bibl type="edit" ana="tisak">Bratičević, Irena, "Knjiga i čitanje u pismima Ilije Crijevića Marinu Buniću", In: Colloquia Maruliana XXI. Knjige i čitatelji u hrvatskoj renesansi (I.). Split : Književni krug Split - Marulianum, 2012, s. 69-88</bibl>
             <bibl type="repo" ana="izvornik">
                 <orgName>Državni arhiv Dubrovnik</orgName>, 
-                <idno>DADU, Miscellanea saec. XVI, Litterae privatae, f. CCLXXXI</idno>
+                <note>DADU, Miscellanea saec. XVI, Litterae privatae, f. CCLXXXI</note>
                 </bibl>
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1']/*[@n='$2'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -224,39 +209,39 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:crije02.croala1844580.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
 
-         <div n="div1" type="epistula" xml:id="Mar.Bon.1504">
+         <div type="epistula" xml:id="Mar.Bon.1504">
             <div type="epistula-caput" n="div1">
-                    <milestone unit="page" n="milestone1"/>
-                    <p n="p1">
-                            <address n="address1">
-                                    <addrLine n="addrLine1">Nobili viro domino <name n="name1">Marino Nicolai Bono</name>, amico suo singulari</addrLine>
+                    <milestone unit="page"/>
+                    <p n="p">
+                            <address n="address">
+                                    <addrLine n="addrLine1">Nobili viro domino <name n="name">Marino Nicolai Bono</name>, amico suo singulari</addrLine>
                                     <addrLine n="addrLine2">
-                        <name n="name1">Stagni</name>
+                        <name n="name">Stagni</name>
                      </addrLine>
                             </address>
                     </p>
             </div>
             <div type="epistula-textus" n="div2">
-               <milestone unit="page" n="milestone1"/>
-                    <opener n="opener1">
+               <milestone unit="page"/>
+                    <opener n="opener">
                   <name n="name1">Aelius</name> 
                   <name n="name2">Mario</name> salutem.</opener>
-               <p n="p1">Non quo habeam quid ad te scribam, sed ut absens tecum loquar, haec scribo. Nam cum eras in suburbano, licet alloqui te et videre saepius quatriduo non licuit, tamen non tanto tui desiderio afficiebar, qui prope in oculis eras, et te uidere uidebar, qui quotidie hoc facere poteram. Nunc postquam ad <num n="num1" value="300">xxx</num> lapidem semotus es, magis magisque in singulas horas in tuo ore et sermone conquiescere cupio; et quia non possum hoc facere moleste fero. Quare <name n="name1">Iunium</name> auunculum tuum crebro conuenio, quicum congresus, et deambulatiunculę per forum et mutui de te sermones, qui salibus et iocis habundant, mihi pergrati sunt. Qui cito redibis plena et onusta scapha conchiliis, quibus bimare <name n="name2">Stagnum</name> affluit. Tanti est illud custodire ne pereant tot deliciae, quibus nec <name n="name3">Lucrina littora</name>, nec amoenitas <name n="name4">Baiarum</name> aut insignes <name n="name5">Caprea<supplied n="supplied1">e</supplied>
+               <p n="p1">Non quo habeam quid ad te scribam, sed ut absens tecum loquar, haec scribo. Nam cum eras in suburbano, licet alloqui te et videre saepius quatriduo non licuit, tamen non tanto tui desiderio afficiebar, qui prope in oculis eras, et te uidere uidebar, qui quotidie hoc facere poteram. Nunc postquam ad <num n="num" value="300">xxx</num> lapidem semotus es, magis magisque in singulas horas in tuo ore et sermone conquiescere cupio; et quia non possum hoc facere moleste fero. Quare <name n="name1">Iunium</name> auunculum tuum crebro conuenio, quicum congresus, et deambulatiunculę per forum et mutui de te sermones, qui salibus et iocis habundant, mihi pergrati sunt. Qui cito redibis plena et onusta scapha conchiliis, quibus bimare <name n="name2">Stagnum</name> affluit. Tanti est illud custodire ne pereant tot deliciae, quibus nec <name n="name3">Lucrina littora</name>, nec amoenitas <name n="name4">Baiarum</name> aut insignes <name n="name5">Caprea<supplied n="supplied">e</supplied>
                   </name> praeferantur. Quare te tot habere uoluptates gaudeo, sed quia plenus et pinguis venter nihil sublime, nihil tenue cogitat, nec modo corpus, sed etiam mentem contaminat, fuge luxum, caue ingluuiem, detestere asotiam; hanc <name n="name6">Cyrcen</name>, has <name n="name7">Syrenas</name>, haec monstra ut <name n="name8">Ulysses</name> elucteris. Sint domi <name n="name9">Milesia</name>, nec <name n="name10">Capuam</name>, aut <name n="name11">Tarentum</name>, aut <name n="name12">Sybaritarum</name> mores sapias. Hinc maius periculum est quam ab hostibus; nec <name n="name13">Stagno</name> quam <name n="name14">Stagnum</name> time. Haec monentis boni consule, quae scis, tenes et observas. Scio enim te tanquam <name n="name15">Pisonem</name> frugi, quare laudo quando hortor quod facis ut facias, teque innitere rogo. Etsi bene currentibus nihil opus est admoueri calcaria, iuuatur tamen sonipes hortantium clamore. Sic tuo curriculo meae laudes nescio quas alas addiicient.</p>
                     <p n="p2">Sed quia tibi non usum sed abusum scis esse interdictum, propterea ne graueris ad nos mittere <supplied n="supplied1">non</supplied> dico pira <name n="name1">Signina</name> aut <name n="name2">
-                     <supplied n="supplied1">Par</supplied>mensem</name> caseum, ne dicam <name n="name3">Docleatem</name>. Sed <gap n="gap1" reason="osteceno"/> 
+                     <supplied n="supplied">Par</supplied>mensem</name> caseum, ne dicam <name n="name3">Docleatem</name>. Sed <gap reason="osteceno"/> 
                   <supplied n="supplied2">a</supplied>d nos nobi<supplied n="supplied3">les</supplied> 
-                  <gap n="gap2" reason="osteceno"/> 
+                  <gap reason="osteceno"/> 
                   <supplied n="supplied4">c</supplied>erasos <name n="name4">Ponicenses</name>, et <supplied n="supplied5">uuas pr</supplied>ecoquas <name n="name5">Stagnenses</name>, et ostrea e<supplied n="supplied6">dulia</supplied> 
-                  <name n="name6">Bistrice<supplied n="supplied1">nses</supplied>
-                  </name> et murias fossitias <gap n="gap3" reason="osteceno"/>is ad nos <gap n="gap4" reason="osteceno"/>as, et quando laudi tibi <gap n="gap5" reason="osteceno"/> mihi et auunculo tuo te non solu<supplied n="supplied7">m</supplied> 
-                  <gap n="gap6" reason="osteceno"/> 
-                  <supplied n="supplied8">faci</supplied>lem sed <supplied n="supplied9">etiam</supplied> prodigum esse. quamuis ti<gap n="gap7" reason="osteceno"/> 
+                  <name n="name6">Bistrice<supplied n="supplied">nses</supplied>
+                  </name> et murias fossitias <gap reason="osteceno"/>is ad nos <gap reason="osteceno"/>as, et quando laudi tibi <gap reason="osteceno"/> mihi et auunculo tuo te non solu<supplied n="supplied7">m</supplied> 
+                  <gap reason="osteceno"/> 
+                  <supplied n="supplied8">faci</supplied>lem sed <supplied n="supplied9">etiam</supplied> prodigum esse. quamuis ti<gap reason="osteceno"/> 
                   <supplied n="supplied10">sis</supplied> frugi et parcus, atque nobis tui desiderium his munusculis solabere. Quod si facies cito bis facies. </p>
-                    <closer n="closer1">
-                  <salute n="salute1">Vale, et <name n="name1">Michaelem</name> nostrum et omnes reliquos tuos decuriones meo nomine saluta.</salute>
+                    <closer n="closer">
+                  <salute n="salute">Vale, et <name n="name">Michaelem</name> nostrum et omnes reliquos tuos decuriones meo nomine saluta.</salute>
                </closer>
             
             </div>

@@ -1,5 +1,5 @@
 (: check if a random number is unique in croala ids :)
-declare variable $textgroup := "bart01";
+declare variable $textgroup := "caboga01";
 let $list :=
 for $d in db:open("croala-cts-1")//*:TEI
 return xs:integer(

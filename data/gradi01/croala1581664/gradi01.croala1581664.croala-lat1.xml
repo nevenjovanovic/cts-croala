@@ -50,14 +50,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -102,12 +97,12 @@
      </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:gradi01.croala1581664.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
          
-         <gap n="gap1" reason="alia"/>
-         <pb n="pb1"/>
-         <div n="div1" met="hendecasyllabus" type="poesis-epigramma">
-            <head n="head1">STEPHANI GRADII, RAGVSINI, HENDECASYLLABI.</head>
+         <gap reason="alia"/>
+         <pb/>
+         <div met="hendecasyllabus" type="poesis-epigramma">
+            <head n="head">STEPHANI GRADII, RAGVSINI, HENDECASYLLABI.</head>
 
             <l n="l1">Vates optime, quotque litteratos</l>
              
@@ -118,7 +113,7 @@
             <l n="l4">Nulli consilio, nec erudita</l>
               
 
-            <pb n="pb1"/>
+            <pb/>
             <l n="l5">Largo flumine posthabende linguae;</l>
              
             <l n="l6">Te facundia, litteraeque nostrae,</l>
@@ -146,7 +141,7 @@
              
             
          </div>
-         <gap n="gap2" reason="non-necesse"/>
+         <gap reason="non-necesse"/>
       </body>
    </text>
 </TEI>

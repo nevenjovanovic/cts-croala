@@ -49,17 +49,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -104,12 +96,12 @@
      </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:gradi01.croala690709.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
          
-         <gap n="gap1" reason="alia"/>
-         <pb n="pb1"/>
-         <div n="div1" met="elegiacum" type="poesis-elegia">
-            <head n="head1">AD VENEREM Titiani Artificio pictam, in aedibus Illustrissimi <expan n="expan1">Domini</expan> Casanattae.</head>
+         <gap reason="alia"/>
+         <pb/>
+         <div met="elegiacum" type="poesis-elegia">
+            <head n="head">AD VENEREM Titiani Artificio pictam, in aedibus Illustrissimi <expan n="expan">Domini</expan> Casanattae.</head>
 
 
 
@@ -126,7 +118,7 @@
             <l n="l6" met="pentameter">Qui mores, quali praeditus ingenio?</l>
              
 
-            <pb n="pb1"/>
+            <pb/>
 
             <l n="l7">Virtuti teneris rigidae nutritus ab annis</l>
              
@@ -192,7 +184,7 @@
              
             <l n="l38" met="pentameter">Alterius discit providus esse malo.</l>
              
-            <pb n="pb2"/>
+            <pb/>
             <l n="l39">Parthenopae Trojana suae quia fata timebit,</l>
              
             <l n="l40" met="pentameter">Et charis alium civibus Aeacidem.</l>
@@ -257,8 +249,8 @@
              
             <l n="l70" met="pentameter">Improbus in media vult quoque ferre Cypro.</l>
              
-            <pb n="pb3"/>
-            <l n="l71">An nescis teneris <corr n="corr1">illum</corr> dare jura puellis,</l>
+            <pb/>
+            <l n="l71">An nescis teneris <corr n="corr">illum</corr> dare jura puellis,</l>
              
             <l n="l72" met="pentameter">Juncta Palatino quas alit ora jugo?</l>
              
@@ -293,8 +285,8 @@
 
             
          </div>
-         <pb n="pb2"/>
-         <gap n="gap2" reason="alia"/>
+         <pb/>
+         <gap reason="alia"/>
       </body>
    </text>
 </TEI>

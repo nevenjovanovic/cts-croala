@@ -53,20 +53,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -115,11 +104,11 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:vrhov01.croala2058556.croala-lat1:" xml:lang="lat">
     
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="prosa-epistula">
-            <opener n="opener1">
-               <abbr n="abbr1">P. T.</abbr>
+      <body xml:lang="lat">
+         <pb/>
+         <div type="prosa-epistula">
+            <opener n="opener">
+               <abbr n="abbr">P. T.</abbr>
             </opener>
         
         
@@ -152,7 +141,7 @@
         Kornig 1795, alia per Anonymum 1810 vulgata. Prodiverunt 
          
         
-        <pb n="pb1"/>
+        <pb/>
         quoque in Croatico idiomate Sacri Sermones tam oríginarii, uti 1784 
         Joannis Mulih, quam ex aliis linguis traducti, uti 1770 Balthasaris 
         Mataković, et 1796 noti libelli Josephi Matijević: nec absimiliter in 
@@ -161,7 +150,7 @@
             <p n="p3">Attamen sive vocum significationes et mutationes, sive enunciationum expressiones hucusque adnotatas spectemus, restant adhuc, 
         quae nec ex horum grammaticis, lexicis et sermonibus ac poematibus, 
         nec ex scholasticis radicalium vocum syllabis depromi possunt: neque 
-        accipimus scriptores illos <corr n="corr1">classicos</corr>, qui prout florente Imperio Romano 
+        accipimus scriptores illos <corr n="corr">classicos</corr>, qui prout florente Imperio Romano 
         evenerat, scribendi genere alios longe antecellerent: ut adeo pro 
         aliquibus opportunum subsidium, si non fons, virtutis linguae Croaticae et Slavonicae etiam in communi tam foraneorum dominorum 
         sacerdotum, quam ipsius populi usu latere videatur: sicut enim in 
@@ -186,9 +175,9 @@
         quantitatibus totiusque linguae genio ideam praebent.</p> 
         
             <p n="p4">Considerato itaque eo: quod lingua Illyrica in plurium deliciis 
-        habeatur; in ea quotidie quaepiam <corr n="corr1">accuratius</corr> scribantur, et nunc per 
+        habeatur; in ea quotidie quaepiam <corr n="corr">accuratius</corr> scribantur, et nunc per 
         
-        <pb n="pb1"/>
+        <pb/>
         recens Viennae coalescentem eruditorum virorum societatem, quae 
         in Illyricae linguae dialectis eruderandis et excolendis laborat, ad 
         eximium florem deducenda speretur; ut ejus ubertas, elegantia et 
@@ -201,7 +190,7 @@
         
             <p n="p5">Desidero summopere ut prout alii in Theologicis, alii in Juridicis, alii in reliquis objectis varias expressiones adnotant; ita, cum 
         caeteris dominis animarum Curatoribus, Titulata Dominatio eo etiam 
-        subin suum studium convertat: et imo apta, propria, et rei exprimendae <sic n="sic1">accomodata</sic> Croatica aut Slavonica vocabula, quibus aut 
+        subin suum studium convertat: et imo apta, propria, et rei exprimendae <sic n="sic">accomodata</sic> Croatica aut Slavonica vocabula, quibus aut 
         ipse utitur, aut quae in consuetudine quotidiana apud plebem versari 
         observat; nitidiores quoque voces apud populum in objectis et negotiis 
         ruralibus vigentes; nec non substantivis adjectiva, verbis adverbia 
@@ -221,9 +210,9 @@
         congruum usum converti, et quae ruri vagantur, in unum manipulum 
         comportata publicae utilitati in lucem subseque dari possint.</p> 
         
-            <closer n="closer1">
-               <dateline n="dateline1">Datum Zagrabiae die 26ta Junii 1813.</dateline> 
-               <signed n="signed1">Maximilianus Verhovac, <abbr n="abbr1">m. p.</abbr> 
+            <closer n="closer">
+               <dateline n="dateline">Datum Zagrabiae die 26ta Junii 1813.</dateline> 
+               <signed n="signed">Maximilianus Verhovac, <abbr n="abbr">m. p.</abbr> 
         Episcopus Zagrabiensis.</signed>
             </closer> 
         

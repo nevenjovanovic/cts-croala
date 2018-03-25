@@ -79,20 +79,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -171,13 +160,13 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot01.croala1408228.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" xml:id="sob1453a" type="prosa-epistula">
-                <head n="head1">
-               <date n="date1" when="1453-05-20">1453-05-20</date>, Tragurio</head>
-                <milestone n="milestone1" unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA151"/>
-                <opener n="opener1">Johannes Sobote Clarissimo P. M. S. P. D.</opener>
-                <p n="p1">Ex Alobrogibus domum salvum te venisse magna laetitia affectus sum. Novi
+        <body xml:lang="lat">
+            <div xml:id="sob1453a" type="prosa-epistula">
+                <head n="head">
+               <date n="date" when="1453-05-20">1453-05-20</date>, Tragurio</head>
+                <milestone unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA151"/>
+                <opener n="opener">Johannes Sobote Clarissimo P. M. S. P. D.</opener>
+                <p n="p">Ex Alobrogibus domum salvum te venisse magna laetitia affectus sum. Novi
                     excellens ingenium tuum et magnarum rerum cupidissimum; si quod priscarum
                     illustrium litterarum vel vetustatis insigne vestigium nactus es, rogo facito me
                     participem, ut extent tuae perpetuae in me benevolentiae signum et monimenta
@@ -187,10 +176,10 @@
                     sinito. Patricio Karolo Mauroceno meis verbis dicito: collectis viribus omnibus
                     dabo operam, ut pecunia sua quam celerrime exigatur; magnitudine aegritudinis
                     meae factum est, ut haec exactio in hunc usque diem differatur.</p>
-                <closer n="closer1">
-                    <salute n="salute1">Vale et M. An. meis verbis salutem dicito.</salute>
-                    <dateline n="dateline1">Ex <placeName n="placeName1">Tragurio</placeName>
-                        <date n="date1" when="1453-05-20">Kal. XIII Junii 1453.</date>
+                <closer n="closer">
+                    <salute n="salute">Vale et M. An. meis verbis salutem dicito.</salute>
+                    <dateline n="dateline">Ex <placeName n="placeName">Tragurio</placeName>
+                        <date n="date" when="1453-05-20">Kal. XIII Junii 1453.</date>
                </dateline>
                 </closer>
             </div>

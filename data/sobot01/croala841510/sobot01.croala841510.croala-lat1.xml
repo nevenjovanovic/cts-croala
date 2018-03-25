@@ -79,20 +79,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -171,11 +160,11 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:sobot01.croala841510.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula">
-                <head n="head1">
-               <date n="date1" when="1454-08-14">1454-08-14</date>, Tragurio</head>
-                <opener n="opener1">Johannes Sobote clarissimo Patricio P. M. S. P. D.</opener>
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">
+               <date n="date" when="1454-08-14">1454-08-14</date>, Tragurio</head>
+                <opener n="opener">Johannes Sobote clarissimo Patricio P. M. S. P. D.</opener>
                 <p n="p1">Perpetuis occupationibus factum est, quod hisce diebus nihil ad te scripserim,
                     praecipue gravi aegritudine uxoris, de cujus salute medici desperaverant, dei
                     beneficio ab inferis revocata est. Nobis nunciatum est, honestissimum virum
@@ -193,16 +182,16 @@
                     munitis, posito valido presidio ad Panones profectus est, ut suis fortunis
                     consulat. Pro viribus ortatur ad extinguendum hoc commune incendium. Si Servia
                     potietur, actum est de imperio Panonum; vel inviti imperata hostis facient. Si
-                    quid preterea <corr n="corr1" resp="NJ">dignum</corr> relatu intellexero, e vestigio te
+                    quid preterea <corr n="corr" resp="NJ">dignum</corr> relatu intellexero, e vestigio te
                     certiorem faciam.</p>
 
                 <p n="p3">Uxor mea, cum hac aegritudine vehementer affligeretur, votum fecit, si vita
                     longior dei clementia producetur, templum divi Antonii Padue visere. Vel hac
                     necessitate coactus, te coeterosque, quos absentes colo et observo, videbo.</p>
-                <closer n="closer1">
-                    <salute n="salute1">Vale.</salute>
-                    <dateline n="dateline1">Ex <placeName n="placeName1">Tragurio</placeName>
-                        <date n="date1" when="1454-08-14">die 14 Augusti 1454.</date>
+                <closer n="closer">
+                    <salute n="salute">Vale.</salute>
+                    <dateline n="dateline">Ex <placeName n="placeName">Tragurio</placeName>
+                        <date n="date" when="1454-08-14">die 14 Augusti 1454.</date>
                </dateline>
                 </closer>
             </div>

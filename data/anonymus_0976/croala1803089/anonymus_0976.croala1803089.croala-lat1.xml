@@ -45,20 +45,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -107,8 +96,8 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_0976.croala1803089.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-inscriptio">
+        <body xml:lang="lat">
+         <div type="prosa-inscriptio">
     
             <p n="p1">
                <supplied n="supplied1">in hoc</supplied> 
@@ -116,10 +105,10 @@
                <supplied n="supplied3">QuiESCIT</supplied> HELENA <supplied n="supplied4">FAMOsa quae fui</supplied> UXOR MICHAELI REGI <expan n="expan1">MATERQue</expan> STEFANI <expan n="expan2">Regis pacemque obtENUIT</expan> REGNI. VIII IDUS <expan n="expan3">Mensis OCTobris</expan> 
                <supplied n="supplied5">in pacE</supplied> HIC <supplied n="supplied6">ORdinata</supplied> FUIT <supplied n="supplied7">ANno</supplied> AB <supplied n="supplied8">INCARNAtione Domini</supplied> DCCCCLXXVI <abbr n="abbr1">IND.</abbr> IV <supplied n="supplied9">CICLo</supplied> 
                <supplied n="supplied10">
-                  <abbr n="abbr1">Lun.</abbr>
+                  <abbr n="abbr">Lun.</abbr>
                </supplied> V. <supplied n="supplied11">
-                  <abbr n="abbr1">ep.</abbr>
-               </supplied> XVII <supplied n="supplied12">ciclo <abbr n="abbr1">sol.</abbr>
+                  <abbr n="abbr">ep.</abbr>
+               </supplied> XVII <supplied n="supplied12">ciclo <abbr n="abbr">sol.</abbr>
                </supplied> V <abbr n="abbr2">LUN.</abbr> V. <supplied n="supplied13">concURRENTE</supplied> VI. <expan n="expan4">ISTAQue</expan> VIVENS <supplied n="supplied14">FUit REGNi</supplied> MATER FUIT <supplied n="supplied15">PUPILORum TUTOrque VIDUARum</supplied> 
             </p>
             <p n="p2">ICQUE ASPICIENS VIR ANIME DIC MISERERE DEUS.</p>

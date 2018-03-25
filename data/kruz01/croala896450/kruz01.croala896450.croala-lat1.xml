@@ -54,17 +54,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -142,20 +134,20 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:kruz01.croala896450.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <head n="head1">XII/4 <date n="date1" when="1526-01-30">1526. 30. Januarii</date>, Segniae Petrus Crusich capitaneus Segniae Clementi
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">XII/4 <date n="date" when="1526-01-30">1526. 30. Januarii</date>, Segniae Petrus Crusich capitaneus Segniae Clementi
                     papae VII.</head>
 
 
-                <note n="note1" resp="BJ">Segr. Stato, Principi, 1, f. 83. Sigillo annulari papyro
+                <note n="note" resp="BJ">Segr. Stato, Principi, 1, f. 83. Sigillo annulari papyro
                     tecto.</note>
 
-                <opener n="opener1">
-               <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Beatissimo
+                <opener n="opener">
+               <note n="note" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Beatissimo
                     et Sanctissimo domino nostro pape Post beatorum oscula pedum. Beatissime
                     pater!</opener>
-                <p n="p1">Mitto hunc <persName n="persName1">Simonem</persName> presbyterum, latorem scilicet presentium, capellanum meum ad
+                <p n="p">Mitto hunc <persName n="persName">Simonem</persName> presbyterum, latorem scilicet presentium, capellanum meum ad
                     Vestre Sanctitatis pedes, qui paulo ante apud eandem fuit, quem Vestre
                     Sanctitati commendo. Hunc siquidem alias serenissimus <placeName n="placeName1">Hungarie</placeName> rex, dominus
                     noster gratiosus pro quadam abbatia Sancti Georgii commendat, satis enim
@@ -163,9 +155,9 @@
                     castri <placeName n="placeName2">Clissÿ</placeName> obsidione magnas sustinuit tribulationes. Certe propter merita sua
                     est praemiandus, immo eundem Vestre Sanctitati commendo, et rogo, quatenus –
                     quam citius Vestra Sanctitas poterit – eundem expedire dignetur.</p>
-                <closer n="closer1">Ex <placeName n="placeName1">Segnia</placeName> 
-               <date n="date1" when="1526-01-30">penultima Januariii 1526.</date> Eiusdem Vestre Sanctitatis servitor
-                    <persName n="persName1">Petrus Crosith</persName> capitaneus <placeName n="placeName2">Segnie</placeName>, comes <placeName n="placeName3">Clissÿ</placeName>
+                <closer n="closer">Ex <placeName n="placeName1">Segnia</placeName> 
+               <date n="date" when="1526-01-30">penultima Januariii 1526.</date> Eiusdem Vestre Sanctitatis servitor
+                    <persName n="persName">Petrus Crosith</persName> capitaneus <placeName n="placeName2">Segnie</placeName>, comes <placeName n="placeName3">Clissÿ</placeName>
             </closer>
 
             </div>

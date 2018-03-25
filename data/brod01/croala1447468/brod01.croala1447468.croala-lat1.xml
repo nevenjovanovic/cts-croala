@@ -53,17 +53,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -132,41 +124,41 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:brod01.croala1447468.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <head n="head1">XIV/10 <date n="date1" when="1526-10-04">1526. 4. Octobris</date>, Posonii Stephanus Brodericus cancellarius Clementi
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">XIV/10 <date n="date" when="1526-10-04">1526. 4. Octobris</date>, Posonii Stephanus Brodericus cancellarius Clementi
                     papae VII.</head>
 
 
-                <note n="note1" resp="BJ">Segr. Stato, Principi, 4, f. 142r. Editio: KUJÁNI 1908, n. IV, p.
+                <note n="note" resp="BJ">Segr. Stato, Principi, 4, f. 142r. Editio: KUJÁNI 1908, n. IV, p.
                     263. Translatio hung.: V. KOVÁCS 1971, n. 269, p. 563–564.</note>
 
 
-                <opener n="opener1">
-               <note n="note1" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
+                <opener n="opener">
+               <note n="note" resp="BJ">[Inscriptio in extera parte litterarum:]</note> Sanctissimo
                     domino nostro, summo pontifici, domino meo clementissimo Sanctissime Pater,
                     Domine, Domine Clementissime! Servitutis commendationem post pedum Vestrae
                     Sanctitatis oscula beatorum.</opener>
-                <p n="p1">In litteris, quas mitto ad dominum Baronem, perscripsi omnia, quę hic aguntur.
+                <p n="p">In litteris, quas mitto ad dominum Baronem, perscripsi omnia, quę hic aguntur.
                     Quas ita inscripsi, ut, si dominus Baro non adesset, perlegantur nihilominus a
                     Vestra Sanctitate. De me nescio, quid dicam aliud, nisi quod per Baronem
                     suplicavi et prius sepe commendavi, semel per litteras. Nescio quo me
-                        <expan n="expan1">vertere</expan>, alio, nisi ad Vestram Sanctitatem, cui servire cupio
+                        <expan n="expan">vertere</expan>, alio, nisi ad Vestram Sanctitatem, cui servire cupio
                     imperpetuum. Alia littere ad Baronem continebunt.</p>
-                <closer n="closer1">Me et meam servitutem in gratiam eiusdem humilime commendo. Quam Deus
+                <closer n="closer">Me et meam servitutem in gratiam eiusdem humilime commendo. Quam Deus
                     conservet semper felicem et incolumem. Posonii iiii Octobris 1526</closer>
-                <postscript n="postscript1">
-                    <p n="p1">Vestra Sanctitas videt aperte non iam pericula neque damna nostra, sed
+                <postscript n="postscript">
+                    <p n="p">Vestra Sanctitas videt aperte non iam pericula neque damna nostra, sed
                         ruinam, ex nostra autem ruina ruinam tocius Christianitatis. Oro et obsecro
                         per amorem Dei omnipotentis, faciat pacem in Christianitate. Summantur arma
                         contra hostem in futurum ver omnino omnino. Nisi hoc fiat, nos sine ullo
                         dubio iam peribimus funditus. Sed certe neque alii Christiani
                         permanebunt.</p>
                 </postscript>
-                <signed n="signed1">Vestre Sanctitatis humilimus servitor et capellanus Stephanus Brodericus
+                <signed n="signed">Vestre Sanctitatis humilimus servitor et capellanus Stephanus Brodericus
                     infelix infelicis regis et regni cancellarius</signed>
 
-                <milestone n="milestone1" unit="page"/>
+                <milestone unit="page"/>
             </div>
         </body>
     </text>

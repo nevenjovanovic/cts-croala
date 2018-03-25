@@ -40,17 +40,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -99,25 +91,25 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:crije02.croala589191.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <milestone unit="page" n="milestone1"/>
-         <pb n="pb1"/>
-         <div n="div1" type="poesis-epigramma" met="elegiacum">
-            <head n="head1">
-               <add n="add1">XXXV</add> Aelius Lampridius Cervinus Paulo Palladino suo</head>
+      <body xml:lang="lat">
+         <milestone unit="page"/>
+         <pb/>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head n="head">
+               <add n="add">XXXV</add> Aelius Lampridius Cervinus Paulo Palladino suo</head>
             <l n="l1"> Ignigenae<ref n="ref1">2</ref> seu te Bachi furor entheus<ref n="ref2">3</ref> urget</l>
-            <l n="l2" met="pentameter"> Concitat aut sensus aenuchia<ref n="ref1">4</ref> flamma tuos,</l>
+            <l n="l2" met="pentameter"> Concitat aut sensus aenuchia<ref n="ref">4</ref> flamma tuos,</l>
             <l n="l3"> Seu te Pieriis reptantem, Paule, sub antris</l>
-            <l n="l4" met="pentameter"> Nutriit Aonii<ref n="ref1">5</ref> docta puella gregis,</l>
+            <l n="l4" met="pentameter"> Nutriit Aonii<ref n="ref">5</ref> docta puella gregis,</l>
             <l n="l5"> Seu tibi Castalias<ref n="ref1">6</ref> largitur Cynthius<ref n="ref2">7</ref> artes,</l>
             <l n="l6" met="pentameter"> Temperat et docto plectra Magisterio,</l>
             <l n="l7"> Eya age, nec tanta desistas indole foelix</l>
             <l n="l8" met="pentameter"> Musarum et solitas ingrediare uias.</l>
-            <l n="l9"> Phoebo redde Linon<ref n="ref1">8</ref>, lacrymosaque fata rependas </l>
-            <l n="l10" met="pentameter"> Orphea<ref n="ref1">9</ref> Calyopen <corr n="corr1">dedidicisse</corr>
+            <l n="l9"> Phoebo redde Linon<ref n="ref">8</ref>, lacrymosaque fata rependas </l>
+            <l n="l10" met="pentameter"> Orphea<ref n="ref1">9</ref> Calyopen <corr n="corr">dedidicisse</corr>
                <ref n="ref2">10</ref> face<ref n="ref3">11</ref>.</l>
-            <closer n="closer1">
-               <foreign n="foreign1" xml:lang="grc">ΤΕΛΟΣ</foreign>
+            <closer n="closer">
+               <foreign n="foreign" xml:lang="grc">ΤΕΛΟΣ</foreign>
             </closer>
          </div>
                </body>

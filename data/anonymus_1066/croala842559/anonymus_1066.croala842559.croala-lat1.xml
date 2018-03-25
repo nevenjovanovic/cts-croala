@@ -88,17 +88,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -147,9 +139,9 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_1066.croala842559.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-diploma">
-            <head n="head1">I.</head>
+        <body xml:lang="lat">
+         <div type="prosa-diploma">
+            <head n="head">I.</head>
     
     
     
@@ -159,7 +151,7 @@
                  Ego Cicca, filia Doimi et Vekenege, neptis Madii prioris, uxor Andree, filii Pape, post interfectionem mariti cum duabus remanens filiabus in viduitate, videlicet Domnanna et Vekenega, cepi corde perpendere, qualiter istius caduce vite non perderem hereditatem, et futuram non ammitterem perpetuitatem; sicque michi salubrius estimans consilium, ut ego cum maiori filia, scilicet Domnanna, deo dicarer monacha, minorem vero Vekenegam maritali subderem iugo. 
              </p>
              <p n="p3">    
-                 Huius vero consilii fratrem germanum et consanguineos, quos habebam, propinquos feci michi conscios, Stephanum episcopum et Drago priorem et Crinam, tocius mei actus cooperatores ac prouidos ordinatores, et que dictanda sunt adiutores. At postquam eis utilis est visa mea tractatio, ipsi communi cum conciuibus habito consilio ac Petrum sanctissimum abbatem sancti Chrisogoni, cum omnibus monachis huic innectentes meditationi, donauerunt michi ecclesiolam sancte Marie minoris ante portam Bellate; ut ibi monasterium <gap n="gap1" reason="lacuna"/> 
+                 Huius vero consilii fratrem germanum et consanguineos, quos habebam, propinquos feci michi conscios, Stephanum episcopum et Drago priorem et Crinam, tocius mei actus cooperatores ac prouidos ordinatores, et que dictanda sunt adiutores. At postquam eis utilis est visa mea tractatio, ipsi communi cum conciuibus habito consilio ac Petrum sanctissimum abbatem sancti Chrisogoni, cum omnibus monachis huic innectentes meditationi, donauerunt michi ecclesiolam sancte Marie minoris ante portam Bellate; ut ibi monasterium <gap reason="lacuna"/> 
              </p>
              
             </div>

@@ -39,20 +39,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -98,43 +87,43 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_1015.croala699780.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="poesis-inscriptio-epitaphium" met="hexameter">
+        <body xml:lang="lat">
+            <div type="poesis-inscriptio-epitaphium" met="hexameter">
                 
                <l n="l1"> 
                <add n="add1">Crv</add>X VENERAND<add n="add2">a poli</add>
-               <lb n="lb1"/>
-                   <add n="add3">ren</add>ATOS MVNIAT <add n="add4">alm</add>OS<lb n="lb2"/>
+               <lb/>
+                   <add n="add3">ren</add>ATOS MVNIAT <add n="add4">alm</add>OS<lb/>
             </l>
                 <l n="l2">AVSTRALI DE PART<add n="add1">e mina</add>N<add n="add2">s</add>
-               <lb n="lb1"/>
+               <lb/>
                     VT SIDVS AB A<add n="add3">ltis</add>
             </l> 
             <l n="l3">
-               <add n="add1">coel</add>IS<lb n="lb1"/>
+               <add n="add1">coel</add>IS<lb/>
                 LV<add n="add2">ceb</add>IT C<expan n="expan1">er</expan>T<expan n="expan2">vs</expan> SVPER <add n="add3">omnia</add> 
                 <expan n="expan3">CHRistvS</expan>
-               <lb n="lb2"/>
+               <lb/>
             </l> 
-            <l n="l4">EOI CRVX ALMA D<expan n="expan1">e</expan>I TVEATVR<lb n="lb1"/>
-                    AB <sic n="sic1">OSTE</sic>
+            <l n="l4">EOI CRVX ALMA D<expan n="expan">e</expan>I TVEATVR<lb/>
+                    AB <sic n="sic">OSTE</sic>
             </l> 
-            <l n="l5">INTRANTES <sic n="sic1">CVNTOS<lb n="lb1"/>QVE</sic> PIOS CONCORDIA NEC <add n="add1">tv<expan n="expan1">m</expan>
+            <l n="l5">INTRANTES <sic n="sic">CVNTOS<lb n="lb"/>QVE</sic> PIOS CONCORDIA NEC <add n="add">tv<expan n="expan">m</expan>
                </add>
-               <lb n="lb1"/>
+               <lb/>
             </l>
-                <l n="l6">VIR APOSTATA <sic n="sic1">SEDEN</sic> SIMVLA<add n="add1">bat</add>
-               <lb n="lb1"/>
+                <l n="l6">VIR APOSTATA <sic n="sic1">SEDEN</sic> SIMVLA<add n="add">bat</add>
+               <lb/>
                     <sic n="sic2">ABERE</sic>
             </l> 
             <l n="l7">
-               <expan n="expan1">CHRistvS</expan> IN ARCE POLI REGIA<lb n="lb1"/>
-                        MOX <sic n="sic1">EXPVLLIT</sic> ILLVD</l> 
+               <expan n="expan">CHRistvS</expan> IN ARCE POLI REGIA<lb/>
+                        MOX <sic n="sic">EXPVLLIT</sic> ILLVD</l> 
             <l n="l8">
                <sic n="sic1">DOMNO</sic>
-               <lb n="lb1"/>
-                            PAVLVS <sic n="sic2">PRESVLVS</sic> OFERT<lb n="lb2"/>
-                            <sic n="sic3">VEXILLV</sic> ISTV<expan n="expan1">m</expan>.<lb n="lb3"/>
+               <lb/>
+                            PAVLVS <sic n="sic2">PRESVLVS</sic> OFERT<lb/>
+                            <sic n="sic3">VEXILLV</sic> ISTV<expan n="expan">m</expan>.<lb/>
             </l>
             </div>
         </body>

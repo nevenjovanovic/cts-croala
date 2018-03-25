@@ -41,22 +41,10 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1']/*[@n='$2'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -121,40 +109,40 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:and02.croala507426.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <milestone n="milestone1" unit="page"/>
-         <div n="div1" type="prosa">
-            <head n="head1">Oratio de laudibus eloquentiae</head>
-            <byline n="byline1">
-               <docAuthor n="docAuthor1">auctore Tranquillo Parthenio Andronico Dalmata.</docAuthor> in Gymnasio
+      <body xml:lang="lat">
+         <milestone unit="page"/>
+         <div type="prosa">
+            <head n="head">Oratio de laudibus eloquentiae</head>
+            <byline n="byline">
+               <docAuthor n="docAuthor">auctore Tranquillo Parthenio Andronico Dalmata.</docAuthor> in Gymnasio
           Lipsensi pronuntiata.</byline>
-            <dateline n="dateline1">Lipsiae, ex officina Melchioris Lottheri, </dateline>
-            <docDate n="docDate1" when="1518">Anno M. quingentesimo decimooctavo.</docDate>
-            <milestone n="milestone1" unit="page"/>
+            <dateline n="dateline">Lipsiae, ex officina Melchioris Lottheri, </dateline>
+            <docDate n="docDate" when="1518">Anno M. quingentesimo decimooctavo.</docDate>
+            <milestone unit="page"/>
             <div n="div1" type="prosa-epistula">
-               <opener n="opener1">
-                  <salute n="salute1">TRANQVILLVS PARTHENIVS. M. VITO VVERLERO uiro doctissimo et integerrimo. S.
+               <opener n="opener">
+                  <salute n="salute">TRANQVILLVS PARTHENIVS. M. VITO VVERLERO uiro doctissimo et integerrimo. S.
             D.</salute>
                </opener>
 
-               <p n="p1">Quid sentiam de Lipsensi Gymnasio, a quo summa beneuolentia, singularique honore tuis
+               <p n="p">Quid sentiam de Lipsensi Gymnasio, a quo summa beneuolentia, singularique honore tuis
             inprimis attestationibus exceptus sum, in Oratione, quam nudiustertius habui de laudibus
             eloquentiae, breuiter significaui, diffusius oportuniore loco meam mentem declaraturus.
             Quam quidem Orationem (tametsi doctas aures reformidat, quod obstrepentibus hinc inde
             rusticis exarata est) ad te mitto: quo nugas meas legendo, quibus olim delectabare,
             nostri memoriam revoces. </p>
-               <closer n="closer1">
-                  <salute n="salute1">Vale.</salute>
-                  <dateline n="dateline1">Ex Lipsia. <date n="date1" calendar="Romanum" when="1518-08-24">VIII. Calen.
+               <closer n="closer">
+                  <salute n="salute">Vale.</salute>
+                  <dateline n="dateline">Ex Lipsia. <date n="date" calendar="Romanum" when="1518-08-24">VIII. Calen.
                 Septembreis.</date>
                   </dateline>
                </closer>
-               <milestone n="milestone1" unit="page"/>
+               <milestone unit="page"/>
             </div>
             <div n="div2" type="prosa-oratio">
-               <head n="head1">Oratio Tranquilli Parthenii Andronici Dalmatae, de laudibus eloquentiae, in Gymnasio
+               <head n="head">Oratio Tranquilli Parthenii Andronici Dalmatae, de laudibus eloquentiae, in Gymnasio
             Lipsensi habita. </head>
-               <p n="p1">
+               <p n="p">
                   <note n="note1" place="margin-right" type="titulus"> Exordium.</note> Equidem non dubito uiri
             ornatissimi, quin <sic n="sic1">plaerique</sic> hoc meum susceptum negotium sint accusaturi:
             praesertim dum consyderant meam adhuc immaturam aetatem paucis ingenii ac eruditionis
@@ -182,7 +170,7 @@
             huiusmodi sunt artes et disciplinae liberales: nam ut ipsae habentur incorruptae ac
               <sic n="sic2">aethernae</sic>, ita earum optimi ac suauissimi fructus <note n="note11" place="margin-right" type="titulus"> Fructus artium liberalium.</note> hanc nostram
             uitam ab interitu afferentes, foelicissime ad posteros nulla unquam interueniente
-            obliuione deducunt, atque immortalitate donant. <milestone n="milestone1" unit="page"/> Itaque tanta
+            obliuione deducunt, atque immortalitate donant. <milestone unit="page"/> Itaque tanta
             fama etiam ipse permotus (licet essent peragrandae mihi aliae ciuitates Germaniae) huc
             diuerti, cupidus ea uidendi quae aliquando auribus conceperam, qualia uix olim
             florentissima Italiae gymnasia, Patauinum, Bononiensem, Senensem, Perusinum, atque
@@ -211,7 +199,7 @@
             his superioribus temporibus uehementissimis et atrocissimis fluctibus iactatus fuerim,
             in quibus et temporum et rerum asperitatibus atque angustiis ita mihi animus concussus
             ac perturbatus est, ut ad eas artes, quibus a teneris (ut aiunt) unguiculis deditus fui,
-            plena facultas otii non relinquatur. Magnam tamen <milestone n="milestone2" unit="page"/> habeo
+            plena facultas otii non relinquatur. Magnam tamen <milestone unit="page"/> habeo
             fiduciam in uestra humanitate, sperans me facile ueniam a uobis impetraturum, etiam si
             huic amplissimo loco <note n="note16" place="margin-right" type="titulus">Propositio loco
               narrationis.</note> uestrisque doctissimis auribus non satisfecero: praesertim quum
@@ -244,7 +232,7 @@
             mortalibus esse: <note n="note28" place="margin-right" type="titulus"> Confutatio.</note>
             excellentissimas quidem disciplinas, quid utilitatis non esse allaturas credendum est?
             Num negabitur eloquentiam esse artem? <note n="note29" place="margin-right" type="titulus">
-              Eloquentia ars.</note> Atqui ridiculum est hoc etiam cogitare: siquidem <milestone n="milestone3" unit="page"/> teste Cicerone, nulla uel rerum minimarum sine arte sit. Profecto nec in
+              Eloquentia ars.</note> Atqui ridiculum est hoc etiam cogitare: siquidem <milestone unit="page"/> teste Cicerone, nulla uel rerum minimarum sine arte sit. Profecto nec in
             dandis praeceptis tantum summi viri laborauissent, nisi putarent nos ad optatum finem
             perducere: nec ut ea nos consequeremur, magnam partem aetatis <sic n="sic5">consumeremus</sic>,
             nisi nobis constaret, tantorum laborum iucundissimos exitus fore. Proinde nemo sciret
@@ -269,13 +257,13 @@
             plaerosque uideamus, qui nunquam alicui disciplinae addicti fuerunt, et sententiam
             dicere in senatu, et legationibus fungi: in quibus modo pax deprecanda est,
               <sic n="sic6">nonunquam</sic> bellum indicendum: interdum res repetuntur: refelluntur obiecta,
-            et multa alia <add n="add1" resp="NJ">quae</add> solo usu et natura duce tractari conuenit.
+            et multa alia <add n="add" resp="NJ">quae</add> solo usu et natura duce tractari conuenit.
             Equidem non nego multos hodie imperitos, <note n="note38" place="margin-left" type="titulus"> Multi
               hodie imperiti legationibus funguntur.</note> apud sui similes disserere, atque ad
             alias nationes ad res tractandas destinari, non tamen absque sui ludibrio, et risu
             audientium. Priscis quoque temporibus, nondum cognitis huius artis principiis, et
             respublicae fuerant, et componendorum bellorum, et conflandarum amicitiarum, et demum
-            rerum omnium agendarum <milestone n="milestone4" unit="page"/> aliquam rationem extitisse, nemo est qui
+            rerum omnium agendarum <milestone unit="page"/> aliquam rationem extitisse, nemo est qui
             nesciat. Sed postquam a Tisia, <note n="note39" place="margin-right" type="nomen"> Tisias</note>
             Corace, <note n="note40" place="margin-right" type="nomen"> Corax</note> et Gorgia <note n="note41" place="margin-right" type="nomen"> Gorgias</note> Siculis illis primis (ut dicitur)
             huius artis inuentoribus coepit eloquentia doceri, omnes homines in sui admirationem
@@ -308,7 +296,7 @@
             Quanta temporum ingeniorumque facta est commutatio? Iam alii mores successerunt: utinam
             non perditi ac detestabiles. Esset sane tolerabilius, si a multis bonae artes non
             attingerentur, quo inertia et luxu marcescerent, quam quod insectantur eloquentiae
-            studiosos, quibus summus honor habendus esset, <milestone n="milestone5" unit="page"/> nisi ratio
+            studiosos, quibus summus honor habendus esset, <milestone unit="page"/> nisi ratio
             pessundaretur. Atque ii potissimum lacerant eloquentiam, quibus deberet esse propria.
             Quorsum autem illud bonum <note n="note59" place="margin-left" type="titulus"> bonum debet in
               multos diffundi.</note> quaeritur, quod intra suos fines compressum, nulla ipsius
@@ -339,7 +327,7 @@
               materiam eloquentiae subiectam esse.</note> Quin immo si quis diligenter consyderet,
             eam ex omnibus artibus constare fatebitur. Quippe officium eloquentiae <note n="note64" place="margin-left" type="titulus"> Officium eloquentiae.</note> non est dumtaxat ad
             unam rem determinatum, quum ad eruendam ueritatem utatur omnibus disciplinis tamquam
-            ancillis. Non solum enim oratori dicendum est <milestone n="milestone6" unit="page"/> in laudem uel
+            ancillis. Non solum enim oratori dicendum est <milestone unit="page"/> in laudem uel
             uituperium alicuius, non solum in forensibus disceptandum causis, ac suadendum et
             dissuadendum de commodis et incommodis, ubi habetur amplissima materia: sed occurrunt
             aliquando quaestiones de agrorum dimensionibus, tractantur tempestatuum qualitates,
@@ -361,7 +349,7 @@
             deorum. In similibus studiis excelluere Lactantius, <note n="note75" place="margin-right" type="nomen"> Lactantius.</note> Tertulianus, <note n="note76" place="margin-right" type="nomen">
               Tertulianus.</note>
                   <sic n="sic9">Ambroxius</sic>, <note n="note77" place="margin-right" type="nomen">
-                     <sic n="sic1">Ambroxius</sic>.</note> Hieronymus, <note n="note78" place="margin-right" type="nomen">
+                     <sic n="sic">Ambroxius</sic>.</note> Hieronymus, <note n="note78" place="margin-right" type="nomen">
               Hieronymus.</note> Boetius, <note n="note79" place="margin-right" type="nomen"> Boetius.</note>
             et quam plurimi praestantissimi auctores: quos anteponendos esse his recentioribus,
               <note n="note80" place="margin-right" type="titulus"> Recentiores scriptores ineloquentes.</note>
@@ -378,7 +366,7 @@
             accesserit, tunc ueri oratoris partes impleturam esse Catonis sententia conprobatur.
               <note n="note85" place="margin-right" type="titulus"> Orator ex sententia Catonis.</note> Nam et
             Plato <note n="note86" place="margin-right" type="nomen"> Plato.</note>
-                  <milestone n="milestone7" unit="page"/> euidentissimis in Phaedro <note n="note87" place="margin-left" type="nomen"> Phaedrus.</note> rationibus ostendit, hanc artem <sic n="sic10">consumari</sic>
+                  <milestone unit="page"/> euidentissimis in Phaedro <note n="note87" place="margin-left" type="nomen"> Phaedrus.</note> rationibus ostendit, hanc artem <sic n="sic10">consumari</sic>
             citra <sic n="sic11">iusticiae</sic> scientiam non posse: ubi Lysiam <note n="note88" place="margin-left" type="nomen"> Lysias.</note> oratorem exagitat, quod neglecta ueritate ipsiusque
               <sic n="sic12">iusticiae</sic> partibus, uulgi tum auram captando sectaretur lenocinia quaedam
             et blandimenta uoluptatum: Periclem <note n="note89" place="margin-left" type="nomen">
@@ -409,7 +397,7 @@
             subiectae materiae et compositio, et actio correspondeant. Quis igitur tantum a rationis
             semita deuiauit? Quis tanta erroris caligine demersus est? Quis tam inops consilii et
               <sic n="sic13">iuditii</sic> habetur, ut putet eloquentiam nomine uirtutis priuandam esse? Cuius
-            si initia cum incrementis perpendantur, facile apparebit, eam non <milestone n="milestone8" unit="page"/> solum esse artem: sed, ut Cicero testatur, ex quinque maximarum artium concursu <note n="note96" place="margin-left" type="titulus">Eloquentia quinque maximas artes complexa.</note>
+            si initia cum incrementis perpendantur, facile apparebit, eam non <milestone unit="page"/> solum esse artem: sed, ut Cicero testatur, ex quinque maximarum artium concursu <note n="note96" place="margin-left" type="titulus">Eloquentia quinque maximas artes complexa.</note>
             unam effici praestantissimam, non alicui certae materiae astrictam, sed quae rerum
             omnium habeat imperium, domineturque disciplinis omnibus, atque ex amplissimis
             uirtutibus (ueluti Stoicorum <note n="note97" place="margin-right" type="nomen"> Stoici.</note>
@@ -442,7 +430,7 @@
             Vlyssis <note n="note110" place="margin-right" type="nomen"> Vlysses.</note> facundia? Quid aliud
             plebem Romanam, quando in sacrum montem secesserat, patribus conciliauit, quam efficax
             Menenii Agrippae <note n="note111" place="margin-right" type="nomen"> Menenius Agrippa.</note>
-            oratio? Neque turpissimae perniciosissimaeque seruituti populus Romanus <milestone n="milestone9" unit="page"/> renunciauisset, nisi ad expellendos ab urbe Tarquinios, <note n="note112" place="margin-left" type="nomen"> Tarquinii.</note> oratione Bruti <note n="note113" place="margin-left" type="nomen"> Brutus.</note> concitatus fuisset. Neque secundi
+            oratio? Neque turpissimae perniciosissimaeque seruituti populus Romanus <milestone unit="page"/> renunciauisset, nisi ad expellendos ab urbe Tarquinios, <note n="note112" place="margin-left" type="nomen"> Tarquinii.</note> oratione Bruti <note n="note113" place="margin-left" type="nomen"> Brutus.</note> concitatus fuisset. Neque secundi
             belli punici finis haberetur, nisi Scipio <note n="note114" place="margin-left" type="nomen">
               Scipio.</note> senatui persuasisset oratione, exercitum esse traiiciendum in
               <sic n="sic14">Aphricam</sic>. Num negabitur Hegesiam <note n="note115" place="margin-left" type="nomen">
@@ -479,7 +467,7 @@
             sola dulcedine gloriae stimulante, susceptis omnibus laboribus et periculis, neque
             pollicitationibus Darii regis <note n="note136" place="margin-left" type="nomen"> Darius Rex.</note>
             acquiescendo, neque succumbendo fortitudini bellicosissimi Pori Regis, <note n="note137" place="margin-left" type="nomen"> Porus Rex.</note> littora Indici ac orientalis
-            Oceani immortalitate suam uirtutem subsequente, uictor peragrauit. <milestone n="milestone10" unit="page"/> Non defuerant domi Iulio Caesari <note n="note138" place="margin-right" type="nomen"> Iulius Caesar.</note> summi honores et magistratus: at ipse quidem inuicto animo
+            Oceani immortalitate suam uirtutem subsequente, uictor peragrauit. <milestone unit="page"/> Non defuerant domi Iulio Caesari <note n="note138" place="margin-right" type="nomen"> Iulius Caesar.</note> summi honores et magistratus: at ipse quidem inuicto animo
             decennium in debellandis Galliis <note n="note139" place="margin-right" type="titulus"> Galliae a
               Caesare domitae.</note> consumpsit, ac tunc ignotam populo Romano Britanniam insulam
               <note n="note140" place="margin-right" type="nomen"> Britannia insula.</note> aduersus rabiem
@@ -511,7 +499,7 @@
             Itaque meritas poenas luit M. Crassus, <note n="note162" place="margin-right" type="nomen"> M.
               Crassus.</note> quum esurisset totum Parthorum <note n="note163" place="margin-right" type="nomen"> Parthi.</note> aurum. Et Polycratem <note n="note164" place="margin-right" type="nomen">
               Policrates.</note> Samiorum tyrannum eo traxit auaritia, ut ab Oronte <note n="note165" place="margin-right" type="nomen"> Orontes.</note> Persarum Praefecto cruci
-            affigeretur. Verum enimuero <milestone n="milestone11" unit="page"/> si uel ipsa initia uelimus intueri,
+            affigeretur. Verum enimuero <milestone unit="page"/> si uel ipsa initia uelimus intueri,
             nihil est homine imbecillius, <note n="note166" place="margin-left" type="titulus"> Nihil homine
               imbecillius.</note> ut eam uitae breuitatem quotidie multa intercidant. Superuacuum
             esset recensere innumera morborum genera, pestilentes locos ex uario signorum ortu et
@@ -549,7 +537,7 @@
             mortalium cupiditati: ac nisi prohiberetur glaciali Oceano, <note n="note192" place="margin-right" type="nomen"> Glacialis Oceanus.</note> loca ultra sepositam <sic n="sic22">arcton</sic>
                   <note n="note193" place="margin-right" type="nomen"> Arctos.</note> in extremis mundi partibus (si
             quae sunt) ab homine penetrarentur. Quin etiam maiori discrimine scindimus maria: ubi
-            non <milestone n="milestone12" unit="page"/> tantum Orcae <note n="note194" place="margin-right" type="nomen">
+            non <milestone unit="page"/> tantum Orcae <note n="note194" place="margin-right" type="nomen">
               Orcae.</note> et Balenae <note n="note195" place="margin-right" type="nomen"> Balenae.</note>
             immanes belluae, non modo rabies uentorum, fragor procellarum, uis turbinum, ac se
             attollentes in coelum fluctus extimescendi sunt, sed ignes quoque superandi. Quippe
@@ -557,7 +545,7 @@
             feruentem nostri homines iam esse habitabilem docuerunt: quum assuetis ad omnia mala
             corporibus alioquin intolerabiles aestus impune pertranseant. Inde circumeuntes
             monstriferam <sic n="sic23">Aphricam</sic>
-                  <note n="note196" place="margin-right" type="nomen"> Monstrifera <sic n="sic1">Aphrica</sic>.</note> nauigant
+                  <note n="note196" place="margin-right" type="nomen"> Monstrifera <sic n="sic">Aphrica</sic>.</note> nauigant
             ultra solsticium Capricorni <note n="note197" place="margin-right" type="nomen"> Solstitium
               Capricorni. </note> ad Taprobanam insulam, <note n="note198" place="margin-right" type="nomen">
               Taprobana insula.</note> olim alterum orbem existimatam. Neque his terminis
@@ -583,7 +571,7 @@
             uestibus incederet: nemo sit alienis rebus laudabilis, <note n="note208" place="margin-right" type="titulus"> Nemo alienis laudabilis.</note> et iis praesertim, quae cuique
             contemptissimo possunt euenire. Quod uero testimonium redditura sunt edificia, siquidem
             diu sibi ipsis non constent? Frustra nimirum, nec sine indignatione naturae exciduntur
-            syluae, <milestone n="milestone13" unit="page"/> ut ingemant sub peregrinis marmoribus: alias
+            syluae, <milestone unit="page"/> ut ingemant sub peregrinis marmoribus: alias
             effodiuntur montes Numidici, <note n="note209" place="margin-left" type="nomen"> Numidia.</note>
             alias Laconici, <note n="note210" place="margin-left" type="nomen"> Laconia.</note> alias Aegyptii:
               <note n="note211" place="margin-left" type="nomen"> Aegyptus.</note> nunc nauigamus
@@ -621,7 +609,7 @@
             nullius est tantum flumen ingenii, nullius tanta uis et ubertas orationis, ut hanc
             praestantissimam uirtutem, hoc inquam excellentissimum dei et naturae munus, satis
             dignis laudibus possit extollere. Quis enim tuum sacratissimum numen non admiretur
-              <milestone n="milestone14" unit="page"/> eloquentia? <note n="note237" place="margin-right" type="titulus">
+              <milestone unit="page"/> eloquentia? <note n="note237" place="margin-right" type="titulus">
               Conclusio per enumerationem.</note> Quem tuus splendor non obnubilet? Quis tua
             suauitate non obmutescat? Tu decus humani ingenii sermonem rationis interpretem excolis,
             ac ueluti in quadam laudis Orchestra collocatum, efficis omnium speciosissimum. Tu prima
@@ -654,7 +642,7 @@
               <note n="note258" place="margin-right" type="nomen"> Arabes.</note> et Garamantas. <note n="note259" place="margin-right" type="nomen"> Garamantes.</note>
                </p>
             </div>
-            <closer n="closer1">DIXI.</closer>
+            <closer n="closer">DIXI.</closer>
          </div>
       </body>
   </text>

@@ -48,20 +48,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -150,17 +139,17 @@
    </teiHeader>
 
    <text xml:base="urn:cts:croala:skrl01.croala2041283.croala-lat1:" xml:lang="lat" type="epistula">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula">
-            <head n="head1">12. <date n="date1" when="1798-10-16">Jakovlye, 16. Octobris 1798.</date>
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
+            <head n="head">12. <date n="date" when="1798-10-16">Jakovlye, 16. Octobris 1798.</date>
             </head>
 
-            <opener n="opener1">
+            <opener n="opener">
 
-               <salute n="salute1">Chare amice!</salute>
+               <salute n="salute">Chare amice!</salute>
             </opener>
             <p n="p1"> Quod<note n="note1" place="end">
-                  <bibl n="bibl1">(NAZ, EAE,vol. 115, nr. 81)</bibl>
+                  <bibl n="bibl">(NAZ, EAE,vol. 115, nr. 81)</bibl>
                </note> comes Amade coram duobus se declaraverit<note n="note2" place="foot"> 12,1 declaraverit]
      declaverit </note> se proximius futurum supremum comitem Comitatus Zagrabiensis et quod de
     praetensis comitatus huius disordinibus Budae et Pesthini declamaverit, tu ipse credes dum tibi
@@ -185,7 +174,7 @@
     publica dispositione, quas ipsis lubet, vias reparari curent. Verum si vult, convincam ego illum
     per acta publica quod hoc perinde falsum sit, sicuti et illud quod acta particularium
     congregationum in generalibus non referantur.</p>
-            <milestone unit="page" n="milestone1"/>
+            <milestone unit="page"/>
             <p n="p6"> Ego regulatum iudiciorum tam civilium quam et criminalium cursum per id sustineo quod seriem
     utriusque ordinis causarum mihi quotannis exhiberi curem et, sicubi protellationem observem,
     procedentem urgere non intermittam.</p>
@@ -208,18 +197,18 @@
     descendatur. Hoc vero una tantum vice evenit, in negotio Zamersiensi, in quo et ego et
     ordinarius vicecomes interessabar, in hoc enim tuus Petrovich et senator Spissich se mutuis
     conviciis re ipsa prosciderunt. Verum ut primum id ego intellexi, disposui continuo ut unus e
-    fiscalibus sessionibus continuo intersit et contra excedentem<note n="note1" place="foot"> 12,26
-     excedentem] <emph n="emph1">add. auctor</emph>
+    fiscalibus sessionibus continuo intersit et contra excedentem<note n="note" place="foot"> 12,26
+     excedentem] <emph n="emph">add. auctor</emph>
                </note> actionem violatae sedis continuo levet. Ab eo tempore nihil amplius eiusmodi contigit.
     Haec ad illa quae mihi speciose obiiciuntur.</p>
-            <milestone unit="page" n="milestone2"/>
+            <milestone unit="page"/>
             <p n="p10"> Superest ut de illis, quae mihi peculiariter cordi sunt, institutis aliquid dicam. Ego
     collapsam paene sub commissariatica administratione rem sericeam ita restitui ut superiora
     dicasteria eius directionem etiam per reliquos duos comitatus superiores mihi concrediderint.
     Cum hac in re nemo eas notitias habere possit, quas ego, qui hoc negotium inde a triginta annis
     continuo ferme manipulo, nisi ego directionem hanc duobus adminus annis adhuc retineam et ad
     currentem pedem reducam, vereor admodum ne institutum hoc notabile capiat detrimentum.</p>
-            <p n="p11"> Cum intra unum aliumve annum omnes,<note n="note1" place="foot"> 12,32 <emph n="emph1">post </emph> omnes
+            <p n="p11"> Cum intra unum aliumve annum omnes,<note n="note" place="foot"> 12,32 <emph n="emph1">post </emph> omnes
       <emph n="emph2">del. auctor verbum, fortasse </emph> conservatio </note> quae adhuc de novo erigi debent
     viae terminandae sint, ego praeparatoria pro elaborando tali conservationis viarum plano, per
     quod erogatio cassae domesticae notabiliter diminuatur, iam futuro vere disponere constitui. Si
@@ -241,21 +230,21 @@
     officio conserver. Ut autem id re ipsa praestes, per veteranam nostram amicitiam te etiam atque
     etiam oro.</p>
 
-            <closer n="closer1">
-               <salute n="salute1">Vale.</salute>
-               <milestone unit="page" n="milestone1"/>
-               <dateline n="dateline1">
-                  <placeName n="placeName1">Jakovlye</placeName>, <date n="date1" when="1798-10-16">16. Octobris
+            <closer n="closer">
+               <salute n="salute">Vale.</salute>
+               <milestone unit="page"/>
+               <dateline n="dateline">
+                  <placeName n="placeName">Jakovlye</placeName>, <date n="date" when="1798-10-16">16. Octobris
     1798.</date>
                </dateline>
             </closer>
-            <postscript n="postscript1">
+            <postscript n="postscript">
                <p n="p1" xml:lang="hr"> Dragi prijatel. Ja sem potlam premislil da ako me genu, gdo god mi sukceduje,
-     on ne bu hotel za pstujn slušiti kakti grof Szechéni. A da njemu <foreign n="foreign1" xml:lang="lat">ex aerario</foreign> plaču dadu kako zu
+     on ne bu hotel za pstujn slušiti kakti grof Szechéni. A da njemu <foreign n="foreign" xml:lang="lat">ex aerario</foreign> plaču dadu kako zu
      Amadaeu, to se ja nikak ne morem ufati. Zato sem mislil rajši ov koračaj včiniti. Molim te,
      preštej ovoga lista Amadaeu (zvun pričerka ki bi ga jos bolje zbantuval). More biti včini da on
      sam pričme drugač misliti.</p>
-               <p n="p2" xml:lang="hr"> Prosim te takaj, daj ga prepisati (<foreign n="foreign1" xml:lang="lat">exmisso exordio</foreign>) i z dobrum prilikum daj ga
+               <p n="p2" xml:lang="hr"> Prosim te takaj, daj ga prepisati (<foreign n="foreign" xml:lang="lat">exmisso exordio</foreign>) i z dobrum prilikum daj ga
      od Zdenca. Veruj mi da vsa ona koja veli Amade da je proti meni čul ni pri Cancellarie ni pri
      Consiliumu ne glase, ar ja imam vu jednom i drugom dicasteriumu prijatele po koje to znam. Nego
      to vse je Amade vu Zagrebu pobral pak vezda on to glasi. Pri Cancellarie i Consiliumu ne bojim

@@ -53,17 +53,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -132,18 +124,18 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:kruz01.croala1761367.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <head n="head1">XII/7 <date n="date1" when="1532-09-22">1532. 22. Septembris</date>, Clisio Petrus Crusitch castellanus Clissii
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <head n="head">XII/7 <date n="date" when="1532-09-22">1532. 22. Septembris</date>, Clisio Petrus Crusitch castellanus Clissii
                     Clementi papae VII.</head>
 
 
-                <note n="note1" resp="BJ">Segr. Stato, Principi, 7, f. 431.</note>
+                <note n="note" resp="BJ">Segr. Stato, Principi, 7, f. 431.</note>
 
-                <opener n="opener1">Sanctissime et beatissime domine, domine colendissime! Post devota pedum
-                    oscula beatorum humillimam commendationem <abbr n="abbr1">etc.</abbr>
+                <opener n="opener">Sanctissime et beatissime domine, domine colendissime! Post devota pedum
+                    oscula beatorum humillimam commendationem <abbr n="abbr">etc.</abbr>
             </opener>
-                <p n="p1">Noverit Sanctitas Vestra, quod benedictio eiusdem mihi in mei discessu tradita
+                <p n="p">Noverit Sanctitas Vestra, quod benedictio eiusdem mihi in mei discessu tradita
                     plurimum effecit, prout a pluribus intelligetis, primo ea, quę per nuntios meos
                     ad Sanctitatem Vestram hiis diebus ellapssis destinatos scripsi. Post autem
                     illorum discessum cogitabundus die noctuque, qualiter fidei Christianę ac
@@ -164,7 +156,7 @@
                     tres illorum occidimus, et reliqui fugientes in arce se clauserunt. Tunc
                     coepimus arcem expugnare et statim igne absumsimus unam <sic n="sic1">turim</sic> dicte
                     arcis et alteram circa horam terciam, tertiam vero turim circiter meridiem - et
-                    adhuc perfidi Turcę neque se reddere volebant. Tunc advenerat <milestone n="milestone1" unit="page"/> hora vesperorum, coepimus bombardis arcem impugnare et subito
+                    adhuc perfidi Turcę neque se reddere volebant. Tunc advenerat <milestone unit="page"/> hora vesperorum, coepimus bombardis arcem impugnare et subito
                     pluribus in locis tum bombardis, tum etiam ferramentis arcem ipsam apperuimus et
                     divina favente gratia intro saltavimus et ibi invenimus plusquam XXXta Turcas
                     iam mortuos et vivos circa septuaginta, quos omnes ad unum trucidavimus. Erant
@@ -188,13 +180,13 @@
                     si dominus Deus sua gratia concedet victoriam Cesareę <sic n="sic3">magestati</sic> cum
                     infidelibus Turcis, eidem non erimus tanto fastidio et importunitate nec
                     plura.</p>
-                <closer n="closer1">Sanctitati Vestre humiliter me commendo et dedico, quę feliciter usque ad
-                    annos sancti Petri bene valeat. <abbr n="abbr1">Etc.</abbr> Ex Clÿsio die vigesimo secundo Septembris,
+                <closer n="closer">Sanctitati Vestre humiliter me commendo et dedico, quę feliciter usque ad
+                    annos sancti Petri bene valeat. <abbr n="abbr">Etc.</abbr> Ex Clÿsio die vigesimo secundo Septembris,
                     anno salutis MDXXXII, Pontificatus Sanctitatis Vestre anno nono. Eiusdem
                     Sanctitatis Vestre humilis et devotus servitor Petrus Crusith castellanus Clÿssÿ
                     propria </closer>
 
-                <milestone n="milestone1" unit="page"/>
+                <milestone unit="page"/>
             </div>
         </body>
     </text>

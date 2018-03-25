@@ -40,19 +40,13 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1']/*[@n='$2'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -103,21 +97,21 @@
 
 	
 
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1">
-            <head n="head1">DE CICADIS ET UNDIS PARENTINIS</head>
+      <body xml:lang="lat">
+         <pb/>
+         <div n="div">
+            <head n="head">DE CICADIS ET UNDIS PARENTINIS</head>
         
         
          
-            <cit n="cit1">
-               <quote n="quote1">... Si quis tamen haec quoque, si quis 
+            <cit n="cit">
+               <quote n="quote">... Si quis tamen haec quoque, si quis 
         captus amore leget...</quote>
-               <bibl n="bibl1">(<abbr n="abbr1">Verg.</abbr>, <abbr n="abbr2">Buc.</abbr> VI, 9).</bibl>
+               <bibl n="bibl">(<abbr n="abbr1">Verg.</abbr>, <abbr n="abbr2">Buc.</abbr> VI, 9).</bibl>
             </cit> 
         
             <div n="div1" type="poesis-poema">
-               <head n="head1">Cum navis</head> 
+               <head n="head">Cum navis</head> 
                <l n="l1">Cum navis sine funibus </l>
                <l n="l2">fractis carbasis portum somniferum </l>
                <l n="l3">cum vento incredibili </l>
@@ -127,7 +121,7 @@
             </div> 
         
             <div n="div2" type="poesis-poema">
-               <head n="head1">In unda</head> 
+               <head n="head">In unda</head> 
                <l n="l1">Molliter </l>
                <l n="l2">in unda cor nostrum oscillat </l>
                <l n="l3">Leniter </l>
@@ -138,7 +132,7 @@
             </div> 
         
             <div n="div3" type="poesis-poema">
-               <head n="head1">Carmina mea</head> 
+               <head n="head">Carmina mea</head> 
                <l n="l1">Carmina mea visibiles movere fontes </l>
                <l n="l2">Multa illa invisibilia </l>
                <l n="l3">in corde meo videre </l>
@@ -148,7 +142,7 @@
             </div> 
         
             <div n="div4" type="poesis-poema">
-               <head n="head1">Exegi parvum tumulum</head> 
+               <head n="head">Exegi parvum tumulum</head> 
                <l n="l1">Fortunam parvam in libris relicturus </l>
                <l n="l2">cum ero in aeternum abiturus </l>
                <l n="l3">quia opus tantum praesensio cordis fuit </l>
@@ -159,7 +153,7 @@
             </div> 
         
             <div n="div5" type="poesis-poema">
-               <head n="head1">Parcae Parentinae</head> 
+               <head n="head">Parcae Parentinae</head> 
                <l n="l1">In die plena lucis </l>
                <l n="l2">undique undae redundantes </l>
                <l n="l3">In oculis nostris </l>
@@ -177,7 +171,7 @@
             </div> 
         
             <div n="div6" type="poesis-poema">
-               <head n="head1">Multa latent</head> 
+               <head n="head">Multa latent</head> 
                <l n="l1">In gremio densi rubeti </l>
                <l n="l2">avis parva refugium quaerit </l>
                <l n="l3">At illico serpens clam expectat </l>
@@ -187,7 +181,7 @@
             </div> 
         
             <div n="div7" type="poesis-poema">
-               <head n="head1">Incipiunt cicadae</head> 
+               <head n="head">Incipiunt cicadae</head> 
                <l n="l1">Incipiunt cicadae garrulae </l>
                <l n="l2">in ramis olivarum </l>
                <l n="l3">cantum suum matutinum </l>
@@ -205,7 +199,7 @@
             </div> 
         
             <div n="div8" type="poesis-poema">
-               <head n="head1">Cicada piscatoribus</head> 
+               <head n="head">Cicada piscatoribus</head> 
                <l n="l1">Incentor coepit cicada cantum canere </l>
                <l n="l2">incensus flammeo sole </l>
                <l n="l3">piscatoribus in litore </l>
@@ -223,7 +217,7 @@
             </div> 
         
             <div n="div9" type="poesis-poema">
-               <head n="head1">Tremens in undis</head> 
+               <head n="head">Tremens in undis</head> 
                <l n="l1">Tremens in undis navicula </l>
                <l n="l2">tam tristis spectat crepusculum </l>
                <l n="l3">donantem ei carmen ultimum </l>
@@ -237,7 +231,7 @@
             </div> 
         
             <div n="div10" type="poesis-poema">
-               <head n="head1">Obrussa</head> 
+               <head n="head">Obrussa</head> 
                <l n="l1">Omnibus ignotis cantilenis </l>
                <l n="l2">asportant visiones animum </l>
                <l n="l3">Et serpit murmur amicum </l>
@@ -249,7 +243,7 @@
             </div> 
         
             <div n="div11" type="poesis-poema">
-               <head n="head1">Voces puerorum</head> 
+               <head n="head">Voces puerorum</head> 
                <l n="l1">Ecce hirundines volant super rivulum -</l>
                <l n="l2">clamant voces puerorum: </l>
                <l n="l3">Ecce hirundines! </l>
@@ -263,7 +257,7 @@
             </div> 
         
             <div n="div12" type="poesis-poema">
-               <head n="head1">Ad pedes fatigatos</head> 
+               <head n="head">Ad pedes fatigatos</head> 
                <l n="l1">Veniunt undae ad pedes fatigatos </l>
                <l n="l2">et dicunt aliquid musicae incomparabile </l>
                <l n="l3">Audit cor viatoris humile </l>
@@ -276,7 +270,7 @@
             </div> 
         
             <div n="div13" type="poesis-poema">
-               <head n="head1">Recordor Parentium</head> 
+               <head n="head">Recordor Parentium</head> 
                <l n="l1">Parentii </l>
                <l n="l2">in peristylio basilicae Euphrasii </l>
                <l n="l3">sol splendens cum taciturnitate </l>
@@ -292,7 +286,7 @@
             </div> 
         
             <div n="div14" type="poesis-poema">
-               <head n="head1">Pallio caeruleo</head> 
+               <head n="head">Pallio caeruleo</head> 
                <l n="l1">Pallio amictus caeruleo </l>
                <l n="l2">in vertice montis saxosi sedeo </l>
                <l n="l3">Cor meum video ad olivam quietis plenam </l>
@@ -304,11 +298,11 @@
                <l n="l9">cantilenam saepe cantans nitidam </l>
                <l n="l10">consolans semper animam lacrimis madidam.</l>
             </div>
-            <closer n="closer1">
-               <dateline n="dateline1">(Parentii, 1967) 
-<foreign n="foreign1" xml:lang="hrv">Zagreb</foreign>.</dateline> 
-               <signed n="signed1">
-                  <abbr n="abbr1">T.</abbr> Smerdel.</signed>
+            <closer n="closer">
+               <dateline n="dateline">(Parentii, 1967) 
+<foreign n="foreign" xml:lang="hrv">Zagreb</foreign>.</dateline> 
+               <signed n="signed">
+                  <abbr n="abbr">T.</abbr> Smerdel.</signed>
             </closer> 
         
         

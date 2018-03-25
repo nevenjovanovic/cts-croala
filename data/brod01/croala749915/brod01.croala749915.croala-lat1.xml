@@ -53,17 +53,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -132,21 +124,21 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:brod01.croala749915.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
 
-                <head n="head1">XIV/5 <date n="date1" when="1526-03-12">1526. 12. Martii</date>, Budae Stephanus Brodericus electus episcopus
+                <head n="head">XIV/5 <date n="date" when="1526-03-12">1526. 12. Martii</date>, Budae Stephanus Brodericus electus episcopus
                     Sirmiensis, cancellarius Clementi papae VII.</head>
 
 
                 <note n="note1" resp="BJ">Segr. Stato, Principi, 4, f. 42r.</note>
 
-                <opener n="opener1">Beatissime pater, domine clementissime! Post oscula pedum Sanctitatis Vestre
+                <opener n="opener">Beatissime pater, domine clementissime! Post oscula pedum Sanctitatis Vestre
                     beatorum et servitutis mee humillimam commendationem.</opener>
-                <p n="p1">Hodie factus est finis in negocio cancellariatus auctoritate et intercessione
+                <p n="p">Hodie factus est finis in negocio cancellariatus auctoritate et intercessione
                     Vestre Sanctitatis et opera domini baronis. Quibus igitur verbis Vestre
                     Sanctitati gratias agam, non invenio. Illud fortasse sacius erit non verbis eas
-                    agere, sed facto et <milestone n="milestone1" unit="page"/> reipsa conari referre. Referri
+                    agere, sed facto et <milestone unit="page"/> reipsa conari referre. Referri
                     autem quonam alio modo melius possunt, quod si preceptorum Vestre Sanctitatis
                     memor. Ita me geram in hoc magistratu, ut mea servitus sit et serenissimo regi
                     meo ac huic regno utilis, et Vestre Sanctitati istique Sanctissime Sedi perpetuo
@@ -163,7 +155,7 @@
                     valitudinis tantum imbecillitas est mihi admodum suspecta. Nam preter oculos,
                     qui nondum recte valere non desunt, alia quoque incommoda. Sed fiat in omnibus
                     voluntas domini.</p>
-                <closer n="closer1">Vestrę Sanctitatis humilimus servulus Stephanus Brodericus electus
+                <closer n="closer">Vestrę Sanctitatis humilimus servulus Stephanus Brodericus electus
                     Sirmiensis, cancellarius</closer>
 
 

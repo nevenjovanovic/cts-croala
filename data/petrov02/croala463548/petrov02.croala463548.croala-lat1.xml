@@ -45,17 +45,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -101,9 +93,9 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:petrov02.croala463548.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-elegia" met="elegiacum">
-            <head n="head1">
+      <body xml:lang="lat">
+         <div type="poesis-elegia" met="elegiacum">
+            <head n="head">
             In obitu uxoris
          </head>
             <l n="l1">Siccine dividimur, vita mihi carior Uxor,</l>
@@ -128,7 +120,7 @@
              
             <l n="l11">Sed carae ut repetam fugientem conjugis Umbram</l>
              
-            <l n="l12" met="pentameter">Nunc prece, nunc <sic n="sic1">cythara</sic> consociante preces</l>
+            <l n="l12" met="pentameter">Nunc prece, nunc <sic n="sic">cythara</sic> consociante preces</l>
              
             <l n="l13">Irem audax (amor ipse facem praeferret eunti)</l>
              
@@ -150,7 +142,7 @@
              
             <l n="l22" met="pentameter">Majestas Stygii non truculenta Jovis.</l>
              
-            <l n="l23">Forsan et ille pius <sic n="sic1">lacrymas</sic> ad verba precantis</l>
+            <l n="l23">Forsan et ille pius <sic n="sic">lacrymas</sic> ad verba precantis</l>
              
             <l n="l24" met="pentameter">Funderet, et reditum Conjugis annueret.</l>
              
@@ -182,7 +174,7 @@
              
             <l n="l38" met="pentameter">Impia Mors, plagis percutienda fuit.</l>
              
-            <l n="l39">Cuncta tui in miseram <sic n="sic1">consumpsti</sic> tela furoris,</l>
+            <l n="l39">Cuncta tui in miseram <sic n="sic">consumpsti</sic> tela furoris,</l>
              
             <l n="l40" met="pentameter">In sola haeserunt sed tua tela cute.</l>
              
@@ -200,7 +192,7 @@
              
             <l n="l47">Ah! chalybe immiti languentis caesa rigabat</l>
              
-            <l n="l48" met="pentameter">Membra cruor: <sic n="sic1">lacrymis</sic> non maduere genae.</l>
+            <l n="l48" met="pentameter">Membra cruor: <sic n="sic">lacrymis</sic> non maduere genae.</l>
              
             <l n="l49">Num, quando monita est, momenta novissima vitae</l>
              
@@ -234,9 +226,9 @@
              
             <l n="l64" met="pentameter">Et quantum vidit roboris illa dies!</l>
              
-            <l n="l65">Quae caruere genae <sic n="sic1">lacrymis</sic>, et questibus ora?</l>
+            <l n="l65">Quae caruere genae <sic n="sic">lacrymis</sic>, et questibus ora?</l>
              
-            <l n="l66" met="pentameter">Fundere nec <sic n="sic1">lacrymas</sic> visa, nec illa queri.</l>
+            <l n="l66" met="pentameter">Fundere nec <sic n="sic">lacrymas</sic> visa, nec illa queri.</l>
              
             <l n="l67">Exuerat Matrem coram, Matrem intus agebat,</l>
              
@@ -288,7 +280,7 @@
              
             <l n="l91">Cui querar infelix? cui nunc mea tristia dicam?</l>
              
-            <l n="l92" met="pentameter">Quae <sic n="sic1">lacrymas</sic> posthac terget amica manus?</l>
+            <l n="l92" met="pentameter">Quae <sic n="sic">lacrymas</sic> posthac terget amica manus?</l>
              
             <l n="l93">Cuncta, illa rapta, rapuit manus invida Parcae,</l>
              

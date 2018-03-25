@@ -52,17 +52,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -131,12 +123,12 @@
         </revisionDesc>
     </teiHeader>
    <text xml:base="urn:cts:croala:brod01.croala767692.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div type="prosa-epistula" n="div1">
-            <head n="head1">XIV/11 
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
+            <head n="head">XIV/11 
 
 
-<date n="date1" when="1533-05-08">1533. 8. Maii</date>, Quinqueecclesiis 
+<date n="date" when="1533-05-08">1533. 8. Maii</date>, Quinqueecclesiis 
 Stephanus Brodericus episcopus Sirmiensis Clementi papae VII.</head> 
 
 
@@ -144,11 +136,11 @@ Stephanus Brodericus episcopus Sirmiensis Clementi papae VII.</head>
 Editio: THEINER 1863, n. DCCCL, p. 621-622. 
 ETE II, n. 219, p. 249–250.</note> 
 
-            <opener n="opener1">Beatissime pater et domine, domine clementissime! 
+            <opener n="opener">Beatissime pater et domine, domine clementissime! 
 Post pedum oscula beatorum et servitutis mee humillimam commendationem.</opener> 
-            <p n="p1">Feci 
+            <p n="p">Feci 
 Vestram Sanctitatem sepe certiorem de rebus nostris Hungaricis per litteras ad dominos 
-Casalios<ref n="ref1">33</ref> scriptas et ex Posonio, quo pacis faciende causa conveneramus, ac 
+Casalios<ref n="ref">33</ref> scriptas et ex Posonio, quo pacis faciende causa conveneramus, ac 
 novissime hinc ex Quinqueecclesiis his diebus proximis. Neque nunc aliud scribere 
 possum, nisi rem Christianam eo esse deductam – cuiuscunque culpa id acciderit – ut 
 de regno Hungariae, quod paulo ante vidimus florentissimum ac inter Christiana regna 
@@ -157,8 +149,8 @@ sit standum. Adhuc nihil intelligimus, quid de nobis sit decretum. Quicquid erit
 Vestram Sanctitatem facere certiorem statim. Ego sub mirabili sidere sum natus: 
 occupato per Thurcas episcopatu Sirmiensi, quem mihi divus rex Ludovicus cum cancellariatu 
 dederat, nunc episcopatum Quinqueecclesiensem teneo et ipsum Thurcis ad 
-<num n="num1" value="3">iii</num> vel iiii miliaria vicinum, adhuc quidem satis insignem, sed magno periculo expositum.</p> 
-            <closer n="closer1">Deus Optimus Maximus Sanctitatem Vestram semper conservet felicem et 
+<num n="num" value="3">iii</num> vel iiii miliaria vicinum, adhuc quidem satis insignem, sed magno periculo expositum.</p> 
+            <closer n="closer">Deus Optimus Maximus Sanctitatem Vestram semper conservet felicem et 
 incolumem. Ex Quinqueecclesiis, 8. Maii 1533. 
 Eiusdem Vestrę 
 Sanctitatis 
@@ -170,7 +162,7 @@ Sirmiensis manu propria</closer>
 connexus habebant cum legatis Iohannis regis. Franciscus et Iohannes et in Hungaria versabantur, 
 ubi hic a rege Ferdinando anno 1535 deprehensus est.</note> 
 
-            <milestone n="milestone1" unit="page"/>
+            <milestone unit="page"/>
          </div>
       </body>
    </text>

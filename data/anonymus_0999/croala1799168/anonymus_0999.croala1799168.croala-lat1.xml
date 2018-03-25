@@ -49,20 +49,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -113,12 +102,12 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:anonymus_0999.croala1799168.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-testamentum">
-            <opener n="opener1">
+        <body xml:lang="lat">
+         <div type="prosa-testamentum">
+            <opener n="opener">
                <supplied n="supplied1">In</supplied> Christi nom<supplied n="supplied2">ine</supplied> et eiusdem anno incarnationis DCCCCLXVIII, indictione XII, sub die fere quinto decimo mense iulii, in ciuitate Iadera, imperantibus piissimis et perpetuis augustis Constantino et Basilio, cathedra pontificali regente Basilio episcopo et domino Maio priore.</opener> 
-            <p n="p1">Maturiori namque et salubri consilio a maioribus prouisum est, ut omnis homo ante dispensare et deliberare suas facultates debeat, priusquam repentine calamitatis casu periculo <supplied n="supplied1">irr</supplied>uente mortis metu urgeat, ne differente deliberatio aut articulum <supplied n="supplied2">lingue</supplied> loquendi careat ui aut distributor in ultima corporis angustia <supplied n="supplied3">sub celeri positus transi</supplied>tu optata sibimet testatione explicare non queat. <supplied n="supplied4">Idcirco ego tanti</supplied>lla Agape peccatrix, filia Dabro tribuni, diuino iubamine <supplied n="supplied5">freta, posita in infirmi</supplied>tate super proprium meum decumbens lectulum, licet uiribus corporis inualida, tamen mente deo auxiliante tuta, integro autem consilio hunc <gap n="gap1"/>onis de hereditate nostra scribere rogauimus, ita demum <gap n="gap2"/> ut post obitum meum ita maneat deo auctore firmum et stabilem<gap n="gap3"/>. ac si quidem pagina subscripta uidentur. In primis uolo et iubeo, <supplied n="supplied6">ut</supplied> cenaculo cum corte et quoquina et orto, que est post ipsa quoquina, sit in ecclesia sancti Chrisogoni; domum, ubi fornax fuit, cum orticello, que est ante ipsam, similiter; orticello, que est ante ecclesiam sancti Chrisogoni, similiter, portiones de terras, que habeo in Uculo similiter; portiones de salinas, que habeo inter meos parentes, similiter; artatikio serico I, inuestitura de serico I, panno serico I, lisa I, pennulas II, pirestres XX, mappas IIII, antelectulos <num n="num1" value="3">III</num>, capilectulo I, mappula ad calicem operiendum I,<gap n="gap4"/>, racinas II, culcitras II, culcitrino I, capitales <num n="num2" value="3">III</num>, capitale de serico <gap n="gap5"/>. de serico I, caldarias maiores II, frixorias maiores II, cucuma<gap n="gap6"/> mortario hereo I, sella ferrea I, vrceo hereo cum aquiminile, camastras II, deuteras II, archiscamno I, arcella I, buttes II, tina I, bussedo I, macinas pario I, turabulo hereo I, stagniolo I. Hec omnia sit in ecclesia sancti Chrisogoni, et sicut prelibata est, ita deo auctore permaneat, nullus umquam ea audeat uiolare. Quicumque uero nostre deliberationi contraire uoluerit, iratum habeat patrem et filium et spiritum sanctum et maledictionem a CCCX et VIII sancti patres et in inferno cum diabolo et <sic n="sic1">angeli</sic> eius ec Iuda Scariothen muneretur.</p> 
-            <closer n="closer1">Actum tempore, die et loco ac consulibus, ut supra dictum est. His palam testibus: <signatures n="signatures1">
+            <p n="p">Maturiori namque et salubri consilio a maioribus prouisum est, ut omnis homo ante dispensare et deliberare suas facultates debeat, priusquam repentine calamitatis casu periculo <supplied n="supplied1">irr</supplied>uente mortis metu urgeat, ne differente deliberatio aut articulum <supplied n="supplied2">lingue</supplied> loquendi careat ui aut distributor in ultima corporis angustia <supplied n="supplied3">sub celeri positus transi</supplied>tu optata sibimet testatione explicare non queat. <supplied n="supplied4">Idcirco ego tanti</supplied>lla Agape peccatrix, filia Dabro tribuni, diuino iubamine <supplied n="supplied5">freta, posita in infirmi</supplied>tate super proprium meum decumbens lectulum, licet uiribus corporis inualida, tamen mente deo auxiliante tuta, integro autem consilio hunc <gap/>onis de hereditate nostra scribere rogauimus, ita demum <gap/> ut post obitum meum ita maneat deo auctore firmum et stabilem<gap/>. ac si quidem pagina subscripta uidentur. In primis uolo et iubeo, <supplied n="supplied6">ut</supplied> cenaculo cum corte et quoquina et orto, que est post ipsa quoquina, sit in ecclesia sancti Chrisogoni; domum, ubi fornax fuit, cum orticello, que est ante ipsam, similiter; orticello, que est ante ecclesiam sancti Chrisogoni, similiter, portiones de terras, que habeo in Uculo similiter; portiones de salinas, que habeo inter meos parentes, similiter; artatikio serico I, inuestitura de serico I, panno serico I, lisa I, pennulas II, pirestres XX, mappas IIII, antelectulos <num n="num1" value="3">III</num>, capilectulo I, mappula ad calicem operiendum I,<gap/>, racinas II, culcitras II, culcitrino I, capitales <num n="num2" value="3">III</num>, capitale de serico <gap/>. de serico I, caldarias maiores II, frixorias maiores II, cucuma<gap/> mortario hereo I, sella ferrea I, vrceo hereo cum aquiminile, camastras II, deuteras II, archiscamno I, arcella I, buttes II, tina I, bussedo I, macinas pario I, turabulo hereo I, stagniolo I. Hec omnia sit in ecclesia sancti Chrisogoni, et sicut prelibata est, ita deo auctore permaneat, nullus umquam ea audeat uiolare. Quicumque uero nostre deliberationi contraire uoluerit, iratum habeat patrem et filium et spiritum sanctum et maledictionem a CCCX et VIII sancti patres et in inferno cum diabolo et <sic n="sic">angeli</sic> eius ec Iuda Scariothen muneretur.</p> 
+            <closer n="closer">Actum tempore, die et loco ac consulibus, ut supra dictum est. His palam testibus: <signatures n="signatures">
                   <supplied n="supplied1">† Signum</supplied> manus Basilio, supradicto episcopo, <supplied n="supplied2">† Signum</supplied> manus Maius, prior supradicto. † Signum manus Dabro tribunus, frater eius. † Signum manus Andreas presbyter. † Signum manus Drago, tribunus de Spalato. † Signum manus Uiato. Tribunus de Apsaro. † Signum manus Maius tribunus Marra in Saco. † Signum manus Maius tribunus Sclitula.</signatures>
             </closer>
          </div>

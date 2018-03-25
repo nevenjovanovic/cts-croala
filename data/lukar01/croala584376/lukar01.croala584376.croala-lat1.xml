@@ -45,20 +45,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -114,9 +103,9 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:lukar01.croala584376.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-epica" met="hexameter">
-            <head n="head1">
+      <body xml:lang="lat">
+         <div type="poesis-epica" met="hexameter">
+            <head n="head">
                Partheniados seu De cultu virginitatis, liber I
             </head>
             <l n="l1">Si te marmoream templis, si ponimus auream,</l>
@@ -134,19 +123,19 @@
             <l n="l13">Regis in amplexum superi, sedesque beatas</l>
             <l n="l14">Terrarum aligeri quondam, nunc aurea mundi</l>
             <l n="l15">Lumina, lucentem Coelo quae cingitis agnum,</l>
-            <l n="l16">Ferte simul, puerique pedem, <sic n="sic1">inuptaeque</sic> puellae</l>
-            <l n="l17">Lilia uestra cano. Sed nec mihi <sic n="sic1">delphica</sic> mentem</l>
+            <l n="l16">Ferte simul, puerique pedem, <sic n="sic">inuptaeque</sic> puellae</l>
+            <l n="l17">Lilia uestra cano. Sed nec mihi <sic n="sic">delphica</sic> mentem</l>
             <l n="l18">Flamma regat, nec Pierii chorus incola collis</l>
             <l n="l19">Castalio dubium deducat fonte liquorem.</l>
             <l n="l20">Illa etiam Idalios tinxerunt pocula uates,</l>
             <l n="l21">Et flammis quandoque nocentibus ardet Apollo.</l>
             <l n="l22">Nullam quaero facem, radiet quae luce maligna,</l>
             <l n="l23">Et qui non sapiat Caelum mihi desipit humor</l>
-            <milestone n="milestone1" unit="page"/>
+            <milestone unit="page"/>
             <l n="l24">Sit rogo caelicolae nostri caelestis origo</l>
-            <l n="l25">Carminis, <sic n="sic1">aethereumque</sic> trahat mea musa uigorem,</l>
+            <l n="l25">Carminis, <sic n="sic">aethereumque</sic> trahat mea musa uigorem,</l>
             <l n="l26">Ut quondam Isacidum sacro mens ebria uatum</l>
-            <l n="l27">Flamine <sic n="sic1">sydereos</sic> traxit de numine sensus,</l>
+            <l n="l27">Flamine <sic n="sic">sydereos</sic> traxit de numine sensus,</l>
             <l n="l28">Diuinoque suos animauit robore cantus.</l>
             <l n="l29">Prima pudicitiae custos, dux prima ruboris,</l>
             <l n="l30">Quo tenerum aetatis uer uiuida pingit honestas,</l>
@@ -156,10 +145,10 @@
             <l n="l34">Heu male consumptos sero deflebit amores,</l>
             <l n="l35">Et frustra exactos per gaudia foeda Decembres</l>
             <l n="l36">Damnabit grauis ipse sibi, et nec carus amicis</l>
-            <l n="l37">Nec Patriae, Venerem qui <sic n="sic1">marte</sic> lacesset aperto</l>
+            <l n="l37">Nec Patriae, Venerem qui <sic n="sic">marte</sic> lacesset aperto</l>
             <l n="l38">Turpe putans refugo uitare incendia gressu.</l>
             <l n="l39">At non sic Phariae molimina blanda puellae</l>
-            <l n="l40">Josephus fregit, postquam turbauit <sic n="sic1">heriles</sic>
+            <l n="l40">Josephus fregit, postquam turbauit <sic n="sic">heriles</sic>
             </l>
             <l n="l41">Luminibus nigris oculos, et corpore pulcro,</l>
             <l n="l42">Ignarus, caecum castis quoque uultibus ignem</l>
@@ -167,11 +156,11 @@
             <l n="l44">Virginibus, dum flos rubicundae irritat amorem</l>
             <l n="l45">Frontis, et ingenuo quae fulget gratia uultu.</l>
             <l n="l46">Ille quidem recti memor, et uirtutis auarus</l>
-            <milestone n="milestone2" unit="page"/>
+            <milestone unit="page"/>
             <l n="l47">Munera, blanditias, et mollia uerba precantis</l>
             <l n="l48">Forsitan, et lachrymas qualis Marpesia cautes,</l>
             <l n="l49">Duraque, Carpathio quae tunditur aequore rupes</l>
-            <l n="l50">Spreuit <sic n="sic1">inacessus</sic> Cypridi, precibusque doloris.</l>
+            <l n="l50">Spreuit <sic n="sic">inacessus</sic> Cypridi, precibusque doloris.</l>
             <l n="l51">Tunc primum obsequii uiolauit iura benigni</l>
             <l n="l52">Nobile Mancipium, toruumque aspexit, et acres</l>
             <l n="l53">Iratum miti concepit pectore flammas,</l>
@@ -190,7 +179,7 @@
             <l n="l66">At neque facunda tentavit uoce ruentis</l>
             <l n="l67">In scelus infandum dominae reuocare furorem;</l>
             <l n="l68">Tunc etenim docti male uox consumitur oris,</l>
-            <milestone n="milestone3" unit="page"/>
+            <milestone unit="page"/>
             <l n="l69">Cum timor est, caeco mentem ne fascinet astu</l>
             <l n="l70">Foemina, neue reum tandem se lugeat actor.</l>
             <l n="l71">Scilicet arguti uultus plus muta uenustas,</l>
@@ -203,7 +192,7 @@
             <l n="l78">Concutitur trepidans, gremiumque repente resoluit</l>
             <l n="l79">Immemor herbarum, et malefida cyclade corpus</l>
             <l n="l80">Liberat, ac tumidi fugit horrida colla colubri:</l>
-            <l n="l81">Sic Puer, ut <sic n="sic1">phariae</sic> uidit sibi pallia nuptae</l>
+            <l n="l81">Sic Puer, ut <sic n="sic">phariae</sic> uidit sibi pallia nuptae</l>
             <l n="l82">Prensa manu, infectos humeris excussit amictus</l>
             <l n="l83">Perfusus pallore genas, celeremque nefando</l>
             <l n="l84">Limine proripuit gressum, et frustratus amantem est.</l>
@@ -211,11 +200,11 @@
             <l n="l86">Isacidae preme sollicitis vestigia plantis</l>
             <l n="l87">Quisquis adhuc primum naturae in pectore florem</l>
             <l n="l88">Conservas, cinere obductas ne tange doloso</l>
-            <l n="l89">Prunas, et siquae uel summis vestibus <sic n="sic1">haerit</sic>,</l>
+            <l n="l89">Prunas, et siquae uel summis vestibus <sic n="sic">haerit</sic>,</l>
             <l n="l90">Excute fallacem tacta cum ueste fauillam.</l>
             <l n="l91">Si nulla est contracta lues, tamen excute nullam;</l>
             <l n="l92">Et uel praecipitem suspectae limine sedis</l>
-            <milestone n="milestone4" unit="page"/>
+            <milestone unit="page"/>
             <l n="l93">Carpe fugam, missumque retro ne respice postem,</l>
             <l n="l94">Ni tua Letifero sale vix durescere membra, </l>
             <l n="l95">Lotea ceu riguit male salso marmore coniux.</l>
@@ -238,10 +227,10 @@
             <l n="l112">Colloquia, innatos animis nisi temperet aestus</l>
             <l n="l113">Virtutis nexus, uel sanguinis. Hunc ubi demas,</l>
             <l n="l114">Plus uitanda uiris est foemina, uirque puellis,</l>
-            <l n="l115">Quam rapidis uitetur <sic n="sic1">Olympica</sic> meta quadrigis,</l>
-            <milestone n="milestone5" unit="page"/>
+            <l n="l115">Quam rapidis uitetur <sic n="sic">Olympica</sic> meta quadrigis,</l>
+            <milestone unit="page"/>
             <l n="l116">
-               <sic n="sic1">Scillaeus</sic> ratibus uortex, Getulaque syrtis.</l>
+               <sic n="sic">Scillaeus</sic> ratibus uortex, Getulaque syrtis.</l>
             <l n="l117">Ah puer ah tenerae matris timor, aureus ora</l>
             <l n="l118">Cui nunc irradiat pudor, et festiua uigorem</l>
             <l n="l119">Afflant purpureum syncerae lumina frontis,</l>
@@ -250,7 +239,7 @@
             <l n="l122">Gaudia, queis animos eneruat saeua Dione:</l>
             <l n="l123">Turpe uiro patiere iugum: Te uilis inertes</l>
             <l n="l124">Ad calathos rediget probrosaque pensa uoluptas,</l>
-            <l n="l125">Sis licet Alcides, sis <sic n="sic1">Larissaeus</sic> Achilles.</l>
+            <l n="l125">Sis licet Alcides, sis <sic n="sic">Larissaeus</sic> Achilles.</l>
             <l n="l126">Hunc etenim Atridis pariter, Priamoque timendum</l>
             <l n="l127">Euersorem Asiae segni Lycomedis in aula</l>
             <l n="l128">Proh cineris pudor Hectorei! Sub imagine sexus</l>
@@ -264,7 +253,7 @@
             <l n="l136">Centaurusque minax, et forma tricorporis umbrae,</l>
             <l n="l137">Femineae fregere manus, iacuitque per herbam</l>
             <l n="l138">Clauae ingens pondus, tergumque immane leonis</l>
-            <milestone n="milestone6" unit="page"/>
+            <milestone unit="page"/>
             <l n="l139">Dum lanosa, viri posito Tirynthius ore, </l>
             <l n="l140">Inter Maeonias ducebat penna puellas.</l>
             <l n="l141">Hercule, te melior tamen, et Chironis alumno</l>
@@ -275,27 +264,27 @@
             <l n="l146">Cogitur, utque suis hostilia gaudia pascit</l>
             <l n="l147">Ludibriis gemino uiduatus lumine Samson</l>
             <l n="l148">Hic vir, hic est, quo terrigenum neque fortior ullus,</l>
-            <l n="l149">Nec fuit inviso <sic n="sic1">Solimis</sic> funestior hosti</l>
+            <l n="l149">Nec fuit inviso <sic n="sic">Solimis</sic> funestior hosti</l>
             <l n="l150">Quot matrum extorsit gemitus, quot cladis aceruos</l>
-            <l n="l151">Edidit, <sic n="sic1">aethereo</sic> seu cum correptus ab aestu</l>
+            <l n="l151">Edidit, <sic n="sic">aethereo</sic> seu cum correptus ab aestu</l>
             <l n="l152">Hostiles inimicum ignem iactaret in agros,</l>
             <l n="l153">Euulsam trepido seu forte rudentis ab ore</l>
             <l n="l154">Coniurata ferox torqueret in agmina malam.</l>
-            <l n="l155">Felix, <sic n="sic1">idalio</sic> si cautus ab igne, torosam</l>
+            <l n="l155">Felix, <sic n="sic">idalio</sic> si cautus ab igne, torosam</l>
             <l n="l156">Ceruicem indecores nunquam posuisset in ulnas.</l>
             <l n="l157">Heu quae praecipitem rapis in ludibria mentem</l>
             <l n="l158">Blanda lues animi? Puerilis naenia torus</l>
             <l n="l159">Samsoni canitur, dum segnis turpe recumbit</l>
             <l n="l160">Fallaci gremio, arcani, quod crine latebat,</l>
             <l n="l161">Proditor, atque sui. Pecudis tondetur ad instar</l>
-            <milestone n="milestone7" unit="page"/>
+            <milestone unit="page"/>
             <l n="l162">Vastator  nemorum, debellatorque leonum</l>
             <l n="l163">Invictus uigor ille animi, uis illa iuuentae</l>
             <l n="l164">Abscisso cum crine perit, fugit ardua membris</l>
             <l n="l165">Virtus, et toto nusquam est in corpore Samson.</l>
             <l n="l166">Quid superest, nisi capta gemens ut lumina perdat</l>
             <l n="l167">Quae iam perdiderat mendacis in ore puellae;</l>
-            <l n="l168">Utque <sic n="sic1">Dioneo</sic> ludens Cyclopeo theatro</l>
+            <l n="l168">Utque <sic n="sic">Dioneo</sic> ludens Cyclopeo theatro</l>
             <l n="l169">Tandem aliena suis inuoluat fata ruinis?</l>
             <l n="l170">Haec te Virgo puer uulgata pericula cautum,</l>
             <l n="l171">Haec faciant auersantem insidiosa minoris</l>
@@ -304,19 +293,19 @@
             <l n="l174">Castus Amazonides, patrii cui limina tecti</l>
             <l n="l175">Tuta fuere minus, quam Sylvae, ac lustra ferarum;</l>
             <l n="l176">Namque sua reperit pereuntem in fronte nouercam.</l>
-            <l n="l177">Nunc age diversas uitandae <sic n="sic1">Amathuntidis</sic> artes</l>
+            <l n="l177">Nunc age diversas uitandae <sic n="sic">Amathuntidis</sic> artes</l>
             <l n="l178">Ingredere, et uarios, fuga queis patet, inspice colles.</l>
             <l n="l179">Mille modos fugiendi, ut mille pericula candor</l>
             <l n="l180">Mentis habet, Sacros alii subiere recessus</l>
-            <l n="l181">Templorum, ut nocuos, quos dira mouebat <sic n="sic1">Erynnis</sic>.</l>
+            <l n="l181">Templorum, ut nocuos, quos dira mouebat <sic n="sic">Erynnis</sic>.</l>
             <l n="l182">Numinis et Diuum reuerentia frangeret aestus.</l>
             <l n="l183">Ast alii, simul ac uitium tentare medullas</l>
-            <milestone n="milestone8" unit="page"/>
+            <milestone unit="page"/>
             <l n="l184">
-               <sic n="sic1">Caeperat</sic>, in rigidos nudato corpore uepres</l>
+               <sic n="sic">Caeperat</sic>, in rigidos nudato corpore uepres</l>
             <l n="l185">Prosiluere, luemque pio extinxere cruore.</l>
             <l n="l186">Nonnulli, ut stimulos blandi sensere furoris,</l>
-            <l n="l187">Threicio <sic n="sic1">bachante</sic> sub interlunia uento,</l>
+            <l n="l187">Threicio <sic n="sic">bachante</sic> sub interlunia uento,</l>
             <l n="l188">Cum riget omnis humus, detractis uestibus artus</l>
             <l n="l189">In gelida collo tenus immersere palude,</l>
             <l n="l190">Et propriis uenerem suffocauere sub undis.</l>
@@ -336,7 +325,7 @@
             <l n="l204">Urbibus abductos inter spelaea ferarum</l>
             <l n="l205">Occuluit, quibus herba dapes, et dura cubile</l>
             <l n="l206">Suppeditabat humus, nec egentibus ora fouebat</l>
-            <milestone n="milestone9" unit="page"/>
+            <milestone unit="page"/>
             <l n="l207">Aut ceres, aut liquor exiguus rorantis Iacchi:</l>
             <l n="l208">Quippe sitim puro gaudentes fallere rivo,</l>
             <l n="l209">Et raptim carpto uitam traducere uictu,</l>
@@ -355,16 +344,16 @@
             <l n="l222">Imbribus obiecto uitam damnauerat antro,</l>
             <l n="l223">Tuta inter latebras tantum arbitrata pudoris</l>
             <l n="l224">Luce, pars Libycis exusta caloribus, atram</l>
-            <l n="l225">Sole <sic n="sic1">subardenti</sic> contraxit corpore noctem</l>
+            <l n="l225">Sole <sic n="sic">subardenti</sic> contraxit corpore noctem</l>
             <l n="l226">Nigra genis, et nigra humero, sed candida corde.</l>
             <l n="l227">Hi sibi sub trunco sedem fixere cauatae</l>
             <l n="l228">Arboris, hos tumuli, simulacraque luce carentes</l>
             <l n="l229">Excepere, procul patriis Antonius ingens</l>
-            <milestone n="milestone10" unit="page"/>
+            <milestone unit="page"/>
             <l n="l230">Sedibus undantes Libyae transmittit arenas,</l>
             <l n="l231">Semiuiroque uiam monstrante allabitur antro</l>
             <l n="l232">
-               <sic n="sic1">Syluicolae</sic> Pauli, quem non virtutis egentem</l>
+               <sic n="sic">Syluicolae</sic> Pauli, quem non virtutis egentem</l>
             <l n="l233">Incorrupta fides, caecique cupidinis horror</l>
             <l n="l234">Impulit in rupes, uicenaque lustra latentem</l>
             <l n="l235">Monte sub abrupto glacie durauit, et aestu.</l>
@@ -373,19 +362,19 @@
             <l n="l238">Obiciens, et nec fontem, nec pabula captat,</l>
             <l n="l239">Dum cupidam parcit Coeli dulcedine mentem.</l>
             <l n="l240">Facundum quoque castus amor Stridonis alumnum</l>
-            <l n="l241">Rupibus affixit <sic n="sic1">Bethleis</sic>, publica postquam</l>
-            <l n="l242">Magnum <sic n="sic1">aclamauit</sic> Romani pompa theatri</l>
+            <l n="l241">Rupibus affixit <sic n="sic">Bethleis</sic>, publica postquam</l>
+            <l n="l242">Magnum <sic n="sic">aclamauit</sic> Romani pompa theatri</l>
             <l n="l243">Praeceptorem orbis; sed quamvis arida nudus</l>
             <l n="l244">Tunderet ossa lapis, rugosaque corpore toto</l>
             <l n="l245">Horreret macies, blandis tamen improba spectris</l>
             <l n="l246">Romulei luxus mentem turbabat imago,</l>
-            <l n="l247">Nec nisi <sic n="sic1">palladio</sic> concessit fracta labore.</l>
+            <l n="l247">Nec nisi <sic n="sic">palladio</sic> concessit fracta labore.</l>
             <l n="l248">Sed nisi te superi stimulauerit aura Fauoni,</l>
             <l n="l249">Et mentem vigor omnipotens afflarit Olympi,</l>
             <l n="l250">Non tibi montanos suadebo habitare recessus.</l>
             <l n="l251">Saepe etenim tristes niueis nocuere latebrae</l>
             <l n="l252">Mentibus, irrepsitque lues ignobilis oci,</l>
-            <milestone n="milestone11" unit="page"/>
+            <milestone unit="page"/>
             <l n="l253">Nulla ubi sunt laudis certamina, nulla Minervae.</l>
             <l n="l254">Urbibus in mediis populique in luce frequentis</l>
             <l n="l255">Secum habitare pudor nouit, sedemque quietam</l>
@@ -401,21 +390,21 @@
             <l n="l265">Crudelem coniux, crudelem mater Alexim,</l>
             <l n="l266">Longaeuusque uocat genitor, fletuque rigentes</l>
             <l n="l267">Euincunt cautes. Plorantibus assonat omnis</l>
-            <l n="l268">Mauortis tellus, flerunt <sic n="sic1">capitolia</sic> alta,</l>
+            <l n="l268">Mauortis tellus, flerunt <sic n="sic">capitolia</sic> alta,</l>
             <l n="l269">Formosae uitreis fleuerunt Naiades undis,</l>
-            <l n="l270">Emisitque cauo gemitum <sic n="sic1">Tyberinus</sic> ab alueo.</l>
+            <l n="l270">Emisitque cauo gemitum <sic n="sic">Tyberinus</sic> ab alueo.</l>
             <l n="l271">Nec tamen aut lachrymis, aut flectitur ille querelis,</l>
             <l n="l272">Certus nulli hominum sua prodere nomina, donec</l>
             <l n="l273">Frigida mors graciles anima secreuerit artus:</l>
-            <l n="l274">Tantus amor sua corda suis cruciare <sic n="sic1">hymeneis</sic>.</l>
+            <l n="l274">Tantus amor sua corda suis cruciare <sic n="sic">hymeneis</sic>.</l>
             <l n="l275">Rara pudicitiae sunt haec miracula; nullus</l>
-            <milestone n="milestone12" unit="page"/>
+            <milestone unit="page"/>
             <l n="l276">Hic tamen illicitae vapor intercedere taedae,</l>
             <l n="l277">Insidiae poterant nullae: procul abfuit hostis:</l>
             <l n="l278">Casta domus, castae fuerant materque sororque</l>
             <l n="l279">Ipsaque castum oculis uxor spirabat amorem.</l>
-            <l n="l280">Quid si proiecti <sic n="sic1">Syren</sic> tibi bella pudoris</l>
-            <l n="l281">Collecto moueat <sic n="sic1">Phlegetonte</sic>, omnemque leporum,</l>
+            <l n="l280">Quid si proiecti <sic n="sic">Syren</sic> tibi bella pudoris</l>
+            <l n="l281">Collecto moueat <sic n="sic">Phlegetonte</sic>, omnemque leporum,</l>
             <l n="l282">Turbam, omnes blandae Cythereidos explicet artes,</l>
             <l n="l283">Et nusquam pateat fuga? Tunc heu triste subibis</l>
             <l n="l284">Discrimen; tamen aude animis: immota uoluntas</l>
@@ -426,16 +415,16 @@
             <l n="l289">Inuenit Veneris iugulandae uecte tenaci</l>
             <l n="l290">Obductus carcer fugiendi obstruxerat omnem</l>
             <l n="l291">Spemque aditumque, cupidines cum perdita luxu,</l>
-            <l n="l292">Et <sic n="sic1">stygiis</sic> imbuta dolis sine fronte puella</l>
+            <l n="l292">Et <sic n="sic">stygiis</sic> imbuta dolis sine fronte puella</l>
             <l n="l293">Constitit improuisa oculis. Exterrita uirtus</l>
             <l n="l294">Quae casus dedit arma rapit: dedit ignea casus</l>
             <l n="l295">Arma: ignem rapit, et flagrantis uerbere torris</l>
             <l n="l296">Pellit feminea latitantem fronte Megaeram.</l>
             <l n="l297">At tibi captiuas holoserica uincula palmas,</l>
             <l n="l298">Heu stringunt tibi uincla pedes, uiolentaque mollis</l>
-            <milestone n="milestone13" unit="page"/>
+            <milestone unit="page"/>
             <l n="l299">
-               <sic n="sic1">Niceta</sic> generose tori te stramina mulcent.</l>
+               <sic n="sic">Niceta</sic> generose tori te stramina mulcent.</l>
             <l n="l300">Deliciis pugnat pietate ferocior hostis,</l>
             <l n="l301">Dum tibi delicium vult extorquere pudoris.</l>
             <l n="l302">Is locus insidiis; quâ se mitissima tellus</l>
@@ -458,14 +447,14 @@
             <l n="l319">Omnia circaeis te blandimenta uenenis</l>
             <l n="l320">Oblita circumstant. Sed mens adamantina nullis</l>
             <l n="l321">Flectitur illecebris. Iam proelia cominus hostis</l>
-            <milestone n="milestone14" unit="page"/>
-            <l n="l322">Admouet. E medio <sic n="sic1">perfrictae</sic> foemina frontis</l>
+            <milestone unit="page"/>
+            <l n="l322">Admouet. E medio <sic n="sic">perfrictae</sic> foemina frontis</l>
             <l n="l323">Agmine ludentum erumpit, fusisque lacertis</l>
             <l n="l324">Te petit inuiolate pudor, tibi uipera pestem</l>
             <l n="l325">Fronte, superciliis, oculisque intentat, et ore,</l>
-            <l n="l326">In te totum <sic n="sic1">Aheronta</sic> uomit, mentisque pudicae</l>
+            <l n="l326">In te totum <sic n="sic">Aheronta</sic> uomit, mentisque pudicae</l>
             <l n="l327">Arietat intactam repetitis fraudibus arcem.</l>
-            <l n="l328">Quis tibi tunc animus? Manibus <sic n="sic1">bombicina</sic> telum</l>
+            <l n="l328">Quis tibi tunc animus? Manibus <sic n="sic">bombicina</sic> telum</l>
             <l n="l329">Vincla negant, pedibusque fugam. Iam te premit hostis</l>
             <l n="l330">Undique iam uictor resonat Paeana tyrannus.</l>
             <l n="l331">O male concepti spes intercisa triumphi!</l>
@@ -476,13 +465,13 @@
             <l n="l336">Imprimit infamem scelerata in frontem lituram,</l>
             <l n="l337">Et foedum euadit non turpi uulnere uulnus:</l>
             <l n="l338">Usque adeo nunquam sine telo est casta uoluntas.</l>
-            <l n="l339">Audax praecipitem quandoque e <sic n="sic1">menibus</sic> altis</l>
+            <l n="l339">Audax praecipitem quandoque e <sic n="sic">menibus</sic> altis</l>
             <l n="l340">Emisit saltum pudor, et discrimine vitae</l>
             <l n="l341">Discrimen trepidi sine labe redemit honoris.</l>
             <l n="l342">Ipse ego, quâ Ausoniam gaudentis oloribus Arni</l>
             <l n="l343">Caerulei latices lento mordent argento</l>
             <l n="l344">Insignem uidi iuuenem, cui forma pudorem</l>
-            <milestone n="milestone15" unit="page"/>
+            <milestone unit="page"/>
             <l n="l345">Ornabat, formamque pudor, roseisque fluebant</l>
             <l n="l346">Mella labris apibus deducta, insignia gentis</l>
             <l n="l347">Quae fuerant, sed melle suo pretiosior olli</l>
@@ -490,7 +479,7 @@
             <l n="l349">Illum omnes generumque sibi, sponsumque puellis</l>
             <l n="l350">Optauere suis generoso e sanguine matres,</l>
             <l n="l351">Omnes hinc pulchros suspirauere nepotes.</l>
-            <l n="l352">Auersus Cypriam tamen, et quoscunque <sic n="sic1">hymeneos</sic>,</l>
+            <l n="l352">Auersus Cypriam tamen, et quoscunque <sic n="sic">hymeneos</sic>,</l>
             <l n="l353">Iam dudum ille suos Coelo sacrarat amores,</l>
             <l n="l354">Propositique tenax matrum irrita uota fefellit.</l>
             <l n="l355">Indignata suas deludi Amathuntia flammas</l>
@@ -506,7 +495,7 @@
             <l n="l365">Sed plenum ancipiti discrimine. Pariete summo</l>
             <l n="l366">Lucem aditus tecto paruus dabat; inde deorsum</l>
             <l n="l367">Lapsus erat praeceps, et plurima mortis imago.</l>
-            <milestone n="milestone16" unit="page"/>
+            <milestone unit="page"/>
             <l n="l368">Hac placet effugium, capitis nec cura retardat.</l>
             <l n="l369">Imminet hinc vitae discrimen, at inde pudoris.</l>
             <l n="l370">Qualis eques tergo instantem dum cominus hostem</l>
@@ -527,25 +516,25 @@
             <l n="l385">I nunc tolle fugam fraus inuida, claude pudorem;</l>
             <l n="l386">Inueniet per aperta uiam discrimina mortis,</l>
             <l n="l387">Aëra per uacuum fugiet. Dabit ardor honesti</l>
-            <l n="l388">Pennas, cui <sic n="sic1">nichil</sic> est nisi culpae infamia, clausum.</l>
+            <l n="l388">Pennas, cui <sic n="sic">nichil</sic> est nisi culpae infamia, clausum.</l>
             <l n="l389">At tibi macte animis puber pro talibus ausis,</l>
             <l n="l390">Pro uirtute noua, si mens praesaga futuri est</l>
-            <l n="l391">Vatibus, aeternam <sic n="sic1">Phebi</sic> de fronde <choice n="choice1">
-                  <orig n="orig1" resp="scriba"> coronam</orig>
-                  <corr n="corr1" resp="scriba"> corollam</corr>
+            <l n="l391">Vatibus, aeternam <sic n="sic">Phebi</sic> de fronde <choice n="choice">
+                  <orig n="orig" resp="scriba"> coronam</orig>
+                  <corr n="corr" resp="scriba"> corollam</corr>
                </choice>,</l>
-            <milestone n="milestone17" unit="page"/>
+            <milestone unit="page"/>
             <l n="l392">Augustae mox tergeminum diadema tiarae</l>
             <l n="l393">Sidera portendunt. Nascentur mellea terris</l>
-            <l n="l394">Saecula, cum summo <sic n="sic1">uaticani</sic> uertice triplex,</l>
+            <l n="l394">Saecula, cum summo <sic n="sic">uaticani</sic> uertice triplex,</l>
             <l n="l395">Mellificabit apis. Neve unquam gloria magni</l>
             <l n="l396">Deficiat generis, uiuasque in stirpe, superstes,</l>
             <l n="l397">Post tua purpurei regnabunt fata nepotes,</l>
             <l n="l398">Virgineique iterum reuocabunt tempora mellis.</l>
             <l n="l399">Sic pia magnanimum compensant astra pudorem</l>
          </div>
-         <closer n="closer1">
-            <del n="del1">Superest secunda pars primi libri</del>
+         <closer>
+            <del n="del">Superest secunda pars primi libri</del>
          </closer>
       </body>
    </text>

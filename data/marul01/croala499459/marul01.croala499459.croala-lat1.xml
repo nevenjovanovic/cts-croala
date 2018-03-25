@@ -42,20 +42,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -114,11 +103,11 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:marul01.croala499459.croala-lat1:" xml:lang="lat" type="prosa">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula">
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
 
-            <opener n="opener1">Venerabili pręsbitero iurisque pontificii consulto Iacobo Grassolario, domino meo,
-     plurimum honorem. Venetiis. <salute n="salute1">Iacobo Grassolario, iuris pontificii consulto, Marcus
+            <opener n="opener">Venerabili pręsbitero iurisque pontificii consulto Iacobo Grassolario, domino meo,
+     plurimum honorem. Venetiis. <salute n="salute">Iacobo Grassolario, iuris pontificii consulto, Marcus
       Marulus salutem.</salute>
             </opener>
             <p n="p1">Frater meus Valerius istinc reuersus mihi retulit opus nostrum de imitatione Christi apud Te
@@ -140,9 +129,9 @@
      ab impręssoribus exscriptum absolutumque desiderant, et eo quidem magis, quia Tua cura Tuaque
      diligentia emendatissimum se habituros sperant. Siquid interim Marulus Tuus Tuis in rebus Tibi
      commodare poterit, libere ipso utere; dicto audientem inuenies. </p>
-            <closer n="closer1">
-               <salute n="salute1">Vale.</salute>
-               <dateline n="dateline1">Ex oppido Spalato, <date n="date1" when-iso="1515-04-26">anno Saluatoris MDXV, VI. Kalendas
+            <closer n="closer">
+               <salute n="salute">Vale.</salute>
+               <dateline n="dateline">Ex oppido Spalato, <date n="date" when-iso="1515-04-26">anno Saluatoris MDXV, VI. Kalendas
        Maias.</date>
                </dateline>
             </closer>

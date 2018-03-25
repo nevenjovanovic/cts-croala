@@ -46,16 +46,13 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1']/*[@n='$2'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -109,11 +106,11 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:naljesk01.croala897902.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" met="elegiacum">
+      <body xml:lang="lat">
+         <div n="div" met="elegiacum">
   
-            <milestone unit="page" n="milestone1"/>
-            <head n="head1" xml:lang="hr">Nadgrobnica d. Mavru Veteranu opatu teologu, astrologu i spievaocu izvrsnomu, koji preminu na dan svetoga Mavra opata na 15 gjenara 1576. Nikola Stjepka Nalješkovića složi.</head> 
+            <milestone unit="page"/>
+            <head n="head" xml:lang="hr">Nadgrobnica d. Mavru Veteranu opatu teologu, astrologu i spievaocu izvrsnomu, koji preminu na dan svetoga Mavra opata na 15 gjenara 1576. Nikola Stjepka Nalješkovića složi.</head> 
   
    
   
@@ -125,11 +122,11 @@
                <l n="l5" xml:lang="hr">kroz ke će njegov glas i slava i dike</l>
                <l n="l6" xml:lang="hr">do sudnji živjet' čas a duša u vike.</l> 
   
-               <note n="note1" xml:lang="hr">P. 37. u rukopisu je posljednja pod br. 57, a nadpisa nema, P. 38, u 
+               <note n="note" xml:lang="hr">P. 37. u rukopisu je posljednja pod br. 57, a nadpisa nema, P. 38, u 
     rukopisu stoji pod br. 52 iza poslanice koja je naštampana napried pod 
     br. 35. </note>
             </div>
-            <milestone unit="page" n="milestone2"/>
+            <milestone unit="page"/>
   
             <div n="div2" type="epigramma" met="hexameter">
                <l n="l1">Qui Mauro miseranda paras dare membra sepulcro</l>

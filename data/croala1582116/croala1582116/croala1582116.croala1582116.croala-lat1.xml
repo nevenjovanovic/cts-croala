@@ -46,17 +46,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -106,10 +98,10 @@ Početna verzija.
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:croala1582116.croala1582116.croala-lat1:" xml:lang="lat" type="poesis">
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="poesis-epica-versio" met="hexameter">
-            <gap n="gap1"/>
+      <body xml:lang="lat">
+         <pb/>
+         <div type="poesis-epica-versio" met="hexameter">
+            <gap/>
             <l n="l1">Et iam inter cumulos aggestae stragis, et ossa </l>
 
             <l n="l2">Othmanidum dux fertur equo, cura atra, dolorque, </l>
@@ -132,7 +124,7 @@ Početna verzija.
 
             <l n="l11">E patulis efflans fremitu sonat, et vomit ignem </l>
 
-            <pb n="pb1"/>
+            <pb/>
             <l n="l12">Fumifero sudore madens, dum saltibus ipsos</l>
 
             <l n="l13">Supra et equos, equitesque una glomerantibus instat!</l>
@@ -141,13 +133,13 @@ Početna verzija.
 
             <l n="l15">Avertit nequidquam oculos, et lumina claudens </l>
 
-            <l n="l16">Uda rigat <sic n="sic1">lacrymis</sic> late manantibus ora,</l>
+            <l n="l16">Uda rigat <sic n="sic">lacrymis</sic> late manantibus ora,</l>
 
             <l n="l17">Curarumque aestu magno torquetur in horas</l>
 
             <l n="l18">Acrius, aut consanguineos sibi funere raptos,</l>
 
-            <l n="l19">Aut cari <sic n="sic1">memorans</sic> confossum pectus amici.</l>
+            <l n="l19">Aut cari <sic n="sic">memorans</sic> confossum pectus amici.</l>
 
             <l n="l20">Iamque etiam cuperet frustra divertere calle,</l>
 
@@ -161,12 +153,12 @@ Početna verzija.
 
             <l n="l25">Esse recordanti poterat, vultusque suorum</l>
 
-            <l n="l26">Fortunasque, usumque olim, quos laedere <sic n="sic1">passim</sic>
+            <l n="l26">Fortunasque, usumque olim, quos laedere <sic n="sic">passim</sic>
             </l>
 
             <l n="l27">Cogitur invitus? Sic tota nocte, dieque</l>
 
-            <l n="l28">Invisum properabat iter, dum constitit <sic n="sic1">undas</sic>
+            <l n="l28">Invisum properabat iter, dum constitit <sic n="sic">undas</sic>
             </l>
 
             <l n="l29">
@@ -174,7 +166,7 @@ Početna verzija.
 
             <l n="l30">Post decimam lux alma etc. etc.</l>
 
-            <gap n="gap2"/>
+            <gap/>
          </div>
       </body>
   </text>

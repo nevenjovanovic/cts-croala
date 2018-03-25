@@ -44,20 +44,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -126,27 +115,27 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:marul01.croala1916936.croala-lat1:" xml:lang="lat" type="prosa">
-        <body xml:lang="lat" n="body1">
-            <div n="div1" type="prosa-epistula">
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
 
-                <opener n="opener1">
+                <opener n="opener">
                <persName n="persName1">Marcus Marulus</persName> uenerabili pręsbitero Brachiensi <persName n="persName2">Marco Prodich</persName> salutem </opener>
-                <p n="p1">Grata mihi fuere munera ab charissimo amico, fratre tuo, <persName n="persName1">Hieronymo</persName> allata, sed
+                <p n="p1">Grata mihi fuere munera ab charissimo amico, fratre tuo, <persName n="persName">Hieronymo</persName> allata, sed
                     pergratum mihi fuit audire te nauare operam ad instituendos in Dei timore et
                     informandos in humanioribus literis nepotes tuos. Nullum aliud opus magis Deo
                     acceptum et Christianę rei publicę utilius peragere potes. Perge ergo,
                     condiscipule amabilis, animo forti, ne Salonitanorum genus a maiorum uirtute
-                    desciscat. Vos quidem e <placeName n="placeName1">Salonę</placeName> urbe originem trahitis, quoniam, etsi post
+                    desciscat. Vos quidem e <placeName n="placeName">Salonę</placeName> urbe originem trahitis, quoniam, etsi post
                     miserabilem eius cladem plures illius nobiles familię hac in ciuitate se
                     locauere, plures itidem in ista insula substiterunt. Sed hęc tu probe noscis ex
                     monumentis in nostra adolescentia lectis, quę apud uos quoque extarent, nisi
-                    anno <date n="date1" from="1277-01-01" to="1277-12-31">
-                  <num n="num1" value="1277">MCCLXXVII</num>
+                    anno <date n="date" from="1277-01-01" to="1277-12-31">
+                  <num n="num" value="1277">MCCLXXVII</num>
                </date> in ista domo communi conflagrata ab Almissanis fuissent. </p>
                 <p n="p2">Pro muneribus acceptis et pro ipsa animi tui sedulitate grates tibi rependo
                     debitas. Nepotes ipsos meo nomine et hortatione saluta atque amicum tuum Marcum
                     orationibus adiuua. </p>
-                <closer n="closer1">Vale! <dateline n="dateline1">Spalati, <date n="date1" when-iso="1496-05-10">die X Maii, anno
+                <closer n="closer">Vale! <dateline n="dateline">Spalati, <date n="date" when-iso="1496-05-10">die X Maii, anno
                             MCCCCLXXXXVI.</date>
                </dateline>
             </closer>

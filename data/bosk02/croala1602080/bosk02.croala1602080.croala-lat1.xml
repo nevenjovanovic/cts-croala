@@ -49,33 +49,16 @@
                   </imprint>
                   <extent>16 pag. ; 8o</extent>
                </monogr>
-               <idno type="other">Xb * Jurić. Scriptores</idno>
-               <idno>NSK Zagreb RIIF-8o-1650</idno>
+               <note type="other">Xb * Jurić. Scriptores</note>
+               <note>NSK Zagreb RIIF-8o-1650</note>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -130,22 +113,22 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:bosk02.croala1602080.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-ecloga">
-            <head n="head1">P. ROGERII JOSEPHI BOSCOVICHII S. J. INTER ARCADES NUMENII ANIGRAEI 
+      <body xml:lang="lat">
+         <div type="poesis-ecloga">
+            <head n="head">P. ROGERII JOSEPHI BOSCOVICHII S. J. INTER ARCADES NUMENII ANIGRAEI 
       ECLOGA recitata in publico Arcadum consessu primo ludorum Olympicorum die quo die Mich. Joseph Moreius generalis Arcadiae custos illustrium poetarum Arcadum effigies formandas jaculorum ludo substituerat</head>
-            <list n="list1" type="personae">
+            <list n="list" type="personae">
                <item n="item1">Lycidas</item>
                <item n="item2">Tytirus</item>
             </list>
       
             <sp n="sp1">
-               <speaker n="speaker1">Lyc.</speaker>
+               <speaker n="speaker">Lyc.</speaker>
                <l n="l1">	Tytire, siste gradum, Lycidas vocat: o mihi sylvam,</l>
                <l n="l2">		Tytire, jamdudum frustra quaesite per omnem.</l>
             </sp>
             <sp n="sp2">
-               <speaker n="speaker1">Tyt.	</speaker>
+               <speaker n="speaker">Tyt.	</speaker>
                <l n="l1">Tune etiam huc, Lycida? Nec te tam longa viarum</l>
                <l n="l2">Taedia, nec genitrix tenuit dulcissima, nec te</l>
                <l n="l3">Parva soror, nec solae, ingens tua cura, capellae;					</l>
@@ -153,10 +136,10 @@
                <l n="l5">Opportuna lupis jam praeda voracibus errant.</l>
             </sp>
             <sp n="sp3">
-               <speaker n="speaker1">Lyc.</speaker>
+               <speaker n="speaker">Lyc.</speaker>
                <l n="l1">	Solus ego, Arcadiae extremis e finibus omnis</l>
                <l n="l2">Ad sacrum dum turba nemus volat agmine denso,</l>
-               <l n="l3">Namque imo ciet inclamans<note place="foot" n="note1">Myrhaeus enim, nimirum doctissimus Abbas Michael Joseph Morejus, nunc est tertius Generalis Arcadiae Custos. </note> Myrhaeus ab antro,				</l>
+               <l n="l3">Namque imo ciet inclamans<note place="foot" n="note">Myrhaeus enim, nimirum doctissimus Abbas Michael Joseph Morejus, nunc est tertius Generalis Arcadiae Custos. </note> Myrhaeus ab antro,				</l>
                <l n="l4">Tytire, solus, iners patria sub rupe manerem?</l>
                <l n="l5">Non ita praerupti genitum sub vertice montis,</l>
                <l n="l6">Heu puero, heu nimium raptus cito! durus Amyntas</l>
@@ -170,7 +153,7 @@
                <l n="l14">	O Lycida, mihi linque domum: sat adulta capellas,</l>
                <l n="l15">	Inquit, aget soror ad fontem, atque ad pascua tuta.</l>
                <l n="l16">	I tu, namque potes, juvenum quo confluit omnis</l>
-               <l n="l17">	Turba frequens, longosque novans<note place="foot" n="note1">Nam ludorum olympicorum celebratio per hosce postremos 27. annos penitus inter Arcades intermissa.</note> desueta per annos</l>
+               <l n="l17">	Turba frequens, longosque novans<note place="foot" n="note">Nam ludorum olympicorum celebratio per hosce postremos 27. annos penitus inter Arcades intermissa.</note> desueta per annos</l>
                <l n="l18">Festa agitat, variisque exercet corpora ludis.					</l>
                <l n="l19">I, Lycida, et memori sub pectore singula conde</l>
                <l n="l20">Observans, narrabis enim, quoque ordine, quique</l>
@@ -178,14 +161,14 @@
                <l n="l22">Quisque domum tulerit meritae data praemia palmae.</l>
             </sp>
             <sp n="sp4">
-               <speaker n="speaker1">Tyt.</speaker>
+               <speaker n="speaker">Tyt.</speaker>
                <l n="l1">	Scilicet hinc, Lycida, et jaculis oneratus acutis, 				</l>
                <l n="l2">Circumfers arcumque humero, pharetramque sonantem,</l>
                <l n="l3">Jamque animo annosae defixa in vertice pinus</l>
                <l n="l4">Signa petis, palma gestis jam victor adepta.</l>
             </sp>
             <sp n="sp5">
-               <speaker n="speaker1">Lyc.</speaker>
+               <speaker n="speaker">Lyc.</speaker>
                <l n="l1">	Haud equidem abnuerim; stimulos namque ipsa volenti</l>
                <l n="l2">	Addidit, et palmae genitrix incendit amore.					</l>
                <l n="l3">	Sume, inquit, nam prima dies, si rite vetusti</l>
@@ -205,7 +188,7 @@
                <l n="l17">En adsum, et jaculo certare paratus, et arcu.					</l>
             </sp>
             <sp n="sp6">
-               <speaker n="speaker1">Tyt.</speaker>
+               <speaker n="speaker">Tyt.</speaker>
                <l n="l1">Ante tamen, quam te jaculo certare paratum</l>
                <l n="l2">Myrhaeo, Lycida, sistas; spectare juvabit</l>
                <l n="l3">Et sedem, et tanti socios certaminis, atque</l>
@@ -217,7 +200,7 @@
                <l n="l9" xml:id="e59.1" next="#e59.2">Illa sacri sedes certaminis.</l>
             </sp>
             <sp n="sp7">
-               <speaker n="speaker1">Lyc</speaker>
+               <speaker n="speaker">Lyc</speaker>
                <l n="l1" xml:id="e59.2" prev="#e59.1">Haud moror. At quae,</l>
                <l n="l2">Tytire, quae rerum facies nova? Pendula ramis				</l>
                <l n="l3">Omnibus ora virum seu sculpto extantia buxo,</l>
@@ -240,9 +223,9 @@
                <l n="l20">Servati et longos mores abiere per annos?</l>
             </sp>
             <sp n="sp8">
-               <speaker n="speaker1">Tyt.</speaker>
+               <speaker n="speaker">Tyt.</speaker>
                <l n="l1">Di dederunt meliora boni. Myrhaeus avitos,</l>
-               <l n="l2">	O Lycida, mores mitescere jussit, agresti<note place="foot" n="note1">Mutavit nimirum ludorum olympicorum genus, et jaculis substituit illustrium Arcadum, qui jam obierint, effigies.</note>
+               <l n="l2">	O Lycida, mores mitescere jussit, agresti<note place="foot" n="note">Mutavit nimirum ludorum olympicorum genus, et jaculis substituit illustrium Arcadum, qui jam obierint, effigies.</note>
                </l>
                <l n="l3">Arcadiae ingenuas et providus intulit artes.</l>
                <l n="l4">Sic et qui steterat succis oleaster amaris</l>
@@ -290,7 +273,7 @@
                <l n="l46">Adjungat dextram: Arcadicis haec cura colonis</l>
                <l n="l47">Digna magis, longe et jaculorum dignior usus,				</l>
                <l n="l48">Haec nostros meliora decent certamina ludos.</l>
-               <l n="l49">Praemia digna dabo victoribus. Alphesibaei<note place="foot" n="note1">Primi nimirum Arcadiae Custodis Jo. Marii Crescimbeni</note>
+               <l n="l49">Praemia digna dabo victoribus. Alphesibaei<note place="foot" n="note">Primi nimirum Arcadiae Custodis Jo. Marii Crescimbeni</note>
                </l>
                <l n="l50">Illa manu primum quae consita laurus in auras</l>
                <l n="l51">Intonsum aerias tollit caput, illa virentes,</l>
@@ -306,7 +289,7 @@
                <l n="l61">Tu quoque vis, Lycida, et jaculo, et certare sagitta?</l>
             </sp>
             <sp n="sp9">
-               <speaker n="speaker1">Lyc.</speaker>
+               <speaker n="speaker">Lyc.</speaker>
                <l n="l1">Haud equidem tantum tribuo mihi, Tytire, dextra</l>
                <l n="l2">	Si jaculum vibrare gravi, si tendere nervos</l>
                <l n="l3">Cornibus adductis, arcuque sonante sagittam</l>
@@ -322,7 +305,7 @@
                <l n="l13">Signa notant, mille arcanis variata figuris.</l>
             </sp>
             <sp n="sp10">
-               <speaker n="speaker1">Tyt.</speaker>
+               <speaker n="speaker">Tyt.</speaker>
                <l n="l1">	Ah! Lycida, ah demens! Quid enim petis? Ante jugales</l>
                <l n="l2">Circumagat totum Phoebe variata per orbem</l>
                <l n="l3">Ore tumens iterum, atque iterum nova cornua sumens		</l>
@@ -333,12 +316,12 @@
                <l n="l8">Quaedam, alia, et longum poscunt abrupta laborem.			</l>
                <l n="l9">Ille, vides? nostris Myrhaeo in caetibus ille</l>
                <l n="l10">	Assidet usque comes, curasque exercet easdem</l>
-               <l n="l11">Immortale Achamas<note place="foot" n="note1">Joseph Brogius Arcadiae Procustos, qui 4. Summorum Pontificum effigies proponit, Alnani, sive Clementis XI., Aretalgi, sive Innocentii XIII., Lerimi, sive Clementis XII., et Theophili, sive Benedicti XIII., qui metri gratia, ob primam brevem hic nequaquam nominatur. Horum Pontificum stemmata nemo non novit, ea hic innuuntur.</note> nomen. Jam fixit in alto</l>
+               <l n="l11">Immortale Achamas<note place="foot" n="note">Joseph Brogius Arcadiae Procustos, qui 4. Summorum Pontificum effigies proponit, Alnani, sive Clementis XI., Aretalgi, sive Innocentii XIII., Lerimi, sive Clementis XII., et Theophili, sive Benedicti XIII., qui metri gratia, ob primam brevem hic nequaquam nominatur. Horum Pontificum stemmata nemo non novit, ea hic innuuntur.</note> nomen. Jam fixit in alto</l>
                <l n="l12">Alnanum, ac Lerimum ramo, vultumque Aretalgi,</l>
                <l n="l13">Quartum format adhuc fingens, et totus in illo est.			</l>
             </sp>
             <sp n="sp11">
-               <speaker n="speaker1">Lyc.</speaker>
+               <speaker n="speaker">Lyc.</speaker>
                <l n="l1">	Novi equidem: quis enim non nosceret? Extulit illos</l>
                <l n="l2">	Eductos campis silvestribus, extulit ingens</l>
                <l n="l3">		Divini aeternum virtus ad culmen honoris,</l>
@@ -353,14 +336,14 @@
                <l n="l12">Et rosa, et Ursinam signat quae fascia gentem,</l>
                <l n="l13">Nota sat et nostris in montibus: omnia nota</l>
                <l n="l14">Tantorum decora heroum, et tot grandia facta.</l>
-               <l n="l15">	Qui tamen hi, tela<note place="foot" n="note1">Tres hic exprimuntur sanctissimi et doctissimi viri, quos diu reluctantes e Coenobio ad purpuram vi pertraxit eodem omnes die Clemens XI. Sunt autem Alcidamus, sive Joseph Maria Tommasius, Filotheus, sive Jo. Baptista Ptolomaeus, Aretimus, sive Franciscus Maria Casinius, primus e Theatinorum familia, secundus e Soc. Jesu, tertius ex Ordine Cappuccinorum, omnes editis operibus et pietate celeberrimi. Eorum effigies proponit Riviscus, sive Antonius Gasparrius. Porro Aretimum et Filotheum a versu excludit metrum. </note> juvenis quos jungit in una,				</l>
+               <l n="l15">	Qui tamen hi, tela<note place="foot" n="note">Tres hic exprimuntur sanctissimi et doctissimi viri, quos diu reluctantes e Coenobio ad purpuram vi pertraxit eodem omnes die Clemens XI. Sunt autem Alcidamus, sive Joseph Maria Tommasius, Filotheus, sive Jo. Baptista Ptolomaeus, Aretimus, sive Franciscus Maria Casinius, primus e Theatinorum familia, secundus e Soc. Jesu, tertius ex Ordine Cappuccinorum, omnes editis operibus et pietate celeberrimi. Eorum effigies proponit Riviscus, sive Antonius Gasparrius. Porro Aretimum et Filotheum a versu excludit metrum. </note> juvenis quos jungit in una,				</l>
                <l n="l16">Pastores terni? Sacro distincta galero</l>
                <l n="l17">Frons rubet, et vasta perarata volumina mole</l>
                <l n="l18">Hinc atque hinc cumulata jacent. Proh quanta senili</l>
                <l n="l19">Ore sedet pietas! Qui pectore promicat ignis?</l>
             </sp>
             <sp n="sp12">
-               <speaker n="speaker1">Tyt.</speaker>
+               <speaker n="speaker">Tyt.</speaker>
                <l n="l1">O decus, o Latii numquam peritura senatus					</l>
                <l n="l2">Gloria! Vi raptos Alnanus paupere tecto</l>
                <l n="l3">Extulit hos, Lycida, simul, atque effulgere sacro</l>
@@ -369,18 +352,18 @@
                <l n="l6">Huic divinus amor merito dedit: exhibet illos					</l>
                <l n="l7">Riviscus, dotesque animi, doctosque labores</l>
                <l n="l8">Exprimit, ac telam o quanta levis arte colorat!</l>
-               <l n="l9">Benacum<note place="foot" n="note1">Hic enunciantur Benacus, sive Julius Caesar Grazzinus, Thyrsis, sive Jo. Baptista Zappius et Alaurus, sive Bernardinus Perfettius, versibus ex improviso recitatis celebres, quorum postremus in Capitolio solemni pompa et rarissimo exemplo coronatus est. Eorum et aliorum extemporalium poetarum effigies proponit Eurasius, sive Petrus Franciscus Versarius.</note> Eurasius, Thyrsimque, et format Alaurum.</l>
+               <l n="l9">Benacum<note place="foot" n="note">Hic enunciantur Benacus, sive Julius Caesar Grazzinus, Thyrsis, sive Jo. Baptista Zappius et Alaurus, sive Bernardinus Perfettius, versibus ex improviso recitatis celebres, quorum postremus in Capitolio solemni pompa et rarissimo exemplo coronatus est. Eorum et aliorum extemporalium poetarum effigies proponit Eurasius, sive Petrus Franciscus Versarius.</note> Eurasius, Thyrsimque, et format Alaurum.</l>
                <l n="l10">Ollis Phoebus adest, promptamque in carmina venam</l>
                <l n="l11">Sufficit, et subitos dat mille effundere versus.					</l>
                <l n="l12">Ipsa sua, qua se Capitoli immobile saxum</l>
                <l n="l13">Erigit, ipsa manu frontem praecingit Alauri</l>
                <l n="l14">Roma potens: plausus septem de Collibus Echo</l>
                <l n="l15">Congeminat, fluvioque fremit Tyberinus ab alto.</l>
-               <l n="l16">Navimbus<note place="foot" n="note1">Innuuntur jam alii nonnulli. Navimbus, sive Bonaventura Catranius effingit Uranium, sive Vincentium Leonium; Sisimber, sive Carolus de Sanctis, Polybum, sive Vincentium de Filicaja; Nevillus, sive Mutius Scevola, Eurindum, sive Franciscum Mariam Gasparrium; Carminius, sive P. Eduardus a S. Francisco Xav. Carmelit. Excalc., Amaranthum, sive Hieronymum Giglium.</note>, viden? Uranium, Polybumque Sisimber			</l>
+               <l n="l16">Navimbus<note place="foot" n="note">Innuuntur jam alii nonnulli. Navimbus, sive Bonaventura Catranius effingit Uranium, sive Vincentium Leonium; Sisimber, sive Carolus de Sanctis, Polybum, sive Vincentium de Filicaja; Nevillus, sive Mutius Scevola, Eurindum, sive Franciscum Mariam Gasparrium; Carminius, sive P. Eduardus a S. Francisco Xav. Carmelit. Excalc., Amaranthum, sive Hieronymum Giglium.</note>, viden? Uranium, Polybumque Sisimber			</l>
                <l n="l17">Sculpit, hic Eurindi vultum exprimit, ille Amaranthi.</l>
                <l n="l18">	Sed quid ego longinqua sequor, propiora relinquo? </l>
                <l n="l19">Huc geminas, huc flecte acies, hanc aspice telam,</l>
-               <l n="l20">		Qua magnum tanta pingens Locresius<note place="foot" n="note1">
+               <l n="l20">		Qua magnum tanta pingens Locresius<note place="foot" n="note">
                      <p n="p1">Hic jam Locresii, sive Flaminii Scarsellii celeberrimi et doctissimi viri Ode exponitur per summa capita, qua Acim sive Eustachium Manfredium proponit. Coeterorum argumenta tantummodo noveramus, hujus et carmen cultissimum nobis fuerat exhibitum; cujus ordinem retinuimus praecipuis breviter hic expressis. Porro ipse, ubi telae ideam effinxit, animi dotes coloribus nequaquam obnoxias versibus persequitur.</p>
                      <p n="p2">Eum autem proponit primo juris studia aversatum iratae Themide, tum subeuntem Coelum ad addiscendam Astronomiam computantem coelestes ephemerides sororibus adiuvantibus, observantem sydera, et eclipses, curantem Bononienses aquas, ac inter eas Rhenum, et Idigem usque adeo nunc quidem Bononiensibus funestos, ac demum innuit Britanniae et Galliae plausus tantum virum in suas Academias cooptantium.</p>
                   </note> Acin</l>
@@ -406,10 +389,10 @@
                <l n="l40">Hinc Thamesis celebrat laudes, hinc Sequana plaudit.</l>
             </sp>
             <sp n="sp13">
-               <speaker n="speaker1">Lyc.</speaker>
+               <speaker n="speaker">Lyc.</speaker>
                <l n="l1">Quale opus, o superi! Viva omnia, Tytire, credas.				</l>
-               <l n="l2">Qui tamen<note place="foot" n="note1">
-                     <p n="p1">Hic jam ad nostras effigies fit gradus. Innuitur Illustrissimus Praesul Franciscus Blanchinus. Is apud Arcades dicitur <foreign n="foreign1" xml:lang="it">Selvaggio</foreign>, quem ne <emph n="emph1">Sylvagium</emph> appellaremus, barbaries quaedam ejusmodi vocis vetuit.</p>
+               <l n="l2">Qui tamen<note place="foot" n="note">
+                     <p n="p1">Hic jam ad nostras effigies fit gradus. Innuitur Illustrissimus Praesul Franciscus Blanchinus. Is apud Arcades dicitur <foreign n="foreign" xml:lang="it">Selvaggio</foreign>, quem ne <emph n="emph">Sylvagium</emph> appellaremus, barbaries quaedam ejusmodi vocis vetuit.</p>
                      <p n="p2">	Porro is observationibus Astronomicis, ac Geographiae et Antiquitatis studio celeberrimus fuit. Venerem Campani vitro palmorum 140. observavit et semiplenam et falcatam sine tubo, ut in ejusmodi longitudine fieri solet, affixo procul objectivo vitro, quod ope fili dirigitur, ac oculari lente exiguo tubulo inclusa. Porro is maculas in Venere contemplatus censuit ejus <emph n="emph1">vertiginem </emph>admodum <emph n="emph2">lentam</emph> 25. diebus absolvi, quam Dominicus Cassinus censuit 24. horis breviorem. Iccirco adiecimus <emph n="emph3">lentum dubiae vertiginis orbem</emph>. Fuse de hac controversia Jacobus Cassinus in Elementis Astronomiae.</p>
                      <p n="p3">	Meridianae lineae ductum a Mari supero ad inferum per urbem Romam transeuntem definivit, crassos Geographorum errores corrigens. Eam inter ejus observationes Manfredius edidit post ejus obitum.</p>
                      <p n="p4">	Meridianam lineam ad observationes Astronomicas ineundas magnificentissimam construxit Romae in Chartusianorum aede apud Termas Diocletiani.</p>
@@ -430,7 +413,7 @@
                <l n="l15">Signa jacent dispersa solo, conscriptaque saxa.</l>
             </sp>
             <sp n="sp14">
-               <speaker n="speaker1">Tyt.</speaker>
+               <speaker n="speaker">Tyt.</speaker>
                <l n="l1">	Hic vir, hic est, Lycida. Non illo doctior alter					</l>
                <l n="l2">	Sydera scrutari, aut mensas describere terras,</l>
                <l n="l3">		Eruere aut altis veterum monumenta ruinis.</l>
@@ -446,8 +429,8 @@
                <l n="l13">Ah! ruit, et fractos praeceps alliditur artus.</l>
             </sp>
             <sp n="sp15">
-               <speaker n="speaker1">Lyc.</speaker>
-               <l n="l1">	Hic vero<note place="foot" n="note1">
+               <speaker n="speaker">Lyc.</speaker>
+               <l n="l1">	Hic vero<note place="foot" n="note">
                      <p n="p1">P. Guidonem Grandium hic proponimus summum geometram. Innuimus eius sectiones Conicas, Flores Geometricos et varia calculorum genera. Sectionum conicarum prima, nimirum ellipsis, in orbem redit, ac planetae et cometae omnes in eiusmodi orbe motus suos peragunt. Secunda, nimirum parabola, unicum habet ramum, quo in infinitum protenditur binis cruribus in eandem plagam tendentibus: eam gravia corpora describunt oblique proiecta. Tertia, sive hyperbola binos habet ramos oppositos, quorum singuli in infinitum protenduntur binis cruribus. Eius plurimi sunt usus per omnem mathesim longe lateque dispersi.</p>
                      <p n="p2">	Flores autem geometricos Grandius inscripsit elegantissimum opusculum, quo curvas geometricas definivit nonnullas exhibentes florum folia et varios foliorum ordines.</p>
                   </note> nivea effulgens in veste Sacerdos</l>
@@ -463,7 +446,7 @@
                <l n="l11" xml:id="e263.1" next="#e263.2">Alter in hac...</l>
             </sp> 
             <sp n="sp16">
-               <speaker n="speaker1">Tyt.</speaker> 
+               <speaker n="speaker">Tyt.</speaker> 
                <l n="l1" xml:id="e263.2" prev="#e263.1">Quo te, Lycida, tuus abripit ardor?</l>
                <l n="l2">Tempus abit. Tela mihi stat Dubenus in illa,</l>
                <l n="l3">Ausoniae Dubenus honos, et gloria prima</l>
@@ -477,11 +460,11 @@
                <l n="l11">Hic certo calami ductu descripsit odori</l>
                <l n="l12">Veris opes: numeris hic mille arcana, notisque</l>
                <l n="l13">Naturae educta e penetralibus eruit imis. </l>
-               <l n="l14">Illa<note place="foot" n="note1">Nonnullos alios hic innuimus mathematicos ac philosophos, Heronem, sive Vincentium Vivianum, Epidaurum, sive Georgium Baglivium, non quidem Aletiensem, sed ex Ragusino patre Ragusii natum, adeoque Ragusinum, ex Armeniorum familia, qui aletium a P. Michaele Mondegajo Soc. Jesu poeta celeberrimo evocatus a Baglivio ibi medicinam exercente educatus et haeres ex asse institutus familiae nomen commutavit; Ursachium, sive Xaverium Pansutum; Didalmum, sive P. Abb. Didacum Revillas.</note> Hero, ast illa incisus mihi parte Epidaurus:				</l>
+               <l n="l14">Illa<note place="foot" n="note">Nonnullos alios hic innuimus mathematicos ac philosophos, Heronem, sive Vincentium Vivianum, Epidaurum, sive Georgium Baglivium, non quidem Aletiensem, sed ex Ragusino patre Ragusii natum, adeoque Ragusinum, ex Armeniorum familia, qui aletium a P. Michaele Mondegajo Soc. Jesu poeta celeberrimo evocatus a Baglivio ibi medicinam exercente educatus et haeres ex asse institutus familiae nomen commutavit; Ursachium, sive Xaverium Pansutum; Didalmum, sive P. Abb. Didacum Revillas.</note> Hero, ast illa incisus mihi parte Epidaurus:				</l>
                <l n="l15">Ursacchi hinc vultus pendent, hinc ora Didalmi,</l>
                <l n="l16">Illum ebore, hunc pario sculptum de marmore finxi.</l>
                <l n="l17">Nil tamen haec perfecta moror: mea maxima cura</l>
-               <l n="l18">	Pastor Achemenides<note place="foot" n="note1">Achemenides, sive P. Horatius Burgundius Soc. Jesu, Mathesim fere per 30 annos Romae in Romano Collegio publice docuit, frequenti auditorum concursu, inter quo et me Mathematicis disciplinis instruxit, quem et successorem sibi dedit renunciatus Collegii Romani Rector. Mentionem hic facimus hujus ipsius muneris Mathesim docendi, quo tandiu est functus, regiminis Collegii ipsius, et 4 poematum de volatu, de natatu, de incessu, ac de motu sanguinis , quae inter Arcadum illustrium carmina prostant.</note> tabula pingendus in ampla</l>
+               <l n="l18">	Pastor Achemenides<note place="foot" n="note">Achemenides, sive P. Horatius Burgundius Soc. Jesu, Mathesim fere per 30 annos Romae in Romano Collegio publice docuit, frequenti auditorum concursu, inter quo et me Mathematicis disciplinis instruxit, quem et successorem sibi dedit renunciatus Collegii Romani Rector. Mentionem hic facimus hujus ipsius muneris Mathesim docendi, quo tandiu est functus, regiminis Collegii ipsius, et 4 poematum de volatu, de natatu, de incessu, ac de motu sanguinis , quae inter Arcadum illustrium carmina prostant.</note> tabula pingendus in ampla</l>
                <l n="l19">	Sollicitum tenet, o Lycida, mentemque, animumque			</l>
                <l n="l20">	Ad sese rapit, et calamos, dextramque reposcit.</l>
                <l n="l21">Ille olim sanctae correptum ad templa Mathesis</l>
@@ -527,7 +510,7 @@
                <l n="l61">Inductis demum fucis, noctesque, diesque</l>
                <l n="l62">Tecum adero, alternoque horas sermone trahemus.</l>
             </sp>
-            <closer n="closer1">LAUS DEO</closer>
+            <closer n="closer">LAUS DEO</closer>
          </div>    
       </body>
   </text>

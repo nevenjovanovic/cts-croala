@@ -41,17 +41,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -98,11 +90,11 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:kozic01.croala1798792.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="epistula">
-            <head n="head1">SIMON BEGNIVS, EPISCOPVS MODRVSIENSIS, LECTORIBVS BENE VIVERE</head>
-            <p n="p1">Reuoluenti mihi sacrae theologiae uolumina in bibliotheca reuerendissimi patris Marci Vigerii, episcopi Praenestini, cardinalis Senogalliensis, ut suis illa locis coaptarem – quemadmodum ipse me facere uoluerat – ad manus uenit <bibl n="bibl1">Controuersia super cultu instrumentorum Dominicae passionis,</bibl> per ipsum Marcum cardinalem non minus eloquenter quam docte ac grauiter discussa. Vtque primum librum aperui, accensus est animus de nouo dubio siue problemate antiquam et piam perspicere ueritatem, multis dudum ambiguam et quam plurimos fugientem, qui theologiam non obscure profitentur. Cum autem legere coepissem, quo progrediebar interius, rapiebar cum delectatione ardentius ad legendum. Experiebar sane, quod secundo ac placido flumine nantibus euenire solet, quibus, quanto altiore ac uelociore unda feruntur, maior nandi facilitas et delectatio ex labore concrescunt. Ita, ubi ad dimidiam fere operis partem perueni, ad legendum usque in finem exarsi. Quod cum fecissem, in id ipsum me iterum atque iterum accinxi. Et eius rei gratia uolumen ipsum domum detuli mecumque integrum mensem manere iussi. Vbi perlegi saepius omnia, solam operis breuitatem indolui, quam apud uos quoque accusarem, nisi de omnibus, quae proponit, animum haesitantem a principio plene quietum in fine dimitteret atque iucundum. Visus sum mihi lucrifecisse non parum ex hac lectione. Et ne auaritiae (quam detestor) locum darem, hoc lucrum meum commune uobiscum facere (per impressorum operam) constitui. Qua in re si gratificatus uobis (ut spero et certus sum) fuero, lucrum hoc meum auctum existimabo.</p>
-            <closer n="closer1">Valete et legite foeliciter relligionis nostrae fundamenta solide non minus quam expolite ac plane elaborata.</closer> 
+      <body xml:lang="lat">
+         <div type="epistula">
+            <head n="head">SIMON BEGNIVS, EPISCOPVS MODRVSIENSIS, LECTORIBVS BENE VIVERE</head>
+            <p n="p">Reuoluenti mihi sacrae theologiae uolumina in bibliotheca reuerendissimi patris Marci Vigerii, episcopi Praenestini, cardinalis Senogalliensis, ut suis illa locis coaptarem – quemadmodum ipse me facere uoluerat – ad manus uenit <bibl n="bibl">Controuersia super cultu instrumentorum Dominicae passionis,</bibl> per ipsum Marcum cardinalem non minus eloquenter quam docte ac grauiter discussa. Vtque primum librum aperui, accensus est animus de nouo dubio siue problemate antiquam et piam perspicere ueritatem, multis dudum ambiguam et quam plurimos fugientem, qui theologiam non obscure profitentur. Cum autem legere coepissem, quo progrediebar interius, rapiebar cum delectatione ardentius ad legendum. Experiebar sane, quod secundo ac placido flumine nantibus euenire solet, quibus, quanto altiore ac uelociore unda feruntur, maior nandi facilitas et delectatio ex labore concrescunt. Ita, ubi ad dimidiam fere operis partem perueni, ad legendum usque in finem exarsi. Quod cum fecissem, in id ipsum me iterum atque iterum accinxi. Et eius rei gratia uolumen ipsum domum detuli mecumque integrum mensem manere iussi. Vbi perlegi saepius omnia, solam operis breuitatem indolui, quam apud uos quoque accusarem, nisi de omnibus, quae proponit, animum haesitantem a principio plene quietum in fine dimitteret atque iucundum. Visus sum mihi lucrifecisse non parum ex hac lectione. Et ne auaritiae (quam detestor) locum darem, hoc lucrum meum commune uobiscum facere (per impressorum operam) constitui. Qua in re si gratificatus uobis (ut spero et certus sum) fuero, lucrum hoc meum auctum existimabo.</p>
+            <closer n="closer">Valete et legite foeliciter relligionis nostrae fundamenta solide non minus quam expolite ac plane elaborata.</closer> 
          </div>
       </body>
   </text>

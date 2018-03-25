@@ -39,17 +39,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -95,16 +87,16 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:vramecd1e1905.croala780505.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
+      <body xml:lang="lat">
          
-         <div n="div1" type="poesis-epigramma" met="elegiacum">
+         <div type="poesis-epigramma" met="elegiacum">
             <l n="l1">
                <placeName n="placeName1">Styria</placeName> me genuit nutruit sacra <placeName n="placeName2">Vienna</placeName>
             </l>
             <l n="l2" met="pentameter">Mortales docui sacra tenere iura.</l>
-            <closer n="closer1">
-               <signed n="signed1">Antonius Vramez</signed> 
-               <date n="date1" when="1559">1.5.5.9</date>
+            <closer n="closer">
+               <signed n="signed">Antonius Vramez</signed> 
+               <date n="date" when="1559">1.5.5.9</date>
             </closer>
          </div>
       </body>

@@ -42,20 +42,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -107,26 +96,26 @@
         
     </teiHeader>
    <text xml:base="urn:cts:croala:vranc03.croala499911.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1" type="prosa-epistula"> 
-            <opener n="opener1">
-               <salute n="salute1">Salutem et felicitatem.</salute>
+      <body xml:lang="lat">
+         <pb/>
+         <div type="prosa-epistula"> 
+            <opener n="opener">
+               <salute n="salute">Salutem et felicitatem.</salute>
             </opener>
             <p n="p1">Hodie cum essem in prandio apud magnificum dominum oratorem Venetum, dedit mihi hasce litteras ad dominationem vestram reverendissimam sonantes, puto eas esse Dumnensis illius, quantum ex sigillo percipere potui. Porro ipse dominus orator se et officia sua plurimum commendat ei, et nescio quid mihi de romana legatione attigit, quod quidem et ab aliis quibusdam in aula audio dici aliquando.</p> 
             <p n="p2">
-            Hoc anno fiunt ubique maximi apparatus. Turca emittit 130 triremium classem; Venetus 80; rex Philippus naves rotundas armatas 60, praeterea contra Gallum numerosissimum exercitum. Idem Gallus contra tam equitatu quam peditatu ferme par viribus accedit. Inter alia fertur in Francia tam magnam multitudinem Lutheranorum inundasse, ut jam frustra jure animadverti in eos conentur, unde regi fit majus ferme negotium quam ab <sic n="sic1">esterno</sic> hoste. Exspectantur oratores congratulatorii ab omnibus 
-            <pb n="pb1"/>
+            Hoc anno fiunt ubique maximi apparatus. Turca emittit 130 triremium classem; Venetus 80; rex Philippus naves rotundas armatas 60, praeterea contra Gallum numerosissimum exercitum. Idem Gallus contra tam equitatu quam peditatu ferme par viribus accedit. Inter alia fertur in Francia tam magnam multitudinem Lutheranorum inundasse, ut jam frustra jure animadverti in eos conentur, unde regi fit majus ferme negotium quam ab <sic n="sic">esterno</sic> hoste. Exspectantur oratores congratulatorii ab omnibus 
+            <pb/>
             christianis principibus: Serenissimus autem rex Maximilianus perendie proficiscetur ad aquas calidas non longe ab hinc, ubi circiter unum mensem moraturus dicitur.
         </p>
             <p n="p3">
             Si dominatio vestra reverendissima ad hanc imperialem vocationem ventura huc est, praemittat aliquem ex suis cum instructione, ut praeparentur necessaria tam pro jumentis quam hominibus, nam de hospitio secura est. Si quid interim colligerim dignum scitu, dabitur opera, ut habeat. 
         </p>
-            <closer n="closer1">
-               <salute n="salute1">Salutet meo nomine omnem familiam suam una salute.</salute>
-               <dateline n="dateline1">Ex Vienna <date n="date1" when="1558-04-29">29. Aprilis 1558.</date>
+            <closer n="closer">
+               <salute n="salute">Salutet meo nomine omnem familiam suam una salute.</salute>
+               <dateline n="dateline">Ex Vienna <date n="date" when="1558-04-29">29. Aprilis 1558.</date>
                </dateline>
-               <signed n="signed1">Michael Verancius frater et servitor.</signed>
+               <signed n="signed">Michael Verancius frater et servitor.</signed>
             </closer>
          </div>
       </body>

@@ -41,29 +41,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -112,34 +92,34 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:zrinski16616207.croala511198.croala-lat1:" xml:lang="lat" type="prosa-oratio">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula">
-            <opener n="opener1">
-               <address n="address1">
-                  <addrLine n="addrLine1">
-                     <ref n="ref1">Prudenti et circumspecto ac nobili domino <persName n="persName1">Dominico
+      <body xml:lang="lat">
+         <div type="prosa-epistula">
+            <opener n="opener">
+               <address n="address">
+                  <addrLine n="addrLine">
+                     <ref n="ref">Prudenti et circumspecto ac nobili domino <persName n="persName">Dominico
                            Zlatariich</persName>, civi civitatis liberae Ragusiensis, amico nobis
-                        honorando</ref>. <placeName n="placeName1">Ragusii</placeName>
+                        honorando</ref>. <placeName n="placeName">Ragusii</placeName>
                   </addrLine>
                </address>
-               <signed n="signed1">
-                  <expan n="expan1">
-                     <persName n="persName1">Zrinius</persName> comes</expan>.</signed>
-               <salute n="salute1">Prudens et circumspecte ac nobilis domine, amice nobis benevole et
+               <signed n="signed">
+                  <expan n="expan">
+                     <persName n="persName">Zrinius</persName> comes</expan>.</signed>
+               <salute n="salute">Prudens et circumspecte ac nobilis domine, amice nobis benevole et
                   honorande.</salute>
             </opener>
-            <p n="p1">Salutem plurimam et amicitiae nostrae singularem commendationem. <ref n="ref1">Anno tertio
+            <p n="p">Salutem plurimam et amicitiae nostrae singularem commendationem. <ref n="ref">Anno tertio
                   proxime elapso</ref> libellum quendam Dalmatico idiomate conscriptum nobisque abs
                Tua dominatione, scientia litterarum veraque virtutum nobilitate ornatissima,
                dedicatum atque missum eo quo decuit grato nimirum animo recepimus. Sed quia illo
                temporis articulo per hostes christiani nominis perpetuos fortissimum uligine
-               propugnaculum, puta <placeName n="placeName1">Canisa</placeName>, quae huic <sic n="sic1">ditioni</sic> nostrae quam
+               propugnaculum, puta <placeName n="placeName">Canisa</placeName>, quae huic <sic n="sic">ditioni</sic> nostrae quam
                proxime adiacet, capta est, eoque ex tempore nonnisi arma tractare licuit, libellum
                certe relegere haud potuimus, nam, ut verissime aiunt, <persName n="persName1">Musae</persName>
                inter arma silent. Ideo gratum illud sane munus hactenus non cognitum habuimus, nunc
                vero, nacta occasione relegendi, perlustratum longe gratissimum habemus. Huic
                accedit, quod etiam familiarem nostrum primarium, egregium videlicet <persName n="persName2">Petrum
-                  Subich de <app n="app1">
+                  Subich de <app n="app">
                      <rdg n="rdg1">Peonia</rdg>
                      <rdg n="rdg2" wit="B">Pernia</rdg>
                   </app>
@@ -147,21 +127,21 @@
                humanitate eadem exceperit. His igitur de causis visum est nobis, ut Tuae dominationi
                prudentissimae hoc tuum erga nos studium cum singulari amore coniunctum nobis esse
                gratissimum hisce litteris nostris testaremur, et hac occasione ut eandem peteremus,
-               ut vicissim, si qua nova <add n="add1" resp="SK">carmina</add> habuerit, nobiscum communicare
+               ut vicissim, si qua nova <add n="add" resp="SK">carmina</add> habuerit, nobiscum communicare
                velit, quod nos eidem maiori specimine amicitiae refundere satagemus, modo nos tuto
                requirat, si quando nostra familiaritate uti voluerit tua dominatio, quam diu et
                feliciter valere optamus.</p>
 
-            <closer n="closer1">
-               <dateline n="dateline1">Datae in <ref n="ref1">arce nostra <placeName n="placeName1">
-                        <app n="app1">
+            <closer n="closer">
+               <dateline n="dateline">Datae in <ref n="ref">arce nostra <placeName n="placeName">
+                        <app n="app">
                            <rdg n="rdg1">Chiaktorniae</rdg>
                            <rdg n="rdg2" wit="B">Chiaktorn</rdg>
                         </app>
                      </placeName>
                   </ref>
-                  <date n="date1">die XXVI Augusti anno MDCII</date>.</dateline>
-               <signed n="signed1">Dominationis vestrae amicus singularis <persName n="persName1">Georgius comes de
+                  <date n="date">die XXVI Augusti anno MDCII</date>.</dateline>
+               <signed n="signed">Dominationis vestrae amicus singularis <persName n="persName">Georgius comes de
                      Zrijn</persName>.</signed>
             </closer>
 

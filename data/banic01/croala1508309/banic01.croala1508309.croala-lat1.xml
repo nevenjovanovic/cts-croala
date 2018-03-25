@@ -43,20 +43,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -114,26 +103,26 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:banic01.croala1508309.croala-lat1:" xml:lang="lat" type="prosa">
     
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="prosa-epistula" corresp="#banicevicpirckheymer15240302">
-            <opener n="opener1">
-               <address n="address1">
-                  <addrLine n="addrLine1">Magnifico et prestantissimo domino Wilibaldo Pirckheymer patricio nurmbergensi, domino meo honorando.</addrLine>
+      <body xml:lang="lat">
+         <div type="prosa-epistula" corresp="#banicevicpirckheymer15240302">
+            <opener n="opener">
+               <address n="address">
+                  <addrLine n="addrLine">Magnifico et prestantissimo domino Wilibaldo Pirckheymer patricio nurmbergensi, domino meo honorando.</addrLine>
                </address>
-               <abbr n="abbr1">+ IC XC</abbr>
+               <abbr n="abbr">+ IC XC</abbr>
             
             </opener>    
-            <p n="p1">Magnifice et prestantissime domine, tam gratae mihi fuerunt litterae dominationis vestrae, quam spero fore mihi salutaria remedia, quae <abbr n="abbr1">d.a</abbr> vestra in eis describit, ad recuperandum gressus meos.  Quibus iam approbantibus medicis utor, qui tamen subtraxerunt spodium et dimidium camphorae, quae ego restituere intendo, cum nondum sit compressus fervor ille rennum. Licet vix quadriduo ante ceperim inungi, et tamen aliquantisper sublevor. Quodsi restituar, quod faxit deus, me <abbr n="abbr2">d.i v.ae</abbr> et pedes et manud et caput ipsum deberi fatebor. Quid autem ei retribuam pro tam salutari re, non habeo, nisi quod rogo supplex omnipotentem deum, ut sibi illam optimam valitudinem tribuat, quam mihi ipsi exopto et semper eam uti deum meum tutellarem venerabor. Accedit huic ingenti suo in me beneficio amor et benivolentia, qua dominum Hieronymum <sic n="sic1">Roraium</sic>
-               <note n="note1" resp="eds">[Hieronymus Rorarius, camerarius pontificalis, Norimbergae adest a medio mense Ianuario 1524.]</note> intuitu meo complectitur et me lucubrationum suarum pulcherrimo munere donat.
-        <pb n="pb1"/>
+            <p n="p1">Magnifice et prestantissime domine, tam gratae mihi fuerunt litterae dominationis vestrae, quam spero fore mihi salutaria remedia, quae <abbr n="abbr1">d.a</abbr> vestra in eis describit, ad recuperandum gressus meos.  Quibus iam approbantibus medicis utor, qui tamen subtraxerunt spodium et dimidium camphorae, quae ego restituere intendo, cum nondum sit compressus fervor ille rennum. Licet vix quadriduo ante ceperim inungi, et tamen aliquantisper sublevor. Quodsi restituar, quod faxit deus, me <abbr n="abbr2">d.i v.ae</abbr> et pedes et manud et caput ipsum deberi fatebor. Quid autem ei retribuam pro tam salutari re, non habeo, nisi quod rogo supplex omnipotentem deum, ut sibi illam optimam valitudinem tribuat, quam mihi ipsi exopto et semper eam uti deum meum tutellarem venerabor. Accedit huic ingenti suo in me beneficio amor et benivolentia, qua dominum Hieronymum <sic n="sic">Roraium</sic>
+               <note n="note" resp="eds">[Hieronymus Rorarius, camerarius pontificalis, Norimbergae adest a medio mense Ianuario 1524.]</note> intuitu meo complectitur et me lucubrationum suarum pulcherrimo munere donat.
+        <pb/>
         Iis me continue magis constringit <abbr n="abbr3">d. v.</abbr>, quam enixius obsecro, ut abactis in maximam malam crucem Eckiis, Hochstratibus, Lutheris et iis similibus continuo insistat suo optimo et pulcherrimo instituto et studiis et eruditione sua (quibus sibi immortale nomen et aeternam gloriam comparat) et viventibus et posteris consulat et talentum sibi traditum non in terra subfodiat, id est cum illis rabulis contendat, sed cum eo pluribus proficiat, sicuti hactenus fecit, et aedita Ptolomei Geographia, quam enixius videre cupio, ad similia acumen ingenii et lucubrationes suas convertat.
     </p>
             <p n="p2">
-        Unde per Adrianum impie detrusus fueram, a Clemente VII. clementer restitutus sum. Sed non desunt errumnae. Iam ad sextum mensem hic obsidemur constituti in magnis dificultatibus et ingenti discrimine. Aderit tamen, speramus, aliquando deus propitius nobis et superatis hostibus respirare licebit. Ego autem tantum cupio satisfacere <abbr n="abbr1">d.i v.ae</abbr> et mandatis ipsius obsequi, quantum salutem et incolumitatem meam. Cui me ex animo commendo et quam foelicissime valere cupio.
+        Unde per Adrianum impie detrusus fueram, a Clemente VII. clementer restitutus sum. Sed non desunt errumnae. Iam ad sextum mensem hic obsidemur constituti in magnis dificultatibus et ingenti discrimine. Aderit tamen, speramus, aliquando deus propitius nobis et superatis hostibus respirare licebit. Ego autem tantum cupio satisfacere <abbr n="abbr">d.i v.ae</abbr> et mandatis ipsius obsequi, quantum salutem et incolumitatem meam. Cui me ex animo commendo et quam foelicissime valere cupio.
     </p> 
-            <closer n="closer1">
-               <dateline n="dateline1">Mediolani <date n="date1">die II. Martii anno domini MDXXIIII</date>.</dateline> 
-               <signed n="signed1">Egregiae, magnificae et prestantissimae <abbr n="abbr1">d.is v.ae</abbr> semper ad vota deditissimus Iacobus de Bannissis.</signed>
+            <closer n="closer">
+               <dateline n="dateline">Mediolani <date n="date">die II. Martii anno domini MDXXIIII</date>.</dateline> 
+               <signed n="signed">Egregiae, magnificae et prestantissimae <abbr n="abbr">d.is v.ae</abbr> semper ad vota deditissimus Iacobus de Bannissis.</signed>
             </closer>
  
          </div>

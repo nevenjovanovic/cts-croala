@@ -51,20 +51,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -133,20 +122,20 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:berisl01.croala23846.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
-                <milestone n="milestone1" unit="page"/>
-                <head n="head1">I/1. <date n="date1" when="1518-04-10">1518. 10. Aprilis</date>, Zlobochynae Petrus Berislavus episcopus Vespriminensis
-                    Leoni papae X. <note n="note1" resp="BJ">Segr. Stato, Principi, 5, f. 162., 165v. Sigillo
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
+                <milestone unit="page"/>
+                <head n="head">I/1. <date n="date" when="1518-04-10">1518. 10. Aprilis</date>, Zlobochynae Petrus Berislavus episcopus Vespriminensis
+                    Leoni papae X. <note n="note" resp="BJ">Segr. Stato, Principi, 5, f. 162., 165v. Sigillo
                         annulari. Editio: FRAKNÓI–LUKCSICS 1896–1907, IV, p. 251–253.</note>
                 </head>
 
 
-                <opener n="opener1">Sanctissimo ac beatissimo domino nostro Leoni pape, domino meo
+                <opener n="opener">Sanctissimo ac beatissimo domino nostro Leoni pape, domino meo
                     clementissimo</opener>
 
 
-                <p n="p1">Sanctissime ac Beatissime Pater et Domine, Domine mihi Clementissime! Pedum
+                <p n="p">Sanctissime ac Beatissime Pater et Domine, Domine mihi Clementissime! Pedum
                     Sanctitatis Vestre beatorum et mei devotionisque mee humillimam commendationem
                     ad pedes Sanctitatis Vestre. Beatissime Pater! Nudius quartus accepi breve
                     Sanctitatis Vestre, quibus scribit inter omnes alias curas, que mentem suam
@@ -174,7 +163,7 @@
                     absumptis non video, quo pacto illa defendere queam, quum et serenissimus
                     dominus rex meus regnique proceres, ut ipsi aiunt, defensioni eorundem non
                     sufficiant, et Sanctitas Vestra suppetias auxiliaque sua usque ad generalem
-                        <milestone n="milestone1" unit="page"/> expedicionem differt. Audivi cognovique, Beatissime
+                        <milestone unit="page"/> expedicionem differt. Audivi cognovique, Beatissime
                     Pater, tum ex breve Sanctitatis Vestre, tum ex aliorum litteris abunde, quo
                     studio, qua cura quantaque animi aviditate sanctissimam expedicionem sollicitet,
                     sed vereor, ne aut ob principum Christianorum discordias non sequatur, aut
@@ -190,7 +179,7 @@
                     subveniat opemque ferat, neque, quemadmodum sese facturam scribit, exitum rei de
                     ipsa expedicione expectet. Nam, si id fecerit, vereor, ne, quod premisi, in
                     manus hostium deveniant. Quod si futurum est (quod Deus Optimus Maximus
-                    avertat), non solum victorias Sanctitatis Vestre vel <sic n="sic1">immorabuntur,</sic>
+                    avertat), non solum victorias Sanctitatis Vestre vel <sic n="sic">immorabuntur,</sic>
                     verum etiam forte ipsam expeditionem frustrabunt. Ita sunt loca pleraque non
                     manu modo, sed etiam natura munita, ut vix ulla vis hominum, ut ipsi castra
                     tenere solent, illa expugnare possit, quemadmodum etiam antea Beatissimi Vestre
@@ -211,15 +200,15 @@
                     supplico, quoniam, si amittentur, non minorem cladem calamitatemque
                     Christianitati sunt allatura, quam olim amissio Constantinopolitani imperii
                     attulerat.</p>
-                <closer n="closer1">
-               <salute n="salute1">Commendo me et devocionem meam ad pedes Sanctitatis Vestre, quam
+                <closer n="closer">
+               <salute n="salute">Commendo me et devocionem meam ad pedes Sanctitatis Vestre, quam
                         Deus Optimus Maximus pro Christiane religionis incremento multos annos
                         felicissimum conservet.</salute>
-                    <dateline n="dateline1">Ex Zlobochyna, Xa Aprilis MDXVIIIo.</dateline>
-                    <signed n="signed1">Eiusdem Sanctitatis Vestre¸ humilllimus et devotus creatura
-                            <expan n="expan1">Petrus</expan> Vespremiensis</signed>
+                    <dateline n="dateline">Ex Zlobochyna, Xa Aprilis MDXVIIIo.</dateline>
+                    <signed n="signed">Eiusdem Sanctitatis Vestre¸ humilllimus et devotus creatura
+                            <expan n="expan">Petrus</expan> Vespremiensis</signed>
             </closer>
-                <note n="note1" resp="BJ">Annotatio: Responsio: Arm. XLIV, 5, f. 211v. Editio: NANNI 1992, n.
+                <note n="note" resp="BJ">Annotatio: Responsio: Arm. XLIV, 5, f. 211v. Editio: NANNI 1992, n.
                     1008.</note>
 
 

@@ -47,19 +47,10 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1']/*[@n='$2'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -113,16 +104,16 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:milecij01.croala1676024.croala-lat1:" xml:lang="lat" type="poesis">
-      <body xml:lang="lat" n="body1">
-        <milestone unit="page" n="milestone1"/>
-            <div n="div1" type="poesis-historia">
-                <head n="head1">II.</head>
+      <body xml:lang="lat">
+        <milestone unit="page"/>
+            <div type="poesis-historia">
+                <head n="head">II.</head>
                 <div n="div1" type="poesis-historia-fragmentum">
-                    <head n="head1">(1)</head>
+                    <head n="head">(1)</head>
                     <l n="l1">Urbi Epidauro nomen donavit et esse</l>
                     <l n="l2">Temporibus Moysis fugiens Epidaurus Aegypto</l>
                     <l n="l3">Quam signis visis perituram noverat urbem.</l>
-                    <milestone unit="page" n="milestone1"/>
+                    <milestone unit="page"/>
                     <l n="l4"> Quidam Romani, destructa sic Epidauro,</l>
                     <l n="l5"> Bellum civile fugientes forte subintrant</l>
                     <l n="l6"> Portum Dalmatiae, qui Gravosius vocatur. </l>
@@ -142,7 +133,7 @@
                 </div>
 
                 <div n="div2" type="poesis-historia-fragmentum">
-                    <head n="head1">(2)</head>
+                    <head n="head">(2)</head>
                     <l n="l1"> Ad decus et laudem Stephani protomartyris extat</l>
                     <l n="l2"> Castellum, et templum fundant et corpora condunt </l>
                     <l n="l3"> Sanctorum, quorum sunt nomina scripta, subaudi </l>
@@ -151,11 +142,11 @@
                 </div>
 
                 <div n="div3" type="poesis-historia-fragmentum">
-                    <head n="head1">(3)</head>
+                    <head n="head">(3)</head>
                     <l n="l1"> Non multis post haec facta labentibus annis</l>
                     <l n="l2"> Quidam nauclerius, qui Fruntius est vocitatus, </l>
                     <l n="l3"> A castro, Straulum quod dicitur, urbis Aegeae,</l>
-                    <milestone unit="page" n="milestone1"/>
+                    <milestone unit="page"/>
                     <l n="l4"> Urbem Ragusam cum Zenobio Zenobiam</l>
                     <l n="l5"> Transtulit. Hic praesul, haec virgo, martyr uterque,</l>
                     <l n="l6"> Quos Nicophorus pastor metropolis huius,</l>
@@ -164,34 +155,34 @@
                     <l n="l9"> Cum prece, cum psalmis, cum laudis honore locarunt </l>
                     <l n="l10"> Sanctae Mariae Domini genitricis in aede</l>
                     <l n="l11">
-                        <note n="note1" place="margin">1012*</note> Anno milleno Domini simul ac duodeno. </l>
+                        <note n="note" place="margin">1012*</note> Anno milleno Domini simul ac duodeno. </l>
                     <l n="l12"> Ipsorum meritis sanatis pluribus aegris </l>
                     <l n="l13"> Plurima tunc et adhuc fiunt miracula multa.</l>
                 </div>
 
                 <div n="div4" type="poesis-historia-fragmentum">
-                    <head n="head1">(4)</head>
+                    <head n="head">(4)</head>
                     <l n="l1"> Post modicum tempus Vitale metropolitano,</l>
                     <l n="l2"> Iudice Lampridio, residentibus urbe Ragusa,</l>
-                    <milestone unit="page" n="milestone1"/>
+                    <milestone unit="page"/>
                     <l n="l3"> Corpora Laurentii, sed non illius adusti,</l>
                     <l n="l4"> Andreae, Petri, non Christi discipulorum, </l>
                     <l n="l5"> Caelitus ostensa, simul translata fuerunt, </l>
                     <l n="l6"> Cum quibus et Blasii constat caput esse repertum, </l>
                     <l n="l7">
-                        <note n="note1" place="margin">1026</note> Millenus vicenus sextus cum foret annus. </l>
+                        <note n="note" place="margin">1026</note> Millenus vicenus sextus cum foret annus. </l>
                     <l n="l8"> Hos versus edidit Miletius hinc inde testis.</l>
 
-                    <milestone unit="page" n="milestone2"/>
+                    <milestone unit="page"/>
 
                     <l n="l9"> Vivant felices, quibus hic licet esse frequenter,</l>
                     <l n="l10"> Tales reliquias videant habeantque revere</l>
                     <l n="l11"> Lis fugiat, maneat pax, dant bona cuncta petenti.</l>
                 </div>
 
-                <milestone unit="page" n="milestone1"/>
+                <milestone unit="page"/>
                 <div n="div5">
-                    <head n="head1">(5)</head>
+                    <head n="head">(5)</head>
                     <l n="l1"> Stephanus hinc dux Bossinae imperatore Bodino,</l>
                     <l n="l2"> Cominus ecclesiae divi Nicolai de Campo</l>
                     <l n="l3"> Castellum construxit, post patriamque reversus,</l>
@@ -206,13 +197,13 @@
                     <l n="l12"> Centum bis octavo, narravit pagina prisca.</l>
                 </div>
 
-                <milestone unit="page" n="milestone2"/>
+                <milestone unit="page"/>
                 <div n="div6">
-                    <head n="head1">(6)</head>
+                    <head n="head">(6)</head>
                     <l n="l1"> Tempore post multo, quo praesidente tribuno</l>
                     <l n="l2"> Iudice Basilio Ragusa quo regebatur, </l>
                     <l n="l3"> 
-                  <note n="note1" place="margin">1159</note> Centum anno mitte nostrae currente salutis </l>
+                  <note n="note" place="margin">1159</note> Centum anno mitte nostrae currente salutis </l>
                     <l n="l4"> Quinquaginta novem, etiam voluntate divina</l>
                     <l n="l5"> Septima tunc erat Iani. De cruce signatus</l>
                     <l n="l6"> Teuthonicorum unus procerum ab Hierosolymis urbe </l>
@@ -226,7 +217,7 @@
                     <l n="l14"> Quem et curavit caecum et a phantasmate mutum:</l>
                     <l n="l15"> Sum Simeon, dicens, qui Christum in ulnas recepi,</l>
                     <l n="l16"> Quem Virgo peperit et post partum Virgo permansit. </l>
-                    <milestone unit="page" n="milestone1"/>
+                    <milestone unit="page"/>
                     <l n="l17"> Post modicum tempus translatum in Virginis aede,</l>
                     <l n="l18"> Telluris arcano est sub altare maiori </l>
                     <l n="l19"> Temporibus nostris, qui fecit miracula multa.</l>
@@ -241,7 +232,7 @@
                     <l n="l28"> Haec super elate narrantia carmina vobis,</l>
                     <l n="l29"> Siquid turpe sonat, nam pagina scripta probatur.</l>
                     <l n="l30"> Gloria sit Deo seculi per secula trino,</l>
-                    <l n="l31"> Qui nos indignos ditavit munere tanto.<ref n="ref1">1</ref>
+                    <l n="l31"> Qui nos indignos ditavit munere tanto.<ref n="ref">1</ref>
                </l>
                 </div>
             </div>        

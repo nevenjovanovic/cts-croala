@@ -52,17 +52,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -131,20 +123,20 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:brod01.croala1797299.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <div type="prosa-epistula" n="div1">
+        <body xml:lang="lat">
+            <div type="prosa-epistula">
 
-                <milestone n="milestone1" unit="page"/>
-                <head n="head1">XIV/8 <date n="date1" when="1526-07-27">1526. 27. Julii</date>, ex castris regiis prope Erd ad Danubium positis
+                <milestone unit="page"/>
+                <head n="head">XIV/8 <date n="date" when="1526-07-27">1526. 27. Julii</date>, ex castris regiis prope Erd ad Danubium positis
                     Stephanus Brodericus cancellarius Clementi papae VII.</head>
 
                 <note n="note1" resp="BJ">Segr. Stato, Principi, 4, f. 122. Editio: THEINER 1860, n.
                     DCCCLXXXIV, p. 674–675.</note>
 
 
-                <opener n="opener1">Beatissime pater ac domine, domine clementissime! Servitutis meę humillimam
+                <opener n="opener">Beatissime pater ac domine, domine clementissime! Servitutis meę humillimam
                     ad oscula pedum Sanctitatis Vestre commendationem.</opener>
-                <p n="p1">Quod ad Vestram Sanctitatem rarius scribo, id duabus de causis accidere solet:
+                <p n="p">Quod ad Vestram Sanctitatem rarius scribo, id duabus de causis accidere solet:
                     et, quod parcendum mihi existimo Vestre Sanctitatis occupationibus, et, quod
                     ipse, quam soleo esse, plusquam satis occupatus. Accedit et illud, quod non
                     ignoro dominum baronem omnia perscribere ita, ut nihil supersit mihi scribendum.
@@ -158,19 +150,19 @@
                     ob hunc locum, in quem me Vestra Sanctitas evexit, invidia, mille denique aliis
                     maximis atque incredibilibus difficultatibus? Nihil tamen pretermittam, usque ad
                     capitis discrimen, quod a me fieri possit. Adeptus sum, clementissime
-                        Clemens<ref n="ref1">31</ref>, hunc magistratum difficilimo tempore, sed fortasse
+                        Clemens<ref n="ref">31</ref>, hunc magistratum difficilimo tempore, sed fortasse
                     Deus ex sua misericordia rumpet hos difficultates et aperiet mihi viam
                     serviendi. Quę spes nisi me foveret, iam diu ob causas supradictas et ob
                     valetitudinem eciam, qua non satis prospere fruar, cessissem huic gravissimo
                     oneri, sed durabo adhuc, quicquid sors ferat. Vestra Sanctitas, suplico
                     humilime, dignetur me rebus omnibus, quibus potest, adiuvare, qua de re rogavi
                     dominum baronem, ut apertius ad Vestram Sanctitatem scribat.</p>
-                <closer n="closer1">Servitutem meam humilimam in gratiam eiusdem suplex commendo. Quam Deus
+                <closer n="closer">Servitutem meam humilimam in gratiam eiusdem suplex commendo. Quam Deus
                     conservet felicissimam et incolumem. Ex castris regiis prope Erd ad Danubium
                     positis. XXVII. Julii, 1526. Vestrae Sanctitatis devota creatura et humilimus
                     servulus Stephanus Brodericus cancellarius </closer>
-                <postscript n="postscript1">
-                    <p n="p1">Illud preterieram me ex episcopo Sirmiensi rursus prepositum
+                <postscript n="postscript">
+                    <p n="p">Illud preterieram me ex episcopo Sirmiensi rursus prepositum
                         Quinqueecclesiensem esse factum. Quia castella, villę episcopatus illius
                         tota diocesis est in hostium potestate. Non remansit ex VIIC vasallis
                         unicus.</p>
@@ -178,7 +170,7 @@
                 <note n="note2" resp="BJ">31 Clementissime Clemens: iocus verborum e nomine Latino et
                     significatione eius constans.</note>
 
-                <milestone n="milestone2" unit="page"/>
+                <milestone unit="page"/>
             </div>
         </body>
     </text>

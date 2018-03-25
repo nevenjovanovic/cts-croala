@@ -37,17 +37,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -96,10 +88,10 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:cipik02.croala1700775.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-epigramma" met="elegiacum">
-            <head n="head1">CIPPICVS AD LECTOREM.</head>
-            <l n="l1">Quem petis, <foreign n="foreign1" xml:lang="grc">ὦ</foreign> lector studiose, Terentius hic est,</l>
+      <body xml:lang="lat">
+         <div type="poesis-epigramma" met="elegiacum">
+            <head n="head">CIPPICVS AD LECTOREM.</head>
+            <l n="l1">Quem petis, <foreign n="foreign" xml:lang="grc">ὦ</foreign> lector studiose, Terentius hic est,</l>
             <l n="l2" met="pentameter">Gloria Romani Cecropiique salis,</l>
             <l n="l3">Cuius Melpomene, si fas est dicere, sacro</l>
             <l n="l4" met="pentameter">Ore locuta dea est, ore locuta dea est.</l>
@@ -109,8 +101,8 @@
             <l n="l8" met="pentameter">Nec piguit tanti ferre laboris onus.</l>
             <l n="l9">Quodcunque exedit carie longaeua uetustas,</l>
             <l n="l10" met="pentameter">Addidit et totum rite poliuit opus.</l>
-            <trailer n="trailer1">
-               <foreign n="foreign1" xml:lang="grc">Τέλος.</foreign>
+            <trailer n="trailer">
+               <foreign n="foreign" xml:lang="grc">Τέλος.</foreign>
             </trailer>
          </div>
       </body>

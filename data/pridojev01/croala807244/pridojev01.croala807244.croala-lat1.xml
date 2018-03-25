@@ -44,17 +44,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -109,18 +101,18 @@
     </teiHeader>
     <text xml:base="urn:cts:croala:pridojev01.croala807244.croala-lat1:" xml:lang="lat">
         
-        <body xml:lang="lat" n="body1">
-            <pb n="pb1"/>
-            <div n="div1" type="poesis-elegia" met="elegiacum">
+        <body xml:lang="lat">
+            <pb/>
+            <div type="poesis-elegia" met="elegiacum">
                 
-                    <head n="head1">Ad Nobiles Viros Tragurienses <abbr n="abbr1">P.</abbr> Joannis Pridoęuii
+                    <head n="head">Ad Nobiles Viros Tragurienses <abbr n="abbr">P.</abbr> Joannis Pridoęuii
                         Scardoniensis de Tragurii praeclarae Dalmatiae urbis laudibus
                         carmen.</head>
                     <l n="l1">O felix una ante alias memoranda per orbem</l>
              <!-- dični grade -->
                     <l n="l2" met="pentameter">Vrbs, Diuum summi maxima cura Patris.</l>
              
-                    <l n="l3">In te uera fides <name n="name1">Christi</name> fundata cruore</l>
+                    <l n="l3">In te uera fides <name n="name">Christi</name> fundata cruore</l>
              
                     <l n="l4" met="pentameter">Perpetuos uiuet non peritura dies.</l>
              
@@ -144,29 +136,29 @@
              <!-- govorništvo -->
                     <l n="l14" met="pentameter">Aurea qua cęli sydera fronte feris.</l>
              
-                    <l n="l15">Quid memorem claros teque o facunde <name n="name1">Traguri</name>
+                    <l n="l15">Quid memorem claros teque o facunde <name n="name">Traguri</name>
             </l>
              <!-- koriolan c. -->
-                    <l n="l16" met="pentameter">Eximium penitus <name n="name1">Coriolane</name> decus?</l>
+                    <l n="l16" met="pentameter">Eximium penitus <name n="name">Coriolane</name> decus?</l>
              
                     <l n="l17">Tu maris hostili foedasti sanguine fluctus</l>
              
-                    <l n="l18" met="pentameter">Te <name n="name1">Macometigenę</name> tunc timuere uirum.</l>
+                    <l n="l18" met="pentameter">Te <name n="name">Macometigenę</name> tunc timuere uirum.</l>
              
-                    <l n="l19">Tempore quo <name n="name1">Petrus Mocenicus</name> caede cruentus</l>
+                    <l n="l19">Tempore quo <name n="name">Petrus Mocenicus</name> caede cruentus</l>
              
-                    <l n="l20" met="pentameter">Vastabat <name n="name1">Thracum</name> littora amoena satis.</l>
+                    <l n="l20" met="pentameter">Vastabat <name n="name">Thracum</name> littora amoena satis.</l>
              
                     <l n="l21">Tu quoque mandasti literis quae fecerit ille</l>
              
                     <l n="l22" met="pentameter">Heros magnanimus Cunctipotentis ope.</l>
              
-                    <pb n="pb1"/>
+                    <pb/>
                     <l n="l23">Denique completo cursu pelagoque remenso</l>
              
                     <l n="l24" met="pentameter">Clausisti extremum, clarus honore, diem.</l>
              
-                    <l n="l25">Quid uel purpureum cui Martia <name n="name1">Roma</name> galerum</l>
+                    <l n="l25">Quid uel purpureum cui Martia <name n="name">Roma</name> galerum</l>
              <!-- Alviz C. -->
                     <l n="l26" met="pentameter">Iam dedit, eheu, quem fata tulere uirum?</l>
              
@@ -175,7 +167,7 @@
                     <l n="l28" met="pentameter">Ecclesiae custos urbs celebranda foret.</l>
              
                     <l n="l29">
-               <name n="name1">Andronicum</name> taceam cuius facundia cunctis</l>
+               <name n="name">Andronicum</name> taceam cuius facundia cunctis</l>
              <!-- Trankvil A. -->
                     <l n="l30" met="pentameter">Innotuit claris prorsus in orbe uiris?</l>
              
@@ -186,15 +178,15 @@
                     <l n="l33">Quid de te dicam felix Statileia proles</l>
              <!-- Statilić -->
                     <l n="l34" met="pentameter">
-               <name n="name1">Dacia</name> quo fulget satque superque uiro?</l>
+               <name n="name">Dacia</name> quo fulget satque superque uiro?</l>
              
                     <l n="l35">Rexisti ecclesiam diuino numine fretus</l>
              
                     <l n="l36" met="pentameter">Verbo, opere ut cunctis exitus ipse probat.</l>
              
-                    <l n="l37">Eloquar an sileam tua, praestantissime <name n="name1">Marti</name>,</l>
+                    <l n="l37">Eloquar an sileam tua, praestantissime <name n="name">Marti</name>,</l>
              
-                    <l n="l38" met="pentameter">Facta, <name n="name1">Andręuciae</name> firma columna domus?</l>
+                    <l n="l38" met="pentameter">Facta, <name n="name">Andręuciae</name> firma columna domus?</l>
              <!-- Andreuci -->
                     <l n="l39">Non equidem quoniam temet probitate renidens</l>
              
@@ -216,19 +208,19 @@
              
                     <l n="l48" met="pentameter">Conspicies demum luminis ipse patrem.</l>
              
-                    <pb n="pb2"/>
+                    <pb/>
                     <l n="l49">O igitur felix o terque quaterque beata</l>
              
-                    <l n="l50" met="pentameter">Vrbs <name n="name1">Vtini</name> tanto condecorata uiro,</l>
+                    <l n="l50" met="pentameter">Vrbs <name n="name">Vtini</name> tanto condecorata uiro,</l>
              <!-- sretne Udine, tvoje rodno mjesto -->
-                    <l n="l51">Tu quoque <name n="name1">Dalmatiae</name> uerum decus inclyta clare</l>
+                    <l n="l51">Tu quoque <name n="name">Dalmatiae</name> uerum decus inclyta clare</l>
              
                     <l n="l52" met="pentameter">Vrbs alias quae inter laude canenda nites.</l>
              
                     <l n="l53">Cordibus a nostris non te ulla obliuia tollent</l>
              
                     <l n="l54" met="pentameter">
-               <name n="name1">Marti</name>, dulce etenim pectora nostra foues.</l>
+               <name n="name">Marti</name>, dulce etenim pectora nostra foues.</l>
              
                     <l n="l55">Mitto quamplures quos pigra obliuia tollunt</l>
              <!-- o zaboravljenima neću -->
@@ -252,11 +244,11 @@
              
                     <l n="l65">Viuant in te omnes aeterno sacra canentes</l>
              
-                    <l n="l66" met="pentameter">Caelicolum Regi <name n="name1">Nestoris</name> usque dies.</l>
+                    <l n="l66" met="pentameter">Caelicolum Regi <name n="name">Nestoris</name> usque dies.</l>
              
-                    <l n="l67">Relligio crescat, laudetur <name n="name1">Virginis</name> almae</l>
+                    <l n="l67">Relligio crescat, laudetur <name n="name">Virginis</name> almae</l>
              <!-- slava Bogu i ostalima -->
-                    <l n="l68" met="pentameter">Filius omnipotens, flamen et ipse <name n="name1">Deus</name>.</l>
+                    <l n="l68" met="pentameter">Filius omnipotens, flamen et ipse <name n="name">Deus</name>.</l>
              
                     <l n="l69">Illa etiam summo genuit quae intacta salutis</l>
              
@@ -271,10 +263,10 @@
              
                     <l n="l74" met="pentameter">Laudibus et resonet semper uterque polus.</l>
              
-                    <pb n="pb3"/>
+                    <pb/>
                     <l n="l75">Nati et natorum qui uel nascentur ab illis</l>
              <!-- tako neka bude zauvijek -->
-                    <l n="l76" met="pentameter">Id faciant omni tempore, summe <name n="name1">Deus</name>.</l>
+                    <l n="l76" met="pentameter">Id faciant omni tempore, summe <name n="name">Deus</name>.</l>
              
                     <l n="l77">Vnus donec erit pastor tenerumque et ouile,</l>
              
@@ -284,7 +276,7 @@
              <!-- u međuvremenu, zbogom, i misli na mene pjesnika -->
                     <l n="l80" met="pentameter">Fronte hilari laeta urbs pectore conde tuo.</l>
              
-                    <closer n="closer1">FINIS.</closer>
+                    <closer n="closer">FINIS.</closer>
                 
                 
             </div>

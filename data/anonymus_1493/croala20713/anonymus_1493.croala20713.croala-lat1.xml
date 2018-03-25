@@ -51,22 +51,14 @@
       </fileDesc>
       <encodingDesc>
          <!-- CTS for a single poem in document -->
-         <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+         
+      
+    
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
-      
-    
     </encodingDesc>
       <profileDesc>
          <abstract>
@@ -111,9 +103,9 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:anonymus_1493.croala20713.croala-lat1:" xml:lang="lat">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-epigramma-epitaphium" met="elegiacum">
-            <head n="head1">JANCIVS ALBERTVS NICOLAE ALBERTI <expan n="expan1">FILIVS</expan>
+      <body xml:lang="lat">
+         <div type="poesis-epigramma-epitaphium" met="elegiacum">
+            <head n="head">JANCIVS ALBERTVS NICOLAE ALBERTI <expan n="expan">FILIVS</expan>
             </head>
             <l n="l1">JANCIVS HIC SITVS EST VENETVS CVI CLARA SENATVS</l>
             <l n="l2" met="pentameter">DETVLIT AVRATAE MVNERA MILITIAE</l>

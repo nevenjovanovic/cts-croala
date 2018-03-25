@@ -41,17 +41,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -98,11 +90,11 @@
       </revisionDesc>
   </teiHeader>
     <text xml:base="urn:cts:croala:sizgo01.croala1575435.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <pb n="pb1"/>
-         <div n="div1" type="elegia" met="elegiacum">
-            <milestone unit="page" n="milestone1"/>
-            <head n="head1">Prosopopeya aedita per Georgium Sisgoreum Sibenicensem studentem Patauii</head>
+        <body xml:lang="lat">
+            <pb/>
+         <div type="elegia" met="elegiacum">
+            <milestone unit="page"/>
+            <head n="head">Prosopopeya aedita per Georgium Sisgoreum Sibenicensem studentem Patauii</head>
             <l n="l1">Vade, Elegia, precor, patrios uisura penates,</l>
             <l n="l2" met="pentameter">Vade cito queruli nuncia moesta soni!</l>
             <l n="l3">Summe togam qualem condam Casandra ferebat,</l>
@@ -125,7 +117,7 @@
             <l n="l20" met="pentameter">Inuenies patrias, nostra Elegia, rates.</l>
             <l n="l21">Ibis puppe tua Zephiro spirante per ęquor,</l>
             <l n="l22" met="pentameter">Ibis et Illyricos ne uereare sinus.</l>
-            <milestone unit="page" n="milestone2"/>
+            <milestone unit="page"/>
             <l n="l23">Audax Illyricas postquam superaueris undas</l>
             <l n="l24" met="pentameter">Ipse docebo libens quo tibi cursus erit.</l>
             <l n="l25">Est locus a Hyadera medius clarisque Salonis</l>
@@ -138,19 +130,19 @@
             <l n="l32" met="pentameter">Nec tamen errabis si mea dicta feres.</l>
             <l n="l33">Signa dabo nostri tibi nunc, mea nuncia, portus</l>
             <l n="l34" met="pentameter">Per quę non falsum prora tenebit iter.</l>
-            <pb n="pb1"/>
+            <pb/>
             <l n="l35">Ianua fert templum diui tria poma ferentis</l>
             <l n="l36" met="pentameter">Parte una qua quis regna Pelasga petit,</l>
-            <l n="l37">Templum alia diui quem dat postrema nouemb<add n="add1">ris</add>
+            <l n="l37">Templum alia diui quem dat postrema nouemb<add n="add">ris</add>
             </l>
             <l n="l38" met="pentameter">Italiam uersus qua dare uela solent.</l>
             <l n="l39">ibis per placidas undas placidumque per aequor</l>
             <l n="l40" met="pentameter">Et per piscosas protinus ibis aquas.</l>
             <l n="l41">Aspicies arctum gemino mare littore clausum,</l>
             <l n="l42" met="pentameter">Aspicies rigidos undique rupe locos,</l>
-            <l n="l43">Aspicies <sic n="sic1">nati</sic> non parua foramina montis:</l>
+            <l n="l43">Aspicies <sic n="sic">nati</sic> non parua foramina montis:</l>
             <l n="l44" met="pentameter">Sunt hic ignicremo facta sacella deo.</l>
-            <milestone unit="page" n="milestone3"/>
+            <milestone unit="page"/>
             <l n="l45">Pręterea turres quas separat unda uidebis,</l>
             <l n="l46" met="pentameter">Vnda profunda maris saepe tenentis iter.</l>
             <l n="l47">A tergo postquam decedent lumine turres,</l>
@@ -173,19 +165,19 @@
             <l n="l64" met="pentameter">Indutum misera uesteque funerea.</l>
             <l n="l65">Aspiciesque duas lachrymosa fronte sorores</l>
             <l n="l66" met="pentameter">Et cum singultu pallidulisque genis.</l>
-            <milestone unit="page" n="milestone4"/>
+            <milestone unit="page"/>
             <l n="l67">Perspicient cum te legatam, extemplo requirent</l>
             <l n="l68" met="pentameter">Quid faciam, felix sit mea necne salus.</l>
             <l n="l69">Quod mea uita fouet corpus miserabile dicas,</l>
             <l n="l70" met="pentameter">Quod mea mens referas aegra dolore nimis.</l>
             <l n="l71">Te pręsente dabunt lachrymas, te flere decebit;</l>
             <l n="l72" met="pentameter">Quicquid agent coram, teque decebit idem.</l>
-            <pb n="pb2"/>
+            <pb/>
             <l n="l73">Stigmiferi post templa petas ubi membra quiescunt</l>
             <l n="l74" met="pentameter">Fraterna et iunctis ossibus ossa iacent</l>
             <l n="l75">Ossa tamen quamuis sint mortua, munus amoris</l>
             <l n="l76" met="pentameter">Maxima amicitię parsque superstes erit.</l>
-            <l n="l77">Hic ubi tu fueris, dexttram pete, nuncia, primu<add n="add1">s</add>
+            <l n="l77">Hic ubi tu fueris, dexttram pete, nuncia, primu<add n="add">s</add>
             </l>
             <l n="l78" met="pentameter">Angulus in sacris aedibus ossa tenet.</l>
             <l n="l79">Haecque piis fratrum tu manibus ipsa referto</l>
@@ -193,12 +185,12 @@
             <l n="l81">"Ille miser iuuenis uestram me misit ad arcam</l>
             <l n="l82" met="pentameter">Nota fuit pietas cuius et altus amor.</l>
             <l n="l83">Quod sensere quidem uestri sine tempore manes,</l>
-            <l n="l84" met="pentameter">Sensit et hanc forsan quaelibet umbra fid<add n="add1">em</add>.</l>
-            <l n="l85">Cum subit et uestrae fatum lachrymabile <add n="add1">sortis</add>,</l>
+            <l n="l84" met="pentameter">Sensit et hanc forsan quaelibet umbra fid<add n="add">em</add>.</l>
+            <l n="l85">Cum subit et uestrae fatum lachrymabile <add n="add">sortis</add>,</l>
             <l n="l86" met="pentameter">Vobiscum quoquo se uelit esse modo;</l>
             <l n="l87">Ipsum tanta premit pietas tantique doloris</l>
             <l n="l88" met="pentameter">Excruciant miserum non pia fata uirum.</l>
-            <milestone unit="page" n="milestone5"/>
+            <milestone unit="page"/>
             <l n="l89">Pręterea uersus quos perlegat ipse uiator</l>
             <l n="l90" met="pentameter">Iussit ut in tumulo marmoris inciderem:</l>
             <l n="l91">'Qui cecidit bello, qui morbi uulnere demptus,</l>

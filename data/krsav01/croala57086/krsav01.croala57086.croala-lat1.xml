@@ -50,8 +50,8 @@
             U-65. - Reference: Badalić. Inkunabule, pag. 198, nr. 1081. - <add>F.
               /1/: Hieronymus Chrysaeus Jadertinus ... ad Lectorem. /5
               disticha/.</add>.
-          <idno type="other">Xb * Jurić. Scriptores * XIV * Jurić. Scriptores</idno>
-               <idno>Fr. sam. Košljun Ink. 55</idno>
+          <note type="other">Xb * Jurić. Scriptores * XIV * Jurić. Scriptores</note>
+               <note>Fr. sam. Košljun Ink. 55</note>
                <relatedItem>
                   <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:12-bsb00057647-3">BSB Digital</ref>
                </relatedItem>
@@ -61,13 +61,7 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -121,9 +115,9 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:krsav01.croala57086.croala-lat1:" xml:lang="lat" type="poesis">
-      <body xml:lang="lat" n="body1">
-         <div n="div1" met="elegiacum">
-            <head n="head1">Hieronymus Chrysaus Iadertinus philosophorum et medicorum in academia Patauina rector.
+      <body xml:lang="lat">
+         <div met="elegiacum">
+            <head n="head">Hieronymus Chrysaus Iadertinus philosophorum et medicorum in academia Patauina rector.
         
         Ad lectorem.</head>
         

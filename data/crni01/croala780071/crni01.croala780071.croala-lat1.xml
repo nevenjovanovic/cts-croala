@@ -43,17 +43,9 @@
         </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -101,25 +93,25 @@
         </revisionDesc>
     </teiHeader>
     <text xml:base="urn:cts:croala:crni01.croala780071.croala-lat1:" xml:lang="lat" type="poesis">
-        <body xml:lang="lat" n="body1">
-         <div n="div1" type="poesis-inscriptio" met="hexameter-leoninus">
+        <body xml:lang="lat">
+         <div type="poesis-inscriptio" met="hexameter-leoninus">
     
-            <l n="l1">Tam sordente domo perspice quid sit <sic n="sic1">omo</sic>
+            <l n="l1">Tam sordente domo perspice quid sit <sic n="sic">omo</sic>
             </l>
             <l n="l2">in rebus stultis studui nichil utile multis</l>
             <l n="l3">et dum uigui terror in orbe fui</l>
-            <l n="l4">parum aduc dicam de mei corporis <supplied n="supplied1">vitam</supplied>
+            <l n="l4">parum aduc dicam de mei corporis <supplied n="supplied">vitam</supplied>
             </l>
-            <l n="l5">dum vicxit in mundo ualatus munere <supplied n="supplied1">fundo</supplied>
+            <l n="l5">dum vicxit in mundo ualatus munere <supplied n="supplied">fundo</supplied>
             </l>
-            <l n="l6">ingenio lucxit Petrus sua quam bene <supplied n="supplied1">ducxit</supplied>
+            <l n="l6">ingenio lucxit Petrus sua quam bene <supplied n="supplied">ducxit</supplied>
             </l>
-            <l n="l7">omnia <sic n="sic1">despecsit</sic> cor semper ad <supplied n="supplied1">etera</supplied> uecxit</l>
-            <l n="l8">templum fundauit cum menibus <supplied n="supplied1">et decorauit</supplied>
+            <l n="l7">omnia <sic n="sic">despecsit</sic> cor semper ad <supplied n="supplied">etera</supplied> uecxit</l>
+            <l n="l8">templum fundauit cum menibus <supplied n="supplied">et decorauit</supplied>
             </l>
             <l n="l9">
-               <corr n="corr1">hic</corr> obdormivit cum spiritu <supplied n="supplied1">astra</supplied> petivit</l>
-            <l n="l10">dominus ascribit Dabrus hic me <supplied n="supplied1">perfecit</supplied>
+               <corr n="corr">hic</corr> obdormivit cum spiritu <supplied n="supplied">astra</supplied> petivit</l>
+            <l n="l10">dominus ascribit Dabrus hic me <supplied n="supplied">perfecit</supplied>
             </l>
          </div>    
                     </body>

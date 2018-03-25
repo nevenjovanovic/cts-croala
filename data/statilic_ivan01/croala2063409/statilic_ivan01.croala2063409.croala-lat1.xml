@@ -36,23 +36,9 @@
       </fileDesc>
     <encodingDesc>
       
+    
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -110,14 +96,14 @@
       </revisionDesc>
    </teiHeader>
    <text xml:base="urn:cts:croala:statilic_ivan01.croala2063409.croala-lat1:" xml:lang="lat">
-        <body xml:lang="lat" n="body1">
-            <pb n="pb1"/>
-            <div n="div1" type="prosa-epistula">
-                <opener n="opener1">
-               <add n="add1">323.</add> Joannes Statilius, praepositus Budensis,
+        <body xml:lang="lat">
+            <pb/>
+            <div type="prosa-epistula">
+                <opener n="opener">
+               <add n="add">323.</add> Joannes Statilius, praepositus Budensis,
                     Joanni de Tarnow, comiti, palatino Russiae, exercituum regni Poloniae
                     capitaneo generali.</opener>
-                <p n="p1"> Post mei servitiorumque meorum commendationem salutem et felicitatem. <abbr n="abbr1">Mgce. dne.</abbr> et patrone observandissime. Licet superioribus diebus et regia <abbr n="abbr2">Mtas.</abbr>, <abbr n="abbr3">dnus.</abbr> meus gratiosissimus, et ego de mandato suae <abbr n="abbr4">Mtis.</abbr> satis abunde scripserit et significaverit mentem suam,
+                <p n="p"> Post mei servitiorumque meorum commendationem salutem et felicitatem. <abbr n="abbr1">Mgce. dne.</abbr> et patrone observandissime. Licet superioribus diebus et regia <abbr n="abbr2">Mtas.</abbr>, <abbr n="abbr3">dnus.</abbr> meus gratiosissimus, et ego de mandato suae <abbr n="abbr4">Mtis.</abbr> satis abunde scripserit et significaverit mentem suam,
                     nihilominus, quia cura haec in parte est commissa mihi et alioquin res ipsa indiget magna celeritate, volui denuo ad <abbr n="abbr5">mgcam. Dtionem. vram.</abbr> scribere. Nam regia <abbr n="abbr6">Mtas.</abbr> jam ex Transsilvania movit cum certa spe rehabendi Budam, sed indiget externo milite, qui
                     nisi cito veniat, afferet magnam tarditatem rebus suae <abbr n="abbr7">Mtis</abbr>. Quare <abbr n="abbr8">Dtioni. vrae. mgcae.</abbr>
                     ita agendum est, ut, si res <abbr n="abbr9">dni.</abbr> mei salvas esse vult, tunc urgeat illas copias, ut accelerent, quarum numerus debet esse, ut aliis literis meis scripsi, duo milia equites Poloni
@@ -135,14 +121,14 @@
                      
                     
                     </p>
-                <closer n="closer1">
-                    <salute n="salute1">
-                  <abbr n="abbr1">Mgcam. Dtionem. vram.</abbr> diu feliciter valere opto.</salute>
-                    <dateline n="dateline1">Ex Homona <date n="date1" when="1527-11-08">in octava Sanctorum omnium 1527.<note n="note1">((8. 11. 1527.))</note>
+                <closer n="closer">
+                    <salute n="salute">
+                  <abbr n="abbr">Mgcam. Dtionem. vram.</abbr> diu feliciter valere opto.</salute>
+                    <dateline n="dateline">Ex Homona <date n="date" when="1527-11-08">in octava Sanctorum omnium 1527.<note n="note">((8. 11. 1527.))</note>
                   </date>
                </dateline>
-                    <signed n="signed1">
-                  <abbr n="abbr1">Mgcae. Dtionis. vrae.</abbr> servitor
+                    <signed n="signed">
+                  <abbr n="abbr">Mgcae. Dtionis. vrae.</abbr> servitor
                         Joannes Statilius.</signed>
                 </closer>
             </div>

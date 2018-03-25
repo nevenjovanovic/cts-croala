@@ -50,19 +50,7 @@
     <encodingDesc>
       
     <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
-          <p>This pointer pattern extracts @n value of segment.</p>
-        </cRefPattern>
-        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/*[@n='$1'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
       </refsDecl>
@@ -111,15 +99,15 @@
    </teiHeader>
    <text xml:base="urn:cts:croala:anonymus_1790.croala582425.croala-lat1:" xml:lang="lat">
     
-      <body xml:lang="lat" n="body1">
-         <pb n="pb1"/>
-         <div n="div1">
-            <head n="head1">8. 
+      <body xml:lang="lat">
+         <pb/>
+         
+            <head n="head">8. 
             Declaratio 
-            ex parte nunciorum Regni Croatiae<ref n="ref1" xml:id="dec-1" target="#dec-1-n">*</ref>, quoad inducendam 
-            Hungaricam linguam. (<abbr n="abbr1">s. l., a. et t.</abbr>) 
+            ex parte nunciorum Regni Croatiae<ref n="ref" xml:id="dec-1" target="#dec-1-n">*</ref>, quoad inducendam 
+            Hungaricam linguam. (<abbr n="abbr">s. l., a. et t.</abbr>) 
             [1790] </head>
-            <note n="note1" xml:id="dec-1-n" target="#dec-1">1 Hic subintelliguntur Regna Dalmatiae, Croatiae, et Sclavoniae: quod 
+            <note n="note" xml:id="dec-1-n" target="#dec-1">1 Hic subintelliguntur Regna Dalmatiae, Croatiae, et Sclavoniae: quod 
             semel, pro semper dictum esto. </note>
             <p n="p1">Si quid Constitutionale dici potest, tunc illud profecto est, quod inde 
         ab incunabulis Regni, octo saeculorum spatio, non per periodicas vices, sed 
@@ -129,7 +117,7 @@
         <emph n="emph3">Publicae</emph>, Ecclesiasticis, aut Religiosis, quibus vi sui Status, Lingua 
         Latina familiarior fuit, concredi debuerit, aut quod Lingua Hungarica principio 
         <corr n="corr1">constituti</corr> Regni necdum satis fuerit exposita. Erecta enim per Ludovicum 
-        I. Quinqueecclesiensi <sic n="sic1">Accademia</sic>, jam sub Sigismundo, Litterae etiam apud 
+        I. Quinqueecclesiensi <sic n="sic">Accademia</sic>, jam sub Sigismundo, Litterae etiam apud 
         Saeculares, ita <corr n="corr2">propagatae</corr> fuere, ut omnes de publicis negotiis expeditiones non 
         tantum e Comitatibus, sed ex ipsis etiam Civitatibus Latino Idiomate expeditas fuisse, omnia ejus temporis, quae exstant, monumenta abunde testentur, 
         quod si unica adoptatae per Hungaros, <emph n="emph4">in Publicis</emph>, Linguae Latinae causa, 
@@ -140,15 +128,15 @@
         inhaerens, et nostris etiam temporibus subsistens causa fuisse, quae usum Latini 
         Idiomatis, et nascente Regno statim invexit, et ad nostra usque tempora <corr n="corr3">conservavit</corr>; hanc vero et Annales Regni, et Libri S. Stephani luculenter ostendunt.</p> 
         
-            <p n="p2">Nimirum qui Hungarorum, dum <sic n="sic1">Panonias</sic> occuparunt, Numerum altissime provehunt, eum in Tercentis Millibus defigunt; qui numerum hunc cum 
+            <p n="p2">Nimirum qui Hungarorum, dum <sic n="sic">Panonias</sic> occuparunt, Numerum altissime provehunt, eum in Tercentis Millibus defigunt; qui numerum hunc cum 
         tam vasto, quod occuparunt, Regno contenderit, facile profecto comperiet, 
         genuinam adoptatae Linguae Latinae causam in hoc ipso cubare. Multiplicationem enim gentis Hungarae sub <emph n="emph1">Ducibus</emph> continuae ferme, quas in 
         <emph n="emph2">
-                  <corr n="corr1">Germaniae</corr>, Galliae et Italiae Provincias</emph> suscepere expeditiones; sub 
+                  <corr n="corr">Germaniae</corr>, Galliae et Italiae Provincias</emph> suscepere expeditiones; sub 
         primis vero <emph n="emph3">Regibus</emph>, frequentissima cum <emph n="emph4">Civilia</emph>, tum externa bella,
         
         
-        <pb n="pb1"/>
+        <pb/>
         impediverunt, ita ut si omnes in unum se contrahere voluissent Hungari, vix 
         aliquot Comitatibus impopulandis suffecissent. Et hoc fuit, quod Hungaris primo 
         statim occupati Regni tempore neccessitatem injecit, ut nullos, nisi quos in 
@@ -156,7 +144,7 @@
         societatem, jure Civitatis donarint. Hoc deinde etiam Geysam ultimum 
         Ducem, et S. Stephanum primum Regem coegit, ut exteros, qui deserti adhuc 
         soli felicitate allecti, in Hungariam copiosi immigrabant, sub nomine <emph n="emph5">hospitum</emph> peculiari prosecuti sint protectione, huc S. Stephanus respexit, dum Libr. 
-        I. <abbr n="abbr1">Cap</abbr>. 6. Regnum <emph n="emph6">unius labii</emph> infirmum esse pronunciavit, et curam <emph n="emph7">hospitum</emph> Emerico filio tantopere commendavit, hoc apud posteriores Reges 
+        I. <abbr n="abbr">Cap</abbr>. 6. Regnum <emph n="emph6">unius labii</emph> infirmum esse pronunciavit, et curam <emph n="emph7">hospitum</emph> Emerico filio tantopere commendavit, hoc apud posteriores Reges 
         effecit, ut integras exterorum Colonias, varus privilegiis excultas in diversis 
         Regni partibus, et quidem potissimum in confiniis illocarint, veluti <emph n="emph8">Bissenos</emph> in partibus Austriae vicinioribus, <emph n="emph9">Saxones</emph> in Conterminis Poloniae Scepusiacis oris, et <emph n="emph10">Ruthenos</emph> in adjacentibus partim Poloniae partim Moldaviae 
         Regionibus, <emph n="emph11">Flandrenses</emph> vero seu Belgas in Superioribus Tibisci oris: solis 
@@ -185,7 +173,7 @@
         repraesentationes ignoto Regi Idiomate fiant; ut is ad eas intelligendas interprete 
         semper uti debeat, denique ut sensa Statuum ancipiti ejus, qui hoc ipsi 
         officium praestare deberet, seu arbitrio seu animo sint obnoxia. 
-        <pb n="pb1"/>
+        <pb/>
         Quod si Institutum hoc ad successorem primo moderni Regis referatur, 
         nemo jam inficiari potest, quod constitutio haec eo ipso non jam <emph n="emph9">decretoria</emph> sed tantum <emph n="emph10">praeparatoria</emph> evadat: deinde tribuamus hoc nobis, quod 
         Coronae Princeps reipsa aliquod in condiscenda Hungarica Lingua Studium, 
@@ -226,7 +214,7 @@
         
             <p n="p5">Quid si insuper Hungaria relate ad <emph n="emph1">adnexas Provincias</emph> 
                <corr n="corr1">consideretur</corr>, hae omnes non tantum diverso Idiomate utuntur, sed et distinctum 
-        <pb n="pb1"/>
+        <pb/>
         populum <emph n="emph2">Slavicum</emph> efficiunt, ac ex his quidem nunc unica jam Croatia Hungariae 
         superest, in hac autem nullus prorsus Hungaricae linguae, non tantum 
         apud Plebem, sed ne quidem apud honoratiores usus existit; his Hungaricam 
@@ -250,7 +238,7 @@
         <emph n="emph4">auscultantes</emph>.</p> 
         
             <p n="p7">Una Generatione opus foret, ut omnes, qui de reliquo necessariis ad 
-        <corr n="corr1">gerenda</corr> Dicasterialia officia pollent qualitatibus, Croatae, una Hungaricam 
+        <corr n="corr">gerenda</corr> Dicasterialia officia pollent qualitatibus, Croatae, una Hungaricam 
         etiam in tanta perfectione possideant. Quid si natio Idioma suum non modo 
         in reliqua Europa, sed in ipsa usque adeo Hungaria magis atque Hungaricum 
         diffusum esse sciens, id prorsus aspernetur? invita certe ad id compelli non 
@@ -273,8 +261,8 @@
         possit; et videbimus, eam ipsam potius unionem deprecaturam, quam 
         conditionem hanc amplexuram esse.</p> 
         
-            <pb n="pb1"/>
-            <p n="p9">Qui nunc <emph n="emph1">Galliciae</emph>, idem postea singulae Deo auspice Hungariae 
+            <pb/>
+            <p n="p9">Qui nunc <emph n="emph">Galliciae</emph>, idem postea singulae Deo auspice Hungariae 
         reapplicandae provinciae sensus erit. Idem nunc Dalmatiae, Croatiae, et Sclavoniae: nimirum linguam Latinam in Hungaria esse <corr n="corr1">Constitutionalem</corr>: 
         Regna haec sub securitate conservandi communis hujus Idiomatis cum Hungaria 
         coaluisse; linguae Latinae in publicis usum sine unanimi omnium Hungariae 
@@ -286,7 +274,7 @@
             <p n="p10">Petunt proinde Nuncii praefatorum Regnorum usum Linguae Latinae 
         in publicis porro etiam retineri, secus se ex parte Principalium suorum ea qua 
         optima fieri forma intercessuros declarant.</p> 
-         </div>
+         
       </body>
     
    </text>
